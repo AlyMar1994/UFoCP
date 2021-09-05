@@ -27,7 +27,7 @@ In addition, Visual Studio Code has a variety of plugins which are supported and
 - [vscode-lua-format](https://marketplace.visualstudio.com/items?itemName=Koihik.vscode-lua-format) by Koihik
 
 #### Mapping
-[map editor](https://modtools.petrolution.net/tools/MapEditor)
+Mapping is handled through Petroglyph's [map editor](https://modtools.petrolution.net/tools/MapEditor).
 
 #### Modeling
 UFoCP utilizes the .ALO and .ALA v2 model format.  This is utilized by Forces of Corruption, and Petroglyph's second game Universe at War.
@@ -37,7 +37,7 @@ When installing the map editor, an Autodesk 3DS Max 8 & 9 version of a model edi
 A model viewer is also recommended when testing new models.  A relatively simple and effective model viewer can be found [here](http://modtools.petrolution.net/tools/AloViewer).
 
 #### Texturing
-[Adobe Photoshop](https://www.adobe.com/products/photoshop.html) is recommended for more powerful editing tools.  However, it is expensive, despite cracked versions everywhere.  Here are some decent alternatives.  Please use one of these.
+[Adobe Photoshop](https://www.adobe.com/products/photoshop.html) is recommended for more powerful editing tools.  However, it is expensive, despite cracked versions existing everywhere.  Photoshop will need NVIDIA's image processing plugin to support the .DDS format.  Here are some decent alternatives.  Please use one of these.
 - [Paint.NET](https://www.getpaint.net/)
 - [GIMP](https://www.gimp.org/)
 
