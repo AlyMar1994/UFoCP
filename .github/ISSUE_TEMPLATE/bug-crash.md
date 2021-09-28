@@ -2,7 +2,7 @@
 name: Crash
 about: Help us eliminate as many crashes as we can within FoC or UFoCP.
 title: Crash - Description of Crash Spot/Situation
-labels: Bug (FoC)
+labels: Crash
 assignees: ''
 
 ---

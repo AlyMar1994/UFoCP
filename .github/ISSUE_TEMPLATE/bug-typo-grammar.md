@@ -3,7 +3,7 @@ name: Typo/Grammar
 about: Help us find typos or grammar errors in FoC or UFoCP.  If text is outright
   missing, use the "Bug" template instead.
 title: "[ITEM/TEXT KEY] - Description of Typo/Grammar Issue"
-labels: Bug (FoC), Typo
+labels: Typo
 assignees: ''
 
 ---

@@ -3,7 +3,7 @@ name: Bug
 about: Help us find and eliminate bugs in Forces of Corruption.  This is the generic
   bug template.  Choose a more specific template if you can narrow the issue down.
 title: "[ITEM] - Description of Issue"
-labels: Bug (FoC)
+labels: ''
 assignees: ''
 
 ---
