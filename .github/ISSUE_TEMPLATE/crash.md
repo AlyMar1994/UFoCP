@@ -1,8 +1,7 @@
 ---
-name: Bug
-about: Help us find and eliminate bugs in Forces of Corruption.  This is the generic
-  bug template.  Choose a more specific template if you can narrow the issue down.
-title: "[ITEM] - Description of Issue"
+name: Crash
+about: Help us eliminate as many crashes as we can within FoC or UFoCP.
+title: Crash - Description of Crash Spot/Situation
 labels: Bug (FoC)
 assignees: ''
 
@@ -22,7 +21,16 @@ _Were you in multiplayer?_ YES/NO
 **Steps to Reproduce:**
 1. 
 
+**Other Information:**
+
+
 **Possible Cause:**
 
 
 **Screenshots/Video:**
+
+
+**Log File (from the Debug Client)**
+
+
+**Save Game**
