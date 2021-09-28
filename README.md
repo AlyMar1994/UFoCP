@@ -1,15 +1,12 @@
 # UFoCP
 ## Unofficial Forces of Corruption Patch
-The Unofficial Forces of Corruption Patch is a one-does-all community-made patch for Petroglyph Games' 2006 hit RTS "STAR WARS: Empire at War – Forces of Corruption."  The goal of UFoCP is to correct as many errors as possible to whatever limit is available within Petroglyph's "Alamo" engine in one convenient package.
-
-You must legally own the [Steam](https://store.steampowered.com/app/32470/STAR_WARS_Empire_at_War__Gold_Pack/) updated version of the STAR WARS: Empire at War - Gold Pack to work on UFoCP.  Retail or GOG may work, though not supported.  Nor is the Mac or Linux-emulated version.
-
----
-
 - Version: v1.0.1.####
 - License: TBA
 
 ---
+The Unofficial Forces of Corruption Patch is a one-does-all community-made patch for Petroglyph Games' 2006 hit RTS "STAR WARS: Empire at War – Forces of Corruption."  The goal of UFoCP is to correct as many errors as possible to whatever limit is available within Petroglyph's "Alamo" engine in one convenient package.
+
+You must legally own the [Steam](https://store.steampowered.com/app/32470/STAR_WARS_Empire_at_War__Gold_Pack/) updated version of the STAR WARS: Empire at War - Gold Pack to work on UFoCP.  Retail or GOG may work, though not supported.  Nor is the Mac or Linux-emulated version.
 
 ## Prerequisities
 This project is Windows OS restricted.  The outdated Apple version of the game is unsupported, along with any emulated Linux ports.
