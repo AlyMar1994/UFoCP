@@ -34,3 +34,7 @@ v1.0.1.#### (2021-09-##) [FoC v1.121.748742]
 
 Ability Fixes:
 • "BARRAGE" prematurely ended in multiple cases (AT-STs, Broadside/Marauder Cruisers, etc.) because the invisible marker the ability uses kept dying due to splash damage.  The marker has been made immune to damage to rectify the problem. (BUG #1)
+
+
+Unit Fixes:
+• Whenever The Admonitor - Grand Admiral Thrawn would remove the Consortium's corruption, it would play the Rebel's VO instead of the Empires. (BUG #12)
