@@ -28,8 +28,8 @@ TED maps are created/edited through the official map editor.  An update was rele
 
 The map editor occasionally has problems interpreting mod content, and may delete some files when opened in a mod folder.  An additional, optional patch exists which fixes this on the download page.
 
--[FoC Map Editor](https://modtools.petrolution.net/tools/MapEditor)
---[Official Update](http://www.petroglyphgames.com/eawmodtool/)
+- [FoC Map Editor](https://modtools.petrolution.net/tools/MapEditor)
+- [Official Update](http://www.petroglyphgames.com/eawmodtool/)
 
 #### Modeling
 Forces of Corruption and Petroglyph's second game Universe at War uses ALO/ALA v2 for models and animations.
@@ -38,9 +38,9 @@ When installing the Map Editor, an Autodesk 3DS Max 8 and 9 versions of Petrogly
 
 Gaukler has created a Blender plugin that interprets ALO and ALA effectively, including quality-of-life warnings.  This plugin DOES NOT support ALA v1 included with Empire at War, and will require an animation converter.
 
--[ALAMO Plugin](https://github.com/Gaukler/Blender-ALAMO-Plugin)
--[Animation Converter](https://modtools.petrolution.net/tools/AnimationConverter)
--[ALOViewer](http://modtools.petrolution.net/tools/AloViewer)
+- [ALAMO Plugin](https://github.com/Gaukler/Blender-ALAMO-Plugin)
+- [Animation Converter](https://modtools.petrolution.net/tools/AnimationConverter)
+- [ALOViewer](http://modtools.petrolution.net/tools/AloViewer)
 
 #### Texturing
 [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) is recommended for powerful editing tools.  It is expensive though, despite cracked versions existing everywhere.  Photoshop will need [NVIDIA's image processing plugin](https://developer.nvidia.com/nvidia-texture-tools-exporter) to support the DDS format.
