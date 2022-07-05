@@ -3,7 +3,7 @@ name: Audio
 about: Help us eliminate as many issues in FoC's SFX, VO and music.  For any audio-related
   issues whatsoever.
 title: Audio - Description of Audio Error
-labels: Audio
+labels: Audio, Bug (FoC)
 assignees: ''
 
 ---

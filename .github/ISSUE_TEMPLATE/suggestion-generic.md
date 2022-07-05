@@ -3,7 +3,7 @@ name: Suggestion
 about: Suggest a change within UFoCP about the Unofficial Patch's content or about
   how it handles a fix.
 title: Suggestion - Content of Suggestion
-labels: Suggestion
+labels: Bug (UFoCP), Suggestion
 assignees: ''
 
 ---
