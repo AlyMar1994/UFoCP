@@ -11,17 +11,17 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Fixes made by UFoCP are marked with a bullet (•).  Any fixes made by Petroglyph will be
-mentioned and UFoCP's fix of said bug removed.
+Fixes made by UFoCP are marked with a bullet (•).  Any fixes made by Petroglyph will be mentioned and
+UFoCP's fix of said bug removed.
 
-Bugs introduced by UFoCP that have been fixed will be retroactively edited in the log,
-along with a mention to when the bug was fixed, with a new entry.
+Bugs introduced by UFoCP that have been fixed will be retroactively edited in the log, along with a
+mention to when the bug was fixed, with a new entry.
 
 Dates, grammar and times are always in American format.
 (i.e. "06-24-2002" = June 24th, 2002, "color" instead of "colour," "1:52 PM" instead of "13:52.")
 
-All (BUG #) markers are accurate to their GitHub URL counterparts.  To visit the main report,
-the number itself can be inserted into the URL.
+All (BUG #) markers are accurate to their GitHub URL counterparts.  To visit the main report, the
+number itself can be inserted into the URL.
 (i.e. "(BUG #68845)" = https://github.com/AlyMar1994/UFoCP/issues/68845)
 
 
@@ -29,11 +29,11 @@ the number itself can be inserted into the URL.
 
 
 
-v1.0.1.#### (2021-##-##) [FoC v1.121.748742]
+v1.0.1.#### (2022-##-##) [FoC v1.121.748742]
 ============================================
 
 Ability Fixes:
-• "BARRAGE" prematurely ended in multiple cases (AT-STs, Broadside/Marauder Cruisers, etc.) because the invisible location marker the ability uses kept dying due to splash damage.  The marker has been made immune to damage to rectify the problem. (BUG #1)
+• "BARRAGE" prematurely ended in multiple cases (AT-STs, Broadside/Marauder Cruisers, etc.) because the invisible target marker the ability uses kept dying due to splash damage.  The marker has been made immune to damage to rectify the problem. (BUG #1)
 
 
 Unit Fixes:
