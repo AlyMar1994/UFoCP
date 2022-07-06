@@ -697,9 +697,9 @@
 		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="US_Reinforced_Structure_L1_Bonus">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Underworld_Star_Base_1, Underworld_Star_Base_2, Underworld_Star_Base_3, Underworld_Star_Base_4, Underworld_Star_Base_5, Skirmish_Underworld_Star_Base_1, Skirmish_Underworld_Star_Base_2, Skirmish_Underworld_Star_Base_3, Skirmish_Underworld_Star_Base_4, Skirmish_Underworld_Star_Base_5</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -738,9 +738,9 @@
 		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="US_Reinforced_Structure_L2_Bonus">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Underworld_Star_Base_1, Underworld_Star_Base_2, Underworld_Star_Base_3, Underworld_Star_Base_4, Underworld_Star_Base_5, Skirmish_Underworld_Star_Base_1, Skirmish_Underworld_Star_Base_2, Skirmish_Underworld_Star_Base_3, Skirmish_Underworld_Star_Base_4, Skirmish_Underworld_Star_Base_5</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -778,9 +778,9 @@
 		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="US_Reinforced_Structure_L3_Bonus">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Underworld_Star_Base_1, Underworld_Star_Base_2, Underworld_Star_Base_3, Underworld_Star_Base_4, Underworld_Star_Base_5, Skirmish_Underworld_Star_Base_1, Skirmish_Underworld_Star_Base_2, Skirmish_Underworld_Star_Base_3, Skirmish_Underworld_Star_Base_4, Skirmish_Underworld_Star_Base_5</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>

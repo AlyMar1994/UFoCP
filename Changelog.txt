@@ -18,7 +18,7 @@ Bugs introduced by UFoCP that have been fixed will be retroactively edited in th
 mention to when the bug was fixed, with a new entry.
 
 Dates, grammar and times are always in American format.
-(i.e. "06-24-2002" = June 24th, 2002, "color" instead of "colour," "1:52 PM" instead of "13:52.")
+(i.e. "10-24-2006" = October 24th, 2006, "color" instead of "colour," "1:52 PM" instead of "13:52.")
 
 All (BUG #) markers are accurate to their GitHub URL counterparts.  To visit the main report, the
 number itself can be inserted into the URL.
@@ -38,3 +38,7 @@ Ability Fixes:
 
 Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebel's VO instead of the Empire's. (BUG #12)
+
+
+Upgrade Fixes:
+• The Consortium space station wouldn't actually get a damage reduction when buying the "Reinforced Durasteel" upgrades for Skirmish or GC.  The upgrade's combat activation mode was wrong (was set to Ground), and was set to only affect defensive satellites. (BUG #14)
