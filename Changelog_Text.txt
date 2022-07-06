@@ -4,11 +4,11 @@
 / /_/ / / / / /_/ / __/ __/ / /__/ / /_/ / /  / __/ / /_/ / /  / /__/  __(__  )  / /_/ / __/  / /___/ /_/ / /  / /  / /_/ / /_/ / /_/ / /_/ / / / /  / ____/ /_/ / /_/ /__/ / / /
 \____/_/ /_/\____/_/ /_/ /_/\___/_/\__,_/_/  /_/    \____/_/   \___/\___/____/   \____/_/     \____/\____/_/  /_/   \__,_/ .___/\__/_/\____/_/ /_/  /_/    \__,_/\__/\___/_/ /_/ 
                                                                                                                         /_/                                                      
-   ________                           __           
-  / ____/ /_  ____ _____  ____ ____  / /___  ____ _
- / /   / __ \/ __ `/ __ \/ __ `/ _ \/ / __ \/ __ `/
-/ /___/ / / / /_/ / / / / /_/ /  __/ / /_/ / /_/ /
-\____/_/ /_/\__,_/_/ /_/\__, /\___/_/\____/\__, /
+   ________                           __                        ______          __ 
+  / ____/ /_  ____ _____  ____ ____  / /___  ____ _            /_  __/__  _  __/ /_
+ / /   / __ \/ __ `/ __ \/ __ `/ _ \/ / __ \/ __ `/  ______     / / / _ \| |/_/ __/
+/ /___/ / / / /_/ / / / / /_/ /  __/ / /_/ / /_/ /  /_____/    / / /  __/>  </ /_  
+\____/_/ /_/\__,_/_/ /_/\__, /\___/_/\____/\__, /             /_/  \___/_/|_|\__/  
                        /____/             /____/
 
 ~ By the UFoCP Team. ~
@@ -17,7 +17,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Fixes made by UFoCP are marked with a bullet (•).  Any fixes made by Petroglyph will be mentioned and
+Fixes made by UFoCP are marked with a bullet (�).  Any fixes made by Petroglyph will be mentioned and
 UFoCP's fix of said bug removed.
 
 Bugs introduced by UFoCP that have been fixed will be retroactively edited in the log, along with a
@@ -38,13 +38,3 @@ number itself can be inserted into the URL.
 v1.0.1.#### (2022-##-##) [FoC v1.121.748742]
 ============================================
 
-Ability Fixes:
-• "BARRAGE" prematurely ended in multiple cases (AT-STs, Broadside/Marauder Cruisers, etc.) because the invisible target marker the ability uses kept dying due to splash damage.  The marker has been made immune to damage to rectify the problem. (BUG #1)
-
-
-Unit Fixes:
-• Whenever Thrawn would remove the Consortium's corruption, it would play the Rebel's VO instead of the Empire's. (BUG #12)
-
-
-Upgrade Fixes:
-• The Consortium space station wouldn't actually get a damage reduction when buying the "Reinforced Durasteel" upgrades for Skirmish or GC.  The upgrade's combat activation mode was wrong (was set to Ground), and was set to only affect defensive satellites. (BUG #14)
