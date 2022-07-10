@@ -41,7 +41,7 @@
  		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
  		<Lua_Script>CreditPowerUp</Lua_Script>
   </MiscObject>
-  
+
   <MiscObject Name="Tech_Power_Up">
 		<Text_ID></Text_ID>
 		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
@@ -50,8 +50,8 @@
  		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
  		<Lua_Script>TechPowerUp</Lua_Script>
   </MiscObject>
-  
-  
+
+
 	<MiscObject Name="R_Multiplayer_Beacon">
 		<Affiliation>Rebel</Affiliation>
 		<Text_ID>TEXT_MULTIPLAYER_BEACON</Text_ID>
@@ -67,7 +67,7 @@
 		<Beacon_Lifetime_In_Secs> 10.0 </Beacon_Lifetime_In_Secs>
 		<SFXEvent_Beacon_Placed>GUI_Toggle_Lure_On</SFXEvent_Beacon_Placed>
 	</MiscObject>
-	
+
 	<MiscObject Name="E_Multiplayer_Beacon">
 		<Variant_Of_Existing_Type>R_Multiplayer_Beacon</Variant_Of_Existing_Type>
 	</MiscObject>
@@ -196,6 +196,6 @@
 		<Behavior> DUMMY_SPECIAL_WEAPON_SOURCE </Behavior>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-	</MiscObject>							 
+	</MiscObject>
 
 </MiscObjects>
