@@ -49,7 +49,7 @@
 		<Reserve_Spawned_Units_Tech_0>Skipray_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-		
+
 		<Tactical_Buildable_Objects_Campaign>
 			Underworld,
 				US_Reinforced_Structure_L1_Upgrade,
@@ -112,7 +112,7 @@
 
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Custom_Soft_Footprint_Radius> 300 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 		<Layer_Z_Adjust>-650.0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -123,7 +123,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_1_Rebel</Retreat_Self_Destruct_Explosion>
-		
+
 		<Death_Clone>Damage_Normal, Underworld_Star_Base_1_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>10</Additional_Population_Capacity>
 	</StarBase>
@@ -192,8 +192,8 @@
 
 		<Starting_Spawned_Units_Tech_0>Skipray_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Skipray_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_0>Crusader_Gunship, 1</Starting_Spawned_Units_Tech_0>	
+
+		<Starting_Spawned_Units_Tech_0>Crusader_Gunship, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Crusader_Gunship, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
@@ -208,7 +208,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-		
+
 		<HardPoints>
 			HP_Underworld_Station_L1_Supply_Dock_Dummy,
 			HP_Underworld_Station_L1_Comm_Array_Dummy,
@@ -254,7 +254,7 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Custom_Soft_Footprint_Radius> 450 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -288,7 +288,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION3 TEXT_TOOLTIP_GARRISON_US_03</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ub_station.tga</Icon_Name>
-		
+
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>UB_03_STATION.ALO</Space_Model_Name>
@@ -327,35 +327,35 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-		
+
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>StarViper_Squadron, 3</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>StarViper_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>Skipray_Squadron, 3</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Skipray_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_0>Crusader_Gunship, 1</Starting_Spawned_Units_Tech_0>	
+
+		<Starting_Spawned_Units_Tech_0>Crusader_Gunship, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Crusader_Gunship, -1</Reserve_Spawned_Units_Tech_0>
-		
-		
+
+
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign>
 			Underworld,
+				US_Reinforced_Structure_L1_Upgrade,
+				US_Reinforced_Structure_L2_Upgrade,
 				US_Magnetically_Sealed_Armor_L1_Upgrade,
 				US_Magnetically_Sealed_Armor_L2_Upgrade,
 				US_BlackMarket_Reactors_L1_Upgrade,
 				US_BlackMarket_Reactors_L2_Upgrade,
-				US_Carbonite_Coolant_Systems_L1_Upgrade,
-				US_Reinforced_Structure_L1_Upgrade,
-				US_Reinforced_Structure_L2_Upgrade
+				US_Carbonite_Coolant_Systems_L1_Upgrade
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-		
+
 		<HardPoints>
 			HP_Underworld_Station_L1_Supply_Dock_Dummy,
 			HP_Underworld_Station_L1_Comm_Array_Dummy,
@@ -405,7 +405,7 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Custom_Soft_Footprint_Radius> 450 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -413,9 +413,9 @@
 		<Radar_Icon_Name>i_radar_station1_u.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
 		<Score_Cost_Credits> 6000</Score_Cost_Credits>
-		
+
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_3_Rebel</Retreat_Self_Destruct_Explosion>
-		
+
 		<Death_Clone>Damage_Normal, Underworld_Star_Base_3_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>15</Additional_Population_Capacity>
 	</StarBase>
@@ -440,7 +440,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION4 TEXT_TOOLTIP_GARRISON_US_04</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ub_station.tga</Icon_Name>
-		
+
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>UB_04_STATION.ALO</Space_Model_Name>
@@ -486,17 +486,19 @@
 
 		<Starting_Spawned_Units_Tech_0>Skipray_Squadron, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Skipray_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_0>Crusader_Gunship, 2</Starting_Spawned_Units_Tech_0>	
+
+		<Starting_Spawned_Units_Tech_0>Crusader_Gunship, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Crusader_Gunship, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Interceptor4_Frigate, 1</Starting_Spawned_Units_Tech_0>	
+		<Starting_Spawned_Units_Tech_0>Interceptor4_Frigate, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Interceptor4_Frigate, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign>
 			Underworld,
+				US_Reinforced_Structure_L1_Upgrade,
+				US_Reinforced_Structure_L2_Upgrade,
 				US_Targeting_Systems_L1_Upgrade,
 				US_Targeting_Systems_L2_Upgrade,
 				US_Magnetically_Sealed_Armor_L1_Upgrade,
@@ -511,7 +513,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-		
+
 		<HardPoints>
 			HP_Underworld_Station_L1_Supply_Dock_Dummy,
 			HP_Underworld_Station_L1_Comm_Array_Dummy,
@@ -568,7 +570,7 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 		<Custom_Soft_Footprint_Radius> 550 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
         <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
@@ -579,7 +581,7 @@
 		<Score_Cost_Credits> 12000</Score_Cost_Credits>
 
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_4_Rebel</Retreat_Self_Destruct_Explosion>
-		
+
 		<Death_Clone>Damage_Normal, Underworld_Star_Base_4_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>16</Additional_Population_Capacity>
 	</StarBase>
@@ -605,7 +607,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION5 TEXT_TOOLTIP_GARRISON_US_05</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ub_station.tga</Icon_Name>
-		
+
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>UB_05_STATION.ALO</Space_Model_Name>
@@ -644,24 +646,27 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-		
+
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>StarViper_Squadron, 10</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>StarViper_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>Skipray_Squadron, 6</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Skipray_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_0>Crusader_Gunship, 2</Starting_Spawned_Units_Tech_0>	
+
+		<Starting_Spawned_Units_Tech_0>Crusader_Gunship, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Crusader_Gunship, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>Interceptor4_Frigate, 2</Starting_Spawned_Units_Tech_0>	
+		<Starting_Spawned_Units_Tech_0>Interceptor4_Frigate, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Interceptor4_Frigate, -1</Reserve_Spawned_Units_Tech_0>
-		
+
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
 		<Tactical_Buildable_Objects_Campaign>
 			Underworld,
+				US_Reinforced_Structure_L1_Upgrade,
+				US_Reinforced_Structure_L2_Upgrade,
+				US_Reinforced_Structure_L3_Upgrade,
 				US_Targeting_Systems_L1_Upgrade,
 				US_Targeting_Systems_L2_Upgrade,
 				US_Targeting_Systems_L3_Upgrade,
@@ -672,14 +677,13 @@
 				US_BlackMarket_Reactors_L2_Upgrade,
 				US_BlackMarket_Reactors_L3_Upgrade,
 				US_Carbonite_Coolant_Systems_L1_Upgrade,
-				US_Carbonite_Coolant_Systems_L2_Upgrade,
-				US_Reinforced_Structure_L1_Upgrade
+				US_Carbonite_Coolant_Systems_L2_Upgrade
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-		
+
 		<HardPoints>
 			HP_Underworld_Station_L1_Supply_Dock_Dummy,
 			HP_Underworld_Station_L1_Comm_Array_Dummy,
@@ -738,7 +742,7 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Custom_Soft_Footprint_Radius> 550 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -746,9 +750,9 @@
 		<Radar_Icon_Name>i_radar_station5_u.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
 		<Score_Cost_Credits> 24000</Score_Cost_Credits>
-		
+
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_5_Rebel</Retreat_Self_Destruct_Explosion>
-		
+
 		<Death_Clone>Damage_Normal, Underworld_Star_Base_5_Death_Clone</Death_Clone>
 		<Additional_Population_Capacity>17</Additional_Population_Capacity>
 	</StarBase>
@@ -765,10 +769,10 @@
 
 
 
-	
-	
-	
-	
+
+
+
+
 	<!-- Underworld Skirmish Starbases -->
 	<StarBase Name="Skirmish_Underworld_Star_Base_1">
 		<Variant_Of_Existing_Type>Underworld_Star_Base_1</Variant_Of_Existing_Type>
@@ -776,7 +780,7 @@
 		<Icon_Name>i_button_ub_station1.tga</Icon_Name>
 
 		<!-- Replacement List of Hardpoints -->
-		<HardPoints>			
+		<HardPoints>
 			HP_Underworld_Station_L1_Supply_Dock,
 			HP_Underworld_Station_L1_Comm_Array,
 			HP_Underworld_Station_L1_Fighter_Bay,
@@ -791,9 +795,9 @@
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
-		<Tactical_Buildable_Objects_Multiplayer> 
+		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
-				StarViper_Squadron, 
+				StarViper_Squadron,
 				Skipray_Squadron,
 				US_Reinforced_Structure_L1_Upgrade,
 				US_Magnetically_Sealed_Armor_L1_Upgrade,
@@ -812,7 +816,7 @@
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base />
 		<Next_Level_Base>Skirmish_Underworld_Star_Base_2</Next_Level_Base>
-		
+
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="U_Starbase_Income_Stream">
@@ -841,7 +845,7 @@
  				<Affects_All_Allies>True</Affects_All_Allies>
  			</Enable_Radar_Ability>
 		</Abilities>
-		
+
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
@@ -872,9 +876,9 @@
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
-		<Tactical_Buildable_Objects_Multiplayer> 
+		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
-				StarViper_Squadron, 
+				StarViper_Squadron,
 				Crusader_Gunship,
 				Skipray_Squadron,
 				Interceptor4_Frigate,
@@ -882,10 +886,10 @@
 				US_Reinforced_Structure_L1_Upgrade,
 				US_Magnetically_Sealed_Armor_L1_Upgrade,
 				US_BlackMarket_Reactors_L1_Upgrade,
-				US_Level_Three_Starbase_Upgrade,				
+				US_Level_Three_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-	
+
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
@@ -896,7 +900,7 @@
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base>Skirmish_Underworld_Star_Base_1</Prev_Level_Base>
 		<Next_Level_Base>Skirmish_Underworld_Star_Base_3</Next_Level_Base>
-			
+
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="U_Starbase_Income_Stream">
@@ -925,7 +929,7 @@
  				<Affects_All_Allies>True</Affects_All_Allies>
  			</Enable_Radar_Ability>
 		</Abilities>
-		
+
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
@@ -953,16 +957,16 @@
 			HP_Underworld_Station_L3_PRT_01,
 			HP_Underworld_L3_Station_Main_Cannon
 		</HardPoints>
-		
+
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
-		<Tactical_Buildable_Objects_Multiplayer> 
+		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
-				StarViper_Squadron, 
+				StarViper_Squadron,
 				Crusader_Gunship,
 				Skipray_Squadron,
 				Interceptor4_Frigate,
@@ -982,7 +986,7 @@
 				US_Level_Four_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-	
+
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
@@ -993,7 +997,7 @@
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base>Skirmish_Underworld_Star_Base_2</Prev_Level_Base>
 		<Next_Level_Base>Skirmish_Underworld_Star_Base_4</Next_Level_Base>
-		
+
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="U_Starbase_Income_Stream">
@@ -1022,7 +1026,7 @@
  				<Affects_All_Allies>True</Affects_All_Allies>
  			</Enable_Radar_Ability>
 		</Abilities>
-		
+
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
@@ -1060,9 +1064,9 @@
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
-		<Tactical_Buildable_Objects_Multiplayer> 
+		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
-				StarViper_Squadron, 
+				StarViper_Squadron,
 				Crusader_Gunship,
 				Skipray_Squadron,
 				Interceptor4_Frigate,
@@ -1086,7 +1090,7 @@
 				US_Level_Five_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-	
+
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
@@ -1097,7 +1101,7 @@
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base>Skirmish_Underworld_Star_Base_3</Prev_Level_Base>
 		<Next_Level_Base>Skirmish_Underworld_Star_Base_5</Next_Level_Base>
-			
+
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="U_Starbase_Income_Stream">
@@ -1126,7 +1130,7 @@
  				<Affects_All_Allies>True</Affects_All_Allies>
  			</Enable_Radar_Ability>
 		</Abilities>
-		
+
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
@@ -1171,9 +1175,9 @@
 
 		<!-- Tactical Production Options -->
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
-		<Tactical_Buildable_Objects_Multiplayer> 
+		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
-				StarViper_Squadron, 
+				StarViper_Squadron,
 				Crusader_Gunship,
 				Skipray_Squadron,
 				Interceptor4_Frigate,
@@ -1202,7 +1206,7 @@
 				US_Plasma_Cannon_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-	
+
 		<!-- Data to prevent this from being buildable in galactic mode -->
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
@@ -1213,7 +1217,7 @@
 		<!-- Base upgrade sequence -->
 		<Prev_Level_Base>Skirmish_Underworld_Star_Base_4</Prev_Level_Base>
 		<Next_Level_Base />
-		
+
 		<!-- Special Abilities unique to Skirmish mode -->
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="U_Starbase_Income_Stream">
@@ -1242,7 +1246,7 @@
  				<Affects_All_Allies>True</Affects_All_Allies>
  			</Enable_Radar_Ability>
 		</Abilities>
-		
+
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>

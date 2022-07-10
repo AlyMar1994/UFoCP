@@ -47,4 +47,5 @@ Unit Fixes:
 
 
 Upgrade Fixes:
-• The Consortium space station wouldn't actually get a damage reduction when buying the "Reinforced Durasteel" upgrades for Skirmish or GC.  The upgrade's combat activation mode was wrong (was set to Ground), and was set to only affect defensive satellites. (BUG #14)
+• The Consortium space station wouldn't actually get a damage reduction when buying upgrade "Reinforced Durasteel" for Skirmish or GC.  The upgrade's combat activation mode was wrong (was set to Ground), and was set to only affect defensive satellites. (BUG #14)
+• The Consortium space station in Galactic Conquest could not consistently buy upgrade "Reinforced Durasteel."  From station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> Unavailable --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
