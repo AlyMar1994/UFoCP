@@ -41,10 +41,10 @@
 
 require("pgevents")
 
-function Definitions()	
+function Definitions()
 
 	Category = "Raid"
-	
+
 	TaskForce = {
 	{
 		"RaidForce"
@@ -52,36 +52,37 @@ function Definitions()
 		,"Infantry | Vehicle | Air = 2"
 		,"LandHero = 0,1"
 	}
-	}	
-	
+	}
+
 	LandSecured = false
-	
-	difficulty = "Easy"
+end
+
+function RaidForce_Thread()
+
+	AssembleForce(RaidForce)
+
+	if not RaidForce.Is_Raid_Capable() then
+		ScriptExit()
+	end
+
+	RaidForce.Set_Plan_Result(true)
+
+	if not LaunchUnits(RaidForce) then
+		ScriptExit()
+	end
+
+	BlockOnCommand(RaidForce.Raid(Target))
+
+	-- This plan has all but succeeded; make sure AI systems don't remove it
+	RaidForce.Set_As_Goal_System_Removable(false)
+	RaidForce.Test_Target_Contrast(false)
+
+	local difficulty = "Easy"
+	local sleep_duration
 	if PlayerObject then
 		difficulty = PlayerObject.Get_Difficulty()
 	end
 	sleep_duration = DifficultyBasedMinPause(difficulty)
-end
-
-function RaidForce_Thread()
-    
-	AssembleForce(RaidForce)
-		
-	if not RaidForce.Is_Raid_Capable() then
-		ScriptExit()
-	end
-			
-	RaidForce.Set_Plan_Result(true)
-	
-	if not LaunchUnits(RaidForce) then
-		ScriptExit()
-	end
-		
-	BlockOnCommand(RaidForce.Raid(Target))
-
-	-- This plan has all but succeeded; make sure AI systems don't remove it
-	RaidForce.Set_As_Goal_System_Removable(false)	
-	RaidForce.Test_Target_Contrast(false)	
 
 	if RaidForce.Get_Force_Count() == 0 then
 		Sleep(sleep_duration)
@@ -90,9 +91,9 @@ function RaidForce_Thread()
 
 	LandSecured = true
 	RaidForce.Release_Forces(1.0)
-			
+
 	FundBases(PlayerObject, Target)
-	
+
 	if (not GalacticAttackAllowed(difficulty, 1)) then
 		Sleep(sleep_duration)
 	end
@@ -103,7 +104,7 @@ function RaidForce_Production_Failed(tf, failed_object_type)
 	ScriptExit()
 end
 
-function RaidForce_Original_Target_Owner_Changed(tf, old_owner, new_owner)	
+function RaidForce_Original_Target_Owner_Changed(tf, old_owner, new_owner)
 	--Ignore changes to neutral - it might just be temporary on the way to
 	--passing into my control.
 	if new_owner ~= PlayerObject and new_owner.Is_Neutral() == false then

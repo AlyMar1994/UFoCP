@@ -76,16 +76,10 @@ function Definitions()
 	LandSecured = false
 	MovingGroundForceToTarget = false
 	WasConflict = false
-
-	difficulty = "Easy"
-	if PlayerObject then
-		difficulty = PlayerObject.Get_Difficulty()
-	end
-	sleep_duration = DifficultyBasedMinPause(difficulty)
 end
 
 function SpaceForce_Thread()
-	-- Since we're using plan failure to adjust contrast, we're 
+	-- Since we're using plan failure to adjust contrast, we're
 	-- only concerned with failures in battle. Default the
 	-- plan to successful and then
 	-- only on the event of our task force being killed is the
@@ -177,10 +171,18 @@ function GroundForce_Thread()
 end
 
 function Exit_Plan_With_Possible_Sleep()
+	local difficulty = "Easy"
+	local sleep_duration
+	if PlayerObject then
+		difficulty = PlayerObject.Get_Difficulty()
+	end
+	sleep_duration = DifficultyBasedMinPause(difficulty)
+
 	if SpaceForce then
 		SpaceForce.Release_Forces(1.0)
 	end
 	GroundForce.Release_Forces(1.0)
+
 	if WasConflict and (not GalacticAttackAllowed(difficulty, 2)) then
 		Sleep(sleep_duration)
 	end

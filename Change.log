@@ -34,12 +34,15 @@ number itself can be inserted into the URL.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-
 v1.0.1.#### (2022-##-##) [FoC v1.121.748742]
 ============================================
 
 Ability Fixes:
 • "BARRAGE" prematurely ended in multiple cases (AT-STs, Broadside/Marauder Cruisers, etc.) because the invisible target marker the ability uses kept dying due to splash damage.  The marker has been made immune to damage to rectify the problem. (BUG #1)
+
+
+AI Fixes:
+• During certain conquering plans, the AI would have a bloated five minute sleep cycle before dropping the plan because of a coding mistake (the game tried to find a non-existent player).  The AI's conquering, raiding and Death Star plans have been rectified to sleep 5min on Easy, 3min 30sec on Normal and 45 seconds on Hard before dropping the plan. (BUG #69)
 
 
 Unit Fixes:

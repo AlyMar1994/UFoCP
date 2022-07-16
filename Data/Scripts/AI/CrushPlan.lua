@@ -39,86 +39,88 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgtaskforce")
+require("PGTaskForce")
 
 -- Tell the script pooling system to pre-cache this number of scripts.
 ScriptPoolCount = 2
 
 function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
-	
+
 	GlobalContrastScale = 3.0
 	PerFailureContrastAdjust = 0.5
-	
+
 	Category = "Conquer_Opponent"
 	TaskForce = {
 	{
-		"MainForce"						
+		"MainForce"
 		,"MinimumTotalSize = 10"
-		,"MinimumTotalForce = 8000"					
+		,"MinimumTotalForce = 8000"
 		, "Infantry | Vehicle | Air | Fighter | Bomber | Corvette | Frigate | Super | Capital = 100%"
 	}
 	}
-	RequiredCategories =	{ 
+	RequiredCategories =	{
 								"Infantry",
 								"Corvette | Frigate | Capital | Super"
-							}	
-	
-	difficulty = "Easy"
+							}
+
+
+	DebugMessage("%s -- Done Definitions", tostring(Script))
+
+	LandSecured = false
+end
+
+function MainForce_Thread()
+
+	local difficulty = "Easy"
+	local sleep_duration
 	if PlayerObject then
 		difficulty = PlayerObject.Get_Difficulty()
 	end
 	sleep_duration = DifficultyBasedMinPause(difficulty)
-	
-	DebugMessage("%s -- Done Definitions", tostring(Script))
-	
-	LandSecured = false	
-end
 
-function MainForce_Thread()
-	
 	--Let's not even do this on easy: the AI force can just be too overwhelming
 	if difficulty == "Easy" or difficulty == "Normal" then
 		ScriptExit()
 	end
-	
-	-- Since we're using plan failure to adjust contrast, we're 
-	-- only concerned with failures in battle. Default the 
-	-- plan to successful and then 
+
+	-- Since we're using plan failure to adjust contrast, we're
+	-- only concerned with failures in battle. Default the
+	-- plan to successful and then
 	-- only on the event of our task force being killed is the
 	-- plan set to a failed state.
-	MainForce.Set_Plan_Result(true)	
-	
+	MainForce.Set_Plan_Result(true)
+
 	if MainForce.Are_All_Units_On_Free_Store() == true then
 		AssembleForce(MainForce)
 	else
 		BlockOnCommand(MainForce.Produce_Force());
 		return
 	end
-	
+
 	BlockOnCommand(MainForce.Move_To(Target))
-	
+
 	if MainForce.Get_Force_Count() == 0 then
-		MainForce.Set_Plan_Result(false)	
+		MainForce.Set_Plan_Result(false)
 		Sleep(sleep_duration)
 		ScriptExit()
 	end
-	
+
 	if Invade(MainForce) == false then
-		MainForce.Set_Plan_Result(false)			
+		MainForce.Set_Plan_Result(false)
 		Sleep(sleep_duration)
 		ScriptExit()
 	end
-	
+
 	-- This plan has all but succeeded; make sure AI systems don't remove it
-	MainForce.Set_As_Goal_System_Removable(false)	
-	MainForce.Test_Target_Contrast(false)	
+	MainForce.Set_As_Goal_System_Removable(false)
+	MainForce.Test_Target_Contrast(false)
 
 	FundBases(PlayerObject, Target)
-		
+
 	LandSecured = true
 	MainForce.Release_Forces(1.0)
-	if  (not GalacticAttackAllowed(difficulty, 2)) then
+	if (not GalacticAttackAllowed(difficulty, 2)) then
 		Sleep(sleep_duration)
 	end
 	ScriptExit()
@@ -128,7 +130,7 @@ function MainForce_Production_Failed(failed_object_type)
 	ScriptExit()
 end
 
-function MainForce_Original_Target_Owner_Changed(tf, old_owner, new_owner)	
+function MainForce_Original_Target_Owner_Changed(tf, old_owner, new_owner)
 	--Ignore changes to neutral - it might just be temporary on the way to
 	--passing into my control.
 	if new_owner ~= PlayerObject and new_owner.Is_Neutral() == false then
@@ -140,7 +142,7 @@ end
 
 function MainForce_No_Units_Remaining()
 	if not LandSecured then
-		MainForce.Set_Plan_Result(false)			
+		MainForce.Set_Plan_Result(false)
 		--Don't exit since we need to sleep to enforce delays between AI attacks (can't be done inside an event handler)
 	end
 end
