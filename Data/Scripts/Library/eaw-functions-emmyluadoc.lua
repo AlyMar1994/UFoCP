@@ -182,7 +182,7 @@ function GetCurrentTime.Galactic_Time() end
 -- ------------------------ Randomization ------------------------
 -- ---------------------------------------------------------------
 
---- Returns a random integer between the given integers when called (uses game time as seed). 
+--- Returns a random integer between the given integers when called (uses game time as seed).
 --- Can be indexed to access further functions.
 ---
 ---@type fun(lower:number, upper:number):number
@@ -212,7 +212,7 @@ function GameRandom.Free_Random(lower, upper) end
 -- -----------------------------------------------------------------------
 
 ---@public
---- Teleports all units of the given player capable of retreating into retreat position and starts the retreat. 
+--- Teleports all units of the given player capable of retreating into retreat position and starts the retreat.
 --- The actual hyperspace jump is executed only after the given delay. This neither starts a countdown nor does it end the battle.
 ---@param playerID number
 ---@param delay number
@@ -246,7 +246,6 @@ function Promote_To_Space_Cinematic_Layer(object) end
 ---@param idle_time number
 ---@param persist number
 ---@param hint any Unknown
----@return GameObject The spawned transport
 function Create_Cinematic_Transport(type_name, player_id, transport_pos, zangle,
                                     phase_mode, anim_delta, idle_time, persist,
                                     hint) end
@@ -338,14 +337,14 @@ function Start_Cinematic_Camera(unknown) end
 function Point_Camera_At(position) end
 
 ---@public
---- Rotate the camera to the given angle. Takes the shortest direction. Can be used during camera sequences, but 
+--- Rotate the camera to the given angle. Takes the shortest direction. Can be used during camera sequences, but
 --- only affects the tactical camera.
 ---@param z_angle number The angle around the z axis giving the new orientation
 ---@param transition_time number The duration of the transition
 function Rotate_Camera_To(z_angle, transition_time) end
 
 ---@public
---- Rotates the camera around the z axis by the given amount of degrees. The sign of the angle determines the direction of the rotation. The rotation takes the given amount of time. 
+--- Rotates the camera around the z axis by the given amount of degrees. The sign of the angle determines the direction of the rotation. The rotation takes the given amount of time.
 ---@param z_angle number
 ---@param transition_time number
 function Rotate_Camera_By(z_angle, transition_time) end
@@ -437,6 +436,9 @@ function SFXManager.Allow_Unit_Reponse_VO(allow) end
 ---@public
 ---@param allow boolean
 function SFXManager.Allow_Localized_SFXEvents(allow) end
+
+---@class SFXManagerClass
+local SFXManagerClass = {}
 
 ---@public
 --- Removes screen texts
@@ -648,8 +650,8 @@ function Is_Point_In_Nebula(position) end
 ---@public
 --- Only valid in land mode.
 ---@overload fun(position1, position2):boolean
----@param position1 position
----@param position2  position
+---@param position1 Position
+---@param position2 Position
 ---@param player PlayerObject
 ---@param unknown boolean
 ---@return boolean
@@ -825,7 +827,7 @@ function Check_Story_Flag(player, identifier, gameObject, bool) end
 
 ---@public
 --- Returns the story file as StoryPlotWrapper object. The parameter is case sensitive.
----@param file_name string 
+---@param file_name string
 ---@return StoryPlotWrapper
 function Get_Story_Plot(file_name) end
 
