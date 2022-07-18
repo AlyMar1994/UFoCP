@@ -1,10 +1,10 @@
-   __  __            _________      _       __   ______                                   ____   ______                            __  _                ____        __       __  
-  / / / /___  ____  / __/ __(_)____(_)___ _/ /  / ____/___  _____________  _____   ____  / __/  / ____/___  ____________  ______  / /_(_)___  ____     / __ \____ _/ /______/ /_ 
+   __  __            _________      _       __   ______                                   ____   ______                            __  _                ____        __       __
+  / / / /___  ____  / __/ __(_)____(_)___ _/ /  / ____/___  _____________  _____   ____  / __/  / ____/___  ____________  ______  / /_(_)___  ____     / __ \____ _/ /______/ /_
  / / / / __ \/ __ \/ /_/ /_/ / ___/ / __ `/ /  / /_  / __ \/ ___/ ___/ _ \/ ___/  / __ \/ /_   / /   / __ \/ ___/ ___/ / / / __ \/ __/ / __ \/ __ \   / /_/ / __ `/ __/ ___/ __ \
 / /_/ / / / / /_/ / __/ __/ / /__/ / /_/ / /  / __/ / /_/ / /  / /__/  __(__  )  / /_/ / __/  / /___/ /_/ / /  / /  / /_/ / /_/ / /_/ / /_/ / / / /  / ____/ /_/ / /_/ /__/ / / /
-\____/_/ /_/\____/_/ /_/ /_/\___/_/\__,_/_/  /_/    \____/_/   \___/\___/____/   \____/_/     \____/\____/_/  /_/   \__,_/ .___/\__/_/\____/_/ /_/  /_/    \__,_/\__/\___/_/ /_/ 
-                                                                                                                        /_/                                                      
-   ________                           __           
+\____/_/ /_/\____/_/ /_/ /_/\___/_/\__,_/_/  /_/    \____/_/   \___/\___/____/   \____/_/     \____/\____/_/  /_/   \__,_/ .___/\__/_/\____/_/ /_/  /_/    \__,_/\__/\___/_/ /_/
+                                                                                                                        /_/
+   ________                           __
   / ____/ /_  ____ _____  ____ ____  / /___  ____ _
  / /   / __ \/ __ `/ __ \/ __ `/ _ \/ / __ \/ __ `/
 / /___/ / / / /_/ / / / / /_/ /  __/ / /_/ / /_/ /
@@ -42,7 +42,7 @@ Ability Fixes:
 
 
 AI Fixes:
-• During certain conquering plans, the AI would have a bloated five minute sleep cycle before dropping the plan because of a coding mistake (the game tried to find a non-existent player).  The AI's conquering, raiding and Death Star plans have been rectified to sleep 5min on Easy, 3min 30sec on Normal and 45 seconds on Hard before dropping the plan. (BUG #69)
+• During certain conquering plans, the AI would have a bloated five minute sleep cycle before dropping the plan because of a coding mistake (the game tried to find a non-existent player).  The AI was rectified to sleep for 5 minutes on Easy, 3min 30sec on Normal and 45 seconds on Hard before dropping the plan. (BUG #69)
 
 
 Unit Fixes:
