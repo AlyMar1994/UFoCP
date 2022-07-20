@@ -42,13 +42,13 @@
 
 function DebugEventAlert(event, params)
 	message = tostring(Script) .. ": handled event " .. tostring(event)
-	
+
 	function AppendParameter(ival, parameter)
 		message = message .. "\nParameter " .. tostring(ival) .. ": " .. tostring(parameter)
 	end
-	
+
 	table.foreachi(params, AppendParameter)
-	
+
 	MessageBox(message)
 end
 

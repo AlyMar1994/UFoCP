@@ -88,5 +88,3 @@ function PG_Story_State_Init(message)
 	end
 
 end
-
-

@@ -45,7 +45,7 @@ YieldCount = 0;
 
 function ScriptExit()
 	_ScriptExit() -- set a flag in 'C' to terminate the whole script on next yield
-	
+
 	if GetThreadID() >= 0 then
 		coroutine.yield(false) -- return false to exit this thread
 	end
@@ -72,9 +72,9 @@ function BlockOnCommand(block, max_duration, alternate_break_func)
 	end
 
 	break_block = false
-	
+
 	ThreadValue.Set("BlockStart", GetCurrentTime())
-	
+
 	repeat
 		if break_block == true then
 			break_block = false
@@ -82,8 +82,8 @@ function BlockOnCommand(block, max_duration, alternate_break_func)
 		end
 
 		PumpEvents()
-	
-		if ((max_duration ~= nil) and (max_duration ~= -1) 
+
+		if ((max_duration ~= nil) and (max_duration ~= -1)
 			and (GetCurrentTime() - ThreadValue("BlockStart") > max_duration)) then
 			--MessageBox("%s -- Had a time limit and it expired", tostring(Script))
 			return nil
@@ -94,7 +94,7 @@ function BlockOnCommand(block, max_duration, alternate_break_func)
 			return nil
 		end
 
-	until (block.IsFinished() == true) 
+	until (block.IsFinished() == true)
 
 	PumpEvents()
 
@@ -130,26 +130,26 @@ function PumpEvents()
 	end
 
 	ThreadValue.Set("InPumpEvents", true)
-	
+
 	--DebugMessage("%s -- Entering yield.  Count: %d, Time: %.3f\n", tostring(Script), YieldCount, GetCurrentTime())
 	YieldCount = YieldCount + 1
 	coroutine.yield(true) -- yield here and return to 'C'
 	--DebugMessage("%s -- Return from yield.  Count: %d, Time: %.3f\n", tostring(Script), YieldCount, GetCurrentTime())
-	
+
 	CurrentEvent = GetEvent()
 	while CurrentEvent do
 		ScriptMessage("%s -- Pumping Event: %s.", tostring(Script), tostring(CurrentEvent))
 		EventParams = GetEvent.Params()
 		if EventParams then
 			CurrentEvent(unpack(EventParams))
-		else 
+		else
 			CurrentEvent()
 		end
-		
+
 		if Script.Debug_Should_Issue_Event_Alert() and DebugEventAlert then
 			DebugEventAlert(CurrentEvent, EventParams)
 		end
-		
+
 		CurrentEvent = GetEvent()
 	end
 	ThreadValue.Set("InPumpEvents", false)
@@ -182,7 +182,7 @@ function Dirty_Floor(val)
 	return string.format("%d", val) -- works on implicit string to int conversion
 end
 
--- Machine independent modulus function 
+-- Machine independent modulus function
 function Simple_Mod(a,b)
 	--return a-b*math.floor(a/b)
 	return a-b*Dirty_Floor(a/b)
@@ -230,7 +230,7 @@ end
 function Flush_G()
 
 	entries_for_deletion = {}
-	
+
 	--Define the set of tables that we had better keep around
 	very_important_tables = {
 								_LOADED,
@@ -242,17 +242,17 @@ function Flush_G()
 								table,
 								entries_for_deletion
 							}
-	
+
 	--Silly thing is nil (we think) if we try to add it earlier
 	table.insert(very_important_tables, very_important_tables)
 
 	--Iterate all globals
 	for i,g_entry in pairs(_G) do
-	
+
 		if type(g_entry) == "table" then
 			--Tables are inherently unsafe: who knows what might be in there?
 			--If they're not in the list of things we must keep then they go.
-			
+
 			for j,important_entry in pairs(very_important_tables) do
 				if important_entry == g_entry then
 					keep_table = true
@@ -261,27 +261,26 @@ function Flush_G()
 			if not keep_table then
 				table.insert(entries_for_deletion, i)
 			end
-			
+
 			keep_table = nil
-			
+
 		elseif type(g_entry) == "userdata" then
 			--Some User Data (e.g. our code functions) should be kept, but some is very, very dangerous.
 			--Query the object to see whether it's safe to persist.
-	
+
 			if not g_entry.Is_Pool_Safe() then
 				table.insert(entries_for_deletion, i)
 			end
-	
+
 		end
-		
+
 	end
-	
+
 	for i,bad_entry in pairs(entries_for_deletion) do
 		_G[bad_entry] = nil
 	end
-	
+
 	entries_for_deletion = nil
 	very_important_tables = nil
 
 end
-

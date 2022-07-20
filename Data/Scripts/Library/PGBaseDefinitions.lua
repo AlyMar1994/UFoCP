@@ -50,7 +50,7 @@ collectgarbage(256)
 function Common_Base_Definitions()
 	-- Clear out the thread specific values.
 	ThreadValue.Reset()
-	
+
 	-- Clear out any thread events.
 	GetEvent.Reset()
 
@@ -85,9 +85,9 @@ function Common_Base_Definitions()
 	xfire_pos = nil
 	kite_pos = nil
 	friendly = nil
-	
+
 	block_table = {}
-	
+
 	lib_anti_idle_block = nil
 
 end
@@ -97,7 +97,7 @@ end
 function Base_Definitions()
 
 	Common_Base_Definitions()
-	
+
 	if Definitions then
 		Definitions()
 	end

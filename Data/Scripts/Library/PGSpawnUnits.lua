@@ -79,7 +79,7 @@ function Process_Reinforcements()
 			end
 		end
 	end
-		
+
 	new_units = nil
 end
 
@@ -88,7 +88,7 @@ function Add_Reinforcement(object_type, player)
 	if type(object_type) == "string" then
 		object_type = Find_Object_Type(object_type)
 	end
-	
+
 	Reinforce_Unit(object_type, false, player, true, false)
 end
 
@@ -100,7 +100,7 @@ function ReinforceList(type_list, entry_marker, player, allow_ai_usage, delete_a
 		MessageBox("Received a function for 6th parameter; expected bool.  Note the signature change, sorry.")
 		return
 	end
-	
+
 	if player == nil then
 		MessageBox("expected a player for 3rd parameter; aborting")
 		return
@@ -111,9 +111,9 @@ function ReinforceList(type_list, entry_marker, player, allow_ai_usage, delete_a
 
 	block_track = {
 		type_count = table.getn(type_list),
-		unit_list = {} 
+		unit_list = {}
 	}
-	
+
 	for k, unit_type in pairs(type_list) do
 		ref_type = Find_Object_Type(unit_type)
 		btab = {
@@ -123,9 +123,9 @@ function ReinforceList(type_list, entry_marker, player, allow_ai_usage, delete_a
 			entry_marker = entry_marker,
 			player = player,
 			obey_zones = not ignore_reinforcement_rules,
-			allow_ai_usage = allow_ai_usage, 
+			allow_ai_usage = allow_ai_usage,
 			callback = callback,
-			delete_after_scenario = delete_after_scenario 
+			delete_after_scenario = delete_after_scenario
 		}
 		table.insert(block_table[index], btab)
 		btab = nil
@@ -137,7 +137,7 @@ end
 function SpawnList(type_list, entry_marker, player, allow_ai_usage, delete_after_scenario)
 
 		unit_list = {}
-		
+
 		for k, unit_type in pairs(type_list) do
 			ref_type = Find_Object_Type(unit_type)
 			new_units= Spawn_Unit(ref_type, entry_marker, player)
@@ -155,8 +155,8 @@ function SpawnList(type_list, entry_marker, player, allow_ai_usage, delete_after
 				end
 			end
 		end
-		
+
 		new_units = nil
-		
+
 		return unit_list
 end
