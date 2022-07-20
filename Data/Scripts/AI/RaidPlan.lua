@@ -77,8 +77,7 @@ function RaidForce_Thread()
 	RaidForce.Set_As_Goal_System_Removable(false)
 	RaidForce.Test_Target_Contrast(false)
 
-	local difficulty = "Easy"
-	local sleep_duration
+	difficulty = "Easy"
 	if PlayerObject then
 		difficulty = PlayerObject.Get_Difficulty()
 	end

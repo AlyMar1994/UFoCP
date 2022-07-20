@@ -63,8 +63,7 @@ function DeathStarForce_Thread()
 	AssembleForce(DeathStarForce)
 	BlockOnCommand(DeathStarForce.Move_To(Target))
 
-	local difficulty = "Easy"
-	local sleep_duration
+	difficulty = "Easy"
 	if PlayerObject then
 		difficulty = PlayerObject.Get_Difficulty()
 	end

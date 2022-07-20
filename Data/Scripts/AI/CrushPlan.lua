@@ -72,8 +72,7 @@ end
 
 function MainForce_Thread()
 
-	local difficulty = "Easy"
-	local sleep_duration
+	difficulty = "Easy"
 	if PlayerObject then
 		difficulty = PlayerObject.Get_Difficulty()
 	end

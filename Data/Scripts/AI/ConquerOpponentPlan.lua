@@ -171,8 +171,7 @@ function GroundForce_Thread()
 end
 
 function Exit_Plan_With_Possible_Sleep()
-	local difficulty = "Easy"
-	local sleep_duration
+	difficulty = "Easy"
 	if PlayerObject then
 		difficulty = PlayerObject.Get_Difficulty()
 	end
