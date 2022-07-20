@@ -27,7 +27,6 @@ In addition, plugins that assist with mod development exist (mainly for VSC).  T
 TED maps are modified through the official map editor.  An update was released for it to support the latest Steam version.
 
 The map editor occasionally has problems interpreting mod content, and may delete some files when opened in a mod folder.  An additional, optional patch exists which fixes this on the download page.
-
 - [FoC Map Editor](https://modtools.petrolution.net/tools/MapEditor)
 - [Official Update](http://www.petroglyphgames.com/eawmodtool/)
 
@@ -37,14 +36,12 @@ Forces of Corruption and Petroglyph's second game Universe at War uses ALO/ALA 2
 When installing the map editor, an Autodesk 3DS Max 8 and 9 version of Petroglyph's official plugin are provided within the game's files.  3DS Max 8 and 9 cannot be aquired legally anymore.  The app itself is glitchy on modern computers, making 3DS Max an unrecommended model editor.
 
 [Gaukler](https://github.com/Gaukler) has created a Blender plugin that interprets ALO and ALA effectively, including quality-of-life warnings.  This plugin DOES NOT support ALA 1.0 included with Empire at War, and will require an animation converter.
-
 - [ALAMO Plugin](https://github.com/Gaukler/Blender-ALAMO-Plugin)
 - [Animation Converter](https://modtools.petrolution.net/tools/AnimationConverter)
 - [ALOViewer](http://modtools.petrolution.net/tools/AloViewer)
 
 #### Texturing
 Forces of Corruption and the repo works with TGA, DDS, ICO and PNG (with DDS and TGA having advanced transparency settings to work with team coloring and texture blending).  Multiple texture editors exist and will work:
-
 - [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
 - [Adobe Photoshop - NVIDIA's DDS Support](https://developer.nvidia.com/nvidia-texture-tools-exporter)
 - [Paint.NET](https://www.getpaint.net/)
