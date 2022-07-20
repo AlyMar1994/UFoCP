@@ -8,7 +8,7 @@ The Unofficial Forces of Corruption Patch is a one-does-all community patch for 
 You must legally own the [Steam](https://store.steampowered.com/app/32470/STAR_WARS_Empire_at_War__Gold_Pack/) updated version of the STAR WARS: Empire at War - Gold Pack to work on UFoCP.  Retail or GOG may work, though they are unsupported.
 
 ## Prerequisities
-This project is Windows restricted.  The outdated Mac version of the game is unsupported, along with any Linux emulations.  This doesn't mean the patch won't work with those versions, less there will be no support should anything go wrong.
+This project is Windows restricted.  The outdated Mac version of the game is unsupported, along with any Linux emulations.  This doesn't mean the patch won't work with those versions, more that there will be no support should anything go wrong.
 
 ### Editors
 #### Programming
