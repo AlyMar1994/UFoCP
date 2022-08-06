@@ -43,7 +43,7 @@ Ability Fixes:
 
 AI Fixes:
 • During certain conquering plans, the AI would have a bloated five minute sleep cycle after a victory/failure because of a coding mistake (the scripts could not find the player and evaluate the Difficulty setting).  The AI was rectified to sleep for its appropriate cycles before dropping the plan (5 minutes on Easy, 3min 30sec on Normal and 45 seconds on Hard. (BUG #69)
-• During the AI's blitzkrieg conquering plan "Crush," the plan would consistently cancel before starting because of a coding mistake (the script could not find the player and evaluate the Difficulty setting).  The AI was rectified to properly continue the plan should the Difficulty turn out to be set to Hard. (BUG #79)
+• During the AI's blitzkrieg conquering plan "Crush," the plan would always cancel before starting because of a coding mistake (the script could not find the player and evaluate the Difficulty setting).  The AI was rectified to properly continue the plan should the Difficulty turn out to be set to Hard. (BUG #79)
 
 
 Unit Fixes:
