@@ -46,6 +46,10 @@ AI Fixes:
 • During the AI's blitzkrieg conquering plan "Crush," the plan would always cancel before starting because of a coding mistake (the script could not find the player and evaluate the Difficulty setting).  The AI was rectified to properly continue the plan should the Difficulty turn out to be set to Hard. (BUG #79)
 
 
+Audio Fixes:
+• Because of an incorrect filename, no music would play when losing against the Consortium.  The Consortium's generic losing music was also referencing the Rebels' music entry.  This has been rectified, and the Consortium has it's proper losing music all-around. (BUG #31)
+
+
 Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebel's announcement VO instead of the Empire's. (BUG #12)
 
