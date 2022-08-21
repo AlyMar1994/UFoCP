@@ -42,7 +42,7 @@
 		<Corruption_Tactical_Production_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Production_Price_Multipliers>
 		<Corruption_Tactical_Build_Pad_Time_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Time_Multipliers>
 		<Corruption_Tactical_Build_Pad_Price_Multipliers> 1.0, 1.0 </Corruption_Tactical_Build_Pad_Price_Multipliers>
-		<Automatic_Planetary_Corruption_Upgrade_Type> 
+		<Automatic_Planetary_Corruption_Upgrade_Type>
 			Generic_Intimidation_Corruption_Upgrade,
 			Generic_Piracy_Corruption_Upgrade,
 			Generic_Kidnapping_Corruption_Upgrade,
@@ -124,11 +124,11 @@
 		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Space_Mode_Garrison_Selection_Blob_Material_Name>
 		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
-		<Space_Skirmish_AI_Default_Forces> 
+		<Space_Skirmish_AI_Default_Forces>
 			StarViper_Squadron, StarViper_Squadron
 		</Space_Skirmish_AI_Default_Forces>
 		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
-		<Land_Skirmish_AI_Default_Forces> 
+		<Land_Skirmish_AI_Default_Forces>
 			Underworld_Merc_Squad, Underworld_Merc_Squad
 		</Land_Skirmish_AI_Default_Forces>
 		<Land_Skirmish_Unit_Cap_By_Player_Count>
@@ -139,13 +139,13 @@
 		<Debug_Ground_Structures>
 			U_Ground_Barracks
 		</Debug_Ground_Structures>
-		
+
 		<Superweapon_Win_Movie />
 		<Generic_Win_Movie />
 		<Finale_Movie>Underworld_Win_Story_Campaign</Finale_Movie>
 		<Finale_Movie_2>Underworld_Win_Story_Campaign_Part2</Finale_Movie_2>
 		<Post_Credits_Movie />
-		
+
 		<Victory_Text>TEXT_UNDERWORLD_VICTORY</Victory_Text>
 		<Defeat_Text>TEXT_UNDERWORLD_DEFEAT</Defeat_Text>
 		<Space_Win_Image>i_us_win.tga</Space_Win_Image>
@@ -593,15 +593,15 @@
 		<!-- ...Conditional_And: A (and) B present and C not present										-->
 		<!--																								-->
 		<!-- Conditionals: 	 		(A) Present, 			  	(B) Present, 		(C) Not Present			-->
-		<!-- A and B present and C not present 
+		<!-- A and B present and C not present
 		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  Death_Star,			None, 				None,			 	GUS_INTRO_SPACE_DEFEND_U_05 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  Death Star present, Luke not present -->
-		<!-- A or B present and C not present 
+		<!-- A or B present and C not present
 		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> 	Tyber_Zann,			None, 				None, 				GUS_INTRO_SPACE_DEFEND_U_04 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  Just Tyber Zann present -->
-		<!-- A or B present and C not present 
+		<!-- A or B present and C not present
 		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> 	Emperor_Palpatine,	Mon_Mothma, 		None, 				GUS_INTRO_SPACE_ATTACK_U_05 </SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>  Empoeror Palpatine present or Mon Mothma present -->
-		<!-- A or B present and C not present 
+		<!-- A or B present and C not present
 		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> 	Tyber_Zann,			None, 				None, 				GUS_INTRO_SPACE_ATTACK_U_04 </SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>  Just Tyber Zann present -->
-		<!-- A or B present and C not present 
+		<!-- A or B present and C not present
 		<SpeechEvent_Tactical_Intro_Land_Defender_Conditional_Or> 	Tyber_Zann,			None, 				None, 				GUS_INTRO_LAND_DEFEND_U_04 </SpeechEvent_Tactical_Intro_Land_Defender_Conditional_Or>  Just Tyber Zann present -->
 		<!-- End Sandbox tactical battle introduction SpeechEvents -->
 
@@ -631,7 +631,7 @@
 				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_23,
 				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_24,
 				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_25,
-				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_26,				
+				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_26,
 				TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_27
 		</Galactic_Advisor_Hints>
 		<Space_Advisor_Hints>
@@ -683,7 +683,7 @@
         <Bribed_Color>155, 153, 119, 255</Bribed_Color>
 
 		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_UNDERWORLD.TGA</Multiplayer_Map_Preview_Icon>
-	
+
       <Alternate_Icon_Prefix> u_ </Alternate_Icon_Prefix>
 
 	</Faction>
@@ -704,7 +704,7 @@
 		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
 		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
 		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		
+
 		<Color> 255, 128, 0, 255 </Color>
 		<No_Colorization_Color> 231, 221, 67, 255 </No_Colorization_Color>
 		<Display_Font_Color> 255, 128, 0, 255 </Display_Font_Color>
