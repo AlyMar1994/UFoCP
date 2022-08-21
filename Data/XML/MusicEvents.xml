@@ -566,7 +566,7 @@
 
     <MusicEvent Name="Underworld_Lose_Tactical_Event">
         <Files>UND_Lose_to_Zann.MP3</Files>
-        <Volume_Percent>75</Volume_Percent>
+        <Volume_Percent>100</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
         <Loop>No</Loop>
@@ -574,7 +574,7 @@
 
     <MusicEvent Name="Underworld_Lose_Strategic_Event">
         <Files>UND_Lose_to_Zann.MP3</Files>
-        <Volume_Percent>75</Volume_Percent>
+        <Volume_Percent>100</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
         <Loop>No</Loop>
@@ -603,7 +603,7 @@
 
     <MusicEvent Name="Lose_To_Underworld_Event">
         <Files>UND_Lose_to_Zann.MP3</Files>
-        <Volume_Percent>75</Volume_Percent>
+        <Volume_Percent>100</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
         <Loop>No</Loop>

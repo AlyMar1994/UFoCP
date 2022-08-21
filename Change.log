@@ -47,7 +47,7 @@ AI Fixes:
 
 
 Audio Fixes:
-• Because of an incorrect filename, no music would play when losing against the Consortium.  The Consortium's generic losing music was also referencing the Rebels' music entry.  This has been rectified, and the Consortium has it's proper losing music all-around. (BUG #31)
+• Because of an incorrect filename, no music would play when losing against the Consortium.  The Consortium's generic losing music was also referencing the Rebels' music entry.  This has been rectified, the Consortium has it's proper losing music all-around, and due to its quiet nature has had its volume raised. (BUG #31)
 
 
 Unit Fixes:
