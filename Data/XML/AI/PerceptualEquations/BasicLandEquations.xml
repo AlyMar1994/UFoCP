@@ -491,8 +491,10 @@
 		Variable_Target.Type.IsType {Parameter_Type = "SKIRMISH_BUILD_PAD"
 												,Parameter_Type = "REBEL_BUILD_PAD"
 												,Parameter_Type = "EMPIRE_BUILD_PAD"
+												,Parameter_Type = "Underworld_Build_Pad"
 												,Parameter_Type = "Rebel_Build_Pad_Offensive"
 												,Parameter_Type = "Empire_Build_Pad_Offensive"		}
+												,Parameter_Type = "Underworld_Build_Pad_Offensive"		}
 		*
 		(1 - Variable_Target.HasBuiltObject)
 		*
@@ -526,11 +528,13 @@
 		(
 			10 * (0 == Variable_Self.TacticalBuiltStructureCount {Parameter_Type = "Empire_Anti_Infantry_Turret",
 																					Parameter_Type = "Rebel_Anti_Infantry_Turret",
+																					Parameter_Type = "Underworld_Torpedo_Turret",
 																					Parameter_Type = "Pirate_Anti_Infantry_Turret",
 																					Parameter_Type = "Hutt_Rapid_Fire_Laser_Turret"})
 			+
 			5 * (0.7 - Variable_Self.TacticalBuiltStructureCount {Parameter_Type = "Empire_Anti_Infantry_Turret",
 																					Parameter_Type = "Rebel_Anti_Infantry_Turret",
+																					Parameter_Type = "Underworld_Torpedo_Turret",
 																					Parameter_Type = "Pirate_Anti_Infantry_Turret",
 																					Parameter_Type = "Hutt_Rapid_Fire_Laser_Turret"}
 																					/ Function_Build_Pad_Count.Evaluate)
@@ -898,6 +902,7 @@
 			+
 			Variable_Target.HasBuiltObject {Parameter_Type = "Empire_Anti_Infantry_Turret",
 											Parameter_Type = "Rebel_Anti_Infantry_Turret",
+											Parameter_Type = "Underworld_Torpedo_Turret"
 											Parameter_Type = "Pirate_Anti_Infantry_Turret"}
 			*
 			(5 > Function_Need_AntiInfantry_Turret.Evaluate)
