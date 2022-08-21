@@ -6,8 +6,8 @@
 
 	<!-- Snowball budget - more money for offense as galactic domination comes closer -->
 	<BasicEmpireOffensiveBudgetAllocation>
-		5.0 
-		+ 
+		5.0
+		+
 		(10.0 * Variable_Self.PlanetsControlled)
 		+
 		(6.0 * (1.0 - Function_Has_Enough_Space_Force_Globally.Evaluate))
@@ -32,7 +32,7 @@
 
 	<Can_Build_Defensive_Structures>
 		(
-			Variable_Self.IsFaction {Parameter_Faction = "Empire"} * 
+			Variable_Self.IsFaction {Parameter_Faction = "Empire"} *
 			(Variable_Self.TechLevel >= 2) *
 			Variable_Self.HasGroundbaseOfLevel {Parameter_Level = 2, Parameter_Count = 1}
 		)
@@ -57,7 +57,7 @@
 													,Parameter_Type = "Ground_Rebel_Hypervelocity_Gun"
 													,Parameter_Type = "Ground_Magnepulse_Cannon"
 													,Parameter_Type = "Ground_Gravity_Generator"
-													} 
+													}
 	</Defensive_Structure_Count>
 
 	<!-- Have we met the desired ratio of defensive structures to planets controlled?
@@ -68,17 +68,17 @@
 	</Has_Enough_Defensive_Structures>
 
 	<!-- Increase with tech level: higher tech units mostly need high level bases.
-		Also increase with maintenance: bases prevent maintenance costs 
+		Also increase with maintenance: bases prevent maintenance costs
 		Decrease as bases are maxed out.
-	 
+
 		Note that The Major Item funds are diverted to Infrastructure if we are unable to tech up but want to.
 		Infrastructure money should then be spent on upgrading the highest level starbase, lifting the dependency.
 		-->
 	<BasicEmpireInfrastructureBudgetAllocation>
-		1.1 
-		* 
-		(2 + 0.5 * (Variable_Self.TechLevel) - Variable_Self.MaxedStarbases - Variable_Self.MaxedGroundbases) 
-		* 
+		1.1
+		*
+		(2 + 0.5 * (Variable_Self.TechLevel) - Variable_Self.MaxedStarbases - Variable_Self.MaxedGroundbases)
+		*
 		(1.0 + Variable_Self.Maintenance)
 		*
 		(1.0 + 2.0 * (0.5 > (Variable_Self.StructureCount {Parameter_Type = "Empire_Ground_Mining_Facility"} / Variable_Self.PlanetsControlledUnnormalized)))
@@ -108,13 +108,13 @@
 		(the tech was already deemed affordable, and the reserve for it remains in the category)
 
 		Shut off funds if we're behind in the space race but not behind in the tech race
-		
+
 		2.0 * Variable_Self.CanAdvanceTech
 	-->
 	<BasicEmpireMajorItemBudgetAllocation>
-		0.8 
-		* 
-		(7.0 	- Variable_Self.TechLevel 
+		0.8
+		*
+		(7.0 	- Variable_Self.TechLevel
 				- Variable_Self.HasUnit{Parameter_Type = "Death_Star"}
 				- Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Count = 1})
 		*
@@ -127,7 +127,7 @@
 
 	<!-- Tech Upgrade Purchasing Budgets -->
 	<!-- What fraction of the gross budget is required to support building the next tech item
-		without pause, plus a small pad to compansate for fluctuations in spending that 
+		without pause, plus a small pad to compansate for fluctuations in spending that
 		may occur before this perception can compensate.
 
 		add a buffer large enough to ensure that the upgrade can be afforded, despite cash spikes/drops
@@ -139,19 +139,19 @@
 			+
 			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Count = 1} *
 			(Variable_Self.TechLevel == 1) *
-			Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Primary_Hyperdrive"} 
+			Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Primary_Hyperdrive"}
 			+
 			(Variable_Self.TechLevel == 2) *
-			Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Shield_Gen"} 
+			Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Shield_Gen"}
 			+
 			(Variable_Self.TechLevel == 3) *
-			Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Superlaser_Core"} 
+			Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Superlaser_Core"}
 			+
 			(Variable_Self.TechLevel == 4) *
-			Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel"} 
-			+ 
+			Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel"}
+			+
 			(Variable_Self.TechLevel == 5) *
-			Variable_Self.BudgetFractionToBuild{Parameter_Type = "Death_Star"} 
+			Variable_Self.BudgetFractionToBuild{Parameter_Type = "Death_Star"}
 			*
 			1.25
 			+
@@ -177,15 +177,15 @@
 		Function_Can_Build_Defensive_Structures.Evaluate
 	</EmpireTechUpgradeDefensiveAllocation>
 
-	<!-- 
-		Variable_Self.CanAdvanceTech 
-		* 
+	<!--
+		Variable_Self.CanAdvanceTech
+		*
 	-->
 	<EmpireTechUpgradeMajorItemAllocation>
 		Function_TechUpgradeBudgetRequirement.Evaluate
 	</EmpireTechUpgradeMajorItemAllocation>
 
-	<!-- 
+	<!--
 		(1.0 - Variable_Self.CanAdvanceTech) * Function_TechUpgradeBudgetRequirement.Evaluate
 		+
 	-->
@@ -212,7 +212,7 @@
 		+
 		(6.0 * (1.0 - Function_Has_Enough_Space_Force_Globally.Evaluate))
 	</BasicRebelOffensiveBudgetAllocation>
-	
+
 	<!-- Defensive budget increases with proportion of planets that are undefended -->
 	<BasicRebelDefensiveBudgetAllocation>
 		Function_Has_Enough_Space_Force_Globally.Evaluate
@@ -223,37 +223,37 @@
 			2.0
 		)
 	</BasicRebelDefensiveBudgetAllocation>
-	
+
 	<!-- Increase with tech level: higher tech units mostly need high level bases. -->
 	<!-- Also increase with low income -->
 	<!-- Decrease as bases are maxed out -->
 	<BasicRebelInfrastructureBudgetAllocation>
-		1.1 
-		* 
-		(2 + 0.5 * (Variable_Self.TechLevel) - Variable_Self.MaxedStarbases - Variable_Self.MaxedGroundbases) 
-		* 
+		1.1
+		*
+		(2 + 0.5 * (Variable_Self.TechLevel) - Variable_Self.MaxedStarbases - Variable_Self.MaxedGroundbases)
+		*
 		(1.0 + Variable_Self.Maintenance)
 		*
 		(1.0 + 2.0 * (0.5 > (Variable_Self.StructureCount {Parameter_Type = "Rebel_Ground_Mining_Facility"} / Variable_Self.PlanetsControlledUnnormalized)))
 		+
 		10 * ((Variable_Self.HasStructure {Parameter_Type = "R_Ground_Light_Vehicle_Factory"} == 0) +
 				(Variable_Self.HasStructure {Parameter_Type = "R_Ground_Barracks"} == 0) +
-				(Variable_Self.HasStructure {Parameter_Type = "Rebel_Ground_Mining_Facility"} == 0))	
+				(Variable_Self.HasStructure {Parameter_Type = "Rebel_Ground_Mining_Facility"} == 0))
 	</BasicRebelInfrastructureBudgetAllocation>
-	
+
 	<!-- Based on average age of scouted information -->
 	<BasicRebelInformationBudgetAllocation>
 		0.5 * Function_Global_Scout_Need.Evaluate
-	</BasicRebelInformationBudgetAllocation>	
-	
+	</BasicRebelInformationBudgetAllocation>
+
 	<GenericSpaceTargetedOffensiveBudgetAllocation>
 		Game.ForceVisibility
 	</GenericSpaceTargetedOffensiveBudgetAllocation>
-	
+
 	<GenericSpaceDefensiveBudgetAllocation>
 		0.5
 	</GenericSpaceDefensiveBudgetAllocation>
-	
+
 	<GenericSpaceUntargetedOffensiveBudgetAllocation>
 		1.0 - Game.ForceVisibility
 	</GenericSpaceUntargetedOffensiveBudgetAllocation>
@@ -269,8 +269,8 @@
 	 -->
 	<Land_Tactical_Budget>
 		(
-			1 * Function_GenericPlanetValue.Evaluate + 
-			2 * Variable_Target.FriendlyForce.GroundTotal + 
+			1 * Function_GenericPlanetValue.Evaluate +
+			2 * Variable_Target.FriendlyForce.GroundTotal +
 			3 * Variable_Target.GroundbaseLevel
 		) / 5
 		* 2500

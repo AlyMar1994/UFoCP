@@ -34,7 +34,7 @@
 
 <!-- START INTRO CINEMATIC THEMES -->
 
-	<MusicEvent Name="Cinematic_Empire_Intro_Music_Event_2">	  
+	<MusicEvent Name="Cinematic_Empire_Intro_Music_Event_2">
 		<Files> Empire_Intro_3_Mix.mp3 </Files>
         <Volume_Percent>70</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
@@ -42,7 +42,7 @@
         <Loop>No</Loop>
     </MusicEvent>
 
-	<MusicEvent Name="Cinematic_Rebel_Intro_Music_Event_1">	  
+	<MusicEvent Name="Cinematic_Rebel_Intro_Music_Event_1">
 		<Files> REBEL_Intro_1_Mix.mp3 </Files>
         <Volume_Percent>70</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
@@ -54,7 +54,7 @@
 
 
 
-	
+
 <!-- START GALACTIC THEMES -->
 
 	<MusicEvent Name="Galactic_Map_Rebel_Music_Event">
@@ -113,7 +113,7 @@
 		<MSS_Internal_Loop> Yes </MSS_Internal_Loop> <!-- Required for long load where MSS handles the loop -->
     </MusicEvent>
 
-<!-- 
+<!--
 	<MusicEvent Name="Galactic_Battle_Pending_Music_Event">
 		<Files> Battle_Pending_1.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
@@ -122,7 +122,7 @@
         <Loop>Yes</Loop>
     </MusicEvent>
 -->
-<!-- 
+<!--
 	Note MSS_Internal_Loop required due to event manager not processing during long data loads
 
 	<MusicEvent Name="Tactical_Battle_Load_Screen_Music_Event">
@@ -131,7 +131,7 @@
 		<Fade_In_Seconds>0.0</Fade_In_Seconds>
 		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
 		<Loop>Yes</Loop>
-		<MSS_Internal_Loop>Yes</MSS_Internal_Loop> 
+		<MSS_Internal_Loop>Yes</MSS_Internal_Loop>
     </MusicEvent>
 -->
 
@@ -174,7 +174,7 @@
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
         <Loop>Yes</Loop>
     </MusicEvent>
-	
+
 	<MusicEvent Name="Ice_Land_Rebel_Ambient_Music_Event">
         <Files> R_The_Ice_Planet_Hoth.MP3, E_Wampas_Lair.MP3 </Files>
         <Volume_Percent>55</Volume_Percent>
@@ -231,7 +231,7 @@
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
         <Loop>Yes</Loop>
     </MusicEvent>
-	
+
 	<MusicEvent Name="Ice_Land_Empire_Ambient_Music_Event">
         <Files> E_Wampas_Lair.MP3, R_The_Ice_Planet_Hoth.MP3 </Files>
         <Volume_Percent>55</Volume_Percent>
@@ -288,7 +288,7 @@
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
         <Loop>Yes</Loop>
     </MusicEvent>
-	
+
 	<MusicEvent Name="Ice_Land_Rebel_Battle_Music_Event">
         <Files> R_The_Battle_of_Hoth.MP3, E_The_Battle_of_Hoth_2.MP3 </Files>
         <Volume_Percent>55</Volume_Percent>
@@ -346,7 +346,7 @@
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
         <Loop>Yes</Loop>
     </MusicEvent>
-	
+
 	<MusicEvent Name="Ice_Land_Empire_Battle_Music_Event">
         <Files> E_The_Battle_of_Hoth_2.MP3, R_The_Battle_of_Hoth.MP3 </Files>
         <Volume_Percent>55</Volume_Percent>
@@ -541,7 +541,7 @@
         <Loop>No</Loop>
     </MusicEvent>
 
- 
+
 
 
 
@@ -636,4 +636,3 @@
 	</MusicEvent>
 
 </MusicEvents>
-
