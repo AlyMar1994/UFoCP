@@ -176,7 +176,8 @@
 		)
 		*
 		(1 - (Variable_Target.Type.IsType {	Parameter_Type = "E_Ground_Turbolaser_Tower",
-											Parameter_Type = "R_Ground_Turbolaser_Tower"}))
+											Parameter_Type = "R_Ground_Turbolaser_Tower",
+											Parameter_Type = "U_Ground_Turbolaser_Tower"}))
 		*
 		(1.0 - Function_May_Lose_Land_Control_Game.Evaluate)
 	</Should_Destroy_Structure>
@@ -193,7 +194,8 @@
 		(1 - Variable_Target.Location.EnemyForce)
 		*
 		(Variable_Target.Type.IsType {	Parameter_Type = "E_Ground_Turbolaser_Tower",
-										Parameter_Type = "R_Ground_Turbolaser_Tower"})
+										Parameter_Type = "R_Ground_Turbolaser_Tower",
+										Parameter_Type = "U_Ground_Turbolaser_Tower"})
 		*
 		50
 		*
