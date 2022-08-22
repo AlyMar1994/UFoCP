@@ -48,6 +48,7 @@ AI Fixes:
 • When deciding on attacking a structure, the AI would not factor in the Consortium's Repulsorlift Jammers alongside the other "tactically active" infrastructure to target.  This has been rectified. (BUG #115)
 • When deciding on attacking a structure, the AI would not factor in the Consortium's turbolaser towers as structures to avoid.  Additionally, the AI would not factor in Consortium turbolaser towers as apart of their "destroy turbolaser towers" plan when built in Skirmish mode.  This has been rectified. (BUG #116)
 • When considering whether or not to construct repair bays for units and vehicle heroes, the hero prerequisites list didn't include IG-88 nor Garm Bel Iblis as units on the field that can benefit from repair bays, even though that is their main source of healing.  This has been rectified. (BUG #117)
+• When budgeting for their defensive infrastructure, the Consortium wouldn't consider the Repulsorlift Jammer as a part of their defensive structure pool, nor would they budget at all for the structure when figuring out if they should save their money or build up their planets.  The Jammer has been added to both considerations. (BUG #118)
 
 
 Audio Fixes:

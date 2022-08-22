@@ -22,7 +22,8 @@
 		10 * ((Variable_Self.HasStructure {Parameter_Type = "U_Ground_Droid_Works"} == 0) +
 				(Variable_Self.HasStructure {Parameter_Type = "U_Ground_Barracks"} == 0) +
 				(Variable_Self.HasStructure {Parameter_Type = "U_Ground_Vehicle_Factory"} == 0) +
-				(Variable_Self.HasStructure {Parameter_Type = "U_Ground_Palace"} == 0))
+				(Variable_Self.HasStructure {Parameter_Type = "U_Ground_Palace"} == 0) +
+				(Variable_Self.HasStructure {Parameter_Type = "U_Ground_Gravity_Generator"} == 0))
 		+
 		5.0 * (2 > Variable_Self.StructureCount {Parameter_Type = "U_Ground_Palace"})
 		+
