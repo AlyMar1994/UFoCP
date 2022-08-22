@@ -162,7 +162,8 @@
 			(10 * Variable_Target.Type.IsType { Parameter_Type = "E_Ground_Base_Shield",
 												Parameter_Type = "R_Ground_Base_Shield",
 												Parameter_Type = "Power_Generator_E",
-												Parameter_Type = "Power_Generator_R"})
+												Parameter_Type = "Power_Generator_R",})
+												Parameter_Type = "U_Ground_Gravity_Generator"})
 			+
 			(20 * Variable_Target.Type.IsType { Parameter_Type = "Empire_Mineral_Processor"
 												,Parameter_Type = "Rebel_Mineral_Processor"
