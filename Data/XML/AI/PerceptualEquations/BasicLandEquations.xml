@@ -619,6 +619,8 @@
 	<Has_Vehicle_Hero>
 		Variable_Self.HasUnit { Parameter_Type = "General_Veers"
 								,Parameter_Type = "Tactical_R2_3PO_Team" }
+								,Parameter_Type = "Garm_Bel_Iblis_Team" }
+								,Parameter_Type = "IG88_Team" }
 	</Has_Vehicle_Hero>
 	<!--
 	Do we have a use for this
