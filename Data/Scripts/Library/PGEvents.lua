@@ -151,6 +151,7 @@ function Respond_To_MinRange_Attacks(tf, unit)
 	min_range_attackers = {
 		"R_Ground_Turbolaser_Tower"
 		,"E_Ground_Turbolaser_Tower"
+		,"U_Ground_Turbolaser_Tower"
 		,"MPTL"
 		,"SPMAT_Walker"
 		,"Marauder_Missile_Cruiser"
