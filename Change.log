@@ -42,7 +42,7 @@ Ability Fixes:
 
 
 AI Fixes:
-• During certain conquering plans, the AI would always have a five minute sleep cycle after a victory/failure because of a coding mistake (the scripts could not find the player and evaluate the Difficulty setting).  The AI was rectified to sleep for its appropriate cycles before dropping the plan (5 minutes on Easy, 3min 30sec on Normal and 45 seconds on Hard). (BUG #69)
+• During certain conquering plans, the AI would always have a five minute sleep cycle after a victory/failure because of a coding mistake (the scripts could not find the player and evaluate the Difficulty setting).  The AI was rectified to sleep for its appropriate cycles (5 minutes on Easy, 3min 30sec on Normal and 45 seconds on Hard). (BUG #69)
 • During the AI's blitzkrieg conquering plan "Crush," the plan would always cancel before starting because of a coding mistake (the script could not find the player and evaluate the Difficulty setting).  The AI was rectified to properly continue the plan should the Difficulty turn out to be set to Hard. (BUG #79)
 • The list of AI considerations for when to build anti-infantry turrets weren't changed from EaW.  The Consortium now considers if a friendly build pad is nearby, if a mining facility/resource pad is near the enemy, and now knows the Proton Torpedo Turret is their designated anti-infantry turret. (BUG #114)
 • When deciding on attacking a structure, the AI wouldn't factor in the Consortium's Repulsorlift Jammers alongside the other "tactically active" infrastructure to target. (BUG #115)
@@ -52,7 +52,7 @@ AI Fixes:
 
 
 Audio Fixes:
-• Because of an incorrect filename, no music would play when losing against the Consortium.  The Consortium's generic losing music was also referencing the Rebels' music entry.  This has been rectified, and the Consortium's losing music had its volume boosted. (BUG #31)
+• Because of an incorrect filename, no music would play when losing against the Consortium.  The Consortium's generic losing music was also referencing the Rebels' music entry.  This has been rectified, and the music had its volume boosted. (BUG #31)
 
 
 Unit Fixes:
