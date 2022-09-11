@@ -1,8 +1,7 @@
 ---
 name: Audio
-about: Help us eliminate as many issues in FoC's SFX, VO and music.  For any audio-related
-  issues whatsoever.
-title: Audio - Description of Audio Error
+about: Help us eliminate as many issues in FoC's audio.  For any/all audio-related issues.
+title: Audio - [PROBLEM DESCRIPTION]
 labels: Audio, Bug (FoC)
 assignees: ''
 

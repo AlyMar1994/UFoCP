@@ -1,9 +1,8 @@
 ---
-name: Typo/Grammar
-about: Help us find typos or grammar errors in FoC or UFoCP.  If text is outright
-  missing, use the "Bug" template instead.
-title: "[ITEM/TEXT KEY] - Description of Typo/Grammar Issue"
-labels: Typo
+name: Typo or Grammar
+about: Help us find typos or grammar errors in Forces of Corruption or the Patch.  If text is outright missing, use the generic "Bug" template instead.
+title: "[ITEM/TEXT KEY] - [TYPO/GRAMMAR DESCRIPTION]"
+labels: Typo, Bug (FoC)
 assignees: ''
 
 ---
