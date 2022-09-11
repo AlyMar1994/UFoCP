@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 <details><summary>Please Note (click to expand)</summary>
-_This template is for inconsistencies in FoC.  Inconsistencies, for example, are how every space hero unit is named something different.  E.g.: while Red and Rogue Squadron exist, Vader's squadron is just named "Darth Vader" instead of "Black Squadron," and while Piett is named "The Accuser - Captain Piett," Thrawn and Veers are named "The Admonitor" and "General Maximillian Veers" instead of "The Admonitor - Grand Admiral Thrawn" and "Blizzard 1 - General Veers."_
+This template is for inconsistencies in FoC.  Inconsistencies, for example, are how every space hero unit is named something different.  E.g.: while Red and Rogue Squadron exist, Vader's squadron is just named Darth Vader instead of Black Squadron, and while Piett is named The Accuser - Captain Piett, Thrawn and Veers are named The Admonitor and General Maximillian Veers instead of The Admonitor - Grand Admiral Thrawn and Blizzard 1 - General Veers.
 </details>
 
 **Quick Information:**

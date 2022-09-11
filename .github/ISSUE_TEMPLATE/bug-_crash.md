@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 <details><summary>Please Note (click to expand)</summary>
-_This reporting template is for crashes that happen for any reason in FoC or UFoCP.  To fully submit a crash report, you must download the Debugging Client from the issue template selection page, and use it to generate debug logs in your Forces of Corruption directory.  Place the executables next to the game's application in the ..\corruption\ folder.  If you cannot generate a log for any reason (e.g. if the crash isn't easily reproducable), then explain the crash as vividly and detail-full as you can when, where, and what you were doing when it happened.  To acknowledge you read this, delete this bloc, otherwise your report will be immediately closed and disregarded._
+This reporting template is for crashes that happen for any reason in FoC or UFoCP.  To fully submit a crash report, you must download the Debugging Client from the issue template selection page, and use it to generate debug logs in your Forces of Corruption directory.  Place the executables next to the game's application in the ..\corruption\ folder.  If you cannot generate a log for any reason (e.g. if the crash isn't easily reproducable), then explain the crash as vividly and detail-full as you can when, where, and what you were doing when it happened.  To acknowledge you read this, delete this bloc, otherwise your report will be immediately closed and disregarded.
 </details>
 
 **Quick Information:**

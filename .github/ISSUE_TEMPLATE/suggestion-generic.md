@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 <details><summary>Please Note (click to expand)</summary>
-_This suggestion template is for specific, justified changes which will help it achieve its goal of being a prime example of an unofficial patch.  This template is not for your whims or wants or what you think UFoCP should be.  While it may feel harsh, any suggestion not following the requirement above will be immediately closed and disregarded.  If you accept this requirement, delete this bloc from your report._
+This suggestion template is for specific, justified changes which will help it achieve its goal of being a prime example of an unofficial patch.  This template is not for your whims or wants or what you think UFoCP should be.  While it may feel harsh, any suggestion not following the requirement above will be immediately closed and disregarded.  If you accept this requirement, delete this bloc from your report.
 </details>
 
 **Quick Information:**
