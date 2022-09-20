@@ -1,0 +1,1041 @@
+=========================================================================================
+v1.16.682
+=========================================================================================
+There are MasterTextFiles_ENGLISH.dat updates in this update! Check "Changelog - MasterTextFile_ENGLISH.txt" in the game directory to see!
+
+
+==================
+UFoCP
+==================
+-Removed the modified credits music from the mod.  Let alone the technical legal implications of including part of A New Hope's soundtrack into the mod, in terms of fixes it's relatively unnecessary.  It was also unlikely to be heard (unless you liked watching the credits, that is), and wasn't technically an incorrect version of "The Throne Room/End Title."  There were 16 different takes, combined, of TTR/ET altogether, and the version originally in Empire at War was an alternate take released by 20th Century Fox Film Scores when "In the time between the original LP release and the Anthology's release," the breakdown of what was going to be released versus what was used in the film was lost.  Petroglyph probably just liked the "incorrect" take anyway, and there was no justification for changing it.
+
+-Regenerated all AI hint data for included land maps to adjust for map modifications.
+
+-Compressed the mod into .MEG files for quicker loading and fewer system calls.
+
+
+-Honoghr – Fixed campaign Intimidation corruption mission having missing objective text.
+
+
+-Corellian Corvette – Fixed Underworld Corellian Corvette pointing to a non-existent unit for its "vulnerable to" indicator.  Was pointing to "Alliance_Assault_Ship" and not "Alliance_Assault_Frigate."
+
+-Defiler – Fixed thrown bomb having a broken Class ID.
+
+-Marauder Cruiser – Fixed Underworld Marauder Cruiser pointing to a non-existent unit for its "vulnerable to" indicator.  Was pointing to "Alliance_Assault_Ship" and not "Alliance_Assault_Frigate."
+
+-Grenadier – Fixed proximity mines having a broken Class ID.
+
+-IPV Patrol Craft – Fixed not having a selection box.  The SpaceCorvettes file wasn't present on source yet was before - restored and fixed.
+-IPV Patrol Craft – Fixed not using its own Power-to-Weapons VO.  The SpaceCorvettes file wasn't present on source yet was before - restored and fixed.
+-IPV Patrol Craft – Added the Underworld to the list of affiliated factions.  The SpaceCorvettes file wasn't present on source yet was before - restored and fixed.
+
+-The Millennium Falcon - Han Solo & Chewbacca – Fixed weapon inaccuracy distance.  "Super" was erroneously changed from 1.0 to 30.0, making the Falcon very inaccurate against the giant SSD.
+
+-V-wing – Fixed Hutt V-wings having broken descriptions.
+
+
+==================
+General
+==================
+-Did some passes within Lua to clean.
+
+-Did a pass on the entirety of Changelog.txt and Changelog Condensed.txt to ensure up-to-date information and proper grammar.
+
+-Fixed Steam Workshop page using incorrect mod tags.
+
+-Honoghr – Fixed campaign Intimidation corruption mission not marking objective Urai surviving as complete when finished.
+
+
+==================
+A.I.
+==================
+-(LUA) TacticalMultiplayerBuildSpaceUnitsGeneric – Fixed Underworld AI being unable to build the Venator cruiser (it wasn't defined).
+
+
+==================
+Maps/Planets (Land)
+==================
+-All affected land maps in the mod (with their passability modified) have had their AI data regenerated to ensure the AI is aware of new tactical zones and land connections.
+
+-Nal Hutta – Modified terrain passability in the northernmost building area.  Underworld droidekas could get stuck on the steep slope to the right of a factory if placed there.
+-Nal Hutta – Improved passability on the entire map.  Hopefully, this improves pathfinding/helps movement make more sense.
+-Nal Hutta – Modified top-right swamp's left-most building position so the build pad isn't colliding with a possible building.
+-Nal Hutta – Shifted all Hutt Palace placements near the defender and attacker reinforcement points to prevent Hutts from getting stuck on the hills.
+-Nal Hutta – Attempt at fixing spawn point dianoga phasing into the nearby hills.
+
+
+==================
+Maps/Planets (Space)
+==================
+-Dantooine – Fixed space station spawner being affiliated with the Rebels.
+-Dantooine – Regenerated map preview to correct incorrect content.
+
+-Dathomir – Fixed none of the defense satellites spawning.
+-Dathomir – Fixed Dathomir not being labeled as a space map but as a desert.
+-Dathomir – Regenerated map preview to correct a severely out-of-date map.
+
+-Felucia – Fixed two defense satellites only appearing for the Rebellion.
+
+-Fondor – Fixed space map preview being severely inaccurate/out-of-date.
+
+-Mandalore – Fixed space map preview being out-of-date.
+
+-Nal Hutta – Fixed the DS2 targeting Nar Shaddaa (the moon).  Nar Shaddaa used Coruscant's planet model scaled-down, which was targetable and killable like normal Coruscant.  Changed out with a custom NarShaddaa_Backdrop duplicate without killable properties.
+-Nal Hutta – Fixed perimeter defense turret satellites only appearing if the Black Sun Pirates owned the planet.
+
+-Sullust – Fixed in-battle planet being a desert instead of volcanic.  The file the volcanic planet backdrop is located had its model misspelled to "W_Planet_Volcanic.alo" and not "W_Planet_Volcanic00.alo," and a desert planet was used in its place.
+-Sullust – Fixed space map preview being out-of-date.
+
+
+==================
+Units (Land)
+==================
+
+-Boba Fett – Increased size of Slave I's landing model to match the relative size of other ships (as its model is drastically smaller than other ships, it was disproportional).
+
+-Grenadier – Gave the proximity mine object a new description to stay closer in line with other abilities.
+
+
+==================
+Units (Space)
+==================
+-Death Star II – Adjusted minimap icon to reflect the DS2's actual size.
+
+-IG-2000 - IG-88 – Fixed the Object Contestation Glitch.
+-IG-2000 - IG-88 – Adjusted description to be more akin to the other heroes.
+
+-Luke Skywalker – Removed all instances of Luke calling "Red 5 here!" in space because Red Squadron doesn't exist anymore.  Fun fact: Petroglyph duplicated this line six times in the files.
+
+-The Hound's Tooth - Bossk – Fixed the Object Contestation Glitch.
+-The Hound's Tooth - Bossk – Adjusted description to be more akin to the other heroes.
+
+-The Millennium Falcon - Han Solo & Chewbacca – Modified unit's space description to match other heroes more consistently.
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.15
+=========================================================================================
+
+
+==================
+General
+==================
+-Modified UI element IDD_LAN_STAGING_DIALOG.  Modified chatbox width to match, as intended.
+-Modified UI element IDD_INTERNET_STAGING_DIALOG.  Modified chatbox width to match, as intended.
+
+
+==================
+Units (Land)
+==================
+-Obi-Wan Kenobi – Fixed the game hanging when Obi-Wan is brought onto the battlefield.
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.14
+=========================================================================================
+
+
+==================
+General
+==================
+-Maps – Did another map preview removal pass for maps that didn't need it and regenerated map previews for those that did, using a higher quality method.  They should look a lot better now.  (Thanks evilbobthebob!)
+
+-Gave all Lua in UFoCP a clean pass of organization, functionality, and better practice, including variable localization.
+
+-Commented out upgrade "RL_More_Garrisons_L1_Upgrade" as it is unused.
+-Commented out upgrade "RS_More_Garrisons_L1_Upgrade" as it is unused.
+-Commented out upgrade "EL_More_Garrisons_L1_Upgrade" as it is unused.
+-Commented out upgrade "ES_More_Garrisons_L1_Upgrade" as it is unused.
+
+
+==================
+A.I.
+==================
+-(LUA) GalacticFreeStore – Fixed misspelling of variable "UnitServiceRate" as "UnitSercviceRate," which resulted in an improper timing for the AI to check and see whether or not they should reconsider unit/frontline positioning.  It is now checked properly every eight seconds.
+
+-(LUA) PGEvents – Fixed a behavior that didn't include Underworld M.A.L. as a part of the AI to try to get in and/or escape the maximum attack range for "artillery" (turbolaser towers, MPTL, SPMA-T, etc).  This was supposed to be included in the last update, as this *is* the Underworld's artillery, along with their skirmish turbolaser towers.
+
+-(LUA) PurchaseLandUpgradesGeneric – Fixed AI checking for unused upgrades, which cannot be purchased in Skirmish, causing assertion errors.
+
+-(LUA) PurchaseSpaceUpgradesGeneric – Fixed AI checking for unused upgrades, which cannot be purchased in Skirmish, causing assertion errors.
+
+
+-(PE) AI_Equations_Underworld_Budgeting – Updated proper Underworld budgeting "Underworld_Infrastructure_Budget_Allocation" to include the Repulsorlift Jammer.
+
+-(PE) BasicLandEquations – Modified <Allowed_To_Retreat_From_Land> to prevent Hutts (as a fodder faction) from retreating.  This was to keep consistency with other changes and keep it in line as intended with the Black Sun Pirates.
+
+-(PE) DefensiveGalacticEquations – Modified <Defense_Level> to accurate account for Underworld Repulsorlift Jammers.  Was searching for "Ground_Gravity_Generator" instead of "U_Ground_Gravity_Generator."
+
+-(PE) DefensiveGalacticEquations – Modified <Ground_Priority_Defense_Score> to accurate account for Underworld Repulsorlift Jammers.  Was searching for "Ground_Gravity_Generator" instead of "U_Ground_Gravity_Generator."
+
+-(PE) OffensiveGalacticEquations – Modified <Need_To_Flush_MajorItem_Budget> money trickle-down system to include the Death_Star_II (FoC) instead of just Death_Star (EaW).  This increases AI prioritization towards priority items (like tech levels), and only stops if the DS2 is built, or if any more space forces are needed.
+
+-(PE) OffensiveGalacticEquations – Modified <Should_Conquer_Opponent_Planet> to include Death_Star_II.  Hopefully, the AI will be a bit more dissuaded to ram the DS2 unless they have an appropriate unit.
+
+
+-(TPL) BasicEmpireTemplates – Fixing parsing errors.
+
+-(TPL) BasicGenericTemplates – Fixing parsing errors.
+
+-(TPL) NativeLifeTemplates – Fixing parsing errors.
+
+
+==================
+Maps/Planets (Galactic)
+==================
+-Bestine – Fixed planetary buff not reducing the price of Underworld Acclamator Assault Ships by 20%.
+
+-Carida – Fixed planetary buff not reducing the price of Underworld infantry by 20%.
+
+-Corellia – Fixed planetary buff not reducing the price of Underworld Corellian Corvettes by 20%.
+
+-Corulag – Fixed planetary buff not reducing the price of Underworld infantry by 20%.
+
+-Fresia – Fixed planetary buff not reducing the price of the Underworld A-wing squadron by 20%.
+
+-Sullust – Fixed planetary buff not reducing the price of Underworld Tartan Patrol Cruisers by 20%.
+
+-Vergesso Asteroids – Fixed planetary buff not applying a 25% damage boost on the Underworld A-wing or Z-95.
+
+-Yavin 4 – Fixed planetary buff not applying a 25% shield boost on the Underworld A-wing or Z-95.
+
+
+==================
+Maps/Planets (Land)
+==================
+-Corellia – Regenerated map preview because of graphical oddities (water was nuclear green).
+
+-Honoghr (Intimidation) – Regenerated map preview to fix some visual errors (water, objective markers).
+-Honoghr (Intimidation, Campaign) – Regenerated map preview.  The entire thing itself was a visual error (oversaturated/bad colors, improper geometry, too small, unused map modifications, etc.).
+
+-Tatooine – Updated map preview.
+
+
+==================
+Maps/Planets (Space)
+==================
+-Aeten II (Piracy) – Fixed not having a map preview on the battle briefing screen.
+
+-Bespin (Piracy) – Fixed not having a map preview on the battle briefing screen.
+-Bespin (Piracy, Campaign) – Fixed not having a map preview on the battle briefing screen.
+
+-Corellia (Piracy) – Fixed not having a map preview on the battle briefing screen.
+
+-Corulag (Piracy) – Fixed not having a map preview on the battle briefing screen.
+
+-Fondor (Piracy) – Fixed not having a map preview on the battle briefing screen.
+
+-Kessel (Piracy) – Fixed the map preview being full of graphical errors (it is an oversaturated beta map, featuring non-existent nebulae, etc).
+
+-Mandalore (Piracy) – Regenerated map preview to fix some visual errors (ships firing at each other), also incorrect size.
+-Mandalore (Piracy, Campaign) – Regenerated map preview to fix some visual errors (there's a drydock instead of the pirate station), also incorrect size.
+-Mandalore (Piracy, Prologue) – Regenerated map preview to fix some visual errors (nothing appears), also incorrect size.
+
+-Mon Calamari (Piracy) – Fixed not having a map preview on the battle briefing screen.
+
+
+==================
+Models
+==================
+-P_Planet_Corrupt2 – A new version of this file, "P_Planet_Corrupt2_Reduced" is now used.  This results in a similar look for the corruption particles on trade routes, but with ~20% less actually spawning.  This should result in marginally better performance.  (Thanks Lany!)
+
+
+==================
+Structures (Land)
+==================
+-Droid Works – Fixed structure not having tag <Requires_Base_Power>, so the building's shields wouldn't turn off when the Underworld Palace generator was destroyed.
+
+-Mercenary Barracks – Fixed structure not having tag <Requires_Base_Power>, so the building's shields wouldn't turn off when the Underworld Palace generator was destroyed.
+
+-Underworld Palace – Fixed structure not having tag <Requires_Base_Power>, so the building's shields wouldn't turn off when the Underworld Palace generator was destroyed.
+
+-Zann Consortium Factory – Fixed structure not having tag <Requires_Base_Power>, so the building's shields wouldn't turn off when the Underworld Palace generator was destroyed.
+
+
+==================
+Textures
+==================
+-Command Bar – Fixed pause button (b_play_pause) not having proper texture for being disabled.
+
+-I_Button_Corruption_Piracy_G – Made the Piracy galactic icon look a lot better.  Should be more vanilla-styled.
+
+-I_Galactic_Dashboard_Skirmish (Empire) – Fixed dashboard texture to stop overlap from the on-screen menu button, and the UI box containing all of the option buttons.  Also optimized texture with better compression (DXT5, no mipmaps included to prevent quality differences on lower settings).
+
+-NB_YsalamiriTree_B – Added bump map to the Ysalamiri Tree.  A bump map was never created for it, despite the model trying to find one.
+
+-W_RivRock00_B – Added bump map to the RiverRock00 texture.  A bump map was never created for it, despite Nal Hutta map environment trying to find one.
+
+
+==================
+Units (Land)
+==================
+-Grenadiers – Fixed unit container using incorrect damage values for the STIM_PACK ability.
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.13
+=========================================================================================
+There are MasterTextFiles_ENGLISH.dat updates in this update! Check "MasterTEXT Changelog.txt" in the game directory to see!
+
+
+==================
+General
+==================
+-Reorganized all hardpoints files into separate files: Hardpoints (for Pirates/misc factions and items), _Rebels (for Rebel space and land items), _Empire (for Empire space and land items), and _Underworld (to only include Underworld items).  The original files were messy, gigantic, and without organization.
+-Reorganized all upgrade files into separate files: UpgradeObjects_Rebels, _Empire, _Underworld, and original UpgradeObjects for organization.
+
+-All hardpoints files have undergone a structural/code rework, standardizing it and cleaning it up.  Hardpoints without Damage_Types should be fixed, and everything should be functioning properly.
+-Reorganized the upgrades files and their contents to be cleaned, along with fixing any erroneous upgrades.
+
+-Fixed duplicate trade route "Anaxes_Carida" to fix an internal error.
+-Fixed duplicate trade route "Mandalore_Utapau" to fix an internal error.
+
+-Removed ability "Tani_Slicer" declaration in GameConstants to fix an internal error, as Tani is a completely unused unit.
+-Removed ability "Mara_Jade_Sabotage" declaration in GameConstants to fix an internal error, as Mara isn't a galactic unit and cannot sabotage like the Defilers (she doesn't have the ability anyway).
+-Removed ability "Kyle_Katarn_Sabotage" declaration in GameConstants to fix an internal error, as Kyle isn't a galactic unit and cannot sabotage like the Defilers (he doesn't have the ability anyway).
+-Removed ability "Corruptor_Corrupt_Planet_1" declaration in GameConstants to fix an internal error, as the "Saboteur"/"Corrupter" unit was replaced with the modern Defiler.
+
+-Fixed upgrade Combat Armor (lv.1) tooltip mentioning infantry defense is increased 25%, when in reality it was 50%.  The tooltip has been changed.
+-Fixed upgrade Combat Armor (lv.2) tooltip mentioning infantry defense is increased 25%, when in reality it was 50%, and not mentioning both infantry and Plex.  The tooltip has been changed.
+-Fixed upgrade "Light Armor Plating" (lv.1 and 2) not mentioning it upgrades Pod Walkers as well.
+-Fixed upgrade "Enhanced Repulsors" (lv.1 and 2) not mentioning it upgrades Pod Walkers as well.
+-Fixed upgrade "Stamina Boost" not having "Stormtrooper_Team" as a part of the affected units.
+-Fixed upgrade "Light Reflective Armor" not having the correct reflection percentages mentioned in the tooltip.
+-Fixed upgrade "Improved AT-AT Reactors" (lv.2) not having the correct percentage bonuses mentioned in the tooltip.
+-Fixed upgrade "Weapon Boost (Level 2)" not being mentioning the Canderous Tank in the skirmish upgrade's tooltip.  Along with the MZ-8 tank, the Candie also gets its damage upgrade by 50%.
+-Fixed upgrade "Modified Cloaking Generator" (lv.1 and 2) upgrades.  Upgrade originally did nothing, as the ability type was "Ground_Automatic" instead of "Space_Automatic."
+-Fixed upgrade "Modified Cloaking Generator" (lv.2) upgrade.  Upgrade originally did nothing, as the ability type was "Ground_Automatic" instead of "Space_Automatic."
+-Removed duplicate <Category_Mask> on the "Enhanced Base Shield" Empire upgrade.
+
+
+==================
+A.I.
+==================
+-(LUA) PGEvents – Fixed up some missing behaviors.  Changing some permissions so the AI can suggest using the "take cover" ability on land, and for AT-ATs AI to suggest using their "deploy troopers" ability (when they need to, of course).  This has led to a direct increase in the AI using these abilities when not so before.
+-(LUA) PGEvents – Fixed a behavior that didn't include Underworld skirmish turbolasers as a part of the AI to try to get in and/or escape the maximum attack range for "artillery" (turbolaser towers, MPTL, etc).
+
+-(LUA) TacticalMultiplayerBuildSpaceUnitsGeneric – Modified script to search for new Han Solo & Chewbacca MP space unit.
+
+
+==================
+Factions
+==================
+-Rebel – Fixed ability toggle SFX for enemy calling "ABILITY_LURE" instead of just "LURE," causing an internal error and preventing the abilities from playing proper SFXEvents if assigned.
+-Rebel – Fixed ability toggle SFX for enemy calling "ABILITY_ROCKET_ATTACK" instead of just "ROCKET_ATTACK."
+-Rebel – Removed all SFXEvents for abilities "HARASS" ("Harass") and "AVOID_DANGER" ("Scout") as those abilities don't exist in the game anymore, and caused errors.
+
+-Empire – Fixed ability toggle SFX for enemy calling "ABILITY_LURE" instead of just "LURE."
+-Empire – Fixed ability toggle SFX for enemy calling "ABILITY_ROCKET_ATTACK" instead of just "ROCKET_ATTACK."
+-Empire – Removed all SFXEvents for abilities "HARASS" ("Harass") and "AVOID_DANGER" ("Scout") as those abilities don't exist in the game anymore, and caused errors.
+
+-Underworld – Fixed ability toggle SFX for enemy calling "ABILITY_LURE" instead of just "LURE."
+-Underworld – Fixed ability toggle SFX for enemy calling "ABILITY_ROCKET_ATTACK" instead of just "ROCKET_ATTACK."
+-Underworld – Removed all SFXEvents for abilities "HARASS" ("Harass") and "AVOID_DANGER" ("Scout") as those abilities don't exist in the game anymore, and caused errors.
+
+
+==================
+Maps/Planets (Galactic)
+==================
+-Added a galactic-level icon for Corruption type "Piracy," so when a planet gets corrupted it visibly shows Piracy affects the planet (originally, Petro never included an icon in-game).  It looks like ass, but it fixes the issue right now.
+
+
+==================
+Maps/Planets (Space)
+==================
+-Fixed space obstacle "Nebula Friggin Huge Ion" not actually being considered an ion storm in-game.  This caused "friggin huge" ion storm on maps like space skirmish Felucia to *not* act like an ion storm and only a nebula.
+
+
+==================
+Structures (Land)
+==================
+-Rebel Command Center – Fixed non-MP variants not having encyclopedia text (was causing internal errors).
+
+
+==================
+Structures (Space)
+==================
+-Empire Space Station – Fixed a missile launcher on the level five station not having an SFXEvent for being destroyed.
+-Empire Space Station – Fixed a tutorial variant's hardpoints having damage modifiers when they shouldn't (as they're useless dummies).
+-Empire Space Station – Fixed a tutorial variant's hardpoints having multiple alternate firing bones attached when it only can have two.
+
+-Pirate Asteroid Base – Fixed all turbolaser hardpoints using an incorrect damage type (Damage_Sation_Turbolaser), which lead to bad damage modifications.  They have been corrected to "Damage_Station_Turbolaser."
+-Pirate Asteroid Base – Fixed all laser hardpoints using an incorrect damage type (Damage_Sation_Laser), which lead to bad damage modifications.  They have been corrected to "Damage_Station_Laser."
+
+
+==================
+Textures
+==================
+-Fixed EaW bump map texture "EB_BaseWall_DS1_BC" not including any modifications to the texture to imply destruction.  Style preserved.
+
+
+==================
+Units (Galactic)
+==================
+-The Sundered Heart - Captain Antilles – Fixed general hero AI not including Antilles as with all other heroes in trying to decide where to stay when not in use.
+
+
+==================
+Units (Land)
+==================
+-Blizzard 1 - General Veers – Fixed unit causing errors by referencing a non-existent SFXEvent for a land unit callout.
+-Blizzard 1 - General Veers – Attempt fix at unit callouts not working on land.
+
+-Chewbacca – Fixed land shadow scale being multiplied by 2.  Scale is now 5.
+
+-Grenadiers – Fixed infantry being unbribable in Underworld mirror skirmish matches.  They have been given a <Tactical_Bribe_Cost> so Tyber Zann can bribe enemy Underworld infantry.  Uses vanilla bribe cost value of 25 credits.
+
+-M.A.L. – Removed non-existent sound file usage "U000_MAL0503_ENG," an assist movement line (was causing internal errors), and adjacent subtitle file.
+
+-Merc Assault Squad – Fixed infantry being unbribable in Underworld mirror skirmish matches.  They have been given a <Tactical_Bribe_Cost> so Tyber Zann can bribe enemy Underworld infantry.  Uses vanilla bribe cost value of 25 credits.
+
+
+==================
+Units (Space)
+==================
+-Corellian Gunship – Fixed inconsistent hardpoint tags.  Half of the missile hardpoints wouldn't fire on-target, and half would.  All four missile hardpoints won't immediately fire on targeting, as intended.
+
+-Pirate Interceptor Frigate – Fixed turbolaser hardpoints using Acclamator laser cannon damage modifiers.
+
+-Rogue Squadron – Fixed Derek Kilvian's lines not playing when his enemy's health is critical in Rogue Squadron.  The SFXEvent was improperly named "Unit_Enemy_Health_Critcal_Derek_Klivian" instead of "Unit_Enemy_Health_Critical_Derek_Klivian."
+-Rogue Squadron – Fixed Rogue Squadron playing generic X-wing lines when going into nebula or asteroids.
+
+-The Millennium Falcon - Han Solo & Chewbacca - Created a new MP unit to fix the Object Contestation Glitch ("Boba Mine Glitch").  The unit performs the same as before.
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.12
+=========================================================================================
+Sorry about this, folks.  A bad merge of files and bad tracking allowed me to lose a couple of changes I wanted to push onto v1.11.  Right now, the AI edits should actually go through and work.  I still need to finish up the edits to the corruption missions, as those failed to merge on release too, only a few were pushed.
+
+There are MasterTextFiles_ENGLISH.dat updates in this update! Check "MasterTEXT Changelog.txt" in the game directory to see!
+
+
+
+==================
+General
+==================
+-Units_UFoCP_Both_Underworld_CorruptionRewards – Greatly simplified the file by making all slaves/piracy rewards a variant of their (respective) original units, with some modifications.
+
+
+==================
+A.I.
+==================
+-(LUA) TacticalMultiplayerBuildSpaceUnitsGeneric – Modified script to search for proper Boba Fett unit for space. The AI should now start building Boba Fett in space skirmish again.
+-(LUA) TacticalMultiplayerBuildSpaceUnitsGeneric – Removed "Executor_Super_Star_Destroyer" from the possible build pool, as Petroglyph removed the Executor from being built in space skirmish.
+
+-(LUA) VaderAssistsLand – Modified script to search for "Darth_Vader_Expansion" (FoC) instead of "Darth_Vader" (non-land unit).
+
+
+==================
+Structures (Galactic)
+==================
+-The Maw – Removed entry from tag <Destroyed_Galactic_Model_Name> as the planet cannot be destroyed.
+-The Maw – Changed tag <GUI_Model_Name> to the black hole model.
+
+-Vergesso Asteroids – Removed entry from tag <Destroyed_Galactic_Model_Name> as the planet cannot be destroyed.
+-Vergesso Asteroids – Fixed all in-game text for Vergesso being completely and utterly broken beyond belief.
+
+
+==================
+Structures (Galactic)
+==================
+-Barracks (Empire) – Fixed tooltip naming units improperly.
+
+-Barracks (Rebels) – Fixed tooltip not having "Unlocks:" text.
+-Barracks (Rebels) – Fixed tooltip not having the "Builds:" text.
+
+-Light Factory (Empire) – Fixed tooltip not mentioning the MDU unit.
+
+-Light Factory (Rebels) – Fixed tooltip not mentioning the MDU unit.
+
+-Mercenary Barracks (Underworld) – Fixed tooltip not having "Unlocks:" text.
+-Mercenary Barracks (Underworld) – Fixed tooltip not having the "Builds:" text.
+
+-Droid Works (Underworld) – Fixed tooltip not having the "Builds:" text.
+
+-Zann Consortium Factory – Fixed all tooltip text regarding this unit (not having the aforementioned sections, nor naming all buildable units, and fixing the garrison unit indicator).
+
+
+==================
+Units (Land)
+==================
+-Did a complete overhaul (visually) of all corruption mission targets. Their tooltips are now fully customized, with proper descriptions, classes, and names. This includes a variety of usable (and somewhat generic) class tags should anyone need them inside the .DAT file (many of them are currently more exact than necessary [e.g. "Ship Designer" instead of just "Engineer"], and are up for modification).
+
+-Fixed all Dark Trooper unit descriptions being bare minimum, and not describing mainly anything about the unit other than vague adjectives.
+-Fixed all Dark Trooper units using the wrong VO for their in-production/completed dialogue. SFXEvent was referencing the wrong dialogue, and the company was using the wrong dialogue as well.
+
+-MDU (Empire) – Fixed MDU using Rebels SFX.
+
+-MDU (Underworld) – Fixed MDU using Rebels SFX.
+
+-Mon Calamari (Slave) – Fixed the Calamari Underworld slave having the "STUNNABLE" trait when all other slaves didn't.
+
+-Pyn'gani (Slave) – Fixed the Pyn'gani Underworld slave not having the <Create_Team> tag, not allowing the game to realize its company/containers properly.
+
+-Sarlaac – Fixed the sarlaac pit not having a unit icon.
+
+-Sketto – Fixed the indigenous unit sketto (those giant dragonfly bug things) not having a unit icon.
+
+-Tauntaun – Fixed the tauntauns on Hoth not having a unit icon.
+
+-Twi'lek (Slave) – Fixed the Twi'lek Underworld slave not having the <Create_Team> tag, not allowing the game to realize its company/containers properly.
+
+-Wookie (Slave) – Fixed the Wookie having an erroneous <Create_Team_Type> tag, which would point to the original Wookie container and not the slave one.
+
+
+==================
+Units (Space)
+==================
+-Nebulon-B Frigate – Fixed Underworld variant building faster than the original variant.
+
+-TIE defender – Fixed Underworld variant not having <Is_Bomber> set to "Yes."
+-TIE defender – Fixed Underworld variant being less expensive than the original unit.
+-TIE defender – Fixed Underworld variant building faster than the original unit.
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.11
+=========================================================================================
+There are MasterTextFiles_ENGLISH.dat updates in this update! Check "MasterTEXT Changelog.txt" in the game directory to see!
+
+
+==================
+General
+==================
+-Undid most of the previous update's "TEXT_NONE" fixes, and reimplemented an alternate fix. Created string "TEXT_NONE" so all "TEXT_NONE"-named objects can stop throwing errors. If there's any visible text in-game that says "None.  If you see this description, hehe, you shouldn't!  Please report this object to 'https://github.com/alymar1994/ufocp' immediately." then please do report it.
+
+-Modified generic galactic squadron container unit, by giving it a CategoryMask of "fighter" so the game stops throwing errors.
+
+-Fixed all Empire technology levels not mentioning objects that can be built when upgrading (for example, 2-M Repulsor Tanks or the Heavy Vehicle Factory not being mentioned when upgrading to level 2 in the tooltip).
+-Fixed items being improperly named on Empire tech level tooltips.
+-Fixed erratic spacing and ordering of Empire technology level tooltips. It now follows this order, alphabetically: [Space Objects], [Space Units], [Land Objects], [Land Units], [Misc].
+
+
+==================
+A.I.
+==================
+-(LUA) UM11_ForceAdeptFour – Fixed Master Force Adept, the ultimate boss of UM11. An (accidental) non-existent variable resulted in nil, so the Adept would attack any unit insight, not in his faction. This has been fixed to only target Underworld player units.
+
+-(PE) AI_Equations_Underworld_Land – Fixed "Should_Build_Ysalamiri_Cage" equation accounting unit "Darth_Vader" (EaW) into the math, instead of "Darth_Vader_Expansion" (FoC) ("Darth_Vader" is no longer a possible land unit due to previous fixes. It is always "Darth_Vader_Expansion").
+
+-(PE) BasicLandEquations – Fixed "Needs_Vader_Assist" and "Has_Infantry_Hero" equations, which searched for unused land unit "Darth Vader" (EaW) instead of searching only for "Darth_Vader_Expansion" (FoC).
+
+-(PE) BudgetingEquations – Fixed the "BasicEmpireMajorItemBudgetAllocation" and "TechUpgradeBudgetRequirement" equations. Was searching for "Death_Star" (EaW) only, now only searches for "Death_Star_II" (FoC).
+
+
+==================
+Maps/Planets (Galactic)
+==================
+-Fixed planets using inconsistent higher-than-average credit value texts, which could result in text oddities. Now all are consolidated under one string entry, and are all consistent.
+
+-Fixed bugs on all Underworld corruption missions. The objectives display wouldn't visually complete or fail objectives when certain conditions are met, due to pointing to invalid text ids. In addition, most objective displays were not visually consistent or grammatically correct.
+
+
+==================
+Units (Land)
+==================
+-AT-AT – Fixed under construction variant for the Rebel campaign. It was labeled as a Decoration, which meant that it would ignore its obstacle properties.
+
+-Blizzard 1 - General Veers – Fixed unit's name to be more consistent with other named space hero units. Now named "Blizzard 1 - General Veers" instead of solely "General Maximilian Veers." Name is taken from the official Prima game guide.
+-Blizzard 1 - General Veers – Fixed unit's team/container names being erroneous and inconsistent. Now named "Blizzard 1 - General Veers," same as the unit instead of "Colonel Maximilian Veers." Veers was referred to as a "colonel" on all levels other than land, where he was "general."
+
+-Defiler – Fixed unit being able to trigger a battlefield callout when no callout has been created for any faction (nor in its own behaviors).
+
+
+==================
+Units (Space)
+==================
+-Black Leader: Darth Vader – Fixed unit's name to be more consistent with other named hero units of the same class. Now named "Black Leader: Darth Vader" instead of solely "TIE Advanced X-1."
+-Black Leader: Darth Vader – Removed duplicate FoW reveal range for space tag. Now 1000 instead of 800.
+
+-Black Squadron – Fixed unit's team name to be more consistent with other named hero units of the same class. Now named "Black Squadron" instead of solely "Darth Vader."
+-Black Squadron – Modified unit descriptions. Now includes default Vader text, with the TIE Advanced x1 text added on as with other heroes.
+-Black Squadron – Fixed hero bar description using only the TIE Advanced x1 text when it should only use the normal Vader description as other heroes use theirs.
+-Black Squadron – Fixed "good against" indicators not including the Starviper Fighter, and the "weak against" indicator not including the Crusader Gunship.
+
+-Kedalbe-class Battleship – Fixed description not mentioning the six planets the Keldabe can be built on.
+-Kedalbe-class Battleship – Fixed death clone's ship class being "capital_ship" when it should've been "Capital."
+
+-Slave I - Boba Fett – Fixed unit's name to be more consistent with other named hero units of the same class. Now named "Slave I - Boba Fett" instead of solely "Slave I" or "Boba Fett."
+-Slave I - Boba Fett – Fixed in-game space unit's icon being the Slave I ship, instead of the hero's icon like all other heroes.
+-Slave I - Boba Fett – Fixed infamous object contestation glitch where Slave I, when summoned next to a capturable structure, would permanently keep it under Empire control until killed. This was caused by the unit possibly spawning an invisible variant of Fett, which would remain in space. A special, lone MP space hero unit of the Slave I has been created to prevent this, identical to the original MP variant.
+
+-The Millennium Falcon - Han Solo & Chewbacca – Fixed skirmish good/bad against indicators not being updated for the FoC expansion. They were changed on the unit, not on the squadron/container. All sources now have the correct info.
+
+-The Accuser - Captain Piett - Fixed attack, destruction, and summoning sounds. Piett will no longer play generic Star Destroyer dialogue, and will use properly assigned dialogue ("Requesting assistance.... --> "Constructing unit....") like all other heroes when applicable.
+-The Accuser - Captain Piett - Added respawning SFX. Piett should now say a generic unit line when respawning, like most other heroes.
+
+-The Annihilator - Admiral Gaarn – Fixed unit description. Contents are now more aligned/consistent with other units of its type and in general.
+
+-The Executor - Darth Vader – Fixed unit's name to be more consistent with other named hero units of the same class. Now named "The Executor - Darth Vader" instead of solely "Executor-class Super Star Destroyer."
+-The Executor - Darth Vader – Fixed in-game space unit's icon being the Executor icon, instead of the hero's icon like all other heroes.
+-The Executor - Darth Vader – Fixed in-game space unit's description not including Darth Vader's normal description as well.
+
+-X-wing - Fixed unit's good/bad against indicators not changing for the FoC expansion. They were changed on the unit, not on the squadron/container. All sources now have the correct info.
+
+-Y-wing – Fixed unit good/bad against indicators being incorrect for the FoC expansion. They were changed on the unit, not on the squadron/container. All sources now have the correct info.
+-Y-wing – Fixed squadron having "Is Escort" set to "nos" instead of "No."
+-Y-wing – Removed dependence on Darth Vader's values for the Y-wing container. The unit should now be more consistent with others, and not be an odd unit out.
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.10
+=========================================================================================
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.9
+=========================================================================================
+There are MasterTextFiles_ENGLISH.dat updates in this update! Check "MasterTEXT Changelog.txt" in the game directory to see!
+
+
+==================
+General
+==================
+-Deleted all non-essential <Text_ID>s from map editor markers. This should help fix internal errors, and not cause any visible in-game change.
+
+-All "TEXT_NONE" <Text_ID>s for the Props_Swamp file have been removed to fix internal errors.
+
+-Fixed a healing marker (for dockyards) in UM12: The Emperor's Hidden Weapon using an improper lighting tag, causing internal errors.
+
+-All projectiles in Projectiles.xml have been cleaned of broken <Text_ID>s using "TEXT_NONE" as it causes internal errors.
+
+-<Text_ID> for the generic team container has been removed as it causes internal errors.
+
+
+==================
+Maps/Planets (Land)
+==================
+-Felucia – Removed entries for map properties "Map Name" and "Planet Name." The entries were filled only with spaces and created naming errors internally.
+
+-UM06: Dark Ally – Fixed entry for map property "Map Name." The map was looking for "UM03_Dark_Ally." All map properties have been removed entirely.
+-UM06: Dark Ally – Another brush pass; attempting to fix holes in walking, and smooth out where one can move.
+
+-Pyn'gani Prop House – Removed <Text_ID> as "TEXT_NONE" doesn't exist, nor can, and causes errors internally.
+
+
+==================
+Maps/Planets (Space)
+==================
+-All space props in SpaceProps.xml have been cleaned of broken <Text_ID>s using "TEXT_NONE" as it causes internal errors.
+
+-Endor – Adjusted space station position ~25* so it faces the attackers better.
+
+-Kessel – Fixed defender spawn points. Defenders shouldn't (if there are enough of them) spawn in the asteroid adjacent to the space station. The "ASTEROID HUGE" object has been moved a couple of feet around the perimeter of the asteroid field.
+-Kessel – Adjusted space station position to face more of the entire map.
+
+-Saleucami – Added orbital special structure markers, so built gravity-well generators/long-range scanners appear in battle. These positions are up for change.
+
+
+==================
+Structures (Land)
+==================
+-Hutt Repair Facility – Fixed repair facility causing internal errors due to broken lighting effect tag.
+
+-Hutt UC Bacta Facility – Removed <Text_ID> as it causes errors internally.
+
+-Hutt UC Repair Facility – Removed <Text_ID> as it causes errors internally.
+
+-Rebel MDU Repair Facility – Fixed repair facility causing internal errors due to broken lighting effect tag.
+
+-Template Repair Facility – Fixed repair facilities causing internal errors due to broken lighting effect tag.
+
+-Reinforcement Point(s) – Fixed all reinforcement points not having icons.
+
+
+==================
+Structures (Space)
+==================
+-Rebel Repair Satellite – Fixed repair ability causing internal errors due to a lighting effect.
+
+
+==================
+Units (Land)
+==================
+-(UNUSED) Rieekan – Fixed unused field commander unit, since his <Text_ID> causes internal errors (TEXT_APRIL25DEMO_06). He has been given a proper ID as if he was a real hero unit, in case anyone wishes to use him in their mod (TEXT_HERO_GENERAL_RIEEKAN).
+
+-TIE crawler – Fixed self-destruct unit and captured variant ability having a tag that caused internal errors.
+
+
+==================
+Units (Space)
+==================
+-Calamari Cruiser – Fixed death clone’s <Ship_Class> from being "capital_ship" to just "Capital."
+
+-Eclipse – Removed <Text_ID> "NONE" from death clone as it doesn't exist, nor can, and causes errors internally. Replaced with normal <Text_ID> from the normal unit, as all other units do.
+-Eclipse – Fixed minimap icon being too small in comparison to the actual ship's size. Size has been increased from x0.4 to x0.6.
+-Eclipse – Fixed superlaser ability causing text errors internally due to an incorrect tag. It has been removed, albeit no gameplay changes were made.
+
+-Home One - Admiral Ackbar – Fixed unit's name to be more consistent with other named space hero units. Now named "Home One - Admiral Ackbar" instead of solely "Home One."
+
+-Star Destroyer - Fixed death clone's <Ship_Class> from being "capital_ship" to just "Capital."
+
+-The Accuser - Captain Piett – Fixed broken tooltips. In both GC and battle, Piett now uses a correct, merged tooltip for all his information, as the way his unit handles cannot use two separate tooltips for GC/battle.
+-The Accuser - Captain Piett – Corrected broken tooltip for death clone.
+
+-The Admonitor - Grand Admiral Thrawn – Fixed unit's name to be more consistent with other named Star Destroyer units of the same class. Now named "The Admonitor - Grand Admiral Thrawn" instead of solely "The Admonitor."
+-The Admonitor - Grand Admiral Thrawn – Fixed broken tooltips. In both GC and battle, Thrawn now uses a correct, merged tooltip for all his information, as the way his unit handles cannot use two separate tooltips for GC/battle.
+
+-The Annihilator - Admiral Gaarn – Fixed unit's name to be more consistent with other named Star Destroyer units of the same class. Now named "The Annihilator - Admiral Gaarn" instead of solely "The Annihilator" (this ship is a special SSD at the end of the ZC campaign).
+
+-The Arc Hammer - General Mohc – Fixed unit's name to be more consistent with other named Star Destroyer units of the same class. Now named "The Arc Hammer - General Mohc" instead of solely "Arc Hammer."
+
+-The Hound's Tooth - Bossk – Fixed unit's name to be more consistent with other named hero units of the same class. Now named "The Hound's Tooth - Bossk" instead of solely "Hound's Tooth."
+
+-The Merciless - Tyber Zann – Fixed unit's name to be more consistent with other named hero units of the same class. Now named "The Merciless - Tyber Zann" instead of solely "The Merciless."
+
+-The Sundered Heart - Captain Antillies – Fixed unit's name to be more consistent with other named hero units of the same class. Now named "The Sundered Heart - Captain Antilles" instead of solely "Sundered Heart."
+
+-IG-2000 - IG-88 – Fixed unit's name to be more consistent with other named hero units of the same class. Now named "IG2000 - IG-88" instead of solely "IG-2000."
+
+-The Millennium Falcon - Han Solo & Chewbacca - Han Solo & Chewbacca – Fixed unit's name to be more consistent with other named hero units of the same class. Now named "The Millennium Falcon - Han Solo & Chewbacca" instead of solely "Millennium Falcon."
+
+-The Moldy Crow - Kyle Katarn – Fixed unit's name to be more consistent with other named hero units of the same class. Now named "The Moldy Crow - Kyle Katarn" instead of solely "The Moldy Crow."
+
+-Z-95 Headhunter (Rebel) – Fixed tag <Fires_Forward> being "Bo" instead of "No."
+
+-Z-95 Headhunter (Empire) – Fixed affiliation by adding the proper tag.
+
+-Z-95 Headhunter (Underworld) – Fixed affiliation by adding the proper tag.
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.8
+=========================================================================================
+There are MasterTextFiles_ENGLISH.dat updates in this update! Check "MasterTEXT Changelog.txt" in the game directory to see!
+
+
+==================
+Maps/Planets (Space)
+==================
+**All space station maps in UFoCP this update has also been edited to be more practical, and have its angle shifted to view the entire ahead map area; not solely focused on where the attackers spawn.
+
+
+-Bestine – Adjusted space station position.
+
+
+==================
+Units (Land)
+==================
+-Hound's Tooth – Fixed land prop variant not being the same size as the normal landing variant.
+
+-IG-2000 – Fixed land prop variant not being the same size as the normal landing variant.
+
+
+==================
+Units (Space)
+==================
+-Hound's Tooth – Fixed space unit indicators. The unit's "vulnerable to" and "strong against" indicators should now match up with the MP team's indicators.
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.7 - Hotfix #4
+=========================================================================================
+
+
+==================
+Maps/Planets (Galactic)
+==================
+-Anaxes – Adjusted space station position.
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.6
+=========================================================================================
+** IMPORTANT ** With this update, the entire mod's undergone a heavy structural overhaul: all fixes have been re-written from scratch, most files completely reorganized (for readability) and the like. Any changes that have NOT worked or survived are removed from the log. General file structures have also undergone organizational improvements to help the discerning modder, this means duplicate tags, bad spacing, and other things will be removed.
+
+There are MasterTextFiles_ENGLISH.dat updates in this update! Check "MasterTEXT Changelog.txt" in the game directory to see!
+
+
+==================
+General
+==================
+-Campaign – Fixed a bug on Underworld Land Mission 01: 'A Crimelord Unleashed.' Fixed bad passability brushing, resulting in the player being able to direct Tyber Zann, Urai Fen, or the rioters to walk into solid objects (such as the power box and antenna right behind Tyber's cell, or on-ground objects). This has been fixed, and passability brushing on the entire map has been improved as well, to help movement and prevent stuck-bugs (less restricting on flat ground, etc).
+-Campaign – Fixed a bug on Underworld Land Mission 06: 'Dark Ally.' Fixed bad passability brushing on slopes and certain hills where units could get stuck or (apparently) fall through the map (this was especially noticeable with the Singing Mountain Prison's power generator area, where rancor-mounted Nightsisters could push rancor very far up the north hill, breaking it). This has been fixed, and passability brushing on the entire map has been improved as well, similar to the treatment Mission 01 got.
+-Campaign – Fixed a bug on Underworld Land Mission 06: 'Dark Ally.' Some trees, roots, and other objects were floating in the air due to bad placement (this was especially noticeable on the rancor den at the middle-left hand of the map). This has been fixed (for the most part).
+
+-Underworld – Normalized Underworld leader by removing all extra tags from the GameConstants file regarding Underworld leader (now solely "Tyber_Zann").
+
+
+==================
+A.I. (Galactic Conquest)
+==================
+-EmpireAdvanceTechPlan – Fixed Empire build AI to build Darth Vader. Forgot to port over a change changing the build priority to "Darth_Team_Executor" instead of "Darth_Vader_Expansion." They *should* prioritize him as a build object now.
+
+-AI_Plan_ExpansionGeneric_RemoveCorruption - Fixed AI trying to call now-invalid tag "Darth_Team_Expansion" instead of "Darth_Team_Executor."
+
+-GalacticFreeStore - Added checks for the AI to search for Tyber Zann, and label him as the leader of the Underworld and apply freestore AI to him.
+
+-WedgePlan – Modified Rogue Squadron's AI plan to prioritize attacking the Death Star II. If the Rebellion wins a battle against the DS2 with Wedge's X-wing alive in Rogue Squadron, the DS2 will be destroyed!
+
+
+==================
+Maps/Planets (Land)
+==================
+-Carida – Fixed rancor spawning den at the bottom of the map. The den wasn't fully covered by the hill behind it, leaving a hole where you could see through the den. The hill size has been vertically increased to address this.
+-Carida – Fixed rancor NPCs not spawning. Faction owner for the extra rancors being "Hutts" instead of "hostile." The extra rancors should now appear.
+-Carida – In addition to the campaign maps, fixed passability brushing on Carida. The entire map should be more consistent, and better at restricted/free movement across land. Water that wasn't marked using the "Water" brush should now show up on the minimap and overall be smoothened.
+
+-Honoghr – Fixed passability brushing on Honoghr.
+
+-Tatooine – Fixed passability brushing on Tatooine.
+
+
+==================
+Maps/Planets (Space)
+==================
+**For space station adjustments (and what they mean), see update changelog 1.1!
+
+
+-Honoghr – Adjusted space station position.
+
+-Felucia – Adjusted space station position.
+
+
+==================
+Units (Galactic Conquest)
+==================
+-Grand Admiral Thrawn – Fixed the unused Galactic-only unit. Fixed the wrong unit being referenced in the team, and fixed the icon of the team. If someone wanted to use Grand Admiral Thrawn as a replacer unit for Tarkin in GCs, they now can do so.
+
+
+==================
+Units (Land)
+==================
+-Dark Trooper (Phase I) – Fixed inconsistent 'Sprint' ability. The modifier to take less damage when sprinting was ".50" in the group section and ".75" for the individual unit. It has now been corrected to ".75" for both. Dark Trooper Phase Is will now only take .75x damage when sprinting, instead of .50x. In addition, the speed multiplier has been equalized at a 2.00x increase instead of x1.50.
+
+-Darth Vader – Fixed unit type (again). Replaced my custom-made "Darth_Team_Expansion" tag with the official "Darth_Team_Executor" tag that was hiding in the Executor's unit file. The change should relatively be pointless; Darth Vader's FoC variant should still replace land battles in Skirmish, with the same results.
+-Darth Vader – Fixed ambient breathing SFX for both EaW and FoC units. Gave units proper behavior to process ambient SFX sounds, so now Vader's ambient breathing should play randomly while moving.
+
+-General Veers – Fixed ambient SFX not playing; unit didn't have AMBIENT_SFX behavior to use.
+
+
+==================
+Units (Space)
+==================
+**The Expansion Hardpoints file has undergone an overhaul! All expansion units/hardpoints that didn't originally have a damage type assigned to them now do, which may affect their balance/performance. Most of these changes won't be put in the changelog, but major ones will.
+
+-Arc Hammer – Gave laser cannons damage type "Damage_Acclamator." The Arc Hammer's laser cannons and now matched up with the Acclamator's.
+-Arc Hammer – Gave turbolasers damage type "Damage_Star_Destroyer." The Arc Hammer's turbolasers will now match other Star Destroyers like it.
+
+-B-wing – Fixed fighter trying to use only one ion weapon, twice. Instead of two references to "HP_BWING_ION_00," it's now "HP_BWING_ION_00" and "HP_BWING_ION_01" so both ion weapons fire.
+-B-wing – Fixed squadron's tags. "Is_Escort" was set to "Nos" instead of "No."
+
+-Crusader Gunship – Gave laser cannons a damage type. Instead of doing full damage against everything, they now have the same damage type as the Corellian Corvette.
+
+-Hound's Tooth – Gave fighter laser cannons damage type "Damage_Fighter." Bossk will now do half (if not 75% less) his normal damage to most heavier shielded units (Tartan Patrol Cruiser onwards).
+
+-Interceptor IV Frigate – Fixed turbolaser cannons on ship. Was registering damage type "Damage_Acclamator" (anti-starfighter lasers) instead of "Damage_Acclamator_TL" (anti-ship turbolasers), and all other values in the hardpoints point towards the cannons being turbolasers instead of lasers.
+
+-IG-2000 – Gave fighter laser cannons damage type "Damage_Fighter." IG-88 will now do half (if not 75% less) his normal damage to most heavier shielded units (Tartan Patrol Cruiser onwards), but will still be an effective anti-fighter unit.
+
+-IPV Patrol Craft – Fixed unit using incorrectly assigned "power to weapons" ability sound (was Corellian Corvette, now IPV).
+-IPV Patrol Craft – Added the Underworld to the list of affiliated factions with this unit.
+
+-Luke Skywalker (Standalone) – Fixed audio events. Skywalker still said EaW line "Red 5 here!" when selected in space. This no longer happens.
+-Luke Skywalker (Standalone) – Made Skywalker's X-wing a variant of the original X-wing unit. This fixes multiple bugs: Luke's fighter not hyperspace jumping into battle, and the extended health bar. No other stats to him have been modified, except undefined stats which are replaced by the X-wing template.
+
+-Luke Skywalker (Red Squadron) - Fixed Luke Skywalker's Red Squadron X-wing, by making it a variant of the original X-wing. Some gameplay issues have been resolved with him.
+
+-MC30c Frigate – Gave laser cannon damage type. Gave the ship the same laser cannons as the Rebellion assault frigate.
+
+-Merciless – Fixed plasma ball type. Original plasma blast was the Star Destroyer turbolaser type, now it's the default Aggressor-class plasma shot damage.
+
+-Millennium Falcon – Fixed weapon inaccuracy distances. There were duplicate values; changed "super"-class ships inaccuracy to 30.00 from copied value (1).
+
+-Skipray Blastboat – Gave damage type "Damage_Fighter" to the lasers.
+-Skipray Blastboat – Fixed ion cannon being labeled as a laser.
+
+-TIE defender – Fixed hardpoints. The two ion hardpoints registered as proton torpedoes; so while they launched, sounded, and acted like torpedoes, their damage was that of an ion cannon shot (as the values were copied and pasted). Their stats have been fixed to look and sound like ion cannon shots.
+-TIE defender – Removed unused "attack hardpoint" line for Gravity Wells.
+-TIE defender – Set squadron tag "Is_Bomber" to yes as it is a bomber.
+
+-V-wing – Fixed Rebellion, Empire and Pirate V-wings to be affiliated/have correct build sounds per-faction.
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.5 - Imperatoria Evigilationem Significasse
+=========================================================================================
+There are TONS of MasterTextEnglish edits due to the re-work! Be sure to check "MasterTEXT Changelog.txt" for all the changes!
+
+
+==================
+A.I. (Galactic Conquest)
+==================
+-DeathStarPlan – Added "IG88_Team" to the list of units the Death Star II should avoid when going about, as IG-88 is a "superweapon killer" (can kill DS2), as with Rogue Squadron.
+
+
+==================
+General
+==================
+-Campaign – Fixed Underworld Space Mission #12: "The Emperor's New Weapon." Removed broken characters from the document (random "xxx" near the bottom).
+
+
+==================
+Factions
+==================
+-Empire – The Empire awakens. The Death Star II and Darth Vader (with the Executor) have been added to the Empire's tech-upgrade A.I. The Imperials will now build the Death Star II and Darth Vader as part of their progression. The A.I. should prioritize building Darth Vader first.  (DS REPORT ADDED, NEED TO CHECK VADER)
+
+
+==================
+Units (Space)
+==================
+-Luke Skywalker – Changed Luke's X-wing tooltip from "TEXT_UNIT_LUKE_XWING" to custom "TEXT_UNIT_LUKE_XWING_01," to remove the "(Red 5)" indicator from the name (Red Squadron doesn't exist anymore, nor did Skywalker go under that callsign post-Yavin).
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.2
+=========================================================================================
+There are MasterTextFiles_ENGLISH.dat updates in this update! Check "MasterTEXT Changelog.txt" in the game directory to see!
+
+
+==================
+A.I. (Galactic Conquest)
+==================
+-DeathStarPlan – Modified GameObject plan to avoid "Rogue_Squadron_Space" (Rogue Squadron) instead of "Luke_Team" (Luke Skywalker).
+
+-UpgradeStarbasePlan – Added all Rebel, Empire, and Underworld starbases to the list of buildable/upgradable starbases. The A.I. will start building past a Lvl. 1 Rebel space station.
+
+
+==================
+Maps/Planets (Space)
+==================
+**For space station adjustments (and what they mean), see update changelog 1.1!
+
+
+-Geonosis – Adjusted space station position.
+
+-Myrkr – Adjusted space station position.
+
+-Nal Hutta – Adjusted space station position.
+
+-Shola – Adjusted space station position.
+
+
+==================
+Units (Space)
+==================
+-A-wing – Fixed A-wing attack sounds; A-wings now comment when attacking hanger bays.
+
+-Moldy Crow (Kyle Katarn) – Fixed "Is_Escort" indicator being "np" instead of "no."
+
+-Tyber Zann – Fixed Zann's attack sounds; Zann now comments when attacking hanger bays and gravity-control-generators.
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.1
+=========================================================================================
+There are MasterTextFiles_ENGLISH.dat updates in this update! Check "MasterTEXT Changelog.txt" in the game directory to see!
+
+
+==================
+Maps/Planets (Space)
+==================
+-Alzoc III (Alzoc 3) – Adjusted space station position so it points towards the attackers (for Empire/Consortium stations).
+**These few maps edited are tests for community feedback.
+
+-Atzerri – Adjusted space station position.
+
+-Endor – Adjusted space station position.
+
+-Kamino – Adjusted space station position.
+
+-Kuat – Adjusted space station position.
+
+-Mandalore – Adjusted space station position.
+
+-Muunilinst – Adjusted space station position.
+
+-Utapau – Adjusted space station position.
+
+-Vergesso Asteroids – Adjusted space station position.
+
+
+=========================================================================================
+
+
+
+=========================================================================================
+v1.0 - Petroglyph'd (Initial Upload)
+=========================================================================================
+There are MasterTextFiles_ENGLISH.dat updates in this update! Check "MasterTEXT Changelog.txt" in the game directory to see!
+
+
+==================
+Structures (Land)
+==================
+-Bunkers – Fixed the armor type of the bunkers in GameConstants not being properly separated.
+
+
+==================
+Units (Land)
+==================
+-IG-88 – Fixed the infection weapon's separator in GameConstants. It's now properly separated and should work.
+
+
+==================
+Units (Space)
+==================
+-Executor Super Star Destroyer – Fixing the SSD armor type. It's now properly separated and should work.
+
+-Skipray BlastBoat – Fixed squadron escort status; "Is Escort" is now "No" instead of "nos."
+
+
+==================
+Units (Galactic Conquest)
+==================
+-Grand Admiral Thrawn – Fixed Thrawn's "complete" sound. It'll now play his own designated "complete" sound.
+
+
+=========================================================================================
