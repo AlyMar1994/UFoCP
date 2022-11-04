@@ -14,12 +14,12 @@
 
 		<Debug_Hot_Key_Load_Map> .\\Data\\Art\\Maps\\UM06_Dark_Ally.ted </Debug_Hot_Key_Load_Map>
 		<Debug_Hot_Key_Load_Map_Script> Story_Plots_Underworld_M06_LAND.xml </Debug_Hot_Key_Load_Map_Script>
-		
+
 		<Debug_Hot_Key_Load_Map> .\\Data\\Art\\Maps\\UM07_Cloud_City_Conflict.ted </Debug_Hot_Key_Load_Map>
 		<Debug_Hot_Key_Load_Map_Script> Story_Plots_Underworld_M07_LAND.xml </Debug_Hot_Key_Load_Map_Script>
 
 		<Debug_Hot_Key_Load_Campaign> E3_Demo_Underworld </Debug_Hot_Key_Load_Campaign>
-		
+
 		<Debug_Hot_Key_Load_Map> .\\Data\\Art\\Maps\\Demo_Attract_Kamino.ted </Debug_Hot_Key_Load_Map>
 
 
@@ -47,9 +47,9 @@
 	<Enemy_Color>239, 9, 9, 255</Enemy_Color>
 
 	<!-- Units are more vulnerable right after being unloaded... time is in Seconds -->
-	<Elevated_Vulnerability_Duration>3.0</Elevated_Vulnerability_Duration> 
+	<Elevated_Vulnerability_Duration>3.0</Elevated_Vulnerability_Duration>
 	<Elevated_Vulnerability_Factor>-2.0</Elevated_Vulnerability_Factor>
-    <Space_Elevated_Vulnerability_Duration>5.0</Space_Elevated_Vulnerability_Duration> 
+    <Space_Elevated_Vulnerability_Duration>5.0</Space_Elevated_Vulnerability_Duration>
     <Space_Elevated_Vulnerability_Factor>-3.0</Space_Elevated_Vulnerability_Factor>
 
 	<Fleet_Movement_Line_Texture_Name>w_galaxy_line.tga</Fleet_Movement_Line_Texture_Name>
@@ -57,12 +57,12 @@
 	<WaypointLineTextureName> w_generic_white.tga </WaypointLineTextureName>
 	<LoopWaypointLineTextureName> w_galaxy_dot.tga </LoopWaypointLineTextureName>
 	<WaypointFlagModelName> w_waypoint_beacon.alo </WaypointFlagModelName>
-	
+
 	<Fleet_Maintenance_Update_Delay_Seconds>0.01</Fleet_Maintenance_Update_Delay_Seconds>
 	<Space_Auto_Resolve_Delay_Seconds>0.01</Space_Auto_Resolve_Delay_Seconds>
 	<Land_Auto_Resolve_Delay_Seconds>0.01</Land_Auto_Resolve_Delay_Seconds>
 	<Political_Control_Change_Time_Seconds>7</Political_Control_Change_Time_Seconds>
-	
+
 	<Melee_Cutoff_Range> 51.0 </Melee_Cutoff_Range>
 
 	<!-- Edge scrolling for tactical modes -->
@@ -88,16 +88,16 @@
 	<Political_Income_Curve>0,0, 1,1, 5,1</Political_Income_Curve>
 	<Progressive_Taxation>1,0, 5,.2, 10,.5</Progressive_Taxation>
 	<Income_Redistribution>0.6</Income_Redistribution>
-	
+
 	<!-- No player can ever accumulate more than this number of credits times the number of planets he controls. -->
 	<Credit_Cap_Per_Planet> 40000.0 </Credit_Cap_Per_Planet>
-	
+
 	<!-- In tactical multiplayer games, the team with the lower total credit income will share
 	a "bonus" amount of credits every tick based on the difference in total credit income between
 	the two teams times this percentage multiplier: -->
 	<Multiplayer_Losing_Team_Bonus_Credit_Percentage>0.08</Multiplayer_Losing_Team_Bonus_Credit_Percentage>
 
-	<!-- no redistribution, simple base income 
+	<!-- no redistribution, simple base income
 
 	<Political_Income_Curve>0,1, 1,1, 5,1</Political_Income_Curve>
 	<Progressive_Taxation>1,0, 2,0, 5,0, 10,0, 20,0, 30,0</Progressive_Taxation>
@@ -110,7 +110,7 @@
 	<Large_Coin_Stack_Size>150</Large_Coin_Stack_Size>
 	<Black_Market_Income_Mult_Min>1.0</Black_Market_Income_Mult_Min>	<!-- AJA 09/30/2005 - Removing negative factor from Black Market planetary effect -->
 	<Black_Market_Income_Mult_Max>3.0</Black_Market_Income_Mult_Max>
-	
+
 	<Num_Structures_For_Medium_Planet_Name>3</Num_Structures_For_Medium_Planet_Name>
 	<Num_Structures_For_Large_Planet_Name>5</Num_Structures_For_Large_Planet_Name>
 
@@ -127,7 +127,7 @@
 	<Corruption_Path_Color>36, 36, 0, 255</Corruption_Path_Color>
 	<Corruption_Path_Width>16</Corruption_Path_Width>
 	<Corruption_Path_Offset>0, 0, 0</Corruption_Path_Offset>
-	
+
 	<!-- GMC - Galactic Mode camera 3D galaxy map settings -->
 	<GMC_InitialPitchAngleDegrees>-30.0</GMC_InitialPitchAngleDegrees>
     <GMC_ZoomedPitchAngleDegrees>-35.0</GMC_ZoomedPitchAngleDegrees>
@@ -148,11 +148,11 @@
 
 	<GUI_Attack_Movement_Click_Radar_Event_Name>Default_Attack_Click</GUI_Attack_Movement_Click_Radar_Event_Name>
 	<GUI_Movement_Click_Radar_Event_Name>Default_Click</GUI_Movement_Click_Radar_Event_Name>
-	<GUI_Movement_Double_Click_Radar_Event_Name> Default_Double_Click </GUI_Movement_Double_Click_Radar_Event_Name>	
+	<GUI_Movement_Double_Click_Radar_Event_Name> Default_Double_Click </GUI_Movement_Double_Click_Radar_Event_Name>
 
-	<GUI_Move_Acknowledge_Scale_Land> 1.0 </GUI_Move_Acknowledge_Scale_Land>	
+	<GUI_Move_Acknowledge_Scale_Land> 1.0 </GUI_Move_Acknowledge_Scale_Land>
 	<GUI_Move_Acknowledge_Scale_Space> 5.0 </GUI_Move_Acknowledge_Scale_Space>
-	
+
 	<MaximumPoliticalControl> 5 </MaximumPoliticalControl>
 	<MaximumStarbaseLevel> 5 </MaximumStarbaseLevel>
 	<MaximumGroundbaseLevel> 5 </MaximumGroundbaseLevel>
@@ -174,10 +174,10 @@
 	<SetupPhaseEnabled> False </SetupPhaseEnabled>
 	<ShowUnitAIPlanAttachment> False </ShowUnitAIPlanAttachment>
 	<AITechLevelProductionTimeWeight> 1.0 </AITechLevelProductionTimeWeight>
-	
+
 	<!-- Default is NO. Set to YES to always engage in tactical battles and skip auto-resolve battles (even instant overrrun ones). -->
 	<!-- This is for the late February 2005 consumer test demo  -->
-	<AlwaysBypassAutoResolve> No </AlwaysBypassAutoResolve>	
+	<AlwaysBypassAutoResolve> No </AlwaysBypassAutoResolve>
 
 	<AutomaticAutoResolve>No</AutomaticAutoResolve>
 	<AutoResolveAttritionAllowanceFactor>0.333333</AutoResolveAttritionAllowanceFactor>
@@ -215,7 +215,7 @@
 	<MaxCombatSensorRangeAlignmentBonus>0.25</MaxCombatSensorRangeAlignmentBonus>
 
 	<!-- Galactic Mode camera settings -->
-	
+
 	<Max_Galactic_Zoom_Distance>66</Max_Galactic_Zoom_Distance>
 	<Min_Galactic_Zoom_Speed>400</Min_Galactic_Zoom_Speed>
 	<Max_Galactic_Zoom_Speed>3000</Max_Galactic_Zoom_Speed>
@@ -260,9 +260,9 @@
 	<EnergyRechargeIntervalInSecs>5.0</EnergyRechargeIntervalInSecs>
 	<EnergyToShieldExchangeRate>5.0</EnergyToShieldExchangeRate>
 
-	
+
 	<!-- Hard Point Friendly and Ememy Reticle Textures by Hard Point Type -->
-	
+
 	<HardPoint_Target_Reticle_Enemy_Screen_Size> 0.03 </HardPoint_Target_Reticle_Enemy_Screen_Size>
 
 	<HardPoint_Target_Reticle_Friendly_Screen_Size> 0.03 </HardPoint_Target_Reticle_Friendly_Screen_Size>
@@ -276,7 +276,7 @@
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_ENGINE, I_Hard_Point_Reticle_Engines </HardPoint_Target_Reticle_Friendly_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_ENGINE, I_Hard_Point_Reticle_Engines_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-	
+
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_ENGINE, I_Hard_Point_Reticle_Engines_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_ENGINE, I_Hard_Point_Reticle_Engines </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
@@ -292,7 +292,7 @@
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_SHIELD_GENERATOR, I_Hard_Point_Reticle_Shield_Gen </HardPoint_Target_Reticle_Friendly_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_SHIELD_GENERATOR, I_Hard_Point_Reticle_Shield_Gen_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-	
+
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_SHIELD_GENERATOR, I_Hard_Point_Reticle_Shield_Gen_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_SHIELD_GENERATOR, I_Hard_Point_Reticle_Shield_Gen </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
@@ -308,7 +308,7 @@
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_GRAVITY_WELL, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_GRAVITY_WELL, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-	
+
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_GRAVITY_WELL, I_Hard_Point_Reticle_Generic_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_GRAVITY_WELL, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
@@ -324,7 +324,7 @@
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay </HardPoint_Target_Reticle_Friendly_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-	
+
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
@@ -340,7 +340,7 @@
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_TRACTOR_BEAM, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_TRACTOR_BEAM, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-	
+
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_TRACTOR_BEAM, I_Hard_Point_Reticle_Generic_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_TRACTOR_BEAM, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
@@ -356,7 +356,7 @@
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_LASER, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_LASER, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-	
+
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_LASER, I_Hard_Point_Reticle_Weapons_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_LASER, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
@@ -372,7 +372,7 @@
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_MISSILE, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_MISSILE, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-	
+
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_MISSILE, I_Hard_Point_Reticle_Weapons_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_MISSILE, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
@@ -388,7 +388,7 @@
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-	
+
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
@@ -404,7 +404,7 @@
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_ION_CANNON, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_ION_CANNON, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-	
+
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_ION_CANNON, I_Hard_Point_Reticle_Weapons_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_ION_CANNON, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
@@ -420,7 +420,7 @@
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_MASS_DRIVER, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_MASS_DRIVER, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-	
+
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_MASS_DRIVER, I_Hard_Point_Reticle_Weapons_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_MASS_DRIVER, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
@@ -436,7 +436,7 @@
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_SPECIAL, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_SPECIAL, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-	
+
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_SPECIAL, I_Hard_Point_Reticle_Weapons_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_SPECIAL, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
@@ -452,7 +452,7 @@
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_ENABLE_SPECIAL_ABILITY, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_ENABLE_SPECIAL_ABILITY, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-	
+
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_ENABLE_SPECIAL_ABILITY, I_Hard_Point_Reticle_Generic_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_ENABLE_SPECIAL_ABILITY, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
@@ -468,7 +468,7 @@
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_DUMMY_ART, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_DUMMY_ART, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-	
+
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_DUMMY_ART, I_Hard_Point_Reticle_Generic_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_DUMMY_ART, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
@@ -487,7 +487,7 @@
 	<Max_Ground_Forces_On_Planet> 10 </Max_Ground_Forces_On_Planet>
 	<!-- UNUSED - unit cap is now per faction in Factions.xml
 	<Space_Tactical_Unit_Cap>40</Space_Tactical_Unit_Cap> -->
-	<Allow_Reinforcement_Percentage_Normalized> 0.0 </Allow_Reinforcement_Percentage_Normalized> 
+	<Allow_Reinforcement_Percentage_Normalized> 0.0 </Allow_Reinforcement_Percentage_Normalized>
 	<Default_Hero_Respawn_Time>360.0</Default_Hero_Respawn_Time>
 	<LandFOWColor>130,130,130,0</LandFOWColor>
 	<SpaceFOWColor>255,255,255,255</SpaceFOWColor>
@@ -504,10 +504,10 @@
     <SpaceReinforceFeedbackOnlyWhileDragging>false</SpaceReinforceFeedbackOnlyWhileDragging>
 
 	<Game_Scoring_Script_Name> GameScoring </Game_Scoring_Script_Name>
-	
+
 	<Water_Render_Target_Resolution>512</Water_Render_Target_Resolution>
 	<Water_Clip_Plane_Offset>0.0</Water_Clip_Plane_Offset>
-	
+
 	<Occlusion_Silhouettes_Enabled>true</Occlusion_Silhouettes_Enabled>
 	<Laser_Beam_Z_Scale_Factor>8.0</Laser_Beam_Z_Scale_Factor>
     <Laser_Kite_Z_Scale_Factor>1.2</Laser_Kite_Z_Scale_Factor>
@@ -515,7 +515,7 @@
 
 	<AI_SpaceEvaluatorRegionSize>2000.0</AI_SpaceEvaluatorRegionSize>
 	<AI_LandEvaluatorRegionSize>2000.0</AI_LandEvaluatorRegionSize>
-	
+
 	<AI_SpaceThreatDistanceFactor>0.5</AI_SpaceThreatDistanceFactor>
 	<AI_LandThreatDistanceFactor>0.5</AI_LandThreatDistanceFactor>
 	<AI_SpaceThreatTurnRateFactor>4.0</AI_SpaceThreatTurnRateFactor>
@@ -532,7 +532,7 @@
 	<AI_SpaceThreatDecayStep>0.05</AI_SpaceThreatDecayStep>
 
 	<AI_BuildTaskReservationSeconds>15.0</AI_BuildTaskReservationSeconds>
-	
+
 	<MinimumDragSelectDistance> 100.0 </MinimumDragSelectDistance>
 	<MinimumDragDistance> 4.0 </MinimumDragDistance>
 
@@ -599,28 +599,28 @@
 	<WaypointLineLandDashLength> 5.0 </WaypointLineLandDashLength>
 	<WaypointLineLandGapLength> 5.0 </WaypointLineLandGapLength>
 	<WaypointLineLandDashVelocity> 1.0 </WaypointLineLandDashVelocity>
-	
+
 	<MaxWaypointsPerPath> 6 </MaxWaypointsPerPath>
 
 	<!-- Asteroid Field -->
 	<Asteroid_Field_Damage>20</Asteroid_Field_Damage>
 	<Asteroid_Field_Damage_Rate>0.20</Asteroid_Field_Damage_Rate> <!--Probability the damage is applied in each frame, [0..1]-->
-	
+
 
 	<!-- Pathfinding and Movement -->
 	<SpacePathfindMaxExpansions> 3500 </SpacePathfindMaxExpansions>
-	<CurrentPathCostCoefficientSpace> .66 </CurrentPathCostCoefficientSpace>	
+	<CurrentPathCostCoefficientSpace> .66 </CurrentPathCostCoefficientSpace>
 
 	<SpacePathfindFrameDelayDelta> 2 </SpacePathfindFrameDelayDelta>
-	
+
 	<SpacePathFailureDistanceCutoffCoefficient> .25 </SpacePathFailureDistanceCutoffCoefficient>
 	<SpacePathFailureMaxExpansionsCoefficient> 1.7 </SpacePathFailureMaxExpansionsCoefficient>
 	<SpacePathFailureRotationExpansionIncrement> .5 </SpacePathFailureRotationExpansionIncrement>
 	<SpacePathFailureForwardExpansionIncrement> .5 </SpacePathFailureForwardExpansionIncrement>
 	<SpacePathingTries> 6 </SpacePathingTries>
 
-	<SpaceStaticObstacleAvoidanceBonusDistance> 0 </SpaceStaticObstacleAvoidanceBonusDistance>		
-		
+	<SpaceStaticObstacleAvoidanceBonusDistance> 0 </SpaceStaticObstacleAvoidanceBonusDistance>
+
 	<MinObstacleCostSpace> 15.0 </MinObstacleCostSpace>
 	<MaxObstacleCostSpace> 15.0 </MaxObstacleCostSpace>
 	<ObstacleAreaOverlapForMaxSpace> 1.0 </ObstacleAreaOverlapForMaxSpace>
@@ -645,22 +645,22 @@
 	<ShouldDisplayPredictionPaths> false </ShouldDisplayPredictionPaths>
 	<ShouldDisplaySyncedPaths> false </ShouldDisplaySyncedPaths>
 	<SyncedFrameInterval> 75.0 </SyncedFrameInterval>
-	<LandPredictionTimeInterval> 2.0 </LandPredictionTimeInterval>	
+	<LandPredictionTimeInterval> 2.0 </LandPredictionTimeInterval>
 	<RepushDistance> 6.0 </RepushDistance>
 	<MinLandPredictionDistance> 60.0 </MinLandPredictionDistance>
 	<ShouldSkipLandFormup> true </ShouldSkipLandFormup>
 	<ShouldInfantryTeamsSplitAcrossFormations> true </ShouldInfantryTeamsSplitAcrossFormations>
 	<VehicleFormationRecruitmentDistance> 100 </VehicleFormationRecruitmentDistance>
 	<InfantryFormationRecruitmentDistance> 60 </InfantryFormationRecruitmentDistance>
-	<CloseEnoughAngleForMoveStart> 180 </CloseEnoughAngleForMoveStart>	
+	<CloseEnoughAngleForMoveStart> 180 </CloseEnoughAngleForMoveStart>
 	<DynamicObstacleOverlapPenalty> 15.0 </DynamicObstacleOverlapPenalty>
 	<DynamicAvoidanceRectangleBound> 3 </DynamicAvoidanceRectangleBound>
 	<ShouldDisplayPotentialPath> false </ShouldDisplayPotentialPath>
-	
+
 	<TurnInPlaceSlowdownCorvette> 2.0 </TurnInPlaceSlowdownCorvette>
 	<TurnInPlaceSlowdownFrigate> 3.0 </TurnInPlaceSlowdownFrigate>
 	<TurnInPlaceSlowdownCapital> 4.0 </TurnInPlaceSlowdownCapital>
-	
+
 	<FormationMinimumSideError> .1 </FormationMinimumSideError>
 	<FormationMaximumSideError> 30.0 </FormationMaximumSideError>
 	<ApproximationSmoothCosAngle> .9962 </ApproximationSmoothCosAngle>
@@ -669,32 +669,32 @@
 	<MovingVsMovingLookAheadTime> 1.5 </MovingVsMovingLookAheadTime>
 	<LandTemporaryDestinationProximity> 20.0 </LandTemporaryDestinationProximity>
 	<LandDestinationProximity> 60.0 </LandDestinationProximity>
-	<BetweenFormationSpacing> 5.0 </BetweenFormationSpacing>	
-	
+	<BetweenFormationSpacing> 5.0 </BetweenFormationSpacing>
+
 	<Destination_Collision_Query_Extension> 60 </Destination_Collision_Query_Extension>
-	
+
 	<FramesPerPositionApproximationRebuild>8</FramesPerPositionApproximationRebuild>
-	<FramesPerCollisionCheck> 4 </FramesPerCollisionCheck>  <!-- each object only checks for pathfind collisions every 'n' frames -->	
+	<FramesPerCollisionCheck> 4 </FramesPerCollisionCheck>  <!-- each object only checks for pathfind collisions every 'n' frames -->
 	<MovementReevaluationFrameCount> 10 </MovementReevaluationFrameCount>
-	
+
 	<DynamicLandComplexityQuota> 100 </DynamicLandComplexityQuota>
 	<DynamicLandQuotaResetInterval> 5 </DynamicLandQuotaResetInterval>
-	
+
 	<FinalFormationFacingMinimumAngle> 10.0 </FinalFormationFacingMinimumAngle>
 	<FinalFormationFacingDeltaCoefficient> .5 </FinalFormationFacingDeltaCoefficient>
-	
+
 	<WalkAnimationCutoff> .6 </WalkAnimationCutoff>
-	
+
 	<DoubleClickMoveMaxSpeedRatio> 1.25 </DoubleClickMoveMaxSpeedRatio>
-	
+
 	<Fleeing_Infantry_Speed_Bonus> 2 </Fleeing_Infantry_Speed_Bonus>
-	
+
 	<IdleWalkBlendTime> .5 </IdleWalkBlendTime>
 	<CrouchIdleWalkBlendTime> .5 </CrouchIdleWalkBlendTime>
 	<MoveBlendTime> .5 </MoveBlendTime>
-	<CrouchMoveBlendTime> .75 </CrouchMoveBlendTime> 
+	<CrouchMoveBlendTime> .75 </CrouchMoveBlendTime>
 	<TeamMoveBlendTime> .2 </TeamMoveBlendTime>
-	<TeamCrouchMoveBlendTime> .5 </TeamCrouchMoveBlendTime> 
+	<TeamCrouchMoveBlendTime> .5 </TeamCrouchMoveBlendTime>
 	<InfantryTurnBlendTime> .2 </InfantryTurnBlendTime>
 
 	<Map_Preview_Image_Size> 1024 </Map_Preview_Image_Size>
@@ -731,28 +731,28 @@
 	<Battle_Pending_Message_Font_Size> 14 </Battle_Pending_Message_Font_Size>
 	<Battle_Pending_Message_Color> 255, 32, 32, 240 </Battle_Pending_Message_Color>
 	<Battle_Pending_Message_Pos_X> -1.0 </Battle_Pending_Message_Pos_X> <!-- -1 means center, 0.0+ means use position -->
-	<Battle_Pending_Message_Pos_Y> 0.0001 </Battle_Pending_Message_Pos_Y> 
-	
+	<Battle_Pending_Message_Pos_Y> 0.0001 </Battle_Pending_Message_Pos_Y>
+
 	<!-- Control Point Domination Victory Condition (Multiplayer Tactical): How long do you need to hold all control points before you win? -->
 	<Control_Point_Domination_Victory_Time_In_Secs> 30.0 </Control_Point_Domination_Victory_Time_In_Secs>
-	
+
 	<!--Controls the height of each of the letter box bands done on cinematics as a percentage of the screen-->
 	<Camera_FX_Manager_Letterbox_Height>.085f</Camera_FX_Manager_Letterbox_Height>
-	
+
 	<!--Land mode space-style pathfinding -->
 	<LandObjectTrackingInterval> 20 </LandObjectTrackingInterval>
 	<LandObjectTrackingTreeCount> 25 </LandObjectTrackingTreeCount>
 	<MinObstacleCostLand> 3.0 </MinObstacleCostLand>
 	<MaxObstacleCostLand> 3.0 </MaxObstacleCostLand>
 	<XYExpansionDistanceLand> 60.0 </XYExpansionDistanceLand>
-	
+
 	<!-- Shield flashing effect -->
 	<Shield_Flash_Scale> 1.0, 1.1, 1.25 </Shield_Flash_Scale>
 	<Shield_Flash_Duration> 0.1 </Shield_Flash_Duration>
-	
+
 	<!-- How closely to tie hull vs. hard point healths together in releation to one another -->
 	<Hull_Vs_Hard_Points_Health_Constraint> 0.2 </Hull_Vs_Hard_Points_Health_Constraint>
-	
+
 	<!-- An object being influenced by a telekinesis effect -->
 	<Telekinesis_Hover_Height>22.0</Telekinesis_Hover_Height>
 	<Telekinesis_Transition_Time>0.75</Telekinesis_Transition_Time>
@@ -760,7 +760,7 @@
 	<Telekinesis_Wobble_Fade_Time>1.0</Telekinesis_Wobble_Fade_Time>
 	<Telekinesis_Max_Wobble_Angle>5.0</Telekinesis_Max_Wobble_Angle>
 	<Telekinesis_Max_Bob_Height>3.0</Telekinesis_Max_Bob_Height>
-	
+
 	<Earthquake_Transition_Time> 2.0 </Earthquake_Transition_Time>
 	<Earthquake_Shake_Speed> 1.0 </Earthquake_Shake_Speed>
 	<Earthquake_Shake_Magnitude> 0.0, 0.0, 0.7 </Earthquake_Shake_Magnitude>
@@ -772,28 +772,28 @@
 
 	<Auto_Rotate_For_Space_Targeting>False</Auto_Rotate_For_Space_Targeting>
 
-	<In_Game_Cinematics>True</In_Game_Cinematics>	
-	<Display_Bink_Movie_Frames>False</Display_Bink_Movie_Frames>  
+	<In_Game_Cinematics>True</In_Game_Cinematics>
+	<Display_Bink_Movie_Frames>False</Display_Bink_Movie_Frames>
 
 	<!-- Global speed modifier to everything with engines, and when they are destroyed -->
-	<Engines_Disabled_Speed_Modifier> 0.4 </Engines_Disabled_Speed_Modifier>	
+	<Engines_Disabled_Speed_Modifier> 0.4 </Engines_Disabled_Speed_Modifier>
 
 	<Crouch_Move_Fire_Angle_Cutoff> 20 </Crouch_Move_Fire_Angle_Cutoff>
-	
+
 	<Max_Move_Frame_Delay> 6 </Max_Move_Frame_Delay>
-	
+
 	<Spread_Out_Spacing_Coefficient> 1.8 </Spread_Out_Spacing_Coefficient>
 
-	<Max_Formation_Area> 14.0 </Max_Formation_Area>	
-	
+	<Max_Formation_Area> 14.0 </Max_Formation_Area>
+
 	<Short_Range_Attack_Formation_Coefficient> 1.6 </Short_Range_Attack_Formation_Coefficient>
 
 	<Solo_Attack_Range> 60.0 </Solo_Attack_Range>
 
-	<Base_Land_Targeting_Arc_Angle_Coefficient> .2 </Base_Land_Targeting_Arc_Angle_Coefficient>	
-	
+	<Base_Land_Targeting_Arc_Angle_Coefficient> .2 </Base_Land_Targeting_Arc_Angle_Coefficient>
+
 	<Rotate_Formation_Facing_Moves> true </Rotate_Formation_Facing_Moves>
-	
+
 	<ShouldUseSpaceIdleMovement> false </ShouldUseSpaceIdleMovement>
 	<SpaceIdleMovementSpeed> 0.0 </SpaceIdleMovementSpeed>
 	<SpaceIdlePathCullCoefficient> 3.0 </SpaceIdlePathCullCoefficient>
@@ -808,12 +808,12 @@
  	<Land_Retreat_Attrition_Factor>0.0</Land_Retreat_Attrition_Factor>
  	<Blockade_Run_Attrition_Factor>0.2</Blockade_Run_Attrition_Factor>
 
-	<!-- Base level vs. object tech level build speed factor: 
-		  A higher level base should be able to build lower level items faster than a lower level base could. 
-		  For example, it should be quicker to build basic troopers on a level 5 base than on a level 1 base. 
-		  Follow these build-time value coefficients initially: Take base level and subtract tech level of item being built. 
-		  The difference, if positive, has the following effect: Difference 0 = 100%, difference 1 = 90%, difference 2 = 75%, 
-		  difference 3 = 55%, difference 4 = 45%. Thus a level 1 base, builds all objects at 100% listed speed. 
+	<!-- Base level vs. object tech level build speed factor:
+		  A higher level base should be able to build lower level items faster than a lower level base could.
+		  For example, it should be quicker to build basic troopers on a level 5 base than on a level 1 base.
+		  Follow these build-time value coefficients initially: Take base level and subtract tech level of item being built.
+		  The difference, if positive, has the following effect: Difference 0 = 100%, difference 1 = 90%, difference 2 = 75%,
+		  difference 3 = 55%, difference 4 = 45%. Thus a level 1 base, builds all objects at 100% listed speed.
 		  A level 5 base builds tech level 1 items in 45% of the time it would take a level 1 base. -->
 
 	<Production_Speed_Mod_Base_Vs_Tech_0> 1.00 </Production_Speed_Mod_Base_Vs_Tech_0> <!-- 100% if difference (base level 1-5 minus tech level 0-5 - 1) is 0 or less -->
@@ -831,7 +831,7 @@
 	<Space_Collidable_Grid_Cull_Size>500.0</Space_Collidable_Grid_Cull_Size>
 	<Space_Large_Ship_Grid_Cull_Size>500.0</Space_Large_Ship_Grid_Cull_Size>
 	<Land_Collidable_Grid_Cull_Size>64.0f</Land_Collidable_Grid_Cull_Size>
-	
+
 	<!-- Settings to define a "Raid Force" (ie. a land combat force that can bypass space combat) -->
 	<Raid_Force_Required_Faction> Rebel </Raid_Force_Required_Faction>
 	<Raid_Force_Limited_Object_Category_Mask> Infantry | Vehicle | Air </Raid_Force_Limited_Object_Category_Mask>
@@ -851,54 +851,54 @@
 	<!--                                -->
 
 	<!-- DAMAGE TYPES to be applied against armor types for damage modifiers-->
-	
-	
-	<!-- IMPORTANT NOTE: these will NOT WORK for special abilities and <Damage_Clone>, <Squash_Damage_Type> and 
-		 <Internal_Damage_Type> tags. 
-		 If you want to create armor vs. damage logic for damge used in those tags, PLEASE come talk to me.
-		 I will have to add a new damage type IN CODE. (We have two different damage type systems, 
-		 and special abilities use the hard-coded one). See Damage_Wampa for example of this.
-		 -Oksana   --> 
 
-	<Damage_Types> 
-		Damage_Default, 
+
+	<!-- IMPORTANT NOTE: these will NOT WORK for special abilities and <Damage_Clone>, <Squash_Damage_Type> and
+		 <Internal_Damage_Type> tags.
+		 If you want to create armor vs. damage logic for damge used in those tags, PLEASE come talk to me.
+		 I will have to add a new damage type IN CODE. (We have two different damage type systems,
+		 and special abilities use the hard-coded one). See Damage_Wampa for example of this.
+		 -Oksana   -->
+
+	<Damage_Types>
+		Damage_Default,
 		Damage_ATST,
 		Damage_ATAT,
 		Damage_Fighter,
 		Damage_Assault_Frigate,
-		Damage_Diamond_Missile, 
-		Damage_IonCannon, 
-		Damage_IonCannon_LRG, 
-		Damage_Proton_Torp, 
-		Damage_Proton_Torp_Light, 
-		Damage_Con_Missile, 
-		Damage_Turbolaser, 
-		Damage_Blaster_Hand, 
-		Damage_PLEX, 
-		Damage_Sniper, 
-		Damage_Lightning, 
-		Damage_Lightsaber, 
-		Damage_ThermDet, 
-		Damage_Wookiee, 
-		Damage_Jawa, 
+		Damage_Diamond_Missile,
+		Damage_IonCannon,
+		Damage_IonCannon_LRG,
+		Damage_Proton_Torp,
+		Damage_Proton_Torp_Light,
+		Damage_Con_Missile,
+		Damage_Turbolaser,
+		Damage_Blaster_Hand,
+		Damage_PLEX,
+		Damage_Sniper,
+		Damage_Lightning,
+		Damage_Lightsaber,
+		Damage_ThermDet,
+		Damage_Wookiee,
+		Damage_Jawa,
 		Damage_StickyBomb,
 		Damage_Hero_StickyBomb,
-		Damage_Blaster_Cannon, 
-		Damage_Flak_Pod, 
-		Damage_AI_Turret, 
+		Damage_Blaster_Cannon,
+		Damage_Flak_Pod,
+		Damage_AI_Turret,
 		Damage_AV_Turret,
 		Damage_TIE_Mauler,
 		Damage_2M_Repulsortank,
-		Damage_Laser_GRND, 
-		Damage_Proton_GRND, 
-		Damage_Con_Missile_GRND, 
+		Damage_Laser_GRND,
+		Damage_Proton_GRND,
+		Damage_Con_Missile_GRND,
 		Damage_Con_Missile_T4B,
-		Damage_Con_Grenade, 
-		Damage_SPMAT_Grenade, 
-		Damage_Bomb, 
-		Damage_Hyper_Gun, 
+		Damage_Con_Grenade,
+		Damage_SPMAT_Grenade,
+		Damage_Bomb,
+		Damage_Hyper_Gun,
 		Damage_Ion_Planet,
-		Damage_Rancor, 
+		Damage_Rancor,
 		Damage_Laser_T4B,
 		Damage_Blaster_T2B,
 		Damage_Star_Destroyer,
@@ -940,12 +940,12 @@
 		Damage_Mass_Driver_Space,
 		Damage_MDU_Rocket,
 		Damage_MDU_Grenade,
-		
-		
+
+
 		<!-- PLEASE add your new damage types ABOVE this point.
 			 The damage types below are from hard-coded damage enumeration. You can specify Armor type for them if you want
 			 (and understand how and where these are applied).
-			 In the future, we will merge two system together, but for now we have to have this work-around. 
+			 In the future, we will merge two system together, but for now we have to have this work-around.
 			 -Oksana			-->
 		Damage_Normal,
 		Damage_Force_Whirlwind,
@@ -974,54 +974,54 @@
 
 
 	<!-- ARMOR TYPES that have damage types appliced to them for damage modifiers. These are armor categories for baseline units.
-			  if a unit is "like" an existing one as far as armor (rps) is concerned, then you can reuse the category. To make a 
+			  if a unit is "like" an existing one as far as armor (rps) is concerned, then you can reuse the category. To make a
 			  unit tougher or weaker, change its health or shields. To encourage bringing in a different kind of unit to attack it,
 			  then change the armor type and associated damage-vs-armor value.
 	 -->
-	<Armor_Types> 
-		Armor_Default, 
+	<Armor_Types>
+		Armor_Default,
 		Shield_Default,
         Shield_Capital,
         Shield_Frigate,
         Shield_Corvette,
         Shield_Fighter,
         Shield_Tank,		 <!-- T2B and 2M -->
-        Shield_SSD,			<!-- Shield for Executor --> 
-		Armor_Transport, 
-		Armor_Fighter, 
+        Shield_SSD,			<!-- Shield for Executor -->
+		Armor_Transport,
+		Armor_Fighter,
 		Armor_Hero_Transport,
-		Armor_Missile_Cruiser, 
-		Armor_Corellian_Corvette, 
-		Armor_Tartan, 
+		Armor_Missile_Cruiser,
+		Armor_Corellian_Corvette,
+		Armor_Tartan,
 		Armor_Interdictor,
-		Armor_Corellian_Gunboat, 
+		Armor_Corellian_Gunboat,
 		Armor_Nebulon_B,
 		Armor_Acclamator,
 		Armor_Pirate_Frigate,
 		Armor_Satellite,
-		Armor_Frigate, 
-		Armor_Victory_Class, 
-		Armor_Assault_Frigate, 
-		Armor_Calamari_Cruiser, 
-		Armor_Star_Destroyer, 
-		Armor_ATST, 
-		Armor_Station, 
-		Armor_MPTL, 
-		Armor_Infantry, 
-		Armor_Mauler, 
-		Armor_Hero, 
+		Armor_Frigate,
+		Armor_Victory_Class,
+		Armor_Assault_Frigate,
+		Armor_Calamari_Cruiser,
+		Armor_Star_Destroyer,
+		Armor_ATST,
+		Armor_Station,
+		Armor_MPTL,
+		Armor_Infantry,
+		Armor_Mauler,
+		Armor_Hero,
 		Armor_Vehicle_LT, <!-- lightly armored vehicles like swamp speeder, land speeder, and pirate skiff -->
-		Armor_Vehicle, 
+		Armor_Vehicle,
 		Armor_2M,
 		Armor_T2B,
 		Armor_SPMAT,
 		Armor_ATAA,
-		Armor_T4B, 
+		Armor_T4B,
 		Armor_Turret,
 		Armor_Speeder,		<!-- snowspeeder and bombers -->
-		Armor_Structure, 
-		Armor_Wall, 
-		Armor_ATAT, 
+		Armor_Structure,
+		Armor_Wall,
+		Armor_ATAT,
 		Armor_Bomber,
 		Armor_Scout_Bike,
 		Armor_Juggernaut,
@@ -1032,7 +1032,7 @@
 		Armor_Destroyer_Droid,
 		Armor_Bunker		<!-- Bunkers and pillboxes -->
 		Armor_SSD			<!-- Armor for the Executor and other SSDs-->
-				
+
 	</Armor_Types>
 
 	<!-- DAMAGE vs. ARMOR Matrix -->
@@ -1158,8 +1158,8 @@
 	<!-- Corellian corvette lasers -->
 	<Damage_To_Armor_Mod> Damage_Corellian_Corvette, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Corellian_Corvette, Shield_Default, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Corellian_Corvette, Armor_Transport, 3 </Damage_To_Armor_Mod> 
-	<Damage_To_Armor_Mod> Damage_Corellian_Corvette, Armor_Bomber, 1.4 </Damage_To_Armor_Mod> 
+	<Damage_To_Armor_Mod> Damage_Corellian_Corvette, Armor_Transport, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Corellian_Corvette, Armor_Bomber, 1.4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Corellian_Corvette, Armor_Fighter, 1.4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Corellian_Corvette, Armor_Hero_Transport, 2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Corellian_Corvette, Armor_Corellian_Corvette, 1 </Damage_To_Armor_Mod>
@@ -1189,8 +1189,8 @@
 	<!-- Tartan Cruiser lasers -->
 	<Damage_To_Armor_Mod> Damage_Tartan_Cruiser, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Tartan_Cruiser, Shield_Default, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Tartan_Cruiser, Armor_Transport, 3 </Damage_To_Armor_Mod> 
-	<Damage_To_Armor_Mod> Damage_Tartan_Cruiser, Armor_Bomber, 1.2 </Damage_To_Armor_Mod> 
+	<Damage_To_Armor_Mod> Damage_Tartan_Cruiser, Armor_Transport, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Tartan_Cruiser, Armor_Bomber, 1.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Tartan_Cruiser, Armor_Fighter, 1.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Tartan_Cruiser, Armor_Hero_Transport, 2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Tartan_Cruiser, Armor_Corellian_Corvette, 1.2 </Damage_To_Armor_Mod>
@@ -1220,8 +1220,8 @@
 	<!-- Corellian gunboat lasers -->
 	<Damage_To_Armor_Mod> Damage_Corellian_Gunboat, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Corellian_Gunboat, Shield_Default, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Corellian_Gunboat, Armor_Transport, 3 </Damage_To_Armor_Mod> 
-	<Damage_To_Armor_Mod> Damage_Corellian_Gunboat, Armor_Bomber, 1.2 </Damage_To_Armor_Mod> 
+	<Damage_To_Armor_Mod> Damage_Corellian_Gunboat, Armor_Transport, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Corellian_Gunboat, Armor_Bomber, 1.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Corellian_Gunboat, Armor_Fighter, 1.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Corellian_Gunboat, Armor_Hero_Transport, 2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Corellian_Gunboat, Armor_Corellian_Corvette, 1 </Damage_To_Armor_Mod>
@@ -1251,8 +1251,8 @@
 	<!-- Interdictor lasers -->
 	<Damage_To_Armor_Mod> Damage_Interdictor, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Interdictor, Shield_Default, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Interdictor, Armor_Transport, 3 </Damage_To_Armor_Mod> 
-	<Damage_To_Armor_Mod> Damage_Interdictor, Armor_Bomber, 0.5 </Damage_To_Armor_Mod> 
+	<Damage_To_Armor_Mod> Damage_Interdictor, Armor_Transport, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interdictor, Armor_Bomber, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Interdictor, Armor_Fighter, 0.7 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Interdictor, Armor_Hero_Transport, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Interdictor, Armor_Corellian_Corvette, 1 </Damage_To_Armor_Mod>
@@ -1282,8 +1282,8 @@
 	<!-- IPV Patrol craft lasers -->
 	<Damage_To_Armor_Mod> Damage_IPV, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_IPV, Shield_Default, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_IPV, Armor_Transport, 3 </Damage_To_Armor_Mod> 
-	<Damage_To_Armor_Mod> Damage_IPV, Armor_Bomber, 1.2 </Damage_To_Armor_Mod> 
+	<Damage_To_Armor_Mod> Damage_IPV, Armor_Transport, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_IPV, Armor_Bomber, 1.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_IPV, Armor_Fighter, 1.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_IPV, Armor_Hero_Transport, 5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_IPV, Armor_Corellian_Corvette, 1 </Damage_To_Armor_Mod>
@@ -3447,7 +3447,7 @@
 	<Damage_To_Armor_Mod> Damage_Pulse_Cannon_Tank, Armor_Vornskr, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Pulse_Cannon_Tank, Armor_Destroyer_Droid, 2.75 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Pulse_Cannon_Tank, Armor_Bunker, 1.25 </Damage_To_Armor_Mod>
-	
+
 	<Damage_To_Armor_Mod> Damage_Pulse_Cannon_Tank, Armor_Bomber, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Pulse_Cannon_Tank, Armor_Transport, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Pulse_Cannon_Tank, Armor_Fighter, 1 </Damage_To_Armor_Mod>
@@ -3657,24 +3657,24 @@
 
 
 
-	
+
 	<!-- Demo_Attract_Maps>Demo_Attract_Kamino.ted, Demo_Attract_Korriban.ted</Demo_Attract_Maps -->
 	<Demo_Attract_Maps>Demo_Attract_Kamino.ted</Demo_Attract_Maps>
 	<Demo_Attract_Start_Timeout_Seconds>3600</Demo_Attract_Start_Timeout_Seconds>
 	<!-- Demo_Attract_Map_Cycle_Delay_Seconds>1000000, 1000, 1000</Demo_Attract_Map_Cycle_Delay_Seconds -->
 	<Demo_Attract_Map_Cycle_Delay_Seconds>1200</Demo_Attract_Map_Cycle_Delay_Seconds>
 
-	
+
 	<Battle_Pending_Timeout_Seconds> 15 </Battle_Pending_Timeout_Seconds>
-	
+
 	<Message_Of_The_Day_URL>http://www.petroglyphgames.com/eawmotd</Message_Of_The_Day_URL>
-	
+
 	<Skirmish_Buy_Credits>2000</Skirmish_Buy_Credits>
 	<Skirmish_Reinforcement_Delay_Frames>90</Skirmish_Reinforcement_Delay_Frames>
 	<Distribute_Credit_Quantum>1000</Distribute_Credit_Quantum>
-	
+
 	<Diminishing_Firepower>0, 0.6, 0.3, 0.7, 0.9, 0.9, 1, 1, 2, 1</Diminishing_Firepower>  <!--Mild effect-->
-	
+
 	<!-- <Diminishing_Firepower>0, 1, 1, 1</Diminishing_Firepower>--> <!-- Turned Off by CR-->
 
 	<Ion_Storm_Shield_Disable_Time>5.0</Ion_Storm_Shield_Disable_Time>
@@ -3683,18 +3683,18 @@
 	<Depleted_Shield_Disable_Time>5.0</Depleted_Shield_Disable_Time>
 	<Depleted_Shield_Damage_Increment>0.0</Depleted_Shield_Damage_Increment>
 	<Depleted_Shield_Regen_Cap>0.25</Depleted_Shield_Regen_Cap>
-	
+
 	<!-- when ships go into nebula, they are tinted/faded using the following settings -->
 	<Nebula_Effect_Color>255, 255, 255, 64</Nebula_Effect_Color>
-	
+
 	<Base_Shield_Speed_Modifier>0.5f</Base_Shield_Speed_Modifier>
 	<Base_Shield_Vulnerability_Modifier>2.0f</Base_Shield_Vulnerability_Modifier>
-	
+
 	<Hardpoint_Recharge_Cutoff_For_Opportunity_Fire> 3.0 </Hardpoint_Recharge_Cutoff_For_Opportunity_Fire>
-	
+
 	<Battle_Load_Planet_Viewport>0.0, 1.0, 1.0, 0.0</Battle_Load_Planet_Viewport>
-	<Battle_Load_Planet_Direction>0, 0.75, 0.55</Battle_Load_Planet_Direction> 
-	<Battle_Load_Planet_Ambient>0.1, 0.1, 0.13</Battle_Load_Planet_Ambient> 
+	<Battle_Load_Planet_Direction>0, 0.75, 0.55</Battle_Load_Planet_Direction>
+	<Battle_Load_Planet_Ambient>0.1, 0.1, 0.13</Battle_Load_Planet_Ambient>
 	<Saliency_Size>1.0</Saliency_Size>
 	<Saliency_Power>1.0</Saliency_Power>
 	<Saliency_X>0.5</Saliency_X>
@@ -3702,13 +3702,13 @@
 	<Saliency_Health>1.0</Saliency_Health>
 	<Saliency_Targets>1.5</Saliency_Targets>
 	<Saliency_Speed>1.0</Saliency_Speed>
-	
+
 	<Planet_Reveal_Delay_Time>0.5</Planet_Reveal_Delay_Time>
 	<Base_Shield_Delay_Time>10.0</Base_Shield_Delay_Time>
-	
-	
+
+
 	<Star_Wars_Crawl_Start_Fadeout_Frame>800</Star_Wars_Crawl_Start_Fadeout_Frame>
-	
+
 	<!-- We now have special fleet slots in the GUI that represent special actions for a fleet to take when
 	they arrive at a planet. Most of those special actions are tied to special abilities (Raid is the only
 	action that is not). This is the list of special abilities that will cause the corresponding special
@@ -3723,19 +3723,19 @@
 	<Activated_Corrupt_Planet_Ability_Names> Corruptor_Corrupt_Planet_1, Saboteur_Corruption </Activated_Corrupt_Planet_Ability_Names>
 	<Activated_Remove_Corruption_Ability_Names> Mothma_Remove_Corruption, Emperor_Remove_Corruption, ObiWan_Remove_Corruption, Vader_Remove_Corruption, Thrawn_Remove_Corruption, Luke_Remove_Corruption, Yoda_Remove_Corruption </Activated_Remove_Corruption_Ability_Names>
 	<Activated_Hack_Super_Weapon_Ability_Names> IG88_Hack_Death_Star </Activated_Hack_Super_Weapon_Ability_Names>
-	
+
 	<Use_Reinforcement_Points>True</Use_Reinforcement_Points>
-	
+
 	<!-- Multiplayer Data Begin -->
 	<Min_Skirmish_Credits>2000</Min_Skirmish_Credits>
 	<Max_Skirmish_Credits>8000</Max_Skirmish_Credits>
-	
+
 	<!-- Gameplay option defaults -->
-		
+
 	<MP_Default_Credits>										6000		</MP_Default_Credits>
 	<MP_Default_Start_Tech_Level>							1			</MP_Default_Start_Tech_Level>
 	<MP_Default_Max_Tech_Level>							5			</MP_Default_Max_Tech_Level>
-	
+
 	<!-- Auto_Resolve Values, 0 == Always, 1 == Never, 2 == Ask, 3 == Overwhelming odds -->
 	<MP_Default_Allow_Auto_Resolve>						2			</MP_Default_Allow_Auto_Resolve>
 	<MP_Default_Game_Timer>									0			</MP_Default_Game_Timer>
@@ -3749,18 +3749,18 @@
 	<MP_Default_Free_Starting_Units>						yes		</MP_Default_Free_Starting_Units>
 	<MP_Default_Land_Tactical_Win_Condition>SKIRMISH_ALL_ENEMY_BASE_COMPONENTS_DESTROYED</MP_Default_Land_Tactical_Win_Condition>
 	<MP_Default_Space_Tactical_Win_Condition>SKIRMISH_SPACE_ENEMY_STARBASE_DESTROYED</MP_Default_Space_Tactical_Win_Condition>
-	
+
 	<!-- Multiplayer Data End -->
 
 	<!-- This entry can be used to artificially make build times faster in tactical mode when debugging. -->
 	<Tactical_Build_Time_Multiplier> 1.0 </Tactical_Build_Time_Multiplier>
-	
+
 	<Health_Bar_Scale> 1500.0 </Health_Bar_Scale>
 	<Land_Health_Bar_Scale> 500.0 </Land_Health_Bar_Scale>
 	<Min_Health_Bar_Scale> 1.0 </Min_Health_Bar_Scale>
-	
+
 	<Team_Healthbar_Offset>20</Team_Healthbar_Offset>
-	
+
 	<!-- Common list of object model bone names to look for when trying to attach visual status particles, like stun, heal, corrupted, invulnerable, etc. -->
 	<Object_Visual_Status_Particle_Attach_Bone_Names> B_HEAD, Turret_00, B_Turret_00, B_Turret, B_Turret_Base, ROOT </Object_Visual_Status_Particle_Attach_Bone_Names>
 
@@ -3768,21 +3768,21 @@
 	<Tractor_Beam_Frames>10</Tractor_Beam_Frames>
 	<Tractor_Beam_Texture>tractor_beam00.tga</Tractor_Beam_Texture>
 	<Tractor_Beam_Color>0, 75, 0</Tractor_Beam_Color>
-	
+
 	<Energy_Beam_Width>30.0</Energy_Beam_Width>
 	<Energy_Beam_Frames>10</Energy_Beam_Frames>
 	<Energy_Beam_Texture>tractor_beam00.tga</Energy_Beam_Texture>
 	<Energy_Beam_Color>255, 75, 0</Energy_Beam_Color>
-	
-	<MP_Color_Blue>78,150,237</MP_Color_Blue>	 
-	<MP_Color_Red>237,78,78</MP_Color_Red>		 
-	<MP_Color_Green>119,237,78</MP_Color_Green>	
+
+	<MP_Color_Blue>78,150,237</MP_Color_Blue>
+	<MP_Color_Red>237,78,78</MP_Color_Red>
+	<MP_Color_Green>119,237,78</MP_Color_Green>
 	<MP_Color_Orange>237,149,78</MP_Color_Orange>
-	<MP_Color_Cyan>111,217,224</MP_Color_Cyan>	 
+	<MP_Color_Cyan>111,217,224</MP_Color_Cyan>
 	<MP_Color_Purple>224,111,209</MP_Color_Purple>
 	<MP_Color_Yellow>224,215,111</MP_Color_Yellow>
-	<MP_Color_Gray>109,75,5</MP_Color_Gray>	 
-	<MP_Color_Eight>65,129,42</MP_Color_Eight>	 
+	<MP_Color_Gray>109,75,5</MP_Color_Gray>
+	<MP_Color_Eight>65,129,42</MP_Color_Eight>
 
 	<!-- Localized splash screen asset names -->
 	<Localized_Splash_Screen> ENGLISH, 	Splash.TGA </Localized_Splash_Screen>
@@ -3839,9 +3839,9 @@
 
 	<!-- Game credits -->
 	<Credits_Spacing> 0.04 </Credits_Spacing>
-	<Credits_Scroll_Rate> -0.05 </Credits_Scroll_Rate> 
+	<Credits_Scroll_Rate> -0.05 </Credits_Scroll_Rate>
 	<Credits_Font> Arial Medium </Credits_Font>
-	<!-- 12.16.2005 Blue text colors per LucasArts --> 	
+	<!-- 12.16.2005 Blue text colors per LucasArts -->
 	<Credits_Header_Top_Color> 0, 0.72, 0.8 </Credits_Header_Top_Color>
 	<Credits_Header_Bottom_Color>0, 0.72, 0.8  </Credits_Header_Bottom_Color>
  	<Credits_Top_Color> 0, 0.72, 0.8  </Credits_Top_Color>
@@ -3860,10 +3860,10 @@
 	<Credits_Logo_3_Width> 0.2 </Credits_Logo_3_Width>
 	<Credits_Logo_3_Height> 0.2 </Credits_Logo_3_Height>
 	<Credits_Logo_3_Y_Offset> 0.06 </Credits_Logo_3_Y_Offset>
-	
-	
+
+
 	<!-- Files for custom ship names -->
-   <ShipNameTextFiles> 
+   <ShipNameTextFiles>
 		Calamari_Cruiser, 					Data\Calamari_Cruiser.txt,
 		Generic_Star_Destroyer, 			Data\Star_Destroyer.txt,
 		Star_Destroyer, 						Data\Star_Destroyer.txt,
@@ -3972,7 +3972,7 @@
     <Droid_Encyclopedia_Offset>24 -179</Droid_Encyclopedia_Offset>
 
 	<Indigenous_Spawn_Destruction_Reward>500</Indigenous_Spawn_Destruction_Reward>
-	
+
 	<Advisor_Hint_Interval>300</Advisor_Hint_Interval>
 	<Advisor_Hint_Duration>0.1</Advisor_Hint_Duration>
 
@@ -3983,46 +3983,46 @@
 	<Radar_Multiplayer_Enemy_Color>255, 0, 0</Radar_Multiplayer_Enemy_Color>
 
     <Animate_During_Galactic_Mode_Pause>no</Animate_During_Galactic_Mode_Pause>
-    
+
     <!-- Control for sub-tactical victory conditions -->
     <Land_Base_Destruction_Forces_Retreat>False</Land_Base_Destruction_Forces_Retreat>
     <Space_Station_Destruction_Forces_Retreat>False</Space_Station_Destruction_Forces_Retreat>
-    
+
     <!-- Clear space required along hyperspace in path for space reinforcements -->
     <Space_Reinforcement_Collision_Check_Distance>200.0</Space_Reinforcement_Collision_Check_Distance>
 
     <Health_Bar_Spacing>2.0</Health_Bar_Spacing>
-    
+
     <Good_Ground_Color_Tint>0, 255, 0</Good_Ground_Color_Tint>
     <High_Ground_Color_Tint>0, 0, 255</High_Ground_Color_Tint>
     <Slow_Ground_Color_Tint>255, 255, 0</Slow_Ground_Color_Tint>
     <Lava_Ground_Color_Tint>255, 0, 0</Lava_Ground_Color_Tint>
     <Infantry_Ground_Color_Tint>0, 255, 255</Infantry_Ground_Color_Tint>
-    
-	<Max_Bombing_Run_Interval_Seconds>120.0</Max_Bombing_Run_Interval_Seconds>				
-	<Min_Bombing_Run_Interval_Seconds>120.0</Min_Bombing_Run_Interval_Seconds>				
+
+	<Max_Bombing_Run_Interval_Seconds>120.0</Max_Bombing_Run_Interval_Seconds>
+	<Min_Bombing_Run_Interval_Seconds>120.0</Min_Bombing_Run_Interval_Seconds>
 	<Bombing_Run_Reduction_Per_Squadron_Percent>0</Bombing_Run_Reduction_Per_Squadron_Percent>
 	<Space_Guard_Range>750.0</Space_Guard_Range>
 	<Land_Guard_Range>150.0</Land_Guard_Range>
 
-	<Max_Bombard_Interval_Seconds>260.0</Max_Bombard_Interval_Seconds>				
-	<Min_Bombard_Interval_Seconds>260.0</Min_Bombard_Interval_Seconds>				
+	<Max_Bombard_Interval_Seconds>260.0</Max_Bombard_Interval_Seconds>
+	<Min_Bombard_Interval_Seconds>260.0</Min_Bombard_Interval_Seconds>
 	<Bombardment_Offset>0 0 600</Bombardment_Offset>
 	<Bombardment_Distribution> 0, 3, 1, 2, 3, 2, 0, 1, 2, 1, 3, 0, 1, 2, 0, 3, 0, 2, 1, 3, 3, 2, 1, 0 </Bombardment_Distribution>
-  
+
 	<Override_Death_Persistence_Duration>30.0</Override_Death_Persistence_Duration>
 
     <Auto_Resolve_Tactical_Multiplier>.85</Auto_Resolve_Tactical_Multiplier>
 
    <Sabotage_Particle_Effect>Planet_Explosion_Galactic</Sabotage_Particle_Effect>
    <Hack_Super_Weapon_Particle_Effect>IG88_Death_Star_Hack_Explosion</Hack_Super_Weapon_Particle_Effect>
-   
+
    <Hack_Super_Weapon_Required_Type> Death_Star_II </Hack_Super_Weapon_Required_Type>
 
    <Sensor_Jamming_Time>.5</Sensor_Jamming_Time>
 
 		<Quickmatch_Map_Exclusion_List>
-			_MP_Land_Kessel.ted, 
+			_MP_Land_Kessel.ted,
 			_MP_Land_Geonosis.ted,
 			_MP_Land_Dantooine.ted,
 			_MP_Land_Hypori.ted,
