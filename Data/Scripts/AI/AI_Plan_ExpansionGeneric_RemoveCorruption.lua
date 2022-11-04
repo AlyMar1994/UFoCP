@@ -42,7 +42,7 @@
 require("pgevents")
 
 function Definitions()
-	
+
 	Category = "Remove_Corruption"
 	IgnoreTarget = true
 	TaskForce = {
@@ -59,7 +59,7 @@ function MainForce_Thread()
 	LaunchUnits(MainForce)
 	MainForce.Set_As_Goal_System_Removable(false)
 	MainForce.Activate_Ability()
-	MainForce.Set_Plan_Result(true)	
+	MainForce.Set_Plan_Result(true)
 	Sleep(300)
 end
 
