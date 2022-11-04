@@ -38,21 +38,21 @@ v1.0.1.#### (2022-##-##) [FoC v1.121.748742]
 ============================================
 
 Ability Fixes:
-• "BARRAGE" prematurely ended in multiple cases (AT-STs, Broadside/Marauder Cruisers, etc.) because the invisible target marker the ability uses kept dying due to splash damage.  The marker has been made invincible to rectify the problem. (BUG #1)
+• "BARRAGE" prematurely ended in multiple cases because the ability's invisible targeting marker kept dying due to splash damage.  The marker has been made invincible to rectify the problem. (BUG #1)
 
 
 AI Fixes:
-• During certain conquering plans, the AI would always have a five minute sleep cycle after a victory/failure because of a coding mistake (the scripts could not find the player and evaluate the Difficulty setting).  The AI was rectified to sleep for its appropriate cycles (5 minutes on Easy, 3min 30sec on Normal and 45 seconds on Hard). (BUG #69)
-• During the AI's blitzkrieg conquering plan "Crush," the plan would always cancel before starting because of a coding mistake (the script could not find the player and evaluate the Difficulty setting).  The AI was rectified to properly continue the plan should the Difficulty turn out to be set to Hard. (BUG #79)
-• The list of AI considerations for when to build anti-infantry turrets weren't changed from EaW.  The Consortium now considers if a friendly build pad is nearby, if a mining facility/resource pad is near the enemy, and now knows the Proton Torpedo Turret is their designated anti-infantry turret. (BUG #114)
-• When deciding on attacking a structure, the AI wouldn't factor in the Consortium's Repulsorlift Jammers alongside the other "tactically active" infrastructure to target. (BUG #115)
-• When deciding on attacking a structure, the AI wouldn't factor in the Consortium's turbolaser towers as structures to avoid.  Additionally, the Consortium turbolaser towers weren't a part of turbolaser infrastructure to target and avoid the firing range of. (BUG #116)
-• When considering whether or not to construct repair bays for units and vehicle heroes, the hero prerequisites list didn't include IG-88 nor Garm Bel Iblis as units on the field that can benefit from repair bays, even though that is their main source of healing. (BUG #117)
-• When budgeting for their defensive infrastructure, the Consortium wouldn't consider the Repulsorlift Jammer as a part of their defensive structure pool, nor would they budget at all for the structure when figuring out if they should save their money or build up their planets.  The Jammer has been added to both considerations. (BUG #118)
+• During certain conquering plans, the AI would always sleep for 5 minutes after a victory/failure because of a coding mistake (the scripts couldn't find the player's Difficulty setting).  The AI was rectified to sleep for its appropriate cycles: 5 minutes on Easy, 3min 30sec on Normal and 45 seconds on Hard. (BUG #69)
+• The AI's blitzkrieg conquering plan "Crush" would always cancel before starting because of a coding mistake (the script couldn't find the player's Difficulty setting).  The AI was rectified to properly continue the plan should the Difficulty be set to Hard. (BUG #79)
+• The AI's considerations for when to build anti-infantry turrets wasn't changed from EaW.  The Consortium now considers if a friendly build pad is nearby, if a friendly mining facility/resource pad is near the enemy, and now knows the Proton Torpedo Turret is their designated anti-infantry turret. (BUG #114)
+• The AI wouldn't factor in the Consortium's Repulsorlift Jammers alongside the other "tactically active" infrastructure to target when thinking about attacking structures. (BUG #115)
+• The AI wouldn't factor in the Consortium's turbolaser towers as structures to avoid when attacking buildings.  Additionally, the Consortium turbolaser towers weren't a part of turbolaser infrastructure to target and avoid the firing range of. (BUG #116)
+• Even though it's their main source of healing, the AI's prerequisites list didn't include IG-88 nor Garm Bel Iblis as units on the field that can benefit from repair bays when thinking of building them. (BUG #117)
+• Since the Repulsorlift Jammer was originally owned by the Empire, the Consortium wouldn't consider the Repulsorlift Jammer as a part of their defensive structure pool, nor would their budgets include the Jammer when figuring out if they should save their money or build up their planets.  The Jammer has been added to both considerations. (BUG #118)
 
 
 Audio Fixes:
-• Because of an incorrect filename, no music would play when losing against the Consortium.  The Consortium's generic losing music was also referencing the Rebels' music entry.  This has been rectified, and the music had its volume boosted. (BUG #31)
+• No music would play when losing against the Consortium because of a bad filename reference.  The Consortium's generic losing music was also referencing the Rebels' music entry.  This has been rectified, and the music had its volume boosted. (BUG #31)
 
 
 Unit Fixes:
