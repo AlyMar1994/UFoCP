@@ -124,7 +124,7 @@
 	<GroundCompany Name="Underworld_Ewok_Handler_Company">
 		<Text_ID>TEXT_UNIT_EWOK_HANDLER</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_UNIT_EWOK_HANDLER_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_UNIT_EWOK_HANDLER_DESCRIPTION TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Garrison_Bunker_Rebel E_Ground_Turbolaser_Tower Stormtrooper  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler UC_Rebel_Buildable_Anti_Infantry_Turret UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_ewok_handler.tga</Icon_Name>

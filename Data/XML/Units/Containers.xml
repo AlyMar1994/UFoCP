@@ -1511,7 +1511,7 @@
 		<Select_Box_Scale>0</Select_Box_Scale>
 		<Text_ID>TEXT_HERO_DROIDS_TEAM</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_R2D2_AND_C3P0 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Show_Name>No</Show_Name>
 
 		<Behavior> TEAM, UNIT_AI </Behavior>

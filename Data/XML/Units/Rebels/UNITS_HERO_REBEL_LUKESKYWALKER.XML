@@ -12,7 +12,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_LUKE_SKYWALKER_JEDI</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_LUKE_SKYWALKER_JEDI</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_LUKE_SKYWALKER_JEDI TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
 		<Land_Model_Name>RI_SKYWALKER.ALO</Land_Model_Name>
 		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
@@ -258,7 +258,7 @@
 	<HeroCompany Name="Luke_Skywalker_Jedi_Team">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_HERO_LUKE_SKYWALKER_JEDI_TEAM</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_LUKE_SKYWALKER_JEDI</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_LUKE_SKYWALKER_JEDI TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>

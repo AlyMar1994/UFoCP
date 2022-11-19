@@ -9,7 +9,7 @@
 		<LOD_Bias>5</LOD_Bias>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_IG88</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_IG88 </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_IG88 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER </Encyclopedia_Unit_Class>
 		<Land_Model_Name>UI_IG88.alo</Land_Model_Name>
 		<Icon_Name>i_button_UI_IG88.tga</Icon_Name>
@@ -444,7 +444,7 @@
 	<HeroCompany Name="IG88_Team">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_HERO_IG88_TEAM</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_IG88 </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_IG88 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_UI_IG88.tga</Icon_Name>
 

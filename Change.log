@@ -56,6 +56,21 @@ Audio Fixes:
 • No music would play when losing against the Consortium because of a bad filename reference.  The Consortium's generic losing music was also referencing the Rebels' music entry.  This has been rectified, and the music had its volume boosted. (BUG #31)
 
 
+Interface Fixes:
+• Han Solo & Chewbacca's GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #92)
+• Yoda's tooltips didn't indicate if the unit could capture build pads or not. (BUG #93)
+• Boba Fett's GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #94)
+• Bossk's tooltips didn't indicate if the unit could capture build pads or not. (BUG #95)
+• Defilers' GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #96)
+• R2-D2 & C-3PO's GC tooltip didn't indicate if the unit could capture build pads or not, and the land team tooltip didn't include any information about the droid pair. (BUG #97)
+• Emperor Palpatine's GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #98)
+• Ewok Handlers' GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #99)
+• Luke Skywalker's tooltips didn't indicate if the unit could capture build pads or not. (BUG #100)
+• Mara Jade's team tooltip didn't indicate if the unit could capture build pads or not. (BUG #101)
+• Kyle Katarn's team tooltip didn't indicate if the unit could capture build pads or not. (BUG #102)
+• IG-88's tooltips didn't indicate if the unit could capture build pads or not. (BUG #103)
+
+
 Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebel's announcement VO instead of the Empire's. (BUG #12)
 

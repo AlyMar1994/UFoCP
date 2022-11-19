@@ -450,7 +450,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
-		<Encyclopedia_Text> TEXT_TOOLTIP_BOBA_FETT </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_BOBA_FETT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER </Encyclopedia_Unit_Class>
 		<CategoryMask> LandHero | SpaceHero </CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
@@ -775,7 +775,7 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_MARA_JADE </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MARA_JADE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
 		<CategoryMask>LandHero</CategoryMask>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
@@ -837,7 +837,7 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<Encyclopedia_Text>TEXT_TOOLTIP_PALPATINE_01</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PALPATINE_01 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
 		<CategoryMask>LandHero</CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
@@ -968,7 +968,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_HAN_AND_CHEWIE </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HAN_AND_CHEWIE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMUGGLER </Encyclopedia_Unit_Class>
 		<CategoryMask>LandHero | SpaceHero</CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
@@ -1044,7 +1044,7 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_KYLE_KATARN </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_KYLE_KATARN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
 		<CategoryMask>LandHero</CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
@@ -1218,7 +1218,7 @@
 	<HeroCompany Name="Droids_Team">
 		<Text_ID>TEXT_HERO_DROIDS_TEAM</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_R2D2_AND_C3P0 </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_R2D2_AND_C3P0 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Icon_Name>i_button_c3po_r2d2.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>

@@ -11,7 +11,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_YODA</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_YODA </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_YODA TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
 		<Land_Model_Name>RI_YODA.ALO</Land_Model_Name>
 		<Icon_Name>i_button_RI_Yoda.tga</Icon_Name>

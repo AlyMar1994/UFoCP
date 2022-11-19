@@ -200,7 +200,7 @@
 
 	<HeroCompany Name="Underworld_Saboteur_Team">
 		<Text_ID>TEXT_HERO_UNIT_SABOTEUR</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SABOTEUR</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SABOTEUR TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Stormtrooper Rebel_Anti_Vehicle_Turret Rebel_Mobile_Defense_Unit </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Dark_Trooper_PhaseII Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>

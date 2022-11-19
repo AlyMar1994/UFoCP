@@ -9,7 +9,7 @@
 		<LOD_Bias>4</LOD_Bias>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_BOSSK</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_BOSSK </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_BOSSK TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER </Encyclopedia_Unit_Class>
 		<Land_Model_Name>UI_Bossk.alo</Land_Model_Name>
 		<Icon_Name>i_button_UI_Boskk.tga</Icon_Name>
@@ -403,7 +403,7 @@
 
 	<HeroCompany Name="Bossk_Team">
 		<Text_ID>TEXT_HERO_BOSSK_TEAM</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_BOSSK </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_BOSSK TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_UI_Boskk.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
