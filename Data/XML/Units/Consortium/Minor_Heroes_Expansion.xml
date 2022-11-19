@@ -163,7 +163,7 @@
 				<SFXEvent_Activate> Unit_Corrupt_Sabateur</SFXEvent_Activate>
 			</Corrupt_Planet_Ability>
 			-->
-			
+
 			<!-- New-style corruption -->
 			<Corruption_Ability Name="Saboteur_Corruption">
 				<Initially_Enabled>Yes</Initially_Enabled>
@@ -171,7 +171,7 @@
 				<Causes_Despawn>Yes</Causes_Despawn>
 				<SFXEvent_Activate>Unit_Corrupt_Sabateur</SFXEvent_Activate>
 			</Corruption_Ability>
- 
+
 			<System_Spy_Ability Name="Saboteur_Limited_Spy">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Galactic_Automatic</Activation_Style>
@@ -180,8 +180,8 @@
 				<See_Num_Fleets>Yes</See_Num_Fleets>
 			</System_Spy_Ability>
 
-			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack"> 
-				<Activation_Style> User_Input </Activation_Style> 
+			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack">
+				<Activation_Style> User_Input </Activation_Style>
 				<Activation_Min_Range>5.0</Activation_Min_Range>
 				<Activation_Max_Range>130.0</Activation_Max_Range>
 				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
@@ -228,7 +228,7 @@
 		<Company_Transport_Unit>Underworld_Hero_Shuttle</Company_Transport_Unit>
 		<Company_Units> Underworld_Saboteur </Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
-		
+
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
 		<SFXEvent_Build_Complete>Unit_Complete_Sabateur</SFXEvent_Build_Complete>
 		<SFXEvent_Build_Started>UHD_Build_Commander</SFXEvent_Build_Started>
@@ -241,13 +241,13 @@
 		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1100</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -268,8 +268,8 @@
 
 		<Abilities SubObjectList="Yes">
 
-			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack"> 
-				<Activation_Style> User_Input </Activation_Style> 
+			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack">
+				<Activation_Style> User_Input </Activation_Style>
 				<Activation_Min_Range>5.0</Activation_Min_Range>
 				<Activation_Max_Range>130.0</Activation_Max_Range>
 				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
@@ -465,8 +465,8 @@
 				<See_Num_Fleets>Yes</See_Num_Fleets>
 			</System_Spy_Ability>
 
-			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack"> 
-				<Activation_Style> User_Input </Activation_Style> 
+			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack">
+				<Activation_Style> User_Input </Activation_Style>
 				<Activation_Min_Range>5.0</Activation_Min_Range>
 				<Activation_Max_Range>250.0</Activation_Max_Range>
 				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
@@ -500,7 +500,7 @@
 		<Company_Transport_Unit>Underworld_Hero_Shuttle</Company_Transport_Unit>
 		<Company_Units> Underworld_Saboteur_Exec_Demo </Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
-		
+
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
 		<SFXEvent_Build_Complete>Unit_Complete_Sabateur</SFXEvent_Build_Complete>
 		<SFXEvent_Build_Started>UHD_Build_Commander</SFXEvent_Build_Started>
@@ -513,13 +513,13 @@
 		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -540,8 +540,8 @@
 
 		<Abilities SubObjectList="Yes">
 
-			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack"> 
-				<Activation_Style> User_Input </Activation_Style> 
+			<Remote_Bomb_Ability Name="Saboteur_Remote_Bomb_Attack">
+				<Activation_Style> User_Input </Activation_Style>
 				<Activation_Min_Range>5.0</Activation_Min_Range>
 				<Activation_Max_Range>75.0</Activation_Max_Range>
 				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
