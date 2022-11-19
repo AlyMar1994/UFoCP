@@ -40,7 +40,7 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		
+
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Speed>1</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
@@ -59,7 +59,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Obiwan_Lightsaber_Moving_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Obiwan_Lightsaber_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>			
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Rebel</Affiliation>
@@ -73,7 +73,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 
 		<Armor_Type> Armor_Hero </Armor_Type>
-		
+
 		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
 		<Projectile_Types> Proj_Lightsaber_Yoda </Projectile_Types>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
@@ -98,11 +98,11 @@
 		<SFXEvent_Group_Move>Unit_Group_Move_Yoda</SFXEvent_Group_Move>
 		<SFXEvent_Group_Attack>Unit_Group_Attack_Yoda</SFXEvent_Group_Attack>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Yoda </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Yoda </SFXEvent_Health_Critical_Warning>   
-		<Death_SFXEvent_Start_Die> Unit_Defeat_Yoda </Death_SFXEvent_Start_Die>  
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Yoda </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Yoda </Death_SFXEvent_Start_Die>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
@@ -117,7 +117,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>		
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 
 		<Select_Box_Scale>28</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -145,14 +145,14 @@
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
 		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes"> 
+		<Unit_Abilities_Data SubObjectList="Yes">
 
             <Unit_Ability>
                 <Type>BERSERKER</Type>
                 <Recharge_Seconds>70.0</Recharge_Seconds>
                 <GUI_Activated_Ability_Name> Yoda_Force_Attack </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                 <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_Target_Ability> Unit_Attack_Grunts_Yoda </SFXEvent_Target_Ability>  
+                <SFXEvent_Target_Ability> Unit_Attack_Grunts_Yoda </SFXEvent_Target_Ability>
  				<Supports_Autofire>True</Supports_Autofire>
            </Unit_Ability>
 
@@ -161,8 +161,8 @@
                 <Recharge_Seconds>50.0</Recharge_Seconds>
                 <GUI_Activated_Ability_Name> Yoda_Force_Sight </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                 <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Force_Sight_Yoda </SFXEvent_GUI_Unit_Ability_Activated> 
-                <SFXEvent_Special_Ability_Loop> Unit_Yoda_Force_Sight_Loop </SFXEvent_Special_Ability_Loop>  
+                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Force_Sight_Yoda </SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_Special_Ability_Loop> Unit_Yoda_Force_Sight_Loop </SFXEvent_Special_Ability_Loop>
             </Unit_Ability>
 
         </Unit_Abilities_Data>
@@ -183,7 +183,7 @@
 				<Applicable_Unit_Types>Silri, Cuddles_The_Rancor, Darth_Vader_Expansion, Luke_Skywalker_Jedi, Urai_Fen, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper, Scout_Trooper_No_Bike, Stormtrooper, Underworld_Disruptor_Merc, Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Underworld_Saboteur, IG-88, Dark_Trooper_PhaseI, Dark_Trooper_PhaseII, Dark_Trooper_PhaseIII</Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-			
+
 			<Absorb_Blaster_Ability Name="Yoda_Absorb_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<Absorb_Chance>0.6</Absorb_Chance>
@@ -260,7 +260,7 @@
 				<SFXEvent_Activate>RHD_Removing_Corruption</SFXEvent_Activate>
 			</Remove_Corruption_Ability>
 		</Abilities>
-		
+
 	</HeroUnit>
 
 
@@ -295,22 +295,22 @@
 		<Available_In_Skirmish>yes</Available_In_Skirmish>
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 		<Can_Be_Only_One>true</Can_Be_Only_One>
-		
+
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Select_Yoda</SFXEvent_Build_Complete>
 		<SFXEvent_Hero_Respawned>Unit_Select_Yoda</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Yoda</SFXEvent_Fleet_Move>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>5800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		
+
 		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
 		<CategoryMask>LandHero</CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>

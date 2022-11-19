@@ -49,7 +49,7 @@
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .1 </OverrideDeceleration>
 		<Max_Lift> .6 </Max_Lift>
-		
+
 		<Scale_Factor>1.75</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -57,9 +57,9 @@
 		<Size_Value>10</Size_Value>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		
+
 		<Tactical_Health>400</Tactical_Health>
-		
+
 		<Destroy_When_Used_As_Corruption_Prereq> No </Destroy_When_Used_As_Corruption_Prereq>
 		<Autoresolve_Health>350</Autoresolve_Health>
 		<Damage>60</Damage>
@@ -106,7 +106,7 @@
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 		<Lua_Script />
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
-		
+
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
@@ -120,7 +120,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-		
+
 		<Neutralization_Cost>1500.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
@@ -135,7 +135,7 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>FLAME_THROWER</Type>
@@ -143,7 +143,7 @@
 				<Alternate_Description_Text>TEXT_BOSSK_FLAMETHROWER_DESCRIPTION</Alternate_Description_Text>
 				<Recharge_Seconds>30.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Bossk_Flame_Thrower </GUI_Activated_Ability_Name>
-            <SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Bossk </SFXEvent_GUI_Unit_Ability_Activated>  
+            <SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Bossk </SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
@@ -152,8 +152,8 @@
 				<Alternate_Name_Text>TEXT_TOOLTIP_BOSSK_SWAP</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_BOSSK_SWAP_DESCRIPTION</Alternate_Description_Text>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-                <GUI_Activated_Ability_Name>Disruptor_Swap_Weapon</GUI_Activated_Ability_Name> 
-					 <SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Bossk </SFXEvent_GUI_Unit_Ability_Activated> 
+                <GUI_Activated_Ability_Name>Disruptor_Swap_Weapon</GUI_Activated_Ability_Name>
+					 <SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Bossk </SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -195,7 +195,7 @@
 				<Damage_Amount>275.0</Damage_Amount>
 				<Fire_Time_In_Secs>8.0</Fire_Time_In_Secs>
 				<Damage_Delay_In_Secs>0.60</Damage_Delay_In_Secs>
-				
+
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
@@ -204,14 +204,14 @@
 			</Personal_Flame_Thrower_Ability>
 
 		</Abilities>
-		
+
 	</HeroUnit>
-	
+
 
 
 
 	<!-- HOUND'S TOOTH HERO TRANSPORT DATA -->
-	
+
 
 	<UniqueUnit Name="Houndstooth">
 		<Text_ID>TEXT_UNIT_HOUNDSTOOTH</Text_ID>
@@ -255,7 +255,7 @@
 		<Damage>5</Damage>
 		<Behavior>DUMMY_STARSHIP, TRANSPORT, POWERED, SHIELDED </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, NEBULA, SELECTABLE </SpaceBehavior>
-		<LandBehavior>REVEAL, HIDE_WHEN_FOGGED, IDLE</LandBehavior> 
+		<LandBehavior>REVEAL, HIDE_WHEN_FOGGED, IDLE</LandBehavior>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Hover_Offset>30.0</Hover_Offset>
 
@@ -297,7 +297,7 @@
         <SFXEvent_Build_Cancelled>UHD_Request_Canceled</SFXEvent_Build_Cancelled>
         <SFXEvent_Build_Complete>Unit_Select_Bossk</SFXEvent_Build_Complete>
 
-        
+
 		<SFXEvent_Ambient_Moving> Unit_Hounds_Tooth_Fly_By </SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
@@ -335,10 +335,10 @@
 
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
-				<GUI_Activated_Ability_Name> HoundsTooth_Sensor_Jamming </GUI_Activated_Ability_Name> 
+				<GUI_Activated_Ability_Name> HoundsTooth_Sensor_Jamming </GUI_Activated_Ability_Name>
 				<Recharge_Seconds>75.0</Recharge_Seconds>
 				<Expiration_Seconds>30.0</Expiration_Seconds>
-				<Effective_Radius>900.0</Effective_Radius> 
+				<Effective_Radius>900.0</Effective_Radius>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -375,7 +375,7 @@
 		<Variant_Of_Existing_Type>Houndstooth</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
 		<Scale_Factor>3.5</Scale_Factor>
-		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
@@ -418,7 +418,7 @@
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>HoundsTooth</Company_Transport_Unit>
-				
+
 		<Company_Units>Bossk</Company_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Stealth_Company>Yes</Is_Stealth_Company>
@@ -435,7 +435,7 @@
 		<CategoryMask> LandHero | SpaceHero </CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<Population_Value>1</Population_Value>
-		
+
 		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
 
 		<Tactical_Build_Cost_Multiplayer>1250</Tactical_Build_Cost_Multiplayer>
@@ -443,7 +443,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 
 	</HeroCompany>
@@ -456,13 +456,13 @@
 		<Encyclopedia_Good_Against> X-wing Y-Wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Corellian_Gunboat A-Wing </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
-		
+
 		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
 

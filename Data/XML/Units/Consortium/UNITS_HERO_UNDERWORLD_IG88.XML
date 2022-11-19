@@ -50,7 +50,7 @@
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .1 </OverrideDeceleration>
 		<Max_Lift> .6 </Max_Lift>
-		
+
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Underworld</Affiliation>
@@ -58,9 +58,9 @@
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
-		
+
 		<Always_Spawn_In_Orbit>NO</Always_Spawn_In_Orbit>
-		
+
 		<Autoresolve_Health>350</Autoresolve_Health>
 		<Damage>60</Damage>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -81,7 +81,7 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
-		
+
 		<SFXEvent_Select>Unit_Select_IG88</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_IG88</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_IG88</SFXEvent_Fleet_Move>
@@ -106,7 +106,7 @@
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 		<Lua_Script>ObjectScript_IG88</Lua_Script>
-		
+
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
@@ -120,7 +120,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-		
+
 		<Neutralization_Cost>1500.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
@@ -139,7 +139,7 @@
             <Unit_Ability>
                 <Type>INFECTION</Type>
                 <Recharge_Seconds>30.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> IG88_Infection </GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name> IG88_Infection </GUI_Activated_Ability_Name>
                 <Effective_Radius> 500.0 </Effective_Radius>
                 <SFXEvent_Target_Ability>Unit_Infect_IG88</SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
@@ -153,16 +153,16 @@
                 <Area_Effect_Decal_Distance> 125.0 </Area_Effect_Decal_Distance>
                 <Spawned_Object_Type> Stun_Ability_Particles </Spawned_Object_Type>
 				<SFXEvent_Target_Ability> Unit_Contaminate_IG88 </SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_IG88_Contamination_Loop </SFXEvent_Special_Ability_Loop> 
+				<SFXEvent_Special_Ability_Loop> Unit_IG88_Contamination_Loop </SFXEvent_Special_Ability_Loop>
             </Unit_Ability>
 
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
 
-					
+
 			<Redirect_Blaster_Ability Name="IG88_Redirect_Blaster">
-				<Initially_Enabled> Yes </Initially_Enabled>		
+				<Initially_Enabled> Yes </Initially_Enabled>
 				<Activation_Style>Take_Damage</Activation_Style>
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.0</Redirect_Chance>
@@ -175,7 +175,7 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-			
+
 			<Galactic_Stealth_Ability Name="IG88_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
@@ -237,14 +237,14 @@
 			</Radioactive_Contaminate_Ability>
 
 		</Abilities>
-		
+
 	</HeroUnit>
-	
+
 
 
 
 	<!-- IG-2000 HERO TRANSPORT DATA -->
-	
+
 
 
 
@@ -289,11 +289,11 @@
 		<Damage>5</Damage>
 		<Behavior>DUMMY_STARSHIP, TRANSPORT, POWERED, SHIELDED </Behavior>
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, NEBULA, SELECTABLE, ABILITY_COUNTDOWN </SpaceBehavior>
-		<LandBehavior>REVEAL, HIDE_WHEN_FOGGED, IDLE</LandBehavior> 
+		<LandBehavior>REVEAL, HIDE_WHEN_FOGGED, IDLE</LandBehavior>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Hover_Offset>30.0</Hover_Offset>
 
-		<Minimum_Follow_Distance>60.0</Minimum_Follow_Distance> 
+		<Minimum_Follow_Distance>60.0</Minimum_Follow_Distance>
 
 		<HardPoints>
 			HP_IG2000_LASER_00,
@@ -330,7 +330,7 @@
 		<SFXEvent_Group_Attack>Unit_Group_Attack_IG88</SFXEvent_Group_Attack>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_IG88 </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_IG88 </SFXEvent_Health_Critical_Warning>
-        
+
 		<SFXEvent_Ambient_Moving> Unit_IG2000_Fly_By </SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
@@ -416,7 +416,7 @@
 		<Variant_Of_Existing_Type>IG-2000</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
 		<Scale_Factor>4.0</Scale_Factor>
-		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
@@ -447,7 +447,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_IG88 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_UI_IG88.tga</Icon_Name>
-		
+
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>80</Damage>
 		<Affiliation>Underworld</Affiliation>
@@ -459,7 +459,7 @@
 		<Required_Special_Structures />
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		
+
 		<Always_Spawn_In_Orbit>NO</Always_Spawn_In_Orbit>
 		<Company_Transport_Unit>IG-2000</Company_Transport_Unit>
 
@@ -479,9 +479,9 @@
 		<SFXEvent_Build_Complete>Unit_Select_IG88</SFXEvent_Build_Complete>
 		<SFXEvent_Hero_Respawned>Unit_Select_IG88</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_IG88</SFXEvent_Fleet_Move>
-		
+
 		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
-		
+
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 
 	</HeroCompany>
@@ -489,13 +489,13 @@
 
 	<HeroCompany Name="IG88_Team_Land_MP">
 		<Variant_Of_Existing_Type>IG88_Team</Variant_Of_Existing_Type>
-	
+
 		<Tactical_Build_Cost_Multiplayer>1800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
 
@@ -506,13 +506,13 @@
 		<Encyclopedia_Good_Against> X-wing Y-Wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Corellian_Gunboat A-Wing </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
-		
+
 		<Tactical_Build_Cost_Multiplayer>1700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
 
