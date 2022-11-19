@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<Ewok_Bomber_Data>
+
+
+
+
+	<GroundInfantry Name="Ewok_Handler">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_EWOK_HANDLER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_UNIT_EWOK_HANDLER_DESCRIPTION TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Good_Against> Garrison_Bunker_Rebel E_Ground_Turbolaser_Tower Stormtrooper  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Crawler UC_Rebel_Buildable_Anti_Infantry_Turret UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_ewok_handler.tga</Icon_Name>
+				
+		<Land_Model_Name> UI_ewok_handler.alo </Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		
+		<Select_Box_Scale>20</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> 1.0 </Walk_Animation_Speed>
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Mass>1.0</Mass>
+				
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, TARGETING, GARRISON_UNIT</LandBehavior>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Affiliation>Underworld</Affiliation>
+		<IsBuildable>No</IsBuildable>
+		<Size_Value>10</Size_Value>
+		<Armor_Type> Armor_Infantry </Armor_Type>
+		<Damage>5</Damage>
+		<Tactical_Health>100</Tactical_Health>
+
+		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<SFXEvent_Select>Unit_Select_Ewok_Handler</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Ewok_Handler</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Ewok_Handler</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Move_Ewok_Handler</SFXEvent_Guard>
+		<SFXEvent_Assist_Move />		
+		<SFXEvent_Assist_Attack />
+		<SFXEvent_Fire />
+		<Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_2_Death</Death_SFXEvent_Start_Die>
+
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
+		
+		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
+
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
+		
+		<MovementClass>Infantry</MovementClass>
+		<CategoryMask> Infantry </CategoryMask>
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Weather_Category>Infantry</Weather_Category>
+
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.2f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+		<OccupationStyle>1x1</OccupationStyle>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<AI_Combat_Power>25</AI_Combat_Power>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<Min_Speed> .1 </Min_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<FormationOrder> 2 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationRaggedness> .9 </FormationRaggedness>
+		<Movie_Object>false</Movie_Object>
+
+		<Unit_Abilities_Data SubObjectList="Yes">  </Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">  
+            <Spawn_Ability Name="Handler_Spawn">
+                <Activation_Style> Special_Attack </Activation_Style>
+                <Activation_Min_Range>75.0</Activation_Min_Range>
+                <Activation_Max_Range>270.0</Activation_Max_Range>
+                <Object_Type>Ewok_Suicide_Bomber_For_Handler</Object_Type>
+                <Creation_Delay_In_Seconds>2.5</Creation_Delay_In_Seconds>
+                <Recharge_Time_In_Seconds>3</Recharge_Time_In_Seconds>
+                <Spawn_Bone_Name>MuzzleA_00</Spawn_Bone_Name>
+                <Self_Destruct_Radius>10</Self_Destruct_Radius>
+				<Explosion_Type>Proj_Ewok_From_Handler_Bomb_Of_Doom</Explosion_Type>
+            </Spawn_Ability>
+        </Abilities>
+
+	</GroundInfantry>
+
+	<GroundCompany Name="Underworld_Ewok_Handler_Company">
+		<Text_ID>TEXT_UNIT_EWOK_HANDLER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_UNIT_EWOK_HANDLER_DESCRIPTION </Encyclopedia_Text>
+		<Encyclopedia_Good_Against> Garrison_Bunker_Rebel E_Ground_Turbolaser_Tower Stormtrooper  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Crawler UC_Rebel_Buildable_Anti_Infantry_Turret UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_ewok_handler.tga</Icon_Name>
+		
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>45</Damage>
+		<Autoresolve_Health>135</Autoresolve_Health>
+		
+		<Affiliation>Underworld</Affiliation>
+
+		<Build_Cost_Credits>950</Build_Cost_Credits>
+		<Build_Time_Seconds>12</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>U_Ground_Palace</Required_Special_Structures>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Underworld_Infantry_Droid_Shuttle</Company_Transport_Unit>
+		<Company_Units> Ewok_Handler </Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+
+		<SFXEvent_Build_Started>UHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Ewok_Handler</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ewok_Handler</SFXEvent_Fleet_Move>
+        
+		<Score_Cost_Credits>25</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1250</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_For_All_Allies />
+		<Build_Limit_Lifetime_Per_Player />-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+
+
+
+
+
+	<GroundInfantry Name="Ewok_Suicide_Bomber_For_Handler">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_EWOK_SUICIDE_BOMBER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FANATIC </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_UNIT_EWOK_SUICIDE_BOMBER_DESCRIPTION </Encyclopedia_Text>
+		<Icon_Name>i_button_Ewok.tga</Icon_Name>
+		<Encyclopedia_Good_Against> Garrison_Bunker_Rebel E_Ground_Turbolaser_Tower Stormtrooper  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Crawler UC_Rebel_Buildable_Anti_Infantry_Turret UC_Empire_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>		
+		<Land_Model_Name> NI_Ewok_bomb_nohat.alo </Land_Model_Name>
+		<Scale_Factor>1.5</Scale_Factor>
+		
+		<Select_Box_Scale>20</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+
+		<Max_Speed>1</Max_Speed>
+		<Max_Rate_Of_Turn>32.0</Max_Rate_Of_Turn>
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 32.0 </Rotation_Animation_Speed>
+		<Mass>1.0</Mass>
+				
+		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, TARGETING</LandBehavior>
+
+		<Affiliation>Underworld</Affiliation>
+		<IsBuildable>No</IsBuildable>
+		<Size_Value>10</Size_Value>
+		<Armor_Type> Armor_Infantry </Armor_Type>
+		<Damage>5</Damage>
+		<Tactical_Health>25</Tactical_Health>
+
+		<Land_FOW_Reveal_Range>120.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>5.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<SFXEvent_Select>Unit_Select_Ewok</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Ewok</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Ewok</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Ewok</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Ewok </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Attack_Ewok </SFXEvent_Assist_Attack>
+		<SFXEvent_Fire>Unit_Ewok_Rock_Throw</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die> Unit_Ewok_Death </Death_SFXEvent_Start_Die>
+
+		<Selt_Destruct_SFXEvent_Start_Die> Unit_Ewok_Death </Selt_Destruct_SFXEvent_Start_Die> <!-- When self destruct sequence begins -->
+		<Death_SFXEvent_Start_Die> Unit_Ewok_Death </Death_SFXEvent_Start_Die> <!-- When self destructs -->
+
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
+		
+		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
+
+		<Death_Clone>Damage_Force_Whirlwind, Ewok_A_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Ewok_A_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Fire, Ewok_A_Fire_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Self_Destruct, Ewok_A_Fire_Death_Clone</Death_Clone>
+
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Short_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Short_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Short_Melt_Death_Clone_00</Death_Clone>
+		
+		<MovementClass>Infantry</MovementClass>
+		<CategoryMask> Infantry </CategoryMask>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Weather_Category>Infantry</Weather_Category>
+
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.2f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.2</Burning_Damage_Per_Second>
+
+		<OccupationStyle>1x1</OccupationStyle>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<AI_Combat_Power>5</AI_Combat_Power>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<Min_Speed> .5 </Min_Speed>
+		<OverrideAcceleration> 2.0 </OverrideAcceleration>
+		<OverrideDeceleration> 2.0 </OverrideDeceleration>
+		<FormationOrder> 2 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationRaggedness> .9 </FormationRaggedness>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Movie_Object>false</Movie_Object>
+
+        <Can_Indigenous_Unit_Stop>false</Can_Indigenous_Unit_Stop>
+        <Close_Enough_Angle_For_Move_Start>360</Close_Enough_Angle_For_Move_Start>
+
+		<Unit_Abilities_Data SubObjectList="Yes">  </Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">  </Abilities>
+
+	</GroundInfantry>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Ewok_Bomber_Data>
