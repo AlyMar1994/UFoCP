@@ -14,7 +14,7 @@
 		<Hover_Offset>16.0</Hover_Offset>
 		<Primary_Locomotor_Name>WALK_LOCOMOTOR</Primary_Locomotor_Name>
 		<Secondary_Locomotor_Name>JETPACK_LOCOMOTOR</Secondary_Locomotor_Name>
-		
+
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -44,7 +44,7 @@
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .1 </OverrideDeceleration>
 		<Max_Lift> .6 </Max_Lift>
-		
+
 		<Scale_Factor>1.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
@@ -68,7 +68,7 @@
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>.7</Projectile_Fire_Recharge_Seconds>
-		
+
 		<SFXEvent_Select>Unit_Select_Boba_Fett</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Boba_Fett</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Boba_Fett</SFXEvent_Fleet_Move>
@@ -102,7 +102,7 @@
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 		<Lua_Script>BobaFettPlan</Lua_Script>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
-		
+
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
@@ -116,7 +116,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-		
+
 		<Neutralization_Cost>1500.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
@@ -129,7 +129,7 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-	
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -139,19 +139,19 @@
 				<GUI_Activated_Ability_Name> Boba_Fett_Flame_Thrower </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-			
+
 			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>JET_PACK</Type>
 				<Recharge_Seconds>45.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<SFXEvent_Target_Ability> Unit_Move_Boba_Fett </SFXEvent_Target_Ability> 
+				<SFXEvent_Target_Ability> Unit_Move_Boba_Fett </SFXEvent_Target_Ability>
 				<!-- Disabling these, since we now want Boba to be able to fly anywhere on the map, even into FOW -->
 				<!-- <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance> -->
 				<!-- <Effective_Radius> 300.0 </Effective_Radius> -->
 				<Effective_Radius> -1.0 </Effective_Radius> <!-- For the Jet Pack jump, the effect radius of -1.0 means unlimited range -->
 			</Unit_Ability>
-		
+
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -184,7 +184,7 @@
 
 			<Personal_Flame_Thrower_Ability Name="Boba_Fett_Flame_Thrower">
 				<Activation_Style> User_Input </Activation_Style>
-				
+
 				<!-- We need to be within this distance of the clicked target to consider activating the flame thrower -->
 				<Activation_Min_Range>0.0</Activation_Min_Range>
 				<Activation_Max_Range>100.0</Activation_Max_Range>
@@ -192,17 +192,17 @@
 				<Damage_Amount>225.0</Damage_Amount>
 				<Fire_Time_In_Secs>10.0</Fire_Time_In_Secs>
 				<Damage_Delay_In_Secs>0.5</Damage_Delay_In_Secs>
-				
+
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Flamethrower_Fire</SFXEvent_Activate>
 				<Flame_Emitter_Model_Name>p_flamethrower00</Flame_Emitter_Model_Name>
 			</Personal_Flame_Thrower_Ability>
-			
+
 		</Abilities>
 	</HeroUnit>
-	
+
 	<HeroUnit Name="Boba_Fett_NoStealth">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_BOBA_FETT</Text_ID>
@@ -210,7 +210,7 @@
 		<Icon_Name>i_button_boba_fett.tga</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE  </GalacticBehavior>
-				
+
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -232,7 +232,7 @@
 		<Min_Speed> .1 </Min_Speed>
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .25 </OverrideDeceleration>
-		
+
 		<Scale_Factor>1.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Empire</Affiliation>
@@ -253,7 +253,7 @@
 		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-		
+
 		<SFXEvent_Select>Unit_Select_Boba_Fett</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Boba_Fett</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Boba_Fett</SFXEvent_Fleet_Move>
@@ -283,12 +283,12 @@
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
-		
+
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
         <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
-		
+
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
@@ -296,7 +296,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
-		
+
 		<Neutralization_Cost>1500.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
@@ -308,12 +308,12 @@
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
-		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>		
-	
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 
-		
+
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -321,7 +321,7 @@
 
 		</Abilities>
 	</HeroUnit>
-	
+
 	<HeroUnit Name="Commander_Akbar">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_COMMANDER_AKBAR</Text_ID>
@@ -388,7 +388,7 @@
 			<Cancel_Special_Ability Name="Akbar_Cancel_Special_Ability">
 				<Activation_Style>Combat_Automatic</Activation_Style>
 			</Cancel_Special_Ability>
--->			
+-->
 			<Remove_Corruption_Ability Name="Akbar_Remove_Corruption">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Activated</Activation_Style>
@@ -397,14 +397,14 @@
 			</Remove_Corruption_Ability>
 		</Abilities>
 	</HeroUnit>
-	
+
 	<HeroUnit Name="Emperor_Palpatine">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_EMPEROR_PALPATINE</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_PALPATINE_01 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
-		
+
 		<Land_Model_Name>EI_Palpatine.ALO</Land_Model_Name>
 		<Icon_Name>i_button_emperor_palpatine.tga</Icon_Name>
 
@@ -412,7 +412,7 @@
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, IMPOSING_PRESENCE, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>Palpatine</Lua_Script>
 		<Garrison_Category> Infantry </Garrison_Category>
-		
+
 		<!-- Lightsaber holstering data -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
 		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
@@ -452,7 +452,7 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
         <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
-		
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -502,7 +502,7 @@
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
-		
+
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<AI_Combat_Power>600</AI_Combat_Power>
 
@@ -525,7 +525,7 @@
 
 		<!-- Controls the range within which Palpatine has an effect on other units' animations -->
 		<Presence_Range>100.0</Presence_Range>
-	
+
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
 		<!-- Non-Hero unit abilities description -->
@@ -535,7 +535,7 @@
 				<Type>FORCE_LIGHTNING</Type>
 				<Recharge_Seconds>20.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Emperor_Force_Lightning </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<SFXEvent_Target_Ability> Unit_Lightning_Emperor </SFXEvent_Target_Ability> 
+				<SFXEvent_Target_Ability> Unit_Lightning_Emperor </SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
@@ -544,12 +544,12 @@
 				<Recharge_Seconds>70.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Spawned_Object_Type> Proj_Special_Emperor_Instant_Dark_Side_Corrupt_Blast </Spawned_Object_Type>
-				<SFXEvent_Target_Ability> Unit_Convert_Emperor </SFXEvent_Target_Ability>  
+				<SFXEvent_Target_Ability> Unit_Convert_Emperor </SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
-		
+
 
 		<Abilities SubObjectList="Yes">
 
@@ -676,7 +676,7 @@
 				<Heal_Interval_In_Secs>3.0</Heal_Interval_In_Secs>
 				<Applicable_Unit_Categories> Infantry </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				
+
 				<Excluded_Unit_Types>
 					Destroyer_Droid,
 					Dark_Trooper_PhaseI,
@@ -688,17 +688,17 @@
 					Empire_Mobile_Defense_Unit,
 					Rebel_Mobile_Defense_Unit
 				</Excluded_Unit_Types>
-				
+
 				<SFXEvent_Target_Affected>Unit_Force_Corruption</SFXEvent_Target_Affected>	<!-- STUB for Frank -->
-				<Target_Particle_Effect>Corrupt_Enemy</Target_Particle_Effect>	
+				<Target_Particle_Effect>Corrupt_Enemy</Target_Particle_Effect>
 				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
 				<Target_Light_Effect_Type>Smooth_Pulse</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>0.1, 0.1, 0.1</Target_Light_Effect_Color>	
+				<Target_Light_Effect_Color>0.1, 0.1, 0.1</Target_Light_Effect_Color>
 				<Target_Light_Effect_Color2 />
 				<Target_Light_Effect_Duration>1.0</Target_Light_Effect_Duration>
 				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
-			
+
 			<Remove_Corruption_Ability Name="Emperor_Remove_Corruption">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Corruption_Removal_Cost_Multiplier>1</Corruption_Removal_Cost_Multiplier> <!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->				<Activation_Style>Ground_Activated</Activation_Style>
@@ -707,7 +707,7 @@
 				<Causes_Despawn>No</Causes_Despawn>
 				<SFXEvent_Activate>EHD_Removing_Corruption</SFXEvent_Activate>
 			</Remove_Corruption_Ability>
-			
+
 		</Abilities>
 	</HeroUnit>
 
@@ -717,7 +717,7 @@
 		<Text_ID>TEXT_HERO_GENERAL_VEERS</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_VEERS_01 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER </Encyclopedia_Unit_Class>
-		
+
         <Icon_Name>i_button_general_maximillian_veers.tga</Icon_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -782,7 +782,7 @@
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-			
+
 			<Reduce_Production_Price_Ability Name="Veers_Reduce_Production_Price">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
@@ -802,14 +802,14 @@
 
 	</HeroUnit>
 
-	
-	
+
+
 	<HeroUnit Name="Grand_Moff_Tarkin">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_GRAND_MOFF_TARKIN</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_TARKIN_01 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
-		
+
 		<Icon_Name>i_button_grand_moff_tarkin.tga</Icon_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -846,11 +846,11 @@
 				<Time_Reduction_Percentage>0.25</Time_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Political_Transition_Bonus_Ability>
-			
+
 			<Political_Control_Protection_Ability Name="Tarkin_Political_Protection">
 				<Activation_Style>Galactic_Automatic</Activation_Style>
 			</Political_Control_Protection_Ability>
-			
+
 			<Reduce_Production_Price_Ability Name="Tarkin_Reduce_Production_Price">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
@@ -872,12 +872,12 @@
 				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-			
+
 			<Retreat_Prevention_Ability Name="Tarkin_Retreat_Prevention">
 				<!-- maybe it should be space only? -->
 				<Activation_Style>Combat_Automatic</Activation_Style>
 			</Retreat_Prevention_Ability>
-			
+
 		</Abilities>
 	</HeroUnit>
 
@@ -917,7 +917,7 @@
 		<Min_Speed> .1 </Min_Speed>
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .25 </OverrideDeceleration>
-		
+
 		<Deploys>No</Deploys>
 		<Affiliation>Rebel</Affiliation>
 
@@ -931,11 +931,11 @@
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		
+
 		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-		
+
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
 		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
@@ -981,7 +981,7 @@
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Land_Han_Solo </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Land_Han_Solo </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Defeat_Land_Han_Solo </Death_SFXEvent_Start_Die>
-		
+
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Rebel_Hero</Selection_Blob_Material_Name>
@@ -1004,7 +1004,7 @@
 
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-		
+
 		<Encyclopedia_Text> TEXT_TOOLTIP_HAN_SOLO TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMUGGLER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
@@ -1066,7 +1066,7 @@
 				<Neutralization_Cost_Multiplier>1.25</Neutralization_Cost_Multiplier>
 				<Stacking_Category>0</Stacking_Category>
 			</Hero_Protection_Ability>
-			
+
 			<Remove_Corruption_Ability Name="Hansolo_Remove_Corruption">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Activated</Activation_Style>
@@ -1185,7 +1185,7 @@
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
-		
+
 		<Encyclopedia_Text> TEXT_TOOLTIP_CHEWBACCA TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMUGGLER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
@@ -1193,7 +1193,7 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 
-		<!-- Chewbacca can Steal Vehicles and Sprint -->		
+		<!-- Chewbacca can Steal Vehicles and Sprint -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
@@ -1202,7 +1202,7 @@
 				<GUI_Activated_Ability_Name> Chewbacca_Vehicle_Thief </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Laugh_Chewie </SFXEvent_GUI_Unit_Ability_Activated>
 		  </Unit_Ability>
-		
+
 		<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>SPRINT</Type>
@@ -1213,7 +1213,7 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_Chewie</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-	
+
 		<Abilities SubObjectList="Yes">
 			<Galactic_Stealth_Ability Name="Chewbacca_Galactic_Stealth">
 					<Initially_Enabled>Yes</Initially_Enabled>
@@ -1224,9 +1224,9 @@
   			<Vehicle_Thief_Ability Name="Chewbacca_Vehicle_Thief">
   				<Activation_Style> User_Input </Activation_Style>
   				<Applicable_Unit_Categories />
-  				
+
   				<!-- MAKE SURE to add a "_Captured" clone to any unit that you add in this list!!!! -->
-  				
+
   				<Applicable_Unit_Types>
   						AT_AT_Walker,
   						AT_ST_Walker,
@@ -1238,7 +1238,7 @@
   						Pirate_Skiff,
   						Swamp_Speeder_E,
   						Swamp_Speeder_P
-  						Pod_Walker_Empire, 
+  						Pod_Walker_Empire,
   						Pod_Walker_Pirate,
   						MPTL,
   						T2B_Tank,
@@ -1249,7 +1249,7 @@
   						MAL_Rocket_Vehicle,
   						MZ8_Pulse_Cannon_Tank
   				</Applicable_Unit_Types>
-  				
+
   				<Activation_Min_Range>0.0</Activation_Min_Range>
   				<Activation_Max_Range>50.0</Activation_Max_Range>
   				<Activation_Chance>1.0</Activation_Chance>
@@ -1257,7 +1257,7 @@
   			</Vehicle_Thief_Ability>
 		</Abilities>
 	</HeroUnit>
-	
+
 
 
 	<HeroUnit Name="Mara_Jade">
@@ -1266,7 +1266,7 @@
 		<Text_ID>TEXT_HERO_MARA_JADE</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_MARA_JADE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HAND</Encyclopedia_Unit_Class>
-		
+
 		<Land_Model_Name> EI_MaraJade.alo </Land_Model_Name>
 		<Icon_Name>i_button_mara_jade.tga</Icon_Name>
 
@@ -1280,24 +1280,24 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 
-		<Garrison_Category> Infantry </Garrison_Category>	
+		<Garrison_Category> Infantry </Garrison_Category>
 		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 		<Walk_Animation_Speed> .42 </Walk_Animation_Speed>
 		<Max_Speed>1</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>	
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 5.0 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .3 </FormationSpacing> 
+		<FormationSpacing> .3 </FormationSpacing>
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .1 </OverrideDeceleration>
 		<FormationOrder> 1 </FormationOrder>
 		<FormationRaggedness> .8 </FormationRaggedness>
 		<MaxJiggleDistance> 2.0 </MaxJiggleDistance>
-		
+
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Scale_Factor>1.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1333,7 +1333,7 @@
 		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-		
+
 		<SFXEvent_Select>Unit_Select_Mara_Jade</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Mara_Jade</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mara_Jade</SFXEvent_Fleet_Move>
@@ -1375,14 +1375,14 @@
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-		
+
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
-		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>		
-		
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -1398,11 +1398,11 @@
 				<Recharge_Seconds>50.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Spawned_Object_Type> Proj_Special_Mara_Corrupt_Blast </Spawned_Object_Type>
-				<SFXEvent_Target_Ability> Unit_Convert_Emperor </SFXEvent_Target_Ability>  
+				<SFXEvent_Target_Ability> Unit_Convert_Emperor </SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
-		
+
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -1465,15 +1465,15 @@
 		</Abilities>
 	</HeroUnit>
 
-	
-	
-	
+
+
+
 	<HeroUnit Name="Mon_Mothma">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_MON_MOTHMA</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_MON_MOTHMA_01 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
-		
+
 		<Icon_Name>i_button_mon_mothma.tga</Icon_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -1518,7 +1518,7 @@
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-			
+
 			<Reduce_Production_Price_Ability Name="Mothma_Reduce_Production_Price">
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
@@ -1533,9 +1533,9 @@
 				<Causes_Despawn>No</Causes_Despawn>
 				<SFXEvent_Activate>RHD_Removing_Corruption</SFXEvent_Activate>
 			</Remove_Corruption_Ability>
-	
+
 		</Abilities>
-		
+
 	</HeroUnit>
 
 
@@ -1570,7 +1570,7 @@
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		
+
 		<Movement_Animation_Speed> 0.4 </Movement_Animation_Speed>
 		<Max_Speed>1</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
@@ -1592,7 +1592,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Obiwan_Lightsaber_Moving_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Obiwan_Lightsaber_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>			
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Scale_Factor>1.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
@@ -1629,8 +1629,8 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Obi_Wan </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Defeat_Obi_Wan </Death_SFXEvent_Start_Die>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<CategoryMask> LandHero </CategoryMask>
@@ -1643,7 +1643,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>		
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -1685,7 +1685,7 @@
 				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Confuse_Obi_Wan </SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-			
+
 			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>TARGETED_INVULNERABILITY</Type>
@@ -1694,7 +1694,7 @@
 				<Spawned_Object_Type> Proj_Special_Obiwan_Instant_Invulnerability_Blast </Spawned_Object_Type>
 				<Effective_Radius>400</Effective_Radius>
 				<Friendly_Ability> true </Friendly_Ability>
-				<Supports_Autofire>True</Supports_Autofire>				
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -1741,7 +1741,7 @@
 			</Redirect_Blaster_Ability>
 
 			<Force_Healing_Ability Name="ObiWan_Self_Heal">
-			
+
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>5.0</Heal_Range>
 				<Heal_Amount> 0.0 </Heal_Amount>
@@ -1753,7 +1753,7 @@
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>Obi_Wan_Kenobi</Applicable_Unit_Types>
 				<Excluded_Unit_Types />
-				
+
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
 				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
@@ -1808,9 +1808,9 @@
 
 	</HeroUnit>
 
-	
-	
-	
+
+
+
 	<HeroUnit Name="Darth_Vader">
 		<LOD_Bias>5</LOD_Bias>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -1844,7 +1844,7 @@
 		<SFXEvent_Engine_Idle_Loop> Unit_Vader_Lightsaber_Idle_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Vader_Lightsaber_Moving_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Vader_Lightsaber_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-		
+
 		<Movement_Animation_Speed> 1 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .42 </Walk_Animation_Speed>
 		<Max_Speed>1</Max_Speed>
@@ -1860,7 +1860,7 @@
 		<Min_Speed> .1 </Min_Speed>
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .1 </OverrideDeceleration>
-		
+
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1902,9 +1902,9 @@
 		<Death_SFXEvent_Start_Die> Unit_Defeat_Vader </Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Ambient_Moving> Ambient_Vader_Random_Breath </SFXEvent_Ambient_Moving>
-		
-		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<CategoryMask> LandHero | SpaceHero </CategoryMask>
@@ -1948,10 +1948,10 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_DARTH_VADER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
-		
+
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
-		
+
 		<!-- Controls the range within which Vader has an effect on other units' animations -->
 		<Presence_Range>100.0</Presence_Range>
 
@@ -1967,10 +1967,10 @@
 				<Type>FORCE_TELEKINESIS</Type>
 				<Recharge_Seconds>30.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Vader_Force_Telekinesis </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<SFXEvent_Target_Ability> Unit_Lift_Vader </SFXEvent_Target_Ability> 
+				<SFXEvent_Target_Ability> Unit_Lift_Vader </SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-			
+
 			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>FORCE_WHIRLWIND</Type>
@@ -1981,7 +1981,7 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<Abilities SubObjectList="Yes">
 
 			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
@@ -2140,7 +2140,7 @@
 		<SFXEvent_Engine_Idle_Loop> Unit_Vader_Lightsaber_Idle_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Vader_Lightsaber_Moving_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Vader_Lightsaber_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-		
+
 		<Movement_Animation_Speed> 1 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .42 </Walk_Animation_Speed>
 		<Max_Speed>1</Max_Speed>
@@ -2156,7 +2156,7 @@
 		<Min_Speed> .1 </Min_Speed>
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .1 </OverrideDeceleration>
-		
+
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -2198,9 +2198,9 @@
 		<Death_SFXEvent_Start_Die> Unit_Defeat_Vader </Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Ambient_Moving> Ambient_Vader_Random_Breath </SFXEvent_Ambient_Moving>
-		
-		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<CategoryMask> LandHero | SpaceHero </CategoryMask>
@@ -2244,15 +2244,15 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_DARTH_VADER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
-		
+
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
-		
+
 		<!-- Controls the range within which Vader has an effect on other units' animations -->
 		<Presence_Range>100.0</Presence_Range>
 
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
-		
+
 		<Unique_Space_Unit>Executor_Super_Star_Destroyer</Unique_Space_Unit>
 
 		<!-- Non-Hero unit abilities description -->
@@ -2262,10 +2262,10 @@
 				<Type>FORCE_TELEKINESIS</Type>
 				<Recharge_Seconds>30.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Vader_Force_Telekinesis </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<SFXEvent_Target_Ability> Unit_Lift_Vader </SFXEvent_Target_Ability> 
+				<SFXEvent_Target_Ability> Unit_Lift_Vader </SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-			
+
 			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>FORCE_WHIRLWIND</Type>
@@ -2276,7 +2276,7 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<Abilities SubObjectList="Yes">
 
 			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
@@ -2468,16 +2468,16 @@
 		</Abilities>
 	</HeroUnit>
 
-	
-	
+
+
 	<HeroUnit Name="Kyle_Katarn">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_KYLE_KATARN</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_KYLE_KATARN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
-		
-		
+
+
 		<Land_Model_Name>RI_KyleKatarn.alo</Land_Model_Name>
 		<Icon_Name>i_button_kyle_katarn.tga</Icon_Name>
 
@@ -2494,19 +2494,19 @@
 		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 		<Max_Speed>1</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>	
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 5.0 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .3 </FormationSpacing> 
+		<FormationSpacing> .3 </FormationSpacing>
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .1 </OverrideDeceleration>
 		<FormationOrder> 1 </FormationOrder>
 		<FormationRaggedness> .8 </FormationRaggedness>
 		<MaxJiggleDistance> 2.0 </MaxJiggleDistance>
-		
+
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Scale_Factor>1.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -2526,12 +2526,12 @@
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-		
+
 		<Land_FOW_Reveal_Range>325.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>325.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-		
+
 		<SFXEvent_Select>Unit_Select_Katarn</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Katarn</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Katarn</SFXEvent_Fleet_Move>
@@ -2582,7 +2582,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-		
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -2594,7 +2594,7 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Katarn</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
-		
+
 			<Unit_Ability>
 				<Type>STICKY_BOMB</Type>
 				<Recharge_Seconds>23.0f </Recharge_Seconds>
@@ -2602,9 +2602,9 @@
 				<SFXEvent_Target_Ability> Unit_Bomb_Katarn </SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-			
+
 		</Unit_Abilities_Data>
-	
+
 		<Abilities SubObjectList="Yes">
 
 			<Galactic_Stealth_Ability Name="Kyle_Katarn_Galactic_Stealth">
@@ -2626,7 +2626,7 @@
 				<Activation_Min_Range>5.0</Activation_Min_Range>
 				<Activation_Max_Range>100.0</Activation_Max_Range>
 				<Requires_Direct_Player_Command> No </Requires_Direct_Player_Command> <!-- Was NO -->
-				
+
 				<Grenade_Type>Proj_Kyle_Katarn_Sticky_Bomb</Grenade_Type>
 				<Grenade_Toss_Anim>BOMBTOSS</Grenade_Toss_Anim>
 				<Grenade_Spawn_Frame>12.0</Grenade_Spawn_Frame>
@@ -2649,9 +2649,9 @@
 			</Remove_Corruption_Ability>
 
 		</Abilities>
-		
+
 	</HeroUnit>
-	
+
 
 
 
@@ -2681,23 +2681,23 @@
 		<LandBehavior> SELECTABLE, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, STUNNABLE </LandBehavior>
 
 		<Mass>1.0</Mass>
-		
+
 		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 		<Max_Speed>0.8</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>	
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> None </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .3 </FormationSpacing> 
+		<FormationSpacing> .3 </FormationSpacing>
 		<OverrideAcceleration> .075 </OverrideAcceleration>
 		<OverrideDeceleration> .075 </OverrideDeceleration>
 		<FormationOrder> 1 </FormationOrder>
 		<FormationRaggedness> .8 </FormationRaggedness>
 		<MaxJiggleDistance> 2.0 </MaxJiggleDistance>
-				
+
 		<Scale_Factor>1.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
@@ -2705,7 +2705,7 @@
 		<Select_Box_Scale>20</Select_Box_Scale>
 		<Selection_Blob_Material_Name>Selection_Rebel_Hero</Selection_Blob_Material_Name>
         <Highlight_Blob_Material_Name>Highlight_Rebel_Hero</Highlight_Blob_Material_Name>
-		
+
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		<Tactical_Health>300</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
@@ -2721,7 +2721,7 @@
 		<Spawn_Planet />
 		<Size_Value>75</Size_Value>
 		<Autoresolve_Health>300</Autoresolve_Health>
-		
+
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 
@@ -2730,7 +2730,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_C3PO</SFXEvent_Fleet_Move>
 		<SFXEvent_Attacked>Unit_Attacked_C3PO</SFXEvent_Attacked>
 		<SFXEvent_Guard>Unit_Guard_C3PO</SFXEvent_Guard>
-		<Death_SFXEvent_Start_Die> Unit_Defeat_C3PO </Death_SFXEvent_Start_Die> 
+		<Death_SFXEvent_Start_Die> Unit_Defeat_C3PO </Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Engine_Moving_Loop> Unit_R2_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 
@@ -2741,7 +2741,7 @@
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		
+
 		<Neutralization_Cost>2000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
@@ -2750,7 +2750,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_R2D2 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 0 </Score_Cost_Credits>
-		
+
 		<Share_Damage_With_Teammates>Yes</Share_Damage_With_Teammates>
 		<Respawn_Whole_Team_When_Killed>Yes</Respawn_Whole_Team_When_Killed>
 
@@ -2807,27 +2807,27 @@
 
 		<!-- This is not required since R2 and 3PO are a team, and this data is on another container object -->
 		<!-- If we wanted R2 to have the special abilities and he was not part of the team, then we would need there -->
-		 <!-- Oksana: commenting this breaks the ability. The ability should be _indicated_ on the container object(i.e. only 
-			the ability type, with no parameters). The ability should be DEFINED on the unit itself. This would be valid 
+		 <!-- Oksana: commenting this breaks the ability. The ability should be _indicated_ on the container object(i.e. only
+			the ability type, with no parameters). The ability should be DEFINED on the unit itself. This would be valid
 			if the ability was a _team ability_ like ION CANNON SHOT -->
 			<Unit_Abilities_Data SubObjectList="Yes">
-			
+
 				<Unit_Ability>
 					<Type>TARGETED_HACK</Type>
 					<Recharge_Seconds>45.0</Recharge_Seconds>
 					<GUI_Activated_Ability_Name> R2D2_Hack_Ability </GUI_Activated_Ability_Name>
-					<SFXEvent_Target_Ability> Unit_Hack_Turret_C3PO </SFXEvent_Target_Ability> 
+					<SFXEvent_Target_Ability> Unit_Hack_Turret_C3PO </SFXEvent_Target_Ability>
 					<Supports_Autofire>True</Supports_Autofire>
 				</Unit_Ability>
-	
+
 				<Unit_Ability>
 					<Type>TARGETED_REPAIR</Type>
 					<Recharge_Seconds>35.0</Recharge_Seconds>
 					<GUI_Activated_Ability_Name> R2D2_Repair_Ability </GUI_Activated_Ability_Name>
-					<SFXEvent_Target_Ability> Unit_Hack_Turret_C3PO </SFXEvent_Target_Ability> 
+					<SFXEvent_Target_Ability> Unit_Hack_Turret_C3PO </SFXEvent_Target_Ability>
 					<Friendly_Ability> Yes </Friendly_Ability> <!-- Targeted ability to friendly units -->
 				</Unit_Ability>
-	
+
 			</Unit_Abilities_Data>
 
 
@@ -2848,7 +2848,7 @@
 		<Text_ID>TEXT_HERO_DROID_C3P0</Text_ID>
 		<Land_Model_Name>RI_C3PO.ALO</Land_Model_Name>
 		<!-- Leave icon name blank so only 1 icon shows up for R2 and 3PO -->
-		<Icon_Name /> 
+		<Icon_Name />
 
 		<GUI_Bracket_Width>5</GUI_Bracket_Width>
 		<GUI_Bracket_Height>0</GUI_Bracket_Height>
@@ -2862,24 +2862,24 @@
 		<Create_Team> Yes </Create_Team>
 
 		<Mass>1.0</Mass>
-		
+
 		<Movement_Animation_Speed> 0.326 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 		<Max_Speed>0.8</Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>	
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> None </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .3 </FormationSpacing> 
+		<FormationSpacing> .3 </FormationSpacing>
 		<OverrideAcceleration> .075 </OverrideAcceleration>
 		<OverrideDeceleration> .075 </OverrideDeceleration>
 		<FormationOrder> 1 </FormationOrder>
 		<FormationRaggedness> .8 </FormationRaggedness>
 		<MaxJiggleDistance> 2.0 </MaxJiggleDistance>
-		
-		
+
+
 		<Scale_Factor>1.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
@@ -2887,7 +2887,7 @@
 		<Select_Box_Scale>20</Select_Box_Scale>
 		<Selection_Blob_Material_Name>Selection_Rebel_Hero</Selection_Blob_Material_Name>
         <Highlight_Blob_Material_Name>Highlight_Rebel_Hero</Highlight_Blob_Material_Name>
-		
+
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		<Tactical_Health>300</Tactical_Health>
 		<Autoresolve_Health>500</Autoresolve_Health>
@@ -2903,7 +2903,7 @@
 		<Spawn_Planet />
 		<Size_Value>75</Size_Value>
 		<Autoresolve_Health>300</Autoresolve_Health>
-		
+
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
 
@@ -2913,7 +2913,7 @@
 		<SFXEvent_Guard>Unit_Guard_C3PO</SFXEvent_Guard>
 		<SFXEvent_Health_Low_Warning> Unit_Near_Death_C3PO </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Near_Death_C3PO </SFXEvent_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die> Unit_Defeat_C3PO </Death_SFXEvent_Start_Die> 
+		<Death_SFXEvent_Start_Die> Unit_Defeat_C3PO </Death_SFXEvent_Start_Die>
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
@@ -2922,7 +2922,7 @@
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		
+
 		<Neutralization_Cost>2000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
@@ -2936,7 +2936,7 @@
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 
 		<Abilities SubObjectList="Yes">
-		
+
 			<Galactic_Stealth_Ability Name="C3P0_Stealth">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Galactic_Automatic</Activation_Style>
@@ -2945,7 +2945,7 @@
 			</Galactic_Stealth_Ability>
 
 		</Abilities>
-		
+
 		<Share_Damage_With_Teammates>Yes</Share_Damage_With_Teammates>
 		<Respawn_Whole_Team_When_Killed>Yes</Respawn_Whole_Team_When_Killed>
 	</HeroUnit>
@@ -2955,8 +2955,8 @@
 <!-- 	###########	QUESTIONABLE ENTRIES ################# -->
 
 
-	
-	
+
+
 	<HeroUnit Name="Luke_Skywalker">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
@@ -2979,7 +2979,7 @@
 		<Size_Value>75</Size_Value>
 		<Damage>60</Damage>
 		<Autoresolve_Health>250</Autoresolve_Health>
-	
+
 		<SFXEvent_Select>Unit_Select_Luke</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Luke</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Luke</SFXEvent_Fleet_Move>
@@ -2989,15 +2989,15 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Luke </SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Enemy_Health_Low_Warning> Unit_Enemy_Health_Low_Luke </SFXEvent_Enemy_Health_Low_Warning>
 		<SFXEvent_Enemy_Health_Critical_Warning> Unit_Enemy_Health_Critical_Luke </SFXEvent_Enemy_Health_Critical_Warning>
-		<Death_SFXEvent_Start_Die> Unit_Defeat_Luke </Death_SFXEvent_Start_Die> 
-	
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Luke </Death_SFXEvent_Start_Die>
+
 		<Icon_Name>i_button_luke_skywalker.tga</Icon_Name>
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
 		<Lua_Script>LukePlan</Lua_Script>
 		<CategoryMask> SpaceHero </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
-	
+
 		<Encyclopedia_Text> TEXT_TOOLTIP_LUKE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
@@ -3005,7 +3005,7 @@
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
 	</HeroUnit>
-	
+
 	<HeroUnit Name="General_Dodonna">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_GENERAL_DODONNA</Text_ID>
@@ -3030,14 +3030,14 @@
 		<Icon_Name>i_button_general_dodonna.tga</Icon_Name>
 		<CategoryMask> LandHero </CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
-	
+
 		<Neutralization_Cost>1000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_DODONNA </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
-	
+
 		<!-- This Galactic_Influence_Range controls how far Dodonna's Ship_Reveal ability extends -->
 		<Galactic_Influence_Range>100.0</Galactic_Influence_Range>
 		<Abilities SubObjectList="Yes">
@@ -3079,4 +3079,3 @@
 
 
 </HeroUnits>
-
