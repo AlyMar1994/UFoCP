@@ -580,6 +580,12 @@
 			<!--<Cancel_Special_Ability Name="Akbar_Cancel_Special_Ability">
 				<Activation_Style>Combat_Automatic</Activation_Style>
 			</Cancel_Special_Ability>-->
+			<Remove_Corruption_Ability Name="Akbar_Remove_Corruption">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Activated</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<SFXEvent_Activate>RHD_Removing_Corruption</SFXEvent_Activate>
+			</Remove_Corruption_Ability>
 		</Abilities>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>

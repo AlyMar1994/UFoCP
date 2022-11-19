@@ -49,7 +49,7 @@ function Definitions()
 		{
 			"MainForce",
 			"DenyHeroAttach",
-			"Mon_Mothma_Team | Obi_Wan_Team | Katarn_Team | Yoda_Team | Luke_Skywalker_Jedi_Team | Han_Solo_Team | Emperor_Palpatine_Team | General_Veers_Team | Darth_Team | Mara_Jade_Team | Grand_Admiral_Thrawn_Team = 1"
+			"Mon_Mothma_Team | Obi_Wan_Team | Katarn_Team | Yoda_Team | Luke_Skywalker_Jedi_Team | Han_Solo_Team | Emperor_Palpatine_Team | General_Veers_Team | Darth_Team_Executor | Mara_Jade_Team | Admonitor_Star_Destroyer | Home_One = 1"
 		}
 	}
 end
