@@ -105,8 +105,8 @@
 
 	<!-- Expansion Units: Rebel -->
 
-	<File>Units_Hero_Rebel_Yoda.xml</File>
-	<File>Units_Hero_Rebel_LukeSkywalker.xml</File>
+	<File>Units\Rebels\Units_Hero_Rebel_Yoda.xml</File>
+	<File>Units\Rebels\Units_Hero_Rebel_LukeSkywalker.xml</File>
 	<File>Units_Hero_Rebel_Gargantuan.xml</File>
 	<File>Units_Hero_Rebel_Rogue_Squadron.xml</File>
 
@@ -119,8 +119,8 @@
 
 	<!-- Expansion Units: Underworld -->
 
-	<File>Units_Hero_Underworld_IG88.xml</File>
-	<File>Units_Hero_Underworld_Bossk.xml</File>
+	<File>Units\Consortium\Units_Hero_Underworld_IG88.xml</File>
+	<File>Units\Consortium\Units_Hero_Underworld_Bossk.xml</File>
 	<File>Units_Hero_Underworld_Tyber_Zann.xml</File>
 	<File>Units_Hero_Underworld_Silri.xml</File>
 	<File>Units_Hero_Underworld_Urai_Fen.xml</File>
