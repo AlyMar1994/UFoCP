@@ -106,7 +106,7 @@
 
 		<MovementClass>Infantry</MovementClass>
 		<CategoryMask> Infantry </CategoryMask>
-		<Victory_Relevant>No</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Weather_Category>Infantry</Weather_Category>
 
 		<Death_Clone>Damage_Force_Whirlwind, Bothan_Civ_Force_Whirlwind_Death_Clone</Death_Clone>
@@ -301,7 +301,7 @@
 
 		<MovementClass>Hover</MovementClass>
 		<CategoryMask> Infantry </CategoryMask>
-		<Victory_Relevant>No</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Weather_Category>Infantry</Weather_Category>
 
 		<Death_Clone>Damage_Force_Whirlwind, Geonosian_Force_Whirlwind_Death_Clone</Death_Clone>
@@ -486,7 +486,7 @@
 
 		<MovementClass>Infantry</MovementClass>
 		<CategoryMask> Infantry </CategoryMask>
-		<Victory_Relevant>no</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Weather_Category>Infantry</Weather_Category>
 
 		<OccupationStyle>1x1</OccupationStyle>
@@ -673,7 +673,7 @@
 
 		<MovementClass>Infantry</MovementClass>
 		<CategoryMask> Infantry </CategoryMask>
-		<Victory_Relevant>No</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Weather_Category>Infantry</Weather_Category>
 
 		<Death_Clone>Damage_Force_Whirlwind, Gungan_Warrior_Force_Whirlwind_Death_Clone</Death_Clone>
@@ -863,7 +863,7 @@
 
 		<MovementClass>Infantry</MovementClass>
 		<CategoryMask> Infantry </CategoryMask>
-		<Victory_Relevant>No</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Weather_Category>Infantry</Weather_Category>
 
 		<Death_Clone>Damage_Force_Whirlwind, Pyngani_Warrior_Force_Whirlwind_Death_Clone</Death_Clone>
@@ -1051,7 +1051,7 @@
 
 		<MovementClass>Infantry</MovementClass>
 		<CategoryMask> Infantry </CategoryMask>
-		<Victory_Relevant>No</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Weather_Category>Infantry</Weather_Category>
 
 		<Death_Clone>Damage_Force_Whirlwind, Twilek_Female_Force_Whirlwind_Death_Clone</Death_Clone>
@@ -1241,7 +1241,7 @@
 
 		<MovementClass>Infantry</MovementClass>
 		<CategoryMask> Infantry </CategoryMask>
-		<Victory_Relevant>No</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Weather_Category>Infantry</Weather_Category>
 
 		<Death_Clone>Damage_Force_Whirlwind, Sullustan_Civilian_Force_Whirlwind_Death_Clone</Death_Clone>
@@ -1428,7 +1428,7 @@
 
 		<MovementClass>Infantry</MovementClass>
 		<CategoryMask> Infantry </CategoryMask>
-		<Victory_Relevant>No</Victory_Relevant>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Weather_Category>Infantry</Weather_Category>
 
 		<Death_Clone>Damage_Force_Whirlwind, Mon_Calamari_Civilian_Force_Whirlwind_Death_Clone</Death_Clone>

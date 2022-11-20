@@ -39,7 +39,7 @@ v1.0.1.#### (2022-##-##) [FoC v1.121.786192]
 
 Ability Fixes:
 • "BARRAGE" prematurely ended in multiple cases because the ability's invisible targeting marker kept dying due to splash damage.  The marker has been made invincible to rectify the problem. (BUG #1)
-• "REMOVE CORRUPTION" either wasn't functional for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, Mara Jade, Darth Vader and Grand Admiral Thrawn, or said units couldn't be used by the AI to remove corruption.  The related AI and GUI references were messed up across the board, Ackbar's ability being implemented on the wrong unit altogether.  While Jade/Katarn can't be used in GC, all previously mentioned units' Remove Corruption abilities have been restored, and the AI should be aware of all applicable units to remove corruption with. (BUG #35)
+• "REMOVE CORRUPTION" either wasn't functional for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, Mara Jade, Darth Vader and Grand Admiral Thrawn, or said units couldn't be used by the AI to remove corruption.  The related AI and GUI references were messed up across the board, with Ackbar's ability being implemented on the wrong unit.  While Jade/Katarn can't be used in GC, all previously mentioned units' Remove Corruption abilities have been restored, and the AI should be aware of all applicable units to remove corruption with. (BUG #35)
 
 
 AI Fixes:
@@ -53,7 +53,7 @@ AI Fixes:
 
 
 Audio Fixes:
-• No music would play when losing against the Consortium because of a bad filename reference.  The Consortium's generic losing music was also referencing the Rebels' music entry.  This has been rectified, and the music had its volume boosted. (BUG #31)
+• No music would play when losing against the Consortium because of a bad filename reference.  The Consortium's generic losing music was also referencing the Rebels' music entry.  This has been rectified, and because the music is very quiet, its volume has been boosted. (BUG #31)
 
 
 Interface Fixes:
@@ -75,11 +75,12 @@ Interface Fixes:
 Structure Fixes:
 • One of the Pirate Asteroid Base's laser cannon hardpoints wasn't attached to the proper model on the station itself, meaning that laser wouldn't fire properly. (BUG #17)
 • The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC.  From station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> U/A --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
-• The Pirate Asteroid Base's hardpoints didn't apply its damage multiplier debuffs/buffs against different ships/shields because its laser and turbolaser multipliers were misspelled, respectively, as "Damage_Sation_Laser" and "Damage_Sation_Turbolaser" instead of "Station." (BUG #119)
+• The Pirate Asteroid Base's hardpoints didn't have damage multiplier debuffs/buffs against different units/shields because its laser and turbolaser multiplier variables were misspelled, respectively, as "Damage_Sation_Laser" and "Damage_Sation_Turbolaser" instead of "Station." (BUG #119)
 
 
 Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebel's announcement VO instead of the Empire's. (BUG #12)
+• Zann Consortium Slaves weren't coded as "victory relevant," meaning the battle would lose prematurely if you only left Slaves on the battlefield; the Slaves would then reappear fighting for the Consortium if the same map is attacked again.  The Slave entries were duplicated from their civilian counterparts, and never updated - the Slaves are now properly victory relevant. (BUG #113)
 
 
 Upgrade Fixes:
