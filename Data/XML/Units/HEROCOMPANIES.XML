@@ -331,7 +331,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Field</SFXEvent_Fleet_Move>
 
 
-		<Encyclopedia_Text>TEXT_TOOLTIP_FIELD_COMMANDER</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_FIELD_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
 
 				<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -377,7 +377,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Empire_Field</SFXEvent_Fleet_Move>
 
 
-		<Encyclopedia_Text>TEXT_TOOLTIP_FIELD_COMMANDER</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_FIELD_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
 
 				<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
