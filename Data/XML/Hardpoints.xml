@@ -2,7 +2,7 @@
 <HardPoints>
 
 <!-- Star Destroyer Hard Points -->
-		
+
     <HardPoint Name="HP_Star_Destroyer_Weapon_FL">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -42,7 +42,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Star_Destroyer_Weapon_FR">
@@ -104,7 +104,7 @@
             <Damage_Particles>HP_B-L_EMITDAMAGE</Damage_Particles>
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Star_Dest_Weapon_BL </Death_Breakoff_Prop>
-				
+
             <Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-L_01</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
@@ -285,7 +285,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Attachment_Bone>SPAWN_00</Attachment_Bone>             
+		<Attachment_Bone>SPAWN_00</Attachment_Bone>
 		<Collision_Mesh>SPAWN_00</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>250.0</Health>
@@ -299,8 +299,8 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>225.0</Health>
-		
-		<Attachment_Bone>HP_trac_bone</Attachment_Bone>             
+
+		<Attachment_Bone>HP_trac_bone</Attachment_Bone>
 		<Collision_Mesh>HP_trac_bone</Collision_Mesh>
 		<Damage_Decal>HP_TRAC_BLAST</Damage_Decal>
 		<Damage_Particles>HP_TRAC_EMITDAMAGE</Damage_Particles>
@@ -319,7 +319,7 @@
 
 
 <!-- Mon Calamari Cruiser Hard Points -->
-	
+
     <HardPoint Name="HP_Calamari_Cruiser_Weapon_FL">
 			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -358,7 +358,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Calamari_Cruiser_Weapon_FR">
@@ -399,7 +399,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Calamari_Cruiser_Weapon_BL">
@@ -441,7 +441,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Calamari_Cruiser_Weapon_BR">
@@ -483,7 +483,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Calamari_Cruiser_Weapon_ML">
@@ -525,7 +525,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Calamari_Cruiser_Weapon_MR">
@@ -567,7 +567,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Calamari_Cruiser_Engines">
@@ -587,7 +587,7 @@
             <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
             <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
     </HardPoint>
-    
+
         <!-- jdg new engine hardpoint for Princess Leia - em10 -->
      <HardPoint Name="HP_Tantive_IV_Engines">
 			<Type> HARD_POINT_ENGINE </Type>
@@ -635,7 +635,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
  			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
@@ -664,7 +664,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
  			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
@@ -693,10 +693,10 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
  			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
-    
+
     <HardPoint Name="HP_Corellian_Corvette_04">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -722,7 +722,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
  			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
@@ -751,10 +751,10 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
-    
+
     <HardPoint Name="HP_Corellian_Corvette_06">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -780,10 +780,10 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
-    
+
     <HardPoint Name="HP_Corellian_Corvette_07">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -809,10 +809,10 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
-  
+
     <HardPoint Name="HP_Corellian_Corvette_08">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -838,7 +838,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
  			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
@@ -932,7 +932,7 @@
    </HardPoint>
 
 
-    
+
     <HardPoint Name="HP_Tartan_Cruiser_03">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -961,7 +961,7 @@
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
-    
+
     <HardPoint Name="HP_Tartan_Cruiser_04">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -990,8 +990,8 @@
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
  			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
-    
-    
+
+
 <!-- Hard points for the Corellian Gunship -->
 
     <HardPoint Name="HP_Corellian_Gunship_01">
@@ -1010,7 +1010,7 @@
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
 				<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Corellian_Gunship_02">
@@ -1029,7 +1029,7 @@
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
 				<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Corellian_Gunship_03">
@@ -1058,10 +1058,10 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
-    
+
     <HardPoint Name="HP_Corellian_Gunship_04">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -1088,7 +1088,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
   			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 	 </HardPoint>
 
@@ -1118,10 +1118,10 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
   			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 	 </HardPoint>
-    
+
     <HardPoint Name="HP_Corellian_Gunship_06">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -1149,9 +1149,9 @@
 			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
-			
+
     </HardPoint>
-    
+
     <HardPoint Name="HP_Corellian_Gunship_07">
 			<Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -1172,7 +1172,7 @@
 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 
     </HardPoint>
-  
+
     <HardPoint Name="HP_Corellian_Gunship_08">
 			<Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -1234,7 +1234,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Nebulon_Weapon_FR">
@@ -1276,7 +1276,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Nebulon_Weapon_BL">
@@ -1318,7 +1318,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Nebulon_Weapon_BR">
@@ -1359,7 +1359,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Nebulon_Engines">
@@ -1406,9 +1406,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 70.0 </Fire_Inaccuracy_Distance>
-		
+
 		<Fire_Category_Restrictions> Infantry, Vehicle, Structure, Air, Transport </Fire_Category_Restrictions>
-		
+
     </HardPoint>
 
 <!-- Hard points for the IPV System Patrol Craft (Pirate Corvette) -->
@@ -1438,7 +1438,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_IPV_Patrol_02">
@@ -1467,7 +1467,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_IPV_Patrol_03">
@@ -1496,9 +1496,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
-    
+
     <HardPoint Name="HP_IPV_Patrol_04">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -1525,7 +1525,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_IPV_Patrol_05">
@@ -1554,9 +1554,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
-    
+
     <HardPoint Name="HP_IPV_Patrol_06">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -1583,9 +1583,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
-    
+
     <HardPoint Name="HP_IPV_Patrol_07">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -1612,7 +1612,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
 <!-- Victory-Class Star Destroyer Hard Points -->
@@ -1655,7 +1655,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Victory_Weapon_02">
@@ -1698,7 +1698,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Victory_Weapon_03">
@@ -1741,7 +1741,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Victory_Shields_01">
@@ -1785,7 +1785,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Attachment_Bone>SPAWN_00</Attachment_Bone>             
+		<Attachment_Bone>SPAWN_00</Attachment_Bone>
 		<Collision_Mesh>SPAWN_00</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>100.0</Health>
@@ -1834,7 +1834,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Interdictor_Weapon_02">
@@ -1876,7 +1876,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Interdictor_Weapon_03">
@@ -1918,7 +1918,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Interdictor_Weapon_04">
@@ -1960,7 +1960,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Interdictor_GravWell_01">
@@ -2099,7 +2099,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Assault_Frigate_Weapon_BL">
@@ -2141,7 +2141,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Assault_Frigate_Weapon_BR">
@@ -2182,7 +2182,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Assault_Frigate_Engines">
@@ -2243,7 +2243,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Acclamator_Weapon_FR">
@@ -2285,7 +2285,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Acclamator_Weapon_FC">
@@ -2359,7 +2359,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Acclamator_Weapon_BR">
@@ -2401,7 +2401,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Acclamator_Weapon_BC">
@@ -2423,7 +2423,7 @@
             <Fire_Bone_A>FP_B-C_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-C_01</Fire_Bone_B>
             <Fire_Cone_Width>130.0</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height> 
+            <Fire_Cone_Height>130.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo_Light</Fire_Projectile_Type> <!-- Split off so it doesn't 5x cap ships -->
             <Fire_Min_Recharge_Seconds>18.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>18.0</Fire_Max_Recharge_Seconds>
@@ -2432,7 +2432,7 @@
             <Fire_Range_Distance>1400.0</Fire_Range_Distance>
 				<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-            
+
 			<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
@@ -2452,14 +2452,14 @@
             <Damage_Decal />
             <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
             <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
-            
+
     </HardPoint>
 
 	<HardPoint Name="HP_Acclamator_Fighter_Bay">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Attachment_Bone>SPAWN_00</Attachment_Bone>             
+		<Attachment_Bone>SPAWN_00</Attachment_Bone>
 		<Collision_Mesh>SPAWN_00</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>100.0</Health>
@@ -2541,9 +2541,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
-    
+
     <HardPoint Name="HP_Rebel_Station_One_TBL">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -2585,9 +2585,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
- 
+
     <HardPoint Name="HP_Rebel_Station_One_ShieldGen">
 			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -2609,23 +2609,23 @@
             <Damage_Decal>HP01_SHG_BLAST</Damage_Decal>
             <Damage_Particles>HP01_SHG_EMITDAMAGE</Damage_Particles>
     </HardPoint>
-    
+
 	<HardPoint Name="HP_Rebel_Station_One_Fighter_Bay">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Attachment_Bone>SPAWN_00</Attachment_Bone>             
+		<Attachment_Bone>SPAWN_00</Attachment_Bone>
 		<Collision_Mesh>SPAWN_00</Collision_Mesh>
-		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>           
+		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>1000.0</Health>
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-		
+
         <Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-        
-	</HardPoint>    
+
+	</HardPoint>
 
 	<HardPoint Name="HP_Rebel_Station_One_Supply_Dock">
 		<Type> HARD_POINT_ENABLE_SPECIAL_ABILITY </Type>
@@ -2680,7 +2680,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
      </HardPoint>
-    
+
      <HardPoint Name="HP_Rebel_Station_One_Comm_Array_Dummy">
 			<Type>HARD_POINT_DUMMY_ART</Type>
 			<Is_Targetable>No</Is_Targetable>
@@ -2691,8 +2691,8 @@
 			<Damage_Decal>HP01_CA_BLAST</Damage_Decal>
 			<Damage_Particles>HP01_CA_EMITDAMAGE</Damage_Particles>
      </HardPoint>
-    
-    
+
+
 <!-- Rebel Space Station Level 2 Hardpoints - use all level 1 hardpoints plus these -->
 
      <HardPoint Name="HP_Rebel_Station_Two_LC">
@@ -2739,7 +2739,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Rebel_Station_Two_PRT">
@@ -2776,7 +2776,7 @@
 			<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
     </HardPoint>
-    
+
     <HardPoint Name="HP_Rebel_Station_Two_TBL">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -2821,10 +2821,10 @@
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
- 
- 
+
+
  <!-- Rebel Space Station Level 3 Hardpoints - use all level 1-2 hardpoints plus these -->
 
      <HardPoint Name="HP_Rebel_Station_Three_CCM">
@@ -2859,7 +2859,7 @@
 
 
     </HardPoint>
- 
+
       <HardPoint Name="HP_Rebel_Station_Three_IC">
 			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -2900,9 +2900,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
- 
+
     <HardPoint Name="HP_Rebel_Station_Three_PRT">
 			<Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -2982,7 +2982,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
      <HardPoint Name="HP_Rebel_Station_Four_LC">
@@ -3029,7 +3029,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Rebel_Station_Four_TBL">
@@ -3072,7 +3072,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Rebel_Station_Four_ShieldGen">
@@ -3172,7 +3172,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Rebel_Station_Five_PRT">
@@ -3251,7 +3251,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Rebel_Station_Five_TBL2">
@@ -3297,7 +3297,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
 <!-- Hard points for the Empire Space Station Level 1 -->
@@ -3378,9 +3378,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
-    
+
     <HardPoint Name="HP_Empire_Station_One_02">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3422,7 +3422,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Empire_Station_One_03">
@@ -3445,24 +3445,24 @@
             <Damage_Decal>HP01_SHG_BLAST</Damage_Decal>
             <Damage_Particles>HP01_SHG_EMITDAMAGE</Damage_Particles>
     </HardPoint>
-    
+
 	<HardPoint Name="HP_Empire_Station_One_Fighter_Bay">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Attachment_Bone>SPAWN_00</Attachment_Bone>
 		<Collision_Mesh>SPAWN_00</Collision_Mesh>
-		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>           
+		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>1000.0</Health>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-		
+
 		<Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-        
-	</HardPoint>   
-    
+
+	</HardPoint>
+
      <HardPoint Name="HP_Empire_Station_One_Supply_Dock">
 			<Type> HARD_POINT_ENABLE_SPECIAL_ABILITY </Type>
 			<Special_Ability_Name>E_Supply_Dock_Income_Bonus</Special_Ability_Name>
@@ -3500,7 +3500,7 @@
 			<Tooltip_Text>TEXT_COMM_ARRAY_HARDPOINT</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
-			
+
 			<!-- The Hyper Velocity Cannon will be disabled for all Empire players if this hardpoint is destroyed. -->
 			<Allows_Special_Weapon_Use> True </Allows_Special_Weapon_Use>
 
@@ -3571,7 +3571,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Empire_Station_Two_01">
@@ -3610,7 +3610,7 @@
 			<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
 
     </HardPoint>
-    
+
     <HardPoint Name="HP_Empire_Station_Two_02">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3644,7 +3644,7 @@
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
 				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-            
+
 			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
@@ -3652,7 +3652,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
  <!-- Empire Space Station Level 3 Hardpoints - use all level 1-2 hardpoints plus these -->
@@ -3690,7 +3690,7 @@
 			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
     </HardPoint>
- 
+
       <HardPoint Name="HP_Empire_Station_Three_01">
 			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3731,9 +3731,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
- 
+
     <HardPoint Name="HP_Empire_Station_Three_02">
 			<Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3812,7 +3812,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
      <HardPoint Name="HP_Empire_Station_Four_01">
@@ -3854,7 +3854,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Empire_Station_Four_02">
@@ -3897,9 +3897,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
-    
+
     <HardPoint Name="HP_Empire_Station_Four_03">
 			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -3920,8 +3920,8 @@
             <Damage_Decal>HP01_SHG_BLAST</Damage_Decal>
             <Damage_Particles>HP01_SHG_EMITDAMAGE</Damage_Particles>
     </HardPoint>
-    
-    
+
+
 
  <!-- Empire Space Station Level 5 Hardpoints - use all level 1-4 hardpoints plus these -->
 
@@ -3998,7 +3998,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Empire_Station_Five_02">
@@ -4077,7 +4077,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
 <!-- Hard points for the TIE bomber and Y-wing -->
@@ -4108,7 +4108,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
 			<Fire_Category_Restrictions> Corvette, Frigate, Capital, Structure </Fire_Category_Restrictions>
 
 	</HardPoint>
@@ -4139,7 +4139,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
 			<Fire_Category_Restrictions> Corvette, Frigate, Capital, Structure </Fire_Category_Restrictions>
 
     </HardPoint>
@@ -4165,7 +4165,7 @@
 			<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
  			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 			<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
-   
+
     </HardPoint>
 
     <HardPoint Name="HP_BOMBER_03">
@@ -4225,7 +4225,7 @@
 
 			<Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
 			<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
-			
+
 			<Fire_Category_Restrictions>  </Fire_Category_Restrictions>
 
 	</HardPoint>
@@ -4259,7 +4259,7 @@
 
 			<Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
 			<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
-			
+
 			<Fire_Category_Restrictions>  </Fire_Category_Restrictions>
 
 	</HardPoint>
@@ -4344,7 +4344,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_HomeOne_TBL_BR">
@@ -4386,9 +4386,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
-  
+
     <HardPoint Name="HP_HomeOne_TBL_FL">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -4428,7 +4428,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_HomeOne_TBL_FR">
@@ -4470,7 +4470,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_HomeOne_IC_BL">
@@ -4511,7 +4511,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_HomeOne_IC_BR">
@@ -4552,9 +4552,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
-    
+
     <HardPoint Name="HP_HomeOne_IC_FL">
 			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -4593,7 +4593,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_HomeOne_IC_FR">
@@ -4634,7 +4634,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
 
@@ -4714,7 +4714,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Jedi_Cruiser_FR">
@@ -4754,9 +4754,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
-    
+
     <HardPoint Name="HP_Jedi_Cruiser_ML">
 			<Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -4785,7 +4785,7 @@
             <Fire_Range_Distance>1800.0</Fire_Range_Distance>
 				<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Jedi_Cruiser_MR">
@@ -4816,7 +4816,7 @@
             <Fire_Range_Distance>1800.0</Fire_Range_Distance>
 				<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Jedi_Cruiser_BL">
@@ -4856,7 +4856,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Jedi_Cruiser_BR">
@@ -4895,12 +4895,12 @@
 			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
 
 <!-- Training Star Destroyer Hard Points for Tutorial -->
-		
+
     <HardPoint Name="HP_Star_Destroyer_Training_01">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -4939,7 +4939,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Star_Destroyer_Training_02">
@@ -4999,7 +4999,7 @@
             <Damage_Particles>HP_B-L_EMITDAMAGE</Damage_Particles>
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Star_Dest_Weapon_BL </Death_Breakoff_Prop>
-				
+
             <Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-L_01</Fire_Bone_B>
             <Fire_Cone_Width>130.0</Fire_Cone_Width>
@@ -5253,9 +5253,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
-    
+
     <HardPoint Name="HP_Empire_Station_Training_02">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -5293,7 +5293,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Empire_Station_Training_03">
@@ -5342,7 +5342,7 @@
             <Fire_Bone_A>FP_F-R_00</Fire_Bone_A>
             <Fire_Bone_B>FP_F-L_00</Fire_Bone_B>
             <Fire_Cone_Width>130.0</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height> 
+            <Fire_Cone_Height>130.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo_Light</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>12.0</Fire_Max_Recharge_Seconds>
@@ -5352,7 +5352,7 @@
 			<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
 			<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-			
+
     </HardPoint>
 
 
@@ -5395,7 +5395,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
 	<HardPoint Name="HP_Pirate_Frigate_BR">
@@ -5437,7 +5437,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
 
@@ -5486,9 +5486,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
-    
+
     <HardPoint Name="HP_Pirate_Base_Laser_Cannon_01">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -5529,9 +5529,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
-			
-    </HardPoint> 
-    
+
+    </HardPoint>
+
     <HardPoint Name="HP_Pirate_Base_Turbolaser_00">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -5572,7 +5572,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Pirate_Base_Turbolaser_01">
@@ -5615,7 +5615,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Pirate_Base_Turbolaser_02">
@@ -5658,7 +5658,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Pirate_Base_Turbolaser_03">
@@ -5701,7 +5701,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Pirate_Base_Heavy_Turret_00">
@@ -5792,16 +5792,16 @@
             <Damage_Decal>HP_SHG_BLAST</Damage_Decal>
             <Damage_Particles>HP_SHG_EMITDAMAGE</Damage_Particles>
     </HardPoint>
-    
+
 	<HardPoint Name="HP_Pirate_Base_Fighter_Bay_00">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>700.0</Health>
-				
-		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>           
+
+		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		
+
 		<Model_To_Attach>Nb_apbase_hp_hb.alo</Model_To_Attach>
 		<Attachment_Bone>HP_HB_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_HB_COLL</Collision_Mesh>
@@ -5810,9 +5810,9 @@
 
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
-	</HardPoint>   
-	
-	
+	</HardPoint>
+
+
 	<!--jdg these are the hardpoints for the pirate asteroid in the Boba Fett mission.-->
 	<HardPoint Name="HP_Pirate_Base_Laser_Cannon_00_Weak">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -5854,9 +5854,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
-    
+
     <HardPoint Name="HP_Pirate_Base_Laser_Cannon_01_Weak">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -5897,9 +5897,9 @@
 			<Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
-			
-    </HardPoint> 
-    
+
+    </HardPoint>
+
     <HardPoint Name="HP_Pirate_Base_Turbolaser_00_Weak">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -5940,7 +5940,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Pirate_Base_Turbolaser_01_Weak">
@@ -5983,7 +5983,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Pirate_Base_Turbolaser_02_Weak">
@@ -6026,7 +6026,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Pirate_Base_Turbolaser_03_Weak">
@@ -6069,7 +6069,7 @@
 			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-			
+
     </HardPoint>
 
     <HardPoint Name="HP_Pirate_Base_Heavy_Turret_00_Weak">
@@ -6160,16 +6160,16 @@
             <Damage_Decal>HP_SHG_BLAST</Damage_Decal>
             <Damage_Particles>HP_SHG_EMITDAMAGE</Damage_Particles>
     </HardPoint>
-    
+
 	<HardPoint Name="HP_Pirate_Base_Fighter_Bay_00_Weak">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>200.0</Health><!--was 1800-->
-				
-		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>           
+
+		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		
+
 		<Model_To_Attach>Nb_apbase_hp_hb.alo</Model_To_Attach>
 		<Attachment_Bone>HP_HB_BONE</Attachment_Bone>
 		<Collision_Mesh>HP_HB_COLL</Collision_Mesh>
@@ -6178,7 +6178,7 @@
 
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
-	</HardPoint>  
+	</HardPoint>
 
 <!-- =============================================                       ============================================= -->
 <!-- ============================================= END SPACE, BEGIN LAND ============================================= -->
@@ -6238,7 +6238,7 @@
 
 			<Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
 			<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
-	
+
     </HardPoint>
 
     <HardPoint Name="HP_T4B_Tank_05">
@@ -6288,9 +6288,9 @@
 			<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
 
 			<Fire_Inaccuracy_Distance> Infantry, 3.0 </Fire_Inaccuracy_Distance>
-				
-			<Fire_Category_Restrictions> Air, Vehicle, Structure </Fire_Category_Restrictions>	
-			
+
+			<Fire_Category_Restrictions> Air, Vehicle, Structure </Fire_Category_Restrictions>
+
     </HardPoint>
 
 <!-- Hard points for the AT-AT -->
@@ -6314,9 +6314,9 @@
 			<Fire_SFXEvent>Unit_AT_AT_Fire</Fire_SFXEvent>
 
 			<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
-				
-			<Fire_Category_Restrictions> Air, Vehicle, Structure </Fire_Category_Restrictions>	
-			
+
+			<Fire_Category_Restrictions> Air, Vehicle, Structure </Fire_Category_Restrictions>
+
     </HardPoint>
 
     <HardPoint Name="HP_AT-AT_01">
@@ -6339,9 +6339,9 @@
 
 
 			<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
-				
-			<Fire_Category_Restrictions> Air, Vehicle, Structure </Fire_Category_Restrictions>	
-			
+
+			<Fire_Category_Restrictions> Air, Vehicle, Structure </Fire_Category_Restrictions>
+
     </HardPoint>
 
 
@@ -6369,9 +6369,9 @@
 
 			<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-				
-			<Fire_Category_Restrictions> Air, Structure </Fire_Category_Restrictions>	
-			
+
+			<Fire_Category_Restrictions> Air, Structure </Fire_Category_Restrictions>
+
     </HardPoint>
 
 	<HardPoint Name="HP_SPMAT_01">
@@ -6396,9 +6396,9 @@
 
 			<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-				
-			<Fire_Category_Restrictions> Air, Structure </Fire_Category_Restrictions>	
-			
+
+			<Fire_Category_Restrictions> Air, Structure </Fire_Category_Restrictions>
+
     </HardPoint>
 
 	<HardPoint Name="HP_SPMAT_02">
@@ -6423,11 +6423,11 @@
 
 			<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-				
-			<Fire_Category_Restrictions> Air, Structure </Fire_Category_Restrictions>	
-			
+
+			<Fire_Category_Restrictions> Air, Structure </Fire_Category_Restrictions>
+
     </HardPoint>
-    
+
 	<HardPoint Name="HP_SPMAT_03">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -6450,12 +6450,11 @@
 
 			<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-				
-			<Fire_Category_Restrictions> Air, Structure </Fire_Category_Restrictions>	
-			
-    </HardPoint>
-    
-    
-    
-</HardPoints>
 
+			<Fire_Category_Restrictions> Air, Structure </Fire_Category_Restrictions>
+
+    </HardPoint>
+
+
+
+</HardPoints>
