@@ -16,14 +16,14 @@
 		<Text_ID>TEXT_INDIG_BOTHAN_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		
+
 		<Land_Model_Name>NI_Bothan.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
-		
+
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON,REVEAL,HIDE_WHEN_FOGGED</LandBehavior>
-		
+
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -42,7 +42,7 @@
 		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
 
 		<Influences_Capture_Point>True</Influences_Capture_Point>
-		
+
 		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 		<Max_Speed>1</Max_Speed>
@@ -73,7 +73,7 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		
+
 		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
@@ -83,12 +83,12 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 8.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 8.0 </Targeting_Fire_Inaccuracy>
-		
+
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-		
+
 		<SFXEvent_Select>Unit_Select_Bothan</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Bothan</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Bothan</SFXEvent_Attack>
@@ -119,14 +119,14 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> Yes </Is_Squashable>
-		
+
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Create_Team>True</Create_Team>
-		
-		
+
+
 		<Movie_Object>false</Movie_Object>
-		
+
 	</Slave_Unit>
 
 	<SlaveCompany Name="Bothan_Slave_Company">
@@ -178,15 +178,15 @@
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .5 </FormationSpacing> 
+		<FormationSpacing> .5 </FormationSpacing>
 		<MovementClass> Infantry </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
 		<ContainerArrangement> Dartboard </ContainerArrangement>
 		<Override_Acceleration> .1 </Override_Acceleration>
 		<Override_Deceleration> .1 </Override_Deceleration>
-	
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
@@ -261,7 +261,7 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		
+
 		<Projectile_Types>Proj_Geonosian_Sonic_Blaster</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>2</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
@@ -271,7 +271,7 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 8.0 </Targeting_Fire_Inaccuracy>
-		
+
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>120.0</Targeting_Max_Attack_Distance>
@@ -282,7 +282,7 @@
 		<SFXEvent_Move>Ambient_Geonosian_Random_Chatter</SFXEvent_Move>
 		<SFXEvent_Attack>Ambient_Geonosian_Random_Chatter</SFXEvent_Attack>
 		<SFXEvent_Guard>Ambient_Geonosian_Random_Chatter</SFXEvent_Guard>
-		<SFXEvent_Assist_Move> Ambient_Geonosian_Random_Chatter</SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Move> Ambient_Geonosian_Random_Chatter</SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Ambient_Geonosian_Random_Chatter</SFXEvent_Assist_Attack>
 
 		<SFXEvent_Fire>Unit_Geonosian_Fire</SFXEvent_Fire>
@@ -293,7 +293,7 @@
 		<SFXEvent_Ambient_Moving> Ambient_Geonosian_Random_Chatter </SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 3 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
-		
+
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
@@ -312,12 +312,12 @@
 		<Is_Squashable> No </Is_Squashable>
 		<Create_Team>True</Create_Team>
 		<AI_Combat_Power>5</AI_Combat_Power>
-		
+
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.3</Death_Persistence_Duration>
-		
+
 		<Movie_Object>false</Movie_Object>
-		
+
 	</Slave_Unit>
 
 	<SlaveCompany Name="Geonosian_Slave_Company">
@@ -329,7 +329,7 @@
 		<Damage>60</Damage>
 		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
-		
+
 		<Build_Cost_Credits>260</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
@@ -369,15 +369,15 @@
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> 1.5 </FormationSpacing> 
+		<FormationSpacing> 1.5 </FormationSpacing>
 		<MovementClass> Infantry </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
 		<ContainerArrangement> Dartboard </ContainerArrangement>
 		<Override_Acceleration> .1 </Override_Acceleration>
 		<Override_Deceleration> .1 </Override_Deceleration>
-	
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
@@ -436,7 +436,7 @@
 		<OverrideDeceleration> .1 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
-		
+
 		<Scale_Factor>1.5</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
@@ -450,7 +450,7 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
-		
+
 		<Projectile_Types>Proj_Wookiee_Bowcaster</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
@@ -460,7 +460,7 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 8.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 8.0 </Targeting_Fire_Inaccuracy>
-		
+
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>120.0</Targeting_Max_Attack_Distance>
@@ -470,7 +470,7 @@
 		<SFXEvent_Move>Unit_Move_Wookie</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Wookie</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Wookie</SFXEvent_Guard>
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Wookie </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Wookie </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Attack_Wookie </SFXEvent_Assist_Attack>
 
 		<Death_SFXEvent_Start_Die>Unit_Wookie_Death</Death_SFXEvent_Start_Die>
@@ -488,7 +488,7 @@
 		<CategoryMask> Infantry </CategoryMask>
 		<Victory_Relevant>no</Victory_Relevant>
 		<Weather_Category>Infantry</Weather_Category>
-		
+
 		<OccupationStyle>1x1</OccupationStyle>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> No </Is_Squashable>
@@ -497,15 +497,15 @@
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Create_Team>True</Create_Team>
 		<Create_Team_Type>Wookie_Team</Create_Team_Type>
-		
+
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<AI_Combat_Power>7</AI_Combat_Power>
-		
+
 		<Movie_Object>false</Movie_Object>
-		
-		
+
+
 	</Slave_Unit>
-	
+
 	<SlaveCompany Name="Wookiee_Slave_Company">
 		<Text_ID>TEXT_INDIGENOUS_WOOKIE_PARTY</Text_ID>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
@@ -515,7 +515,7 @@
 		<Damage>72</Damage>
 		<Autoresolve_Health>30</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
-		
+
 		<Build_Cost_Credits>250</Build_Cost_Credits>
 		<Build_Time_Seconds>12</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
@@ -527,7 +527,7 @@
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
-		
+
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -556,11 +556,11 @@
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .5 </FormationSpacing> 
+		<FormationSpacing> .5 </FormationSpacing>
 		<MovementClass> Infantry </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
 		<ContainerArrangement> Dartboard </ContainerArrangement>
 		<Override_Acceleration> .1 </Override_Acceleration>
 		<Override_Deceleration> .1 </Override_Deceleration>
@@ -608,7 +608,7 @@
 		<On_Fire_Speed_Modifier>1.2f</On_Fire_Speed_Modifier>
 		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
 		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
-		
+
 		<Max_Speed>1</Max_Speed>
 		<Max_Rate_Of_Turn>10.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
@@ -638,7 +638,7 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		
+
 		<Projectile_Types>Proj_Gungan_Energy_Grenade</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>4.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
@@ -649,18 +649,18 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
-		
+
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-		
+
 		<SFXEvent_Select>Unit_Select_Gungan</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Gungan</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Gungan</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Gungan</SFXEvent_Guard>
 
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Gungan </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Gungan </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Attack_Gungan </SFXEvent_Assist_Attack>
 
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
@@ -687,13 +687,13 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> Yes </Is_Squashable>
-		
+
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Create_Team>True</Create_Team>
-		
+
 		<Movie_Object>false</Movie_Object>
-		
+
 	</Slave_Unit>
 
 	<SlaveCompany Name="Gungan_Slave_Company">
@@ -705,7 +705,7 @@
 		<Damage>60</Damage>
 		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
-		
+
 		<Build_Cost_Credits>150</Build_Cost_Credits>
 		<Build_Time_Seconds>8</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
@@ -717,7 +717,7 @@
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
-		
+
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -745,15 +745,15 @@
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .5 </FormationSpacing> 
+		<FormationSpacing> .5 </FormationSpacing>
 		<MovementClass> Infantry </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
 		<ContainerArrangement> Dartboard </ContainerArrangement>
 		<Override_Acceleration> .1 </Override_Acceleration>
 		<Override_Deceleration> .1 </Override_Deceleration>
-	
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
@@ -830,22 +830,22 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		
+
 		<Projectile_Types>Proj_Pyngani_Carbonite_Gun</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>
-		
+
 		<Targeting_Fire_Inaccuracy> Infantry, 2.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 4.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
-		
+
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-		
+
  		<SFXEvent_Select>Unit_Select_Civilian</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Civilian</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Civilian</SFXEvent_Attack>
@@ -877,12 +877,12 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> Yes </Is_Squashable>
-		
+
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-		
+
 		<Movie_Object>false</Movie_Object>
-		
+
 	</Slave_Unit>
 
 	<SlaveCompany Name="Pyngani_Slave_Company">
@@ -894,7 +894,7 @@
 		<Damage>60</Damage>
 		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
-		
+
 		<Build_Cost_Credits>175</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
@@ -906,7 +906,7 @@
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
-		
+
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -934,15 +934,15 @@
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .5 </FormationSpacing> 
+		<FormationSpacing> .5 </FormationSpacing>
 		<MovementClass> Infantry </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
 		<ContainerArrangement> Dartboard </ContainerArrangement>
 		<Override_Acceleration> .1 </Override_Acceleration>
 		<Override_Deceleration> .1 </Override_Deceleration>
-	
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
@@ -1017,7 +1017,7 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		
+
 		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>4.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
@@ -1027,17 +1027,17 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 8.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 8.0 </Targeting_Fire_Inaccuracy>
-		
+
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-		
+
 		<SFXEvent_Select>Unit_Select_Twilek</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Twilek</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Twilek</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Twilek</SFXEvent_Guard>
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Twilek </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Twilek </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Twilek </SFXEvent_Assist_Attack>
 
 		<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>
@@ -1065,12 +1065,12 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> Yes </Is_Squashable>
-		
+
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-		
+
 		<Movie_Object>false</Movie_Object>
-		
+
 	</Slave_Unit>
 
 	<SlaveCompany Name="Twilek_Slave_Company">
@@ -1082,7 +1082,7 @@
 		<Damage>60</Damage>
 		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
-		
+
 		<Build_Cost_Credits>225</Build_Cost_Credits>
 		<Build_Time_Seconds>12</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
@@ -1094,7 +1094,7 @@
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
-		
+
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -1124,15 +1124,15 @@
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .5 </FormationSpacing> 
+		<FormationSpacing> .5 </FormationSpacing>
 		<MovementClass> Infantry </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
 		<ContainerArrangement> Dartboard </ContainerArrangement>
 		<Override_Acceleration> .1 </Override_Acceleration>
 		<Override_Deceleration> .1 </Override_Deceleration>
-	
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
@@ -1207,7 +1207,7 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		
+
 		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
@@ -1217,17 +1217,17 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 8.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 8.0 </Targeting_Fire_Inaccuracy>
-		
+
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-		
+
 		<SFXEvent_Select>Unit_Select_Sullustan</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Sullustan</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Sullustan</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Sullustan</SFXEvent_Guard>
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Sullustan</SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Sullustan</SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Sullustan</SFXEvent_Assist_Attack>
 
 		<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>
@@ -1255,13 +1255,13 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> Yes </Is_Squashable>
-		
+
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Create_Team>True</Create_Team>
-		
+
 		<Movie_Object>false</Movie_Object>
-		
+
 	</Slave_Unit>
 
 	<SlaveCompany Name="Sullustan_Slave_Company">
@@ -1273,7 +1273,7 @@
 		<Damage>60</Damage>
 		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
-		
+
 		<Build_Cost_Credits>200</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
@@ -1285,7 +1285,7 @@
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
-		
+
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -1313,15 +1313,15 @@
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .5 </FormationSpacing> 
+		<FormationSpacing> .5 </FormationSpacing>
 		<MovementClass> Infantry </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
 		<ContainerArrangement> Dartboard </ContainerArrangement>
 		<Override_Acceleration> .1 </Override_Acceleration>
 		<Override_Deceleration> .1 </Override_Deceleration>
-	
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
@@ -1365,7 +1365,7 @@
 		<On_Fire_Speed_Modifier>1.2f</On_Fire_Speed_Modifier>
 		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
 		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
-		
+
 		<Max_Speed>1</Max_Speed>
 		<Max_Rate_Of_Turn>10.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
@@ -1393,7 +1393,7 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		
+
 		<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
@@ -1410,7 +1410,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-		
+
 		<SFXEvent_Select>Unit_Select_Calamarian</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Calamarian</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Calamarian</SFXEvent_Attack>
@@ -1430,7 +1430,7 @@
 		<CategoryMask> Infantry </CategoryMask>
 		<Victory_Relevant>No</Victory_Relevant>
 		<Weather_Category>Infantry</Weather_Category>
-		
+
 		<Death_Clone>Damage_Force_Whirlwind, Mon_Calamari_Civilian_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Lightning, Mon_Calamari_Civilian_Force_Lightning_Death_Clone</Death_Clone>
 
@@ -1441,13 +1441,13 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> Yes </Is_Squashable>
-		
+
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Create_Team>True</Create_Team>
-		
+
 		<Movie_Object>false</Movie_Object>
-		
+
 	</Slave_Unit>
 
 	<SlaveCompany Name="Mon_Calamari_Slave_Company">
@@ -1459,7 +1459,7 @@
 		<Damage>60</Damage>
 		<Autoresolve_Health>60</Autoresolve_Health>
 		<Affiliation>Underworld</Affiliation>
-		
+
 		<Build_Cost_Credits>150</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
@@ -1471,7 +1471,7 @@
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
-		
+
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -1499,15 +1499,15 @@
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .5 </FormationSpacing> 
+		<FormationSpacing> .5 </FormationSpacing>
 		<MovementClass> Infantry </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
 		<ContainerArrangement> Dartboard </ContainerArrangement>
 		<Override_Acceleration> .1 </Override_Acceleration>
 		<Override_Deceleration> .1 </Override_Deceleration>
-	
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
@@ -1519,7 +1519,7 @@
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Garrison_Category> Infantry </Garrison_Category>
 		<CategoryMask>Infantry</CategoryMask>
-		<Tactical_Bribe_Cost>35</Tactical_Bribe_Cost>	
+		<Tactical_Bribe_Cost>35</Tactical_Bribe_Cost>
 	</Container>
 
 
@@ -1558,7 +1558,7 @@
 		<Required_Planets />
 
 		<Starting_Spawned_Units_Tech_0>StarViper_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>StarViper_Squadron, 1</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>StarViper_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 	</SpaceUnit>
 
@@ -1671,7 +1671,7 @@
 		<Score_Cost_Credits> 600</Score_Cost_Credits>
 		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
 		<Population_Value>1</Population_Value>
-		
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -1679,7 +1679,7 @@
 				<Type>LURE</Type>
 				<!-- details in the unit's XML -->
 			</Unit_Ability>
-			
+
 		</Unit_Abilities_Data>
 	</Squadron>
 
@@ -1705,7 +1705,7 @@
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>400</Autoresolve_Health>
 		<Damage>50</Damage>
-		
+
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
@@ -1738,7 +1738,7 @@
 
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
@@ -1748,21 +1748,21 @@
 				<GUI_Activated_Ability_Name>Tie_Defender_Ion_Cannon_Shot</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
 			</Unit_Ability>
-		
+
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
-			
+
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-25.0</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.2f</Mod_Multiplier>
 				<Recharge_Seconds>60</Recharge_Seconds>
 				<Expiration_Seconds>10</Expiration_Seconds>
-				
+
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
-		
+
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
