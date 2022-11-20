@@ -72,6 +72,11 @@ Interface Fixes:
 • Imperial Field Commanders' GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #111)
 
 
+Structure Fixes:
+• The Pirate Asteroid Base and its Space Skirmish and Empire campaign variants didn't attach one of its laser cannons to the proper model on the station itself, meaning that laser would never fire. (BUG #17)
+• The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC.  From station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> U/A --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
+
+
 Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebel's announcement VO instead of the Empire's. (BUG #12)
 
@@ -79,4 +84,3 @@ Unit Fixes:
 Upgrade Fixes:
 • The Consortium space station wouldn't get a damage reduction when buying the upgrade "Reinforced Durasteel" for Skirmish or GC.  The upgrade was set to activate on ground battles, and was set to only affect defensive satellites. (BUG #14)
 • The Merciless - Tyber Zann and the Vengeance Frigate wouldn't get a x1.25 or x1.50 cloaking time extension when buying the upgrade "Modified Cloaking Generator."  The upgrade only activated during Land Skirmish, despite only being buyable in Space Skirmish. (BUG #15)
-• The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC.  From station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> U/A --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
