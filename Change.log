@@ -77,5 +77,5 @@ Unit Fixes:
 
 Upgrade Fixes:
 • The Consortium space station wouldn't get a damage reduction when buying the upgrade "Reinforced Durasteel" for Skirmish or GC.  The upgrade was set to activate on ground battles, and was set to only affect defensive satellites. (BUG #14)
-• The Merciless - Tyber Zann and the Vengeance Frigate wouldn't get an extended cloaking time when buying the upgrade "Modified Cloaking Generator" because the upgrade could only be activated during Land Skirmish, despite only being buyable in Space Skirmish. (BUG #15)
-• The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC.  From station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> Unavailable --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
+• The Merciless - Tyber Zann and the Vengeance Frigate wouldn't get a x1.25 or x1.50 cloaking time extension when buying the upgrade "Modified Cloaking Generator."  The upgrade only activated during Land Skirmish, despite only being buyable in Space Skirmish. (BUG #15)
+• The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC.  From station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> U/A --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
