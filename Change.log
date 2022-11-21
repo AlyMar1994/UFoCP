@@ -80,7 +80,8 @@ Structure Fixes:
 
 Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebel's announcement VO instead of the Empire's. (BUG #12)
-• Zann Consortium Slaves weren't coded as "victory relevant," meaning the battle would lose prematurely if you only left Slaves on the battlefield; the Slaves would then reappear fighting for the Consortium if the same map is attacked again.  The Slave entries were duplicated from their civilian counterparts, and never updated - the Slaves are now properly victory relevant. (BUG #113)
+• Luke Skywalker would attach to any available capital ships during space battles instead of flying his X-wing. (BUG #70)
+• Zann Consortium Slaves weren't coded as "victory relevant," meaning the battle would lose prematurely if you only left Slaves on the battlefield; the Slaves would then reappear fighting for the Consortium if the same map is attacked again.  The Slave entries were duplicated from their civilian counterparts and never updated - the Slaves are now properly victory relevant. (BUG #113)
 
 
 Upgrade Fixes:
