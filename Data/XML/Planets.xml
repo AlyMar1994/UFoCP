@@ -171,7 +171,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Failure_Speech_Event />
 		<Corruption_1_Failure_Bink_Hologram_Name />
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ABREGADORAE_STORY_BRIBERY</Corruption_1_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -258,9 +258,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> AETENII_RKT_VICTORY_COR02_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_AETENII_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-		
+
 	</Planet>
 
 	<Planet Name="Alderaan">
@@ -325,7 +325,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Native_Icon_Name />
 
 		<Additional_Population_Capacity>3</Additional_Population_Capacity>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -410,7 +410,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Failure_Speech_Event />
 		<Corruption_2_Failure_Bink_Hologram_Name>Saboteur_Loop</Corruption_2_Failure_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_ALZOCIII_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -518,7 +518,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_3_Mission_Briefing>TEXT_CORRUPTION_ANAXES_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-		
+
 	</Planet>
 
 	<Planet Name="Atzerri">
@@ -701,7 +701,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> BESPIN_RKT_VICTORY_COR06_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_BESPIN_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -797,7 +797,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_BESPIN_STORY_RACKETEER</Corruption_2_Mission_Briefing>
 
 	</Planet>
-	
+
 	<Planet Name="Bestine">
  		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_BESTINE</Text_ID>
@@ -888,7 +888,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> BESTINE_BLK_VICTORY_COR07_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_BESTINE_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 
@@ -1192,7 +1192,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> KAMINO_BLK_VICTORY_COR28_02 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_BYSS_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -1298,9 +1298,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_3_Success_Speech_Event> CARIDA_BLK_VICTORY_COR11_06 </Corruption_3_Success_Speech_Event>
 		<Corruption_3_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_3_Success_Bink_Hologram_Name>
 		<Corruption_3_Mission_Briefing>TEXT_CORRUPTION_CARIDA_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-		
+
 	</Planet>
 
 	<Planet Name="Corellia">
@@ -1394,7 +1394,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> CORELLIA_BLK_VICTORY_COR12_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_CORELLIA_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -1492,7 +1492,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> CORULAG_CRM_VICTORY_COR13_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_CORULAG_STORY_CORUPTMILITIA</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -1571,7 +1571,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> CORUSCANT_BLK_VICTORY_COR14_02 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_CORUSCANT_STORY_BLACKMARKET </Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -1735,7 +1735,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Success_Speech_Event> DAGOBAH_RKT_VICTORY_COR15_01 </Corruption_1_Success_Speech_Event>
 		<Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Mission_Briefing> TEXT_CORRUPTION_DAGOBAH_STORY_RACKETEER </Corruption_1_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -1820,9 +1820,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> DANTOOINE_BRB_VICTORY_COR16_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_DANTOOINE_STORY_BRIBERY</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-		
+
 	</Planet>
 
 
@@ -1899,7 +1899,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Mission_Briefing> TEXT_CORRUPTION_ENDOR_STORY_BONDEDCITIZENS </Corruption_1_Mission_Briefing>
 		<Corruption_1_Success_Unlock_Unit_Type>Underworld_Ewok_Handler_Company</Corruption_1_Success_Unlock_Unit_Type>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -1991,7 +1991,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> ERIADU_BLK_VICTORY_COR19_02 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_ERIADU_STORY_BLACKMARKET </Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -2081,7 +2081,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> FELUCIA_BRB_VICTORY_COR20_01 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_FELUCIA_STORY_BRIBERY </Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -2180,7 +2180,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> FONDOR_CRM_VICTORY_COR21_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_FONDOR_STORY_CORUPTMILITIA</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -2272,7 +2272,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> FRESIA_CRM_VICTORY_COR22_02 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_FRESIA_STORY_CORUPTMILITIA</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -2366,9 +2366,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_GEONOSIS_STORY_BONDEDCITIZENS </Corruption_2_Mission_Briefing>
 		<Corruption_2_Success_Unlock_Unit_Type>Geonosian_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-		
+
 	</Planet>
 
 
@@ -2462,9 +2462,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> HONOGHR_RKT_VICTORY_COR25_06 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_HONOGHR_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-		
+
 	</Planet>
 
 
@@ -2626,7 +2626,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Success_Speech_Event> HOTH_RKT_VICTORY_COR24_01 </Corruption_1_Success_Speech_Event>
 		<Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_HOTH_STORY_RACKETEER</Corruption_1_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -2707,7 +2707,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Success_Speech_Event> HYPORI_BLK_VICTORY_COR52_01 </Corruption_1_Success_Speech_Event>
 		<Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Mission_Briefing> TEXT_CORRUPTION_HYPORI_STORY_BLACKMARKET </Corruption_1_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -2786,7 +2786,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Success_Speech_Event> ILUM_BRB_VICTORY_COR26_01 </Corruption_1_Success_Speech_Event>
 		<Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ILUM_STORY_BRIBERY</Corruption_1_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -2830,7 +2830,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
 
 		<Planet_Restricted_Unit_Categories />
-		
+
 		<Planet_Restricted_Unit_Types>
 			Imperial_Armor_Group,
 			Imperial_Light_Scout_Squad,
@@ -2841,8 +2841,8 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 			Scout_Trooper,
 			Lancet_Air_Artillery,
 			Empire_Mobile_Defense_Unit,
-			
-			Rebel_Light_Tank_Brigade, 
+
+			Rebel_Light_Tank_Brigade,
 			Rebel_Speeder_Wing,
 			Gallofree_HTT_Company,
 			Rebel_MDU_Company,
@@ -2853,13 +2853,13 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 			Rebel_Mobile_Defense_Unit,
 
 			F9TZ_Cloaking_Transport_Company,
-			MAL_Rocket_Vehicle_Company, 
+			MAL_Rocket_Vehicle_Company,
 			Canderous_Assault_Tank_Company,
 			Underworld_MDU_Company,
-			
+
 			F9TZ_Cloaking_Transport,
 			MAL_Rocket_Vehicle,
-			Canderous_Assault_Tank,	
+			Canderous_Assault_Tank,
 			Underworld_Mobile_Defense_Unit,
 
 			Skiff,
@@ -2906,7 +2906,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> JABIIM_CRM_VICTORY_COR27_02 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_JABIIM_STORY_CORUPTMILITIA</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -3006,11 +3006,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> KAMINO_BLK_VICTORY_COR28_02 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_KAMINO_STORY_BLACKMARKET </Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
-	
+
 	<Planet Name="Kamino_Prologue">
  		<Zoomed_Terrain_Index>9</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KAMINO</Text_ID>
@@ -3178,9 +3178,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_KASHYYYK_STORY_BONDEDCITIZENS </Corruption_2_Mission_Briefing>
 		<Corruption_2_Success_Unlock_Unit_Type>Wookiee_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-		
+
 	</Planet>
 
 	<Planet Name="Kessel">
@@ -3262,7 +3262,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> KESSEL_CRM_VICTORY_COR30_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_KESSEL_STORY_CORUPTMILITIA </Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -3345,7 +3345,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Success_Speech_Event> KORRIBAN_RKT_VICTORY_COR31_01 </Corruption_1_Success_Speech_Event>
 		<Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_KORRIBAN_STORY_RACKETEER</Corruption_1_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -3443,9 +3443,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> KUAT_BLK_VICTORY_COR32_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_KUAT_STORY_BLACKMARKET </Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-		
+
 	</Planet>
 
 	<Planet Name="Manaan">
@@ -3512,7 +3512,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Success_Speech_Event> MANAAN_RKT_VICTORY_COR33_01 </Corruption_1_Success_Speech_Event>
 		<Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_MANAAN_STORY_RACKETEER</Corruption_1_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -3610,7 +3610,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> MANDALORE_BRB_VICTORY_COR34_08 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_MANDALORE_STORY_BRIBERY</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -3991,7 +3991,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> MUSTAFAR_BRB_VICTORY_COR36_01 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_MUSTAFAR_STORY_BRIBERY</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -4077,7 +4077,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> MUUNILINST_BRB_VICTORY_COR37_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_MUUNILINST_STORY_BRIBERY</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -4151,7 +4151,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Success_Speech_Event> MYRKR_RKT_VICTORY_COR38_01 </Corruption_1_Success_Speech_Event>
 		<Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_MYRKR_STORY_RACKETEER</Corruption_1_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -4249,7 +4249,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_NABOO_STORY_BONDEDCITIZENS </Corruption_2_Mission_Briefing>
 		<Corruption_2_Success_Unlock_Unit_Type>Gungan_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -4353,7 +4353,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 				<Land_Upgrade_Type> NalHutta_Planetary_Advantage </Land_Upgrade_Type>
 			</Galaxy_Wide_Upgrade_Ability>
 		</Abilities>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -4676,7 +4676,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_3_Mission_Briefing>TEXT_CORRUPTION_POLUS_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
 
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-		
+
 	</Planet>
 
 	<Planet Name="Ryloth">
@@ -4763,12 +4763,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_RYLOTH_STORY_BONDEDCITIZENS </Corruption_2_Mission_Briefing>
 		<Corruption_2_Success_Unlock_Unit_Type>Twilek_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-		
+
 	</Planet>
-	
-	
+
+
 	<Planet Name="Ryloth_Prologue">
  		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_RYLOTH</Text_ID>
@@ -4853,9 +4853,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_RYLOTH_STORY_BONDEDCITIZENS </Corruption_2_Mission_Briefing>
 		<Corruption_2_Success_Unlock_Unit_Type>Twilek_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-		
+
 	</Planet>
 
 
@@ -4950,7 +4950,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -5023,7 +5023,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_1_Success_Speech_Event> SHOLA_RKT_VICTORY_COR44_01 </Corruption_1_Success_Speech_Event>
 		<Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
 		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SHOLA_STORY_RACKETEER</Corruption_1_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -5117,9 +5117,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing> TEXT_CORRUPTION_SULLUST_STORY_BONDEDCITIZENS </Corruption_2_Mission_Briefing>
 		<Corruption_2_Success_Unlock_Unit_Type>Sullustan_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-		
+
 	</Planet>
 
 	<Planet Name="Taris">
@@ -5216,7 +5216,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> TARIS_BRB_VICTORY_COR46_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_TARIS_STORY_BRIBERY</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -5307,7 +5307,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> TATOOINE_BLK_VICTORY_COR47_02 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_TATOOINE_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -5556,7 +5556,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> UTAPAU_BRB_VICTORY_COR49_05 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_UTAPAU_STORY_BRIBERY</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -5718,7 +5718,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> WAYLAND_BLK_VICTORY_COR50_02 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_WAYLAND_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
@@ -5809,7 +5809,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Corruption_2_Success_Speech_Event> YAVIN_BRB_VICTORY_COR51_02 </Corruption_2_Success_Speech_Event>
 		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
 		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_YAVIN_STORY_BRIBERY</Corruption_2_Mission_Briefing>
-		
+
 		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
 	</Planet>
