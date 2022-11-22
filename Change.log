@@ -75,7 +75,7 @@ Interface Fixes:
 Structure Fixes:
 • One of the Pirate Asteroid Base's laser cannon hardpoints wasn't attached to the proper model on the station itself, meaning that laser wouldn't fire properly. (BUG #17)
 • The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC.  From station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> U/A --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
-• The Pirate Asteroid Base's hardpoints didn't have damage multiplier debuffs/buffs against different units/shields because its laser and turbolaser multiplier variables were misspelled, respectively, as "Damage_Sation_Laser" and "Damage_Sation_Turbolaser" instead of "Station." (BUG #119)
+• The Pirate Asteroid Base's hardpoints didn't have damage multiplier debuffs/buffs against different units because its laser and turbolaser multiplier variables were misspelled, respectively, as "Damage_Sation_Laser" and "Damage_Sation_Turbolaser" instead of "Station." (BUG #119)
 
 
 Unit Fixes:
