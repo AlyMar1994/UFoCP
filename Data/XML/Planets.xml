@@ -4272,7 +4272,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Political_Control>0</Political_Control>
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
+		<Terrain>Swamp</Terrain>
 		<Planet_Credit_Value>125</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>12</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>140.0, -200.0, 10.0</Galactic_Position>
@@ -4359,7 +4359,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	</Planet>
 
 	<Planet Name="NalHutta_Prologue">
- 		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+ 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
 		<Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -4376,7 +4376,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Political_Control>0</Political_Control>
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
+		<Terrain>Swamp</Terrain>
 		<Planet_Credit_Value>125</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>12</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>140.0, -200.0, 10.0</Galactic_Position>
@@ -4437,7 +4437,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	</Planet>
 
 	<Planet Name="NalHutta_Tutorial_4">
- 		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+ 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
 		<Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -4454,7 +4454,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Political_Control>0</Political_Control>
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
+		<Terrain>Swamp</Terrain>
 		<Planet_Credit_Value>1250</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>12</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>140.0, -200.0, 10.0</Galactic_Position>
@@ -4496,7 +4496,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
 
 	<Planet Name="NalHutta_Story">
- 		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+ 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
 		<Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -4513,7 +4513,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Political_Control>0</Political_Control>
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
+		<Terrain>Swamp</Terrain>
 		<Planet_Credit_Value>125</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>12</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>140.0, -200.0, 10.0</Galactic_Position>
