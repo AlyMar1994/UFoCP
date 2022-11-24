@@ -76,6 +76,7 @@ Planet Fixes:
 • Bespin's weather indicator wasn't updated from EaW, and still said the planet didn't have weather conditions.  It now has the sun icon. (BUG #66)
 • Jabiim is tagged as a swamp and is a swamp planet during space battles, however it's galactic model and terrain backdrop used the "temperate" terrain GFX instead of the swamp versions. (BUG #67)
 • Nal Hutta was tagged as having "temperate" terrain instead of swamp terrain; this caused music, infantry model and SFX conflicts with the setting.  Additionally, the campaign/prologue versions of the planet had the wrong galactic terrain backdrop, showing an ecumenopolis instead of the swamp GFX. (BUG #72)
+• Alderaan's weather indicators were still set to "rain" as a holdover from EaW, instead of "clear" as there is now no longer a planet.  Additionally, the planet terrain was left as "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
 
 
 Structure Fixes:

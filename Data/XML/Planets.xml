@@ -281,7 +281,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Political_Control>0</Political_Control>
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
+		<Terrain>Desert</Terrain>
 		<Planet_Credit_Value>20</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>60.0, 5.0, 10.0</Galactic_Position>
@@ -319,8 +319,8 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
 		<Encyclopedia_Text>TEXT_PLANET_VERGESSO_ENCYC TEXT_PLANET_UNCORRUPTABLE</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_none.tga</Encyclopedia_Weather_Icon>
-		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
-		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
 		<Planet_Ability_Icon>i_pa_base_stealth_space.tga</Planet_Ability_Icon>
 		<Native_Icon_Name />
 
