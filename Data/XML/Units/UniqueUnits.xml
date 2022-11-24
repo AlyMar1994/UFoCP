@@ -284,6 +284,8 @@
 
 		<Select_Box_Scale>85</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
+        <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<CategoryMask> LandHero | Vehicle | AntiVehicle | AntiStructure </CategoryMask>

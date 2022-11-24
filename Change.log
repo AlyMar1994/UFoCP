@@ -87,6 +87,7 @@ Structure Fixes:
 
 Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebel's announcement VO instead of the Empire's. (BUG #12)
+• General Veers didn't have the Imperial hero identifier under his AT-AT, unlike other Imperial land units. (BUG #49)
 • Luke Skywalker would attach to any available capital ships during space battles instead of flying his X-wing. (BUG #70)
 • Consortium slaves weren't tagged as "victory relevant," meaning the battle would lose prematurely if only slaves were on the battlefield; the slaves would then reappear on the map fighting for the Consortium if the planet is attacked again.  The slave entries were duplicated from their civilian counterparts and never updated. (BUG #113)
 
