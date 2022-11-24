@@ -73,7 +73,8 @@ Interface Fixes:
 
 
 Planet Fixes:
-• Nal Hutta was marked as having "temperate" terrain instead of swamp terrain; this caused music, infantry model and SFX conflicts with the setting.  Additionally, the campaign/prologue versions of the planet had the wrong galactic terrain backdrop, showing an ecumenopolis instead of the swamp GFX. (BUG #72)
+• Jabiim is tagged as a swamp and is a swamp planet during space battles, however it's galactic model and terrain backdrop used the "temperate" terrain GFX instead of the swamp versions. (BUG #67)
+• Nal Hutta was tagged as having "temperate" terrain instead of swamp terrain; this caused music, infantry model and SFX conflicts with the setting.  Additionally, the campaign/prologue versions of the planet had the wrong galactic terrain backdrop, showing an ecumenopolis instead of the swamp GFX. (BUG #72)
 
 
 Structure Fixes:

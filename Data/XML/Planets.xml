@@ -2793,11 +2793,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
 
 	<Planet Name="Jabiim">
- 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+ 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_JABIIM</Text_ID>
-		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_planet_Swamp01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
