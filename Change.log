@@ -38,22 +38,22 @@ v1.0.1.#### (2022-##-##) [FoC v1.121.786192]
 ============================================
 
 Ability Fixes:
-• "BARRAGE" prematurely ended in multiple cases because the ability's invisible targeting marker kept dying due to splash damage.  The marker has been made invincible to rectify the problem. (BUG #1)
+• "BARRAGE" prematurely ended in multiple cases because the ability's invisible targeting marker kept dying due to splash damage.  The marker can no longer be killed. (BUG #1)
 • "REMOVE CORRUPTION" wouldn't appear for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn or Mara Jade in GC.  In addition, the AI wasn't aware that Admiral Ackbar, Darth Vader and Thrawn could remove corruption.  The related AI/GUI references were messed up across the board, with Ackbar's Remove Corruption ability being appended on the wrong unit.  While Jade/Katarn can't be used in GC, all previously mentioned units' Remove Corruption abilities have been restored, and the AI should be aware of all applicable units to remove corruption with. (BUG #35)
 
 
 AI Fixes:
 • During certain conquering plans, the AI would always sleep for 5 minutes after a victory/failure because of a coding mistake (the scripts couldn't find the player's Difficulty setting).  The AI was rectified to sleep for its appropriate cycles: 5 minutes on Easy, 3min 30sec on Normal and 45 seconds on Hard. (BUG #69)
 • The AI's blitzkrieg conquering plan "Crush" would always cancel before starting because of a coding mistake (the script couldn't find the player's Difficulty setting).  The AI was rectified to properly continue the plan should the Difficulty be set to Hard. (BUG #79)
-• AI tactical considerations for when to build anti-infantry turrets wasn't changed from EaW.  If the Consortium is an AI player, it now considers if a friendly build pad is nearby, if a friendly mining facility/resource pad is near the enemy, and now knows the Proton Torpedo Turret is their designated anti-infantry turret. (BUG #114)
+• AI tactical considerations for when to build anti-infantry turrets wasn't changed from EaW.  The Consortium AI now considers if a friendly build pad is nearby, if a friendly mining facility/resource pad is near the enemy, and now knows the Proton Torpedo Turret is their designated anti-infantry turret. (BUG #114)
 • The AI wouldn't factor in Consortium Repulsorlift Jammers alongside the other "tactically active" infrastructure to target when thinking about attacking structures. (BUG #115)
 • The AI wouldn't factor in Consortium turbolaser towers as structures to avoid when attacking buildings.  Additionally, Consortium turbolaser towers weren't apart of turbolaser/artillery infrastructure to avoid the firing range of, or specially target altogether. (BUG #116)
 • The AI's prereqs list didn't include IG-88 nor Garm Bel Iblis as field units that can benefit from Repair Facilities when considering if building them is important. (BUG #117)
-• Since the Repulsorlift Jammer was originally owned by the Empire, the Consortium wouldn't consider the Repulsorlift Jammer as a part of their defensive structure pool, nor would their budgets include the Jammer when deciding if they should save money or build up their planets.  The Jammer has been added to both considerations. (BUG #118)
+• Since the Repulsorlift Jammer was originally made for the Empire, the Consortium wouldn't consider the Repulsorlift Jammer as a part of their defensive structure pool, nor would their budgets include the Jammer when deciding if they should save money or build up their planets.  The Jammer has been added to both considerations. (BUG #118)
 
 
 Audio Fixes:
-• No music would play when losing against the Consortium because of a bad filename reference.  The Consortium's generic losing music was also referencing the Rebels' music entry.  This has been rectified, and because the music is very quiet, its volume has been boosted. (BUG #31)
+• No music would play when losing against the Consortium because of a bad file reference.  The Consortium's generic losing music was also referencing the Rebels' music entry.  This has been rectified, and because the track is very quiet, its volume has been boosted. (BUG #31)
 
 
 Interface Fixes:
@@ -73,10 +73,10 @@ Interface Fixes:
 
 
 Planet Fixes:
-• Bespin's weather indicator wasn't updated from EaW, and still said the planet didn't have weather conditions.  It now has the sun icon. (BUG #66)
+• Bespin's weather indicator wasn't updated from EaW, and didn't have weather conditions.  It now has the sun icon. (BUG #66)
 • Jabiim is tagged as a swamp and is a swamp planet during space battles, however it's galactic model and terrain backdrop used the "temperate" terrain GFX instead of the swamp versions. (BUG #67)
 • Nal Hutta was tagged as having "temperate" terrain instead of swamp terrain; this caused music, infantry model and SFX conflicts with the setting.  Additionally, the campaign/prologue versions of the planet had the wrong galactic terrain backdrop, showing an ecumenopolis instead of the swamp GFX. (BUG #72)
-• Alderaan's weather indicators were still set to "rain" as a holdover from EaW, instead of "clear" as there is now no longer a planet.  Additionally, the planet terrain was left as "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
+• Alderaan's weather indicators were still set to "rain" as a holdover from EaW, instead of "clear" (as there is now no longer a planet).  Additionally, the planet terrain was left as "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
 
 
 Structure Fixes:
