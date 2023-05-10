@@ -13,7 +13,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_GARM_BEL_IBLIS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_RI_garm_bel.tga</Icon_Name>
-	
+
 		<Land_Model_Name>RV_GARGANTUAN.ALO</Land_Model_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -27,17 +27,17 @@
 		<Max_Speed>1.1</Max_Speed>
 		<Max_Rate_Of_Turn>2</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
-	
+
 		<Behavior>SELECTABLE</Behavior>
-		
+
 		<LandBehavior>
 			ABILITY_COUNTDOWN,
 			WALK_LOCOMOTOR,
 			IDLE,
 			TARGETING,
-			POWERED, 
-			SHIELDED, 
-			REVEAL, 
+			POWERED,
+			SHIELDED,
+			REVEAL,
 			HIDE_WHEN_FOGGED,
 			UNIT_AI,
 			SURFACE_FX,
@@ -71,7 +71,7 @@
 		<Tactical_Health>800</Tactical_Health>
 		<Autoresolve_Health>800</Autoresolve_Health>
 		<Shield_Points>900</Shield_Points>
-		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>	
+		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
 		<Energy_Capacity>9999</Energy_Capacity>
 		<Energy_Refresh_Rate>9999</Energy_Refresh_Rate>
 		<AI_Combat_Power>1000</AI_Combat_Power>
@@ -110,10 +110,10 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Gargantuan </SFXEvent_Health_Critical_Warning>
   		<SFXEvent_Fire>Unit_AT_AT_Fire</SFXEvent_Fire>
         <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-		
+
 		<SFXEvent_Engine_Idle_Loop> Unit_Gargantuan_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Gargantuan_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
- 		
+
 		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor_Turbo </SFXEvent_Turret_Rotating_Loop>
 		<SFXEvent_Unit_Lost> Unit_Defeat_Gargantuan </SFXEvent_Unit_Lost>
@@ -132,6 +132,8 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Weather_Category>LargeWalker</Weather_Category>
         <Ranking_In_Category>3</Ranking_In_Category>
+		<Selection_Blob_Material_Name>Selection_Rebel_Hero</Selection_Blob_Material_Name>
+		<Highlight_Blob_Material_Name>Highlight_Rebel_Hero</Highlight_Blob_Material_Name>
 
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Giant Vehicle </UnitCollisionClass>
@@ -144,7 +146,7 @@
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>	
+		<Targeting_Priority_Set>AntiVehicleStructure</Targeting_Priority_Set>
 		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
 		<Population_Value>2</Population_Value>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
@@ -163,19 +165,19 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+
 			<Unit_Ability>
 				<Type>SHIELD_FLARE</Type>
 				<Recharge_Seconds>45</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> Shield_Flare_Vehicle </GUI_Activated_Ability_Name> 
-				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Shield_Flare_Gargantuan</SFXEvent_GUI_Unit_Ability_Activated>  
+				<GUI_Activated_Ability_Name> Shield_Flare_Vehicle </GUI_Activated_Ability_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Shield_Flare_Gargantuan</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-		
+
 			<Shield_Flare_Ability Name="Shield_Flare_Vehicle">
 				<Max_Damage_Per_Victim>275</Max_Damage_Per_Victim>
 				<Damage_Radius>400</Damage_Radius>
@@ -274,18 +276,18 @@
 		<Population_Value>2</Population_Value>
 
 		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Select_Gargantuan</SFXEvent_Build_Complete>
 		<SFXEvent_Hero_Respawned>Unit_Select_Gargantuan</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gargantuan</SFXEvent_Fleet_Move>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>5600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 
