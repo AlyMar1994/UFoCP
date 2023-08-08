@@ -47,6 +47,10 @@ function TaskForce.Get_Distance(target) end
 function TaskForce.Produce_Force(stage, unknownArgument) end
 ---@public
 ---@param target GameObject The target to attack.
+---Orders the task force to attack a given target.
+function TaskForce.Attack_Target(target) end
+---@public
+---@param target GameObject The target to attack.
 ---@param unknownArgument number TODO: Find out what this does.
 ---@param shouldPathThroughObstacle boolean Should the task force ignore space obstacles.
 ---Orders the task force to attack a given target.
@@ -122,6 +126,11 @@ function GameObject.Is_Category(categoryMask) end
 ---Returns a game object if the unit has an attack target, nil else.
 function GameObject.Get_Attack_Target() end
 ---@public
+---@param abilityName string The ability to (de-)activate.
+---@param shouldActivate boolean Activates the ability if true, deactivates if false.
+---Activates or deactivates a given ability.
+function GameObject.Activate_Ability(abilityName, shouldActivate) end
+---@public
 ---@return boolean
 ---Tests whether a unit has active orders.
 function GameObject.Has_Active_Orders() end
@@ -152,7 +161,7 @@ function GameObject.Despawn() end
 ---Transfers ownership of a GameObject over to another Player
 function GameObject.Change_Owner(new_owner) end
 ---@public
----@param behavior_id integer The ID of the behavior
+---@param behavior_id int The ID of the behavior
 ---@param enable boolean Enables the behavior if set to true. Disables it if it's false.
 ---Enables or disables a behavior defined in the XML entry of the GameObject
 function GameObject.Enable_Behavior(behavior_id, enable) end
@@ -258,26 +267,26 @@ function GameObject.Stop() end
 ---@param suspend boolean
 function GameObject.Suspend_Locomotor(suspend) end
 ---@public
----Activates or deactivates a given ability.
----@param ability_name string
+--- Activates targeted ability
+---@param ability_name string 
 ---@param turn_on GameObject|Position|boolean A target to turn on targeted abilities or a boolean.
 function GameObject.Activate_Ability(ability_name, turn_on) end
 ---@public
 --- Finishes ability cooldowns
 function GameObject.Reset_Ability_Counter() end
 ---@public
----@param ability_name string
+---@param ability_name string 
 ---@param autofire boolean
 function GameObject.Set_Single_Ability_Autofire(ability_name, autofire) end
 ---@public
 ---@param autofire boolean
 function GameObject.Set_All_Abilities_Autofire(autofire) end
 ---@public
----@param ability_name string
+---@param ability_name string 
 ---@return boolean
 function GameObject.Is_Ability_Active(ability_name) end
 ---@public
----@param ability_name string
+---@param ability_name string 
 ---@return boolean
 function GameObject.Has_Ability(ability_name) end
 ---@public
@@ -516,7 +525,7 @@ function GameObject.Fire_Special_Weapon(target, user) end
 ---@return number
 function GameObject.Get_Rate_Of_Damage_Taken() end
 ---@public
---- Expected time til death based on damage taken.
+--- Expected time til death based on damage taken. 
 ---@return number
 function GameObject.Get_Time_Till_Dead() end
 ---@public
