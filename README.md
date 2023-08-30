@@ -1,6 +1,6 @@
 # UFoCP
 ## Unofficial Forces of Corruption Patch
-- Version: v1.0.1.####
+- Version: v2.0.0.####
 - License: TBA
 ---
 The Unofficial Forces of Corruption Patch is a one-does-all community patch for Petroglyph Games' 2006 RTS "STAR WARS: Empire at War – Forces of Corruption."  The goal of UFoCP is to correct as many errors as possible to whatever limit is available within Petroglyph's Alamo engine in one convenient package.
