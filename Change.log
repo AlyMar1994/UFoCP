@@ -74,7 +74,7 @@ Interface Fixes:
 
 
 Model Fixes:
-• The Venator-class Cruiser's shield mesh didn't cover most of the ship, leading to an odd visual bug with its shielding ability.  Its collision mesh was also assigned the shield shader.  Both mesh issues were corrected. (BUG #137)
+• The Venator-class Cruiser's shield mesh didn't cover large segments of the model, leading to odd visuals with its shielding ability.  Its collision mesh was also assigned the shield shader.  Both mesh issues were corrected. (BUG #137)
 
 
 Planet Fixes:
