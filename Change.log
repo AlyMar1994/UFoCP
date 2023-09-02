@@ -34,7 +34,7 @@ report, the number itself can be inserted into the URL.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-v2.0.0.#### (2023-##-##) [FoC v1.121.]
+v2.0.0.#### (##-##-2023) [FoC v1.121.]
 ============================================
 
 Ability Fixes:
@@ -50,7 +50,7 @@ AI Fixes:
 • The AI wouldn't factor in Consortium turbolaser towers as structures to avoid when attacking buildings.  Additionally, Consortium turbolaser towers weren't apart of turbolaser/artillery infrastructure to avoid the firing range of, or specially target altogether. (BUG #116)
 • The AI's prereqs list didn't include IG-88 nor Garm Bel Iblis as field units that can benefit from Repair Facilities when considering if building them is important. (BUG #117)
 • Since the Repulsorlift Jammer was originally made for the Empire, the Consortium wouldn't consider the Repulsorlift Jammer as a part of their defensive structure pool, nor would their budgets include the Jammer when deciding if they should save money or build up their planets.  The Jammer has been added to both considerations. (BUG #118)
-• GalacticFreeStore, generic unit AI for Galactic mode, had a misspelled variable preventing unit movement from being serviced properly every eight seconds.  Unit movement is no longer serviced irregularly (or not at all). (BUG #130)
+• GalacticFreeStore, the generic unit AI for Galactic mode, had a misspelled variable preventing unit movement from being serviced properly every eight seconds.  Unit movement is no longer serviced irregularly (or not at all). (BUG #130)
 
 
 Audio Fixes:
@@ -74,7 +74,7 @@ Interface Fixes:
 
 
 Model Fixes:
-• The Venator-class Cruiser's shield mesh didn't cover large segments of the model, leading to odd visuals with its shielding ability.  Its collision mesh was also assigned the shield shader.  Both mesh issues were corrected. (BUG #137)
+• The Venator-class Cruiser's shield mesh didn't cover large segments of the model, leading to odd visuals with its shielding ability.  Its collision mesh was also assigned the shield shader.  Both mesh issues were corrected. (Thanks EaWX-Rhino!) (BUG #137)
 
 
 Planet Fixes:
