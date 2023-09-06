@@ -39,7 +39,7 @@ v2.0.0.#### (##-##-2023) [FoC v1.121.]
 
 Ability Fixes:
 • "BARRAGE" prematurely ended in multiple cases because the ability's invisible targeting marker kept dying due to splash damage.  The marker can no longer be killed. (BUG #1)
-• "REMOVE CORRUPTION" wouldn't appear for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn or Mara Jade in GC.  In addition, the AI wasn't aware that Admiral Ackbar, Darth Vader and Thrawn could remove corruption.  The related AI/GUI references were messed up across the board, with Ackbar's Remove Corruption ability being appended on the wrong unit.  While Jade/Katarn can't be used in GC, all previously mentioned units' Remove Corruption abilities have been restored, and the AI should be aware of all applicable units to remove corruption with. (BUG #35)
+• "REMOVE CORRUPTION" wouldn't appear for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn or Mara Jade in GC.  In addition, the AI wasn't aware that Admiral Ackbar, Darth Vader and Thrawn could remove corruption.  The related AI/GUI references were messed up across the board, with Ackbar's Remove Corruption ability being appended on the wrong unit.  While Jade/Katarn can't be used in GC, all previously mentioned units' Remove Corruption abilities have been restored and the AI should be aware of all units who can remove corruption. (BUG #35)
 
 
 AI Fixes:
