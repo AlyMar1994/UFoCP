@@ -7,49 +7,17 @@ There are MasterTextFiles_ENGLISH.dat updates in this update! Check "Changelog -
 ==================
 UFoCP
 ==================
--Removed the modified credits music from the mod.  Let alone the technical legal implications of including part of A New Hope's soundtrack into the mod, in terms of fixes it's relatively unnecessary.  It was also unlikely to be heard (unless you liked watching the credits, that is), and wasn't technically an incorrect version of "The Throne Room/End Title."  There were 16 different takes, combined, of TTR/ET altogether, and the version originally in Empire at War was an alternate take released by 20th Century Fox Film Scores when "In the time between the original LP release and the Anthology's release," the breakdown of what was going to be released versus what was used in the film was lost.  Petroglyph probably just liked the "incorrect" take anyway, and there was no justification for changing it.
-
--Regenerated all AI hint data for included land maps to adjust for map modifications.
-
--Compressed the mod into .MEG files for quicker loading and fewer system calls.
-
-
--Honoghr – Fixed campaign Intimidation corruption mission having missing objective text.
-
-
--Corellian Corvette – Fixed Underworld Corellian Corvette pointing to a non-existent unit for its "vulnerable to" indicator.  Was pointing to "Alliance_Assault_Ship" and not "Alliance_Assault_Frigate."
-
--Defiler – Fixed thrown bomb having a broken Class ID.
-
--Marauder Cruiser – Fixed Underworld Marauder Cruiser pointing to a non-existent unit for its "vulnerable to" indicator.  Was pointing to "Alliance_Assault_Ship" and not "Alliance_Assault_Frigate."
-
--Grenadier – Fixed proximity mines having a broken Class ID.
-
--IPV Patrol Craft – Fixed not having a selection box.  The SpaceCorvettes file wasn't present on source yet was before - restored and fixed.
--IPV Patrol Craft – Fixed not using its own Power-to-Weapons VO.  The SpaceCorvettes file wasn't present on source yet was before - restored and fixed.
--IPV Patrol Craft – Added the Underworld to the list of affiliated factions.  The SpaceCorvettes file wasn't present on source yet was before - restored and fixed.
-
--The Millennium Falcon - Han Solo & Chewbacca – Fixed weapon inaccuracy distance.  "Super" was erroneously changed from 1.0 to 30.0, making the Falcon very inaccurate against the giant SSD.
-
--V-wing – Fixed Hutt V-wings having broken descriptions.
 
 
 ==================
 General
 ==================
--Did some passes within Lua to clean.
-
--Did a pass on the entirety of Changelog.txt and Changelog Condensed.txt to ensure up-to-date information and proper grammar.
-
--Fixed Steam Workshop page using incorrect mod tags.
-
 -Honoghr – Fixed campaign Intimidation corruption mission not marking objective Urai surviving as complete when finished.
 
 
 ==================
 A.I.
 ==================
--(LUA) TacticalMultiplayerBuildSpaceUnitsGeneric – Fixed Underworld AI being unable to build the Venator cruiser (it wasn't defined).
 
 
 ==================
@@ -131,7 +99,6 @@ General
 ==================
 Units (Land)
 ==================
--Obi-Wan Kenobi – Fixed the game hanging when Obi-Wan is brought onto the battlefield.
 
 
 =========================================================================================
@@ -324,9 +291,6 @@ General
 A.I.
 ==================
 -(LUA) PGEvents – Fixed up some missing behaviors.  Changing some permissions so the AI can suggest using the "take cover" ability on land, and for AT-ATs AI to suggest using their "deploy troopers" ability (when they need to, of course).  This has led to a direct increase in the AI using these abilities when not so before.
--(LUA) PGEvents – Fixed a behavior that didn't include Underworld skirmish turbolasers as a part of the AI to try to get in and/or escape the maximum attack range for "artillery" (turbolaser towers, MPTL, etc).
-
--(LUA) TacticalMultiplayerBuildSpaceUnitsGeneric – Modified script to search for new Han Solo & Chewbacca MP space unit.
 
 
 ==================
@@ -348,7 +312,6 @@ Factions
 ==================
 Maps/Planets (Galactic)
 ==================
--Added a galactic-level icon for Corruption type "Piracy," so when a planet gets corrupted it visibly shows Piracy affects the planet (originally, Petro never included an icon in-game).  It looks like ass, but it fixes the issue right now.
 
 
 ==================
@@ -370,9 +333,6 @@ Structures (Space)
 -Empire Space Station – Fixed a tutorial variant's hardpoints having damage modifiers when they shouldn't (as they're useless dummies).
 -Empire Space Station – Fixed a tutorial variant's hardpoints having multiple alternate firing bones attached when it only can have two.
 
--Pirate Asteroid Base – Fixed all turbolaser hardpoints using an incorrect damage type (Damage_Sation_Turbolaser), which lead to bad damage modifications.  They have been corrected to "Damage_Station_Turbolaser."
--Pirate Asteroid Base – Fixed all laser hardpoints using an incorrect damage type (Damage_Sation_Laser), which lead to bad damage modifications.  They have been corrected to "Damage_Station_Laser."
-
 
 ==================
 Textures
@@ -383,7 +343,6 @@ Textures
 ==================
 Units (Galactic)
 ==================
--The Sundered Heart - Captain Antilles – Fixed general hero AI not including Antilles as with all other heroes in trying to decide where to stay when not in use.
 
 
 ==================
@@ -392,13 +351,7 @@ Units (Land)
 -Blizzard 1 - General Veers – Fixed unit causing errors by referencing a non-existent SFXEvent for a land unit callout.
 -Blizzard 1 - General Veers – Attempt fix at unit callouts not working on land.
 
--Chewbacca – Fixed land shadow scale being multiplied by 2.  Scale is now 5.
-
--Grenadiers – Fixed infantry being unbribable in Underworld mirror skirmish matches.  They have been given a <Tactical_Bribe_Cost> so Tyber Zann can bribe enemy Underworld infantry.  Uses vanilla bribe cost value of 25 credits.
-
 -M.A.L. – Removed non-existent sound file usage "U000_MAL0503_ENG," an assist movement line (was causing internal errors), and adjacent subtitle file.
-
--Merc Assault Squad – Fixed infantry being unbribable in Underworld mirror skirmish matches.  They have been given a <Tactical_Bribe_Cost> so Tyber Zann can bribe enemy Underworld infantry.  Uses vanilla bribe cost value of 25 credits.
 
 
 ==================
@@ -408,10 +361,7 @@ Units (Space)
 
 -Pirate Interceptor Frigate – Fixed turbolaser hardpoints using Acclamator laser cannon damage modifiers.
 
--Rogue Squadron – Fixed Derek Kilvian's lines not playing when his enemy's health is critical in Rogue Squadron.  The SFXEvent was improperly named "Unit_Enemy_Health_Critcal_Derek_Klivian" instead of "Unit_Enemy_Health_Critical_Derek_Klivian."
 -Rogue Squadron – Fixed Rogue Squadron playing generic X-wing lines when going into nebula or asteroids.
-
--The Millennium Falcon - Han Solo & Chewbacca - Created a new MP unit to fix the Object Contestation Glitch ("Boba Mine Glitch").  The unit performs the same as before.
 
 
 =========================================================================================
@@ -436,7 +386,6 @@ General
 ==================
 A.I.
 ==================
--(LUA) TacticalMultiplayerBuildSpaceUnitsGeneric – Modified script to search for proper Boba Fett unit for space. The AI should now start building Boba Fett in space skirmish again.
 -(LUA) TacticalMultiplayerBuildSpaceUnitsGeneric – Removed "Executor_Super_Star_Destroyer" from the possible build pool, as Petroglyph removed the Executor from being built in space skirmish.
 
 -(LUA) VaderAssistsLand – Modified script to search for "Darth_Vader_Expansion" (FoC) instead of "Darth_Vader" (non-land unit).
@@ -480,19 +429,9 @@ Units (Land)
 -Fixed all Dark Trooper unit descriptions being bare minimum, and not describing mainly anything about the unit other than vague adjectives.
 -Fixed all Dark Trooper units using the wrong VO for their in-production/completed dialogue. SFXEvent was referencing the wrong dialogue, and the company was using the wrong dialogue as well.
 
--MDU (Empire) – Fixed MDU using Rebels SFX.
-
--MDU (Underworld) – Fixed MDU using Rebels SFX.
-
 -Mon Calamari (Slave) – Fixed the Calamari Underworld slave having the "STUNNABLE" trait when all other slaves didn't.
 
 -Pyn'gani (Slave) – Fixed the Pyn'gani Underworld slave not having the <Create_Team> tag, not allowing the game to realize its company/containers properly.
-
--Sarlaac – Fixed the sarlaac pit not having a unit icon.
-
--Sketto – Fixed the indigenous unit sketto (those giant dragonfly bug things) not having a unit icon.
-
--Tauntaun – Fixed the tauntauns on Hoth not having a unit icon.
 
 -Twi'lek (Slave) – Fixed the Twi'lek Underworld slave not having the <Create_Team> tag, not allowing the game to realize its company/containers properly.
 
@@ -534,8 +473,6 @@ General
 ==================
 A.I.
 ==================
--(LUA) UM11_ForceAdeptFour – Fixed Master Force Adept, the ultimate boss of UM11. An (accidental) non-existent variable resulted in nil, so the Adept would attack any unit insight, not in his faction. This has been fixed to only target Underworld player units.
-
 -(PE) AI_Equations_Underworld_Land – Fixed "Should_Build_Ysalamiri_Cage" equation accounting unit "Darth_Vader" (EaW) into the math, instead of "Darth_Vader_Expansion" (FoC) ("Darth_Vader" is no longer a possible land unit due to previous fixes. It is always "Darth_Vader_Expansion").
 
 -(PE) BasicLandEquations – Fixed "Needs_Vader_Assist" and "Has_Infantry_Hero" equations, which searched for unused land unit "Darth Vader" (EaW) instead of searching only for "Darth_Vader_Expansion" (FoC).
@@ -572,12 +509,10 @@ Units (Space)
 -Black Squadron – Fixed hero bar description using only the TIE Advanced x1 text when it should only use the normal Vader description as other heroes use theirs.
 -Black Squadron – Fixed "good against" indicators not including the Starviper Fighter, and the "weak against" indicator not including the Crusader Gunship.
 
--Kedalbe-class Battleship – Fixed description not mentioning the six planets the Keldabe can be built on.
 -Kedalbe-class Battleship – Fixed death clone's ship class being "capital_ship" when it should've been "Capital."
 
 -Slave I - Boba Fett – Fixed unit's name to be more consistent with other named hero units of the same class. Now named "Slave I - Boba Fett" instead of solely "Slave I" or "Boba Fett."
 -Slave I - Boba Fett – Fixed in-game space unit's icon being the Slave I ship, instead of the hero's icon like all other heroes.
--Slave I - Boba Fett – Fixed infamous object contestation glitch where Slave I, when summoned next to a capturable structure, would permanently keep it under Empire control until killed. This was caused by the unit possibly spawning an invisible variant of Fett, which would remain in space. A special, lone MP space hero unit of the Slave I has been created to prevent this, identical to the original MP variant.
 
 -The Millennium Falcon - Han Solo & Chewbacca – Fixed skirmish good/bad against indicators not being updated for the FoC expansion. They were changed on the unit, not on the squadron/container. All sources now have the correct info.
 
