@@ -43,7 +43,7 @@ require("pgevents")
 
 
 function Definitions()
-	
+
 	Category = "Tactical_Multiplayer_Build_Space_Units_Generic"
 	IgnoreTarget = true
 	TaskForce = {
@@ -67,11 +67,11 @@ function Definitions()
 end
 
 function ReserveForce_Thread()
-			
+
 	BlockOnCommand(ReserveForce.Produce_Force())
 	ReserveForce.Set_Plan_Result(true)
 	ReserveForce.Set_As_Goal_System_Removable(false)
-		
+
 	-- Give some time to accumulate money.
 	tech_level = PlayerObject.Get_Tech_Level()
 	min_credits = 2000
@@ -83,7 +83,7 @@ function ReserveForce_Thread()
 		min_credits = 6000
 		max_sleep_seconds = 80
 	end
-	
+
 	current_sleep_seconds = 0
 	while (PlayerObject.Get_Credits() < min_credits) and (current_sleep_seconds < max_sleep_seconds) do
 		current_sleep_seconds = current_sleep_seconds + 1
