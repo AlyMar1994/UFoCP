@@ -57,7 +57,7 @@ function Definitions()
 		,ARC_HAMMER = {"Is_Home_Planet", true}
 		,DARTH_TEAM_EXECUTOR = {nil, true}
 		,ADMONITOR_STAR_DESTROYER = {nil, true}
-		
+
 		,MON_MOTHMA_TEAM = {"Is_Home_Planet", false}
 		,HOME_ONE = {nil, true}
 		,HAN_SOLO_TEAM = {nil, false}
@@ -67,14 +67,14 @@ function Definitions()
 		,LUKE_SKYWALKER_JEDI_TEAM = {nil, false}
 		,YODA_TEAM = {nil,false}
 		,ROGUE_SQUADRON_SPACE = {nil,true}
-		
+
 		,BOSSK_TEAM = {nil, true}
 		,IG88_TEAM = {nil, true}
 		,SILRI_TEAM = {nil, false}
 		,URAI_FEN_TEAM = {nil, false}
 		,TYBER_ZANN_TEAM = {nil, true}
 	}
-	
+
 end
 
 function Find_Custom_Target(object)
@@ -92,7 +92,7 @@ function Find_Custom_Target(object)
 				return target
 			end
 		end
-		
+
 		if prefers_space then
 			return Find_Space_Unit_Target(object)
 		else
@@ -102,5 +102,3 @@ function Find_Custom_Target(object)
 		DebugMessage("%s -- Error: Type %s not found in CustomUnitPlacement table.", tostring(Script), object_type_name)
 	end
 end
-	
-
