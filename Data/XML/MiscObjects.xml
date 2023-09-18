@@ -27,7 +27,7 @@
 		<Scale_Factor>100.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 		<CategoryMask> Corvette  </CategoryMask>
-		<Immune_To_Damage>Yes</Immune_To_Damage>
+		<Immune_To_Damage>True</Immune_To_Damage>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <Influences_Capture_Point>no</Influences_Capture_Point>
    </MiscObject>

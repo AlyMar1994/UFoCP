@@ -23,13 +23,8 @@ A.I.
 ==================
 Maps/Planets (Land)
 ==================
--All affected land maps in the mod (with their passability modified) have had their AI data regenerated to ensure the AI is aware of new tactical zones and land connections.
-
 -Nal Hutta – Modified terrain passability in the northernmost building area.  Underworld droidekas could get stuck on the steep slope to the right of a factory if placed there.
--Nal Hutta – Improved passability on the entire map.  Hopefully, this improves pathfinding/helps movement make more sense.
 -Nal Hutta – Modified top-right swamp's left-most building position so the build pad isn't colliding with a possible building.
--Nal Hutta – Shifted all Hutt Palace placements near the defender and attacker reinforcement points to prevent Hutts from getting stuck on the hills.
--Nal Hutta – Attempt at fixing spawn point dianoga phasing into the nearby hills.
 
 
 ==================
