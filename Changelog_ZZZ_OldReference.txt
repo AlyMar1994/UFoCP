@@ -43,17 +43,14 @@ Maps/Planets (Space)
 
 -Mandalore – Fixed space map preview being out-of-date.
 
--Nal Hutta – Fixed the DS2 targeting Nar Shaddaa (the moon).  Nar Shaddaa used Coruscant's planet model scaled-down, which was targetable and killable like normal Coruscant.  Changed out with a custom NarShaddaa_Backdrop duplicate without killable properties.
 -Nal Hutta – Fixed perimeter defense turret satellites only appearing if the Black Sun Pirates owned the planet.
 
--Sullust – Fixed in-battle planet being a desert instead of volcanic.  The file the volcanic planet backdrop is located had its model misspelled to "W_Planet_Volcanic.alo" and not "W_Planet_Volcanic00.alo," and a desert planet was used in its place.
 -Sullust – Fixed space map preview being out-of-date.
 
 
 ==================
 Units (Land)
 ==================
-
 -Boba Fett – Increased size of Slave I's landing model to match the relative size of other ships (as its model is drastically smaller than other ships, it was disproportional).
 
 -Grenadier – Gave the proximity mine object a new description to stay closer in line with other abilities.
@@ -64,12 +61,10 @@ Units (Space)
 ==================
 -Death Star II – Adjusted minimap icon to reflect the DS2's actual size.
 
--IG-2000 - IG-88 – Fixed the Object Contestation Glitch.
 -IG-2000 - IG-88 – Adjusted description to be more akin to the other heroes.
 
 -Luke Skywalker – Removed all instances of Luke calling "Red 5 here!" in space because Red Squadron doesn't exist anymore.  Fun fact: Petroglyph duplicated this line six times in the files.
 
--The Hound's Tooth - Bossk – Fixed the Object Contestation Glitch.
 -The Hound's Tooth - Bossk – Adjusted description to be more akin to the other heroes.
 
 -The Millennium Falcon - Han Solo & Chewbacca – Modified unit's space description to match other heroes more consistently.
