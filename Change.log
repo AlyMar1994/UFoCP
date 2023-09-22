@@ -75,6 +75,10 @@ Interface Fixes:
 • Imperial Field Commanders' GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #111)
 
 
+Map Fixes:
+• Mandalore's markers for where an attacking force should enter were rotated incorrectly, meaning attackers would appear practically facing backwards.  All entry flags now face towards the space station properly. (BUG #22)
+
+
 Model Fixes:
 • The Venator-class Cruiser's shield mesh didn't cover large segments of the model, leading to odd visuals with its shielding ability.  Its collision mesh was also assigned the shield shader.  Both mesh issues were corrected. (Thanks EaWX-Rhino!) (BUG #137)
 
