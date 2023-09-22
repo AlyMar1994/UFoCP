@@ -76,7 +76,8 @@ Interface Fixes:
 
 
 Map Fixes:
-• Mandalore's markers for where an attacking force should enter were rotated incorrectly, meaning attackers would appear practically facing backwards.  All entry flags now face towards the space station properly. (BUG #22)
+• Space Mandalore's markers for where an attacking force should enter were rotated incorrectly, meaning attackers would appear practically facing backwards.  All entry flags now face towards the space station properly. (BUG #22)
+• Land Honoghr had two spots where droidekas would get softlocked because they'd spawn into "Steep" terrain and be unable to move properly. (BUG #77)
 
 
 Model Fixes:
