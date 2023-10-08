@@ -81,6 +81,7 @@ Map Fixes:
 
 
 Model Fixes:
+• The IPV-1 Patrol Craft had a visible, blue square in its engines generating the engine particles.  The model's particle rig wasn't set to "Hidden." (BUG #85)
 • The Venator-class Cruiser's shield mesh didn't cover large segments of the model, leading to odd visuals with its shielding ability.  Its collision mesh was also assigned the shield shader.  Both mesh issues were corrected. (Thanks EaWX-Rhino!) (BUG #137)
 
 
