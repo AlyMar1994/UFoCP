@@ -17,18 +17,21 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Fixes made by UFoCP are marked with a bullet (•).  Any fixes made by Petroglyph will be
-mentioned and UFoCP's fix of said bug removed.
+Unofficial fixes are noted below with a bullet (•).  Bugfixes by Petroglyph will be noted
+in the subsequent hotfix's changelog; changes made by the Unofficial Patch will be removed
+in tandem and mentioned in the next update.
 
-Bugs introduced by UFoCP that have been fixed will be retroactively edited in the log,
-along with a mention to when the bug was fixed, with a new entry.
+When fixed, bugs introduced by the Unofficial Patch are included in the next hotfix under
+the "UFoCP" header and retroactively edited in the changelog.
 
-Dates, grammar and times are always in American format.
+Dates, grammar, and times are always in American format.
 (i.e. "10-24-2006" = October 24th, 2006, "color" > "colour," "1:52 PM" > "13:52.")
 
-All (BUG #) markers are accurate to their GitHub URL counterparts.  To visit the main
-report, the number itself can be inserted into the URL.
-(i.e. "(BUG #68845)" = https://github.com/AlyMar1994/UFoCP/issues/68845)
+All entries have tags that are accurate to their GitHub report page's URL. Insert the report
+number into the below URL to see the original report.
+(i.e. "(BUG #123456)" = https://github.com/AlyMar1994/UFoCP/issues/123456)
+
+https://github.com/AlyMar1994/UFoCP/issues/
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -38,63 +41,63 @@ v2.0.0.#### (##-##-2023) [FoC v1.121.]
 ============================================
 
 Ability Fixes:
-• "BARRAGE" prematurely ended in multiple cases because the ability's invisible targeting marker kept dying due to splash damage.  The marker can no longer be killed. (BUG #1)
-• "REMOVE CORRUPTION" wouldn't appear for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn or Mara Jade in GC.  In addition, the AI wasn't aware that Admiral Ackbar, Darth Vader and Thrawn could remove corruption.  The related AI/GUI references were messed up across the board, with Ackbar's Remove Corruption ability being appended on the wrong unit.  While Jade/Katarn can't be used in GC, all previously mentioned units' Remove Corruption abilities have been restored and the AI should be aware of all units who can remove corruption. (BUG #35)
+• "BARRAGE" prematurely ended in multiple cases because the ability's invisible targeting marker died in the attack's splash damage; the marker can no longer die in tactical combat. (BUG #1)
+• "REMOVE_CORRUPTION_ABILITY" wouldn't appear on the galactic map for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, or Mara Jade; the AI also wasn't aware that Admiral Ackbar, Darth Vader, and Thrawn could remove corruption.  Multiple units weren't defined correctly in the AI/GUI references, and Ackbar's Remove Corruption ability was added to the wrong unit.  While Jade nor Katarn are available in Galactic Conquest, all previously mentioned Remove Corruption abilities have been fully restored. (BUG #35)
 
 
 AI Fixes:
-• During certain conquering plans, the AI would always sleep for 5 minutes after a victory/failure because of a coding mistake (the scripts couldn't find the player's Difficulty setting).  The AI was rectified to sleep for its appropriate cycles: 5 minutes on Easy, 3min 30sec on Normal and 45 seconds on Hard. (BUG #69)
-• The AI's blitzkrieg conquering plan "Crush" would always cancel before starting because of a coding mistake (the script couldn't find the player's Difficulty setting).  The AI was rectified to properly continue the plan should the Difficulty be set to Hard. (BUG #79)
-• AI tactical considerations for when to build anti-infantry turrets wasn't changed from EaW.  The Consortium AI now considers if a friendly build pad is nearby, if a friendly mining facility/resource pad is near the enemy, and now knows the Proton Torpedo Turret is their designated anti-infantry turret. (BUG #114)
-• The AI wouldn't factor in Consortium Repulsorlift Jammers alongside the other "tactically active" infrastructure to target when thinking about attacking structures. (BUG #115)
-• The AI wouldn't factor in Consortium turbolaser towers as structures to avoid when attacking buildings.  Additionally, Consortium turbolaser towers weren't apart of artillery infrastructure to avoid the firing range of, or specially target altogether. (BUG #116)
-• The AI's prereqs list didn't include IG-88 nor Garm Bel Iblis as field units that can benefit from Repair Facilities when considering if building them is important. (BUG #117)
-• Since the Repulsorlift Jammer was originally made for the Empire, the Consortium wouldn't consider the Repulsorlift Jammer as a part of their defensive structure pool, nor would their budgets include the Jammer when deciding if they should save money or build up their planets.  The Jammer has been added to both considerations. (BUG #118)
-• The generic unit AI for Galactic mode had a misspelled variable which prevented unit movement being serviced properly every eight seconds.  Unit movement is no longer serviced irregularly (or not at all). (BUG #130)
-• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include the Sundered Heart, and therefore he didn't act/garrison properly like other heroes. (BUG #162)
-• The Consortium AI wouldn't consider building the Venator-class Cruiser in Skirmish because the entry wasn't included in the unit table like the other two factions (despite being the only faction able to build it currently). (BUG #165)
+• During certain conquering plans, the AI always slept 5 minutes after a victory/failure because of a coding mistake (the scripts couldn't find the player's Difficulty setting); the AI now sleeps for its appropriate cycles: 5 minutes on Easy, 3 minutes 30 seconds on Normal, and 45 seconds on Hard. (BUG #69)
+• The AI's blitzkrieg conquering plan "Crush" would always cancel before starting because of a coding mistake (the script couldn't find the player's Difficulty setting); the AI only continues the plan should the Difficulty be set to Hard. (BUG #79)
+• Tactical considerations for when the AI should buy anti-infantry turrets were outdated and never included the Consortium; the Consortium AI now considers if a friendly build pad and friendly mining facilities are nearby or near the enemy, and now knows the Proton Torpedo Turret is their designated anti-infantry turret. (BUG #114)
+• The AI wouldn't factor in Consortium Repulsorlift Jammers alongside other "tactically active" infrastructure to target when deciding which structures to attack. (BUG #115)
+• The AI wouldn't factor in Consortium turbolaser towers as structures to avoid when attacking buildings; Consortium turbolaser towers also weren't a part of the AI's artillery infrastructure to avoid or specifically target altogether. (BUG #116)
+• Tactical considerations for when to build Repair Facilities didn't include IG-88 nor Garm Bel Iblis. (BUG #117)
+• The Consortium's Repulsorlift Jammer wasn't considered a part of their defensive structure pool; therefore, the AI's save-or-buy budgeting ignored the Jammer and would rarely build it. (BUG #118)
+• The generic unit AI for the galactic map had a misspelled variable that prevented unit movement from being serviced properly every eight seconds; unit movement is no longer serviced irregularly (or not at all). (BUG #130)
+• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include the Sundered Heart; if not a part of a conquering plan, he now acts like other heroes. (BUG #162)
+• The Consortium AI wouldn't consider building the Venator-class Cruiser in Skirmish because the entry wasn't included in the unit table like the other two factions (despite currently being the only faction able to build it). (BUG #165)
 
 
 Audio Fixes:
-• No music would play when losing against the Consortium because of a bad file reference.  The Consortium's generic losing music was also referencing the Rebels' music entry.  This has been rectified, and because the track is very quiet, its volume has been boosted. (BUG #31)
+• No music would play when losing against the Consortium because of a bad file reference, and the Consortium's generic losing music referenced the Rebels' music entry; the Consortium's music now points to its own entries properly and has had its volume boosted as the music is quiet. (BUG #31)
 
 
 Interface Fixes:
-• Han Solo & Chewbacca's GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #92)
-• Yoda's tooltips didn't indicate if the unit could capture build pads or not. (BUG #93)
-• Boba Fett's GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #94)
-• Bossk's tooltips didn't indicate if the unit could capture build pads or not. (BUG #95)
-• Defilers' GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #96)
-• R2-D2 & C-3PO's GC tooltip didn't indicate if the unit could capture build pads or not, and the land team tooltip didn't include any information about the droid pair. (BUG #97)
-• Emperor Palpatine's GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #98)
-• Ewok Handlers' GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #99)
-• Luke Skywalker's tooltips didn't indicate if the unit could capture build pads or not. (BUG #100)
-• Mara Jade's team tooltip didn't indicate if the unit could capture build pads or not. (BUG #101)
-• Kyle Katarn's team tooltip didn't indicate if the unit could capture build pads or not. (BUG #102)
-• Rebel Field Commanders' GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #110)
-• Imperial Field Commanders' GC tooltip didn't indicate if the unit could capture build pads or not. (BUG #111)
+• Han Solo & Chewbacca's GC tooltip didn't indicate if the unit could capture build pads. (BUG #92)
+• Yoda's tooltips didn't indicate if the unit could capture build pads. (BUG #93)
+• Boba Fett's GC tooltip didn't indicate if the unit could capture build pads. (BUG #94)
+• Bossk's tooltips didn't indicate if the unit could capture build pads. (BUG #95)
+• Defilers' GC tooltip didn't indicate if the unit could capture build pads. (BUG #96)
+• R2-D2 & C-3PO's GC tooltip didn't indicate if the unit could capture build pads, and the land team tooltip didn't include any information about the droid pair. (BUG #97)
+• Emperor Palpatine's GC tooltip didn't indicate if the unit could capture build pads. (BUG #98)
+• Ewok Handlers' GC tooltip didn't indicate if the unit could capture build pads. (BUG #99)
+• Luke Skywalker's tooltips didn't indicate if the unit could capture build pads. (BUG #100)
+• Mara Jade's team tooltip didn't indicate if the unit could capture build pads. (BUG #101)
+• Kyle Katarn's team tooltip didn't indicate if the unit could capture build pads. (BUG #102)
+• Rebel Field Commanders' GC tooltip didn't indicate if the unit could capture build pads. (BUG #110)
+• Imperial Field Commanders' GC tooltip didn't indicate if the unit could capture build pads. (BUG #111)
 
 
 Map Fixes:
-• Space Mandalore's map markers for where an attacking force should enter were rotated incorrectly, meaning attackers would appear practically facing backwards.  All entry flags now face towards the space station properly. (BUG #22)
-• Land Honoghr had two spots where droidekas would get softlocked because they'd spawn into "Steep" terrain and be unable to move properly. (BUG #77)
+• Space Mandalore's attacking forces would appear facing backward on the map; the unit entry flags now face toward the space station properly. (BUG #22)
+• Land Honoghr had two spots where droidekas would get softlocked because the factories would spawn them into "Steep" terrain and be unable to move properly. (BUG #77)
 
 
 Model Fixes:
-• The IPV-1 Patrol Craft had a visible blue square in its engines generating the engine particles.  The model's particle rig wasn't set to "Hidden." (BUG #85)
-• The Venator-class Cruiser's shield mesh didn't cover large segments of the model, leading to odd visuals with its shielding ability.  Its collision mesh was also assigned the shield shader.  Both mesh issues were corrected. (Thanks EaWX-Rhino!) (BUG #137)
+• The IPV-1 Patrol Craft had a visible blue plane in its center engine; the plane that spawned the engine particles wasn't set to "Hidden" when exported. (BUG #85)
+• The Venator-class Cruiser's shield mesh didn't cover large segments of the model, leading to odd visuals with its shielding ability, and the model had incorrect shader assignments. (Thanks EaWX-Rhino!) (BUG #137)
 
 
 Planet Fixes:
-• Bespin's weather indicator wasn't updated from EaW, and didn't have weather conditions.  It now has the sun icon. (BUG #66)
-• Jabiim is tagged as a swamp and is a swamp planet during space battles, however it's galactic model and terrain backdrop used the "temperate" terrain GFX instead of the swamp versions. (BUG #67)
-• Nal Hutta was tagged as having "temperate" terrain instead of swamp terrain; this caused music, infantry model and SFX conflicts with the setting.  Additionally, the campaign/prologue versions of the planet had the wrong galactic terrain backdrop, showing an ecumenopolis instead of the swamp GFX. (BUG #72)
-• Alderaan's weather indicators were still set to "rain" as a holdover from EaW, instead of "clear" (as there is now no longer a planet).  Additionally, the planet terrain was left as "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
+• Bespin's weather indicator wasn't updated from EaW and didn't have weather conditions on the galactic map; it now has the sun/clear weather icon. (BUG #66)
+• Jabiim's galactic map model and terrain backdrop used "temperate" GFX despite being tagged as a swamp and appearing as a swamp planet during space combat. (BUG #67)
+• Nal Hutta is a swamp planet yet defined with "temperate" terrain; this caused music, infantry models, and SFX conflicts with the planet's setting; the campaign/prologue versions of the planet also had the wrong galactic terrain backdrop, showing an ecumenopolis instead of a swamp. (BUG #72)
+• Alderaan's weather indicators were still set to "rain" as a holdover from EaW, instead of "clear" (as there is now no longer a planet); the planet also was "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
 
 
 Structure Fixes:
-• One of the Pirate Asteroid Base's laser cannon hardpoints wasn't attached to the proper model on the station itself, meaning that laser wouldn't fire properly. (BUG #17)
-• The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC.  From station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> U/A --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
+• One of the Pirate Asteroid Base's laser cannon hardpoints wasn't attached to the proper model on the station itself, meaning the laser wouldn't fire properly. (BUG #17)
+• The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC; from station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> U/A --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
 • The Pirate Asteroid Base's hardpoints didn't have damage multiplier buffs/debuffs against different units because its laser and turbolaser multiplier variables were misspelled, respectively, as "Damage_Sation_Laser" and "Damage_Sation_Turbolaser" instead of "Station." (BUG #119)
 
 
@@ -102,10 +105,10 @@ Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebel's announcement VO instead of the Empire's. (BUG #12)
 • General Veers didn't have the Imperial hero identifier under his AT-AT, unlike other Imperial land units. (BUG #49)
 • Luke Skywalker would attach to any available capital ships during space battles instead of flying his X-wing. (BUG #70)
-• Consortium slaves weren't tagged as "victory relevant," meaning the battle would lose prematurely if only slaves were on the battlefield; the slaves would then reappear on the map fighting for the Consortium if the planet is attacked again.  The slave entries were duplicated from their civilian counterparts and never updated. (BUG #113)
+• Consortium slaves weren't "victory relevant," like their civilian counterparts.  If only slaves were on the battlefield, the battle would end; the slaves would then reappear on the map fighting for the Consortium if attacked again. (BUG #113)
 • Garm Bel Iblis didn't have the Rebel hero identifier under the Gargantuan, unlike other Rebel land units. (BUG #122)
 
 
 Upgrade Fixes:
-• The Consortium space station wouldn't get a damage reduction when buying the upgrade "Reinforced Durasteel" for Skirmish or GC.  The upgrade was set to activate on ground battles, and was set to only affect defensive satellites. (BUG #14)
+• The Consortium space station wouldn't get a damage reduction when buying the upgrade "Reinforced Durasteel" for Skirmish or GC; the upgrade only activated on ground battles and only affected defensive satellites. (BUG #14)
 • Tyber Zann and the Vengeance Frigate wouldn't get a x1.25 or x1.50 cloaking time extension when buying the upgrade "Modified Cloaking Generator."  The upgrade only activated during Land Skirmish, despite only being buyable in Space Skirmish. (BUG #15)
