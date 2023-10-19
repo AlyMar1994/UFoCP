@@ -55,6 +55,7 @@ AI Fixes:
 • Tactical considerations for when to build Repair Facilities didn't include IG-88 nor Garm Bel Iblis. (BUG #117)
 • The Consortium's Repulsorlift Jammer wasn't considered a part of their defensive structure pool; therefore, the AI's save-or-buy budgeting ignored the Jammer and would rarely build it. (BUG #118)
 • The generic unit AI for the galactic map had a misspelled variable that prevented unit movement from being serviced properly every eight seconds; unit movement is no longer serviced irregularly (or not at all). (BUG #130)
+• The Galactic AI for finding ground/space targets didn't have Tyber Zann defined as a possible leader_object in its service for attacking planets; he is now properly considered under enemy presence. (BUG #140)
 • The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include the Sundered Heart; if not a part of a conquering plan, he now acts like other heroes. (BUG #162)
 • The Consortium AI wouldn't consider building the Venator-class Cruiser in Skirmish because the entry wasn't included in the unit table like the other two factions (despite currently being the only faction able to build it). (BUG #165)
 
