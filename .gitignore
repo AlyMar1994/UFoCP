@@ -3,6 +3,14 @@
 Data/Art/Textures/splash.dds
 Data/Art/Textures/menuback_overlay.dds
 
+# VSCode
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+*.code-workspace
+
 
 
 ### Windows ###
