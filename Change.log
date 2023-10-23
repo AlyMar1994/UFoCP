@@ -44,6 +44,7 @@ v2.0.0.#### (##-##-2023) [FoC v1.121.]
 Ability Fixes:
 • "BARRAGE" prematurely ended in multiple cases because the ability's invisible targeting marker died in the attack's splash damage; the marker can no longer die in tactical combat. (BUG #1)
 • "REMOVE_CORRUPTION_ABILITY" wouldn't appear on the galactic map for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, or Mara Jade; the AI also wasn't aware that Admiral Ackbar, Darth Vader, and Thrawn could remove corruption.  Multiple units weren't defined correctly in the AI/GUI references, and Ackbar's Remove Corruption ability was added to the wrong unit.  While Jade nor Katarn are available in Galactic Conquest, all previously mentioned Remove Corruption abilities have been fully restored. (BUG #35)
+• "Recharge Special Abilities" for the Consortium improperly increased ability recharge times for heroes and infantry instead of decreasing them; the percentage to decrease ability recharge was changed from "0.85" to "-0.15." (BUG #173)
 
 
 AI Fixes:

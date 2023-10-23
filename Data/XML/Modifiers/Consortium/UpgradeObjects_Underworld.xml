@@ -610,7 +610,7 @@
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Ability_Recharge_Bonus_Percentage>0.85</Ability_Recharge_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>-0.15</Ability_Recharge_Bonus_Percentage>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -652,7 +652,7 @@
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Ability_Recharge_Bonus_Percentage>0.85</Ability_Recharge_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>-0.15</Ability_Recharge_Bonus_Percentage>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -1204,7 +1204,7 @@
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>Crusader_Gunship</Applicable_Unit_Types>
-				<Fire_Range_Bonus_Percentage>.15</Fire_Range_Bonus_Percentage>
+				<Fire_Range_Bonus_Percentage>0.15</Fire_Range_Bonus_Percentage>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -1246,7 +1246,7 @@
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate </Applicable_Unit_Types>
-				<Fire_Range_Bonus_Percentage>.15</Fire_Range_Bonus_Percentage>
+				<Fire_Range_Bonus_Percentage>0.15</Fire_Range_Bonus_Percentage>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -1288,7 +1288,7 @@
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>Crusader_Gunship, Interceptor4_Frigate, Kedalbe_Battleship </Applicable_Unit_Types>
-				<Fire_Range_Bonus_Percentage>.15</Fire_Range_Bonus_Percentage>
+				<Fire_Range_Bonus_Percentage>0.15</Fire_Range_Bonus_Percentage>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
