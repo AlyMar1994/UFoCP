@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/Library/PGBaseDefinitions.lua#1 $
+-- $Id: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/Library/PGBaseDefinitions.lua#1 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,15 +25,15 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/Library/PGBaseDefinitions.lua $
+--              $File: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/Library/PGBaseDefinitions.lua $
 --
 --    Original Author: Brian Hayes
 --
---            $Author: Andre_Arsenault $
+--            $Author: Brian_Hayes $
 --
---            $Change: 37816 $
+--            $Change: 637819 $
 --
---          $DateTime: 2006/02/15 15:33:33 $
+--          $DateTime: 2017/03/22 10:16:16 $
 --
 --          $Revision: #1 $
 --
@@ -50,7 +50,7 @@ collectgarbage(256)
 function Common_Base_Definitions()
 	-- Clear out the thread specific values.
 	ThreadValue.Reset()
-
+	
 	-- Clear out any thread events.
 	GetEvent.Reset()
 
@@ -85,9 +85,9 @@ function Common_Base_Definitions()
 	xfire_pos = nil
 	kite_pos = nil
 	friendly = nil
-
+	
 	block_table = {}
-
+	
 	lib_anti_idle_block = nil
 
 end
@@ -97,7 +97,7 @@ end
 function Base_Definitions()
 
 	Common_Base_Definitions()
-
+	
 	if Definitions then
 		Definitions()
 	end

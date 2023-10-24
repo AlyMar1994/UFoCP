@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/Library/PGTaskForce.lua#6 $
+-- $Id: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/Library/PGTaskForce.lua#1 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,17 +25,17 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/Library/PGTaskForce.lua $
+--              $File: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/Library/PGTaskForce.lua $
 --
 --    Original Author: Brian Hayes
 --
---            $Author: James_Yarrow $
+--            $Author: Brian_Hayes $
 --
---            $Change: 46700 $
+--            $Change: 637819 $
 --
---          $DateTime: 2006/06/21 14:40:55 $
+--          $DateTime: 2017/03/22 10:16:16 $
 --
---          $Revision: #6 $
+--          $Revision: #1 $
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -53,8 +53,8 @@ function AssembleForce(taskforce, stage_at_strongest_space)
 		stage = taskforce.Get_Stage()
 		DebugMessage("%s -- Using default system %s (nearest faction system) for staging.", tostring(Script), tostring(stage))
 	end
-
-	if not stage then
+	
+	if not stage then 
 		DebugMessage("%s -- Unable to find a staging area.  Abandonning plan.", tostring(Script))
 		ScriptExit()
 	end
@@ -70,8 +70,8 @@ function SynchronizedAssemble(taskforce, stage_at_strongest_space)
 		stage = taskforce.Get_Stage()
 		DebugMessage("%s -- Using default system %s (nearest faction system) for staging.", tostring(Script), tostring(stage))
 	end
-
-	if not stage then
+	
+	if not stage then 
 		DebugMessage("%s -- Unable to find a staging area.  Abandonning plan.", tostring(Script))
 		ScriptExit()
 	end
@@ -93,7 +93,7 @@ end
 
 function LaunchUnits(taskforce)
 	DebugMessage("Launching units into orbit with taskforce %s.", tostring(taskforce))
-
+	
 	block = taskforce.Launch_Units()
 	if not block then
 		return false
@@ -101,7 +101,7 @@ function LaunchUnits(taskforce)
 	BlockOnCommand(block)
 	BlockOnCommand(taskforce.Form_Units())
 	DebugMessage("Launch Units Command finished")
-
+	
 	return true
 end
 
@@ -127,7 +127,7 @@ function FundBases(player, target)
 
 	--Prefer starbases since they block enemy movement
 	DebugMessage("%s -- giving desire bonus to build starbase", tostring(Script))
-	BlockOnCommand(GiveDesireBonus(player, "Build_Initial_Starbase_Only", target, 15, 5))
+	BlockOnCommand(GiveDesireBonus(player, "Build_Initial_Starbase_Only", target, 15, 5)) 
 	DebugMessage("%s -- waiting for starbase", tostring(Script))
 	BlockOnCommand(WaitForStarbase(Target, 1))
 	DebugMessage("%s -- giving desire bonus to build groundbase", tostring(Script))
@@ -141,36 +141,36 @@ function Escort(taskforce, target, conservative_style)
 
 	if not TestValid(target) then
 		Sleep(1)
-		return
+		return 
 	end
-
+	
 	lib_enemy = FindDeadlyEnemy(target)
-
+	
 	if lib_enemy then
 		if Get_Game_Mode() == "Space" then
 			if not conservative_style or (lib_enemy.Is_Category("Fighter") or lib_enemy.Is_Category("Bomber")) then
-
+	
 				-- Lure them away from our escorted target if we can.
 				Try_Ability(taskforce,"LURE")
-
+				
 				-- Weave a bit.
 				Weave(taskforce, lib_enemy)
-
+	
 				-- engage the attackers for a duration
 				if not TestValid(lib_enemy) then return end
 				DebugMessage("%s -- In Escort: Attacking lib_enemy: %s for Target: %s", tostring(Script), tostring(lib_enemy), tostring(target))
 				BlockOnCommand(taskforce.Attack_Target(lib_enemy), 15)
 			else
-
+			
 				-- run away a bit, then hold ground before resuming escort
 				DebugMessage("%s -- In Escort: attempting to divert lib_enemy: %s for Target: %s", tostring(Script), tostring(lib_enemy), tostring(target))
 				BlockOnCommand(taskforce.Move_To(Project_By_Unit_Range(lib_enemy, taskforce)), 15)
-
+				
 				if not TestValid(target) then return end
-
+				
 				BlockOnCommand(taskforce.Guard_Target(target, 5))
 			end
-		else
+		else 
 			BlockOnCommand(taskforce.Attack_Target(lib_enemy), 20)
 		end
 		return
@@ -178,19 +178,19 @@ function Escort(taskforce, target, conservative_style)
 
 	if not TestValid(target) then
 		Sleep(1)
-		return
+		return 
 	end
-
+    
 	-- Make sure we're assisting the target provided we're not already assisting
 	-- because reissuing a guard will cause the assisting escort to break off attack.
 	-- Note: may receive a non tf "target" param, for example EscortPlan passes a unit
 	if not Tf_Has_Attack_Target(taskforce) then
-
+		
 		-- Escort forces should have attack priorities that allow them to attack structures by this point
 		DebugMessage("%s on %s -- In Escort: Resuming escort of %s", tostring(Script), tostring(AITarget), tostring(target))
 		taskforce.Guard_Target(target)
 	end
-
+	
 	Sleep(1)
 end
 
@@ -198,7 +198,7 @@ end
 -- Does any member of the given task force have an attack target?
 function Tf_Has_Attack_Target(tf)
 
-	if TestValid(tf) then
+	if TestValid(tf) then 
 		for i, unit in tf.Get_Unit_Table() do
 			if unit.Has_Attack_Target() == true then
 				return true
@@ -207,7 +207,7 @@ function Tf_Has_Attack_Target(tf)
 	else
 		DebugMessage("%s -- task force %s isn't valid", tostring(Script), tostring(tf))
 	end
-
+	
 	return false
 end
 
@@ -244,10 +244,10 @@ function Anti_Idle_Taskforce()
 			DebugMessage("%s-- AntiIdling %s", tostring(Script), tostring(lib_tf_to_anti_idle))
 			lib_anti_idle_start_time = GetCurrentTime()
 			lib_anti_idle_block = lib_tf_to_anti_idle.Move_To(Project_By_Unit_Range(lib_enemy_to_avoid, lib_tf_to_anti_idle))
-			lib_new_anti_idle = false
+			lib_new_anti_idle = false 
 		elseif lib_anti_idle_block then
 			PumpEvents()
-
+			
 			-- Reissue a new command if the old one has expired or some time has passed
 			-- This ensures that newly landed reinforcements on the task force will also anti-idle
 			if lib_anti_idle_block.IsFinished() == true
@@ -267,35 +267,35 @@ function QuickReinforce(player, target, tf_to_reinforce, second_try_tf)
 
 	if not player then
 		DebugMessage("%s-- received nil player", tostring(Script))
-		return
+		return 
 	end
 
 -- Global plans can pass a nil target and rely on failsafes below to find a target
 --	if not target then
 --		DebugMessage("%s-- received nil target", tostring(Script))
---		return
+--		return 
 --	end
 
 	if not tf_to_reinforce then
 		DebugMessage("%s-- received nil tf_to_reinforce", tostring(Script))
-		return
+		return 
 	end
 
-
+	
 	-- Space mode will attempt various reinforce attempts with timeouts,
 	-- then simply fail after the last option is exhausted.
 	if Get_Game_Mode() == "Space" then
 
 		lib_reinforce_timeout = 3
-
+	
 		-- If some units have landed, try land the remainder near the rest of the main tf
 		if tf_to_reinforce.Get_Force_Count() ~= 0 then
-
+	
 			-- Define some global vars for the anti idle
 			lib_tf_to_anti_idle = tf_to_reinforce
 			lib_enemy_to_avoid = Find_Nearest(tf_to_reinforce, PlayerObject, false)
 			lib_new_anti_idle = true
-
+	
 			-- Reinforce new units and anti-idle existing units waiting for the reinforce
 			if BlockOnCommand(tf_to_reinforce.Reinforce(tf_to_reinforce), lib_reinforce_timeout, Anti_Idle_Taskforce) then
 				DebugMessage("%s-- reinforced by task force", tostring(Script))
@@ -304,15 +304,15 @@ function QuickReinforce(player, target, tf_to_reinforce, second_try_tf)
 				return
 			end
 		end
-
+	
 		-- If some of the escort force exists, try to land there
 		if second_try_tf and second_try_tf.Get_Force_Count() ~= 0 then
-
+	
 			-- Define some global vars for the anti idle
 			lib_tf_to_anti_idle = second_try_tf
 			lib_enemy_to_avoid = Find_Nearest(second_try_tf, PlayerObject, false)
 			lib_new_anti_idle = true
-
+	
 			-- Reinforce new units and anti-idle existing units waiting for the reinforce
 			if BlockOnCommand(tf_to_reinforce.Reinforce(second_try_tf), lib_reinforce_timeout, Anti_Idle_Taskforce) then
 				DebugMessage("%s-- reinforced by secondary task force", tostring(Script))
@@ -321,7 +321,7 @@ function QuickReinforce(player, target, tf_to_reinforce, second_try_tf)
 				return
 			end
 		end
-
+	
 		-- Try to land near the default starting point, or some base building, or finally the target itself.
 		lib_start_loc = FindTarget(tf_to_reinforce, "Is_Friendly_Start", "Tactical_Location", 1.0)
 		if lib_start_loc then
@@ -343,19 +343,19 @@ function QuickReinforce(player, target, tf_to_reinforce, second_try_tf)
 				end
 			end
 		end
-
+		
 		-- If we were unable to bring in any reinforcements within a reasonable amount of time
 		-- then just abandon the plan; it's not worth holding up other units for too long
 		if tf_to_reinforce.Get_Force_Count() == 0 then
 			ScriptExit()
 		end
-
-	-- Land mode: this will just return if the units are all available;
+	
+	-- Land mode: this will just return if the units are all available; 
 	-- otherwise we'll reinforce for a long time and then the plan will fail because it may no longer be relevant.
 	else
-
+	
 		if tf_to_reinforce.Are_All_Units_On_Free_Store() then
-
+			
 			DebugMessage("%s-- All units available, proceeding with plan", tostring(Script))
 
 			-- form up any spread out infantry
@@ -370,11 +370,11 @@ function QuickReinforce(player, target, tf_to_reinforce, second_try_tf)
 			if AITarget then
 				WaitForAllReinforcements(tf_to_reinforce, target)
 			else
-
+				
 				-- find something to reinforce near, for global plans with a nil target
 				friendly_loc = FindTarget(tf_to_reinforce, "Space_Area_Is_Hidden", "Tactical_Location", 1.0)
 				WaitForAllReinforcements(tf_to_reinforce, friendly_loc)
-			end
+			end			
 
 			--WaitForAllReinforcements(tf_to_reinforce, tf_to_reinforce)
 			DebugMessage("%s-- Reinforcements arrived.  Abandonning plan for reproposal if still relevant", tostring(Script))
@@ -416,7 +416,7 @@ function Obscure(tf, range, use_nebulae, path_through_fields)
 	tf_unit_list = tf.Get_Unit_Table()
 	if not UnitListIsObscured(tf_unit_list) then
 		asteroids = Find_Nearest_Space_Field(tf, "Asteroid")
-
+		
 		if asteroids and tf.Get_Distance(asteroids) < range then
 			enemy_nearest_loc = Find_Nearest(asteroids, PlayerObject, false)
 			if not TestValid(enemy_nearest_loc) or enemy_nearest_loc.Get_Distance(asteroids) < 750 then
@@ -434,12 +434,12 @@ function Obscure(tf, range, use_nebulae, path_through_fields)
 					--MessageBox("%s -- moving to nebulae:%s", tostring (Script), path_through_fields)
 					BlockOnCommand(tf.Move_To(nebula, 10, path_through_fields))
 					return true
-				end
+				end	
 			end
 		end
 		return false -- We're not obscured, and there's nothing in range to obscure us.
 	end
-
+	
 	return true
 end
 
@@ -463,7 +463,7 @@ function ConsiderHeal(unit)
 			end
 		end
 	end
-	return false
+	return false		
 end
 
 -- Fix the unit or hide if appropriate.
@@ -472,9 +472,9 @@ function ConsiderRepair(unit)
 	unit_hull = unit.Get_Hull()
 	if (unit_hull < 0.8) then
 		repair_station = Find_Nearest(unit, "HealsVehicles", PlayerObject, true)
-        if TestValid(repair_station) then
+        if TestValid(repair_station) then 
 			if (unit_hull < 0.4) or (unit.Get_Distance(repair_station) < 700) then
-
+		
 				BlockOnCommand(unit.Move_To(repair_station))
 				while unit.Get_Hull() < 0.9 do
 					BlockOnCommand(unit.Guard_Target(repair_station), 2)
@@ -514,8 +514,8 @@ function GalacticAttackAllowed(difficulty, ai_territories_just_gained)
 		--MessageBox("%s -- ai has %d attacks left; not pausing before next attack", tostring(Script), num_ai_attacks_left)
 		return true
 	else
-
-		-- AI has to wait for player wins
+		
+		-- AI has to wait for player wins		
 
 		-- Difficulty will dictate aggressiveness and amount of contrived breathing room the AI gives for free
 		min_player_wins_unresponded = 4
@@ -530,7 +530,7 @@ function GalacticAttackAllowed(difficulty, ai_territories_just_gained)
 			max_player_wins_unresponded = 2
 			max_ai_attacks_allowed = 4
 		end
-
+		
 		-- Track the player's progress
 		num_land_enemy_controlled = EvaluatePerception("Num_Enemy_Land_Territories", PlayerObject)
 		num_space_enemy_controlled = EvaluatePerception("Num_Enemy_Space_Territories", PlayerObject)
@@ -538,7 +538,7 @@ function GalacticAttackAllowed(difficulty, ai_territories_just_gained)
 
 		player_gains_before_attacking = GetGlobalValueOrZero(PlayerObject, "player_gains_before_attacking")
         if player_gains_before_attacking == 0 then
-
+		
 			-- Establish how far the player can go unresponded
 			player_gains_before_attacking = GameRandom(min_player_wins_unresponded, max_player_wins_unresponded)
 			GlobalValue.Set(PlayerSpecificName(PlayerObject, "player_gains_before_attacking"), player_gains_before_attacking)
@@ -554,9 +554,9 @@ function GalacticAttackAllowed(difficulty, ai_territories_just_gained)
 									- GlobalValue.Get(PlayerSpecificName(PlayerObject, "recent_land_enemy_controlled"))
 									- GlobalValue.Get(PlayerSpecificName(PlayerObject, "recent_space_enemy_controlled"))
 									--		+ ai_territories_just_gained
-
+		
 		if player_territories_gained >= player_gains_before_attacking then
-
+		
 			-- Player has won all that he's allowed without AI response, time to start attacking again
 			num_ai_attacks_left = GameRandom(0, max_player_wins_unresponded - 1)
 			GlobalValue.Set(PlayerSpecificName(PlayerObject, "num_ai_attacks_left"), num_ai_attacks_left)
@@ -576,11 +576,11 @@ function GalacticAttackAllowed(difficulty, ai_territories_just_gained)
 				--MessageBox("%s -- player lost ground; resetting recent territories records", tostring(Script))
 				GlobalValue.Set(PlayerSpecificName(PlayerObject, "recent_land_enemy_controlled"), num_land_enemy_controlled)
 				GlobalValue.Set(PlayerSpecificName(PlayerObject, "recent_space_enemy_controlled"), num_space_enemy_controlled)
-			end
+			end 
 		end
-
+	
 	end
-
+	
 	return false
 end
 
@@ -594,7 +594,7 @@ function DifficultyBasedMinPause(difficulty)
 		sleep_duration = 45
 	end
 
-	return sleep_duration
+	return sleep_duration	
 end
 
 function GetGlobalValueOrZero(player, value_name)
