@@ -17,7 +17,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -26,7 +26,7 @@
 		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 
-	</SpaceProp>							 
+	</SpaceProp>
 
 	<SpaceProp Name="Balmorra_Backdrop_Large">
 		<Text_ID />
@@ -40,7 +40,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -50,7 +50,7 @@
 		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
-	
+
 	<SpaceProp Name="Bonadan_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_bonadan_high.alo</Space_Model_Name>
@@ -63,7 +63,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -88,10 +88,10 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		
+
 		<!-- When destroyed by tactical super weapon - Death Star -->
 	   <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
 	   <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
@@ -111,7 +111,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>-1300.0</Layer_Z_Adjust>
 		<In_Background> Yes </In_Background>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -133,7 +133,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -155,7 +155,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -177,7 +177,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -199,7 +199,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -221,7 +221,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -230,7 +230,7 @@
 		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-		
+
 	<SpaceProp Name="Forest_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_forest00.alo</Space_Model_Name>
@@ -243,7 +243,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -252,7 +252,7 @@
 		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-		
+
 	<SpaceProp Name="Gas_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_gas00.alo</Space_Model_Name>
@@ -265,7 +265,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -287,7 +287,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -296,7 +296,7 @@
 		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-	
+
 	<SpaceProp Name="Geonosis_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_geonosis_high.alo</Space_Model_Name>
@@ -309,7 +309,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -318,7 +318,7 @@
 		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-	
+
 	<SpaceProp Name="Hoth_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_hoth_high.alo</Space_Model_Name>
@@ -331,7 +331,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -340,7 +340,7 @@
 		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-		
+
 	<SpaceProp Name="Ice_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_ice00.alo</Space_Model_Name>
@@ -353,7 +353,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -362,7 +362,7 @@
 		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-	
+
 
 	<SpaceProp Name="Kamino_Backdrop_Large">
 		<Text_ID />
@@ -377,7 +377,7 @@
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
-		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar> 
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
 		  <!-- When destroyed by tactical super weapon - Death Star -->
@@ -398,7 +398,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -420,7 +420,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -450,7 +450,7 @@
 		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-	
+
 	<SpaceProp Name="Moon_Small">
 		<Text_ID />
 		<Space_Model_Name>w_planet_moon_high.alo</Space_Model_Name>
@@ -484,7 +484,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -493,7 +493,7 @@
 		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-		
+
 	<SpaceProp Name="Ocean_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_ocean00.alo</Space_Model_Name>
@@ -506,7 +506,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -529,7 +529,7 @@
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
-		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar> 
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
 		  <!-- When destroyed by tactical super weapon - Death Star -->
@@ -551,7 +551,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -560,7 +560,7 @@
 		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-		
+
 	<SpaceProp Name="Swamp_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_swamp00.alo</Space_Model_Name>
@@ -573,7 +573,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -595,7 +595,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -604,7 +604,7 @@
 	  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 	  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-		
+
 	<SpaceProp Name="Temperate_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_temperate00.alo</Space_Model_Name>
@@ -617,7 +617,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -626,7 +626,7 @@
 		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-		
+
 	<SpaceProp Name="Urban_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_urban00.alo</Space_Model_Name>
@@ -639,7 +639,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -661,7 +661,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -683,7 +683,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -692,7 +692,7 @@
 		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-		
+
 	<SpaceProp Name="Volcanic_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_volcanic.alo</Space_Model_Name>
@@ -705,7 +705,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -728,7 +728,7 @@
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
-		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar> 
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
 		  <!-- When destroyed by tactical super weapon - Death Star -->
@@ -749,7 +749,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -758,7 +758,7 @@
 		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-			
+
 	<SpaceProp Name="Temperate_Backdrop">
 		<Text_ID />
 		<Space_Model_Name>w_planet_temperate00.alo</Space_Model_Name>
@@ -771,7 +771,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -794,7 +794,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -816,7 +816,7 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
-		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
+		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
@@ -863,10 +863,10 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
-		<Radar_Icon_Name> </Radar_Icon_Name> 
+		<Radar_Icon_Name> </Radar_Icon_Name>
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
 		<Exclude_From_Distance_Fade> True </Exclude_From_Distance_Fade>
-	</SpaceProp>							 
+	</SpaceProp>
 
 	<SpaceProp Name="Destroyed_Planet_Remains_Part_2">
 		<Text_ID />
@@ -882,10 +882,10 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> No </In_Background>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
-		<Radar_Icon_Name> </Radar_Icon_Name> 
+		<Radar_Icon_Name> </Radar_Icon_Name>
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
 		<Exclude_From_Distance_Fade> True </Exclude_From_Distance_Fade>
-	</SpaceProp>							 
+	</SpaceProp>
 
 	<!-- END TACTICAL PLANET DESTRUCTION REMAINS -->
 
@@ -912,15 +912,15 @@
 		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
-		
-		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding. 
+
+		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding.
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		-->
-		
+
 		<Is_Impassable_Asteroid> true </Is_Impassable_Asteroid>
       <Space_Obstacle_Radius> 30 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Valid_Target>No</Is_Valid_Target>
@@ -938,21 +938,21 @@
 		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>-60.0</Layer_Z_Adjust>
-		
-		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding. 
+
+		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding.
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		-->
 
 		<Is_Impassable_Asteroid> true </Is_Impassable_Asteroid>
       <Space_Obstacle_Radius> 60 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Valid_Target>No</Is_Valid_Target>
 	</SpaceProp>
-	
-	
+
+
 	<SpaceProp Name="Asteroid Large">
 		<Text_ID />
 		<Space_Model_Name>w_asteroid01.alo</Space_Model_Name>
@@ -964,15 +964,15 @@
 		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>-135.0</Layer_Z_Adjust>
-		
-		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding. 
+
+		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding.
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		-->
 
 		<Is_Impassable_Asteroid> true </Is_Impassable_Asteroid>
       <Space_Obstacle_Radius> 90 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Valid_Target>No</Is_Valid_Target>
@@ -990,14 +990,14 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>-140.0</Layer_Z_Adjust>
 
-		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding. 
+		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding.
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		-->
 
 		<Is_Impassable_Asteroid> true </Is_Impassable_Asteroid>
       <Space_Obstacle_Radius> 280 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Valid_Target>No</Is_Valid_Target>
@@ -1052,7 +1052,7 @@
 		<Layer_Z_Adjust>-100</Layer_Z_Adjust>
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
 	</SpaceProp>
-	
+
 	<SpaceProp Name="Asteroid Field Large">
 		<Text_ID />
 		<Space_Model_Name>w_asteroid_mass.alo</Space_Model_Name>
@@ -1065,13 +1065,13 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-		
+
 		<Is_Asteroid_Field> Yes </Is_Asteroid_Field>
 		<Space_Obstacle_Radius> 700 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
-	
+
 
 	<SpaceProp Name="Asteroid Field Small">
 		<Text_ID />
@@ -1087,7 +1087,7 @@
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
 		<Is_Asteroid_Field> Yes </Is_Asteroid_Field>
 		<Space_Obstacle_Radius> 300 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
 
@@ -1105,10 +1105,10 @@
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
 		<Is_Asteroid_Field> Yes </Is_Asteroid_Field>
 		<Space_Obstacle_Radius> 500 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
-	
+
 		<!-- jdg these are non-passable versions of asteroids needed for tutorial 3 xxx-->
 	<SpaceProp Name="Fake Asteroid Field Large_NonPassable">
 		<Text_ID />
@@ -1124,20 +1124,20 @@
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
 		<Is_Impassable_Asteroid> Yes </Is_Impassable_Asteroid>
 		<Space_Obstacle_Radius> 700 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		<Is_Decoration> No </Is_Decoration>
 	</SpaceProp>
-	
 
-	
-	
-	
-	
-	
+
+
+
+
+
+
 
 	<SpaceProp Name="Fake Asteroid Field Medium_NonPassable">
 		<Text_ID />
@@ -1150,23 +1150,23 @@
 		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
-		
+
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
 		<!--<Is_Asteroid_Field> Yes </Is_Asteroid_Field>-->
 		<Is_Impassable_Asteroid> Yes </Is_Impassable_Asteroid>
-		
+
 		<Space_Obstacle_Radius> 500 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		<Is_Decoration> No </Is_Decoration>
 	</SpaceProp>
-	
-	
-	
-	
+
+
+
+
 
     <SpaceProp Name="Nebula Small">
         <Text_ID />
@@ -1185,7 +1185,7 @@
         <Is_Ion_Storm>No</Is_Ion_Storm>
         <Is_Nebula> Yes </Is_Nebula>
         <Space_Obstacle_Radius> 135 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
         <Space_Layer> StaticObject </Space_Layer>
     </SpaceProp>
 
@@ -1206,7 +1206,7 @@
         <Is_Ion_Storm>No</Is_Ion_Storm>
         <Is_Nebula> Yes </Is_Nebula>
         <Space_Obstacle_Radius> 570 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
         <Space_Layer> StaticObject </Space_Layer>
     </SpaceProp>
 
@@ -1227,7 +1227,7 @@
         <Is_Ion_Storm>No</Is_Ion_Storm>
         <Is_Nebula> Yes </Is_Nebula>
         <Space_Obstacle_Radius> 630 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
         <Space_Layer> StaticObject </Space_Layer>
     </SpaceProp>
 
@@ -1248,7 +1248,7 @@
         <Is_Ion_Storm>No</Is_Ion_Storm>
         <Is_Nebula> Yes </Is_Nebula>
         <Space_Obstacle_Radius> 800 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
         <Space_Layer> StaticObject </Space_Layer>
     </SpaceProp>
 
@@ -1269,7 +1269,7 @@
         <Is_Ion_Storm>No</Is_Ion_Storm>
         <Is_Nebula> Yes </Is_Nebula>
         <Space_Obstacle_Radius> 2800 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
         <Space_Layer> StaticObject </Space_Layer>
     </SpaceProp>
 
@@ -1290,7 +1290,7 @@
         <Is_Ion_Storm>Yes</Is_Ion_Storm>
         <Is_Nebula> Yes </Is_Nebula>
         <Space_Obstacle_Radius> 135 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
         <Space_Layer> StaticObject </Space_Layer>
     </SpaceProp>
 
@@ -1311,7 +1311,7 @@
         <Is_Ion_Storm>Yes</Is_Ion_Storm>
         <Is_Nebula> Yes </Is_Nebula>
         <Space_Obstacle_Radius> 570 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
         <Space_Layer> StaticObject </Space_Layer>
     </SpaceProp>
 
@@ -1332,7 +1332,7 @@
         <Is_Ion_Storm>Yes</Is_Ion_Storm>
         <Is_Nebula> Yes </Is_Nebula>
         <Space_Obstacle_Radius> 630 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
         <Space_Layer> StaticObject </Space_Layer>
     </SpaceProp>
 
@@ -1353,7 +1353,7 @@
         <Is_Ion_Storm>Yes</Is_Ion_Storm>
         <Is_Nebula> Yes </Is_Nebula>
         <Space_Obstacle_Radius> 800 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
         <Space_Layer> StaticObject </Space_Layer>
     </SpaceProp>
 
@@ -1374,7 +1374,7 @@
         <Is_Ion_Storm>No</Is_Ion_Storm>
         <Is_Nebula> Yes </Is_Nebula>
         <Space_Obstacle_Radius> 2800 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
         <Space_Layer> StaticObject </Space_Layer>
     </SpaceProp>
 
@@ -1525,7 +1525,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<SpaceBehavior> SPACE_OBSTACLE</SpaceBehavior>
 		<Custom_Soft_Footprint_Radius> 300 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
 
@@ -1540,15 +1540,15 @@
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
 		<Behavior> SPACE_OBSTACLE</Behavior>
 		<Space_Obstacle_Radius> 130 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
-		<Is_Visible_On_Radar> True </Is_Visible_On_Radar>	
+		<Is_Visible_On_Radar> True </Is_Visible_On_Radar>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Size>0.18  0.18</Radar_Icon_Size>
 		<Affiliation>Empire, Neutral</Affiliation>
 	</SpaceProp>
-	
+
 	<SpaceProp Name="Space_Junk_Large">
 		<Text_ID />
 		<Space_Model_Name>W_SpaceJunk.alo</Space_Model_Name>
@@ -1561,13 +1561,13 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>-100</Layer_Z_Adjust>
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
-		
+
 		<Is_Asteroid_Field> Yes </Is_Asteroid_Field>
 		<Space_Obstacle_Radius> 600 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
-	
+
 	<SpaceProp Name="Space_Junk_Large_NO_Collision">
 		<Variant_Of_Existing_Type>Space_Junk_Large</Variant_Of_Existing_Type>
 		<Behavior>IDLE</Behavior>
@@ -1588,10 +1588,10 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>-100</Layer_Z_Adjust>
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
-		
+
 		<Is_Asteroid_Field> Yes </Is_Asteroid_Field>
 		<Space_Obstacle_Radius> 450 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
 
@@ -1605,13 +1605,13 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>-100</Layer_Z_Adjust>
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
-		
+
 		<Is_Asteroid_Field> Yes </Is_Asteroid_Field>
 		<Space_Obstacle_Radius> 250 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
-	
+
 	<SpaceProp Name="Star_Destroyer_Construction">
 		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
 		<Space_Model_Name>W_Star_Destroyer_Construction.ALO</Space_Model_Name>
@@ -1622,10 +1622,10 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
-		
+
 		<Is_Impassable_Asteroid> true </Is_Impassable_Asteroid>
 		<Space_Obstacle_Radius> 300 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 100 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 100 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
 
@@ -1639,10 +1639,10 @@
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
-		
+
 		<Is_Impassable_Asteroid> true </Is_Impassable_Asteroid>
 		<Space_Obstacle_Radius> 300 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 100 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 100 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
 
@@ -1849,7 +1849,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</SpaceProp>
-	
+
 	<SpaceProp Name="Hardpoint_Breakoff_MonCal_Weapon_BR">
 		<Text_ID />
 		<Space_Model_Name> RV_MonCalCruiser_HP00_B-R.alo </Space_Model_Name>
@@ -2233,7 +2233,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</SpaceProp>
-	
+
 	<SpaceProp Name="Hardpoint_Breakoff_Interdictor_Weapon_BL">
 		<Text_ID />
 		<Space_Model_Name> EV_Interdictor_HP00_B-L.alo </Space_Model_Name>
@@ -3215,7 +3215,7 @@
 		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
-	
+
 	<SpaceProp Name="Hardpoint_Breakoff_HomeOne_Weapon_IC_BL">
 		<Text_ID />
 		<Space_Model_Name> RV_homeone_hp_IC_BL.alo </Space_Model_Name>
@@ -3430,9 +3430,9 @@
 		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
-	
-	
-	
+
+
+
 
 <!-- PIRATE ASTEROID BASE BREAKOFF PIECES -->
 
@@ -3501,7 +3501,7 @@
 		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
-	
+
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Light_Laser_00">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_ll1.alo</Space_Model_Name>
@@ -3523,7 +3523,7 @@
 		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
-	
+
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Light_Laser_01">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_ll2.alo</Space_Model_Name>
@@ -3544,8 +3544,8 @@
 		<Death_Explosions> Medium_Explosion_Space </Death_Explosions>
 		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-	</SpaceProp>	
-	
+	</SpaceProp>
+
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Shield_00">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_shg.alo</Space_Model_Name>
@@ -3566,8 +3566,8 @@
 		<Death_Explosions> Medium_Explosion_Space </Death_Explosions>
 		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-	</SpaceProp>		
-	
+	</SpaceProp>
+
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Turbolaser_00">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_tl1.alo</Space_Model_Name>
@@ -3589,7 +3589,7 @@
 		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
-	
+
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Turbolaser_01">
 		<Text_ID />
 		<Space_Model_Name>Nb_apbase_hp_tl2.alo</Space_Model_Name>
@@ -3610,7 +3610,7 @@
 		<Death_Explosions> Medium_Explosion_Space </Death_Explosions>
 		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-	</SpaceProp>	
+	</SpaceProp>
 
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Turbolaser_02">
 		<Text_ID />
@@ -3662,10 +3662,10 @@
 	<!-- SpaceProp Name="MOV_REBEL_INTRO">
 
 		<Text_ID />
-		
+
 		<Space_Model_Name>MOV_REBEL_INTRO.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Is_Decoration> Yes </Is_Decoration> 
+		<Is_Decoration> Yes </Is_Decoration>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
