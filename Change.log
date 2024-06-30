@@ -88,6 +88,7 @@ Map/Planet Fixes:
 • Nal Hutta is a swamp planet yet defined with "temperate" terrain; this caused music, infantry models, and SFX conflicts with the planet's setting; the campaign/prologue versions of the planet also had the wrong galactic terrain backdrop, showing an ecumenopolis instead of a swamp. (BUG #72)
 • Land Honoghr had two spots where droidekas would get softlocked because the factories would spawn them into "Steep" terrain and be unable to move properly. (BUG #77)
 • Alderaan's weather indicators were still set to "rain" as a holdover from EaW, instead of "clear" (as there is now no longer a planet); the planet also was "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
+• Space Sullust's planet backdrop used the desert model instead of the volcanic one.  The intended model was misreferenced in the GFX definition, and the map itself used the generic desert model as a hotfix. (BUG #167)
 
 
 Model Fixes:
