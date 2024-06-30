@@ -66,7 +66,7 @@
 		<Damage>5</Damage>
 		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
-		
+
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
@@ -123,7 +123,7 @@
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		
+
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
@@ -138,7 +138,7 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 			<Type>SPOILER_LOCK</Type>
-			
+
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
 			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
@@ -167,7 +167,7 @@
 		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser TIE_Defender </Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_RV_BWing.tga</Icon_Name>
-		
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -211,13 +211,13 @@
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 900</Score_Cost_Credits>
-		
+
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
 			<Type>SPOILER_LOCK</Type>
-			
+
 			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
 			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
@@ -226,14 +226,14 @@
 			<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-	
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 	</Squadron>
