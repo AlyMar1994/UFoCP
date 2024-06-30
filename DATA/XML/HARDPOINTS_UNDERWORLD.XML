@@ -184,7 +184,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_TIE_DEFENDER_ION_00">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 
@@ -200,14 +200,14 @@
 		<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
 
 		<Fire_Range_Distance>700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
 
     <HardPoint Name="HP_TIE_DEFENDER_ION_01">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 
@@ -228,7 +228,7 @@
 		<Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>-->
 
 		<Fire_Range_Distance>700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
