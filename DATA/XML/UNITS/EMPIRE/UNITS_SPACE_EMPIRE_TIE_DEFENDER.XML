@@ -59,7 +59,7 @@
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Size_Value>4</Size_Value>
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, ABILITY_COUNTDOWN </SpaceBehavior>
-			
+
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>7</Damage>
 
@@ -81,7 +81,7 @@
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>2</Projectile_Fire_Recharge_Seconds>
-		
+
 		<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
@@ -110,7 +110,7 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Tie_Defender </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Tie_Defender </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Tie_Defender </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Tie_Defender </SFXEvent_Attack_Hardpoint>      
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Tie_Defender </SFXEvent_Attack_Hardpoint>
 
 		<CategoryMask> Fighter | AntiBomber | AntiCapital </CategoryMask>
 
@@ -133,14 +133,14 @@
 		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Tie_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-		
+
 		<Strafe_Distance>500.0</Strafe_Distance>
-		<Population_Value>0</Population_Value>	
+		<Population_Value>0</Population_Value>
 		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
 
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
@@ -150,22 +150,22 @@
                 <Recharge_Seconds>25.0</Recharge_Seconds>
                 <Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-		
+
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
-			
+
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-25.0</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.2f</Mod_Multiplier>
 				<Recharge_Seconds>50</Recharge_Seconds>
 				<Expiration_Seconds>6</Expiration_Seconds>
-				
+
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
-		
-		
+
+
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
@@ -243,13 +243,13 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
@@ -259,21 +259,21 @@
                 <Recharge_Seconds>25.0</Recharge_Seconds>
                 <Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-		
+
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
-			
+
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-25.0</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.2f</Mod_Multiplier>
 				<Recharge_Seconds>50</Recharge_Seconds>
 				<Expiration_Seconds>6</Expiration_Seconds>
-				
+
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
-		
+
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
@@ -297,10 +297,10 @@
 		<Encyclopedia_Good_Against> Calamari_Cruiser Krayt_Class_Destroyer </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship Buzz_Droids </Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_EV_TIE_Defender.tga</Icon_Name>
-		
+
 		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
 		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
-			
+
 		<CategoryMask> Fighter | AntiBomber | AntiCapital </CategoryMask>
 		<Max_Speed>5.0</Max_Speed>
 		<Min_Speed>3.5</Min_Speed>
@@ -309,7 +309,7 @@
 
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
@@ -319,21 +319,21 @@
                 <Recharge_Seconds>25.0</Recharge_Seconds>
                 <Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-		
+
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
-			
+
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-25.0</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.2f</Mod_Multiplier>
 				<Recharge_Seconds>50</Recharge_Seconds>
 				<Expiration_Seconds>6</Expiration_Seconds>
-				
+
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
-		
+
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
@@ -344,7 +344,7 @@
                 <Applicable_Unit_Types />
             </Ion_Cannon_Shot_Attack_Ability>
         </Abilities>
-		
+
 	</Container>
 
 
