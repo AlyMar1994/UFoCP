@@ -106,7 +106,7 @@
 
 		<Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<CategoryMask> Fighter | Bomber | AntiCapital</CategoryMask>
+		<CategoryMask> Bomber | AntiFrigate | AntiCapital </CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
