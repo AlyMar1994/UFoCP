@@ -38,7 +38,7 @@ https://github.com/AlyMar1994/UFoCP/issues/
 
 
 
-v2.0.0.#### (##-##-2023) [FoC v1.121.]
+v2.0.0.#### (##-##-2024) [FoC v1.121.]
 ============================================
 
 Ability Fixes:
@@ -81,21 +81,18 @@ Interface Fixes:
 • Imperial Field Commanders' GC tooltip didn't indicate if the unit could capture build pads. (BUG #111)
 
 
-Map Fixes:
+Map/Planet Fixes:
 • Space Mandalore's attacking forces would appear facing backward on the map; the unit entry flags now face toward the space station properly. (BUG #22)
+• Bespin's weather indicator wasn't updated from EaW and didn't have weather conditions on the galactic map; it now has the sun/clear weather icon. (BUG #66)
+• Jabiim's galactic map model and terrain backdrop used "temperate" GFX despite being tagged as a swamp and appearing as a swamp planet during space combat. (BUG #67)
+• Nal Hutta is a swamp planet yet defined with "temperate" terrain; this caused music, infantry models, and SFX conflicts with the planet's setting; the campaign/prologue versions of the planet also had the wrong galactic terrain backdrop, showing an ecumenopolis instead of a swamp. (BUG #72)
 • Land Honoghr had two spots where droidekas would get softlocked because the factories would spawn them into "Steep" terrain and be unable to move properly. (BUG #77)
+• Alderaan's weather indicators were still set to "rain" as a holdover from EaW, instead of "clear" (as there is now no longer a planet); the planet also was "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
 
 
 Model Fixes:
 • The IPV-1 Patrol Craft had a visible blue plane in its center engine; the plane that spawned the engine particles wasn't set to "Hidden" when exported. (BUG #85)
 • The Venator-class Cruiser's shield mesh didn't cover large segments of the model, leading to odd visuals with its shielding ability, and the model had incorrect shader assignments. (Thanks EaWX-Rhino!) (BUG #137)
-
-
-Planet Fixes:
-• Bespin's weather indicator wasn't updated from EaW and didn't have weather conditions on the galactic map; it now has the sun/clear weather icon. (BUG #66)
-• Jabiim's galactic map model and terrain backdrop used "temperate" GFX despite being tagged as a swamp and appearing as a swamp planet during space combat. (BUG #67)
-• Nal Hutta is a swamp planet yet defined with "temperate" terrain; this caused music, infantry models, and SFX conflicts with the planet's setting; the campaign/prologue versions of the planet also had the wrong galactic terrain backdrop, showing an ecumenopolis instead of a swamp. (BUG #72)
-• Alderaan's weather indicators were still set to "rain" as a holdover from EaW, instead of "clear" (as there is now no longer a planet); the planet also was "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
 
 
 Structure Fixes:
@@ -106,10 +103,10 @@ Structure Fixes:
 
 Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebel's announcement VO instead of the Empire's. (BUG #12)
-• General Veers didn't have the Imperial hero identifier under his AT-AT, unlike other Imperial land units. (BUG #49)
+• General Veers didn't have the Imperial hero identifier under his AT-AT, unlike other Imperial land heroes. (BUG #49)
 • Luke Skywalker would attach to any available capital ships during space battles instead of flying his X-wing. (BUG #70)
 • Consortium slaves weren't "victory relevant," like their civilian counterparts.  If only slaves were on the battlefield, the battle would end; the slaves would then reappear on the map fighting for the Consortium if attacked again. (BUG #113)
-• Garm Bel Iblis didn't have the Rebel hero identifier under the Gargantuan, unlike other Rebel land units. (BUG #122)
+• Garm Bel Iblis didn't have the Rebel hero identifier under the Gargantuan, unlike other Rebel land heroes. (BUG #122)
 
 
 Upgrade Fixes:
