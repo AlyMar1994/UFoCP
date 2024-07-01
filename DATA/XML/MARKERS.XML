@@ -839,6 +839,7 @@
 
     <Marker Name="Reinforcement_Point">
 		<Text_ID> TEXT_TOOLTIP_REINFORCEMENT_POINT_NAME </Text_ID>
+		<Icon_Name>i_icon_reinforce.tga</Icon_Name>
 		<Tooltip_Text>TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION</Tooltip_Text>
 		<Encyclopedia_Text> TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
