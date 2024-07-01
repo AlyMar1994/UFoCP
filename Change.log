@@ -112,6 +112,7 @@ Unit Fixes:
 • B-wings were unable to use both of their ion cannons.  Their unit entry defined their first ion cannon, HP_BWING_ION_00, twice, and not HP_BWING_ION_01 as well. (BUG #178)
 • TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle.  This was originally half-fixed in the latest patch, where they no longer only visually look like torpedoes. (BUG #179)
 • B-wings were defined as "Fighter" in their category alongside "Bomber," leading to occasions where the AI would prioritize them as normal starfighters and not bombing units.  They now are categorized as "Bomber | AntiFrigate | AntiCapital" like Y-wings. (BUG #181)
+• TIE defenders were categorized as "Fighter | AntiBomber" despite being primarily bombers, leading to occasions where the AI would prioritize them as normal starfighters.  They now are categorized as "Bomber | AntiFrigate | AntiCapital" like Y-wings. (BUG #182)
 
 
 Upgrade Fixes:

@@ -119,7 +119,7 @@
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask> Fighter | AntiBomber | AntiCapital </CategoryMask>
+		<CategoryMask> Bomber | AntiFrigate | AntiCapital </CategoryMask>
 
 		<Property_Flags> SmallShip </Property_Flags>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -308,7 +308,7 @@
 		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
 		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
 
-		<CategoryMask> Fighter | AntiBomber | AntiCapital </CategoryMask>
+		<CategoryMask> Bomber | AntiFrigate | AntiCapital </CategoryMask>
 		<Max_Speed>5.0</Max_Speed>
 		<Min_Speed>3.5</Min_Speed>
 		<Hyperspace>yes</Hyperspace>
