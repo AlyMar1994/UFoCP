@@ -20,7 +20,7 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
 		<Scale_Factor>1</Scale_Factor>
-		
+
 		<Damage>60</Damage>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
@@ -37,7 +37,7 @@
 		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
+		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<Max_Thrust>0.2</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
@@ -72,7 +72,7 @@
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SELF_DESTRUCT </SpaceBehavior>
 
-		
+
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
@@ -94,7 +94,7 @@
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Krayt_Class_Destroyer</SFXEvent_Build_Complete>
-	  
+
 		<SFXEvent_Select>Unit_Select_Krayt_Class_Destroyer</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Krayt_Class_Destroyer</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Krayt_Class_Destroyer</SFXEvent_Fleet_Move>
@@ -128,7 +128,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Selt_Destruct_SFXEvent_Start_Die> Unit_ZC_Self_Destruct </Selt_Destruct_SFXEvent_Start_Die> <!-- When self destruct sequence begins -->
-		
+
 		<Death_Clone>Damage_Normal, Krayt_Class_Destroyer_Death_Clone</Death_Clone>
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
@@ -136,7 +136,7 @@
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
-		
+
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
@@ -156,7 +156,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<!-- Non-Hero unit abilities description -->
@@ -166,7 +166,7 @@
 				<Type>SELF_DESTRUCT</Type>
 				<Alternate_Description_Text>TEXT_TOOLTIP_KRAYT_DESTRUCT_DESCRIPTION</Alternate_Description_Text>
 				<Expiration_Seconds>3.5</Expiration_Seconds>
-				<Recharge_Seconds>10</Recharge_Seconds> 
+				<Recharge_Seconds>10</Recharge_Seconds>
 				<Spawned_Object_Type> Krayt_Self_Destruct_Blast </Spawned_Object_Type>
 				<GUI_Activated_Ability_Name>Krayt_Self_Destruct</GUI_Activated_Ability_Name>
 				<Stop_When_Activated>No</Stop_When_Activated>
@@ -195,78 +195,5 @@
 		<Glory_Cinematics />
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </Krayt_Destroyer_Data>

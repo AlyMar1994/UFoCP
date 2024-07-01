@@ -28,7 +28,7 @@
 		<Max_Speed>1.8</Max_Speed>
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
+		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<Max_Thrust>0.2</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
@@ -80,7 +80,7 @@
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 
-		<HardPoints> 
+		<HardPoints>
 			HP_KEDALBE_LEFT_TURBO_00,
 			HP_KEDALBE_LEFT_TURBO_01,
 			HP_KEDALBE_RIGHT_TURBO_00,
@@ -130,7 +130,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Calamari_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
-		
+
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -156,12 +156,12 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+
 			<!-- Primary ability -->
             <Unit_Ability>
                 <Type>LEECH_SHIELDS</Type>
@@ -174,11 +174,11 @@
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
  				<Supports_Autofire>True</Supports_Autofire>
            </Unit_Ability>
-            
+
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
-        
+
             <Leech_Shields_Ability Name="Kadalbe_Leech_Shields">
                 <Activation_Style> User_Input </Activation_Style>
                 <Applicable_Unit_Categories> Corvette | Frigate | Capital </Applicable_Unit_Categories>
@@ -197,10 +197,10 @@
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
                 <Leech_Effect>Leech_Effect</Leech_Effect>
             </Leech_Shields_Ability>
-            
+
         </Abilities>
 
-		<Abilities SubObjectList="Yes">					
+		<Abilities SubObjectList="Yes">
 			<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L3">
 				<Initially_Enabled> No </Initially_Enabled>		<!-- Must be enabled via the EL_Heavy_Reflective_Armor_L2_Upgrade -->
 				<Activation_Style>Take_Damage</Activation_Style>
@@ -234,23 +234,5 @@
 		<Ship_Class> capital_ship </Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </Kedalbe_Battleship_Data>
