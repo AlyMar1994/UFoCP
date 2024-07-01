@@ -109,9 +109,9 @@ Unit Fixes:
 • Luke Skywalker would attach to any available capital ships during space battles instead of flying his X-wing. (BUG #70)
 • Consortium slaves weren't "victory relevant," like their civilian counterparts.  If only slaves were on the battlefield, the battle would end; the slaves would then reappear on the map fighting for the Consortium if attacked again. (BUG #113)
 • Garm Bel Iblis didn't have the Rebel hero identifier under the Gargantuan, unlike other Rebel land heroes. (BUG #122)
-• B-wings were unable to use both of their ion cannons.  Their unit entry defined their first ion cannon, HP_BWING_ION_00, twice, and not HP_BWING_ION_01 as well. (BUG #178)
+• B-wings couldn't use one of their ion cannons.  Their unit entry defined their first ion cannon, HP_BWING_ION_00, twice, and not HP_BWING_ION_01 as well. (BUG #178)
 • TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle.  This was originally half-fixed in the latest patch, where they no longer only visually look like torpedoes. (BUG #179)
-• B-wings were defined as "Fighter" in their category alongside "Bomber," leading to occasions where the AI would prioritize them as normal starfighters and not bombing units.  They now are categorized as "Bomber | AntiFrigate | AntiCapital" like Y-wings. (BUG #181)
+• B-wings were categorized as "Fighter" alongside "Bomber," leading to occasions where the AI would prioritize them as normal starfighters and not bombing units.  They now are categorized as "Bomber | AntiFrigate | AntiCapital" like Y-wings. (BUG #181)
 • TIE defenders were categorized as "Fighter | AntiBomber" despite being primarily bombers, leading to occasions where the AI would prioritize them as normal starfighters.  They now are categorized as "Bomber | AntiFrigate | AntiCapital" like Y-wings. (BUG #182)
 
 
