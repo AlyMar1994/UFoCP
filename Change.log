@@ -103,6 +103,12 @@ Structure Fixes:
 • The Pirate Asteroid Base's hardpoints didn't have damage multiplier buffs/debuffs against different units because its laser and turbolaser multiplier variables were misspelled, respectively, as "Damage_Sation_Laser" and "Damage_Sation_Turbolaser" instead of "Station." (BUG #119)
 
 
+UI Fixes:
+• Reinforcement Points didn't have a tooltip icon when hovering over them in combat. (BUG #141)
+• Planets corrupted via Piracy wouldn't have a corruption icon next to the planet like all other corruption types. (BUG #161)
+• Consortium capital ships (the Keldabe & Aggressor-class) didn't have a unique radar icon like the Rebels (Oval/Circle) or the Empire (triangle).  They now use a rectangle based off of the bridge of both ships. (BUG #180)
+
+
 Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebel's announcement VO instead of the Empire's. (BUG #12)
 • General Veers didn't have the Imperial hero identifier under his AT-AT, unlike other Imperial land heroes. (BUG #49)
