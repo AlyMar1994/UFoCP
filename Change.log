@@ -63,6 +63,7 @@ AI Fixes:
 
 Audio Fixes:
 • No music would play when losing against the Consortium because of a bad file reference, and the Consortium's generic losing music referenced the Rebels' music entry; the Consortium's music now points to its own entries properly and has had its volume boosted as the music is quiet. (BUG #31)
+• TIE defenders wouldn't screech like other TIE fighters because its unit entry didn't include a fly-by sound definition. (BUG #86)
 
 
 Interface Fixes:
@@ -109,6 +110,7 @@ Unit Fixes:
 • Consortium slaves weren't "victory relevant," like their civilian counterparts.  If only slaves were on the battlefield, the battle would end; the slaves would then reappear on the map fighting for the Consortium if attacked again. (BUG #113)
 • Garm Bel Iblis didn't have the Rebel hero identifier under the Gargantuan, unlike other Rebel land heroes. (BUG #122)
 • B-wings were unable to use both of their ion cannons.  Their unit entry defined their first ion cannon, HP_BWING_ION_00, twice, and not HP_BWING_ION_01 as well. (BUG #178)
+• TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle.  This was originally half-fixed in the latest patch, where they no longer only visually look like torpedoes. (BUG #179)
 • B-wings were defined as "Fighter" in their category alongside "Bomber," leading to occasions where the AI would prioritize them as normal starfighters and not bombing units.  They now are categorized as "Bomber | AntiFrigate | AntiCapital" like Y-wings. (BUG #181)
 
 
