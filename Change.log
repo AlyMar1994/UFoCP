@@ -85,6 +85,7 @@ Interface Fixes:
 • Desert Skettos didn't use a tooltip icon despite having one in the interface GFX library. (BUG #156)
 • Tauntauns didn't use a tooltip icon despite having one in the interface GFX library. (BUG #157)
 • Planets corrupted via Piracy didn't have a corruption icon next to the planet like all other corruption types because one was never created. (BUG #161)
+• Pirate Soldier Mobs used in Campaign mission #6 "Dark Ally" had their tooltip description set as their unit class, and their unit container didn't have a description at all. (BUG #171)
 • Consortium capital ships (the Keldabe & Aggressor-class) didn't have a unique radar icon like the Rebels (Oval/Circle) or the Empire's (triangle) capital ships.  They now use a rectangle based off both ships' forward hull. (BUG #180)
 
 

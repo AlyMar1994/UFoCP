@@ -453,8 +453,8 @@
 
 	<Container Name="Pirate_Trooper_Team">
 		<Text_ID>TEXT_PIRATE_SOLDIER_SQUAD</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_TOOLTIP_PIRATE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PIRATE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Stormtrooper Rebel_Trooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Crawler UC_Empire_Buildable_Anti_Infantry_Turret UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
 		<Show_Name>No</Show_Name>
