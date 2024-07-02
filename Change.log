@@ -96,6 +96,7 @@ Map/Planet Fixes:
 • Nal Hutta is a swamp planet yet defined with "temperate" terrain; this caused music, infantry models, and SFX conflicts with the planet's setting; the campaign/prologue versions of the planet also had the wrong galactic terrain backdrop, showing an ecumenopolis instead of a swamp. (BUG #72)
 • Land Honoghr had two spots where droidekas would get softlocked because the factories would spawn them into "Steep" terrain and be unable to move properly. (BUG #77)
 • Alderaan's weather indicator wasn't updated from EaW and was set to "rain" instead of "clear" (as there is now no longer a planet); the planet was also "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
+• The Death Star II would target Nal Hutta's moon (Nar Shaddaa) instead of Nal Hutta, because the moon was using a scaled down version of Coruscant's planet GFX.  The moon would then blow up, and upon returning, magically reappear with Nal Hutta destroyed.  A new moon entry, "Nar_Shaddaa_Backdrop," has been added to rectify the issue. (BUG #166)
 • Space Sullust's planet GFX used the desert model instead of the volcanic one.  The intended model was misreferenced in the GFX definition, and the map itself used the generic desert model as a hotfix. (BUG #167)
 
 
