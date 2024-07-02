@@ -47,7 +47,7 @@
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
          <Remove_Upon_Death>true</Remove_Upon_Death>
-         
+
 		<Armor_Type> Armor_T2B </Armor_Type>
 		<Size_Value>70</Size_Value>
 		<Damage>6</Damage>
@@ -70,7 +70,7 @@
 		<Garrison_Value>2</Garrison_Value>
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-	
+
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
@@ -81,26 +81,26 @@
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 
 		<SFXEvent_Fire>Unit_Tank_T2B_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_MDU</SFXEvent_Select> 
+		<SFXEvent_Select>Unit_Select_MDU</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_MDU</SFXEvent_Move>
 		<SFXEvent_Fleet_Move />
 		<SFXEvent_Attack>Unit_Attack_MDU</SFXEvent_Attack>
-		<SFXEvent_Guard />  
+		<SFXEvent_Guard />
 		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Engine_Idle_Loop> Unit_MDU_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_MDU_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Unit_Lost> RHD_Unit_Destroyed </SFXEvent_Unit_Lost>
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		
+
 		<CategoryMask> Vehicle </CategoryMask>
 		<MovementClass>Hover</MovementClass>
-		
+
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
@@ -117,7 +117,7 @@
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Score_Cost_Credits>100</Score_Cost_Credits>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
-		
+
 		<!-- AJA 04/27/2006 - Even though these are not captureable objects, the TACTICAL_BUILD_OBJECTS behavior will
 		prevent you from build on this object if there are any enemies within this distance. This field has a default
 		value of 200.0, so don't remove this otherwise you won't be able to build on an MDU if there are enemies within
@@ -136,14 +136,14 @@
 				<Type>DEPLOY</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<AI_Combat_Power>75</AI_Combat_Power>
 
 	</Mobile_Defense_Unit>
 
 
 	<Mobile_Defense_Unit Name="Underworld_Mobile_Defense_Unit">
-	
+
 		<Variant_Of_Existing_Type> Abstract_Mobile_Defense_Unit </Variant_Of_Existing_Type>
 
   		<Encyclopedia_Text>TEXT_TOOLTIP_MOBILE_DEFENSE_UNIT TEXT_UNIT_MOBILE_DEFENSE_UNIT_UNDERWORLD</Encyclopedia_Text>
@@ -153,7 +153,7 @@
 		<Icon_Name>i_button_uv_mdu.tga</Icon_Name>
 		<Scale_Factor>0.3</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
-		
+
 		<Select_Box_Scale>220</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
@@ -163,7 +163,7 @@
 				UC_Underworld_Ysalamiri_Cage,
 				UC_Underworld_Rocket_Pod
 		</Tactical_Buildable_Objects_Campaign>
-		
+
 		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
 				UC_Underworld_Sensor_Scrambler,
@@ -186,7 +186,7 @@
 				<Is_Dummy>Yes</Is_Dummy>
 				<Damage>20</Damage>
 				<Autoresolve_Health>100</Autoresolve_Health>
-				
+
 				<Affiliation>Underworld</Affiliation>
 				<Build_Cost_Credits>1000</Build_Cost_Credits>
 				<Build_Time_Seconds>20</Build_Time_Seconds>
@@ -224,14 +224,14 @@
 				<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 				<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 				<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-				<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+				<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 				<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 			</GroundCompany>
-			
+
 	<!--Variant created for Prologue that only has UC_Underworld_Rocket_Pod buildable -->
 	<Mobile_Defense_Unit Name="Underworld_Mobile_Defense_Unit_Prologue">
-	
+
 		<Variant_Of_Existing_Type> Abstract_Mobile_Defense_Unit </Variant_Of_Existing_Type>
 
   		<Encyclopedia_Text>TEXT_TOOLTIP_MOBILE_DEFENSE_UNIT TEXT_UNIT_MOBILE_DEFENSE_UNIT_UNDERWORLD</Encyclopedia_Text>
@@ -241,7 +241,7 @@
 		<Icon_Name>i_button_uv_mdu.tga</Icon_Name>
 		<Scale_Factor>0.3</Scale_Factor>
 		<Affiliation>Underworld</Affiliation>
-		
+
 		<Select_Box_Scale>220</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
@@ -256,7 +256,7 @@
 
 
 	<Mobile_Defense_Unit Name="Empire_Mobile_Defense_Unit">
-	
+
 		<Variant_Of_Existing_Type> Abstract_Mobile_Defense_Unit </Variant_Of_Existing_Type>
 
   		<Encyclopedia_Text>TEXT_TOOLTIP_MOBILE_DEFENSE_UNIT TEXT_UNIT_MOBILE_DEFENSE_UNIT_EMPIRE</Encyclopedia_Text>
@@ -276,7 +276,7 @@
 				UC_Empire_Grenade_Mortar,
 				UC_Empire_Offensive_Sensor_Node
 		</Tactical_Buildable_Objects_Campaign>
-		
+
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
 				UC_Empire_EM_Field_Generator,
@@ -297,7 +297,7 @@
 				<Is_Dummy>Yes</Is_Dummy>
 				<Damage>20</Damage>
 				<Autoresolve_Health>100</Autoresolve_Health>
-				
+
 				<Affiliation>Empire</Affiliation>
 				<Build_Cost_Credits>800</Build_Cost_Credits>
 				<Build_Time_Seconds>35</Build_Time_Seconds>
@@ -335,7 +335,7 @@
 				<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 				<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 				<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-				<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+				<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 				<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 			</GroundCompany>
@@ -343,7 +343,7 @@
 
 
 	<Mobile_Defense_Unit Name="Rebel_Mobile_Defense_Unit">
-	
+
 		<Variant_Of_Existing_Type> Abstract_Mobile_Defense_Unit </Variant_Of_Existing_Type>
 
   		<Encyclopedia_Text>TEXT_TOOLTIP_MOBILE_DEFENSE_UNIT TEXT_UNIT_MOBILE_DEFENSE_UNIT_REBEL</Encyclopedia_Text>
@@ -363,7 +363,7 @@
 				UC_Rebel_Buildable_Repair_Facility_MDU,
 				UC_Rebel_Rapid_Fire_Laser_Turret
 		</Tactical_Buildable_Objects_Campaign>
-		
+
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
 				UC_Rebel_Mobile_Shield_Generator,
@@ -384,7 +384,7 @@
 				<Is_Dummy>Yes</Is_Dummy>
 				<Damage>20</Damage>
 				<Autoresolve_Health>100</Autoresolve_Health>
-				
+
 				<Affiliation>Rebel</Affiliation>
 				<Build_Cost_Credits>850</Build_Cost_Credits>
 				<Build_Time_Seconds>30</Build_Time_Seconds>
@@ -422,7 +422,7 @@
 				<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 				<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 				<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-				<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+				<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 				<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 			</GroundCompany>
@@ -441,4 +441,3 @@
 
 
 </Mobile_Defense_Unit_Data>
-
