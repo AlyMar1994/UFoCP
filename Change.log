@@ -64,7 +64,6 @@ AI Fixes:
 
 Audio Fixes:
 • No music would play when losing against the Consortium because of a bad file reference, and the Consortium's generic losing music referenced the Rebels' music entry; the Consortium's music now points to its own entries properly and has had its volume boosted as the music is quiet. (BUG #31)
-• TIE defenders wouldn't screech like other TIE fighters because its unit entry didn't include a fly-by sound definition. (BUG #86)
 • Rogue 4 - Derek Klivian wouldn't call out any of his very-low-health voice lines when leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
 
 
@@ -115,8 +114,10 @@ Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebel's announcement VO instead of the Empire's. (BUG #12)
 • General Veers didn't have the Imperial hero identifier under his AT-AT, unlike other Imperial land heroes. (BUG #49)
 • Luke Skywalker would attach to any available capital ships during space battles instead of flying his X-wing. (BUG #70)
+• TIE defenders wouldn't screech like other TIE fighters because its unit entry didn't include a fly-by sound definition. (BUG #86)
 • Consortium slaves weren't "victory relevant," like their civilian counterparts.  If only slaves were on the battlefield, the battle would end; the slaves would then reappear on the map fighting for the Consortium if attacked again. (BUG #113)
 • Garm Bel Iblis didn't have the Rebel hero identifier under the Gargantuan, unlike other Rebel land heroes. (BUG #122)
+• All MDUs would use Rebel VO for unit death or building construction.  Each MDU now uses faction-based VO. (BUG #158)
 • Tyber Zann couldn't bribe opposing Consortium infantry during Skirmish mirror-matches because the units didn't have a bribe cost attached to them. (BUG #163)
 • B-wings couldn't use one of their ion cannons.  Their unit entry defined their first ion cannon, HP_BWING_ION_00, twice, and not HP_BWING_ION_01 as well. (BUG #178)
 • TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle.  This was originally half-fixed in the latest patch, where they no longer only visually look like torpedoes. (BUG #179)

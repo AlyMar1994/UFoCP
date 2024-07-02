@@ -171,6 +171,11 @@
 				UC_Underworld_Rocket_Pod
 		</Tactical_Buildable_Objects_Multiplayer>
 
+		<SFXEvent_Unit_Lost> UHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
 	</Mobile_Defense_Unit>
 
 
@@ -216,6 +221,10 @@
 				<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 				<SFXEvent_Build_Cancelled>UHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 				<SFXEvent_Build_Complete>Unit_Select_MDU</SFXEvent_Build_Complete>
+				<SFXEvent_Unit_Lost> UHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+				<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+				<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+				<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 				<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 
 				<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -250,6 +259,11 @@
 				UC_Underworld_Rocket_Pod
 		</Tactical_Buildable_Objects_Campaign>
 
+		<SFXEvent_Unit_Lost> UHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
 	</Mobile_Defense_Unit>
 
 
@@ -283,6 +297,11 @@
 				UC_Empire_Grenade_Mortar,
 				UC_Empire_Offensive_Sensor_Node
 		</Tactical_Buildable_Objects_Multiplayer>
+
+		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 	</Mobile_Defense_Unit>
 
@@ -327,6 +346,10 @@
 				<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 				<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 				<SFXEvent_Build_Complete>Unit_Select_MDU</SFXEvent_Build_Complete>
+				<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+				<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+				<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+				<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 				<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 
 				<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
