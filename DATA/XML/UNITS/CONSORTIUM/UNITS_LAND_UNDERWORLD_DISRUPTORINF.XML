@@ -12,7 +12,7 @@
 		<Stealth_Capable>No</Stealth_Capable>
 		<Land_Model_Name>UI_disruptor.alo</Land_Model_Name>
 		<Icon_Name>i_button_ui_disruptor_infantry.tga</Icon_Name>
-		
+
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -40,7 +40,7 @@
 		<OverrideDeceleration> .25 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
-		
+
 		<Scale_Factor>1.5</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -76,13 +76,13 @@
 		<CategoryMask> Infantry </CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
-		<SFXEvent_Select> Unit_Select_Assault_Squad </SFXEvent_Select>         		
-		<SFXEvent_Move> Unit_Move_Assault_Squad </SFXEvent_Move>  
+		<SFXEvent_Select> Unit_Select_Assault_Squad </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Assault_Squad </SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Assault_Squad</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack> Unit_Attack_Assault_Squad </SFXEvent_Attack>         		 
-		<SFXEvent_Guard> Unit_Guard_Assault_Squad </SFXEvent_Guard>            		 
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Assault_Squad </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Assault_Squad </SFXEvent_Assist_Attack> 
+		<SFXEvent_Attack> Unit_Attack_Assault_Squad </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Assault_Squad </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Assault_Squad </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Assault_Squad </SFXEvent_Assist_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_2_Death</Death_SFXEvent_Start_Die>
 		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
 
@@ -145,38 +145,38 @@
         </Abilities>
 
 	</GroundInfantry>
-	
+
 	<GroundInfantry Name="Underworld_Disruptor_Merc_Solo_Unit">
 		<Variant_Of_Existing_Type> Tyber_Zann </Variant_Of_Existing_Type>
 		<Land_Model_Name>UI_disruptor.alo</Land_Model_Name>
 		<Icon_Name>i_button_ui_disruptor_infantry.tga</Icon_Name>
-		
+
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
-		<SFXEvent_Select> Unit_Select_Assault_Squad </SFXEvent_Select>         		
-		<SFXEvent_Move> Unit_Move_Assault_Squad </SFXEvent_Move>  
+		<SFXEvent_Select> Unit_Select_Assault_Squad </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Assault_Squad </SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Assault_Squad</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack> Unit_Attack_Assault_Squad </SFXEvent_Attack>         		 
-		<SFXEvent_Guard> Unit_Guard_Assault_Squad </SFXEvent_Guard>            		 
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Assault_Squad </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Assault_Squad </SFXEvent_Assist_Attack> 
+		<SFXEvent_Attack> Unit_Attack_Assault_Squad </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Assault_Squad </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Assault_Squad </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Assault_Squad </SFXEvent_Assist_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_2_Death</Death_SFXEvent_Start_Die>
 		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
-	</GroundInfantry>	
+	</GroundInfantry>
 
 	<GroundInfantry Name="Underworld_Disruptor_Merc_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Underworld_Disruptor_Merc </Variant_Of_Existing_Type>
-		<SFXEvent_Select> Unit_Select_Assault_Squad </SFXEvent_Select>         		
-		<SFXEvent_Move> Unit_Move_Assault_Squad </SFXEvent_Move>               		
-		<SFXEvent_Attack> Unit_Attack_Assault_Squad </SFXEvent_Attack>         		 
-		<SFXEvent_Guard> Unit_Guard_Assault_Squad </SFXEvent_Guard>            		 
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Assault_Squad </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Assault_Squad </SFXEvent_Assist_Attack> 
+		<SFXEvent_Select> Unit_Select_Assault_Squad </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Assault_Squad </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Assault_Squad </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Assault_Squad </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Assault_Squad </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Assault_Squad </SFXEvent_Assist_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_2_Death</Death_SFXEvent_Start_Die>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Underworld_Disruptor_Merc_Remote_Bomb_Death_Clone">
 		<Variant_Of_Existing_Type> Underworld_Disruptor_Merc </Variant_Of_Existing_Type>
-		<Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>				
+		<Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
 	</GroundInfantry>
 
 <!-- COMPANY INFO -->
@@ -235,9 +235,9 @@
 		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 
@@ -301,11 +301,11 @@
 		<MovementClass> Infantry </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
 		<ContainerArrangement> Dartboard </ContainerArrangement>
 		<Override_Acceleration> .08 </Override_Acceleration>
 		<Override_Deceleration> .08 </Override_Deceleration>
-	
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
@@ -315,11 +315,11 @@
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-		
+
         <Select_Box_Scale>60</Select_Box_Scale>
         <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<CategoryMask>Infantry</CategoryMask>
-		
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 
@@ -331,7 +331,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
 			</Unit_Ability>
-	
+
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
@@ -344,11 +344,11 @@
         </Abilities>
 
 	</Container>
-	
-	
-	
-	
-	
+
+
+
+
+
 
 
 </Underworld_Disruptor_Infantry_Data>

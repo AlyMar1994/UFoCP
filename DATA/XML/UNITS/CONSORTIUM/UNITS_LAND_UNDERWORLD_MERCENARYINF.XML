@@ -81,13 +81,13 @@
 		<CategoryMask> Infantry </CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
-		<SFXEvent_Select> Unit_Select_Mercenary </SFXEvent_Select>         		
-		<SFXEvent_Move> Unit_Move_Mercenary </SFXEvent_Move>  
+		<SFXEvent_Select> Unit_Select_Mercenary </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Mercenary </SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Mercenary</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack> Unit_Attack_Mercenary </SFXEvent_Attack>         		 
-		<SFXEvent_Guard> Unit_Guard_Mercenary </SFXEvent_Guard>            		 
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Mercenary </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Mercenary </SFXEvent_Assist_Attack> 
+		<SFXEvent_Attack> Unit_Attack_Mercenary </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Mercenary </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Mercenary </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Mercenary </SFXEvent_Assist_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Death</Death_SFXEvent_Start_Die>
 		<SFXEvent_Fire>Unit_Underworld_Infantry_Fire</SFXEvent_Fire>
 
@@ -114,7 +114,7 @@
 
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
-		
+
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 
@@ -128,13 +128,13 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+
             <Unit_Ability>
                 <Type>PROXIMITY_MINES</Type>
                 <Recharge_Seconds>80.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Grenadier_Proximity </GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name> Grenadier_Proximity </GUI_Activated_Ability_Name>
                 <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_Target_Ability />  
+                <SFXEvent_Target_Ability />
                 <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
@@ -147,7 +147,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<Damage_Percent_When_Activated>.35</Damage_Percent_When_Activated>
 			</Unit_Ability>
-          
+
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
@@ -171,12 +171,12 @@
 
 	<GroundInfantry Name="Underworld_Merc_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Underworld_Merc </Variant_Of_Existing_Type>
-		<SFXEvent_Select> Unit_Select_Mercenary </SFXEvent_Select>         		
-		<SFXEvent_Move> Unit_Move_Mercenary </SFXEvent_Move>               		
-		<SFXEvent_Attack> Unit_Attack_Mercenary </SFXEvent_Attack>         		 
-		<SFXEvent_Guard> Unit_Guard_Mercenary </SFXEvent_Guard>            		 
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Mercenary </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Mercenary </SFXEvent_Assist_Attack> 
+		<SFXEvent_Select> Unit_Select_Mercenary </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Mercenary </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Mercenary </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Mercenary </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Mercenary </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Mercenary </SFXEvent_Assist_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Death</Death_SFXEvent_Start_Die>
 	</GroundInfantry>
 
@@ -193,14 +193,14 @@
         <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Create_Team>False</Create_Team>
 		<Garrison_Category> Infantry </Garrison_Category>
-		
+
 		<Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
                 <Type>PROXIMITY_MINES</Type>
                 <Recharge_Seconds>80.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Grenadier_Proximity_Solo </GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name> Grenadier_Proximity_Solo </GUI_Activated_Ability_Name>
                 <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_Target_Ability />  
+                <SFXEvent_Target_Ability />
                 <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
@@ -244,7 +244,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_UNIT_UNDERWORLD_MERC_ENCYC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Icon_Name>i_button_ui_mercenary_infantry.tga</Icon_Name>
-		
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>45</Damage>
@@ -286,18 +286,18 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+
             <Unit_Ability>
                 <Type>PROXIMITY_MINES</Type>
                 <Recharge_Seconds>80.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Grenadier_Proximity </GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name> Grenadier_Proximity </GUI_Activated_Ability_Name>
                 <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_Target_Ability />  
+                <SFXEvent_Target_Ability />
                 <Area_Effect_Decal_Distance> 60.0 </Area_Effect_Decal_Distance>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
@@ -367,7 +367,7 @@
 		<MovementClass> Infantry </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>
 		<ContainerArrangement> Dartboard </ContainerArrangement>
 		<OverrideAcceleration> .08 </OverrideAcceleration>
 		<OverrideDeceleration> .08 </OverrideDeceleration>
@@ -382,24 +382,24 @@
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-		
+
         <Select_Box_Scale>60</Select_Box_Scale>
         <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<CategoryMask>Infantry</CategoryMask>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
+
             <Unit_Ability>
                 <Type>PROXIMITY_MINES</Type>
                 <Recharge_Seconds>80.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Grenadier_Proximity </GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name> Grenadier_Proximity </GUI_Activated_Ability_Name>
                 <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_Target_Ability />  
+                <SFXEvent_Target_Ability />
                 <Area_Effect_Decal_Distance> 60.0 </Area_Effect_Decal_Distance>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
-         
+
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
 				<Expiration_Seconds> 15.0 </Expiration_Seconds>
@@ -408,7 +408,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
 			</Unit_Ability>
-         
+
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
@@ -428,11 +428,11 @@
 		</Abilities>
 
 	</Container>
-	
-	
-	
-	
-	
+
+
+
+
+
 
 
 </Underworld_Mercenary_Infantry_Data>
