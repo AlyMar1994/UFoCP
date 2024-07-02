@@ -81,6 +81,7 @@ Interface Fixes:
 • Rebel Field Commanders' GC tooltip didn't indicate if the unit could capture build pads. (BUG #110)
 • Imperial Field Commanders' GC tooltip didn't indicate if the unit could capture build pads. (BUG #111)
 • Reinforcement Points didn't use a tooltip icon despite having one in the interface GFX library. (BUG #141)
+• Keldabe-class Battleships didn't have the tooltip noting that it can be only built on special planets, like Star Destroyers. (BUG #143)
 • Tatooine's sarlacc pit didn't use a tooltip icon despite having one in the interface GFX library. (BUG #155)
 • Desert Skettos didn't use a tooltip icon despite having one in the interface GFX library. (BUG #156)
 • Tauntauns didn't use a tooltip icon despite having one in the interface GFX library. (BUG #157)
