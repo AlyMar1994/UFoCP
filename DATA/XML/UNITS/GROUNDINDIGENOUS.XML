@@ -4320,6 +4320,7 @@
 
 	<Indigenous_Unit Name="TaunTaun">
 		<Text_ID>TEXT_INDIGENOUS_TAUNTAUN</Text_ID>
+		<Icon_Name>i_button_tauntaun.tga</Icon_Name>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Land_Model_Name>AI_TAUNTAUN.ALO</Land_Model_Name>
 		<LandBehavior>WALK_LOCOMOTOR,IDLE,INDIGENOUS_UNIT</LandBehavior>
