@@ -154,8 +154,12 @@ function Respond_To_MinRange_Attacks(tf, unit)
 		,"U_Ground_Turbolaser_Tower"
 		,"MPTL"
 		,"SPMAT_Walker"
+		,"MAL_Rocket_Vehicle"
 		,"Marauder_Missile_Cruiser"
 		,"Broadside_Class_Cruiser"
+		,"Rebel_Defense_Satellite_Missile"
+		,"Empire_Defense_Satellite_Missile"
+		,"Underworld_Defense_Satellite_DBM"
 		}
 
 	deadly_enemy = FindDeadlyEnemy(unit)
