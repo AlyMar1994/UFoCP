@@ -3512,6 +3512,7 @@
 
 	<Indigenous_Unit Name="Sarlacc">
 		<Text_ID>TEXT_INDIG_SARLACC</Text_ID>
+		<Icon_Name>i_button_sarlacc.tga</Icon_Name>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Land_Model_Name> AI_Sarlacc.alo </Land_Model_Name>
 		<LandBehavior>TARGETING, TURRET, IDLE, UNIT_AI, REVEAL,HIDE_WHEN_FOGGED, LAND_OBSTACLE</LandBehavior>
