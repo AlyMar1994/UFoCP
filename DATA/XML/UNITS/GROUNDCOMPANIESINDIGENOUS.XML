@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <Indigenous_Companies>
-	
-	
+
+
 <!-- INDIGENOUS GROUND COMPANIES -->
-	
-	
+
+
 	<GroundCompany Name="Endor_Ewok_Hunting_Party">
 		<Text_ID>TEXT_INDIGENOUS_EWOK_PARTY</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
@@ -148,7 +148,7 @@
 		<Create_Team_Type>Bothan_Team</Create_Team_Type>
 		<Score_Cost_Credits>20</Score_Cost_Credits>
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Bothan_Civ_Company_Mission">
 		<Text_ID>TEXT_INDIG_BOTHAN_CIV</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
@@ -169,7 +169,7 @@
 		<Company_Units>Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission</Company_Units>
 		<Max_Squad_Size> 5 </Max_Squad_Size>
 		<Score_Cost_Credits>20</Score_Cost_Credits>
-	</GroundCompany>	
+	</GroundCompany>
 
 	<GroundCompany Name="Imperial_Guard_Company">
 		<Text_ID>TEXT_INDIG_ELITE_GUARD</Text_ID>
@@ -627,10 +627,10 @@
 
 
 
-	
-	
 
-	
+
+
+
 
 	<GroundCompany Name="Kashyyyk_Wookie_War_Party_Unarmed">
 		<Text_ID>TEXT_INDIGENOUS_WOOKIE_PARTY</Text_ID>
@@ -656,10 +656,10 @@
 		<Score_Cost_Credits>5</Score_Cost_Credits>
 	</GroundCompany>
 
-	
 
-	
-	
+
+
+
 	<GroundCompany Name="Pirate_Soldier_Squad">
 		<Text_ID>TEXT_PIRATE_SOLDIER_SQUAD</Text_ID>
 		<Encyclopedia_Good_Against> Rebel_Trooper Stormtrooper </Encyclopedia_Good_Against>
@@ -685,7 +685,7 @@
 		<Score_Cost_Credits> 45 </Score_Cost_Credits>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
+
 	</GroundCompany>
 
 	<GroundCompany Name="Pirate_PLEX_Squad">
@@ -709,9 +709,9 @@
 		<Score_Cost_Credits> 60 </Score_Cost_Credits>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
+
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Pirate_Skiff_Team">
 		<Text_ID>TEXT_PIRATE_SKIFF_TEAM</Text_ID>
 		<Encyclopedia_Good_Against> AT_ST_Walker T2B_Tank </Encyclopedia_Good_Against>
@@ -735,86 +735,86 @@
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits>300</Score_Cost_Credits>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE  </Encyclopedia_Text>
-        
+
  	</GroundCompany>
-	
+
 	<GroundCompany Name="Empire_Pirate_Skiff_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Skiff_Team</Variant_Of_Existing_Type>
-		
+
 		<Affiliation>Empire</Affiliation>
-		
+
 		<Company_Units>Pirate_Skiff_E, Pirate_Skiff_E, Pirate_Skiff_E</Company_Units>
-		
-		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_SKIFF</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
-	
+
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Rebel_Pirate_Skiff_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Skiff_Team</Variant_Of_Existing_Type>
-		
+
 		<Affiliation>Rebel</Affiliation>
-		
+
 		<Company_Units>Pirate_Skiff_R, Pirate_Skiff_R, Pirate_Skiff_R</Company_Units>
-		
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_SKIFF</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
-	
+
 	</GroundCompany>
-	
-	
+
+
 	<GroundCompany Name="Underworld_Skiff_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Skiff_Team</Variant_Of_Existing_Type>
-		
+
 		<Affiliation>Underworld</Affiliation>
-		
+
 		<Company_Units>Pirate_Skiff_U, Pirate_Skiff_U, Pirate_Skiff_U</Company_Units>
-		
-		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_SKIFF</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
-	
+
 	</GroundCompany>
-	
-	
+
+
 	<GroundCompany Name="Pirate_Swamp_Speeder_Team">
 		<Text_ID>TEXT_PIRATE_SWAMP_SPEEDER_TEAM</Text_ID>
 		<Encyclopedia_Good_Against> Stormtrooper Rebel_Trooper </Encyclopedia_Good_Against>
@@ -838,9 +838,9 @@
 		<Score_Cost_Credits>250</Score_Cost_Credits>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SWAMP_SPEEDER</Encyclopedia_Text>
-        
+
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Pirate_Swamp_Speeder_Team_Hostile">
 		<Text_ID>TEXT_PIRATE_SWAMP_SPEEDER_TEAM</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -861,78 +861,78 @@
 		<Score_Cost_Credits>250</Score_Cost_Credits>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SWAMP_SPEEDER</Encyclopedia_Text>
-        
+
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Empire_Pirate_Swamp_Speeder_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Swamp_Speeder_Team</Variant_Of_Existing_Type>
-		
+
 		<Affiliation>Empire</Affiliation>
-		
-		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>575</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Score_Cost_Credits>250</Score_Cost_Credits>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SWAMP_SPEEDER</Encyclopedia_Text>
-		
+
 	</GroundCompany>
-	
-		
+
+
 	<GroundCompany Name="Rebel_Pirate_Swamp_Speeder_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Swamp_Speeder_Team</Variant_Of_Existing_Type>
-		
+
 		<Affiliation>Rebel</Affiliation>
-		
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>575</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Score_Cost_Credits>250</Score_Cost_Credits>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SWAMP_SPEEDER</Encyclopedia_Text>
-		
+
 	</GroundCompany>
-	
+
 		<GroundCompany Name="Underworld_Swamp_Speeder_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Swamp_Speeder_Team</Variant_Of_Existing_Type>
-		
+
 		<Affiliation>Underworld</Affiliation>
 		<Company_Transport_Unit>Underworld_Vehicle_Transport</Company_Transport_Unit>
 		<Company_Units>Swamp_Speeder_U, Swamp_Speeder_U, Swamp_Speeder_U</Company_Units>
-		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>575</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Score_Cost_Credits>250</Score_Cost_Credits>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SWAMP_SPEEDER</Encyclopedia_Text>
-		
+
 	</GroundCompany>
 
 
@@ -959,7 +959,7 @@
 		<Icon_Name>i_button_pod_walker.tga</Icon_Name>
 		<Score_Cost_Credits>600</Score_Cost_Credits>
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Underworld_Pod_Walker_Company">
 		<Variant_Of_Existing_Type>Pirate_Pod_Walker_Team</Variant_Of_Existing_Type>
 		<Company_Units>Pod_Walker_Underworld, Pod_Walker_Underworld</Company_Units>
@@ -970,9 +970,9 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Population_Value>1</Population_Value>
-		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
-		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>		
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
@@ -980,7 +980,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 	</GroundCompany>
@@ -990,7 +990,7 @@
 
 	<GroundCompany Name="Pirate_Survivors_Small">
 		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
-		
+
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>25</Damage>
 		<Autoresolve_Health>150</Autoresolve_Health>
@@ -1008,8 +1008,8 @@
 		<Score_Cost_Credits>60</Score_Cost_Credits>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
-	</GroundCompany>	
+
+	</GroundCompany>
 
 	<GroundCompany Name="Pirate_Survivors_Medium">
 		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
@@ -1030,8 +1030,8 @@
 		<Score_Cost_Credits>120</Score_Cost_Credits>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
-	</GroundCompany>	
+
+	</GroundCompany>
 
 	<GroundCompany Name="Pirate_Survivors_Large">
 		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
@@ -1052,14 +1052,14 @@
 		<Score_Cost_Credits>180</Score_Cost_Credits>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
+
 	</GroundCompany>
 
 
 
-	
+
 	<!-- USED FOR SECONDARY STRUCTURE SURVIVORS -->
-	
+
 	<GroundCompany Name="Empire_Prison_Survivors_01">
 		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1075,12 +1075,12 @@
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Units> Ewok_Hunter, Ewok_Hunter_C, Wookie_Warrior, Wookie_Warrior, Swamp_Civilian_A, Urban_Civilian_A, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Gungan_Warrior, Gungan_Warrior, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Mon_Calamari_Civilian, Rebel_Trooper_NonVictroy, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Jawa_Scout, Jawa_Scout, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Sand_Person_Sniper_A, Sand_Person_Sniper_B</Company_Units>
 		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
+
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Empire_Prison_Survivors_02">
 		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1096,12 +1096,12 @@
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Units> Hutt_Civilian, Hutt_Civilian, Wookie_Warrior, Bothan_Civilian, Bothan_Civilian, Bothan_Civilian, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Geonosian, Geonosian, Geonosian, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Twilek_Female, Rebel_Trooper_NonVictroy, Twilek_Female, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Sand_Person_Sniper_B, Sand_Person_Sniper_A, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Ewok_Hunter_B, Ewok_Hunter_C, Pirate_Soldier_NonVictroy, Urban_Civilian_A, Urban_Civilian_A, Pirate_Soldier_NonVictroy</Company_Units>
 		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
+
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Empire_Prison_Survivors_03">
 		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1117,12 +1117,12 @@
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Units> Wampa, Jawa_Scout, Wookie_Warrior, Gungan_Warrior, Gungan_Warrior, Gungan_Warrior, Rebel_Trooper_NonVictroy, Mon_Calamari_Civilian, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Snow_Civilian_A, Snow_Civilian_A, Shaak, Bothan_Civilian, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Desert_Civilian_A, Jawa_Scout, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Twilek_Female, Twilek_Female, Twilek_Female</Company_Units>
 		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
+
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Pirate_Outpost_Survivors_01">
 		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1139,12 +1139,12 @@
 		<Create_Team_Type> Pirate_Trooper_Team </Create_Team_Type>
 		<Company_Units>Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex</Company_Units>
 		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
+
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Pirate_Outpost_Survivors_02">
 		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1161,12 +1161,12 @@
 		<Create_Team_Type> Pirate_Trooper_Team </Create_Team_Type>
 		<Company_Units>Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex</Company_Units>
 		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
+
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Pirate_Outpost_Survivors_03">
 		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1183,12 +1183,12 @@
 		<Create_Team_Type> Pirate_Trooper_Team </Create_Team_Type>
 		<Company_Units>Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex</Company_Units>
 		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
+
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Pirate_Outpost_Survivors_Hostile">
 		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1206,10 +1206,10 @@
 		<Company_Units>Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Plex, Pirate_Plex, Pirate_Plex </Company_Units>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
 		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
+
 	</GroundCompany>
 
 	<GroundCompany Name="Geonosian_Resistors">
@@ -1227,10 +1227,10 @@
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Units> Geonosian, Geonosian, Geonosian, Geonosian, Geonosian, Geonosian, Geonosian, Geonosian, Geonosian, Geonosian</Company_Units>
 		<Icon_Name>i_button_geonosian.tga</Icon_Name>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
+
 	</GroundCompany>
 
 	<GroundCompany Name="Bothan_Resistors">
@@ -1248,10 +1248,10 @@
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Units> Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission, Bothan_Civilian_Mission</Company_Units>
 		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
-		
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		
+
 	</GroundCompany>
 
 
