@@ -225,6 +225,7 @@
 		<Score_Cost_Credits>45</Score_Cost_Credits>
 		<Cheap_Bribe_Cost>2</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>5</Expensive_Bribe_Cost>
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
@@ -305,6 +306,8 @@
 		<ContainerArrangement> Dartboard </ContainerArrangement>
 		<Override_Acceleration> .08 </Override_Acceleration>
 		<Override_Deceleration> .08 </Override_Deceleration>
+
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>

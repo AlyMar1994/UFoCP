@@ -277,6 +277,7 @@
 
 		<Score_Cost_Credits>45</Score_Cost_Credits>
 
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 		<Cheap_Bribe_Cost>2</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>5</Expensive_Bribe_Cost>
 
@@ -372,6 +373,7 @@
 		<OverrideAcceleration> .08 </OverrideAcceleration>
 		<OverrideDeceleration> .08 </OverrideDeceleration>
 
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
