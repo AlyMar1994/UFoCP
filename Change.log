@@ -119,6 +119,7 @@ Unit Fixes:
 • TIE defenders didn't have a "TIE screech" because its unit entry didn't include a fly-by sound definition. (BUG #86)
 • Consortium slaves weren't "victory relevant" like other Consortium infantry.  If only slaves were on the battlefield, the battle would end; the slaves would then reappear on the map fighting for the Consortium if attacked again. (BUG #113)
 • Garm Bel Iblis didn't have the Rebel hero identifier under the Gargantuan, unlike other Rebel land heroes. (BUG #122)
+• Keldabe-class Battleships couldn't be built on Mandalore in the campaign, as the campaign uses a special version of Mandalore named "Mandalore_Story" and not "Mandalore." (BUG #138)
 • All Mobile Defense Units would use Rebel VO for unit death or building construction.  Each MDU now uses faction-based VO. (BUG #158)
 • Tyber Zann couldn't bribe opposing Consortium infantry during Skirmish mirror-matches because the units didn't have a bribe cost attached to them. (BUG #163)
 • B-wings couldn't use one of their ion cannons.  Their unit entry defined their first ion cannon, HP_BWING_ION_00, twice, and not HP_BWING_ION_01 as well. (BUG #178)
