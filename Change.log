@@ -97,6 +97,7 @@ Map/Planet Fixes:
 • Jabiim's galactic map model and terrain backdrop used "temperate" GFX despite being tagged as a swamp and appearing as a swamp planet during space combat. (BUG #67)
 • Nal Hutta is a swamp planet yet defined with "temperate" terrain; this caused music, infantry models, and SFX conflicts with the planet's setting; the campaign/prologue versions of the planet also had the wrong galactic terrain backdrop, showing an ecumenopolis instead of a swamp. (BUG #72)
 • Land Honoghr had two spots where droidekas would get softlocked because the factories would spawn them into "Steep" terrain and be unable to move properly. (BUG #77)
+• Honoghr in the campaign would display a generic human instead of a Nohgri in its loading screen. (BUG #88)
 • Mandalore in the campaign and Consortium prologue would display a generic human instead of a Mandalorian in its loading screen. (BUG #89)
 • Alderaan would still appear blown-up in the loading screen for the Skirmish map "Alderaan at War."  To rectify this and ensure backwards compatibility, the original Alderaan from EaW was restored under the Alderaan entry, while FoC's Alderaan is recreated as "AlderaanExploded."  All files have been edited to ensure the proper Alderaan appears where it needs to. (BUG #105)
 • Alderaan's weather indicator wasn't updated from EaW and was set to "rain" instead of "clear" (as there is now no longer a planet); the planet was also "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
