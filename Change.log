@@ -67,6 +67,7 @@ Audio Fixes:
 
 
 Interface Fixes:
+• Shaaks didn't use a tooltip icon despite having one in the interface GFX library. (BUG #90)
 • Han Solo & Chewbacca's GC tooltip didn't indicate if the unit could capture build pads. (BUG #92)
 • Yoda's tooltips didn't indicate if the unit could capture build pads. (BUG #93)
 • Boba Fett's GC tooltip didn't indicate if the unit could capture build pads. (BUG #94)
@@ -116,7 +117,7 @@ Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
 • General Veers didn't have the Imperial hero identifier under his AT-AT, unlike other Imperial land heroes. (BUG #49)
 • Luke Skywalker would attach to any available capital ships during space battles instead of flying his X-wing. (BUG #70)
-• TIE defenders didn't have a "TIE screech" because its unit entry didn't include a fly-by sound definition. (BUG #86)
+• TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
 • Consortium slaves weren't "victory relevant" like other Consortium infantry.  If only slaves were on the battlefield, the battle would end; the slaves would then reappear on the map fighting for the Consortium if attacked again. (BUG #113)
 • Garm Bel Iblis didn't have the Rebel hero identifier under the Gargantuan, unlike other Rebel land heroes. (BUG #122)
 • Keldabe-class Battleships couldn't be built on Mandalore in the campaign, as the campaign uses a special version of Mandalore named "Mandalore_Story" and not "Mandalore." (BUG #138)
