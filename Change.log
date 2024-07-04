@@ -119,6 +119,7 @@ Structure Fixes:
 Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
 • Acclamator-class Cruisers had the laser cannon damage multipliers applied to its back-right-most turbolaser, instead of the turbolaser multipliers. (BUG #25)
+• B-wings would use a green laser instead of red when firing, not only unlike all other Rebel ships, but conflicting with its red muzzle flash. (BUG #34)
 • General Veers didn't have the Imperial hero identifier under his AT-AT, unlike other Imperial land heroes. (BUG #49)
 • Luke Skywalker would attach to any available capital ships during space battles instead of flying his X-wing. (BUG #70)
 • TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
