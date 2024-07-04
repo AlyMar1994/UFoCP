@@ -118,6 +118,7 @@ Structure Fixes:
 
 Unit Fixes:
 • Whenever Thrawn would remove the Consortium's corruption, it would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
+• Acclamator-class Cruisers had the laser cannon damage multipliers applied to its back-right-most turbolaser, instead of the turbolaser multipliers. (BUG #25)
 • General Veers didn't have the Imperial hero identifier under his AT-AT, unlike other Imperial land heroes. (BUG #49)
 • Luke Skywalker would attach to any available capital ships during space battles instead of flying his X-wing. (BUG #70)
 • TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
@@ -130,6 +131,7 @@ Unit Fixes:
 • TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle.  This was originally half-fixed in the latest patch, where they no longer only visually look like torpedoes. (BUG #179)
 • B-wings were categorized as "Fighter" alongside "Bomber," leading to occasions where the AI would prioritize them as normal starfighters and not bombing units.  They now are categorized as "Bomber | AntiFrigate | AntiCapital" like Y-wings. (BUG #181)
 • TIE defenders were categorized as "Fighter | AntiBomber" despite being primarily bombers, leading to occasions where the AI would prioritize them as normal starfighters.  They now are categorized as "Bomber | AntiFrigate | AntiCapital" like Y-wings. (BUG #182)
+• Interceptor IV Frigates had the Acclamator-class laser cannon damage multipliers applied to its turbolasers.  It now has custom damage multipliers based off of the Acclamator's turbolasers. (BUG #185)
 
 
 Upgrade Fixes:

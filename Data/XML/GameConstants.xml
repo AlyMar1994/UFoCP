@@ -3647,6 +3647,37 @@
 	<Damage_To_Armor_Mod> Damage_MDU_Grenade, Armor_Destroyer_Droid, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_MDU_Grenade, Armor_Bunker, 0.25 </Damage_To_Armor_Mod>
 
+	<!-- Interceptor IV turbolasers -->
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Default, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Shield_Default, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Transport, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Bomber, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Fighter, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Hero_Transport, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Corellian_Corvette, 5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Missile_Cruiser, 5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Tartan, 5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Interdictor, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Corellian_Gunboat, 4.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Nebulon_B, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Acclamator, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Pirate_Frigate, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Satellite, 5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Frigate, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Victory_Class, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Assault_Frigate, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Calamari_Cruiser, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Star_Destroyer, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Station, 0.75 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Interceptor_IV, Shield_Capital, 0.75</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Interceptor_IV, Shield_Frigate, 2</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Interceptor_IV, Shield_Corvette, 1</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Interceptor_IV, Shield_Fighter, 1</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Interceptor_IV, Shield_SSD, 0.75 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Vengeance, 1.0 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_MC30_Frigate, 2.5 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_SSD, 0.75 </Damage_To_Armor_Mod>
+
 
 
 
