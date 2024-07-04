@@ -63,8 +63,13 @@ AI Fixes:
 
 
 Audio Fixes:
+• Whenever Thrawn would remove the Consortium's corruption, it would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
 • No music would play when losing against the Consortium because of a bad file reference, and the Consortium's generic losing music referenced the Rebels' music entry; the Consortium's music now points to its own entries properly and has had its volume boosted as the music is quiet. (BUG #31)
+• Consortium turbolaser towers would use Rebel VO when captured/built instead of their faction's VO. (BUG #42)
+• TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
+• All Mobile Defense Units would use Rebel VO for unit death or building construction.  Each MDU now uses faction-based VO. (BUG #158)
 • Rogue 4 - Derek Klivian wouldn't callout either of his very-low-health voice lines when leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
+• TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle.  This was originally half-fixed in the latest patch, where they no longer only visually look like torpedoes. (BUG #179)
 
 
 Interface Fixes:
@@ -119,19 +124,15 @@ Structure Fixes:
 
 
 Unit Fixes:
-• Whenever Thrawn would remove the Consortium's corruption, it would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
 • Acclamator-class Cruisers had the laser cannon damage multipliers applied to its back-right-most turbolaser, instead of the turbolaser multipliers. (BUG #25)
 • B-wings would use a green laser instead of red when firing, not only unlike all other Rebel ships, but conflicting with its red muzzle flash. (BUG #34)
 • General Veers didn't have the Imperial hero identifier under his AT-AT, unlike other Imperial land heroes. (BUG #49)
 • Luke Skywalker would attach to any available capital ships during space battles instead of flying his X-wing. (BUG #70)
-• TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
 • Consortium slaves weren't "victory relevant" like other Consortium infantry.  If only slaves were on the battlefield, the battle would end; the slaves would then reappear on the map fighting for the Consortium if attacked again. (BUG #113)
 • Garm Bel Iblis didn't have the Rebel hero identifier under the Gargantuan, unlike other Rebel land heroes. (BUG #122)
 • Keldabe-class Battleships couldn't be built on Mandalore in the campaign, as the campaign uses a special version of Mandalore named "Mandalore_Story" and not "Mandalore." (BUG #138)
-• All Mobile Defense Units would use Rebel VO for unit death or building construction.  Each MDU now uses faction-based VO. (BUG #158)
 • Tyber Zann couldn't bribe opposing Consortium infantry during Skirmish mirror-matches because the units didn't have a bribe cost attached to them. (BUG #163)
 • B-wings couldn't use one of their ion cannons.  Their unit entry defined their first ion cannon, HP_BWING_ION_00, twice, and not HP_BWING_ION_01 as well. (BUG #178)
-• TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle.  This was originally half-fixed in the latest patch, where they no longer only visually look like torpedoes. (BUG #179)
 • B-wings were categorized as "Fighter" alongside "Bomber," leading to occasions where the AI would prioritize them as normal starfighters and not bombing units.  They now are categorized as "Bomber | AntiFrigate | AntiCapital" like Y-wings. (BUG #181)
 • TIE defenders were categorized as "Fighter | AntiBomber" despite being primarily bombers, leading to occasions where the AI would prioritize them as normal starfighters.  They now are categorized as "Bomber | AntiFrigate | AntiCapital" like Y-wings. (BUG #182)
 • Interceptor IV Frigates had the Acclamator-class laser cannon damage multipliers applied to its turbolasers.  It now has custom damage multipliers based off of the Acclamator's turbolasers. (BUG #185)
