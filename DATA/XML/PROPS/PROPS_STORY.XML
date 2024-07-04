@@ -2113,6 +2113,7 @@
 
 	<Props_Story Name="Prop_Guard_Tower">
 		<Text_ID>TEXT_NONE</Text_ID>
+		<Icon_Name>i_button_eb_guardtower.tga</Icon_Name>
 		<Land_Model_Name>EB_GuardTower.alo</Land_Model_Name>
 		<LandBehavior>LAND_OBSTACLE</LandBehavior>
 		<Scale_Factor>2</Scale_Factor>
