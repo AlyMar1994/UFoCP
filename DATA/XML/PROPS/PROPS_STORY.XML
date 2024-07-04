@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Props_Story>
- 
+
 	<Props_Story Name="Mission_Goal_AA_Turret_00">
 		<Text_ID>TEXT_STRUCTURE_TURRET_AA</Text_ID>
 		<Land_Model_Name>EB_AATURRET.ALO</Land_Model_Name>
@@ -36,27 +36,27 @@
 	</Props_Story>
 
 	<Props_Story Name="Mission_Goal_AA_Turret_01">
-		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>	
+		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>
 	</Props_Story>
 
 	<Props_Story Name="Mission_Goal_AA_Turret_02">
-		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>	
+		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>
 	</Props_Story>
 
 	<Props_Story Name="Mission_Goal_AA_Turret_03">
-		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>	
+		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>
 	</Props_Story>
 
 	<Props_Story Name="Mission_Goal_AA_Turret_04">
-		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>	
+		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>
 	</Props_Story>
 
 	<Props_Story Name="Mission_Goal_AA_Turret_05">
-		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>	
+		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>
 	</Props_Story>
-	
+
 	<Props_Story Name="Mission_Goal_AA_Turret_06">
-		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>	
+		<Variant_Of_Existing_Type>Mission_Goal_AA_Turret_00</Variant_Of_Existing_Type>
 	</Props_Story>
 
     <!-- AI  Empire Shipyard Props (Rebel Mission 1) -->
@@ -84,7 +84,7 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
         <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
@@ -118,7 +118,7 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
         <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
@@ -153,7 +153,7 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
         <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Friggin_Huge_Explosion_Space_Empire</Death_Explosions>
@@ -161,11 +161,11 @@
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 
 		<Death_Clone>Damage_Normal, Drydock_Star_Destroyer_Construction_Death_Clone</Death_Clone>
-		
+
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
 		<Icon_Name>i_button_imperator.tga</Icon_Name>
-        
+
 	</SpaceStructure>
 
 			<SpaceStructure Name="Drydock_Star_Destroyer_Construction_Death_Clone">
@@ -238,29 +238,29 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
         <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Death_Projectiles>Proj_Construction_Pod_Detonation</Death_Projectiles>
-		
+
 		<CategoryMask>Structure</CategoryMask>
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</SpaceStructure>
-	
+
 	<SpaceStructure Name="Orbital_Resource_Container_Small">
 		<Variant_Of_Existing_Type>Orbital_Resource_Container</Variant_Of_Existing_Type>
 		<Space_Model_Name>W_orbital_resource_container_small.alo</Space_Model_Name>
 	</SpaceStructure>
-	
+
 	<!-- jdg using this in RM01 ending cine -->
 	<SpaceStructure Name="Orbital_Resource_Container_Hide">
 		<Variant_Of_Existing_Type>Orbital_Resource_Container</Variant_Of_Existing_Type>
 		<Space_Model_Name>W_orbital_resource_container.alo</Space_Model_Name>
-		<Is_Visible_On_Radar>No</Is_Visible_On_Radar> 
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
 		<Tactical_Health>5</Tactical_Health>
 		<Behavior>SELECTABLE, UNIT_AI, IDLE </Behavior>
 	</SpaceStructure>
@@ -291,7 +291,7 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
         <Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Friggin_Huge_Explosion_Space_Empire</Death_Explosions>
@@ -300,7 +300,7 @@
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 
 		<Space_Obstacle_Radius> 130 </Space_Obstacle_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -308,7 +308,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
 		<Death_Clone>Damage_Normal, Empire_Dock_Destroyable_Death_Clone</Death_Clone>
-        
+
 	</SpaceStructure>
 
 			<SpaceStructure Name="Empire_Dock_Destroyable_Death_Clone">
@@ -341,7 +341,7 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<CategoryMask>Structure</CategoryMask>
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
@@ -359,7 +359,7 @@
 	<SpaceStructure Name="Cargo_Debris_04">
 		<Variant_Of_Existing_Type>Cargo_Debris_01</Variant_Of_Existing_Type>
 	</SpaceStructure>
-		
+
 
 	<!-- Used for Rebel Act I Mission 9 -->
 
@@ -383,7 +383,7 @@
 	</Props_Story>
 
 	<!-- Used for Underworld Act I Mission Prologue -->
-	
+
 	<Props_Story Name="UMP_Spice_Power_Up">
 		<Text_ID />
 		<Land_Model_Name>w_spice_crate.alo</Land_Model_Name>
@@ -403,7 +403,7 @@
 		<Is_Decoration>No</Is_Decoration>
 		<Scale_Factor>1.25</Scale_Factor>
     </Props_Story>
-    
+
 	<Props_Story Name="UMP_Storm_Trooper_Guard">
 		<Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
 		<Tactical_Health>35</Tactical_Health>
@@ -428,12 +428,12 @@
 		<Affiliation>Neutral</Affiliation>
 		<Tactical_Health>25</Tactical_Health>
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
-              
-        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>         		
-        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>  
-        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>         		            		 
-        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>		
-        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack> 
+
+        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
+        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
+        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
+        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
+        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
         <Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Death</Death_SFXEvent_Start_Die>
 
         <SFXEvent_Engine_Idle_Loop> Unit_Riot_Infantry_Loop_Low </SFXEvent_Engine_Idle_Loop>
@@ -447,11 +447,11 @@
 		<Tactical_Health>25</Tactical_Health>
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 
-        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>         		
-        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>  
-        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>         		            		 
-        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>		
-        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack> 
+        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
+        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
+        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
+        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
+        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
 	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Human_C">
@@ -461,11 +461,11 @@
 		<Tactical_Health>25</Tactical_Health>
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 
-        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>         		
-        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>  
-        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>         		            		 
-        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>		
-        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack> 
+        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
+        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
+        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
+        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
+        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
 	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Human_D">
@@ -475,11 +475,11 @@
 		<Tactical_Health>25</Tactical_Health>
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 
-        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>         		
-        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>  
-        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>         		            		 
-        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>		
-        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack> 
+        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
+        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
+        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
+        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
+        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
 	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Human_E">
@@ -489,11 +489,11 @@
 		<Tactical_Health>25</Tactical_Health>
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 
-        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>         		
-        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>  
-        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>         		            		 
-        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>		
-        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack> 
+        <SFXEvent_Select> Unit_Select_Prisoner_1 </SFXEvent_Select>
+        <SFXEvent_Move> Unit_Move_Prisoner_1 </SFXEvent_Move>
+        <SFXEvent_Attack> Unit_Attack_Prisoner_1 </SFXEvent_Attack>
+        <SFXEvent_Assist_Move> Unit_Assist_Move_Prisoner_1 </SFXEvent_Assist_Move>
+        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Prisoner_1 </SFXEvent_Assist_Attack>
 	</Props_Story>
 
 
@@ -641,7 +641,7 @@
 		<LandBehavior>ABILITY_COUNTDOWN, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI, GARRISON_UNIT</LandBehavior>
 		<Tactical_Health>99999</Tactical_Health>
 	</Props_Story>
- 		
+
 	<Props_Story Name="UMP_Chewbacca">
 		<Variant_Of_Existing_Type>Chewbacca</Variant_Of_Existing_Type>
 		<LandBehavior>VEHICLE_THIEF, ABILITY_COUNTDOWN, SURFACE_FX, WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI, GARRISON_UNIT</LandBehavior>
@@ -653,14 +653,14 @@
 		<LandBehavior> SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT </LandBehavior>
 		<Tactical_Health>99999</Tactical_Health>
 	</Props_Story>
-	
+
 	<Props_Story Name="UMP_Prop_Millenium_Falcon">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>RV_MFalcon_Land.ALO</Land_Model_Name>
 		<Scale_Factor>2.5</Scale_Factor>
 		<!-- <Is_Sprite>No</Is_Sprite> -->
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UMP_MissionScript_Temp">
@@ -670,7 +670,7 @@
 		<Behavior> MARKER, HINT </Behavior>
  		<Lua_Script>UMP_Mission_Script</Lua_Script>
 	</Props_Story>
-	
+
     <Props_Story Name="UM02_Magnetically_Sealed_Doorway">
  		<Lua_Script>UM02_MagnetDoors</Lua_Script>
 		<GUI_Bounds_Scale>.5</GUI_Bounds_Scale>
@@ -698,7 +698,7 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 	        <Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
@@ -735,7 +735,7 @@
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
-			
+
 		</Abilities>
 	</Props_Story>
 
@@ -765,7 +765,7 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 	    <Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
@@ -782,7 +782,7 @@
 		<Behavior> MARKER, HINT </Behavior>
  		<Lua_Script>UM02_Destroyer_Spawn</Lua_Script>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM02_Droids_Spawner">
 		<Text_ID> GENERIC_MARKER </Text_ID>
 		<Is_Marker> Yes </Is_Marker>
@@ -790,7 +790,7 @@
 		<Behavior> MARKER, HINT </Behavior>
  		<Lua_Script>UM02_Droids_Spawn</Lua_Script>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM02_Droid_Crate">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_crates08.alo</Land_Model_Name>
@@ -803,7 +803,7 @@
 		<Death_SFXEvent_Start_Die>SFX_Asteroid_Detonation</Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
     </Props_Story>
-	
+
 	<Props_Story Name="UM02_MissionScript_Temp">
 		<Text_ID> GENERIC_MARKER </Text_ID>
 		<Is_Marker> Yes </Is_Marker>
@@ -819,7 +819,7 @@
 		<Behavior> MARKER, HINT </Behavior>
  		<Lua_Script>UM06_Mission_Script</Lua_Script>
 	</ScriptMarker>
-	
+
 	<Props_Story Name="E3_Felucia_Zone">
 		<Text_ID> GENERIC_MARKER </Text_ID>
 		<Is_Marker> Yes </Is_Marker>
@@ -836,7 +836,7 @@
 		<Behavior> MARKER, HINT </Behavior>
  		<!-- <Lua_Script>JGS_Test_Script</Lua_Script> -->
 	</Props_Story>
-	
+
 	<Props_Story Name="JGS_PATHPOINT_1">
 		<Text_ID> GENERIC_MARKER </Text_ID>
 		<Is_Marker> Yes </Is_Marker>
@@ -844,39 +844,39 @@
 		<Space_Model_Name> W_FLAG_MARKER_WHITE.ALO </Space_Model_Name>
 		<Behavior> MARKER, HINT </Behavior>
 	</Props_Story>
-	
+
 	<Props_Story Name="JGS_PATHPOINT_2">
 		<Variant_Of_Existing_Type>JGS_PATHPOINT_1</Variant_Of_Existing_Type>
 	</Props_Story>
-	
+
 	<Props_Story Name="JGS_PATHPOINT_3">
 		<Variant_Of_Existing_Type>JGS_PATHPOINT_1</Variant_Of_Existing_Type>
 	</Props_Story>
-	
+
 	<Props_Story Name="JGS_PATHPOINT_4">
 		<Variant_Of_Existing_Type>JGS_PATHPOINT_1</Variant_Of_Existing_Type>
 	</Props_Story>
-	
+
 	<Props_Story Name="JGS_PATHPOINT_5">
 		<Variant_Of_Existing_Type>JGS_PATHPOINT_1</Variant_Of_Existing_Type>
 	</Props_Story>
-	
+
 	<Props_Story Name="JGS_PATHPOINT_6">
 		<Variant_Of_Existing_Type>JGS_PATHPOINT_1</Variant_Of_Existing_Type>
 	</Props_Story>
-	
+
 	<Props_Story Name="JGS_PATHPOINT_7">
 		<Variant_Of_Existing_Type>JGS_PATHPOINT_1</Variant_Of_Existing_Type>
 	</Props_Story>
-	
+
 	<Props_Story Name="JGS_PATHPOINT_8">
 		<Variant_Of_Existing_Type>JGS_PATHPOINT_1</Variant_Of_Existing_Type>
 	</Props_Story>
-	
+
 	<Props_Story Name="JGS_PATHPOINT_9">
 		<Variant_Of_Existing_Type>JGS_PATHPOINT_1</Variant_Of_Existing_Type>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_EclipseDefensePad">
 		<SpaceBehavior> ABILITY_COUNTDOWN, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, SHIELDED, DAMAGE_TRACKING, TURRET, TACTICAL_SELL </SpaceBehavior>
 
@@ -933,12 +933,12 @@
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		
+
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-		
+
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
@@ -949,11 +949,11 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
-		
+
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
@@ -984,7 +984,7 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>     
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
         <Death_SFXEvent_Start_Die>Structure_Research_Select_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
@@ -1001,7 +1001,7 @@
 		<Icon_Name>i_button_tyber.tga</Icon_Name>
 		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		
+
 		<SFXEvent_Select>Unit_Select_Tyber_Zann</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Tyber_Zann</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tyber_Zann</SFXEvent_Fleet_Move>
@@ -1014,7 +1014,7 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Tyber_Zann </SFXEvent_Health_Critical_Warning>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
     </Props_Story>
-    
+
 	<Props_Story Name="UMP_Moving_Door">
 		<Text_ID>TEXT_DOOR</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_DOOR_TOOLTIP </Encyclopedia_Unit_Class>
@@ -1044,7 +1044,7 @@
 		<Land_Damage_Alternates>0</Land_Damage_Alternates>
 		<Land_Damage_SFX>null</Land_Damage_SFX>
     </Props_Story>
-    
+
 	<Props_Story Name="UMP_Interface_Node">
 		<Text_ID>TEXT_DOORNODE</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DOORNODE </Encyclopedia_Unit_Class>
@@ -1054,21 +1054,21 @@
 		<Tactical_Health>5</Tactical_Health>
 		<Affiliation>Empire</Affiliation>
 		<Scale_Factor>1</Scale_Factor>
-		
+
 		<Land_Damage_Thresholds>1, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>false</Remove_Upon_Death>
 		<Property_Flags>NotOpportunityTarget</Property_Flags>
     </Props_Story>
-    
+
 	<Props_Story Name="UMP_CINE_NODE">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_Prison_Terminal.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM02_Interface_Node">
 		<Text_ID>TEXT_DOORNODE</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DOORNODE </Encyclopedia_Unit_Class>
@@ -1080,7 +1080,7 @@
 		<Affiliation>Pirates</Affiliation>
 		<Property_Flags>NotOpportunityTarget</Property_Flags>
     </Props_Story>
-    
+
 	<Props_Story Name="UM05_Cuddles_The_Rancor">
 		<Variant_Of_Existing_Type>CUDDLES_THE_RANCOR</Variant_Of_Existing_Type>
 		<Scale_Factor>.8</Scale_Factor>
@@ -1088,7 +1088,7 @@
 		<Max_Rate_Of_Turn>32</Max_Rate_Of_Turn>
 		<LandBehavior>GARRISON_UNIT,AFFECTED_BY_SHIELD,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,REVEAL,HIDE_WHEN_FOGGED,SQUASH,UNIT_AI</LandBehavior>
     </Props_Story>
-	
+
 	<Props_Story Name="UM05_Red_Guard">
 		<Variant_Of_Existing_Type>Imperial_Elite_Guard</Variant_Of_Existing_Type>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -1122,13 +1122,13 @@
 		<Create_Team_Type>Imp_Guard_Team</Create_Team_Type>
 		<Score_Cost_Credits>40</Score_Cost_Credits>
 	</Props_Story>
-    
+
     <Props_Story Name="UM05_PROP_EWOK">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>NI_EWOK_C.ALO</Land_Model_Name>
 		<Scale_Factor>.85</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
     <Props_Story Name="UM05_PROP_EWOK2">
@@ -1136,39 +1136,39 @@
 		<Land_Model_Name>NI_EWOK_B.ALO</Land_Model_Name>
 		<Scale_Factor>.85</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
     <Props_Story Name="UM05_PROP_ACADEMY">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EB_OfficerAcademy.alo</Land_Model_Name>
 		<Scale_Factor>.15</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
     <Props_Story Name="UM05_PROP_BARGE">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_AT-Barge.ALO</Land_Model_Name>
 		<Scale_Factor>.15</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
     <Props_Story Name="UM05_PROP_SHUTTLE">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_LAMBDASHUTTLE_SPACE.ALO</Land_Model_Name>
 		<Scale_Factor>.25</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
     <Props_Story Name="UM05_PROP_BOMBER">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_TIEBOMBER.ALO</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_BRIDGE">
@@ -1176,7 +1176,7 @@
 		<Land_Model_Name>Cin_bridge.alo</Land_Model_Name>
 		<Scale_Factor>.1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_DSTAR">
@@ -1184,47 +1184,47 @@
 		<Land_Model_Name>Cin_DeathStar_High.alo</Land_Model_Name>
 		<Scale_Factor>7.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_PROP_DSTAR2">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>w_planet_deathstar02_II.alo</Land_Model_Name>
 		<Scale_Factor>.08</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
     <Props_Story Name="UM05_PROP_TIE">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>ev_TieFighter.ALO</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-    
+
     <Props_Story Name="UM05_PROP_ATAT">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_AT-AT.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-    
+
     <Props_Story Name="UM05_PROP_SPMAT">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_SPMAT.ALO</Land_Model_Name>
 		<Scale_Factor>.45</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-    
+
 	<Props_Story Name="UM05_PROP_ATST">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EV_AT-ST.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_ATAA">
@@ -1232,7 +1232,7 @@
 		<Land_Model_Name>EV_AT-AA.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_M1">
@@ -1240,7 +1240,7 @@
 		<Land_Model_Name>EV_2MTANK.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_CRAWLER">
@@ -1248,7 +1248,7 @@
 		<Land_Model_Name>EV_Tiecrawler.alo</Land_Model_Name>
 		<Scale_Factor>.2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SABER">
@@ -1256,7 +1256,7 @@
 		<Land_Model_Name>RI_saber_spin.ALO</Land_Model_Name>
 		<Scale_Factor>2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_KRAYTHEAD">
@@ -1264,7 +1264,7 @@
 		<Land_Model_Name>W_KraytDragonSkull.ALO</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_KRAYTRIBS">
@@ -1272,7 +1272,7 @@
 		<Land_Model_Name>W_KraytDragonribs.ALO</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_KRAYTTAIL">
@@ -1280,7 +1280,7 @@
 		<Land_Model_Name>W_KraytDragontail.ALO</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_KRAYTHEAD_SM">
@@ -1288,7 +1288,7 @@
 		<Land_Model_Name>W_KraytDragonSkull.ALO</Land_Model_Name>
 		<Scale_Factor>.2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_KRAYTRIBS_SM">
@@ -1296,7 +1296,7 @@
 		<Land_Model_Name>W_KraytDragonribs.ALO</Land_Model_Name>
 		<Scale_Factor>.2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_KRAYTTAIL_SM">
@@ -1304,15 +1304,15 @@
 		<Land_Model_Name>W_KraytDragontail.ALO</Land_Model_Name>
 		<Scale_Factor>.2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_PROP_RANCOR">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>AI_Rancor.alo</Land_Model_Name>
 		<Scale_Factor>.45</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_BLOCKA">
@@ -1320,7 +1320,7 @@
 		<Land_Model_Name>W_UrbanBlock_A.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_PLANET_A">
@@ -1328,7 +1328,7 @@
 		<Land_Model_Name>w_planet_moon_high.alo</Land_Model_Name>
 		<Scale_Factor>5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_PLANET_B">
@@ -1336,7 +1336,7 @@
 		<Land_Model_Name>W_planet_desert-urban_high.alo</Land_Model_Name>
 		<Scale_Factor>5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_PLANET_C">
@@ -1344,7 +1344,7 @@
 		<Land_Model_Name>w_planet_swamp00.alo</Land_Model_Name>
 		<Scale_Factor>5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_Z95">
@@ -1353,7 +1353,7 @@
 		<Land_Model_Name>RV_Z-95.ALO</Land_Model_Name>
 		<Scale_Factor>2.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDTENTS">
@@ -1361,7 +1361,7 @@
 		<Land_Model_Name>NB_Sandpeople_Tent.alo</Land_Model_Name>
 		<Scale_Factor>.45</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDGUY">
@@ -1369,7 +1369,7 @@
 		<Land_Model_Name>NI_SandPeople_B.alo</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDJAWA">
@@ -1377,7 +1377,7 @@
 		<Land_Model_Name>NI_JAWA.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDHOUSE_A">
@@ -1385,7 +1385,7 @@
 		<Land_Model_Name>NB_DCH.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDHOUSE_B">
@@ -1393,7 +1393,7 @@
 		<Land_Model_Name>nb_dch_b.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDHOUSE_C">
@@ -1401,7 +1401,7 @@
 		<Land_Model_Name>nb_dch_c.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDCIV">
@@ -1409,7 +1409,7 @@
 		<Land_Model_Name>NI_Gmale_Desert_A.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SWAMPTREE">
@@ -1417,7 +1417,7 @@
 		<Land_Model_Name>W_Tree_Gnarl_00_HI.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SWAMPDIANOGA">
@@ -1425,7 +1425,7 @@
 		<Land_Model_Name>AI_Dianoga.ALO</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SNOWMTNS">
@@ -1433,7 +1433,7 @@
 		<Land_Model_Name>W_IceMntRnge01.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDBANTHA">
@@ -1441,7 +1441,7 @@
 		<Land_Model_Name>wc_bantha.alo</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SNOWTAUN">
@@ -1449,7 +1449,7 @@
 		<Land_Model_Name>AI_TAUNTAUN.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SNOWWAMPA">
@@ -1457,7 +1457,7 @@
 		<Land_Model_Name>AI_Wampa.alo</Land_Model_Name>
 		<Scale_Factor>.85</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SNOWCAVE">
@@ -1465,7 +1465,7 @@
 		<Land_Model_Name>AI_WampaCave.alo</Land_Model_Name>
 		<Scale_Factor>.4</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_FELBEETLE">
@@ -1473,7 +1473,7 @@
 		<Land_Model_Name>AI_GROUNDBEETLE.ALO</Land_Model_Name>
 		<Scale_Factor>.65</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_FELPLANTA">
@@ -1481,7 +1481,7 @@
 		<Land_Model_Name>w_felucia_plant_06.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_FELPLANTB">
@@ -1489,7 +1489,7 @@
 		<Land_Model_Name>w_felucia_plant_01.alo</Land_Model_Name>
 		<Scale_Factor>.6</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_FELPLANTC">
@@ -1497,7 +1497,7 @@
 		<Land_Model_Name>W_felucia_plant_00_tall.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_NABTREES">
@@ -1505,23 +1505,23 @@
 		<Land_Model_Name>W_Tree_Dec_Canopy_A.ALO</Land_Model_Name>
 		<Scale_Factor>.3</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_PROP_NABMTNS">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_TempMntRnge00.ALO</Land_Model_Name>
 		<Scale_Factor>.4</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_PROP_NABBIRD">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_Bird_light.ALO</Land_Model_Name>
 		<Scale_Factor>.65</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_NABSHAAK">
@@ -1529,7 +1529,7 @@
 		<Land_Model_Name>AI_SHAAKS.ALO</Land_Model_Name>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_NABSTATUE">
@@ -1537,7 +1537,7 @@
 		<Land_Model_Name>W_GunganHead.alo</Land_Model_Name>
 		<Scale_Factor>.3</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_NABBLDGA">
@@ -1545,7 +1545,7 @@
 		<Land_Model_Name>W_TheedBuild_B.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_NABBLDGB">
@@ -1553,7 +1553,7 @@
 		<Land_Model_Name>W_TheedBuild_C.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDCAVE">
@@ -1561,7 +1561,7 @@
 		<Land_Model_Name>NB_Rancor_cave.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDHOLE">
@@ -1569,7 +1569,7 @@
 		<Land_Model_Name>AI_Sarlacc.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SANDRAT">
@@ -1577,7 +1577,7 @@
 		<Land_Model_Name>AI_womprat.alo</Land_Model_Name>
 		<Scale_Factor>.95</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_PROP_SITHDOORA">
@@ -1585,7 +1585,7 @@
 		<Land_Model_Name>W_SithTomb.ALO</Land_Model_Name>
 		<Scale_Factor>3</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Is_Discardable>No</Is_Discardable>
 	</Props_Story>
 
@@ -1595,87 +1595,87 @@
 		<Scale_Factor>.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		<Is_Discardable>No</Is_Discardable> 
+		<Is_Discardable>No</Is_Discardable>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_PROP_SITHSTATUE">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_SithStatue.ALO</Land_Model_Name>
 		<Scale_Factor>1.25</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_PROP_WOOKTREE">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>NB_wookiee_tree.alo</Land_Model_Name>
 		<Scale_Factor>.2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_PROP_WOOKIE">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>RI_Wookiee01.alo</Land_Model_Name>
 		<Scale_Factor>.25</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_BLACK_COVER">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>w_black_box.alo</Land_Model_Name>
 		<Scale_Factor>25</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_BLACK_COVER_GIANT">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>w_black_box.alo</Land_Model_Name>
 		<Scale_Factor>150</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_SITH_WALLA">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_TheedWall_A.alo</Land_Model_Name>
 		<Scale_Factor>2.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_SITH_WALLB">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_TheedWall_B.alo</Land_Model_Name>
 		<Scale_Factor>2.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_SITH_WALLC">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_TheedWall_C.alo</Land_Model_Name>
 		<Scale_Factor>4</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_SITH_TORCH">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_observation_tower.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_SITH_ALTAR">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_SithArtifact_pedestal.alo</Land_Model_Name>
 		<Scale_Factor>2.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_DOOR_FRAME">
@@ -1683,79 +1683,79 @@
 		<Land_Model_Name>W_UrbanCorner_A.ALO</Land_Model_Name>
 		<Scale_Factor>2</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_DOOR_FRAME_2">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UrbanCorner_A.ALO</Land_Model_Name>
 		<Scale_Factor>3.1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_PROP_DTP_I">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_PROP_DarkTrooper_one.alo</Land_Model_Name>
 		<Scale_Factor>1.6</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_PROP_DTP_II">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_PROP_Darktrooper_two.alo</Land_Model_Name>
 		<Scale_Factor>1.6</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_PROP_DTP_III">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_PROP_darkTroop_three.alo</Land_Model_Name>
 		<Scale_Factor>1.6</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-		
+
 	<Props_Story Name="UM05_CONSOLE">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UrbanCorner_A.ALO</Land_Model_Name>
 		<Scale_Factor>.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UMP_MANDALORIAN">
 		<Variant_Of_Existing_Type>Mustafarian_Indigenous</Variant_Of_Existing_Type>
 		<Scale_Factor>1.70</Scale_Factor>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UMP_BOUNTY_HUNTER">
 	    <!-- this is a dead bounty hunter cine prop -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>w_bountyhunter.alo</Land_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UMP_ALARM_LIGHT">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>w_alarm_light.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_MOVING_DOOR">
 		<Text_ID>TEXT_DOOR</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_DOOR_TOOLTIP </Encyclopedia_Unit_Class>
 		<Variant_Of_Existing_Type>UMP_MOVING_DOOR</Variant_Of_Existing_Type>
 		<Scale_Factor>3.5</Scale_Factor>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_Moving_Door_Threshold">
 		<Variant_Of_Existing_Type>Empire_Wall</Variant_Of_Existing_Type>
 		<Land_Model_Name>EB_CIN_BaseWall-thresh.alo</Land_Model_Name>
@@ -1766,7 +1766,7 @@
 		<Tactical_Health>1500</Tactical_Health>
 		<Affiliation>Empire</Affiliation>
     </Props_Story>
-    
+
     <Props_Story Name="UM05_FALSE_WALL">
 		<GUI_Bounds_Scale>2</GUI_Bounds_Scale>
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -1791,7 +1791,7 @@
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>     
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
         <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
@@ -1801,7 +1801,7 @@
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_ADEPTGENERIC">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
@@ -1816,7 +1816,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, IMPOSING_PRESENCE, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Garrison_Category> Infantry </Garrison_Category>
-		
+
 		<!-- Lightsaber holstering data -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
 		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
@@ -1856,7 +1856,7 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
         <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
-		
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -1905,7 +1905,7 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
-		
+
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<AI_Combat_Power>600</AI_Combat_Power>
 
@@ -1927,18 +1927,18 @@
 		<Variant_Of_Existing_Type>PROP_URBAN_BLOCK_A</Variant_Of_Existing_Type>
 		<LandBehavior> IDLE </LandBehavior>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_ADEPTONE">
 		<Variant_Of_Existing_Type>UM05_ADEPTGENERIC</Variant_Of_Existing_Type>
 		<Tactical_Health>185</Tactical_Health>
  		<Lua_Script>UM11_ForceAdeptOne</Lua_Script>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_ADEPTONECINE">
 		<Variant_Of_Existing_Type>UM05_ADEPTGENERIC</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_ADEPTTWO">
 		<Variant_Of_Existing_Type>UM05_ADEPTGENERIC</Variant_Of_Existing_Type>
 		<Tactical_Health>125</Tactical_Health>
@@ -1949,7 +1949,7 @@
 		<Variant_Of_Existing_Type>UM05_ADEPTGENERIC</Variant_Of_Existing_Type>
 		<Tactical_Health>125</Tactical_Health>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_ADEPTTHREE">
 		<Variant_Of_Existing_Type>UM05_ADEPTGENERIC</Variant_Of_Existing_Type>
 		<Tactical_Health>150</Tactical_Health>
@@ -1960,7 +1960,7 @@
 		<Variant_Of_Existing_Type>UM05_ADEPTGENERIC</Variant_Of_Existing_Type>
 		<Tactical_Health>250</Tactical_Health>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_ADEPTFOUR">
 		<Variant_Of_Existing_Type>UM05_ADEPTGENERIC</Variant_Of_Existing_Type>
 		<Scale_Factor>2</Scale_Factor>
@@ -1992,7 +1992,7 @@
 		<Tactical_Health>1000</Tactical_Health>
 		<Max_Speed>.35</Max_Speed>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_Power_Node">
 		<Text_ID>TEXT_POWERNODE</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_POWERNODE </Encyclopedia_Unit_Class>
@@ -2002,19 +2002,19 @@
 		<Tactical_Health>5</Tactical_Health>
 		<Affiliation>Empire</Affiliation>
 		<Scale_Factor>1</Scale_Factor>
-		
+
 		<Land_Damage_Thresholds>1, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>false</Remove_Upon_Death>
     </Props_Story>
-    
+
 	<Props_Story Name="UMP_PRISON_BARS">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_prison_bars.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UM05_GRATE">
@@ -2022,7 +2022,7 @@
 		<Land_Model_Name>W_prison_bars.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 <!-- jdg : um06 props..., Governor's_Quarters, Guard_Tower -->
@@ -2052,11 +2052,11 @@
 		<Size_Value>50</Size_Value>
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
-		
+
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
-		
+
 		<Select_Box_Scale>100</Select_Box_Scale>
-		
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -2078,13 +2078,13 @@
 		<GUI_Bracket_Width>40</GUI_Bracket_Width>
 		<GUI_Bracket_Height>0</GUI_Bracket_Height>
 
-		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		
+
 		<!-- The ground structures have this data which looks like it's space only because the
 		snowspeeders are using space style pathfinding which needs this information so that we won't
 		path speeders through structures -->
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
@@ -2098,7 +2098,7 @@
 
 		<Score_Cost_Credits> 2000 </Score_Cost_Credits>
 	</Props_Story>
-	
+
 	<!--jdg needed a version of the shuttle that does not get hidden by the fog  -->
 	<Props_Story Name="UM06_Landing_Shuttle">
 		<Variant_Of_Existing_Type>Underworld_Hero_Shuttle</Variant_Of_Existing_Type>
@@ -2110,7 +2110,7 @@
 		<Has_Space_Evaluator>False</Has_Space_Evaluator>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="Prop_Guard_Tower">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>EB_GuardTower.alo</Land_Model_Name>
@@ -2121,7 +2121,7 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 	</Props_Story>
-	
+
 	<Props_Story Name="Prop_Silri_Prison">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
@@ -2131,107 +2131,107 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
 	</Props_Story>
-	
+
 	<Props_Story Name="Prop_Rancor_Cave">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>NB_Rancor_cave.alo</Land_Model_Name>
 		<Icon_Name>i_button_NB_Rancor_cave.tga</Icon_Name>
 		<Is_Decoration>No</Is_Decoration>
 	</Props_Story>
-	
+
 	<Props_Story Name="Prop_Dathomir_Bridge">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_DathBridge.alo</Land_Model_Name>
 		<Is_Decoration>No</Is_Decoration>
 		<Scale_Factor>2</Scale_Factor>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_OFFICERS_QUARTERS">
 		<Variant_Of_Existing_Type>E_Ground_Officer_Academy</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<IsBuildable>No</IsBuildable>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET</LandBehavior>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_Prisoner_Geonosian">
 		<Variant_Of_Existing_Type>Geonosian_Civ_Company</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_Prisoner_Rebel_Infantry">
 		<Variant_Of_Existing_Type>Rebel_Infantry_Squad</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_Prisoner_Rebel_Tank_Buster">
 		<Variant_Of_Existing_Type>Rebel_Tank_Buster_Squad</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_Prisoner_Pirate_Soldier">
 		<Variant_Of_Existing_Type>Pirate_Soldier_Squad</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_Prisoner_Pirate_PLEX">
 		<Variant_Of_Existing_Type>Pirate_PLEX_Squad</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_Prisoner_Ewok">
 		<Variant_Of_Existing_Type>Endor_Ewok_Hunting_Party</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_Prisoner_Gungan">
 		<Variant_Of_Existing_Type>Naboo_Gungan_Warrior_Troop</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_Prisoner_Wookie">
 		<Variant_Of_Existing_Type>Kashyyyk_Wookie_War_Party</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_Prisoner_Jawa_Scout">
 		<Variant_Of_Existing_Type>Tatooine_Jawa_Scout_Team</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_Prisoner_Mon_Calamari_Civ">
 		<Variant_Of_Existing_Type>Mon_Calamari_Civ_Company</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_Prisoner_Bothan_Civ">
 		<Variant_Of_Existing_Type>Bothan_Civ_Company</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_Prisoner_Sullustan_Civ">
 		<Variant_Of_Existing_Type>Sullustan_Civ_Company</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM06_Prisoner_Ewok_Handler">
 		<Variant_Of_Existing_Type>Underworld_Ewok_Handler_Company</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Tech_Level>9</Tech_Level>
 	</Props_Story>
-	
+
 <!-- jdg : um07 props..., cloud car flyover -->
 	<Props_Story Name="UM07_Cloud_City_Flyover">
 		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
 		<LandBehavior>REVEAL</LandBehavior>
 		<Affiliation>Neutral</Affiliation>
 		<Land_Model_Name>w_cloud_car.alo</Land_Model_Name>
-		
+
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Cinematic_Object_Only> YES </Cinematic_Object_Only>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Pause_During_Cinematic_Anim>no</Pause_During_Cinematic_Anim>
-		<Cinematic_Anim_Speed>1.0</Cinematic_Anim_Speed> 
+		<Cinematic_Anim_Speed>1.0</Cinematic_Anim_Speed>
 		<Cinematic_Anim_Blend_Seconds>1.0</Cinematic_Anim_Blend_Seconds>
 		<Cinematic_Anim_Index>00</Cinematic_Anim_Index>
 
@@ -2241,37 +2241,37 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Cloud_Car_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 	</Props_Story>
-	
+
 	<Props_Story Name="UM07_CloudCity_Refinery">
 		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
-		<LandBehavior>SELECTABLE, REVEAL</LandBehavior> 
+		<LandBehavior>SELECTABLE, REVEAL</LandBehavior>
 		<Text_ID>TEXT_TOOLTIP_STRUCTURE_TIB_REFINERY</Text_ID>
 		<Icon_Name>i_button_w_bespin_refinery.tga</Icon_Name>
 		<Land_Model_Name>w_bespin_refinery.alo</Land_Model_Name>
 		<Is_Decoration>No</Is_Decoration>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE </Encyclopedia_Unit_Class>
-		
+
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Cinematic_Object_Only> YES </Cinematic_Object_Only>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Pause_During_Cinematic_Anim>no</Pause_During_Cinematic_Anim>
-		<Cinematic_Anim_Speed>1.0</Cinematic_Anim_Speed> 
+		<Cinematic_Anim_Speed>1.0</Cinematic_Anim_Speed>
 		<Cinematic_Anim_Blend_Seconds>1.0</Cinematic_Anim_Blend_Seconds>
 		<Cinematic_Anim_Index>00</Cinematic_Anim_Index>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM07_Interface_Node">
 		<Text_ID>TEXT_TOOLTIP_STRUCTURE_SECURITY_OUTPOST</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_SECURITY_OUTPOST </Encyclopedia_Unit_Class>
 		<Land_Model_Name>W_Prison_Terminal.alo</Land_Model_Name>
 		<!--  <Variant_Of_Existing_Type>UM02_Interface_Node</Variant_Of_Existing_Type>
-		
+
 		<Scale_Factor>1</Scale_Factor>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>10</Tactical_Health>-->
 		<Affiliation>Empire</Affiliation>
 		<Property_Flags>NotOpportunityTarget</Property_Flags>
-		
+
 		<Behavior>UNIT_AI, DUMMY_TOOLTIP</Behavior>
     </Props_Story>
 
@@ -2294,7 +2294,7 @@
 		<Land_Model_Name>W_Prop_DeadMen_A.alo</Land_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
 
 	<Props_Story Name="UMP_DEADATST1">
@@ -2302,34 +2302,34 @@
 		<Land_Model_Name>W_Prop_DeadAT-ST_A.alo</Land_Model_Name>
 		<Scale_Factor>1.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UMP_DEADATST2">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_Prop_DeadAT-ST_B.alo</Land_Model_Name>
 		<Scale_Factor>1.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM02_CONVEYOR">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Behavior>IDLE</Behavior>
 		<Land_Model_Name>w_droidconvey_a.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UMP_DEADTROOPER">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_PropDeadST.alo</Land_Model_Name>
 		<Scale_Factor>1.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_Museum_Patron_A">
 		<Variant_Of_Existing_Type>Twilek_Female</Variant_Of_Existing_Type>
 		<Land_Model_Name>NI_Twilek_F_nogun.ALO</Land_Model_Name>
@@ -2338,7 +2338,7 @@
 		<SFXEvent_Engine_Idle_Loop> Unit_Riot_Infantry_Loop_Low </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Riot_Infantry_Loop </SFXEvent_Engine_Moving_Loop>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_Museum_Patron_B">
 		<Variant_Of_Existing_Type>Twilek_Female</Variant_Of_Existing_Type>
 		<Land_Model_Name>NI_Gmale_Urban_C_nogun.ALO</Land_Model_Name>
@@ -2347,7 +2347,7 @@
 		<SFXEvent_Engine_Idle_Loop> Unit_Riot_Infantry_Loop_Low </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Riot_Infantry_Loop </SFXEvent_Engine_Moving_Loop>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_Museum_Patron_C">
 		<Variant_Of_Existing_Type>Twilek_Female</Variant_Of_Existing_Type>
 		<Land_Model_Name>NI_MonCalCiv_nogun.ALO</Land_Model_Name>
@@ -2356,7 +2356,7 @@
 		<SFXEvent_Engine_Idle_Loop> Unit_Riot_Infantry_Loop_Low </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Riot_Infantry_Loop </SFXEvent_Engine_Moving_Loop>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_Museum_Patron_D">
 		<Variant_Of_Existing_Type>Twilek_Female</Variant_Of_Existing_Type>
 		<Land_Model_Name>NI_Sullustan_nogun.ALO</Land_Model_Name>
@@ -2365,11 +2365,11 @@
 		<SFXEvent_Engine_Idle_Loop> Unit_Riot_Infantry_Loop_Low </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Riot_Infantry_Loop </SFXEvent_Engine_Moving_Loop>
 	</Props_Story>
-	
+
 	<!--jdg using in um12 -->
 	<Props_Story Name="UM12_Marker_Healing">
 		<Variant_Of_Existing_Type>Marker_Generic_Purple</Variant_Of_Existing_Type>
-		
+
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -2399,24 +2399,24 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</Props_Story>
-	
-	
-	
-	
+
+
+
+
 	<Props_Story Name="UM12_SUPER_STAR_DESTROYER">
 		<!--<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer</Variant_Of_Existing_Type>-->
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_ANNIHILATOR </Encyclopedia_Text>
 		<Text_ID>TEXT_TOOLTIP_ANNIHILATOR</Text_ID>
 		<Layer_Z_Adjust>-600.0</Layer_Z_Adjust>
-		
-		
-		
+
+
+
 		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
 
-		
+
 		<Encyclopedia_Good_Against> Calamari_Cruiser Rebel_Star_Base_5 Krayt_Class_Destroyer </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Y-wing B-Wing Skipray_Blastboat </Encyclopedia_Vulnerable_To>
-	
+
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SSD </Encyclopedia_Unit_Class>
 
         <Custom_Hard_XExtent> 100.0 </Custom_Hard_XExtent>
@@ -2437,7 +2437,7 @@
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		
+
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Armor_Type> Armor_SSD </Armor_Type>
 		<Shield_Armor_Type> Shield_SSD </Shield_Armor_Type>
@@ -2450,7 +2450,7 @@
 		<Bank_Turn_Angle>3</Bank_Turn_Angle>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
-		
+
 		<Max_Thrust>0.05</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
@@ -2464,9 +2464,9 @@
 		<Damage>70</Damage>
 		<Autoresolve_Health>18000</Autoresolve_Health>
 		<Shield_Points>7000</Shield_Points>
-		
+
 		<Tactical_Health>9000</Tactical_Health>
-		
+
 		<Shield_Refresh_Rate>150</Shield_Refresh_Rate>
 		<Energy_Capacity>99000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
@@ -2480,20 +2480,20 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
-		
+
 		<!-- Fighter Spawners -->
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 16</Reserve_Spawned_Units_Tech_0>
-		
+
 		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 6</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 24</Reserve_Spawned_Units_Tech_0>
-			
+
 		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 16</Reserve_Spawned_Units_Tech_0>
-		
+
 		<Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron, 5</Reserve_Spawned_Units_Tech_0>
-		
+
 		<Spawned_Squadron_Delay_Seconds>8</Spawned_Squadron_Delay_Seconds>
 
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -2553,8 +2553,8 @@
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Vader_Executor</SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Vader_Executor </SFXEvent_Health_Critical_Warning>   
-		
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Vader_Executor </SFXEvent_Health_Critical_Warning>
+
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
@@ -2567,7 +2567,7 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Build_Complete>Unit_Respawn_Vader_Executor</SFXEvent_Build_Complete>
 		<SFXEvent_Hero_Respawned>Unit_Respawn_Vader_Executor</SFXEvent_Hero_Respawned>
-		
+
 		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Ambient_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Ambient_Loop>
 		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
@@ -2581,7 +2581,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		 
+
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
@@ -2625,7 +2625,7 @@
 
 	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
 	            <Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
-	            <Stacking_Category>0</Stacking_Category>            
+	            <Stacking_Category>0</Stacking_Category>
 	      </Tractor_Beam_Attack_Ability>
 	   </Abilities>
 
@@ -2640,13 +2640,13 @@
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</Props_Story>
-	
+
 	<Props_Story Name="UM12_STAR_BASE">
 		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
 		<Text_ID>TEXT_EMPIRE_STAR_BASE_5</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STATION5 TEXT_TOOLTIP_GARRISON_ES_05</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
-		
+
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>EB_STATION_05.ALO</Space_Model_Name>
@@ -2683,7 +2683,7 @@
 
 		<Armor_Type> Armor_Station </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
-		
+
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 
 		<Starting_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, 5</Starting_Spawned_Units_Tech_0>
@@ -2691,7 +2691,7 @@
 
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-		
+
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
 				ES_Enhanced_Reactors_L1_Upgrade,
@@ -2711,7 +2711,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-		
+
 		<HardPoints>
 			HP_Empire_Station_One_00,
 			HP_Empire_Station_One_01,
@@ -2771,10 +2771,10 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 		<Custom_Soft_Footprint_Radius> 250 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> StaticObject </Space_Layer>
 		<Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
-		
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
         <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Radar_Icon_Name>i_radar_station5_e.tga</Radar_Icon_Name>
@@ -2782,7 +2782,7 @@
 		<Radar_Icon_Scale_Space>1.3</Radar_Icon_Scale_Space>
 		<Radar_Icon_Size>0.16  0.16</Radar_Icon_Size>
 		<Radar_Rotate_Icon>Yes</Radar_Rotate_Icon>
-		
+
 		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
 		<Score_Cost_Credits> 24000</Score_Cost_Credits>
 		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_5_Empire</Retreat_Self_Destruct_Explosion>
@@ -2791,19 +2791,19 @@
 		<Additional_Population_Capacity>17</Additional_Population_Capacity>
 	</Props_Story>
 
-	
+
 	<Props_Story Name="UM12_Boarding_Shuttle">
 		<Text_ID>TEXT_UW_ACT03_M12_SHUTTLE_TEXT</Text_ID>
 		<Encyclopedia_Text>TEXT_UW_ACT03_M12_SHUTTLE_ENCYLOPEDIA_TEXT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
-		
+
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UV_RZ-52BoardingShip.ALO</Space_Model_Name>
 		<Mass>0.9995</Mass>
 		<Scale_Factor>.5</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Tech_Level>6</Tech_Level> <!-- Modded by Chris R. for MP -->
-		
+
         <Ranking_In_Category>7</Ranking_In_Category>
 		<Max_Speed>2.75</Max_Speed>
 		<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
@@ -2871,18 +2871,18 @@
 		<SFXEvent_Attack>Unit_Attack_Cloaking_Transport</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Cloaking_Transport</SFXEvent_Guard>
 		<SFXEvent_Turret_Rotating_Loop> Vehicle_Turret_Motor </SFXEvent_Turret_Rotating_Loop>
-		<SFXEvent_Assist_Move> Unit_Assist_Cloaking_Transport </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Move> Unit_Assist_Cloaking_Transport </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Cloaking_Transport</SFXEvent_Assist_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Engine_Idle_Loop> Unit_T2B_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_T2B_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Unit_Lost> UHD_Unit_Destroyed </SFXEvent_Unit_Lost>
-		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		 
+
 		<MovementClass> Space </MovementClass>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>400.0</Idle_Chase_Range>
@@ -2891,16 +2891,16 @@
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-		
-		
+
+
 		<Score_Cost_Credits> 1200</Score_Cost_Credits>
 		<Population_Value>2</Population_Value>
-	
+
 		<Tactical_Bribe_Cost>500</Tactical_Bribe_Cost>
-		
-	
+
+
 	</Props_Story>
-	
+
 	<Props_Story Name="UMP_CINE_TYBERBED">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>w_jail_bed.alo</Land_Model_Name>
@@ -2913,9 +2913,9 @@
 		<Land_Model_Name>w_jail_bed_tyber.alo</Land_Model_Name>
 		<Scale_Factor>1.75</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UMP_CINE_TYBERSITTING">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>ui_tyber_in_jail.alo</Land_Model_Name>
@@ -2923,7 +2923,7 @@
 		<Is_Decoration>No</Is_Decoration>
 		<LandBehavior>ABILITY_COUNTDOWN, IDLE, UNIT_AI, DAMAGE_TRACKING </LandBehavior>
 	</Props_Story>
-	
+
 	<Props_Story Name="UMP_CINE_HOLOURAI">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>w_urai_hologram.alo</Land_Model_Name>
@@ -2931,7 +2931,7 @@
 		<Is_Decoration>No</Is_Decoration>
 		<LandBehavior>ABILITY_COUNTDOWN, IDLE, UNIT_AI, DAMAGE_TRACKING </LandBehavior>
 	</Props_Story>
-	
+
 	<Props_Story Name="UMP_CINE_HOLOJABBA">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_jaba.alo</Land_Model_Name>
@@ -2946,7 +2946,7 @@
         <Dynamic_Transform_Start_Color>1.0, 1.0, 1.0, .90</Dynamic_Transform_Start_Color>
         <Dynamic_Transform_End_Color>1.0, 1.0, 1.0, .9</Dynamic_Transform_End_Color>
 	</Props_Story>
-	
+
 	<Props_Story Name="UMP_CINE_MOUSEDROID">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_Mousedroid_solo.alo</Land_Model_Name>
@@ -2979,13 +2979,13 @@
 		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		
+
 		<SFXEvent_Engine_Moving_Loop> Unit_Mouse_Droid_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		
+
 		<SFXEvent_Ambient_Moving> Unit_Random_Mouse_Droid </SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 1 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 1 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
-		
+
 		<Death_SFXEvent_Start_Die>Unit_Death_Mouse_Droid</Death_SFXEvent_Start_Die>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -2993,44 +2993,44 @@
 		<Overall_Length>5.0</Overall_Length> 	<!-- For vehicle pitching up and down on terrain (35 by geometry) -->
 		<Overall_Width>5.0</Overall_Width> 		<!-- For vehicle rolling left and right on terrain (30 by geometry)-->
 	</Props_Story>
-	
+
 <!--  Corruption Objective Props -->
-	
+
 	<Props_Story Name="Govenor_Koong_Empire">
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_GOVERNOR_KOONG</Encyclopedia_Text>
 		<Affiliation>Empire</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Govenor_Koong_Rebel">
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_GOVERNOR_KOONG</Encyclopedia_Text>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Govenor_Koong_Hutt">
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_GOVERNOR_KOONG</Encyclopedia_Text>
 		<Affiliation>Hutts</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Bevel_Lemelisk_Empire">
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_BEVEL_LEMELISK</Encyclopedia_Text>
 		<Affiliation>Empire</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Bevel_Lemelisk_Rebel">
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_BEVEL_LEMELISK</Encyclopedia_Text>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Spaceport_Director_Empire">
 		<Variant_Of_Existing_Type>Hutt_Field_Commander</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
@@ -3041,7 +3041,7 @@
 		<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 		<Scale_Factor>2.2</Scale_Factor>
 	</Props_Story>
-	
+
 	<Props_Story Name="Spaceport_Director_Rebel">
 		<Variant_Of_Existing_Type>Hutt_Field_Commander</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
@@ -3052,21 +3052,21 @@
 		<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 		<Scale_Factor>2.2</Scale_Factor>
 	</Props_Story>
-	
+
 	<Props_Story Name="Chairman_Sanhill_Empire">
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CHAIRMAN_SANHILL</Encyclopedia_Text>
 		<Affiliation>Empire</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Chairman_Sanhill_Rebel">
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CHAIRMAN_SANHILL</Encyclopedia_Text>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Admiral_KendalOzzel_Empire">
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</LandBehavior>
@@ -3075,7 +3075,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_KENDALOZZEL</Encyclopedia_Text>
 		<Affiliation>Empire</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Admiral_KendalOzzel_Rebel">
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</LandBehavior>
@@ -3084,22 +3084,22 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_KENDALOZZEL</Encyclopedia_Text>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
-	
+
+
 	<Props_Story Name="Communication_Satellite_Empire">
 		<Variant_Of_Existing_Type>E_Orbital_Jamming_Station</Variant_Of_Existing_Type>
 		<Tactical_Health>300</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STRUCTURE_COMMUNICATION_SATELLITE</Encyclopedia_Text>
 		<Affiliation>Empire</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Communication_Satellite_Rebel">
 		<Variant_Of_Existing_Type>E_Orbital_Jamming_Station</Variant_Of_Existing_Type>
 		<Tactical_Health>300</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STRUCTURE_COMMUNICATION_SATELLITE</Encyclopedia_Text>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Communication_Satellite_Story">
 		<Variant_Of_Existing_Type>Communication_Satellite_Rebel</Variant_Of_Existing_Type>
 		<Tactical_Health>10000</Tactical_Health>
@@ -3107,23 +3107,23 @@
 		<Is_Valid_Target>False</Is_Valid_Target>
 		<Affiliation>Neutral</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Food_Commissioner_Empire">
 		<Variant_Of_Existing_Type>Swamp_Civilian_A</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_FOOD_COMMISSIONER</Encyclopedia_Text>
 		<Affiliation>Empire</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Food_Commissioner_Rebel">
 		<Variant_Of_Existing_Type>Swamp_Civilian_A</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_FOOD_COMMISSIONER</Encyclopedia_Text>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
-	
-	
+
+
+
 	<Props_Story Name="Twitch_Rebel">
 		<Variant_Of_Existing_Type>Gungan_Warrior</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_TWITCH</Text_ID>
@@ -3132,7 +3132,7 @@
 		<Tactical_Health>200</Tactical_Health>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Twitch_Empire">
 		<Variant_Of_Existing_Type>Gungan_Warrior</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_TWITCH</Text_ID>
@@ -3141,7 +3141,7 @@
 		<Tactical_Health>200</Tactical_Health>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Keldalbe_Prototype">
 		<Variant_Of_Existing_Type>Kedalbe_Battleship</Variant_Of_Existing_Type>
 		<Tactical_Health>450</Tactical_Health>
@@ -3152,7 +3152,7 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Score_Cost_Credits> 0 </Score_Cost_Credits>
 	</Props_Story>
-	
+
 	<Props_Story Name="UM05_CINE_HOLOCRON">
 		<Text_ID>TEXT_SITH_HOLOCRON</Text_ID>
 		<Encyclopedia_Text> TEXT_SITH_HOLOCRON_TOOLTIP </Encyclopedia_Text>
@@ -3160,7 +3160,7 @@
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 	</Props_Story>
-	
+
 	<Props_Story Name="Noghri_Spawn_House_Empire">
 		<Variant_Of_Existing_Type>Noghri_Spawn_House</Variant_Of_Existing_Type>
 		<Is_Branched_Map_Discardable>True</Is_Branched_Map_Discardable>
@@ -3174,25 +3174,25 @@
 		<Affiliation>Rebel</Affiliation>
 		<Scale_Factor>1.35</Scale_Factor>
 	</Props_Story>
-	
+
 	<Props_Story Name="Hutts_Base_Shield_Small">
 		<Variant_Of_Existing_Type>R_GROUND_BASE_SHIELD_SMALL</Variant_Of_Existing_Type>
 		<Is_Branched_Map_Discardable>True</Is_Branched_Map_Discardable>
 		<Affiliation>Hutts</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Hutts_Power_Gen">
 		<Variant_Of_Existing_Type>POWER_GENERATOR_R</Variant_Of_Existing_Type>
 		<Is_Branched_Map_Discardable>True</Is_Branched_Map_Discardable>
 		<Affiliation>Hutts</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Hutts_Spawn_House_Hutt">
 		<Variant_Of_Existing_Type>Hutt_Spawn_House</Variant_Of_Existing_Type>
 		<Is_Branched_Map_Discardable>True</Is_Branched_Map_Discardable>
 		<Affiliation>Hutts</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Hutts_Spawn_House_Empire">
 		<Variant_Of_Existing_Type>Hutt_Spawn_House</Variant_Of_Existing_Type>
 		<Is_Branched_Map_Discardable>True</Is_Branched_Map_Discardable>
@@ -3204,7 +3204,7 @@
 		<Is_Branched_Map_Discardable>True</Is_Branched_Map_Discardable>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Spaceport_Director_Hutts">
 		<Variant_Of_Existing_Type>Hutt_Field_Commander</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
@@ -3214,7 +3214,7 @@
 		<Idle_Chase_Range>100.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
 	</Props_Story>
-	
+
 	<Props_Story Name="Twilek_Spawn_House_Empire">
 		<Variant_Of_Existing_Type>Twilek_Spawn_House</Variant_Of_Existing_Type>
 		<Is_Branched_Map_Discardable>True</Is_Branched_Map_Discardable>
@@ -3226,14 +3226,14 @@
 		<Is_Branched_Map_Discardable>True</Is_Branched_Map_Discardable>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Fleet_Commander_Empire">
 		<Variant_Of_Existing_Type>GENERIC_FIELD_COMMANDER_EMPIRE</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_FLEET_COMMANDER_MALINTH</Encyclopedia_Text>
 		<Affiliation>Empire</Affiliation>
 	</Props_Story>
-	
+
 
 	<Props_Story Name="AlzocIII_Prize_Shaak">
 		<Variant_Of_Existing_Type>SHAAK</Variant_Of_Existing_Type>
@@ -3248,18 +3248,18 @@
 		<!--<Death_Clone>Damage_Normal, AlzocIII_Prize_Shaak_Death_Clone</Death_Clone>-->
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>1.0</Death_Persistence_Duration>
-		
+
 	</Props_Story>
-	
+
 	<Props_Story Name="AlzocIII_Prize_Shaak_Death_Clone">
 		<Variant_Of_Existing_Type>AlzocIII_Prize_Shaak</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
-		
-		
-	</Props_Story>
-	
 
-	
+
+	</Props_Story>
+
+
+
 	<Props_Story Name="AlzocIII_Prize_Shaak_Head">
 		<!--<Variant_Of_Existing_Type>UM05_PROP_KRAYTHEAD</Variant_Of_Existing_Type>-->
 		<Land_Model_Name> W_Shaakskull.ALO </Land_Model_Name>
@@ -3268,7 +3268,7 @@
 		<Affiliation>Neutral</Affiliation>
 		<LandBehavior>HIDE_WHEN_FOGGED, TARGETING</LandBehavior>
 	</Props_Story>
-	
+
 	<SpaceStructure Name="Stygium_Crystal_Storage_Container">
 		<Variant_Of_Existing_Type>Orbital_Resource_Container</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_TOOLTIP_STRUCTURE_STYGIUM_CRYSTAL_CONTAINER</Text_ID>
@@ -3278,9 +3278,9 @@
 		<Death_Projectiles>Proj_Construction_Pod_Detonation_Underworld_Immune</Death_Projectiles>
 		<Affiliation>Empire, Rebel, Underworld</Affiliation>
 	</SpaceStructure>
-	
-	
-	
+
+
+
 	<Props_Story Name="Weak_SpaceDock_Empire">
 		<Variant_Of_Existing_Type>EMPIRE_DOCK_DESTROYABLE</Variant_Of_Existing_Type>
 		<Is_Branched_Map_Discardable>True</Is_Branched_Map_Discardable>
@@ -3294,22 +3294,22 @@
 		<Tactical_Health>2500</Tactical_Health>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Chairman_Arnama_Rebel">
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CHAIRMAN_ARNAMA</Encyclopedia_Text>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Chairman_Arnama_Empire">
 		<Variant_Of_Existing_Type>Desert_Civilian_A</Variant_Of_Existing_Type>
 		<Tactical_Health>200</Tactical_Health>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CHAIRMAN_ARNAMA</Encyclopedia_Text>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
-	
+
+
 	<Props_Story Name="Senator_Polos_Palace">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Text_ID>TEXT_ENCYLOPEDIA_STRUCTURE_BOTHAN_POLOS_HOUSE</Text_ID>
@@ -3325,12 +3325,12 @@
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Behavior>UNIT_AI, SELECTABLE</Behavior>
 		<LandBehavior>IDLE, SPACE_OBSTACLE, LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, DUMMY_TOOLTIP</LandBehavior>
-		
-	
-		
+
+
+
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<GUI_Hide_Health_Bar>false</GUI_Hide_Health_Bar>
-		
+
 		<Spawned_Indigenous_Units_Type>Bothan_Civilian</Spawned_Indigenous_Units_Type>
 		<Spawned_Indigenous_Units_Delay_Seconds>20.0</Spawned_Indigenous_Units_Delay_Seconds>
 		<Spawned_Indigenous_Units_Quantity>10</Spawned_Indigenous_Units_Quantity>
@@ -3374,16 +3374,16 @@
 
 
 		<GUI_Hide_Health_Bar>false</GUI_Hide_Health_Bar>
-		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> Frigate | Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<Score_Cost_Credits> 500 </Score_Cost_Credits>
 
 	</Props_Story>
-	
+
 	<Props_Story Name="Senator_Polo_SeLab">
 		<Variant_Of_Existing_Type>Bothan_Civilian</Variant_Of_Existing_Type>
 		<LandBehavior>WALK_LOCOMOTOR, IDLE, SELECTABLE, TARGETING</LandBehavior>
@@ -3391,7 +3391,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_SENATOR_POLO_SELAB</Encyclopedia_Text>
 		<Affiliation>Rebel, Empire</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Fleet_Commander_Flankar_Empire">
 		<Variant_Of_Existing_Type>Generic_Field_Commander_Empire</Variant_Of_Existing_Type>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</LandBehavior>
@@ -3401,7 +3401,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_FLANKAR</Encyclopedia_Text>
 		<Affiliation>Empire</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Fleet_Commander_Flankar_Rebel">
 		<Variant_Of_Existing_Type>Generic_Field_Commander_Rebel</Variant_Of_Existing_Type>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</LandBehavior>
@@ -3411,7 +3411,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_FLANKAR</Encyclopedia_Text>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Garnak_Fey_Rebel">
 		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_TOOLTIP_UNIT_GARNAK_FEY</Text_ID>
@@ -3421,7 +3421,7 @@
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_UNIT_GARNAK_FEY</Encyclopedia_Text>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Garnak_Fey_Empire">
 		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_TOOLTIP_UNIT_GARNAK_FEY</Text_ID>
@@ -3431,7 +3431,7 @@
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_UNIT_GARNAK_FEY</Encyclopedia_Text>
 		<Affiliation>Empire</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Commander_Ral_Falan_Empire">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
 		<LandBehavior>WALK_LOCOMOTOR,IDLE, SELECTABLE</LandBehavior>
@@ -3439,7 +3439,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_COMMANDER_RAL_FALAN</Encyclopedia_Text>
 		<Affiliation>Empire</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Commander_Ral_Falan_Rebel">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
 		<LandBehavior>WALK_LOCOMOTOR,IDLE, SELECTABLE</LandBehavior>
@@ -3447,7 +3447,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_COMMANDER_RAL_FALAN</Encyclopedia_Text>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Ungarr_Daris_Rebel">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</LandBehavior>
@@ -3456,7 +3456,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_UNGARR_DARIS</Encyclopedia_Text>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Ungarr_Daris_Empire">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</LandBehavior>
@@ -3465,7 +3465,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_UNGARR_DARIS</Encyclopedia_Text>
 		<Affiliation>Empire</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Governor_Kirith_Rebel">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</LandBehavior>
@@ -3474,7 +3474,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_KIRITH</Encyclopedia_Text>
 		<Affiliation>Rebel</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Governor_Kirith_Empire">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</LandBehavior>
@@ -3483,7 +3483,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_KIRITH</Encyclopedia_Text>
 		<Affiliation>Empire</Affiliation>
 	</Props_Story>
-	
+
 	<Props_Story Name="Pirate_Asteroid_Non_Victory">
 		<Variant_Of_Existing_Type>Pirate_Asteroid_Base</Variant_Of_Existing_Type>
 		<Shield_Points>150</Shield_Points>
@@ -3491,7 +3491,7 @@
 		<Shield_Refresh_Rate>35</Shield_Refresh_Rate>
 		<Victory_Relevant>Yes</Victory_Relevant>
 	</Props_Story>
-	
+
 	<Props_Story Name="COR_TYBER_INTERCEPTOR">
 		<Variant_Of_Existing_Type>Interceptor4_Frigate</Variant_Of_Existing_Type>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRIMELORD </Encyclopedia_Unit_Class>
@@ -3500,7 +3500,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Tactical_Health>3000</Tactical_Health>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
-		
+
 		<SFXEvent_Select>Unit_Select_Tyber_Zann</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Tyber_Zann</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tyber_Zann</SFXEvent_Fleet_Move>
@@ -3513,16 +3513,16 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Tyber_Zann </SFXEvent_Health_Critical_Warning>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
     </Props_Story>
-    
+
 	<Props_Story Name="PROP_CORUSCANT_SKYDOME">
 	    <!-- this is a dead bounty hunter cine prop -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>w_sky_smog00.alo</Land_Model_Name>
 		<Scale_Factor>.35</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</Props_Story>
-	
+
 	<Props_Story Name="UMP_Small_Ramp">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UrbanHalfWall_Side.ALO</Land_Model_Name>
@@ -3532,7 +3532,7 @@
 		<Is_Decoration>No</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 	</Props_Story>
-	
+
 	<Props_Story Name="UMP_Small_Gear">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_Prop_PwrBox.ALO</Land_Model_Name>
@@ -3542,5 +3542,5 @@
 		<Is_Decoration>No</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 	</Props_Story>
-	
+
 </Props_Story>
