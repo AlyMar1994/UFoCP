@@ -44,6 +44,7 @@ v2.0.0.#### (##-##-2024) [FoC v1.121.]
 Ability Fixes:
 • "BARRAGE" prematurely stopped because the ability's invisible targeting marker died in the attack's splash damage; the marker can no longer die in tactical combat. (BUG #1)
 • "REMOVE_CORRUPTION_ABILITY" wouldn't appear in GC for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, or Mara Jade; the AI also wasn't aware that Ackbar, Darth Vader, and Thrawn could remove corruption.  Multiple units weren't defined correctly in the AI/GUI references, and Ackbar's Remove Corruption ability was added to the wrong unit.  While Jade nor Katarn are available in Galactic Conquest, all previously mentioned Remove Corruption abilities have been fully restored. (BUG #35)
+• Rebellion Orbital Bombardment would still be usable even when the Rebels didn't have ion-cannon-equipped ships in orbit.  The Calamari Cruiser and Home One - Admiral Ackbar are now the only ships that can orbitally bombard. (BUG #39)
 
 
 AI Fixes:
