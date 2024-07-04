@@ -76,6 +76,7 @@ Interface Fixes:
 • The Consortium used generic Black Sun Pirate icons when their planets were attacked without garrisons.  They now use their most generic arsenal icon for space and land (StarVipers or Mercenary Infantry, respectively). (BUG #40)
 • The Dathomir Governor's Quarters from the campaign didn't use its unique tooltip icon despite having one in the interface GFX library, instead using the Imperial Prison icon. (BUG #54)
 • Guard Towers from the campaign didn't use a tooltip icon despite having one in the interface GFX library. (BUG #55)
+• The IPV-1 Patrol Craft didn't have a ring when selecting it in combat. (BUG #83)
 • Shaaks didn't use a tooltip icon despite having one in the interface GFX library. (BUG #90)
 • Han Solo & Chewbacca's GC tooltip didn't indicate if the unit could capture build pads. (BUG #92)
 • Yoda's tooltips didn't indicate if the unit could capture build pads. (BUG #93)
