@@ -22,7 +22,7 @@
 	<File>Props\SpaceProps.xml</File>
 	<File>SpaceUnitsCapital.xml</File>
 	<File>SpaceUnitsFighters.xml</File>
-	<File>SpaceUnitsCorvettes.xml</File>
+	<File>Units\SpaceUnitsCorvettes.xml</File>
 	<File>SpaceUnitsFrigates.xml</File>
 	<File>SpaceUnitsSupers.xml</File>
 	<File>SpacePrimarySkydomes.xml</File>
@@ -38,7 +38,7 @@
 
 	<File>LandBombingRunUnits.xml</File>
 
-	<File>SpecialStructures.xml</File>
+	<File>Structures\SpecialStructures.xml</File>
 	<File>Structures\StarBases.xml</File>
 
 	<File>Squadrons.xml</File>
@@ -56,7 +56,7 @@
 
 	<File>MiscObjects.xml</File>
 	<File>UpgradeObjects.xml</File>
-	<File>STRUCTURES\SecondaryStructures.xml</File>
+	<File>SecondaryStructures.xml</File>
 
 	<File>Props_Temperate.xml</File>
 	<File>Props_Swamp.xml</File>
@@ -66,7 +66,7 @@
 	<File>Props_Desert.xml</File>
 	<File>Props_Urban.xml</File>
 	<File>Props_Generic.xml</File>
-	<File>Props_Story.xml</File>
+	<File>Props\Props_Story.xml</File>
 
 	<File>CIN_SpaceUnitsCapital.xml</File>
 	<File>CIN_SpaceUnitsFighters.xml</File>
@@ -168,7 +168,7 @@
 	<File>GroundStructures_Underworld.xml</File>
 	<File>Units\Mobile_Defense_Units.XML</File>
 	<File>Multiplayer_Structure_Markers.XML</File>
-	<File>Modifiers\Consortium\UpgradeObjects_Underworld.XML</File>
+	<File>Modifiers\UpgradeObjects_Underworld.XML</File>
 	<File>Units\Consortium\Corruption_Special_Units.XML</File>
 
 
