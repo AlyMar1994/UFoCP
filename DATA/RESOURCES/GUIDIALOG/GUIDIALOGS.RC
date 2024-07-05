@@ -4741,7 +4741,7 @@ BEGIN
                     WS_TABSTOP,448,496,50,50
     CONTROL         "",IDC_TECHTREE_Vengeance_Frigate,
                     "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,666,429,50,50
-    CONTROL         "",IDC_TECHTREE_Kedalbe_Battleship,
+    CONTROL         "",IDC_TECHTREE_Krayt_Class_Destroyer,
                     "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,666,496,50,50
     CONTROL         "",IDC_TECHTREE_Starviper_Fighter,
                     "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,326,428,50,50
@@ -4755,7 +4755,7 @@ BEGIN
                     "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,767,348,62,62
     CONTROL         "",IDC_DOWN_ARROW27,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
                     792,407,14,45
-    CONTROL         "",IDC_TECHTREE_Krayt_Class_Destroyer,
+    CONTROL         "",IDC_TECHTREE_Kedalbe_Battleship,
                     "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,775,429,50,50
     CONTROL         "",IDC_TECHTREE_Underworld_Star_Base_1,
                     "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,319,348,62,62
@@ -4802,10 +4802,10 @@ BEGIN
                     WS_TABSTOP,455,167,50,50
     CONTROL         "",IDC_TECHTREE_Vengeance_Frigate,
                     "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,684,101,50,50
-    CONTROL         "",IDC_TECHTREE_Kedalbe_Battleship,
+    CONTROL         "",IDC_TECHTREE_Krayt_Class_Destroyer,
                     "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,684,167,50,50
     GROUPBOX        "Static",IDC_STATIC,18,253,264,79
-    CONTROL         "",IDC_TECHTREE_Krayt_Class_Destroyer,
+    CONTROL         "",IDC_TECHTREE_Kedalbe_Battleship,
                     "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,792,101,50,50
 END
 
