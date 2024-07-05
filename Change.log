@@ -99,6 +99,7 @@ Interface Fixes:
 • Planets corrupted via Piracy didn't have a corruption icon next to the planet like all other corruption types because one was never created. (BUG #161)
 • Pirate Soldier Mobs used in Campaign mission #6 "Dark Ally" had their tooltip description set as their unit class, and their unit container didn't have a description at all. (BUG #171)
 • Consortium capital ships (the Keldabe & Aggressor-class) didn't have a unique radar icon like the Rebels (Oval/Circle) or the Empire's (triangle) capital ships.  They now use a rectangle based off both ships' forward hull. (BUG #180)
+• The Consortium's tech tree window had the space station level requirements for the Aggressor-class and Keldabe-class swapped, implying you could build the Keldabe at station level 4 instead of 5 (and the Aggressor-class at station level 5 instead of 4). (BUG #183)
 
 
 Map/Planet Fixes:
