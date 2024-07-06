@@ -114,7 +114,7 @@ Map/Planet Fixes:
 • Alderaan's weather indicator wasn't updated from EaW and left as "rain" instead of "clear" (despite no longer being a planet); the asteroid field was also "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
 • The Death Star II would target Nal Hutta's moon because it used a scaled-down version of Coruscant's planet GFX.  The moon would explode, and upon returning to the map, magically reappear with Nal Hutta blown-up.  A new moon entry, "Nar_Shaddaa_Backdrop" (the name of the moon in lore) has been added to rectify the issue and been swapped into the map. (BUG #166)
 • Space Sullust's planet GFX used the generic desert model instead of the volcanic one; the intended model was misreferenced in the GFX definition, and the map itself used the desert model as a hotfix. (BUG #167)
-• Space Aeten II & its piracy mission's planet GFX used the generic desert model instead of the volcanic one; the intended model was misreferenced in the GFX definition, and the map itself used the desert model as a hotfix. (BUG #167)
+• Space Aeten II & its Piracy mission's planet GFX used the generic desert model instead of the volcanic one; the intended model was misreferenced in the GFX definition, and the map itself used the desert model as a hotfix.  For the Piracy mission, Petroglyph reused Mustafar's GFX, leading to further inconsistency. (BUG #167)
 
 
 Model Fixes:
