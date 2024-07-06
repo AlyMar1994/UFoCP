@@ -43,31 +43,31 @@ v2.0.0.#### (##-##-2024) [FoC v1.121.]
 
 Ability Fixes:
 • "BARRAGE" prematurely stopped because the ability's invisible targeting marker died in the attack's splash damage; the marker can no longer die in tactical combat. (BUG #1)
-• "REMOVE_CORRUPTION_ABILITY" wouldn't appear in GC for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, or Mara Jade; the AI also wasn't aware that Ackbar, Darth Vader, and Thrawn could remove corruption.  Multiple units weren't defined correctly in the AI/GUI references, and Ackbar's Remove Corruption ability was added to the wrong unit.  While Jade nor Katarn are available in Galactic Conquest, all previously mentioned Remove Corruption abilities have been fully restored. (BUG #35)
-• Rebellion Orbital Bombardment would still be usable even when the Rebels had Nebulon-Bs and Alliance Assault Frigates in orbit, two ship types without ion cannons; the Calamari Cruiser and Admiral Ackbar are now the only ships that can orbitally bombard. (BUG #39)
+• "REMOVE_CORRUPTION_ABILITY" wouldn't appear in GC for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, or Mara Jade; the AI also wasn't aware that Ackbar, Darth Vader, and Thrawn could remove corruption.  Multiple units weren't defined correctly in the AI/GUI references, and Ackbar's Remove Corruption ability was added to the wrong unit.  While Jade nor Katarn are available in GC, all previously mentioned Remove Corruption abilities have been fully restored. (BUG #35)
+• Rebellion Orbital Bombardment (ion cannon bombardment) would be available even when the Rebels have ships without ion cannons in orbit (Nebulon-Bs and Alliance Assault Frigates); the Calamari Cruiser and Home One are now the only ships that can orbitally bombard. (BUG #39)
 
 
 AI Fixes:
 • During certain conquering plans, the AI always slept 5 minutes after a victory/failure because of a coding mistake (the scripts couldn't find the player's Difficulty setting); the AI now sleeps for its appropriate cycles: 5 minutes on Easy, 3 minutes 30 seconds on Normal, and 45 seconds on Hard. (BUG #69)
 • The AI's blitzkrieg conquering plan "Crush" always cancelled before starting because of a coding mistake (the script couldn't find the player's Difficulty setting); the AI now continues the plan should the Difficulty be set to Hard. (BUG #79)
 • AI plans for when to buy anti-infantry turrets were outdated and never included the Consortium; the Consortium AI now considers if a friendly build pad and friendly mining facilities are nearby or near the enemy, and now knows the Proton Torpedo Turret is their designated anti-infantry turret. (BUG #114)
-• The AI wouldn't factor in Consortium Repulsorlift Jammers alongside other "tactically active" infrastructure to target when deciding which structures to attack. (BUG #115)
-• The AI wouldn't factor in Consortium turbolaser towers as structures to avoid when attacking buildings; Consortium turbolaser towers also weren't a part of the artillery infrastructure list to avoid or specifically target altogether. (BUG #116)
+• AI plans wouldn't factor in Consortium Repulsorlift Jammers alongside other "tactically active" infrastructure to target when deciding which structures to attack. (BUG #115)
+• AI plans wouldn't factor in Consortium turbolaser towers as structures to avoid when attacking buildings; Consortium turbolaser towers also weren't a part of the artillery infrastructure list to avoid or specifically target altogether. (BUG #116)
 • AI plans for considering buying Repair Facilities didn't factor in IG-88 nor Garm Bel Iblis. (BUG #117)
-• The Consortium's Repulsorlift Jammer wasn't considered a part of their defensive structure pool; therefore, the AI's save-or-buy budgeting ignored the Jammer and would rarely build it. (BUG #118)
+• The AI's save-or-buy budgeting ignored the Consortium's Repulsorlift Jammer, as it wasn't considered a part of their defensive structure pool and would rarely build it. (BUG #118)
 • The generic unit AI for GC had a misspelled variable that prevented reconsidering unit positions every eight seconds as intended; unit movement is no longer irregularly serviced (or not at all). (BUG #130)
 • The Galactic AI didn't include Tyber Zann as a possible leader_object for its service to attack planets/find targets; he is now properly considered under enemy presence. (BUG #140)
-• The AI wouldn't factor in Consortium mobile artillery (MALs) and all space missile artillery as structures to avoid when attacking buildings; they also weren't a part of the artillery infrastructure list to avoid or specifically target altogether. (BUG #160)
+• AI plans wouldn't factor in Consortium mobile artillery (MALs) and all space missile artillery as structures to avoid when attacking buildings; they also weren't a part of the artillery infrastructure list to avoid or specifically target altogether. (BUG #160)
 • The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include the Sundered Heart; if not a part of a conquering plan, he now acts like other heroes. (BUG #162)
-• The Consortium AI wouldn't consider building the Venator-class Cruiser in Skirmish because the entry wasn't included in its Skirmish unit table (despite currently being the only faction able to buy it). (BUG #165)
+• The Consortium AI wouldn't consider building the Venator-class Cruiser in Space Skirmish because the entry wasn't included in its Skirmish unit table (despite currently being the only faction able to buy it). (BUG #165)
 
 
 Audio Fixes:
 • Whenever Thrawn would remove corruption, it would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
-• No music would play when losing against the Consortium because of a bad file reference, and the Consortium's generic losing music referenced the Rebels' music entry; the Consortium's music now points to its own entries properly and has had its volume boosted as the music is quiet. (BUG #31)
+• No music would play when losing against the Consortium because of a bad file reference, and the Consortium's music entries referenced the Rebels'; the Consortium's music now points to its own entries properly (and has had its volume boosted, as the music is quiet). (BUG #31)
 • Consortium turbolaser towers would use the Rebels' VO when built instead of their faction's VO. (BUG #42)
 • TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
-• All Mobile Defense Units would use Rebel VO for unit death or building construction.  Each MDU now uses faction-based VO. (BUG #158)
+• Mobile Defense Units would use Rebel VO for unit death or building construction.  Each MDU now uses faction-based VO. (BUG #158)
 • Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
 • TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle; this was originally half-fixed in the latest patch, where they no longer only visually look like torpedoes. (BUG #179)
 
