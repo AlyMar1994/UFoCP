@@ -64,7 +64,8 @@ function State_Init(message)
 		warp6 = Find_Hint("STORY_TRIGGER_ZONE", "a4-w6")
 
 		-- Register a prox event that looks for any nearby units
-		Register_Prox(Object, Unit_Prox, 100, Find_Player("Underworld"))
+		underworld_player = Find_Player("Underworld")
+		Register_Prox(Object, Unit_Prox, 100, underworld_player)
 
 		closerange = false
 

@@ -55,6 +55,7 @@ AI Fixes:
 • AI plans wouldn't factor in Consortium turbolaser towers as structures to avoid when attacking buildings; Consortium turbolaser towers also weren't a part of the artillery infrastructure list to avoid or specifically target altogether. (BUG #116)
 • AI plans for considering buying Repair Facilities didn't factor in IG-88 nor Garm Bel Iblis. (BUG #117)
 • The AI's save-or-buy budgeting ignored the Consortium's Repulsorlift Jammer, as it wasn't considered a part of their defensive structure pool and would rarely build it. (BUG #118)
+• Fix the teleporting Force Adept in campaign mission 11 "Raiders of the Lost Holocron" not properly targeting the player instead of targeting all hostile entities. (BUG #126)
 • The generic unit AI for GC had a misspelled variable that prevented reconsidering unit positions every eight seconds as intended; unit movement is no longer irregularly serviced (or not at all). (BUG #130)
 • The Galactic AI didn't include Tyber Zann as a possible leader_object for its service to attack planets/find targets; he is now properly considered under enemy presence. (BUG #140)
 • AI plans wouldn't factor in Consortium mobile artillery (MALs) and all space missile artillery as structures to avoid when attacking buildings; they also weren't a part of the artillery infrastructure list to avoid or specifically target altogether. (BUG #160)
