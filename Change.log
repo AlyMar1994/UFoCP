@@ -64,6 +64,7 @@ AI Fixes:
 
 Audio Fixes:
 • Whenever Thrawn would remove corruption, it would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
+• Thrawn's callout for appearing on the battlefield never played for any faction, because the reference was looking for the unused "Grand_Admiral_Thrawn" and not "Admonitor_Star_Destroyer." (BUG #24)
 • No music would play when losing against the Consortium because of a bad file reference, and the Consortium's music entries referenced the Rebels'; the Consortium's music now points to its own entries properly (and has had its volume boosted, as the music is quiet). (BUG #31)
 • Consortium turbolaser towers would use the Rebels' VO when built instead of their faction's VO. (BUG #42)
 • TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
