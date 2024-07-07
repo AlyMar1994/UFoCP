@@ -47,7 +47,7 @@ function Definitions()
    -- Object isn't valid at this point so don't do any operations that
    -- would require it.  State_Init is the first chance you have to do
    -- operations on Object
-   
+
 	DebugMessage("%s -- In Definitions", tostring(Script))
 	Define_State("State_Init", State_Init);
 end
@@ -62,16 +62,16 @@ function State_Init(message)
 		warp4 = Find_Hint("STORY_TRIGGER_ZONE", "a4-w4")
 		warp5 = Find_Hint("STORY_TRIGGER_ZONE", "a4-w5")
 		warp6 = Find_Hint("STORY_TRIGGER_ZONE", "a4-w6")
-	
+
 		-- Register a prox event that looks for any nearby units
 		Register_Prox(Object, Unit_Prox, 100, Find_Player("Underworld"))
-		
+
 		closerange = false
-		
+
 		Create_Thread("AdeptFour_AI")
 	elseif message == OnUpdate then
 		-- Do nothing
-		
+
 	elseif message == OnExit then
 		-- Do nothing
 	end
@@ -107,7 +107,7 @@ function AdeptFour_AI()
 			noteleports = false
 		end
 		warptimer = warptimer + 1
-		if not noteleports then 
+		if not noteleports then
 			if warptimer/5 > Object.Get_Hull() then
 				rand_index = GameRandom(1,6)
 				Object.Suspend_Locomotor(true)
@@ -144,5 +144,3 @@ function AdeptFour_AI()
 		closerange = false
 	end
 end
-
-
