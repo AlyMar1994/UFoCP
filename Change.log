@@ -67,6 +67,7 @@ Audio Fixes:
 • Thrawn's callout for appearing on the battlefield never played for any faction, because the reference was looking for the unused "Grand_Admiral_Thrawn" and not "Admonitor_Star_Destroyer." (BUG #24)
 • No music would play when losing against the Consortium because of a bad file reference, and the Consortium's music entries referenced the Rebels'; the Consortium's music now points to its own entries properly (and has had its volume boosted, as the music is quiet). (BUG #31)
 • Consortium turbolaser towers would use the Rebels' VO when built instead of their faction's VO. (BUG #42)
+• Fix all Consortium Piracy reward ships using their faction-oriented VO when buying/finish construction, instead of using Consortium VO. (BUG #50)
 • TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
 • Mobile Defense Units would use Rebel VO for unit death or building construction.  Each MDU now uses faction-based VO. (BUG #158)
 • Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
