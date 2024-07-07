@@ -1807,7 +1807,7 @@
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Text_ID>TEXT_UNIT_DARKSIDE_ADEPT</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_DARKSIDE_ADEPT </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_DARKSIDE_ADEPT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DARKSIDE_ADEPT </Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>NI_DarkSideAdepts.alo</Land_Model_Name>
