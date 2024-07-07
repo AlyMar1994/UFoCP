@@ -1,0 +1,4353 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+<!-- Start Campaign with camera focused on Nal Hutta -->
+	<Event Name="Underworld_Tutorial_Demo_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>POSITION_CAMERA</Reward_Type>
+		<Reward_Param1>Ryloth</Reward_Param1>
+	</Event>
+	
+<!-- Lock out the droid log button -->
+	<Event Name="Underworld_Tutorial_Lock_Droid_Log_For_Tutorial">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_EVENT</Reward_Type>
+		<Reward_Param1>TUTORIAL_CLICK_GUI</Reward_Param1>
+		<Reward_Param2>b_droid_help</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+<!-- Lock out the market close button -->
+	<Event Name="Underworld_Tutorial_Lock_Market_Close_For_Tutorial_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_EVENT</Reward_Type>
+		<Reward_Param1>TUTORIAL_CLICK_GUI</Reward_Param1>
+		<Reward_Param2>market_close</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+<!-- Setting felucia mission flag to 0 -->
+	<Event Name="Underworld_Tutorial_Demo_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>UNDERWORLD_FELUCIA_VICTORY</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+<!-- Generic Event for locking the controls -->
+	<Event Name="Underworld_Tutorial_Lock_Controls_For_Tutorial">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>LOCK_TUTORIAL_CONTROLS</Event_Param2>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+		<Perpetual>True</Perpetual>
+	</Event>
+	
+<!-- Generic Event for unlocking the controls -->
+	<Event Name="Underworld_Tutorial_Unlock_Controls_For_Tutorial">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UNLOCK_TUTORIAL_CONTROLS</Event_Param2>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+		<Perpetual>True</Perpetual>
+	</Event>
+	
+<!-- Lock all available tech -->
+
+	<Event Name="Underworld_Tutorial_Lock_Star_Base_1">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Underworld_Star_Base_1</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Star_Base_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Underworld_Star_Base_2</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Star_Base_3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Underworld_Star_Base_3</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Star_Base_4">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Underworld_Star_Base_4</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Star_Base_5">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Underworld_Star_Base_5</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>	
+	
+	<Event Name="Underworld_Tutorial_Lock_Underworld_Palace">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>U_Ground_Palace</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Underworld_Barracks">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>U_Ground_Barracks</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Underworld_DroidWorks">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>U_Ground_Droid_Works</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Underworld_Vehicle_Factory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>U_Ground_Vehicle_Factory</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Underworld_Mining_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>U_Ground_Mining_Facility</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Underworld_Repulsorlift_Jammer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>U_Ground_Gravity_Generator</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Merc_Squad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Underworld_Merc_Squad</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Disruptor_Squad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Underworld_Disruptor_Merc_Squad</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Droid_Company">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Destroyer_Droid_Company</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Defiler">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Underworld_Saboteur_Team</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Transport">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>F9TZ_Cloaking_Transport_Company</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_MDU">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Underworld_MDU_Company</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_MAL">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>MAL_Rocket_Vehicle_Company</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Pulse_Cannon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>MZ8_Pulse_Cannon_Tank_Company</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Canderous">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Canderous_Assault_Tank_Company</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_StarViper_Squad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>StarViper_Squadron</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Skipray_Squad">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Skipray_Squadron</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Tartan">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Tartan_Underworld</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Crusader">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Crusader_Gunship</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Vengeance">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Vengeance_Frigate</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Interceptor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Interceptor4_Frigate</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Krayt">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Krayt_Class_Destroyer</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Lock_Kedalbe">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1>Kedalbe_Battleship</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+<!-- Reveal Nal Hutta -->
+	<Event Name="Underworld_Tutorial_Demo_Reveal_NalHutta">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>NalHutta_Prologue</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+<!-- Reveal Kashyyyk -->
+	<Event Name="Underworld_Tutorial_Demo_Reveal_Kashyyyk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Mandalore_Prologue</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+<!-- Reveal Felucia -->
+	<Event Name="Underworld_Tutorial_Demo_Reveal_Felucia">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Felucia</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+
+<!-- Lock Controls -->
+			<Event Name="Underworld_Tutorial_Demo_Lock_Controls_For_Intro">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>LOCK_CONTROLS</Reward_Type>
+				<Reward_Param1>1</Reward_Param1>
+				<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+			</Event>
+			
+<!-- Lock Scrolling 	
+			<Event Name="Underworld_Tutorial_Demo_Scroll_Lock_00">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SCROLL_LOCK</Reward_Type>
+				<Reward_Param1>1</Reward_Param1>
+				<Prereq>Underworld_Tutorial_Demo_Lock_Controls_For_Intro</Prereq>
+			</Event>
+-->
+<!-- Set tutorial mode -->
+			<Event Name="Underworld_Tutorial_Demo_Set_Tutorial_Mode">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>TUTORIAL_PLAYER</Reward_Type>
+				<Reward_Param1>Underworld</Reward_Param1>
+				<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+			</Event>
+			
+<!-- Disable fast forward -->
+			<Event Name="Underworld_Tutorial_Demo_Lock_Fast_Forward">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_EVENT</Reward_Type>
+				<Reward_Param1>TUTORIAL_CLICK_GUI</Reward_Param1>
+				<Reward_Param2>b_fast_forward</Reward_Param2>
+				<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+			</Event>
+			
+<!-- Disable Fleet Combining  -->
+			<Event Name="Underworld_Tutorial_Demo_Disable_Fleet_Combine">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>ENABLE_FLEET_COMBINE</Reward_Type>
+				<Reward_Param1>0</Reward_Param1>
+				<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+			</Event>
+			
+<!-- Lock planet selection -->
+			<Event Name="Underworld_Tutorial_Demo_Lock_Planet_Selection">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>LOCK_PLANET_SELECTION</Reward_Type>
+				<Reward_Param1>1</Reward_Param1>
+				<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+			</Event>
+	
+<!-- We don't want the player attacking Nal Hutta.  Don't allow fleets to go there even though it's visible -->
+				<Event Name="Underworld_Tutorial_Demo_NalHutta_Off_Limits">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+					<Reward_Param1>NalHutta_Prologue</Reward_Param1>
+					<Reward_Param2>1</Reward_Param2>
+					<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+				</Event>
+				
+<!-- We don't want the player breaking the mission by bringing units back to Ryloth.  Don't allow fleets to go there -->
+				<Event Name="Underworld_Tutorial_Demo_Ryloth_Off_Limits">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+					<Reward_Param1>Ryloth</Reward_Param1>
+					<Reward_Param2>1</Reward_Param2>
+					<Reward_Param4>0</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+				</Event>
+				
+<!-- Play Bounced message if fleet bounced from Nal Hutta.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_30
+Tyber Zann: Their forces are too powerful; we can't take them on just yet. -->
+							<Event Name="Underworld_Tutorial_Demo_Fleet_Bounced_NalHutta">
+								<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
+								<Event_Param1>NalHutta_Prologue</Event_Param1>
+								<Event_Param5>1</Event_Param5>
+								<Reward_Type>MULTIMEDIA</Reward_Type>
+								<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_30</Reward_Param1>
+								<Reward_Param2>-1</Reward_Param2>
+								<Reward_Param8>UNDERWORLD_TUTORIAL_30</Reward_Param8>
+								<Reward_Param9>Tyber_Loop</Reward_Param9>
+								<Reward_Param10>1</Reward_Param10>
+								<Perpetual>True</Perpetual>
+								<Branch>PRE_KAMINO_BOUNCED</Branch>
+							</Event>
+							
+										<Event Name="Underworld_Tutorial_Demo_Fleet_Bounced_NalHutta_Remove_Text">
+											<Event_Type>STORY_SPEECH_DONE</Event_Type>
+											<Event_Param1>UNDERWORLD_TUTORIAL_30</Event_Param1>
+											<Reward_Type>SCREEN_TEXT</Reward_Type>
+											<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_30</Reward_Param1>
+											<Reward_Param4>remove</Reward_Param4>
+											<Prereq>Underworld_Tutorial_Demo_Fleet_Bounced_NalHutta</Prereq>
+											<Perpetual>True</Perpetual>
+											<Branch>PRE_KAMINO_BOUNCED</Branch>
+										</Event>
+
+										<Event Name="Underworld_Tutorial_Demo_Fleet_Bounced_NalHutta_Remove_Movie">
+											<Event_Type>STORY_TRIGGER</Event_Type>
+											<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+											<Prereq>Underworld_Tutorial_Demo_Fleet_Bounced_NalHutta_Remove_Text</Prereq>
+											<Perpetual>True</Perpetual>
+											<Branch>PRE_KAMINO_BOUNCED</Branch>
+										</Event>
+				
+<!-- We don't want the player attacking Mandalore.  Don't allow fleets to go there even though it's visible -->
+				<Event Name="Underworld_Tutorial_Demo_Mandalore_Off_Limits">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+					<Reward_Param1>Mandalore_Prologue</Reward_Param1>
+					<Reward_Param2>1</Reward_Param2>
+					<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+				</Event>
+				
+<!-- Play Bounced message if fleet bounced from Mandalore.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_94
+Tyber Zann: We don't want to give Jabba any warning.  Leave Mandalore under his control for now. -->
+							<Event Name="Underworld_Tutorial_Demo_Fleet_Bounced_Mandalore">
+								<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
+								<Event_Param1>Mandalore_Prologue</Event_Param1>
+								<Event_Param5>1</Event_Param5>
+								<Reward_Type>MULTIMEDIA</Reward_Type>
+								<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_94</Reward_Param1>
+								<Reward_Param2>-1</Reward_Param2>
+								<Reward_Param8>UNDERWORLD_TUTORIAL_94</Reward_Param8>
+								<Reward_Param9>Tyber_Loop</Reward_Param9>
+								<Reward_Param10>1</Reward_Param10>
+								<Perpetual>True</Perpetual>
+								<Branch>PRE_KAMINO_BOUNCED</Branch>
+							</Event>
+							
+										<Event Name="Underworld_Tutorial_Demo_Fleet_Bounced_Mandalore_Remove_Text">
+											<Event_Type>STORY_SPEECH_DONE</Event_Type>
+											<Event_Param1>UNDERWORLD_TUTORIAL_94</Event_Param1>
+											<Reward_Type>SCREEN_TEXT</Reward_Type>
+											<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_94</Reward_Param1>
+											<Reward_Param4>remove</Reward_Param4>
+											<Prereq>Underworld_Tutorial_Demo_Fleet_Bounced_Mandalore</Prereq>
+											<Perpetual>True</Perpetual>
+											<Branch>PRE_KAMINO_BOUNCED</Branch>
+										</Event>
+
+										<Event Name="Underworld_Tutorial_Demo_Fleet_Bounced_Mandalore_Remove_Movie">
+											<Event_Type>STORY_TRIGGER</Event_Type>
+											<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+											<Prereq>Underworld_Tutorial_Demo_Fleet_Bounced_Mandalore_Remove_Text</Prereq>
+											<Perpetual>True</Perpetual>
+											<Branch>PRE_KAMINO_BOUNCED</Branch>
+										</Event>
+				
+<!-- We don't want the player attacking Felucia.  Don't allow fleets to go there even though it's visible -->
+				<Event Name="Underworld_Tutorial_Demo_Felucia_Off_Limits">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+					<Reward_Param1>Felucia</Reward_Param1>
+					<Reward_Param2>1</Reward_Param2>
+					<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+				</Event>
+				
+<!-- Play Bounced message if fleet bounced from Felucia.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_30
+Tyber Zann: Their forces are too powerful; we can't take them on just yet. -->
+							<Event Name="Underworld_Tutorial_Demo_Fleet_Bounced_Felucia">
+								<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
+								<Event_Param1>Felucia</Event_Param1>
+								<Event_Param5>1</Event_Param5>
+								<Reward_Type>MULTIMEDIA</Reward_Type>
+								<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_30</Reward_Param1>
+								<Reward_Param2>-1</Reward_Param2>
+								<Reward_Param8>UNDERWORLD_TUTORIAL_30</Reward_Param8>
+								<Reward_Param9>Tyber_Loop</Reward_Param9>
+								<Reward_Param10>1</Reward_Param10>
+								<Perpetual>True</Perpetual>
+								<Branch>PRE_KAMINO_BOUNCED</Branch>
+							</Event>
+							
+										<Event Name="Underworld_Tutorial_Demo_Fleet_Bounced_Felucia_Remove_Text">
+											<Event_Type>STORY_SPEECH_DONE</Event_Type>
+											<Event_Param1>UNDERWORLD_TUTORIAL_30</Event_Param1>
+											<Reward_Type>SCREEN_TEXT</Reward_Type>
+											<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_30</Reward_Param1>
+											<Reward_Param4>remove</Reward_Param4>
+											<Prereq>Underworld_Tutorial_Demo_Fleet_Bounced_Felucia</Prereq>
+											<Perpetual>True</Perpetual>
+											<Branch>PRE_KAMINO_BOUNCED</Branch>
+										</Event>
+
+										<Event Name="Underworld_Tutorial_Demo_Fleet_Bounced_Felucia_Remove_Movie">
+											<Event_Type>STORY_TRIGGER</Event_Type>
+											<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+											<Prereq>Underworld_Tutorial_Demo_Fleet_Bounced_Felucia_Remove_Text</Prereq>
+											<Perpetual>True</Perpetual>
+											<Branch>PRE_KAMINO_BOUNCED</Branch>
+										</Event>
+				 
+<!-- We need to disable all land invasions on Nal Hutta.  Don't allow land forces to attack. -->
+				<Event Name="Underworld_Tutorial_Demo_NalHutta_Invasion_Off_Limits">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>ENABLE_INVASION</Reward_Type>
+					<Reward_Param1>NalHutta_Prologue</Reward_Param1>
+					<Reward_Param2>0</Reward_Param2>
+					<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+				</Event>
+				
+<!-- We need to disable all land invasions on Kashyyyk.  Don't allow land forces to attack. -->
+				<Event Name="Underworld_Tutorial_Demo_Mandalore_Invasion_Off_Limits">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>ENABLE_INVASION</Reward_Type>
+					<Reward_Param1>Mandalore_Prologue</Reward_Param1>
+					<Reward_Param2>0</Reward_Param2>
+					<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+				</Event>
+				
+<!-- We need to disable all land invasions on Felucia.  Don't allow land forces to attack. -->
+				<Event Name="Underworld_Tutorial_Demo_Felucia_Invasion_Off_Limits">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>ENABLE_INVASION</Reward_Type>
+					<Reward_Param1>Felucia</Reward_Param1>
+					<Reward_Param2>0</Reward_Param2>
+					<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+				</Event>
+				
+<!-- Play Invasion Bounced message if fleet bounced from Felucia.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_90
+Tyber Zann: We need to bring all of our forces to Felucia before we can invade. -->
+							<Event Name="Underworld_Tutorial_Demo_Invasion_Bounced_Felucia">
+								<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
+								<Event_Param1>Felucia</Event_Param1>
+								<Event_Param5>1</Event_Param5>
+								<Reward_Type>MULTIMEDIA</Reward_Type>
+								<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_90</Reward_Param1>
+								<Reward_Param2>-1</Reward_Param2>
+								<Reward_Param8>UNDERWORLD_TUTORIAL_90</Reward_Param8>
+								<Reward_Param9>Tyber_Loop</Reward_Param9>
+								<Reward_Param10>1</Reward_Param10>
+								<Perpetual>True</Perpetual>
+								<Branch>PRE_KAMINO_BOUNCED</Branch>
+							</Event>
+							
+										<Event Name="Underworld_Tutorial_Demo_Invasion_Bounced_Felucia_Remove_Text">
+											<Event_Type>STORY_SPEECH_DONE</Event_Type>
+											<Event_Param1>UNDERWORLD_TUTORIAL_90</Event_Param1>
+											<Reward_Type>SCREEN_TEXT</Reward_Type>
+											<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_90</Reward_Param1>
+											<Reward_Param4>remove</Reward_Param4>
+											<Prereq>Underworld_Tutorial_Demo_Invasion_Bounced_Felucia</Prereq>
+											<Perpetual>True</Perpetual>
+											<Branch>PRE_KAMINO_BOUNCED</Branch>
+										</Event>
+
+										<Event Name="Underworld_Tutorial_Demo_Invasion_Bounced_Felucia_Remove_Movie">
+											<Event_Type>STORY_TRIGGER</Event_Type>
+											<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+											<Prereq>Underworld_Tutorial_Demo_Invasion_Bounced_Felucia_Remove_Text</Prereq>
+											<Perpetual>True</Perpetual>
+											<Branch>PRE_KAMINO_BOUNCED</Branch>
+										</Event>
+				
+<!-- Give the player the Buzz Droid Tech -->
+	<Event Name="Underworld_Tutorial_Give_Player_Buzz_Droid_Tech">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>GIVE_BLACK_MARKET</Reward_Type>
+		<Reward_Param1>Buzz_Droid_Tech</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+				
+<!-- Drag Defiler to 'Spread Corruption' slot on Mandalore -->
+	<Event Name="Underworld_Tutorial_Add_Objective_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ADD_GALACTIC_OBJECTIVE_00</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_OBJECTIVE_UNDERWORLD_TUTORIAL_GALACTIC_00</Reward_Param1>
+	</Event>
+
+<!-- Repeatable lua initiated zoom in command -->
+	<Event Name="Underworld_Tutorial_Zoom_In_A">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ZOOM_IN_TWICE</Event_Param2>
+		<Reward_Type>ZOOM_IN</Reward_Type>
+		<Perpetual>True</Perpetual>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+<!-- Part B of Repeatable lua initiated zoom in command -->
+	<Event Name="Underworld_Tutorial_Zoom_In_B">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1.5</Event_Param1>
+		<Reward_Type>ZOOM_IN</Reward_Type>
+		<Prereq>Underworld_Tutorial_Zoom_In_A</Prereq>
+	</Event>
+	
+<!-- Repeatable lua initiated zoom out command -->
+	<Event Name="Underworld_Tutorial_Zoom_Out_A">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ZOOM_OUT_TWICE</Event_Param2>
+		<Reward_Type>ZOOM_OUT</Reward_Type>
+		<Perpetual>True</Perpetual>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+<!-- Part B of Repeatable lua initiated zoom in command -->
+	<Event Name="Underworld_Tutorial_Zoom_Out_B">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1.5</Event_Param1>
+		<Reward_Type>ZOOM_OUT</Reward_Type>
+		<Prereq>Underworld_Tutorial_Zoom_Out_A</Prereq>
+	</Event>
+
+<!-- Show the Spread Corruption Slot on Mandalore -->
+	<Event Name="Underworld_Tutorial_Show_Spread_Corruption_Slot">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SHOW_SPECIAL_SLOT</Reward_Type>
+		<Reward_Param1>Mandalore_Prologue</Reward_Param1>
+		<Reward_Param2>CORRUPTION_SLOT</Reward_Param2>
+		<Reward_Param3></Reward_Param3>
+		<Prereq>Underworld_Tutorial_Add_Objective_00</Prereq>
+	</Event>
+	
+<!-- Flash the Defiler in fleet position 1 on Ryloth -->
+	<Event Name="Underworld_Tutorial_Flash_Defiler_Above_Ryloth">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Ryloth</Reward_Param1>
+		<Reward_Param2>FLASH_FLEET</Reward_Param2>
+		<Reward_Param3>1</Reward_Param3>
+		<Prereq>Underworld_Tutorial_Flash_Spread_Corruption_Slot</Prereq>
+	</Event>
+	
+<!-- Remove flash if fleet is dragged -->
+			<Event Name="Underworld_Tutorial_Flash_Defiler_Remove">
+				<Event_Type>STORY_GENERIC</Event_Type>
+				<Event_Param1>start_fleet_drag</Event_Param1>
+				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+				<Prereq>Underworld_Tutorial_Flash_Defiler_Above_Ryloth</Prereq>
+			</Event>
+		
+<!-- Flash Mandalore Special Slot -->
+	<Event Name="Underworld_Tutorial_Flash_Spread_Corruption_Slot">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Mandalore_Prologue</Reward_Param1>
+		<Reward_Param2>FLASH_ABILITY_SLOT</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Show_Spread_Corruption_Slot</Prereq> 
+	</Event>
+			
+<!-- Remove Corruption Slot Flash when corruption dialog is opened. -->
+			<Event Name="Underworld_Tutorial_Flash_Spread_Corruption_Slot_Remove">
+				<Event_Type>STORY_GENERIC</Event_Type>
+				<Event_Param1>start_fleet_drag</Event_Param1>
+				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+				<Prereq>Underworld_Tutorial_Flash_Spread_Corruption_Slot</Prereq>
+			</Event>
+	
+<!-- Unlock Controls -->
+	<Event Name="Underworld_Tutorial_Unlock_Controls_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Add_Objective_00</Prereq>
+	</Event>
+	
+<!-- Allow Defiler to enter Mandalore -->
+	<Event Name="Underworld_Tutorial_Open_Mandalore_To_Defiler">
+		<Event_Type>STORY_ENTER</Event_Type>
+		<Event_Param1>Mandalore_Prologue</Event_Param1>
+		<Event_Param3>Underworld_Saboteur_Team_Exec_Demo</Event_Param3>
+		<Event_Param6>1</Event_Param6>
+		<Perpetual>True</Perpetual>
+	</Event>
+	
+<!-- Trigger when player opens corruption dialog screen. -->
+	<Event Name="Underworld_Tutorial_Open_Corruption_Dialog">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>corruption_dialog</Event_Param1>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_OBJECTIVE_UNDERWORLD_TUTORIAL_GALACTIC_00</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Open_Mandalore_To_Defiler</Prereq>
+	</Event>
+	
+<!-- Show the Spread Corruption Slot on Mandalore -->
+	<Event Name="Underworld_Tutorial_Hide_Spread_Corruption_Slot">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SHOW_SPECIAL_SLOT</Reward_Type>
+		<Reward_Param1>Mandalore_Prologue</Reward_Param1>
+		<Reward_Param2>CORRUPTION_SLOT</Reward_Param2>
+		<Reward_Param3>0</Reward_Param3>
+		<Prereq>Underworld_Tutorial_Open_Corruption_Dialog</Prereq>
+	</Event>
+	
+<!-- Lock Controls after Corruption dialog appears -->
+	<Event Name="Underworld_Tutorial_Lock_Controls_For_Corruption_Menu">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Open_Corruption_Dialog</Prereq>
+	</Event>
+	
+<!-- Highlight the Piracy option on the corruption dialog. -->
+	<Event Name="Underworld_Tutorial_Highlight_Piracy_Option">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_GUI</Reward_Type>
+		<Reward_Param1>corrupt_button_icon_a</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Open_Corruption_Dialog</Prereq>
+	</Event>
+	
+<!-- Unlock Controls For Corruption Menu -->
+	<Event Name="Underworld_Tutorial_Unlock_Controls_For_Corruption_Menu">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UNLOCK_CONTROLS_FOR_CORRUPTION</Event_Param2>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Lock_Controls_For_Corruption_Menu</Prereq>
+	</Event>
+	
+<!-- Hide the flash if anything is clicked -->
+	<Event Name="Underworld_Tutorial_Highlight_Piracy_Option_Remove">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>click</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Prereq>Underworld_Tutorial_Highlight_Piracy_Option</Prereq>
+	</Event>
+	
+<!-- Set Mandalore back to restricted -->
+	<Event Name="Underworld_Tutorial_Relock_Mandalore_After_Piracy">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>increase_corruption</Event_Param1>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Underworld_Tutorial_Open_Mandalore_To_Defiler</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Highlight_Piracy_Option_Remove</Prereq>
+	</Event>
+	
+<!-- Lock out the droid log button -->
+	<Event Name="Underworld_Tutorial_Lock_Droid_Log_For_Tutorial_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_EVENT</Reward_Type>
+		<Reward_Param1>TUTORIAL_CLICK_GUI</Reward_Param1>
+		<Reward_Param2>b_droid_help</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Relock_Mandalore_After_Piracy</Prereq>
+	</Event>
+	
+<!-- Lock out the market close button -->
+	<Event Name="Underworld_Tutorial_Lock_Market_Close_For_Tutorial_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_EVENT</Reward_Type>
+		<Reward_Param1>TUTORIAL_CLICK_GUI</Reward_Param1>
+		<Reward_Param2>market_close</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Relock_Mandalore_After_Piracy</Prereq>
+	</Event>
+	
+<!-- Lock planet selection -->
+			<Event Name="Underworld_Tutorial_Demo_Lock_Planet_Selection_After_Mandalore">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>LOCK_PLANET_SELECTION</Reward_Type>
+				<Reward_Param1>1</Reward_Param1>
+				<Prereq>Underworld_Tutorial_Relock_Mandalore_After_Piracy</Prereq>
+			</Event>
+	
+<!-- Respawn Urai after corrupting Mandalore. -->
+	<Event Name="Underworld_Tutorial_Force_Urai_Respawn_After_Mandalore_Corruption">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FORCE_RESPAWN</Reward_Type>
+		<Reward_Param1>Urai_Fen_Team</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Relock_Mandalore_After_Piracy</Prereq>
+	</Event>
+
+<!-- Lock controls after Piracy mission -->
+	<Event Name="Underworld_Tutorial_Lock_Controls_After_Piracy_Mission">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Relock_Mandalore_After_Piracy</Prereq>
+	</Event>
+
+<!-- Trigger this when corruption is completed at Mandalore -->
+	<Event Name="Underworld_Tutorial_Corruption_Increased_On_Mandalore">
+		<Event_Type>STORY_CORRUPTION_CHANGED</Event_Type>		
+		<Event_Param1>Mandalore_Prologue</Event_Param1>
+		<Event_Param2>PIRACY</Event_Param2>
+		<Reward_Type>SELECT_PLANET</Reward_Type>
+		<Reward_Param1>Mandalore_Prologue</Reward_Param1>
+	</Event>
+	
+<!-- Spawn New Defiler to create Black Market on Nal Hutta. -->
+	<Event Name="Underworld_Tutorial_Spawn_Defiler_For_Black_Market">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SPAWN_DEFILER_FOR_BLACK_MARKET</Event_Param2>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Underworld_Saboteur_Team_Exec_Demo</Reward_Param1>
+		<Reward_Param2>Ryloth</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Corruption_Increased_On_Mandalore</Prereq>
+	</Event>
+	
+	
+<!-- Unlock Controls for sending Defiler to set up Black Market. -->
+	<Event Name="Underworld_Tutorial_Unlock_Controls_For_Defiler_To_Black_Market">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UNLOCK_CONTROLS_FOR_BLACK_MARKET</Event_Param2>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Lock_Controls_After_Piracy_Mission</Prereq>
+	</Event>
+	
+<!-- Allow Defiler to enter Nal Hutta -->
+	<Event Name="Underworld_Tutorial_Open_NalHutta_To_Defiler">
+		<Event_Type>STORY_ENTER</Event_Type>
+		<Event_Param1>NalHutta_Prologue</Event_Param1>
+		<Event_Param3>Underworld_Saboteur_Team_Exec_Demo</Event_Param3>
+		<Event_Param6>1</Event_Param6>
+		<Perpetual>True</Perpetual>
+		<Prereq>Underworld_Tutorial_Spawn_Defiler_For_Black_Market</Prereq>
+	</Event>
+	
+<!-- Add objective for moving a defiler to Nal Hutta. -->
+	<Event Name="Underworld_Tutorial_Add_Objective_01">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ADD_GALACTIC_OBJECTIVE_01</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_OBJECTIVE_UNDERWORLD_TUTORIAL_GALACTIC_01</Reward_Param1>
+	</Event>
+	
+<!-- Flash the Defiler in fleet position 1 on Ryloth -->
+	<Event Name="Underworld_Tutorial_Flash_Defiler_Above_Ryloth_For_Black_Market">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Ryloth</Reward_Param1>
+		<Reward_Param2>FLASH_FLEET</Reward_Param2>
+		<Reward_Param3>1</Reward_Param3>
+		<Prereq>Underworld_Tutorial_Add_Objective_01</Prereq>
+	</Event>
+	
+<!-- Remove flash if fleet is dragged -->
+			<Event Name="Underworld_Tutorial_Flash_Defiler_For_Black_Market_Remove">
+				<Event_Type>STORY_GENERIC</Event_Type>
+				<Event_Param1>start_fleet_drag</Event_Param1>
+				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+				<Prereq>Underworld_Tutorial_Flash_Defiler_Above_Ryloth_For_Black_Market</Prereq>
+			</Event>
+			
+<!-- Show the Spread Corruption Slot on Nal Hutta -->
+	<Event Name="Underworld_Tutorial_Show_Spread_Corruption_Slot_For_Black_Market">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SHOW_SPECIAL_SLOT</Reward_Type>
+		<Reward_Param1>NalHutta_Prologue</Reward_Param1>
+		<Reward_Param2>CORRUPTION_SLOT</Reward_Param2>
+		<Reward_Param3></Reward_Param3>
+		<Prereq>Underworld_Tutorial_Add_Objective_01</Prereq>
+	</Event>
+	
+<!-- Flash Nal Hutta Special Slot -->
+	<Event Name="Underworld_Tutorial_Flash_Spread_Corruption_Slot_For_NalHutta">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>NalHutta_Prologue</Reward_Param1>
+		<Reward_Param2>FLASH_ABILITY_SLOT</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Show_Spread_Corruption_Slot_For_Black_Market</Prereq> 
+	</Event>
+	
+<!-- Remove flash if fleet is dragged -->
+			<Event Name="Underworld_Tutorial_Flash_Spread_Corruption_Slot_For_NalHutta_Remove">
+				<Event_Type>STORY_GENERIC</Event_Type>
+				<Event_Param1>start_fleet_drag</Event_Param1>
+				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+				<Prereq>Underworld_Tutorial_Flash_Spread_Corruption_Slot_For_NalHutta</Prereq>
+			</Event>
+			
+<!-- Hide the Buy Slot on Nal Hutta -->
+	<Event Name="Underworld_Tutorial_Hide_Spread_Corruption_Slot_For_NalHutta">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SHOW_SPECIAL_SLOT</Reward_Type>
+		<Reward_Param1>NalHutta_Prologue</Reward_Param1>
+		<Reward_Param2>CORRUPTION_SLOT</Reward_Param2>
+		<Reward_Param3>0</Reward_Param3>
+		<Prereq>Underworld_Tutorial_Flash_Spread_Corruption_Slot_For_NalHutta_Remove</Prereq>
+	</Event>
+	
+<!-- Highlight the Black Market option on the corruption dialog. -->
+	<Event Name="Underworld_Tutorial_Corruption_Window_Opened_At_NalHutta">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>corruption_dialog</Event_Param1>
+		<Prereq>Underworld_Tutorial_Flash_Spread_Corruption_Slot_For_NalHutta_Remove</Prereq>
+	</Event>
+	
+<!-- Highlight the Black Market option on the corruption dialog. -->
+	<Event Name="Underworld_Tutorial_Highlight_BM_Option">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0.5</Event_Param1>
+		<Reward_Type>FLASH_GUI</Reward_Type>
+		<Reward_Param1>corrupt_button_icon_a</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Corruption_Window_Opened_At_NalHutta</Prereq>
+	</Event>
+	
+<!-- Hide the flash if anything is clicked -->
+		<Event Name="Underworld_Tutorial_Highlight_BM_Option_Remove">
+			<Event_Type>STORY_GENERIC</Event_Type>
+			<Event_Param1>click</Event_Param1>
+			<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+			<Prereq>Underworld_Tutorial_Highlight_BM_Option</Prereq>
+		</Event>
+	
+<!-- Spawn Urai Fen at Ryloth -->
+	<Event Name="Underworld_Tutorial_Spawn_Urai_At_Ryloth">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SPAWN_URAI_AT_RYLOTH</Event_Param2>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Urai_Fen_Team</Reward_Param1>
+		<Reward_Param2>Ryloth</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+<!-- Spawn Tyber Zann at Ryloth -->
+	<Event Name="Underworld_Tutorial_Spawn_Tyber_At_Ryloth">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SPAWN_TYBER_AT_RYLOTH</Event_Param2>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Tyber_Zann_Team_Prologue</Reward_Param1>
+		<Reward_Param2>Ryloth</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+
+<!-- Trigger when Corruption menu is opened -->
+	<Event Name="Underworld_Tutorial_Trigger_After_Corruption_Increased_At_NalHutta">
+		<Event_Type>STORY_CORRUPTION_CHANGED</Event_Type>		
+		<Event_Param1>NalHutta_Prologue</Event_Param1>
+		<Event_Param2>BLACK_MARKET</Event_Param2>
+		<Reward_Type>POSITION_CAMERA</Reward_Type>
+		<Reward_Param1>NalHutta_Prologue</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Open_NalHutta_To_Defiler</Prereq>
+	</Event>
+
+<!-- Set Nal Hutta back to restricted -->
+	<Event Name="Underworld_Tutorial_Relock_NalHutta_After_Piracy">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>increase_corruption</Event_Param1>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Underworld_Tutorial_Open_NalHutta_To_Defiler</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Trigger_After_Corruption_Increased_At_NalHutta</Prereq>
+	</Event>
+	
+<!-- Complete Objective when black market is established on Nal Hutta. -->
+	<Event Name="Underworld_Tutorial_Complete_Objective_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_OBJECTIVE_UNDERWORLD_TUTORIAL_GALACTIC_01</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Trigger_After_Corruption_Increased_At_NalHutta</Prereq>
+	</Event>
+
+<!-- Add objective for moving Urai to Nal Hutta. -->
+	<Event Name="Underworld_Tutorial_Add_Objective_02">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ADD_GALACTIC_OBJECTIVE_02</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_OBJECTIVE_UNDERWORLD_TUTORIAL_GALACTIC_02</Reward_Param1>
+	</Event>
+	
+<!-- Allow Urai to enter Nal Hutta -->
+			<Event Name="Underworld_Tutorial_Open_NalHutta_To_Urai_For_Black_Market">
+				<Event_Type>STORY_ENTER</Event_Type>
+				<Event_Param1>NalHutta_Prologue</Event_Param1>
+				<Event_Param3>Urai_Fen_Team</Event_Param3>
+				<Event_Param6>1</Event_Param6>
+				<Perpetual>True</Perpetual>
+				<Prereq>Underworld_Tutorial_Add_Objective_02</Prereq>
+			</Event>
+			
+<!-- Show the Buy Slot on Nal Hutta -->
+	<Event Name="Underworld_Tutorial_Show_Buy_Slot_For_Black_Market">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SHOW_SPECIAL_SLOT</Reward_Type>
+		<Reward_Param1>NalHutta_Prologue</Reward_Param1>
+		<Reward_Param2>BLACK_MARKET_SLOT</Reward_Param2>
+		<Reward_Param3></Reward_Param3>
+		<Prereq>Underworld_Tutorial_Add_Objective_02</Prereq>
+	</Event>
+	
+<!-- Flash Nal Hutta Special Slot -->
+	<Event Name="Underworld_Tutorial_Flash_Buy_Slot_For_NalHutta">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>NalHutta_Prologue</Reward_Param1>
+		<Reward_Param2>FLASH_ABILITY_SLOT</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Show_Buy_Slot_For_Black_Market</Prereq> 
+	</Event>
+	
+<!-- Remove flash if fleet is dragged -->
+			<Event Name="Underworld_Tutorial_Flash_Buy_Slot_For_NalHutta_Remove">
+				<Event_Type>STORY_GENERIC</Event_Type>
+				<Event_Param1>start_fleet_drag</Event_Param1>
+				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+				<Prereq>Underworld_Tutorial_Flash_Buy_Slot_For_NalHutta</Prereq>
+			</Event>
+			
+<!-- Hide the Buy Slot on Nal Hutta -->
+	<Event Name="Underworld_Tutorial_Hide_Buy_Slot_For_Black_Market">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SHOW_SPECIAL_SLOT</Reward_Type>
+		<Reward_Param1>NalHutta_Prologue</Reward_Param1>
+		<Reward_Param2>BLACK_MARKET_SLOT</Reward_Param2>
+		<Reward_Param3>0</Reward_Param3>
+		<Prereq>Underworld_Tutorial_Flash_Buy_Slot_For_NalHutta_Remove</Prereq>
+	</Event>
+	
+<!--Highlight disruptor tech when window is opened.-->
+	<Event Name="Underworld_Tutorial_Highlight_Disruptor_Tech">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>open_black_market_menu</Event_Param1>
+		<Reward_Type>FLASH_GUI</Reward_Type>
+		<Reward_Param1>market_01</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Add_Objective_02</Prereq>
+	</Event>
+	
+<!-- Hide the highlight cursor if anything is clicked after black market is opened. -->
+	<Event Name="Underworld_Tutorial_Remove_Highlight_Disruptor_Tech">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>click</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Prereq>Underworld_Tutorial_Highlight_Disruptor_Tech</Prereq>
+	</Event>
+	
+<!-- Lock Controls for Black Market explanation. -->
+	<Event Name="Underworld_Tutorial_Lock_Controls_For_Black_Market_Explanation">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Highlight_Disruptor_Tech</Prereq>
+	</Event>
+	
+<!-- Unlock Controls for sending Defiler to set up Black Market. -->
+	<Event Name="Underworld_Tutorial_Unlock_Controls_After_Black_Market_Explanation">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UNLOCK_CONTROLS_AFTER_BM_EXPLANATION</Event_Param2>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Lock_Controls_For_Black_Market_Explanation</Prereq>
+	</Event>
+	
+<!-- Complete Objective when Disruptors are purchased. -->
+	<Event Name="Underworld_Tutorial_Complete_Objective_02">
+		<Event_Type>STORY_BUY_BLACK_MARKET</Event_Type>
+		<Event_Param1>Disruptor_Tech</Event_Param1>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_OBJECTIVE_UNDERWORLD_TUTORIAL_GALACTIC_02</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Add_Objective_02</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Disable_Entering_NalHutta_Again">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Underworld_Tutorial_Open_NalHutta_To_Urai_For_Black_Market</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Complete_Objective_02</Prereq>
+	</Event>
+
+<!-- Respawn Urai after black market purchase. -->
+	<Event Name="Underworld_Tutorial_Force_Urai_Respawn_After_BM_Purchase">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Reward_Type>FORCE_RESPAWN</Reward_Type>
+		<Reward_Param1>Urai_Fen_Team</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Complete_Objective_02</Prereq>
+	</Event>
+	
+<!-- Unlock Felucia to allow the player's forces to enter it. -->
+	<Event Name="Underworld_Tutorial_Felucia_Open">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>OPEN_FELUCIA</Event_Param2>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Felucia</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+<!-- Flash Ryloth when Felucia is opened when fleet is told to go there. -->
+	<Event Name="Underworld_Tutorial_Flash_Ryloth">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Ryloth</Reward_Param1>
+		<Reward_Param2>FLASH_TROOPS</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Felucia_Open</Prereq>
+	</Event>
+	
+<!-- Remove Ryloth Flash when Fleets Merged -->
+	<Event Name="Underworld_Tutorial_Flash_Ryloth_Remove">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>start_fleet_drag</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Prereq>Underworld_Tutorial_Felucia_Open</Prereq>
+	</Event>
+	
+<!-- Flash Felucia when fleet is told to go there. -->
+	<Event Name="Underworld_Tutorial_Flash_Felucia">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Felucia</Reward_Param1>
+		<Reward_Param2>FLASH_TROOPS</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Flash_Ryloth_Remove</Prereq>
+	</Event>
+	
+<!-- Unlock Ryloth to allow the player's forces to enter it. -->
+	<Event Name="Underworld_Tutorial_Demo_Ryloth_Open">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Ryloth</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Reward_Param4>0</Reward_Param4>
+		<Prereq>Underworld_Tutorial_Felucia_Open</Prereq>
+	</Event>
+		
+<!-- Enable Fleet Combining  -->
+		<Event Name="Underworld_Tutorial_Demo_Enable_Fleet_Combine">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>ENABLE_FLEET_COMBINE</Reward_Type>
+			<Reward_Param1>1</Reward_Param1>
+			<Prereq>Underworld_Tutorial_Felucia_Open</Prereq>
+		</Event>
+		
+<!-- Unlock planet selection -->
+			<Event Name="Underworld_Tutorial_Demo_Unlock_Planet_Selection">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>LOCK_PLANET_SELECTION</Reward_Type>
+				<Reward_Param1>0</Reward_Param1>
+				<Prereq>Underworld_Tutorial_Felucia_Open</Prereq>
+			</Event>
+		
+<!-- Add Objective to drag all units to felucia -->
+	<Event Name="Underworld_Tutorial_Add_Objective_03">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ADD_GALACTIC_OBJECTIVE_03</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_OBJECTIVE_UNDERWORLD_TUTORIAL_GALACTIC_03</Reward_Param1>
+	</Event>
+	
+<!-- Complete Objective to drag all untis to Felucia. -->
+	<Event Name="Underworld_Tutorial_Complete_Objective_03">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>COMPLETE_GALACTIC_OBJECTIVE_03</Event_Param2>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_OBJECTIVE_UNDERWORLD_TUTORIAL_GALACTIC_03</Reward_Param1>
+		<Prereq>Underworld_Tutorial_Add_Objective_03</Prereq>
+	</Event>
+		
+<!-- Give a message when the invasion is bounced. -->
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_90
+Tyber Zann: We need to bring all of our forces to Felucia before we can invade.  -->
+	<Event Name="Underworld_Tutorial_Felucia_Invasion_Bounced">
+		<Event_Type>STORY_INVASION_BOUNCED</Event_Type>
+		<Event_Param1>Felucia</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_90</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_90</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Perpetual>True</Perpetual>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_90_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_90</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_90</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Felucia_Invasion_Bounced</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_90_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_90_Remove_Text</Prereq>
+				</Event>
+
+<!-- Send an invade planet reward to start the land mission at Felucia -->
+	<Event Name="Underworld_Tutorial_Invade_Felucia">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>START_FELUCIA_LAND_MISSION</Event_Param2>
+		<Reward_Type>INVADE_PLANET</Reward_Type>
+		<Reward_Param1>Felucia</Reward_Param1>
+		<Reward_Param2>TYBER_ZANN_TEAM_PROLOGUE</Reward_Param2>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+
+<!-- Start the link tactical battle when Tyber is deployed via the invade planet command above -->
+	<Event Name="Underworld_Tutorial_Felucia_Link_Tactical_Start">
+		<Event_Type>STORY_DEPLOY</Event_Type>
+		<Event_Param1>Tyber_Zann_Team_Prologue</Event_Param1>
+		<Event_Param2>FELUCIA</Event_Param2>
+		<Reward_Type>LINK_TACTICAL</Reward_Type>
+		<Reward_Param1>Felucia</Reward_Param1>
+		<Reward_Param2>LAND</Reward_Param2>
+		<Reward_Param3>Underworld</Reward_Param3>
+		<Reward_Param4>_Land_Planet_Felucia_Tutorial.ted</Reward_Param4>
+		<Reward_Param5>Empire</Reward_Param5>
+		<Reward_Param6>Tyber_Zann_Prologue</Reward_Param6>
+		<Reward_Param7>Story_Plots_Focus_Demo_Felucia_Land_Tactical.xml</Reward_Param7>
+		<Reward_Param8>1</Reward_Param8>
+		<!-- Do we want the prebattle cinematic to play?-->
+		<Reward_Param9>0</Reward_Param9>
+		<!-- Do we want to start the scene faded out?-->
+		<Reward_Param10>1</Reward_Param10>
+		<!-- Do we want to start the scene in letter box mode-->
+		<Reward_Param11>1</Reward_Param11>
+		<Reward_Param12></Reward_Param12>
+		<Reward_Param13>0</Reward_Param13>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_Tutorial_Conquer_Felucia">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Felucia</Event_Param1>
+		<Reward_Type>TUTORIAL_DIALOG</Reward_Type>
+		<Reward_Param1>TEXT_TUTORIAL_UNDERWORLD_COMPLETE</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2> <!-- quit only! -->
+		<!--<Reward_Type>LOAD_CAMPAIGN</Reward_Type>
+		<Reward_Param1>Full_Story_Campaign_Underworld</Reward_Param1>
+		<Reward_Param2>6</Reward_Param2>-->
+		<Prereq>Underworld_Tutorial_Felucia_Link_Tactical_Start</Prereq>
+	</Event>
+
+
+
+<!--  Tutorial Ends Here!!!  -->
+
+<!-- *************************************************************** -->
+<!-- ***************All Tutorial Dialog Goes Here******************* -->
+<!-- *************************************************************** -->
+
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_00
+NARRATOR: You're going to learn a few things in the process of playing this prologue. 
+		  The Underworld uses corruption powers  among other abilies to gain advantages 
+		  over the Empire and the Rebels. Play close attention as you move Tyber Zann 
+		  through the galaxy corrupting planets to gain power.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_00</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_00</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_00</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_00_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_00</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_00</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_00</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_00_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_00_Remove_Text</Prereq>
+				</Event>
+
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_01
+TYBER ZANN: A year ago I joined forces with Jabba the Hutt. Our combined criminal contacts
+		    and resources brought both of us great wealth. I never intended to make this 
+		    alliance permanent. Now is the time I've decided to backstab Jabba. He's just 
+		    acquired a unique artifact. From what I can tell it cost him nearly half his 
+		    wealth. That artifact will be in my hands soon.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_01">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_01</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_01</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_01</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_01_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_01</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_01</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_01</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_01_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_01_Remove_Text</Prereq>
+				</Event>
+			
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_02
+TYBER ZANN: I'm going to go to Nal Hutta. There are Hutt family members that I intend to 
+			bribe so that I find out facts about Jabba and where the closest black market 
+			can be found. The black markets throughout the galaxy are important sources 
+			of stolen technology. As soon as the Empire or the Rebel Alliance develop new 
+			tech, it's available on the Black Market.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_02">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_02</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_02</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_02</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_02_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_02</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_02</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_02</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_02_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_02_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_03
+NARRATOR: Drag Tyber Zann to the glowing oval above Nal Hutta.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_03">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_03</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_03</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_03</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_03_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_03</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_03</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_03</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_03_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_03_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_04
+TYBER ZANN: Most worlds are alike. There are important officials on the planet who need 
+			credits for one reason or another. The trick is to find them, pay them, and 
+			keep them happy. Once you do this there is a rippling effect that spreads 
+			corruption and loyalty to me around the world. This time I go down and find 
+			one of the members of Jabba's family. He's one of  the many who doesn't like 
+			his cousin and wants to help my cause. I've dealt with him in the past and 
+			know his type of criminal well. It won't be easy to find him, the best acts 
+			of corruption are never without a little effort.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_04">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_04</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_04</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_04</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_04_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_04</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_04</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_04</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_04_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_04_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_05
+NARRATOR: Take Tyber and explore the landscape. Move past the characters and units you 
+		  discover on the world. Sometimes these characters will attack and other times 
+		  they'll ignore you completely. When you are near enough to your mark they will 
+		  start up a conversation.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_05">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_05</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_05</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_05</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_05_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_05</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_05</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_05</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_05_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_05_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_06
+HUT-TINA: Tyber Zann it has been too long  since we last spoke. I think that drug ring 
+		  we set up on the outer moons is still running well. What are you and that miserable 
+		  cousin of mine doing these days?  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_06">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_06</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_06</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_06</Reward_Param8>
+		<Reward_Param9>Jabba_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_06_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_06</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_06</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_06</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_06_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_06_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_07
+TYBER ZANN: Never mind the pleasant conversation, Hut-tina. I've got credits for information. 
+			I know you helped Jabba hide his new treasure on Felucia. Tell me where it is and 
+			I will give you the credits.    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_07">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_07</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_07</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_07</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_07_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_07</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_07</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_07</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_07_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_07_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_08
+HUT-TINA:  It's really not that easy. First you must deal with the Black Market on Kashyyyk. 
+		   Once you have the Buzz Droids you'll find there, you must go to Felucia. Jabba's 
+		   hidden base is there, but don't take a lot of tanks. It's hidden where only your 
+		   foot troops can go. The Buzz Droids are a vital key toward the success of your mission.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_08">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_08</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_08</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_08</Reward_Param8>
+		<Reward_Param9>Jabba_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_08_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_08</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_08</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_08</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_08_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_08_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_09
+NARRATOR: Tyber summons a Defiler to deal with the Black Market on Kashyyyk.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_09">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_09</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_09</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_09</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_09_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_09</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_09</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_09</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_09_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_09_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_10
+NARRATOR: To see the cost to bribe your way to a planet, drag your force to your final 
+		  destination without letting go of the mouse button.  The bribe cost will be 
+		  listed next to your fleet.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_10">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_10</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_10</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_10</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_10_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_10</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_10</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_10</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_10_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_10_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_11
+TYBER ZANN: My plans grow a pace. As soon as the agents on Kashyyyk are contacted I can 
+			hook into their Black Market community. It's a source of valuable stolen technology. 
+			Now that I know the Black Market exists there, I can send a Defiler to set up 
+			communication with it.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_11">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_11</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_11</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_11</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_11_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_11</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_11</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_11</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_11_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_11_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_12
+Hint: Drag a Defiler to the 'Spread Corruption' at the planet Nal Hutta. Once there, use 
+	  the Defiler to hook into the Black Market on Nal Hutta. There will be chances to 
+	  contact and gain technologly from scientifically rich worlds all over the galaxy. 
+	  Once you have set up your connections with the Black Market the world is also 
+	  corrupted to your cause.    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_12">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_12</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_12</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_12</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_12_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_12</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_12</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_12</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_12_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_12_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_13
+TYBER ZANN: Kashyyyk is crawling with Imperial units, so we need to use a little payola on the 
+			system officials there to let us just fly by unnoticed.  We're going to raid Jabba's 
+			hidden base and take his artifact. I'll gather all of my space and land forces and 
+			move to Felucia. I don't intend to stay very long, the planet is too powerful for me 
+			to win it over today, but someday it will be worked into my plans.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_13">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_13</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_13</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_13</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_13_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_13</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_13</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_13</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_13_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_13_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_14
+TYBER ZANN: As you might have already guessed - they're called Defilers for a reason.  
+			Move one of my Defilers to Felucia, and destroy the Ion Cannon that the Empire 
+			has built there. All the actions I do now are the first steps in rebuilding 
+			my criminal empire.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_14">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_14</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_14</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_14</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_14_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_14</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_14</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_14</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_14_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_14_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_15
+NARRATOR: Drag the Defiler to the glowing oval slot on Felucia and destroy the Ion Cannon.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_15">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_15</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_15</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_15</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_15_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_15</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_15</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_15</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_15_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_15_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_16
+TYBER ZANN: Felucia is our goal, but we do not want to draw the attention of the Empire.  
+			We will bribe our way past Nal Hutta, and crash Jabba's meeting on Felucia.  
+			Take all of our Land forces at Ryloth, and move them to Felucia.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_16">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_16</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_16</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_16</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_16_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_16</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_16</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_16</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_16_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_16_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_17
+TYBER ZANN: To see the cost to bribe your way to a planet, drag your force to your final 
+			destination without letting go of the mouse button.  The bribe cost will be 
+			listed next to your fleet.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_17">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_17</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_17</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_17</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_17_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_17</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_17</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_17</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_17_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_17_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_18
+NARRATOR: Include Tyber in the invading space fleet and bring all of our space units from Nal Hutta to Felucia.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_18">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_18</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_18</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_18</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_18_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_18</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_18</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_18</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_18_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_18_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_19
+TYBER ZANN: Now that I've secured the space above Felucia, I can use Zann Consortium land 
+			forces to raid the planet and find the artifact I'll need to help build my crime 
+			empire back to full strength.  Bring all of my land units from Nal Hutta to Felucia.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_19">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_19</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_19</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_19</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_19_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_19</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_19</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_19</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_19_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_19_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_20
+NARRATOR: Bring all of your land units from Nal Hutta to Felucia.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_20">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_20</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_20</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_20</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_20_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_20</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_20</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_20</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_20_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_20_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_21
+TYBER ZANN: Remember to use the abilities of our heroes to gain an upper hand in this battle.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_21">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_21</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_21</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_21</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_21_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_21</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_21</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_21</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_21_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_21_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_22
+TYBER ZANN: I speak to all of you from the lead transport dropping down to Felucia. 
+			Today we strike against Jabba the Hutt. He's an evil creature that has cost 
+			the Zann Consortium dearly. Today we get it back. Urai my trusted Vigo is going 
+			to collect an important artifact. Make sure all of you help him in his quest. 
+			Over and out.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_22">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_22</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_22</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_22</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_22_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_22</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_22</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_22</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_22_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_22_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_23
+URAI FEN: There is great danger for us down there and in stabbing Jabba. Are you sure 
+		  this artifact is worth it?   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_23">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_23</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_23</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_23</Reward_Param8>
+		<Reward_Param9>Urai_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_23_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_23</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_23</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_23</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_23_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_23_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_24
+TYBER ZANN: I know Jabba prized it highly and was going to sell it in the Empire in a 
+			meeting on Felucia. What ever Jabba could have got for it, I can get more. 
+			Just make sure to do your part.    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_24">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_24</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_24</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_24</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_24_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_24</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_24</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_24</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_24_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_24_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_25
+TYBER ZANN: Excellent.  We can now use Felucia to produce advanced ships.  I will leave 
+			it to you to capture the remaining planets.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_25">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_25</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_25</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_25</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_25_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_25</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_25</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_25</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_25_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_25_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_26
+NARRATOR: Use the saboteur to spread corruption to Felucia.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_26">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_26</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_26</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_26</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_26_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_26</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_26</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_26</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_26_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_26_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_27
+NARRATOR: Conquer the remaining planets in the galaxy.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_27">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_27</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_27</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_27</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_27_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_27</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_27</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_27</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_27_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_27_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_28
+TYBER ZANN: Our Mercenaries are equipped with disruptor technology from the Black Market.  
+			Switch to these weapons when fighting enemy infantry.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_28">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_28</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_28</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_28</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_28_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_28</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_28</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_28</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_28_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_28_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_29
+NARRATOR: Make sure you include Tyber in the invading fleet!   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_29">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_29</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_29</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_29</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_29_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_29</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_29</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_29</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_29_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_29_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_30
+TYBER ZANN: Their forces are too powerful, we can't take them on just yet.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_30">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_30</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_30</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_30</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_30_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_30</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_30</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_30</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_30_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_30_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_31
+TYBER ZANN: A bunker!  Zann Consortium forces can use these structures to protect my men 
+			on the planet, and to hold key areas of the battlefield.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_31">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_31</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_31</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_31</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_31_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_31</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_31</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_31</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_31_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_31_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_32
+TYBER ZANN: This terrain is far too dense for vehicles, but consortium foot troops will have no 
+			problems traveling through this area.  Let's use this to our advantage.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_32">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_32</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_32</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_32</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_32_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_32</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_32</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_32</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_32_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_32_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_33
+TYBER ZANN: Since we have Destroyers in orbit, we can order an orbital bombardment.   
+			This Rebel base would be an ideal target for this new weapon.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_33">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_33</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_33</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_33</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_33_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_33</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_33</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_33</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_33_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_33_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_34
+TYBER ZANN: This would be an ideal time to use the stealth technology that we purchased on 
+			the Black Market.  Use this ability on our Vengeance-Class ships to launch a sneak 
+			attack on the nearby Rebel turrets.  They'll never know what hit them.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_34">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_34</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_34</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_34</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_34_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_34</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_34</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_34</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_34_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_34_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_35
+TYBER ZANN: The enemy has bomber units, but we did not come unprepared.  We can easily counter 
+			these pests by using the defensive systems on our new Crusader Gunships.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_35">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_35</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_35</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_35</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_35_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_35</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_35</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_35</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_35_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_35_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_36
+TYBER ZANN: We are not bound by the same restrictions that plague our enemies.  There will be 
+			no Imperial bureaucracy to slow us down; and we do not follow a righteous moral code 
+			as the Rebels do.  NOTHING will stand in the way of our success.  We will corrupt, 
+			sabotage, and then annihilate our enemies.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_36">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_36</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_36</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_36</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_36_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_36</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_36</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_36</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_36_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_36_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_37
+TYBER ZANN: I need credits to further my plans to grow the size of the Zann Consortium!  
+			I must spread corruption to nearby planets with  defilers.  Once it has been 
+			established, my corrupting influence will automatically begin extorting a 
+			percentage of the planetary income.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_37">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_37</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_37</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_37</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_37_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_37</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_37</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_37</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_37_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_37_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_38
+NARRATOR: Zoom in 2X on corrupted planets to see the positions of enemy structures and forces.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_38">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_38</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_38</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_38</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_38_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_38</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_38</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_38</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_38_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_38_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_39
+TYBER ZANN: Excellent, these Buzz Droids are just the thing I need to successfully attack Jabba's off world ships.    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_39">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_39</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_39</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_39</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_39_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_39</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_39</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_39</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_39_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_39_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_40
+TYBER ZANN: Whenever an enemy planet has been corrupted we can spy on the activity on that planet. 
+			In this case, it appears that the Rebel Alliance is defending Felucia with an Ion Cannon. 
+			I hate surprises...   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_40">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_40</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_40</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_40</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_40_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_40</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_40</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_40</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_40_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_40_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_41
+TYBER ZANN: Everyone has a price… use my Bribery ability to sway enemy units to our cause.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_41">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_41</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_41</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_41</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_41_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_41</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_41</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_41</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_41_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_41_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_42
+TYBER ZANN: Unlike the Rebel and Empire, these asteroids pose no threat to my ships.  
+			I can use this ability as part of my tactics, to hide or evade the enemy   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_42">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_42</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_42</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_42</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_42_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_42</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_42</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_42</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_42_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_42_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_43
+TYBER ZANN: This Rebel space station is heavily shielded, but our Kedalbe ship has the 
+			ability to drain enemy's shields.  Let's use their own shields against them!   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_43">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_43</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_43</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_43</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_43_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_43</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_43</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_43</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_43_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_43_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_44
+NARRATOR: You can zoom in 2X to configure all of your bases to your liking.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_44">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_44</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_44</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_44</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_44_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_44</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_44</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_44</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_44_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_44_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_45
+TYBER ZANN: Since this planet has been corrupted by our influence, we will receive a bounty 
+			for every enemy that we kill.  Apparently, crime does pay.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_45">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_45</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_45</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_45</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_45_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_45</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_45</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_45</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_45_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_45_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_46
+TYBER ZANN:  The information I received through bribery has allowed me to pinpoint the 
+			 location of Jabba's forces. He's set up near an Imperial generator.    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_46">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_46</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_46</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_46</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_46_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_46</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_46</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_46</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_46_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_46_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_47
+TYBER ZANN: Destroying the power generator will render the Rebel base shield useless and 
+			allow us to launch an assault on their base.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_47">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_47</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_47</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_47</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_47_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_47</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_47</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_47</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_47_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_47_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_48
+NARRATOR: As long as their base shield is active our planetary bombardment is useless 
+		  against their factories.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_48">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_48</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_48</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_48</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_48_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_48</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_48</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_48</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_48_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_48_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_49
+NARRATOR: A Defiler spreads the will of Tyber Zann across the galaxy by infiltrating and 
+		  corrupting a planet using bribery, extortion, and assassination, among other 
+		  Underworld type actions.  There will be choices to be made when corrupting a 
+		  world and those choices determine many things even the types of units that world 
+		  could produce for the Zann Consortium.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_49">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_49</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_49</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_49</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_49_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_49</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_49</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_49</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_49_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_49_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_50
+NARRATOR: From this Advanced Base Layout screen, the owner of the planet can arrange any 
+		  troops and base structures to better defend it.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_50">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_50</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_50</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_50</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_50_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_50</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_50</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_50</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_50_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_50_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_51
+NARRATOR: Technology purchased from the black market will vary depending on a great many factors.  
+		  The cost to steal a certain technology will vary depending on the current tech level of 
+		  the enemy that you are stealing from. The items you gain from Black Markets across the 
+		  galaxy become better and better with the number of Black Markets you have set up.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_51">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_51</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_51</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_51</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_51_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_51</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_51</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_51</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_51_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_51_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_52
+NARRATOR: The cost to destroy each structure is displayed next to it. For our purposes, 
+		  the Ion Cannon is the only structure that is affordable to sabotage.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_52">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_52</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_52</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_52</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_52_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_52</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_52</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_52</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_52_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_52_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_53
+TYBER ZANN: Direct these mercenaries to enter the bunker by selecting them and clicking 
+			on the bunker.  This will garrison them inside the bunker and protect them 
+			from any damage, while allowing them to fire upon any nearby enemies.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_53">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_53</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_53</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_53</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_53_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_53</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_53</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_53</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_53_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_53_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_54
+NARRATOR: To call down reinforcements, click the "Call for Reinforcements" button.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_54">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_54</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_54</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_54</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_54_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_54</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_54</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_54</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_54_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_54_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_55
+NARRATOR: Now drag the F9-TZ Transport company from the reinforcement window to your 
+		  reinforcement point on the land map.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_55">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_55</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_55</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_55</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_55_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_55</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_55</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_55</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_55_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_55_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_56
+TYBER ZANN: Now that those pests have been taken care of, we need to take out that shield generator.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_56">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_56</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_56</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_56</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_56_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_56</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_56</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_56</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_56_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_56_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_57
+NARRATOR: Load your units into the troop transport by selecting them and clicking on the 
+		  transport unit, then move the transport to the designated area.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_57">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_57</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_57</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_57</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_57_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_57</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_57</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_57</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_57_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_57_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_58
+NARRATOR: Some areas are impassable to vehicles and can only be reached by infantry.  
+		  Eject your troops and send them to attack Jabba's forces.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_58">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_58</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_58</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_58</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_58_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_58</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_58</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_58</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_58_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_58_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_59
+JABBA'S TROOPS: We're under attack call for back up!   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_59">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_59</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_59</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_59</Reward_Param8>
+		<Reward_Param9>Pirate_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_59_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_59</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_59</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_59</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_59_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_59_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_60
+JABBA'S TROOPS: There's too many of them we can't hold out. Where is our help!   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_60">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_60</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_60</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_60</Reward_Param8>
+		<Reward_Param9>Pirate_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_60_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_60</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_60</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_60</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_60_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_60_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_61
+JABBA THE HUTT:  Hold out at all costs. I've sent Empire forces to help you at the base. 
+				 Don't let that artifact fall into Zann's clutches.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_61">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_61</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_61</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_61</Reward_Param8>
+		<Reward_Param9>Jabba_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_61_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_61</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_61</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_61</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_61_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_61_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_62
+TYBER ZANN: Now that our way is clear, take our forces and destroy the enemy’s base.    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_62">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_62</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_62</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_62</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_62_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_62</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_62</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_62</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_62_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_62_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_63
+TYBER ZANN: I don't know what this artifact is, but I'll spend some resources to learn all of 
+			its secrets. If Jabba thought it was worth a planetary ransom in credits I know 
+			I'll be able to get even more for its secrets.    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_63">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_63</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_63</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_63</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_63_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_63</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_63</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_63</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_63_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_63_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_64
+TYBER ZANN: Urai, you are the only one I would trust with this artifact. Secretly get to Shola 
+			and hide this in the weapons cache we have hidden there. Contact me when you've 
+			accomplished this using the private com-like we have.    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_64">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_64</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_64</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_64</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_64_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_64</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_64</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_64</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_64_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_64_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_65
+STORMTROOPER: Tyber Zann by the authority of the empire you're under arrest for crimes against 
+			  the state. Will you come peacefully or must we use force?    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_65">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_65</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_65</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_65</Reward_Param8>
+		<Reward_Param9>Stormtrooper_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_65_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_65</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_65</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_65</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_65_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_65_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_66
+TYBER ZANN: More like crimes against Jabba the Hutt. Oh, I'll go to prison peacefully. 
+			Things will change later, however. On that you have the word of Tyber Zann.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_66">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_66</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_66</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_66</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_66_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_66</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_66</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_66</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_66_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_66_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_67
+JABBA THE HUTT: Tyber Zann what are you doing in that system? I expected you here with 
+				me days ago. Is something wrong?   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_67">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_67</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_67</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_67</Reward_Param8>
+		<Reward_Param9>Jabba_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_67_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_67</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_67</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_67</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_67_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_67_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_68
+JABBA THE HUTT: Zann what are you doing attacking my forces above Felucia? Stop this instant 
+				or you'll feel my wraith, this I promise you.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_68">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_68</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_68</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_68</Reward_Param8>
+		<Reward_Param9>Jabba_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_68_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_68</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_68</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_68</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_68_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_68_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_69
+JABBA THE HUTT: What are you doing on that world. If you dare attack my base on Felucia I'll 
+				send the entire might of the Empire and its fleets against you.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_69">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_69</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_69</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_69</Reward_Param8>
+		<Reward_Param9>Jabba_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_69_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_69</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_69</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_69</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_69_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_69_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_70
+JABBA THE HUTT: I received a message that you've been captured. If you don't tell me where 
+				my artifact is, I will see you die in prison.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_70">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_70</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_70</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_70</Reward_Param8>
+		<Reward_Param9>Jabba_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_70_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_70</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_70</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_70</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_70_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_70_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_71
+Tyber Zann: I need to establish a black market on Nal Hutta in order to further the abilities 
+			of my forces around the galaxy.  Before I can establish the black market, I need 
+			to show them what I'm capable of.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_71">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_71</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_71</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_71</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_71_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_71</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_71</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_71</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_71_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_71_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_72
+Underworld Soldier:  Sir, We've detected that The Mandalore's supreme strategist has taken 
+					 up residence in orbit above Mandalore.  If we can sucessfully perform 
+					 piracy at Mandalore, we should be able to open the door to creating a 
+					 black market on Nal Hutta.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_72">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_72</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_72</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_72</Reward_Param8>
+		<Reward_Param9>Pirate_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_72_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_72</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_72</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_72</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_72_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_72_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_73
+Hint: To perform an act of piracy, drag this Defiler to the 'Spread Corruption' slot on 
+	  the planet Mandalore.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_73">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_73</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_73</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_73</Reward_Param8>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_73_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_73</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_73</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_73</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_73_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_73_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_74
+Hint: When a Defiler attempts to spread corruption at a planet, you will be presented with all 
+	  the available corruption options at that planet.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_74">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_74</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_74</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_74</Reward_Param8>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_74_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_74</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_74</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_74</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_74_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_74_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_75
+Hint: Select 'Piracy' from the corruption menu.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_75">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_75</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_75</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_75</Reward_Param8>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_75_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_75</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_75</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_75</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_75_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_75_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_76
+Tyber Zann: This will be one of the toughest battles I've ever faced. The citizens on Mandalore 
+			have a many generations long warrior tradition and I'll have to combat their toughest 
+			clan leader in the space above the planet.    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_76">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_76</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_76</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_76</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_76_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_76</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_76</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_76</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_76_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_76_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_77
+Tyber Zann: I've successfully defeated the best leader Mandalore had to offer. News of this 
+			victory will amaze and strike terror in the hearts of systems all over the galaxy. 
+			It's a major victory with far reaching effects as we deal with other warrior 
+			nations to push my plan forward.    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_77">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_77</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_77</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_77</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_77_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_77</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_77</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_77</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_77_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_77_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_78
+Tyber Zann: Send my Vigo Urai Fen to Nal Hutta to purchase Disruptor Technology from the 
+			Black Market there.    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_78">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_78</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_78</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_78</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_78_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_78</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_78</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_78</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_78_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_78_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_79
+Urai Fen: At your service.    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_79">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_79</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_79</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_79</Reward_Param8>
+		<Reward_Param9>Urai_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_79_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_79</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_79</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_79</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_79_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_79_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_80
+Urai Fen: Tyber I've been meaning to ask you, why do you fight the forces of the Empire so
+		  hard? You don't try so hard against the forces of the rebellion.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_80">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_80</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_80</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_80</Reward_Param8>
+		<Reward_Param9>Urai_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_80_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_80</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_80</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_80</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_80_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_80_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_81
+Tyber Zann: My motives are my own, but I will tell you this.  I was rapidly working my 
+			way up through the Imperial Academy, but some took exception to my creative 
+			solutions for advancement and had me expelled. I vowed to make them pay for 
+			this indignity. The Rebellion, and their worlds, may be useful later, but the 
+			Empire will start their repayment to me now. Let's get to work.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_81">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_81</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_81</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_81</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_81_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_81</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_81</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_81</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_81_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_81_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_82
+Zann Consortium Soldier:  Sir, We've decoded a message from an Imperial outpost on Felucia 
+						  that grants surface clearance for Jabba the Hutt.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_82">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_82</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_82</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_82</Reward_Param8>
+		<Reward_Param9>Pirate_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_82_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_82</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_82</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_82</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_82_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_82_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_83
+Tyber Zann: This is it.  Jabba is going to Felucia to sell the artifact to the Empire.  
+			We can pose as Hutt Cartel forces and sneak onto the planet surface.  
+			Since they're not expecting us, We'll be able to steal the artifact 
+			without much trouble.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_83">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_83</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_83</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_83</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_83_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_83</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_83</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_83</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_83_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_83_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_84
+Fleet Commander: Incoming shuttle, state your purpose for entering Imperial space.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_84">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_84</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_84</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_84</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_84_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_84</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_84</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_84</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_84_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_84_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_85
+Zann Consortium Soldier: We represent the Hutt Cartel.  We are under orders to deliver an 
+						 artifact that Jabba is trading with senior Imperial officers.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_85">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_85</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_85</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_85</Reward_Param8>
+		<Reward_Param9>Pirate_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_85_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_85</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_85</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_85</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_85_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_85_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_86
+Fleet Commander: All the Hutt Cartel ships have already arrived and are accounted for.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_86">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_86</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_86</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_86</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_86_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_86</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_86</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_86</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_86_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_86_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_87
+Zann Consortium Soldier: We are arriving separate from the main Hutt fleet to ensure 
+						 safety for the artifact.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_87">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_87</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_87</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_87</Reward_Param8>
+		<Reward_Param9>Pirate_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_87_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_87</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_87</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_87</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_87_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_87_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_88
+Fleet Commander: I see. You are granted clearance to land at the Hutt landing site.  
+				 If there is any deviation from that course, we will fire upon your vessel.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_88">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_88</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_88</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_88</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_88_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_88</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_88</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_88</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_88_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_88_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_89
+Tyber Zann: This worked out better than I thought.  They've given us the exact location 
+			of Jabba and the real artifact. Hurry. We've no time to waste.    -->
+	<Event Name="Underworld_Tutorial_Speech_Line_89">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_89</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_89</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_89</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_89_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_89</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_89</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_89</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_89_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_89_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_91
+Tyber Zann: Corrupting planets has many benefits. Not only can we spy on the forces 
+			on a planet, but we are able to study the configuration of the land invasion map.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_91">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_91</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_91</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_91</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_91_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_91</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_91</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_91</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_91_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_91_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_92
+Tyber Zann: We have failed in our first attempt at corrupting Mandalore.  Fortunately, 
+			we have received word that the Supreme Strategist will be making another 
+			trip to the Hutt base.  Take this Defiler to Mandalore and try again.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_92">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_92</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_92</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_92</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_92_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_92</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_92</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_92</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_92_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_92_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_93
+Hint: Be advised that only Zann Consortium heroes are capable of purchasing technology from the Black Market.   -->
+	<Event Name="Underworld_Tutorial_Speech_Line_93">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_93</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_93</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_93</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_93_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_93</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_93</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_93</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_93_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_93_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_94
+Tyber Zann: We don't want to give Jabba any warning.  Leave Mandalore under his control for now.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_94">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_94</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_94</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_94</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_94_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_94</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_94</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_94</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_94_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_94_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_95
+Urai Fen: We need to go into hiding quickly!  Attacking Mandalore would expose us.  
+		  We cannot afford that at this time.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_95">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_95</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_95</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_95</Reward_Param8>
+		<Reward_Param9>Urai_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_95_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_95</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_95</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_95</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_95_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_95_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_96
+Urai Fen: It would be foolish to expose ourselves to the Imperials at Nal Hutta.  
+		  Let's get to Kamino and out of sight.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_96">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_96</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_96</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_TUTORIAL_96</Reward_Param8>
+		<Reward_Param9>Urai_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_96_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_96</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_96</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_96</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_96_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_96_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_18
+Urai Fen: They'll be coming for us at Ryloth once they learn that Tyber doesn't have their precious artifact.  
+		  Kamino is an ideal location to lay low while we plan Tyber's escape.  I have connections on Kamino 
+		  that I trust to hide us for a while.  Build a suitable force and conquer Kamino.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_Felucia_18">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_18</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_18</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UNDERWORLD_PROLOGUE_FELUCIA_18</Reward_Param8>
+		<Reward_Param9>Urai_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_Felucia_18_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_PROLOGUE_FELUCIA_18</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_18</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_Felucia_18</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_Felucia_18_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_Felucia_18_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_97
+Hint: Be sure to make use of the special abilities of your units.  Using those abilities 
+	  could mean the difference between victory and defeat.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_97">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_97</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_97</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_97</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_97_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_97</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_97</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_97</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_97_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_97_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_98
+Hint: Once a world has been corrupted, you will be unable to change the corruption type of that planet. 
+	  If the corruption is removed by enemy heroes, or the planet is conquered, you can re-corrupt it 
+	  with whatever corruption choices are available.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_98">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_98</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_98</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_98</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_98_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_98</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_98</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_98</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_98_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_98_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_99
+Hint: The yellow fog surrounding the planets indicates that they are under the 
+	  corruption influence of the Zann Consortium.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_99">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_99</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_99</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_99</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_99_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_99</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_99</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_99</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_99_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_99_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_102
+Hint: The Zann Consortium can either corrupt or capture planets, the choice is yours.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_102">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_102</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_102</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_102</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_102_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_102</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_102</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_102</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_102_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_102_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_UNDERWORLD_TUTORIAL_103
+Hint: Like the original Empire at War, conquering establishes ownership and allows Tyber 
+	  to build new bases. Corrupting an enemy planet leaves the enemy in control, but in 
+	  return Tyber gains access to unique missions, tech upgrades, enemy information, 
+	  increased income, and new space routes.  -->
+	<Event Name="Underworld_Tutorial_Speech_Line_103">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_UNDERWORLD_TUTORIAL_103</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_103</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Reward_Param8>UNDERWORLD_TUTORIAL_103</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Underworld_Tutorial_Speech_Line_103_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UNDERWORLD_TUTORIAL_103</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_103</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Underworld_Tutorial_Speech_Line_103</Prereq>
+				</Event>
+
+				<Event Name="Underworld_Tutorial_Speech_Line_103_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Underworld_Tutorial_Speech_Line_103_Remove_Text</Prereq>
+				</Event>
+				
+
+
+
+</Story>
