@@ -3445,7 +3445,7 @@ Underworld Soldier:  Sir, We've detected that The Mandalore's supreme strategist
 		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_72</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UNDERWORLD_TUTORIAL_72</Reward_Param8>
-		<Reward_Param9>Pirate_Loop</Reward_Param9>
+		<Reward_Param9>Underworld_Soldier_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
 	</Event>
@@ -3749,7 +3749,7 @@ Zann Consortium Soldier:  Sir, We've decoded a message from an Imperial outpost 
 		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_82</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UNDERWORLD_TUTORIAL_82</Reward_Param8>
-		<Reward_Param9>Pirate_Loop</Reward_Param9>
+		<Reward_Param9>Underworld_Soldier_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
 	</Event>
@@ -3840,7 +3840,7 @@ Zann Consortium Soldier: We represent the Hutt Cartel.  We are under orders to d
 		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_85</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UNDERWORLD_TUTORIAL_85</Reward_Param8>
-		<Reward_Param9>Pirate_Loop</Reward_Param9>
+		<Reward_Param9>Underworld_Soldier_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
 	</Event>
@@ -3899,7 +3899,7 @@ Zann Consortium Soldier: We are arriving separate from the main Hutt fleet to en
 		<Reward_Param1>TEXT_SPEECH_UNDERWORLD_TUTORIAL_87</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UNDERWORLD_TUTORIAL_87</Reward_Param8>
-		<Reward_Param9>Pirate_Loop</Reward_Param9>
+		<Reward_Param9>Underworld_Soldier_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_Tutorial_Demo_Begin</Prereq>
 	</Event>
