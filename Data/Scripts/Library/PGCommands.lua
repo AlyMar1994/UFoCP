@@ -103,7 +103,7 @@ function Register_Timer(func, timeout, param)
 	if TimerTable[func] == nil then
 		TimerTable[func] = {}
 	end
-	
+
 	table.insert(TimerTable[func], {timeout = timeout, start_time = GetCurrentTime(), param = param})
 end
 
@@ -148,7 +148,7 @@ function Register_Death_Event(obj, func)
 		MessageBox("%s -- Error, object already registered for death event", tostring(Script))
 		return
 	end
-	
+
 	DeathTable[obj] = func
 end
 
@@ -174,7 +174,7 @@ function Register_Attacked_Event(obj, func)
 		MessageBox("%s -- Error, object already registered for attacked event", tostring(Script))
 		return
 	end
-	
+
 	-- Storing the callback and if the object currently has a "deadly enemy"
 	AttackedTable[obj] = {func, false}
 end
@@ -189,7 +189,7 @@ function Process_Attacked_Events()
 		else
 			most_deadly_enemy = FindDeadlyEnemy(obj)
 			if most_deadly_enemy then
-		
+
 				-- If we have a deadly enemy and this just became true, run the callback.
 				if not table[2] then
 					table[2] = true
@@ -197,7 +197,7 @@ function Process_Attacked_Events()
 					Process_Attacked_Events()
 					return
 				end
-			
+
 			-- Update that we don't have a deadly enemy any longer.
 			--else
 			elseif table[2] then
@@ -233,9 +233,9 @@ function Register_Prox(obj, func, range, player_filter)
 		ScriptError("%s -- Error, prox object doesn't exist; aborting", tostring(Script))
 		return
 	end
-	
+
 	-- Note the player_filter is optional.  The user of this function must check
-	-- for player validity at the source.	
+	-- for player validity at the source.
 	if player_filter == nil then
 		DebugMessage("%s -- Warning, passed a nil player, not filtering prox by player", tostring(Script))
 	end
@@ -259,12 +259,12 @@ function Pump_Service()
 	Process_Death_Events()
 	Process_Proximities()
 	Process_Attacked_Events()
-	
+
 	-- Don't test if this is a function, so that we can catch accidental redefinitions when it's used as a function.
 	if Process_Reinforcements then
 		Process_Reinforcements()
 	end
-	
+
 	-- This is for behavior that we need evaluated every service without regard to story event state.
 	if Story_Mode_Service then
 		Story_Mode_Service()
@@ -299,7 +299,7 @@ function Use_Ability_If_Able(thing, ability_name, target)
 
 	-- Taskforces aren't able to check for the ability availablity or readiness, but check this for units
 	if Is_A_Taskforce(thing) or (thing.Has_Ability(ability_name) and thing.Is_Ability_Ready(ability_name) and (not thing.Is_Ability_Active(ability_name))) then
-	
+
 		if target == nil then
 			thing.Activate_Ability(ability_name, true)
 		elseif TestValid(target) then
@@ -338,11 +338,11 @@ function ConsiderDivertAndAOE(object, ability_name, area_of_effect, recent_enemy
 				DebugMessage("%s -- couldn't get a valid threat center", tostring(Script))
 				DebugPrintTable(recent_enemy_units)
 				return
-			end				
+			end
 
 			DebugMessage("%s -- Found ability pos with threat %d", tostring(Script), aoe_victim_threat)
 			if (aoe_victim_threat > min_threat_to_use_ability) then
-			
+
 				-- Check distance to prevent the unit from spinning in circles on repeated diversions
 				if object.Get_Distance(aoe_pos) > 15 then
 					DebugMessage("%s -- Met minimum threat; diverting.", tostring(Script))
@@ -357,16 +357,16 @@ function ConsiderDivertAndAOE(object, ability_name, area_of_effect, recent_enemy
 				aoe_victim_threat = nil
 			end
 
-		-- We have found a good use for the ability 
+		-- We have found a good use for the ability
 		else
 
 			-- Are we done chasing down the position to use the ability?
 			if object.Is_On_Diversion() then
-			
+
 				DebugMessage("%s -- In process of diverting to chase threat %d (no new orders issued)", tostring(Script), aoe_victim_threat)
-			
+
 			else
-				
+
 				-- We're done diverting.  Perform a sanity check to make sure at least one enemy is now in range.
 				--if OneOrMoreInRange(object, recent_enemy_units, area_of_effect) then
 				-- We're done diverting so check to see if we're at least in range of the best location (even if not centered on it)
@@ -379,7 +379,7 @@ function ConsiderDivertAndAOE(object, ability_name, area_of_effect, recent_enemy
 				else
 					DebugMessage("%s -- Nothing at diversion locaion; aborting.", tostring(Script))
 				end
-				
+
 				-- Reset everything; this try is done.  If the victims moved too much, we'll need to start over.
 				recent_enemy_units = {}
 				aoe_pos = nil
@@ -405,36 +405,36 @@ function PruneFriendlyObjects(obj_table)
 			 table.insert(non_friendly_obj_table, obj)
 		end
 	end
-	
+
 	return non_friendly_obj_table
 end
 
 function Try_Garrison(tf, unit, offensive_only, range)
 
 	lib_nearest_garrison = Find_Nearest(unit, "GarrisonCanFire", unit.Get_Owner(), true)
-	
+
 	if TestValid(lib_nearest_garrison) and unit.Can_Garrison(lib_nearest_garrison) then
 		lib_dist_to_garrison = unit.Get_Distance(lib_nearest_garrison)
-		
+
 		if lib_dist_to_garrison < range then
 			unit.Activate_Ability("SPREAD_OUT", false)
 			unit.Garrison(lib_nearest_garrison)
-			
+
 			if TestValid(tf) then
 				tf.Release_Unit(unit)
 				unit.Lock_Current_Orders()
 			end
-			
+
 			return true
 		end
 	end
-	
+
 	if not offensive_only then
 		lib_nearest_garrison = Find_Nearest(unit, "CanContainGarrison", unit.Get_Owner(), true)
-		
+
 		if TestValid(lib_nearest_garrison) and unit.Can_Garrison(lib_nearest_garrison) then
 			lib_dist_to_garrison = unit.Get_Distance(lib_nearest_garrison)
-			
+
 			if lib_dist_to_garrison < range then
 				unit.Activate_Ability("SPREAD_OUT", false)
 				unit.Garrison(lib_nearest_garrison)
@@ -446,14 +446,14 @@ function Try_Garrison(tf, unit, offensive_only, range)
 			end
 		end
 	end
-	
+
 	return false
 end
 
 function Try_Deploy_Garrison(object, target, health_threshold)
 	lib_any_deployed = false
 	lib_garrison_table = object.Get_Garrisoned_Units()
-	if table.getn(lib_garrison_table) > 0 then		
+	if table.getn(lib_garrison_table) > 0 then
 		for i,garrison in pairs(lib_garrison_table) do
 			if garrison.Get_Hull() > health_threshold then
 				if (not TestValid(target)) or garrison.Is_Good_Against(target) then
@@ -471,7 +471,7 @@ function Get_Special_Healer_Property_Flag(unit)
 	if not TestValid(unit) then
 		return nil
 	end
-	
+
 	if not special_healer_table then
 		special_healer_table = {}
 		special_healer_table["BOBA_FETT"] = "HealsInfantry"
@@ -494,7 +494,7 @@ function Get_Special_Healer_Property_Flag(unit)
 		special_healer_table["MPTL_SPOTTER"] = "HealsVehicles"
 		special_healer_table["SCOUT_TROOPER"] = "HealsVehicles"
 	end
-	
+
 	return special_healer_table[unit.Get_Type().Get_Name()]
 
 end
@@ -506,7 +506,7 @@ function Set_Land_AI_Targeting_Priorities(tf)
 	tf.Set_Targeting_Priorities("Infantry_Attack_Move", "LandHero")
 	tf.Set_Targeting_Priorities("Air_Attack_Move", "Air")
 	tf.Set_Targeting_Priorities("Heavy_Vehicle_Attack_Move", "Vehicle")
-	
+
 	--Now for some more specific stuff
 	tf.Set_Targeting_Priorities("Rocket_Infantry_Attack_Move", "Plex_Soldier_Team")
 	tf.Set_Targeting_Priorities("Rocket_Infantry_Attack_Move", "Pirate_Plex_Soldier_Team")
@@ -533,23 +533,23 @@ function Try_Weapon_Switch(object, target)
 	if lib_switcher_type == lib_t4b_type then
 		object.Activate_Ability("ROCKET_ATTACK", target.Is_Category("Structure") or target.Is_Category("Infantry"))
 	elseif lib_switcher_type == lib_bossk_type then
-		object.Activate_Ability("SWAP_WEAPONS", target.Is_Category("Infantry") or target.Is_Category("Vehicle"))		
+		object.Activate_Ability("SWAP_WEAPONS", target.Is_Category("Infantry") or target.Is_Category("Vehicle"))
 	elseif lib_switcher_type == lib_destroyer_droid_type then
 		object.Activate_Ability("ROCKET_ATTACK", target.Get_Shield() > 0.0)
 	elseif lib_switcher_type == lib_mal_type then
 		object.Activate_Ability("SWAP_WEAPONS", (target.Is_Category("Infantry") or target.Is_Category("Vehicle")) and GameRandom.Get_Float() > 0.8)
 	elseif object.Should_Switch_Weapons(target) then
 		object.Activate_Ability("SWAP_WEAPONS", not object.Is_Ability_Active("SWAP_WEAPONS"))
-	end	
+	end
 
 end
 
 function Determine_Magic_Wait_Duration()
 
 	lib_magic_wait_time = 2400 - GetCurrentTime()
-	if lib_magic_wait_time < 60 then 
+	if lib_magic_wait_time < 60 then
 		lib_magic_wait_time = 60
 	end
-	
+
 	return lib_magic_wait_time
 end
