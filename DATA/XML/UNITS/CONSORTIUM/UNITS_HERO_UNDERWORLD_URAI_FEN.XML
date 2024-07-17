@@ -161,7 +161,7 @@
 				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> Emperor_Palpatine, Obi_Wan_Kenobi, Darth_Vader, Luke_Skywalker_Jedi, Yoda, UM05_ADEPTGENERIC, UM05_ADEPTONE, UM05_ADEPTONECINE, UM05_ADEPTTWO, UM05_ADEPTTWOCINE, UM05_ADEPTTHREE, UM05_ADEPTTHREECINE, UM05_ADEPTFOUR, UM05_ADEPTFOURCINE </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Emperor_Palpatine, Obi_Wan_Kenobi, Darth_Vader, Luke_Skywalker_Jedi, Yoda, Silri, UM05_ADEPTGENERIC, UM05_ADEPTONE, UM05_ADEPTONECINE, UM05_ADEPTTWO, UM05_ADEPTTWOCINE, UM05_ADEPTTHREE, UM05_ADEPTTHREECINE, UM05_ADEPTFOUR, UM05_ADEPTFOURCINE </Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
 
