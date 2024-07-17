@@ -7,7 +7,7 @@
 	<!-- This is the battle platform used by Garm Bel Iblis for the Rebels -->
 
 	<UniqueUnit Name="Gargantuan_Battle_Platform">
-		<Text_ID>TEXT_HERO_GARM_BEL_IBLIS</Text_ID>
+		<Text_ID>TEXT_HERO_GARM_BEL_IBLIS_02</Text_ID>
 		<Encyclopedia_Good_Against> AT_AT_Walker Canderous_Assault_Tank </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> MAL_Rocket_Vehicle Dark_Trooper_PhaseIII </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text> TEXT_TOOLTIP_GARM_BEL_IBLIS </Encyclopedia_Text>
@@ -249,7 +249,7 @@
 
 
 	<HeroCompany Name="Garm_Bel_Iblis_Team">
-		<Text_ID>TEXT_HERO_GARM_BEL_IBLIS_TEAM</Text_ID>
+		<Text_ID>TEXT_HERO_GARM_BEL_IBLIS_TEAM_02</Text_ID>
 		<Encyclopedia_Good_Against> AT_AT_Walker Canderous_Assault_Tank </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> MAL_Rocket_Vehicle Dark_Trooper_PhaseIII </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text> TEXT_TOOLTIP_GARM_BEL_IBLIS </Encyclopedia_Text>
