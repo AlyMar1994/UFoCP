@@ -52,6 +52,7 @@ Ability Fixes:
 • Urai Fen's Cortosis Blades ability wasn't able to chance deflecting the campaign's Force Adepts' lightsabers, as they weren't included as applicable units. (BUG #80)
 • Urai Fen's Cortosis Blades ability wasn't able to chance deflecting Silri's lightsaber whip during Skirmish mirror-matches, as she wasn't included as an applicable unit. (BUG #81)
 • Urai Fen's Cortosis Blades ability wasn't able to chance deflecting Darth Vader's lightsaber, as the ability wasn't looking for his FoC land unit, only his EaW unit. (BUG #30)
+• Cuddles (Silri's rancor) was forgotten when the rancor's eat-infantry ability was uncensored, and still wasn't able to eat infantry like normal indigenous rancor.  Cuddles now also has the same infantry exclusions normal rancor do to avoid glitches during mirror-matches or trying to eat other indigenous units. (BUG #189)
 • Hero Clash "Darth Vader vs. Obi-Wan" wouldn't start because the clash was looking for Darth Vader's EaW land unit, not his FoC unit. (BUG #26)
 
 

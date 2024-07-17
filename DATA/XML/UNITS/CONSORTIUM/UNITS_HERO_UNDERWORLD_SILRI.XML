@@ -527,7 +527,7 @@
 				<Applicable_Unit_Types />
 			</Generic_Attack_Ability>
 
-			<!--<Eat_Attack_Ability Name="Cuddles_Rancor_Eat_Infantry">
+			<Eat_Attack_Ability Name="Cuddles_Rancor_Eat_Infantry">
 				<Activation_Chance>1.0</Activation_Chance>
 				<Activation_Min_Range>40.0</Activation_Min_Range>
 				<Activation_Max_Range>45.0</Activation_Max_Range>
@@ -541,9 +541,18 @@
 				<Target_Destruction_Frame>110</Target_Destruction_Frame>
 				<Target_Grabbed_Animation>EATEN_DIE</Target_Grabbed_Animation>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Excluded_Unit_Types>
+					Rancor,
+					Rancor_Dark_Ally,
+					Night_Sister,
+					UM06_Night_Sister,
+					Prisoner_Night_Sister,
+					Wampa,
+					Cuddles_The_Rancor
+				</Excluded_Unit_Types>
 				<Applicable_Unit_Types />
                 <Health_Per_Victim>40</Health_Per_Victim>
-			</Eat_Attack_Ability>-->
+			</Eat_Attack_Ability>
 
 			<Arc_Sweep_Attack_Ability Name="Cuddles_Rancor_Swat_Infantry_Left">
 				<Activation_Chance>0.5</Activation_Chance>
