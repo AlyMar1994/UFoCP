@@ -63,6 +63,7 @@ AI Fixes:
 • AI plans for finding the nearest appropriate healing object didn't include Darth Vader's FoC land unit as a valid recipiant for healing, only his EaW one. (BUG #27)
 • Consortium AI plans wouldn't consider building the Venator-class Cruiser in Space Skirmish because the unit wasn't included in its Skirmish unit table (despite being the only faction able to buy it). (BUG #165)
 • Consortium AI plans wouldn't consider building Ysalamiri cages when Darth Vader was on the field because the AI was searching for his old EaW unit, not his FoC one. (BUG #27)
+• Consortium AI plans wouldn't consider building Ysalamiri cages when Silri is on the field during a mirror-match. (BUG #187)
 • AI plans wouldn't factor in Consortium Repulsorlift Jammers alongside other "tactically active" infrastructure to target when deciding on structures to attack. (BUG #115)
 • AI plans wouldn't factor in Consortium turbolaser towers as structures to avoid when attacking buildings; Consortium turbolaser towers also weren't a part of the artillery infrastructure list to avoid, or specifically target, altogether. (BUG #116)
 • AI plans wouldn't factor in Consortium mobile artillery (MALs), and every faction's space missile artillery as structures to avoid when attacking buildings; they also weren't a part of the artillery infrastructure list to avoid, or specifically target, altogether. (BUG #160)
