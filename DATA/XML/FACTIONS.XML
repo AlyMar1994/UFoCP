@@ -330,6 +330,7 @@
 		<SFXEvent_Unit_Type_Spotted>Generic_Field_Commander_Rebel,	Unit_Announce_R_Field_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Han_Solo,								Unit_Announce_Solo_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Darth_Vader,							Unit_Announce_Vader_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Darth_Vader_Expansion,							Unit_Announce_Vader_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>General_Veers,						Unit_Announce_Veers_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
 
         <SFXEvent_Unit_Type_Spotted>Tyber_Zann,		                    Unit_Announce_Tyber_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
@@ -1120,6 +1121,7 @@
 		<SFXEvent_Unit_Type_Spotted>Generic_Field_Commander_Rebel,	Unit_Announce_R_Field_Storm_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Han_Solo,								Unit_Announce_Solo_Storm_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>Darth_Vader,							Unit_Announce_Vader_Storm_Trooper</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Darth_Vader_Expansion,							Unit_Announce_Vader_Storm_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>General_Veers,						Unit_Announce_Veers_Storm_Trooper</SFXEvent_Unit_Type_Spotted>
 
         <SFXEvent_Unit_Type_Spotted>Tyber_Zann,		                    Unit_Announce_Tyber_Empire_Soldier</SFXEvent_Unit_Type_Spotted>

@@ -481,6 +481,7 @@ function Get_Special_Healer_Property_Flag(unit)
 		special_healer_table["MARA_JADE"] = "HealsInfantry"
 		special_healer_table["OBI_WAN_KENOBI"] = "HealsInfantry"
 		special_healer_table["DARTH_VADER"] = "HealsInfantry"
+		special_healer_table["DARTH_VADER_EXPANSION"] = "HealsInfantry"
 		special_healer_table["KYLE_KATARN"] = "HealsInfantry"
 		special_healer_table["TACTICAL_R2_3PO_TEAM"] = "HealsVehicles"
 		special_healer_table["GARGANTUAN_BATTLE_PLATFORM"] = "HealsVehicles"

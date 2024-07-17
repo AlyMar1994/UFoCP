@@ -1609,7 +1609,7 @@ function Vader_Midtro()
 	Transition_Cinematic_Camera_Key(vader_spawn_0, 13, 200, 25, 100, 1, 0, 0, 1)
 	Transition_Cinematic_Target_Key(vader_guard_spawn_loc, 7, 0, 0, 0, 0, vader_spawn_0, 0, 1)
 	Sleep(7)
-	vader_list = Spawn_Unit(Find_Object_Type("DARTH_VADER"), vader_spawn_0, neutral)
+	vader_list = Spawn_Unit(Find_Object_Type("DARTH_VADER_EXPANSION"), vader_spawn_0, neutral)
 	vader = vader_list[1]
 	vader.Prevent_AI_Usage(true)
 	vader.Prevent_Opportunity_Fire(true)
@@ -1779,7 +1779,7 @@ function Thread_Vader_Enters_Play_Area()
 	--Sleep(3)
 	respawn_flag = Find_Hint("MARKER_GENERIC_PURPLE", "vader-respawn")
 
-	ref_type = Find_Object_Type("Darth_Vader")
+	ref_type = Find_Object_Type("DARTH_VADER_EXPANSION")
 	vaderlist = Spawn_Unit(ref_type, respawn_flag, empire)
 	new_vader = vaderlist[1]
 
@@ -1884,7 +1884,7 @@ function End_Cinematic()
 
 	-- spawn a new vader at the right location
 	final_vader_start_loc = Find_Hint("STORY_TRIGGER_ZONE_00", "vaderendcin")
-	ref_type = Find_Object_Type("Darth_Vader")
+	ref_type = Find_Object_Type("DARTH_VADER_EXPANSION")
 	vaderlist = Spawn_Unit(ref_type, final_vader_start_loc, empire)
 	vader = vaderlist[1]
 	vader.In_End_Cinematic(true)
