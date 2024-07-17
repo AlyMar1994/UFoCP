@@ -11,7 +11,7 @@
 		<Text_ID>TEXT_HERO_URAI_FEN</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_URAI_FEN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_WARRIOR </Encyclopedia_Unit_Class>
-		
+
 		<Land_Model_Name>UI_URAI_FEN.ALO</Land_Model_Name>
 		<Icon_Name>i_button_urai_fen.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -71,7 +71,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>18.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-		
+
 		<SFXEvent_Select>Unit_Select_Urai_Fen</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Urai_Fen</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Urai_Fen</SFXEvent_Fleet_Move>
@@ -98,7 +98,7 @@
 
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
-		
+
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
         <Highlight_Blob_Material_Name>Highlight_Underworld_Hero</Highlight_Blob_Material_Name>
 
@@ -110,7 +110,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-		
+
 		<Neutralization_Cost>2500.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
@@ -120,13 +120,13 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-		
+
 		<Lua_Script>ObjectScript_Urai</Lua_Script>
 		<Destroy_When_Used_As_Corruption_Prereq> No </Destroy_When_Used_As_Corruption_Prereq>
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
 		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes"> 
+		<Unit_Abilities_Data SubObjectList="Yes">
 
             <Unit_Ability>
                 <Type>STUN</Type>
@@ -144,7 +144,7 @@
 				<Alternate_Description_Text>TEXT_TYBER_CLOAKING_DESCRIPTION</Alternate_Description_Text>
                 <Recharge_Seconds>10.0</Recharge_Seconds>
 				<Expiration_Seconds>35.0</Expiration_Seconds>
-                <GUI_Activated_Ability_Name>Stealth_Urai</GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name>Stealth_Urai</GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Stealth_On_Urai_Fen</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Stealth_Off_Urai_Fen</SFXEvent_GUI_Unit_Ability_Deactivated>
             </Unit_Ability>
@@ -177,7 +177,7 @@
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>Urai_Fen</Applicable_Unit_Types>
 				<Excluded_Unit_Types />
-				
+
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect />
 				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
@@ -215,7 +215,7 @@
 				<Stun_Range>110.0</Stun_Range>
 				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
 				<Stun_Travel_Time_In_Secs>1.0</Stun_Travel_Time_In_Secs>
-                <Stunned_Effect> Stunned_Particle_Effect </Stunned_Effect> 
+                <Stunned_Effect> Stunned_Particle_Effect </Stunned_Effect>
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 				<Applicable_Unit_Types>Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca </Applicable_Unit_Types>
@@ -242,9 +242,9 @@
 
 	<HeroUnit Name="Urai_Fen_Prologue">
 		<Variant_Of_Existing_Type> Urai_Fen </Variant_Of_Existing_Type>
-		
+
 		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes"> 
+		<Unit_Abilities_Data SubObjectList="Yes">
 
             <Unit_Ability>
                 <Type>STUN</Type>
@@ -262,7 +262,7 @@
 				<Alternate_Description_Text>TEXT_TYBER_CLOAKING_DESCRIPTION</Alternate_Description_Text>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
 				<Expiration_Seconds>90.0</Expiration_Seconds>
-                <GUI_Activated_Ability_Name>Stealth_Urai</GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name>Stealth_Urai</GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Stealth_On_Urai_Fen</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Stealth_Off_Urai_Fen</SFXEvent_GUI_Unit_Ability_Deactivated>
             </Unit_Ability>
@@ -295,7 +295,7 @@
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>Urai_Fen_Prologue</Applicable_Unit_Types>
 				<Excluded_Unit_Types />
-				
+
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
 				<Target_Particle_Effect />
 				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
@@ -333,7 +333,7 @@
 				<Stun_Range>75.0</Stun_Range>
 				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
 				<Stun_Travel_Time_In_Secs>1.0</Stun_Travel_Time_In_Secs>
-                <Stunned_Effect> Stunned_Particle_Effect </Stunned_Effect> 
+                <Stunned_Effect> Stunned_Particle_Effect </Stunned_Effect>
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
@@ -371,7 +371,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_URAI_FEN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_WARRIOR </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_urai_fen.tga</Icon_Name>
-		
+
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>80</Damage>
 		<Affiliation>Underworld</Affiliation>
@@ -383,7 +383,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		
+
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Underworld_Hero_Shuttle</Company_Transport_Unit>
 		<Company_Units>Urai_Fen</Company_Units>
@@ -407,14 +407,14 @@
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
 		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
-		
+
 		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
-		
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
+
 	</HeroCompany>
 
 
@@ -431,4 +431,3 @@
 
 
 </Urai_Fen_Data>
-
