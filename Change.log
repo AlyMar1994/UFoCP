@@ -61,6 +61,7 @@ AI Fixes:
 • AI plans for building anti-infantry turrets weren't updated from EaW; the AI now knows the Proton Torpedo Turret is the Consortium's designated anti-infantry turret, and now has the same considerations to buy it the Rebels and Empire. (BUG #114)
 • AI plans wouldn't factor in IG-88 nor Garm Bel Iblis when considering buying Repair Facilities. (BUG #117)
 • AI plans for finding the nearest appropriate healing object didn't include Darth Vader's FoC land unit as a valid recipiant for healing, only his EaW one. (BUG #27)
+• AI plans for finding the nearest appropriate healing object didn't include General Veers as a valid recipiant for repairing. (BUG #188)
 • Consortium AI plans wouldn't consider building the Venator-class Cruiser in Space Skirmish because the unit wasn't included in its Skirmish unit table (despite being the only faction able to buy it). (BUG #165)
 • Consortium AI plans wouldn't consider building Ysalamiri cages when Darth Vader was on the field because the AI was searching for his old EaW unit, not his FoC one. (BUG #27)
 • Consortium AI plans wouldn't consider building Ysalamiri cages when Silri is on the field during a mirror-match. (BUG #187)
