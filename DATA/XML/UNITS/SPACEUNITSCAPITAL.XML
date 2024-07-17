@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <SpaceUnitsCapital>
-
 	<SpaceUnit Name="Calamari_Cruiser">
 		<Text_ID>TEXT_UNIT_CALAMARI_CRUISER</Text_ID>
 		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Interceptor4_Frigate </Encyclopedia_Good_Against>
@@ -27,7 +26,7 @@
 		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
+		<Bank_Turn_Angle>25</Bank_Turn_Angle>
 		<Max_Thrust>0.2</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
@@ -74,7 +73,7 @@
 		<Death_Clone />
 		<CategoryMask> Capital | AntiFrigate </CategoryMask>
 
-		<HardPoints> 
+		<HardPoints>
 			HP_Calamari_Cruiser_Weapon_FL, HP_Calamari_Cruiser_Weapon_FR, HP_Calamari_Cruiser_Weapon_BL, HP_Calamari_Cruiser_Weapon_BR, HP_Calamari_Cruiser_Weapon_ML, HP_Calamari_Cruiser_Weapon_MR, HP_Calamari_Cruiser_Engines
 		</HardPoints>
 
@@ -130,12 +129,12 @@
 		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
-        
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
-		
+
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
@@ -157,13 +156,13 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
 				<Recharge_Seconds>40</Recharge_Seconds>
 				<Expiration_Seconds>15</Expiration_Seconds>
-				
+
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-			
+
 		</Unit_Abilities_Data>
-       
+
 		<Encyclopedia_Text> TEXT_TOOLTIP_MON_CALAMARI_CRUISER TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
@@ -174,7 +173,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
@@ -207,7 +206,7 @@
 		<Space_Model_Name>EV_StarDestroyer.ALO</Space_Model_Name>
 
 		<Ranking_In_Category>5</Ranking_In_Category>
-	
+
 	   <GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
@@ -218,7 +217,7 @@
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		
+
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Armor_Type> Armor_Star_Destroyer </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
@@ -232,7 +231,7 @@
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
-		
+
 		<Max_Thrust>0.1</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
@@ -263,18 +262,18 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
-		
+
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 8</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 8</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 
-		
+
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
-		
+
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
@@ -283,7 +282,7 @@
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 
-		<HardPoints> 
+		<HardPoints>
 			HP_Star_Destroyer_Weapon_FL, HP_Star_Destroyer_Weapon_FR, HP_Star_Destroyer_Weapon_BL, HP_Star_Destroyer_Weapon_BR,
 			HP_Star_Destroyer_Weapon_ML, HP_Star_Destroyer_Weapon_MR, HP_Star_Destroyer_Shield_Generator, HP_Star_Destroyer_Engines,
 			HP_Star_Destroyer_Tractor_Beam, HP_Star_Destroyer_Fighter_Bay
@@ -325,7 +324,7 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-         
+
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Star_Destroyer</SFXEvent_Build_Complete>
@@ -343,7 +342,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		 
+
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
@@ -383,7 +382,7 @@
 
 	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
 	            <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
-	            <Stacking_Category>0</Stacking_Category>            
+	            <Stacking_Category>0</Stacking_Category>
 	      </Tractor_Beam_Attack_Ability>
 
 	   </Abilities>
@@ -398,7 +397,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 
@@ -408,15 +407,15 @@
 		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
 		<Tech_Level>4</Tech_Level>
 
-		<HardPoints> 
-			HP_Star_Destroyer_Weapon_FL, HP_Star_Destroyer_Weapon_FR, HP_Star_Destroyer_Weapon_BL, 
-			HP_Star_Destroyer_Weapon_BR, HP_Star_Destroyer_Weapon_ML, HP_Star_Destroyer_Weapon_MR, 
+		<HardPoints>
+			HP_Star_Destroyer_Weapon_FL, HP_Star_Destroyer_Weapon_FR, HP_Star_Destroyer_Weapon_BL,
+			HP_Star_Destroyer_Weapon_BR, HP_Star_Destroyer_Weapon_ML, HP_Star_Destroyer_Weapon_MR,
 			HP_Star_Destroyer_Shield_Generator, HP_Star_Destroyer_Engines,
 			HP_Star_Destroyer_Tractor_Beam, HP_Star_Destroyer_Fighter_Bay
 		</HardPoints>
 		<Population_Value>4</Population_Value>
 	</SpaceUnit>
-	
+
 	<SpaceUnit Name="Star_Destroyer_Death_Clone">
 		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
 		<Space_Model_Name>EV_StarDestroyer_D.ALO</Space_Model_Name>
@@ -438,7 +437,7 @@
 
 	<SpaceUnit Name="Star_Destroyer_Tractor_Fighters">
 		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
-		
+
 		<!-- Non-Hero unit abilities description -->
 	   <Unit_Abilities_Data SubObjectList="Yes">
 	      <!-- Primary ability -->
@@ -446,7 +445,7 @@
 	            <Type>TRACTOR_BEAM</Type>
 	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
 	            <GUI_Activated_Ability_Name> SD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	         
+
 	            <Recharge_Seconds>20</Recharge_Seconds>
 	      </Unit_Ability>
 	   </Unit_Abilities_Data>
@@ -464,7 +463,7 @@
 
 	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
 	            <Target_Speed_Decrease_Percent>.83</Target_Speed_Decrease_Percent>
-	            <Stacking_Category>0</Stacking_Category>            
+	            <Stacking_Category>0</Stacking_Category>
 	      </Tractor_Beam_Attack_Ability>
 	   </Abilities>
 		<!-- <Max_Speed>1.0</Max_Speed> -->
@@ -475,7 +474,7 @@
 	<SpaceUnit Name="Star_Destroyer_E3">
 		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
-		
+
 		<Shield_Points>1000</Shield_Points>
 		<Tech_Level>10</Tech_Level>
 		<Tactical_Health>2000</Tactical_Health>
