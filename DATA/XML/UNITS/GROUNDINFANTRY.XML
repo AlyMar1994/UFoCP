@@ -41,7 +41,7 @@
 		<Movement_Animation_Speed> 3.0 </Movement_Animation_Speed>
 		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
 		<FormationOrder> 1 </FormationOrder>
-		
+
 		<Scale_Factor>1.5</Scale_Factor>
 		<CanCellStack>yes</CanCellStack>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -80,7 +80,7 @@
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
 
-		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>	
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
 
 		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
 		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
@@ -97,7 +97,7 @@
 		<SFXEvent_Fire>Unit_Scout_Trooper_Fire</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Speeder_Bike_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Scout_Trooper </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Scout_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Scout_Trooper </SFXEvent_Assist_Attack>
 
 		<SFXEvent_Ambient_Moving> Unit_Speederbike_Fly_By </SFXEvent_Ambient_Moving>
@@ -105,9 +105,9 @@
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 7 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 12 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_SpeederBike_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-		
-		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
 		<CategoryMask> Vehicle </CategoryMask>
@@ -138,7 +138,7 @@
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
 		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
-		
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_SCOUTTROOPER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 
@@ -171,12 +171,12 @@
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
 	<GroundInfantry Name="Scout_Trooper_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Scout_Trooper </Variant_Of_Existing_Type>
-		<SFXEvent_Select> Unit_Select_Scout_Trooper </SFXEvent_Select>							  
-		<SFXEvent_Move> Unit_Move_Scout_Trooper </SFXEvent_Move>                         
-		<SFXEvent_Attack> Unit_Attack_Scout_Trooper </SFXEvent_Attack>                    
-		<SFXEvent_Guard> Unit_Guard_Scout_Trooper </SFXEvent_Guard>                       
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Scout_Trooper </SFXEvent_Assist_Move>		     
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Scout_Trooper </SFXEvent_Assist_Attack>       
+		<SFXEvent_Select> Unit_Select_Scout_Trooper </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Scout_Trooper </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Scout_Trooper </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Scout_Trooper </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Scout_Trooper </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Scout_Trooper </SFXEvent_Assist_Attack>
 		</GroundInfantry>
 
 	<GroundInfantry Name="Scout_Trooper_No_Bike">
@@ -204,12 +204,12 @@
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .5 </FormationSpacing> 
+		<FormationSpacing> .5 </FormationSpacing>
 		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
-				
+
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
@@ -244,7 +244,7 @@
 
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 2.5 </Targeting_Fire_Inaccuracy> 
+		<Targeting_Fire_Inaccuracy> Infantry, 2.5 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
@@ -256,7 +256,7 @@
 		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_2_Death</Death_SFXEvent_Start_Die>
 
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Scout_Trooper </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Scout_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Scout_Trooper </SFXEvent_Assist_Attack>
 
 		<CategoryMask> Infantry </CategoryMask>
@@ -298,10 +298,10 @@
 		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
 
 		<Presence_Induced_Animations>
-			Attention, 
+			Attention,
 				Emperor_Palpatine,
 				Darth_Vader,
-		</Presence_Induced_Animations>		
+		</Presence_Induced_Animations>
 
 		<Tactical_Bribe_Cost>10</Tactical_Bribe_Cost>
 
@@ -315,7 +315,7 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
 		<Conversion_Ability_Changes_To_Enemy> Scout_Trooper_No_Bike_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
 
@@ -327,12 +327,12 @@
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
 	<GroundInfantry Name="Scout_Trooper_No_Bike_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Scout_Trooper_No_Bike </Variant_Of_Existing_Type>
-		<SFXEvent_Select> Unit_Select_Scout_Trooper </SFXEvent_Select>							<!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Move> Unit_Move_Scout_Trooper </SFXEvent_Move>                         <!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Attack> Unit_Attack_Scout_Trooper </SFXEvent_Attack>                   <!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Guard> Unit_Guard_Scout_Trooper </SFXEvent_Guard>                      <!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Scout_Trooper </SFXEvent_Assist_Move>		   <!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Scout_Trooper </SFXEvent_Assist_Attack>     <!-- STUB PLACEHOLDER FOR FRANK -->  
+		<SFXEvent_Select> Unit_Select_Scout_Trooper </SFXEvent_Select>							<!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Move> Unit_Move_Scout_Trooper </SFXEvent_Move>                         <!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Attack> Unit_Attack_Scout_Trooper </SFXEvent_Attack>                   <!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Guard> Unit_Guard_Scout_Trooper </SFXEvent_Guard>                      <!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Scout_Trooper </SFXEvent_Assist_Move>		   <!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Scout_Trooper </SFXEvent_Assist_Attack>     <!-- STUB PLACEHOLDER FOR FRANK -->
 		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_2_Death</Death_SFXEvent_Start_Die>
 		</GroundInfantry>
 
@@ -362,7 +362,7 @@
 		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
 		<Garrison_Category> Infantry </Garrison_Category>
-        
+
 		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
@@ -374,12 +374,12 @@
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .3 </FormationSpacing> 
+		<FormationSpacing> .3 </FormationSpacing>
 		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
 		<OverrideAcceleration> 0.05 </OverrideAcceleration>
 		<OverrideDeceleration> 0.05 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
-				
+
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
@@ -424,14 +424,14 @@
 		<SFXEvent_Guard>Unit_Guard_Storm_Trooper</SFXEvent_Guard>
 		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
-		
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Storm_Trooper </SFXEvent_Assist_Move>		
+
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Storm_Trooper </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Storm_Trooper </SFXEvent_Assist_Attack>
 
-		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		
+
 		<CategoryMask> Infantry </CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 		<Property_Flags>Fodder</Property_Flags>
@@ -478,11 +478,11 @@
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 
 		<Presence_Induced_Animations>
-			Attention, 
+			Attention,
 				Emperor_Palpatine,
 				Darth_Vader,
 		</Presence_Induced_Animations>
-		
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -492,9 +492,9 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 	</GroundInfantry>
-	
+
 	<GroundInfantry Name="Stormtrooper_Force_Whirlwind_Death_Clone">
 		<Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
@@ -506,7 +506,7 @@
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</GroundInfantry>
-	
+
 	<GroundInfantry Name="Stormtrooper_Remote_Bomb_Death_Clone">
 		<Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
 		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Bomb_Death</Death_SFXEvent_Start_Die>
@@ -563,7 +563,7 @@
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<FormationOrder> 3 </FormationOrder>
-			
+
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
@@ -603,15 +603,15 @@
 		<SFXEvent_Guard>Unit_Guard_Plex_Soldier</SFXEvent_Guard>
 		<SFXEvent_Fire>Unit_Plex_Soldier_Fire</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_2_Death</Death_SFXEvent_Start_Die>
-		
+
 		<!-- Placeholder events for Frank -->
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Plex_Soldier </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Plex_Soldier </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Plex_Soldier </SFXEvent_Assist_Attack>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		
+
 		<CategoryMask> Infantry | AntiVehicle</CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 
@@ -639,7 +639,7 @@
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>210.0</Targeting_Max_Attack_Distance>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
-		
+
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
 
@@ -659,12 +659,12 @@
 		<Death_Clone>Damage_Remote_Bomb, Plex_Soldier_Remote_Bomb_Death_Clone</Death_Clone>
 
 		<Presence_Induced_Animations>
-			Celebrate, 
+			Celebrate,
 				AT_AT_Walker_Cable_Attack_Death_Clone,
 				AT_AT_Walker_Death_Clone_00,
 				AT_AT_Walker_Death_Clone_01,
 				AT_AT_Walker_Death_Clone_02
-		</Presence_Induced_Animations>		
+		</Presence_Induced_Animations>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 
@@ -675,10 +675,10 @@
 				<Type>SPREAD_OUT</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>		  
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
 		<Conversion_Ability_Changes_To_Enemy> Plex_Soldier_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
 
@@ -690,15 +690,15 @@
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
 	<GroundInfantry Name="Plex_Soldier_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Plex_Soldier </Variant_Of_Existing_Type>
-		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>						 
-		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>                      	
-		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>                 
-		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>                   	  
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>			  
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack>  	
+		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
 	</GroundInfantry>
-	
+
 	<GroundInfantry Name="Plex_Soldier_NonVictroy">
 		<Variant_Of_Existing_Type> Plex_Soldier </Variant_Of_Existing_Type>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -721,11 +721,11 @@
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</GroundInfantry>
-	
+
 	<GroundInfantry Name="Plex_Soldier_Remote_Bomb_Death_Clone">
 		<Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
-	</GroundInfantry>	
+	</GroundInfantry>
 
 	<GroundInfantry Name="Rebel_Trooper">
 		<LOD_Bias>5</LOD_Bias>
@@ -770,7 +770,7 @@
 		<OverrideDeceleration> .07 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
-		
+
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
 		<Scale_Factor>1.5</Scale_Factor>
@@ -815,20 +815,20 @@
 		<SFXEvent_Guard>Unit_Guard_Rebel_Soldier</SFXEvent_Guard>
 		<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
-		
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier </SFXEvent_Assist_Move>		
+
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier </SFXEvent_Assist_Attack>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		
+
 		<CategoryMask> Infantry </CategoryMask>
 		<MovementClass>Infantry</MovementClass>
 		<Property_Flags>Fodder</Property_Flags>
 
 		<Pause_During_Cinematic_Anim>yes</Pause_During_Cinematic_Anim>
-		<Cinematic_Anim_Speed>1.0</Cinematic_Anim_Speed> 
+		<Cinematic_Anim_Speed>1.0</Cinematic_Anim_Speed>
 		<Cinematic_Anim_Blend_Seconds>1.0</Cinematic_Anim_Blend_Seconds>
 		<Cinematic_Anim_Index>00</Cinematic_Anim_Index>
 
@@ -875,13 +875,13 @@
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 
 		<Presence_Induced_Animations>
-			Celebrate, 
+			Celebrate,
 				AT_AT_Walker_Cable_Attack_Death_Clone,
 				AT_AT_Walker_Death_Clone_00,
 				AT_AT_Walker_Death_Clone_01,
 				AT_AT_Walker_Death_Clone_02
-		</Presence_Induced_Animations>		
-		
+		</Presence_Induced_Animations>
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -889,27 +889,27 @@
 				<Type>SPREAD_OUT</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Rebel_Soldier</SFXEvent_GUI_Unit_Ability_Activated>			
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Rebel_Soldier</SFXEvent_GUI_Unit_Ability_Activated>
 				</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
 		<Conversion_Ability_Changes_To_Enemy> Rebel_Trooper_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
 
 	</GroundInfantry>
-	
+
 	<!-- Version of above Infantry who has been converted to enemy by Force Corruption ability.                                            -->
 	<!-- This object type can be commented out or deleted if the base type is never effected by Force Corruption enemy conversion ability. -->
 	<!-- IMPORTANT: For now, only SFXEvent should be changed due to the on-the-fly type pointer change. If more is desired to be changed   -->
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
 	<GroundInfantry Name="Rebel_Trooper_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Rebel_Trooper </Variant_Of_Existing_Type>
-		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>						<!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>                      	<!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>                	<!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>                   	<!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>			<!-- STUB PLACEHOLDER FOR FRANK -->  
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack>  	<!-- STUB PLACEHOLDER FOR FRANK -->  
+		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>						<!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>                      	<!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>                	<!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>                   	<!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>			<!-- STUB PLACEHOLDER FOR FRANK -->
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack>  	<!-- STUB PLACEHOLDER FOR FRANK -->
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
 		</GroundInfantry>
 
@@ -930,12 +930,12 @@
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</GroundInfantry>
-	
+
 	<GroundInfantry Name="Rebel_Trooper_Remote_Bomb_Death_Clone">
 		<Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
-	</GroundInfantry>		
-	
+	</GroundInfantry>
+
 	<GroundInfantry Name="Rebel_Trooper_NonVictroy">
 		<Variant_Of_Existing_Type> Rebel_Trooper </Variant_Of_Existing_Type>
 		<Victory_Relevant>no</Victory_Relevant>
@@ -953,13 +953,13 @@
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
- 
+
         <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<CanCellStack>yes</CanCellStack>
 		<Mass>1.0</Mass>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
-		
+
 		<Movement_Animation_Speed> 0.65 </Movement_Animation_Speed>
 		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
@@ -976,7 +976,7 @@
 		<OverrideDeceleration> .07 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
-		
+
 		<Armor_Type> Armor_Infantry </Armor_Type>
 
 
@@ -1024,17 +1024,17 @@
 		<SFXEvent_Guard>Unit_Guard_Rebel_Soldier</SFXEvent_Guard>
 		<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier </SFXEvent_Assist_Attack>
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		
+
 		<CategoryMask> Infantry </CategoryMask>
 		<MovementClass>Infantry</MovementClass>
 
 		<Pause_During_Cinematic_Anim>yes</Pause_During_Cinematic_Anim>
-		<Cinematic_Anim_Speed>1.0</Cinematic_Anim_Speed> 
+		<Cinematic_Anim_Speed>1.0</Cinematic_Anim_Speed>
 		<Cinematic_Anim_Blend_Seconds>1.0</Cinematic_Anim_Blend_Seconds>
 		<Cinematic_Anim_Index>00</Cinematic_Anim_Index>
 
@@ -1051,7 +1051,7 @@
 		<Is_Squashable> Yes </Is_Squashable>
 		<Create_Team>Yes</Create_Team>
 		<AI_Combat_Power>5</AI_Combat_Power>
-		
+
 		<Death_Clone>Damage_Force_Whirlwind, Rebel_Pilot_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Lightning, Rebel_Pilot_Force_Lightning_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Crush, Rebel_Pilot_Crush_Death_Clone</Death_Clone>
@@ -1073,7 +1073,7 @@
 		<Score_Cost_Credits> 15 </Score_Cost_Credits>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-	
+
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
 		<Conversion_Ability_Changes_To_Enemy> Rebel_Pilot_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
 
@@ -1085,12 +1085,12 @@
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
 	<GroundInfantry Name="Rebel_Pilot_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Rebel_Pilot </Variant_Of_Existing_Type>
-		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>             
-		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>                      
-		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>                 
-		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>                   
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack>      
+		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_2_Death</Death_SFXEvent_Start_Die>
 		</GroundInfantry>
 
@@ -1126,7 +1126,7 @@
 		<Stealth_Capable>Yes</Stealth_Capable>
 		<Land_Model_Name>RI_Infiltrator.alo</Land_Model_Name>
 		<Behavior>SELECTABLE</Behavior>
-		
+
 		<LandBehavior>ABILITY_COUNTDOWN, SURFACE_FX,WALK_LOCOMOTOR,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE, GARRISON_UNIT</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1168,7 +1168,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-		
+
 		<Targeting_Max_Attack_Distance>325.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>325.0</Land_FOW_Reveal_Range>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
@@ -1203,15 +1203,15 @@
 		<SFXEvent_Guard>Unit_Guard_Rebel_Infiltrator</SFXEvent_Guard>
 		<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_3_Death</Death_SFXEvent_Start_Die>
-		
+
 		<!-- Placeholder events for Frank -->
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Infiltrator </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Infiltrator </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Infiltrator </SFXEvent_Assist_Attack>
 
-		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		  
+
 		<Is_Squashable> Yes </Is_Squashable>
 		<Create_Team>No</Create_Team>
 		<AI_Combat_Power>100</AI_Combat_Power>
@@ -1242,7 +1242,7 @@
 		<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
@@ -1258,9 +1258,9 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<Abilities SubObjectList="Yes">
-			<Grenade_Attack_Ability Name="Infiltrator_Grenade_Attack"> 
+			<Grenade_Attack_Ability Name="Infiltrator_Grenade_Attack">
 				<Activation_Style> User_Input </Activation_Style> <!-- Was Special_Attack -->
 				<!-- We need to be within this distance of the clicked target to consider throwing the grenade -->
 				<Activation_Min_Range>5.0</Activation_Min_Range>
@@ -1279,7 +1279,7 @@
 				<!-- <Applicable_Unit_Types /> -->
 			</Grenade_Attack_Ability>
 		</Abilities>
-		
+
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>1.0</Death_Persistence_Duration>
 
@@ -1294,12 +1294,12 @@
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
 	<GroundInfantry Name="Rebel_Infiltrator_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Rebel_Infiltrator </Variant_Of_Existing_Type>
-		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>             
-		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>                      
-		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>                 
-		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>                   
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack> 	 
+		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_3_Death</Death_SFXEvent_Start_Die>
 		</GroundInfantry>
 
@@ -1337,7 +1337,7 @@
 		<OverrideDeceleration> .25 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
-		
+
 		<Scale_Factor>1.5</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1372,13 +1372,13 @@
 		<CategoryMask> Infantry </CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
-		<SFXEvent_Select> Unit_Select_Pirate_Soldier </SFXEvent_Select>         		
-		<SFXEvent_Move> Unit_Move_Pirate_Soldier </SFXEvent_Move>  
+		<SFXEvent_Select> Unit_Select_Pirate_Soldier </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Pirate_Soldier </SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Soldier</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack> Unit_Attack_Pirate_Soldier </SFXEvent_Attack>         		 
-		<SFXEvent_Guard> Unit_Guard_Pirate_Soldier </SFXEvent_Guard>            		 
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Pirate_Soldier </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Pirate_Soldier </SFXEvent_Assist_Attack> 
+		<SFXEvent_Attack> Unit_Attack_Pirate_Soldier </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Pirate_Soldier </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Pirate_Soldier </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Pirate_Soldier </SFXEvent_Assist_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
 		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
 
@@ -1428,28 +1428,28 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Pirate_Soldier</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
 		<Conversion_Ability_Changes_To_Enemy> Pirate_Soldier_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
 
 	</GroundInfantry>
-	
+
 	<GroundInfantry Name="Pirate_Soldier_NonSquad">
 		<Variant_Of_Existing_Type> Pirate_Soldier </Variant_Of_Existing_Type>
 		<Create_Team>False</Create_Team>
 		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,WEAPON,TARGETING,STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
 	</GroundInfantry>
-	
+
 	<GroundInfantry Name="Pirate_Soldier_NonVictroy">
 		<Variant_Of_Existing_Type> Pirate_Soldier </Variant_Of_Existing_Type>
 		<Victory_Relevant>no</Victory_Relevant>
 	</GroundInfantry>
-	
+
 	<GroundInfantry Name="Pirate_Soldier_R">
 		<Variant_Of_Existing_Type> Pirate_Soldier </Variant_Of_Existing_Type>
 		<Affiliation>Rebel</Affiliation>
 	</GroundInfantry>
-	
+
 	<GroundInfantry Name="Pirate_Soldier_E">
 		<Variant_Of_Existing_Type> Pirate_Soldier </Variant_Of_Existing_Type>
 		<Affiliation>Empire</Affiliation>
@@ -1461,12 +1461,12 @@
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
 	<GroundInfantry Name="Pirate_Soldier_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Pirate_Soldier </Variant_Of_Existing_Type>
-		<SFXEvent_Select> Unit_Select_Pirate_Soldier </SFXEvent_Select>         		
-      <SFXEvent_Move> Unit_Move_Pirate_Soldier </SFXEvent_Move>               		
-      <SFXEvent_Attack> Unit_Attack_Pirate_Soldier </SFXEvent_Attack>         		 
-      <SFXEvent_Guard> Unit_Guard_Pirate_Soldier </SFXEvent_Guard>            		 
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Pirate_Soldier </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Pirate_Soldier </SFXEvent_Assist_Attack> 
+		<SFXEvent_Select> Unit_Select_Pirate_Soldier </SFXEvent_Select>
+      <SFXEvent_Move> Unit_Move_Pirate_Soldier </SFXEvent_Move>
+      <SFXEvent_Attack> Unit_Attack_Pirate_Soldier </SFXEvent_Attack>
+      <SFXEvent_Guard> Unit_Guard_Pirate_Soldier </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Pirate_Soldier </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Pirate_Soldier </SFXEvent_Assist_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_2_Death</Death_SFXEvent_Start_Die>
 	</GroundInfantry>
 
@@ -1505,7 +1505,7 @@
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .25 </OverrideDeceleration>
 		<FormationOrder> 3 </FormationOrder>
-			
+
 		<Scale_Factor>1.5</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1536,13 +1536,13 @@
 		<Targeting_Fire_Inaccuracy> Air, 12.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 12.0 </Targeting_Fire_Inaccuracy>
 
-		<SFXEvent_Select> Unit_Select_Pirate_Plex_Soldier </SFXEvent_Select>         		
-		<SFXEvent_Move> Unit_Move_Pirate_Plex_Soldier </SFXEvent_Move>  
+		<SFXEvent_Select> Unit_Select_Pirate_Plex_Soldier </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Pirate_Plex_Soldier </SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Plex_Soldier</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack> Unit_Attack_Pirate_Plex_Soldier </SFXEvent_Attack>         		 
-		<SFXEvent_Guard> Unit_Guard_Pirate_Plex_Soldier </SFXEvent_Guard>            		 
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Pirate_Plex_Soldier </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Pirate_Plex_Soldier </SFXEvent_Assist_Attack> 
+		<SFXEvent_Attack> Unit_Attack_Pirate_Plex_Soldier </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Pirate_Plex_Soldier </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Pirate_Plex_Soldier </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Pirate_Plex_Soldier </SFXEvent_Assist_Attack>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_2_Death</Death_SFXEvent_Start_Die>
 
 		<CategoryMask> Infantry | AntiVehicle</CategoryMask>
@@ -1570,10 +1570,10 @@
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
-		
+
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
-		
+
 		<Encyclopedia_Text> TEXT_TOOLTIP_PIRATEPLEX TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 
@@ -1585,7 +1585,7 @@
 		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
-		
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -1595,7 +1595,7 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
 		<Conversion_Ability_Changes_To_Enemy> Pirate_Plex_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
 
@@ -1606,13 +1606,13 @@
 	<!-- IMPORTANT: For now, only SFXEvent should be changed due to the on-the-fly type pointer change. If more is desired to be changed   -->
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
 	<GroundInfantry Name="Pirate_Plex_Converted_To_Enemy">
-		<Variant_Of_Existing_Type> Pirate_Plex </Variant_Of_Existing_Type>			
-		<SFXEvent_Select> Unit_Select_Pirate_Plex_Soldier </SFXEvent_Select>         		
-      <SFXEvent_Move> Unit_Move_Pirate_Plex_Soldier </SFXEvent_Move>               		
-      <SFXEvent_Attack> Unit_Attack_Pirate_Plex_Soldier </SFXEvent_Attack>         		 
-      <SFXEvent_Guard> Unit_Guard_Pirate_Plex_Soldier </SFXEvent_Guard>            		 
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Pirate_Plex_Soldier </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Pirate_Plex_Soldier </SFXEvent_Assist_Attack> 
+		<Variant_Of_Existing_Type> Pirate_Plex </Variant_Of_Existing_Type>
+		<SFXEvent_Select> Unit_Select_Pirate_Plex_Soldier </SFXEvent_Select>
+      <SFXEvent_Move> Unit_Move_Pirate_Plex_Soldier </SFXEvent_Move>
+      <SFXEvent_Attack> Unit_Attack_Pirate_Plex_Soldier </SFXEvent_Attack>
+      <SFXEvent_Guard> Unit_Guard_Pirate_Plex_Soldier </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Pirate_Plex_Soldier </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Pirate_Plex_Soldier </SFXEvent_Assist_Attack>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Prisoner_Rebel_01">
@@ -1640,7 +1640,7 @@
 		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
 		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
-		
+
 		<Max_Speed>1</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
@@ -1670,11 +1670,11 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		
+
 		<Land_FOW_Reveal_Range>120.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-		
+
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
 		<SFXEvent_Guard>Unit_Guard_Rebel_Soldier</SFXEvent_Guard>
@@ -1689,16 +1689,16 @@
 		<CategoryMask> Infantry </CategoryMask>
 		<Victory_Relevant>No</Victory_Relevant>
 		<Weather_Category>Infantry</Weather_Category>
-		
+
 		<Death_Clone>Damage_Force_Whirlwind, Prisoner_Rebel_Force_Whirlwind_Death_Clone</Death_Clone>
 		<Death_Clone>Damage_Force_Lightning, Prisoner_Rebel_Force_Lightning_Death_Clone</Death_Clone>
-		
+
 		<Score_Cost_Credits> 0 </Score_Cost_Credits>
-		
+
 		<OccupationStyle>1x1</OccupationStyle>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> Yes </Is_Squashable>
-		
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -1708,8 +1708,8 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
-		
+
+
 	</GroundInfantry>
 
 	<GroundInfantry Name="Prisoner_Rebel_Force_Whirlwind_Death_Clone">
@@ -1747,7 +1747,7 @@
 	<GroundInfantry Name="Prisoner_Rebel_07">
 		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
 	</GroundInfantry>
-	
+
 	<GroundInfantry Name="General_Dodonna_Story">
 		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_fleet_commander.tga</Icon_Name>
@@ -1782,12 +1782,12 @@
 		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> .5 </FormationSpacing> 
+		<FormationSpacing> .5 </FormationSpacing>
 		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 		<FormationOrder> 2 </FormationOrder>
-				
+
 		<Scale_Factor>1.5</Scale_Factor>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
@@ -1825,7 +1825,7 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 3.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 20.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
-		
+
 		<Turret_Rotate_Extent_Degrees>100.0</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>30.0</Turret_Elevate_Extent_Degrees>
 
@@ -1835,7 +1835,7 @@
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Imp_Guard</SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Imp_Guard</SFXEvent_Assist_Attack>
 		<SFXEvent_Guard>Unit_Guard_Imp_Guard</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_Force_Pike_Swing</SFXEvent_Fire>		
+		<SFXEvent_Fire>Unit_Force_Pike_Swing</SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
 
 		<CategoryMask> Infantry </CategoryMask>
@@ -1855,11 +1855,11 @@
 
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
-		
+
 		<Idle_Chase_Range>50.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
-		
+
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
@@ -1872,9 +1872,9 @@
 		<Score_Cost_Credits> 0 </Score_Cost_Credits>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-	
+
 		<Presence_Induced_Animations>
-			Attention, 
+			Attention,
 				Emperor_Palpatine,
 				Darth_Vader,
 		</Presence_Induced_Animations>
@@ -1931,7 +1931,7 @@
 		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_REBEL_TROOPER</Text_ID>
 		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
-		<Is_Squashable> Yes </Is_Squashable>		
+		<Is_Squashable> Yes </Is_Squashable>
 		<Max_Speed> 1 </Max_Speed>
 		<Space_Layer> None </Space_Layer>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
@@ -1952,21 +1952,21 @@
 		<Score_Cost_Credits> 250 </Score_Cost_Credits>
 		<Create_Team>Yes</Create_Team>
 	</GroundInfantry>
-	
+
 	<!-- Version of above Infantry who has been converted to enemy by Force Corruption ability.                                            -->
 	<!-- This object type can be commented out or deleted if the base type is never effected by Force Corruption enemy conversion ability. -->
 	<!-- IMPORTANT: For now, only SFXEvent should be changed due to the on-the-fly type pointer change. If more is desired to be changed   -->
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
 	<GroundInfantry Name="Squad_Rebel_Trooper_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Squad_Rebel_Trooper </Variant_Of_Existing_Type>
-		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>             
-		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>                      
-		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>                 
-		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>                   
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack> 	
+		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack>
 	</GroundInfantry>
-	
+
 	<GroundInfantry Name="Squad_Plex_Soldier">
 		<Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_PLEX_SOLDIER</Text_ID>
@@ -1990,11 +1990,11 @@
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
 	<GroundInfantry Name="Squad_Plex_Soldier_Converted_To_Enemy">
 		<Variant_Of_Existing_Type> Squad_Plex_Soldier </Variant_Of_Existing_Type>
-		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>             
-		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>                      
-		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>                 
-		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>                   
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>		
+		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>
+		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack>
 	</GroundInfantry>
 
