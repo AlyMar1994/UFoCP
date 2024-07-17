@@ -10,7 +10,7 @@
 		<Text_ID>TEXT_UNIT_KRAYT_DESTROYER</Text_ID>
 		<Encyclopedia_Good_Against> Calamari_Cruiser Star_Destroyer </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber Y-Wing </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text> TEXT_TOOLTIP_KRAYT_DESTROYER </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_KRAYT_DESTROYER TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_uv_krayt.tga</Icon_Name>
 
@@ -49,7 +49,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets />
+		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore, Mandalore_Story</Required_Planets> <!-- AM1994: Mandalore_Story for the UW campaign -->
 		<Autoresolve_Health>7000</Autoresolve_Health>
 		<Tactical_Health>7000</Tactical_Health>
 		<Shield_Points>1800</Shield_Points>

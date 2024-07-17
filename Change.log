@@ -45,6 +45,8 @@ Ability Fixes:
 • "BARRAGE" prematurely stopped because the ability's invisible targeting marker died in the attack's splash damage; the marker can no longer die in tactical combat. (BUG #1)
 • "REMOVE_CORRUPTION_ABILITY" wouldn't appear in GC for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, or Mara Jade; the AI also wasn't aware that Ackbar, Darth Vader, and Thrawn could remove corruption.  Multiple units weren't defined correctly in the AI/GUI references, and Ackbar's Remove Corruption ability was added to the wrong unit.  While Jade nor Katarn are available in GC, all previously mentioned Remove Corruption abilities have been fully restored. (BUG #35)
 • Rebellion Orbital Bombardment (ion cannon bombardment) would be available without ships with ion cannons in orbit (Nebulon-Bs and Alliance Assault Frigates); the Calamari Cruiser and Home One are now the only ships that can orbitally bombard. (BUG #39)
+• Urai Fen's Cortosis Blades ability wasn't able to chance deflecting the campaign's Force Adepts' lightsabers, as they weren't included as applicable units. (BUG #80)
+• Urai Fen's Cortosis Blades ability wasn't able to chance deflecting Silri's lightsaber whip during Skirmish mirror-matches, as she wasn't included as an applicable unit. (BUG #81)
 
 
 AI Fixes:
@@ -66,6 +68,7 @@ AI Fixes:
 Audio Fixes:
 • Thrawn's callout for removing corruption would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
 • Thrawn's callout for appearing on the battlefield never played for any faction because the reference was looking for the unused "Grand_Admiral_Thrawn" unit and not "Admonitor_Star_Destroyer." (BUG #24)
+• Tyber Zann's space callout for appearing on the battlefield was awkward as the Underworld announcer claimed "Tyber Zann has landed!"  The callout has been removed. (BUG #59)
 • Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
 • Consortium turbolaser towers would use the Rebels' VO when built instead of their faction's VO. (BUG #42)
 • Consortium Piracy reward ships used their faction-oriented VO when bought and finished construction instead of using Consortium VO. (BUG #50)
@@ -149,6 +152,7 @@ Unit Fixes:
 • Luke Skywalker would attach to any available capital ships during space battles instead of flying his X-wing. (BUG #70)
 • Consortium slaves weren't "victory relevant" like other Consortium infantry.  If only slaves were on the battlefield, the battle would end; the slaves would then reappear on the map fighting for the Consortium if attacked again. (BUG #113)
 • Keldabe-class Battleships couldn't be built on Mandalore in the campaign, as the campaign uses a special version of Mandalore named "Mandalore_Story" instead of "Mandalore." (BUG #138)
+• Aggressor-class Star Destroyers could be built on all planets the Consortium owned if they had a level 4 space station, unlike every other capital ship in the game. (BUG #144)
 • Tyber Zann couldn't bribe opposing Consortium infantry during Skirmish mirror-matches because the units didn't have a bribe cost attached to them. (BUG #163)
 
 
