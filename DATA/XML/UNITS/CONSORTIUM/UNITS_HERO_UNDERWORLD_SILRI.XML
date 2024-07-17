@@ -12,7 +12,7 @@
 		<Text_ID>TEXT_HERO_SILRI</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_SILRI TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_NIGHTSISTER </Encyclopedia_Unit_Class>
-		
+
 		<Land_Model_Name> UI_SILRI.ALO </Land_Model_Name>
 		<Icon_Name>i_button_ui_silri.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -99,7 +99,7 @@
 
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
-		
+
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
         <Highlight_Blob_Material_Name>Highlight_Underworld_Hero</Highlight_Blob_Material_Name>
 
@@ -111,7 +111,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-		
+
 		<Neutralization_Cost>3500.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
@@ -132,13 +132,13 @@
 				<Recharge_Seconds>80.0</Recharge_Seconds>
             <Area_Effect_Decal_Distance> 25.0 </Area_Effect_Decal_Distance>
 				<GUI_Activated_Ability_Name> Silri_Summon</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<SFXEvent_Target_Ability> Unit_Summon_Silri </SFXEvent_Target_Ability>  	  
+				<SFXEvent_Target_Ability> Unit_Summon_Silri </SFXEvent_Target_Ability>
 			</Unit_Ability>
 
             <Unit_Ability>
 				<Type>DRAIN_LIFE</Type>
 				<Recharge_Seconds>50.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> Silri_Drain_Life </GUI_Activated_Ability_Name> 
+				<GUI_Activated_Ability_Name> Silri_Drain_Life </GUI_Activated_Ability_Name>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
@@ -174,7 +174,7 @@
    				<Confuse_Range>100.0</Confuse_Range>
    				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
    				<Confuse_Travel_Time_In_Secs>1.0</Confuse_Travel_Time_In_Secs>
-                <Confuse_Effect> Confuse_Particle_Effect </Confuse_Effect> 
+                <Confuse_Effect> Confuse_Particle_Effect </Confuse_Effect>
    				<!-- We only consider the following unit types "valid targets": -->
    				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
    				<Applicable_Unit_Types />
@@ -196,7 +196,7 @@
                 <Activation_Style> User_Input </Activation_Style>
                 <Applicable_Unit_Categories>Infantry | Vehicle | LandHero</Applicable_Unit_Categories>
                 <Applicable_Unit_Types />
-                
+
 				<Excluded_Unit_Types>
 					Droid_R2D2,
 					Droid_C3P0,
@@ -208,13 +208,13 @@
 					Demolition_Bomb,
 					Proximity_Mine
 				</Excluded_Unit_Types>
-                
+
                 <Duration_In_Seconds>5</Duration_In_Seconds>
                 <Damage_Per_Second>30</Damage_Per_Second>
-                <Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>	
+                <Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>
                 <Drain_Source_Bone_Name>B_HAND_L</Drain_Source_Bone_Name>
                 <Drain_Target_Bone_Name>B_PELVIS</Drain_Target_Bone_Name>
-                <Drain_Radius> 100.0 </Drain_Radius>		
+                <Drain_Radius> 100.0 </Drain_Radius>
                 <SFXEvent_Activate>Unit_Taunt_Silri</SFXEvent_Activate>
                 <SFXEvent_Target_Affected>Unit_Force_Lightning</SFXEvent_Target_Affected>
                 <Should_Heal>Yes</Should_Heal>
@@ -232,7 +232,7 @@
 		<Text_ID>TEXT_HERO_SILRI</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_SILRI TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_NIGHTSISTER </Encyclopedia_Unit_Class>
-		
+
 		<Land_Model_Name> UI_SILRI.ALO </Land_Model_Name>
 		<Icon_Name>i_button_ui_silri.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -319,7 +319,7 @@
 
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
-		
+
 		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
         <Highlight_Blob_Material_Name>Highlight_Underworld_Hero</Highlight_Blob_Material_Name>
 
@@ -331,7 +331,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-		
+
 		<Neutralization_Cost>1500.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
@@ -359,7 +359,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_SILRI TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_NIGHTSISTER </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ui_silri.tga</Icon_Name>
-				
+
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>80</Damage>
 		<Affiliation>Underworld</Affiliation>
@@ -371,7 +371,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		
+
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Underworld_Hero_Shuttle</Company_Transport_Unit>
 		<Company_Units>Silri</Company_Units>
@@ -395,13 +395,13 @@
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 
 		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
-		
+
 		<Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 	</HeroCompany>
 
 
@@ -470,13 +470,13 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
-		
+
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>50.0</Targeting_Max_Attack_Distance>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
-		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>	
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 
 		<Death_Persistence_Duration> 10 </Death_Persistence_Duration>
@@ -511,7 +511,7 @@
         <Dynamic_Transform_End_Color>1.0, 1.0, 1.0, 1.0</Dynamic_Transform_End_Color>
 
 		<Abilities SubObjectList="Yes">
-		
+
 			<Generic_Attack_Ability Name="Cuddles_Rancor_Pound_Vehicles">
 				<Activation_Chance>1.0</Activation_Chance>
 				<Activation_Min_Range>0.0</Activation_Min_Range>
@@ -526,7 +526,7 @@
 				<Applicable_Unit_Categories>Vehicle</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 			</Generic_Attack_Ability>
-			
+
 			<!--<Eat_Attack_Ability Name="Cuddles_Rancor_Eat_Infantry">
 				<Activation_Chance>1.0</Activation_Chance>
 				<Activation_Min_Range>40.0</Activation_Min_Range>
@@ -544,7 +544,7 @@
 				<Applicable_Unit_Types />
                 <Health_Per_Victim>40</Health_Per_Victim>
 			</Eat_Attack_Ability>-->
-			
+
 			<Arc_Sweep_Attack_Ability Name="Cuddles_Rancor_Swat_Infantry_Left">
 				<Activation_Chance>0.5</Activation_Chance>
 				<Activation_Min_Range>0.0</Activation_Min_Range>
@@ -565,7 +565,7 @@
                 <Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
 				<Applicable_Unit_Types />
 			</Arc_Sweep_Attack_Ability>
-			
+
 			<Arc_Sweep_Attack_Ability Name="Cuddles_Rancor_Swat_Infantry_Right">
 				<Activation_Chance>0.5</Activation_Chance>
 				<Activation_Min_Range>0.0</Activation_Min_Range>
@@ -586,21 +586,21 @@
                 <Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
 				<Applicable_Unit_Types />
 			</Arc_Sweep_Attack_Ability>
-			
+
 		</Abilities>
-		
+
 	</HeroUnit>
-	
+
 	<HeroUnit Name="Cuddles_The_Rancor_Death_Clone_00">
 		<Variant_Of_Existing_Type>Cuddles_The_Rancor</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
-      
+
 		<Custom_Hard_XExtent_Offset> 30.0 </Custom_Hard_XExtent_Offset>
 		<Custom_Hard_XExtent> 23.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 24.0 </Custom_Hard_YExtent>
-		
+
 		<Death_Persistence_Duration> 10 </Death_Persistence_Duration>
 		<Death_Fade_Time>3.0</Death_Fade_Time>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
@@ -618,11 +618,11 @@
 		<Specific_Death_Anim_Index> 1 </Specific_Death_Anim_Index>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
-      
+
 		<Custom_Hard_XExtent_Offset> -42.0 </Custom_Hard_XExtent_Offset>
 		<Custom_Hard_XExtent> 26.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 24.0 </Custom_Hard_YExtent>
-		
+
 		<Death_Persistence_Duration> 10 </Death_Persistence_Duration>
 		<Death_Fade_Time>3.0</Death_Fade_Time>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
@@ -647,4 +647,3 @@
 
 
 </Silri_Data>
-
