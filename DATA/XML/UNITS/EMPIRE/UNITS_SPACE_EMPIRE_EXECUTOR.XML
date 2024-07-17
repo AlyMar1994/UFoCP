@@ -5,7 +5,7 @@
 	<UniqueUnit Name="Executor_Super_Star_Destroyer">
 		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
 		<Text_ID>TEXT_UNIT_SSD_EXECUTOR</Text_ID>
-		
+
 		<Encyclopedia_Good_Against> Calamari_Cruiser Rebel_Star_Base_5 Krayt_Class_Destroyer </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Y-wing B-Wing Skipray_Blastboat </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text> TEXT_TOOLTIP_EXECUTOR </Encyclopedia_Text>
@@ -29,7 +29,7 @@
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		
+
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Armor_Type> Armor_SSD </Armor_Type>
 		<Shield_Armor_Type> Shield_SSD </Shield_Armor_Type>
@@ -43,7 +43,7 @@
 		<Bank_Turn_Angle>3</Bank_Turn_Angle>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
-		
+
 		<Max_Thrust>0.05</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
@@ -57,9 +57,9 @@
 		<Damage>70</Damage>
 		<Autoresolve_Health>18000</Autoresolve_Health>
 		<Shield_Points>7000</Shield_Points>
-		
+
 		<Tactical_Health>9000</Tactical_Health>
-		
+
 		<Shield_Refresh_Rate>150</Shield_Refresh_Rate>
 		<Energy_Capacity>99000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
@@ -73,20 +73,20 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
-		
+
 		<!-- Fighter Spawners -->
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 16</Reserve_Spawned_Units_Tech_0>
-		
+
 		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 6</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 24</Reserve_Spawned_Units_Tech_0>
-			
+
 		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 16</Reserve_Spawned_Units_Tech_0>
-		
+
 		<Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron, 5</Reserve_Spawned_Units_Tech_0>
-		
+
 		<Spawned_Squadron_Delay_Seconds>8</Spawned_Squadron_Delay_Seconds>
 
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -148,7 +148,7 @@
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Vader_Executor</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Vader_Executor </SFXEvent_Health_Critical_Warning>
         <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-		
+
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
@@ -161,7 +161,7 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Build_Complete>Unit_Respawn_Vader_Executor</SFXEvent_Build_Complete>
 		<SFXEvent_Hero_Respawned>Unit_Respawn_Vader_Executor</SFXEvent_Hero_Respawned>
-		
+
 		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Ambient_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Ambient_Loop>
 		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
@@ -175,7 +175,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		 
+
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
@@ -216,7 +216,7 @@
 	            <Activation_Style> User_Input </Activation_Style>
 	            <Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
 	            <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
-	            
+
 				<Excluded_Unit_Types>
 					Buzz_Droids,
 					Rebel_Star_Base_1,
@@ -253,13 +253,13 @@
 					Hutt_Asteroid_Base,
 					Skirmish_Hutt_Asteroid_Base
 				</Excluded_Unit_Types>
-				
+
 	            <Activation_Min_Range>10</Activation_Min_Range>
 	            <Activation_Max_Range>2000</Activation_Max_Range>
 
 	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
 	            <Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
-	            <Stacking_Category>0</Stacking_Category>            
+	            <Stacking_Category>0</Stacking_Category>
 	      </Tractor_Beam_Attack_Ability>
 	   </Abilities>
 
@@ -294,7 +294,7 @@
 	<UniqueUnit Name="Executor_Super_Star_Destroyer_No_Tractor_Beam">
 
 		<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer</Variant_Of_Existing_Type>
-		
+
 		<HardPoints>
 			HP_EXECUTOR_LEFT_TURBO_00,
 			HP_EXECUTOR_LEFT_TURBO_01,
@@ -326,7 +326,7 @@
 			HP_EXECUTOR_ENGINES_01,
 			HP_EXECUTOR_FIGHTER_BAY_00
 		</HardPoints>
-	
+
 	</UniqueUnit>
 
 	<HeroCompany Name="Darth_Team_Executor">
@@ -338,7 +338,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Damage>100</Damage>
 		<Combat_Power_Value>0</Combat_Power_Value>
-		
+
 		<Tech_Level>5</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
@@ -378,7 +378,7 @@
 				<Recharge_Seconds>30.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name> Vader_Force_Telekinesis </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 			</Unit_Ability>
-			
+
 			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>FORCE_WHIRLWIND</Type>
@@ -391,5 +391,5 @@
 		</Unit_Abilities_Data>
 
 	</HeroCompany>
-	
+
 </Executor_Files>
