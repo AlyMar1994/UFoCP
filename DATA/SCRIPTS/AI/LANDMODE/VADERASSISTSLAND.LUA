@@ -45,19 +45,19 @@
 require("pgevents")
 
 function Definitions()
-	
+
 	Category = "VaderAssists"
 	TaskForce = {
 	{
-		"MainForce"					
+		"MainForce"
 		,"DenyHeroAttach"
 		,"Darth_Vader = 1"
 	}
 	}
-	
+
 	IgnoreTarget = true
 	AllowEngagedUnits = true
-	
+
 	duration_to_assist = 20
 	duration_to_fight = 30
 
@@ -65,9 +65,9 @@ end
 
 function MainForce_Thread()
 	BlockOnCommand(MainForce.Produce_Force())
-	
+
 	QuickReinforce(PlayerObject, AITarget, MainForce)
-	
+
 	MainForce.Set_As_Goal_System_Removable(false)
 
 	vader = MainForce.Get_Unit_Table()[1]
@@ -94,13 +94,12 @@ function MainForce_Thread()
 			DebugMessage("%s-- assisting %s", tostring(Script), tostring(best_ally))
 			BlockOnCommand(MainForce.Guard_Target(best_ally), duration_to_assist)
 		end
-		
+
 		MainForce.Set_Plan_Result(true)
 
 		-- Make sure the loop always yields
 		Sleep(1)
-	
+
 	end
 
 end
-
