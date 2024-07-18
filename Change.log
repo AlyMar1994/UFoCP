@@ -49,39 +49,39 @@ Ability Fixes:
 • "BARRAGE" prematurely stopped because the ability's invisible targeting marker died in the attack's splash damage; the marker can no longer die in tactical combat. (BUG #1)
 • "REMOVE_CORRUPTION_ABILITY" wouldn't appear in GC for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, or Mara Jade; the AI also wasn't aware that Ackbar, Darth Vader, and Thrawn could remove corruption.  Multiple units weren't defined correctly in the AI/GUI references, and Ackbar's Remove Corruption ability was added to the wrong unit.  While Jade nor Katarn are available in GC, all previously mentioned Remove Corruption abilities have been fully restored. (BUG #35)
 • Rebellion Orbital Bombardment (ion cannon bombardment) would be available without ships with ion cannons in orbit (Nebulon-Bs and Alliance Assault Frigates); the Calamari Cruiser and Home One are now the only ships that can orbitally bombard. (BUG #39)
-• Urai Fen's Cortosis Blades ability wasn't able to chance deflecting the campaign's Force Adepts' lightsabers, as they weren't included as applicable units. (BUG #80)
-• Urai Fen's Cortosis Blades ability wasn't able to chance deflecting Silri's lightsaber whip during Skirmish mirror-matches, as she wasn't included as an applicable unit. (BUG #81)
-• Urai Fen's Cortosis Blades ability wasn't able to chance deflecting Darth Vader's lightsaber, as the ability wasn't looking for his FoC land unit, only his EaW unit. (BUG #30)
-• Cuddles (Silri's rancor) was forgotten when the rancor's eat-infantry ability was uncensored, and still wasn't able to eat infantry like normal indigenous rancor.  Cuddles now also has the same infantry exclusions normal rancor do to avoid glitches during mirror-matches or trying to eat other indigenous units. (BUG #189)
-• Hero Clash "Darth Vader vs. Obi-Wan" wouldn't start because the clash was looking for Darth Vader's EaW land unit, not his FoC unit. (BUG #26)
+• Urai Fen's Cortosis Blades ability didn't have a chance to deflect the campaign Force Adepts' lightsabers. (BUG #80)
+• Urai Fen's Cortosis Blades ability didn't have a chance to deflect Silri's lightsaber whip during Skirmish mirror-matches. (BUG #81)
+• Urai Fen's Cortosis Blades ability didn't have a chance to deflect Darth Vader's lightsaber in FoC land combat. (BUG #30)
+• Cuddles (Silri's rancor) didn't have its eat-infantry ability uncensored in the 2023 patch like normal indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)
+• Hero Clash "Darth Vader vs. Obi-Wan" wouldn't start with Darth Vader's unit in FoC land combat, only his EaW unit. (BUG #26)
 
 
 AI Fixes:
 • During certain conquering plans, the AI always slept 5 minutes after a victory/failure because of a coding mistake (the scripts couldn't find the player's Difficulty setting); the AI now sleeps for its appropriate cycles: 5 minutes on Easy, 3 minutes 30 seconds on Normal, and 45 seconds on Hard. (BUG #69)
 • The AI's blitzkrieg conquering plan "Crush" always cancelled before starting because of a coding mistake (the script couldn't find the player's Difficulty setting); the AI now continues the plan should the Difficulty be set to Hard. (BUG #79)
-• AI plans for building anti-infantry turrets weren't updated from EaW; the AI now knows the Proton Torpedo Turret is the Consortium's designated anti-infantry turret, and now has the same considerations to buy it the Rebels and Empire. (BUG #114)
+• AI plans for building anti-infantry turrets weren't updated from EaW; the AI now knows the Proton Torpedo Turret is the Consortium's designated anti-infantry turret, and now has the same considerations to buy it like the Rebels and Empire. (BUG #114)
 • AI plans wouldn't factor in IG-88 nor Garm Bel Iblis when considering buying Repair Facilities. (BUG #117)
-• AI plans for finding the nearest appropriate healing object didn't include Darth Vader's FoC land unit as a valid recipiant for healing, only his EaW one. (BUG #27)
-• AI plans for finding the nearest appropriate healing object didn't include General Veers as a valid recipiant for repairing. (BUG #188)
-• Consortium AI plans wouldn't consider building the Venator-class Cruiser in Space Skirmish because the unit wasn't included in its Skirmish unit table (despite being the only faction able to buy it). (BUG #165)
-• Consortium AI plans wouldn't consider building Ysalamiri cages when Darth Vader was on the field because the AI was searching for his old EaW unit, not his FoC one. (BUG #27)
-• Consortium AI plans wouldn't consider building Ysalamiri cages when Silri is on the field during a mirror-match. (BUG #187)
-• AI plans wouldn't factor in Consortium Repulsorlift Jammers alongside other "tactically active" infrastructure to target when deciding on structures to attack. (BUG #115)
-• AI plans wouldn't factor in Consortium turbolaser towers as structures to avoid when attacking buildings; Consortium turbolaser towers also weren't a part of the artillery infrastructure list to avoid, or specifically target, altogether. (BUG #116)
-• AI plans wouldn't factor in Consortium mobile artillery (MALs), and every faction's space missile artillery as structures to avoid when attacking buildings; they also weren't a part of the artillery infrastructure list to avoid, or specifically target, altogether. (BUG #160)
-• The AI's save-or-buy budgeting ignored the Consortium's Repulsorlift Jammer, as it wasn't considered a part of their defensive structure pool and would rarely build it. (BUG #118)
+• AI plans for finding the nearest appropriate healing object for special units didn't include Darth Vader's unit for FoC land combat, only his EaW unit. (BUG #27)
+• AI plans for finding the nearest appropriate healing object for special units didn't include General Veers as a valid recipiant for repairing. (BUG #188)
+• Consortium AI plans wouldn't consider buying the Venator-class Cruiser in Space Skirmish because the unit wasn't included in its Skirmish unit table (despite being the only faction able to buy it). (BUG #165)
+• Consortium AI plans wouldn't consider building Ysalamiri cages when Darth Vader appears in-battle, as the unit list didn't include Vader's unit for FoC land combat. (BUG #27)
+• Consortium AI plans wouldn't consider building Ysalamiri cages when Silri appears in-battle during a Consortium mirror-match. (BUG #187)
+• AI plans wouldn't factor in targeting Consortium Repulsorlift Jammers alongside other "tactically active" infrastructure when deciding on structures to attack. (BUG #115)
+• AI plans wouldn't factor in Consortium turbolaser towers as artillery to avoid when attacking buildings; Consortium turbolaser towers also weren't a part of the artillery infrastructure list to specifically target. (BUG #116)
+• AI plans wouldn't factor in Consortium mobile artillery (MALs), nor every factions missile defense satellites as artillery to avoid when attacking buildings; also weren't a part of the artillery infrastructure list to specifically target. (BUG #160)
+• The AI's budgeting wouldn't factor in the Consortium's Repulsorlift Jammer as it wasn't apart of their defensive structure list. (BUG #118)
 • The Master Force Adept (the Teleporter) in campaign mission #11 "Raiders of the Lost Holocron" couldn't properly target the player because it referenced a non-existent variable, instead attacking any hostile entity in the area. (BUG #126)
 • The Galactic AI had a misspelled variable that prevented reconsidering unit positions every eight seconds as intended; unit movement is no longer irregularly serviced (or not at all). (BUG #130)
-• The Galactic AI didn't include Tyber Zann as a possible leader_object for its service to attack planets or find targets; he is now properly considered under enemy presence. (BUG #140)
-• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include the Sundered Heart; if not a part of a conquering plan, he now acts like other heroes. (BUG #162)
-• Darth Vader's land assistance AI didn't factor in his FoC land unit and only looked for his EaW version. (BUG #27)
+• The Galactic AI didn't include Tyber Zann as a possible leader_object for its service to attack planets or find targets. (BUG #140)
+• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include the Sundered Heart. (BUG #162)
+• Darth Vader's land assistance AI wouldn't factor in his FoC land unit, only his EaW one, and prematurely shutdown. (BUG #27)
 
 
 Audio Fixes:
 • Thrawn's callout for removing corruption would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
-• Thrawn's callout for appearing on the battlefield never played for any faction because the reference was looking for the unused "Grand_Admiral_Thrawn" unit and not "Admonitor_Star_Destroyer." (BUG #24)
-• Darth Vader's callouts for appearing on the battlefield would play sporatically, as some of the checks were looking only for his EaW unit and not his FoC one. (BUG #29)
-• Tyber Zann's space callout for appearing on the battlefield was awkward as the Underworld announcer claimed "Tyber Zann has landed!"  The callout has been removed. (BUG #59)
+• Thrawn's callout for appearing on the battlefield wouldn't play for any faction because the reference was looking for the unused "Grand_Admiral_Thrawn" unit and not "Admonitor_Star_Destroyer." (BUG #24)
+• Darth Vader's callouts for appearing on the battlefield would play sporatically, as some of the checks wouldn't factor in his FoC land unit, only his EaW one. (BUG #29)
+• Tyber Zann's space callout for appearing on the battlefield was awkward as the Underworld announcer claimed "Tyber Zann has landed!"  This callout has been removed. (BUG #59)
 • Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
 • Consortium turbolaser towers would use the Rebels' VO when built instead of their faction's VO. (BUG #42)
 • Consortium Piracy reward ships used their faction-oriented VO when bought and finished construction instead of using Consortium VO. (BUG #50)
@@ -121,8 +121,8 @@ Interface Fixes:
 • Pirate Soldier Mobs used in campaign mission #6 "Dark Ally" had their tooltip description set as their unit class, and their unit container didn't have a description at all. (BUG #171)
 • The Consortium used Black Sun Pirate unit icons when their planets were attacked without garrisons; the UI now uses their most generic arsenal icon for space and land (StarVipers or Mercenary Infantry, respectively). (BUG #40)
 • Consortium capital ships didn't have a unique radar icon like the Rebels' (oval/circle) or the Empire's (triangle) capital ships.  They now use a rectangle based off both ships' forward hull. (BUG #180)
-• The Consortium's tech tree window had the space station level requirements for the Aggressor and Keldabe-class swapped, implying you could build the Keldabe at station level 4 instead of 5 (and the Aggressor at level 5 instead of 4). (BUG #183)
-• The Consortium Soldier/advisor during the prologue "Crime Lord Unleashed" used the Black Sun Pirate hologram instead of the Consortium Soldier hologram. (BUG #61)
+• The Consortium's tech tree window had the space station level requirements for the Aggressor and Keldabe-class swapped, implying Keldabes are bought at station level 4 instead of 5 (and the Aggressor at level 5 instead of 4). (BUG #183)
+• The Consortium Soldier/advisor during the prologue "Crime Lord Unleashed" used the Black Sun Pirate hologram instead of the Consortium Soldier hologram.  While I like the aesthetic, unfortunately a bug. (BUG #61)
 • Right before Darth Vader arrives on Bespin during campaign mission #7 "Cloud City Conflict," the hologram announcer used the Black Sun Pirate hologram instead of the Consortium Soldier hologram. (BUG #104)
 
 
@@ -130,27 +130,28 @@ Interface Fixes:
 Map/Planet Fixes:
 • Space Mandalore's attacking forces would enter facing backwards on the map; the unit entry flags now face toward the space station properly. (BUG #22)
 • Space Sullust's planet GFX used the generic desert model instead of the volcanic one; the intended model was misreferenced in the GFX definition, and the map itself used the desert model as a hotfix. (BUG #167)
-• Space Aeten II & its Piracy mission's planet GFX used the generic desert model instead of the volcanic one; the intended model was misreferenced in the GFX definition, and the map itself used the desert model as a hotfix.  For the Piracy mission, Petroglyph reused Mustafar's GFX, leading to further inconsistency. (BUG #167)
+• Space Aeten II's planet GFX used the generic desert model instead of the volcanic one; the intended model was misreferenced in the GFX definition, and the map itself used the desert model as a hotfix.  For the Piracy mission, Petroglyph reused Mustafar's GFX, leading to further inconsistency. (BUG #167)
 • Jabiim's galactic map model and terrain backdrop used "temperate" GFX despite being tagged as a swamp and appearing as a swamp planet during space combat. (BUG #67)
 • Nal Hutta was defined as a swamp planet but with "temperate" terrain; this caused music, GFX and SFX conflicts with the planet's setting; the campaign/prologue versions of the planet also had the wrong galactic terrain backdrop, showing an ecumenopolis instead of a swamp. (BUG #72)
 • Bespin's weather indicator wasn't updated from EaW and didn't have weather conditions on the galactic map; it now has the sun/clear weather icon. (BUG #66)
 • Alderaan's weather indicator wasn't updated from EaW and left as "rain" instead of "clear" (despite no longer being a planet); the asteroid field was also "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
 • Honoghr in the campaign would display a generic human instead of a Noghri in its loading screen. (BUG #88)
 • Mandalore in the campaign and prologue would display a generic human instead of a Mandalorian in its loading screen. (BUG #89)
-• Alderaan would appear blown-up in the loading screen for the Land Skirmish map "Alderaan at War."  To rectify this and ensure backwards compatibility, the original Alderaan from EaW was restored under the Alderaan entry, while FoC's Alderaan is recreated as "AlderaanExploded."  All files have been edited to ensure the proper Alderaan appears where it needs to. (BUG #105)
-• The sarlaac on Tatooine was removed from the map for censorship concerns.  It still remained in the Skirmish map, however, and considering the rancor's infantry eating animation was restored in the 2023 patch after being cut for the same reason, the sarlaac has been restored on Tatooine as intended. (BUG #129)
-• Land Honoghr had two spots where droidekas would get softlocked because the factories would spawn them into "Steep" terrain and be unable to move properly. (BUG #77)
-• The Death Star II would target Nal Hutta's moon because it used a scaled-down version of Coruscant's planet GFX.  The moon would explode, and upon returning to the map, magically reappear with Nal Hutta blown-up.  A new moon entry, "Nar_Shaddaa_Backdrop" (the name of the moon in lore) has been added to rectify the issue and been swapped into the map. (BUG #166)
-• Shola would damage Darth Vader in FoC as the map's infantry damage script marker didn't include his FoC unit, only his EaW one. (BUG #27)
+• Alderaan would be destroyed in the loading screen for the Land Skirmish map "Alderaan at War."  To rectify this and ensure backwards compatibility with EaW's content, the original Alderaan from EaW was restored under the default "Alderaan" entry, while FoC's Alderaan is recreated as "Alderaan_Destroyed."  All files have been edited to ensure the proper Alderaan appears where it needs to. (BUG #105)
+• The sarlaac on Tatooine was cut for censorship (for eating infantry alive), despite being acceptable for EaW, but remained uncensored in the Land Skirmish map "Clash on Tatooine."  Since Petroglyph uncensored the rancor's eat-infantry ability in the 2023 patch, the sarlaac has been restored to Tatooine. (BUG #129)
+• Land Honoghr had two spots where droidekas would get softlocked because the factories would spawn them into "Steep" terrain and be unable to move. (BUG #77)
+• The Death Star II would target Nal Hutta's moon because it used a scaled-down version of Coruscant's planet GFX.  The moon would explode, and upon returning to the map, magically reappear with Nal Hutta destroyed.  A new moon entry, "Nar_Shaddaa_Backdrop" (the moon's cannonical name) has been added to rectify the issue and been swapped into the map. (BUG #166)
+• Shola would damage Darth Vader because the map's infantry damage script marker didn't include his FoC land unit, only his EaW one. (BUG #27)
 
 
 Model Fixes:
 • The IPV-1 Patrol Craft had a visible blue plane in its center engine; the plane that spawned the engine particles wasn't set to "Hidden" when exported. (BUG #85)
-• The Venator-class Cruiser's shielding ability didn't cover the whole ship as the shield model didn't cover large segments of the ship's model, and the ship had incorrect shader assignments. (Thanks EaWX-Rhino!) (BUG #137)
+• The Venator-class Cruiser's shielding ability didn't cover the whole ship as the shield model didn't cover large segments of the ship's model, and the ship had incorrect shader assignments.  This was rectified in the 2023 patch for EaW only. (Thanks EaWX-Rhino!) (BUG #137)
 
 
 Script/Story Fixes:
-• Campaign mission #7 "Cloud City Conflict" would spawn the EaW version of Darth Vader instead of the FoC version with the Executor, etc. (BUG #27)
+• Campaign mission #7 "Cloud City Conflict" would spawn the EaW version of Darth Vader instead of the FoC version with the Executor. (BUG #27)
+
 
 Structure Fixes:
 • One of the Pirate Asteroid Base's laser cannon hardpoints wasn't attached station's model in-game, meaning the laser wouldn't fire properly. (BUG #17)
@@ -172,7 +173,8 @@ Unit Fixes:
 • Keldabe-class Battleships couldn't be built on Mandalore in the campaign, as the campaign uses a special version of Mandalore named "Mandalore_Story" instead of "Mandalore." (BUG #138)
 • Aggressor-class Star Destroyers could be built on all planets the Consortium owned if they had a level 4 space station, unlike every other capital ship in the game. (BUG #144)
 • Consortium infantry during Skirmish mirror-matches couldn't be bribed by Tyber Zann because the units didn't have a bribe cost attached to them. (BUG #163)
-• Imperial infantry wouldn't use their stand-at-attention animation in Darth Vader's presence because their presence checker was looking for Darth Vader's EaW land unit, not his FoC one. (BUG #68)
+• Imperial infantry wouldn't use their stand-at-attention animation in Darth Vader's "imposing presence" because the animation table didn't include Vader's land FoC unit, only his EaW one. (BUG #68)
+• Rebel infantry wouldn't use their celebration animations around Veers' capitulated AT-AT because his unit death models didn't have an "imposing presence" behavior setup, and even if he did, Rebel infantry didn't have his death models included in the animation table. (BUG #47)
 
 
 Upgrade Fixes:

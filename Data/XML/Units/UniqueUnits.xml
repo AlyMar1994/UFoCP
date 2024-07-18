@@ -371,7 +371,7 @@
 		<Variant_Of_Existing_Type>Veers_AT_AT_Walker</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>DEPLOYED_DIE</Specific_Death_Anim_Type>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
-		<LandBehavior>HIDE_WHEN_FOGGED,LAND_OBSTACLE</LandBehavior>
+		<LandBehavior>HIDE_WHEN_FOGGED,LAND_OBSTACLE,IMPOSING_PRESENCE</LandBehavior>
 		<Obstacle_Width>40.0</Obstacle_Width>
 		<Obstacle_Height>40.0</Obstacle_Height>
 		<Obstacle_X_Offset>0.0</Obstacle_X_Offset>
@@ -380,13 +380,14 @@
 		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathClone> true </IsDeathClone>
+		<Presence_Range>200.0</Presence_Range>
 	</UniqueUnit>
 
 	<UniqueUnit Name="Veers_AT_AT_Walker_Death_Clone">
 		<Variant_Of_Existing_Type>Veers_AT_AT_Walker</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type />
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
-		<LandBehavior>HIDE_WHEN_FOGGED,LAND_OBSTACLE</LandBehavior>
+		<LandBehavior>HIDE_WHEN_FOGGED,LAND_OBSTACLE,IMPOSING_PRESENCE</LandBehavior>
 		<Obstacle_Width>40.0</Obstacle_Width>
 		<Obstacle_Height>40.0</Obstacle_Height>
 		<Obstacle_X_Offset>0.0</Obstacle_X_Offset>
@@ -396,6 +397,7 @@
 		<Death_SFXEvent_End_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathClone> true </IsDeathClone>
 		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
+		<Presence_Range>200.0</Presence_Range>
 	</UniqueUnit>
 
 
