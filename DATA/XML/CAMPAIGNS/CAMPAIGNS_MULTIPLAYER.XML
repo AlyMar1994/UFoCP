@@ -853,7 +853,7 @@
 				Galaxy_Core_Art_Model, 
 				Abregado_Rae,
 				AetenII, 
-				AlderaanExploded, 
+				Alderaan_Destroyed, 
 				AlzocIII, 
 				Anaxes, 
 				Atzerri, 
@@ -1352,10 +1352,10 @@
 		<Starting_Forces> Empire, AetenII, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		
 		<!-- Alderaan Space Forces -->
-		<Starting_Forces> Empire, AlderaanExploded, Empire_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Empire, AlderaanExploded, TIE_Scout_Squadron </Starting_Forces>
-		<Starting_Forces> Empire, AlderaanExploded, Broadside_Class_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, AlderaanExploded, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Alderaan_Destroyed, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Alderaan_Destroyed, TIE_Scout_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Alderaan_Destroyed, Broadside_Class_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Alderaan_Destroyed, Acclamator_Assault_Ship </Starting_Forces>
 		
 		<!-- Anaxes Space Forces -->
 		<Starting_Forces> Empire, Anaxes, Empire_Star_Base_2 </Starting_Forces>
@@ -2614,7 +2614,7 @@
 
         <Locations>
 			Galaxy_Core_Art_Model,
-			AlderaanExploded,
+			Alderaan_Destroyed,
 			AlzocIII,
 			Atzerri,
 			Bestine,
@@ -2650,7 +2650,7 @@
 		</Locations>
 		
 		<Trade_Routes>
-			AlderaanExploded_The_Maw,
+			Alderaan_Destroyed_The_Maw,
 			AlzocIII_Manaan,
 			Bestine_Taris,
 			Bestine_Dagobah,
@@ -2913,7 +2913,7 @@
 		<Starting_Forces> Empire, Carida, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Empire Space Forces -->
-		<Starting_Forces> Empire, AlderaanExploded, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Alderaan_Destroyed, Empire_Star_Base_1 </Starting_Forces>
 		
 		<!-- Empire Space Forces -->
 		<Starting_Forces> Empire, The_Maw, Empire_Star_Base_1 </Starting_Forces>

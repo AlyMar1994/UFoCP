@@ -191,9 +191,9 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="AlderaanExploded_Yavin">
+    <TradeRoute Name="Alderaan_Destroyed_Yavin">
 		
-            <Point_A>AlderaanExploded</Point_A>
+            <Point_A>Alderaan_Destroyed</Point_A>
             <Point_B>Yavin</Point_B>
             <HS_Speed_Factor>6.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -372,9 +372,9 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="AlderaanExploded_Kashyyyk">
+    <TradeRoute Name="Alderaan_Destroyed_Kashyyyk">
 		
-            <Point_A>AlderaanExploded</Point_A>
+            <Point_A>Alderaan_Destroyed</Point_A>
             <Point_B>Kashyyyk</Point_B>
             <HS_Speed_Factor>6.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -554,10 +554,10 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="AlderaanExploded_Corellia">
+    <TradeRoute Name="Alderaan_Destroyed_Corellia">
 		
             <Point_A>Corellia</Point_A>
-            <Point_B>AlderaanExploded</Point_B>
+            <Point_B>Alderaan_Destroyed</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
@@ -574,9 +574,9 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="AlderaanExploded_Kessel">
+    <TradeRoute Name="Alderaan_Destroyed_Kessel">
 		
-            <Point_A>AlderaanExploded</Point_A>
+            <Point_A>Alderaan_Destroyed</Point_A>
             <Point_B>Kessel</Point_B>
             <HS_Speed_Factor>6.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -614,10 +614,10 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="Byss_AlderaanExploded">
+    <TradeRoute Name="Byss_Alderaan_Destroyed">
 		
             <Point_A>Byss</Point_A>
-            <Point_B>AlderaanExploded</Point_B>
+            <Point_B>Alderaan_Destroyed</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
@@ -634,10 +634,10 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="Dantooine_AlderaanExploded">
+    <TradeRoute Name="Dantooine_Alderaan_Destroyed">
 		
             <Point_A>Dantooine</Point_A>
-            <Point_B>AlderaanExploded</Point_B>
+            <Point_B>Alderaan_Destroyed</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
@@ -665,10 +665,10 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="Coruscant_AlderaanExploded">
+    <TradeRoute Name="Coruscant_Alderaan_Destroyed">
 		
             <Point_A>Coruscant</Point_A>
-            <Point_B>AlderaanExploded</Point_B>
+            <Point_B>Alderaan_Destroyed</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
@@ -975,9 +975,9 @@
         
     </TradeRoute>
 
-	<TradeRoute Name="AlderaanExploded_Shola">
+	<TradeRoute Name="Alderaan_Destroyed_Shola">
 		
-            <Point_A>AlderaanExploded</Point_A>
+            <Point_A>Alderaan_Destroyed</Point_A>
             <Point_B>Shola</Point_B>
             <HS_Speed_Factor>10.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -995,9 +995,9 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="AlderaanExploded_Korriban">
+    <TradeRoute Name="Alderaan_Destroyed_Korriban">
 		
-            <Point_A>AlderaanExploded</Point_A>
+            <Point_A>Alderaan_Destroyed</Point_A>
             <Point_B>Korriban</Point_B>
             <HS_Speed_Factor>10.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -1025,9 +1025,9 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="AlderaanExploded_MonCalimari">
+    <TradeRoute Name="Alderaan_Destroyed_MonCalimari">
 		
-            <Point_A>AlderaanExploded</Point_A>
+            <Point_A>Alderaan_Destroyed</Point_A>
             <Point_B>MonCalimari</Point_B>
             <HS_Speed_Factor>10.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -1045,9 +1045,9 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="AlderaanExploded_NalHutta">
+    <TradeRoute Name="Alderaan_Destroyed_NalHutta">
 		
-            <Point_A>AlderaanExploded</Point_A>
+            <Point_A>Alderaan_Destroyed</Point_A>
             <Point_B>NalHutta</Point_B>
             <HS_Speed_Factor>10.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -1095,10 +1095,10 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="Abregado_Rae_AlderaanExploded">
+    <TradeRoute Name="Abregado_Rae_Alderaan_Destroyed">
 		
             <Point_A>Abregado_Rae</Point_A>
-            <Point_B>AlderaanExploded</Point_B>
+            <Point_B>Alderaan_Destroyed</Point_B>
             <HS_Speed_Factor>10.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
@@ -1125,9 +1125,9 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="AlderaanExploded_Geonosis">
+    <TradeRoute Name="Alderaan_Destroyed_Geonosis">
 		
-            <Point_A>AlderaanExploded</Point_A>
+            <Point_A>Alderaan_Destroyed</Point_A>
             <Point_B>Geonosis</Point_B>
             <HS_Speed_Factor>10.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -1351,9 +1351,9 @@
             
     </TradeRoute>
 
-    <TradeRoute Name="AlderaanExploded_Eriadu">
+    <TradeRoute Name="Alderaan_Destroyed_Eriadu">
    
-            <Point_A>AlderaanExploded</Point_A>
+            <Point_A>Alderaan_Destroyed</Point_A>
             <Point_B>Eriadu</Point_B>
             <HS_Speed_Factor>6.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -1821,9 +1821,9 @@
             
     </TradeRoute>
 
-    <TradeRoute Name="AlderaanExploded_Dantooine">
+    <TradeRoute Name="Alderaan_Destroyed_Dantooine">
    
-            <Point_A>AlderaanExploded</Point_A>
+            <Point_A>Alderaan_Destroyed</Point_A>
             <Point_B>Dantooine</Point_B>
             <HS_Speed_Factor>6.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -1962,9 +1962,9 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="AlderaanExploded_Sullust">
+    <TradeRoute Name="Alderaan_Destroyed_Sullust">
 		
-            <Point_A>AlderaanExploded</Point_A>
+            <Point_A>Alderaan_Destroyed</Point_A>
             <Point_B>Sullust</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -3103,9 +3103,9 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="AlderaanExploded_Honoghr">
+    <TradeRoute Name="Alderaan_Destroyed_Honoghr">
 		
-            <Point_A>AlderaanExploded</Point_A>
+            <Point_A>Alderaan_Destroyed</Point_A>
             <Point_B>Honoghr</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -3223,9 +3223,9 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="AlderaanExploded_The_Maw">
+    <TradeRoute Name="Alderaan_Destroyed_The_Maw">
 		
-            <Point_A>AlderaanExploded</Point_A>
+            <Point_A>Alderaan_Destroyed</Point_A>
             <Point_B>The_Maw</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
