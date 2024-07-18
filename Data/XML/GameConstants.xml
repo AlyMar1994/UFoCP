@@ -941,6 +941,7 @@
 		Damage_MDU_Rocket,
 		Damage_MDU_Grenade,
 		Damage_Interceptor_IV,
+		Damage_Crusader_Gunship,
 
 
 		<!-- PLEASE add your new damage types ABOVE this point.
@@ -3678,6 +3679,37 @@
     <Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_Vengeance, 1.0 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_MC30_Frigate, 2.5 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Interceptor_IV, Armor_SSD, 0.75 </Damage_To_Armor_Mod>
+
+	<!-- Crusader Gunship lasers -->
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Default, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Shield_Default, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Transport, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Bomber, 1.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Fighter, 1.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Hero_Transport, 2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Corellian_Corvette, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Missile_Cruiser, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Tartan, 1.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Interdictor, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Corellian_Gunboat, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Nebulon_B, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Acclamator, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Pirate_Frigate, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Satellite, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Frigate, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Victory_Class, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Assault_Frigate, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Calamari_Cruiser, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Star_Destroyer, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Station, 0.1 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Crusader_Gunship, Shield_Capital, 0.25</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Crusader_Gunship, Shield_Frigate, 1</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Crusader_Gunship, Shield_Corvette, 1</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Crusader_Gunship, Shield_Fighter, 1 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Crusader_Gunship, Shield_SSD, 0.25 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_Vengeance, 0.5</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_MC30_Frigate, 1 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Crusader_Gunship, Armor_SSD, 0.25</Damage_To_Armor_Mod>
 
 
 
