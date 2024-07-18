@@ -12,7 +12,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_CRUSADER_GUNSHIP</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_Crusader.tga</Icon_Name>
-		
+
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>UV_CrusaderClassCorvette.alo</Space_Model_Name>
 		<Select_Box_Scale>260</Select_Box_Scale>
@@ -24,7 +24,7 @@
 
         <Ranking_In_Category>7</Ranking_In_Category>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
-		
+
 		<Max_Speed>3.8</Max_Speed>
 		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -46,7 +46,7 @@
 		<Shield_Points>700</Shield_Points>
 		<Tactical_Health>800</Tactical_Health>
 		<Damage>20</Damage>
-		<Autoresolve_Health>800</Autoresolve_Health> 
+		<Autoresolve_Health>800</Autoresolve_Health>
 		<Shield_Refresh_Rate>12</Shield_Refresh_Rate>
 		<Energy_Capacity>999999</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -139,7 +139,7 @@
 		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
 
 		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes"> 
+		<Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
                 <Type>LASER_DEFENSE</Type>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
@@ -170,9 +170,9 @@
                 <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
             </Laser_Defense_Ability>
 		</Abilities>
-		
+
 		<Abilities SubObjectList="Yes">
-					
+
 			<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L2">
 				<Initially_Enabled> No </Initially_Enabled>		<!-- Must be enabled via the EL_Heavy_Reflective_Armor_L2_Upgrade -->
 				<Activation_Style>Take_Damage</Activation_Style>
@@ -187,7 +187,7 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-			
+
 			<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L3">
 				<Initially_Enabled> No </Initially_Enabled>		<!-- Must be enabled via the EL_Heavy_Reflective_Armor_L2_Upgrade -->
 				<Activation_Style>Take_Damage</Activation_Style>
@@ -210,11 +210,11 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 	</SpaceUnit>
-	
+
 	<SpaceUnit Name="Crusader_Gunship_Death_Clone">
 		<Text_ID>TEXT_UNIT_CRUSADER_GUNSHIP</Text_ID>
 		<Space_Model_Name>UV_CrusaderClassCorvette_DC.alo</Space_Model_Name>
@@ -231,8 +231,8 @@
 		<Ship_Class>capital_ship</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-	
-	
-	
-	
+
+
+
+
 </Crusader_Gunship_Data>
