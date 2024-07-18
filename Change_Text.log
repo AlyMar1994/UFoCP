@@ -41,13 +41,6 @@ https://github.com/AlyMar1994/UFoCP/issues/
 v2.0.0.#### (##-##-2024) [FoC v1.121.]
 ============================================
 
-International:
-• Fix the Sundered Heart not having a proper German translation (BUG #200).
-• Fix Slave I not having a proper German translation (BUG #195).
-• Fix the Executor not having a proper German translation (BUG #194).
-• Fix the Hound's Tooth not having a proper German translation (BUG #191).
-
-
 Corrections:
 • TEXT_PLANET_CAPITAL_SHIP_PRODUCER: (BUG #145)
 	-- ENG: This planet can produce capital ships (Mon Calamari Cruisers or Imperial Star Destroyers). -> This planet can produce capital ships (Mon Calamari Cruisers, Imperial Star Destroyers, Aggressor-class Destroyers or Keldabe-class Battleships).
@@ -61,6 +54,10 @@ Corrections:
 
 
 Inconsistency Fixes:
+• TEXT_UNIT_HOME_ONE: (BUG #)
+	-- ENG: 
+	-- GER: 
+
 • TEXT_HERO_BOBA_FETT_TEAM: (BUG #195)
 	-- ENG: Boba Fett -> Slave I - Boba Fett
 	-- GER: Boba Fett -> Sklave I - Boba Fett
