@@ -1865,15 +1865,12 @@ TEXT_HERO_DROID_C3P0,C-3PO
 TEXT_HERO_DROID_R2D2,R2-D2
 TEXT_HERO_DROIDS_TEAM,C-3PO and R2-D2
 TEXT_HERO_EMPEROR_PALPATINE,Emperor Palpatine
-TEXT_HERO_GARM_BEL_IBLIS,Garm Bel Iblis
-TEXT_HERO_GARM_BEL_IBLIS_02,The Gargantuan - Garm Bel Iblis
-TEXT_HERO_GARM_BEL_IBLIS_TEAM,Garm Bel Iblis
-TEXT_HERO_GARM_BEL_IBLIS_TEAM_02,The Gargantuan - Garm Bel Iblis
+TEXT_HERO_GARM_BEL_IBLIS,The Gargantuan - Garm Bel Iblis
+TEXT_HERO_GARM_BEL_IBLIS_TEAM,The Gargantuan - Garm Bel Iblis
 TEXT_HERO_GENERAL_DODONNA,General Jan Dodonna
 TEXT_HERO_GENERAL_RIEEKAN,General Carlist Rieekan
 TEXT_HERO_GENERAL_VEERS,Colonel Maximilian Veers
-TEXT_HERO_GENERAL_VEERS_02,General Maximilian Veers
-TEXT_HERO_GENERAL_VEERS_03,Blizzard 1 - General Maximilian Veers
+TEXT_HERO_GENERAL_VEERS_02,Blizzard 1 - General Maximilian Veers
 TEXT_HERO_GRAND_MOFF_TARKIN,Grand Moff Tarkin
 TEXT_HERO_HAN_SOLO,Han Solo
 TEXT_HERO_HAN_SOLO_TEAM,Han Solo & Chewbacca
@@ -2828,8 +2825,7 @@ TEXT_PLANET_BYSS_INFO_TAC,Ground base construction time reduced due to the influ
 TEXT_PLANET_BYSS_INFO_TER,Lakes, plateaus, urban sprawls
 TEXT_PLANET_BYSS_INFO_WEA,Clear, Rain
 TEXT_PLANET_BYSS_INFO_WL,None
-TEXT_PLANET_CAPITAL_SHIP_PRODUCER,This planet can produce capital ships (Mon Calamari Cruisers or Imperial Star Destroyers).
-TEXT_PLANET_CAPITAL_SHIP_PRODUCER_02,This planet can produce capital ships (Mon Calamari Cruisers, Imperial Star Destroyers, Aggressor-class Destroyers or Keldabe-class Battleships).
+TEXT_PLANET_CAPITAL_SHIP_PRODUCER,This planet can produce capital ships (Mon Calamari Cruisers, Imperial Star Destroyers, Aggressor-class Destroyers or Keldabe-class Battleships).
 TEXT_PLANET_CARIDA_ENCYC,Production Time Reduction (Infantry): Infantry training time reduced due to Carida's military facilities.
 TEXT_PLANET_CARIDA_ENCYC_01,While this planet is controlled, all Infantry units cost 20% less to build on all planets.
 TEXT_PLANET_CARIDA_INFO_ADV,Production Time Reduction: Infantry
@@ -18247,8 +18243,7 @@ TEXT_TOOLTIP_REP_TURRET,Vehicle repair station capable of repairing damaged vehi
 TEXT_TOOLTIP_REP_TURRET_SPACE,Orbital repair station capable of repairing damaged ships.  Cannot repair hard points that have been completely destroyed.
 TEXT_TOOLTIP_REPAIR_DROID,The S-RD5 is a heavy repair droid designed for quick combat repairs.  It is unarmed and requires time to complete repairs.
 TEXT_TOOLTIP_REQUIRED_PLANETS_CANTINA,This structure can only be built on Abregado-Rae, Atzerri, Corellia, Nal Hutta, Ryloth or Tatooine.
-TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS,This ship can only be built on Kuat, Sullust, Fondor, Hypori or Mon Calamari.
-TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS_02,This ship can only be built on Fondor, Hypori, Kuat, Mandalore, Mon Calamari or Sullust.
+TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS,This ship can only be built on Fondor, Hypori, Kuat, Mandalore, Mon Calamari or Sullust.
 TEXT_TOOLTIP_REQUIRED_PLANETS_HUTT_PALACE,This structure can only be built on Atzerri, Nal Hutta, Ryloth or Tatooine.
 TEXT_TOOLTIP_REQUIRES_COMM_ARRAY,Requires the starbase's Communications Array to be functional in order to fire.
 TEXT_TOOLTIP_RESIDUAL_INFLUENCE,Residual Influence
@@ -18898,18 +18893,15 @@ TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L2,Special abilities on infantry and he
 TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L1,Destroyer Droid shielding absorbs 25% more damage. 
 TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L2,Destroyer Droid shielding absorbs 25% more damage and laser weapon power is increased by 20%.
 TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L1,Increases the damage done by the MZ-8 Pulse Tank by 25%.
-TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2,Increases the damage done by the MZ-8 Pulse Tank by 50%.
-TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2_02,Increases the damage done by the MZ-8 Pulse Tank and Canderous Assault Tank by 50%.
+TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2,Increases the damage done by the MZ-8 Pulse Tank and Canderous Assault Tank by 50%.
 TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L1,Increases the movement speed of Skipray Blastboats by 25%.
 TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L2,Increases the movement speed of Skipray Blastboats and Interceptor IV Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L3,Increases the movement speed of Skipray Blastboats, Interceptor IV Frigates, and Aggressor Destroyers by 25%.
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L1,Increases Vengeance Frigate damage output by 25%.
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L2,Increases Vengeance Frigate and Aggressor Destroyer damage output by 25%.
 TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L1,StarViper Fighter armor deflects 25% of incoming laser fire.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,StarViper Fighter and Crusader Gunship armor deflects 25% of incoming laser fire.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2_02,StarViper Fighter and Crusader Gunship armor deflects 30% of incoming laser fire.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,StarViper Fighter, Crusader Gunship and Keldabe Battleship armor deflects 25% of incoming laser fire.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3_02,StarViper Fighter, Crusader Gunship and Keldabe Battleship armor deflects 30% of incoming laser fire.
+TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,StarViper Fighter and Crusader Gunship armor deflects 30% of incoming laser fire.
+TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,StarViper Fighter, Crusader Gunship and Keldabe Battleship armor deflects 30% of incoming laser fire.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L1,Increases Cloaking Field duration for Vengeance Frigates by 25%.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L2,Increases Cloaking Field duration for Vengeance Frigates and the Merciless by 50%.
 TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L1,Reduces the damage to Consortium space station by 15%.

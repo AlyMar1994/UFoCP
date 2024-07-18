@@ -42,27 +42,30 @@ v2.0.0.#### (##-##-2024) [FoC v1.121.]
 ============================================
 
 Corrections:
-• TEXT_PLANET_CAPITAL_SHIP_PRODUCER -> TEXT_PLANET_CAPITAL_SHIP_PRODUCER_02: (BUG #145)
+• TEXT_PLANET_CAPITAL_SHIP_PRODUCER: (BUG #145)
 	-- ENG: This planet can produce capital ships (Mon Calamari Cruisers or Imperial Star Destroyers). -> This planet can produce capital ships (Mon Calamari Cruisers, Imperial Star Destroyers, Aggressor-class Destroyers or Keldabe-class Battleships).
 	-- GER: Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer oder imperiale Sternenzerstörer). -> Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer, imperiale Sternenzerstörer, Zerstörer der Aggressor-Klasse oder Kampfschiff der Kedalbe-Klasse).
-• TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS -> TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS_02: (BUG #142)
+• TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS: (BUG #142)
 	-- ENG: This ship can only be built on Kuat, Sullust, Fondor, Hypori or Mon Calamari. -> This ship can only be built on Fondor, Hypori, Kuat, Mandalore, Mon Calamari or Sullust.
 	-- GER: Dieses Schiff kann nur auf Kuat, Sullust, Fondor, Hypori oder Mon Calamari gebaut werden. -> Dieses Schiff kann nur auf Fondor, Hypori, Kuat, Mandalore, Mon Calamari oder Sullust gebaut werden.
-• TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2 -> TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2_02: (BUG #75)
+• TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2: (BUG #75)
 	-- ENG: Increases the damage done by the MZ-8 Pulse Tank by 50%. -> Increases the damage done by the MZ-8 Pulse Tank and Canderous Assault Tank by 50%.
 	-- GER: Erhöht den vom Impulsgeschützpanzer MZ-8 angerichteten Schaden um 50 %. -> Erhöht den vom Impulsgeschützpanzer MZ-8 und der Sturmpanzer Canderous angerichteten Schaden um 50 %.
-• TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2 -> TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2_02: (BUG #76)
-	-- ENG: ...armor deflects 25% of incoming laser fire. -> ... armor deflects 30% of incoming laser fire.
-	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. -> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
-• TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3 -> TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3_02: (BUG #76)
-	-- ENG: ...armor deflects 25% of incoming laser fire. -> ... armor deflects 30% of incoming laser fire.
-	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. -> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
 
 
 Inconsistency Fixes:
-• TEXT_HERO_GARM_BEL_IBLIS, TEXT_HERO_GARM_BEL_IBLIS_TEAM -> TEXT_HERO_GARM_BEL_IBLIS_02, TEXT_HERO_GARM_BEL_IBLIS_TEAM_02: (BUG #184)
+• TEXT_HERO_GARM_BEL_IBLIS/TEXT_HERO_GARM_BEL_IBLIS_TEAM: (BUG #184)
 	-- ENG: Garm Bel Iblis -> The Gargantuan - Garm Bel Iblis
 	-- GER: Garm Bel Iblis -> Die Gargantuan - Garm Bel Iblis
-• TEXT_HERO_GENERAL_VEERS_02 -> TEXT_HERO_GENERAL_VEERS_03: (BUG #48)
+• TEXT_HERO_GENERAL_VEERS_02: (BUG #48)
 	-- ENG: General Maximilian Veers -> Blizzard 1 - General Maximilian Veers
 	-- GER: General Maximilian Veers -> Schneesturm 1 - General Maximilian Veers
+
+
+Typo Fixes:
+• TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2: (BUG #76)
+	-- ENG: ...armor deflects 25% of incoming laser fire. -> ...armor deflects 30% of incoming laser fire.
+	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. -> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
+• TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3: (BUG #76)
+	-- ENG: ...armor deflects 25% of incoming laser fire. -> ... armor deflects 30% of incoming laser fire.
+	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. -> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
