@@ -18,7 +18,7 @@
 
 		<Select_Box_Scale>720</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		
+
 		<GUI_Row> 1 </GUI_Row>
 		<Mass>0.999</Mass>
 		<Scale_Factor>0.35</Scale_Factor>
@@ -43,7 +43,7 @@
 
 		<Armor_Type> Armor_Assault_Frigate </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-        
+
 		<Max_Thrust>2.0</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
@@ -92,7 +92,7 @@
 			HP_Interceptor_Frigate_01,
 			HP_Interceptor_Frigate_02
 		</HardPoints>
-		
+
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Interceptor_IV</SFXEvent_Build_Complete>
@@ -148,14 +148,14 @@
 		<Population_Value>3</Population_Value>
 
 		<Death_Clone>Damage_Normal, Interceptor4_Frigate_Death_Clone</Death_Clone>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2400</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<!-- Non-Hero unit abilities description -->
@@ -166,10 +166,10 @@
                 <Recharge_Seconds>45</Recharge_Seconds>
                 <Expiration_Seconds>7</Expiration_Seconds>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Interceptor_IV</SFXEvent_GUI_Unit_Ability_Activated>
-                <GUI_Activated_Ability_Name>Interceptor_Full_Salvo</GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name>Interceptor_Full_Salvo</GUI_Activated_Ability_Name>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
-			
+
 		</Unit_Abilities_Data>
 
 	</SpaceUnit>
@@ -190,7 +190,7 @@
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
-	
+
 
 
 
