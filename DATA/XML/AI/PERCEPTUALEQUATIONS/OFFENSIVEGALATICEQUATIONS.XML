@@ -221,7 +221,7 @@
 	<Need_To_Flush_MajorItem_Budget>
 		Function_Needs_More_Space_Force_Globally.Evaluate
 		+
-		Variable_Self.HasUnit{Parameter_Type = "Death_Star", Parameter_Count = 1}
+		Variable_Self.HasUnit{Parameter_Type = "Death_Star_II", Parameter_Count = 1}
 	</Need_To_Flush_MajorItem_Budget>
 
 	<!-- The AI can afford to spend on tech if it has X% space force over the human player
@@ -422,7 +422,7 @@
 			*
 			Variable_Target.IsHumanControlled
 			*
-			((Variable_Self.HasUnit {Parameter_Type = "DEATH_STAR"} == 0.0)
+			((Variable_Self.HasUnit {Parameter_Type = "Death_Star_II"} == 0.0)
 			+
 			(Function_Want_To_Fire_DS.Evaluate == 0.0))
 		)

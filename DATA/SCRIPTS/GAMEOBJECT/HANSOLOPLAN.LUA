@@ -52,8 +52,8 @@ function Definitions()
 
 	-- Commander hit list.
 	Attack_Ability_Type_Names = {
-		"Death_Star",	-- Attack these types.
-		"Darth_Team" ,"Boba_Fett_Team" 				-- Stay away from these types.
+		"Death_Star", "Death_Star_II",	-- Attack these types.
+		"Darth_Team", "Darth_Team_Executor", "Boba_Fett_Team" 				-- Stay away from these types.
 	}
 	Attack_Ability_Weights = {
 		10,   				-- attack type weights.

@@ -59,6 +59,7 @@ Ability Fixes:
 AI Fixes:
 • During certain conquering plans, the AI always slept 5 minutes after a victory/failure because of a coding mistake (the scripts couldn't find the player's Difficulty setting); the AI now sleeps for its appropriate cycles: 5 minutes on Easy, 3 minutes 30 seconds on Normal, and 45 seconds on Hard. (BUG #69)
 • The AI's blitzkrieg conquering plan "Crush" always cancelled before starting because of a coding mistake (the script couldn't find the player's Difficulty setting); the AI now continues the plan should the Difficulty be set to Hard. (BUG #79)
+• During various AI plans, the AI would consistently not look for FoC's Death Star II unit, including budgeting and prioritizing tech upgrades. (BUG #53)
 • AI plans for firing the Death Star II weren't updated from EaW, and still only looked for the Death Star I.  In addition, the plans would be processed by all factions instead of just the Empire. (BUG #51)
 • AI plans to upgrade Empire tech didn't include the Death Star II as apart of the list of upgrade objects. (BUG #71)
 • AI plans for building anti-infantry turrets weren't updated from EaW; the AI now knows the Proton Torpedo Turret is the Consortium's designated anti-infantry turret, and now has the same considerations to buy it like the Rebels and Empire. (BUG #114)
@@ -77,6 +78,7 @@ AI Fixes:
 • The Galactic AI didn't include Tyber Zann as a possible leader_object for its service to attack planets or find targets. (BUG #140)
 • The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include the Sundered Heart. (BUG #162)
 • Darth Vader's land assistance AI wouldn't factor in his FoC land unit, only his EaW one, and prematurely shutdown. (BUG #27)
+• Han Solo & Chewbacca's galactic planning AI wouldn't factor in avoiding Darth Vader's FoC unit, nor factor in attacking the Death Star II. (BUG #27/53)
 
 
 Audio Fixes:
