@@ -152,6 +152,7 @@ Model Fixes:
 Script/Story Fixes:
 • Consortium Campaign #7 ("Cloud City Conflict") would spawn the EaW version of Darth Vader instead of the FoC version with the Executor. (BUG #27)
 • It was possible to leave Grenadier Proximity Mines where Vader and the Stormtrooper meet during Consortium Campaign #7 ("Cloud City Conflict").  Vader would then walk around destroying mines in the ending cutscene, or both Vader and the trooper would die in the explosion. (BUG #131)
+• "Destroy the Death Star" prerequisites for GC wouldn't work because the Empire's faction entry wasn't looking for the Death Star II. (BUG #33)
 
 
 Structure Fixes:
