@@ -1838,6 +1838,17 @@ function End_Cinematic()
 	-- Disable the other objects for the final cinematic
 	Do_End_Cinematic_Cleanup()
 
+	-- AM1994: Find and despawn all proximity mines to prevent
+	-- breaking final cutscene with Vader, as End_Cine_Cleanup
+	-- doesn't account for these.
+	local uwProxMines = Find_Object_Type("Proximity_Mine")
+	local uwProxMines_list = Find_All_Objects_Of_Type("Proximity_Mine")
+	if TestValid(uwProxMines) then
+		for i, uwProxMines in pairs(uwProxMines_list) do
+			uwProxMines.Despawn()
+		end
+	end
+
 	tyber_end_loc = Find_Hint("STORY_TRIGGER_ZONE_00", "tyberendloc")
 	urai_end_loc = Find_Hint("STORY_TRIGGER_ZONE_00", "uraiendloc")
 	ig88_end_loc = Find_Hint("STORY_TRIGGER_ZONE_00", "ig88endloc")
