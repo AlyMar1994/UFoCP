@@ -2,7 +2,7 @@
 
 <Equations>
 
-	<!-- 
+	<!--
 	Do we have some structure here already
 	AND
 	Are we not maxed out
@@ -31,7 +31,7 @@
 	</Needs_Groundbase_Upgrade>
 
 
-	<!-- 
+	<!--
 	Bring this into line with ground base component building (since they share the infrastructure category)
 	AND
 	Do we already have an initial base (handled by another goal)
@@ -43,7 +43,7 @@
 	Scale by relative economic worth
 	AND EITHER
 		lift a tech upgrade purchase dependency OR offensive space production dependency
-		if this is a location with a ground research facility 
+		if this is a location with a ground research facility
 		OR
 		If we're badly blocked on space production
 		OR
@@ -55,9 +55,9 @@
 
 	UNUSED:
          Require the starbase upgrade boost for unblocking tech to be on the highest level system.
-			* 
+			*
 			(Variable_Target.StarbaseLevelUnnormalized == Variable_Self.MaxStarbaseLevelUnnormalized)
-	
+
       -->
 	<Needs_Starbase_Upgrade>
 		(Variable_Target.StarbaseLevel > 0.0)
@@ -65,7 +65,7 @@
 		(Variable_Target.MaxStarbaseLevel != Variable_Target.StarbaseLevel)
 		*
 		((Variable_Target.GroundbaseLevel > Variable_Target.StarbaseLevel) + (Variable_Target.MaxStarbaseLevel >= Variable_Target.MaxGroundbaseLevel))
-		* 
+		*
 		(
 			13.0 * (1 - Function_Can_Build_Offensive_Space.Evaluate)
 			+
@@ -76,7 +76,7 @@
 				+
 				2.0 * Function_Needs_Better_Buying_Capability_Space.Evaluate
 			)
-		)											
+		)
 	</Needs_Starbase_Upgrade>
 
 
@@ -91,7 +91,7 @@
 		Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"}
 		*
 		(5.0 > Variable_Self.TechLevel)
-		* 
+		*
 		(1.0 - Variable_Self.CanAdvanceTech)
 	</Need_Tech_Upgrade_Unblocked>
 
@@ -123,7 +123,7 @@
 	<Can_Build_Offensive_Space>
 		(Variable_Self.IsFaction {Parameter_Faction = "Rebel"})
 		+
-		(Variable_Self.IsFaction {Parameter_Faction = "Empire"}) 
+		(Variable_Self.IsFaction {Parameter_Faction = "Empire"})
 		*
 		(
 			(Variable_Self.HasStarbaseOfLevel {Parameter_Level = 3, Parameter_Count = 1}
@@ -182,7 +182,7 @@
 		*
 		(1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
 		*
-		(Function_Should_Save_For_Desirable_Structures.Evaluate == 0)	
+		(Function_Should_Save_For_Desirable_Structures.Evaluate == 0)
 	</Need_Barracks>
 
 	<!-- SCALE DOWN as we improve to the desired ratio of structures per planet
@@ -248,8 +248,8 @@
 		(1 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Count = 1})
 		*
 		(
-			1 
-			+ 
+			1
+			+
 			Function_Defense_Level.Evaluate
 			+
 			(Function_Is_Connected_To_Enemy.Evaluate == 0)
@@ -258,13 +258,13 @@
 			+
 			Variable_Target.FriendlyForce.SpaceTotal
 			+
-			Variable_Target.FriendlyForce.GroundTotal					
+			Variable_Target.FriendlyForce.GroundTotal
 		)
 	</Need_First_Research_Facility>
 
 
 	<!-- Subsequent research facilities are built under the Infrastructure budget according to this formula:
-	
+
 	Provided we're the Empire faction
 	AND
 	We have enough planets to care about tech
@@ -285,7 +285,7 @@
 		(
 			20 * (1 - (Variable_Self.StructureCount {Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1.0} / 2))
 			+
-			10 * Function_Empire_Should_Upgrade_Tech.Evaluate * 
+			10 * Function_Empire_Should_Upgrade_Tech.Evaluate *
 			(1 - Variable_Self.HasStructure {Parameter_Type = "E_Ground_Research_Facility", Parameter_Count = 1})
 			+
 			3 * Function_Defense_Level.Evaluate
@@ -312,7 +312,7 @@
 		(Function_Should_Save_For_Desirable_Structures.Evaluate == 0)
 	</Need_Comm_Array>
 
-	<!-- 
+	<!--
 	Provided we have enough planets to care about officers
 	SCALE DOWN
 		as we improve to the desired number of structures
@@ -337,7 +337,7 @@
 		*
 		(2.0 > Variable_Target.StructureCount {Parameter_Type = "E_Ground_Officer_Academy",
 												Parameter_Type = "R_Ground_Officer_Academy",
-												Parameter_Only_Consider_Complete = 1.0})			
+												Parameter_Only_Consider_Complete = 1.0})
 		*
 		(1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
 		*
@@ -346,15 +346,15 @@
 
 
 	<!-- Determines whether the player owns a level 5 starbase
-			Only kicks in once planet ownership is above a threshold 
+			Only kicks in once planet ownership is above a threshold
 
 		*
 		(Variable_Self.PlanetsControlled >= 0.25)
 			-->
 	<No_Level_5_Starbase>
-		(Variable_Self.HasStarbaseOfLevel {Parameter_Level = 5, Parameter_Count = 1} == 0.0) 
+		(Variable_Self.HasStarbaseOfLevel {Parameter_Level = 5, Parameter_Count = 1} == 0.0)
 	</No_Level_5_Starbase>
-	
+
 	<!-- Does this planet have a starbase already? -->
 	<Needs_Initial_Starbase>
 		50.0 *
@@ -363,7 +363,7 @@
 		(Variable_Target.MaxStarbaseLevel > 0.0) *
         (Variable_Target.EnemyForce.HasSpaceForce == 0)
 	</Needs_Initial_Starbase>
-	
+
 	<!-- Does this planet have a groundbase already?  This now builds a barracks.
 	High base desire
 	AND
@@ -374,7 +374,7 @@
 	Wait until the starbase has been built, if one can be
 	-->
 	<Needs_Initial_Groundbase>
-		50.0 
+		50.0
 		*
 		(1.0 - clamp(Variable_Self.PlanetsControlled - 0.33, 0.0, 1.0))
 		*
@@ -386,7 +386,7 @@
 	</Needs_Initial_Groundbase>
 
 
-	<!-- 
+	<!--
 		Build a cantina wherever we can provided we don't have tech constraints
 		Max 1 cantina per cantina supporting planet
 		-->
@@ -395,8 +395,8 @@
 		*
 		(1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
 		*
-		(Variable_Target.StructureCount {Parameter_Type = "Ground_Cantina_E", 
-											Parameter_Type = "Ground_Cantina_R", 
+		(Variable_Target.StructureCount {Parameter_Type = "Ground_Cantina_E",
+											Parameter_Type = "Ground_Cantina_R",
 											Parameter_Only_Consider_Complete = 1.0} == 1.0)
 		*
 		50.0
@@ -436,7 +436,7 @@
 											Parameter_Type = "R_Ground_Barracks",
 											Parameter_Only_Consider_Complete = 1.0}
 			*
-			(Function_Should_Save_For_Desirable_Structures.Evaluate == 0)	
+			(Function_Should_Save_For_Desirable_Structures.Evaluate == 0)
 			+
 			50.0
 			*
@@ -458,7 +458,7 @@
 		Have we already addressed production bottleneck issues
 		-->
 	<Needs_Scanner>
-		Variable_Target.OpenStructureSlots 
+		Variable_Target.OpenStructureSlots
 		*
 		(Function_Defense_Level.Evaluate > 5)
 		*
@@ -506,7 +506,7 @@
 		-->
 	<Needs_Ground_Infiltrator_Facility>
 		(
-			5.0 
+			5.0
 			*
 			(Variable_Self.IsFaction {Parameter_Faction = "Rebel"})
 			*
@@ -517,19 +517,19 @@
 			5.0 * Variable_Target.HasStructure {Parameter_Type = "Ground_Infiltrator_Facility"}
 		)
 		*
-		(2.0 > Variable_Target.StructureCount {Parameter_Type = "Ground_Infiltrator_Facility", Parameter_Only_Consider_Complete = 1.0})	
+		(2.0 > Variable_Target.StructureCount {Parameter_Type = "Ground_Infiltrator_Facility", Parameter_Only_Consider_Complete = 1.0})
 		*
 		(Function_Should_Save_For_Desirable_Structures.Evaluate == 0)
 	</Needs_Ground_Infiltrator_Facility>
 
 
 
-	<!--	
+	<!--
 		Require at least a certain number of bases, so that unit production
 		won't be severly interrupted during tech production.
-		
+
 		Edited to scale better with different galaxy sizes.  Used to require a fixed number of bases.
-		
+
 		More than one planet controlled
 		AND
 		More than 10% of the galaxy controlled
@@ -548,7 +548,7 @@
 		(Variable_Self.NumGroundbaseOfLevel {Parameter_Level = 1} >= (0.25 * Variable_Self.PlanetsControlledUnnormalized))
 	</Has_Enough_Bases_For_Tech>
 
-	<!-- 
+	<!--
 		Are we the Empire
 		AND
 		We're not sure to win anyway
@@ -580,9 +580,9 @@
 		Function_Has_Enough_Bases_For_Tech.Evaluate
 		*
 		(
-			clamp(Function_Has_Enough_Space_Force_Globally.Evaluate + 
+			clamp(Function_Has_Enough_Space_Force_Globally.Evaluate +
 					(Game.Timeline > Variable_Self.TechLevel) * (Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"}) ,
-					0.0, 1.0)		
+					0.0, 1.0)
 			*
 			(
 				(1 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"}) *
@@ -615,8 +615,8 @@
 
 
 	<!-- Do we want to switch to the "tech up" template?
-	
-	If we want to upgrade tech 
+
+	If we want to upgrade tech
 	AND
 		We need a research facility
 		OR
@@ -625,12 +625,12 @@
 		we're tech 5 and we want to buy the death star
 	-->
 	<Empire_Tech_Trigger>
-		Function_Empire_Should_Upgrade_Tech.Evaluate 
-		* 
+		Function_Empire_Should_Upgrade_Tech.Evaluate
+		*
 		(
 			(
 				(1 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"})
-				+ 
+				+
 				Variable_Self.CanAdvanceTech
 				+
 				(Variable_Self.TechLevel == 5) * (1.0 - Variable_Self.HasUnit{Parameter_Type = "Death_Star"})
@@ -687,7 +687,7 @@
 	</Can_Reclaim_Excess_MajorItem_Budget>
 
 	<Can_Afford_Steal_Tech>
-		(Variable_Self.CreditsUnnormalized > 1000) 
+		(Variable_Self.CreditsUnnormalized > 1000)
 		*
 		((Variable_Self.NetIncomeUnnormalized > 500) + (Variable_Self.CreditsUnnormalized > 2500))
 	</Can_Afford_Steal_Tech>
@@ -696,20 +696,20 @@
 		(Variable_Target.GroundBaseLevelUnnormalized > 1.0)
 		*
 		(
-			(Variable_Self.HasTechToProduce {Parameter_Type = "E_Ground_Heavy_Vehicle_Factory", Parameter_Type = "R_Ground_Heavy_Vehicle_Factory"}) 
+			(Variable_Self.HasTechToProduce {Parameter_Type = "E_Ground_Heavy_Vehicle_Factory", Parameter_Type = "R_Ground_Heavy_Vehicle_Factory"})
 			*
 			(Function_Need_Heavy_Vehicle_Factory.Evaluate > 10.0)
 			+
-			(Variable_Self.HasTechToProduce {Parameter_Type = "E_Ground_Advanced_Vehicle_Factory"}) 
+			(Variable_Self.HasTechToProduce {Parameter_Type = "E_Ground_Advanced_Vehicle_Factory"})
 			*
 			(Function_Need_Advanced_Vehicle_Factory.Evaluate > 10.0)
 			+
-			(Variable_Self.HasTechToProduce {Parameter_Type = "Ground_Empire_Hypervelocity_Gun", Parameter_Type = "Ground_Ion_Cannon"}) 
-			*			
-			(Function_Needs_Weapon.Evaluate > 15.0)	
+			(Variable_Self.HasTechToProduce {Parameter_Type = "Ground_Empire_Hypervelocity_Gun", Parameter_Type = "Ground_Ion_Cannon"})
+			*
+			(Function_Needs_Weapon.Evaluate > 15.0)
 			+
 			(Variable_Self.HasTechToProduce {Parameter_Type = "E_Ground_Base_Shield", Parameter_Type = "R_Ground_Base_Shield"})
-			*		
+			*
 			(Function_Needs_Base_Shield.Evaluate > 15.0)
 			+
 			(Variable_Self.HasTechToProduce {Parameter_Type = "E_Galactic_Turbolaser_Tower_Defenses", Parameter_Type = "R_Galactic_Turbolaser_Tower_Defenses"})
