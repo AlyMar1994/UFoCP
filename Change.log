@@ -90,6 +90,7 @@ Audio Fixes:
 • Imperial Force Adepts no longer use both the Rebel blaster SFX and a lightsaber swing sound when attacking. (BUG #63)
 • TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
 • TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle; this was originally half-fixed in the latest patch, where they no longer only visually look like torpedoes. (BUG #179)
+• Imperial/Rebel hologram advisors wouldn't use special dialogue when the Death Star II was being attacked/defended or attacking/defending because only one entry existed for EaW's Death Star. (BUG #32)
 
 
 Interface Fixes:
