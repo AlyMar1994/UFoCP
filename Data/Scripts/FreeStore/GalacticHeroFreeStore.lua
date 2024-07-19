@@ -54,6 +54,7 @@ function Definitions()
 		,GENERAL_VEERS_TEAM = {nil, false}
 		,BOBA_FETT_TEAM = {nil, true}
 		,PIET_TEAM = {nil, true}
+		,ACCUSER_STAR_DESTROYER = {nil, true}
 		,ARC_HAMMER = {"Is_Home_Planet", true}
 		,DARTH_TEAM_EXECUTOR = {nil, true}
 		,ADMONITOR_STAR_DESTROYER = {nil, true}
