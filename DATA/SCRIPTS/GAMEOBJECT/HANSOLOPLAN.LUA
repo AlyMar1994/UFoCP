@@ -51,11 +51,11 @@ function Definitions()
 	MaxPlanAttachCost = 0
 
 	-- Commander hit list.
-	Attack_Ability_Type_Names = { 
+	Attack_Ability_Type_Names = {
 		"Death_Star",	-- Attack these types.
 		"Darth_Team" ,"Boba_Fett_Team" 				-- Stay away from these types.
 	}
-	Attack_Ability_Weights = { 
+	Attack_Ability_Weights = {
 		10,   				-- attack type weights.
 		BAD_WEIGHT, BAD_WEIGHT   				-- feared type weights.
 	}
@@ -80,7 +80,3 @@ end
 function HeroService()
 
 end
-
-
-
-
