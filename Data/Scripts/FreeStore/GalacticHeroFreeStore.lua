@@ -65,6 +65,7 @@ function Definitions()
 		,DROIDS_TEAM = {nil, false}
 		,LUKE_TEAM = {nil, true}
 		,LUKE_SKYWALKER_JEDI_TEAM = {nil, false}
+		,GARM_BEL_IBLIS_TEAM = {nil, false}
 		,YODA_TEAM = {nil,false}
 		,ROGUE_SQUADRON_SPACE = {nil,true}
 		,SUNDERED_HEART = {nil, true}

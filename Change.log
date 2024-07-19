@@ -77,6 +77,7 @@ AI Fixes:
 • The Galactic AI had a misspelled variable that prevented reconsidering unit positions every eight seconds as intended; unit movement is no longer irregularly serviced (or not at all). (BUG #130)
 • The Galactic AI didn't include Tyber Zann as a possible leader_object for its service to attack planets or find targets. (BUG #140)
 • The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include the Sundered Heart. (BUG #162)
+• The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include Garm Bel Iblis. (BUG #203)
 • Darth Vader's land assistance AI wouldn't factor in his FoC land unit, only his EaW one, and prematurely shutdown. (BUG #27)
 • Han Solo & Chewbacca's galactic planning AI wouldn't factor in avoiding Darth Vader's FoC unit, nor factor in attacking the Death Star II. (BUG #27/53)
 
