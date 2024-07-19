@@ -58,9 +58,19 @@ function Definitions()
 end
 
 function MainForce_Thread()
+	-- AM1994: Exit out of the script should the user
+	-- not be the Empire.
+	--local factionEmpire = Find_Player("EMPIRE")
+	--if not TestValid(factionEmpire) then ScriptExit() end
+	if not PlayerObject.Get_Faction_Name() == "EMPIRE" then ScriptExit() end
+
 	BlockOnCommand(MainForce.Produce_Force())
 
 	ds = Find_First_Object("Death_Star")
+	if not TestValid(ds) then
+		ds = Find_First_Object("Death_Star_II")
+	end
+
 	while not TestValid(ds) do
 		-- Death star isn't present, hang this plan indefinately
 		Sleep(100)
