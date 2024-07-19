@@ -65,6 +65,7 @@ function Definitions()
 		,OBI_WAN_TEAM = {nil, false}
 		,DROIDS_TEAM = {nil, false}
 		,LUKE_TEAM = {nil, true}
+		,RED_SQUADRON = {nil, true}
 		,LUKE_SKYWALKER_JEDI_TEAM = {nil, false}
 		,GARM_BEL_IBLIS_TEAM = {nil, false}
 		,YODA_TEAM = {nil,false}
