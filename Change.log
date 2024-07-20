@@ -96,6 +96,7 @@ Audio Fixes:
 • MDUs would use Rebel VO for unit death or building construction.  Each MDU now uses faction-based VO. (BUG #158)
 • No music would play when losing against the Consortium because of a bad file reference, and the Consortium's music entries referenced the Rebels'; the Consortium's music now points to its own entries properly (and has had its volume boosted, as the music is quiet). (BUG #31)
 • Imperial Force Adepts no longer use both the Rebel blaster SFX and a lightsaber swing sound when attacking. (BUG #63)
+• Silri no longer uses both the Stormtrooper blaster SFX and a lightsaber swing sound when attacking. (BUG #207)
 • TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
 • TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle; this was originally half-fixed in the latest patch, where they no longer only visually look like torpedoes. (BUG #179)
 • Imperial/Rebel hologram advisors wouldn't use special dialogue when the Death Star II was being attacked/defended or attacking/defending because only one entry existed for EaW's Death Star. (BUG #32)
