@@ -44,13 +44,13 @@
 
 
 <!-- Start Corruption lines -->
-	
+
 	<SpeechEvent Name="ABREGADORAE_BRB_VICTORY_COR01_01">
 		<Files> UWCOR_DEF0101_ENG.MP3 </Files>
 		<Text_ID> TEXT_SPEECH_ABREGADORAE_BRB_VICTORY_COR01_01</Text_ID>
 		<Volume_Percent> 80 </Volume_Percent>
 	</SpeechEvent>
-	
+
 	<SpeechEvent Name="AETENII_PIR_LOAD_COR02_01">
 		<Files> Bossk_Short_1_ENG.MP3 </Files>
 		<Text_ID> TEXT_SPEECH_AETENII_PIR_LOAD_COR02_01</Text_ID>
@@ -1104,19 +1104,19 @@
 		<Text_ID> TEXT_SPEECH_THYFERRA_RKT_VICTORY_COR48_05</Text_ID>
 		<Volume_Percent> 80 </Volume_Percent>
 	</SpeechEvent>
-	
+
 	<SpeechEvent Name="THYFERRA_KID_TACTICAL_COR48_06">
 		<Files> UWCOR_TYB4806_ENG.MP3 </Files>
 		<Text_ID> TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_06</Text_ID>
 		<Volume_Percent> 80 </Volume_Percent>
 	</SpeechEvent>
-	
+
 	<SpeechEvent Name="THYFERRA_KID_TACTICAL_COR48_07">
 		<Files> UWCOR_UNG4807_ENG.MP3 </Files>
 		<Text_ID> TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_07</Text_ID>
 		<Volume_Percent> 80 </Volume_Percent>
 	</SpeechEvent>
-	
+
 	<SpeechEvent Name="THYFERRA_KID_TACTICAL_COR48_08">
 		<Files> UWCOR_TYB4808_ENG.MP3 </Files>
 		<Text_ID> TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_08</Text_ID>
@@ -1820,25 +1820,25 @@
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_TUTORIAL_92 </Text_ID>
 	 	  <Volume_Percent> 80 </Volume_Percent>
 	 </SpeechEvent>
-	 
+
 	 <SpeechEvent Name="UNDERWORLD_TUTORIAL_93">
 	 	  <Files> UTUT_NAR0093_ENG.MP3 </Files>
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_TUTORIAL_93 </Text_ID>
 	 	  <Volume_Percent> 80 </Volume_Percent>
 	 </SpeechEvent>
-	 
+
 	 <SpeechEvent Name="UNDERWORLD_TUTORIAL_94">
 	 	  <Files> UTUT_TYB0094_ENG.MP3 </Files>
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_TUTORIAL_94 </Text_ID>
 	 	  <Volume_Percent> 80 </Volume_Percent>
 	 </SpeechEvent>
-	 
+
 	 <SpeechEvent Name="UNDERWORLD_TUTORIAL_95">
 	 	  <Files> UTUT_URA0095_ENG.MP3 </Files>
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_TUTORIAL_95 </Text_ID>
 	 	  <Volume_Percent> 80 </Volume_Percent>
 	 </SpeechEvent>
-	 
+
 	 <SpeechEvent Name="UNDERWORLD_TUTORIAL_96">
 	 	  <Files> UTUT_URA0096_ENG.MP3 </Files>
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_TUTORIAL_96 </Text_ID>
@@ -1856,31 +1856,31 @@
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_TUTORIAL_98 </Text_ID>
 	 	  <Volume_Percent> 80 </Volume_Percent>
 	 </SpeechEvent>
-	 
+
 	 <SpeechEvent Name="UNDERWORLD_TUTORIAL_99">
 	 	  <Files> UTUT_NAR0099_ENG.MP3 </Files>
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_TUTORIAL_99 </Text_ID>
 	 	  <Volume_Percent> 80 </Volume_Percent>
 	 </SpeechEvent>
-	 
+
 	 <SpeechEvent Name="UNDERWORLD_TUTORIAL_100">
 	 	  <Files> UTUT_NAR0100_ENG.MP3 </Files>
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_TUTORIAL_100 </Text_ID>
 	 	  <Volume_Percent> 80 </Volume_Percent>
 	 </SpeechEvent>
-	 
+
 	 <SpeechEvent Name="UNDERWORLD_TUTORIAL_101">
 	 	  <Files> UTUT_NAR0101_ENG.MP3 </Files>
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_TUTORIAL_101 </Text_ID>
 	 	  <Volume_Percent> 80 </Volume_Percent>
 	 </SpeechEvent>
-	 
+
 	 <SpeechEvent Name="UNDERWORLD_TUTORIAL_102">
 	 	  <Files> UTUT_NAR0102_ENG.MP3 </Files>
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_TUTORIAL_102 </Text_ID>
 	 	  <Volume_Percent> 80 </Volume_Percent>
 	 </SpeechEvent>
-	 
+
 	 <SpeechEvent Name="UNDERWORLD_TUTORIAL_103">
 	 	  <Files> UTUT_NAR0103_ENG.MP3 </Files>
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_TUTORIAL_103 </Text_ID>
@@ -2031,25 +2031,25 @@
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_15 </Text_ID>
 	 	  <Volume_Percent> 80 </Volume_Percent>
 	 </SpeechEvent>
-	 
+
 	 <SpeechEvent Name="UNDERWORLD_PROLOGUE_FELUCIA_16">
 	 	  <Files> UTUT_NAR0216_ENG.MP3 </Files>
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_16 </Text_ID>
 	 	  <Volume_Percent> 80 </Volume_Percent>
 	 </SpeechEvent>
-	 
+
 	 <SpeechEvent Name="UNDERWORLD_PROLOGUE_FELUCIA_17">
 	 	  <Files> UTUT_NAR0217_ENG.MP3 </Files>
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_17 </Text_ID>
 	 	  <Volume_Percent> 80 </Volume_Percent>
 	 </SpeechEvent>
-	 
+
 	 <SpeechEvent Name="UNDERWORLD_PROLOGUE_FELUCIA_18">
 	 	  <Files> UTUT_URA0218_ENG.MP3 </Files>
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_18 </Text_ID>
 	 	  <Volume_Percent> 80 </Volume_Percent>
 	 </SpeechEvent>
-	 
+
 	 <SpeechEvent Name="UNDERWORLD_PROLOGUE_FELUCIA_19">
 	 	  <Files> UTUT_TYB0219_ENG.MP3 </Files>
 	 	  <Text_ID> TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_19 </Text_ID>
@@ -4584,7 +4584,7 @@
 		 <Files> UWG02_TYB0210_ENG.MP3 </Files>
 		 <Text_ID> TEXT_SPEECH_UW_ACT01_G02_10 </Text_ID>
 		 <Volume_Percent> 80 </Volume_Percent>
-	 </SpeechEvent>   
+	 </SpeechEvent>
 
 	 <SpeechEvent Name="UW_ACT01_G02_14">
 		 <Files> UWG02_TYB0214_ENG.MP3 </Files>
@@ -4987,7 +4987,7 @@
 				  <Files> UWG09_CHM0103_ENG.MP3 </Files>
 				  <Text_ID> TEXT_SPEECH_UW_ACT02_G09_03 </Text_ID>
 				  <Volume_Percent> 80 </Volume_Percent>
-			  </SpeechEvent>   
+			  </SpeechEvent>
 
 			  <SpeechEvent Name="UW_ACT02_G09_04">
 				  <Files> UWG09_TYB0104_ENG.MP3 </Files>
@@ -5910,7 +5910,7 @@
 
 
 
-  
+
 
 
 
@@ -6225,7 +6225,7 @@
 
 
 
-<!-- Start FOCUS TEST lines 
+<!-- Start FOCUS TEST lines
 
 	<SpeechEvent Name="CAMPAIGN_SINGLE_FOCUS_INTRO_U">
 		<Files> UFCS_TYB0100_ENG.MP3 </Files>
@@ -14469,4 +14469,3 @@
 
 
 </SpeechEvents>
-
