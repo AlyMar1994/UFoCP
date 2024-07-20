@@ -596,8 +596,12 @@
 													<!-- -->
 													<!-- Conditionals: 	 		(A) Present, 			  	(B) Present, 		(C) Not Present		-->
 		<!-- A and B present and C not present -->
-		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  Death_Star,			None, 				None,			 	GUS_INTRO_SPACE_DEFEND_U_05 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  <!-- Death Star present, Luke not present -->
-		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  Death_Star_II,			None, 				None,			 	GUS_INTRO_SPACE_DEFEND_U_05 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  <!-- Death Star present, Luke not present -->
+		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_And>  Death_Star,			IG-2000, 				None,			 	GUS_INTRO_SPACE_DEFEND_U_06 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  <!-- Death Star present, IG-88 present -->
+		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_And>  Death_Star_II,			IG-2000, 				None,			 	GUS_INTRO_SPACE_DEFEND_U_06 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  <!-- Death Star present, IG-88 present -->
+
+		<!-- A or B present and C not present -->
+		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  Death_Star,			None, 				IG-2000,			 	GUS_INTRO_SPACE_DEFEND_U_05 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  <!-- Death Star present, IG-88 not present -->
+		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  Death_Star_II,			None, 				IG-2000,			 	GUS_INTRO_SPACE_DEFEND_U_05 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  <!-- Death Star present, IG-88 not present -->
 
 		<!-- A or B present and C not present -->
 		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> 	Tyber_Zann,			None, 				None, 				GUS_INTRO_SPACE_DEFEND_U_04 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  <!-- Just Tyber Zann present -->
