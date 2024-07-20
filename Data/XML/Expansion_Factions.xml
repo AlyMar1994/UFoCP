@@ -583,27 +583,41 @@
 		<SpeechEvent_Tactical_Intro_Land_Defender_Last_Location> GUS_INTRO_LAND_DEFEND_U_05 </SpeechEvent_Tactical_Intro_Land_Defender_Last_Location>
 
 
-		<!--  Note that conditionals will be evaluated in the order below, so order/priority is important!	-->
-		<!--																								-->
-		<!-- Luke object types (4) :		Luke_Skywalker, Luke_Team, Luke_XWing, Red_Squadron				-->
-		<!-- Mon Mothma object types (2):  	Mon_Mothma, Mon_Mothma_Team										-->
-		<!-- Emperor Palpatine types (2):  	Emperor_Palpatine, Emperor_Palpatine_Team						-->
-		<!-- Death Star types (1):			Death_star														-->
-		<!--																								-->
-		<!-- ...Conditional_Or:  A (or) B present and C not present											-->
-		<!-- ...Conditional_And: A (and) B present and C not present										-->
-		<!--																								-->
-		<!-- Conditionals: 	 		(A) Present, 			  	(B) Present, 		(C) Not Present			-->
-		<!-- A and B present and C not present
-		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  Death_Star,			None, 				None,			 	GUS_INTRO_SPACE_DEFEND_U_05 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  Death Star present, Luke not present -->
-		<!-- A or B present and C not present
-		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> 	Tyber_Zann,			None, 				None, 				GUS_INTRO_SPACE_DEFEND_U_04 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  Just Tyber Zann present -->
-		<!-- A or B present and C not present
-		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> 	Emperor_Palpatine,	Mon_Mothma, 		None, 				GUS_INTRO_SPACE_ATTACK_U_05 </SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>  Empoeror Palpatine present or Mon Mothma present -->
-		<!-- A or B present and C not present
-		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> 	Tyber_Zann,			None, 				None, 				GUS_INTRO_SPACE_ATTACK_U_04 </SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>  Just Tyber Zann present -->
-		<!-- A or B present and C not present
-		<SpeechEvent_Tactical_Intro_Land_Defender_Conditional_Or> 	Tyber_Zann,			None, 				None, 				GUS_INTRO_LAND_DEFEND_U_04 </SpeechEvent_Tactical_Intro_Land_Defender_Conditional_Or>  Just Tyber Zann present -->
+													<!-- Note that conditionals will be evaluated in the order below, so order/priority is important -->
+													<!-- -->
+													<!-- Luke object types (7) : 		Luke_Skywalker, Luke_Skywalker_Jedi, Luke_Team, Luke_Skywalker_Jedi_Team, Luke_XWing, Luke_Jedi_XWing, Red_Squadron	-->
+													<!-- Mon Mothma object types (2):  	Mon_Mothma, Mon_Mothma_Team									-->
+													<!-- Emperor Palpatine types (2):  	Emperor_Palpatine, Emperor_Palpatine_Team					-->
+													<!-- Tyber Zann types (3):  		Tyber_Zann, Tyber_Zann_Team, The_Peacebringer				-->
+													<!-- Death Star types (2):  		Death_Star, Death_Star_II									-->
+													<!-- -->
+													<!-- ...Conditional_Or:  A (or) B present and C not present										-->
+													<!-- ...Conditional_And: A (and) B present and C not present									-->
+													<!-- -->
+													<!-- Conditionals: 	 		(A) Present, 			  	(B) Present, 		(C) Not Present		-->
+		<!-- A and B present and C not present -->
+		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  Death_Star,			None, 				None,			 	GUS_INTRO_SPACE_DEFEND_U_05 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  <!-- Death Star present, Luke not present -->
+		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  Death_Star_II,			None, 				None,			 	GUS_INTRO_SPACE_DEFEND_U_05 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  <!-- Death Star present, Luke not present -->
+
+		<!-- A or B present and C not present -->
+		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> 	Tyber_Zann,			None, 				None, 				GUS_INTRO_SPACE_DEFEND_U_04 </SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>  <!-- Just Tyber Zann present -->
+
+		<!-- A or B present and C not present -->
+		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> 	Emperor_Palpatine,	Mon_Mothma, 		None, 				GUS_INTRO_SPACE_ATTACK_U_05 </SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>  <!-- Empoeror Palpatine present or Mon Mothma present -->
+
+		<!-- A and B present and C not present -->
+		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_And> Death_Star,	 				IG-2000, 	None, 				GUS_INTRO_SPACE_ATTACK_U_07 </SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_And> <!-- Death Star present, IG-88 present -->
+		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_And> Death_Star_II,	 				IG-2000, 	None, 				GUS_INTRO_SPACE_ATTACK_U_07 </SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_And> <!-- Death Star present, IG-88 present -->
+
+		<!-- A or B present and C not present -->
+		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> 	Death_Star, 	 			None, 				IG-2000,	GUS_INTRO_SPACE_ATTACK_U_06 </SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> <!-- Death Star present, IG-88 not present -->
+		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> 	Death_Star_II, 	 			None, 				IG-2000,	GUS_INTRO_SPACE_ATTACK_U_06 </SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> <!-- Death Star present, IG-88 not present -->
+
+		<!-- A or B present and C not present -->
+		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> 	Tyber_Zann,			None, 				None, 				GUS_INTRO_SPACE_ATTACK_U_04 </SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>  <!-- Just Tyber Zann present -->
+
+		<!-- A or B present and C not present -->
+		<SpeechEvent_Tactical_Intro_Land_Defender_Conditional_Or> 	Tyber_Zann,			None, 				None, 				GUS_INTRO_LAND_DEFEND_U_04 </SpeechEvent_Tactical_Intro_Land_Defender_Conditional_Or>  <!-- Just Tyber Zann present -->
 		<!-- End Sandbox tactical battle introduction SpeechEvents -->
 
 

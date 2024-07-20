@@ -14299,16 +14299,19 @@
 						</SpeechEvent>
 
 					<SpeechEvent Name="GUS_INTRO_SPACE_DEFEND_U_05">
-						<Files> USBX_GUS0005_ENG.MP3 </Files>
-						<Text_ID> TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_05 </Text_ID>
+						<Files> USBX_GUS0005_ENG.MP3 USBX_GUS0006_ENG.MP3 </Files>
+						<Text_ID> TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_05, TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_06 </Text_ID>
 						<Volume_Percent> 100 </Volume_Percent>
 						</SpeechEvent>
 
-					<SpeechEvent Name="GUS_INTRO_SPACE_DEFEND_U_06">
+					<!-- AM1994: Moving to GUS_INTRO_SPACE_DEFEND_U_05 as there is a similar -->
+					<!-- line, and there is no starfighter superweapon killer for Cons to -->
+					<!-- justify 2 conditionals with this one -->
+					<!-- <SpeechEvent Name="GUS_INTRO_SPACE_DEFEND_U_06">
 						<Files> USBX_GUS0006_ENG.MP3 </Files>
 						<Text_ID> TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_06 </Text_ID>
 						<Volume_Percent> 100 </Volume_Percent>
-						</SpeechEvent>
+						</SpeechEvent> -->
 
 
 
