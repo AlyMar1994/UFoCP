@@ -54,6 +54,7 @@ Ability Fixes:
 • Urai Fen's Cortosis Blades ability didn't have a chance to deflect Darth Vader's lightsaber in FoC land combat. (BUG #30)
 • Cuddles (Silri's rancor) didn't have its eat-infantry ability uncensored in the 2023 patch like normal indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)
 • Hero Clash "Darth Vader vs. Obi-Wan" wouldn't start with Darth Vader's unit in FoC land combat, only his EaW unit. (BUG #26)
+• Tyber Zann was a stealth-capable unit, despite having a devastating capital ship, even when the cloaking technology upgrade wasn't purchased yet.  His stealth ability has been removed for balance concerns, like Aggressor-classes, and is kept during the campaign. (BUG #154)
 
 
 AI Fixes:

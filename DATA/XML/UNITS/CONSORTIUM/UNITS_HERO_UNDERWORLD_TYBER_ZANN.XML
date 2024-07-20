@@ -152,11 +152,11 @@
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
-
+<!--
             <Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
-
+-->
             <Black_Market_Ability Name="Tyber_Zann_Black_Market">
                 <Initially_Enabled>Yes</Initially_Enabled>
                 <Causes_Despawn>Yes</Causes_Despawn>
@@ -193,6 +193,12 @@
 	<HeroUnit Name="Tyber_Zann_Passenger">
 		<Variant_Of_Existing_Type> Tyber_Zann </Variant_Of_Existing_Type>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+
+        <Abilities SubObjectList="Yes">
+            <Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+        </Abilities>
 	</HeroUnit>
 
 	<HeroUnit Name="Tyber_Zann_Prologue">
@@ -222,6 +228,12 @@
             </Unit_Ability>
 
 		</Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+        </Abilities>
 	</HeroUnit>
 
 	<HeroUnit Name="Tyber_Zann_Prologue_Cin">
@@ -389,7 +401,7 @@
 		<Company_Transport_Unit>The_Peacebringer</Company_Transport_Unit>
 		<Company_Units>Tyber_Zann</Company_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		<Is_Stealth_Company>No</Is_Stealth_Company>
 		<Available_In_Skirmish>yes</Available_In_Skirmish>
 		<Can_Be_Only_One>true</Can_Be_Only_One>
 
