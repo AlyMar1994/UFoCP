@@ -46,37 +46,30 @@ Housekeeping:
 • Various texts across EaW and FoC would inconsistently use a special "…" ellipses character, or "..." three periods.  The ellipses character can be harder to read at higher resolutions, and because back-and-forth use of ellipses and periods caused spacing issues, all ellipses have been swapped out for three periods.  As to not conflict with other changes of the same keys, the changes remains unmarked in this file. (The German translation did not suffer this issue.) (BUG #211)
 
 
-Corrections:
 • TEXT_PLANET_CAPITAL_SHIP_PRODUCER: (BUG #145)
 	-- ENG: This planet can produce capital ships (Mon Calamari Cruisers or Imperial Star Destroyers). -> This planet can produce capital ships (Mon Calamari Cruisers, Imperial Star Destroyers, Aggressor-class Destroyers or Keldabe-class Battleships).
 	-- GER: Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer oder imperiale Sternenzerstörer). -> Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer, imperiale Sternenzerstörer, Zerstörer der Aggressor-Klasse oder Kampfschiff der Kedalbe-Klasse).
+• TEXT_HERO_GARM_BEL_IBLIS/TEXT_HERO_GARM_BEL_IBLIS_TEAM: (BUG #184)
+	-- ENG: Garm Bel Iblis -> The Gargantuan - Garm Bel Iblis
+	-- GER: Garm Bel Iblis -> Der Gargantuaner - Garm Bel Iblis
+• TEXT_HERO_GENERAL_VEERS_02: (BUG #48)
+	-- ENG: General Maximilian Veers -> Blizzard 1 - General Maximilian Veers
+	-- GER: General Maximilian Veers -> Schneesturm 1 - General Maximilian Veers
+• TEXT_SPEECH_UNDERWORLD_PIRACY_TUTORIAL_02: (BUG #209)
+	-- ENG: ...This will allow us to intimidate the Mandalorians and offer them Protection from further pirate activities. Our objective will be approaching shortly enroute to the Hutt asteroid base orbiting Mandalore. -> ...This will allow us to intimidate the Mandalorians and offer them "protection" from further pirate activities.  Our objective will be approaching shortly, en route to the Hutt asteroid base orbiting Mandalore.
+	-- GER: N/A
 • TEXT_SPEECH_UW_ACT02_M07_24: (BUG #212)
 	-- ENG: Underworld Soldier: What appears to be Lord Vader's shuttle... -> Zann Consortium Soldier: What appears to be Lord Vader's shuttle...
 	-- GER: Unterwelt-Soldat: Ein Schiff, anscheinend Lord Vaders Fähre... -> Soldat des Zann-Konsortiums: Ein Schiff, anscheinend Lord Vaders Fähre...
 • TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS: (BUG #142)
 	-- ENG: This ship can only be built on Kuat, Sullust, Fondor, Hypori or Mon Calamari. -> This ship can only be built on Fondor, Hypori, Kuat, Mandalore, Mon Calamari or Sullust.
 	-- GER: Dieses Schiff kann nur auf Kuat, Sullust, Fondor, Hypori oder Mon Calamari gebaut werden. -> Dieses Schiff kann nur auf Fondor, Hypori, Kuat, Mandalore, Mon Calamari oder Sullust gebaut werden.
-• TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2: (BUG #75)
-	-- ENG: Increases the damage done by the MZ-8 Pulse Tank by 50%. -> Increases the damage done by the MZ-8 Pulse Tank and Canderous Assault Tank by 50%.
-	-- GER: Erhöht den vom Impulsgeschützpanzer MZ-8 angerichteten Schaden um 50 %. -> Erhöht den vom Impulsgeschützpanzer MZ-8 und der Sturmpanzer Canderous angerichteten Schaden um 50 %.
-
-
-Inconsistency Fixes:
-• TEXT_HERO_GARM_BEL_IBLIS/TEXT_HERO_GARM_BEL_IBLIS_TEAM: (BUG #184)
-	-- ENG: Garm Bel Iblis -> The Gargantuan - Garm Bel Iblis
-	-- GER: Garm Bel Iblis -> Die Gargantuan - Garm Bel Iblis
-• TEXT_HERO_GENERAL_VEERS_02: (BUG #48)
-	-- ENG: General Maximilian Veers -> Blizzard 1 - General Maximilian Veers
-	-- GER: General Maximilian Veers -> Schneesturm 1 - General Maximilian Veers
-
-
-Typo Fixes:
-• TEXT_SPEECH_UNDERWORLD_PIRACY_TUTORIAL_02: (BUG #209)
-	-- ENG: This will allow us to intimidate the Mandalorians and offer them Protection from further pirate activities. Our objective will be approaching shortly enroute to the Hutt asteroid base orbiting Mandalore. -> This will allow us to intimidate the Mandalorians and offer them "protection" from further pirate activities.  Our objective will be approaching shortly, en route to the Hutt asteroid base orbiting Mandalore.
-	-- GER: N/A
 • TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2: (BUG #76)
 	-- ENG: ...armor deflects 25% of incoming laser fire. -> ...armor deflects 30% of incoming laser fire.
 	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. -> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
 • TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3: (BUG #76)
 	-- ENG: ...armor deflects 25% of incoming laser fire. -> ... armor deflects 30% of incoming laser fire.
 	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. -> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
+• TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2: (BUG #75)
+	-- ENG: Increases the damage done by the MZ-8 Pulse Tank by 50%. -> Increases the damage done by the MZ-8 Pulse Tank and Canderous Assault Tank by 50%.
+	-- GER: Erhöht den vom Impulsgeschützpanzer MZ-8 angerichteten Schaden um 50 %. -> Erhöht den vom Impulsgeschützpanzer MZ-8 und der Sturmpanzer Canderous angerichteten Schaden um 50 %.
