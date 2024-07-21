@@ -41,6 +41,10 @@ https://github.com/AlyMar1994/UFoCP/issues/
 v2.0.0.#### (##-##-2024) [FoC v1.121.]
 ============================================
 
+Housekeeping:
+• Various dialogue text during the prologue and campaign would not be double-spaced, despite the vast majority of dialogue and whatnot being double-spaced in EaW and partially done in FoC.  As to not conflict with other changes of the same keys, double-spacing has been rectified on all dialogue strings and remains unmarked in this file.
+
+
 Corrections:
 • TEXT_PLANET_CAPITAL_SHIP_PRODUCER: (BUG #145)
 	-- ENG: This planet can produce capital ships (Mon Calamari Cruisers or Imperial Star Destroyers). -> This planet can produce capital ships (Mon Calamari Cruisers, Imperial Star Destroyers, Aggressor-class Destroyers or Keldabe-class Battleships).
