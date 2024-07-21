@@ -1093,14 +1093,14 @@ TEXT_DEMO_CAMPAIGN_OBJECTIVE_00,[TBL]
 TEXT_DEMO_CAMPAIGN_OBJECTIVE_01,[TBL]
 TEXT_DEMO_CAMPAIGN_STORY,[TBL]
 TEXT_DEMO_CAMPAIGN_TITLE,[TBL]
-TEXT_DEMO_HOLOCRON_CHAPTER_00,AUFTRAG: Zieht den Verderber auf die Position 'Korruption verbreiten' auf Mandalore und wählt 'Piraterie'.
-TEXT_DEMO_HOLOCRON_CHAPTER_01,AUFTRAG: Zieht den Verderber auf die Position 'Korruption verbreiten' auf Nal Hutta und wählt 'Schwarzmarkt'.
+TEXT_DEMO_HOLOCRON_CHAPTER_00,Auftrag: Zieht den Verderber auf die Position 'Korruption verbreiten' auf Mandalore und wählt 'Piraterie'.
+TEXT_DEMO_HOLOCRON_CHAPTER_01,Auftrag: Zieht den Verderber auf die Position 'Korruption verbreiten' auf Nal Hutta und wählt 'Schwarzmarkt'.
 TEXT_DEMO_HOLOCRON_CHAPTER_01_TITLE,Schwarzmarkt auf Nal Hutta
-TEXT_DEMO_HOLOCRON_CHAPTER_02,AUFTRAG: Zieht Urai Fen auf die Position 'Kaufen' auf Nal Hutta und wählt die 'Disruptortechnologie'.
+TEXT_DEMO_HOLOCRON_CHAPTER_02,Auftrag: Zieht Urai Fen auf die Position 'Kaufen' auf Nal Hutta und wählt die 'Disruptortechnologie'.
 TEXT_DEMO_HOLOCRON_CHAPTER_02_TITLE,Disruptortechnologie erwerben
-TEXT_DEMO_HOLOCRON_CHAPTER_03,AUFTRAG: Zieht alle Truppen des Zann-Konsortiums zusammen und verlegt sie nach Felucia.
+TEXT_DEMO_HOLOCRON_CHAPTER_03,Auftrag: Zieht alle Truppen des Zann-Konsortiums zusammen und verlegt sie nach Felucia.
 TEXT_DEMO_HOLOCRON_CHAPTER_03_TITLE,Alle Streitkräfte nach Felucia
-TEXT_DEMO_HOLOCRON_CHAPTER_04,AUFTRAG: Erobert Kamino und etabliert dort einen geheimen Stützpunkt des Konsortiums.
+TEXT_DEMO_HOLOCRON_CHAPTER_04,Auftrag: Erobert Kamino und etabliert dort einen geheimen Stützpunkt des Konsortiums.
 TEXT_DEMO_HOLOCRON_CHAPTER_04_TITLE,Versteck auf Kamino
 TEXT_DESTROYABLE_ASTEROID,Asteroid
 TEXT_DESTROYER_DROID_COMPANY,Zerstörerdroiden
@@ -16512,7 +16512,7 @@ TEXT_SPEECH_UW_ACT01_M04_58,Tyber Zann: Was kurz gesagt heißt, man sollte sich 
 TEXT_SPEECH_UW_ACT01_M04_59,Urai Fen: Genau. Dieses Modell verfügt außerdem über Ionenblaster und kann damit auch abgeschirmten Einheiten Schaden zufügen.
 TEXT_SPEECH_UW_ACT01_M04_60,Tyber Zann: Diese Vielseitigkeit könnte sich als nützlich erweisen. Sind wir bald an den Kontrollen?
 TEXT_SPEECH_UW_ACT01_M04_61,Urai Fen: Wir sollten dicht dran sein.
-TEXT_SPEECH_UW_ACT01_M04_62,TIPP: Die Preise auf dem Schwarzmarkt haben sich geändert. Besucht Welten des Imperiums und der Rebellen, um nachzuschauen, was im Angebot ist.
+TEXT_SPEECH_UW_ACT01_M04_62,Tipp: Die Preise auf dem Schwarzmarkt haben sich geändert. Besucht Welten des Imperiums und der Rebellen, um nachzuschauen, was im Angebot ist.
 TEXT_SPEECH_UW_ACT01_M04_63,Tyber Zann: Wenn ich dieses Geplänkel mit Jabba beende, kann ich mich auf größere Fischzüge konzentrieren. Unser Einfluss wächst, Urai. Mein Sieg über Jabba ermöglicht es mir, meinen wahren Feind anzugreifen, das Imperium.
 TEXT_SPEECH_UW_ACT01_M04_64,Urai Fen: Was ist mit den Rebellen? Ihre Macht wächst. Sie könnten nützliche Verbündete abgeben.
 TEXT_SPEECH_UW_ACT01_M04_65,Tyber Zann: Was habe ich denn mit deren Zielen zu schaffen? Die haben nichts für mich getan. Ich werde beide Seiten gegeneinander ausspielen. Niemand tut uns irgendwelche Gefallen, also brauchen wir auch keine zu erwidern.
@@ -16897,7 +16897,7 @@ TEXT_STORY_AETENII_PIR_OBJECTIVE_01a,Zerstört vier weitere Stygium-Kristallkaps
 TEXT_STORY_AETENII_PIR_OBJECTIVE_01b,Zerstört drei weitere Stygium-Kristallkapseln.
 TEXT_STORY_AETENII_PIR_OBJECTIVE_01c,Zerstört zwei weitere Stygium-Kristallkapseln.
 TEXT_STORY_AETENII_PIR_OBJECTIVE_01d,Zerstört die letzte Stygium-Kristallkapsel.
-TEXT_STORY_AETENII_PIR_OBJECTIVE_NOTICE,HINWEIS: Stygium-Kristallkapsel zerstört.
+TEXT_STORY_AETENII_PIR_OBJECTIVE_NOTICE,Hinweis: Stygium-Kristallkapsel zerstört.
 TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01,Sammelt zehn Shaak-Köpfe.
 TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01a,Sammelt noch neun Shaak-Köpfe.
 TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01b,Sammelt noch acht Shaak-Köpfe.
@@ -17410,23 +17410,23 @@ TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_02,Befreit das Tobender-Fluss-Gefängnis
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_03,Befreit das Nebelfälle-Gefängnis.
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_04,Zerstört das Quartier des Gouverneurs.
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_05,Führt die Schwestern der Nacht zu den Rancors, damit sie aufsitzen können.
-TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_06,HINWEIS: Generator des Nebelfälle-Gefängnisses zerstört, Abwehrtürme außer Funktion.
-TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_07,HINWEIS: Generator des Gouverneurquartiers zerstört, Abwehrtürme außer Funktion.
+TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_06,Hinweis: Generator des Nebelfälle-Gefängnisses zerstört, Abwehrtürme außer Funktion.
+TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_07,Hinweis: Generator des Gouverneurquartiers zerstört, Abwehrtürme außer Funktion.
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_08,Zerstört die drei imperialen Uplinkstationen.
-TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_09,HINWEIS: Mine zerstört. +5000 Credits.
-TEXT_STORY_UW_ACT02_M06_44,HINWEIS: Tyber Zann wurde getötet.
-TEXT_STORY_UW_ACT02_M06_45,HINWEIS: Urai Fen wurde getötet.
-TEXT_STORY_UW_ACT02_M06_46,HINWEIS: Silri wurde getötet.
+TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_09,Hinweis: Mine zerstört. +5000 Credits.
+TEXT_STORY_UW_ACT02_M06_44,Hinweis: Tyber Zann wurde getötet.
+TEXT_STORY_UW_ACT02_M06_45,Hinweis: Urai Fen wurde getötet.
+TEXT_STORY_UW_ACT02_M06_46,Hinweis: Silri wurde getötet.
 TEXT_STORY_UW_ACT02_M06_47,Tyber Zann und Urai Fen müssen überleben.
-TEXT_STORY_UW_ACT02_M06_48,TIPP: Verwendet Tybers und Urais persönliche Tarnfelder, um Euch an dem Rancor vorbeizuschleichen.
+TEXT_STORY_UW_ACT02_M06_48,Tipp: Verwendet Tybers und Urais persönliche Tarnfelder, um Euch an dem Rancor vorbeizuschleichen.
 TEXT_STORY_UW_ACT02_M06_49,Zerstört den Generator des Singender-Berg-Gefängnisses.
-TEXT_STORY_UW_ACT02_M06_50,HINWEIS: Generator des Singender-Berg-Gefängnisses zerstört, Abwehrtürme außer Funktion.
-TEXT_STORY_UW_ACT02_M06_51,TIPP: Schwestern der Nacht können auf Rancors reiten. Führt die Schwestern der Nacht zu den Rancors, damit sie aufsitzen können.
-TEXT_STORY_UW_ACT02_M06_52,HINWEIS: Generator des Tobender-Fluss-Gefängnisses zerstört, Abwehrtürme außer Funktion.
+TEXT_STORY_UW_ACT02_M06_50,Hinweis: Generator des Singender-Berg-Gefängnisses zerstört, Abwehrtürme außer Funktion.
+TEXT_STORY_UW_ACT02_M06_51,Tipp: Schwestern der Nacht können auf Rancors reiten. Führt die Schwestern der Nacht zu den Rancors, damit sie aufsitzen können.
+TEXT_STORY_UW_ACT02_M06_52,Hinweis: Generator des Tobender-Fluss-Gefängnisses zerstört, Abwehrtürme außer Funktion.
 TEXT_STORY_UW_ACT02_M06_53,Tyber Zann, Urai Fen und Silri müssen überleben.
-TEXT_STORY_UW_ACT02_M06_54,HINWEIS: Der imperiale Gouverneur hat Verstärkungen angefordert. Zerstört die drei imperialen Uplinkstationen, um weitere Landungen zu verhindern.
-TEXT_STORY_UW_ACT02_M06_55,HINWEIS: Uplinkstation zerstört.
-TEXT_STORY_UW_ACT02_M06_56,TIPP: Die Wachtürme erkennen getarnte Einheiten.
+TEXT_STORY_UW_ACT02_M06_54,Hinweis: Der imperiale Gouverneur hat Verstärkungen angefordert. Zerstört die drei imperialen Uplinkstationen, um weitere Landungen zu verhindern.
+TEXT_STORY_UW_ACT02_M06_55,Hinweis: Uplinkstation zerstört.
+TEXT_STORY_UW_ACT02_M06_56,Tipp: Die Wachtürme erkennen getarnte Einheiten.
 TEXT_STRUCTURE_ABANDONED_UPLINK_STATION,Verlassene imperiale Sendeanlage
 TEXT_STRUCTURE_BOTHAN_HOUSE,Bothaner-Behausung
 TEXT_STRUCTURE_CIVILIAN_ARCTIC,Wohnhaus für kaltes Klima
@@ -18436,7 +18436,7 @@ TEXT_TUTORIAL_CHAP_05_04,Auftrag: Zieht Eure Flotte nach Alderaan.
 TEXT_TUTORIAL_CHAP_07_00,Tutorial 7: Story-Missionen
 TEXT_TUTORIAL_CHAP_07_01,Eine Beispiel-Story-Mission
 TEXT_TUTORIAL_CHAP_07_02,Dies ist ein Beispiel für eine Story-Mission. Normalerweise würde dieser Text Euch von einem der Helden vorgelesen werden (etwa von General Dodonna), und Ihr würdet Hintergrundinformationen über die Aufgabe erhalten, die Ihr erledigen müsst. Um diesen Einsatz hier zu schaffen, braucht Ihr nur zu tun, was in der Auftragszeile unten steht.
-TEXT_TUTORIAL_CHAP_07_03,AUFTRAG: Zieht eine Eurer Flotten nach Alderaan.
+TEXT_TUTORIAL_CHAP_07_03,Auftrag: Zieht eine Eurer Flotten nach Alderaan.
 TEXT_TUTORIAL_CHAP_07_04,Herzlichen Glückwunsch, Ihr habt die Story-Mission abgeschlossen! Normalerweise würde Euch der Held jetzt erzählen, was Ihr erreicht habt, und Euch entweder einen neuen Auftrag überreichen oder eine Belohnung.
 TEXT_TUTORIAL_CHAP_07_05,Belohnung: 50.000 Credits und ein neues Schiff!
 TEXT_TUTORIAL_CHAP_07_06,Auftrag: Beendet die Story-Mission, um weiterzumachen
@@ -18957,58 +18957,58 @@ TEXT_UPNP_FRAMEWORK_ENABLED,UPnP-Framework:
 TEXT_US,USA
 TEXT_USE_DEFAULT_PORT,Standardport benutzen
 TEXT_USE_WINDOWS_FIREWALL,Windows-Firewall umgehen
-TEXT_UW_ACT01_G01_05,AUFTRAG: Bildet einen Verderber aus.
-TEXT_UW_ACT01_G01_08,AUFTRAG: Bewegt Eure neue Verderber-Einheit nach Honoghr und zieht sie in die Position 'KORRUPTION VERBREITEN'.
+TEXT_UW_ACT01_G01_05,Auftrag: Bildet einen Verderber aus.
+TEXT_UW_ACT01_G01_08,Auftrag: Bewegt Eure neue Verderber-Einheit nach Honoghr und zieht sie in die Position 'KORRUPTION VERBREITEN'.
 TEXT_UW_ACT01_G01_10,Das Zann-Konsortium hat viele Vorteile durch die Korruption. Die Übernahme von Welten ist nur nötig, um etwas herzustellen; zum Creditsverdienen reicht die Korruption eines Planeten aus.
 TEXT_UW_ACT01_G01_11,Auf der galaktischen Ebene erzeugt die Korruption einen ständigen Finanzstrom von jedem korrupten Planeten. Zusätzlich legt sie eine künstliche Handelsroute zwischen allen korrupten Planeten an und ermöglicht es den Flotten des Zann-Konsortiums, mit Hilfe von Bestechung kampflos über gegnerische Welten hinwegzufliegen. Die Korruption dient außerdem noch begrenzt als eine Art Spionagenetzwerk. Ihr könnt also einige Details über gegnerische Welten erhalten und darüber, was sich darauf befindet. Durch Korruption erhöhen sich die Produktionszeiten des Imperiums und die Produktionskosten der Allianz.
 TEXT_UW_ACT01_G01_12,Im taktischen Gefecht schreibt die Korruption dem Zann-Konsortium ein Kopfgeld in bar für jede im Kampf zerstörte Einheit der Rebellen oder des Imperiums gut.
 TEXT_UW_ACT01_G01_13,Aber auch Eure Feinde ziehen Nutzen aus Eurer Korruption: Schmuggler verschwinden auf korrupten Welten nicht einfach mit der Zeit; Kopfgeldjäger bekommen einen Nachlass für ihre Beseitigung von Helden, und die Einheiten aus Cantinas und Huttenpalästen kosten weniger. Außerdem könnt Ihr keine Einheiten auf Welten produzieren, die Ihr nicht wirklich kontrolliert. Und eine Welt zu kontrollieren bringt wiederum weniger Credits ein, als wenn Ihr sie nur korrumpiert.
 TEXT_UW_ACT01_G01_14,Manche gegnerische Helden können verhindern, dass sich die Korruption auf einer Welt festsetzt, und manche können sie sogar beseitigen, wenn man ihnen genug Zeit lässt.
 TEXT_UW_ACT01_G01_15,Honoghr steht jetzt unter dem korrumpierenden Einfluss von Tyber Zann. Bitte beachtet, dass Ihr nun mehr Informationen über den Planeten sehen könnt und dass sich Euer Tageseinkommen erhöht hat. Korrumpiert andere Welten, um noch mehr Profit zu machen. Aber Vorsicht: Beide gegnerischen Seiten können Eure Korruption sehen.
-TEXT_UW_ACT01_G01_22,AUFTRAG: Setzt einen Verderber ein, um die organisierte Kriminalität auf Shola zu etablieren.
-TEXT_UW_ACT01_G01_23,TIPP: Klickt auf den Holocron-Button, um weitere Informationen über Euren derzeitigen Auftrag zu erhalten.
+TEXT_UW_ACT01_G01_22,Auftrag: Setzt einen Verderber ein, um die organisierte Kriminalität auf Shola zu etablieren.
+TEXT_UW_ACT01_G01_23,Tipp: Klickt auf den Holocron-Button, um weitere Informationen über Euren derzeitigen Auftrag zu erhalten.
 TEXT_UW_ACT01_G01_26,Tutorial: Planet korrumpieren I
 TEXT_UW_ACT01_G01_27,Tutorial: Planet korrumpieren II
-TEXT_UW_ACT01_G01_29,AUFTRAG: Wählt eine EINSCHÜCHTERUNGS-Mission aus dem Korruptionsmenü.
-TEXT_UW_ACT01_G01_30,AUFTRAG: Korrumpiert Mandalore mit Hilfe der PIRATERIE.
+TEXT_UW_ACT01_G01_29,Auftrag: Wählt eine EINSCHÜCHTERUNGS-Mission aus dem Korruptionsmenü.
+TEXT_UW_ACT01_G01_30,Auftrag: Korrumpiert Mandalore mit Hilfe der Piraterie.
 TEXT_UW_ACT01_G01_31,Verderber benötigt
 TEXT_UW_ACT01_G01_32,Einsatz des Verderbers
 TEXT_UW_ACT01_G01_33,Zweiter Einsatz des Verderbers
 TEXT_UW_ACT01_G01_34,Piraterie auf Mandalore
-TEXT_UW_ACT01_G02_11,AUFTRAG: Bringt Urai Fen nach Shola. Übernehmt die Kontrolle über den Planeten und eignet Euch das Sith-Artefakt an.
+TEXT_UW_ACT01_G02_11,Auftrag: Bringt Urai Fen nach Shola. Übernehmt die Kontrolle über den Planeten und eignet Euch das Sith-Artefakt an.
 TEXT_UW_ACT01_G02_12,Gegenschlag auf Jabba
 TEXT_UW_ACT01_G02_13,Jabba dachte, er könne sich all meine Welten einverleiben und die Kontrolle über das Konsortium übernehmen. Shola war eines meiner Lagerhäuser für Schmuggelgut, und Jabba hatte nichts Eiligeres zu tun, als alles zu stehlen, was ich dort aufbewahrt habe. Leider hat Urai damals Shola auch als Versteck für das Sith-Artefakt ausgesucht, das ich gestohlen hatte. Wir müssen also schnellstens dorthin, es zurückholen und Jabbas Truppen vernichten, bevor sie es finden können.
-TEXT_UW_ACT01_G03_08,AUFTRAG: Bringt Tyber Zann mit einer Flotte nach Yavin 4.
-TEXT_UW_ACT01_G03_09,TIPP: Denkt daran, dass Ihr Planeten korrumpieren und bestechen könnt, damit sie Euch ohne Schlacht passieren lassen.
-TEXT_UW_ACT01_G05_01,AUFTRAG: Setzt einen Verderber ein, um auf Kuat einen Schwarzmarkt einzurichten.
-TEXT_UW_ACT01_G05_02,AUFTRAG: Zieht Tyber Zann auf die KAUFEN-Position auf Kuat.
-TEXT_UW_ACT01_G05_04,AUFTRAG: Kauft Disruptortechnologie.
-TEXT_UW_ACT01_G05_05,TIPP: Sobald er zum Schwarzmarkt geht, wird Euer Held eine Zeitlang aus dem Spiel genommen. Wie lange genau, das hängt vom Helden selbst ab.
+TEXT_UW_ACT01_G03_08,Auftrag: Bringt Tyber Zann mit einer Flotte nach Yavin 4.
+TEXT_UW_ACT01_G03_09,Tipp: Denkt daran, dass Ihr Planeten korrumpieren und bestechen könnt, damit sie Euch ohne Schlacht passieren lassen.
+TEXT_UW_ACT01_G05_01,Auftrag: Setzt einen Verderber ein, um auf Kuat einen Schwarzmarkt einzurichten.
+TEXT_UW_ACT01_G05_02,Auftrag: Zieht Tyber Zann auf die Kaufen-Position auf Kuat.
+TEXT_UW_ACT01_G05_04,Auftrag: Kauft Disruptortechnologie.
+TEXT_UW_ACT01_G05_05,Tipp: Sobald er zum Schwarzmarkt geht, wird Euer Held eine Zeitlang aus dem Spiel genommen. Wie lange genau, das hängt vom Helden selbst ab.
 TEXT_UW_ACT01_G05_06,Das Zann-Konsortium verbessert seine Technologien anders als die übrigen Seiten. All seine Einheiten sind prinzipiell gleich von Anfang an verfügbar, doch die Sonderfähigkeiten muss es auf dem Schwarzmarkt kaufen. So werden seine Einheiten mit der Zeit immer stärker.
 TEXT_UW_ACT01_G05_07,Um auf den Schwarzmarkt zu kommen, müsst Ihr erst die Korruption in dem betreffenden System verbreiten. Danach könnt Ihr Tyber Zann oder Urai Fen sowie einige andere Helden auf die Schwarzmarkt-Position ziehen.
 TEXT_UW_ACT01_G05_08,Die einzelnen Helden haben unterschiedliche Auswirkungen auf den Schwarzmarkt. Tyber Zann senkt die benötigte Tech-Stufe der Technologien um eine Stufe, Urai Fen bekommt die Technologien schneller. Natürlich haben diese Fähigkeiten erhebliche Auswirkungen auf den Preis, den Ihr zu zahlen habt.
 TEXT_UW_ACT01_G05_09,Tyber Zann hat sich auf den Schwarzmarkt begeben. Da Kuat zum Imperium gehört, seht Ihr nur dessen Technologien im Angebot. Auf Planeten der Rebellen findet Ihr dann andere Technologien. Einige der Sachen sind recht billig, andere extrem teuer. Jeder Technologie ist eine gegnerische Tech-Stufe zugeordnet - das Zann-Konsortium hat keine eigene Tech-Stufe. Daher muss das Zann-Konsortium seine Ausbreitung gegen seinen Bedarf an neuer Technologie abwägen. Sobald das Imperium einen technologischen Fortschritt macht, sinken die Preise für die Technologie der neuen Stufe drastisch.
-TEXT_UW_ACT01_G05_10,TIPP: Ihr könnt mit dem Mauszeiger über jeden Tech-Fortschritt fahren, um zu sehen, was er Euch bringt und welche Einheiten des Zann-Konsortiums davon betroffen wären.
+TEXT_UW_ACT01_G05_10,Tipp: Ihr könnt mit dem Mauszeiger über jeden Tech-Fortschritt fahren, um zu sehen, was er Euch bringt und welche Einheiten des Zann-Konsortiums davon betroffen wären.
 TEXT_UW_ACT01_G05_15,Die Einrichtung des Schwarzmarkts
 TEXT_UW_ACT01_G05_16,Tybers Erkundung
-TEXT_UW_ACT01_G06_08,AUFTRAG: Stellt Bodentruppen mit Urai Fen zusammen und bringt sie nach Saleucami. Setzt Urai Fen auf Saleucami ein, um den Einsatz zu beginnen.
+TEXT_UW_ACT01_G06_08,Auftrag: Stellt Bodentruppen mit Urai Fen zusammen und bringt sie nach Saleucami. Setzt Urai Fen auf Saleucami ein, um den Einsatz zu beginnen.
 TEXT_UW_ACT01_G06_09,Unterbrochene Kommunikation
 TEXT_UW_ACT01_G06_10,Jabba the Hutt hat einen Weg gefunden, sich in Tybers Kommunikationssystem einzuklinken. Zum Glück haben Tybers Techniker das Signal zu einer Komm-Station auf Saleucami zurückverfolgen können. Jabba muss eine Lektion bekommen. Ich werde mit meinem Angriffsteam einen Brückenkopf errichten, dann können unsere Bodentruppen landen und ihm Saleucami wegschnappen.
-TEXT_UW_ACT01_G06_11,AUFTRAG: Baut einen Verderber und zieht ihn auf die SABOTAGE-Position auf Saleucami.
-TEXT_UW_ACT01_G06_12,AUFTRAG: Vernichtet den Schildgenerator auf Saleucami.
-TEXT_UW_ACT01_G06_13,AUFTRAG: Um Sabotage durchzuführen, müsst Ihr den Planeten erst korrumpieren. Also korrumpiert Saleucami, wie immer es Euch gefällt.
+TEXT_UW_ACT01_G06_11,Auftrag: Baut einen Verderber und zieht ihn auf die Sabotage-Position auf Saleucami.
+TEXT_UW_ACT01_G06_12,Auftrag: Vernichtet den Schildgenerator auf Saleucami.
+TEXT_UW_ACT01_G06_13,Auftrag: Um Sabotage durchzuführen, müsst Ihr den Planeten erst korrumpieren. Also korrumpiert Saleucami, wie immer es Euch gefällt.
 TEXT_UW_ACT01_G06_16,Korruption auf Saleucami
 TEXT_UW_ACT01_G06_17,Sabotage auf Saleucami
-TEXT_UW_ACT01_G07_08,AUFTRAG: Stellt Bodentruppen mit Tyber Zann zusammen und bringt Tyber nach Hypori.
+TEXT_UW_ACT01_G07_08,Auftrag: Stellt Bodentruppen mit Tyber Zann zusammen und bringt Tyber nach Hypori.
 TEXT_UW_ACT01_M01_GOAL_01,Tyber Zann muss überleben.
 TEXT_UW_ACT01_M01_GOAL_02,Bringt Tyber Zann zum Rasenden Falken.
 TEXT_UW_ACT01_M01_GOAL_03,Urai Fen muss überleben.
 TEXT_UW_ACT01_M01_GOAL_04,Beseitigt die Dunklen Truppen, die den Ausgang bewachen.
-TEXT_UW_ACT01_M01_HINT_01,TIPP: Nehmt Gewürzbehälter mit, um Credits zu verdienen.
-TEXT_UW_ACT01_M01_HINT_02,TIPP: Gefangene schließen sich der Revolte an, sobald sie Tyber sehen.
-TEXT_UW_ACT01_M01_HINT_03,TIPP: Einige Behälter explodieren sehr heftig, wenn sie zerstört werden.
-TEXT_UW_ACT01_M01_HINT_04,TIPP: Vernichtet Konsolen, um bestimmte Türen zu aktivieren.
-TEXT_UW_ACT01_M01_HINT_05,TIPP: Setzt Eure Fähigkeit Bestechung bei Gegnern ein, um Euch ihrer Loyalität zu versichern.
+TEXT_UW_ACT01_M01_HINT_01,Tipp: Nehmt Gewürzbehälter mit, um Credits zu verdienen.
+TEXT_UW_ACT01_M01_HINT_02,Tipp: Gefangene schließen sich der Revolte an, sobald sie Tyber sehen.
+TEXT_UW_ACT01_M01_HINT_03,Tipp: Einige Behälter explodieren sehr heftig, wenn sie zerstört werden.
+TEXT_UW_ACT01_M01_HINT_04,Tipp: Vernichtet Konsolen, um bestimmte Türen zu aktivieren.
+TEXT_UW_ACT01_M01_HINT_05,Tipp: Setzt Eure Fähigkeit Bestechung bei Gegnern ein, um Euch ihrer Loyalität zu versichern.
 TEXT_UW_ACT01_M02_B_COUNT_00,0 von 4 Wracks durchstöbert.
 TEXT_UW_ACT01_M02_B_COUNT_01,1 von 4 Wracks durchstöbert.
 TEXT_UW_ACT01_M02_B_COUNT_02,2 von 4 Wracks durchstöbert.
@@ -19030,16 +19030,16 @@ TEXT_UW_ACT01_M02_GOAL_01,Durchkämmt das Gebiet und lasst Tyber Zann vier Daten
 TEXT_UW_ACT01_M02_GOAL_02,Tyber Zann muss überleben.
 TEXT_UW_ACT01_M02_GOAL_03,Durchstöbert vier Wracks.
 TEXT_UW_ACT01_M02_GOAL_04,Plündert vier Rebellenfähren aus.
-TEXT_UW_ACT01_M02_HINT_01,TIPP: Bewegt Tyber Zann zu den Datenkapseln, um sie einzusammeln.
-TEXT_UW_ACT01_M02_HINT_02,TIPP: Zerstört die Piratenfregatte, um die Datenkapsel freizusetzen. Vermeidet Kontakt mit den gegnerischen Kräften.
-TEXT_UW_ACT01_M02_HINT_03,TIPP: Fangt die Rebellenfähren, um sie auszuplündern.
-TEXT_UW_ACT01_M02_HINT_04,TIPP: Nähert Euch den Wracks, um ihre wertvollen Rohstoffe zu bergen.
-TEXT_UW_ACT01_M02_NOTICE_01,HINWEIS: Die imperialen Patrouillenkreuzer der Tartan-Klasse sind zu uns übergelaufen und stehen jetzt unter Eurem Befehl.
+TEXT_UW_ACT01_M02_HINT_01,Tipp: Bewegt Tyber Zann zu den Datenkapseln, um sie einzusammeln.
+TEXT_UW_ACT01_M02_HINT_02,Tipp: Zerstört die Piratenfregatte, um die Datenkapsel freizusetzen. Vermeidet Kontakt mit den gegnerischen Kräften.
+TEXT_UW_ACT01_M02_HINT_03,Tipp: Fangt die Rebellenfähren, um sie auszuplündern.
+TEXT_UW_ACT01_M02_HINT_04,Tipp: Nähert Euch den Wracks, um ihre wertvollen Rohstoffe zu bergen.
+TEXT_UW_ACT01_M02_NOTICE_01,Hinweis: Die imperialen Patrouillenkreuzer der Tartan-Klasse sind zu uns übergelaufen und stehen jetzt unter Eurem Befehl.
 TEXT_UW_ACT01_M03_GOAL_01,Erobert einen Verstärkungspunkt zurück.
 TEXT_UW_ACT01_M03_GOAL_02,Vernichtet die restlichen Huttentruppen.
 TEXT_UW_ACT01_M03_GOAL_03,Die Komm-Station muss intakt bleiben.
-TEXT_UW_ACT01_M03_HINT_01,TIPP: Setzt Urai Fens Tarnfeld ein, um Euch durch die gegnerische Blockade zu schleichen.
-TEXT_UW_ACT01_M03_HINT_02,TIPP: Setzt Urai Fens Lähmschlag ein, um mehrere Infanterieeinheiten gleichzeitig auszuschalten.
+TEXT_UW_ACT01_M03_HINT_01,Tipp: Setzt Urai Fens Tarnfeld ein, um Euch durch die gegnerische Blockade zu schleichen.
+TEXT_UW_ACT01_M03_HINT_02,Tipp: Setzt Urai Fens Lähmschlag ein, um mehrere Infanterieeinheiten gleichzeitig auszuschalten.
 TEXT_UW_ACT01_M04_GOAL_01,Erobert alle Verstärkungspunkte.
 TEXT_UW_ACT01_M04_GOAL_02,Bringt Urai zur Droidenfabrik, damit Ihr Droiden als Verbündete bekommt.
 TEXT_UW_ACT01_M04_GOAL_03,Tyber Zann muss überleben.
@@ -19047,32 +19047,32 @@ TEXT_UW_ACT01_M04_GOAL_04,Urai Fen muss überleben.
 TEXT_UW_ACT01_M04_GOAL_05,Die Droidenfabrik darf nicht zerstört werden.
 TEXT_UW_ACT01_M04_GOAL_06,Bringt Urai Fen an die Kontrollen, damit er die Droiden ausschalten kann.
 TEXT_UW_ACT01_M04_GOAL_07,Bossk muss überleben.
-TEXT_UW_ACT01_M04_HINT_01,TIPP: Bringt Urai nahe an die Kontrollen, damit er die Droiden ausschalten kann.
-TEXT_UW_ACT01_M04_HINT_02,TIPP: Bringt Urai nahe an die Droidenfabrik, damit er sie erobern kann.
-TEXT_UW_ACT01_M04_HINT_03,TIPP: Die Fabrik versorgt Euch nun mit einem unbegrenzten Nachschub an Zerstörerdroiden.
-TEXT_UW_ACT02_G09_12,AUFGABE: Besiegt die Piraten im Orbit über Mandalore.
+TEXT_UW_ACT01_M04_HINT_01,Tipp: Bringt Urai nahe an die Kontrollen, damit er die Droiden ausschalten kann.
+TEXT_UW_ACT01_M04_HINT_02,Tipp: Bringt Urai nahe an die Droidenfabrik, damit er sie erobern kann.
+TEXT_UW_ACT01_M04_HINT_03,Tipp: Die Fabrik versorgt Euch nun mit einem unbegrenzten Nachschub an Zerstörerdroiden.
+TEXT_UW_ACT02_G09_12,Aufgabe: Besiegt die Piraten im Orbit über Mandalore.
 TEXT_UW_ACT02_G09_15,Akzeptable Verluste, erhaltene Preisnachlässe
 TEXT_UW_ACT02_G09_16,Die Organisation von Piratenübergriffen auf Transporte der Mandal Hypernautics beginnt sich für Tyber Zann nun auszuzahlen. Nach der Vernichtung der von ihm selbst beauftragten Piraten gewährt ihm das Unternehmen erhebliche Preisnachlässe und beliefert ihn mit den neuesten Waffen.
-TEXT_UW_ACT02_G09_17,AUFGABE: Besiegt die Piratenflotte über Mandalore.
-TEXT_UW_ACT02_G09_18,BONUS: Die Korvette der Crusader-Klasse wurde freigeschaltet und ist zur Produktion freigegeben.
-TEXT_UW_ACT02_G10_07,TIPP: Der Verderber kann auch eingesetzt werden, um feindliche Planeten zu schädigen, solange diese Planeten korrupt sind.
-TEXT_UW_ACT02_G10_08,AUFGABE: Den Orbital-Langstreckenscanner auf Dathomir sabotieren.
-TEXT_UW_ACT02_G10_09,TIPP: Solange Ihr genügend Credits besitzt, könnt Ihr auf einem korrupten Planeten oder im Orbit (Raumstationen ausgenommen) jedes beliebige feindliche Gebäude zerstören.
-TEXT_UW_ACT02_G10_10,AUFGABE: Den Orbital-Langstreckenscanner auf Dathomir sabotieren.
-TEXT_UW_ACT02_G10_11,TIPP: Mit Hilfe von Sabotage lassen sich auch hermetisch abgeriegelte Welten zugänglich machen. Einige feindliche Helden können Sabotageversuche allerdings vereiteln.
-TEXT_UW_ACT02_G10_13,AUFGABE: Bringt Tyber Zann und Urai Fen nach Dathomir, um den Einsatz zu starten.
+TEXT_UW_ACT02_G09_17,Aufgabe: Besiegt die Piratenflotte über Mandalore.
+TEXT_UW_ACT02_G09_18,Bonus: Die Korvette der Crusader-Klasse wurde freigeschaltet und ist zur Produktion freigegeben.
+TEXT_UW_ACT02_G10_07,Tipp: Der Verderber kann auch eingesetzt werden, um feindliche Planeten zu schädigen, solange diese Planeten korrupt sind.
+TEXT_UW_ACT02_G10_08,Aufgabe: Den Orbital-Langstreckenscanner auf Dathomir sabotieren.
+TEXT_UW_ACT02_G10_09,Tipp: Solange Ihr genügend Credits besitzt, könnt Ihr auf einem korrupten Planeten oder im Orbit (Raumstationen ausgenommen) jedes beliebige feindliche Gebäude zerstören.
+TEXT_UW_ACT02_G10_10,Aufgabe: Den Orbital-Langstreckenscanner auf Dathomir sabotieren.
+TEXT_UW_ACT02_G10_11,Tipp: Mit Hilfe von Sabotage lassen sich auch hermetisch abgeriegelte Welten zugänglich machen. Einige feindliche Helden können Sabotageversuche allerdings vereiteln.
+TEXT_UW_ACT02_G10_13,Aufgabe: Bringt Tyber Zann und Urai Fen nach Dathomir, um den Einsatz zu starten.
 TEXT_UW_ACT02_G10_14,Sabotage-Anleitung
-TEXT_UW_ACT02_G10_15,Mit Verderbern lassen sich Gebäude im Orbit und am Boden zerstören. Zieht sie einfach auf das kontextsensitive SABOTAGE-Feld. Voraussetzung ist aber, dass die Planeten unter dem Einfluss der Korruption stehen. Der Preis dafür ist hoch, aber besonders bei gut verteidigten Planeten kann Sabotage den entscheidenden Unterschied ausmachen.
+TEXT_UW_ACT02_G10_15,Mit Verderbern lassen sich Gebäude im Orbit und am Boden zerstören. Zieht sie einfach auf das kontextsensitive Sabotage-Feld. Voraussetzung ist aber, dass die Planeten unter dem Einfluss der Korruption stehen. Der Preis dafür ist hoch, aber besonders bei gut verteidigten Planeten kann Sabotage den entscheidenden Unterschied ausmachen.
 TEXT_UW_ACT02_G10_16,Je häufiger Ihr sabotiert, desto wachsamer werden die Sicherheitskräfte des betreffenden Planeten. Wenn Ihr den gleichen Planeten in kurzen Abständen mehrmals hintereinander sabotiert, schießen die Preise dramatisch in die Höhe und sinken erst nach und nach wieder ab.
 TEXT_UW_ACT02_G10_17,Den Weg frei räumen
-TEXT_UW_ACT02_G13_19,AUFGABE: Bildet eine Bodentruppe mit Tyber Zann und Urai Fen und bewegt sie Richtung Bespin, um den Einsatz zu starten.
-TEXT_UW_ACT02_G14_01,BONUS: Durch den Verkauf des Tibannagases auf dem Schwarzmarkt erhält Tyber Zann 50.000 Credits.
-TEXT_UW_ACT02_G15_09,AUFGABE: Bringt Urai nach Vergesso und operiert mit den gestohlenen Schiffen des Imperiums, um die Rebellen zu besiegen.
-TEXT_UW_ACT02_G15_13,BONUS: Ein neues Schiff, eine Fregatte der Vengeance-Klasse, wurde freigeschaltet und ist zur Produktion freigegeben.
+TEXT_UW_ACT02_G13_19,Aufgabe: Bildet eine Bodentruppe mit Tyber Zann und Urai Fen und bewegt sie Richtung Bespin, um den Einsatz zu starten.
+TEXT_UW_ACT02_G14_01,Bonus: Durch den Verkauf des Tibannagases auf dem Schwarzmarkt erhält Tyber Zann 50.000 Credits.
+TEXT_UW_ACT02_G15_09,Aufgabe: Bringt Urai nach Vergesso und operiert mit den gestohlenen Schiffen des Imperiums, um die Rebellen zu besiegen.
+TEXT_UW_ACT02_G15_13,Bonus: Ein neues Schiff, eine Fregatte der Vengeance-Klasse, wurde freigeschaltet und ist zur Produktion freigegeben.
 TEXT_UW_ACT02_G15_14,Besiegt alle Rebellentruppen.
 TEXT_UW_ACT02_G16_12,Aufgabe: Bringt Tyber zusammen mit einer Raumflotte zum Treffen mit dem Imperium in den Orbit über Carida.
-TEXT_UW_ACT02_G16_13,BONUS: Ein neues Schiff, ein Zerstörer der Aggressor-Klasse, wurde freigeschaltet und ist zur Produktion freigegeben.
-TEXT_UW_ACT02_M07_19,HINWEIS: Droide verloren!
+TEXT_UW_ACT02_G16_13,Bonus: Ein neues Schiff, ein Zerstörer der Aggressor-Klasse, wurde freigeschaltet und ist zur Produktion freigegeben.
+TEXT_UW_ACT02_M07_19,Hinweis: Droide verloren!
 TEXT_UW_ACT02_M07_GASCOUNTER_01,Einen Gasbehälter erfolgreich gesammelt.
 TEXT_UW_ACT02_M07_GASCOUNTER_02,Zwei Gasbehälter erfolgreich gesammelt.
 TEXT_UW_ACT02_M07_GASCOUNTER_03,Drei Gasbehälter erfolgreich gesammelt.
@@ -19103,11 +19103,11 @@ TEXT_UW_ACT02_M07_GOAL_11,Tyber muss die vier Sicherheitsposten finden und dort 
 TEXT_UW_ACT02_M07_GOAL_X0,Nachdem Ihr die Droiden in der Raffinerie aufgefüllt habt, kehrt Ihr zur Fähre zurück, um das Gas zu entladen
 TEXT_UW_ACT02_M09_GOAL_00,Bossk muss überleben.
 TEXT_UW_ACT02_M09_GOAL_01,Tyber Zann muss überleben.
-TEXT_UW_ACT03_G18_11,AUFGABE: Übernehmt wieder die Kontrolle auf Mandalore und besiegt Garm Bel Iblis.
+TEXT_UW_ACT03_G18_11,Aufgabe: Übernehmt wieder die Kontrolle auf Mandalore und besiegt Garm Bel Iblis.
 TEXT_UW_ACT03_G18_12,Die Belagerung von Mandalore
-TEXT_UW_ACT03_G18_13,BONUS: Das Schlachtschiff der Kedalbe-Klasse und der Sturmpanzer Canderous wurden freigeschaltet und sind zur Produktion freigegeben.
-TEXT_UW_ACT03_G20_09,AUFGABE: Bildet eine Flotte mit Urai, Tyber und Silri, und bringt sie nach Coruscant, um den Einsatz zu starten.
-TEXT_UW_ACT03_G21_06,AUFGABE: Bildet eine große Flotte Eurer besten Schiffe einschließlich Tyber Zann, und begebt Euch nach Kuat!
+TEXT_UW_ACT03_G18_13,Bonus: Das Schlachtschiff der Kedalbe-Klasse und der Sturmpanzer Canderous wurden freigeschaltet und sind zur Produktion freigegeben.
+TEXT_UW_ACT03_G20_09,Aufgabe: Bildet eine Flotte mit Urai, Tyber und Silri, und bringt sie nach Coruscant, um den Einsatz zu starten.
+TEXT_UW_ACT03_G21_06,Aufgabe: Bildet eine große Flotte Eurer besten Schiffe einschließlich Tyber Zann, und begebt Euch nach Kuat!
 TEXT_UW_ACT03_M11_GOAL_00,Tyber, Urai und Silri müssen überleben.
 TEXT_UW_ACT03_M11_GOAL_01,Zerstört die Überwachungssteuerung.
 TEXT_UW_ACT03_M11_GOAL_02,Besiegt die Schüler der Macht.
@@ -19120,40 +19120,40 @@ TEXT_UW_ACT03_M11_GOAL_07,Besiegt die Schüler der Macht.
 TEXT_UW_ACT03_M11_GOAL_08,Verschafft Euch Zugang zum Tresor.
 TEXT_UW_ACT03_M11_GOAL_09,Flieht mit dem Zentralcode.
 TEXT_UW_ACT03_M11_GOAL_10,Verwendet Ysalamirikäfige, um den Meisterschüler der Macht zu besiegen.
-TEXT_UW_ACT03_M11_HINT_00,TIPP: Tyber kann einige Feinde bestechen, auch wenn Hindernisse den Weg blockieren.
-TEXT_UW_ACT03_M11_HINT_01,TIPP: Wenn Feinde sich nicht selbst heilen können, sind sie leichter zu besiegen.
-TEXT_UW_ACT03_M11_HINT_02,TIPP: Silri kann einen Rancor beschwören und möglichen Feinden das Leben aussaugen.
-TEXT_UW_ACT03_M11_HINT_03,TIPP: Urai heilt sich mit der Zeit immer selbst - Zuschlagen und Wegrennen ist daher eine geeignete Taktik.
-TEXT_UW_ACT03_M11_HINT_04,TIPP: Silris Rancor kann schweren Schaden zufügen.
-TEXT_UW_ACT03_M11_HINT_05,TIPP: Die MVE-Sensorstörer können anfliegende Raketen blockieren.
-TEXT_UW_ACT03_M11_HINT_06,TIPP: Der MVE-Ysalamirikäfig verhindert, dass jemand die Kräfte der Macht einsetzt.
-TEXT_UW_ACT03_M11_HINT_07,TIPP: Das Laser-Verteidigungssystem des Juggernaut vernichtet anfliegende Raketen.
-TEXT_UW_ACT03_M11_HINT_08,TIPP: Die Tarnfähigkeit kann Feinde verwirren und sie daran hindern, Euch zu folgen.
-TEXT_UW_ACT03_M11_HINT_09,HINWEIS: Ihr werdet Urai und Silri später steuern können. Zunächst solltet Ihr Tyber helfen, sich auf die bevorstehende Aufgabe zu konzentrieren.
-TEXT_UW_ACT03_M11_HINT_10,HINWEIS: Ihr werdet Tyber und Urai später steuern können. Zunächst solltet Ihr Silri helfen, sich auf die bevorstehende Aufgabe zu konzentrieren.
-TEXT_UW_ACT03_M11_HINT_11,HINWEIS: Ihr werdet Tyber und Silri später steuern können. Zunächst solltet Ihr Urai helfen, sich auf die bevorstehende Aufgabe zu konzentrieren.
+TEXT_UW_ACT03_M11_HINT_00,Tipp: Tyber kann einige Feinde bestechen, auch wenn Hindernisse den Weg blockieren.
+TEXT_UW_ACT03_M11_HINT_01,Tipp: Wenn Feinde sich nicht selbst heilen können, sind sie leichter zu besiegen.
+TEXT_UW_ACT03_M11_HINT_02,Tipp: Silri kann einen Rancor beschwören und möglichen Feinden das Leben aussaugen.
+TEXT_UW_ACT03_M11_HINT_03,Tipp: Urai heilt sich mit der Zeit immer selbst - Zuschlagen und Wegrennen ist daher eine geeignete Taktik.
+TEXT_UW_ACT03_M11_HINT_04,Tipp: Silris Rancor kann schweren Schaden zufügen.
+TEXT_UW_ACT03_M11_HINT_05,Tipp: Die MVE-Sensorstörer können anfliegende Raketen blockieren.
+TEXT_UW_ACT03_M11_HINT_06,Tipp: Der MVE-Ysalamirikäfig verhindert, dass jemand die Kräfte der Macht einsetzt.
+TEXT_UW_ACT03_M11_HINT_07,Tipp: Das Laser-Verteidigungssystem des Juggernaut vernichtet anfliegende Raketen.
+TEXT_UW_ACT03_M11_HINT_08,Tipp: Die Tarnfähigkeit kann Feinde verwirren und sie daran hindern, Euch zu folgen.
+TEXT_UW_ACT03_M11_HINT_09,Hinweis: Ihr werdet Urai und Silri später steuern können. Zunächst solltet Ihr Tyber helfen, sich auf die bevorstehende Aufgabe zu konzentrieren.
+TEXT_UW_ACT03_M11_HINT_10,Hinweis: Ihr werdet Tyber und Urai später steuern können. Zunächst solltet Ihr Silri helfen, sich auf die bevorstehende Aufgabe zu konzentrieren.
+TEXT_UW_ACT03_M11_HINT_11,Hinweis: Ihr werdet Tyber und Silri später steuern können. Zunächst solltet Ihr Urai helfen, sich auf die bevorstehende Aufgabe zu konzentrieren.
 TEXT_UW_ACT03_M12_GOAL_00,Erobert die Eclipse mit einer Eurer Fähren.
 TEXT_UW_ACT03_M12_GOAL_01,Vernichtet den Super-Sternenzerstörer.
 TEXT_UW_ACT03_M12_GOAL_02,Helft der Rebellenallianz bei der Eliminierung der drei imperialen Raumstationen.
 TEXT_UW_ACT03_M12_GOAL_03,Vernichtet den Rasenden Falken und vertreibt die restlichen Rebellen aus diesem Sektor.
 TEXT_UW_ACT03_M12_GOAL_04,Schützt Eure Fähren.
 TEXT_UW_ACT03_M12_GOAL_05,Die Merciless muss überleben.
-TEXT_UW_ACT03_M12_GOAL_06,HINWEIS: Fähre zerstört. Noch zwei übrig.
-TEXT_UW_ACT03_M12_GOAL_07,HINWEIS: Fähre zerstört. Noch eine übrig.
-TEXT_UW_ACT03_M12_GOAL_08,HINWEIS: Alle Fähren wurden zerstört.
-TEXT_UW_ACT03_M12_GOAL_09,HINWEIS: Die Merciless wurde zerstört.
-TEXT_UW_ACT03_M12_GOAL_10,TIPP: Vielleicht könnt Ihr Eure Fähren gegen die Raumstationen einsetzen ...
-TEXT_UW_ACT03_M12_GOAL_11,HINWEIS: Fähre eingesetzt. Noch zwei übrig.
-TEXT_UW_ACT03_M12_GOAL_12,HINWEIS: Fähre eingesetzt. Noch eine übrig.
-TEXT_UW_ACT03_M12_GOAL_13,HINWEIS: Alle Fähren wurden eingesetzt.
+TEXT_UW_ACT03_M12_GOAL_06,Hinweis: Fähre zerstört. Noch zwei übrig.
+TEXT_UW_ACT03_M12_GOAL_07,Hinweis: Fähre zerstört. Noch eine übrig.
+TEXT_UW_ACT03_M12_GOAL_08,Hinweis: Alle Fähren wurden zerstört.
+TEXT_UW_ACT03_M12_GOAL_09,Hinweis: Die Merciless wurde zerstört.
+TEXT_UW_ACT03_M12_GOAL_10,Tipp: Vielleicht könnt Ihr Eure Fähren gegen die Raumstationen einsetzen ...
+TEXT_UW_ACT03_M12_GOAL_11,Hinweis: Fähre eingesetzt. Noch zwei übrig.
+TEXT_UW_ACT03_M12_GOAL_12,Hinweis: Fähre eingesetzt. Noch eine übrig.
+TEXT_UW_ACT03_M12_GOAL_13,Hinweis: Alle Fähren wurden eingesetzt.
 TEXT_UW_ACT03_M12_GOAL_14,Verteidigt die Eclipse.
 TEXT_UW_ACT03_M12_GOAL_15,Vernichtet die restlichen imperialen Schiffswerften.
 TEXT_UW_ACT03_M12_GOAL_16,Eliminiert die imperialen Raumstationen.
-TEXT_UW_ACT03_M12_GOAL_17,TIPP: Das Imperium repariert seine beschädigten Schiffe an den Werften.
-TEXT_UW_ACT03_M12_GOAL_18,TIPP: Wir haben einen brüchigen Waffenstillstand mit den Rebellen geschlossen. Benutzt sie, solange wir sie brauchen.
+TEXT_UW_ACT03_M12_GOAL_17,Tipp: Das Imperium repariert seine beschädigten Schiffe an den Werften.
+TEXT_UW_ACT03_M12_GOAL_18,Tipp: Wir haben einen brüchigen Waffenstillstand mit den Rebellen geschlossen. Benutzt sie, solange wir sie brauchen.
 TEXT_UW_ACT03_M12_GOAL_19,Kapert die Eclipse mit Eurer Fähre.
 TEXT_UW_ACT03_M12_GOAL_20,Beschützt Eure Fähre.
-TEXT_UW_ACT03_M12_GOAL_21,HINWEIS: Eure Fähre wurde vernichtet.
+TEXT_UW_ACT03_M12_GOAL_21,Hinweis: Eure Fähre wurde vernichtet.
 TEXT_UW_ACT03_M12_GOAL_22,Vernichtet die restlichen imperialen Truppen.
 TEXT_UW_ACT03_M12_SHUTTLE_ENCYLOPEDIA_TEXT,Bringt diese Fähre nahe an die Eclipse heran, um sie zu kapern.
 TEXT_UW_ACT03_M12_SHUTTLE_TEXT,Enterfähre

@@ -1093,14 +1093,14 @@ TEXT_DEMO_CAMPAIGN_OBJECTIVE_00,   ● The Imperial forces in the Vergesso Aster
 TEXT_DEMO_CAMPAIGN_OBJECTIVE_01,   ● The Imperial base on Tatooine is destroyed and the planet is liberated.
 TEXT_DEMO_CAMPAIGN_STORY,The Empire has moved their forces into the Outer Rim and established a space station in the Vergesso Asteroid field.  From here they threaten our base on Hoth and block any attempts to liberate Tatooine from their iron grip.  You have been granted 20,000 credits to prepare for an assault on the Imperial space station and their base on Tatooine.
 TEXT_DEMO_CAMPAIGN_TITLE,Demo Campaign
-TEXT_DEMO_HOLOCRON_CHAPTER_00,TASK: Drag the Defiler to the 'Spread Corruption' Slot on Mandalore and select 'Piracy'.
-TEXT_DEMO_HOLOCRON_CHAPTER_01,TASK: Drag the Defiler to the 'Spread Corruption' Slot on Nal Hutta and select 'Black Market'.
+TEXT_DEMO_HOLOCRON_CHAPTER_00,Task: Drag the Defiler to the 'Spread Corruption' Slot on Mandalore and select 'Piracy'.
+TEXT_DEMO_HOLOCRON_CHAPTER_01,Task: Drag the Defiler to the 'Spread Corruption' Slot on Nal Hutta and select 'Black Market'.
 TEXT_DEMO_HOLOCRON_CHAPTER_01_TITLE,Black Market on Nal Hutta
-TEXT_DEMO_HOLOCRON_CHAPTER_02,TASK: Drag Urai Fen to the 'Buy' Slot on Nal Hutta and choose 'Disruptor Technology'.
+TEXT_DEMO_HOLOCRON_CHAPTER_02,Task: Drag Urai Fen to the 'Buy' Slot on Nal Hutta and choose 'Disruptor Technology'.
 TEXT_DEMO_HOLOCRON_CHAPTER_02_TITLE,Purchase Disruptor Technology
-TEXT_DEMO_HOLOCRON_CHAPTER_03,TASK: Combine all Zann Consortium forces and move them to Felucia.
+TEXT_DEMO_HOLOCRON_CHAPTER_03,Task: Combine all Zann Consortium forces and move them to Felucia.
 TEXT_DEMO_HOLOCRON_CHAPTER_03_TITLE,Move All Forces to Felucia
-TEXT_DEMO_HOLOCRON_CHAPTER_04,TASK: Conquer Kamino to establish a secret Consortium base there.
+TEXT_DEMO_HOLOCRON_CHAPTER_04,Task: Conquer Kamino to establish a secret Consortium base there.
 TEXT_DEMO_HOLOCRON_CHAPTER_04_TITLE,Hiding on Kamino
 TEXT_DESTROYABLE_ASTEROID,Asteroid
 TEXT_DESTROYER_DROID_COMPANY,Destroyer Droid Squad
@@ -16512,7 +16512,7 @@ TEXT_SPEECH_UW_ACT01_M04_58,Tyber Zann: ...meaning you don’t want to be up aga
 TEXT_SPEECH_UW_ACT01_M04_59,Urai Fen: Exactly.  This model is also equipped with ion blasters, allowing them to cripple shielded units.
 TEXT_SPEECH_UW_ACT01_M04_60,Tyber Zann: That kind of versatility could prove useful.  Are we at the controls yet?
 TEXT_SPEECH_UW_ACT01_M04_61,Urai Fen: We should be near.
-TEXT_SPEECH_UW_ACT01_M04_62,HINT: Prices have changed in the black market.  Visit Imperial and Rebel worlds to see what's available.
+TEXT_SPEECH_UW_ACT01_M04_62,Hint: Prices have changed in the black market.  Visit Imperial and Rebel worlds to see what's available.
 TEXT_SPEECH_UW_ACT01_M04_63,Tyber Zann: Ending this feud with Jabba allows me to concentrate on bigger fish.  Our influence is spreading, Urai.  My defeat of Jabba allows me to take on my true enemy, the Empire.
 TEXT_SPEECH_UW_ACT01_M04_64,Urai Fen: What about the forces of the Rebellion?  Their power is growing.  They could prove a useful ally.
 TEXT_SPEECH_UW_ACT01_M04_65,Tyber Zann: What do I care for their cause.  They've done nothing for me.  I'll play both sides.  No one is doing us any favors so they'll get none in return.
@@ -16897,7 +16897,7 @@ TEXT_STORY_AETENII_PIR_OBJECTIVE_01a,Destroy four more Stygium Crystal Capsules.
 TEXT_STORY_AETENII_PIR_OBJECTIVE_01b,Destroy three more Stygium Crystal Capsules.
 TEXT_STORY_AETENII_PIR_OBJECTIVE_01c,Destroy two more Stygium Crystal Capsules.
 TEXT_STORY_AETENII_PIR_OBJECTIVE_01d,Destroy the last Stygium Crystal Capsule.
-TEXT_STORY_AETENII_PIR_OBJECTIVE_NOTICE,NOTICE: Stygium Crystal Capsule destroyed.
+TEXT_STORY_AETENII_PIR_OBJECTIVE_NOTICE,Notice: Stygium Crystal Capsule destroyed.
 TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01,Collect ten Prize Shaak heads.
 TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01a,Collect nine more Prize Shaak heads.
 TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01b,Collect eight more Prize Shaak heads.
@@ -17410,23 +17410,23 @@ TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_02,Liberate the Frenzied River Prison.
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_03,Liberate the Misty Falls Prison.
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_04,Destroy the Governor's Quarters.
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_05,Lead the Nightsisters to Rancor to mount them.
-TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_06,NOTICE: Misty Falls Prison's power generator destroyed, defense turrets are now off-line.
-TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_07,NOTICE: Governor's Quarters' power generator destroyed, defense turrets are now off-line.
+TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_06,Notice: Misty Falls Prison's power generator destroyed, defense turrets are now off-line.
+TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_07,Notice: Governor's Quarters' power generator destroyed, defense turrets are now off-line.
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_08,Destroy the three Imperial Uplink Stations.
-TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_09,NOTICE: Mining Facility destroyed. +5000 credits.
-TEXT_STORY_UW_ACT02_M06_44,NOTICE: Tyber Zann has been killed.
-TEXT_STORY_UW_ACT02_M06_45,NOTICE: Urai Fen has been killed.
-TEXT_STORY_UW_ACT02_M06_46,NOTICE: Silri has been killed.
+TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_09,Notice: Mining Facility destroyed. +5000 credits.
+TEXT_STORY_UW_ACT02_M06_44,Notice: Tyber Zann has been killed.
+TEXT_STORY_UW_ACT02_M06_45,Notice: Urai Fen has been killed.
+TEXT_STORY_UW_ACT02_M06_46,Notice: Silri has been killed.
 TEXT_STORY_UW_ACT02_M06_47,Tyber Zann and Urai Fen must survive.
-TEXT_STORY_UW_ACT02_M06_48,HINT: Use Tyber and Urai's Personal Cloaking Fields to sneak past the rancor.
+TEXT_STORY_UW_ACT02_M06_48,Hint: Use Tyber and Urai's Personal Cloaking Fields to sneak past the rancor.
 TEXT_STORY_UW_ACT02_M06_49,Destroy the Singing Mountain prison's power generator.
-TEXT_STORY_UW_ACT02_M06_50,NOTICE: Singing Mountain Prison's power generator destroyed, defense turrets are now off-line.
-TEXT_STORY_UW_ACT02_M06_51,HINT: Nightsisters can ride rancor.  Lead the Nightsisters next to the rancor to mount them.
-TEXT_STORY_UW_ACT02_M06_52,NOTICE: Frenzied River Prison's power generator destroyed, defense turrets are now off-line.
+TEXT_STORY_UW_ACT02_M06_50,Notice: Singing Mountain Prison's power generator destroyed, defense turrets are now off-line.
+TEXT_STORY_UW_ACT02_M06_51,Hint: Nightsisters can ride rancor.  Lead the Nightsisters next to the rancor to mount them.
+TEXT_STORY_UW_ACT02_M06_52,Notice: Frenzied River Prison's power generator destroyed, defense turrets are now off-line.
 TEXT_STORY_UW_ACT02_M06_53,Tyber Zann, Urai Fen, and Silri must survive.
-TEXT_STORY_UW_ACT02_M06_54,NOTICE: The Imperial Governor has begun sending for reinforcements.  Destroy the three Imperial Uplink Stations to prevent further landings.
-TEXT_STORY_UW_ACT02_M06_55,NOTICE: Uplink Station destroyed.
-TEXT_STORY_UW_ACT02_M06_56,HINT: The guard towers will reveal cloaked units.
+TEXT_STORY_UW_ACT02_M06_54,Notice: The Imperial Governor has begun sending for reinforcements.  Destroy the three Imperial Uplink Stations to prevent further landings.
+TEXT_STORY_UW_ACT02_M06_55,Notice: Uplink Station destroyed.
+TEXT_STORY_UW_ACT02_M06_56,Hint: The guard towers will reveal cloaked units.
 TEXT_STRUCTURE_ABANDONED_UPLINK_STATION,Abandoned Empire Comm Array
 TEXT_STRUCTURE_BOTHAN_HOUSE,Bothan Dwelling
 TEXT_STRUCTURE_CIVILIAN_ARCTIC,Cold Climate Dwelling
@@ -18436,7 +18436,7 @@ TEXT_TUTORIAL_CHAP_05_04,Task: Drag your fleet to Alderaan
 TEXT_TUTORIAL_CHAP_07_00,Tutorial 7: Story Arc Missions
 TEXT_TUTORIAL_CHAP_07_01,Sample Story Arc Mission
 TEXT_TUTORIAL_CHAP_07_02,This is an example of a story arc mission.  Normally this text would be read to you by one of the heroes (like General Dodonna here), and you would receive background information about the task you need to complete.  To complete this mission, you need to do what the task line below tells you.
-TEXT_TUTORIAL_CHAP_07_03,TASK: Drag one of your fleets to Alderaan
+TEXT_TUTORIAL_CHAP_07_03,Task: Drag one of your fleets to Alderaan
 TEXT_TUTORIAL_CHAP_07_04,Congratulations, you have completed the story arc.  Normally the hero would tell you what you have accomplished, and either continue with a new task or give you a reward.
 TEXT_TUTORIAL_CHAP_07_05,REWARD: 50,000 Credits and a new ship!
 TEXT_TUTORIAL_CHAP_07_06,Task: Complete the story arc mission to continue
@@ -18957,58 +18957,58 @@ TEXT_UPNP_FRAMEWORK_ENABLED,UPnP Framework :
 TEXT_US,USA
 TEXT_USE_DEFAULT_PORT,Use Default Port
 TEXT_USE_WINDOWS_FIREWALL,Bypass Windows Firewall
-TEXT_UW_ACT01_G01_05,TASK: Build a Defiler.
-TEXT_UW_ACT01_G01_08,TASK: Drag your new Defiler unit to Honoghr and drop him in the 'SPREAD CORRUPTION' context-sensitive slot.
+TEXT_UW_ACT01_G01_05,Task: Build a Defiler.
+TEXT_UW_ACT01_G01_08,Task: Drag your new Defiler unit to Honoghr and drop him in the "Spread Corruption" context-sensitive slot.
 TEXT_UW_ACT01_G01_10,The Zann Consortium gains numerous benefits from corruption.  While taking control of planets is necessary for production, only corruption is necessary to gain credits.
 TEXT_UW_ACT01_G01_11,On the galactic level, corruption produces a steady stream of income for each planet corrupted.  In addition, it creates an artificial trade route between all corrupted planets, and allows Zann Consortium fleets to travel through enemy worlds using bribery.  Corruption also acts as a limited spy network - you can view certain details of enemy planets and their contents.  Corruption has a detrimental effect on the Empire's production time and the Alliance's production costs.
 TEXT_UW_ACT01_G01_12,In tactical combat, corruption gives the Zann Consortium a cash bounty for every Imperial and Rebel unit destroyed in battle.
 TEXT_UW_ACT01_G01_13,Your enemies also gain certain benefits from your corruption: smugglers on corrupted worlds do not disappear over time; bounty hunters gain discounts to their hero removal and units produced at Cantinas and Hutt Palaces cost less.  Also, you cannot produce units on worlds you do not actually control, and controlling worlds do not give as large a financial gain as just corrupting them.
 TEXT_UW_ACT01_G01_14,Certain enemy heroes prevent corruption from taking hold, and many enemy heroes can remove corruption given time.
 TEXT_UW_ACT01_G01_15,Honoghr is now under the corrupting influence of Tyber Zann.  Note that you can now see more information about the planet, and your daily income has increased.  Corrupt other worlds to make even more of a profit, but beware - both enemy factions can see your corruption.
-TEXT_UW_ACT01_G01_22,TASK: Use a Defiler to set up a Racketeering operation on Shola.
-TEXT_UW_ACT01_G01_23,HINT: Click the holocron button to see more information about your current mission.
+TEXT_UW_ACT01_G01_22,Task: Use a Defiler to set up a Racketeering operation on Shola.
+TEXT_UW_ACT01_G01_23,Hint: Click the holocron button to see more information about your current mission.
 TEXT_UW_ACT01_G01_26,Tutorial: Corrupting Planets I
 TEXT_UW_ACT01_G01_27,Tutorial: Corrupting Planets II
-TEXT_UW_ACT01_G01_29,TASK: Choose the INTIMIDATION mission from the corruption menu.
-TEXT_UW_ACT01_G01_30,TASK: Corrupt Mandalore using PIRACY.
+TEXT_UW_ACT01_G01_29,Task: Choose the "Intimidation" mission from the corruption menu.
+TEXT_UW_ACT01_G01_30,Task: Corrupt Mandalore using "Piracy."
 TEXT_UW_ACT01_G01_31,Defilers Needed
 TEXT_UW_ACT01_G01_32,Defiler's Mission
 TEXT_UW_ACT01_G01_33,Defiler's Second Mission
 TEXT_UW_ACT01_G01_34,Piracy on Mandalore
-TEXT_UW_ACT01_G02_11,TASK: Deploy Urai Fen on Shola.  Taken control of the planet and recover the Sith Artifact.
+TEXT_UW_ACT01_G02_11,Task: Deploy Urai Fen on Shola.  Taken control of the planet and recover the Sith Artifact.
 TEXT_UW_ACT01_G02_12,Striking Back at Jabba
 TEXT_UW_ACT01_G02_13,Jabba thought that he could absorb all my planets and take control of the Consortium.  Shola was one of my storage houses for contraband, and Jabba wasted no time in stealing everything I had there.  Unfortunately, Urai chose Shola as the hiding place for the Sith Artifact I stole - we need to get it back and destroy Jabba's forces there before they manage to uncover it.
-TEXT_UW_ACT01_G03_08,TASK: Take a fleet including Tyber Zann to Yavin 4.
-TEXT_UW_ACT01_G03_09,HINT: Remember that you can corrupt planets in a chain and bribe planets to let you pass without battle.
-TEXT_UW_ACT01_G05_01,TASK: Use a Defiler to establish a Black Market on Kuat.
-TEXT_UW_ACT01_G05_02,TASK: Drag Tyber Zann to the BUY slot on Kuat.
-TEXT_UW_ACT01_G05_04,TASK: Purchase Disruptor Technology.
-TEXT_UW_ACT01_G05_05,HINT: After accessing the Black Market your hero is removed from the game temporarily.  The amount of time they remain out of play depends on the hero.
+TEXT_UW_ACT01_G03_08,Task: Take a fleet including Tyber Zann to Yavin 4.
+TEXT_UW_ACT01_G03_09,Hint: Remember that you can corrupt planets in a chain and bribe planets to let you pass without battle.
+TEXT_UW_ACT01_G05_01,Task: Use a Defiler to establish a Black Market on Kuat.
+TEXT_UW_ACT01_G05_02,Task: Drag Tyber Zann to the "Buy" slot on Kuat.
+TEXT_UW_ACT01_G05_04,Task: Purchase Disruptor Technology.
+TEXT_UW_ACT01_G05_05,Hint: After accessing the Black Market your hero is removed from the game temporarily.  The amount of time they remain out of play depends on the hero.
 TEXT_UW_ACT01_G05_06,The Zann Consortium advances their technology differently than the other factions.  While all of their units are generally available from the beginning, the special abilities must be purchased from the black market.  In this way the units become more powerful as the game advances.
 TEXT_UW_ACT01_G05_07,To enter the Black Market, you must first spread corruption on a system.  Once corrupted, you can drag Tyber Zann or Urai Fen, and some other heroes to the Black Market context sensitive slot.
 TEXT_UW_ACT01_G05_08,Different heroes have different effects on the Black Market.  Tyber Zann lowers the tech level requirement of technology one level, while Urai Fen can gain tech more quickly.  Of course, these abilities have a large effect on the price you pay.
 TEXT_UW_ACT01_G05_09,Tyber Zann has accessed the black market.  Since Kuat belongs to the Empire, you will only see technology that they control.  Rebel-controlled planets will have different technology available.  Note that some of the advances are relatively cheap, while others are extremely expensive.  Each ability has an associated enemy tech level - the Zann Consortium has no tech level of its own.  Because of this, the Zann Consortium must balance its expansion with the need for new tech.  Once the Empire's tech level advances, the price of the tech associated with that level is cut dramatically.
-TEXT_UW_ACT01_G05_10,HINT: Note that you can hover the mouse over each tech advancement to see what it does and which of the Zann Consortium units will be affected by it.
+TEXT_UW_ACT01_G05_10,Hint: Note that you can hover the mouse over each tech advancement to see what it does and which of the Zann Consortium units will be affected by it.
 TEXT_UW_ACT01_G05_15,Black Market Establishment
 TEXT_UW_ACT01_G05_16,Tyber's Recon
-TEXT_UW_ACT01_G06_08,TASK: Form a land force along with Urai Fen and take it to Saleucami.  Deploy Urai Fen on Saleucami to begin the mission.
+TEXT_UW_ACT01_G06_08,Task: Form a land force along with Urai Fen and take it to Saleucami.  Deploy Urai Fen on Saleucami to begin the mission.
 TEXT_UW_ACT01_G06_09,Communications Breakdown
 TEXT_UW_ACT01_G06_10,Jabba the Hutt found a way to break into Tyber's communications system.  Luckily Tyber's techs managed to trace the signal to a relay station on Saleucami.  Jabba needs to be taught a lesson. I will use my strike team to establish a beachhead, so that our land forces can take Saleucami out from under him.
-TEXT_UW_ACT01_G06_11,TASK: Build a Defiler and drag it to the SABOTAGE context-sensitive slot on Saleucami.
-TEXT_UW_ACT01_G06_12,TASK: Destroy the shield generator on Saleucami.
-TEXT_UW_ACT01_G06_13,TASK: In order to perform sabotage, you must first corrupt the planet.  Corrupt Saleucami however you wish.
+TEXT_UW_ACT01_G06_11,Task: Build a Defiler and drag it to the "Sabotage" context-sensitive slot on Saleucami.
+TEXT_UW_ACT01_G06_12,Task: Destroy the shield generator on Saleucami.
+TEXT_UW_ACT01_G06_13,Task: In order to perform sabotage, you must first corrupt the planet.  Corrupt Saleucami however you wish.
 TEXT_UW_ACT01_G06_16,Corruption on Saleucami
 TEXT_UW_ACT01_G06_17,Sabotage on Saleucami
-TEXT_UW_ACT01_G07_08,TASK: Put together a ground force along with Tyber Zann and deploy Tyber on Hypori.
+TEXT_UW_ACT01_G07_08,Task: Put together a ground force along with Tyber Zann and deploy Tyber on Hypori.
 TEXT_UW_ACT01_M01_GOAL_01,Tyber Zann must survive.
 TEXT_UW_ACT01_M01_GOAL_02,Get Tyber Zann to the Millennium Falcon.
 TEXT_UW_ACT01_M01_GOAL_03,Urai Fen must survive.
 TEXT_UW_ACT01_M01_GOAL_04,Destroy the Dark Troopers controlling the exit door.
-TEXT_UW_ACT01_M01_HINT_01,HINT: Pick up spice containers to gain credits.
-TEXT_UW_ACT01_M01_HINT_02,HINT: Prisoners will join in the riot if they see Tyber.
-TEXT_UW_ACT01_M01_HINT_03,HINT: Some containers will explode with great force when destroyed.
-TEXT_UW_ACT01_M01_HINT_04,HINT: Destroy consoles to activate some doors.
-TEXT_UW_ACT01_M01_HINT_05,HINT: Use the Bribe ability on enemies to gain their loyalty.
+TEXT_UW_ACT01_M01_HINT_01,Hint: Pick up spice containers to gain credits.
+TEXT_UW_ACT01_M01_HINT_02,Hint: Prisoners will join in the riot if they see Tyber.
+TEXT_UW_ACT01_M01_HINT_03,Hint: Some containers will explode with great force when destroyed.
+TEXT_UW_ACT01_M01_HINT_04,Hint: Destroy consoles to activate some doors.
+TEXT_UW_ACT01_M01_HINT_05,Hint: Use the Bribe ability on enemies to gain their loyalty.
 TEXT_UW_ACT01_M02_B_COUNT_00,0 of 4 shipwrecks scavenged.
 TEXT_UW_ACT01_M02_B_COUNT_01,1 of 4 shipwrecks scavenged.
 TEXT_UW_ACT01_M02_B_COUNT_02,2 of 4 shipwrecks scavenged.
@@ -19030,16 +19030,16 @@ TEXT_UW_ACT01_M02_GOAL_01,Scout the area to find and collect 4 data pods with Ty
 TEXT_UW_ACT01_M02_GOAL_02,Tyber Zann must survive.
 TEXT_UW_ACT01_M02_GOAL_03,Scavenge 4 shipwrecks
 TEXT_UW_ACT01_M02_GOAL_04,Rob 4 Rebel shuttles.
-TEXT_UW_ACT01_M02_HINT_01,HINT: Move Tyber Zann near the data pods to retrieve them.
-TEXT_UW_ACT01_M02_HINT_02,HINT: Destroy the Pirate Frigate to release the Data Pod. Avoid engaging the enemy forces.
-TEXT_UW_ACT01_M02_HINT_03,HINT: Catch the Rebel shuttles to steal their contents.
-TEXT_UW_ACT01_M02_HINT_04,HINT: Approach wreckage to scavenge valuables.
-TEXT_UW_ACT01_M02_NOTICE_01,NOTICE: The Imperial Tartan Patrol Cruisers have defected to your side, and are now under your control.
+TEXT_UW_ACT01_M02_HINT_01,Hint: Move Tyber Zann near the data pods to retrieve them.
+TEXT_UW_ACT01_M02_HINT_02,Hint: Destroy the Pirate Frigate to release the Data Pod. Avoid engaging the enemy forces.
+TEXT_UW_ACT01_M02_HINT_03,Hint: Catch the Rebel shuttles to steal their contents.
+TEXT_UW_ACT01_M02_HINT_04,Hint: Approach wreckage to scavenge valuables.
+TEXT_UW_ACT01_M02_NOTICE_01,Notice: The Imperial Tartan Patrol Cruisers have defected to your side, and are now under your control.
 TEXT_UW_ACT01_M03_GOAL_01,Recapture a reinforcement point.
 TEXT_UW_ACT01_M03_GOAL_02,Destroy all remaining Hutt forces.
 TEXT_UW_ACT01_M03_GOAL_03,The Communications Station must remain intact.
-TEXT_UW_ACT01_M03_HINT_01,HINT: Use Urai Fen’s Personal Cloaking Field to sneak past the enemy blockade.
-TEXT_UW_ACT01_M03_HINT_02,HINT: Use Urai Fen’s Sonic Stunner to incapacitate multiple infantry units simultaneously.
+TEXT_UW_ACT01_M03_HINT_01,Hint: Use Urai Fen’s Personal Cloaking Field to sneak past the enemy blockade.
+TEXT_UW_ACT01_M03_HINT_02,Hint: Use Urai Fen’s Sonic Stunner to incapacitate multiple infantry units simultaneously.
 TEXT_UW_ACT01_M04_GOAL_01,Capture all reinforcement points.
 TEXT_UW_ACT01_M04_GOAL_02,Get Urai Fen to the Droid Works to gain droid allies.
 TEXT_UW_ACT01_M04_GOAL_03,Tyber Zann must survive.
@@ -19047,32 +19047,32 @@ TEXT_UW_ACT01_M04_GOAL_04,Urai Fen must survive.
 TEXT_UW_ACT01_M04_GOAL_05,The Droid Works must survive.
 TEXT_UW_ACT01_M04_GOAL_06,Get Urai Fen to the controls to disable the droids.
 TEXT_UW_ACT01_M04_GOAL_07,Bossk must survive.
-TEXT_UW_ACT01_M04_HINT_01,HINT: Move Urai close to the controls to disable the droids.
-TEXT_UW_ACT01_M04_HINT_02,HINT: Move Urai close to the droid works to capture it.
-TEXT_UW_ACT01_M04_HINT_03,HINT: The factory will now supply you with an unlimited supply of Destroyer Droids.
-TEXT_UW_ACT02_G09_12,TASK: Defeat the Pirates orbiting Mandalore
+TEXT_UW_ACT01_M04_HINT_01,Hint: Move Urai close to the controls to disable the droids.
+TEXT_UW_ACT01_M04_HINT_02,Hint: Move Urai close to the droid works to capture it.
+TEXT_UW_ACT01_M04_HINT_03,Hint: The factory will now supply you with an unlimited supply of Destroyer Droids.
+TEXT_UW_ACT02_G09_12,Task: Defeat the Pirates orbiting Mandalore
 TEXT_UW_ACT02_G09_15,Acceptable Losses, Earned Discounts
 TEXT_UW_ACT02_G09_16,After initiating pirate raids on Mandal Hypernautics shipments, Tyber Zann now reaps the benefits.  By destroying the very pirates he sent, he will gain major discounts and new weaponry from the company.
-TEXT_UW_ACT02_G09_17,TASK: Defeat the pirate fleet over Mandalore.
-TEXT_UW_ACT02_G09_18,BONUS: The Crusader-class Gunship has been unlocked and is available for production.
-TEXT_UW_ACT02_G10_07,HINT: The Defiler can also be used to damage enemy planets as long as those planets have been corrupted.
-TEXT_UW_ACT02_G10_08,TASK: Sabotage the Orbital Long Range Scanner on Dathomir.
-TEXT_UW_ACT02_G10_09,HINT: You can destroy any enemy structure on a corrupted planet or in orbit (excluding space stations) as long as you have enough credits.
-TEXT_UW_ACT02_G10_10,TASK: Sabotage the Orbital Long Range Scanner on Dathomir.
-TEXT_UW_ACT02_G10_11,HINT: Using sabotage can soften up an otherwise impenetrable world.  However, some enemy heroes can foil sabotage attempts.
-TEXT_UW_ACT02_G10_13,TASK: Take Tyber Zann and Urai Fen to Dathomir to begin the mission.
+TEXT_UW_ACT02_G09_17,Task: Defeat the pirate fleet over Mandalore.
+TEXT_UW_ACT02_G09_18,Bonus: The Crusader-class Gunship has been unlocked and is available for production.
+TEXT_UW_ACT02_G10_07,Hint: The Defiler can also be used to damage enemy planets as long as those planets have been corrupted.
+TEXT_UW_ACT02_G10_08,Task: Sabotage the Orbital Long Range Scanner on Dathomir.
+TEXT_UW_ACT02_G10_09,Hint: You can destroy any enemy structure on a corrupted planet or in orbit (excluding space stations) as long as you have enough credits.
+TEXT_UW_ACT02_G10_10,Task: Sabotage the Orbital Long Range Scanner on Dathomir.
+TEXT_UW_ACT02_G10_11,Hint: Using sabotage can soften up an otherwise impenetrable world.  However, some enemy heroes can foil sabotage attempts.
+TEXT_UW_ACT02_G10_13,Task: Take Tyber Zann and Urai Fen to Dathomir to begin the mission.
 TEXT_UW_ACT02_G10_14,Sabotage Tutorial
-TEXT_UW_ACT02_G10_15,Defilers can also be used to destroy structures in orbit and on the ground by dragging them to the SABOTAGE context sensitive slot.  Only planets under the influence of corruption can be sabotaged.  The price is costly, but sabotage can make a huge difference when trying to crack a well-defended planet.
+TEXT_UW_ACT02_G10_15,Defilers can also be used to destroy structures in orbit and on the ground by dragging them to the "Sabotage" context sensitive slot.  Only planets under the influence of corruption can be sabotaged.  The price is costly, but sabotage can make a huge difference when trying to crack a well-defended planet.
 TEXT_UW_ACT02_G10_16,A planet's security grows more alert the more times you sabotage; the price will go up dramatically if you sabotage the same planet in rapid succession.  The price will eventually lower again over time.
 TEXT_UW_ACT02_G10_17,Clearing the Way
-TEXT_UW_ACT02_G13_19,TASK: Form a land force along with Tyber Zann and Urai Fen, and move it to Bespin to begin the mission.
-TEXT_UW_ACT02_G14_01,BONUS: Tyber Zann receives 50,000 credits from selling Tibanna Gas on the black market.
-TEXT_UW_ACT02_G15_09,TASK: Take Urai to Vergesso and use the stolen Imperial ships to defeat the Rebels.
-TEXT_UW_ACT02_G15_13,BONUS: A new ship, the Vengeance-class Frigate, has been unlocked and is ready for production.
+TEXT_UW_ACT02_G13_19,Task: Form a land force along with Tyber Zann and Urai Fen, and move it to Bespin to begin the mission.
+TEXT_UW_ACT02_G14_01,Bonus: Tyber Zann receives 50,000 credits from selling Tibanna Gas on the black market.
+TEXT_UW_ACT02_G15_09,Task: Take Urai to Vergesso and use the stolen Imperial ships to defeat the Rebels.
+TEXT_UW_ACT02_G15_13,Bonus: A new ship, the Vengeance-class Frigate, has been unlocked and is ready for production.
 TEXT_UW_ACT02_G15_14,Defeat all Rebel forces
 TEXT_UW_ACT02_G16_12,Task: Take Tyber along with a space fleet and meet the Imperial contact in orbit over Carida.
-TEXT_UW_ACT02_G16_13,BONUS: A new ship, the Aggressor-class Destroyer, has been unlocked and is available for production.
-TEXT_UW_ACT02_M07_19,NOTICE: Droid lost!
+TEXT_UW_ACT02_G16_13,Bonus: A new ship, the Aggressor-class Destroyer, has been unlocked and is available for production.
+TEXT_UW_ACT02_M07_19,Notice: Droid lost!
 TEXT_UW_ACT02_M07_GASCOUNTER_01,One gas container successfully collected.
 TEXT_UW_ACT02_M07_GASCOUNTER_02,Two gas containers successfully collected.
 TEXT_UW_ACT02_M07_GASCOUNTER_03,Three gas containers successfully collected.
@@ -19103,11 +19103,11 @@ TEXT_UW_ACT02_M07_GOAL_11,Use Tyber to locate and plant evidence at the four sec
 TEXT_UW_ACT02_M07_GOAL_X0,After filling your droids at the refineries, return them to the shuttle to unload the gas.
 TEXT_UW_ACT02_M09_GOAL_00,Bossk must survive.
 TEXT_UW_ACT02_M09_GOAL_01,Tyber Zann must survive.
-TEXT_UW_ACT03_G18_11,TASK: Re-take control of Mandalore and defeat Garm Bel Iblis
+TEXT_UW_ACT03_G18_11,Task: Re-take control of Mandalore and defeat Garm Bel Iblis
 TEXT_UW_ACT03_G18_12,The Siege of Mandalore
-TEXT_UW_ACT03_G18_13,BONUS: The Keldabe-class Battleship and the Canderous Assault Tank have been unlocked and are available for production.
-TEXT_UW_ACT03_G20_09,TASK: Form a fleet with Tyber, Urai and Silri only, and take them to Coruscant to begin the mission.
-TEXT_UW_ACT03_G21_06,TASK: Form a large fleet from your best ships including Tyber Zann, and go to Kuat!
+TEXT_UW_ACT03_G18_13,Bonus: The Keldabe-class Battleship and the Canderous Assault Tank have been unlocked and are available for production.
+TEXT_UW_ACT03_G20_09,Task: Form a fleet with Tyber, Urai and Silri only, and take them to Coruscant to begin the mission.
+TEXT_UW_ACT03_G21_06,Task: Form a large fleet from your best ships including Tyber Zann, and go to Kuat!
 TEXT_UW_ACT03_M11_GOAL_00,Tyber, Urai, and Silri must survive.
 TEXT_UW_ACT03_M11_GOAL_01,Destroy the monitoring controls.
 TEXT_UW_ACT03_M11_GOAL_02,Defeat the Force Adepts.
@@ -19120,40 +19120,40 @@ TEXT_UW_ACT03_M11_GOAL_07,Defeat the Force Adepts.
 TEXT_UW_ACT03_M11_GOAL_08,Gain access to the vault.
 TEXT_UW_ACT03_M11_GOAL_09,Escape with the passkey.
 TEXT_UW_ACT03_M11_GOAL_10,Use Ysalamiri Cages to defeat the Master Force Adept.
-TEXT_UW_ACT03_M11_HINT_00,HINT: Tyber can bribe some enemies even if there are obstacles in the way.
-TEXT_UW_ACT03_M11_HINT_01,HINT: If enemies cannot heal themselves, they will be easier to defeat.
-TEXT_UW_ACT03_M11_HINT_02,HINT: Silri can summon a rancor to her side, as well as leech life from enemies.
-TEXT_UW_ACT03_M11_HINT_03,HINT: Urai will heal himself over time, making hit-and-run a useful tactic.
-TEXT_UW_ACT03_M11_HINT_04,HINT: Silri's rancor counterpart deals heavy damage.
-TEXT_UW_ACT03_M11_HINT_05,HINT: The MDUs sensor jammers can block incoming missiles.
-TEXT_UW_ACT03_M11_HINT_06,HINT: The MDUs Ysalamiri cage will keep force users from using their powers.
-TEXT_UW_ACT03_M11_HINT_07,HINT: The Juggernaut's Point Laser Defense System destroys incoming missiles.
-TEXT_UW_ACT03_M11_HINT_08,HINT: The “Cloak” ability can confuse enemies and keep them from following you.
-TEXT_UW_ACT03_M11_HINT_09,NOTICE: You will be able to control Urai and Silri later.  For now, help Tyber focus on the mission at hand.
-TEXT_UW_ACT03_M11_HINT_10,NOTICE: You will be able to control Tyber and Urai later.  For now, help Silri focus on the mission at hand.
-TEXT_UW_ACT03_M11_HINT_11,NOTICE: You will be able to control Tyber and Silri later.  For now, help Urai focus on the mission at hand.
+TEXT_UW_ACT03_M11_HINT_00,Hint: Tyber can bribe some enemies even if there are obstacles in the way.
+TEXT_UW_ACT03_M11_HINT_01,Hint: If enemies cannot heal themselves, they will be easier to defeat.
+TEXT_UW_ACT03_M11_HINT_02,Hint: Silri can summon a rancor to her side, as well as leech life from enemies.
+TEXT_UW_ACT03_M11_HINT_03,Hint: Urai will heal himself over time, making hit-and-run a useful tactic.
+TEXT_UW_ACT03_M11_HINT_04,Hint: Silri's rancor counterpart deals heavy damage.
+TEXT_UW_ACT03_M11_HINT_05,Hint: The MDUs sensor jammers can block incoming missiles.
+TEXT_UW_ACT03_M11_HINT_06,Hint: The MDUs Ysalamiri cage will keep force users from using their powers.
+TEXT_UW_ACT03_M11_HINT_07,Hint: The Juggernaut's Point Laser Defense System destroys incoming missiles.
+TEXT_UW_ACT03_M11_HINT_08,Hint: The “Cloak” ability can confuse enemies and keep them from following you.
+TEXT_UW_ACT03_M11_HINT_09,Notice: You will be able to control Urai and Silri later.  For now, help Tyber focus on the mission at hand.
+TEXT_UW_ACT03_M11_HINT_10,Notice: You will be able to control Tyber and Urai later.  For now, help Silri focus on the mission at hand.
+TEXT_UW_ACT03_M11_HINT_11,Notice: You will be able to control Tyber and Silri later.  For now, help Urai focus on the mission at hand.
 TEXT_UW_ACT03_M12_GOAL_00,Capture the Eclipse using one of your shuttles.
 TEXT_UW_ACT03_M12_GOAL_01,Destroy the Super Star Destroyer.
 TEXT_UW_ACT03_M12_GOAL_02,Help the Rebel Alliance eliminate the three Imperial space stations.
 TEXT_UW_ACT03_M12_GOAL_03,Destroy the Millennium Falcon and drive the remaining Rebels from this sector.
 TEXT_UW_ACT03_M12_GOAL_04,Protect your shuttles.
 TEXT_UW_ACT03_M12_GOAL_05,The Merciless must survive.
-TEXT_UW_ACT03_M12_GOAL_06,NOTICE: Shuttle destroyed. Two remain.
-TEXT_UW_ACT03_M12_GOAL_07,NOTICE: Shuttle destroyed. One remains.
-TEXT_UW_ACT03_M12_GOAL_08,NOTICE: All shuttles have been destroyed.
-TEXT_UW_ACT03_M12_GOAL_09,NOTICE: The Merciless has been destroyed.
-TEXT_UW_ACT03_M12_GOAL_10,HINT: Maybe you can use your shuttles against the space stations...
-TEXT_UW_ACT03_M12_GOAL_11,NOTICE: Shuttle expended. Two remain.
-TEXT_UW_ACT03_M12_GOAL_12,NOTICE: Shuttle expended. One remains.
-TEXT_UW_ACT03_M12_GOAL_13,NOTICE: All shuttles have been expended.
+TEXT_UW_ACT03_M12_GOAL_06,Notice: Shuttle destroyed. Two remain.
+TEXT_UW_ACT03_M12_GOAL_07,Notice: Shuttle destroyed. One remains.
+TEXT_UW_ACT03_M12_GOAL_08,Notice: All shuttles have been destroyed.
+TEXT_UW_ACT03_M12_GOAL_09,Notice: The Merciless has been destroyed.
+TEXT_UW_ACT03_M12_GOAL_10,Hint: Maybe you can use your shuttles against the space stations...
+TEXT_UW_ACT03_M12_GOAL_11,Notice: Shuttle expended. Two remain.
+TEXT_UW_ACT03_M12_GOAL_12,Notice: Shuttle expended. One remains.
+TEXT_UW_ACT03_M12_GOAL_13,Notice: All shuttles have been expended.
 TEXT_UW_ACT03_M12_GOAL_14,Defend the Eclipse.
 TEXT_UW_ACT03_M12_GOAL_15,Destroy the remaining Imperial Shipyards.
 TEXT_UW_ACT03_M12_GOAL_16,Eliminate the Imperial space stations.
-TEXT_UW_ACT03_M12_GOAL_17,HINT: The Empire is repairing its damaged ships at the shipyards.
-TEXT_UW_ACT03_M12_GOAL_18,HINT: We hold a fragile truce with the Rebels. Use them while we can.
+TEXT_UW_ACT03_M12_GOAL_17,Hint: The Empire is repairing its damaged ships at the shipyards.
+TEXT_UW_ACT03_M12_GOAL_18,Hint: We hold a fragile truce with the Rebels. Use them while we can.
 TEXT_UW_ACT03_M12_GOAL_19,Capture the Eclipse using your shuttle.
 TEXT_UW_ACT03_M12_GOAL_20,Protect your shuttle.
-TEXT_UW_ACT03_M12_GOAL_21,NOTICE: Your shuttle has been destroyed.
+TEXT_UW_ACT03_M12_GOAL_21,Notice: Your shuttle has been destroyed.
 TEXT_UW_ACT03_M12_GOAL_22,Destroy the remaining Imperial forces.
 TEXT_UW_ACT03_M12_SHUTTLE_ENCYLOPEDIA_TEXT,Move this boarding shuttle close to the Eclipse to capture it.
 TEXT_UW_ACT03_M12_SHUTTLE_TEXT,Boarding Shuttle

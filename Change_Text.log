@@ -42,8 +42,8 @@ v2.0.0.#### (##-##-2024) [FoC v1.121.]
 ============================================
 
 Housekeeping:
-• Various dialogue text during the prologue and campaign would not be double-spaced, despite the vast majority of dialogue and whatnot being double-spaced in EaW and partially done in FoC.  As to not conflict with other changes of the same keys, double-spacing has been rectified on all dialogue strings and remains unmarked in this file.  (The German translation did not suffer this issue.) (BUG #208).
-• Various text across EaW and FoC would inconsistently use a special "…" ellipses character, or "..." three periods.  Because back-and-forth use of ellipses caused spacing issues, the ellipses character can be harder to read at higher resolutions and isn't readable in normal text files, all ellipses have been swapped out for three periods.  (The German translation did not suffer this issue.) (BUG #211)
+• Dialogue text during the Consortium's prologue and campaign would not be double-spaced, despite the vast majority of dialogue being double-spaced in EaW (and partially in FoC).  Double-spacing has been rectified on all dialogue, and remains unmarked in this file to avoid conflicts with changes on the same text keys. (The German translation did not suffer this issue.) (BUG #208).
+• Various texts across EaW and FoC would inconsistently use a special "…" ellipses character, or "..." three periods.  The ellipses character can be harder to read at higher resolutions, and because back-and-forth use of ellipses and periods caused spacing issues, all ellipses have been swapped out for three periods.  As to not conflict with other changes of the same keys, the changes remains unmarked in this file. (The German translation did not suffer this issue.) (BUG #211)
 
 
 Corrections:
