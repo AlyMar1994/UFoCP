@@ -27,10 +27,10 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		
-		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
-		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
-		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>			
+
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -40,7 +40,7 @@
 
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Is_Dummy>No</Is_Dummy>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
@@ -56,7 +56,7 @@
 		<Should_Be_Destroyed_When_All_Hardpoints_Destroyed> No </Should_Be_Destroyed_When_All_Hardpoints_Destroyed>
 
 
-		<Destruction_Survivors> 
+		<Destruction_Survivors>
 			Underworld_Merc_Squad, 1.0
 		</Destruction_Survivors>
 
@@ -81,7 +81,7 @@
 		<Required_Special_Structures />
 		<Required_Planets />
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
-		
+
 		<Tactical_Health>2400</Tactical_Health>
 		<Shield_Points>1000</Shield_Points>
 		<Shield_Refresh_Rate>45</Shield_Refresh_Rate>
@@ -104,12 +104,12 @@
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<CategoryMask> Structure </CategoryMask>
 
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
-		
+
 		<Tactical_Buildable_Objects_Campaign>
 			Underworld,
 				UL_BM_Shielding_L1_Upgrade_NO_PREREQ,
@@ -117,8 +117,8 @@
 				UL_Rancor_Stimulant_L1_Upgrade_NO_PREREQ,
 				UL_Rancor_Stimulant_L2_Upgrade_NO_PREREQ
 		</Tactical_Buildable_Objects_Campaign>
-		
-		<Tactical_Buildable_Objects_Multiplayer> 
+
+		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
 				Bossk_Team,
 				IG88_Team_Land_MP,
@@ -136,11 +136,11 @@
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<HQ_Win_Condition_Relevant>yes</HQ_Win_Condition_Relevant>
-		
+
 		<AI_Combat_Power>300</AI_Combat_Power>
 
 		<Abilities SubObjectList="Yes">
-		
+
 			<Force_Healing_Ability Name="U_Palace1_Self_Repair">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
@@ -169,7 +169,7 @@
 				<Additional_Multiplier_On_Mining_Colonies>2.5</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
 			</Planet_Income_Bonus_Ability>
-			
+
 			<Income_Stream_Ability Name="Underworld_Palace_Income_Stream">
 				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
 				<Base_Income_Value>50</Base_Income_Value>
@@ -184,7 +184,7 @@
  				<Activation_Style>Ground_Automatic</Activation_Style>
  				<Affects_All_Allies>True</Affects_All_Allies>
  			</Enable_Radar_Ability>
- 			
+
 			<Base_Power_Ability Name="Underworld_Palace_Base_Power">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 			</Base_Power_Ability>
@@ -204,7 +204,7 @@
 			</Redirect_Blaster_Ability>
 
 		</Abilities>
-	
+
 	</SpecialStructure>
 
 
@@ -229,10 +229,10 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		
-		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
-		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
-		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>			
+
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -243,16 +243,16 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.3</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Is_Dummy>No</Is_Dummy>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		
+
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
-		<Destruction_Survivors> 
+		<Destruction_Survivors>
 			Underworld_Merc_Squad, 1.0
 		</Destruction_Survivors>
 
@@ -282,7 +282,7 @@
 		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
 		<Energy_Capacity>9000</Energy_Capacity>
 		<Energy_Refresh_Rate>9000</Energy_Refresh_Rate>
-				
+
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -300,20 +300,20 @@
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<CategoryMask> Structure </CategoryMask>
 
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
-		
+
 		<Tactical_Buildable_Objects_Campaign>
 			Underworld,
 				UL_Ability_Recharge_L1_Upgrade_NO_PREREQ,
 				UL_Ability_Recharge_L2_Upgrade_NO_PREREQ
 		</Tactical_Buildable_Objects_Campaign>
-		
-		<Tactical_Buildable_Objects_Multiplayer> 
+
+		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
 				Underworld_Disruptor_Merc_Squad,
 				Underworld_Merc_Squad,
@@ -327,14 +327,14 @@
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		
+
 		<Starting_Spawned_Units_Tech_0>Underworld_Merc_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Underworld_Merc_Squad, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>Underworld_Disruptor_Merc_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Underworld_Disruptor_Merc_Squad, -1</Reserve_Spawned_Units_Tech_0>
-		
-		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>		
+
+		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>
 		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
@@ -399,10 +399,10 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		
-		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
-		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
-		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>			
+
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -412,16 +412,16 @@
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.2</Scale_Factor>
-		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Is_Dummy>No</Is_Dummy>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		
+
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
-		<Destruction_Survivors> 
+		<Destruction_Survivors>
 			Underworld_Merc_Squad, 1.0
 		</Destruction_Survivors>
 
@@ -451,7 +451,7 @@
 		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
 		<Energy_Capacity>9000</Energy_Capacity>
 		<Energy_Refresh_Rate>9000</Energy_Refresh_Rate>
-				
+
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -469,13 +469,13 @@
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<CategoryMask> Structure </CategoryMask>
 
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
-		
+
 		<Tactical_Buildable_Objects_Campaign>
 			Underworld,
 				UL_MDU_Armor_Plating_L1_Upgrade_NO_PREREQ,
@@ -483,8 +483,8 @@
 				UL_Smuggled_Droid_Systems_L1_Upgrade_NO_PREREQ,
 				UL_Smuggled_Droid_Systems_L2_Upgrade_NO_PREREQ
 		</Tactical_Buildable_Objects_Campaign>
-		
-		<Tactical_Buildable_Objects_Multiplayer> 
+
+		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
 				Destroyer_Droid_Company,
 				Underworld_MDU_Company,
@@ -499,7 +499,7 @@
 		<Starting_Spawned_Units_Tech_0>Destroyer_Droid, 6</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Destroyer_Droid, -1</Reserve_Spawned_Units_Tech_0>
 
-		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>		
+		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>
 		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
@@ -522,7 +522,7 @@
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
-			
+
 			<Redirect_Blaster_Ability Name="U_Magnetically_Sealed_Structure">
 				<Initially_Enabled> No </Initially_Enabled>
 				<Activation_Style>Take_Damage</Activation_Style>
@@ -536,7 +536,7 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-			
+
 		</Abilities>
 	</SpecialStructure>
 
@@ -554,7 +554,7 @@
 		<Select_Box_Scale>180</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.3</Scale_Factor>
-		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<GUI_Row> 0 </GUI_Row>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
@@ -565,10 +565,10 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		
-		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
-		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
-		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>			
+
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -577,13 +577,13 @@
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Is_Dummy>No</Is_Dummy>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		
+
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
 		<Armor_Type> Armor_Structure </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
-		<Destruction_Survivors> 
+		<Destruction_Survivors>
 			Underworld_Merc_Squad, 1.0
 		</Destruction_Survivors>
 
@@ -613,7 +613,7 @@
 		<Shield_Refresh_Rate>28</Shield_Refresh_Rate>
 		<Energy_Capacity>9000</Energy_Capacity>
 		<Energy_Refresh_Rate>9000</Energy_Refresh_Rate>
-				
+
 		<Victory_Relevant>yes</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -631,20 +631,20 @@
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<CategoryMask> Structure </CategoryMask>
 
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
 		<Property_Flags>InBase</Property_Flags>
-		
+
 		<Tactical_Buildable_Objects_Campaign>
 			Underworld,
 				UL_Weapon_Boost_L1_Upgrade_NO_PREREQ,
 				UL_Weapon_Boost_L2_Upgrade_NO_PREREQ
 		</Tactical_Buildable_Objects_Campaign>
 
-		<Tactical_Buildable_Objects_Multiplayer> 
+		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
 				F9TZ_Cloaking_Transport_Company,
 				MAL_Rocket_Vehicle_Company,
@@ -661,8 +661,8 @@
 
 		<Starting_Spawned_Units_Tech_0>MZ8_Pulse_Cannon_Tank, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>MZ8_Pulse_Cannon_Tank, -1</Reserve_Spawned_Units_Tech_0>
-		
-		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>		
+
+		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>180.0</Spawned_Squadron_Location_Flyout_Distances>
 		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
@@ -685,7 +685,7 @@
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
-			
+
 			<Redirect_Blaster_Ability Name="U_Magnetically_Sealed_Structure">
 				<Initially_Enabled> No </Initially_Enabled>
 				<Activation_Style>Take_Damage</Activation_Style>
@@ -699,7 +699,7 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-			
+
 		</Abilities>
 	</SpecialStructure>
 
@@ -716,8 +716,8 @@
 		<Land_Model_Name>NB_Bunker.alo</Land_Model_Name>
 		<Icon_Name>i_button_nb_bunker.tga</Icon_Name>
 
-        <Space_Layer> Land </Space_Layer>	
-        <UnitCollisionClass> Vehicle </UnitCollisionClass>	
+        <Space_Layer> Land </Space_Layer>
+        <UnitCollisionClass> Vehicle </UnitCollisionClass>
         <Custom_Hard_XExtent> 26.0 </Custom_Hard_XExtent>
         <Custom_Hard_YExtent> 26.0 </Custom_Hard_YExtent>
 
@@ -735,7 +735,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		
+
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -744,10 +744,10 @@
 		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Is_Dummy>No</Is_Dummy>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		
+
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
 		<Armor_Type> Armor_Bunker </Armor_Type>
@@ -776,7 +776,7 @@
 		<CategoryMask> Structure </CategoryMask>
 
 
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
