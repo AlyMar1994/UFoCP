@@ -885,6 +885,7 @@
 	<!-- on Bespin after the raid on Cloud City. -->
 	<HeroCompany Name="Darth_Team_Land_Bounty_Hunter_Immune">
 		<Variant_Of_Existing_Type>Darth_Team_Executor</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
 		<Company_Units>Darth_Vader_Bounty_Hunter_Immune</Company_Units>
 		<Available_In_Skirmish>No</Available_In_Skirmish>
 	</HeroCompany>
