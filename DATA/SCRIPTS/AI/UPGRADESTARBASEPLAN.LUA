@@ -46,7 +46,7 @@ ScriptPoolCount = 16
 
 function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
-	
+
 	Category = "Upgrade_Starbase | Build_Initial_Starbase_Only"
 	IgnoreTarget = true
 	TaskForce = {
@@ -61,10 +61,10 @@ end
 
 function BaseForce_Thread()
 	DebugMessage("%s -- In BaseForce_Thread.", tostring(Script))
-	
+
 	BaseForce.Set_As_Goal_System_Removable(false)
 	AssembleForce(BaseForce)
-	
+
 	BaseForce.Set_Plan_Result(true)
 	DebugMessage("%s -- BaseForce done!", tostring(Script));
 	ScriptExit()
