@@ -64,6 +64,9 @@ Housekeeping:
 • TEXT_SPEECH_UW_ACT02_M07_24: (BUG #212)
 	-- ENG: Underworld Soldier: What appears to be Lord Vader's shuttle... -> Zann Consortium Soldier: What appears to be Lord Vader's shuttle...
 	-- GER: Unterwelt-Soldat: Ein Schiff, anscheinend Lord Vaders Fähre... -> Soldat des Zann-Konsortiums: Ein Schiff, anscheinend Lord Vaders Fähre...
+• TEXT_TOOLTIP_ABILITY_AREA_EFFECT_CONVERT_DESCRIPTION: (BUG #134)
+	-- ENG: ...Affected units will fight for the Empire for the duration of the battle. -> Affected units will fight for the Empire for a limited amount of time.
+	-- GER: ...Die betroffenen Einheiten werden für die Dauer der Schlacht auf der Seite des Imperiums kämpfen. -> ...Die betroffenen Einheiten werden für eine begrenzte Zeit auf der Seite des Imperiums kämpfen.
 • TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS: (BUG #142)
 	-- ENG: This ship can only be built on Kuat, Sullust, Fondor, Hypori or Mon Calamari. -> This ship can only be built on Fondor, Hypori, Kuat, Mandalore, Mon Calamari or Sullust.
 	-- GER: Dieses Schiff kann nur auf Kuat, Sullust, Fondor, Hypori oder Mon Calamari gebaut werden. -> Dieses Schiff kann nur auf Fondor, Hypori, Kuat, Mandalore, Mon Calamari oder Sullust gebaut werden.
