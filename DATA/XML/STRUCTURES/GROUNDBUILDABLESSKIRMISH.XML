@@ -5073,7 +5073,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures> U_Ground_Vehicle_Factory </Required_Special_Structures>
 		<Required_Planets />
-		<!--<Tactical_Additional_Structure_Type>U_Ground_Palace</Tactical_Additional_Structure_Type>-->
+		<Tactical_Additional_Structure_Type>U_Ground_Palace</Tactical_Additional_Structure_Type>
 		<Tactical_Health>900</Tactical_Health>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Obstacle_Width>220.0</Obstacle_Width>
@@ -5155,7 +5155,7 @@
 
 	<GroundBuildable Name="Skirmish_Ground_Gravity_Generator_U">
 		<Variant_Of_Existing_Type>U_Ground_Gravity_Generator</Variant_Of_Existing_Type>
-		<!--<Tactical_Additional_Structure_Type>U_Ground_Palace</Tactical_Additional_Structure_Type>-->
+		<Tactical_Additional_Structure_Type>U_Ground_Palace</Tactical_Additional_Structure_Type>
 		<Space_Layer> Land </Space_Layer>
 		<Scale_Factor>0.82</Scale_Factor>
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
