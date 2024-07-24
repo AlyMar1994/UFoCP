@@ -49,7 +49,7 @@ Housekeeping:
 • TEXT_PLANET_CAPITAL_SHIP_PRODUCER: (BUG #145)
 	-- ENG: This planet can produce capital ships (Mon Calamari Cruisers or Imperial Star Destroyers). -> This planet can produce capital ships (Mon Calamari Cruisers, Imperial Star Destroyers, Aggressor-class Destroyers or Keldabe-class Battleships).
 	-- GER: Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer oder imperiale Sternenzerstörer). -> Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer, imperiale Sternenzerstörer, Zerstörer der Aggressor-Klasse oder Kampfschiff der Kedalbe-Klasse).
-• TEXT_PLANET_HYPORI_ENCYC: (BUG #216)
+• TEXT_PLANET_HYPORI_ENCYC/TEXT_PLANET_HYPORI_INFO_TAC: (BUG #216)
 	-- ENG: Production Time Reduction (ground vehicles): While this planet is controlled, all ground vehicles take 25% less time to build -> Production Time Reduction (ground vehicles): While this planet is controlled, all ground vehicles take 25% less time to build (excludes Dark Troopers and Destroyer Droids).
 	-- GER: Schnellere Produktion (Bodenfahrzeuge): Solange diese Welt kontrolliert wird, braucht die Produktion von Bodenfahrzeugen 25 % weniger Zeit. -> Schnellere Produktion (Bodenfahrzeuge): Solange diese Welt kontrolliert wird, braucht die Produktion von Bodenfahrzeugen 25 % weniger Zeit (Dunklen Truppe und Zerstörerdroiden sind ausgeschlossen).
 • TEXT_HERO_GARM_BEL_IBLIS/TEXT_HERO_GARM_BEL_IBLIS_TEAM: (BUG #184)
