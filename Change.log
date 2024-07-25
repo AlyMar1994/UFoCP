@@ -157,6 +157,7 @@ Map/Planet Fixes:
 • Shola would damage Darth Vader because the map's infantry damage script marker didn't include his FoC land unit, only his EaW one. (BUG #27)
 • Land Bothawui's intimidation mission had a landing platform that would disappear when the Rebels owned the planet, leaving two floating Gallofree Transports. (BUG #217)
 • Land Bothawui's intimidation mission had Rebel Gallofree Transports instead of Imperial Lambda Shuttles when the Empire owns the planet. (BUG #218)
+• Land Bothawui's intimidation mission had a group of Bothan guards set to Rebel-only, instead of letting the script handle their faction, leading to the Empire version of the mission lacking a squad of Bothan guards. (BUG #220)
 
 
 Model Fixes:
