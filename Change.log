@@ -156,6 +156,7 @@ Map/Planet Fixes:
 • The Death Star II would target Nal Hutta's moon because it used a scaled-down version of Coruscant's planet GFX.  The moon would explode, and upon returning to the map, magically reappear with Nal Hutta destroyed.  A new moon entry, "Nar_Shaddaa_Backdrop" (the moon's cannonical name) has been added to rectify the issue and been swapped into the map. (BUG #166)
 • Shola would damage Darth Vader because the map's infantry damage script marker didn't include his FoC land unit, only his EaW one. (BUG #27)
 • Land Bothawui's intimidation mission had a landing platform that would disappear when the Rebels owned the planet, leaving two floating Gallofree Transports. (BUG #217)
+• Land Bothawui's intimidation mission had Rebel Gallofree Transports instead of Imperial Lambda Shuttles when the Empire owns the planet. (BUG #218)
 
 
 Model Fixes:
