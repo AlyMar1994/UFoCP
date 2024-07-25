@@ -155,6 +155,7 @@ Map/Planet Fixes:
 • Land Honoghr had two spots where droidekas would get softlocked because the factories would spawn them into "Steep" terrain and be unable to move. (BUG #77)
 • The Death Star II would target Nal Hutta's moon because it used a scaled-down version of Coruscant's planet GFX.  The moon would explode, and upon returning to the map, magically reappear with Nal Hutta destroyed.  A new moon entry, "Nar_Shaddaa_Backdrop" (the moon's cannonical name) has been added to rectify the issue and been swapped into the map. (BUG #166)
 • Shola would damage Darth Vader because the map's infantry damage script marker didn't include his FoC land unit, only his EaW one. (BUG #27)
+• Land Bothawui's intimidation mission had a landing platform that would disappear when the Rebels owned the planet, leaving two floating Gallofree Transports. (BUG #217)
 
 
 Model Fixes:
