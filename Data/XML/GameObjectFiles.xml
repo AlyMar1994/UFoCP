@@ -17,9 +17,9 @@
 	<File>GroundBuildablesRebel.xml</File>
 	<File>GroundBuildablesEmpire.xml</File>
 	<File>GroundBuildablesPirate.xml</File>
-	<File>Structures\GroundBuildablesSkirmish.xml</File>
+	<File>Maps\GroundBuildablesSkirmish.xml</File>
 
-	<File>Props\SpaceProps.xml</File>
+	<File>Maps\SpaceProps.xml</File>
 	<File>SpaceUnitsCapital.xml</File>
 	<File>SpaceUnitsFighters.xml</File>
 	<File>Units\SpaceUnitsCorvettes.xml</File>
@@ -38,8 +38,8 @@
 
 	<File>LandBombingRunUnits.xml</File>
 
-	<File>Structures\SpecialStructures.xml</File>
-	<File>Structures\StarBases.xml</File>
+	<File>Maps\SpecialStructures.xml</File>
+	<File>Maps\StarBases.xml</File>
 
 	<File>Units\Squadrons.xml</File>
 
@@ -65,8 +65,8 @@
 	<File>Props_Snow.xml</File>
 	<File>Props_Desert.xml</File>
 	<File>Props_Urban.xml</File>
-	<File>Props\Props_Generic.xml</File>
-	<File>Props\Props_Story.xml</File>
+	<File>Maps\Props_Generic.xml</File>
+	<File>Maps\Props_Story.xml</File>
 
 	<File>CIN_SpaceUnitsCapital.xml</File>
 	<File>CIN_SpaceUnitsFighters.xml</File>
@@ -120,14 +120,14 @@
 
 	<!-- Expansion Units: Underworld -->
 
-	<File>Units\Consortium\Units_Hero_Underworld_IG88.xml</File>
-	<File>Units\Consortium\Units_Hero_Underworld_Bossk.xml</File>
-	<File>Units\Consortium\Units_Hero_Underworld_Tyber_Zann.xml</File>
-	<File>Units\Consortium\Units_Hero_Underworld_Silri.xml</File>
-	<File>Units\Consortium\Units_Hero_Underworld_Urai_Fen.xml</File>
+	<File>Units\Underworld\Units_Hero_Underworld_IG88.xml</File>
+	<File>Units\Underworld\Units_Hero_Underworld_Bossk.xml</File>
+	<File>Units\Underworld\Units_Hero_Underworld_Tyber_Zann.xml</File>
+	<File>Units\Underworld\Units_Hero_Underworld_Silri.xml</File>
+	<File>Units\Underworld\Units_Hero_Underworld_Urai_Fen.xml</File>
 
-	<File>Units\Consortium\Units_Land_Underworld_MercenaryInf.xml</File>
-	<File>Units\Consortium\Units_Land_Underworld_DisruptorInf.xml</File>
+	<File>Units\Underworld\Units_Land_Underworld_MercenaryInf.xml</File>
+	<File>Units\Underworld\Units_Land_Underworld_DisruptorInf.xml</File>
 	<File>Units_Land_Underworld_DestroyerDroids.xml</File>
 	<File>Units_Land_Underworld_Vornskr.xml</File>
 	<File>Units_Land_Underworld_F9TZ_Transport.xml</File>
@@ -136,19 +136,19 @@
 	<File>Units_Land_Underworld_Canderous_Tank.xml</File>
 	<File>Units_Land_Underworld_ScavengerDroids.xml</File>
 	<File>Units_Land_Underworld_NightSister.xml</File>
-	<File>Units\Consortium\Units_Land_Underworld_Ewok_Bomber.xml</File>
+	<File>Units\Underworld\Units_Land_Underworld_Ewok_Bomber.xml</File>
 
 	<File>Units_Space_Underworld_StarViper.xml</File>
 	<File>Units_Space_Underworld_Skipray.xml</File>
 	<File>Units_Space_Underworld_Crusader_Gunship.xml</File>
-	<File>Units\Consortium\Units_Space_Underworld_Interceptor4.xml</File>
+	<File>Units\Underworld\Units_Space_Underworld_Interceptor4.xml</File>
 	<File>Units_Space_Underworld_Vengeance.xml</File>
-	<File>Units\Consortium\Units_Space_Underworld_Kadalbe_Battleship.xml</File>
-	<File>Units\Consortium\Units_Space_Underworld_Krayt_Destroyer.xml</File>
+	<File>Units\Underworld\Units_Space_Underworld_Kadalbe_Battleship.xml</File>
+	<File>Units\Underworld\Units_Space_Underworld_Krayt_Destroyer.xml</File>
 	<File>Units_Space_Underworld_Buzz_Droids.xml</File>
 
-	<File>Structures\SpecialStructures_Underworld.xml</File>
-	<File>Structures\Consortium\StarBases_Underworld.xml</File>
+	<File>Maps\SpecialStructures_Underworld.xml</File>
+	<File>Maps\StarBases_Underworld.xml</File>
 
 
 
@@ -163,14 +163,14 @@
 
 	<File>SpaceProps_Underworld.xml</File>
 	<File>Underworld_TransportUnits.xml</File>
-	<File>Units\Consortium\Minor_Heroes_Expansion.xml</File>
+	<File>Units\Underworld\Minor_Heroes_Expansion.xml</File>
 	<File>Props_Felucia.xml</File>
 	<File>GroundBuildablesUnderworld.xml</File>
 	<File>GroundStructures_Underworld.xml</File>
 	<File>Units\Mobile_Defense_Units.XML</File>
 	<File>Multiplayer_Structure_Markers.XML</File>
 	<File>Modifiers\UpgradeObjects_Underworld.XML</File>
-	<File>Units\Consortium\Corruption_Special_Units.XML</File>
+	<File>Units\Underworld\Corruption_Special_Units.XML</File>
 
 
 
