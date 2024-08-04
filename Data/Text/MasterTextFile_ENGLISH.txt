@@ -1544,7 +1544,7 @@ TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02,Allows Production (with pre-requisites) of: Im
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03,Allows Production (with pre-requisites) of: Imperial Space Station Lv. 4, Orbital Long Range Scanner, TIE scout, Hypervelocity Gun, Mining Facility, Advanced Factory, 2-M Repulsor Tanks, AT-AT Walker, Upgrade to Tech Level 4
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04,Allows Production (with pre-requisites) of: Imperial Space Station Lv. 5, Gravity Well Station, Imperial-class Star Destroyer, Interdictor Cruiser, Repulsor Lift Jammer, AT-AA Walker, Upgrade to Tech Level 5
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05,Allows Production (with pre-requisites) of: The Death Star
-TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE,An indigenous unit enslaved to the will of the Zann Consortium
+TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE,This indigenous unit is enslaved to the will of the Zann Consortium.
 TEXT_ENCYCLOPEDIA_TURBOLASER_00,A surface-to-surface weapon capable of destroying the most powerful enemy assault vehicles, but has little effect against smaller fast-moving objects.
 TEXT_ENCYCLOPEDIA_TURBOLASER_DEFENSE,Places 2-5 turbolaser towers in strategic defensive positions around your base.  The number of towers depends on the size of the base and the planet's terrain.
 TEXT_ENCYCLOPEDIA_TWILEK_SPAWNER,Periodically creates Twi'leks until destroyed.
@@ -18139,6 +18139,23 @@ TEXT_TOOLTIP_HUTT_PALACE_SKIRMISH,Allows production of various Hutt units and up
 TEXT_TOOLTIP_HYPERV_BUTTON,Fire the Hypervelocity Gun
 TEXT_TOOLTIP_IG2000,IG-88's ship is an extension of his own mind.
 TEXT_TOOLTIP_IG88,A sinister bounty hunter with the body of a droid and the mind of a hyper-intelligent AI. Can deploy at a system to eliminate enemy heroes.
+TEXT_TOOLTIP_INDIG_BOTHAN_CIV,The native inhabitant of Bothawui.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_ELITE_GUARD,The emperor's highly-trained bodyguards, clad in red.  Royal Guards use force pikes, an energy staff that is effective against infantry and land heroes.
+TEXT_TOOLTIP_INDIG_EWOK,The native creature inhabiting Endor's forest moon.  Ewoks hurl stones and rocks at their enemies, which are effective against infantry and structures.
+TEXT_TOOLTIP_INDIG_GEONOSIAN,The winged insect-like inhabitant of Geonosis.  Geonosians use sonic blasters, which are effective against bunkers and light vehicles.
+TEXT_TOOLTIP_INDIG_GUNGAN,The native aquatic inhabitant of Naboo.  Gungans hurl boomas, plasma energy grenades, which are effective against structures and vehicles.
+TEXT_TOOLTIP_INDIG_HUMAN_CIV,The native humans inhabiting this planet.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_HUTT_CIV,The native slug-like inhabitant of Nal Hutta.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_JAWA,One of the inhabitants of Tatooine.  Jawas use ion blasters, which are particularly powerful against shields and vehicles.
+TEXT_TOOLTIP_INDIG_MANDALORIAN,The native inhabitant of Mandalore.  Armed with a rapid-fire blaster rifle, Mandalorians are highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_MONCAL_CIV,One of the native aquatic inhabitants of Mon Calamari.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_MUSTAFARIAN,The native inhabitant of Mustafar.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_PYNGANI,The native inhabitant of Polus.  The Pyn'gani use carbonite guns, a well-rounded weapon effective against most structures, infantry and light vehicles.
+TEXT_TOOLTIP_INDIG_SULLUSTAN,The native inhabitant of Sullust.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_TUSKEN_RAIDER,One of the inhabitants of Tatooine.  Tusken Raiders use sniper rifles, which are effective against infantry.
+TEXT_TOOLTIP_INDIG_TWILEK_CIV,The native inhabitant of Ryloth.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_WOOKIE,The native inhabitant of Kashyyyk.  Wookiee Warriors are equipped with powerful bowcasters, which deal heavy damage to infantry.
+TEXT_TOOLTIP_INDIG_WOOKIE_UNARMED,The native inhabitant of Kashyyyk.  This Warrior is defenseless, and will run when approached.
 TEXT_TOOLTIP_INFILTRATOR,Highly trained special-weapons soldier armed with sniper rifle and able to plant explosive devices.
 TEXT_TOOLTIP_INFO_CREDITS_GAINED,%d Credits gained from capture of planet %s
 TEXT_TOOLTIP_INFO_CREDITS_LOST,%d Credits lost from defeat at planet %s
@@ -18185,7 +18202,7 @@ TEXT_TOOLTIP_MZ8_PC_TANK,The MZ-8 is a tracked, heavily armed tank.  It is, howe
 TEXT_TOOLTIP_NEBULON_B,Medium Rebel frigate armed with 2 turbolaser batteries and 2 laser cannon batteries. A general purpose combat ship without any notable weaknesses.
 TEXT_TOOLTIP_NEXT_BUTTON,Next controlled planet
 TEXT_TOOLTIP_NIGHT_SISTER,Native to Dathomir, the Nightsisters use the dark side of the Force to control their rancor mounts.
-TEXT_TOOLTIP_NOGHRI_ASSASSIN,The Noghri have pledged their service to Darth Vader in return for aiding their people.  They are fierce warriors and assassins.
+TEXT_TOOLTIP_NOGHRI_ASSASSIN,The Noghri have pledged their service to Darth Vader in return for aiding their people.  They are fierce warriors and assassins equipped with disruptor cannons, which are highly effective against everything except shields.
 TEXT_TOOLTIP_OBI_WAN,A Jedi Knight powerful in the light side of the Force. Able to heal and protect allies.
 TEXT_TOOLTIP_OBI_WAN_01,A Jedi Knight powerful in the light side of the Force. Able to heal himself and protect allies.
 TEXT_TOOLTIP_OFFENSIVE_SENSOR_NODE,Reveals terrain through the fog of war in a large radius; this node can protect itself using an energy discharge weapon.

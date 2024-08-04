@@ -1544,7 +1544,7 @@ TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02,Ermöglicht bei Erfüllung der Vorbedingungen 
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03,Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums - Stufe 4, Orbital-Langstreckenscanner, TIE-Scout, Hyper-V-Geschütz, Mine, Verbesserte Fabrik, Repulsor-Panzer 2-M, AT-AT-Kampfläufer, Aufrüstung auf Tech-Stufe 4
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04,Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums - Stufe 5, Schwerkraftsteuerung, Imperialer Sternenzerstörer, Kreuzer der Interdictor-Klasse, Repulsorlift-Störer, AT-AA-Kampfläufer, Aufrüstung auf Tech-Stufe 5
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05,Ermöglicht bei Erfüllung der Vorbedingungen die Produktion des Todessterns
-TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE,Ein einheimisches Lebewesen, das vom Zann-Konsortium versklavt wurde.
+TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE,Diese einheimische Einheit wird vom Zann-Konsortium versklavt.
 TEXT_ENCYCLOPEDIA_TURBOLASER_00,Eine Boden-Boden-Waffe, die selbst die stärksten Sturmfahrzeuge des Gegners vernichten kann, gegen kleine, schnelle Ziele aber nicht sehr treffsicher ist.
 TEXT_ENCYCLOPEDIA_TURBOLASER_DEFENSE,Errichtet 2 bis 5 Turbolaser-Türme in strategischen Abwehrpositionen rund um Euren Stützpunkt. Die genaue Anzahl der Türme richtet sich nach der Stützpunktgröße und dem Gelände.
 TEXT_ENCYCLOPEDIA_TWILEK_SPAWNER,Bringt regelmäßig Twi'leks hervor, bis es zerstört wird.
@@ -18139,6 +18139,23 @@ TEXT_TOOLTIP_HUTT_PALACE_SKIRMISH,Ermöglicht die Herstellung verschiedener Hutt
 TEXT_TOOLTIP_HYPERV_BUTTON,Hyper-V-Geschütz abfeuern
 TEXT_TOOLTIP_IG2000,Das Schiff des IG-88 ist eine Erweiterung seines eigenen Verstandes.
 TEXT_TOOLTIP_IG88,Ein unheimlicher Kopfgeldjäger mit dem Körper eines Droiden und einer superintelligenten künstlichen Intelligenz. Kann in einem System eingesetzt werden, um gegnerische Helden zu eliminieren.
+TEXT_TOOLTIP_INDIG_BOTHAN_CIV,Die Ureinwohner von Bothawui. Leicht bewaffnet, aber hoch motiviert, ihre Heimat zu verteidigen.
+TEXT_TOOLTIP_INDIG_ELITE_GUARD,Die hochtrainierten Leibwächter des Kaisers, gekleidet in Rot. Die kaiserliche Garde verwendet Force Pikes, einen Energiestab, der gegen Infanterie und Landhelden wirksam ist.
+TEXT_TOOLTIP_INDIG_EWOK,Die einheimische Kreatur, die den Waldmond von Endor bewohnt. Ewoks schleudern Steine und Felsen auf ihre Feinde, die gegen Infanterie und Strukturen wirksam sind.
+TEXT_TOOLTIP_INDIG_GEONOSIAN,Der geflügelte, insektenartige Bewohner von Geonosis. Geonosianer verwenden Schallblaster, die gegen Bunker und leichte Fahrzeuge wirksam sind.
+TEXT_TOOLTIP_INDIG_GUNGAN,Die einheimische Wasserbewohnerin von Naboo. Gungans schleudern Boomas, Plasma-Energiegranaten, die gegen Strukturen und Fahrzeuge wirksam sind.
+TEXT_TOOLTIP_INDIG_HUMAN_CIV,Die einheimischen Menschen, die diesen Planeten bewohnen. Leicht bewaffnet, aber hoch motiviert, ihre Heimat zu verteidigen.
+TEXT_TOOLTIP_INDIG_HUTT_CIV,Die Ureinwohner von Nal Hutta. Leicht bewaffnet, aber hoch motiviert, ihre Heimat zu verteidigen.
+TEXT_TOOLTIP_INDIG_JAWA,Einer der Bewohner von Tatooine. Jawas benutzen Ionenblaster, die besonders stark gegen Schilde und Fahrzeuge sind.
+TEXT_TOOLTIP_INDIG_MANDALORIAN,Der Ureinwohner von Mandalore. Bewaffnet mit einem Schnellfeuer-Blastergewehr, sind Mandalorianer hoch motiviert, ihre Heimat zu verteidigen.
+TEXT_TOOLTIP_INDIG_MONCAL_CIV,Einer der einheimischen Wasserbewohner von Mon Calamari. Leicht bewaffnet, aber hoch motiviert, ihre Heimat zu verteidigen.
+TEXT_TOOLTIP_INDIG_MUSTAFARIAN,Die Ureinwohner von Mustafar. Leicht bewaffnet, aber hoch motiviert, ihre Heimat zu verteidigen.
+TEXT_TOOLTIP_INDIG_PYNGANI,Die Ureinwohner von Polus. Die Pyn'gani verwenden Karbonitkanonen, eine vielseitige Waffe, die gegen die meisten Strukturen, Infanterie und leichte Fahrzeuge wirksam ist.
+TEXT_TOOLTIP_INDIG_SULLUSTAN,Die Ureinwohner von Sullust. Leicht bewaffnet, aber hoch motiviert, ihre Heimat zu verteidigen.
+TEXT_TOOLTIP_INDIG_TUSKEN_RAIDER,Einer der Bewohner von Tatooine. Tusken-Räuber verwenden Scharfschützengewehre, die gegen Infanterie wirksam sind.
+TEXT_TOOLTIP_INDIG_TWILEK_CIV,Die Ureinwohner von Ryloth. Leicht bewaffnet, aber hoch motiviert, ihre Heimat zu verteidigen.
+TEXT_TOOLTIP_INDIG_WOOKIE,Der Ureinwohner von Kashyyyk. Wookiee-Krieger sind mit mächtigen Bogenschützen ausgerüstet, die der Infanterie großen Schaden zufügen.
+TEXT_TOOLTIP_INDIG_WOOKIE_UNARMED,Der Ureinwohner von Kashyyyk. Dieser Krieger ist wehrlos und läuft davon, wenn er angesprochen wird.
 TEXT_TOOLTIP_INFILTRATOR,Extrem gut ausgebildeter Kommandosoldat mit Scharfschützengewehr, kann ausgezeichnet mit Sprengstoff umgehen.
 TEXT_TOOLTIP_INFO_CREDITS_GAINED,%d Credits erhalten durch Eroberung des Planeten%s
 TEXT_TOOLTIP_INFO_CREDITS_LOST,%d Credits verloren durch Niederlage auf dem Planeten%s
@@ -18185,7 +18202,7 @@ TEXT_TOOLTIP_MZ8_PC_TANK,Der MZ-8 ist ein schwer bewaffnetes Kettenfahrzeug, das
 TEXT_TOOLTIP_NEBULON_B,Rebellenfregatte mittlerer Größe, ausgerüstet mit 2 Turbolaser- und 2 Laserkanonen-Batterien. Ein vielseitiges Kriegsschiff ohne nennenswerte Schwächen.
 TEXT_TOOLTIP_NEXT_BUTTON,Nächster kontrollierter Planet
 TEXT_TOOLTIP_NIGHT_SISTER,Jede der von Dathomir stammenden Schwestern der Nacht steuert den Rancor, auf dem sie reitet, mit Hilfe der Dunklen Seite der Macht.
-TEXT_TOOLTIP_NOGHRI_ASSASSIN,Die Noghri haben Darth Vader Treue geschworen, als Dank dafür, dass er ihrem Volk geholfen hat. Sie sind tapfere Krieger und tödliche Attentäter.
+TEXT_TOOLTIP_NOGHRI_ASSASSIN,Die Noghri haben Darth Vader Treue geschworen, als Dank dafür, dass er ihrem Volk geholfen hat. Sie sind tapfere Krieger und tödliche Attentäter, die mit Disruptor-Kanonen ausgerüstet sind, die gegen alles außer Schilden sehr wirksam sind.
 TEXT_TOOLTIP_OBI_WAN,Ein Jedi, in dem die Helle Seite der Macht besonders stark ist. Er kann Verbündete heilen und beschützen.
 TEXT_TOOLTIP_OBI_WAN_01,Ein Jedi, der starke Kräfte der Hellen Seite der Macht besitzt. Er kann sich selbst heilen und Verbündete beschützen.
 TEXT_TOOLTIP_OFFENSIVE_SENSOR_NODE,Lüftet in einem weiten Umkreis den Kriegsnebel und enthüllt das Gelände. Dieser Sensorknoten verfügt zu seiner Verteidigung über eine Elektroschockwaffe.

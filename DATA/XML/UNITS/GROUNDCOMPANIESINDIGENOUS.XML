@@ -7,7 +7,7 @@
 
 	<GroundCompany Name="Endor_Ewok_Hunting_Party">
 		<Text_ID>TEXT_INDIGENOUS_EWOK_PARTY</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_EWOK TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_Ewok.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -35,7 +35,7 @@
 
 	<GroundCompany Name="Naboo_Gungan_Warrior_Troop">
 		<Text_ID>TEXT_INDIGENOUS_GUNGAN_SQUAD</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_GUNGAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_gungan.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -58,7 +58,7 @@
 
 	<GroundCompany Name="Kashyyyk_Wookie_War_Party">
 		<Text_ID>TEXT_INDIGENOUS_WOOKIE_PARTY</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_WOOKIE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_generic_wookie.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -82,7 +82,7 @@
 
 	<GroundCompany Name="Tatooine_Jawa_Scout_Team">
 		<Text_ID>TEXT_INDIGENOUS_JAWA_SCOUTS</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_JAWA TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_jawa.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -105,7 +105,7 @@
 
 	<GroundCompany Name="Mon_Calamari_Civ_Company">
 		<Text_ID>TEXT_INDIG_MONCAL_CIV</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_MONCAL_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_moncalciv.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -128,7 +128,7 @@
 
 	<GroundCompany Name="Bothan_Civ_Company">
 		<Text_ID>TEXT_INDIG_BOTHAN_CIV</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_BOTHAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -151,7 +151,7 @@
 
 	<GroundCompany Name="Bothan_Civ_Company_Mission">
 		<Text_ID>TEXT_INDIG_BOTHAN_CIV</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_BOTHAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -173,7 +173,7 @@
 
 	<GroundCompany Name="Imperial_Guard_Company">
 		<Text_ID>TEXT_INDIG_ELITE_GUARD</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_ELITE_GUARD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_imperial_guard.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -197,7 +197,7 @@
 
 	<GroundCompany Name="Geonosian_Civ_Company">
 		<Text_ID>TEXT_INDIG_GEONOSIAN</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_GEONOSIAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_geonosian.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -220,7 +220,7 @@
 
 	<GroundCompany Name="Sullustan_Civ_Company">
 		<Text_ID>TEXT_INDIG_SULLUSTAN</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_SULLUSTAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_sullustan.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -244,7 +244,7 @@
 	<GroundCompany Name="Sandpeople_War_Party">
 		<Text_ID>TEXT_INDIG_TUSCAN_RAIDER</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_TUSKEN_RAIDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Icon_Name>i_button_sandpeople.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
@@ -269,7 +269,7 @@
 	<GroundCompany Name="Twilek_Raiding_Party">
 		<Text_ID>TEXT_INDIG_TWILEK_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_TWILEK_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Icon_Name>i_button_Twilek.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
@@ -297,7 +297,7 @@
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_UNIT_NIGHT_SISTER</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_NIGHT_SISTER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Icon_Name>i_button_ui_night_sister.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
@@ -322,7 +322,7 @@
 	<GroundCompany Name="Noghri_Indigenous_Company">
 		<Text_ID>TEXT_INDIG_NOGHRI</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_NOGHRI_ASSASSIN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Icon_Name>i_button_noghri.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
@@ -347,7 +347,7 @@
 	<GroundCompany Name="Mustafarian_Indigenous_Company">
 		<Text_ID>TEXT_INDIG_MUSTAFARIAN</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_MUSTAFARIAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Icon_Name>i_button_gmale_snow.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
@@ -372,7 +372,7 @@
 	<GroundCompany Name="Mandalorian_Indigenous_Company">
 		<Text_ID>TEXT_INDIG_MANDALORIAN</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_MANDALORIAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Icon_Name>i_button_ni_mandalorian.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
@@ -402,7 +402,7 @@
 
 	<GroundCompany Name="Desert_Civilian_Team_Rebel">
 		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_HUMAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_gmale_desert.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -443,7 +443,7 @@
 
 	<GroundCompany Name="Swamp_Civilian_Team_Rebel">
 		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_HUMAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_gmale_swamp.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -484,7 +484,7 @@
 
 	<GroundCompany Name="Urban_Civilian_Team_Rebel">
 		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_HUMAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_gmale_urban.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -525,7 +525,7 @@
 
 	<GroundCompany Name="Snow_Civilian_Team_Rebel">
 		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_HUMAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_gmale_snow.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -594,7 +594,7 @@
 
 		<Formation_Priority>1</Formation_Priority>
 		<Max_Squad_Size> 3 </Max_Squad_Size>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_HUMAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Create_Team_Type>Civilian_Independent_AI_Team</Create_Team_Type>
 	</GroundCompany>
 
@@ -621,7 +621,7 @@
 		<Formation_Priority>1</Formation_Priority>
 		<Max_Squad_Size> 3 </Max_Squad_Size>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_HUMAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Create_Team_Type>Civilian_Urban_Usable_Team</Create_Team_Type>
 	</GroundCompany>
 
@@ -635,7 +635,7 @@
 	<GroundCompany Name="Kashyyyk_Wookie_War_Party_Unarmed">
 		<Text_ID>TEXT_INDIGENOUS_WOOKIE_PARTY</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_WOOKIE_UNARMED TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Icon_Name>i_button_generic_wookie.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>72</Damage>
@@ -1229,7 +1229,7 @@
 		<Icon_Name>i_button_geonosian.tga</Icon_Name>
 
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_GEONOSIAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 
 	</GroundCompany>
 
@@ -1250,7 +1250,7 @@
 		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
 
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_BOTHAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 
 	</GroundCompany>
 

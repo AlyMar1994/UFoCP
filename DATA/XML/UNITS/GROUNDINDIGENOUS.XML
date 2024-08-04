@@ -9,7 +9,7 @@
 	<Indigenous_Unit Name="Civilian_Independent_AI">
 		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_HUMAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_Gmale_swamp_A.ALO </Land_Model_Name>
 		<Land_Model_Anim_Override_Name>NI_GMale_Urban_A</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_gmale_swamp.tga</Icon_Name>
@@ -137,7 +137,7 @@
 	<Indigenous_Unit Name="Ewok_Hunter">
 		<Text_ID>TEXT_INDIG_EWOK</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_EWOK TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_EWOK </Land_Model_Name>
 		<Land_Model_Anim_Override_Name>NI_EWOK.ALO</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_Ewok.tga</Icon_Name>
@@ -343,7 +343,7 @@
 	<Indigenous_Unit Name="Desert_Civilian_A">
 		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_HUMAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_Gmale_Desert_A.ALO </Land_Model_Name>
 		<Land_Model_Anim_Override_Name>NI_GMale_Urban_A.ALO</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_gmale_desert.tga</Icon_Name>
@@ -484,7 +484,7 @@
 	<Indigenous_Unit Name="Swamp_Civilian_A">
 		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_HUMAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_Gmale_swamp_A.ALO </Land_Model_Name>
 		<Land_Model_Anim_Override_Name>NI_GMale_Urban_A.ALO</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_gmale_swamp.tga</Icon_Name>
@@ -699,7 +699,7 @@
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_HUMAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_GMale_Urban_A.ALO </Land_Model_Name>
 		<Land_Model_Anim_Override_Name>NI_GMale_Urban_A.ALO</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_gmale_urban.tga</Icon_Name>
@@ -916,7 +916,7 @@
 	<Indigenous_Unit Name="Snow_Civilian_A">
 		<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_HUMAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_GMale_Snow.ALO </Land_Model_Name>
 		<Land_Model_Anim_Override_Name>NI_GMale_Urban_A.ALO</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_gmale_snow.tga</Icon_Name>
@@ -1060,7 +1060,7 @@
 	<Indigenous_Unit Name="Gungan_Warrior">
 		<Text_ID>TEXT_INDIG_GUNGAN</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_GUNGAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_Gungan.ALO </Land_Model_Name>
 		<Icon_Name>i_button_gungan.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
@@ -1195,7 +1195,7 @@
 	<Indigenous_Unit Name="Mon_Calamari_Civilian">
 		<Text_ID>TEXT_INDIG_MONCAL_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_MONCAL_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_MonCalCiv.ALO </Land_Model_Name>
 		<Land_Model_Anim_Override_Name>NI_GMale_Urban_A.ALO</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_moncalciv.tga</Icon_Name>
@@ -1323,7 +1323,7 @@
 	<Indigenous_Unit Name="Wookie_Warrior_Unarmed">
 		<Text_ID>TEXT_INDIG_WOOKIE</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_WOOKIE_UNARMED TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>RI_Wookiee_unarmed.alo</Land_Model_Name>
 		<Icon_Name>i_button_generic_wookie.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
@@ -1431,7 +1431,7 @@
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_INDIG_WOOKIE</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_WOOKIE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>RI_Wookiee01.alo</Land_Model_Name>
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE,WEAPON, STUNNABLE,REVEAL,HIDE_WHEN_FOGGED</LandBehavior>
@@ -1544,7 +1544,7 @@
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_INDIG_JAWA</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_JAWA TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_JAWA.ALO </Land_Model_Name>
 		<Icon_Name>i_button_jawa.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
@@ -1683,6 +1683,7 @@
 	<Indigenous_Unit Name="Sand_Person_Sniper_A">
 		<Text_ID>TEXT_INDIG_TUSCAN_RAIDER</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_TUSKEN_RAIDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>NI_SandPeople_B.alo</Land_Model_Name>
 		<Icon_Name>i_button_sandpeople.tga</Icon_Name>
 		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,INDIGENOUS_UNIT,HARASS,SELECTABLE</LandBehavior>
@@ -1847,7 +1848,7 @@
 	<Indigenous_Unit Name="Bothan_Civilian">
 		<Text_ID>TEXT_INDIG_BOTHAN_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_BOTHAN_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>NI_Bothan.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
@@ -1995,7 +1996,7 @@
 	<Indigenous_Unit Name="Imperial_Elite_Guard">
 		<Text_ID>TEXT_INDIG_ELITE_GUARD</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_ELITE_GUARD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>EI_RoyalGaurd.alo</Land_Model_Name>
 		<Icon_Name>i_button_imperial_guard.tga</Icon_Name>
 		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,SELECTABLE</LandBehavior>
@@ -2111,7 +2112,7 @@
 	<Indigenous_Unit Name="Hutt_Civilian">
 		<Text_ID>TEXT_INDIG_HUTT_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_HUTT_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>NI_HUTT.ALO</Land_Model_Name>
 		<Icon_Name>i_button_hutt.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
@@ -2218,7 +2219,7 @@
 	<Indigenous_Unit Name="Twilek_Female">
 		<Text_ID>TEXT_INDIG_TWILEK_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_TWILEK_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_Twilek_F.ALO </Land_Model_Name>
 		<Icon_Name>i_button_Twilek.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
@@ -2352,7 +2353,7 @@
 	<Indigenous_Unit Name="Geonosian">
 		<Text_ID>TEXT_INDIG_GEONOSIAN</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_GEONOSIAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_Geonosian.ALO </Land_Model_Name>
 		<Icon_Name>i_button_geonosian.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
@@ -2484,7 +2485,7 @@
 	<Indigenous_Unit Name="Sullustan_Civilian">
 		<Text_ID>TEXT_INDIG_SULLUSTAN</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_SULLUSTAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_Sullustan.ALO </Land_Model_Name>
 		<Icon_Name>i_button_sullustan.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
@@ -2619,7 +2620,7 @@
 		<Land_Model_Anim_Override_Name>NI_GMale_Urban_A.ALO</Land_Model_Anim_Override_Name>
 		<Text_ID>TEXT_INDIG_PYNGANI</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PYNGANI TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_gmale_snow.ALO </Land_Model_Name>
 		<Icon_Name>i_button_gmale_snow.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
@@ -2749,7 +2750,7 @@
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_UNIT_NIGHT_SISTER</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NIGHT_SISTER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>NI_nightsister_ranger.alo</Land_Model_Name>
 		<Icon_Name>i_button_ni_nightsister_ranger.tga</Icon_Name>
 
@@ -2907,7 +2908,7 @@
 	<Indigenous_Unit Name="Noghri_Indigenous">
 		<Text_ID>TEXT_INDIG_NOGHRI</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NOGHRI_ASSASSIN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_Noghri.alo </Land_Model_Name>
 		<Icon_Name>i_button_noghri.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
@@ -3040,7 +3041,7 @@
 	<Indigenous_Unit Name="Mustafarian_Indigenous">
 		<Text_ID>TEXT_INDIG_MUSTAFARIAN</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_MUSTAFARIAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_Mustafarian.alo </Land_Model_Name>
 		<Icon_Name>i_button_gmale_snow.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
@@ -3173,7 +3174,7 @@
 	<Indigenous_Unit Name="Mandalorian_Indigenous">
 		<Text_ID>TEXT_INDIG_MANDALORIAN</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_MANDALORIAN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_Mandalorian.alo </Land_Model_Name>
 		<Icon_Name>i_button_ni_mandalorian.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>

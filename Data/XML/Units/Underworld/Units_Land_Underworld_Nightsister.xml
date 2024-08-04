@@ -303,9 +303,9 @@
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_UNIT_NIGHT_SISTER</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NIGHT_SISTER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>NI_nightsister_ranger.alo</Land_Model_Name>
-		<Icon_Name>i_button_ni_nightsister_ ranger.tga</Icon_Name>
+		<Icon_Name>i_button_ni_nightsister_ranger.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,REVEAL,HIDE_WHEN_FOGGED, GARRISON_UNIT,ABILITY_COUNTDOWN</LandBehavior>
 		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>

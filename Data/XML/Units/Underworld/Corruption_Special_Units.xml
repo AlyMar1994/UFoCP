@@ -15,7 +15,7 @@
 	<Slave_Unit Name="Bothan_Slave">
 		<Text_ID>TEXT_INDIG_BOTHAN_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_BOTHAN_CIV TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 
 		<Land_Model_Name>NI_Bothan.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
@@ -131,7 +131,7 @@
 
 	<SlaveCompany Name="Bothan_Slave_Company">
 		<Text_ID>TEXT_INDIG_BOTHAN_CIV</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_BOTHAN_CIV TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -166,7 +166,7 @@
 	<Container Name="Bothan_Slave_Team">
 		<Text_ID>TEXT_INDIG_BOTHAN_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_BOTHAN_CIV TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Icon_Name>i_button_bothan_civilian.tga</Icon_Name>
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
@@ -207,7 +207,7 @@
 	<Slave_Unit Name="Geonosian_Slave">
 		<Text_ID>TEXT_INDIG_GEONOSIAN</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_GEONOSIAN TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name> NI_Geonosian.ALO </Land_Model_Name>
 		<Icon_Name>i_button_geonosian.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
@@ -322,7 +322,7 @@
 
 	<SlaveCompany Name="Geonosian_Slave_Company">
 		<Text_ID>TEXT_INDIG_GEONOSIAN</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_GEONOSIAN TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_geonosian.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -356,7 +356,7 @@
 
 	<Container Name="Geonosian_Slave_Container">
 		<Text_ID>TEXT_INDIG_GEONOSIAN</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_GEONOSIAN TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_geonosian.tga</Icon_Name>
 		<Show_Name>No</Show_Name>
@@ -401,7 +401,7 @@
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_INDIG_WOOKIE</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_WOOKIE TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>RI_Wookiee01.alo</Land_Model_Name>
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE,WEAPON,REVEAL,HIDE_WHEN_FOGGED</LandBehavior>
@@ -508,7 +508,7 @@
 
 	<SlaveCompany Name="Wookiee_Slave_Company">
 		<Text_ID>TEXT_INDIGENOUS_WOOKIE_PARTY</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_WOOKIE TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_generic_wookie.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -543,7 +543,7 @@
 	<Container Name="Wookie_Slave_Container">
 		<Text_ID>TEXT_INDIGENOUS_WOOKIE_PARTY</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_WOOKIE TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Icon_Name>i_button_generic_wookie.tga</Icon_Name>
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
@@ -584,7 +584,7 @@
 
 	<Slave_Unit Name="Gungan_Slave">
 		<Text_ID>TEXT_INDIG_GUNGAN</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_GUNGAN TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Land_Model_Name> NI_Gungan.ALO </Land_Model_Name>
 		<Icon_Name>i_button_gungan.tga</Icon_Name>
@@ -698,7 +698,7 @@
 
 	<SlaveCompany Name="Gungan_Slave_Company">
 		<Text_ID>TEXT_INDIGENOUS_GUNGAN_SQUAD</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_GUNGAN TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_gungan.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -732,7 +732,7 @@
 
 	<Container Name="Gungan_Slave_Container">
 		<Text_ID>TEXT_INDIGENOUS_GUNGAN_SQUAD</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_GUNGAN TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_gungan.tga</Icon_Name>
 		<Show_Name>No</Show_Name>
@@ -776,7 +776,7 @@
 	<Slave_Unit Name="Pyngani_Slave">
 		<Land_Model_Anim_Override_Name>NI_GMale_Urban_A.ALO</Land_Model_Anim_Override_Name>
 		<Text_ID>TEXT_INDIG_PYNGANI</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_PYNGANI TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Land_Model_Name> NI_gmale_snow.ALO </Land_Model_Name>
 		<Icon_Name>i_button_gmale_snow.tga</Icon_Name>
@@ -887,7 +887,7 @@
 
 	<SlaveCompany Name="Pyngani_Slave_Company">
 		<Text_ID>TEXT_INDIG_PYNGANI</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_PYNGANI TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_gmale_snow.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -921,7 +921,7 @@
 
 	<Container Name="Pyngani_Slave_Container">
 		<Text_ID>TEXT_INDIG_PYNGANI</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_PYNGANI TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_gmale_snow.tga</Icon_Name>
 		<Show_Name>No</Show_Name>
@@ -963,7 +963,7 @@
 
 	<Slave_Unit Name="Twilek_Slave">
 		<Text_ID>TEXT_INDIG_TWILEK_CIV</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_TWILEK_CIV TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Land_Model_Name> NI_Twilek_F.ALO </Land_Model_Name>
 		<Icon_Name>i_button_Twilek.tga</Icon_Name>
@@ -1075,7 +1075,7 @@
 
 	<SlaveCompany Name="Twilek_Slave_Company">
 		<Text_ID>TEXT_INDIG_TWILEK_CIV</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_TWILEK_CIV TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_Twilek.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1110,7 +1110,7 @@
 
 	<Container Name="Twilek_Slave_Container">
 		<Text_ID>TEXT_INDIG_TWILEK_CIV</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_TWILEK_CIV TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_Twilek.tga</Icon_Name>
 		<Show_Name>No</Show_Name>
@@ -1153,7 +1153,7 @@
 
 	<Slave_Unit Name="Sullustan_Slave">
 		<Text_ID>TEXT_INDIG_SULLUSTAN</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_SULLUSTAN TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Land_Model_Name> NI_Sullustan.ALO </Land_Model_Name>
 		<Icon_Name>i_button_sullustan.tga</Icon_Name>
@@ -1266,7 +1266,7 @@
 
 	<SlaveCompany Name="Sullustan_Slave_Company">
 		<Text_ID>TEXT_INDIG_SULLUSTAN</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_SULLUSTAN TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_sullustan.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1300,7 +1300,7 @@
 
 	<Container Name="Sullustan_Slave_Container">
 		<Text_ID>TEXT_INDIG_SULLUSTAN</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_SULLUSTAN TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_sullustan.tga</Icon_Name>
 		<Show_Name>No</Show_Name>
@@ -1340,7 +1340,7 @@
 
 	<Slave_Unit Name="Mon_Calamari_Slave">
 		<Text_ID>TEXT_INDIG_MONCAL_CIV</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_MONCAL_CIV TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Land_Model_Name> NI_MonCalCiv.ALO </Land_Model_Name>
 		<Land_Model_Anim_Override_Name>NI_GMale_Urban_A.ALO</Land_Model_Anim_Override_Name>
@@ -1452,7 +1452,7 @@
 
 	<SlaveCompany Name="Mon_Calamari_Slave_Company">
 		<Text_ID>TEXT_INDIG_MONCAL_CIV</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_INDIG_MONCAL_CIV TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_moncalciv.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1487,7 +1487,7 @@
 	<Container Name="MonCal_Slave_Team">
 		<Text_ID>TEXT_INDIG_MONCAL_CIV</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLAVE </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_MONCAL_CIV TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Icon_Name>i_button_moncalciv.tga</Icon_Name>
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
