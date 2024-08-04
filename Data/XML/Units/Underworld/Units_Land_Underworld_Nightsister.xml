@@ -43,7 +43,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<CanCellStack>yes</CanCellStack>
-        <Remove_Upon_Death>true</Remove_Upon_Death>		
+        <Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Affiliation>Underworld</Affiliation>
 		<Size_Value>10</Size_Value>
@@ -66,13 +66,13 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
-		
+
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
 		<Targeting_Max_Attack_Distance>50.0</Targeting_Max_Attack_Distance>
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
-		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>	
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 
 		<MovementClass>Infantry</MovementClass>
@@ -108,17 +108,17 @@
             <Unit_Ability>
                 <Type>DRAIN_LIFE</Type>
                 <Recharge_Seconds>40.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> NightSister_Drain_Life </GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name> NightSister_Drain_Life </GUI_Activated_Ability_Name>
                 <Alternate_Icon_Name>i_sa_minor_drain_life.tga</Alternate_Icon_Name>
                 <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_NAME</Alternate_Name_Text>
                 <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_DESCRIPTION</Alternate_Description_Text>
-                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Night_Sister </SFXEvent_GUI_Unit_Ability_Activated> 
+                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Night_Sister </SFXEvent_GUI_Unit_Ability_Activated>
 				</Unit_Ability>
 		</Unit_Abilities_Data>
 
 
 		<Abilities SubObjectList="Yes">
-		
+
 			<Generic_Attack_Ability Name="NS_Rancor_Pound_Vehicles">
 				<Activation_Chance>1.0</Activation_Chance>
 				<Activation_Min_Range>0.0</Activation_Min_Range>
@@ -133,7 +133,7 @@
 				<Applicable_Unit_Categories>Vehicle</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 			</Generic_Attack_Ability>
-			
+
 
 			<Eat_Attack_Ability Name="NS_Rancor_Eat_Infantry">
 				<Activation_Chance>1.0</Activation_Chance>
@@ -152,7 +152,7 @@
 				<Applicable_Unit_Types />
                 <Health_Per_Victim>120</Health_Per_Victim>
                 <Excluded_Unit_Types>
-                    Rancor, 
+                    Rancor,
                     Rancor_Dark_Ally,
                     Night_Sister,
                     UM06_Night_Sister,
@@ -182,7 +182,7 @@
                 <Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
 				<Applicable_Unit_Types />
 			</Arc_Sweep_Attack_Ability>
-			
+
 			<Arc_Sweep_Attack_Ability Name="NS_Rancor_Swat_Infantry_Right">
 				<Activation_Chance>0.5</Activation_Chance>
 				<Activation_Min_Range>0.0</Activation_Min_Range>
@@ -208,7 +208,7 @@
                 <Activation_Style> User_Input </Activation_Style>
                 <Applicable_Unit_Categories>Infantry | Vehicle | LandHero</Applicable_Unit_Categories>
                 <Applicable_Unit_Types />
-                
+
                 <Excluded_Unit_Types>
 					Droid_R2D2,
 					Droid_C3P0,
@@ -220,21 +220,21 @@
 					Demolition_Bomb,
 					Proximity_Mine
 				</Excluded_Unit_Types>
-                
+
                 <Duration_In_Seconds>5</Duration_In_Seconds>
                 <Damage_Per_Second>15</Damage_Per_Second>
-                <Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>	
+                <Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>
                 <Drain_Source_Bone_Name>B_HAND_L</Drain_Source_Bone_Name>
                 <Drain_Target_Bone_Name>B_PELVIS</Drain_Target_Bone_Name>
-                <Drain_Radius> 100.0 </Drain_Radius>		
+                <Drain_Radius> 100.0 </Drain_Radius>
                 <SFXEvent_Activate>Unit_Force_Lightning</SFXEvent_Activate>
                 <Max_Drain_Victims>4</Max_Drain_Victims>
                 <Should_Heal>Yes</Should_Heal>
             </Drain_Life_Ability>
 
-			
+
 		</Abilities>
-	
+
 	</GroundVehicle>
 
 
@@ -254,7 +254,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
 		<Autoresolve_Health>450</Autoresolve_Health>
-		
+
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
@@ -266,12 +266,12 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Palace</Required_Special_Structures>
 		<Required_Planets>Dathomir</Required_Planets>
-		
+
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>4</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
-		
+
 		<Company_Transport_Unit>Underworld_Vehicle_Transport</Company_Transport_Unit>
 		<Company_Units>Night_Sister</Company_Units>
 
@@ -293,11 +293,11 @@
 		<Tactical_Build_Prerequisites>UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 	</GroundCompany>
-	
+
 	<!--jdg 7.14.06 removed INDIGENOUS_UNIT behavior...it was messing with me-->
 	<Indigenous_Unit Name="Prisoner_Night_Sister">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
@@ -356,7 +356,7 @@
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		
+
 		<!--<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>4.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
@@ -366,17 +366,17 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 8.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 8.0 </Targeting_Fire_Inaccuracy> -->
-		
+
 		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-		
+
 		<SFXEvent_Select>Unit_Select_Night_Sister</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Night_Sister</SFXEvent_Move>
 		<SFXEvent_Attack>Unit_Attack_Night_Sister</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Night_Sister</SFXEvent_Guard>
-		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
 
 		<!--<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>-->
@@ -400,22 +400,22 @@
 		<OccupationStyle>1x1</OccupationStyle>
 		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
 		<Is_Squashable> Yes </Is_Squashable>
-		
+
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-		
+
 		<Movie_Object>false</Movie_Object>
 		<Garrison_Category> Infantry </Garrison_Category>
-		
+
 		<Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
                 <Type>DRAIN_LIFE</Type>
                 <Recharge_Seconds>10.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> NightSister_Drain_Life </GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name> NightSister_Drain_Life </GUI_Activated_Ability_Name>
                 <Alternate_Icon_Name>i_sa_minor_drain_life.tga</Alternate_Icon_Name>
                 <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_NAME</Alternate_Name_Text>
                 <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_DESCRIPTION</Alternate_Description_Text>
-                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Night_Sister </SFXEvent_GUI_Unit_Ability_Activated> 
+                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Night_Sister </SFXEvent_GUI_Unit_Ability_Activated>
 				</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -426,7 +426,7 @@
                 <Activation_Style> User_Input </Activation_Style>
                 <Applicable_Unit_Categories>Infantry | Vehicle | LandHero</Applicable_Unit_Categories>
                 <Applicable_Unit_Types />
-                
+
                 <Excluded_Unit_Types>
 					Droid_R2D2,
 					Droid_C3P0,
@@ -438,21 +438,21 @@
 					Demolition_Bomb,
 					Proximity_Mine
 				</Excluded_Unit_Types>
-                
+
                 <Duration_In_Seconds>5</Duration_In_Seconds>
                 <Damage_Per_Second>50</Damage_Per_Second>
-                <Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>	
+                <Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>
                 <Drain_Source_Bone_Name>B_HAND_L</Drain_Source_Bone_Name>
                 <Drain_Target_Bone_Name>B_PELVIS</Drain_Target_Bone_Name>
-                <Drain_Radius> 200.0 </Drain_Radius>		
+                <Drain_Radius> 200.0 </Drain_Radius>
                 <SFXEvent_Activate>Unit_Force_Lightning</SFXEvent_Activate>
                 <Max_Drain_Victims>9</Max_Drain_Victims>
                 <Should_Heal>Yes</Should_Heal>
             </Drain_Life_Ability>
 
-			
+
 		</Abilities>
-		
+
 	</Indigenous_Unit>
 
 
@@ -470,7 +470,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
 		<Autoresolve_Health>450</Autoresolve_Health>
-		
+
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
@@ -482,12 +482,12 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
 		<!--<Required_Planets>Dathomir</Required_Planets>-->
-		
+
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>4</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
-		
+
 		<Company_Transport_Unit>Underworld_Vehicle_Transport</Company_Transport_Unit>
 		<Company_Units>Prisoner_Night_Sister, Prisoner_Night_Sister, Prisoner_Night_Sister, Prisoner_Night_Sister</Company_Units>
 
@@ -504,7 +504,7 @@
 		<Expensive_Bribe_Cost>100</Expensive_Bribe_Cost>
 
 		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
-		
+
 
 	</GroundCompany>
 
@@ -512,10 +512,10 @@
 <GroundVehicle Name="UM06_Night_Sister">
 
 		<Variant_Of_Existing_Type>Night_Sister</Variant_Of_Existing_Type>
-		
+
 		<Movement_Animation_Speed> 0.80 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 1.5 </Rotation_Animation_Speed>
-		
+
 		<MovementClass>Walker</MovementClass>
 
 		<Max_Speed>1.75</Max_Speed>
@@ -523,17 +523,17 @@
 		<Walk_Transition>Yes</Walk_Transition>
 		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
 		<Min_Speed> .1 </Min_Speed>
-	
+
 		<Damage>500</Damage><!--jdg was 90-->
 		<Tactical_Health>1200</Tactical_Health>
 		<Autoresolve_Health>1200</Autoresolve_Health>
-		
+
 		<Projectile_Types>Proj_UM06_Nightsister_Rancor_Hit</Projectile_Types>
 
 
-	
+
 	</GroundVehicle>
-	
+
 	<Projectile Name="Proj_UM06_Nightsister_Rancor_Hit">
 		<Variant_Of_Existing_Type>Proj_Lightsaber</Variant_Of_Existing_Type>
 		<Projectile_Max_Flight_Distance>100.0</Projectile_Max_Flight_Distance>
