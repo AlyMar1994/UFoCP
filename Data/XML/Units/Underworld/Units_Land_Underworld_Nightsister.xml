@@ -1,0 +1,556 @@
+<?xml version="1.0"?>
+<Night_Sister_Data>
+
+
+
+
+	<GroundVehicle Name="Night_Sister">
+		<LOD_Bias>1</LOD_Bias>
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_UNIT_NIGHT_SISTER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NIGHT_SISTER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> T4B_Tank AT_AT_Walker E_Ground_Heavy_Vehicle_Factory </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Crawler MPTL E_Ground_Turbolaser_Tower </Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_ui_night_sister.tga</Icon_Name>
+
+		<Land_Model_Name> UI_NIGHT_SISTER.ALO </Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Select_Box_Scale>60</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Movement_Animation_Speed> 0.80 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 1.5 </Rotation_Animation_Speed>
+
+		<Max_Speed>.90</Max_Speed>
+		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
+		<Walk_Transition>Yes</Walk_Transition>
+		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
+		<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Giant Vehicle </UnitCollisionClass>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<Min_Speed> .1 </Min_Speed>
+		<Mass>1.0</Mass>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<FormationGrouping> Solo </FormationGrouping>
+
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>AFFECTED_BY_SHIELD,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,REVEAL,HIDE_WHEN_FOGGED,SQUASH,UNIT_AI,ABILITY_COUNTDOWN</LandBehavior>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+        <Remove_Upon_Death>true</Remove_Upon_Death>		
+
+		<Affiliation>Underworld</Affiliation>
+		<Size_Value>10</Size_Value>
+		<Armor_Type> Armor_ATAT </Armor_Type>
+		<Damage>90</Damage>
+		<Tactical_Health>900</Tactical_Health>
+		<Autoresolve_Health>900</Autoresolve_Health>
+
+		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Ranged_Target_Z_Adjust>25.0</Ranged_Target_Z_Adjust>
+
+		<Projectile_Types>Proj_Nightsister_Rancor_Hit</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 20 </Projectile_Appearance_Delay_Frames>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+		
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Targeting_Max_Attack_Distance>50.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>	
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+		<MovementClass>Infantry</MovementClass>
+		<CategoryMask> LandHero </CategoryMask>
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Weather_Category>Infantry</Weather_Category>
+
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<AI_Combat_Power>500</AI_Combat_Power>
+
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>33.0, 33.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+
+		<SFXEvent_Select>Unit_Select_Night_Sister</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Night_Sister</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Night_Sister</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Night_Sister</SFXEvent_Guard>
+
+		<Influences_Capture_Point> True </Influences_Capture_Point>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> No </Is_Squashable>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.1</Death_Persistence_Duration>
+
+		<!-- COMMENTING OUT FOR BALANCE PURPOSES -->
+		<!-- <Lua_Script>ObjectScript_NightSister</Lua_Script> -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>DRAIN_LIFE</Type>
+                <Recharge_Seconds>40.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name> NightSister_Drain_Life </GUI_Activated_Ability_Name> 
+                <Alternate_Icon_Name>i_sa_minor_drain_life.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_NAME</Alternate_Name_Text>
+                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_DESCRIPTION</Alternate_Description_Text>
+                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Night_Sister </SFXEvent_GUI_Unit_Ability_Activated> 
+				</Unit_Ability>
+		</Unit_Abilities_Data>
+
+
+		<Abilities SubObjectList="Yes">
+		
+			<Generic_Attack_Ability Name="NS_Rancor_Pound_Vehicles">
+				<Activation_Chance>1.0</Activation_Chance>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>45.0</Activation_Max_Range>
+				<Damage_Amount>100.0</Damage_Amount>
+				<Damage_Percentage>0.0</Damage_Percentage>
+				<Damage_Type>Damage_Normal</Damage_Type>
+				<Attack_Animation>POUND_ATTACK</Attack_Animation>
+				<Attack_Animation_Speedup>0.75</Attack_Animation_Speedup>
+				<Damage_Frame_Number>20</Damage_Frame_Number>
+				<SFXEvent_Apply_Damage />
+				<Applicable_Unit_Categories>Vehicle</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Generic_Attack_Ability>
+			
+
+			<Eat_Attack_Ability Name="NS_Rancor_Eat_Infantry">
+				<Activation_Chance>1.0</Activation_Chance>
+				<Activation_Min_Range>40.0</Activation_Min_Range>
+				<Activation_Max_Range>45.0</Activation_Max_Range>
+				<Damage_Amount>0.0</Damage_Amount>
+				<Damage_Percentage>1.0</Damage_Percentage>
+				<Damage_Type>Damage_Eat</Damage_Type>
+				<Attack_Animation>EAT_ATTACK</Attack_Animation>
+				<Attack_Animation_Speedup>1.0</Attack_Animation_Speedup>
+				<Owner_Attachment_Bone>B_ATTACH_01</Owner_Attachment_Bone>
+				<Attachment_Frame>14</Attachment_Frame>
+				<Target_Destruction_Frame>110</Target_Destruction_Frame>
+				<Target_Grabbed_Animation>EATEN_DIE</Target_Grabbed_Animation>
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+                <Health_Per_Victim>120</Health_Per_Victim>
+                <Excluded_Unit_Types>
+                    Rancor, 
+                    Rancor_Dark_Ally,
+                    Night_Sister,
+                    UM06_Night_Sister,
+                    Prisoner_Night_Sister,
+                    Wampa,
+                    Cuddles_The_Rancor
+                </Excluded_Unit_Types>
+			</Eat_Attack_Ability>
+
+			<Arc_Sweep_Attack_Ability Name="NS_Rancor_Swat_Infantry_Left">
+				<Activation_Chance>0.5</Activation_Chance>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>50.0</Activation_Max_Range>
+				<Damage_Amount>0.0</Damage_Amount>
+				<Damage_Percentage>1.0</Damage_Percentage>
+				<Damage_Type>Damage_Force_Whirlwind</Damage_Type>
+				<Attack_Animation>ATTACK</Attack_Animation>
+				<Attack_Animation_Speedup>0.75</Attack_Animation_Speedup>
+				<Attack_Animation_Subindex>0</Attack_Animation_Subindex>	<!-- right-to-left sweep -->
+				<Arc_Width_In_Degrees>120.0</Arc_Width_In_Degrees>
+				<Arc_Min_Range>10.0</Arc_Min_Range>
+				<Arc_Max_Range>25.0</Arc_Max_Range>
+				<Begin_Applying_Damage_Frame>27</Begin_Applying_Damage_Frame>
+				<Damage_Sweep_Time_In_Secs>0.233333</Damage_Sweep_Time_In_Secs>
+				<Apply_Damage_Right_To_Left>Yes</Apply_Damage_Right_To_Left>
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+                <Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
+				<Applicable_Unit_Types />
+			</Arc_Sweep_Attack_Ability>
+			
+			<Arc_Sweep_Attack_Ability Name="NS_Rancor_Swat_Infantry_Right">
+				<Activation_Chance>0.5</Activation_Chance>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>50.0</Activation_Max_Range>
+				<Damage_Amount>0.0</Damage_Amount>
+				<Damage_Percentage>1.0</Damage_Percentage>
+				<Damage_Type>Damage_Force_Whirlwind</Damage_Type>
+				<Attack_Animation>ATTACK</Attack_Animation>
+				<Attack_Animation_Speedup>0.75</Attack_Animation_Speedup>
+				<Attack_Animation_Subindex>1</Attack_Animation_Subindex>	<!-- left-to-right sweep -->
+				<Arc_Width_In_Degrees>120.0</Arc_Width_In_Degrees>
+				<Arc_Min_Range>10.0</Arc_Min_Range>
+				<Arc_Max_Range>25.0</Arc_Max_Range>
+				<Begin_Applying_Damage_Frame>27</Begin_Applying_Damage_Frame>
+				<Damage_Sweep_Time_In_Secs>0.233333</Damage_Sweep_Time_In_Secs>
+				<Apply_Damage_Right_To_Left>No</Apply_Damage_Right_To_Left>
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+                <Excluded_Unit_Types>Wampa</Excluded_Unit_Types>
+				<Applicable_Unit_Types />
+			</Arc_Sweep_Attack_Ability>
+
+            <Drain_Life_Ability Name="NightSister_Drain_Life">
+                <Activation_Style> User_Input </Activation_Style>
+                <Applicable_Unit_Categories>Infantry | Vehicle | LandHero</Applicable_Unit_Categories>
+                <Applicable_Unit_Types />
+                
+                <Excluded_Unit_Types>
+					Droid_R2D2,
+					Droid_C3P0,
+					MPTL_Spotter,
+					IG-88,
+					Dark_Trooper_PhaseI,
+					Dark_Trooper_PhaseII,
+					Dark_Trooper_PhaseIII,
+					Demolition_Bomb,
+					Proximity_Mine
+				</Excluded_Unit_Types>
+                
+                <Duration_In_Seconds>5</Duration_In_Seconds>
+                <Damage_Per_Second>15</Damage_Per_Second>
+                <Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>	
+                <Drain_Source_Bone_Name>B_HAND_L</Drain_Source_Bone_Name>
+                <Drain_Target_Bone_Name>B_PELVIS</Drain_Target_Bone_Name>
+                <Drain_Radius> 100.0 </Drain_Radius>		
+                <SFXEvent_Activate>Unit_Force_Lightning</SFXEvent_Activate>
+                <Max_Drain_Victims>4</Max_Drain_Victims>
+                <Should_Heal>Yes</Should_Heal>
+            </Drain_Life_Ability>
+
+			
+		</Abilities>
+	
+	</GroundVehicle>
+
+
+
+
+	<GroundCompany Name="Night_Sister_Company">
+		<LOD_Bias>1</LOD_Bias>
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_UNIT_NIGHT_SISTER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NIGHT_SISTER</Encyclopedia_Text>
+		<Encyclopedia_Good_Against> T4B_Tank AT_AT_Walker E_Ground_Heavy_Vehicle_Factory </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Plex_Soldier MPTL E_Ground_Turbolaser_Tower </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_ui_night_sister.tga</Icon_Name>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>100</Damage>
+		<Autoresolve_Health>450</Autoresolve_Health>
+		
+		<Affiliation>Underworld</Affiliation>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>U_Ground_Palace</Required_Special_Structures>
+		<Required_Planets>Dathomir</Required_Planets>
+		
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>walker</Ship_Class>
+		
+		<Company_Transport_Unit>Underworld_Vehicle_Transport</Company_Transport_Unit>
+		<Company_Units>Night_Sister</Company_Units>
+
+		<SFXEvent_Build_Started>UHD_Build_Unit</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Night_Sister</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Night_Sister</SFXEvent_Fleet_Move>
+
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+
+		<Cheap_Bribe_Cost>50</Cheap_Bribe_Cost>
+		<Expensive_Bribe_Cost>1000</Expensive_Bribe_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>UC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+	</GroundCompany>
+	
+	<!--jdg 7.14.06 removed INDIGENOUS_UNIT behavior...it was messing with me-->
+	<Indigenous_Unit Name="Prisoner_Night_Sister">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_UNIT_NIGHT_SISTER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Land_Model_Name>NI_nightsister_ranger.alo</Land_Model_Name>
+		<Icon_Name>i_button_ni_nightsister_ ranger.tga</Icon_Name>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,REVEAL,HIDE_WHEN_FOGGED, GARRISON_UNIT,ABILITY_COUNTDOWN</LandBehavior>
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Select_Box_Scale>25</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mass>1.0</Mass>
+		<GUI_Bracket_Width>5</GUI_Bracket_Width>
+		<GUI_Bracket_Height>0</GUI_Bracket_Height>
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.2f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 12.0 </Rotation_Animation_Speed>
+		<Max_Speed>1</Max_Speed>
+		<Max_Rate_Of_Turn>10.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<Min_Speed> .1 </Min_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<FormationOrder> 2 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+
+		<Influences_Capture_Point>True</Influences_Capture_Point>
+
+		<Scale_Factor>1.5</Scale_Factor>
+		<Affiliation>Underworld</Affiliation>
+		<Required_Timeline>0</Required_Timeline>
+		<IsBuildable>No</IsBuildable>
+		<Size_Value>10</Size_Value>
+		<Armor_Type> Armor_Infantry </Armor_Type>
+		<Damage>3</Damage>
+		<Tactical_Health>100</Tactical_Health>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		
+		<!--<Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>4.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 2.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 8.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 8.0 </Targeting_Fire_Inaccuracy> -->
+		
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		
+		<SFXEvent_Select>Unit_Select_Night_Sister</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Night_Sister</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Night_Sister</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Night_Sister</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
+
+		<!--<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>-->
+		<Death_SFXEvent_Start_Die />
+
+		<Idle_Chase_Range>100.0</Idle_Chase_Range>
+		<Guard_Chase_Range>100.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<AI_Combat_Power>5</AI_Combat_Power>
+
+		<MovementClass>Infantry</MovementClass>
+		<CategoryMask> Infantry </CategoryMask>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Weather_Category>Infantry</Weather_Category>
+
+		<Death_Clone>Damage_Force_Whirlwind, Twilek_Female_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Twilek_Female_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Twilek_Female_Crush_Death_Clone</Death_Clone>
+
+		<OccupationStyle>1x1</OccupationStyle>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		
+		<Movie_Object>false</Movie_Object>
+		<Garrison_Category> Infantry </Garrison_Category>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>DRAIN_LIFE</Type>
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name> NightSister_Drain_Life </GUI_Activated_Ability_Name> 
+                <Alternate_Icon_Name>i_sa_minor_drain_life.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_NAME</Alternate_Name_Text>
+                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_MINOR_DRAIN_LIFE_DESCRIPTION</Alternate_Description_Text>
+                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Attack_Night_Sister </SFXEvent_GUI_Unit_Ability_Activated> 
+				</Unit_Ability>
+		</Unit_Abilities_Data>
+
+
+		<Abilities SubObjectList="Yes">
+
+            <Drain_Life_Ability Name="NightSister_Drain_Life">
+                <Activation_Style> User_Input </Activation_Style>
+                <Applicable_Unit_Categories>Infantry | Vehicle | LandHero</Applicable_Unit_Categories>
+                <Applicable_Unit_Types />
+                
+                <Excluded_Unit_Types>
+					Droid_R2D2,
+					Droid_C3P0,
+					MPTL_Spotter,
+					IG-88,
+					Dark_Trooper_PhaseI,
+					Dark_Trooper_PhaseII,
+					Dark_Trooper_PhaseIII,
+					Demolition_Bomb,
+					Proximity_Mine
+				</Excluded_Unit_Types>
+                
+                <Duration_In_Seconds>5</Duration_In_Seconds>
+                <Damage_Per_Second>50</Damage_Per_Second>
+                <Drain_Effect_Name>Drain_Life_Effect</Drain_Effect_Name>	
+                <Drain_Source_Bone_Name>B_HAND_L</Drain_Source_Bone_Name>
+                <Drain_Target_Bone_Name>B_PELVIS</Drain_Target_Bone_Name>
+                <Drain_Radius> 200.0 </Drain_Radius>		
+                <SFXEvent_Activate>Unit_Force_Lightning</SFXEvent_Activate>
+                <Max_Drain_Victims>9</Max_Drain_Victims>
+                <Should_Heal>Yes</Should_Heal>
+            </Drain_Life_Ability>
+
+			
+		</Abilities>
+		
+	</Indigenous_Unit>
+
+
+	<GroundCompany Name="Prisoner_Night_Sister_Company">
+		<LOD_Bias>1</LOD_Bias>
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Text_ID>TEXT_UNIT_NIGHT_SISTER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NIGHT_SISTER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_ui_night_sister.tga</Icon_Name>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>100</Damage>
+		<Autoresolve_Health>450</Autoresolve_Health>
+		
+		<Affiliation>Underworld</Affiliation>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
+		<!--<Required_Planets>Dathomir</Required_Planets>-->
+		
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>walker</Ship_Class>
+		
+		<Company_Transport_Unit>Underworld_Vehicle_Transport</Company_Transport_Unit>
+		<Company_Units>Prisoner_Night_Sister, Prisoner_Night_Sister, Prisoner_Night_Sister, Prisoner_Night_Sister</Company_Units>
+
+		<SFXEvent_Build_Started>UHD_Build_Unit</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Night_Sister</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Night_Sister</SFXEvent_Fleet_Move>
+
+		<Score_Cost_Credits>1000</Score_Cost_Credits>
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+
+		<Cheap_Bribe_Cost>50</Cheap_Bribe_Cost>
+		<Expensive_Bribe_Cost>100</Expensive_Bribe_Cost>
+
+		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
+		
+
+	</GroundCompany>
+
+<!--jdg variant of night-sister, being used in UM06-->
+<GroundVehicle Name="UM06_Night_Sister">
+
+		<Variant_Of_Existing_Type>Night_Sister</Variant_Of_Existing_Type>
+		
+		<Movement_Animation_Speed> 0.80 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 1.5 </Rotation_Animation_Speed>
+		
+		<MovementClass>Walker</MovementClass>
+
+		<Max_Speed>1.75</Max_Speed>
+		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
+		<Walk_Transition>Yes</Walk_Transition>
+		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
+		<Min_Speed> .1 </Min_Speed>
+	
+		<Damage>500</Damage><!--jdg was 90-->
+		<Tactical_Health>1200</Tactical_Health>
+		<Autoresolve_Health>1200</Autoresolve_Health>
+		
+		<Projectile_Types>Proj_UM06_Nightsister_Rancor_Hit</Projectile_Types>
+
+
+	
+	</GroundVehicle>
+	
+	<Projectile Name="Proj_UM06_Nightsister_Rancor_Hit">
+		<Variant_Of_Existing_Type>Proj_Lightsaber</Variant_Of_Existing_Type>
+		<Projectile_Max_Flight_Distance>100.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>1500.0</Projectile_Damage>
+		<Damage_Type>Damage_Rancor</Damage_Type>
+		<Internal_Damage_Type> Damage_Force_Whirlwind </Internal_Damage_Type>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle />
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>100</AI_Combat_Power>
+
+	</Projectile>
+
+
+</Night_Sister_Data>
