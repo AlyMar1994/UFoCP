@@ -43,12 +43,13 @@ v2.0.0.#### (##-##-2024) [FoC v1.121.]
 
 Additions:
 • All indigenous units (and their Consortium Slave counterparts) didn't have customized descriptions like all other units in the game. (BUG #224)
-	• In addition, the Noghri had their description changed (TEXT_TOOLTIP_NOGHRI_ASSASSIN):
+	- In addition, the Noghri had their description changed (TEXT_TOOLTIP_NOGHRI_ASSASSIN):
 		- ENG: ...They are fierce warriors and assassins. -> ...They are fierce warriors and assassins equipped with disruptor cannons, which are highly effective against everything except shields.
 		- GER: ...Sie sind tapfere Krieger und tödliche Attentäter. -> ...Sie sind tapfere Krieger und tödliche Attentäter, die mit Disruptor-Kanonen ausgerüstet sind, die gegen alles außer Schilden sehr wirksam sind.
-	• In addition, the Consortium Slave text recieved a minor modification (TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE):
+	- In addition, the Consortium Slave text recieved a minor modification (TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE):
 		- ENG: An indigenous unit enslaved to the will of the Zann Consortium -> This indigenous unit is enslaved to the will of the Zann Consortium.
 		- GER: Ein einheimisches Lebewesen, das vom Zann-Konsortium versklavt wurde. -> Diese einheimische Einheit wird vom Zann-Konsortium versklavt.
+• Fix Grand Admiral Thrawn having an unfinished/subpar unit description (TEXT_TOOLTIP_SD_ADMONITOR_02). (BUG #225)
 
 
 Housekeeping:
