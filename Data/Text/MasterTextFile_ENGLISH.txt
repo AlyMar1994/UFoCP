@@ -3117,11 +3117,11 @@ TEXT_PLANET_MANAAN_INFO_TAC,Infantry auto heal due to Kolto healing agent reserv
 TEXT_PLANET_MANAAN_INFO_TER,Ocean
 TEXT_PLANET_MANAAN_INFO_WEA,Clear, Rain
 TEXT_PLANET_MANAAN_INFO_WL,None
-TEXT_PLANET_MANDALORE_ENCYC,Production Price Reduction (Mandalorian Units): The cost of Mandalorian units (StarViper Squadron, Crusader-class Gunship, Kedalbe-class Battleship, Canderous Assault Tank) is reduced due to the presence of the Mandal Hypernautics Corporation.
+TEXT_PLANET_MANDALORE_ENCYC,Production Price Reduction (Mandalorian Units): The cost of Mandalorian units (StarViper Squadron, Crusader-class Gunship, Keldabe-class Battleship, Canderous Assault Tank) is reduced due to the presence of the Mandal Hypernautics Corporation.
 TEXT_PLANET_MANDALORE_INFO_ADV,Production Price Reduction (Mandalorian Units)
 TEXT_PLANET_MANDALORE_INFO_HIS,A dangerous jungle planet located in the Outer Rim, Mandalore was the home system to fierce masked warrior clans led by the mysterious warlord Mandalore. The clans, made up of deadly but honorable crusaders, rode semi intelligent Basilisk war droids, boasted cutting-edge weaponry, and were considered the best fighters in the galaxy. The mask and title of Mandalore belonged to no single individual but were traditionally passed down from one warrior to the next on the leader's death. The Mandalorians have been scattered and their true numbers are unknown: their elite troops have all but vanished and only a few are known to maintain the time honoured military traditions of the Mandalorian clans.
 TEXT_PLANET_MANDALORE_INFO_POP,Mandalorians
-TEXT_PLANET_MANDALORE_INFO_TAC,The cost of Mandalorian units (StarViper, Crusader, Kedalbe, Canderous) is reduced due to the presence of the Mandal Hypernautics Corporation.
+TEXT_PLANET_MANDALORE_INFO_TAC,The cost of Mandalorian units (StarViper, Crusader, Keldabe, Canderous) is reduced due to the presence of the Mandal Hypernautics Corporation.
 TEXT_PLANET_MANDALORE_INFO_TER,Forest, Jungle, Desert
 TEXT_PLANET_MANDALORE_INFO_WEA,Rain
 TEXT_PLANET_MANDALORE_INFO_WL,Strills, Rawls
@@ -3318,11 +3318,11 @@ TEXT_PLANET_TYNNA_INFO_TER,Forests, lakes, oceans
 TEXT_PLANET_TYNNA_INFO_WEA,Clear, Rain
 TEXT_PLANET_TYNNA_INFO_WL,Suuri
 TEXT_PLANET_UNCORRUPTABLE,This area of space can only be corrupted by conquering it.
-TEXT_PLANET_UTAPAU_ENCYC,Advanced Shields (Kedalbe-class Battleship): Kedalbe-class Battleships gain a 25% increase to shield power while this planet is controlled. Ground bases are undetectable.
+TEXT_PLANET_UTAPAU_ENCYC,Advanced Shields (Keldabe-class Battleship): Keldabe-class Battleships gain a 25% increase to shield power while this planet is controlled. Ground bases are undetectable.
 TEXT_PLANET_UTAPAU_INFO_ADV,Advanced Shields; Base Stealth: Ground
 TEXT_PLANET_UTAPAU_INFO_HIS,Located in the remote Tarabba sector, Utapau is a planet pitted with enormous sinkholes. Many of these sinkholes contain intricate cities that stretch deep into the caves and crevices beneath the planet's surface. Because of the porous nature of Utapau's surface, water is scarcely found there. It is abundant on the floor of the sinkholes however, which grant the cities a readily available water supply. The inhabitants are near-human, divided into two distinct species, the tall, lordly, slow-moving Pau'ans, nicknamed Ancients for their astonishing longevity; and the stubby Utai, called Shorts, both for their stature and for their brief busy lives. Their energy economy is based on wind power. The planet's limited interstellar trade began only a few decades ago.
 TEXT_PLANET_UTAPAU_INFO_POP,Pau'ans, Utai
-TEXT_PLANET_UTAPAU_INFO_TAC,Kedalbe-class Battleships gain a 25% increase to shield power while this planet is controlled. Ground bases are undetectable.
+TEXT_PLANET_UTAPAU_INFO_TAC,Keldabe-class Battleships gain a 25% increase to shield power while this planet is controlled. Ground bases are undetectable.
 TEXT_PLANET_UTAPAU_INFO_TER,Desert
 TEXT_PLANET_UTAPAU_INFO_WEA,Sandstorms
 TEXT_PLANET_UTAPAU_INFO_WL,Varactyl
@@ -7876,7 +7876,7 @@ TEXT_SFX_KAD_MOVE_9,Approaching new coordinates now.
 TEXT_SFX_KAD_NEBULA_1,Nebula conditions are blocking our transmissions.
 TEXT_SFX_KAD_RETREAT_1,Prepare for hyperspace
 TEXT_SFX_KAD_RETREAT_2,Prepare the jump to light speed
-TEXT_SFX_KAD_SELECT_1,Kedalbe reporting
+TEXT_SFX_KAD_SELECT_1,Keldabe reporting
 TEXT_SFX_KAD_SELECT_10,Roger that
 TEXT_SFX_KAD_SELECT_11,Form up
 TEXT_SFX_KAD_SELECT_12,Awaiting orders
@@ -7888,7 +7888,7 @@ TEXT_SFX_KAD_SELECT_3,Weapons on line
 TEXT_SFX_KAD_SELECT_4,Weapons charged
 TEXT_SFX_KAD_SELECT_5,Frequency open
 TEXT_SFX_KAD_SELECT_6,Fleet, your transmission garbled, repeat.
-TEXT_SFX_KAD_SELECT_7,Kedalbe Battleship reporting at duty station
+TEXT_SFX_KAD_SELECT_7,Keldabe Battleship reporting at duty station
 TEXT_SFX_KAD_SELECT_8,Battleship standing by
 TEXT_SFX_KAD_SELECT_9,I copy
 TEXT_SFX_KAS_RS_CHATTER_1,I have no approach vector - I'm not set!
@@ -15091,7 +15091,7 @@ TEXT_SPEECH_FOCUS_DEMO_27,Tyber Zann: Ah, very nice...  Imperial cloaking techno
 TEXT_SPEECH_FOCUS_DEMO_28,Tyber Zann: Whenever an enemy planet has been corrupted we can spy on the activity on that planet. In this case, it appears that the Rebel Alliance is defending Felucia with an Ion Cannon. I hate surprises...
 TEXT_SPEECH_FOCUS_DEMO_29,Tyber Zann: Everyone has a price... use my Bribery ability to sway enemy units to our cause.
 TEXT_SPEECH_FOCUS_DEMO_30,Tyber Zann: Unlike the Rebel and Empire, these asteroids pose no threat to our ships.  We can use this ability as part of our tactics, to hide or evade the enemy
-TEXT_SPEECH_FOCUS_DEMO_31,Tyber Zann: This Rebel space station is heavily shielded, but our Kedalbe ship has the ability to drain enemy's shields.  Let's use their own shields against them!
+TEXT_SPEECH_FOCUS_DEMO_31,Tyber Zann: This Rebel space station is heavily shielded, but our Keldabe ship has the ability to drain enemy's shields.  Let's use their own shields against them!
 TEXT_SPEECH_FOCUS_DEMO_32,Hint: You can zoom in 2X to configure all of your bases to your liking.
 TEXT_SPEECH_FOCUS_DEMO_33,Tyber Zann: Since this planet has been corrupted by our influence, we will receive a bounty for every enemy that we kill.  Apparently, crime does pay.
 TEXT_SPEECH_FOCUS_DEMO_34,Tyber Zann: Thanks to our advanced recon we have been able to pin point the location of the rebel power generator. Unfortunately it lies within an area traversable only by infantry.
@@ -15236,7 +15236,7 @@ TEXT_SPEECH_MANDALORE_BRB_VICTORY_COR34_08,Defiler: I've successfully bribed the
 TEXT_SPEECH_MANDALORE_PIR_DIALOG_COR34_10,Tyber Zann: Captain, you would have made a good Consortium leader, too bad you have to die.
 TEXT_SPEECH_MANDALORE_PIR_DIALOG_COR34_11,Tyber Zann: You fight bravely, but not wisely. Your time ends now.
 TEXT_SPEECH_MANDALORE_PIR_DIALOG_COR34_12,Tyber Zann: You are brave but very foolish to challenge the Zann Consortium.
-TEXT_SPEECH_MANDALORE_PIR_LOAD_COR34_01,Tyber Zann: Men, expect waves of assault ships as we corrupt the planet. The battle isn't over until we have destroyed the Kedalbe warship.
+TEXT_SPEECH_MANDALORE_PIR_LOAD_COR34_01,Tyber Zann: Men, expect waves of assault ships as we corrupt the planet. The battle isn't over until we have destroyed the Keldabe warship.
 TEXT_SPEECH_MANDALORE_PIR_LOSS_COR34_07,Tyber Zann: I'm surrounded by incompetence! I give you one last time to prove yourselves.  Do not fail me again!
 TEXT_SPEECH_MANDALORE_PIR_TACTICAL_COR34_03,Tyber Zann: Facing the Mandalorians will be one of our greatest challenges. I'll face their clan leader in space above the planet.
 TEXT_SPEECH_MANDALORE_PIR_VICTORY_COR34_05,Tyber Zann: I've successfully corrupted Mandalore. Victory over the Mandalorians will strike fear in all those who dare to oppose us.
@@ -16200,7 +16200,7 @@ TEXT_SPEECH_UNDERWORLD_TUTORIAL_39,Tyber Zann: Excellent, these Buzz Droids are 
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_40,Tyber Zann: Whenever an enemy planet has been corrupted we can spy on the activity on that planet.  In this case, it appears that the Rebel Alliance is defending Felucia with an Ion Cannon.  I hate surprises...
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_41,Tyber Zann: Everyone has a price... use my Bribery ability to sway enemy units to our side.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_42,Tyber Zann: These asteroids pose no threat to my ships.  The Rebels and Imperials wish they could say the same!  I can use this advantage as part of my tactics, to hide from or evade my enemies.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_43,Tyber Zann: This Rebel space station is heavily shielded, but our Kedalbe ship has the ability to drain enemy's shields.  Let's use their own shields against them!
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_43,Tyber Zann: This Rebel space station is heavily shielded, but our Keldabe ship has the ability to drain enemy's shields.  Let's use their own shields against them!
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_44,Hint: Click the Base Layout button on the planetary detail screen or scroll your mouse wheel to zoom in 2 times to configure your base layout to your preferences.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_45,Tyber Zann: Since this planet has been corrupted by our influence, we will receive a bounty for every enemy that we kill.  Apparently, crime does pay.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_46,Tyber Zann: The information I received through bribery has allowed me to pinpoint the location of Jabba's forces.  He's set up near an Imperial generator.
@@ -18966,7 +18966,7 @@ TEXT_UPGRADE_US_SPECIAL_WEAPON_USE,Starbase Plasma Cannon
 TEXT_UPGRADE_US_TARGETING_SYSTEMS_L1,Targeting Systems (Level 1)
 TEXT_UPGRADE_US_TARGETING_SYSTEMS_L2,Targeting Systems (Level 2)
 TEXT_UPGRADE_US_TARGETING_SYSTEMS_L3,Targeting Systems (Level 3)
-TEXT_UPGRADE_UTAPAU_KEDALBE_SHIELD,Kedalbe Shield Boost
+TEXT_UPGRADE_UTAPAU_KEDALBE_SHIELD,Keldabe Shield Boost
 TEXT_UPGRADE_U_EXTORT_CASH_L1,Extort Cash (Level 1)
 TEXT_UPGRADE_U_EXTORT_CASH_L2,Extort Cash (Level 2)
 TEXT_UPLOADING_MAP_TO_PLAYER,Uploading map to player:
