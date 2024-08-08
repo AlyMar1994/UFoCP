@@ -57,12 +57,12 @@ Additions:
 Housekeeping:
 • Despite the vast majority of dialogue being double-spaced in EaW (and partially in FoC), dialogue during the Consortium's prologue and campaign wouldn't be.  Double-spacing has been rectified, and remains unmarked in this file to avoid conflicts with changes on the same text keys. (The German translation did not suffer this issue, as all dialogue is single-spaced.) (BUG #208).
 • Various texts across EaW and FoC would inconsistently use a special "…" character, or "..." (three periods).  The ellipses character is harder to read at high resolutions, and back-and-forth use of ellipses and periods caused spacing issues (would render as "to the Empire... .").  All ellipses have been swapped out for three periods and remains unmarked in this file to avoid conflicts with changes on the same text keys. (The German translation did not suffer this issue, as three periods are always used.) (BUG #211)
-• English localization infrequently referred to the Keldabe-class Battleship as the "Kedalbe," an old spelling from '80s Star Wars material, and German localization almost completely used that spelling.  All instances of "Kedalbe" have been swapped out for "Keldabe." (BUG #236)
+• English localization infrequently referred to the Keldabe-class Battleship as the "Kedalbe," an old spelling from '80s Star Wars material, and German localization almost completely used that spelling.  All instances of "Kedalbe" have been swapped out for "Keldabe," and left unmarked to not clog the changelog. (BUG #236)
 
 
 • TEXT_PLANET_CAPITAL_SHIP_PRODUCER: (BUG #145)
 	-- ENG: This planet can produce capital ships (Mon Calamari Cruisers or Imperial Star Destroyers). -> This planet can produce capital ships (Mon Calamari Cruisers, Imperial Star Destroyers, Aggressor-class Destroyers or Keldabe-class Battleships).
-	-- GER: Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer oder imperiale Sternenzerstörer). -> Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer, imperiale Sternenzerstörer, Zerstörer der Aggressor-Klasse oder Kampfschiff der Kedalbe-Klasse).
+	-- GER: Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer oder imperiale Sternenzerstörer). -> Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer, imperiale Sternenzerstörer, Zerstörer der Aggressor-Klasse oder Kampfschiff der Keldabe-Klasse).
 • TEXT_PLANET_HYPORI_ENCYC/TEXT_PLANET_HYPORI_INFO_TAC: (BUG #216)
 	-- ENG: Production Time Reduction (ground vehicles): While this planet is controlled, all ground vehicles take 25% less time to build -> Production Time Reduction (ground vehicles): While this planet is controlled, all ground vehicles take 25% less time to build (excludes Dark Troopers and Destroyer Droids).
 	-- GER: Schnellere Produktion (Bodenfahrzeuge): Solange diese Welt kontrolliert wird, braucht die Produktion von Bodenfahrzeugen 25 % weniger Zeit. -> Schnellere Produktion (Bodenfahrzeuge): Solange diese Welt kontrolliert wird, braucht die Produktion von Bodenfahrzeugen 25 % weniger Zeit (Dunklen Truppe und Zerstörerdroiden sind ausgeschlossen).
@@ -90,6 +90,9 @@ Housekeeping:
 • TEXT_UNIT_HOME_ONE: (BUG #198)
 	-- ENG: Home One -> Home One - Admiral Ackbar
 	-- GER: Home Einz -> Heimat Eins - Admiral Ackbar
+• TEXT_UNIT_HOUNDSTOOTH: (BUG #191)
+	-- ENG: Hound's Tooth -> The Hound's Tooth - Bossk
+	-- GER: Hound's Tooth -> Die Reißzahn - Bossk
 • TEXT_UNIT_SD_ACCUSER: (BUG #231)
 	-- ENG: N/A
 	-- GER: Accuser - Captain Piett -> Die Ankläger - Kapitän Piett
