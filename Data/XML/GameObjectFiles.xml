@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 
 <Game_Object_Files>
 
@@ -17,7 +17,7 @@
 	<File>GroundBuildablesRebel.xml</File>
 	<File>GroundBuildablesEmpire.xml</File>
 	<File>GroundBuildablesPirate.xml</File>
-	<File>Maps\GroundBuildablesSkirmish.xml</File>
+
 
 	<File>Maps\SpaceProps.xml</File>
 	<File>SpaceUnitsCapital.xml</File>
@@ -41,6 +41,8 @@
 	<File>Maps\SpecialStructures.xml</File>
 	<File>Maps\StarBases.xml</File>
 
+	<File>GroundBuildablesSkirmish.xml</File>
+
 	<File>Units\Squadrons.xml</File>
 
 	<File>Planets.xml</File>
@@ -58,28 +60,6 @@
 	<File>UpgradeObjects.xml</File>
 	<File>SecondaryStructures.xml</File>
 
-	<File>Props_Temperate.xml</File>
-	<File>Props_Swamp.xml</File>
-	<File>Props_Volcanic.xml</File>
-	<File>Props_Forest.xml</File>
-	<File>Props_Snow.xml</File>
-	<File>Props_Desert.xml</File>
-	<File>Props_Urban.xml</File>
-	<File>Maps\Props_Generic.xml</File>
-	<File>Maps\Props_Story.xml</File>
-
-	<File>CIN_SpaceUnitsCapital.xml</File>
-	<File>CIN_SpaceUnitsFighters.xml</File>
-	<File>CIN_SpaceUnitsCorvettes.xml</File>
-	<File>CIN_SpaceUnitsFrigates.xml</File>
-	<File>CIN_GroundInfantry.xml</File>
-	<File>CIN_GroundVehicles.xml</File>
-	<File>CIN_SpaceProps.xml</File>
-	<File>CIN_TransportUnits.xml</File>
-	<File>CIN_Projectiles.xml</File>
-	<File>CIN_GroundProps.xml</File>
-	<File>CIN_GroundTurrets.xml</File>
-
 	<File>MOV_Cinematics.xml</File>
 
 
@@ -91,13 +71,13 @@
 
 	<File>Units\Empire\Units_Hero_Empire_Thrawn.xml</File>
 	<File>Units\Empire\Units_Hero_Empire_Darth_Vader.xml</File>
+	<File>Units\Empire\Units_Land_Empire_DarkTroopers.xml</File>
 
 	<File>Units\Empire\Units_Space_Empire_TIE_Defender.xml</File>
 	<File>Units_Space_Empire_TIE_Interceptor.xml</File>
 	<File>Units_Space_Empire_TIE_Phantom.xml</File>
 	<File>Units\Empire\Units_Space_Empire_Executor.xml</File>
 
-	<File>Units\Empire\Units_Land_Empire_DarkTroopers.xml</File>
 	<File>Units_Land_Empire_Lancet.xml</File>
 	<File>Units_Land_Empire_Noghri.xml</File>
 	<File>Units_Land_Empire_Juggernaut.xml</File>
@@ -119,24 +99,6 @@
 
 
 	<!-- Expansion Units: Underworld -->
-
-	<File>Units\Underworld\Units_Hero_Underworld_IG88.xml</File>
-	<File>Units\Underworld\Units_Hero_Underworld_Bossk.xml</File>
-	<File>Units\Underworld\Units_Hero_Underworld_Tyber_Zann.xml</File>
-	<File>Units\Underworld\Units_Hero_Underworld_Silri.xml</File>
-	<File>Units\Underworld\Units_Hero_Underworld_Urai_Fen.xml</File>
-
-	<File>Units\Underworld\Units_Land_Underworld_MercenaryInf.xml</File>
-	<File>Units\Underworld\Units_Land_Underworld_DisruptorInf.xml</File>
-	<File>Units_Land_Underworld_DestroyerDroids.xml</File>
-	<File>Units_Land_Underworld_Vornskr.xml</File>
-	<File>Units_Land_Underworld_F9TZ_Transport.xml</File>
-	<File>Units_Land_Underworld_MAL.xml</File>
-	<File>Units_Land_Underworld_PulseTank.xml</File>
-	<File>Units_Land_Underworld_Canderous_Tank.xml</File>
-	<File>Units_Land_Underworld_ScavengerDroids.xml</File>
-	<File>Units\Underworld\Units_Land_Underworld_NightSister.xml</File>
-	<File>Units\Underworld\Units_Land_Underworld_Ewok_Bomber.xml</File>
 
 	<File>Units_Space_Underworld_StarViper.xml</File>
 	<File>Units_Space_Underworld_Skipray.xml</File>
@@ -163,14 +125,59 @@
 
 	<File>SpaceProps_Underworld.xml</File>
 	<File>Underworld_TransportUnits.xml</File>
-	<File>Units\Underworld\Minor_Heroes_Expansion.xml</File>
 	<File>Props_Felucia.xml</File>
 	<File>GroundBuildablesUnderworld.xml</File>
 	<File>GroundStructures_Underworld.xml</File>
 	<File>Units\Mobile_Defense_Units.XML</File>
 	<File>Multiplayer_Structure_Markers.XML</File>
 	<File>Modifiers\UpgradeObjects_Underworld.XML</File>
+
+	<!-- Expansion Units: Heroes -->
+
+	<File>Units\Underworld\Units_Hero_Underworld_IG88.xml</File>
+	<File>Units\Underworld\Units_Hero_Underworld_Bossk.xml</File>
+	<File>Units\Underworld\Units_Hero_Underworld_Tyber_Zann.xml</File>
+	<File>Units\Underworld\Units_Hero_Underworld_Silri.xml</File>
+	<File>Units\Underworld\Units_Hero_Underworld_Urai_Fen.xml</File>
+
+	<File>Units\Underworld\Units_Land_Underworld_MercenaryInf.xml</File>
+	<File>Units\Underworld\Units_Land_Underworld_DisruptorInf.xml</File>
+	<File>Units\Underworld\Minor_Heroes_Expansion.xml</File>
 	<File>Units\Underworld\Corruption_Special_Units.XML</File>
+	<File>Units\Underworld\Units_Land_Underworld_Ewok_Bomber.xml</File>
+	<File>Units_Land_Underworld_DestroyerDroids.xml</File>
+	<File>Units_Land_Underworld_Vornskr.xml</File>
+	<File>Units_Land_Underworld_F9TZ_Transport.xml</File>
+	<File>Units_Land_Underworld_MAL.xml</File>
+	<File>Units_Land_Underworld_PulseTank.xml</File>
+	<File>Units_Land_Underworld_Canderous_Tank.xml</File>
+	<File>Units_Land_Underworld_ScavengerDroids.xml</File>
+	<File>Units\Underworld\Units_Land_Underworld_NightSister.xml</File>
+
+	<!-- Prop Files -->
+	<File>Props_Temperate.xml</File>
+	<File>Props_Swamp.xml</File>
+	<File>Props_Volcanic.xml</File>
+	<File>Props_Forest.xml</File>
+	<File>Props_Snow.xml</File>
+	<File>Props_Desert.xml</File>
+	<File>Props_Urban.xml</File>
+	<File>Maps\Props_Generic.xml</File>
+	<File>Maps\Props_Story.xml</File>
+
+	<!-- CIN Files -->
+
+	<File>CIN_SpaceUnitsCapital.xml</File>
+	<File>CIN_SpaceUnitsFighters.xml</File>
+	<File>CIN_SpaceUnitsCorvettes.xml</File>
+	<File>CIN_SpaceUnitsFrigates.xml</File>
+	<File>CIN_GroundInfantry.xml</File>
+	<File>CIN_GroundVehicles.xml</File>
+	<File>CIN_SpaceProps.xml</File>
+	<File>CIN_TransportUnits.xml</File>
+	<File>CIN_Projectiles.xml</File>
+	<File>CIN_GroundProps.xml</File>
+	<File>CIN_GroundTurrets.xml</File>
 
 
 
