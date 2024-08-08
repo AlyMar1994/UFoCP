@@ -6675,8 +6675,16 @@
     <CommandBarComponent Name="g_planet_fleet">
             <Type>Button</Type>
             <Blank_Texture_Name> fleet_empty.tga fleet_stacks_01.tga fleet_stacks_02.tga fleet_stacks_03.tga fleet_stacks_04.tga fleet_stacks_05.tga </Blank_Texture_Name>
-            <!-- Order of icons : Rebel, Empire, Pirate, Raid, Death Star -->
-            <Icon_Alternate_Texture_Name>i_encyclopedia_rebel_symbol.tga i_encyclopedia_empire_symbol.tga i_encyclopedia_pirates_symbol.tga i_encyclopedia_underworld_symbol.tga i_encyclopedia_jabba_symbol.tga i_button_command_bar_rebel_symbol_raid.tga i_button_command_bar_death_star_symbol.tga</Icon_Alternate_Texture_Name>
+            <!-- AM1994: HACK HACK HACK/FIXME HIGH: ASK STEVE OR BRIAN TO FIX THIS!!!							-->
+            <!-- Slot 3/4 and messed up, slot 4 displays slot 3's icon in the economy ledger.					-->
+            <!-- To fix this, I made both slots the Consortium's icon.  This messes up the Pirates' icon		-->
+			<!-- but they aren't used in FoC so it's not a big deal right now.  Will need to ask Engies during	-->
+			<!-- next testing period to change this!!															-->
+			<!-- -->
+			<!-- ORIG ORDER: -->
+			<!-- i_encyclopedia_rebel_symbol.tga i_encyclopedia_empire_symbol.tga i_encyclopedia_pirates_symbol.tga i_encyclopedia_underworld_symbol.tga i_encyclopedia_jabba_symbol.tga i_button_command_bar_rebel_symbol_raid.tga i_button_command_bar_death_star_symbol.tga -->
+			<!-- Order of icons : Rebel, Empire, Pirate, Raid, Death Star -->
+            <Icon_Alternate_Texture_Name>i_encyclopedia_rebel_symbol.tga i_encyclopedia_empire_symbol.tga i_encyclopedia_underworld_symbol.tga i_encyclopedia_underworld_symbol.tga i_encyclopedia_jabba_symbol.tga i_button_command_bar_rebel_symbol_raid.tga i_button_command_bar_death_star_symbol.tga</Icon_Alternate_Texture_Name>
             <Mouse_Over_Texture_Name>i_button_unit_frame_space.tga i_button_unit_frame_space.tga i_button_unit_frame_space.tga i_button_unit_frame_space.tga</Mouse_Over_Texture_Name>
             <No_Shell>True</No_Shell>
             <Scale>1.0</Scale>

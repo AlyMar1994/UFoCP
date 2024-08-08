@@ -127,6 +127,7 @@ Interface Fixes:
 • Desert Skettos didn't use a tooltip icon despite having one in the interface GFX library. (BUG #156)
 • Tauntauns didn't use a tooltip icon despite having one in the interface GFX library. (BUG #157)
 • Planets owned by Jabba's Criminal Empire in the campaign wouldn't display their faction icon despite having one in the GFX library. (BUG #232)
+• The Consortium still used the Black Sun Pirates' faction icon in their economy ledger. (BUG #228)
 • Planets corrupted via Piracy didn't have a corruption icon next to the planet like other corruption types because one was never included in the interface GFX library. (BUG #161)
 • The IPV-1 Patrol Craft didn't have a selection ring in combat. (BUG #83)
 • Keldabe-class Battleships didn't have the tooltip noting that it can be only built on special planets, like Star Destroyers and Mon Calamari Cruisers. (BUG #143)
