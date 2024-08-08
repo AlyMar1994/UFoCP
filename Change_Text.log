@@ -58,6 +58,7 @@ Housekeeping:
 • Despite the vast majority of dialogue being double-spaced in EaW (and partially in FoC), dialogue during the Consortium's prologue and campaign wouldn't be.  Double-spacing has been rectified, and remains unmarked in this file to avoid conflicts with changes on the same text keys. (The German translation did not suffer this issue, as all dialogue is single-spaced.) (BUG #208).
 • Various texts across EaW and FoC would inconsistently use a special "…" character, or "..." (three periods).  The ellipses character is harder to read at high resolutions, and back-and-forth use of ellipses and periods caused spacing issues (would render as "to the Empire... .").  All ellipses have been swapped out for three periods and remains unmarked in this file to avoid conflicts with changes on the same text keys. (The German translation did not suffer this issue, as three periods are always used.) (BUG #211)
 • English localization infrequently referred to the Keldabe-class Battleship as the "Kedalbe," an old spelling from '80s Star Wars material, and German localization almost completely used that spelling.  All instances of "Kedalbe" have been swapped out for "Keldabe," and left unmarked to not clog the changelog. (BUG #236)
+• German localization (completely) used an incorrect spelling for "Exekutor," using the English word instead.  In addition, the Hound's Tooth wasn't "Reißzahn," the Merciless as "Gnadenlos" nor the Accuser as "Ankläger."  All instances have been swapped for the German cognate, and left unmarked to not clog the changelog.
 
 
 • TEXT_PLANET_CAPITAL_SHIP_PRODUCER: (BUG #145)
@@ -105,6 +106,9 @@ Housekeeping:
 • TEXT_UNIT_SD_ADMONITOR: (BUG #196)
 	-- ENG: Admonitor -> The Admonitor - Grand Admiral Thrawn
 	-- GER: Admonitor -> Die Admonitor - Großadmiral Thrawn
+• TEXT_UNIT_SSD_EXECUTOR: (BUG #194)
+	-- ENG: Executor -> The Executor - Darth Vader
+	-- GER: Executor -> Die Exekutor - Darth Vader
 • TEXT_TOOLTIP_STAR_DESTROYER: (BUG #229)
 	-- ENG: ...2 ion cannon batteries, 10 TIE fighter squadrons, and 5 TIE bomber squadrons. -> ...2 ion cannon batteries, 10 TIE interceptor squadrons, and 5 TIE bomber squadrons.
 	-- GER: ...2 Ionenkanonen-Batterien, 10 TIE-Fighter-Geschwadern und 5 TIE-Bomber-Geschwadern. -> ...2 Ionenkanonen-Batterien, 10 TIE-Interceptor-Geschwadern und 5 TIE-Bomber-Geschwadern.
