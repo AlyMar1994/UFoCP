@@ -424,6 +424,7 @@
 
 	<Props_Story Name="UMP_Prisoner_Human">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>NI_GMale_UrbanPrison_A.alo</Land_Model_Name>
 		<Affiliation>Neutral</Affiliation>
 		<Tactical_Health>25</Tactical_Health>
@@ -442,6 +443,7 @@
 
 	<Props_Story Name="UMP_Prisoner_Human_B">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>NI_GMale_UrbanPrison_B.alo</Land_Model_Name>
 		<Affiliation>Neutral</Affiliation>
 		<Tactical_Health>25</Tactical_Health>
@@ -456,6 +458,7 @@
 
 	<Props_Story Name="UMP_Prisoner_Human_C">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>NI_GMale_UrbanPrison_C.alo</Land_Model_Name>
 		<Affiliation>Neutral</Affiliation>
 		<Tactical_Health>25</Tactical_Health>
@@ -470,6 +473,7 @@
 
 	<Props_Story Name="UMP_Prisoner_Human_D">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>NI_GMale_UrbanPrison_D.alo</Land_Model_Name>
 		<Affiliation>Neutral</Affiliation>
 		<Tactical_Health>25</Tactical_Health>
@@ -484,6 +488,7 @@
 
 	<Props_Story Name="UMP_Prisoner_Human_E">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>NI_GMale_UrbanPrison_E.alo</Land_Model_Name>
 		<Affiliation>Neutral</Affiliation>
 		<Tactical_Health>25</Tactical_Health>
@@ -500,6 +505,7 @@
 
 			<Props_Story Name="UMP_Prisoner_Human_Company">
 				<Variant_Of_Existing_Type>Urban_Civilian_Team_Underworld</Variant_Of_Existing_Type>
+				<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 				<Company_Units>UMP_Prisoner_Human, UMP_Prisoner_Human_B, UMP_Prisoner_Human_C, UMP_Prisoner_Human_D, UMP_Prisoner_Human_E</Company_Units>
 				<Max_Squad_Size> 5 </Max_Squad_Size>
 				<Affiliation>Neutral</Affiliation>
@@ -587,12 +593,14 @@
 
 	<Props_Story Name="UMP_Prisoner_Chilly">
 		<Variant_Of_Existing_Type>Snow_Civilian_A</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Affiliation>Neutral</Affiliation>
 		<Projectile_Fire_Recharge_Seconds>.75</Projectile_Fire_Recharge_Seconds>
 	</Props_Story>
 
 			<Props_Story Name="UMP_Prisoner_Chilly_Company">
 				<Variant_Of_Existing_Type>Snow_Civilian_Team_Underworld</Variant_Of_Existing_Type>
+				<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 				<Company_Units>UMP_Prisoner_Chilly, UMP_Prisoner_Chilly, UMP_Prisoner_Chilly, UMP_Prisoner_Chilly, UMP_Prisoner_Chilly</Company_Units>
 				<Max_Squad_Size> 5 </Max_Squad_Size>
 				<Affiliation>Neutral</Affiliation>
