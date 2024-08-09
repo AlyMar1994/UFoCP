@@ -216,7 +216,7 @@
 	<UniqueUnit Name="Houndstooth">
 		<Text_ID>TEXT_UNIT_HOUNDSTOOTH</Text_ID>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Encyclopedia_Text> TEXT_TOOLTIP_HOUNDSTOOTH </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HOUNDSTOOTH_02 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Victory_Destroyer Nebulon_B_Frigate Interceptor4_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> X-wing Tie_Interceptor Starviper_Fighter </Encyclopedia_Vulnerable_To>
