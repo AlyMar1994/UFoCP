@@ -3974,9 +3974,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_MUSTAFAR</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_volcanic01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>w_planet_mustafar_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>w_planet_volcanic01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_mustafar_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
