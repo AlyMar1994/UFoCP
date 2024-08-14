@@ -1077,7 +1077,7 @@
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Corellian_Gunboat Crusader_Gunship </Encyclopedia_Vulnerable_To>
 		<Land_Model_Name> EV_SLAVE1.ALO </Land_Model_Name>
 		<Space_Model_Name> EV_SLAVE1_SPACE.ALO </Space_Model_Name>
-		<Icon_Name>i_button_slave1.tga</Icon_Name>
+		<Icon_Name>i_button_boba_fett.tga</Icon_Name>
 		<Mass>0.995</Mass>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Select_Box_Scale>80</Select_Box_Scale>
@@ -1215,7 +1215,6 @@
 	<UniqueUnit Name="Slave_I_MP">
 		<Variant_Of_Existing_Type>Slave_I</Variant_Of_Existing_Type>
 
-		<Icon_Name>i_button_boba_fett.tga</Icon_Name> <!-- AM1994 TODO: wtf? -->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
 		<Tactical_Build_Cost_Multiplayer>1700</Tactical_Build_Cost_Multiplayer>
