@@ -146,6 +146,7 @@ Map/Planet Fixes:
 • Space Mandalore's attacking forces would enter facing backwards on the map; the unit entry flags now face toward the space station properly. (BUG #22)
 • Space Sullust's planet GFX used the generic desert model instead of the volcanic one; the intended model was misreferenced in the GFX definition, and the map itself used the desert model as a hotfix. (BUG #167)
 • Space Aeten II's planet GFX used the generic desert model instead of the volcanic one; the intended model was misreferenced in the GFX definition, and the map itself used the desert model as a hotfix.  For the Piracy mission, Petroglyph reused Mustafar's GFX, leading to further inconsistency. (BUG #167)
+• Space Saleucami's orbital defense satellites wouldn't spawn on the map when bought in GC. (BUG #19)
 • Jabiim's galactic map model and terrain backdrop used "temperate" GFX despite being tagged as a swamp and appearing as a swamp planet during space combat. (BUG #67)
 • Mustafar's galactic map model used the generic volcanic planet GFX instead of the custom blue-glow planet like other planets with custom models.  The original planet model couldn't be used due to LOD states being reversed, so a new W_PLANET_MUSTAFAR_LOW model was created to function on the GC view. (BUG #240)
 • Nal Hutta was defined as a swamp planet but with "temperate" terrain; this caused music, GFX and SFX conflicts with the planet's setting; the campaign/prologue versions of the planet also had the wrong galactic terrain backdrop, showing an ecumenopolis instead of a swamp. (BUG #72)
