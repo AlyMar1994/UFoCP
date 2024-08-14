@@ -165,6 +165,7 @@ Map/Planet Fixes:
 
 Model Fixes:
 • The IPV-1 Patrol Craft had a visible blue plane in its center engine; the plane that spawned the engine particles wasn't set to "Hidden" when exported. (BUG #85)
+• TIE defenders didn't have a particle glow for their engines. (BUG #87)
 • The Venator-class Cruiser's shielding ability didn't cover the whole ship as the shield model didn't cover large segments of the ship's model, and the ship had incorrect shader assignments.  This was rectified in the 2023 patch for EaW only. (Thanks EaWX-Rhino!) (BUG #137)
 
 
