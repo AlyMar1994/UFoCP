@@ -58,7 +58,7 @@ function Definitions()
 		,"Crusader_Gunship | Interceptor4_Frigate | Kedalbe_Battleship | Krayt_Class_Destroyer | Skipray_Squadron | StarViper_Squadron | Vengeance_Frigate | JEDI_CRUISER_U = 0,3"
 		,"Rogue_Squadron_Space | Sundered_Heart | Han_Solo_Team_Space_MP | Home_One = 0,1"
 		,"Boba_Fett_Team_Space_MP | Accuser_Star_Destroyer | Darth_Team_Space_MP | Executor_Super_Star_Destroyer | Admonitor_Star_Destroyer = 0,1"
-		,"Bossk_Team_Space_MP | IG88_Team_Space_MP | The_Peacebringer = 0,1"
+		,"Houndstooth_MP | IG88_Team_Space_MP | The_Peacebringer = 0,1"
 		}
 	}
 	RequiredCategories = {"Fighter | Bomber | Corvette | Frigate | Capital | SpaceHero"}

@@ -47,6 +47,7 @@ HOUSEKEEPING:
 • Darth Vader's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Empire_Darth_Vader.xml.
 ======
 
+
 Ability Fixes:
 • "BARRAGE" prematurely stopped because the ability's invisible targeting marker died in the attack's splash damage; the marker can no longer die in tactical combat. (BUG #1)
 • "REMOVE_CORRUPTION_ABILITY" wouldn't appear in GC for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, or Mara Jade; the AI also wasn't aware that Ackbar, Darth Vader and Thrawn could remove corruption.  Multiple units weren't defined correctly in the AI/GUI references, and Ackbar's Remove Corruption ability was added to the wrong unit.  While Jade nor Katarn are available in GC, all previously mentioned Remove Corruption abilities have been fully restored. (BUG #35)
@@ -204,6 +205,12 @@ Unit Fixes:
 • Consortium infantry during Skirmish mirror-matches couldn't be bribed by Tyber Zann because the units didn't have a bribe cost attached to them. (BUG #163)
 • Imperial infantry wouldn't use their stand-at-attention animation in Darth Vader's "imposing presence" because the animation table didn't include Vader's land FoC unit, only his EaW one. (BUG #68)
 • Rebel infantry wouldn't use their celebration animations around Veers' capitulated AT-AT because his unit death models didn't have an "imposing presence" behavior setup, and even if he did, Rebel infantry didn't have his death models included in the animation table. (BUG #47)
+• Bossk would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #152)
+• IG-88 would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #151)
+• Darth Vader would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #150)
+• Boba Fett would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #149)
+• Luke Skywalker would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #148)
+• Han Solo & Chewbacca would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #147)
 
 
 Upgrade Fixes:

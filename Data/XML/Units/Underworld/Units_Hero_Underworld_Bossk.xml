@@ -449,7 +449,8 @@
 	</HeroCompany>
 
 
-	<HeroCompany Name="Bossk_Team_Space_MP">
+	<!-- AM1994: Disabling for Object-Contest bug: prefer Houndstooth_MP -->
+<!--	<HeroCompany Name="Bossk_Team_Space_MP">
 		<Variant_Of_Existing_Type>Bossk_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HOUNDSTOOTH</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_HOUNDSTOOTH </Encyclopedia_Text>
@@ -465,8 +466,19 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
+-->
 
+	<UniqueUnit Name="Houndstooth_MP">
+		<Variant_Of_Existing_Type>Houndstooth</Variant_Of_Existing_Type>
 
+		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
+		<Is_Stealth_Company>No</Is_Stealth_Company>
+	</UniqueUnit>
 
 
 
