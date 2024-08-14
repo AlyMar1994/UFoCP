@@ -949,6 +949,20 @@
 
 	</UniqueUnit>
 
+	<!-- AM1994: Used to prevent Object-Contest bug. -->
+	<UniqueUnit Name="Millennium_Falcon_MP">
+		<Variant_Of_Existing_Type>Millennium_Falcon</Variant_Of_Existing_Type>
+
+		<Tactical_Build_Cost_Multiplayer>1800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>33</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
+		<Is_Stealth_Company>No</Is_Stealth_Company>
+	</UniqueUnit>
+
+
 	<UniqueUnit Name="Millennium_Falcon_Landing">
 		<AI_Combat_Power>0</AI_Combat_Power>
 		<Variant_Of_Existing_Type>Millennium_Falcon</Variant_Of_Existing_Type>
@@ -1201,7 +1215,7 @@
 	<UniqueUnit Name="Slave_I_MP">
 		<Variant_Of_Existing_Type>Slave_I</Variant_Of_Existing_Type>
 
-		<Icon_Name>i_button_boba_fett.tga</Icon_Name>
+		<Icon_Name>i_button_boba_fett.tga</Icon_Name> <!-- AM1994 TODO: wtf? -->
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
 		<Tactical_Build_Cost_Multiplayer>1700</Tactical_Build_Cost_Multiplayer>

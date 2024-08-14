@@ -897,7 +897,8 @@
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
 
-	<HeroCompany Name="Han_Solo_Team_Space_MP">
+		<!-- AM1994: Disable to fix Object-Contest bug. Prefer Millennium_Falcon_MP -->
+<!--	<HeroCompany Name="Han_Solo_Team_Space_MP">
 		<Variant_Of_Existing_Type>Han_Solo_Team</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
@@ -912,7 +913,7 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
-
+-->
 
 	<HeroCompany Name="Katarn_Team">
 		<Text_ID>TEXT_HERO_KYLE_KATARN</Text_ID>
