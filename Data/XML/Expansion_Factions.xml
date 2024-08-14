@@ -450,7 +450,9 @@
 		<SFXEvent_HUD_Lost_Space_Battle_Enemy_TSW_Present> UHD_Defeated </SFXEvent_HUD_Lost_Space_Battle_Enemy_TSW_Present> <!-- We lost the space battle with enemy tactical superweapon present -->
 		<SFXEvent_HUD_Tactical_Victory_Near> Unit_Near_Victory_Underworld_Soldier </SFXEvent_HUD_Tactical_Victory_Near> <!-- PLACERHOLDER FOR FRANK --> <!-- We are outnumbering our enemy significantly and the FOW has been pushed back to help us exterminate the opposition -->
 		<SFXEvent_HUD_Repairing> UHD_Repairing </SFXEvent_HUD_Repairing> <!-- Repair is underway on something -->
-		<SFXEvent_HUD_Gravity_Control_Generator_On> Unit_GravGen_On_Underworld_Soldier </SFXEvent_HUD_Gravity_Control_Generator_On> <!-- The gravity control generator is switched on from off -->
+		<!-- <SFXEvent_HUD_Gravity_Control_Generator_On> Unit_GravGen_On_Underworld_Soldier </SFXEvent_HUD_Gravity_Control_Generator_On> -->
+		<!-- AM1994: Disable b/c the Empire doesn't use the Grav Control Gen anymore. -->
+		<SFXEvent_HUD_Gravity_Control_Generator_On /> <!-- The gravity control generator is switched on from off -->
 		<SFXEvent_HUD_Gravity_Control_Generator_Off> Unit_GravGen_Off_Underworld_Soldier </SFXEvent_HUD_Gravity_Control_Generator_Off> <!-- The gravity control generator is switched off from on -->
 		<SFXEvent_HUD_Special_Weapon_Ready> UHD_Hypervelocity_Available </SFXEvent_HUD_Special_Weapon_Ready> <!-- Index 0 = Hypervelocity Gun -->
 		<SFXEvent_HUD_Special_Weapon_Ready> UHD_Ion_Cannon_Available </SFXEvent_HUD_Special_Weapon_Ready> <!-- Index 1 = Ion Cannon - If entry here, must have 1 above even if stub -->

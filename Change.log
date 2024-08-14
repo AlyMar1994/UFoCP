@@ -103,6 +103,7 @@ Audio Fixes:
 • TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle; this was originally half-fixed in patch 1.121.826596, where they no longer only visually look like torpedoes. (BUG #179)
 • Imperial/Rebel hologram advisors wouldn't use special dialogue when the Death Star II was being attacked/defended or attacking/defending because only one entry existed for EaW's Death Star. (BUG #32)
 • Consortium hologram advisors wouldn't use special dialogue depending on battle conditions; all conditionals were disabled before release, and many were not programmed in at all.  The advisor now comments if Tyber Zann, enemy leaders or the Death Star II are present in battle, and two aditional checks have been added to restore dialogue if IG-88 is present alongside the Death Star II in battle. (BUG #202)
+• Consortium advisors would callout that "the Imperials are using a gravity generator!," and used multiple voicelines implying the Consortium destroyed their own Repulsorlift Jammers.  The offending lines have been removed, and only one line remains when the generator is deactivated. (BUG #202)
 
 
 Interface Fixes:

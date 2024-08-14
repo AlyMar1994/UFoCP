@@ -1653,11 +1653,15 @@
 									  <Overlap_Test> Unit_GravGen </Overlap_Test>
 								</SFXEvent>
 
+							  <!-- AM1994: Disable most of the Grav Gen lines.  Only line 1 is sutable to keep -->
+							  <!-- considering the Consortium controls gravity. -->
 							  <SFXEvent Name="Unit_GravGen_Off_Underworld_Soldier">
 									  <Use_Preset>Preset_UR</Use_Preset>
-									  <Samples>U000_GUS1701_ENG.wav U000_GUS1702_ENG.wav U000_GUS1703_ENG.wav U000_GUS1704_ENG.wav</Samples>
+									  <!-- <Samples>U000_GUS1701_ENG.wav U000_GUS1702_ENG.wav U000_GUS1703_ENG.wav U000_GUS1704_ENG.wav</Samples> -->
+									  <Samples>U000_GUS1701_ENG.wav</Samples>
 										  <Localize> Yes </Localize>
-										  <Text_ID>TEXT_SFX_GUS_GRAVGEN_OFF_1, TEXT_SFX_GUS_GRAVGEN_OFF_2, TEXT_SFX_GUS_GRAVGEN_OFF_3, TEXT_SFX_GUS_GRAVGEN_OFF_4</Text_ID>
+										  <!-- <Text_ID>TEXT_SFX_GUS_GRAVGEN_OFF_1, TEXT_SFX_GUS_GRAVGEN_OFF_2, TEXT_SFX_GUS_GRAVGEN_OFF_3, TEXT_SFX_GUS_GRAVGEN_OFF_4</Text_ID> -->
+										  <Text_ID>TEXT_SFX_GUS_GRAVGEN_OFF_1</Text_ID>
 									  <Overlap_Test> Unit_GravGen </Overlap_Test>
 								</SFXEvent>
 
