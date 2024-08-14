@@ -500,6 +500,7 @@
 	</HeroCompany>
 
 
+	<!-- AM1994: Disabling for Object-Contest bug: prefer IG-2000_MP -->
 	<HeroCompany Name="IG88_Team_Space_MP">
 		<Variant_Of_Existing_Type>IG88_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_IG2000</Text_ID>
@@ -516,6 +517,17 @@
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
 
+	<UniqueUnit Name="IG-2000_MP">
+		<Variant_Of_Existing_Type>IG-2000</Variant_Of_Existing_Type>
+
+		<Tactical_Build_Cost_Multiplayer>1700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
+		<Is_Stealth_Company>No</Is_Stealth_Company>
+	</UniqueUnit>
 
 
 
