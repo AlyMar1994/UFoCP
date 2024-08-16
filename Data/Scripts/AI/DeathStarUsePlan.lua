@@ -59,7 +59,6 @@ function Definitions()
 end
 
 function DeathStarForce_Thread()
-
 	AssembleForce(DeathStarForce)
 	BlockOnCommand(DeathStarForce.Move_To(Target))
 

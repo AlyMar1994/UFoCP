@@ -44,6 +44,7 @@ v2.0.0.#### (##-##-2024) [FoC v1.121.]
 UFoCP:
 ======
 HOUSEKEEPING:
+• Template/annotated versions of Empire at War's XML entries have been included under the "_TEMPLATE" folder for documentation purposes/aspiring modders.
 • Darth Vader's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Empire_Darth_Vader.xml.
 ======
 
@@ -65,7 +66,7 @@ AI Fixes:
 • The AI's blitzkrieg conquering plan "Crush" always cancelled before starting because of a coding mistake (the script couldn't find the player's Difficulty setting); the AI now continues the plan should the Difficulty be set to Hard. (BUG #79)
 • AI plans for managing, budgeting wouldn't look for FoC's Death Star II unit. (BUG #53)
 • AI plans to upgrade Imperial tech didn't include the Death Star II apart of the list of upgrade objects. (BUG #71)
-• AI plans for firing the Death Star wouldn't look for FoC's Death Star II unit.  In addition, the plan would be processed by all factions instead of just the Empire. (BUG #51)
+• AI plans for firing the Death Star wouldn't look for FoC's Death Star II unit. (BUG #51)
 • AI plans for building anti-infantry turrets weren't updated from EaW; the AI now knows the Proton Torpedo Turret is the Consortium's designated anti-infantry turret, and now has the same considerations to buy it like the Rebels and Empire. (BUG #114)
 • AI plans wouldn't factor in IG-88 nor Garm Bel Iblis when considering buying Repair Facilities. (BUG #117)
 • AI plans for finding the nearest appropriate healing object for special units didn't include Darth Vader's unit for FoC land combat, only his EaW unit. (BUG #27)
