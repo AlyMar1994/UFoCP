@@ -42,10 +42,10 @@
 require("pgevents")
 
 
-function Definitions()	
+function Definitions()
 	Category = "Generate_Magic_Space_Defense_Easy"
 	IgnoreTarget = true
-	
+
 	TaskForce = {
 	{
 		"ReserveForce"
@@ -59,17 +59,17 @@ function Definitions()
 	MagicPlanStealing = false
 end
 
-function ReserveForce_Thread()		
+function ReserveForce_Thread()
 	ReserveForce.Set_As_Goal_System_Removable(false)
 	BlockOnCommand(ReserveForce.Produce_Force(Target))
-	ReserveForce.Set_Plan_Result(true)	
-	
+	ReserveForce.Set_Plan_Result(true)
+
 	--Sleep forever on easy so that we can't repeat the spawn
 	wait_start_time = GetCurrentTime()
 	wait_duration = Determine_Magic_Wait_Duration()
 	while (GetCurrentTime() - wait_start_time < wait_duration) do
 		Sleep(1)
 	end
-	
+
 	ScriptExit()
 end
