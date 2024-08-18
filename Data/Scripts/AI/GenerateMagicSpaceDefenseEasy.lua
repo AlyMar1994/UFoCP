@@ -52,6 +52,7 @@ function Definitions()
 		,"DenyHeroAttach"
 		,"Fighter | Bomber = 4"
 		,"Corvette | Frigate = 2"
+		,"-TIE_Interceptor_Squadron"
 	}
 	}
 	AllowFreeStoreUnits = false
