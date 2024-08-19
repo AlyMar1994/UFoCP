@@ -290,11 +290,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_combat_armor1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_COMBAT_ARMOR_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -330,11 +330,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_combat_armor2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_COMBAT_ARMOR_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -370,11 +370,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_light_armor1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_LIGHT_ARMOR_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -410,11 +410,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_light_armor2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_LIGHT_ARMOR_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -450,11 +450,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_repulsor1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_ENHANCED_REPULSORS_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -474,7 +474,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
   	</UpgradeObject>
-	
+
 	<!-- Enhanced Repulsors (Level 2): Light Vehicles move 30% faster. -->
 	<UpgradeObject Name="RL_Enhanced_Repulsors_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -490,11 +490,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_repulsor2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_ENHANCED_REPULSORS_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -514,7 +514,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
   	</UpgradeObject>
-	
+
 	<!-- Heavy Armor Plating (Level 1): Heavy Vehicles take 25% less damage -->
 	<UpgradeObject Name="RL_Heavy_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -530,11 +530,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_heavy_armor1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_HEAVY_ARMOR_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_HEAVY_ARMOR_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -570,11 +570,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_heavy_armor2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_HEAVY_ARMOR_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_HEAVY_ARMOR_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -610,11 +610,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_treads1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_IMPROVED_TREADS_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_IMPROVED_TREADS_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -634,7 +634,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
   	</UpgradeObject>
-	
+
 	<!-- Improved Treads (Level 2): Heavy Vehicles move 30% faster. -->
 	<UpgradeObject Name="RL_Improved_Treads_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -650,11 +650,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_treads2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_IMPROVED_TREADS_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_IMPROVED_TREADS_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -674,7 +674,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
   	</UpgradeObject>
-	
+
 	<!-- Improved T4B Damage (Level 1): T4B tanks do 25% more damage. -->
 	<UpgradeObject Name="RL_Improved_T4B_Damage_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -690,11 +690,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_t4b1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_IMPROVED_T4B_DAMAGE_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_IMPROVED_T4B_DAMAGE_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -714,7 +714,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
   	</UpgradeObject>
-	
+
 	<!-- Improved T4B Damage (Level 2): T4B tanks do 50% more damage. -->
 	<UpgradeObject Name="RL_Improved_T4B_Damage_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -730,11 +730,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_t4b2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_IMPROVED_T4B_DAMAGE_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_IMPROVED_T4B_DAMAGE_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -770,11 +770,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_production1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_INCREASED_PRODUCTION_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_INCREASED_PRODUCTION_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -791,7 +791,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
   	</UpgradeObject>
-	
+
 	<!-- Increased Production (Level 2): Mining Facility provides 40% more income. -->
 	<UpgradeObject Name="RL_Increased_Production_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -807,11 +807,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_production2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_INCREASED_PRODUCTION_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_INCREASED_PRODUCTION_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -829,7 +829,7 @@
 		<CategoryMask>Upgrade</CategoryMask>
   	</UpgradeObject>
 
-	<!-- Bombing Runs: Lets the player call in a bombing run, must be purchased for each bombing run. -->	
+	<!-- Bombing Runs: Lets the player call in a bombing run, must be purchased for each bombing run. -->
 	<UpgradeObject Name="RL_Bombing_Run_Use_Upgrade">
 		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_BOMBING_RUN</Behavior>
 		<Affiliation>Rebel</Affiliation>
@@ -844,11 +844,11 @@
 		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_bombing_run.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_BOMBING_RUN_USE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -878,11 +878,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_reinforce_structure.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_REINFORCED_STRUCTURES  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_REINFORCED_STRUCTURES</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -918,11 +918,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_turret1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_TURRET_FIREPOWER_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_ENHANCED_TURRET_FIREPOWER_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -942,7 +942,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
   	</UpgradeObject>
-	
+
 	<!-- Enhanced Turret Firepower (Level 2): Anti-infantry, anti-vehicle and anti-aircraft turrets do 25% more damage. -->
 	<UpgradeObject Name="RL_Enhanced_Turret_Firepower_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -958,11 +958,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_turret2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_TURRET_FIREPOWER_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_ENHANCED_TURRET_FIREPOWER_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -998,11 +998,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_base_shield.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_BASE_SHIELD  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_ENHANCED_BASE_SHIELD</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1016,7 +1016,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
   	</UpgradeObject>
-	
+
 	<UpgradeObject Name="RL_Enhanced_Base_Shield_Upgrade">
 		<Variant_Of_Existing_Type>RL_Enhanced_Base_Shield_Upgrade_NoPre</Variant_Of_Existing_Type>
 		<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -1037,11 +1037,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_garrison.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_MORE_GARRISONS_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_MORE_GARRISONS_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1070,11 +1070,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_weather_affinity.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_RL_WEATHER_PROOF_L1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_WEATHER_PROOF_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1105,11 +1105,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_mobility.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_INCREASED_MOBILITY  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_INCREASED_MOBILITY</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1145,11 +1145,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_stamina_boost.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_STAMINA_BOOST  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_STAMINA_BOOST</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1169,7 +1169,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
   	</UpgradeObject>
-	
+
 	<!-- Light Reflective Armor (Level 1): Light vehicles deflect 25% of incoming blaster fire. -->
 	<UpgradeObject Name="EL_Light_Reflective_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -1185,11 +1185,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_light_reflective_armor1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_LIGHT_REFLECTIVE_ARMOR_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_LIGHT_REFLECTIVE_ARMOR_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1219,11 +1219,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_light_reflective_armor2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_LIGHT_REFLECTIVE_ARMOR_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_LIGHT_REFLECTIVE_ARMOR_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1252,11 +1252,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_reactor_land1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_REACTORS_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_REACTORS_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1292,11 +1292,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_reactor_land2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_REACTORS_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_REACTORS_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1332,11 +1332,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_heavy_reflective_armor1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_HEAVY_REFLECTIVE_ARMOR_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1366,11 +1366,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_heavy_reflective_armor2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_HEAVY_REFLECTIVE_ARMOR_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1400,11 +1400,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_atat_reactors1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_IMPROVED_ATAT_REACTORS_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1440,11 +1440,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_atat_reactors2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_IMPROVED_ATAT_REACTORS_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1480,11 +1480,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_production1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_INCREASED_PRODUCTION_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1501,7 +1501,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
   	</UpgradeObject>
-	
+
 	<!-- Increased Production (Level 2): Mining Facility provides 40% more income. -->
 	<UpgradeObject Name="EL_Increased_Production_L2_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -1517,11 +1517,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_production2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_INCREASED_PRODUCTION_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1554,11 +1554,11 @@
 		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_bombing_run_empire.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_BOMBING_RUN_USE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_BOMBING_RUN_USE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1588,11 +1588,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_reinforce_structure.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_REINFORCED_STRUCTURES  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_REINFORCED_STRUCTURES</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1628,11 +1628,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_turret1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_TURRET_FIREPOWER_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1668,11 +1668,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_turret2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_TURRET_FIREPOWER_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1708,11 +1708,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_base_shield.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_BASE_SHIELD </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_BASE_SHIELD</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1726,7 +1726,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 	<UpgradeObject Name="EL_Enhanced_Base_Shield_Upgrade">
 		<Variant_Of_Existing_Type>EL_Enhanced_Base_Shield_Upgrade_NoPre</Variant_Of_Existing_Type>
 		<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -1748,11 +1748,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_garrison.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_MORE_GARRISONS_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_MORE_GARRISONS_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1781,11 +1781,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_weather_affinity.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text>TEXT_UPGRADE_TOOLTIP_EL_WEATHER_PROOF_L1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_WEATHER_PROOF_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1815,11 +1815,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_shield1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_ENHANCED_SHIELDING_L1 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1855,11 +1855,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_shield2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_ENHANCED_SHIELDING_L2 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1895,11 +1895,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_shield3.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_ENHANCED_SHIELDING_L3  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_ENHANCED_SHIELDING_L3 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1935,11 +1935,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_IMPROVED_WEAPONS_L1 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -1975,11 +1975,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_weapons2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_IMPROVED_WEAPONS_L2 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2015,11 +2015,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_weapons3.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_WEAPONS_L3  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_IMPROVED_WEAPONS_L3 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2055,11 +2055,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_supplies1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L1 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2128,11 +2128,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_supplies2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L2 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2202,11 +2202,11 @@
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_ion_cannon.tga</Icon_Name>
 		<Is_Skirmish_Tactical_Super_Weapon>true</Is_Skirmish_Tactical_Super_Weapon>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_SPECIAL_WEAPON_USE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_SPECIAL_WEAPON_USE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Ion_Cannon_Available</SFXEvent_Build_Complete>
@@ -2238,11 +2238,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_reinforced_armor1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_REINFORCED_ARMOR_L1 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2278,11 +2278,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_reinforced_armor2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_REINFORCED_ARMOR_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_REINFORCED_ARMOR_L2 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2318,11 +2318,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_defenses1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_DEFENSES_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_IMPROVED_DEFENSES_L1 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2382,11 +2382,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_defenses2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_DEFENSES_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_IMPROVED_DEFENSES_L2 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2434,11 +2434,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_defenses3.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_IMPROVED_DEFENSES_L3  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_IMPROVED_DEFENSES_L3 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2474,11 +2474,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_garrison.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_MORE_GARRISONS_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RS_MORE_GARRISONS_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2512,11 +2512,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_reactor_space1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_REACTORS_L1 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2552,11 +2552,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_reactor_space2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_REACTORS_L2 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2604,11 +2604,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_reactor_space3.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_ENHANCED_REACTORS_L3  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_ENHANCED_REACTORS_L3 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2656,11 +2656,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_reinforced_armor1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_REINFORCED_ARMOR_L1 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2696,11 +2696,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_reinforced_armor2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_REINFORCED_ARMOR_L2 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2736,11 +2736,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_reinforced_armor3.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_REINFORCED_ARMOR_L3  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_REINFORCED_ARMOR_L3 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2776,11 +2776,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_supplies1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_INCREASED_SUPPLIES_L1 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2849,11 +2849,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_supplies2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_INCREASED_SUPPLIES_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_INCREASED_SUPPLIES_L2 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2922,11 +2922,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_weapons1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_IMPROVED_WEAPONS_L1 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -2962,11 +2962,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_weapons2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_IMPROVED_WEAPONS_L2 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3002,11 +3002,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_weapons3.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_WEAPONS_L3  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_IMPROVED_WEAPONS_L3 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3047,7 +3047,7 @@
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_SPECIAL_WEAPON_USE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_SPECIAL_WEAPON_USE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Hypervelocity_Available</SFXEvent_Build_Complete>
@@ -3078,11 +3078,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_defenses1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_DEFENSES_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_IMPROVED_DEFENSES_L1 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3142,11 +3142,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_defenses2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_DEFENSES_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_IMPROVED_DEFENSES_L2 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3194,11 +3194,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_defenses3.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_IMPROVED_DEFENSES_L3  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_IMPROVED_DEFENSES_L3 </Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3234,11 +3234,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_garrison.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_MORE_GARRISONS_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_ES_MORE_GARRISONS_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3270,11 +3270,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_rebel_station2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_TWO_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_TWO_STARBASE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3282,7 +3282,7 @@
 			<Starbase_Upgrade_Ability Name="RS_Level_Two_Starbase_Upgrade_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 			</Starbase_Upgrade_Ability>
-		</Abilities>		
+		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
@@ -3300,11 +3300,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_rebel_station3.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_THREE_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_THREE_STARBASE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3312,7 +3312,7 @@
 			<Starbase_Upgrade_Ability Name="RS_Level_Three_Starbase_Upgrade_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 			</Starbase_Upgrade_Ability>
-		</Abilities>		
+		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
@@ -3330,11 +3330,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_rebel_station4.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FOUR_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_FOUR_STARBASE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3342,7 +3342,7 @@
 			<Starbase_Upgrade_Ability Name="RS_Level_Four_Starbase_Upgrade_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 			</Starbase_Upgrade_Ability>
-		</Abilities>		
+		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
@@ -3360,11 +3360,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_rebel_station5.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FIVE_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_FIVE_STARBASE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3372,7 +3372,7 @@
 			<Starbase_Upgrade_Ability Name="RS_Level_Five_Starbase_Upgrade_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 			</Starbase_Upgrade_Ability>
-		</Abilities>		
+		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
@@ -3391,11 +3391,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_imperial_station2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_TWO_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_TWO_STARBASE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3403,7 +3403,7 @@
 			<Starbase_Upgrade_Ability Name="ES_Level_Two_Starbase_Upgrade_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 			</Starbase_Upgrade_Ability>
-		</Abilities>		
+		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
@@ -3421,11 +3421,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_imperial_station3.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_THREE_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_THREE_STARBASE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3433,7 +3433,7 @@
 			<Starbase_Upgrade_Ability Name="ES_Level_Three_Starbase_Upgrade_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 			</Starbase_Upgrade_Ability>
-		</Abilities>		
+		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
@@ -3451,11 +3451,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_imperial_station4.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FOUR_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_FOUR_STARBASE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3463,7 +3463,7 @@
 			<Starbase_Upgrade_Ability Name="ES_Level_Four_Starbase_Upgrade_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 			</Starbase_Upgrade_Ability>
-		</Abilities>		
+		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
@@ -3481,11 +3481,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_imperial_station5.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FIVE_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_FIVE_STARBASE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3493,11 +3493,11 @@
 			<Starbase_Upgrade_Ability Name="ES_Level_Five_Starbase_Upgrade_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 			</Starbase_Upgrade_Ability>
-		</Abilities>		
+		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
-	
+
+
 	<UpgradeObject Name="US_Level_Two_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Underworld</Affiliation>
@@ -3512,11 +3512,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_ub_station2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_TWO_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_TWO_STARBASE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3524,7 +3524,7 @@
 			<Starbase_Upgrade_Ability Name="RS_Level_Two_Starbase_Upgrade_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 			</Starbase_Upgrade_Ability>
-		</Abilities>		
+		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
@@ -3542,11 +3542,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_ub_station3.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_THREE_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_THREE_STARBASE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3554,7 +3554,7 @@
 			<Starbase_Upgrade_Ability Name="RS_Level_Three_Starbase_Upgrade_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 			</Starbase_Upgrade_Ability>
-		</Abilities>		
+		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
@@ -3572,11 +3572,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_ub_station4.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FOUR_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_FOUR_STARBASE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3584,7 +3584,7 @@
 			<Starbase_Upgrade_Ability Name="RS_Level_Four_Starbase_Upgrade_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 			</Starbase_Upgrade_Ability>
-		</Abilities>		
+		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
@@ -3602,11 +3602,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_ub_station5.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FIVE_STARBASE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_FIVE_STARBASE</Text_ID>
-		
+
 		<SFXEvent_Build_Started>UHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3614,10 +3614,10 @@
 			<Starbase_Upgrade_Ability Name="RS_Level_Five_Starbase_Upgrade_Effect">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 			</Starbase_Upgrade_Ability>
-		</Abilities>		
+		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 <!-- ================== LAND SKIRMISH COMMAND CENTER TECH UPGRADE OBJECTS =================== -->
 
 	<UpgradeObject Name="RC_Level_Two_Tech_Upgrade">
@@ -3637,11 +3637,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_r_tech_upgrade_2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_TWO </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_TWO_COMMAND_CENTER</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3666,11 +3666,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_r_tech_upgrade_3.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_THREE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_THREE_COMMAND_CENTER</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3695,11 +3695,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_r_tech_upgrade_4.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_FOUR  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_FOUR_COMMAND_CENTER</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3724,11 +3724,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_e_tech_upgrade_2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_TWO  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_TWO_COMMAND_CENTER</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3753,11 +3753,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_e_tech_upgrade_3.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_THREE  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_THREE_COMMAND_CENTER</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3782,18 +3782,18 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_button_e_tech_upgrade_4.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_FOUR  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_LEVEL_FOUR_COMMAND_CENTER</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
 		<CategoryMask>Upgrade</CategoryMask>
 		<Is_Community_Property>Yes</Is_Community_Property>
 	</UpgradeObject>
-	
+
 <!-- **************ONE OFF UPGRADES FOR MERCENARY OUTFITTER**************** -->
 <!-- ****************THESE UPGRADES HAVE NO PRE-REQUESITES***************** -->
 
@@ -3812,11 +3812,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_increased_mobility.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_INCREASED_MOBILITY  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_INCREASED_MOBILITY</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3852,11 +3852,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_stamina_boost.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_STAMINA_BOOST  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_STAMINA_BOOST</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3876,7 +3876,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 	<!-- Enhanced Reactors (Level 1): Light vehicles move 15% faster. -->
 	<UpgradeObject Name="EL_Enhanced_Reactors_L1_Upgrade_NoPre">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -3892,11 +3892,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_reactor_land1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_REACTORS_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_REACTORS_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3916,7 +3916,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 	<!-- Enhanced Reactors (Level 2): Light vehicles move 30% faster. -->
 	<UpgradeObject Name="EL_Enhanced_Reactors_L2_Upgrade_NoPre">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -3932,11 +3932,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_reactor_land2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_REACTORS_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_ENHANCED_REACTORS_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3956,7 +3956,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 	<!-- Heavy Reflective Armor (Level 1): Heavy vehicles deflect 20% of incoming blaster fire. -->
 	<UpgradeObject Name="EL_Heavy_Reflective_Armor_L1_Upgrade_NoPre">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -3972,11 +3972,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_heavy_reflective_armor1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L1 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_HEAVY_REFLECTIVE_ARMOR_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -3990,7 +3990,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 	<!-- Heavy Reflective Armor (Level 2): Heavy vehicles deflect 35% of incoming blaster fire. -->
 	<UpgradeObject Name="EL_Heavy_Reflective_Armor_L2_Upgrade_NoPre">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -4006,11 +4006,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_heavy_reflective_armor2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L2 </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_EL_HEAVY_REFLECTIVE_ARMOR_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -4024,7 +4024,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 	<!-- Combat Armor (Level 1): Rebel Troopers take 50% less damage -->
 	<UpgradeObject Name="RL_Combat_Armor_L1_Upgrade_NoPre">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -4040,11 +4040,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_combat_armor1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_COMBAT_ARMOR_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -4064,7 +4064,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 	<!-- Combat Armor (Level 2): Plex Soldiers take 50% less damage. -->
 	<UpgradeObject Name="RL_Combat_Armor_L2_Upgrade_NoPre">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -4080,11 +4080,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_combat_armor2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_COMBAT_ARMOR_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -4104,7 +4104,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 	<!-- Enhanced Repulsors (Level 1): Light Vehicles move 15% faster. -->
 	<UpgradeObject Name="RL_Enhanced_Repulsors_L1_Upgrade_NoPre">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -4120,11 +4120,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_repulsor1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_ENHANCED_REPULSORS_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -4144,7 +4144,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 	<!-- Enhanced Repulsors (Level 2): Light Vehicles move 30% faster. -->
 	<UpgradeObject Name="RL_Enhanced_Repulsors_L2_Upgrade_NoPre">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -4160,11 +4160,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_enhanced_repulsor2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_ENHANCED_REPULSORS_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -4184,7 +4184,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 	<!-- Improved Treads (Level 1): Heavy Vehicles move 15% faster. -->
 	<UpgradeObject Name="RL_Improved_Treads_L1_Upgrade_NoPre">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -4200,11 +4200,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_treads1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_IMPROVED_TREADS_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_IMPROVED_TREADS_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -4224,7 +4224,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 	<!-- Improved Treads (Level 2): Heavy Vehicles move 30% faster. -->
 	<UpgradeObject Name="RL_Improved_Treads_L2_Upgrade_NoPre">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -4240,11 +4240,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_multi_improved_treads2.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RL_IMPROVED_TREADS_L2  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UPGRADE_RL_IMPROVED_TREADS_L2</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -4264,7 +4264,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 	<!-- Negative Combat Armor (Level 1): Rebel Troopers take 50% MORE damage -->
 	<UpgradeObject Name="RL_Combat_Armor_L1_Upgrade_Negative">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -4277,11 +4277,11 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_negative_combat_armor1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_PENALTY_TOOLTIP_RL_COMBAT_ARMOR_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE_PENALTY </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_PENALTY_RL_COMBAT_ARMOR_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -4301,7 +4301,7 @@
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
+
 	<!-- Negative Combat Armor notification (Level 1): Rebel Troopers take 50% MORE damage notification for Empire faction-->
 	<UpgradeObject Name="EL_Combat_Armor_L1_Upgrade_Negative">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -4314,15 +4314,15 @@
 		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
 		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
 		<Icon_Name>i_negative_combat_armor1.tga</Icon_Name>
-		
+
 		<Encyclopedia_Text> TEXT_PENALTY_TOOLTIP_RL_COMBAT_ARMOR_L1  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DEFENSE_PENALTY </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_PENALTY_RL_COMBAT_ARMOR_L1</Text_ID>
-		
+
 		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-		
+
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
