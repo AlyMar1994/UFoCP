@@ -784,7 +784,7 @@
 				<Income_Additive_Value>0.0</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Rebel_Ground_Mining_Facility</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_Ground_Mining_Facility_R</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -821,7 +821,7 @@
 				<Income_Additive_Value>0.0</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Rebel_Ground_Mining_Facility</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_Ground_Mining_Facility_R</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -1494,7 +1494,7 @@
 				<Income_Additive_Value>0.0</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Empire_Ground_Mining_Facility</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_Ground_Mining_Facility_E</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
@@ -1531,7 +1531,7 @@
 				<Income_Additive_Value>0.0</Income_Additive_Value>
 				<Interval_Multiplier>1.0</Interval_Multiplier>
 				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Empire_Ground_Mining_Facility</Target_Stream_Source>
+				<Target_Stream_Source>Skirmish_Ground_Mining_Facility_E</Target_Stream_Source>
 				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
 				<Reverse_Application_Logic>No</Reverse_Application_Logic>
 			</Income_Stream_Mod_Ability>
