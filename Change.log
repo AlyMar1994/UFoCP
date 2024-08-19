@@ -97,15 +97,17 @@ Audio Fixes:
 • Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
 • Consortium turbolaser towers would use the Rebels' VO when built instead of their faction's VO. (BUG #42)
 • Consortium Piracy reward ships used their faction-oriented VO when bought and finished construction instead of using Consortium VO. (BUG #50)
+• Consortium hologram advisors wouldn't use special dialogue depending on battle conditions; all conditions were disabled before release, and many were not programmed in at all.  The advisor now comments if Tyber Zann, enemy leaders or the Death Star II are present in battle, and two aditional checks have been added to restore dialogue if IG-88 is present alongside the Death Star II in battle. (BUG #202)
+• Consortium advisors would callout that "the Imperials are using a gravity generator!," and used multiple voicelines implying the Consortium destroyed their own Repulsorlift Jammers.  The offending lines have been removed, and only one line remains when the generator is deactivated. (BUG #202)
+• Imperial/Rebel hologram advisors wouldn't use special dialogue when the Death Star II was being attacked/defended or attacking/defending because only one entry existed for EaW's Death Star. (BUG #32)
 • MDUs would use Rebel VO for unit death or building construction.  Each MDU now uses faction-based VO. (BUG #158)
 • No music would play when losing against the Consortium because of a bad file reference, and the Consortium's music entries referenced the Rebels'; the Consortium's music now points to its own entries properly (and has had its volume boosted, as the music is quiet). (BUG #31)
 • Imperial Force Adepts no longer use both the Rebel blaster SFX and a lightsaber swing sound when attacking. (BUG #63)
 • Silri no longer uses both the Stormtrooper blaster SFX and a lightsaber swing sound when attacking. (BUG #207)
 • TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
 • TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle; this was originally half-fixed in patch 1.121.826596, where they no longer only visually look like torpedoes. (BUG #179)
-• Imperial/Rebel hologram advisors wouldn't use special dialogue when the Death Star II was being attacked/defended or attacking/defending because only one entry existed for EaW's Death Star. (BUG #32)
-• Consortium hologram advisors wouldn't use special dialogue depending on battle conditions; all conditions were disabled before release, and many were not programmed in at all.  The advisor now comments if Tyber Zann, enemy leaders or the Death Star II are present in battle, and two aditional checks have been added to restore dialogue if IG-88 is present alongside the Death Star II in battle. (BUG #202)
-• Consortium advisors would callout that "the Imperials are using a gravity generator!," and used multiple voicelines implying the Consortium destroyed their own Repulsorlift Jammers.  The offending lines have been removed, and only one line remains when the generator is deactivated. (BUG #202)
+• Broadside Cruisers used an unused set of Interdictor Cruiser VO for its BARRAGE ability. (BUG #244)
+• Marauder Cruisers used an unused set of Corellian Corvette VO for its BARRAGE ability. (BUG #245)
 
 
 Interface Fixes:
