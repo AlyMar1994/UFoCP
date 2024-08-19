@@ -928,7 +928,7 @@
 				<Recharge_Seconds>40</Recharge_Seconds>
 				<Mod_Multiplier>FIRE_RATE_MULTIPLIER,			3.0f</Mod_Multiplier>
 
-                <SFXEvent_Target_Ability> Unit_Barrage_Interdictor </SFXEvent_Target_Ability>
+                <SFXEvent_Target_Ability> Unit_Barrage_Broadside_Cruiser </SFXEvent_Target_Ability>
 
                 <!-- keep this the same as Targeting_Fire_Inaccuracy_Fixed_Radius_Override -->
                 <Area_Effect_Decal_Distance> 320.0 </Area_Effect_Decal_Distance>
