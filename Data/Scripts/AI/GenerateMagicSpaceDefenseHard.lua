@@ -53,6 +53,7 @@ function Definitions()
 		,"Fighter | Bomber = 10"
 		,"Corvette | Frigate | Capital = 6"
 		,"-TIE_Interceptor_Squadron"
+		,"-TIE_Interceptor"
 	}
 	}
 	AllowFreeStoreUnits = false
