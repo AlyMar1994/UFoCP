@@ -55,7 +55,7 @@ Ability Fixes:
 • Rebellion Orbital Bombardment (ion cannon bombardment) would be available without ships with ion cannons in orbit (Nebulon-Bs and Alliance Assault Frigates); the Calamari Cruiser and Home One are now the only ships that can orbitally bombard. (BUG #39)
 • Cuddles (Silri's rancor) didn't have its eat-infantry ability uncensored in patch 1.121.826596 like indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)
 • Hero Clash "Darth Vader vs. Obi-Wan" wouldn't start with Darth Vader's unit in FoC land combat, only his EaW unit. (BUG #26)
-• Tyber Zann was a stealth-capable unit, despite having a devastating capital ship, even when the cloaking technology upgrade wasn't purchased yet.  His stealth ability has been removed for balance, like Aggressor-classes and other heroes, but is still a stealth unit during the Consortium's campaign and prologue. (BUG #154)
+• Tyber Zann was a stealth-capable unit in Galactic fleet management despite having a devastating capital ship, even when cloaking technology upgrade wasn't purchased yet.  His stealth ability has been removed for balance, like Aggressor-classes and other heroes, but is still a stealth unit during the Consortium's campaign and prologue. (BUG #154)
 • Urai Fen's Cortosis Blades ability couldn't deflect the campaign Force Adepts' lightsabers. (BUG #80)
 • Urai Fen's Cortosis Blades ability couldn't deflect Silri's lightsaber whip during Skirmish mirror-matches. (BUG #81)
 • Urai Fen's Cortosis Blades ability couldn't deflect Darth Vader's lightsaber in FoC land combat. (BUG #30)
@@ -104,7 +104,7 @@ Audio Fixes:
 • TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
 • TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle; this was originally half-fixed in patch 1.121.826596, where they no longer only visually look like torpedoes. (BUG #179)
 • Imperial/Rebel hologram advisors wouldn't use special dialogue when the Death Star II was being attacked/defended or attacking/defending because only one entry existed for EaW's Death Star. (BUG #32)
-• Consortium hologram advisors wouldn't use special dialogue depending on battle conditions; all conditionals were disabled before release, and many were not programmed in at all.  The advisor now comments if Tyber Zann, enemy leaders or the Death Star II are present in battle, and two aditional checks have been added to restore dialogue if IG-88 is present alongside the Death Star II in battle. (BUG #202)
+• Consortium hologram advisors wouldn't use special dialogue depending on battle conditions; all conditions were disabled before release, and many were not programmed in at all.  The advisor now comments if Tyber Zann, enemy leaders or the Death Star II are present in battle, and two aditional checks have been added to restore dialogue if IG-88 is present alongside the Death Star II in battle. (BUG #202)
 • Consortium advisors would callout that "the Imperials are using a gravity generator!," and used multiple voicelines implying the Consortium destroyed their own Repulsorlift Jammers.  The offending lines have been removed, and only one line remains when the generator is deactivated. (BUG #202)
 
 
@@ -131,14 +131,14 @@ Interface Fixes:
 • Tatooine's sarlacc pit didn't use a tooltip icon despite having one in the interface GFX library. (BUG #155)
 • Desert Skettos didn't use a tooltip icon despite having one in the interface GFX library. (BUG #156)
 • Tauntauns didn't use a tooltip icon despite having one in the interface GFX library. (BUG #157)
-• Planets owned by Jabba's Criminal Empire in the campaign wouldn't display their faction icon despite having one in the GFX library. (BUG #232)
-• The Consortium still used the Black Sun Pirates' faction icon in their economy ledger. (BUG #228)
 • Planets corrupted via Piracy didn't have a corruption icon next to the planet like other corruption types because one was never included in the interface GFX library. (BUG #161)
 • The IPV-1 Patrol Craft didn't have a selection ring in combat. (BUG #83)
 • Keldabe-class Battleships didn't have the tooltip noting that it can be only built on special planets, like Star Destroyers and Mon Calamari Cruisers. (BUG #143)
 • Keldabe-class Battleships, Aggressor-class Star Destroyers, Vengeance Frigates and Interceptor IV Frigates didn't use 1x2 icon tiles like all other ships of their types in the Galactic fleet management window. (BUG #175)
 • Interceptor 4 Frigates used the Black Sun rusted pirate frigate icon instead of an icon with the new silver-bodied frigate. (BUG #206)
 • Pirate Soldier Mobs used in Consortium campaign mission #6 "Dark Ally" had their tooltip description set as their unit class, and their unit container didn't have a description at all. (BUG #171)
+• Jabba's Criminal Empire in the campaign wouldn't display their faction icon on a planet's info window despite having one in the GFX library. (BUG #232)
+• The Consortium still used the Black Sun Pirates' faction icon in their economy ledger. (BUG #228)
 • The Consortium used Black Sun Pirate unit icons when their planets were attacked without garrisons; the UI now uses their most generic arsenal icon for space and land (StarVipers or Grenadiers, respectively). (BUG #40)
 • Consortium capital ships didn't have a unique radar icon like the Rebels' (oval/circle) or the Empire's (triangle) capital ships.  They now use a rectangle based off both ships' forward hull. (BUG #180)
 • The Consortium's tech tree window had the space station level requirements for the Aggressor and Keldabe-class swapped, implying Keldabes are bought at station level 4 instead of 5 (and the Aggressor at level 5 instead of 4). (BUG #183)
@@ -209,7 +209,7 @@ Unit Fixes:
 • Bossk would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #152)
 • IG-88 would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #151)
 • Boba Fett would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #149)
-• Han Solo & Chewbacca would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #147)
+• Han Solo & Chewbacca would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of their land units. (BUG #147)
 
 
 Upgrade Fixes:
