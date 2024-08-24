@@ -85,6 +85,7 @@ AI Fixes:
 • The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include Garm Bel Iblis. (BUG #203)
 • The Galactic AI for what planet(s) heroes like to hang out on when not in use included an unused version of Captain Piett, and not the proper Star Destroyer. (BUG #204)
 • The Galactic AI for what planet(s) heroes like to hang out on when not in use included an unused version of Red Squadron, and not the proper starfighter team. (BUG #205)
+• The Galactic AI's magic defense spawning system is now prevented from spawning TIE interceptor Squadrons on the Galactic map to prevent AI pathfinding errors when the AI can't move Interceptors. (BUG #243)
 • Darth Vader's land assistance AI wouldn't factor in his FoC land unit, only his EaW one, and prematurely shutdown. (BUG #27)
 • Han Solo & Chewbacca's galactic planning AI wouldn't factor in avoiding Darth Vader's FoC unit, nor factor in attacking the Death Star II. (BUG #27/53)
 
@@ -219,3 +220,4 @@ Upgrade Fixes:
 • "Modified Cloaking Generator" wouldn't provide a 25% or 50% cloaking time extension for Tyber Zann or the Vengeance Frigate; the upgrade only affected Land Skirmish despite being available for purchase in Space Skirmish. (BUG #15)
 • "Recharge Special Abilities" would increase the Consortium's ability recharge times in Land Skirmish, instead of decrease.  The percentage was corrected from "+0.85" to "-0.15." (BUG #173)
 • "Salvage" wasn't able to gain salvage from Jabba's Criminal Empire, as their faction reference was misspelled as "Hutt" instead of "Hutts." (BUG #74)
+• "Increased Production" Level 1 and 2 wouldn't affect the skirmish mining facilities properly. (BUG #246)
