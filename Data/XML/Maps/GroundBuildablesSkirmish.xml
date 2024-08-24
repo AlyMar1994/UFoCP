@@ -4991,8 +4991,8 @@
 		<Tactical_Buildable_Constructed> Skirmish_Ground_Gravity_Generator_U </Tactical_Buildable_Constructed>
 		<Tactical_Build_Start_Lower_Z> 50.0 </Tactical_Build_Start_Lower_Z>
 		<Text_ID>TEXT_GROUND_GRAVITY_GEN</Text_ID>
-		<Land_Model_Name>EB_GRAVCONTROLGEN.ALO</Land_Model_Name>
-		<Icon_Name>i_button_gravity_control_gen.tga</Icon_Name>
+		<Land_Model_Name>UB_GRAVCONTROLGEN.ALO</Land_Model_Name>
+		<Icon_Name>i_button_repulsorlift.tga</Icon_Name>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
 		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
@@ -5015,7 +5015,7 @@
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Underworld</Affiliation>
 		<Size_Value>50</Size_Value>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
