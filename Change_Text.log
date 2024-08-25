@@ -64,6 +64,9 @@ Housekeeping:
 • German localization (completely) used an incorrect spelling for "Exekutor," using the English word instead.  In addition, the Hound's Tooth wasn't "Reißzahn," the Merciless as "Gnadenlos" nor the Accuser as "Ankläger," and more.  All instances have been swapped for the German cognate, and left unmarked to not clog the changelog.
 
 
+• TEXT_BOMB_CLASS: (BUG #249)
+	-- ENG: Bomb -> Class: Bomb
+	-- GER: Bombe -> Klasse: Bombe
 • TEXT_PLANET_CAPITAL_SHIP_PRODUCER: (BUG #145)
 	-- ENG: This planet can produce capital ships (Mon Calamari Cruisers or Imperial Star Destroyers). -> This planet can produce capital ships (Mon Calamari Cruisers, Imperial Star Destroyers, Aggressor-class Destroyers or Keldabe-class Battleships).
 	-- GER: Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer oder imperiale Sternenzerstörer). -> Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer, imperiale Sternenzerstörer, Zerstörer der Aggressor-Klasse oder Kampfschiff der Keldabe-Klasse).
