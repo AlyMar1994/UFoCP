@@ -67,78 +67,107 @@ Housekeeping:
 • TEXT_BOMB_CLASS: (BUG #249)
 	-- ENG: Bomb -> Class: Bomb
 	-- GER: Bombe -> Klasse: Bombe
+
 • TEXT_PLANET_CAPITAL_SHIP_PRODUCER: (BUG #145)
 	-- ENG: This planet can produce capital ships (Mon Calamari Cruisers or Imperial Star Destroyers). -> This planet can produce capital ships (Mon Calamari Cruisers, Imperial Star Destroyers, Aggressor-class Destroyers or Keldabe-class Battleships).
 	-- GER: Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer oder imperiale Sternenzerstörer). -> Dieser Planet kann Großkampfschiffe herstellen (Mon-Calamari-Kreuzer, imperiale Sternenzerstörer, Zerstörer der Aggressor-Klasse oder Kampfschiff der Keldabe-Klasse).
+
 • TEXT_PLANET_HYPORI_ENCYC/TEXT_PLANET_HYPORI_INFO_TAC: (BUG #216)
 	-- ENG: Production Time Reduction (ground vehicles): While this planet is controlled, all ground vehicles take 25% less time to build -> Production Time Reduction (ground vehicles): While this planet is controlled, all ground vehicles take 25% less time to build (excludes Dark Troopers and Destroyer Droids).
 	-- GER: Schnellere Produktion (Bodenfahrzeuge): Solange diese Welt kontrolliert wird, braucht die Produktion von Bodenfahrzeugen 25 % weniger Zeit. -> Schnellere Produktion (Bodenfahrzeuge): Solange diese Welt kontrolliert wird, braucht die Produktion von Bodenfahrzeugen 25 % weniger Zeit (Dunklen Truppe und Zerstörerdroiden sind ausgeschlossen).
+
+• TEXT_PROXIMITY_MINE: (BUG #248)
+	-- ENG: Proximity mine -> Proximity Mine
+	-- GER: N/A
+
 • TEXT_HERO_GARM_BEL_IBLIS/TEXT_HERO_GARM_BEL_IBLIS_TEAM: (BUG #184)
 	-- ENG: Garm Bel Iblis -> The Gargantuan - Garm Bel Iblis
 	-- GER: Garm Bel Iblis -> Der Gargantuaner - Garm Bel Iblis
+
 • TEXT_HERO_GENERAL_VEERS_02/TEXT_HERO_VEERS_TEAM: (BUG #48)
 	-- ENG: General Maximilian Veers -> Blizzard 1 - General Maximilian Veers
 	-- GER: General Maximilian Veers -> Blizzard 1 - General Maximilian Veers
+
 • TEXT_HERO_PEACEBRINGER: (BUG #193)
 	-- ENG: The Merciless -> The Merciless - Tyber Zann
 	-- GER: Die Merciless -> Die Gnadenlos - Tyber Zann
+
 • TEXT_SPEECH_UNDERWORLD_PIRACY_TUTORIAL_02: (BUG #209)
 	-- ENG: ...This will allow us to intimidate the Mandalorians and offer them Protection from further pirate activities. Our objective will be approaching shortly enroute to the Hutt asteroid base orbiting Mandalore. -> ...This will allow us to intimidate the Mandalorians and offer them "protection" from further pirate activities.  Our objective will be approaching shortly, en route to the Hutt asteroid base orbiting Mandalore.
 	-- GER: N/A
+
 • TEXT_SPEECH_UW_ACT02_M07_24: (BUG #212)
 	-- ENG: Underworld Soldier: What appears to be Lord Vader's shuttle... -> Zann Consortium Soldier: What appears to be Lord Vader's shuttle...
 	-- GER: Unterwelt-Soldat: Ein Schiff, anscheinend Lord Vaders Fähre... -> Soldat des Zann-Konsortiums: Ein Schiff, anscheinend Lord Vaders Fähre...
+
 • TEXT_TOOLTIP_ABILITY_AREA_EFFECT_CONVERT_DESCRIPTION: (BUG #134)
 	-- ENG: ...Affected units will fight for the Empire for the duration of the battle. -> Affected units will fight for the Empire for a limited amount of time.
 	-- GER: ...Die betroffenen Einheiten werden für die Dauer der Schlacht auf der Seite des Imperiums kämpfen. -> ...Die betroffenen Einheiten werden für eine begrenzte Zeit auf der Seite des Imperiums kämpfen.
+
 • TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS: (BUG #142)
 	-- ENG: This ship can only be built on Kuat, Sullust, Fondor, Hypori or Mon Calamari. -> This ship can only be built on Fondor, Hypori, Kuat, Mandalore, Mon Calamari or Sullust.
 	-- GER: Dieses Schiff kann nur auf Kuat, Sullust, Fondor, Hypori oder Mon Calamari gebaut werden. -> Dieses Schiff kann nur auf Fondor, Hypori, Kuat, Mandalore, Mon Calamari oder Sullust gebaut werden.
+
 • TEXT_UNIT_ARC_HAMMER: (BUG #197)
 	-- ENG: Arc Hammer -> The Arc Hammer - General Mohc
 	-- GER: Arc Hammer -> Die Arc Hammer - General Mohc
+
 • TEXT_UNIT_HOME_ONE: (BUG #198)
 	-- ENG: Home One -> Home One - Admiral Ackbar
 	-- GER: Home Einz -> Heimat Eins - Admiral Ackbar
+
 • TEXT_UNIT_HOUNDSTOOTH: (BUG #191)
 	-- ENG: Hound's Tooth -> The Hound's Tooth - Bossk
 	-- GER: Hound's Tooth -> Die Reißzahn - Bossk
+
 • TEXT_UNIT_IG2000 (BUG #192)
 	-- ENG: IG-2000 -> IG-2000 - IG-88
 	-- GER: IG-2000 -> IG-2000 - IG-88
+
 • TEXT_UNIT_LUKE_XWING: (BUG #201)
 	-- ENG: Luke Skywalker (Red 5) -> Red Five - Luke Skywalker
 	-- GER: Luke Skywalker (Red 5) -> Rot Fünf - Luke Skywalker
+
 • TEXT_UNIT_MILLENNIUM_FALCON: (BUG #199)
 	-- ENG: Millennium Falcon -> The Millennium Falcon - Han Solo & Chewbacca
 	-- GER: Rasender Falke -> Der Rasender Falke - Han Solo & Chewbacca 
+
 • TEXT_UNIT_SD_ACCUSER: (BUG #231)
 	-- ENG: N/A
 	-- GER: Accuser - Captain Piett -> Die Ankläger - Kapitän Piett
+
 • TEXT_UNIT_SD_ADMONITOR: (BUG #196)
 	-- ENG: Admonitor -> The Admonitor - Grand Admiral Thrawn
 	-- GER: Admonitor -> Die Admonitor - Großadmiral Thrawn
+
 • TEXT_UNIT_SSD_EXECUTOR: (BUG #194)
 	-- ENG: Executor -> The Executor - Darth Vader
 	-- GER: Executor -> Die Exekutor - Darth Vader
+
 • TEXT_TOOLTIP_STAR_DESTROYER: (BUG #229)
 	-- ENG: ...2 ion cannon batteries, 10 TIE fighter squadrons, and 5 TIE bomber squadrons. -> ...2 ion cannon batteries, 10 TIE interceptor squadrons, and 5 TIE bomber squadrons.
 	-- GER: ...2 Ionenkanonen-Batterien, 10 TIE-Fighter-Geschwadern und 5 TIE-Bomber-Geschwadern. -> ...2 Ionenkanonen-Batterien, 10 TIE-Interceptor-Geschwadern und 5 TIE-Bomber-Geschwadern.
+
 • TEXT_UNIT_SLAVE_I: (BUG #195)
 	-- ENG: Slave I -> Slave I - Boba Fett
 	-- GER: Slave I -> Sklave I - Boba Fett
+
 • TEXT_UNIT_SUNDERED_HEART: (BUG #200)
 	-- ENG: Sundered Heart -> The Sundered Heart - Captain Antilles
 	-- GER: Sundered Heart -> Die Geteiltes Herz - Kapitän Antilles
+
 • TEXT_UNIT_ROGUE_10: (BUG #108)
 	-- ENG: Rogue 10: Tarrub Datch -> Rogue 10: Tarrin Datch
 	-- GER: Rogue 10: Tarrub Datch -> Rogue 10: Tarrin Datch
+
 • TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2: (BUG #76)
 	-- ENG: ...armor deflects 25% of incoming laser fire. -> ...armor deflects 30% of incoming laser fire.
 	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. -> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
+
 • TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3: (BUG #76)
 	-- ENG: ...armor deflects 25% of incoming laser fire. -> ... armor deflects 30% of incoming laser fire.
 	-- GER: ...lenkt zusätzlich 25 % des gegnerischen Laserbeschusses ab. -> ...lenkt zusätzlich 30 % des gegnerischen Laserbeschusses ab.
+
 • TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2: (BUG #75)
 	-- ENG: Increases the damage done by the MZ-8 Pulse Tank by 50%. -> Increases the damage done by the MZ-8 Pulse Tank and Canderous Assault Tank by 50%.
 	-- GER: Erhöht den vom Impulsgeschützpanzer MZ-8 angerichteten Schaden um 50 %. -> Erhöht den vom Impulsgeschützpanzer MZ-8 und der Sturmpanzer Canderous angerichteten Schaden um 50 %.
