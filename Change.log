@@ -54,6 +54,7 @@ Ability Fixes:
 • "BARRAGE" prematurely stopped because the ability's invisible targeting marker died in the attack's splash damage; the marker can no longer die in tactical combat. (BUG #1)
 • "REMOVE_CORRUPTION_ABILITY" wouldn't appear in GC for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, or Mara Jade; the AI also wasn't aware that Ackbar, Darth Vader and Thrawn could remove corruption.  Multiple units weren't defined correctly in the AI/GUI references, and Ackbar's Remove Corruption ability was added to the wrong unit.  While Jade nor Katarn are available in GC, all previously mentioned Remove Corruption abilities have been fully restored. (BUG #35)
 • Rebellion Orbital Bombardment (ion cannon bombardment) would be available without ships with ion cannons in orbit (Nebulon-Bs and Alliance Assault Frigates); the Calamari Cruiser and Home One are now the only ships that can orbitally bombard. (BUG #39)
+• R2-D2 and C-3PO's hack turrets ability wasn't able to hack Consortium turbolaser towers, Black Sun anti-aircraft turrets, or Hutt anti-aircraft, grenade mortar or rapid-fire laser turrets.  In addition, R2's healing ability didn't affect any Consortium tanks Chewbacca captured, hacked Consortium turrets, Rebel or hacked Hutt rapid-fire laser turrets, hacked Empire or Hutt grenade mortars, Juggernaut transports, hacked Pirate anti-aircraft, infantry or vehicle turrets. (BUG #20)
 • Cuddles (Silri's rancor) didn't have its eat-infantry ability uncensored in patch 1.121.826596 like indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)
 • Hero Clash "Darth Vader vs. Obi-Wan" wouldn't start with Darth Vader's unit in FoC land combat, only his EaW unit. (BUG #26)
 • Tyber Zann was a stealth-capable unit in Galactic fleet management despite having a devastating capital ship, even when cloaking technology upgrade wasn't purchased yet.  His stealth ability has been removed for balance, like Aggressor-classes and other heroes, but is still a stealth unit during the Consortium's campaign and prologue. (BUG #154)
@@ -135,6 +136,7 @@ Interface Fixes:
 • Tatooine's sarlacc pit didn't use a tooltip icon despite having one in the interface GFX library. (BUG #155)
 • Desert Skettos didn't use a tooltip icon despite having one in the interface GFX library. (BUG #156)
 • Tauntauns didn't use a tooltip icon despite having one in the interface GFX library. (BUG #157)
+• R2-D2 and C-3PO didn't use their appropriate icons or tooltips, despite having them, due to an interface bug.  The underlying issue has been resolved, and now the GC description, unit description and icons display appropriately.  Because of another underlying issue, the droids were forced to have Good Against/Weak Against indicators, so I've assigned enemy faction turrets in both categories as they are technically both good and weak against them. (BUG #45)
 • Planets corrupted via Piracy didn't have a corruption icon next to the planet like other corruption types because one was never included in the interface GFX library. (BUG #161)
 • The IPV-1 Patrol Craft didn't have a selection ring in combat. (BUG #83)
 • Keldabe-class Battleships didn't have the tooltip noting that it can be only built on special planets, like Star Destroyers and Mon Calamari Cruisers. (BUG #143)
@@ -142,12 +144,12 @@ Interface Fixes:
 • Interceptor 4 Frigates used the Black Sun rusted pirate frigate icon instead of an icon with the new silver-bodied frigate. (BUG #206)
 • Pirate Soldier Mobs used in Consortium campaign mission #6 "Dark Ally" had their tooltip description set as their unit class, and their unit container didn't have a description at all. (BUG #171)
 • Jabba's Criminal Empire in the campaign wouldn't display their faction icon on a planet's info window despite having one in the GFX library. (BUG #232)
-• The Consortium still used the Black Sun Pirates' faction icon in their economy ledger. (BUG #228)
-• The Consortium used Black Sun Pirate unit icons when their planets were attacked without garrisons; the UI now uses their most generic arsenal icon for space and land (StarVipers or Grenadiers, respectively). (BUG #40)
 • Consortium capital ships didn't have a unique radar icon like the Rebels' (oval/circle) or the Empire's (triangle) capital ships.  They now use a rectangle based off both ships' forward hull. (BUG #180)
+• The Consortium used the Black Sun Pirates' faction icon in their economy ledger. (BUG #228)
+• The Consortium used Black Sun Pirate unit icons when their planets were attacked without garrisons; the UI now uses their most generic arsenal icon for space and land (StarVipers or Grenadiers, respectively). (BUG #40)
 • The Consortium's tech tree window had the space station level requirements for the Aggressor and Keldabe-class swapped, implying Keldabes are bought at station level 4 instead of 5 (and the Aggressor at level 5 instead of 4). (BUG #183)
 • The Consortium Soldier/advisor during the prologue "Crime Lord Unleashed" used the Black Sun Pirate hologram instead of the Consortium Soldier hologram.  While I like the aesthetic, unfortunately it's a bug. (BUG #61)
-• Right before Darth Vader arrives on Bespin during Consortium campaign mission #7 "Cloud City Conflict," the hologram announcer used the Black Sun Pirate hologram instead of the Consortium Soldier hologram. (BUG #104)
+• When Darth Vader arrives on Bespin during Consortium campaign mission #7 "Cloud City Conflict," the hologram announcer used the Black Sun Pirate hologram instead of the Consortium Soldier hologram. (BUG #104)
 
 
 

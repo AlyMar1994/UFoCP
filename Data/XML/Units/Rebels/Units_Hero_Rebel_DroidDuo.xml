@@ -535,11 +535,14 @@
 
 				<Applicable_Unit_Types>
 					E_Ground_Turbolaser_Tower,
+					U_Ground_Turbolaser_Tower,
 					Empire_Anti_Aircraft_Turret,
 					Empire_Anti_Infantry_Turret,
 					Empire_Anti_Vehicle_Turret,
+					Pirate_Anti_Aircraft_Turret,
 					Pirate_Anti_Infantry_Turret,
 					Pirate_Anti_Vehicle_Turret,
+					Hutt_Anti_Aircraft_Turret,
 					Rebel_Anti_Aircraft_Turret,
 					Rebel_Anti_Infantry_Turret,
 					Rebel_Anti_Vehicle_Turret,
@@ -547,6 +550,8 @@
 					Underworld_Torpedo_Turret,
 					Underworld_Rocket_Pod,
 					Empire_Grenade_Mortar,
+					Hutt_Grenade_Mortar,
+					Hutt_Rapid_Fire_Laser_Turret,
 					Rebel_Rapid_Fire_Laser_Turret
 				</Applicable_Unit_Types>
 
@@ -585,9 +590,19 @@
 					Rebel_Anti_Aircraft_Turret
 					Rebel_Anti_Infantry_Turret
 					Rebel_Anti_Vehicle_Turret
+					Rebel_Rapid_Fire_Laser_Turret
 					Empire_Anti_Aircraft_Turret
 					Empire_Anti_Infantry_Turret
 					Empire_Anti_Vehicle_Turret
+					Empire_Grenade_Mortar
+					Underworld_Mass_Driver_Turret
+					Underworld_Torpedo_Turret
+					Underworld_Rocket_Pod
+					Pirate_Anti_Aircraft_Turret
+					Pirate_Anti_Infantry_Turret
+					Pirate_Anti_Vehicle_Turret
+					Hutt_Grenade_Mortar
+					Hutt_Rapid_Fire_Laser_Turret
 					Pirate_Skiff_Captured
 					M1_Repulsor_Tank_00_Captured
 					M1_Repulsor_Tank_Captured
@@ -596,6 +611,11 @@
 					AT_AA_Walker_Captured
 					AT_AT_Walker_Captured
 					AT_ST_Walker_Captured
+					HAV_Juggernaut_Captured
+					Canderous_Assault_Tank_Captured
+					F9TZ_Cloaking_Transport_Captured
+					MAL_Rocket_Vehicle
+					MZ8_Pulse_Cannon_Tank_Captured
 					Swamp_Speeder_Captured
 				</Applicable_Unit_Types>
 
