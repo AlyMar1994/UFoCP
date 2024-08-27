@@ -108,6 +108,10 @@ Housekeeping:
 	-- ENG: ...Affected units will fight for the Empire for the duration of the battle. -> Affected units will fight for the Empire for a limited amount of time.
 	-- GER: ...Die betroffenen Einheiten werden für die Dauer der Schlacht auf der Seite des Imperiums kämpfen. -> ...Die betroffenen Einheiten werden für eine begrenzte Zeit auf der Seite des Imperiums kämpfen.
 
+• TEXT_TOOLTIP_R2D2: (BUG #45)
+	-- ENG: A droid duo with a knack... -> A droid with a knack...
+	-- GER: N/A
+
 • TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS: (BUG #142)
 	-- ENG: This ship can only be built on Kuat, Sullust, Fondor, Hypori or Mon Calamari. -> This ship can only be built on Fondor, Hypori, Kuat, Mandalore, Mon Calamari or Sullust.
 	-- GER: Dieses Schiff kann nur auf Kuat, Sullust, Fondor, Hypori oder Mon Calamari gebaut werden. -> Dieses Schiff kann nur auf Fondor, Hypori, Kuat, Mandalore, Mon Calamari oder Sullust gebaut werden.

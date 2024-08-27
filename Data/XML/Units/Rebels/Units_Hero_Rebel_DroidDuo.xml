@@ -4,7 +4,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_DROID_R2D2</Text_ID>
 		<Land_Model_Name>RI_R2.ALO</Land_Model_Name>
-		<Icon_Name>i_button_c3po_r2d2.tga</Icon_Name>
+		<Icon_Name>i_button_r2d2.tga</Icon_Name>
 
 		<GUI_Bracket_Width>5</GUI_Bracket_Width>
 		<GUI_Bracket_Height>0</GUI_Bracket_Height>
@@ -85,6 +85,8 @@
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_R2D2 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> E_Ground_Turbolaser_Tower Empire_Anti_Aircraft_Turret Underworld_Mass_Driver_Turret </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Empire_Anti_Infantry_Turret Empire_Anti_Vehicle_Turret Underworld_Torpedo_Turret </Encyclopedia_Vulnerable_To>
 		<Score_Cost_Credits> 0 </Score_Cost_Credits>
 
 		<Share_Damage_With_Teammates>Yes</Share_Damage_With_Teammates>
@@ -172,7 +174,7 @@
 		<Text_ID>TEXT_HERO_DROID_C3P0</Text_ID>
 		<Land_Model_Name>RI_C3PO.ALO</Land_Model_Name>
 		<!-- Leave icon name blank so only 1 icon shows up for R2 and 3PO -->
-		<Icon_Name />
+		<Icon_Name>i_button_c3po.tga</Icon_Name>
 
 		<GUI_Bracket_Width>5</GUI_Bracket_Width>
 		<GUI_Bracket_Height>0</GUI_Bracket_Height>
@@ -252,8 +254,10 @@
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 		<AI_Combat_Power>10</AI_Combat_Power>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_R2D2 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_C3P0 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> E_Ground_Turbolaser_Tower Empire_Anti_Aircraft_Turret Underworld_Mass_Driver_Turret </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Empire_Anti_Infantry_Turret Empire_Anti_Vehicle_Turret Underworld_Torpedo_Turret </Encyclopedia_Vulnerable_To>
 		<Score_Cost_Credits> 0 </Score_Cost_Credits>
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
@@ -274,10 +278,140 @@
 		<Respawn_Whole_Team_When_Killed>Yes</Respawn_Whole_Team_When_Killed>
 	</HeroUnit>
 
+	<!-- AM1994: Unique transport unit based off of Millennium_Falcon -->
+	<!-- to mitigate bug where R2 & 3PO's icons appear seperate on -->
+	<!-- the Galactic Map. -->
+	<UniqueUnit Name="Droids_Shuttle">
+		<Variant_Of_Existing_Type>Millennium_Falcon</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_DROIDS_TEAM</Text_ID>
+		<Encyclopedia_Good_Against> E_Ground_Turbolaser_Tower Empire_Anti_Aircraft_Turret Underworld_Mass_Driver_Turret </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Empire_Anti_Infantry_Turret Empire_Anti_Vehicle_Turret Underworld_Torpedo_Turret </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_R2D2_AND_C3P0 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Land_Model_Name>RV_TRANSPORT.ALO</Land_Model_Name>
+		<Space_Model_Name>RV_TRANSPORT.ALO</Space_Model_Name>
+		<Icon_Name>i_button_c3po_r2d2.tga</Icon_Name>
+		<Select_Box_Scale>200</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Mass>0.995</Mass>
+		<Scale_Factor>0.7</Scale_Factor>
+
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+
+		<Armor_Type> Armor_Transport </Armor_Type>
+		<Max_Speed>2.0</Max_Speed>
+		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Corvette </Space_Layer>
+		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
+		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>0</Bank_Turn_Angle>
+		<Use_Special_Submit_Rules> true </Use_Special_Submit_Rules>
+		
+		<Max_Thrust>0.8</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+
+		<Affiliation>Rebel</Affiliation>
+		<Ship_Class>Transport</Ship_Class>
+		<Formation_Priority>6</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Autoresolve_Health>600</Autoresolve_Health>
+		<Damage>2</Damage>
+		<Shield_Points>50</Shield_Points>
+		<Tactical_Health>350</Tactical_Health>
+		<Shield_Refresh_Rate>2</Shield_Refresh_Rate>
+		<Energy_Capacity>400</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Override_Bounty_SP>50</Override_Bounty_SP>
+		<Override_Bounty_MP>50</Override_Bounty_MP>
+		<Size_Value>120</Size_Value>
+
+		<Death_Clone>Damage_Normal, Gallofree_Transport_Death_Clone</Death_Clone>
+
+		<Behavior>TRANSPORT</Behavior>
+		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
+		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior> 
+		<TacticalBehavior> SELECTABLE </TacticalBehavior>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		
+		<Obstacle_Width>140.0</Obstacle_Width>
+		<Obstacle_Height>60.0</Obstacle_Height>
+		<Obstacle_X_Offset>-70.0</Obstacle_X_Offset>
+      	<Obstacle_Y_Offset>-30.0</Obstacle_Y_Offset>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
+
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<HardPoints>HP_Gallofree_01</HardPoints>
+
+		<Projectile_Damage />
+		<Projectile_Types />
+		<Projectile_Fire_Recharge_Seconds />
+		<Projectile_Fire_Pulse_Count />
+		<Projectile_Fire_Pulse_Delay_Seconds />
+
+		<Exit_Door_Angle_Degrees>90.0</Exit_Door_Angle_Degrees>
+		<Exit_Door_Distance>0.0</Exit_Door_Distance>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Hover_Offset>30.0</Hover_Offset>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>200.0, 100.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		
+		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Gallofree</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Gallofree</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gallofree</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Gallofree</SFXEvent_Attack>
+		<SFXEvent_Guard />
+		<SFXEvent_Deploy />
+		<Death_SFXEvent_Start_Die />
+
+		<SFXEvent_Ambient_Moving />
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds />
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds />
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Gallofree_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Gallofree_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<CategoryMask>Transport</CategoryMask>
+		<Landing_Transport_Variant>Gallofree_Transport_Landing</Landing_Transport_Variant>
+        <AI_Combat_Power>10</AI_Combat_Power>
+		
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Can_Participate_In_Space_Battle> No </Can_Participate_In_Space_Battle>
+
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Unit_Abilities_Data SubObjectList="Yes"> <Unit_Ability /> </Unit_Abilities_Data>
+		<Lua_Script />
+		<Space_Override_Population_Value>0</Space_Override_Population_Value>
+	</UniqueUnit>
+
 	<HeroCompany Name="Droids_Team">
 		<Text_ID>TEXT_HERO_DROIDS_TEAM</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> TEXT_TOOLTIP_R2D2_AND_C3P0 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		<Encyclopedia_Good_Against> E_Ground_Turbolaser_Tower Empire_Anti_Aircraft_Turret Underworld_Mass_Driver_Turret </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Empire_Anti_Infantry_Turret Empire_Anti_Vehicle_Turret Underworld_Torpedo_Turret </Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_c3po_r2d2.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>
@@ -296,10 +430,10 @@
 		<!-- IMPORTANT FOR THE TEAM -->
 		<Create_Team_Type> Tactical_R2_3PO_Team </Create_Team_Type>
 
+		<Company_Transport_Unit>Droids_Shuttle</Company_Transport_Unit>
+
 		<!-- IMPORTANT FOR THE TEAM -->
 		<Company_Units> Droid_R2D2, Droid_C3P0 </Company_Units>
-
-		<Company_Transport_Unit>Non_Combat_Gallofree</Company_Transport_Unit>
 
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Homogeneous>No</Is_Homogeneous>
@@ -354,6 +488,8 @@
 		<Text_ID>TEXT_HERO_DROIDS_TEAM</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DROID </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_R2D2_AND_C3P0 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Good_Against> E_Ground_Turbolaser_Tower Empire_Anti_Aircraft_Turret Underworld_Mass_Driver_Turret </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Empire_Anti_Infantry_Turret Empire_Anti_Vehicle_Turret Underworld_Torpedo_Turret </Encyclopedia_Vulnerable_To>
 		<Show_Name>No</Show_Name>
 
 		<Behavior> TEAM, UNIT_AI </Behavior>
