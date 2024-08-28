@@ -29,7 +29,7 @@
 		<Reward_Param1>0</Reward_Param1>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 	</Event>
-	
+
 <!-- Turn off advisor -->
 	<Event Name="Underworld_A02M09_Turn_Off_Land_Advisor">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -45,7 +45,7 @@
 		<Reward_Param1>TEXT_STORY_UNDERWORLD_ACT02_MISSION_NINE_01</Reward_Param1>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Underworld_A02M09_State_Misson_Goal_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
@@ -62,20 +62,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_00</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_00</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 		<Branch>INTRO_DIALOG</Branch>
 	</Event>
-	
+
 				<Event Name="Mission_9_Intro_Dialog_00_Speech_Done">
             		<Event_Type>STORY_SPEECH_DONE</Event_Type>
             		<Event_Param1>UW_ACT02_M09_00</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_00</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 					<Branch>INTRO_DIALOG</Branch>
 				</Event>
@@ -87,24 +87,24 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_01</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 		<Branch>INTRO_DIALOG</Branch>
 	</Event>
-	
+
 				<Event Name="Mission_9_Intro_Dialog_01_Speech_Done">
             		<Event_Type>STORY_SPEECH_DONE</Event_Type>
             		<Event_Param1>UW_ACT02_M09_01</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_01</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 					<Branch>INTRO_DIALOG</Branch>
 				</Event>
-				
+
 <!-- Thrawn: In a manner of speaking.  You have been overstepping your bounds again and it's time to end it.
 Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 	<Event Name="Mission_9_Intro_Dialog_02">
@@ -113,20 +113,20 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_02</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 		<Branch>INTRO_DIALOG</Branch>
 	</Event>
-	
+
 				<Event Name="Mission_9_Intro_Dialog_02_Speech_Done">
             		<Event_Type>STORY_SPEECH_DONE</Event_Type>
             		<Event_Param1>UW_ACT02_M09_02</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_02</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 					<Branch>INTRO_DIALOG</Branch>
 				</Event>
@@ -138,20 +138,20 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_03</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 		<Branch>INTRO_DIALOG</Branch>
 	</Event>
-	
+
 				<Event Name="Mission_9_Intro_Dialog_03_Speech_Done">
             		<Event_Type>STORY_SPEECH_DONE</Event_Type>
             		<Event_Param1>UW_ACT02_M09_03</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_03</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 					<Branch>INTRO_DIALOG</Branch>
 				</Event>
@@ -163,20 +163,20 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_04</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 		<Branch>INTRO_DIALOG</Branch>
 	</Event>
-	
+
 				<Event Name="Mission_9_Intro_Dialog_04_Speech_Done">
             		<Event_Type>STORY_SPEECH_DONE</Event_Type>
             		<Event_Param1>UW_ACT02_M09_04</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_04</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 					<Branch>INTRO_DIALOG</Branch>
 				</Event>
@@ -188,24 +188,24 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_05</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 		<Branch>INTRO_DIALOG</Branch>
 	</Event>
-	
+
 				<Event Name="Mission_9_Intro_Dialog_05_Speech_Done">
             		<Event_Type>STORY_SPEECH_DONE</Event_Type>
             		<Event_Param1>UW_ACT02_M09_05</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_05</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 					<Branch>INTRO_DIALOG</Branch>
 				</Event>
-				
+
 <!-- Disable the intro dialog branch if the intro is skipped.-->
 	<Event Name="Mission_9_Disable_Intro_Branch">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
@@ -215,7 +215,7 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 	</Event>
-	
+
 <!-- Thrawn: This is actually proving interesting.  Why don’t we begin? -->
 	<Event Name="Mission_9_Intro_Dialog_06">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
@@ -223,19 +223,19 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_06</Reward_Param8>
 		<Reward_Param9>Thrawn_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_9_Intro_Dialog_06_Speech_Done">
             		<Event_Type>STORY_SPEECH_DONE</Event_Type>
             		<Event_Param1>UW_ACT02_M09_06</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_06</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 				</Event>
 
@@ -246,25 +246,25 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_07</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_9_Intro_Dialog_07_Speech_Done">
             		<Event_Type>STORY_SPEECH_DONE</Event_Type>
             		<Event_Param1>UW_ACT02_M09_07</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_07</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 				</Event>
 
 				<Event Name="Mission_9_Intro_Dialog_07_Stop_Movie">
 					<Event_Type>STORY_TRIGGER</Event_Type>
-					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 					<Prereq>Mission_9_Intro_Dialog_07_Speech_Done</Prereq>
 				</Event>
 
@@ -275,19 +275,19 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_08</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_9_Midtro_Dialog_00_Speech_Done">
             		<Event_Type>STORY_SPEECH_DONE</Event_Type>
             		<Event_Param1>UW_ACT02_M09_08</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_08</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 				</Event>
 
@@ -295,19 +295,19 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_09</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Mission_9_Midtro_Dialog_00_Speech_Done</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_9_Midtro_Dialog_01_Speech_Done">
             		<Event_Type>STORY_SPEECH_DONE</Event_Type>
             		<Event_Param1>UW_ACT02_M09_09</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_09</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 				</Event>
 
@@ -318,19 +318,19 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_10</Reward_Param8>
 		<Reward_Param9>Thrawn_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_9_Midtro_Dialog_02_Speech_Done">
             		<Event_Type>STORY_SPEECH_DONE</Event_Type>
             		<Event_Param1>UW_ACT02_M09_10</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_10</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 				</Event>
 
@@ -338,19 +338,19 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_11</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_9_Midtro_Dialog_02_Speech_Done</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_9_Midtro_Dialog_02A_Speech_Done">
             		<Event_Type>STORY_SPEECH_DONE</Event_Type>
             		<Event_Param1>UW_ACT02_M09_11</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_11</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 				</Event>
 
@@ -358,7 +358,7 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_12</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_12</Reward_Param8>
 		<Reward_Param9>Thrawn_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -370,7 +370,7 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
             		<Event_Param1>UW_ACT02_M09_12</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_12</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 				</Event>
 
@@ -378,7 +378,7 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_13</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_13</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -390,7 +390,7 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
             		<Event_Param1>UW_ACT02_M09_13</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_13</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 				</Event>
 
@@ -398,7 +398,7 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_14</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_14</Reward_Param8>
 		<Reward_Param9>Thrawn_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -410,7 +410,7 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
             		<Event_Param1>UW_ACT02_M09_14</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_14</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 				</Event>
 
@@ -418,7 +418,7 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_15</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_15</Reward_Param8>
 		<Reward_Param9>Underworld_soldier_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -430,7 +430,7 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
             		<Event_Param1>UW_ACT02_M09_15</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_15</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 				</Event>
 
@@ -438,7 +438,7 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_16</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT02_M09_16</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -450,13 +450,13 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
             		<Event_Param1>UW_ACT02_M09_16</Event_Param1>
             		<Reward_Type>SCREEN_TEXT</Reward_Type>
             		<Reward_Param1>TEXT_SPEECH_UW_ACT02_M09_16</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Reward_Param4>Remove</Reward_Param4>
             		<Prereq>Underworld_A02M09_Begin</Prereq>
 				</Event>
 
 				<Event Name="Mission_9_Midtro_Dialog_07_Stop_Movie">
 					<Event_Type>STORY_TRIGGER</Event_Type>
-					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 					<Prereq>Mission_9_Midtro_Dialog_07_Speech_Done</Prereq>
 				</Event>
 
@@ -468,14 +468,14 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Reward_Param1>Empire</Reward_Param1>
    		<Prereq>Underworld_A02M09_Begin</Prereq>
    	</Event>
-   	
+
 			<Event Name="Mission_9_Defeat_Tyber_Mission_Failed">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT02_M09_GOAL_01</Reward_Param1>
 				<Prereq>Mission_9_Defeat_Tyber</Prereq>
 			</Event>
-   	   	
+
 <!-- Victory Achieved -->
 	<Event Name="Underworld_A02M09_Enable_Auto_Victory">
 		<Event_Type>STORY_ELAPSED</Event_Type>
@@ -492,5 +492,5 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Reward_Param1>Underworld_Mission_09_Win</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
 	</Event>
-	
+
 </Story>
