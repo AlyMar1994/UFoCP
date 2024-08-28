@@ -1544,6 +1544,10 @@
 
 	<SpaceUnit Name="Acclamator_Underworld">
 		<Variant_Of_Existing_Type>Acclamator_Assault_Ship</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Good_Against> Corellian_Corvette Marauder_Missile_Cruiser Tartan_Patrol_Cruiser </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Calamari_Cruiser TIE_Bomber Y-wing </Encyclopedia_Vulnerable_To>
+
 		<Affiliation>Underworld</Affiliation>
 
 		<Build_Cost_Credits>2700</Build_Cost_Credits>
@@ -1567,6 +1571,9 @@
 
 	<SpaceUnit Name="Tartan_Underworld">
 		<Variant_Of_Existing_Type>Tartan_Patrol_Cruiser</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Good_Against> X-wing Y-wing TIE_Interceptor </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Victory_Destroyer Alliance_Assault_Frigate Nebulon_B_Frigate </Encyclopedia_Vulnerable_To>
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
@@ -1581,6 +1588,9 @@
 
 	<SpaceUnit Name="Broadside_Underworld">
 		<Variant_Of_Existing_Type>Broadside_Class_Cruiser</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Good_Against> Rebel_Star_Base_1 X-wing TIE_Bomber </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Victory_Destroyer Alliance_Assault_Frigate Corellian_Gunboat </Encyclopedia_Vulnerable_To>
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
@@ -1595,6 +1605,9 @@
 
 	<SpaceUnit Name="Nebulon_B_Underworld">
 		<Variant_Of_Existing_Type>Nebulon_B_Frigate</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Corellian_Corvette </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Bomber Star_Destroyer Alliance_Assault_Frigate </Encyclopedia_Vulnerable_To>
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>2400</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
@@ -1610,6 +1623,9 @@
 
 	<SpaceUnit Name="Marauder_Underworld">
 		<Variant_Of_Existing_Type>Marauder_Missile_Cruiser</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Good_Against> Empire_Star_Base_1 TIE_Fighter X-wing </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Alliance_Assault_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
@@ -1625,6 +1641,9 @@
 
 	<SpaceUnit Name="Corellian_Corvette_Underworld">
 		<Variant_Of_Existing_Type>Corellian_Corvette</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber X-wing </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Nebulon_B_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
 		<Affiliation>Underworld</Affiliation>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
@@ -1641,6 +1660,9 @@
 
 	<SpaceUnit Name="A-Wing_Underworld">
 		<Variant_Of_Existing_Type>A-Wing</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout TIE_Bomber </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
 		<Affiliation>Underworld</Affiliation>
 	</SpaceUnit>
 
@@ -1704,6 +1726,9 @@
 
 	<SpaceUnit Name="TIE_Defender_Underworld">
 		<Variant_Of_Existing_Type>TIE_Defender</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Good_Against> A-Wing Nebulon_B_Frigate Calamari_Cruiser </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Corellian_Corvette </Encyclopedia_Vulnerable_To>
 		<Affiliation>Underworld</Affiliation>
 	</SpaceUnit>
 

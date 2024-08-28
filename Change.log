@@ -138,6 +138,7 @@ Interface Fixes:
 • Tauntauns didn't use a tooltip icon despite having one in the interface GFX library. (BUG #157)
 • R2-D2 and C-3PO didn't use their appropriate icons or tooltips, despite having them, due to an interface bug.  The underlying issue has been resolved, and now the GC description, unit description and icons display appropriately.  Because of another underlying issue, the droids were forced to have advantage indicators, so I've assigned enemy faction turrets in both categories as they are technically both good and weak against them. (BUG #45)
 • Skipray Blastboats had mismatched advantage indicators, one claiming they're good against Star Destroyers and Calamari Cruisers, and the other only against all Imperial frigates.  Now it displays the Star Destroyer, Calamari Cruiser, and Acclamator-class. (BUG #84)
+• Consortium Piracy reward units would have Consortium units in the advantages indicators in the tooltip.  Considering these units can't be used in mirror matches, the Consortium icons have been swapped out for appropriate faction ones. (BUG #82)
 • Planets corrupted via Piracy didn't have a corruption icon next to the planet like other corruption types because one was never included in the interface GFX library. (BUG #161)
 • The IPV-1 Patrol Craft didn't have a selection ring in combat. (BUG #83)
 • Keldabe-class Battleships didn't have the tooltip noting that it can be only built on special planets, like Star Destroyers and Mon Calamari Cruisers. (BUG #143)
