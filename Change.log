@@ -160,6 +160,7 @@ Map/Planet Fixes:
 • Space Sullust's planet GFX used the generic desert model instead of the volcanic one; the intended model was misreferenced in the GFX definition, and the map itself used the desert model as a hotfix. (BUG #167)
 • Space Aeten II's planet GFX used the generic desert model instead of the volcanic one; the intended model was misreferenced in the GFX definition, and the map itself used the desert model as a hotfix.  For the Piracy mission, Petroglyph reused Mustafar's GFX, leading to further inconsistency. (BUG #167)
 • Space Saleucami's orbital defense satellites wouldn't spawn on the map when bought in GC. (BUG #19)
+• Space Dathomir's defense satellites would only appear when the planet was owned by the Rebels. (BUG #251)
 • Space Nal Hutta's moon would be destroyed by the Death Star II, instead of Nal Hutta.  Upon returning to the map, it magically reappeared with Nal Hutta destroyed, because the moon used Coruscant's model.  A new moon entry, "Nar_Shaddaa_Backdrop" (the moon's Legends name) has been added and swapped into the map. (BUG #166)
 • Land Tatooine's sarlacc was cut for censorship (i.e. eating infantry alive), but remained uncensored in the Land Skirmish map "Clash on Tatooine."  Petroglyph uncensored the rancor's eat-infantry ability in patch 1.121.826596, therefore consistency the sarlacc has been restored to Tatooine. (BUG #129)
 • Land Honoghr had two spots where droidekas would get softlocked because the factories would spawn them into "Steep" terrain and be unable to move. (BUG #77)
