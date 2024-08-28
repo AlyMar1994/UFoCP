@@ -46,7 +46,7 @@
 		<Ship_Class>bomber</Ship_Class>
 		<Armor_Type> Armor_Bomber </Armor_Type>
         <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
-                
+
 		<Formation_Priority>2</Formation_Priority>
 		<Size_Value>8</Size_Value>
 		<Is_Escort>no</Is_Escort>
@@ -113,7 +113,7 @@
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		
+
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
@@ -123,17 +123,17 @@
 
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
-		
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
-				<GUI_Activated_Ability_Name> Skipray_Sensor_Jamming </GUI_Activated_Ability_Name> 
-				<Recharge_Seconds>35.0</Recharge_Seconds> 
+				<GUI_Activated_Ability_Name> Skipray_Sensor_Jamming </GUI_Activated_Ability_Name>
+				<Recharge_Seconds>35.0</Recharge_Seconds>
 				<Expiration_Seconds>30.0</Expiration_Seconds>
-				<Effective_Radius>300.0</Effective_Radius> 
-                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated> 				
-				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated> 
+				<Effective_Radius>300.0</Effective_Radius>
+                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated>
 				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 
@@ -153,7 +153,7 @@
 
 
 	<!-- Squadron info -->
-	
+
 	<Squadron Name="Skipray_Squadron">
 		<Text_ID>TEXT_UNIT_SKIPRAY_SQUADRON</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SKIPRAY</Encyclopedia_Text>
@@ -169,7 +169,7 @@
 		<Is_Bomber>yes</Is_Bomber>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Damage>15</Damage>
-		
+
 		<Affiliation>Underworld</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Cost_Credits>500</Build_Cost_Credits>
@@ -212,17 +212,17 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
-				<GUI_Activated_Ability_Name> Skipray_Sensor_Jamming </GUI_Activated_Ability_Name> 
-				<Recharge_Seconds>35.0</Recharge_Seconds> 
+				<GUI_Activated_Ability_Name> Skipray_Sensor_Jamming </GUI_Activated_Ability_Name>
+				<Recharge_Seconds>35.0</Recharge_Seconds>
 				<Expiration_Seconds>30.0</Expiration_Seconds>
-				<Effective_Radius>300.0</Effective_Radius> 
+				<Effective_Radius>300.0</Effective_Radius>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 
