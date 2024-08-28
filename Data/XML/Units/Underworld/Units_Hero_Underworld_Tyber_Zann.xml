@@ -195,9 +195,39 @@
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 
         <Abilities SubObjectList="Yes">
+
             <Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
+
+            <Black_Market_Ability Name="Tyber_Zann_Black_Market">
+                <Initially_Enabled>Yes</Initially_Enabled>
+                <Causes_Despawn>Yes</Causes_Despawn>
+
+                <Min_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Min_Respawn_Times>
+                <Max_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Max_Respawn_Times>
+
+                <Price_Modifier>1.0</Price_Modifier>
+                <Tech_Level_Adjustment>-1</Tech_Level_Adjustment>
+            </Black_Market_Ability>
+
+            <Stealth_Ability Name="Stealth_Tyber_Zann">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>255, 255, 255, 255</Stealth_Color>
+                <Stealth_Transition_Time>.6</Stealth_Transition_Time>
+            </Stealth_Ability>
+
+            <Tactical_Bribe_Ability Name="Tyber_Tactical_Bribe">
+                <Activation_Style> User_Input </Activation_Style>
+                <Activation_Min_Range>0.0</Activation_Min_Range>
+                <Activation_Max_Range>100.0</Activation_Max_Range>
+                <Bribed_Effect> Bribed_Particle_Effect </Bribed_Effect>
+                <Bribed_Effect_Small> Bribed_Particle_Effect_Small </Bribed_Effect_Small>
+                <Effect_Z_Offset>35.0</Effect_Z_Offset>
+                <SFXEvent_Success>GUI_Bribe_SFX</SFXEvent_Success>
+                <SFXEvent_Fail>Unit_Bribe_Fail_Tyber_Zann</SFXEvent_Fail>
+            </Tactical_Bribe_Ability>
+
         </Abilities>
 	</HeroUnit>
 
@@ -230,9 +260,39 @@
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
+
             <Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
+
+            <Black_Market_Ability Name="Tyber_Zann_Black_Market">
+                <Initially_Enabled>Yes</Initially_Enabled>
+                <Causes_Despawn>Yes</Causes_Despawn>
+
+                <Min_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Min_Respawn_Times>
+                <Max_Respawn_Times>90.0, 90.0, 90.0, 90.0, 90.0</Max_Respawn_Times>
+
+                <Price_Modifier>1.0</Price_Modifier>
+                <Tech_Level_Adjustment>-1</Tech_Level_Adjustment>
+            </Black_Market_Ability>
+
+            <Stealth_Ability Name="Stealth_Tyber_Zann">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>255, 255, 255, 255</Stealth_Color>
+                <Stealth_Transition_Time>.6</Stealth_Transition_Time>
+            </Stealth_Ability>
+
+            <Tactical_Bribe_Ability Name="Tyber_Tactical_Bribe">
+                <Activation_Style> User_Input </Activation_Style>
+                <Activation_Min_Range>0.0</Activation_Min_Range>
+                <Activation_Max_Range>100.0</Activation_Max_Range>
+                <Bribed_Effect> Bribed_Particle_Effect </Bribed_Effect>
+                <Bribed_Effect_Small> Bribed_Particle_Effect_Small </Bribed_Effect_Small>
+                <Effect_Z_Offset>35.0</Effect_Z_Offset>
+                <SFXEvent_Success>GUI_Bribe_SFX</SFXEvent_Success>
+                <SFXEvent_Fail>Unit_Bribe_Fail_Tyber_Zann</SFXEvent_Fail>
+            </Tactical_Bribe_Ability>
+
         </Abilities>
 	</HeroUnit>
 
