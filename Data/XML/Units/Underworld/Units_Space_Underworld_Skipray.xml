@@ -10,7 +10,7 @@
 		<Text_ID>TEXT_UNIT_SKIPRAY</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SKIPRAY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> Star_Destroyer Calamari_Cruiser </Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against> Star_Destroyer Calamari_Cruiser Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_skipray.tga</Icon_Name>
 
@@ -158,7 +158,7 @@
 		<Text_ID>TEXT_UNIT_SKIPRAY_SQUADRON</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SKIPRAY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against> Star_Destroyer Calamari_Cruiser Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_skipray.tga</Icon_Name>
 
