@@ -1564,12 +1564,6 @@ TEXT_ENCYCLOPEDIA_WOOKIEE_SPAWNER,Crea periódicamente wookiees hasta su destruc
 TEXT_ENCYCLOPEDIA_YSALAMIRI_TREE,Este árbol alberga a muchas familias ysalamiri. Los ysalamiri bloquean la Fuerza en un gran radio alrededor del árbol.
 TEXT_ENCYLOPEDIA_STRUCTURE_BOTHAN_POLOS_HOUSE,Palacio del senador Se’Lab 
 TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_END_OF_DATA,END OF ENGLISH TEXT
 TEXT_ENEMY_FLEET,Flota enemiga
 TEXT_ENEMY_FLEET_APPROACHING_LOCATION,Flota enemiga aproximándose en ##0.
 TEXT_ENEMY_HEROES_DEFEATED,Héroes derrotados:
@@ -17965,6 +17959,7 @@ TEXT_TOOLTIP_AKBAR,Almirante de la Rebelión capaz de comandar naves, sacar el m
 TEXT_TOOLTIP_ANNIHILATOR,El Aniquilador
 TEXT_TOOLTIP_ANTILLES,La nave del capitán Raymus Antilles, veterano de las Guerras Clon que sirvió a los senadores Bail y Leia Organa. Su nave es una corbeta corelliana modificada.
 TEXT_TOOLTIP_ARC_HAMMER,Una nave fábrica móvil dirigida por el general Rom Mohc. El Arc Hammer permite la producción de soldados oscuros en el planeta en el que orbita.
+TEXT_TOOLTIP_ARC_HAMMER_02,
 TEXT_TOOLTIP_ASSAULT_FRIGATE,Fragata pesada de asalto armada con dos baterías turboláser mejoradas y dos baterías de cañones de iones. Una nave de combate avanzada que antepone la potencia de fuego sobre la durabilidad.
 TEXT_TOOLTIP_ATAA,Andador antiaéreo todoterreno armado con cañones capaces de derrotar con facilidad a los enemigos volantes. Puede emitir un campo capaz de interferir en los sistemas de guiado de los misiles. Cada compañía está formada por tres vehículos.
 TEXT_TOOLTIP_ATAT,Transporte antiaéreo todoterreno armado con dos cañones láser pesados y dotado de un duro blindaje que compensa su falta de velocidad. Capaz de desplegar soldados de asalto.
@@ -18135,10 +18130,30 @@ TEXT_TOOLTIP_HEROES_BUTTON,Héroes
 TEXT_TOOLTIP_HOME_ONE,La nave de línea del comandante Ackbar, un excelente comandante de flota capaz de dirigir a otras naves para que obtengan la máxima efectividad al disparar. Hogar Uno está armada con cuatro baterías turboláser y cuatro baterías de cañones de iones.
 TEXT_TOOLTIP_HOME_ONE_01,La nave de línea del almirante Ackbar, un excelente comandante de flota capaz de dirigir a otras naves para que obtengan la máxima efectividad al disparar. Hogar Uno está armada con cuatro baterías turboláser y cuatro baterías de cañones de iones.
 TEXT_TOOLTIP_HOUNDSTOOTH,La nave de transporte personal de Bossk.
+TEXT_TOOLTIP_HOUNDSTOOTH_02,
 TEXT_TOOLTIP_HUTT_PALACE_SKIRMISH,Permite la construcción de varias unidades hutts y mejoras.
 TEXT_TOOLTIP_HYPERV_BUTTON,Dispara el cañón de hipervelocidad
 TEXT_TOOLTIP_IG2000,La nave de IG-88 es una extensión de su propia mente.
+TEXT_TOOLTIP_IG2000_02,
 TEXT_TOOLTIP_IG88,Un siniestro cazarrecompensas con el cuerpo de un droide y la mente de una hiperinteligente IA.
+TEXT_TOOLTIP_INDIG_BOTHAN_CIV,
+TEXT_TOOLTIP_INDIG_ELITE_GUARD,
+TEXT_TOOLTIP_INDIG_EWOK,
+TEXT_TOOLTIP_INDIG_GEONOSIAN,
+TEXT_TOOLTIP_INDIG_GUNGAN,
+TEXT_TOOLTIP_INDIG_HUMAN_CIV,
+TEXT_TOOLTIP_INDIG_HUTT_CIV,
+TEXT_TOOLTIP_INDIG_JAWA,
+TEXT_TOOLTIP_INDIG_MANDALORIAN,
+TEXT_TOOLTIP_INDIG_MONCAL_CIV,
+TEXT_TOOLTIP_INDIG_MUSTAFARIAN,
+TEXT_TOOLTIP_INDIG_PRISONER_CIV,
+TEXT_TOOLTIP_INDIG_PYNGANI,
+TEXT_TOOLTIP_INDIG_SULLUSTAN,
+TEXT_TOOLTIP_INDIG_TUSKEN_RAIDER,
+TEXT_TOOLTIP_INDIG_TWILEK_CIV,
+TEXT_TOOLTIP_INDIG_WOOKIE,
+TEXT_TOOLTIP_INDIG_WOOKIE_UNARMED,
 TEXT_TOOLTIP_INFILTRATOR,Soldado muy cualificado adiestrado en el uso de armas especiales, armado con un rifle francotirador y capaz de colocar artefactos explosivos.
 TEXT_TOOLTIP_INFO_CREDITS_GAINED,%d créditos obtenidos por la conquista del planeta %s
 TEXT_TOOLTIP_INFO_CREDITS_LOST,%d créditos perdidos por la derrota en el planeta %s
@@ -18200,7 +18215,9 @@ TEXT_TOOLTIP_PATHFINDER,Las unidades colocadas en este espacio saltarán al hipe
 TEXT_TOOLTIP_PAUSE_PLAY,Hace una pausa o inicia el juego
 TEXT_TOOLTIP_PAUSE_PLAY_NAME,Pausa/Jugar
 TEXT_TOOLTIP_PEACEBRINGER,La nave insignia de Tyber Zann tiene un nombre irónico. El Pacificador dispone de motores avanzados y un dispositivo de camuflaje..
+TEXT_TOOLTIP_PEACEBRINGER_02,
 TEXT_TOOLTIP_PIETT,Comandante de flota imperial. Está al mando de un destructor estelar que dispone de armamento reforzado.
+TEXT_TOOLTIP_PIETT_02,
 TEXT_TOOLTIP_PIETT_SD,Crucero pesado de ataque imperial armado con cuatro baterías turboláser, dos baterías de cañones de iones, diez escuadrones de cazas TIE y cinco escuadrones de bombarderos TIE. También va armado con un devastador rayo de protones y un rayo tractor para inmovilizar a naves más pequeñas.
 TEXT_TOOLTIP_PIRATE,Mercenario pirata del Sol Negro, implacable y mortal. Cada compañía está formada por tres pelotones de tres soldados cada uno.
 TEXT_TOOLTIP_PIRATE_FIGHTER,Caza pesado armado con cañones láser. Diseñado para infligir el máximo daño sin merma del blindaje protector. Cada escuadrón está formado por cinco cazas.
@@ -18259,6 +18276,7 @@ TEXT_TOOLTIP_SABOTEUR,El saboteador extiende la voluntad de Tyber Zann por la ga
 TEXT_TOOLTIP_SCAVENGER_DROID,Los droides de recuperación se enganchan a los vehículos y los desmontan, convirtiendo la chatarra en créditos.
 TEXT_TOOLTIP_SCOUTTROOPER,Soldados imperiales que montan en motos deslizadoras de gran velocidad. Pueden lanzar minas explosivas muy eficaces contra la infantería enemiga. Cada compañía está formada por dos soldados.
 TEXT_TOOLTIP_SD_ADMONITOR,El Admonitor es la nave insignia del gran almirante Thrawn.
+TEXT_TOOLTIP_SD_ADMONITOR_02,
 TEXT_TOOLTIP_SELL_STRUCTURE,Vende la estructura actual
 TEXT_TOOLTIP_SENSOR_NODE,Un sensor especializado que muestra grandes zonas afectadas por la neblina de guerra.
 TEXT_TOOLTIP_SENSOR_SCRAMBLER,El desmodulador interfiere con el radar y la visibilidad del enemigo, así como con el sistema de guiado de misiles.

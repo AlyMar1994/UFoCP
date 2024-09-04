@@ -1564,12 +1564,6 @@ TEXT_ENCYCLOPEDIA_WOOKIEE_SPAWNER,Génère périodiquement des Wokiees jusqu'à 
 TEXT_ENCYCLOPEDIA_YSALAMIRI_TREE,Cet arbre abrite de nombreuses familles d'Ysalamiri, créatures capables de repousser la Force tout autour l'arbre qui leur sert de nid.
 TEXT_ENCYLOPEDIA_STRUCTURE_BOTHAN_POLOS_HOUSE,Palais du Sénateur Se'Lab
 TEXT_END_OF_DATA,END OF FRENCH TEXT
-TEXT_END_OF_DATA,END OF ENGLISH TEXT
-TEXT_END_OF_DATA,END OF GERMAN TEXT
-TEXT_END_OF_DATA,END OF FRENCH TEXT
-TEXT_END_OF_DATA,END OF FRENCH TEXT
-TEXT_END_OF_DATA,END OF FRENCH TEXT
-TEXT_END_OF_DATA,END OF FRENCH TEXT
 TEXT_ENEMY_FLEET,Flotte ennemie
 TEXT_ENEMY_FLEET_APPROACHING_LOCATION,Flotte ennemie en approche sur ##0.
 TEXT_ENEMY_HEROES_DEFEATED,Héros vaincus :
@@ -17965,6 +17959,7 @@ TEXT_TOOLTIP_AKBAR,Amiral Rebelle commandant la flotte pour une efficacité maxi
 TEXT_TOOLTIP_ANNIHILATOR,Annihilator
 TEXT_TOOLTIP_ANTILLES,Vaisseau du capitaine Raymus Antilles, vétéran de la Guerre des Clones servant sous les ordres des Sénateurs Bail et Leia Organa. Il s'agit d'une corvette corellienne considérablement modifiée.
 TEXT_TOOLTIP_ARC_HAMMER,Vaisseau-usine sous le commandement du Général Rom Mohc. L'Arc Hammer permet de produire des Dark Troopers sur la planète autour de laquelle il orbite.
+TEXT_TOOLTIP_ARC_HAMMER_02,
 TEXT_TOOLTIP_ASSAULT_FRIGATE,Frégate d'assaut lourde dotée de 2 batteries de turbolasers avancées et de 2 batteries de canons à ions. Ce vaisseau privilégie la puissance de feu à la résistance.
 TEXT_TOOLTIP_ATAA,Transport Blindé Anti-Aérien armé de canons Flak, capable d'éliminer facilement un aéronef. Peut émettre un champ destiné à perturber les systèmes de guidage des missiles. 3 véhicules par groupe.
 TEXT_TOOLTIP_ATAT,Le Transport Blindé Tout-Terrain est armé d'un double canon laser et doté d'un blindage renforcé, ce qui compense sa lenteur. Il permet de déployer des Stormtroopers.
@@ -18135,10 +18130,30 @@ TEXT_TOOLTIP_HEROES_BUTTON,Héros
 TEXT_TOOLTIP_HOME_ONE,Vaisseau amiral placé sous le commandement d'Ackbar, qui excelle à coordonner les attaques de sa flotte. Le Home One est doté de 4 batteries de turbolasers et de 4 batteries de canons à ions.
 TEXT_TOOLTIP_HOME_ONE_01,Vaisseau lourd placé sous le commandement de l'amiral Ackbar, qui excelle à coordonner les attaques de sa flotte. Le Home One est doté de 4 batteries de turbolasers et de 4 batteries de canons à ions.
 TEXT_TOOLTIP_HOUNDSTOOTH,Vaisseau de transport personnel de Bossk
+TEXT_TOOLTIP_HOUNDSTOOTH_02,
 TEXT_TOOLTIP_HUTT_PALACE_SKIRMISH,Permet la production de diverses unités et améliorations des Hutts.
 TEXT_TOOLTIP_HYPERV_BUTTON,Tirer avec le Canon à hypervélocité
 TEXT_TOOLTIP_IG2000,Le vaisseau d'IG-88, indissociable du droïde.
+TEXT_TOOLTIP_IG2000_02,
 TEXT_TOOLTIP_IG88,Redoutable chasseur de primes droïde, doté d'une intelligence artificielle extrêmement développée.
+TEXT_TOOLTIP_INDIG_BOTHAN_CIV,
+TEXT_TOOLTIP_INDIG_ELITE_GUARD,
+TEXT_TOOLTIP_INDIG_EWOK,
+TEXT_TOOLTIP_INDIG_GEONOSIAN,
+TEXT_TOOLTIP_INDIG_GUNGAN,
+TEXT_TOOLTIP_INDIG_HUMAN_CIV,
+TEXT_TOOLTIP_INDIG_HUTT_CIV,
+TEXT_TOOLTIP_INDIG_JAWA,
+TEXT_TOOLTIP_INDIG_MANDALORIAN,
+TEXT_TOOLTIP_INDIG_MONCAL_CIV,
+TEXT_TOOLTIP_INDIG_MUSTAFARIAN,
+TEXT_TOOLTIP_INDIG_PRISONER_CIV,
+TEXT_TOOLTIP_INDIG_PYNGANI,
+TEXT_TOOLTIP_INDIG_SULLUSTAN,
+TEXT_TOOLTIP_INDIG_TUSKEN_RAIDER,
+TEXT_TOOLTIP_INDIG_TWILEK_CIV,
+TEXT_TOOLTIP_INDIG_WOOKIE,
+TEXT_TOOLTIP_INDIG_WOOKIE_UNARMED,
 TEXT_TOOLTIP_INFILTRATOR,Soldat surentraîné et expert en armes, équipé d'un fusil de sniper et capable de placer des charges explosives.
 TEXT_TOOLTIP_INFO_CREDITS_GAINED,%d crédits obtenus pour la capture de la planète %s
 TEXT_TOOLTIP_INFO_CREDITS_LOST,%d crédits perdus à cause de la capture de la planète %s
@@ -18200,7 +18215,9 @@ TEXT_TOOLTIP_PATHFINDER,Les unités de cet emplacement passeront en vitesse lumi
 TEXT_TOOLTIP_PAUSE_PLAY,Mettre le jeu en pause/Reprendre la partie
 TEXT_TOOLTIP_PAUSE_PLAY_NAME,Pause/Reprise
 TEXT_TOOLTIP_PEACEBRINGER,Vaisseau amiral de Tyber Zann, baptisé le Merciless. Il est équipé de réacteurs améliorés et d'un Champ de dissimulation.
+TEXT_TOOLTIP_PEACEBRINGER_02,
 TEXT_TOOLTIP_PIETT,Commandant de la flotte Impériale, à bord d'un Destroyer stellaire amélioré équipé de toutes nouvelles armes.
+TEXT_TOOLTIP_PIETT_02,
 TEXT_TOOLTIP_PIETT_SD,Croiseur d'assaut Impérial lourd, doté de 4 batteries de turbolasers et de 2 batteries de canons à ions. Il transporte 10 escadrons de chasseurs TIE et 5 escadrons de bombardiers TIE. Son arme à protons est dévastatrice et son rayon tracteur permet d'immobiliser les vaisseaux de petite taille.
 TEXT_TOOLTIP_PIRATE,Mercenaire du Soleil Noir, armé et dangereux. 3 escouades (de 3 soldats) par groupe.
 TEXT_TOOLTIP_PIRATE_FIGHTER,Chasseur lourd équipé de canons laser. Conçu pour infliger un maximum de dommages, il est également doté d'un blindage résistant. 5 chasseurs par escadron.
@@ -18259,6 +18276,7 @@ TEXT_TOOLTIP_SABOTEUR,Le Corrupteur propage l'influence de Tyber Zann dans toute
 TEXT_TOOLTIP_SCAVENGER_DROID,Les droïdes casseurs désossent les véhicules, convertissant la ferraille en précieux crédits.
 TEXT_TOOLTIP_SCOUTTROOPER,Soldats Impériaux chevauchant des motos-jets. Ils peuvent larguer des mines pour infliger de lourds dommages à l'infanterie ennemie. 2 soldats par groupe.
 TEXT_TOOLTIP_SD_ADMONITOR,L'Admonitor est le vaisseau du Grand Amiral Thrawn.
+TEXT_TOOLTIP_SD_ADMONITOR_02,
 TEXT_TOOLTIP_SELL_STRUCTURE,Vendre la structure sélectionnée.
 TEXT_TOOLTIP_SENSOR_NODE,Radar spécialisé qui permet de lever le brouillard de guerre dans son rayon d'action.
 TEXT_TOOLTIP_SENSOR_SCRAMBLER,Ce brouilleur perturbe les radars ennemis, réduit leur visibilité et affole les systèmes de guidage des missiles.
