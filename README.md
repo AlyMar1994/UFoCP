@@ -38,7 +38,7 @@ When installing the map editor, an Autodesk 3DS Max 8 and 9 version of Petroglyp
 [Gaukler](https://github.com/Gaukler) created a Blender plugin that interprets ALO and ALA effectively, including quality-of-life warnings, and was updated subsequently by the maintainers at [AlamoEngine-Tools](https://github.com/AlamoEngine-Tools).  This plugin DOES NOT support ALA 1.0 included with Empire at War, and will require an animation converter.
 - [ALAMO Plugin](https://github.com/AlamoEngine-Tools/Mirror-Blender-Alamo-Plugin)
 - [Animation Converter](https://modtools.petrolution.net/tools/AnimationConverter)
-- [ALOViewer](http://modtools.petrolution.net/tools/AloViewer)
+- [ALOViewer](https://github.com/gryttr/alo-viewer)
 
 #### Texturing
 Forces of Corruption and the repo works with TGA, DDS, ICO and PNG (with DDS and TGA having advanced transparency settings to work with team coloring and texture blending).  Multiple texture editors exist and will work:
