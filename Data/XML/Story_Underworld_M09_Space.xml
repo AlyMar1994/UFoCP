@@ -23,6 +23,22 @@
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 	</Event>
 
+	<Event Name="Underworld_A02M09_Prevent_Empire_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>EMPIRE</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Underworld_A02M09_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_A02M09_Prevent_Player_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>UNDERWORLD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Underworld_A02M09_Begin</Prereq>
+	</Event>
+
 	<Event Name="Rebel_A3_M09_Allow_Reinforcements">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_REINFORCEMENTS</Reward_Type>
@@ -493,4 +509,19 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Reward_Param2>1</Reward_Param2>
 	</Event>
 
+	<Event Name="Underworld_A02M09_Enable_Empire_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>EMPIRE</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Force_Set_Victory_Flag</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_A02M09_Enable_Player_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>UNDERWORLD</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Force_Set_Victory_Flag</Prereq>
+	</Event>
 </Story>
