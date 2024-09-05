@@ -190,6 +190,7 @@ Model Fixes:
 
 Script/Story Fixes:
 • Consortium Campaign #7 ("Cloud City Conflict") would spawn the EaW version of Darth Vader instead of the FoC version with the Executor. (BUG #27)
+• Consortium Campaign #9 ("Baiting the Hook") didn't set any flags to prevent the player or Empire from retreating, leading to sequence breaks or softlocks. (BUG #56)
 • It was possible to leave the Grenadier's Proximity Mines where Vader and the Stormtrooper meet during Consortium campaign mission #7 ("Cloud City Conflict").  The Stormtrooper would explode and Vader would then walk around destroying mines in the ending cutscene, or both Vader and the trooper would die in the explosion. (BUG #131)
 • "Destroy the Death Star" prerequisites for GC wouldn't work because the Empire's faction entry wasn't looking for the Death Star II. (BUG #33)
 • Land Bothawui's intimidation mission had guards that lacked the "pointguard" scripting hint, or had it misspelled to "pointguards," meaning the mission script wouldn't function as intended. (BUG #219)
