@@ -84,7 +84,7 @@ AI Fixes:
 • AI plans wouldn't factor in Consortium turbolaser towers as artillery to avoid when attacking buildings; Consortium turbolaser towers also weren't a part of the artillery infrastructure list to specifically target. (BUG #116)
 • AI plans wouldn't factor in Consortium mobile artillery (MALs), nor any faction's missile defense satellites as artillery to avoid when attacking; they also weren't apart of the artillery infrastructure list to specifically target. (BUG #160)
 • The AI's budgeting wouldn't factor in the Consortium's Repulsorlift Jammer as it wasn't apart of their defensive structure list. (BUG #118)
-• The Master Force Adept (the Teleporter) in Consortium campaign mission #11 "Raiders of the Lost Holocron" couldn't properly target the player because it referenced a non-existent variable, instead attacking any hostile entity in the area. (BUG #126)
+• The Master Force Adept (the Teleporter) in Consortium campaign mission #9 "Raiders of the Lost Holocron" couldn't properly target the player because it referenced a non-existent variable, instead attacking any hostile entity in the area. (BUG #126)
 • The Galactic AI had a misspelled variable that prevented reconsidering unit positions every eight seconds as intended; unit movement is no longer irregularly serviced (or not at all). (BUG #130)
 • The Galactic AI didn't include Tyber Zann as a possible leader_object for its service to attack planets or find targets. (BUG #140)
 • The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include the Sundered Heart. (BUG #162)
@@ -148,14 +148,14 @@ Interface Fixes:
 • Keldabe-class Battleships didn't have the tooltip noting that it can be only built on special planets, like Star Destroyers and Mon Calamari Cruisers. (BUG #143)
 • Keldabe-class Battleships, Aggressor-class Star Destroyers, Vengeance Frigates and Interceptor IV Frigates didn't use 1x2 icon tiles like all other ships of their types in the Galactic fleet management window. (BUG #175)
 • Interceptor 4 Frigates used the Black Sun rusted pirate frigate icon instead of an icon with the new silver-bodied frigate. (BUG #206)
-• Pirate Soldier Mobs used in Consortium campaign mission #6 "Dark Ally" had their tooltip description set as their unit class, and their unit container didn't have a description at all. (BUG #171)
+• Pirate Soldier Mobs used in Consortium campaign mission #5 "Dark Ally" had their tooltip description set as their unit class, and their unit container didn't have a description at all. (BUG #171)
 • Jabba's Criminal Empire in the campaign wouldn't display their faction icon on a planet's info window despite having one in the GFX library. (BUG #232)
 • Consortium capital ships didn't have a unique radar icon like the Rebels' (oval/circle) or the Empire's (triangle) capital ships.  They now use a rectangle based off both ships' forward hull. (BUG #180)
 • The Consortium used the Black Sun Pirates' faction icon in their economy ledger. (BUG #228)
 • The Consortium used Black Sun Pirate unit icons when their planets were attacked without garrisons; the UI now uses their most generic arsenal icon for space and land (StarVipers or Grenadiers, respectively). (BUG #40)
 • The Consortium's tech tree window had the space station level requirements for the Aggressor and Keldabe-class swapped, implying Keldabes are bought at station level 4 instead of 5 (and the Aggressor at level 5 instead of 4). (BUG #183)
 • The Consortium Soldier/advisor during the prologue "Crime Lord Unleashed" used the Black Sun Pirate hologram instead of the Consortium Soldier hologram.  While I like the aesthetic, unfortunately it's a bug. (BUG #61)
-• When Darth Vader arrives on Bespin during Consortium campaign mission #7 "Cloud City Conflict," the hologram announcer used the Black Sun Pirate hologram instead of the Consortium Soldier hologram. (BUG #104)
+• When Darth Vader arrives on Bespin during Consortium campaign mission #6 "Cloud City Conflict," the hologram announcer used the Black Sun Pirate hologram instead of the Consortium Soldier hologram. (BUG #104)
 
 
 
@@ -189,9 +189,10 @@ Model Fixes:
 
 
 Script/Story Fixes:
-• Consortium Campaign #7 ("Cloud City Conflict") would spawn the EaW version of Darth Vader instead of the FoC version with the Executor. (BUG #27)
-• Consortium Campaign #9 ("Baiting the Hook") didn't set any flags to prevent the player or Empire from retreating, leading to sequence breaks or softlocks. (BUG #56)
-• It was possible to leave the Grenadier's Proximity Mines where Vader and the Stormtrooper meet during Consortium campaign mission #7 ("Cloud City Conflict").  The Stormtrooper would explode and Vader would then walk around destroying mines in the ending cutscene, or both Vader and the trooper would die in the explosion. (BUG #131)
+• Consortium Campaign #5 ("Dark Ally") would spawn the EaW version of Darth Vader instead of the FoC version with the Executor. (BUG #27)
+• Consortium Campaign #6 ("Cloud City Conflict") would spawn the EaW version of Darth Vader instead of the FoC version with the Executor. (BUG #27)
+• Consortium Campaign #8 ("Baiting the Hook") didn't set any flags to prevent the player or Empire from retreating, leading to sequence breaks or softlocks. (BUG #56)
+• It was possible to leave the Grenadier's Proximity Mines where Vader and the Stormtrooper meet during Consortium campaign mission #6 ("Cloud City Conflict").  The Stormtrooper would explode and Vader would then walk around destroying mines in the ending cutscene, or both Vader and the trooper would die in the explosion. (BUG #131)
 • "Destroy the Death Star" prerequisites for GC wouldn't work because the Empire's faction entry wasn't looking for the Death Star II. (BUG #33)
 • Land Bothawui's intimidation mission had guards that lacked the "pointguard" scripting hint, or had it misspelled to "pointguards," meaning the mission script wouldn't function as intended. (BUG #219)
 • Land Bestine's kidnapping mission had guards that lacked the "pointguard" scripting hint, meaning the mission script wouldn't function as intended. (BUG #222)

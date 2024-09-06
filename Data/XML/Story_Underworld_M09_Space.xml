@@ -30,7 +30,7 @@
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Underworld_A02M09_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Underworld_A02M09_Prevent_Player_Retreat">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_RETREAT</Reward_Type>
@@ -516,7 +516,7 @@ Oh, and I'm to collect a certain artifact on behalf of the Emperor. -->
 		<Reward_Param2>0</Reward_Param2>
 		<Prereq>Force_Set_Victory_Flag</Prereq>
 	</Event>
-	
+
 	<Event Name="Underworld_A02M09_Enable_Player_Retreat">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_RETREAT</Reward_Type>
