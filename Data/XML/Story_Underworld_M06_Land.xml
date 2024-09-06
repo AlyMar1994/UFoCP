@@ -37,6 +37,14 @@
 		<Prereq>Underworld_A02M06_Begin</Prereq>
 	</Event>
 
+	<Event Name="Underworld_A02M06_Prevent_Empire_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>EMPIRE</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Underworld_A02M06_Begin</Prereq>
+	</Event>
+
 	<Event Name="Underworld_A02M06_Deny_Reinforcements">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_REINFORCEMENTS</Reward_Type>
@@ -98,6 +106,14 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_RETREAT</Reward_Type>
 				<Reward_Param1>UNDERWORLD</Reward_Param1>
+				<Reward_Param2>0</Reward_Param2>
+				<Prereq>Underworld_A02M06_Governors_Destroyed</Prereq>
+			</Event>
+
+			<Event Name="Underworld_A02M06_Re-Enable_Empire_Retreat">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_RETREAT</Reward_Type>
+				<Reward_Param1>EMPIRE</Reward_Param1>
 				<Reward_Param2>0</Reward_Param2>
 				<Prereq>Underworld_A02M06_Governors_Destroyed</Prereq>
 			</Event>
