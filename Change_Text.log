@@ -44,7 +44,7 @@ v2.0.0.#### (##-##-2024) [FoC v1.121.]
 ============================================
 
 Additions:
-• UFoCP now "supports" all language text currently available for FoC (standard supported langauges: English, French, German, Italian, Polish, Russian and Spanish).  Only English and German has translated text for now, other languages have English text ported to the respective language so the text doesn't appear missing.  Japanese isn't supported because that is a retail-only language and I can't get ahold of it; fan patches currently aren't supported (Czech-Slovak).
+• UFoCP now "supports" all language text currently available for FoC (standard supported langauges: English, French, German, Italian, Polish, Russian and Spanish).  Only English and German has translated text for now, other languages have English text ported to the respective language so the text doesn't appear missing.  Japanese isn't supported because that is EaW only; fan patches currently aren't supported (Czech-Slovak).
 • All indigenous units (and their Consortium Slave counterparts) didn't have customized descriptions like all other units in the game. (BUG #224)
 	- In addition, the Noghri had their description changed (TEXT_TOOLTIP_NOGHRI_ASSASSIN):
 		- ENG: ...They are fierce warriors and assassins. -> ...They are fierce warriors and assassins equipped with disruptor cannons, which are highly effective against everything except shields.
@@ -62,9 +62,9 @@ Additions:
 
 Housekeeping:
 • Despite the vast majority of dialogue being double-spaced in EaW (and partially in FoC), dialogue during the Consortium's prologue and campaign wouldn't be.  Double-spacing has been rectified, and remains unmarked in this file to avoid conflicts with changes on the same text keys. (The German translation did not suffer this issue, as all dialogue is single-spaced.) (BUG #208).
-• Various texts across EaW and FoC would inconsistently use a special "…" character, or "..." (three periods).  The ellipses character is harder to read at high resolutions, and back-and-forth use of ellipses and periods caused spacing issues (would render as "to the Empire... .").  All ellipses have been swapped out for three periods and remains unmarked in this file to avoid conflicts with changes on the same text keys. (The German translation did not suffer this issue, as three periods are always used.) (BUG #211)
+• Various texts across EaW and FoC would inconsistently use a special "…" (elipsis) character, or "..." (three periods).  The ellipses character is harder to read at high resolutions, and back-and-forth use of ellipses and periods caused spacing issues (f.e. as "to the Empire… .").  All ellipses have been swapped out for three periods and remains unmarked in this file to avoid conflicts with changes on the same text keys. (The German translation did not suffer this issue, as three periods are always used.) (BUG #211)
 • English localization infrequently referred to the Keldabe-class Battleship as the "Kedalbe," an old spelling from '80s Star Wars material, and German localization almost completely used that spelling.  All instances of "Kedalbe" have been swapped out for "Keldabe," and left unmarked to not clog the changelog. (BUG #236)
-• German localization (completely) used an incorrect spelling for "Exekutor," using the English word instead.  In addition, the Hound's Tooth wasn't "Reißzahn," the Merciless as "Gnadenlos" nor the Accuser as "Ankläger," and more.  All instances have been swapped for the German cognate, and left unmarked to not clog the changelog.
+• German localization (completely) used an incorrect spelling for "Exekutor," using the English word instead.  In addition, the Hound's Tooth wasn't "Reißzahn," the Merciless as "Gnadenlos" nor the Accuser as "Ankläger," and more.  All instances have been swapped for their official German cognate from Jedipedia, and left unmarked to not clog the changelog.
 
 
 • TEXT_BOMB_CLASS: (BUG #249)
@@ -110,6 +110,10 @@ Housekeeping:
 • TEXT_TOOLTIP_ABILITY_AREA_EFFECT_CONVERT_DESCRIPTION: (BUG #134)
 	-- ENG: ...Affected units will fight for the Empire for the duration of the battle. -> Affected units will fight for the Empire for a limited amount of time.
 	-- GER: ...Die betroffenen Einheiten werden für die Dauer der Schlacht auf der Seite des Imperiums kämpfen. -> ...Die betroffenen Einheiten werden für eine begrenzte Zeit auf der Seite des Imperiums kämpfen.
+
+• TEXT_TOOLTIP_ABILITY_CAPTURE_VEHICLE_DESCRIPTION: (BUG #252)
+	-- ENG: Use Chewbacca's brute strength to hijack an enemy vehicle. -> [original text +] When an enemy vehicle is captured, Chewbacca becomes disguised; he can hide among other enemies, and won't automatically attack or be attacked.  The disguise is permanently broken after attacking.
+	-- GER: Verwendet Chewbaccas animalische Kraft, um ein feindliches Fahrzeug zu kapern. -> [original text +] Wenn ein feindliches Fahrzeug gekapert wird, wird Chewbacca getarnt; er kann sich zwischen anderen Feinden verstecken und wird nicht automatisch angreifen oder angegriffen werden. Die Tarnung wird nach einem Angriff dauerhaft aufgehoben.
 
 • TEXT_TOOLTIP_R2D2: (BUG #45)
 	-- ENG: A droid duo with a knack... -> A droid with a knack...
