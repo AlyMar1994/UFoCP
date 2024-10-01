@@ -327,7 +327,7 @@
 
    <Event Name="Test_Galactic_29">
       <Event_Type>STORY_SELECT_PLANET</Event_Type>
-      <Event_Param1>Alderaan_Destroyed</Event_Param1>
+      <Event_Param1>Alderaan_Expansion</Event_Param1>
       <Prereq>Test_Galactic_28</Prereq>
    </Event>
 

@@ -58,13 +58,13 @@ Ability Fixes:
 • "BARRAGE" prematurely stopped because the ability's invisible targeting marker died in the attack's splash damage; the marker can no longer die in tactical combat. (BUG #1)
 • "REMOVE_CORRUPTION_ABILITY" wouldn't appear in GC for Admiral Ackbar, Han Solo & Chewbacca, General Veers, Kyle Katarn, or Mara Jade; the AI also wasn't aware that Ackbar, Darth Vader and Thrawn could remove corruption.  Multiple units weren't defined correctly in the AI/GUI references, and Ackbar's Remove Corruption ability was added to the wrong unit.  While Jade nor Katarn are available in GC, all previously mentioned Remove Corruption abilities have been fully restored. (BUG #35)
 • Rebellion Orbital Bombardment (ion cannon bombardment) would be available without ships with ion cannons in orbit (Nebulon-Bs and Alliance Assault Frigates); the Calamari Cruiser and Home One are now the only ships that can orbitally bombard. (BUG #39)
-• R2-D2 and C-3PO's hack turrets ability wasn't able to hack Consortium turbolaser towers, Black Sun anti-aircraft turrets, or Hutt anti-aircraft, grenade mortar or rapid-fire laser turrets.  In addition, R2's healing ability didn't affect any Consortium tanks Chewbacca captured, hacked Consortium turrets, Rebel or hacked Hutt rapid-fire laser turrets, hacked Empire or Hutt grenade mortars, Juggernaut transports, hacked Pirate anti-aircraft, infantry or vehicle turrets. (BUG #20)
-• Cuddles (Silri's rancor) didn't have its eat-infantry ability uncensored in patch 1.121.826596 like indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)
-• Hero Clash "Darth Vader vs. Obi-Wan" wouldn't start with Darth Vader's unit in FoC land combat, only his EaW unit. (BUG #26)
-• Tyber Zann was a stealth-capable unit in Galactic fleet management despite having a devastating capital ship, even when cloaking technology upgrade wasn't purchased yet.  His stealth ability has been removed for balance, like Aggressor-classes and other heroes, but is still a stealth unit during the Consortium's campaign and prologue. (BUG #154)
-• Urai Fen's Cortosis Blades ability couldn't deflect the campaign Force Adepts' lightsabers. (BUG #80)
-• Urai Fen's Cortosis Blades ability couldn't deflect Silri's lightsaber whip during Skirmish mirror-matches. (BUG #81)
-• Urai Fen's Cortosis Blades ability couldn't deflect Darth Vader's lightsaber in FoC land combat. (BUG #30)
+• "TARGETED_HACK" for R2-D2 and C-3PO's wasn't able to hack Consortium turbolaser towers, Black Sun anti-aircraft turrets, or Hutt anti-aircraft, grenade mortar or rapid-fire laser turrets.  In addition, "TARGETED_REPAIR" didn't affect any Consortium tanks Chewbacca captured, hacked Consortium turrets, Rebel or hacked Hutt rapid-fire laser turrets, hacked Empire or Hutt grenade mortars, Juggernaut transports, hacked Pirate anti-aircraft, infantry or vehicle turrets. (BUG #20)
+• "Cuddles_Rancor_Eat_Infantry" attack for Cuddles (Silri's rancor) wasn't uncensored in patch 1.121.826596 like indigenous rancor.  Cuddles now also has the same unit exclusions to eat like normal rancor to prevent visual glitches. (BUG #189)
+• "Vader_ObiWan" Hero Duel wouldn't start with Darth Vader's FoC land unit, only his EaW unit. (BUG #26)
+• "Urai_Block_Lightsaber" for Urai Fen's cortosis blades didn't have a chance to deflect the campaign Force Adepts' lightsabers. (BUG #80)
+• "Urai_Block_Lightsaber" for Urai Fen's cortosis blades didn't have a chance to deflect Silri's lightsaber whip during Skirmish mirror-matches. (BUG #81)
+• "Urai_Block_Lightsaber" for Urai Fen's cortosis blades didn't have a chance to deflect Darth Vader's lightsaber in FoC land combat. (BUG #30)
+• Tyber Zann was a stealth-capable unit in Galactic Conquest despite having a devastating capital ship, even when cloaking technology upgrade wasn't purchased yet.  His stealth ability has been removed for balance, like Aggressor-classes and other heroes, but is still a stealth unit during the Consortium's campaign and prologue. (BUG #154)
 
 
 AI Fixes:
@@ -133,7 +133,7 @@ Interface Fixes:
 • Rebel Field Commanders' GC tooltip didn't indicate if the unit could capture build pads. (BUG #110)
 • Imperial Field Commanders' GC tooltip didn't indicate if the unit could capture build pads. (BUG #111)
 • Imperial Force Adepts' tooltip didn't indicate if the unit could capture build pads. (BUG #112)
-• The Governor's Quarters from Consortium campaign mission #6 "Dark Ally" didn't use its unique tooltip icon despite having one in the interface GFX library, instead using the Imperial Prison icon. (BUG #54)
+• The Governor's Quarters from Consortium campaign mission #5 "Dark Ally" didn't use its unique tooltip icon despite having one in the interface GFX library, instead using the Imperial Prison icon. (BUG #54)
 • Guard Towers from the campaign didn't use a tooltip icon despite having one in the interface GFX library. (BUG #55)
 • Reinforcement Points didn't use a tooltip icon despite having one in the interface GFX library. (BUG #141)
 • Shaaks didn't use a tooltip icon despite having one in the interface GFX library. (BUG #90)
@@ -179,7 +179,7 @@ Map/Planet Fixes:
 • Alderaan's weather indicator wasn't updated from EaW and left as "rain" instead of "clear;" the asteroid field was also "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
 • Honoghr in the campaign would display a generic human instead of a Noghri in its loading screen. (BUG #88)
 • Mandalore in the campaign and prologue would display a generic human instead of a Mandalorian in its loading screen. (BUG #89)
-• Alderaan would be destroyed in the loading screen for the Land Skirmish map "Alderaan at War."  To rectify this and ensure backwards compatibility with EaW's content, the original Alderaan from EaW was restored under the default "Alderaan" entry, while FoC's Alderaan is recreated as "Alderaan_Destroyed."  All files have been edited to ensure the proper Alderaan appears where it needs to. (BUG #105)
+• Alderaan would be destroyed in the loading screen for the Land Skirmish map "Alderaan at War."  To rectify this and ensure backwards compatibility with EaW's content, the original Alderaan from EaW was restored under the default "Alderaan" entry, while FoC's Alderaan is recreated as "Alderaan_Expansion."  All files have been edited to ensure the proper Alderaan appears where it needs to. (BUG #105)
 
 
 Model Fixes:
@@ -189,10 +189,9 @@ Model Fixes:
 
 
 Script/Story Fixes:
-• Consortium Campaign #5 ("Dark Ally") would spawn the EaW version of Darth Vader instead of the FoC version with the Executor. (BUG #27)
 • Consortium Campaign #6 ("Cloud City Conflict") would spawn the EaW version of Darth Vader instead of the FoC version with the Executor. (BUG #27)
+• Consortium Campaign #6 ("Cloud City Conflict") had an exploit where Grenadiers could leave Proximity Mines where Vader and the Stormtrooper meet.  The Stormtrooper would explode and Vader would then walk around destroying mines in the ending cutscene, while funny, would break the sequence. (BUG #131)
 • Consortium Campaign #8 ("Baiting the Hook") didn't set any flags to prevent the player or Empire from retreating, leading to sequence breaks or softlocks. (BUG #56)
-• It was possible to leave the Grenadier's Proximity Mines where Vader and the Stormtrooper meet during Consortium campaign mission #6 ("Cloud City Conflict").  The Stormtrooper would explode and Vader would then walk around destroying mines in the ending cutscene, or both Vader and the trooper would die in the explosion. (BUG #131)
 • "Destroy the Death Star" prerequisites for GC wouldn't work because the Empire's faction entry wasn't looking for the Death Star II. (BUG #33)
 • Land Bothawui's intimidation mission had guards that lacked the "pointguard" scripting hint, or had it misspelled to "pointguards," meaning the mission script wouldn't function as intended. (BUG #219)
 • Land Bestine's kidnapping mission had guards that lacked the "pointguard" scripting hint, meaning the mission script wouldn't function as intended. (BUG #222)
@@ -202,7 +201,7 @@ Structure Fixes:
 • One of the Pirate Asteroid Base's laser cannon hardpoints wasn't attached station's model in-game, meaning the laser wouldn't fire properly. (BUG #17)
 • The Pirate Asteroid Base's hardpoints didn't have damage multipliers against units because its multiplier variables were misspelled, respectively, as "Damage_Sation_Laser" and "Damage_Sation_Turbolaser" instead of "Station." (BUG #119)
 • The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC; from station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> U/A --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
-• The Skirmish Repulsorlift Jammer had various issues: it still used the Empire version of its icon, model, and was affiliated with the Empire when under construction (which caused some FoW issues). (BUG #159)
+• The Skirmish Repulsorlift Jammer had various issues: it still used the Empire version of its icon, model, and was affiliated with the Empire when under construction. (BUG #159)
 
 
 Unit Fixes:
