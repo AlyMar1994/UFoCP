@@ -1564,12 +1564,6 @@ TEXT_ENCYCLOPEDIA_WOOKIEE_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś cza
 TEXT_ENCYCLOPEDIA_YSALAMIRI_TREE,To drzewo jest domem wielu rodzin ysalamirów. Zwierzęta te blokują możliwość korzystania z Mocy w dużym promieniu wokół drzewa.
 TEXT_ENCYLOPEDIA_STRUCTURE_BOTHAN_POLOS_HOUSE,Pałaca senatora Se’Laby
 TEXT_END_OF_DATA,END OF POLISH TEXT
-TEXT_END_OF_DATA,END OF POLISH TEXT
-TEXT_END_OF_DATA,END OF POLISH TEXT
-TEXT_END_OF_DATA,END OF POLISH TEXT
-TEXT_END_OF_DATA,END OF POLISH TEXT
-TEXT_END_OF_DATA,END OF POLISH TEXT
-TEXT_END_OF_DATA,END OF POLISH TEXT
 TEXT_ENEMY_FLEET,Flota wroga
 TEXT_ENEMY_FLEET_APPROACHING_LOCATION,Flota wroga zbliża się do planety: ##0.
 TEXT_ENEMY_HEROES_DEFEATED,Bohaterowie pokonani:
@@ -17965,6 +17959,7 @@ TEXT_TOOLTIP_AKBAR,Admirał Rebelii. Dzięki jego umiejętnościom flota walczy 
 TEXT_TOOLTIP_ANNIHILATOR,Niszczyciel
 TEXT_TOOLTIP_ANTILLES,Okręt kapitana Raymusa Antillesa, weterana Wojen Klonów, który służył pod rozkazami senatorów Baila i Lei Organny. Jego jednostka to zmodyfikowana korweta koreliańska.
 TEXT_TOOLTIP_ARC_HAMMER,Łuk-Młot to okręt-fabryka, dowodzony przez generała Roma Mohca. Umożliwia produkcję mrocznych szturmowców na planecie, nad którą orbituje.
+TEXT_TOOLTIP_ARC_HAMMER_02,Provided to General Rom Mohc for his weapons research, the Arc Hammer is the main production facility for the Dark Trooper Project.  This lightly-armed factory ship has 2 turbolaser batteries, 2 laser cannon batteries, 1 missile launcher, 8 TIE interceptor squadrons, 4 special TIE phantom squadrons, and is equipped with a missile-jamming field.  The Arc Hammer allows the production of Dark Troopers on the planet it orbits.
 TEXT_TOOLTIP_ASSAULT_FRIGATE,Ciężka fregata szturmowa uzbrojona w 2 ulepszone baterie turbolaserów i 1 baterię dział jonowych. Na pokładzie przenosi 6 eskadr myśliwców typu TIE oraz 3 eskadry bombowców typu TIE. Może szybko zniszczyć tarcze nieprzyjacielskich jednostek.
 TEXT_TOOLTIP_ATAA,Uniwersalna Jednostka Przeciwlotnicza (AT-AA) jest uzbrojona w działka przeciwlotnicze. Ponadto jest wyposażona w emiter pola zakłócającego system naprowadzania pocisków. W kompanii mogą się znaleźć 3 pojazdy.
 TEXT_TOOLTIP_ATAT,Uniwersalny Lądowy Transporter Opancerzony uzbrojony w podwójne, ciężkie działa laserowe i wyposażony w gruby pancerz. Jednostka porusza się powoli, może przeprowadzać desant szturmowców.
@@ -18135,10 +18130,30 @@ TEXT_TOOLTIP_HEROES_BUTTON,Bohaterowie
 TEXT_TOOLTIP_HOME_ONE,Okręt liniowy dowodzony przez admirała Ackbara, znakomitego dowódcę floty mogącego wydać rozkaz innym jednostkom skupienie ostrzału na wybranym celu. Baza Jeden jest uzbrojona w 4 baterie turbolaserów i 4 baterie dział jonowych.
 TEXT_TOOLTIP_HOME_ONE_01,Okręt flagowy floty admirała Ackbara. Baza Jeden jest uzbrojona w 4 baterie dział jonowych oraz 4 baterie turbolaserów.
 TEXT_TOOLTIP_HOUNDSTOOTH,Statek transportowy Bosska.
+TEXT_TOOLTIP_HOUNDSTOOTH_02,A slow but powerful fighter, the Hound's Tooth is Bossk's personal transport ship.  Armed with 2 rapid-fire missile batteries, 2 laser cannons, and can be upgraded with a missile jammer from the black market, which repels missiles away from the hull.
 TEXT_TOOLTIP_HUTT_PALACE_SKIRMISH,Pozwala na tworzenie różnych jednostek Huttów oraz na ulepszenia.
 TEXT_TOOLTIP_HYPERV_BUTTON,Wystrzelenie z działa akceleratorowego
 TEXT_TOOLTIP_IG2000,Statek łowcy IG-88 jest przedłużeniem jego umysłu.
+TEXT_TOOLTIP_IG2000_02,A light and maneuverable fighter, IG-2000 is a direct extension of IG-88's mind.  Armed with two laser cannons, IG-88 can disrupt enemy ship computers, draining their shields and affecting their accuracy.
 TEXT_TOOLTIP_IG88,Złowieszczo wyglądający łowca nagród o ciele droida i umyśle, wykorzystującym hiperinteligentny system sztucznej inteligencji.
+TEXT_TOOLTIP_INDIG_BOTHAN_CIV,The native inhabitant of Bothawui.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_ELITE_GUARD,The emperor's highly-trained bodyguards, clad in red.  Royal Guards use force pikes, an energy staff that is effective against infantry and land heroes.
+TEXT_TOOLTIP_INDIG_EWOK,The native creature inhabiting Endor's forest moon.  Ewoks hurl stones and rocks at their enemies, which are effective against infantry and structures.
+TEXT_TOOLTIP_INDIG_GEONOSIAN,The winged insect-like inhabitant of Geonosis.  Geonosians use sonic blasters, which are effective against bunkers and light vehicles.
+TEXT_TOOLTIP_INDIG_GUNGAN,The native aquatic inhabitant of Naboo.  Gungans hurl boomas, plasma energy grenades, which are effective against structures and vehicles.
+TEXT_TOOLTIP_INDIG_HUMAN_CIV,The native humans inhabiting this planet.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_HUTT_CIV,The native slug-like inhabitant of Nal Hutta.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_JAWA,One of the inhabitants of Tatooine.  Jawas use ion blasters, which are particularly powerful against shields and vehicles.
+TEXT_TOOLTIP_INDIG_MANDALORIAN,The native inhabitant of Mandalore.  Armed with a rapid-fire blaster rifle, Mandalorians are highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_MONCAL_CIV,One of the native aquatic inhabitants of Mon Calamari.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_MUSTAFARIAN,The native inhabitant of Mustafar.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_PRISONER_CIV,Native to various planets in the galaxy, these prisoners were enslaved by the Empire.  Lightly armed, they are highly motivated to defend their freedom.
+TEXT_TOOLTIP_INDIG_PYNGANI,The native inhabitant of Polus.  The Pyn'gani use carbonite guns, a well-rounded weapon effective against most structures, infantry and light vehicles.
+TEXT_TOOLTIP_INDIG_SULLUSTAN,The native inhabitant of Sullust.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_TUSKEN_RAIDER,One of the inhabitants of Tatooine.  Tusken Raiders use sniper rifles, which are effective against infantry.
+TEXT_TOOLTIP_INDIG_TWILEK_CIV,The native inhabitant of Ryloth.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_WOOKIE,The native inhabitant of Kashyyyk.  Wookiee Warriors are equipped with powerful bowcasters, which deal heavy damage to infantry.
+TEXT_TOOLTIP_INDIG_WOOKIE_UNARMED,The native inhabitant of Kashyyyk.  This Warrior is defenseless, and will run when approached.
 TEXT_TOOLTIP_INFILTRATOR,Świetnie wyszkolone jednostki specjalne, uzbrojone w karabiny snajperskie. Mogą podkładać ładunki wybuchowe.
 TEXT_TOOLTIP_INFO_CREDITS_GAINED,Zyskano %d kredytów za zajęcie planety: %s
 TEXT_TOOLTIP_INFO_CREDITS_LOST,Stracono %d kredytów z powodu straty planety: %s
@@ -18200,7 +18215,9 @@ TEXT_TOOLTIP_PATHFINDER,Jednostki umieszczone w tym miejscu wykonają skok nadpr
 TEXT_TOOLTIP_PAUSE_PLAY,Zatrzymanie/Uruchomienie gry
 TEXT_TOOLTIP_PAUSE_PLAY_NAME,Zatrzymanie/Uruchomienie
 TEXT_TOOLTIP_PEACEBRINGER,Zwiastun Pokoju to okręt flagowy Tybera Zanna. Jednostka o tej ironicznej nazwie wyposażona jest w ulepszone silniki oraz generator pola maskującego.
+TEXT_TOOLTIP_PEACEBRINGER_02,Tyber Zann's flagship is an Aggressor-class Destroyer with enhanced engines, and can be upgraded further with a cloaking generator from the black market.  Armed with 2 turbolaser batteries, both the Merciless' ion and plasma cannons can overcharge for two very powerful blasts.
 TEXT_TOOLTIP_PIETT,Znakomity dowódca floty imperialnej. Dowodzi ulepszonym niszczycielem gwiezdnym, wyposażonym w potężną broń.
+TEXT_TOOLTIP_PIETT_02,A dedicated Imperial Fleet Commander, Captain Firmus Piett grants a 25% combat health bonus to all ships in space combat he participates in.  The Accuser is armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons.  Also equipped with a proton energy weapon for a quick, devastating attack, and a tractor beam for immobilizing smaller ships.
 TEXT_TOOLTIP_PIETT_SD,Ciężki krążownik imperialny, uzbrojony w 4 baterie turbolaserów i 2 baterie dział jonowych. Na pokładzie przenosi 10 eskadr myśliwców typu TIE i 5 eskadr bombowców typu TIE. Ponadto wyposażony w działo protonowe oraz promień ściągający, pozwalający na unieruchomienie mniejszych okrętów wroga.
 TEXT_TOOLTIP_PIRATE,Żołnierz piratów Czarnego Słońca. Uzbrojony i niebezpieczny. W kompanii mogą się znaleźć 3 oddziały (każdy złożony z 3 żołnierzy).
 TEXT_TOOLTIP_PIRATE_FIGHTER,Ciężki myśliwiec uzbrojony w działka laserowe. Dobrze opancerzony. W eskadrze może się znaleźć 5 myśliwców
@@ -18259,6 +18276,7 @@ TEXT_TOOLTIP_SABOTEUR,Sabotażysta wypełnia rozkazy Tybera Zanna na terenie gal
 TEXT_TOOLTIP_SCAVENGER_DROID,Droidy-padlinożercy przyczepiają się do pojazdów i zaczynają je rozbierać, zamieniając uzyskany w ten sposób złom na kredyty.
 TEXT_TOOLTIP_SCOUTTROOPER,Żołnierze Imperium wyposażeni w skutery. Wykonują misje zwiadowcze, mogą zrzucać miny. W kompanii może się znaleźć 2 żołnierzy. 
 TEXT_TOOLTIP_SD_ADMONITOR,Admonitor to okręt flagowy wielkiego admirała Thrawna.
+TEXT_TOOLTIP_SD_ADMONITOR_02,The only non-human to ever earn the title of Grand Admiral, Thrawn is a master strategist and tactician.  With the Admonitor as his flagship, Thrawn grants minor bonuses to damage, defense and speed to all ships in space combat he participates in.  Armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons, the Admonitor can overcharge its batteries and rapidly assault any target in range.  Also carries a tractor beam for immobilizing smaller ships.
 TEXT_TOOLTIP_SELL_STRUCTURE,Sprzedaj wybraną budowlę
 TEXT_TOOLTIP_SENSOR_NODE,Specjalny czujnik, pozwalający na usunięcie mgły wojny.
 TEXT_TOOLTIP_SENSOR_SCRAMBLER,Zagłuszacz unieszkodliwia nieprzyjacielskie systemy radarowe oraz zakłóca systemy naprowadzania pocisków.

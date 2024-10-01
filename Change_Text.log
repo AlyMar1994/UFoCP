@@ -44,6 +44,7 @@ v2.0.0.#### (##-##-2024) [FoC v1.121.]
 ============================================
 
 Additions:
+• UFoCP now "supports" all language text currently available for FoC (standard supported langauges: English, French, German, Italian, Polish, Russian and Spanish).  Only English and German has translated text for now, other languages have English text ported to the respective language so the text doesn't appear missing.  Japanese isn't supported because that is a retail-only language and I can't get ahold of it; fan patches currently aren't supported (Czech-Slovak).
 • All indigenous units (and their Consortium Slave counterparts) didn't have customized descriptions like all other units in the game. (BUG #224)
 	- In addition, the Noghri had their description changed (TEXT_TOOLTIP_NOGHRI_ASSASSIN):
 		- ENG: ...They are fierce warriors and assassins. -> ...They are fierce warriors and assassins equipped with disruptor cannons, which are highly effective against everything except shields.

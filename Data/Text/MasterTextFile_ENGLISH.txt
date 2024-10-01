@@ -810,11 +810,11 @@ TEXT_CAPTION_INTRO_6,[Rebel Squad Leader] We can't take this much longer!
 TEXT_CAPTION_INTRO_7,[Y-wing Pilot] Target acquired, commencing attack run.
 TEXT_CAPTION_INTRO_8,[Rebel Squad Leader] We found the X-wing prototypes!  YA!!
 TEXT_CAPTION_INTRO_9,[Rebel Fleet Commander] Imperial fleet! Protect the transports!
-TEXT_CAPTION_REBEL_PROLOG_1,
+TEXT_CAPTION_REBEL_PROLOG_1,[TBL]
 TEXT_CAPTION_REBEL_PROLOG_1_B,[TBL]
-TEXT_CAPTION_REBEL_PROLOG_2,
+TEXT_CAPTION_REBEL_PROLOG_2,[TBL]
 TEXT_CAPTION_REBEL_PROLOG_2_B,[TBL]
-TEXT_CAPTION_REBEL_PROLOG_3,
+TEXT_CAPTION_REBEL_PROLOG_3,[TBL]
 TEXT_CARIDA_KIDNAPPING_OBJECTIVE_00,Locate and secure Admiral Dalken Hol.
 TEXT_CARIDA_KIDNAPPING_OBJECTIVE_01,Bossk Must Survive.
 TEXT_CARIDA_KIDNAPPING_OBJECTIVE_02,Escort Dalken Hol back to the transport.
@@ -839,8 +839,8 @@ TEXT_CHECK_VSYNC_ENABLED,Vsync Enabled
 TEXT_CHECK_WIDESCREEN,Widescreen
 TEXT_CHECK_WINDOWED_MODE,Windowed Mode
 TEXT_CHOOSE_TRANSPORT,Choose reinforcement squad
-TEXT_CINEMATIC_PRECRAWL,
-TEXT_CINEMATIC_STARWARS_TITLE,
+TEXT_CINEMATIC_PRECRAWL,[TBL]
+TEXT_CINEMATIC_STARWARS_TITLE,[TBL]
 TEXT_CINEMATIC_VIEW,Unit Preview
 TEXT_CLAN_MATCH_SUFFIX,-clan
 TEXT_CLAN_PREFIX,Clan match
@@ -17959,7 +17959,7 @@ TEXT_TOOLTIP_AKBAR,Rebellion admiral able to command ships of the fleet for maxi
 TEXT_TOOLTIP_ANNIHILATOR,The Annihilator
 TEXT_TOOLTIP_ANTILLES,The ship of Captain Raymus Antilles, a veteran of the Clone Wars who serves under Senators Bail and Leia Organa. His ship is a heavily modified Corellian Corvette.
 TEXT_TOOLTIP_ARC_HAMMER,A mobile factory ship, commanded by General Rom Mohc.  The Arc Hammer allows the production of Dark Troopers on the planet it orbits.
-TEXT_TOOLTIP_ARC_HAMMER_02,Provided to General Rom Mohc for his weapons research, the Arc Hammer is the main production facility for the Dark Trooper Project.  This lightly-armed factory ship has 2 turbolaser batteries, 2 laser cannon batteries, 1 missile launcher, 8 TIE interceptor squadrons, 4 special TIE phantom squadrons and is equipped with a missile-jamming field.  The Arc Hammer allows the production of Dark Troopers on the planet it orbits.
+TEXT_TOOLTIP_ARC_HAMMER_02,Provided to General Rom Mohc for his weapons research, the Arc Hammer is the main production facility for the Dark Trooper Project.  This lightly-armed factory ship has 2 turbolaser batteries, 2 laser cannon batteries, 1 missile launcher, 8 TIE interceptor squadrons, 4 special TIE phantom squadrons, and is equipped with a missile-jamming field.  The Arc Hammer allows the production of Dark Troopers on the planet it orbits.
 TEXT_TOOLTIP_ASSAULT_FRIGATE,Heavy assault frigate armed with 2 enhanced turbolaser batteries and 2 laser cannon batteries. An advanced combat ship with emphasis on firepower at the expense of durability.
 TEXT_TOOLTIP_ATAA,All Terrain Anti Aircraft walker armed with flak cannons capable of defeating flying threats with ease. Can emit a field that disrupts missile guidance systems.  3 vehicles per company.
 TEXT_TOOLTIP_ATAT,All Terrain - Armored Transport armed with twin heavy laser cannons. Thick armor compensates for its slow speed. Able to deploy Stormtroopers.

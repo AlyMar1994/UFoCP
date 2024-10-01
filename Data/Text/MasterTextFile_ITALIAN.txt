@@ -810,11 +810,11 @@ TEXT_CAPTION_INTRO_6,[Leader squadra ribelle] Non resisteremo ancora a lungo!
 TEXT_CAPTION_INTRO_7,[Pilota Y-Wing] Bersaglio acquisito, comincio l'attacco.
 TEXT_CAPTION_INTRO_8,[Leader squadra ribelle] Abbiamo trovato i prototipi di X-Wing! Sì!
 TEXT_CAPTION_INTRO_9,[Comandante flotta ribelle] Una flotta imperiale! Proteggete i trasporti!
-TEXT_CAPTION_REBEL_PROLOG_1,    
+TEXT_CAPTION_REBEL_PROLOG_1,[TBL]
 TEXT_CAPTION_REBEL_PROLOG_1_B,[TBL]
-TEXT_CAPTION_REBEL_PROLOG_2,   
+TEXT_CAPTION_REBEL_PROLOG_2,[TBL]
 TEXT_CAPTION_REBEL_PROLOG_2_B,[TBL]
-TEXT_CAPTION_REBEL_PROLOG_3,   
+TEXT_CAPTION_REBEL_PROLOG_3,[TBL]
 TEXT_CARIDA_KIDNAPPING_OBJECTIVE_00,Trova e cattura l'ammiraglio Dalken Hol.
 TEXT_CARIDA_KIDNAPPING_OBJECTIVE_01,Bossk deve sopravvivere.
 TEXT_CARIDA_KIDNAPPING_OBJECTIVE_02,Scorta Dalken Hol fino al trasporto.
@@ -839,8 +839,8 @@ TEXT_CHECK_VSYNC_ENABLED,Sincronia verticale
 TEXT_CHECK_WIDESCREEN,16:9
 TEXT_CHECK_WINDOWED_MODE,Modalità finestra
 TEXT_CHOOSE_TRANSPORT,Scegli una squadra di rinforzo
-TEXT_CINEMATIC_PRECRAWL, 
-TEXT_CINEMATIC_STARWARS_TITLE, 
+TEXT_CINEMATIC_PRECRAWL,[TBL]
+TEXT_CINEMATIC_STARWARS_TITLE,[TBL]
 TEXT_CINEMATIC_VIEW,Visuale cinematografica unità
 TEXT_CLAN_MATCH_SUFFIX,-clan
 TEXT_CLAN_PREFIX,Partita clan
@@ -17959,7 +17959,7 @@ TEXT_TOOLTIP_AKBAR,Ammiraglio Mon Calamari capace di garantire la massima effica
 TEXT_TOOLTIP_ANNIHILATOR,Annihilator
 TEXT_TOOLTIP_ANTILLES,La nave del capitano Raymus Antilles, un veterano della Guerra dei Cloni al servizio dei senatori Bail e Leila Organa, è una corvetta corelliana ampiamente modificata.
 TEXT_TOOLTIP_ARC_HAMMER,Una nave-fabbrica mobile comandata dal generale Rom Mohc. Consente di produrre i Soldati Oscuri sul pianeta intorno a cui orbita.
-TEXT_TOOLTIP_ARC_HAMMER_02,
+TEXT_TOOLTIP_ARC_HAMMER_02,Provided to General Rom Mohc for his weapons research, the Arc Hammer is the main production facility for the Dark Trooper Project.  This lightly-armed factory ship has 2 turbolaser batteries, 2 laser cannon batteries, 1 missile launcher, 8 TIE interceptor squadrons, 4 special TIE phantom squadrons, and is equipped with a missile-jamming field.  The Arc Hammer allows the production of Dark Troopers on the planet it orbits.
 TEXT_TOOLTIP_ASSAULT_FRIGATE,Fregata pesante d'assalto armata con 2 batterie turbolaser potenziate e 2 batterie di cannoni laser. Una nave da combattimento avanzata con una notevole potenza di fuoco, ma una scarsa resistenza strutturale.
 TEXT_TOOLTIP_ATAA,Camminatore adatto a qualsiasi tipo di terreno e armato con potenti cannoni di contraerea. Può emettere un campo che disturba il sistema di guida dei missili nemici. Ogni squadra è formata da 3 AT-AA.
 TEXT_TOOLTIP_ATAT,Trasporto corazzato adatto a qualsiasi tipo di terreno, armato con 2 cannoni laser pesanti e una corazza molto resistente che compensa la scarsa velocità di movimento. Può schierare le truppe d'assalto imperiali sul campo di battaglia.
@@ -18130,30 +18130,30 @@ TEXT_TOOLTIP_HEROES_BUTTON,Eroi
 TEXT_TOOLTIP_HOME_ONE,Nave comandata dal comandante Ackbar, un ufficiale ribelle molto abile nel coordinare i movimenti della flotta per ottenere la massima efficienza offensiva. La Home One è armata con 4 batterie turbolaser e 4 batterie di cannoni ionici.
 TEXT_TOOLTIP_HOME_ONE_01,Nave principale dall'ammiraglio Ackbar, un ufficiale ribelle molto abile nel coordinare i movimenti della flotta per ottenere la massima efficienza offensiva. La Home One è armata con 4 batterie turbolaser e 4 batterie di cannoni ionici.
 TEXT_TOOLTIP_HOUNDSTOOTH,La nave da trasporto personale di Bossk.
-TEXT_TOOLTIP_HOUNDSTOOTH_02,
+TEXT_TOOLTIP_HOUNDSTOOTH_02,A slow but powerful fighter, the Hound's Tooth is Bossk's personal transport ship.  Armed with 2 rapid-fire missile batteries, 2 laser cannons, and can be upgraded with a missile jammer from the black market, which repels missiles away from the hull.
 TEXT_TOOLTIP_HUTT_PALACE_SKIRMISH,Consente di produrre unità e potenziamenti per gli Hutt.
 TEXT_TOOLTIP_HYPERV_BUTTON,Apri il fuoco con cannone ipervelocità
 TEXT_TOOLTIP_IG2000,La nave di IG-88 è un'estensione della sua stessa mente cibernetica.
-TEXT_TOOLTIP_IG2000_02,
+TEXT_TOOLTIP_IG2000_02,A light and maneuverable fighter, IG-2000 is a direct extension of IG-88's mind.  Armed with two laser cannons, IG-88 can disrupt enemy ship computers, draining their shields and affecting their accuracy.
 TEXT_TOOLTIP_IG88,Uno spietato cacciatore di taglie con il corpo di un droide e la mente di una IA avanzatissima.
-TEXT_TOOLTIP_INDIG_BOTHAN_CIV,
-TEXT_TOOLTIP_INDIG_ELITE_GUARD,
-TEXT_TOOLTIP_INDIG_EWOK,
-TEXT_TOOLTIP_INDIG_GEONOSIAN,
-TEXT_TOOLTIP_INDIG_GUNGAN,
-TEXT_TOOLTIP_INDIG_HUMAN_CIV,
-TEXT_TOOLTIP_INDIG_HUTT_CIV,
-TEXT_TOOLTIP_INDIG_JAWA,
-TEXT_TOOLTIP_INDIG_MANDALORIAN,
-TEXT_TOOLTIP_INDIG_MONCAL_CIV,
-TEXT_TOOLTIP_INDIG_MUSTAFARIAN,
-TEXT_TOOLTIP_INDIG_PRISONER_CIV,
-TEXT_TOOLTIP_INDIG_PYNGANI,
-TEXT_TOOLTIP_INDIG_SULLUSTAN,
-TEXT_TOOLTIP_INDIG_TUSKEN_RAIDER,
-TEXT_TOOLTIP_INDIG_TWILEK_CIV,
-TEXT_TOOLTIP_INDIG_WOOKIE,
-TEXT_TOOLTIP_INDIG_WOOKIE_UNARMED,
+TEXT_TOOLTIP_INDIG_BOTHAN_CIV,The native inhabitant of Bothawui.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_ELITE_GUARD,The emperor's highly-trained bodyguards, clad in red.  Royal Guards use force pikes, an energy staff that is effective against infantry and land heroes.
+TEXT_TOOLTIP_INDIG_EWOK,The native creature inhabiting Endor's forest moon.  Ewoks hurl stones and rocks at their enemies, which are effective against infantry and structures.
+TEXT_TOOLTIP_INDIG_GEONOSIAN,The winged insect-like inhabitant of Geonosis.  Geonosians use sonic blasters, which are effective against bunkers and light vehicles.
+TEXT_TOOLTIP_INDIG_GUNGAN,The native aquatic inhabitant of Naboo.  Gungans hurl boomas, plasma energy grenades, which are effective against structures and vehicles.
+TEXT_TOOLTIP_INDIG_HUMAN_CIV,The native humans inhabiting this planet.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_HUTT_CIV,The native slug-like inhabitant of Nal Hutta.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_JAWA,One of the inhabitants of Tatooine.  Jawas use ion blasters, which are particularly powerful against shields and vehicles.
+TEXT_TOOLTIP_INDIG_MANDALORIAN,The native inhabitant of Mandalore.  Armed with a rapid-fire blaster rifle, Mandalorians are highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_MONCAL_CIV,One of the native aquatic inhabitants of Mon Calamari.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_MUSTAFARIAN,The native inhabitant of Mustafar.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_PRISONER_CIV,Native to various planets in the galaxy, these prisoners were enslaved by the Empire.  Lightly armed, they are highly motivated to defend their freedom.
+TEXT_TOOLTIP_INDIG_PYNGANI,The native inhabitant of Polus.  The Pyn'gani use carbonite guns, a well-rounded weapon effective against most structures, infantry and light vehicles.
+TEXT_TOOLTIP_INDIG_SULLUSTAN,The native inhabitant of Sullust.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_TUSKEN_RAIDER,One of the inhabitants of Tatooine.  Tusken Raiders use sniper rifles, which are effective against infantry.
+TEXT_TOOLTIP_INDIG_TWILEK_CIV,The native inhabitant of Ryloth.  Lightly armed, but highly motivated to defend their home.
+TEXT_TOOLTIP_INDIG_WOOKIE,The native inhabitant of Kashyyyk.  Wookiee Warriors are equipped with powerful bowcasters, which deal heavy damage to infantry.
+TEXT_TOOLTIP_INDIG_WOOKIE_UNARMED,The native inhabitant of Kashyyyk.  This Warrior is defenseless, and will run when approached.
 TEXT_TOOLTIP_INFILTRATOR,Questo soldato ha ricevuto un addestramento speciale che gli consente di utilizzare un fucile di precisione e di piazzare cariche esplosive.
 TEXT_TOOLTIP_INFO_CREDITS_GAINED,%d crediti guadagnati con la cattura del sistema %s
 TEXT_TOOLTIP_INFO_CREDITS_LOST,%d crediti perduti con la sconfitta nel sistema %s
@@ -18215,9 +18215,9 @@ TEXT_TOOLTIP_PATHFINDER,Le unità posizionate in questo slot entreranno nel camp
 TEXT_TOOLTIP_PAUSE_PLAY,Interrompi/Riprendi la partita
 TEXT_TOOLTIP_PAUSE_PLAY_NAME,Interrompi/Riprendi
 TEXT_TOOLTIP_PEACEBRINGER,La nave ammiraglia di Tyber Zann, dotata di motori potenziati ed equipaggiata con un dispositivo di occultamento.
-TEXT_TOOLTIP_PEACEBRINGER_02,
+TEXT_TOOLTIP_PEACEBRINGER_02,Tyber Zann's flagship is an Aggressor-class Destroyer with enhanced engines, and can be upgraded further with a cloaking generator from the black market.  Armed with 2 turbolaser batteries, both the Merciless' ion and plasma cannons can overcharge for two very powerful blasts.
 TEXT_TOOLTIP_PIETT,Ufficiale della flotta imperiale al comando di uno Star Destroyer con armamenti potenziati.
-TEXT_TOOLTIP_PIETT_02,
+TEXT_TOOLTIP_PIETT_02,A dedicated Imperial Fleet Commander, Captain Firmus Piett grants a 25% combat health bonus to all ships in space combat he participates in.  The Accuser is armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons.  Also equipped with a proton energy weapon for a quick, devastating attack, and a tractor beam for immobilizing smaller ships.
 TEXT_TOOLTIP_PIETT_SD,Incrociatore pesante d'assalto dell'Impero, armato con 4 batterie turbolaser, 2 batterie di cannoni ionici, 10 squadre di caccia TIE e 5 squadre di bombardieri TIE. Inoltre è dotato di un potentissimo cannone protonico e di un raggio traente in grado di immobilizzare le navi di piccole dimensioni.
 TEXT_TOOLTIP_PIRATE,Mercenario Black Sun feroce e spietato. Ogni squadra è formata da 3 brigate di (3 pirati ciascuna).
 TEXT_TOOLTIP_PIRATE_FIGHTER,Caccia pesante armato con cannoni laser e progettato per infliggere più danni possibile senza sacrificare la resistenza dello scafo. Ogni squadra è formata da 5 caccia.
@@ -18276,7 +18276,7 @@ TEXT_TOOLTIP_SABOTEUR,I corruttori ricorrono alla corruzione, all'assassinio e a
 TEXT_TOOLTIP_SCAVENGER_DROID,Questi droidi possono smantellare i veicoli, trasformando i rottami in crediti.
 TEXT_TOOLTIP_SCOUTTROOPER,Soldati imperiali in sella a velocissimi motospeeder. Possono sganciare delle mine esplosive per infliggere gravi danni alle unità di fanteria nemiche. Ogni squadra è formata da 2 esploratori imperiali.
 TEXT_TOOLTIP_SD_ADMONITOR,L'Admonitor è la nave ammiraglia del gran ammiraglio Thrawn.
-TEXT_TOOLTIP_SD_ADMONITOR_02,
+TEXT_TOOLTIP_SD_ADMONITOR_02,The only non-human to ever earn the title of Grand Admiral, Thrawn is a master strategist and tactician.  With the Admonitor as his flagship, Thrawn grants minor bonuses to damage, defense and speed to all ships in space combat he participates in.  Armed with 4 turbolaser batteries, 2 ion cannon batteries, 10 TIE interceptor squadrons and 5 TIE bomber squadrons, the Admonitor can overcharge its batteries and rapidly assault any target in range.  Also carries a tractor beam for immobilizing smaller ships.
 TEXT_TOOLTIP_SELL_STRUCTURE,Vendi la struttura
 TEXT_TOOLTIP_SENSOR_NODE,Un sensore molto potente in grado di rivelare una vasta area coperta dalla nebbia di guerra.
 TEXT_TOOLTIP_SENSOR_SCRAMBLER,Questo dispositivo interferisce con i sensori del nemico, riducendone il raggio visivo, e con il sistema di guida dei missili.
