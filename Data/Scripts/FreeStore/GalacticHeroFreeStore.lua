@@ -73,10 +73,13 @@ function Definitions()
 		,SUNDERED_HEART = {nil, true}
 
 		,BOSSK_TEAM = {nil, true}
+		,HOUNDSTOOTH = {nil, true}
 		,IG88_TEAM = {nil, true}
+		,IG-2000 = {nil, true}
 		,SILRI_TEAM = {nil, false}
 		,URAI_FEN_TEAM = {nil, false}
 		,TYBER_ZANN_TEAM = {nil, true}
+		,THE_PEACEBRINGER = {nil, true}
 	}
 
 end
