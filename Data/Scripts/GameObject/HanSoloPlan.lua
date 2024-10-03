@@ -56,8 +56,8 @@ function Definitions()
 		"Darth_Team", "Darth_Team_Executor", "Boba_Fett_Team" 				-- Stay away from these types.
 	}
 	Attack_Ability_Weights = {
-		10,   				-- attack type weights.
-		BAD_WEIGHT, BAD_WEIGHT   				-- feared type weights.
+		10, 10,   				-- attack type weights.
+		BAD_WEIGHT, BAD_WEIGHT, BAD_WEIGHT   				-- feared type weights.
 	}
 	Attack_Ability_Types = WeightedTypeList.Create()
 	Attack_Ability_Types.Parse(Attack_Ability_Type_Names, Attack_Ability_Weights)
