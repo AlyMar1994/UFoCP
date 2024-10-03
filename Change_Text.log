@@ -19,6 +19,10 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+This file lists all changes in both the English and International master text directories.
+I'll probably need a better formatting system for this in the future - but currently, all
+text changes are stored here.
+
 Unofficial fixes are noted below with a bullet (•).  Bugfixes by Petroglyph will be noted
 in the subsequent hotfix's changelog; changes made by the Unofficial Patch will be removed
 in tandem and mentioned in the next update.
@@ -44,7 +48,7 @@ v2.0.0.#### (##-##-2024) [FoC v1.121.]
 ============================================
 
 Additions:
-• UFoCP now "supports" all language text currently available for FoC (standard supported langauges: English, French, German, Italian, Polish, Russian and Spanish).  Only English and German has translated text for now, other languages have English text ported to the respective language so the text doesn't appear missing.  Japanese isn't supported because that is EaW only; fan patches currently aren't supported (Czech-Slovak).
+• UFoCP now "supports" all standard language texts currently available for FoC (standard langauges: English, French, German, Italian, Spaniard Spanish, and digitally-patched Polish and Russian).  Only English and German has translated text for now, other languages have English text ported to their respective language so the text doesn't appear missing.  Japanese isn't supported because that is EaW only; fan patches currently aren't supported (Chinese, Czech-Slovak).
 • All indigenous units (and their Consortium Slave counterparts) didn't have customized descriptions like all other units in the game. (BUG #224)
 	- In addition, the Noghri had their description changed (TEXT_TOOLTIP_NOGHRI_ASSASSIN):
 		- ENG: ...They are fierce warriors and assassins. -> ...They are fierce warriors and assassins equipped with disruptor cannons, which are highly effective against everything except shields.
@@ -61,9 +65,12 @@ Additions:
 
 
 Housekeeping:
-• Despite the vast majority of dialogue being double-spaced in EaW (and partially in FoC), dialogue during the Consortium's prologue and campaign wouldn't be.  Double-spacing has been rectified, and remains unmarked in this file to avoid conflicts with changes on the same text keys. (The German translation did not suffer this issue, as all dialogue is single-spaced.) (BUG #208).
-• Various texts across EaW and FoC would inconsistently use a special "…" (elipsis) character, or "..." (three periods).  The ellipses character is harder to read at high resolutions, and back-and-forth use of ellipses and periods caused spacing issues (f.e. as "to the Empire… .").  All ellipses have been swapped out for three periods and remains unmarked in this file to avoid conflicts with changes on the same text keys. (The German translation did not suffer this issue, as three periods are always used.) (BUG #211)
+• Despite the vast majority of dialogue being double-spaced in EaW (and partially in FoC), dialogue during the Consortium's prologue and campaign wouldn't be.  Double-spacing has been rectified, and remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as all dialogue is single-spaced.) (BUG #208).
+• Various texts across EaW and FoC would inconsistently use a special "…" (elipsis) character, or "..." (three periods).  The ellipses character is harder to read at high resolutions, and back-and-forth use of ellipses and periods caused spacing issues (f.e. as "to the Empire… .").  All ellipses have been swapped out for three periods and remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as three periods are always used.) (BUG #211)
 • English localization infrequently referred to the Keldabe-class Battleship as the "Kedalbe," an old spelling from '80s Star Wars material, and German localization almost completely used that spelling.  All instances of "Kedalbe" have been swapped out for "Keldabe," and left unmarked to not clog the changelog. (BUG #236)
+
+
+International:
 • German localization (completely) used an incorrect spelling for "Exekutor," using the English word instead.  In addition, the Hound's Tooth wasn't "Reißzahn," the Merciless as "Gnadenlos" nor the Accuser as "Ankläger," and more.  All instances have been swapped for their official German cognate from Jedipedia, and left unmarked to not clog the changelog.
 
 
