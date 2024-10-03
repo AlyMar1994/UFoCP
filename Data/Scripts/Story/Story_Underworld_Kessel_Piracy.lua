@@ -95,7 +95,7 @@ function State_Kessel_Piracy_Mission_Begin(message)
 			end
 		end
 
-		ig88 = Find_First_Object("IG-2000")
+		ig88 = Find_First_Object("IG2000")
 		Point_Camera_At(ig88)
 		Start_Cinematic_Camera()
 		End_Cinematic_Camera()
@@ -136,7 +136,7 @@ end
 
 function Story_Mode_Service()
 	if mission_started then
-		ig88 = Find_First_Object("IG-2000")
+		ig88 = Find_First_Object("IG2000")
 
 		if not TestValid(ig88) then
 			Story_Event("FAIL_OBJECTIVE_00")
@@ -315,7 +315,7 @@ function Intro_Cinematic ()
 	Letter_Box_In(0)
 	Fade_Screen_In(2)
 
-	ig88 = Find_First_Object("IG-2000")
+	ig88 = Find_First_Object("IG2000")
 
 	Transition_Cinematic_Camera_Key(ig88, 0, 175, 25, 45, 1, 1, 1, 0)
 	Transition_Cinematic_Target_Key(ig88, 0, 0, 0, 7, 0, ig88, 0, 0)

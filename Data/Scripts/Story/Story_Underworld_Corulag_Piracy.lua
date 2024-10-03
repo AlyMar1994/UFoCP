@@ -80,7 +80,7 @@ end
 
 function Story_Mode_Service()
 	if mission_started then
-		ig2000 = Find_First_Object("IG-2000")
+		ig2000 = Find_First_Object("IG2000")
 
 		if not TestValid(ig2000) then
 			Story_Event("FAIL_OBJECTIVE_00")
@@ -196,7 +196,7 @@ function Intro_Cinematic ()
 	Letter_Box_In(0)
 	Fade_Screen_In(2)
 
-	ig2000 = Find_First_Object("IG-2000")
+	ig2000 = Find_First_Object("IG2000")
 
 	Transition_Cinematic_Camera_Key(ig2000, 0, 750, 25, 45, 1, 1, 1, 0)
 	Transition_Cinematic_Target_Key(ig2000, 0, 0, 0, 7, 0, ig2000, 0, 0)

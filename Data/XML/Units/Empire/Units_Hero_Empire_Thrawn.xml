@@ -303,7 +303,7 @@
 			<Tractor_Beam_Attack_Ability Name="Admonitor_Tractor_Beam_Attack_Ability">
 				<Activation_Style> User_Input </Activation_Style>
 				<Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-	            <Applicable_Unit_Types>Millennium_Falcon, Houndstooth, IG-2000</Applicable_Unit_Types>
+	            <Applicable_Unit_Types>Millennium_Falcon, Houndstooth, IG2000</Applicable_Unit_Types>
 				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
 				<Activation_Min_Range>0</Activation_Min_Range>
 	            <Activation_Max_Range>800</Activation_Max_Range>

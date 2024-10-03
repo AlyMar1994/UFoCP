@@ -57,7 +57,7 @@ function Definitions()
 
 	ig2000_spawnlist =
 	{
-		"IG-2000"
+		"IG2000"
 	}
 end
 

@@ -249,7 +249,7 @@
 
 
 
-	<UniqueUnit Name="IG-2000">
+	<UniqueUnit Name="IG2000">
 		<Text_ID>TEXT_UNIT_IG2000</Text_ID>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Encyclopedia_Good_Against> X-wing Y-Wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>
@@ -413,7 +413,7 @@
 
 
 	<UniqueUnit Name="IG2000_Landing">
-		<Variant_Of_Existing_Type>IG-2000</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>IG2000</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
 		<Scale_Factor>4.0</Scale_Factor>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
@@ -427,7 +427,7 @@
 
 
 	<UniqueUnit Name="IG2000_Ground_Prop">
-		<Variant_Of_Existing_Type>IG-2000</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>IG2000</Variant_Of_Existing_Type>
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<Scale_Factor>3</Scale_Factor>
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
@@ -461,7 +461,7 @@
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
 		<Always_Spawn_In_Orbit>NO</Always_Spawn_In_Orbit>
-		<Company_Transport_Unit>IG-2000</Company_Transport_Unit>
+		<Company_Transport_Unit>IG2000</Company_Transport_Unit>
 
 		<Company_Units>IG-88</Company_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -500,7 +500,7 @@
 	</HeroCompany>
 
 
-	<!-- AM1994: Disabling for Object-Contest bug: prefer IG-2000_MP -->
+	<!-- AM1994: Disabling for Object-Contest bug: prefer IG2000_MP -->
 	<HeroCompany Name="IG88_Team_Space_MP">
 		<Variant_Of_Existing_Type>IG88_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_IG2000</Text_ID>
@@ -517,8 +517,8 @@
 		<Is_Stealth_Company>No</Is_Stealth_Company>
 	</HeroCompany>
 
-	<UniqueUnit Name="IG-2000_MP">
-		<Variant_Of_Existing_Type>IG-2000</Variant_Of_Existing_Type>
+	<UniqueUnit Name="IG2000_MP">
+		<Variant_Of_Existing_Type>IG2000</Variant_Of_Existing_Type>
 
 		<Tactical_Build_Cost_Multiplayer>1700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
