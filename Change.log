@@ -66,7 +66,7 @@ Ability Fixes:
 • "Urai_Block_Lightsaber" for Urai Fen's cortosis blades didn't have a chance to deflect the campaign Force Adepts' lightsabers. (BUG #80)
 • "Urai_Block_Lightsaber" for Urai Fen's cortosis blades didn't have a chance to deflect Silri's lightsaber whip during Skirmish mirror-matches. (BUG #81)
 • "Urai_Block_Lightsaber" for Urai Fen's cortosis blades didn't have a chance to deflect Darth Vader's lightsaber in FoC land combat. (BUG #30)
-• Tyber Zann was a stealth-capable unit in Galactic Conquest despite having a devastating capital ship, even when cloaking technology upgrade wasn't purchased yet.  His stealth ability has been removed for balance, like Aggressor-classes and other heroes, but is still a stealth unit during the Consortium's campaign and prologue. (BUG #154)
+• Tyber Zann was a stealth-capable unit in Galactic Conquest despite having a devastating capital ship, even when cloaking technology upgrade wasn't purchased yet.  His stealth ability has been removed entirely for balance, like other heroes with capital ships, but is still a stealth unit during the Consortium's campaign and prologue. (BUG #154)
 
 
 AI Fixes:
@@ -105,7 +105,7 @@ Audio Fixes:
 • Thrawn's callout for removing corruption would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
 • Thrawn's callout for appearing on the battlefield wouldn't play for any faction because the reference was looking for the unused "Grand_Admiral_Thrawn" unit and not "Admonitor_Star_Destroyer." (BUG #24)
 • Darth Vader's callouts for appearing on the battlefield would play sporatically, as some of the checks wouldn't look for his FoC land unit, only his EaW one. (BUG #29)
-• Tyber Zann's callout for appearing in space battles was awkward as the Underworld announcer claimed "Tyber Zann has landed!"  This callout has been removed. (BUG #59)
+• Tyber Zann's callout for appearing in space battles was awkward because the Underworld announcer claimed "Tyber Zann has landed!"  In space.  This callout has been removed. (BUG #59)
 • Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
 • Consortium turbolaser towers would use the Rebels' VO when built instead of their faction's VO. (BUG #42)
 • Consortium Piracy reward ships used their faction-oriented VO when bought and finished construction instead of using Consortium VO. (BUG #50)
@@ -195,7 +195,7 @@ Model Fixes:
 
 Script/Story Fixes:
 • Consortium Campaign #6 ("Cloud City Conflict") would spawn the EaW version of Darth Vader instead of the FoC version with the Executor. (BUG #27)
-• Consortium Campaign #6 ("Cloud City Conflict") had an exploit where Grenadiers could leave Proximity Mines where Vader and the Stormtrooper meet.  The Stormtrooper would explode and Vader would then walk around destroying mines in the ending cutscene, while funny, would break the sequence. (BUG #131)
+• Consortium Campaign #6 ("Cloud City Conflict") had an exploit where Grenadiers could leave Proximity Mines where Vader and the Stormtrooper meet.  The Stormtrooper would explode and Vader would then walk around destroying mines in the ending cutscene.  While funny, it would break the sequence. (BUG #131)
 • Consortium Campaign #8 ("Baiting the Hook") didn't set any flags to prevent the player or Empire from retreating, leading to sequence breaks or softlocks. (BUG #56)
 • "Destroy the Death Star" prerequisites for GC wouldn't work because the Empire's faction entry wasn't looking for the Death Star II. (BUG #33)
 • Land Bothawui's intimidation mission had guards that lacked the "pointguard" scripting hint, or had it misspelled to "pointguards," meaning the mission script wouldn't function as intended. (BUG #219)
