@@ -1791,7 +1791,7 @@
 
 
 	<HardPoint Name="HP_KRAYT_MEGAWEAPON_ION">
-		<Type> HARD_POINT_WEAPON_SPECIAL </Type>
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_SPECIAL</Tooltip_Text>

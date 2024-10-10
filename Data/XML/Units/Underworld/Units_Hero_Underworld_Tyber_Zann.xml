@@ -659,9 +659,12 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Tyber_Zann_Space </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Tyber_Zann_Space </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Tyber_Zann_Space </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Tyber_Zann_Space </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_BAY_Tyber_Zann_Space </SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Tyber_Zann_Space </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Tyber_Zann_Space</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, Unit_Lost_Megaweapon_Tyber_Zann_Space</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Tyber_Zann_Space </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Tyber_Zann_Space </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
@@ -697,6 +700,7 @@
              <Recharge_Seconds>90.0</Recharge_Seconds>
              <GUI_Activated_Ability_Name> Peacebringer_Blast </GUI_Activated_Ability_Name>
              <SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
+             <SFXEvent_GUI_Unit_Ability_Activated>Unit_Blast_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
          </Unit_Ability>
 
          <Unit_Ability>
@@ -707,7 +711,7 @@
              <Recharge_Seconds>10.0</Recharge_Seconds>
              <Expiration_Seconds>180.0</Expiration_Seconds>
              <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-             <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann</SFXEvent_GUI_Unit_Ability_Activated>
+             <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cloak_Tyber_Zann_Space</SFXEvent_GUI_Unit_Ability_Activated>
          </Unit_Ability>
 
 		</Unit_Abilities_Data>
