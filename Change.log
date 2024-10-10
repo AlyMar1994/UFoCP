@@ -87,7 +87,7 @@ AI Fixes:
 • AI plans wouldn't factor in Consortium mobile artillery (MALs), nor any faction's missile defense satellites as artillery to avoid when attacking; they also weren't apart of the artillery infrastructure list to specifically target. (BUG #160)
 • The AI's budgeting wouldn't factor in the Consortium's Repulsorlift Jammer as it wasn't apart of their defensive structure list. (BUG #118)
 • The Master Force Adept (the Teleporter) in Consortium campaign mission #9 "Raiders of the Lost Holocron" couldn't properly target the player because it referenced a non-existent variable, instead attacking any hostile entity in the area. (BUG #126)
-• The Galactic AI had a misspelled variable that prevented reconsidering unit positions every eight seconds as intended; unit movement is no longer irregularly serviced (or not at all). (BUG #130)
+• The Galactic AI had a misspelled variable that prevented reconsidering unit positions every eight seconds as intended; unit movement is no longer irregularly serviced. (BUG #130)
 • The Galactic AI didn't include Tyber Zann as a possible leader_object for its service to attack planets or find targets. (BUG #140)
 • The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include the Sundered Heart. (BUG #162)
 • The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include Garm Bel Iblis. (BUG #203)
@@ -104,6 +104,7 @@ AI Fixes:
 Audio Fixes:
 • Thrawn's callout for removing corruption would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
 • Thrawn's callout for appearing on the battlefield wouldn't play for any faction because the reference was looking for the unused "Grand_Admiral_Thrawn" unit and not "Admonitor_Star_Destroyer." (BUG #24)
+• Thrawn's VO for moving into asteroids, nebulas, responding to the player's commands to attack hardpoints, and his VO upon activating his "ASSAULT" ability wasn't implemented wholely, and instead used generic Star Destroyer VO. (BUG #258)
 • Darth Vader's callouts for appearing on the battlefield would play sporatically, as some of the checks wouldn't look for his FoC land unit, only his EaW one. (BUG #29)
 • Tyber Zann's callout for appearing in space battles was awkward because the Underworld announcer claimed "Tyber Zann has landed!"  In space.  This callout has been removed. (BUG #59)
 • Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
@@ -138,7 +139,7 @@ Interface Fixes:
 • Rebel Field Commanders' GC tooltip didn't indicate if the unit could capture build pads. (BUG #110)
 • Imperial Field Commanders' GC tooltip didn't indicate if the unit could capture build pads. (BUG #111)
 • Imperial Force Adepts' tooltip didn't indicate if the unit could capture build pads. (BUG #112)
-• The Governor's Quarters from Consortium campaign mission #5 "Dark Ally" didn't use its unique tooltip icon despite having one in the interface GFX library, instead using the Imperial Prison icon. (BUG #54)
+• The Governor's Quarters from Consortium campaign mission #5 "A Dark Ally" didn't use its unique tooltip icon despite having one in the interface GFX library, instead using the Imperial Prison icon. (BUG #54)
 • Guard Towers from the campaign didn't use a tooltip icon despite having one in the interface GFX library. (BUG #55)
 • Reinforcement Points didn't use a tooltip icon despite having one in the interface GFX library. (BUG #141)
 • Shaaks didn't use a tooltip icon despite having one in the interface GFX library. (BUG #90)
@@ -153,7 +154,7 @@ Interface Fixes:
 • Keldabe-class Battleships didn't have the tooltip noting that it can be only built on special planets, like Star Destroyers and Mon Calamari Cruisers. (BUG #143)
 • Keldabe-class Battleships, Aggressor-class Star Destroyers, Vengeance Frigates and Interceptor IV Frigates didn't use 1x2 icon tiles like all other ships of their types in the Galactic fleet management window. (BUG #175)
 • Interceptor 4 Frigates used the Black Sun rusted pirate frigate icon instead of an icon with the new silver-bodied frigate. (BUG #206)
-• Pirate Soldier Mobs used in Consortium campaign mission #5 "Dark Ally" had their tooltip description set as their unit class, and their unit container didn't have a description at all. (BUG #171)
+• Pirate Soldier Mobs used in Consortium campaign mission #5 "A Dark Ally" had their tooltip description set as their unit class, and their unit container didn't have a description at all. (BUG #171)
 • Jabba's Criminal Empire in the campaign wouldn't display their faction icon on a planet's info window despite having one in the GFX library. (BUG #232)
 • Consortium capital ships didn't have a unique radar icon like the Rebels' (oval/circle) or the Empire's (triangle) capital ships.  They now use a rectangle based off both ships' forward hull. (BUG #180)
 • The Consortium used the Black Sun Pirates' faction icon in their economy ledger. (BUG #228)
@@ -207,6 +208,14 @@ Structure Fixes:
 • The Pirate Asteroid Base's hardpoints didn't have damage multipliers against units because its multiplier variables were misspelled, respectively, as "Damage_Sation_Laser" and "Damage_Sation_Turbolaser" instead of "Station." (BUG #119)
 • The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC; from station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> U/A --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
 • The Skirmish Repulsorlift Jammer had various issues: it still used the Empire version of its icon, model, and was affiliated with the Empire when under construction. (BUG #159)
+
+
+Texture Fixes:
+• All map previews (except MP Space Bespin) have been compressed to save space and processing time, cutting filesizes in half (128kb vs. 256kb).  All previews also were completely redone due to incomplete or inconsistent material, or low-quality patch material.  Changes include: (BUG #253)
+•• Many previews (both original and patched, mainly land previews) failed to follow EaW/FoC's established art style (shaded borders, processed water, shaded out-of-bounds).
+•• Consortium Campaign previews not including some scripted units or structures on the map.
+•• MP Space Bespin displayed an incorrect map entirely.
+•• Aeten II, Aeten II's Piracy mission, MP Space Shola, SP Space Shola and Sullust used Desert planet GFX instead of a volcanic planet.
 
 
 Unit Fixes:

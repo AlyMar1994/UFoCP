@@ -220,6 +220,8 @@
 
 		<SFXEvent_Select>Unit_Select_Thrawn</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Thrawn</SFXEvent_Move>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Thrawn </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Thrawn </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Thrawn</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Thrawn</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Thrawn</SFXEvent_Guard>
@@ -228,6 +230,15 @@
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
         <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Thrawn </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Thrawn </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Thrawn </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Thrawn </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Thrawn </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Thrawn </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Thrawn </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_BAY_Thrawn </SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Thrawn </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
@@ -272,6 +283,7 @@
                 <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_NAME</Alternate_Name_Text>
                 <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION</Alternate_Description_Text>
                 <Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Thrawn</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 
             <Unit_Ability>
