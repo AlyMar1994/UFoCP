@@ -78,6 +78,8 @@
 		<SFXEvent_Select>Unit_Select_Silri</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Silri</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Silri</SFXEvent_Fleet_Move>
+		<SFXEvent_Group_Move>Unit_Group_Move_Silri</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Group_Attack_Silri</SFXEvent_Group_Attack>
 		<SFXEvent_Attack>Unit_Attack_Silri</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Silri</SFXEvent_Guard>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Silri </SFXEvent_Health_Low_Warning>
@@ -214,7 +216,7 @@
                 <Drain_Source_Bone_Name>B_HAND_L</Drain_Source_Bone_Name>
                 <Drain_Target_Bone_Name>B_PELVIS</Drain_Target_Bone_Name>
                 <Drain_Radius> 100.0 </Drain_Radius>
-                <SFXEvent_Activate>Unit_Taunt_Silri</SFXEvent_Activate>
+                <SFXEvent_Activate>Unit_Drain_Life_Silri</SFXEvent_Activate>
                 <SFXEvent_Target_Affected>Unit_Force_Lightning</SFXEvent_Target_Affected>
                 <Should_Heal>Yes</Should_Heal>
             </Drain_Life_Ability>
