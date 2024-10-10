@@ -1268,6 +1268,22 @@
 				<Overlap_Test> Unit_Urai_Fen </Overlap_Test>
 			</SFXEvent>
 
+			<SFXEvent Name="Unit_Health_Low_Urai_Fen">
+			  <Use_Preset>Preset_UR</Use_Preset>
+			  <Samples> U000_URA1801_ENG.wav U000_URA1802_ENG.wav U000_URA1803_ENG.wav U000_URA1804_ENG.wav U000_URA1805_ENG.wav </Samples>
+			  <Localize> Yes </Localize>
+			  <Text_ID> TEXT_SFX_URA_HEALTH_LOW_1, TEXT_SFX_URA_HEALTH_LOW_2, TEXT_SFX_URA_HEALTH_LOW_3, TEXT_SFX_URA_HEALTH_LOW_4, TEXT_SFX_URA_HEALTH_LOW_5</Text_ID>
+			  <Overlap_Test> Unit_Urai_Fen </Overlap_Test>
+			</SFXEvent>
+
+			<SFXEvent Name="Unit_Health_Critical_Urai_Fen">
+			  <Use_Preset>Preset_UR</Use_Preset>
+			  <Samples> U000_URA1901_ENG.wav U000_URA1902_ENG.wav U000_URA1903_ENG.wav U000_URA1904_ENG.wav U000_URA1905_ENG.wav </Samples>
+			  <Localize> Yes </Localize>
+			  <Text_ID> TEXT_SFX_URA_HEALTH_CRITICAL_1, TEXT_SFX_URA_HEALTH_CRITICAL_2, TEXT_SFX_URA_HEALTH_CRITICAL_3, TEXT_SFX_URA_HEALTH_CRITICAL_4, TEXT_SFX_URA_HEALTH_CRITICAL_5</Text_ID>
+			  <Overlap_Test> Unit_Urai_Fen </Overlap_Test>
+			</SFXEvent>
+
 			<SFXEvent Name="Unit_Defeat_Urai_Fen">
 				<Use_Preset>Preset_UR</Use_Preset>
 				<Samples>U000_URA1001_ENG.wav U000_URA1002_ENG.wav</Samples>

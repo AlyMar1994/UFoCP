@@ -81,8 +81,8 @@
 		<SFXEvent_Group_Move>Unit_Group_Move_Urai_Fen</SFXEvent_Group_Move>
 		<SFXEvent_Group_Attack>Unit_Group_Attack_Urai_Fen</SFXEvent_Group_Attack>
 		<Death_SFXEvent_Start_Die> Unit_Defeat_Urai_Fen</Death_SFXEvent_Start_Die>
- <!--  	<SFXEvent_Health_Low_Warning> Unit_Health_Low_Urai_Fen </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Urai_Fen </SFXEvent_Health_Critical_Warning>    -->
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Urai_Fen </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Urai_Fen </SFXEvent_Health_Critical_Warning>
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
 		<CategoryMask> LandHero | SpaceHero </CategoryMask>
@@ -134,7 +134,7 @@
                 <GUI_Activated_Ability_Name> Urai_Stun </GUI_Activated_Ability_Name>
                 <Effective_Radius> 500.0 </Effective_Radius>
                 <Spawned_Object_Type> Stun_Ability_Particles </Spawned_Object_Type>
-				<SFXEvent_Target_Ability> Unit_Stun_Urai_Fen </SFXEvent_Target_Ability>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Stun_Urai_Fen</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
             </Unit_Ability>
 
