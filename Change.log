@@ -109,6 +109,8 @@ Audio Fixes:
 • Tyber Zann's callout for appearing in space battles was awkward because the Underworld announcer claimed "Tyber Zann has landed!"  In space.  This callout has been removed. (BUG #59)
 • Tyber Zann was missing a great wealth of VO overall: attacking hanger bays and gravity wells, various movement and attack VO, VO for losing the plasma and ion cannons on his flagship, VO for overcharging his plasma cannon, and other missing VO for his abilities.  While some of these lines are duplicates, they have different cadences and add some fresh air to Zann's VO. (BUG #259)
 • Urai Fen had a chance to use strange VO when guarding an area.  Either an older actor, or practice audio, it was voice-modulated but sounded completely different than Urai's other VO files.  The lines have been swapped out with the finished retake in the game's files, but was left unused on launch. (BUG #261)
+• Urai Fen was missing a lot of VO: VO for the Stun ability wasn't implemented properly, and his low health and critical health callouts weren't implemented at all. (BUG #262)
+• Silri was missing VO regarding her Drain Life ability, and attacking/moving with groups of units due to not being implemented properly. (BUG #263)
 • Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
 • Consortium turbolaser towers would use the Rebels' VO when built instead of their faction's VO. (BUG #42)
 • Consortium Piracy reward ships used their faction-oriented VO when bought and finished construction instead of using Consortium VO. (BUG #50)
