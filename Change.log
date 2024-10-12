@@ -198,6 +198,7 @@ Model Fixes:
 • TIE defenders didn't have a particle glow for their engines. (BUG #87)
 • The Venator-class Cruiser's shielding ability didn't cover the whole ship as the shield model didn't cover large segments of the ship's model, and the ship had incorrect shader assignments.  This was rectified in patch 1.121.826596 for EaW only. (Thanks EaWX-Rhino!) (BUG #137)
 • Rebel and Consortium turbolaser towers would use green muzzle flashes despite using red lasers due to reusing the Empire's turbolaser tower model.  A new one has been provided with corrected colors (Thanks theshyshallot!) (BUG #43)
+• Consortium swamp speeders would use Black Sun Pirate infantry in its cockpit.  They've now been swapped out for Grenadiers. (Thanks theshyshallot!) (BUG #233)
 
 
 Script/Story Fixes:
