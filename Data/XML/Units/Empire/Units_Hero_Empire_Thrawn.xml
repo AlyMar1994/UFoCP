@@ -229,6 +229,7 @@
 		<SFXEvent_Health_Critical_Warning>Unit_Defeat_Thrawn</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
         <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Thrawn </SFXEvent_Attack_Hardpoint>
