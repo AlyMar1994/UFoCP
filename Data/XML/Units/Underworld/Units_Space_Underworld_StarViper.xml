@@ -32,7 +32,7 @@
 		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
-		
+
 		<Affiliation>Underworld</Affiliation>
 		<Shield_Points>40</Shield_Points>
 		<Tactical_Health>60</Tactical_Health>
@@ -42,11 +42,11 @@
 		<Energy_Capacity>9999</Energy_Capacity>
 		<Energy_Refresh_Rate>180</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
-		
+
 		<Armor_Type> Armor_Fighter </Armor_Type>
         <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
         <Damage_Type>Damage_Fighter</Damage_Type>
-		
+
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Squadron_Capacity>0</Squadron_Capacity>
@@ -111,7 +111,7 @@
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Hover_Offset>30.0</Hover_Offset>
-		
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius>
 		<FormationOrder>1</FormationOrder>
@@ -128,7 +128,7 @@
 		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-		
+
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
 
@@ -137,7 +137,7 @@
 
             <Unit_Ability>
                 <Type>BUZZ_DROIDS</Type>
-                <GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
                 <Recharge_Seconds>60</Recharge_Seconds>
                 <SFXEvent_Target_Ability> Unit_Buzz_Droids_Star_Viper </SFXEvent_Target_Ability>
@@ -146,7 +146,7 @@
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
-		
+
 		<Abilities SubObjectList="Yes">
 			<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L1">
 				<Initially_Enabled> No </Initially_Enabled>		<!-- Must be enabled via the EL_Heavy_Reflective_Armor_L1_Upgrade -->
@@ -162,7 +162,7 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-			
+
 			<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L2">
 				<Initially_Enabled> No </Initially_Enabled>		<!-- Must be enabled via the EL_Heavy_Reflective_Armor_L2_Upgrade -->
 				<Activation_Style>Take_Damage</Activation_Style>
@@ -177,7 +177,7 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
-			
+
 			<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L3">
 				<Initially_Enabled> No </Initially_Enabled>		<!-- Must be enabled via the EL_Heavy_Reflective_Armor_L2_Upgrade -->
 				<Activation_Style>Take_Damage</Activation_Style>
@@ -235,7 +235,7 @@
 		<Encyclopedia_Good_Against> TIE_Interceptor_Squadron X-wing </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_uv_starviper.tga</Icon_Name>
-		
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -265,7 +265,7 @@
 		<Squadron_Offsets>0.0,-20.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-45.0,45.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-45.0,-45.0,0.0</Squadron_Offsets>
-		
+
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Star_Viper</SFXEvent_Build_Complete>
@@ -277,19 +277,19 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
-		
+
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 900</Score_Cost_Credits>
 
 		<Create_Team_Type> StarViper_Team </Create_Team_Type>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>675</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
       <!-- Adding purely so the galactic encyclopedia entry will show this ability -->
@@ -297,14 +297,14 @@
 
             <Unit_Ability>
                 <Type>BUZZ_DROIDS</Type>
-                <GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name>
                 <Recharge_Seconds>60</Recharge_Seconds>
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Buzz_Droids_Star_Viper</SFXEvent_GUI_Unit_Ability_Activated>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
 
 		</Unit_Abilities_Data>
-		
+
 	</Squadron>
 
 
@@ -321,7 +321,7 @@
 		<Encyclopedia_Good_Against> TIE_Interceptor_Squadron X-wing </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_uv_starviper.tga</Icon_Name>
-		
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -344,7 +344,7 @@
 		<Cheap_Bribe_Cost>10</Cheap_Bribe_Cost>
 		<Expensive_Bribe_Cost>20</Expensive_Bribe_Cost>
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
-        
+
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Y_Wing</SFXEvent_Build_Complete>
@@ -357,10 +357,10 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
-		
+
 		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		
+
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 900</Score_Cost_Credits>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
@@ -376,7 +376,7 @@
 
             <Unit_Ability>
                 <Type>BUZZ_DROIDS</Type>
-                <GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
                 <SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
@@ -409,7 +409,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 	</Container>
