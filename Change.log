@@ -101,15 +101,16 @@ AI Fixes:
 
 
 Audio Fixes:
+• Darth Vader's callouts for appearing on the battlefield would play sporatically, as some of the checks wouldn't look for his FoC land unit, only his EaW one. (BUG #29)
 • Thrawn's callout for removing corruption would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
 • Thrawn's callout for appearing on the battlefield wouldn't play for any faction because the reference was looking for the unused "Grand_Admiral_Thrawn" unit and not "Admonitor_Star_Destroyer." (BUG #24)
-• Thrawn's VO for moving into asteroids, nebulas, responding to the player's commands to attack hardpoints, and his VO upon activating his Assault ability wasn't implemented wholely, and instead used generic Star Destroyer VO. (BUG #258)
-• Darth Vader's callouts for appearing on the battlefield would play sporatically, as some of the checks wouldn't look for his FoC land unit, only his EaW one. (BUG #29)
+• Thrawn's VO for moving into asteroids, nebulas, responding to the player's commands to attack hardpoints and his VO for activating his Assault ability wasn't implemented at all, and instead used generic Star Destroyer VO. (BUG #258)
+• Rom Mohc's VO for attacking Gravity Well Generators, using his Missile Shield ability or losing his missile launchers went unused as the proper SFX wasn't implemented at all. (BUG #264)
 • Tyber Zann's callout for appearing in space battles was awkward because the Underworld announcer claimed "Tyber Zann has landed!"  In space.  This callout has been removed. (BUG #59)
 • Tyber Zann was missing a great wealth of VO overall: attacking hanger bays and gravity wells, various movement and attack VO, VO for losing the plasma and ion cannons on his flagship, VO for overcharging his plasma cannon, and other missing VO for his abilities.  While some of these lines are duplicates, they have different cadences and add some fresh air to Zann's VO. (BUG #259)
-• Urai Fen had a chance to use strange VO when guarding an area.  Either an older actor, or practice audio, it was voice-modulated but sounded completely different than Urai's other VO files.  The lines have been swapped out with the finished retake in the game's files, but was left unused on launch. (BUG #261)
-• Urai Fen was missing a lot of VO: VO for the Stun ability wasn't implemented properly, and his low health and critical health callouts weren't implemented at all. (BUG #262)
-• Silri was missing VO regarding her Drain Life ability, and attacking/moving with groups of units due to not being implemented properly. (BUG #263)
+• Urai Fen had a chance to use strange VO when guarding an area.  It was either an older actor, or practice audio, and was voice-modulated but sounded completely different than Urai's other lines.  The lines have been swapped out with the finished retake, but was left unused in the files. (BUG #261)
+• Urai Fen was missing a lot of VO: 3 VO files were improperly implemented for the Stun ability, and over 10 VO files for low health and critical health callouts weren't implemented at all. (BUG #262)
+• Silri's VO lacked 4 VO file references for her Drain Life ability, and VO for attacking/moving with groups of units wasn't implemented at all. (BUG #263)
 • Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
 • Consortium turbolaser towers would use the Rebels' VO when built instead of their faction's VO. (BUG #42)
 • Consortium Piracy reward ships used their faction-oriented VO when bought and finished construction instead of using Consortium VO. (BUG #50)

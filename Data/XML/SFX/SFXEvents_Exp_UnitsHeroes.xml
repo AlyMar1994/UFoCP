@@ -2185,6 +2185,24 @@
 								 <Overlap_Test> Unit_Arc_Hammer </Overlap_Test>
 					  </SFXEvent>
 
+					 <SFXEvent Name="Unit_Lost_Missile_Arc_Hammer">
+							 <Use_Preset>Preset_UR</Use_Preset>
+							 <Samples> U000_ARC3301_ENG.wav U000_ARC3302_ENG.wav</Samples>
+								 <Localize> Yes </Localize>
+								 <Play_Sequentially> Yes </Play_Sequentially>
+								 <Text_ID> TEXT_SFX_ARC_LOST_MISSILES_1, TEXT_SFX_ARC_LOST_MISSILES_2</Text_ID>
+								 <Overlap_Test> Unit_Arc_Hammer </Overlap_Test>
+					  </SFXEvent>
+
+					 <SFXEvent Name="Unit_Missile_Shield_Arc_Hammer">
+							 <Use_Preset>Preset_UR</Use_Preset>
+							 <Samples> U000_ARC3401_ENG.wav U000_ARC3402_ENG.wav</Samples>
+								 <Localize> Yes </Localize>
+								 <Play_Sequentially> Yes </Play_Sequentially>
+								 <Text_ID> TEXT_SFX_ARC_MISSILE_SHIELD_1, TEXT_SFX_ARC_MISSILE_SHIELD_2</Text_ID>
+								 <Overlap_Test> Unit_Arc_Hammer </Overlap_Test>
+					  </SFXEvent>
+
 
 
 
