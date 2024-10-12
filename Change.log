@@ -111,6 +111,8 @@ Audio Fixes:
 • Urai Fen had a chance to use strange VO when guarding an area.  It was either an older actor, or practice audio, and was voice-modulated but sounded completely different than Urai's other lines.  The lines have been swapped out with the finished retake, but was left unused in the files. (BUG #261)
 • Urai Fen was missing a lot of VO: 3 VO files were improperly implemented for the Stun ability, and over 10 VO files for low health and critical health callouts weren't implemented at all. (BUG #262)
 • Silri's VO lacked 4 VO file references for her Drain Life ability, and VO for attacking/moving with groups of units wasn't implemented at all. (BUG #263)
+• Aggressor-class Destroyers were missing VO regarding attacking Gravity Wells, or losing its main ion or plasma cannon. (BUG #265)
+• Keldabe-class Battleships were missing VO regarding attacking Gravity Wells, or about entering asteroid fields. (BUG #266)
 • Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
 • Consortium turbolaser towers would use the Rebels' VO when built instead of their faction's VO. (BUG #42)
 • Consortium Piracy reward ships used their faction-oriented VO when bought and finished construction instead of using Consortium VO. (BUG #50)

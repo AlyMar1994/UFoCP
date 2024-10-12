@@ -106,6 +106,7 @@
 		<SFXEvent_Guard>Unit_Guard_Kadalbe</SFXEvent_Guard>
 		<SFXEvent_Barrage>Unit_Barrage_Kadalbe</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Kadalbe </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Kadalbe </SFXEvent_Move_Into_Asteroid_Field>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Kadalbe </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Kadalbe </SFXEvent_Attack_Hardpoint>
@@ -113,6 +114,7 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Kadalbe </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Kadalbe </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Kadalbe </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Kadalbe </SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Kadalbe </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
