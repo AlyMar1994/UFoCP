@@ -14,7 +14,6 @@
  \____/ |_| |_| \___/ |_|  |_|  |_| \___||_| \__,_||_| |_|      \__,_| \__| \___||_| |_|           \_____||_| |_| \__,_||_| |_| \__, | \___||_| \___/  \__, |
                                                                                                                                  __/ |                  __/ |
                                                                                                                                 |___/                  |___/ 
-
 ~ By the UFoCP Team. ~
 
 
@@ -108,8 +107,8 @@ Audio Fixes:
 • Rom Mohc's VO for attacking Gravity Well Generators, using his Missile Shield ability or losing his missile launchers went unused as the proper SFX wasn't implemented at all. (BUG #264)
 • Tyber Zann's callout for appearing in space battles was awkward because the Underworld announcer claimed "Tyber Zann has landed!"  In space.  This callout has been removed. (BUG #59)
 • Tyber Zann was missing a great wealth of VO overall: attacking hanger bays and gravity wells, various movement and attack VO, VO for losing the plasma and ion cannons on his flagship, VO for overcharging his plasma cannon, and other missing VO for his abilities.  While some of these lines are duplicates, they have different cadences and add some fresh air to Zann's VO. (BUG #259)
-• Urai Fen had a chance to use strange VO when guarding an area.  It was either an older actor, or practice audio, and was voice-modulated but sounded completely different than Urai's other lines.  The lines have been swapped out with the finished retake, but was left unused in the files. (BUG #261)
-• Urai Fen was missing a lot of VO: 3 VO files were improperly implemented for the Stun ability, and over 10 VO files for low health and critical health callouts weren't implemented at all. (BUG #262)
+• Urai Fen had a chance to use strange VO when guarding an area.  It was either an older actor, or practice audio, and was voice-modulated but sounded completely different than Urai's other lines.  The lines have been swapped out with the finished retake that was left unused in the files. (BUG #261)
+• Urai Fen was missing over 10 lines of VO: VO for the Stun ability, low health and very-low-health callouts weren't implemented at all. (BUG #262)
 • Silri's VO lacked 4 VO file references for her Drain Life ability, and VO for attacking/moving with groups of units wasn't implemented at all. (BUG #263)
 • Aggressor-class Destroyers were missing VO regarding attacking Gravity Wells, or losing its main ion or plasma cannon.  The former SFX wasn't referenced in the unit's entry, the latter wasn't used at all. (BUG #265)
 • Keldabe-class Battleships were missing VO regarding attacking Gravity Wells, or about entering asteroid fields.  The respective SFX wasn't referenced in the unit's entry. (BUG #266)
@@ -201,7 +200,7 @@ Model Fixes:
 • The Venator-class Cruiser's shielding ability didn't cover the whole ship as the shield model didn't cover large segments of the ship's model, and the ship had incorrect shader assignments.  This was rectified in patch 1.121.826596 for EaW only. (Thanks EaWX-Rhino!) (BUG #137)
 • The IPV-1 Patrol Craft had a visible blue plane in its center engine; the plane that spawned the engine particles wasn't set to "Hidden" when exported. (BUG #85)
 • TIE defenders didn't have a particle glow for their engines. (BUG #87)
-• Rebel and Consortium turbolaser towers would use green muzzle flashes despite using red lasers due to reusing the Empire's turbolaser tower model.  A new one has been provided with corrected colors (Thanks theshyshallot!) (BUG #43)
+• Rebel and Consortium turbolaser towers would use green muzzle flashes despite using red lasers due to reusing the Empire's turbolaser tower model.  A new one has been provided with corrected colors. (Thanks theshyshallot!) (BUG #43)
 • Consortium swamp speeders would use Black Sun Pirate infantry in its cockpit.  They've now been swapped out for Grenadiers. (Thanks theshyshallot!) (BUG #233)
 • Consortium space stations were able to dodge Ion and Hypervelocity Guns because the positioning of their base skeleton was abnormal.  All stations have recieved new collision models to compensate and make collision more in-line with other stations. (Thanks theshyshallot!) (BUG #16)
 
