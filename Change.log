@@ -203,6 +203,7 @@ Model Fixes:
 • Rebel and Consortium turbolaser towers would use green muzzle flashes despite using red lasers due to reusing the Empire's turbolaser tower model.  A new one has been provided with corrected colors. (Thanks theshyshallot!) (BUG #43)
 • Consortium swamp speeders would use Black Sun Pirate infantry in its cockpit.  They've now been swapped out for Grenadiers. (Thanks theshyshallot!) (BUG #233)
 • Consortium space stations were able to dodge Ion and Hypervelocity Guns because the positioning of their base skeleton was abnormal.  All stations have recieved new collision models to compensate and make collision more in-line with other stations. (Thanks theshyshallot!) (BUG #16)
+• The generic grenade model that Bossk, the Grenadiers, and the Empire's concussion grenade turret used wasn't using its custom texture, and instead was pure white.  The model was looking for "w_grenade" instead of "w_therm_detonator." (BUG #269)
 
 
 Script/Story Fixes:
