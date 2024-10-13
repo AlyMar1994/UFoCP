@@ -1483,7 +1483,7 @@
 		<Encyclopedia_Vulnerable_To> TIE_Crawler Destroyer_Droid Rebel_Trooper </Encyclopedia_Vulnerable_To>
 		<Stealth_Capable>No</Stealth_Capable>
 		<Land_Model_Name>NI_PiratePlex.ALO</Land_Model_Name>
-		<Icon_Name>i_button_plex_soldier.tga</Icon_Name>
+		<Icon_Name>i_button_pirate_plex.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
