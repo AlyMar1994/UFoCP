@@ -1,0 +1,92 @@
+name: Typo/Grammar
+description: Help us find typos or grammatical errors in Forces of Corruption or the Patch.  If text is outright missing, use the generic "Bug" template instead.
+title: "Example: TEXT KEY - TYPO/GRAMMAR DESCRIPTION"
+labels: ["Bug (FoC)", "Typo"]
+projects: [""]
+assignees:
+  - AlyMar1994
+body:
+  - type: markdown
+    attributes:
+      value: |
+        -=-=-=-=-=-
+        Thank you for filling out this report!!  Please fill out everything, do your best.  One of the repo's maintainers will fix edit the report's attributes should something be wrong and clarify in the comments.  Please note that currently UFoCP supports (American) English and German only.  If you'd like to contribute to an international language, let AlyMar1994 know on the Community Hub Discord!
+        -=-=-=-=-=-
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please quickly search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: I have searched the existing issues
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details - Discord (optional)
+      description: If you're in the Empire at War Community Hub, please write down your username/server nickname to be quickly contacted if something's needed.  This is completely optional, otherwise only the report's comments will be used.
+      placeholder: ex. alymar1994
+    validations:
+      required: false
+  - type: dropdown
+    id: versionfoc
+    attributes:
+      label: FoC Version
+      description: What version of Forces of Corruption are you running?  (Version can be seen in the main menu, at the bottom-left.)
+      options:
+        - 1.121.859328 (2024)
+        - 1.121.826596 (11/20/23, 64-bit)
+        - 1.121.748742 (11/09/22)
+        - Other (Unknown)
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: versionufocp
+    attributes:
+      label: UFoCP Version
+      description: What version of the Unofficial Patch are you running?  (If you are at all.)
+      options:
+        - N/A (W/O Patch)
+        - 2.0.0.XXXX
+        - 1.16.682
+        - Other (Older)
+      default: 0
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Explanation
+      description: Please write, in detail, what the typo is.  Fill out the provided prompt.  Please don't be superfluous, we need info but not how hard you sneezed 2 hours into your gameplay session.  Please include images or video in this prompt, if possible.
+      placeholder: Don't forget this!
+      value: |
+        **Explain the Issue:**
+
+
+        **Screenshots/Video:**
+    validations:
+      required: true
+  - type: textarea
+    id: pc-specs
+    attributes:
+      label: PC Specs
+      description: Some extra specs might be important for this issue.  Please note them here.
+      placeholder: Don't forget this!
+      value: |
+        **Quick Information:**
+        _List any other mods used:_ 
+        _Were you playing on Steam?_ YES/NO
+        _Were you in multiplayer?_ YES/NO
+        _Game Language:_ 
+    validations:
+      required: true
+  - type: textarea
+    id: possiblecause
+    attributes:
+      label: Possible Cause
+      description: Please write why you think this is an error for UFoCP/FoC.  This section will not invalidate your bug report - it's just a personal justification on why this report should be fixed.
+      placeholder: who knows
+      value: "Maybe a Content Designer (CD) was forgetful?"
+    validations:
+      required: false
