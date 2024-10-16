@@ -55,24 +55,36 @@ body:
     id: what-happened
     attributes:
       label: What Happened?
-      description: Please write, in detail, what happened.  Fill out the provided prompt.  Please don't be superfluous, we need info but not how hard you sneezed 2 hours into your gameplay session.  FoC's game version can be found on the main menu, at the bottom-left in blue text.
+      description: Please write, in detail, what happened.  Fill out the provided prompt.  Please don't be superfluous, we need info but not how hard you sneezed 2 hours into your gameplay session.  Please include images or video in this prompt, if possible.
       placeholder: |
-        **Quick Information**
+        **Explain the Issue:**
+    validations:
+      required: true
+  - type: textarea
+    id: pc-specs
+    attributes:
+      label: PC Specs
+      description: Your PC specs and game state may be important regarding this bug.  Please note them here.
+      placeholder: |
+        **Quick Information:**
         _OS:_
         _GPU:_
         _CPU:_
-        _List any other mods used:_ v
+        _List any other mods used:_ 
         _Were you playing on Steam?_ YES/NO
         _Were you in multiplayer?_ YES/NO
-
-        **Explain the Issue:**
-
-        **Steps to Reproduce Issue:**
-        1.
-        2.
+    validations:
+      required: true
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: Steps to Reproduce
+      description: Please note consistent steps to reproduce this bug, if possible.
+      placeholder: |
+        **Steps to Reproduce:**
+        1. 
+        2. 
         3. ...
-
-        **Screenshots/Videos:**
     validations:
       required: true
   - type: textarea
