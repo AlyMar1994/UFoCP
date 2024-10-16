@@ -1,7 +1,7 @@
-name: Bug Report
-description: Help us eliminate bugs in Forces of Corruption, or in the Patch.  This is the generic bug template, please choose a more specific template *if* the issue can be narrowed down.
+name: Inconsistency
+description: Help us find inconsistencies in Forces of Corruption.  Inconsistencies is a decently vague category which encompasses all things in the game that are unprofessional, rushed, etc.  For example, Thrawn's space unit description being a 1-line 'The Admonitor is Grand Admiral Thrawn's flagship.'
 title: "Example: UNIT - QUICK DESCRIPTION"
-labels: ["Bug (FoC)"]
+labels: ["Bug (FoC)", "Inconsistency"]
 projects: [""]
 assignees:
   - AlyMar1994
@@ -10,7 +10,7 @@ body:
     attributes:
       value: |
         -=-=-=-=-=-
-        Thank you for filling out this report!!  Please fill out everything, do your best.  One of the repo's maintainers will fix edit the report's attributes should something be wrong and clarify in the comments.
+        This template is for inconsistencies in FoC.  Inconsistencies, for example, are how every space hero unit is named something different.  E.g.: while Red and Rogue Squadron exist, Vader's squadron is just named Darth Vader instead of Black Squadron, and while Piett is named The Accuser - Captain Piett, Thrawn and Veers are named The Admonitor and General Maximillian Veers instead of The Admonitor - Grand Admiral Thrawn and Blizzard 1 - General Veers.  Or how various heroes get detailed tooltip text, but Bossk's space unit's tooltip is just 'Bossk's personal transport.'
         -=-=-=-=-=-
   - type: checkboxes
     attributes:
@@ -57,8 +57,8 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What Happened?
-      description: Please write, in detail, what happened.  Fill out the provided prompt.  Please don't be superfluous, we need info but not how hard you sneezed 2 hours into your gameplay session.  Please include images or video in this prompt, if possible.
+      label: Describe the Inconsistency
+      description: Please write, in detail, what you feel is inconsistent about this content.  Fill out the provided prompt.  Please don't be superfluous, we need info but not how hard you sneezed 2 hours into your gameplay session.  Please include images or video in this prompt, if possible.
       placeholder: Don't forget this!
       value: |
         **Explain the Issue:**
@@ -68,27 +68,10 @@ body:
     validations:
       required: true
   - type: textarea
-    id: pc-specs
-    attributes:
-      label: PC Specs
-      description: Your PC specs and game state may be important regarding this bug.  Please note them here.
-      placeholder: Don't forget this!
-      value: |
-        **Quick Information:**
-        _OS:_
-        _GPU:_
-        _CPU:_
-        _List any other mods used:_ 
-        _Were you playing on Steam?_ YES/NO
-        _Were you in multiplayer?_ YES/NO
-        _Game Language:_ 
-    validations:
-      required: true
-  - type: textarea
     id: repro-steps
     attributes:
       label: Steps to Reproduce
-      description: Please note consistent steps to reproduce this bug, if possible.
+      description: Please note consistent steps to reproduce this bug, if possible or necessary.
       placeholder: Don't forget this!
       value: |
         **Steps to Reproduce:**
@@ -98,10 +81,24 @@ body:
     validations:
       required: false
   - type: textarea
+    id: pc-specs
+    attributes:
+      label: PC Specs
+      description: Some extra specs might be important for this issue.  Please note them here.
+      placeholder: Don't forget this!
+      value: |
+        **Quick Information:**
+        _List any other mods used:_ 
+        _Were you playing on Steam?_ YES/NO
+        _Were you in multiplayer?_ YES/NO
+        _Game Language:_ 
+    validations:
+      required: true
+  - type: textarea
     id: possiblecause
     attributes:
       label: Possible Cause
-      description: Please write why you think this is a bug in either FoC/UFoCP.  This section will not invalidate your bug report - it's just a personal justification on why this report should be fixed.
+      description: Please write why you think this is inconsistent with other things in-game in either FoC/UFoCP.  This section will not invalidate your bug report - it's just a personal justification on why this report should be fixed.
       placeholder: who knows
       value: "Maybe a Content Designer (CD) was forgetful?"
     validations:

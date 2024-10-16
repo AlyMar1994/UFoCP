@@ -1,7 +1,7 @@
-name: Bug Report
-description: Help us eliminate bugs in Forces of Corruption, or in the Patch.  This is the generic bug template, please choose a more specific template *if* the issue can be narrowed down.
-title: "Example: UNIT - QUICK DESCRIPTION"
-labels: ["Bug (FoC)"]
+name: Typo/Grammar
+description: Help us find typos or grammatical errors in Forces of Corruption or the Patch.  If text is outright missing, use the generic "Bug" template instead.
+title: "Example: TEXT KEY - TYPO/GRAMMAR DESCRIPTION"
+labels: ["Bug (FoC)", "Typo"]
 projects: [""]
 assignees:
   - AlyMar1994
@@ -10,7 +10,7 @@ body:
     attributes:
       value: |
         -=-=-=-=-=-
-        Thank you for filling out this report!!  Please fill out everything, do your best.  One of the repo's maintainers will fix edit the report's attributes should something be wrong and clarify in the comments.
+        Thank you for filling out this report!!  Please fill out everything, do your best.  One of the repo's maintainers will fix edit the report's attributes should something be wrong and clarify in the comments.  Please note that currently UFoCP supports (American) English and German only.  If you'd like to contribute to an international language, let AlyMar1994 know on the Community Hub Discord!
         -=-=-=-=-=-
   - type: checkboxes
     attributes:
@@ -57,8 +57,8 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What Happened?
-      description: Please write, in detail, what happened.  Fill out the provided prompt.  Please don't be superfluous, we need info but not how hard you sneezed 2 hours into your gameplay session.  Please include images or video in this prompt, if possible.
+      label: Explanation
+      description: Please write, in detail, what the typo is.  Fill out the provided prompt.  Please don't be superfluous, we need info but not how hard you sneezed 2 hours into your gameplay session.  Please include images or video in this prompt, if possible.
       placeholder: Don't forget this!
       value: |
         **Explain the Issue:**
@@ -71,13 +71,10 @@ body:
     id: pc-specs
     attributes:
       label: PC Specs
-      description: Your PC specs and game state may be important regarding this bug.  Please note them here.
+      description: Some extra specs might be important for this issue.  Please note them here.
       placeholder: Don't forget this!
       value: |
         **Quick Information:**
-        _OS:_
-        _GPU:_
-        _CPU:_
         _List any other mods used:_ 
         _Were you playing on Steam?_ YES/NO
         _Were you in multiplayer?_ YES/NO
@@ -85,23 +82,10 @@ body:
     validations:
       required: true
   - type: textarea
-    id: repro-steps
-    attributes:
-      label: Steps to Reproduce
-      description: Please note consistent steps to reproduce this bug, if possible.
-      placeholder: Don't forget this!
-      value: |
-        **Steps to Reproduce:**
-        1. 
-        2. 
-        3. ...
-    validations:
-      required: false
-  - type: textarea
     id: possiblecause
     attributes:
       label: Possible Cause
-      description: Please write why you think this is a bug in either FoC/UFoCP.  This section will not invalidate your bug report - it's just a personal justification on why this report should be fixed.
+      description: Please write why you think this is an error for UFoCP/FoC.  This section will not invalidate your bug report - it's just a personal justification on why this report should be fixed.
       placeholder: who knows
       value: "Maybe a Content Designer (CD) was forgetful?"
     validations:

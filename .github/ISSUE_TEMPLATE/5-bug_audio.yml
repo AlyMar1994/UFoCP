@@ -1,7 +1,7 @@
 name: Bug Report
-description: Help us eliminate bugs in Forces of Corruption, or in the Patch.  This is the generic bug template, please choose a more specific template *if* the issue can be narrowed down.
-title: "Example: UNIT - QUICK DESCRIPTION"
-labels: ["Bug (FoC)"]
+description: Help us eliminate as many issues in FoC's audio.  For any/all audio-related issues.
+title: "Example: AUDIO - PROBLEM DESCRIPTION"
+labels: ["Bug (FoC)", "Audio"]
 projects: [""]
 assignees:
   - AlyMar1994

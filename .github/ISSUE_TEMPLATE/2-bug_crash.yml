@@ -1,7 +1,7 @@
-name: Bug Report
-description: Help us eliminate bugs in Forces of Corruption, or in the Patch.  This is the generic bug template, please choose a more specific template *if* the issue can be narrowed down.
-title: "Example: UNIT - QUICK DESCRIPTION"
-labels: ["Bug (FoC)"]
+name: Crash
+description: Help us eliminate as many crashes as we can within FoC or UFoCP.  This template encompasses all types of crashes - white-screen, crash reporter, hard-close (close w/o crash reporter), etc.
+title: "Example: Crash - Description of Crash Situation"
+labels: ["Crash"]
 projects: [""]
 assignees:
   - AlyMar1994
@@ -10,12 +10,12 @@ body:
     attributes:
       value: |
         -=-=-=-=-=-
-        Thank you for filling out this report!!  Please fill out everything, do your best.  One of the repo's maintainers will fix edit the report's attributes should something be wrong and clarify in the comments.
+        This reporting template is for crashes that happen for any reason in FoC or UFoCP.  To fully submit a crash report, you must download the Debugging Client from the issue template selection page, and use it to generate debug logs in your Forces of Corruption directory.  Place the executables next to the game's application in the ..\corruption\ folder.  If you cannot generate a log for any reason (e.g. if the crash isn't easily reproducable), then explain the crash as vividly and detail-full as you can when, where, and what you were doing when it happened.  To acknowledge you read this, delete this bloc, otherwise your report will be immediately closed and disregarded.
         -=-=-=-=-=-
   - type: checkboxes
     attributes:
-      label: Is there an existing issue for this?
-      description: Please quickly search to see if an issue already exists for the bug you encountered.
+      label: Is there an existing issue for this?  And did you read the above paragraph?
+      description: Please quickly search to see if an issue already exists for the bug you encountered.  After reading the above paragraph, check the box.
       options:
         - label: I have searched the existing issues
     validations:
@@ -104,5 +104,23 @@ body:
       description: Please write why you think this is a bug in either FoC/UFoCP.  This section will not invalidate your bug report - it's just a personal justification on why this report should be fixed.
       placeholder: who knows
       value: "Maybe a Content Designer (CD) was forgetful?"
+    validations:
+      required: false
+  - type: textarea
+    id: logfiles
+    attributes:
+      label: Debugger Log Files
+      description: Please compile all of your generated log files (if you have them) into a .7z/ZIP, and send them here.  After running the debugger, you should have: _Audio_Drivers, _GraphicsInit, _LogFile, _MemLog, _Missing_Text, _warn_message_popup, AILog and StoryLog.
+      placeholder: Don't forget this!
+      value: "Awaiting upload...."
+    validations:
+      required: false
+  - type: textarea
+    id: save
+    attributes:
+      label: Save Game
+      description: If you have a save right before a crash, please provide it here.  Saved games can be found in ..\Users\USERNAME\Saved Games\Petroglyph\Empire At War - Forces of Corruption\save\.
+      placeholder: Don't forget this!
+      value: "Awaiting upload...."
     validations:
       required: false
