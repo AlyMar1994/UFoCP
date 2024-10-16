@@ -77,7 +77,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: possible-cause
     attributes:
       label: Possible Cause
       description: Please write why you think this is a bug in either FoC/UFoCP.  This section will not invalidate your bug report - it's just a personal justification on why this report should be fixed.
