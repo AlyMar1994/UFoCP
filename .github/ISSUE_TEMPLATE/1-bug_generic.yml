@@ -59,7 +59,8 @@ body:
     attributes:
       label: What Happened?
       description: Please write, in detail, what happened.  Fill out the provided prompt.  Please don't be superfluous, we need info but not how hard you sneezed 2 hours into your gameplay session.  Please include images or video in this prompt, if possible.
-      placeholder: |
+      placeholder: Don't forget this!
+      value: |
         **Explain the Issue:**
     validations:
       required: true
@@ -68,7 +69,8 @@ body:
     attributes:
       label: PC Specs
       description: Your PC specs and game state may be important regarding this bug.  Please note them here.
-      placeholder: |
+      placeholder: Don't forget this!
+      value: |
         **Quick Information:**
         _OS:_
         _GPU:_
@@ -83,13 +85,14 @@ body:
     attributes:
       label: Steps to Reproduce
       description: Please note consistent steps to reproduce this bug, if possible.
-      placeholder: |
+      placeholder: Don't forget this!
+      value: |
         **Steps to Reproduce:**
         1. 
         2. 
         3. ...
     validations:
-      required: true
+      required: false
   - type: textarea
     id: possiblecause
     attributes:
@@ -97,3 +100,5 @@ body:
       description: Please write why you think this is a bug in either FoC/UFoCP.  This section will not invalidate your bug report - it's just a personal justification on why this report should be fixed.
       placeholder: who knows
       value: "Maybe a Content Designer (CD) was forgetful?"
+    validations:
+      required: false
