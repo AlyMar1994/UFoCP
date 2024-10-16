@@ -6,12 +6,13 @@ projects: [""]
 assignees:
   - AlyMar1994
 body:
-- type: checkboxes
-  attributes:
-    label: Is there an existing issue for this?
-    description: Please quickly search to see if an issue already exists for the bug you encountered.
-    options:
-    - label: I have searched the existing issues
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please quickly search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: I have searched the existing issues
+    validations:
       required: true
   - type: markdown
     attributes:
