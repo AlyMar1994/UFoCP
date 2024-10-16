@@ -6,59 +6,80 @@ projects: [""]
 assignees:
   - AlyMar1994
 body:
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please quickly search to see if an issue already exists for the bug you encountered.
+    options:
+    - label: I have searched the existing issues
+      required: true
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thank you for filling out this report!!  Please fill out everything, do your best.  One of the repo's maintainers will fix edit the report's attributes should something be wrong and clarify in the comments.
   - type: input
     id: contact
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Contact Details - Discord (optional)
+      description: If you're in the Empire at War Community Hub, please write down your username/server nickname to be quickly contacted if something's needed.  This is completely optional, otherwise only the report's comments will be used.
+      placeholder: ex. alymar1994
     validations:
       required: false
-  - type: textarea
-    id: what-happened
+  - type: dropdown
+    id: version
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: FoC Version
+      description: What version of Forces of Corruption are you running?  (Version can be seen in the main menu, at the bottom-left.)
+      options:
+        - 1.121.859328 (2024)
+        - 1.121.826596 (11/20/23, 64-bit)
+        - 1.121.748742 (11/09/22)
+        - Other (Unknown)
+      default: 0
     validations:
       required: true
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: UFoCP Version
+      description: What version of the Unofficial Patch are you running?  (If you are at all.)
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - N/A (W/O Patch)
+        - 2.0.0.XXXX
+        - 1.16.682
+        - Other (Older)
       default: 0
     validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      required: false
   - type: textarea
-    id: logs
+    id: what-happened
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      label: What Happened?
+      description: Please write, in detail, what happened.  Fill out the provided prompt.  Please don't be superfluous, we need info but not how hard you sneezed 2 hours into your gameplay session.  FoC's game version can be found on the main menu, at the bottom-left in blue text.
+      placeholder: Tell us what you see!
+      value: |
+        **Quick Information**
+        _OS:_
+        _GPU:_
+        _CPU:_
+        _List any other mods used:_ v
+        _Were you playing on Steam?_ YES/NO
+        _Were you in multiplayer?_ YES/NO
+
+        **Explain the Issue:**
+
+        **Steps to Reproduce Issue:**
+        1.
+        2.
+        3. ...
+
+        **Screenshots/Videos:**
+    validations:
+      required: true
+  - type: textarea
+    id: possible-cause
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Possible Cause
+      description: Please write why you think this is a bug in either FoC/UFoCP.  This section will not invalidate your bug report - it's just a personal justification on why this report should be fixed.
+      placeholder: who knows
+      value: "Maybe a Content Designer (CD) was forgetful?"
