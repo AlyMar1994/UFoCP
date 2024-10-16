@@ -56,8 +56,7 @@ body:
     attributes:
       label: What Happened?
       description: Please write, in detail, what happened.  Fill out the provided prompt.  Please don't be superfluous, we need info but not how hard you sneezed 2 hours into your gameplay session.  FoC's game version can be found on the main menu, at the bottom-left in blue text.
-      placeholder: Tell us what you see!
-      value: |
+      placeholder: |
         **Quick Information**
         _OS:_
         _GPU:_
