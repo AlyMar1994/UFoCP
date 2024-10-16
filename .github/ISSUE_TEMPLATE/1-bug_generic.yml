@@ -9,9 +9,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        ~=~=~=~=~=
+        -=-=-=-=-=-
         Thank you for filling out this report!!  Please fill out everything, do your best.  One of the repo's maintainers will fix edit the report's attributes should something be wrong and clarify in the comments.
-        ~=~=~=~=~=
+        -=-=-=-=-=-
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
