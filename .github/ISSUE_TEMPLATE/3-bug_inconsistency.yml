@@ -1,0 +1,105 @@
+name: Inconsistency
+description: Help us find inconsistencies in Forces of Corruption.  Inconsistencies are a decently vague category which encompasses all things in the game that are unprofessional, rushed, etc.
+title: "Example: UNIT - QUICK DESCRIPTION"
+labels: ["Bug (FoC)", "Inconsistency"]
+projects: [""]
+assignees:
+  - AlyMar1994
+body:
+  - type: markdown
+    attributes:
+      value: |
+        -=-=-=-=-=-
+        This template is for inconsistencies in FoC.  Inconsistencies, for example, are how every space hero unit is named something different.  F.e. while Red and Rogue Squadron exist, Vader's squadron is just named Darth Vader instead of Black Squadron, and while Piett is named The Accuser - Captain Piett, Thrawn and Veers are named The Admonitor and General Maximillian Veers instead of The Admonitor - Grand Admiral Thrawn and Blizzard 1 - General Veers.  Or how various heroes get detailed tooltip text, but Bossk's space unit's tooltip is just 'Bossk's personal transport.'
+        -=-=-=-=-=-
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please quickly search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: I have searched the existing issues
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details - Discord (optional)
+      description: If you're in the Empire at War Community Hub, please write down your username/server nickname to be quickly contacted if something's needed.  This is completely optional, otherwise only the report's comments will be used.
+      placeholder: ex. alymar1994
+    validations:
+      required: false
+  - type: dropdown
+    id: versionfoc
+    attributes:
+      label: FoC Version
+      description: What version of Forces of Corruption are you running?  (Version can be seen in the main menu, at the bottom-left.)
+      options:
+        - 1.121.859328 (2024)
+        - 1.121.826596 (11/20/23, 64-bit)
+        - 1.121.748742 (11/09/22)
+        - Other (Unknown)
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: versionufocp
+    attributes:
+      label: UFoCP Version
+      description: What version of the Unofficial Patch are you running?  (If you are at all.)
+      options:
+        - N/A (W/O Patch)
+        - 2.0.0.XXXX
+        - 1.16.682
+        - Other (Older)
+      default: 0
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe the Inconsistency
+      description: Please write, in detail, what you feel is inconsistent about this content.  Fill out the provided prompt.  Please don't be superfluous, we need info but not how hard you sneezed 2 hours into your gameplay session.  Please include images or video in this prompt, if possible.
+      placeholder: Don't forget this!
+      value: |
+        **Explain the Issue:**
+
+
+        **Screenshots/Video:**
+    validations:
+      required: true
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: Steps to Reproduce
+      description: Please note consistent steps to reproduce this bug, if possible or necessary.
+      placeholder: Don't forget this!
+      value: |
+        **Steps to Reproduce:**
+        1. 
+        2. 
+        3. ...
+    validations:
+      required: false
+  - type: textarea
+    id: pc-specs
+    attributes:
+      label: PC Specs
+      description: Some extra specs might be important for this issue.  Please note them here.
+      placeholder: Don't forget this!
+      value: |
+        **Quick Information:**
+        _List any other mods used:_ 
+        _Were you playing on Steam?_ YES/NO
+        _Were you in multiplayer?_ YES/NO
+        _Game Language:_ 
+    validations:
+      required: true
+  - type: textarea
+    id: possiblecause
+    attributes:
+      label: Possible Cause
+      description: Please write why you think this is inconsistent with other things in-game in either FoC/UFoCP.  This section will not invalidate your bug report - it's just a personal justification on why this report should be fixed.
+      placeholder: who knows
+      value: "Maybe a Content Designer (CD) was forgetful?"
+    validations:
+      required: false
