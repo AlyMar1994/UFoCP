@@ -60,6 +60,7 @@ body:
       label: Suggested Changes
       description: Please write, in detail, what you'd like changed about UFoCP.  Fill out the provided prompt.  Please don't be superfluous.
       placeholder: Don't forget this!
+      value: "I'd like..."
     validations:
       required: true
   - type: textarea
@@ -68,5 +69,6 @@ body:
       label: Possible Cause
       description: Please explain, in detail, what your reasoning is for this suggestion.  Fill out the provided prompt.
       placeholder: Don't forget this!
+      value: "Mainly because..."
     validations:
       required: true
