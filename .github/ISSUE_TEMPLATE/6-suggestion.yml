@@ -1,6 +1,6 @@
 name: Suggestion
-description: Suggest a change with how the Patch handles a fix.  This may be different compared to a normal UFoCP report because the suggestion relates to something considered good/fully fixed or an improvement in methods used for the Patch.
-title: "Example: SUGGESTION - SUGGESTION DESCRIPTION"
+description: Suggest a change with how UFoCP handles a fix.  This may be different compared to a normal report because the suggestion relates to something considered good/fully fixed or an improvement in methods used for the Patch.
+title: "Example: UNIT - QUICK DESCRIPTION"
 labels: ["Suggestion"]
 projects: [""]
 assignees:
@@ -14,10 +14,10 @@ body:
         -=-=-=-=-=-
   - type: checkboxes
     attributes:
-      label: Is there an existing report for this?
-      description: Please quickly search to see if a suggestion report already exists for the bug you encountered.
+      label: Is there an existing issue for this?
+      description: Please quickly search to see if an issue already exists for the bug you encountered.
       options:
-        - label: I have searched the existing reports
+        - label: I have searched the existing issues
     validations:
       required: true
   - type: input
@@ -57,18 +57,52 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: Suggested Changes
-      description: Please write, in detail, what you'd like changed about UFoCP.  Fill out the provided prompt.  Please don't be superfluous.
+      label: What Happened?
+      description: Please write, in detail, what happened.  Fill out the provided prompt.  Please don't be superfluous, we need info but not how hard you sneezed 2 hours into your gameplay session.  Please include images or video in this prompt, if possible.
       placeholder: Don't forget this!
-      value: "I'd like..."
+      value: |
+        **Explain the Issue:**
+
+
+        **Screenshots/Video:**
     validations:
       required: true
+  - type: textarea
+    id: pc-specs
+    attributes:
+      label: PC Specs
+      description: Your PC specs and game state may be important regarding this bug.  Please note them here.
+      placeholder: Don't forget this!
+      value: |
+        **Quick Information:**
+        _OS:_
+        _GPU:_
+        _CPU:_
+        _List any other mods used:_ 
+        _Were you playing on Steam?_ YES/NO
+        _Were you in multiplayer?_ YES/NO
+        _Game Language:_ 
+    validations:
+      required: true
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: Steps to Reproduce
+      description: Please note consistent steps to reproduce this bug, if possible.
+      placeholder: Don't forget this!
+      value: |
+        **Steps to Reproduce:**
+        1. 
+        2. 
+        3. ...
+    validations:
+      required: false
   - type: textarea
     id: possiblecause
     attributes:
       label: Possible Cause
-      description: Please explain, in detail, what your reasoning is for this suggestion.  Fill out the provided prompt.
-      placeholder: Don't forget this!
-      value: "Mainly because..."
+      description: Please write why you think this is a bug in either FoC/UFoCP.  This section will not invalidate your bug report - it's just a personal justification on why this report should be fixed.
+      placeholder: who knows
+      value: "Maybe a Content Designer (CD) was forgetful?"
     validations:
-      required: true
+      required: false
