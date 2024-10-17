@@ -1,5 +1,5 @@
 name: Suggestion
-description: Suggest a change with how UFoCP handles a fix.  This may be different compared to a normal report because the suggestion relates to something considered good/fully fixed or an improvement in methods used for the Patch.
+description: Suggest a change with how UFoCP handles a fix.
 title: "Example: UNIT - QUICK DESCRIPTION"
 labels: ["Suggestion"]
 projects: [""]
@@ -10,7 +10,7 @@ body:
     attributes:
       value: |
         -=-=-=-=-=-
-        This suggestion template is for specific, justified changes which will help it achieve its goal of being a prime example of an unofficial patch.  This template is not for your whims or wants or what you think UFoCP should be.  While it may feel harsh, any suggestion not following the requirement above will be immediately closed and disregarded.
+
         -=-=-=-=-=-
   - type: checkboxes
     attributes:
