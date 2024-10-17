@@ -1,5 +1,5 @@
 name: Suggestion
-description: Suggest a change with how the Patch handles a fix.  This may be different compared to a UFoCP Bug Report because the suggestion relates to something considered good/fully fixed or an improvement in methods used for the Patch.
+description: Suggest a change with how the Patch handles a fix.  This may be different compared to a normal UFoCP report because the suggestion relates to something considered good/fully fixed or an improvement in methods used for the Patch.
 title: "Example: SUGGESTION - SUGGESTION DESCRIPTION"
 labels: ["Suggestion"]
 projects: [""]
@@ -58,7 +58,7 @@ body:
     id: what-happened
     attributes:
       label: Suggested Changes
-      description: Please write, in detail, what you'd like changed about UFoCP.  Fill out the provided prompt.  Please don't be superfluous, I can take it.
+      description: Please write, in detail, what you'd like changed about UFoCP.  Fill out the provided prompt.  Please don't be superfluous.
       placeholder: Don't forget this!
     validations:
       required: true
