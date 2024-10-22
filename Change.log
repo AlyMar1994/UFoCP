@@ -113,7 +113,7 @@ Audio Fixes:
 • Aggressor-class Destroyers were missing VO regarding attacking Gravity Wells, or losing its main ion or plasma cannon.  The former SFX wasn't referenced in the unit's entry, the latter wasn't used at all. (BUG #265)
 • Keldabe-class Battleships were missing VO regarding attacking Gravity Wells, or about entering asteroid fields.  The respective SFX wasn't referenced in the unit's entry. (BUG #266)
 • Skipray Blastboats were missing VO regarding entering asteroid fields, or dogfighting lines when their enemies' health is low or critical.  The respective SFX wasn't referenced in the unit's entry. (BUG #267)
-• StarViper Squadrons were missing VO regarding entering asteroid fields, or dogfighting lines when joining in a dogfight or group movement.  The respective SFX wasn't referenced in the unit's entry. (BUG #267)
+• StarViper Squadrons were missing VO regarding entering asteroid fields, or dogfighting lines when joining in a dogfight or group movement.  The respective SFX wasn't referenced in the unit's entry. (BUG #268)
 • Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
 • Consortium turbolaser towers would use the Rebels' VO when built instead of their faction's VO. (BUG #42)
 • Consortium Piracy reward ships used their faction-oriented VO when bought and finished construction instead of using Consortium VO. (BUG #50)
@@ -125,7 +125,7 @@ Audio Fixes:
 • Imperial Force Adepts no longer use both the Rebel blaster SFX and a lightsaber swing sound when attacking. (BUG #63)
 • Silri no longer uses both the Stormtrooper blaster SFX and a lightsaber swing sound when attacking. (BUG #207)
 • TIE defenders didn't have the "TIE screech" SFX because its unit entry didn't include a fly-by sound definition. (BUG #86)
-• TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle; this was originally half-fixed in patch 1.121.826596, where they no longer only visually look like torpedoes. (BUG #179)
+• TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle. (BUG #179)
 • Broadside Cruisers used an unused set of Interdictor Cruiser VO for its BARRAGE ability. (BUG #244)
 • Marauder Cruisers used an unused set of Corellian Corvette VO for its BARRAGE ability. (BUG #245)
 
@@ -170,7 +170,6 @@ Interface Fixes:
 • The Consortium Soldier/advisor during the prologue "Crime Lord Unleashed" used the Black Sun Pirate hologram instead of the Consortium Soldier hologram.  While I like the aesthetic, unfortunately it's a bug. (BUG #61)
 • When Darth Vader arrives on Bespin during Consortium campaign mission #6 "Cloud City Conflict," the hologram announcer used the Black Sun Pirate hologram instead of the Consortium Soldier hologram. (BUG #104)
 • The Hypervelocity Cannon's special weapon cursor used the Magnepulse Cannon's texture instead of its own because of each texture having swapped names. (BUG #260)
-
 
 
 Map/Planet Fixes:
@@ -224,7 +223,7 @@ Structure Fixes:
 
 
 Texture Fixes:
-• All map previews (except MP Space Bespin) have been compressed to save space and processing time, cutting filesizes in half (128kb vs. 256kb).  All previews also were completely redone due to incomplete or inconsistent material, or low-quality patch material.  Changes include: (BUG #253)
+• All map previews (except Bespin's) have been compressed to save space and processing time, cutting filesizes in half (128kb vs. 256kb).  All previews also were completely redone due to incomplete or inconsistent material, or low-quality patch material.  Changes include: (BUG #253)
 •• Many previews (both original and patched, mainly land previews) failed to follow EaW/FoC's established art style (shaded borders, processed water, shaded out-of-bounds).
 •• Consortium Campaign previews not including some scripted units or structures on the map.
 •• MP Space Bespin displayed an incorrect map entirely.
