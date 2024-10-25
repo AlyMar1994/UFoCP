@@ -360,7 +360,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> No </Planet_Surface_Accessible>
 		<Planet_Retains_Residual_Influence> Yes </Planet_Retains_Residual_Influence>
 
-		<Land_Tactical_Map />
+		<Land_Tactical_Map>_Space_Planet_Alderaan_02.ted</Land_Tactical_Map> <!-- AM1994: UFoCP #275, engine won't pull planet info screen map preview without a land map specified. -->
 		<Space_Tactical_Map>_Space_Planet_Alderaan_02.ted</Space_Tactical_Map>
 
 		<Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>

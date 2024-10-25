@@ -189,10 +189,11 @@ Map/Planet Fixes:
 • Mustafar's galactic map model used the generic volcanic planet GFX instead of the custom blue-glow planet like other planets with custom models.  The original planet model couldn't be used due to LOD states being reversed, so a new W_PLANET_MUSTAFAR_LOW model was created to function on the GC view. (BUG #240)
 • Nal Hutta was defined as a swamp planet but with "temperate" terrain; this caused music, GFX and SFX conflicts with the planet's setting.  The campaign/prologue versions of the planet also had the wrong galactic terrain backdrop, showing an ecumenopolis instead of a swamp. (BUG #72)
 • Bespin's weather indicator wasn't updated from EaW and didn't have weather conditions on the galactic map; it now has the sun/clear weather icon. (BUG #66)
-• Alderaan's weather indicator wasn't updated from EaW and left as "rain" instead of "clear;" the asteroid field was also "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
+• Alderaan would be destroyed in the loading screen for the Land Skirmish map "Alderaan at War."  To rectify this and ensure backwards compatibility with EaW's content, the original Alderaan from EaW was restored under the default "Alderaan" entry, while FoC's Alderaan is recreated as "Alderaan_Expansion."  All files have been edited to ensure the proper Alderaan appears where it needs to. (BUG #105)
+• Alderaan_Expansion's weather indicator wasn't updated from EaW and left as "rain" instead of "clear;" the asteroid field was also "temperate" instead of "desert" like Vergesso Asteroids. (BUG #106)
+• Alderaan_Expansion wouldn't have a space map preview in the Galactic view's "planet info" screen.  The game can only pull previews from land maps, so the space map was set as both the land and space map to force it to pull a preview.  Alderaan_Expansion is still a space-only map. (BUG #275)
 • Honoghr in the campaign would display a generic human instead of a Noghri in its loading screen. (BUG #88)
 • Mandalore in the campaign and prologue would display a generic human instead of a Mandalorian in its loading screen. (BUG #89)
-• Alderaan would be destroyed in the loading screen for the Land Skirmish map "Alderaan at War."  To rectify this and ensure backwards compatibility with EaW's content, the original Alderaan from EaW was restored under the default "Alderaan" entry, while FoC's Alderaan is recreated as "Alderaan_Expansion."  All files have been edited to ensure the proper Alderaan appears where it needs to. (BUG #105)
 
 
 Model Fixes:
