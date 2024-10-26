@@ -17,7 +17,7 @@ body:
       label: Is there an existing issue for this?
       description: Please quickly search to see if an issue already exists for the bug you encountered.
       options:
-        - label: I have searched the existing issues
+        - label: No, my issue is unique.
     validations:
       required: true
   - type: input
@@ -35,9 +35,9 @@ body:
       description: What version of Forces of Corruption are you running?  (Version can be seen in the main menu, at the bottom-left.)
       options:
         - 1.121.859328 (10/22/24)
-        - 1.121.826596 (11/20/23, 64-bit)
+        - 1.121.826596 (11/20/23, '64-bit Patch')
         - 1.121.748742 (11/09/22)
-        - Other (Unknown)
+        - Other (or Unknown)
       default: 0
     validations:
       required: true
@@ -47,10 +47,10 @@ body:
       label: UFoCP Version
       description: What version of the Unofficial Patch are you running?  (If you are at all.)
       options:
-        - N/A (W/O Patch)
         - 2.0.0.XXXX
         - 1.16.682
         - Other (Older)
+        - N/A (W/O Patch)
       default: 0
     validations:
       required: false
@@ -61,7 +61,6 @@ body:
       description: Please write, in detail, what you feel is inconsistent about this content.  Fill out the provided prompt.  Please don't be superfluous, we need info but not how hard you sneezed 2 hours into your gameplay session.  Please include images or video in this prompt, if possible.
       placeholder: Don't forget this!
       value: |
-        **Explain the Issue:**
 
 
         **Screenshots/Video:**
@@ -74,7 +73,6 @@ body:
       description: Please note consistent steps to reproduce this bug, if possible or necessary.
       placeholder: Don't forget this!
       value: |
-        **Steps to Reproduce:**
         1. 
         2. 
         3. ...
@@ -87,7 +85,6 @@ body:
       description: Some extra specs might be important for this issue.  Please note them here.
       placeholder: Don't forget this!
       value: |
-        **Quick Information:**
         _List any other mods used:_ 
         _Were you playing on Steam?_ YES/NO
         _Were you in multiplayer?_ YES/NO
