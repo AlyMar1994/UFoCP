@@ -198,7 +198,7 @@ Map/Planet Fixes:
 
 
 Model Fixes:
-• The Venator-class Cruiser's shielding ability didn't cover the whole ship as the shield model didn't cover large segments of the ship's model, and the ship had incorrect shader assignments.  This was rectified in patch 1.121.826596 for EaW only. (Thanks EaWX-Rhino!) (BUG #137)
+• The Venator-class Cruiser's shielding ability didn't cover the whole ship as the shield model didn't cover large segments of the ship's model, and the ship had incorrect shader assignments.  This was rectified in patch 1.121.826596 for EaW only. (Thanks irampagingrhin0!) (BUG #137)
 • The IPV-1 Patrol Craft had a visible blue plane in its center engine; the plane that spawned the engine particles wasn't set to "Hidden" when exported. (BUG #85)
 • TIE defenders didn't have a particle glow for their engines. (BUG #87)
 • Rebel and Consortium turbolaser towers would use green muzzle flashes despite using red lasers due to reusing the Empire's turbolaser tower model.  A new one has been provided with corrected colors. (Thanks theshyshallot!) (BUG #43)
