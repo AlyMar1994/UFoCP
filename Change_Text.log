@@ -73,6 +73,9 @@ Housekeeping:
 International:
 • German localization, on occasion, used English names instead of German ones.  Despite much German Star Wars material sometimes using English naming, multiple things in-game that do have official German cognates didn't use them.  The Hound's Tooth wasn't "Reißzahn," the Merciless "Gnadenlos" nor the Accuser "Ankläger," and more.  All known instances have been swapped for their official German cognate from Jedipedia.
 
+• MB_LAND_PLANET_ALZOCIII_INTIMIDATION: (BUG #278)
+	-- ENG: The food Commissioner is an important behind the scenes power broker on the Planet. ... -> The Food Commissioner is an important behind-the-scenes power broker on the planet. ...
+	-- GER: N/A
 
 • TEXT_BOMB_CLASS: (BUG #249)
 	-- ENG: Bomb -> Class: Bomb
