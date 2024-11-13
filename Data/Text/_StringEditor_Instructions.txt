@@ -1,0 +1,57 @@
+STRING EDITOR
+"The Strings Editor lets you view and edit String files for Petroglyph's games."
+by Mike Lankamp
+http://web.archive.org/web/20240618203342/https://modtools.petrolution.net/tools/StringEditor
+
+Petrolution Modtools is © 2009-2024 Mike Lankamp
+Empire at War & Forces of Corruption are registered trademarks of Lucasarts.  Universe at War: Earth Assault is
+a trademark of Sega of America Inc.
+All the above mentioned games listed with their publishers are developed by Petroglyph Games Inc. in Las Vegas!
+
+----
+
+CHANGELOG:
+v1.4:	Added german language version.	(2008/06/05)
+v1.3:	Fixed a bug that occured when cutting text (thanks, Phoenix Rising).	(2007/07/05)
+v1.2:	Added scroll bars to the version and language dropdown boxes.	(2007/03/21)
+v1.1:	Three bugfixes:
+		* When exporting after saving, the editor wouldn't export string values.
+		* When saving after starting a new file, it would overwrite the previously opened file.
+		* In the export dialog, the names of the languages were cut off.
+
+Thanks to Phoenix Rising for discovering the first one.	(2006/11/07)
+v1.0:	Initial release
+
+----
+
+Foreword:
+AM1994: String Editor and all languages decompiled released for and supported by Forces of Corruption.
+Fair warning: NOT ALL .DATs ARE UNIFORM.  F.e., the Polish .DAT has some TO-BE-LOCALIZED ([TBL]) strings
+not present in the Russian, English, German, etc. .DATs.  The game doesn't seem to care about this, but
+for UFoCP I transferred them all over so, when using the combined .VDF that has all languages, I didn't
+have missing strings or invalid errors on exporting.
+
+The provided .VDF already has every .DAT imported and saved.  Changelog format and whatnot in there is
+suggestion.  No changes from UFoCP is included.  The provided link to the original download page and
+tutorial is recommended.  To easily swap between languages, press ALT+Left Arrow or Right Arrow.  Language
+order is GER -> ENG -> FRA -> ITA -> POL -> RUS -> SPA by default and cannot be changed.
+
+http://web.archive.org/web/20180223143535/http://www.vereinte-nationen.de/fynbos/stringeditorhowto/
+
+----
+
+To Minimize Corruption:
+This editor, in my experience, is notorious for corrupting Data files.  I don't know why.  I don't have the
+source nor error logs to know why.  I've gotten corruption for a variety of reasons, whether that be viewing
+editing history in the file, adding a new language, etc.  Best advice I have is to keep backups (GitHub) and
+make sure to hit "CLOSE" in "File" after save and before exiting the editor (I don't know if this is placebo).
+
+When corruption happens, you'll notice that some of your strings will disappear/have empty Values or their
+Keys (the name) will have an orange <!> triangle, and appear at the top of the file.  You can see all "Invalid"
+strings by pressing the yellow "Find Next Invalid" button at the top.  The Windows Error SFX means you have no
+corrupted strings.  Best you can do is delete the string and re-enter it, or restore from backup.
+
+A common corrupting action is making an edit, saving (new version and everything), exporting, then making
+another edit.  When saving/re-exporting, the string you last edited will corrupt.  All strings names will
+disappear until you reopen the file.  When reopened, only the last string you edited will be Invalid and
+be missing its name.  Retype the name and save, then the file should be fine.
