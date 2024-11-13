@@ -54,4 +54,5 @@ corrupted strings.  Best you can do is delete the string and re-enter it, or res
 A common corrupting action is making an edit, saving (new version and everything), exporting, then making
 another edit.  When saving/re-exporting, the string you last edited will corrupt.  All strings names will
 disappear until you reopen the file.  When reopened, only the last string you edited will be Invalid and
-be missing its name.  Retype the name and save, then the file should be fine.
+be missing its name.  Retype the name and save, then the file should be fine.  However, this isn't the only
+prerequisite, and on occasion you'll get corruption simply by editing more than one string.
