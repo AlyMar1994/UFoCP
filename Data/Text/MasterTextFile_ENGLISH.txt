@@ -58,7 +58,7 @@ MBEM06_Trouble_on_Kashyyyk.TED,A passionate rogue named Solo who had defected fr
 MBEM09_A_New_Weapon_of_War.TED,With progress on the Death Star proceeding on schedule, the Emperor has turned his attention to other weapons.  Colonel Maximilian Veers is set to demonstrate a new ground assault weapon - the All Terrain Armored Transport.  The demonstration is to be held on Carida, home to an important Imperial training facility.
 MBEM13_Errand_with_the_Emperor.TED,Emperor Palpatine believes that the Bothan SpyNet is ultimately responsible for leaking Imperial information to the Rebellion.  As such, he has decided to deal with the situation himself.
 MBEM14_Capturing_a_Princess.TED,The Bothans have informed the Emperor of where the Princess is to receive the transmissions regarding the Death Star.  A small fleet has been dispatched to Tatooine to intercept her, but an undiscovered pirate fleet has suddenly attacked.  Darth Vader must remove the pirates before the Princess enters the system, or she will escape.
-MBEM15_The_Destruction_of_Alderaan.TED,A suitable demonstration of the Death Star’s power is necessary.  Princess Leia has unwillingly picked the target – her homeworld of Alderaan.
+MBEM15_The_Destruction_of_Alderaan.TED,A suitable demonstration of the Death Star's power is necessary.  Princess Leia has unwillingly picked the target – her homeworld of Alderaan.
 MBEXECUTIVE_TACTICAL_DEMO,Located in the Moddell sector of the Outer Rim, this silvery gas giant planet is orbited by nine moons. The largest moon is the size of a small planet and is known as the forest moon or simply Endor. It is covered by savannas, mountains and woodlands with trees that reach thousands of meters in height. A wide range of intelligent creatures inhabit Endor, from the vicious and towering Gorax to the courageous Ewoks. The Ewoks build their sprawling villages in Endor's trees that are connected by suspended bridges, ropes and wooden platforms. Ewoks are deceptively innocuous, but are keen warriors and hunters capable of using their ingenuity and natural surroundings to their advantage.
 MBEXECUTIVE_TACTICAL_DEMO1,A temperate planet in the Chommell Sector of the Mid Rim, Naboo is covered by thick swamps, rolling plains, and green hills. Unlike many other planets, Naboo lacks a molten core. Instead, the planet's innards are composed of a massive honeycomb structure filled with water. The planet is also home to numerous animal species and is inhabited by the peaceful Naboo and the more warlike Gungans. The Naboo typically populate striking cities such as Theed, while the Gungans dwell in exotic bubble cities hidden in lakes and swamps. Both the Naboo and the Gungans oppose the Emperor.
 MBRM01_Space_Planet_Kuat.TED,Unable to get to Fresia directly, Captain Antilles decides to stage a diversionary attack on the Imperial shipyards at Kuat - a massive installation that constructs all types of Imperial craft.  Normally heavily defended, the Incom nationalization ceremony has reassigned the majority of its defensive fleet, leaving the shipyard vulnerable.  Antilles hopes to cause enough damage to draw the Imperial Star Destroyer Tyranny away from Fresia, leaving their real target unguarded... .
@@ -935,8 +935,8 @@ TEXT_CORRUPTION_BYSS_STORY_KIDNAP,Byss, an extremely dangerous world, is prized 
 TEXT_CORRUPTION_CARIDA_STORY_BLACKMARKET,Connecting into the black markets of Carida gains us great power and prestige, as well as new Imperial and Alliance technology for our units.
 TEXT_CORRUPTION_CARIDA_STORY_BRIBERY,In bribing Tarlen Ten, the trade master of the Perlemian Trade Route, we gain a great deal of information and the powerful garrison of Carida will no longer produce units for our enemies.
 TEXT_CORRUPTION_CARIDA_STORY_KIDNAP,Capturing Admiral Dalken Hol will allow us free reign to do business around the Imperial Academy.
-TEXT_CORRUPTION_CORELLIA_STORY_BLACKMARKET,While Corellia’s high-tech shipyards orbit the planet, the ground is sparsely populated farmland, making it ideal for a black market setup.
-TEXT_CORRUPTION_CORELLIA_STORY_PIRACY,There are many manufacturing satellites above Corellia, destroying several of them will establish our power over the planet. Additionally, our units will gain valuable experience.
+TEXT_CORRUPTION_CORELLIA_STORY_BLACKMARKET,While Corellia's high-tech shipyards orbit the planet, the ground is sparsely populated farmland, making it ideal for a black market setup.
+TEXT_CORRUPTION_CORELLIA_STORY_PIRACY,There are many manufacturing satellites above Corellia, and destroying several of them will establish our power over the planet.  Additionally, our units will gain valuable experience.
 TEXT_CORRUPTION_CORULAG_STORY_CORUPTMILITIA,Paying off the Coreguard Security Service will put the planet's defense forces squarely under our control, and will allow us to ferment rebellion should we ever lose control of the planet.
 TEXT_CORRUPTION_CORULAG_STORY_PIRACY,One of the most powerful planets in the Bormea Sector, its system wide riches are ripe for Piracy efforts.
 TEXT_CORRUPTION_CORUSCANT_STORY_BLACKMARKET,The planet's coordinates are 0,0,0 making it the best place in the entire galaxy for a black market organization.
@@ -1206,7 +1206,7 @@ TEXT_DROID_ADVISOR_REBEL_GALACTIC_25,To access detailed information about your e
 TEXT_DROID_ADVISOR_REBEL_LAND_00,Capture reinforcement points using your infantry to increase the maximum unit capacity
 TEXT_DROID_ADVISOR_REBEL_LAND_00_DEMO,Capturing reinforcement points is the key to winning a ground battle.  The more points you control, the more forces you can bring onto the map.  Only infantry or friendly indigenous forces can capture reinforcement points.
 TEXT_DROID_ADVISOR_REBEL_LAND_01,Power Generators are a prime target for attacking forces.
-TEXT_DROID_ADVISOR_REBEL_LAND_01_DEMO,Use Chewie’s capture vehicle special ability to take control of Imperial vehicles and turn them against the Empire.
+TEXT_DROID_ADVISOR_REBEL_LAND_01_DEMO,Use Chewie's capture vehicle special ability to take control of Imperial vehicles and turn them against the Empire.
 TEXT_DROID_ADVISOR_REBEL_LAND_02,Use your unit's special abilities to your advantage.  They can mean the difference between victory and defeat.
 TEXT_DROID_ADVISOR_REBEL_LAND_02_DEMO,Having Y-wings in orbit over Tatooine will give you access to bombing runs during the land battle.
 TEXT_DROID_ADVISOR_REBEL_LAND_03,Sometimes, retreat is a viable option.  It can save lives that can then supplement other allied forces.
@@ -1500,7 +1500,7 @@ TEXT_ENCYCLOPEDIA_MONCAL_SPAWNER,Periodically creates Mon Calamari until destroy
 TEXT_ENCYCLOPEDIA_MULTIPLAYER_BEACON,Creates a communication beacon on the battlefield allowing teammates to coordinate attack and defense strategies visually.
 TEXT_ENCYCLOPEDIA_MUSTAFARIAN_SPAWNER,Periodically creates Mustafarians until destroyed.
 TEXT_ENCYCLOPEDIA_NOGHRI_SPAWNER,Periodically creates Noghri until destroyed.
-TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD,The center for Tyber Zann’s financial interests on a planet. The palace generates credit income and allows for the production of special units on some planets.  Provides power to base structures and radar coverage.
+TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD,The center for Tyber Zann's financial interests on a planet. The palace generates credit income and allows for the production of special units on some planets.  Provides power to base structures and radar coverage.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_01,Upgrades: Technology Levels 1-3, Bombing Run, Orbital Bombardment, Salvage, Structure Shielding Level 1-2.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_1,Level one palace allows production of special units on some planets.  Provides base power and shield.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_2,Level two palace provides all the previous benefits; in addition, allows production of saboteurs and provides radar coverage.
@@ -1511,7 +1511,7 @@ TEXT_ENCYCLOPEDIA_PLANET_DESTROYED,Planetary Debris
 TEXT_ENCYCLOPEDIA_POWER_GENERATOR_00,Enhances ground turrets and powers certain structures. Destruction of the power generator shuts down all dependant structures.
 TEXT_ENCYCLOPEDIA_POWER_GENERATOR_01,Unlocks: Ion Cannon, Base Shield Generator, Turbolaser Tower
 TEXT_ENCYCLOPEDIA_POWER_GENERATOR_02,Unlocks: Base Shield Generator, Magnepulse Cannon, Gravity Control Generator, Turbolaser Tower
-TEXT_ENCYCLOPEDIA_PYNGANI_SPAWNER,Periodically creates Pyn’gani until destroyed.
+TEXT_ENCYCLOPEDIA_PYNGANI_SPAWNER,Periodically creates Pyn'gani until destroyed.
 TEXT_ENCYCLOPEDIA_R_SHIP_SPEED,Increases the movement speed of your team's Frigate and Capital class starships.
 TEXT_ENCYCLOPEDIA_R_SPACE_ALL_ARMOR,Upgrades the armor plating for all space units on your team.
 TEXT_ENCYCLOPEDIA_R_STARBASE_FIREPOWER,Increases the amount of damage done by each hard point on your team's starbase.
@@ -1562,7 +1562,7 @@ TEXT_ENCYCLOPEDIA_VORNSKR_WOLF,Vornskrs are highly efficient hunters, especially
 TEXT_ENCYCLOPEDIA_WAMPA_SPAWNER,Periodically creates a wampa until destroyed
 TEXT_ENCYCLOPEDIA_WOOKIEE_SPAWNER,Periodically creates Wookiees until destroyed.
 TEXT_ENCYCLOPEDIA_YSALAMIRI_TREE,This tree houses many Ysalamiri families.  The Ysalamiri block all use of the Force in a large radius around the tree.
-TEXT_ENCYLOPEDIA_STRUCTURE_BOTHAN_POLOS_HOUSE,Senator Se’Lab’s Palace
+TEXT_ENCYLOPEDIA_STRUCTURE_BOTHAN_POLOS_HOUSE,Senator Se'Lab's Palace
 TEXT_END_OF_DATA,END OF ENGLISH TEXT
 TEXT_ENEMY_FLEET,Enemy Fleet
 TEXT_ENEMY_FLEET_APPROACHING_LOCATION,Enemy fleet incoming at ##0.
@@ -1993,7 +1993,7 @@ TEXT_INDIG_MANDALORIAN,Mandalorian Militiaman
 TEXT_INDIG_MONCAL_CIV,Mon Calamari Civilian
 TEXT_INDIG_MUSTAFARIAN,Mustafarian
 TEXT_INDIG_NOGHRI,Noghri
-TEXT_INDIG_PYNGANI,Pyn’gani Warrior
+TEXT_INDIG_PYNGANI,Pyn'gani Warrior
 TEXT_INDIG_RANCOR,Rancor
 TEXT_INDIG_RECRUIT,Rebel Recruit
 TEXT_INDIG_SARLACC,Sarlacc
@@ -2275,7 +2275,7 @@ TEXT_MAL_SWAP_DESCRIPTION,Swap between standard Concussion missiles and Carbonit
 TEXT_MANDALORE_PIRACY_OBJECTIVE_00,Defeat the Mandalorian Clan Leader in his Keldalbe warship.
 TEXT_MANDALORE_PIRACY_OBJECTIVE_01,Tyber Zann must survive.
 TEXT_MANDALORE_STORY_PIRACY_OBJECTIVE_00,Lure the Mandalorian Clan Leader out of hiding by attacking the Space Station.
-TEXT_MANDALORE_STORY_PIRACY_OBJECTIVE_01,Tyber Zann’s Interceptor Frigate must survive.
+TEXT_MANDALORE_STORY_PIRACY_OBJECTIVE_01,Tyber Zann's Interceptor Frigate must survive.
 TEXT_MANDALORE_STORY_PIRACY_OBJECTIVE_02,Defeat the Mandalorian Clan Leader.
 TEXT_MAP_NAME_MP_LAND_00,Alderaan at War
 TEXT_MAP_NAME_MP_LAND_01,Bothan Bonanza
@@ -2399,20 +2399,20 @@ TEXT_MON_EVENT_FLEET_RAMPAGE_01,The Rebellion will never fall to the Empire.  Yo
 TEXT_MON_EVENT_FLEET_RAMPAGE_02,Many brave individuals perished today.  They are heroes and will be remembered as such.  Our fleet is still intact and will continue to fight against the evil Empire.
 TEXT_MON_EVENT_FLEET_RAMPAGE_03,Your help is in great need, commander.  An Imperial fleet is rampaging through allied systems.  We must regroup and neutralize this evil before any more innocents are murdered.
 TEXT_MON_EVENT_FLEET_TITLE,Fleet Rescue
-TEXT_MON_EVENT_HERO_GATHERING_00,We have received many reports from our spies concerning the Empire.  Apparently, many of the Empire's most influential persons are gathered on one planet.  This is our chance.  Take a fleet and dispatch the Empire’s leaders.
-TEXT_MON_EVENT_HERO_GATHERING_01,A great opportunity has passed us by.  Word comes to me that the Empire’s leaders have gone their separate ways.
+TEXT_MON_EVENT_HERO_GATHERING_00,We have received many reports from our spies concerning the Empire.  Apparently, many of the Empire's most influential persons are gathered on one planet.  This is our chance.  Take a fleet and dispatch the Empire's leaders.
+TEXT_MON_EVENT_HERO_GATHERING_01,A great opportunity has passed us by.  Word comes to me that the Empire's leaders have gone their separate ways.
 TEXT_MON_EVENT_HERO_GATHERING_02,Well done, commander!  Our targets have managed to escape death somehow, but they will not be able to command while they recover from your strike.
 TEXT_MON_EVENT_HUNT_CAPITAL_SHIPS_00,Reports are coming in that several Imperial capital ships have been spotted in orbit above a planet controlled by the Empire.  We cannot allow the Empire to build large fleets unchallenged.  I need you to confront this fleet and destroy at least 3 of these ships.
 TEXT_MON_EVENT_HUNT_CAPITAL_SHIPS_01,The Alliance is in your debt commander.  You have struck a great blow against the Imperial army today.
 TEXT_MON_EVENT_INDIGENOUS_REVOLT_00,Word comes to us that the inhabitants of one of the Empire's systems are revolting against their Imperial oppressors.  They will not last long against the heartless destruction of the Empire.  Act quickly, commander, as time is of the essence.
-TEXT_MON_EVENT_INDIGENOUS_REVOLT_01,We’ve received a distress call from a planet revolting against the Empire.  More and more innocents die every second we do not help them.  The entire populace will soon be wiped out if we do not respond.  Make haste commander.
-TEXT_MON_EVENT_INDIGENOUS_REVOLT_02,This is a sad day, commander.  Word comes to us that the revolt against the Empire has surrendered.  Their losses were too great to continue to fight.  It’s a shame we were unable to help them in their time of need.
+TEXT_MON_EVENT_INDIGENOUS_REVOLT_01,We've received a distress call from a planet revolting against the Empire.  More and more innocents die every second we do not help them.  The entire populace will soon be wiped out if we do not respond.  Make haste commander.
+TEXT_MON_EVENT_INDIGENOUS_REVOLT_02,This is a sad day, commander.  Word comes to us that the revolt against the Empire has surrendered.  Their losses were too great to continue to fight.  It's a shame we were unable to help them in their time of need.
 TEXT_MON_EVENT_INDIGENOUS_REVOLT_03,We have been contacted by the leader of the revolt.  The entire populace of the planet is forever indebted to us.  If ever the Empire strikes at their planet again, they will rise to help us.
 TEXT_MON_EVENT_INDIGENOUS_REVOLT_TITLE,Indigenous Revolt
 TEXT_MON_EVENT_OPPRESSION_01,We have received a distress call that cannot be ignored.  The Empire has conquered yet another planet and the people are suffering greatly.  If we help, they have promised us that a local smuggler and bounty hunter will do our bidding in the future.
 TEXT_MON_EVENT_OPPRESSION_02,Your actions prove your true loyalty to the Alliance and the galaxy.  There are many here who wish to serve under your command.  A smuggler and a bounty hunter have been reassigned to your command.
 TEXT_MON_EVENT_OPPRESSION_TITLE,Empire Oppression
-TEXT_MON_EVENT_PLANET_OWNERSHIP_FLIP_00,One of our allied planets has betrayed us.  It has come to our attention that the system’s leaders have been cooperating with the Empire for some time now.  The system is a great loss to the Alliance.
+TEXT_MON_EVENT_PLANET_OWNERSHIP_FLIP_00,One of our allied planets has betrayed us.  It has come to our attention that the system's leaders have been cooperating with the Empire for some time now.  The system is a great loss to the Alliance.
 TEXT_MON_EVENT_PLANET_WINDFALL_00,Our influences have reached one of the Empire's planets.  They have decided to revolt and join our cause.
 TEXT_MON_EVENT_REFUGEE_01,A band of underground Alliance supporters have been discovered by the Empire.  They are being hunted and need help fleeing to safety.  They have requested that we escort them to a friendly system.  Among the supporters is a wealthy dignitary who will reward you handsomely.
 TEXT_MON_EVENT_REFUGEE_02,The consular thanks you for the great service you have performed for him.  As a reward for your efforts he has decided to reward you generously.
@@ -2429,7 +2429,7 @@ TEXT_MON_EVENT_SCOUT_02,Your actions have strengthened the Alliance.  Many of th
 TEXT_MON_EVENT_STRENGTH_01,In some cases, a show of strength is more effective than diplomacy.  Citizens from an Empire-controlled planet are weary of the Imperial presence throughout galaxy.  They have shown interest in joining the Alliance, but first they require a demonstration of our strength.  If we can defeat the Empire or the pirates in a land battle, they will join our cause.
 TEXT_MON_EVENT_STRENGTH_02,With our last victory, we have gained favor with citizens throughout the galaxy.  In fact, a revolt has taken place on an Empire-controlled controlled planet.  This system has sworn allegiance to us in our future endeavors.
 TEXT_MON_EVENT_STRENGTH_TITLE,Show of Strength
-TEXT_MON_EVENT_STRUCTURE_00,The Alliance needs every credit it can get.  Unfortunately, it does us no good if we don’t use it to both protect ourselves and bring the fight to the Empire.
+TEXT_MON_EVENT_STRUCTURE_00,The Alliance needs every credit it can get.  Unfortunately, it does us no good if we don't use it to both protect ourselves and bring the fight to the Empire.
 TEXT_MON_EVENT_STRUCTURE_01,I am in your debt.  Your actions have attracted a bit of a following - Volunteers have appeared asking to be assigned to your command.
 TEXT_MON_EVENT_TECH_WINDFALL_00,You have done well.  We have some new tech available for you - It should help us in the struggle.  Your tech level has been raised one level.
 TEXT_MON_EVENT_TRAP_00,Recent Imperial troop movements have created an opportunity to strike and liberate another world.  I would advise you to plan an assault, but use caution - a trap is always a possibility.
@@ -2580,7 +2580,7 @@ TEXT_OBJECTIVE_FOCUS_DEMO_LAND_02,Load your infantry into the F9-TZ Transport.
 TEXT_OBJECTIVE_FOCUS_DEMO_LAND_03,Move the transport to the designated area.
 TEXT_OBJECTIVE_FOCUS_DEMO_LAND_04,Destroy all remaining Rebel forces to achieve victory.
 TEXT_OBJECTIVE_UNDERWORLD_PIRACY_TUTORIAL_00,Kill all V-wing squadrons to prepare for the Supreme Strategist's arrival.
-TEXT_OBJECTIVE_UNDERWORLD_PIRACY_TUTORIAL_01,Destroy the Supreme Strategist’s engines by highlighting and Right-Clicking on the engine hardpoint of his ship.
+TEXT_OBJECTIVE_UNDERWORLD_PIRACY_TUTORIAL_01,Destroy the Supreme Strategist's engines by highlighting and Right-Clicking on the engine hardpoint of his ship.
 TEXT_OBJECTIVE_UNDERWORLD_PIRACY_TUTORIAL_02,Move Tyber's shuttle near the Supreme Strategist's ship to hijack it.
 TEXT_OBJECTIVE_UNDERWORLD_PIRACY_TUTORIAL_03,Eliminate the Supreme Strategist's escort.
 TEXT_OBJECTIVE_UNDERWORLD_PIRACY_TUTORIAL_04,Tyber's escort must survive.
@@ -2671,8 +2671,8 @@ TEXT_PLANET_ABREGADORAE_ENCYC,Vigilance: Minor heroes are automatically detected
 TEXT_PLANET_ABREGADORAE_ENCYC_01,While this planet is controlled, all AT-STs cost 20% less to build on all planets.
 TEXT_PLANET_ABREGADORAE_INFO_ADV,Vigilance
 TEXT_PLANET_ABREGADORAE_INFO_ADV_01,Production Boost
-TEXT_PLANET_ABREGADORAE_INFO_HIS,A manufacturing and trade-oriented planet located in the Abregado system of the Core Worlds. Abregado-rae is a temperate planet with rolling hills, lakes and rivers. The planet's spaceport seems safe, at least to the untrained eye. Beneath the spit-shine and polish of lies the heart of a smuggler’s paradise, a spaceport where the galaxy's uncounted species mingle briefly, have wild and sometimes fatal flings and then head off again for parts unknown. The smuggling community maintains a rather large underground information network on this planet.
-TEXT_PLANET_ABREGADORAE_INFO_HIS_01,Abregado-rae is a manufacturing and trade-oriented planet located in the Abregado system of the Core Worlds. Abregado-rae is a temperate planet with rolling hills, lakes and rivers. The planet's spaceport seems safe, at least to the untrained eye. Beneath the spit-shine and polish lies the heart of a smuggler’s paradise, a spaceport where the galaxy's uncounted species mingle briefly, have wild and sometimes fatal flings and then head off again for parts unknown.
+TEXT_PLANET_ABREGADORAE_INFO_HIS,A manufacturing and trade-oriented planet located in the Abregado system of the Core Worlds. Abregado-rae is a temperate planet with rolling hills, lakes and rivers. The planet's spaceport seems safe, at least to the untrained eye. Beneath the spit-shine and polish of lies the heart of a smuggler's paradise, a spaceport where the galaxy's uncounted species mingle briefly, have wild and sometimes fatal flings and then head off again for parts unknown. The smuggling community maintains a rather large underground information network on this planet.
+TEXT_PLANET_ABREGADORAE_INFO_HIS_01,Abregado-rae is a manufacturing and trade-oriented planet located in the Abregado system of the Core Worlds. Abregado-rae is a temperate planet with rolling hills, lakes and rivers. The planet's spaceport seems safe, at least to the untrained eye. Beneath the spit-shine and polish lies the heart of a smuggler's paradise, a spaceport where the galaxy's uncounted species mingle briefly, have wild and sometimes fatal flings and then head off again for parts unknown.
 TEXT_PLANET_ABREGADORAE_INFO_POP,Humans
 TEXT_PLANET_ABREGADORAE_INFO_TAC,Minor heroes are automatically detected and eliminated due to the underground information network.
 TEXT_PLANET_ABREGADORAE_INFO_TER,Hills, rivers, lakes
@@ -2688,15 +2688,15 @@ TEXT_PLANET_AETENII_INFO_TAC,Additional income provided by mining facilities loc
 TEXT_PLANET_AETENII_INFO_TER,Lava Rivers, Volcanoes
 TEXT_PLANET_AETENII_INFO_WEA,Hot, Ashfall
 TEXT_PLANET_AETENII_INFO_WL,None
-TEXT_PLANET_ALDERAAN_ENCYC,Control Resistance (Empire):Imperial base size is restricted due to Alderaan’s opposition of the Emperor.
+TEXT_PLANET_ALDERAAN_ENCYC,Control Resistance (Empire):Imperial base size is restricted due to Alderaan's opposition of the Emperor.
 TEXT_PLANET_ALDERAAN_INFO_ADV,Control Resistance: Empire - The people of Alderaan will not willingly follow Imperial commands, preventing credit production from reaching its full potential.
 TEXT_PLANET_ALDERAAN_INFO_ADV_01,Combat Armor
-TEXT_PLANET_ALDERAAN_INFO_HIS,A peaceful, utopian Core World that serves as the spiritual heart of the galaxy. Alderaan boasts vast skies and plains that support more than 8,000 subspecies of grass, numerous wildflowers and a wealth of unique species. The people of Alderaan love the land and work with it, rather than destroy it. Their society is immersed in high culture and education, and is founded on ecological principles that protect the planet's natural beauty. The horrors of the Clone Wars were taken to heart and the people of Alderaan adopted pacifism banning all weapons from the planet’s surface. However the rise of the Emperor has caused a growing opposition to imperial rule and increased support for the Rebellion.
-TEXT_PLANET_ALDERAAN_INFO_HIS_01,A peaceful, utopian Core World that serves as the spiritual heart of the galaxy. The people of Alderaan are immersed in high culture, education and ecological principles that protect the planet's natural beauty. The horrors of the Clone Wars were taken to heart and the people of Alderaan adopted pacifism banning all weapons from the planet’s surface.
+TEXT_PLANET_ALDERAAN_INFO_HIS,A peaceful, utopian Core World that serves as the spiritual heart of the galaxy. Alderaan boasts vast skies and plains that support more than 8,000 subspecies of grass, numerous wildflowers and a wealth of unique species. The people of Alderaan love the land and work with it, rather than destroy it. Their society is immersed in high culture and education, and is founded on ecological principles that protect the planet's natural beauty. The horrors of the Clone Wars were taken to heart and the people of Alderaan adopted pacifism banning all weapons from the planet's surface. However the rise of the Emperor has caused a growing opposition to imperial rule and increased support for the Rebellion.
+TEXT_PLANET_ALDERAAN_INFO_HIS_01,A peaceful, utopian Core World that serves as the spiritual heart of the galaxy. The people of Alderaan are immersed in high culture, education and ecological principles that protect the planet's natural beauty. The horrors of the Clone Wars were taken to heart and the people of Alderaan adopted pacifism banning all weapons from the planet's surface.
 TEXT_PLANET_ALDERAAN_INFO_HIS_02,Once a peaceful, utopian Core World that served as the spiritual heart of the galaxy. Alderaan boasted vast skies and plains that supported more than 8,000 subspecies of grass, numerous wildflowers and a wealth of unique species. Now an asteroid field, the Graveyard of Alderaan is all that remains of the planet blown up by the Empire with the first Death Star. It is called the Graveyard by spacers and free-traders that spin tales of mysterious Jedi artifacts and ghost ships amidst the ruins. The survivors of Alderaan, who were offworld at the time of its destruction, quickly developed rituals referred to as the Returning where they would return periodically in remembrance for their departed relatives and friends.
 TEXT_PLANET_ALDERAAN_INFO_POP,Human
 TEXT_PLANET_ALDERAAN_INFO_POP_02,Human (annihilated)
-TEXT_PLANET_ALDERAAN_INFO_TAC,Imperial base size is restricted due to Alderaan’s opposition of the Emperor.
+TEXT_PLANET_ALDERAAN_INFO_TAC,Imperial base size is restricted due to Alderaan's opposition of the Emperor.
 TEXT_PLANET_ALDERAAN_INFO_TER,Grasslands
 TEXT_PLANET_ALDERAAN_INFO_WEA,Clear, Rain
 TEXT_PLANET_ALDERAAN_INFO_WILDLIFE_02,Thranta, Nerf (Annihilated)
@@ -2873,14 +2873,14 @@ TEXT_PLANET_DAGOBAH_INFO_TAC,Ground bases are undetectable due to the planet's n
 TEXT_PLANET_DAGOBAH_INFO_TER,Swamp
 TEXT_PLANET_DAGOBAH_INFO_WEA,Clear, Rain
 TEXT_PLANET_DAGOBAH_INFO_WL,Dragonsnakes, Giant Swamp Slug, Bogwings
-TEXT_PLANET_DANTOOINE_ENCYC,Base Stealth (Ground): Ground bases are undetectable due to Dantooine’s isolated location.
+TEXT_PLANET_DANTOOINE_ENCYC,Base Stealth (Ground): Ground bases are undetectable due to Dantooine's isolated location.
 TEXT_PLANET_DANTOOINE_ENCYC_01,Grants a 15% speed boost to all MPTL and T4-B tanks in the galaxy as long as this planet is controlled.
 TEXT_PLANET_DANTOOINE_INFO_ADV,Base Stealth: Ground
 TEXT_PLANET_DANTOOINE_INFO_ADV_01,Improved Treads
 TEXT_PLANET_DANTOOINE_INFO_HIS,An olive, blue and brown-colored world, Dantooine is far removed from the bustle of the galactic trade routes deep in the Outer Rim. Dantooine is an isolated, unspoiled world covered by sprawling grasslands and oceans. Two moons float in the skies above, while herds of livestock roam empty steppes and savannas of lavender grasses. Dantooine is largely uninhabited save for a small human population and a few tribes of the nomadic Dantari that can be found wandering the coastlines. Separated by forests of spiky blba trees, colonists maintain individual family estates largely isolated from each other. Dantooine's distance from trade routes is often overlooked as a military benefit.
 TEXT_PLANET_DANTOOINE_INFO_HIS_01,Dantooine is an isolated, unspoiled world covered by sprawling grasslands and oceans. Two moons float in the skies above, while herds of livestock roam empty steppes and savannas of lavender grasses. Dantooine is largely uninhabited save for a small human population and a few tribes of the nomadic Dantari that can be found wandering the coastlines. Separated by forests of spiky blba trees, colonists maintain individual family estates largely isolated from each other.
 TEXT_PLANET_DANTOOINE_INFO_POP,Human colonists
-TEXT_PLANET_DANTOOINE_INFO_TAC,Ground bases are undetectable due to Dantooine’s isolated location.
+TEXT_PLANET_DANTOOINE_INFO_TAC,Ground bases are undetectable due to Dantooine's isolated location.
 TEXT_PLANET_DANTOOINE_INFO_TER,Grasslands, steppes, savannahs, mountains
 TEXT_PLANET_DANTOOINE_INFO_WEA,Clear, Rain
 TEXT_PLANET_DANTOOINE_INFO_WL,Dantari, Stalker Lizards
@@ -2892,22 +2892,22 @@ TEXT_PLANET_DATHOMIR_INFO_TAC,Ground bases are undetectable due to the Force-sen
 TEXT_PLANET_DATHOMIR_INFO_TER,Forests, Mountains, Deserts, Canyons
 TEXT_PLANET_DATHOMIR_INFO_WEA,Rain
 TEXT_PLANET_DATHOMIR_INFO_WL,Rancor
-TEXT_PLANET_DURO_ENCYC,Production Cost Reduction (Space Stations): Cost of space stations is reduced due to Duro’s vast orbital urban centers.
+TEXT_PLANET_DURO_ENCYC,Production Cost Reduction (Space Stations): Cost of space stations is reduced due to Duro's vast orbital urban centers.
 TEXT_PLANET_DURO_INFO_ADV,Production Cost Reduction: Space Stations
 TEXT_PLANET_DURO_INFO_HIS,A planet in the Galactic Core, Duro is the homeworld of a species known as Duros. The planet is mostly uninhabited, but covered with automated farms that help feed inhabitants of the space cities. Animal life once included a now-extinct cannibal arachnid. The Duros, who have large eyes, thin slits for mouths, and no noses, have been traveling space and hauling cargo for thousands of years. Their star system is filled with vast, orbiting cities and many smaller depots and shipyards. It is governed by a group of starship corporations; where political decisions are made by stockholders who try to remain neutral.  Duro's vast orbital urban center can quickly construct new space stations and cities.
 TEXT_PLANET_DURO_INFO_POP,Duros
-TEXT_PLANET_DURO_INFO_TAC,Cost of space stations is reduced due to Duro’s vast orbital urban centers.
+TEXT_PLANET_DURO_INFO_TAC,Cost of space stations is reduced due to Duro's vast orbital urban centers.
 TEXT_PLANET_DURO_INFO_TER,Automated agricultural farms, barren
 TEXT_PLANET_DURO_INFO_WEA,Clear, Rain
 TEXT_PLANET_DURO_INFO_WL,Fefze Beetles
-TEXT_PLANET_ENDOR_ENCYC,Base Stealth (Space): Space stations are undetectable due to Endor’s Gravity Field. Ewoks may aid friendly forces.
+TEXT_PLANET_ENDOR_ENCYC,Base Stealth (Space): Space stations are undetectable due to Endor's Gravity Field. Ewoks may aid friendly forces.
 TEXT_PLANET_ENDOR_ENCYC_01,All TIE maulers, AT-ST and AT-AA in the galaxy have a 15% chance to reflect incoming blaster fire as long as this planet is controlled.
 TEXT_PLANET_ENDOR_INFO_ADV,Base Stealth: Space
 TEXT_PLANET_ENDOR_INFO_ADV_01,Light Armor Upgrade
 TEXT_PLANET_ENDOR_INFO_HIS,Located in the Moddell sector of the Outer Rim, this silvery gas giant planet is orbited by nine moons. The largest moon is the size of a small planet and is known as the forest moon or simply Endor. It is covered by savannas, mountains and woodlands with trees that reach thousands of meters in height. A wide range of intelligent creatures inhabit Endor, from the vicious and towering Gorax to the courageous Ewoks. The Ewoks build their sprawling villages in Endor's trees that are connected by suspended bridges, ropes and wooden platforms. Ewoks are deceptively innocuous, but are keen warriors and hunters capable of using their ingenuity and natural surroundings to their advantage.
 TEXT_PLANET_ENDOR_INFO_HIS_01,The largest moon of the gas giant Endor is known as the Forest Moon or simply Endor. It is covered by savannas, mountains and woodlands with trees that reach thousands of meters in height. A wide range of intelligent creatures inhabit Endor, from the vicious and towering Gorax to the courageous Ewoks. Ewoks are deceptively innocuous, but are keen warriors and hunters capable of using their ingenuity and natural surroundings to their advantage.
 TEXT_PLANET_ENDOR_INFO_POP,Ewoks
-TEXT_PLANET_ENDOR_INFO_TAC,Space stations are undetectable due to Endor’s Gravity Field. Ewoks may aid friendly forces.
+TEXT_PLANET_ENDOR_INFO_TAC,Space stations are undetectable due to Endor's Gravity Field. Ewoks may aid friendly forces.
 TEXT_PLANET_ENDOR_INFO_TER,Forest, savannas, mountains
 TEXT_PLANET_ENDOR_INFO_WEA,Clear, Rain
 TEXT_PLANET_ENDOR_INFO_WL,Blurrg, Gorax, Condor Dragons
@@ -2930,14 +2930,14 @@ TEXT_PLANET_FELUCIA_INFO_TAC,While this planet is controlled, all ground units a
 TEXT_PLANET_FELUCIA_INFO_TER,Jungle
 TEXT_PLANET_FELUCIA_INFO_WEA,Rain
 TEXT_PLANET_FELUCIA_INFO_WL,Ground Beetle
-TEXT_PLANET_FONDOR_ENCYC,Production Cost Reduction (Frigates): Cost of frigate class ships is reduced due to Fondor’s orbital construction facilities.
+TEXT_PLANET_FONDOR_ENCYC,Production Cost Reduction (Frigates): Cost of frigate class ships is reduced due to Fondor's orbital construction facilities.
 TEXT_PLANET_FONDOR_ENCYC_01,While this planet is controlled, Alliance Assault Frigates cost 20% less to build on all planets.
 TEXT_PLANET_FONDOR_INFO_ADV,Production Cost Reduction: Frigate class ships
 TEXT_PLANET_FONDOR_INFO_ADV_01,Production Boost
-TEXT_PLANET_FONDOR_INFO_HIS,An industrial Core World in the system of the same name, Fondor is densely populated and has sprawling urban centers, factories and junkyards across the entire planet. Fondor is in the Tapani sector in an area designated as a manufacturing and shipbuilding center precisely because of resource-rich asteroids, moons and other worlds ripe for abuse. The planet boasts huge orbital starship construction facilities that provide an abundant feeding ground for Mynocks, flying parasites that feed on energy. They are often found chewing on exposed power cables of ships in construction. Fondor’s orbital starship construction facilities cater to frigate sized starships reducing their cost.
+TEXT_PLANET_FONDOR_INFO_HIS,An industrial Core World in the system of the same name, Fondor is densely populated and has sprawling urban centers, factories and junkyards across the entire planet. Fondor is in the Tapani sector in an area designated as a manufacturing and shipbuilding center precisely because of resource-rich asteroids, moons and other worlds ripe for abuse. The planet boasts huge orbital starship construction facilities that provide an abundant feeding ground for Mynocks, flying parasites that feed on energy. They are often found chewing on exposed power cables of ships in construction. Fondor's orbital starship construction facilities cater to frigate sized starships reducing their cost.
 TEXT_PLANET_FONDOR_INFO_HIS_01,Fondor is densely populated and has sprawling urban centers, factories and junkyards across the entire planet. Fondor is designated as a manufacturing and shipbuilding center because of nearby resource-rich asteroids, moons and other worlds ripe for abuse. The planet boasts huge orbital starship construction facilities that provide an abundant feeding ground for Mynocks, flying parasites that feed on energy.
 TEXT_PLANET_FONDOR_INFO_POP,Human
-TEXT_PLANET_FONDOR_INFO_TAC,Cost of frigate class ships is reduced due to Fondor’s orbital construction facilities.
+TEXT_PLANET_FONDOR_INFO_TAC,Cost of frigate class ships is reduced due to Fondor's orbital construction facilities.
 TEXT_PLANET_FONDOR_INFO_TER,Urban sprawl
 TEXT_PLANET_FONDOR_INFO_WEA,Clear, Rain
 TEXT_PLANET_FONDOR_INFO_WL,Mynock
@@ -2989,18 +2989,18 @@ TEXT_PLANET_HONOGHR_INFO_TAC,Reinforcement points take 15% less time to capture;
 TEXT_PLANET_HONOGHR_INFO_TER,Scorched Plains
 TEXT_PLANET_HONOGHR_INFO_WEA,Clear
 TEXT_PLANET_HONOGHR_INFO_WL,None
-TEXT_PLANET_HOTH_ENCYC,Base Stealth (Ground): Ground bases are undetectable due to Hoth’s distant location.
+TEXT_PLANET_HOTH_ENCYC,Base Stealth (Ground): Ground bases are undetectable due to Hoth's distant location.
 TEXT_PLANET_HOTH_INFO_ADV,Base Stealth: Ground
 TEXT_PLANET_HOTH_INFO_HIS,An isolated, barren ice planet located in the outer reaches of the known galaxy. Hoth is a dangerous world where the elements are a constant threat. The entire planet is blanketed in snow and ice, with evening temperatures dipping well below the freezing point.  Meteors also crash against Hoth's surface with frightening regularity. Despite these hardships, Hoth is inhabited by few species save the savage wampa ice creature and the docile tauntaun. The planet is often overlooked as having any value for settlements, military or mining operations, making it ideal for a smuggling base or secret installation.
 TEXT_PLANET_HOTH_INFO_HIS_01,Hoth is a dangerous world where the elements are a constant threat. The entire planet is blanketed in snow and ice, with evening temperatures dipping well below the freezing point.  Meteors also crash against Hoth's surface with frightening regularity. Because of these hardships, Hoth is inhabited by few species; like the savage wampa ice creature and the docile tauntaun.
 TEXT_PLANET_HOTH_INFO_POP,None
-TEXT_PLANET_HOTH_INFO_TAC,Ground bases are undetectable due to Hoth’s distant location.
+TEXT_PLANET_HOTH_INFO_TAC,Ground bases are undetectable due to Hoth's distant location.
 TEXT_PLANET_HOTH_INFO_TER,caves, frozen plains, mountain ranges
 TEXT_PLANET_HOTH_INFO_WEA,Clear, Snow, Blizzard
 TEXT_PLANET_HOTH_INFO_WL,Tauntauns, Wampas
 TEXT_PLANET_HYPORI_ENCYC,Production Time Reduction (ground vehicles): While this planet is controlled, all ground vehicles take 25% less time to build (excludes Dark Troopers and Destroyer Droids).
 TEXT_PLANET_HYPORI_INFO_ADV,Production Time Reduction (ground vehicles)
-TEXT_PLANET_HYPORI_INFO_HIS,Located in the Outer Rim, Hypori is a temperate world rich with minerals, but has no intelligent life. After the Battle of Naboo, the Republic passed strict laws that severely hampered the manufacture and distribution of battle droid armies. In secret, the leaders of the Baktoid Armor Workshop sponsored a colonial effort transporting an entire Geonosian hive to Hypori to build a new hidden foundry for the Trade Federation’s battle droid armies. Though the tough bedrock and soil proved difficult to assimilate into a true and proper hive-mound, the Geonosian workers nonetheless turned the planet into a massive foundry, churning out battle droids in preparation for the Clone Wars to come.
+TEXT_PLANET_HYPORI_INFO_HIS,Located in the Outer Rim, Hypori is a temperate world rich with minerals, but has no intelligent life. After the Battle of Naboo, the Republic passed strict laws that severely hampered the manufacture and distribution of battle droid armies. In secret, the leaders of the Baktoid Armor Workshop sponsored a colonial effort transporting an entire Geonosian hive to Hypori to build a new hidden foundry for the Trade Federation's battle droid armies. Though the tough bedrock and soil proved difficult to assimilate into a true and proper hive-mound, the Geonosian workers nonetheless turned the planet into a massive foundry, churning out battle droids in preparation for the Clone Wars to come.
 TEXT_PLANET_HYPORI_INFO_POP,None
 TEXT_PLANET_HYPORI_INFO_TAC,While this planet is controlled, all ground vehicles take 25% less time to build (excludes Dark Troopers and Destroyer Droids).
 TEXT_PLANET_HYPORI_INFO_TER,Temperate
@@ -3023,7 +3023,7 @@ TEXT_PLANET_INFO_WEATHER,Weather:
 TEXT_PLANET_JABIIM_ENCYC,Restricted Units: Repulsorlift vehicles are rendered inoperable due to electrical storms, acid rain and mud, and therefore cannot be deployed.
 TEXT_PLANET_JABIIM_INFO_ADV,None
 TEXT_PLANET_JABIIM_INFO_ADV_01,Restricted Units
-TEXT_PLANET_JABIIM_INFO_HIS,Located in the Outer Rim, Jabiim is a storm-drenched world with mineral wealth. After years of exploitation, the world that was once famed for its endless rains is now becoming a desert. The moisture that is left in the atmosphere has become terminally polluted, causing sporadic storms of violent electricity and deadly acid rain.  All that's beautiful has been decimated.  Vast strip mines now scar its surface, and its seas and rivers run black with ash and slag. Huge digging and boring machines continue to cut ever deeper into the surface of the dying planet. Jabiim’s harsh atmospheric conditions cause repulsorlift vehicles to break down quickly.
+TEXT_PLANET_JABIIM_INFO_HIS,Located in the Outer Rim, Jabiim is a storm-drenched world with mineral wealth. After years of exploitation, the world that was once famed for its endless rains is now becoming a desert. The moisture that is left in the atmosphere has become terminally polluted, causing sporadic storms of violent electricity and deadly acid rain.  All that's beautiful has been decimated.  Vast strip mines now scar its surface, and its seas and rivers run black with ash and slag. Huge digging and boring machines continue to cut ever deeper into the surface of the dying planet. Jabiim's harsh atmospheric conditions cause repulsorlift vehicles to break down quickly.
 TEXT_PLANET_JABIIM_INFO_HIS_01,Jabiim is a storm-drenched world with mineral wealth. After years of exploitation, the world that was once famed for its endless rains is now becoming a desert. The moisture that is left in the atmosphere has become terminally polluted, causing sporadic storms of violent electricity and deadly acid rain.  All that's beautiful has been decimated.  Vast strip mines now scar its surface, and its seas and rivers run black with ash and slag.
 TEXT_PLANET_JABIIM_INFO_POP,Humans, Jabiimites
 TEXT_PLANET_JABIIM_INFO_TAC,Repulsorlift vehicles are rendered inoperable due to electrical storms, acid rain and mud, and therefore cannot be deployed.
@@ -3110,14 +3110,14 @@ TEXT_PLANET_MANDALORE_INFO_TAC,The cost of Mandalorian units (StarViper, Crusade
 TEXT_PLANET_MANDALORE_INFO_TER,Forest, Jungle, Desert
 TEXT_PLANET_MANDALORE_INFO_WEA,Rain
 TEXT_PLANET_MANDALORE_INFO_WL,Strills, Rawls
-TEXT_PLANET_MONCALAMARI_ENCYC,Production Cost Reduction (Capital Ships): Cost of capital class ships is reduced due to Mon Calamari’s access to raw materials and orbital shipyards.  Mon Calamari may aid Rebellion forces.
+TEXT_PLANET_MONCALAMARI_ENCYC,Production Cost Reduction (Capital Ships): Cost of capital class ships is reduced due to Mon Calamari's access to raw materials and orbital shipyards.  Mon Calamari may aid Rebellion forces.
 TEXT_PLANET_MONCALAMARI_ENCYC_01,While this planet is controlled, Mon Calamari Cruisers cost 20% less to build on all planets.
 TEXT_PLANET_MONCALAMARI_INFO_ADV,Production Cost Reduction: Capital class ships
 TEXT_PLANET_MONCALAMARI_INFO_ADV_01,Production Boost
 TEXT_PLANET_MONCALAMARI_INFO_HIS,An Outer Rim world nearly completely covered with water. The surface of the planet Mon Calamari (sometimes called simply Calamari) is covered with small marshy islands and enormous floating cities. The architecture and design of the floating cities has an organic appearance, with rounded edges and irregular surfaces, demonstrating the inhabitants' love for the natural beauty of their world.  Mon Calamari is home to more than 27 billion inhabitants: the peace-loving Mon Calamari and the cautious Quarren. Raw materials from the ocean depths are mined by the Quarren and used by the Mon Calamari for various construction projects throughout the floating cities and orbital shipyards.
 TEXT_PLANET_MONCALAMARI_INFO_HIS_01,An Outer Rim world nearly completely covered with water. The surface of the planet Mon Calamari (sometimes called simply Calamari) is covered with small marshy islands and enormous floating cities. Mon Calamari is home to more than 27 billion inhabitants: the peace-loving Mon Calamari and the cautious Quarren. Raw materials from the ocean depths are mined by the Quarren and used by the Mon Calamari for various construction projects throughout the floating cities and orbital shipyards.
 TEXT_PLANET_MONCALAMARI_INFO_POP,Mon Calamari, Quarren
-TEXT_PLANET_MONCALAMARI_INFO_TAC,Cost of capital class ships is reduced due to Mon Calamari’s access to raw materials and orbital shipyards.
+TEXT_PLANET_MONCALAMARI_INFO_TAC,Cost of capital class ships is reduced due to Mon Calamari's access to raw materials and orbital shipyards.
 TEXT_PLANET_MONCALAMARI_INFO_TER,Ocean, Islands
 TEXT_PLANET_MONCALAMARI_INFO_WEA,Clear, Rain
 TEXT_PLANET_MONCALAMARI_INFO_WL,Krakanas, Sea Slugs, Choarn, Lampfish, Whaladons
@@ -3130,7 +3130,7 @@ TEXT_PLANET_MUSTAFAR_INFO_TER,Volcanic
 TEXT_PLANET_MUSTAFAR_INFO_WEA,Rain of Ash
 TEXT_PLANET_MUSTAFAR_INFO_WL,Lava Fleas, Blistmoks
 TEXT_PLANET_MUUNILINST_ENCYC,High Credit Value: This planet has a higher than average credit production rate.
-TEXT_PLANET_MUUNILINST_INFO_HIS,Located in the Outer Rim, Muunilinst’s terrain is mountainous with grass plains and cities. One of the wealthiest worlds in the galaxy, Muunilinst was the home of the InterGalactic Banking Clan and the financial core of the Empire. Officially, the planet was named Muunilinst, unofficially it was known to many as Moneylend. The native Muuns turned the world into an immense center of commerce, despite its distance from the Galactic Core. Gleaming marble edifices dominated the stately cities of Muunilinst. Columns, capitals, volutes, acroteria, and entablatures can be found throughout the Muun architecture. These classical structures would become marred by warfare on rare but devastating occasions.
+TEXT_PLANET_MUUNILINST_INFO_HIS,Located in the Outer Rim, Muunilinst's terrain is mountainous with grass plains and cities. One of the wealthiest worlds in the galaxy, Muunilinst was the home of the InterGalactic Banking Clan and the financial core of the Empire. Officially, the planet was named Muunilinst, unofficially it was known to many as Moneylend. The native Muuns turned the world into an immense center of commerce, despite its distance from the Galactic Core. Gleaming marble edifices dominated the stately cities of Muunilinst. Columns, capitals, volutes, acroteria, and entablatures can be found throughout the Muun architecture. These classical structures would become marred by warfare on rare but devastating occasions.
 TEXT_PLANET_MUUNILINST_INFO_POP,Muuns
 TEXT_PLANET_MUUNILINST_INFO_TER,Temperate
 TEXT_PLANET_MUUNILINST_INFO_WEA,Rain
@@ -3143,14 +3143,14 @@ TEXT_PLANET_MYRKR_INFO_TAC,Due to high concentrations of Ysalamiri, Force abilit
 TEXT_PLANET_MYRKR_INFO_TER,Forest
 TEXT_PLANET_MYRKR_INFO_WEA,Rain
 TEXT_PLANET_MYRKR_INFO_WL,Ysalamiri, Vornskr
-TEXT_PLANET_NABOO_ENCYC,Control Resistance (Empire): Imperial base size limited due to Naboo’s opposition toward the Emperor.  Gungans may aid Rebellion forces.
+TEXT_PLANET_NABOO_ENCYC,Control Resistance (Empire): Imperial base size limited due to Naboo's opposition toward the Emperor.  Gungans may aid Rebellion forces.
 TEXT_PLANET_NABOO_ENCYC_01,While this planet is owned, all T4-B tanks in the galaxy gain a 25% damage bonus.
 TEXT_PLANET_NABOO_INFO_ADV,Control Resistance: Empire
 TEXT_PLANET_NABOO_INFO_ADV_01,T4-B Damage Bonus
 TEXT_PLANET_NABOO_INFO_HIS,A temperate planet in the Chommell Sector of the Mid Rim, Naboo is covered by thick swamps, rolling plains, and green hills. Unlike many other planets, Naboo lacks a molten core. Instead, the planet's innards are composed of a massive honeycomb structure filled with water. The planet is also home to numerous animal species and is inhabited by the peaceful Naboo and the more warlike Gungans. The Naboo typically populate striking cities such as Theed, while the Gungans dwell in exotic bubble cities hidden in lakes and swamps. Both the Naboo and the Gungans oppose the Emperor.
 TEXT_PLANET_NABOO_INFO_HIS_01,Naboo is covered by thick swamps, rolling plains, and green hills. Unlike many other planets, Naboo lacks a molten core. Instead, the planet's innards are composed of a massive honeycomb structure filled with water. The planet is also home to numerous animal species and is inhabited by the peaceful Naboo and the more warlike Gungans. The Naboo typically populate striking cities such as Theed, while the Gungans dwell in exotic bubble cities hidden in lakes and swamps.
 TEXT_PLANET_NABOO_INFO_POP,Naboo, Gungans
-TEXT_PLANET_NABOO_INFO_TAC,Imperial base size limited due to Naboo’s opposition toward the Emperor.
+TEXT_PLANET_NABOO_INFO_TAC,Imperial base size limited due to Naboo's opposition toward the Emperor.
 TEXT_PLANET_NABOO_INFO_TER,Grassland, swamp
 TEXT_PLANET_NABOO_INFO_WEA,Clear, Rain
 TEXT_PLANET_NABOO_INFO_WL,Kaadu, Falumpasets, Fambaas, Shaaks, Colo Claw Fish, Tusk Cat
@@ -3168,16 +3168,16 @@ TEXT_PLANET_NALHUTTA_INFO_WEA,Polluted, rain
 TEXT_PLANET_NALHUTTA_INFO_WL,T'landa Til, various aliens
 TEXT_PLANET_POLUS_INFO_ADV,High credit value
 TEXT_PLANET_POLUS_INFO_ENCYC,High credit value: Additional income provided by carbonite mining
-TEXT_PLANET_POLUS_INFO_HIS,Humbly orbiting the binary star Avindia in the Outer Rim, Polus is an artic, mostly mountainous planet with one massive frozen ocean. The average daytime temperature is 50 below freezing with frequent blizzards and ice storms and the brief but seasonal warming period when the planet is hit by light from both suns. Polus is inhabited by the Pyn’gani who are masters of thermal dynamics. Their cities and habitats are shielded by a network of heat generators protecting them from the extreme cold. The Pyn’gani played a major role in developing the carbonite freezing process used to store goods for long term shipment and mining the valuable metal continues to be major source of income.
-TEXT_PLANET_POLUS_INFO_HIS_01,Polus is an arctic, mostly mountainous planet with one massive frozen ocean, with frequent blizzards and ice storms and the brief but seasonal warming period when the planet is hit by light from both suns. Polus is inhabited by the Pyn’gani, whose cities are shielded by a network of heat generators protecting them from the extreme cold. The Pyn’gani played a major role in developing the carbonite freezing process, and mining the valuable metal continues to be major source of income.
+TEXT_PLANET_POLUS_INFO_HIS,Humbly orbiting the binary star Avindia in the Outer Rim, Polus is an artic, mostly mountainous planet with one massive frozen ocean. The average daytime temperature is 50 below freezing with frequent blizzards and ice storms and the brief but seasonal warming period when the planet is hit by light from both suns. Polus is inhabited by the Pyn'gani who are masters of thermal dynamics. Their cities and habitats are shielded by a network of heat generators protecting them from the extreme cold. The Pyn'gani played a major role in developing the carbonite freezing process used to store goods for long term shipment and mining the valuable metal continues to be major source of income.
+TEXT_PLANET_POLUS_INFO_HIS_01,Polus is an arctic, mostly mountainous planet with one massive frozen ocean, with frequent blizzards and ice storms and the brief but seasonal warming period when the planet is hit by light from both suns. Polus is inhabited by the Pyn'gani, whose cities are shielded by a network of heat generators protecting them from the extreme cold. The Pyn'gani played a major role in developing the carbonite freezing process, and mining the valuable metal continues to be major source of income.
 TEXT_PLANET_POLUS_INFO_POP,Pyn'gani
 TEXT_PLANET_POLUS_INFO_TAC,Additional income provided by carbonite mining
 TEXT_PLANET_POLUS_INFO_TER,Mountainous, scattered cities
 TEXT_PLANET_POLUS_INFO_WEA,Blizzards, Ice Storms
-TEXT_PLANET_POLUS_INFO_WL,Dral’k ice worms, various aquatic life forms
+TEXT_PLANET_POLUS_INFO_WL,Dral'k ice worms, various aquatic life forms
 TEXT_PLANET_RALLTIIR_ENCYC,Production Cost Reduction (All ground units): Cost of all ground units reduced due to Ralltiir's industry.
 TEXT_PLANET_RALLTIIR_INFO_ADV,Production Cost Reduction: All ground units
-TEXT_PLANET_RALLTIIR_INFO_HIS,A world located in the system of the same name that lies along the Perlemian Trade Route in the Darpa sector of the Core Worlds, just on the border of the Colonies region. The planet’s surface is littered with urban sprawls, mountains and wetlands. Over the last several hundred years, Ralltiir was the only planet in the Darpa sector able to maintain its independence from the nearby world of Esseles. In recent history, Ralltiir has become an attractive, high-technology world famous for its banking industry and home to the Grallia Spaceport. Ralltiir attracts all kinds of business and reducing the cost of goods for many products.
+TEXT_PLANET_RALLTIIR_INFO_HIS,A world located in the system of the same name that lies along the Perlemian Trade Route in the Darpa sector of the Core Worlds, just on the border of the Colonies region. The planet's surface is littered with urban sprawls, mountains and wetlands. Over the last several hundred years, Ralltiir was the only planet in the Darpa sector able to maintain its independence from the nearby world of Esseles. In recent history, Ralltiir has become an attractive, high-technology world famous for its banking industry and home to the Grallia Spaceport. Ralltiir attracts all kinds of business and reducing the cost of goods for many products.
 TEXT_PLANET_RALLTIIR_INFO_POP,Human
 TEXT_PLANET_RALLTIIR_INFO_TAC,Cost of all ground units reduced due to Ralltiir's industry.
 TEXT_PLANET_RALLTIIR_INFO_TER,Urban sprawls, mountains, wetland
@@ -3207,14 +3207,14 @@ TEXT_PLANET_ROTHANA_INFO_TAC,Heavy vehicles can be quickly produced due to the p
 TEXT_PLANET_ROTHANA_INFO_TER,Cities, rocky barren wastes, mountains
 TEXT_PLANET_ROTHANA_INFO_WEA,Clear, Rain
 TEXT_PLANET_ROTHANA_INFO_WL,None
-TEXT_PLANET_RYLOTH_ENCYC,Vigilance: Minor heroes are automatically detected and eliminated due to Twi’lek culture.  Twi'leks may aid friendly forces.
+TEXT_PLANET_RYLOTH_ENCYC,Vigilance: Minor heroes are automatically detected and eliminated due to Twi'lek culture.  Twi'leks may aid friendly forces.
 TEXT_PLANET_RYLOTH_ENCYC_01,While this planet is owned, all Stormtroopers in the galaxy gain a 35% health bonus.
 TEXT_PLANET_RYLOTH_INFO_ADV,Vigilance
 TEXT_PLANET_RYLOTH_INFO_ADV_01,Stamina Boost
 TEXT_PLANET_RYLOTH_INFO_HIS_01,Mountainous Ryloth rotates so slowly that its rotation is equal to the length of its orbit around the sun. One side of the planet always faces the sun and the only habitable areas are in the band of twilight separating the two sides. The Twi'leks live in a network of mountain catacombs; their culture is very social with information about everyone and everything on the planet changing hands constantly.
-TEXT_PLANET_RYLOTH_INFO_HIST,Located in the Outer Rim near Tatooine and home to the Twi'leks, Ryloth is the principal planet in the Ryloth system. Mountainous Ryloth rotates so slowly that its rotation is equal to the length of its orbit around the sun. One side of the planet always faces the sun and the only habitable areas are in the band of twilight separating the two sides. Heat storms in Ryloth's thin atmosphere help to distribute warmth throughout the twilight zone, where the Twi'leks live in a network of mountain catacombs. Twi'leks are a humanoid species with two large, fleshy head-tails growing from their skulls. Twi’lek culture is very social with information about everyone and everything on the planet changing hands constantly.
+TEXT_PLANET_RYLOTH_INFO_HIST,Located in the Outer Rim near Tatooine and home to the Twi'leks, Ryloth is the principal planet in the Ryloth system. Mountainous Ryloth rotates so slowly that its rotation is equal to the length of its orbit around the sun. One side of the planet always faces the sun and the only habitable areas are in the band of twilight separating the two sides. Heat storms in Ryloth's thin atmosphere help to distribute warmth throughout the twilight zone, where the Twi'leks live in a network of mountain catacombs. Twi'leks are a humanoid species with two large, fleshy head-tails growing from their skulls. Twi'lek culture is very social with information about everyone and everything on the planet changing hands constantly.
 TEXT_PLANET_RYLOTH_INFO_POP,Twi'leks
-TEXT_PLANET_RYLOTH_INFO_TAC,Minor heroes are automatically detected and eliminated due to Twi’lek culture.
+TEXT_PLANET_RYLOTH_INFO_TAC,Minor heroes are automatically detected and eliminated due to Twi'lek culture.
 TEXT_PLANET_RYLOTH_INFO_TER,Mountains, deserts, tundra
 TEXT_PLANET_RYLOTH_INFO_WEA,Clear, heat storms
 TEXT_PLANET_RYLOTH_INFO_WL,lylek
@@ -3228,14 +3228,14 @@ TEXT_PLANET_SALEUCAMI_INFO_WEA,Clear
 TEXT_PLANET_SALEUCAMI_INFO_WL,Gorgs
 TEXT_PLANET_SHOLA_ENCYC,Auto-damage (Infantry): Infantry take automatic damage over time due to the intense heat and dangerous terrain.
 TEXT_PLANET_SHOLA_INFO_ADV,Auto-damage: Infantry
-TEXT_PLANET_SHOLA_INFO_HIS,Located in the Magatesso system, Shola is a barren, volcanic planet with a dense atmosphere and heavy magma flows littering the landscape. Massive ruins and deep crevasses are scattered throughout the planet, but remain largely unexplored due to the volatile atmosphere, ground quakes and heavy magma flows. Deep scans of the planet also show mining tunnel systems that lead almost to the planet’s core and support the theory that the alien species that once existed here may have destroyed themselves in a massive cataclysm that left the planet in its current state. Long term exposure to Shola’s environment can be extremely harmful to those trying to take refuge here.
-TEXT_PLANET_SHOLA_INFO_HIS_01,Shola is a barren, volcanic planet with a dense atmosphere and heavy magma flows littering the landscape. Massive ruins and deep crevasses are scattered throughout the planet, but remain largely unexplored due to the deadly terrain. Deep scans of the planet also show mining tunnel systems that lead almost to the planet’s core and support the theory that the alien species that once existed here may have destroyed themselves in a massive cataclysm that left the planet in its current state.
+TEXT_PLANET_SHOLA_INFO_HIS,Located in the Magatesso system, Shola is a barren, volcanic planet with a dense atmosphere and heavy magma flows littering the landscape. Massive ruins and deep crevasses are scattered throughout the planet, but remain largely unexplored due to the volatile atmosphere, ground quakes and heavy magma flows. Deep scans of the planet also show mining tunnel systems that lead almost to the planet's core and support the theory that the alien species that once existed here may have destroyed themselves in a massive cataclysm that left the planet in its current state. Long term exposure to Shola's environment can be extremely harmful to those trying to take refuge here.
+TEXT_PLANET_SHOLA_INFO_HIS_01,Shola is a barren, volcanic planet with a dense atmosphere and heavy magma flows littering the landscape. Massive ruins and deep crevasses are scattered throughout the planet, but remain largely unexplored due to the deadly terrain. Deep scans of the planet also show mining tunnel systems that lead almost to the planet's core and support the theory that the alien species that once existed here may have destroyed themselves in a massive cataclysm that left the planet in its current state.
 TEXT_PLANET_SHOLA_INFO_POP,None, Unknown (Extinct)
 TEXT_PLANET_SHOLA_INFO_TAC,Auto-Damage: Infantry
 TEXT_PLANET_SHOLA_INFO_TER,Desolate, mostly flat, magma rivers
 TEXT_PLANET_SHOLA_INFO_WEA,Ash storms, dust storms
 TEXT_PLANET_SHOLA_INFO_WL,Magma snakes
-TEXT_PLANET_SPACE_BASE_STEALTH_DESC,Space stations are undetectable due to Endor’s Gravity Field. Ewoks may aid friendly forces.
+TEXT_PLANET_SPACE_BASE_STEALTH_DESC,Space stations are undetectable due to Endor's Gravity Field. Ewoks may aid friendly forces.
 TEXT_PLANET_SULLUST_ENCYC,Production Cost Reduction (Corvette): Cost reduced for corvette sized ships due to the presence of the SoroSuub Corporation.
 TEXT_PLANET_SULLUST_ENCYC_01,While this planet is controlled, Tartan Patrol Cruisers cost 20% less to build on all planets.
 TEXT_PLANET_SULLUST_INFO_ADV,Production Cost Reduction: Corvette class ships
@@ -3258,14 +3258,14 @@ TEXT_PLANET_TARIS_INFO_TAC,Cost of all ships is reduced due to Taris' thriving s
 TEXT_PLANET_TARIS_INFO_TER,Urban
 TEXT_PLANET_TARIS_INFO_WEA,Clear
 TEXT_PLANET_TARIS_INFO_WL,None
-TEXT_PLANET_TATOOINE_ENCYC,Vigilance: Smugglers and bounty hunters can’t operate on the planet due to the presence of the Hutt organization.
+TEXT_PLANET_TATOOINE_ENCYC,Vigilance: Smugglers and bounty hunters can't operate on the planet due to the presence of the Hutt organization.
 TEXT_PLANET_TATOOINE_ENCYC_01,While this planet is controlled, all T2-B tanks and Assault Speeders in the galaxy gain a 25% bonus to armor.
 TEXT_PLANET_TATOOINE_INFO_ADV,Vigilance: The Hutts prevent stealth heroes from operating on the planet.
 TEXT_PLANET_TATOOINE_INFO_ADV_01,Light Armor Upgrade
 TEXT_PLANET_TATOOINE_INFO_HIS,Along the Outer Rim, the harsh desert world of Tatooine orbits the twin suns of the Tatoo system. Tatooine is marked by mesas, canyons, and expansive desert seas.  Most settlers operate moisture farms in the desert, but cities such as Mos Eisley attract a wide range of criminals and rogues. Tatooine's many dangers include bands of roving Tusken Raiders, carnivorous krayt dragons and sudden sandstorms. Tatooine is controlled by the Hutts, powerful gangsters and crime lords that have made the desert world into a hub of criminal activity including gambling, smuggling, and slavery. Stealth operators often find it to be a more profitable venture to work for the Hutts than to risk spying on them.
 TEXT_PLANET_TATOOINE_INFO_HIS_01,Tatooine is marked by mesas, canyons, and expansive desert seas.  Most settlers operate moisture farms in the desert, but cities such as Mos Eisley attract a wide range of criminals and rogues. Tatooine's many dangers include bands of roving Tusken Raiders, carnivorous krayt dragons and sudden sandstorms. Tatooine is controlled by the Hutts, powerful gangsters and crime lords that have made the desert world into a hub of criminal activity including gambling, smuggling, and slavery.
 TEXT_PLANET_TATOOINE_INFO_POP,Humans, Hutts, Jawas, Tusken Raiders
-TEXT_PLANET_TATOOINE_INFO_TAC,Smugglers and bounty hunters can’t operate on the planet due to the presence of the Hutt organization.
+TEXT_PLANET_TATOOINE_INFO_TAC,Smugglers and bounty hunters can't operate on the planet due to the presence of the Hutt organization.
 TEXT_PLANET_TATOOINE_INFO_TER,Desert, mesas, canyons
 TEXT_PLANET_TATOOINE_INFO_WEA,Clear, Sandstorm
 TEXT_PLANET_TATOOINE_INFO_WL,Dewbacks, Banthas, Rontos, Eopies, Rancor, Womp Rats, Sarlacc, Krayt Dragons
@@ -3322,14 +3322,14 @@ TEXT_PLANET_VERGESSO_INFO_TAC,Space stations are undetectable due to the presenc
 TEXT_PLANET_VERGESSO_INFO_TER,None (asteroid field)
 TEXT_PLANET_VERGESSO_INFO_WEA,None
 TEXT_PLANET_VERGESSO_INFO_WL,Dianoga
-TEXT_PLANET_WAYLAND_ENCYC,Base Stealth (Ground): Ground bases are undetectable due to Wayland’s missing galactic registry entry.
+TEXT_PLANET_WAYLAND_ENCYC,Base Stealth (Ground): Ground bases are undetectable due to Wayland's missing galactic registry entry.
 TEXT_PLANET_WAYLAND_ENCYC_01,Grants a 15% speed boost to all MPTL and T4-B tanks in the galaxy as long as this planet is controlled.
 TEXT_PLANET_WAYLAND_INFO_ADV,Base Stealth: Ground
 TEXT_PLANET_WAYLAND_INFO_ADV_01,Improved Treads
 TEXT_PLANET_WAYLAND_INFO_HIS,A simple clerical error in the Old Republic planetary registry lost the Outer Rim planet Wayland from all known charts, and doomed the expeditionary vessel seeking to settle a colony there. The planet is covered in lush forests and mountains with 2 native species, the Psadans and the Myneyrsh. Without support from the Republic, the human colonists regressed technologically, discarding their blasters for bows and arrows, their modern fabrics for furs and hides. The colonists continue to clash with the two native intelligent species on Wayland, despite being forgotten by the galaxy at large.
 TEXT_PLANET_WAYLAND_INFO_HIS_01,A simple clerical error in the Old Republic planetary registry removed Wayland from all known charts and doomed the expeditionary vessel seeking to settle a colony there. Without support from the Republic, the human colonists regressed technologically, discarding their blasters for bows and arrows, their modern fabrics for furs and hides. The colonists continue to clash with the two native intelligent species on Wayland, despite being forgotten by the galaxy at large.
 TEXT_PLANET_WAYLAND_INFO_POP,Humans, Psadans, Myneyrsh
-TEXT_PLANET_WAYLAND_INFO_TAC,Ground bases are undetectable due to Wayland’s missing galactic registry entry.
+TEXT_PLANET_WAYLAND_INFO_TAC,Ground bases are undetectable due to Wayland's missing galactic registry entry.
 TEXT_PLANET_WAYLAND_INFO_TER,Forests, mountains
 TEXT_PLANET_WAYLAND_INFO_WEA,Clear, Rain
 TEXT_PLANET_WAYLAND_INFO_WL,Clawbirds, Vine Snakes, Garrals
@@ -5417,7 +5417,7 @@ TEXT_SFX_DRD_ATTACKED_11,Oh this is suicide!
 TEXT_SFX_DRD_ATTACKED_12,You're going to get us into trouble!
 TEXT_SFX_DRD_ATTACKED_13,I only an interpreter!
 TEXT_SFX_DRD_ATTACKED_14,Oh no!
-TEXT_SFX_DRD_ATTACKED_15,Don't shoot, don’t shoot!
+TEXT_SFX_DRD_ATTACKED_15,Don't shoot, don't shoot!
 TEXT_SFX_DRD_ATTACKED_16,Oh my!
 TEXT_SFX_DRD_ATTACKED_17,We're going to need maintenance after this...
 TEXT_SFX_DRD_ATTACKED_18,Will this never end?
@@ -5662,8 +5662,8 @@ TEXT_SFX_EHD_BOUNTY_HUNTER_LOST_1,Bounty Hunter lost
 TEXT_SFX_EHD_BRENTAAL,Brentaal
 TEXT_SFX_EHD_BUILD_BOUNTY_HUNTER_1,Hiring Bounty Hunter
 TEXT_SFX_EHD_BUILD_HERO_1,Hiring
-TEXT_SFX_EHD_BUILD_PAD_CAPTURED_1,We’ve secured a build pad
-TEXT_SFX_EHD_BUILD_PAD_LOST_1,We’ve lost a build pad
+TEXT_SFX_EHD_BUILD_PAD_CAPTURED_1,We've secured a build pad
+TEXT_SFX_EHD_BUILD_PAD_LOST_1,We've lost a build pad
 TEXT_SFX_EHD_BUILD_SMUGGLER_1,Hiring smuggler
 TEXT_SFX_EHD_BUILD_STRUCTURE_1,Constructing
 TEXT_SFX_EHD_BUILD_STRUCTURE_2,Building under construction
@@ -5782,7 +5782,7 @@ TEXT_SFX_EHD_ENEMY_ACADEMY_DESTROYED_1,Academy destroyed!
 TEXT_SFX_EHD_ENEMY_ARENA_DESTROYED_1,Arena destroyed!
 TEXT_SFX_EHD_ENEMY_BARRACKS_DESTROYED_1,Barracks destroyed!
 TEXT_SFX_EHD_ENEMY_BASE_SHIELD_OFFLINE_1,The enemy base shield is offline
-TEXT_SFX_EHD_ENEMY_BASE_SHIELD_PENETRATED_1,We’ve penetrated the enemy base shield
+TEXT_SFX_EHD_ENEMY_BASE_SHIELD_PENETRATED_1,We've penetrated the enemy base shield
 TEXT_SFX_EHD_ENEMY_BASE_SHIELDS_DOWN_1,Base shields down!
 TEXT_SFX_EHD_ENEMY_BASE_SHIELDS_DOWN_2,Enemy base shields down
 TEXT_SFX_EHD_ENEMY_BASE_SHIELDS_UP_1,Enemy base shields up
@@ -5885,14 +5885,14 @@ TEXT_SFX_EHD_KASHYYYK,Kashyyyk
 TEXT_SFX_EHD_KESSEL,Kessel
 TEXT_SFX_EHD_KORRIBAN,Korriban
 TEXT_SFX_EHD_KUAT,Kuat
-TEXT_SFX_EHD_LANDING_ZONE_CAPTURED_1,We’ve secured a Landing Zone
+TEXT_SFX_EHD_LANDING_ZONE_CAPTURED_1,We've secured a Landing Zone
 TEXT_SFX_EHD_LANDING_ZONE_INVALID_1,Landing zone invalid
 TEXT_SFX_EHD_LANDING_ZONE_INVALID_2,Invalid landing zone
 TEXT_SFX_EHD_LANDING_ZONE_INVALID_SHIELDS_1,Invalid landing zone -- base shields present
-TEXT_SFX_EHD_LANDING_ZONE_LOST_1,We’ve lost a landing Zone
+TEXT_SFX_EHD_LANDING_ZONE_LOST_1,We've lost a landing Zone
 TEXT_SFX_EHD_LASER_DEFENSE_1,Laser Defense Satellite online  (build complete)
 TEXT_SFX_EHD_LASER_DEFENSE_DESTROYED_1,Laser defense satellite destroyed
-TEXT_SFX_EHD_LAST_LANDING_ZONE_LOST_1,We’ve lost our last Landing zone
+TEXT_SFX_EHD_LAST_LANDING_ZONE_LOST_1,We've lost our last Landing zone
 TEXT_SFX_EHD_LIGHT_FACTORY_DESTROYED_1,Light Vehicle Factory destroyed
 TEXT_SFX_EHD_LIGHT_FACTORY_ONLINE_1,Light Vehicle factory online
 TEXT_SFX_EHD_LIGHT_VEHICLE_FACTORY_DESTROYED_1,Light Vehicle Factory destroyed
@@ -6143,7 +6143,7 @@ TEXT_SFX_EHN_SELECT_15,Special delivery heh heh
 TEXT_SFX_EHN_SELECT_2,What do want?
 TEXT_SFX_EHN_SELECT_3,I got a whole bag full o' trouble!
 TEXT_SFX_EHN_SELECT_4,My friends and I are ready
-TEXT_SFX_EHN_SELECT_5,I’m right here!
+TEXT_SFX_EHN_SELECT_5,I'm right here!
 TEXT_SFX_EHN_SELECT_6,Huh?
 TEXT_SFX_EHN_SELECT_7,What do ya need?
 TEXT_SFX_EHN_SELECT_8,Ready with a Bag o' tricks
@@ -6635,7 +6635,7 @@ TEXT_SFX_GES_SEE_UNIT_5,We found some additional credits!
 TEXT_SFX_GES_SEE_UNIT_6,We got some extra credits!
 TEXT_SFX_GES_SEE_UNIT_7,We found some Swamp Speeders!
 TEXT_SFX_GES_SEE_UNIT_8,We got a hold of some M1 Tanks!
-TEXT_SFX_GES_SEE_UNIT_9,It’s a Rebel Tank!  Look out!
+TEXT_SFX_GES_SEE_UNIT_9,It's a Rebel Tank!  Look out!
 TEXT_SFX_GES_SNOWSTORM_1,Sir, the snowstorm is limiting visibility and hampering our targeting sensors.
 TEXT_SFX_GES_SNOWSTORM_2,All this snow is affecting our sensors!
 TEXT_SFX_GES_SNOWSTORM_3,The snowfall is affecting our targeting sensors
@@ -6858,12 +6858,12 @@ TEXT_SFX_GUS_CAPTURED_6,We've secured a Heavy Vehicle facility
 TEXT_SFX_GUS_CAPTURED_7,We've secured a Sensor Array
 TEXT_SFX_GUS_CAPTURED_8,We've secured a Turbo Laser Tower
 TEXT_SFX_GUS_CAPTURED_9,We've captured a mercenary outfitter
-TEXT_SFX_GUS_CAPTURED_STRUCTURE_1,We’ve captured a Bunker
-TEXT_SFX_GUS_CAPTURED_STRUCTURE_2,We’ve captured an Asteroid Base
-TEXT_SFX_GUS_CAPTURED_STRUCTURE_3,We’ve captured a Gravity Well Station
-TEXT_SFX_GUS_CAPTURED_STRUCTURE_4,We’ve captured a Sensor Pod
-TEXT_SFX_GUS_CAPTURED_STRUCTURE_5,We’ve captured an Outpost Pad
-TEXT_SFX_GUS_CAPTURED_STRUCTURE_6,We’ve captured a Mineral Processor
+TEXT_SFX_GUS_CAPTURED_STRUCTURE_1,We've captured a Bunker
+TEXT_SFX_GUS_CAPTURED_STRUCTURE_2,We've captured an Asteroid Base
+TEXT_SFX_GUS_CAPTURED_STRUCTURE_3,We've captured a Gravity Well Station
+TEXT_SFX_GUS_CAPTURED_STRUCTURE_4,We've captured a Sensor Pod
+TEXT_SFX_GUS_CAPTURED_STRUCTURE_5,We've captured an Outpost Pad
+TEXT_SFX_GUS_CAPTURED_STRUCTURE_6,We've captured a Mineral Processor
 TEXT_SFX_GUS_DESERT_1,The sand is going to slow down some of our forces.
 TEXT_SFX_GUS_DESERT_2,Some of our men will have difficulty in the sand sir.
 TEXT_SFX_GUS_DESTROYED_STRUCTURE_1,A Bunker has been destroyed!
@@ -6888,12 +6888,12 @@ TEXT_SFX_GUS_LAND_RETREAT_1,Space station power generators set to overload. Cle
 TEXT_SFX_GUS_LAND_RETREAT_2,The base is gonna blow!  Evacuate!
 TEXT_SFX_GUS_LAND_RETREAT_3,All structures set for self-destruct!  All units clear out now!
 TEXT_SFX_GUS_LAND_RETREAT_4,The whole place is set for obliteration!  We may just take a few of them too!
-TEXT_SFX_GUS_LOST_NEW_STRUCTURE_1,We’ve lost a Bunker
-TEXT_SFX_GUS_LOST_NEW_STRUCTURE_2,We’ve lost an Asteroid Base
-TEXT_SFX_GUS_LOST_NEW_STRUCTURE_3,We’ve lost a Gravity Well Station
-TEXT_SFX_GUS_LOST_NEW_STRUCTURE_4,We’ve lost a Sensor Pod
-TEXT_SFX_GUS_LOST_NEW_STRUCTURE_5,We’ve lost an Outpost Pad
-TEXT_SFX_GUS_LOST_NEW_STRUCTURE_6,We’ve lost a Mineral Processor
+TEXT_SFX_GUS_LOST_NEW_STRUCTURE_1,We've lost a Bunker
+TEXT_SFX_GUS_LOST_NEW_STRUCTURE_2,We've lost an Asteroid Base
+TEXT_SFX_GUS_LOST_NEW_STRUCTURE_3,We've lost a Gravity Well Station
+TEXT_SFX_GUS_LOST_NEW_STRUCTURE_4,We've lost a Sensor Pod
+TEXT_SFX_GUS_LOST_NEW_STRUCTURE_5,We've lost an Outpost Pad
+TEXT_SFX_GUS_LOST_NEW_STRUCTURE_6,We've lost a Mineral Processor
 TEXT_SFX_GUS_LOST_STRUCTURE_1,We've lost the abandoned Mining facility
 TEXT_SFX_GUS_LOST_STRUCTURE_2,We've lost the abandoned Heavy Vehicle facility
 TEXT_SFX_GUS_LOST_STRUCTURE_3,We've lost the abandoned Sensor Array
@@ -6917,12 +6917,12 @@ TEXT_SFX_GUS_SANDSTORM_1,Sir, this sandstorm has cut our visibility and our miss
 TEXT_SFX_GUS_SANDSTORM_2,We can't see a thing in this storm and our missile guidance limited
 TEXT_SFX_GUS_SANDSTORM_3,The sandstorm is limiting our sightlines
 TEXT_SFX_GUS_SANDSTORM_4,Our missiles are being affected by the storm, sir
-TEXT_SFX_GUS_SECURED_STRUCTURE_1,We’ve secured a Bunker
-TEXT_SFX_GUS_SECURED_STRUCTURE_2,We’ve secured an Asteroid Base
-TEXT_SFX_GUS_SECURED_STRUCTURE_3,We’ve secured a Gravity Well Station
-TEXT_SFX_GUS_SECURED_STRUCTURE_4,We’ve secured a Sensor Pod
-TEXT_SFX_GUS_SECURED_STRUCTURE_5,We’ve secured an Outpost Pad
-TEXT_SFX_GUS_SECURED_STRUCTURE_6,We’ve secured a Mineral Processor
+TEXT_SFX_GUS_SECURED_STRUCTURE_1,We've secured a Bunker
+TEXT_SFX_GUS_SECURED_STRUCTURE_2,We've secured an Asteroid Base
+TEXT_SFX_GUS_SECURED_STRUCTURE_3,We've secured a Gravity Well Station
+TEXT_SFX_GUS_SECURED_STRUCTURE_4,We've secured a Sensor Pod
+TEXT_SFX_GUS_SECURED_STRUCTURE_5,We've secured an Outpost Pad
+TEXT_SFX_GUS_SECURED_STRUCTURE_6,We've secured a Mineral Processor
 TEXT_SFX_GUS_SEE_ENEMY_1,Enemy sighted!
 TEXT_SFX_GUS_SEE_ENEMY_10,The enemy is approaching!
 TEXT_SFX_GUS_SEE_ENEMY_11,The enemy has been spotted!
@@ -7377,7 +7377,7 @@ TEXT_SFX_IG8_STUN_2,This will disable them temporarily.
 TEXT_SFX_IG8_STUN_3,Stun activated.
 TEXT_SFX_IG8_STUN_4,Sonic Stun in effect.
 TEXT_SFX_IG8_STUN_5,Stun weapon engaged.
-TEXT_SFX_IG8_WIN_1,I’ve computed a 98% chance of success, begin the battle!
+TEXT_SFX_IG8_WIN_1,I've computed a 98% chance of success, begin the battle!
 TEXT_SFX_IM1_EXECUTOR_1,Lord Vader, we've got them on our visuals.
 TEXT_SFX_IM1_EXECUTOR_10,Thank you lord Vader...
 TEXT_SFX_IM1_EXECUTOR_11,Yes lord vader...
@@ -9322,7 +9322,7 @@ TEXT_SFX_OBI_ATTACKED_2,The Empire has found me.
 TEXT_SFX_OBI_ATTACKED_3,I am under attack!
 TEXT_SFX_OBI_ATTACKED_4,The enemy has spotted me!
 TEXT_SFX_OBI_DEATH_STAR_1,I felt a great disturbance in the force...as if millions of voices cried out in terror, and were suddenly silenced.  I fear something terrible has happened.
-TEXT_SFX_OBI_DEATH_STAR_2,That’s no moon... it's a space station!
+TEXT_SFX_OBI_DEATH_STAR_2,That's no moon... it's a space station!
 TEXT_SFX_OBI_DEFEAT_1,I can't win, but there are alternatives to fighting.
 TEXT_SFX_OBI_DEFEAT_2,I shall become one with the Force.
 TEXT_SFX_OBI_GUARD_1,This is not the target you are looking for.
@@ -9414,7 +9414,7 @@ TEXT_SFX_PF2_CHATTER_9,Position set
 TEXT_SFX_PF3_CHATTER_1,Scanners on
 TEXT_SFX_PF3_CHATTER_2,Pushing forward
 TEXT_SFX_PF3_CHATTER_3,Watch the Crossfire!
-TEXT_SFX_PF3_CHATTER_4,I’m with you.
+TEXT_SFX_PF3_CHATTER_4,I'm with you.
 TEXT_SFX_PF3_CHATTER_5,Switching to targeting computer
 TEXT_SFX_PF3_CHATTER_6,They're firing behind me
 TEXT_SFX_PF3_CHATTER_7,I can't maneuver
@@ -10414,8 +10414,8 @@ TEXT_SFX_RHD_BRENTAAL,Brentaal
 TEXT_SFX_RHD_BRENTAAL_DEATH_STAR,Brentaal has been destroyed by the Death Star
 TEXT_SFX_RHD_BUILD_BOUNTY_HUNTER_1,Hiring Bounty Hunter
 TEXT_SFX_RHD_BUILD_HERO_1,Hiring
-TEXT_SFX_RHD_BUILD_PAD_CAPTURED_1,We’ve secured a build pad
-TEXT_SFX_RHD_BUILD_PAD_LOST_1,We’ve lost a build pad
+TEXT_SFX_RHD_BUILD_PAD_CAPTURED_1,We've secured a build pad
+TEXT_SFX_RHD_BUILD_PAD_LOST_1,We've lost a build pad
 TEXT_SFX_RHD_BUILD_SMUGGLER_1,Hiring smuggler
 TEXT_SFX_RHD_BUILD_STRUCTURE_1,Constructing
 TEXT_SFX_RHD_BUILD_STRUCTURE_2,Building under construction
@@ -10542,7 +10542,7 @@ TEXT_SFX_RHD_ENDOR_DEATH_STAR,Endor has been destroyed by the Death Star
 TEXT_SFX_RHD_ENEMY_90_PERCENT,The Empire controls 90% of the galaxy: Alliance defeat imminent.
 TEXT_SFX_RHD_ENEMY_ARENA_DESTROYED_1,Arena destroyed!
 TEXT_SFX_RHD_ENEMY_BASE_SHIELD_OFFLINE_1,The enemy base shield is offline
-TEXT_SFX_RHD_ENEMY_BASE_SHIELD_PENETRATED_1,We’ve penetrated the enemy base shield
+TEXT_SFX_RHD_ENEMY_BASE_SHIELD_PENETRATED_1,We've penetrated the enemy base shield
 TEXT_SFX_RHD_ENEMY_BASE_SHIELDS_DOWN_1,Base shields down!
 TEXT_SFX_RHD_ENEMY_BASE_SHIELDS_DOWN_2,Enemy base shields down
 TEXT_SFX_RHD_ENEMY_BASE_SHIELDS_UP_1,Enemy base shields up
@@ -10658,14 +10658,14 @@ TEXT_SFX_RHD_KORRIBAN,Korriban
 TEXT_SFX_RHD_KORRIBAN_DEATH_STAR,Korriban has been destroyed by the Death Star
 TEXT_SFX_RHD_KUAT,Kuat
 TEXT_SFX_RHD_KUAT_DEATH_STAR,Kuat has been destroyed by the Death Star
-TEXT_SFX_RHD_LANDING_ZONE_CAPTURED_1,We’ve secured a Landing Zone
+TEXT_SFX_RHD_LANDING_ZONE_CAPTURED_1,We've secured a Landing Zone
 TEXT_SFX_RHD_LANDING_ZONE_INVALID_1,Landing zone invalid
 TEXT_SFX_RHD_LANDING_ZONE_INVALID_2,Invalid landing zone
 TEXT_SFX_RHD_LANDING_ZONE_INVALID_SHIELDS_1,Invalid landing zone -- base shields present
-TEXT_SFX_RHD_LANDING_ZONE_LOST_1,We’ve lost a landing Zone
+TEXT_SFX_RHD_LANDING_ZONE_LOST_1,We've lost a landing Zone
 TEXT_SFX_RHD_LASER_DEFENSE_1,Laser Defense Satellite online  (build complete)
 TEXT_SFX_RHD_LASER_DEFENSE_DESTROYED_1,Laser defense satellite destroyed
-TEXT_SFX_RHD_LAST_LANDING_ZONE_LOST_1,We’ve lost our last Landing zone
+TEXT_SFX_RHD_LAST_LANDING_ZONE_LOST_1,We've lost our last Landing zone
 TEXT_SFX_RHD_LIGHT_FACTORY_DESTROYED_1,Light Vehicle Factory destroyed
 TEXT_SFX_RHD_LIGHT_FACTORY_ONLINE_1,Light Vehicle factory online
 TEXT_SFX_RHD_LIGHT_VEHICLE_FACTORY_DESTROYED_1,Light Vehicle Factory destroyed
@@ -11678,7 +11678,7 @@ TEXT_SFX_SV2_CHATTER_9,Position set
 TEXT_SFX_SV3_CHATTER_1,Scanners on
 TEXT_SFX_SV3_CHATTER_2,Pushing forward
 TEXT_SFX_SV3_CHATTER_3,Watch the Crossfire!
-TEXT_SFX_SV3_CHATTER_4,I’m with you.
+TEXT_SFX_SV3_CHATTER_4,I'm with you.
 TEXT_SFX_SV3_CHATTER_5,Switching to targeting computer
 TEXT_SFX_SV3_CHATTER_6,They're firing behind me
 TEXT_SFX_SV3_CHATTER_7,I can't maneuver
@@ -13187,8 +13187,8 @@ TEXT_SFX_UHD_BOMBING_RUN_CANCELED_1,Bombing Run canceled
 TEXT_SFX_UHD_BOUNTY_HUNTER_LOST_1,Bounty Hunter lost
 TEXT_SFX_UHD_BUILD_BOUNTY_HUNTER_1,Hiring Bounty Hunter
 TEXT_SFX_UHD_BUILD_HERO_1,Hiring
-TEXT_SFX_UHD_BUILD_PAD_CAPTURED_1,We’ve secured a build pad
-TEXT_SFX_UHD_BUILD_PAD_LOST_1,We’ve lost a build pad
+TEXT_SFX_UHD_BUILD_PAD_CAPTURED_1,We've secured a build pad
+TEXT_SFX_UHD_BUILD_PAD_LOST_1,We've lost a build pad
 TEXT_SFX_UHD_BUILD_SMUGGLER_1,Hiring smuggler
 TEXT_SFX_UHD_BUILD_STRUCTURE_1,Constructing
 TEXT_SFX_UHD_BUILD_STRUCTURE_2,Building under construction
@@ -13285,7 +13285,7 @@ TEXT_SFX_UHD_EMPEROR_DEFEATED_1,Emperor Palpatine Defeated!
 TEXT_SFX_UHD_EMPEROR_DEFEATED_2,The Emperor has been defeated. Victory is at hand!
 TEXT_SFX_UHD_EMPEROR_DEFEATED_3,The Emperor has been destroyed. We have won!
 TEXT_SFX_UHD_ENEMY_BASE_SHIELD_OFFLINE_1,The enemy base shield is offline
-TEXT_SFX_UHD_ENEMY_BASE_SHIELD_PENETRATED_1,We’ve penetrated the enemy base shield
+TEXT_SFX_UHD_ENEMY_BASE_SHIELD_PENETRATED_1,We've penetrated the enemy base shield
 TEXT_SFX_UHD_ENEMY_BASE_SHIELDS_DOWN_2,Enemy base shields down
 TEXT_SFX_UHD_ENEMY_BASE_SHIELDS_UP_1,Enemy base shields up
 TEXT_SFX_UHD_ENEMY_CONTROL_POINT_1_MIN,Enemy Control Point Victory in 1 minute
@@ -13336,11 +13336,11 @@ TEXT_SFX_UHD_ION_CHARGING_1,Ion Cannon Charging
 TEXT_SFX_UHD_ION_FIRING_2,Ion Cannon Firing
 TEXT_SFX_UHD_JAMMING_STATION_DESTROYED_1,Jamming station destroyed
 TEXT_SFX_UHD_JAMMING_STATION_UNDER_ATTACK_1,The jamming station is under attack
-TEXT_SFX_UHD_LANDING_ZONE_CAPTURED_1,We’ve secured a Landing Zone
-TEXT_SFX_UHD_LANDING_ZONE_LOST_1,We’ve lost a landing Zone
+TEXT_SFX_UHD_LANDING_ZONE_CAPTURED_1,We've secured a Landing Zone
+TEXT_SFX_UHD_LANDING_ZONE_LOST_1,We've lost a landing Zone
 TEXT_SFX_UHD_LASER_DEFENSE_1,Laser Defense Satellite online  (build complete)
 TEXT_SFX_UHD_LASER_DEFENSE_DESTROYED_1,Laser defense satellite destroyed
-TEXT_SFX_UHD_LAST_LANDING_ZONE_LOST_1,We’ve lost our last Landing zone
+TEXT_SFX_UHD_LAST_LANDING_ZONE_LOST_1,We've lost our last Landing zone
 TEXT_SFX_UHD_LIGHT_FACTORY_DESTROYED_1,Light Vehicle Factory destroyed
 TEXT_SFX_UHD_LIGHT_FACTORY_ONLINE_1,Light Vehicle factory online
 TEXT_SFX_UHD_LIGHT_VEHICLE_FACTORY_DESTROYED_1,Light Vehicle Factory destroyed
@@ -14013,7 +14013,7 @@ TEXT_SFX_VW1_CHATTER_3,Keep your eyes open
 TEXT_SFX_VW1_CHATTER_4,Imperial forces
 TEXT_SFX_VW1_CHATTER_5,I've got something
 TEXT_SFX_VW1_CHATTER_6,We're drawing their fire.
-TEXT_SFX_VW1_CHATTER_7,That’s a hit, scratch one!
+TEXT_SFX_VW1_CHATTER_7,That's a hit, scratch one!
 TEXT_SFX_VW1_CHATTER_8,Stay in formation
 TEXT_SFX_VW1_CHATTER_9,They're coming around
 TEXT_SFX_VW2_CHATTER_1,Beginning attack pattern beta
@@ -14028,7 +14028,7 @@ TEXT_SFX_VW2_CHATTER_9,Position set
 TEXT_SFX_VW3_CHATTER_1,Scanners on full
 TEXT_SFX_VW3_CHATTER_2,Pushing forward
 TEXT_SFX_VW3_CHATTER_3,Crossfire!
-TEXT_SFX_VW3_CHATTER_4,I’m with you.
+TEXT_SFX_VW3_CHATTER_4,I'm with you.
 TEXT_SFX_VW3_CHATTER_5,Taking off!
 TEXT_SFX_VW3_CHATTER_6,Scanner contact behind me
 TEXT_SFX_VW3_CHATTER_7,The enemy has got lock
@@ -14217,15 +14217,15 @@ TEXT_SFX_XW2_CHATTER_9,Targets comin' in fast!
 TEXT_SFX_XW3_CHATTER_1,Prepare for evasive maneuvers.
 TEXT_SFX_XW3_CHATTER_2,Negative.
 TEXT_SFX_XW3_CHATTER_3,Watch that crossfire!
-TEXT_SFX_XW3_CHATTER_4,I’m right with you.
+TEXT_SFX_XW3_CHATTER_4,I'm right with you.
 TEXT_SFX_XW3_CHATTER_5,Wait for my signal.
-TEXT_SFX_XW3_CHATTER_6,I’ll get the next one.
+TEXT_SFX_XW3_CHATTER_6,I'll get the next one.
 TEXT_SFX_XW3_CHATTER_7,Roger that
 TEXT_SFX_XW3_CHATTER_8,Put your deflectors on
 TEXT_SFX_XW3_CHATTER_9,This is it
 TEXT_SFX_XW4_CHATTER_1,Moving into position.
 TEXT_SFX_XW4_CHATTER_2,Increase to full throttle!
-TEXT_SFX_XW4_CHATTER_3,I’m in range.
+TEXT_SFX_XW4_CHATTER_3,I'm in range.
 TEXT_SFX_XW4_CHATTER_4,Watch your back!
 TEXT_SFX_XW4_CHATTER_5,Should we go around for another pass?
 TEXT_SFX_XW4_CHATTER_6,Stabilize your rear deflectors.
@@ -14596,7 +14596,7 @@ TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_10,Tibanna Merchant: Pirates!  All hands 
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_11,Tyber Zann: Good work.  Bespin is now under the protection of the Zann Consortium.
 TEXT_SPEECH_BESPIN_PIR_VICTORY_COR06_03,Tyber Zann: Tibanna shipments to our enemies will now slow down to a crawl. We should gain enough credits to begin a rapid build up of Zann Consortium space fleets.
 TEXT_SPEECH_BESPIN_RKT_VICTORY_COR06_05,Defiler: Corruption has taken hold of the  Cloud City populace.  The few other worthwhile targets there will soon be under our control as well.
-TEXT_SPEECH_BESTINE_BLK_VICTORY_COR07_05,Defiler: Bestine’s many technological facilities now regularly release their products to our black market; the steady traffic insures that the Consortium is never short on credits or new weapons.
+TEXT_SPEECH_BESTINE_BLK_VICTORY_COR07_05,Defiler: Bestine's many technological facilities now regularly release their products to our black market; the steady traffic insures that the Consortium is never short on credits or new weapons.
 TEXT_SPEECH_BESTINE_KID_LOAD_COR07_01,IG-88: Our plans are set with an 87% chance of success. Begin the mission.
 TEXT_SPEECH_BESTINE_KID_LOSS_COR07_04,IG-88: I clearly need more forces for this difficult target. Mass more units and we will strike again.
 TEXT_SPEECH_BESTINE_KID_TACTICAL_COR07_02,IG-88: The commander Ral Falan is the most powerful man on the planet. Taking him hostage and acquiring his plans and secrets could have galaxy wide effects.
@@ -14643,7 +14643,7 @@ TEXT_SPEECH_CARIDA_KID_LOAD_COR11_01,Bossk: I've been tasked with this kidnappin
 TEXT_SPEECH_CARIDA_KID_LOSS_COR11_04,Bossk: That first attempt did not go well. I should be able to win, with the forces available. I will try again as soon as I can.
 TEXT_SPEECH_CARIDA_KID_TACTICAL_COR11_02,Bossk: The admiral will have heavy forces guarding him. Strike quickly and don't stop to count the dead.
 TEXT_SPEECH_CARIDA_KID_TACTICAL_COR11_07,Bossk: Admiral Dalken Hol, come with me and I will spare your life.
-TEXT_SPEECH_CARIDA_KID_TACTICAL_COR11_08,Admiral Dalken Hol: I don’t want any trouble, I’ll follow you.
+TEXT_SPEECH_CARIDA_KID_TACTICAL_COR11_08,Admiral Dalken Hol: I don't want any trouble, I'll follow you.
 TEXT_SPEECH_CARIDA_KID_VICTORY_COR11_03,Bossk: News of our Kidnapping Admiral Hol is spreading like wildfire across the galaxy. Important worlds are jumping all over themselves to join the Consortium.
 TEXT_SPEECH_CHOOSE_LANDING,Choose your landing zone
 TEXT_SPEECH_CHOOSE_REINFORCEMENTS,Choose your reinforcements
@@ -14741,20 +14741,20 @@ TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_00,Stormtrooper: We have deciphered encod
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_01,Darth Vader: The pirates' den, no doubt.  Send a probe droid to confirm this...infestation.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_02,Stormtrooper: Yes, sir!
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_03,Imperial Officer: The probe droid has pinpointed what we believe to be the pirate base.  It is in a dense asteroid field, with a heavy, layered defense.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_04,Darth Vader: These pirates have knowledge of the Rebel’s plans.    We must capture their leader - no disintegration, Fett!
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_04,Darth Vader: These pirates have knowledge of the Rebel's plans.    We must capture their leader - no disintegration, Fett!
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_05,Boba Fett: Leave the defenses to me.  Keep the other ships back until I signal.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_06,Boba Fett: Sensor satellites are deployed all over the perimeter.  This shouldn't take long.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_07,Imperial Officer: Understood.  We await your signal.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_08,Boba Fett: That's it.  He's all yours.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_09,Imperial Officer: Prepare to be boarded, scum!
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_10,Boba Fett: If I get too close to the base, the pirates will know I’m here.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_11,Boba Fett: I can’t let those fighters get back to base.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_12,Boba Fett: I’ve got to take out that satellite before it triggers an alert.
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_10,Boba Fett: If I get too close to the base, the pirates will know I'm here.
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_11,Boba Fett: I can't let those fighters get back to base.
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_12,Boba Fett: I've got to take out that satellite before it triggers an alert.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_13,Boba Fett: The satellites are vaporized.  You can move in now.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_14,Boba Fett: There’s the pirate leader – don't let him escape!
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_14,Boba Fett: There's the pirate leader – don't let him escape!
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_15,Imperial Officer: New pirate jump signatures detected on multiple vectors.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_16,Boba Fett: Too soon.  The pirates know we’re here now.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_17,Boba Fett: They know we’re here now.  We’ve got to act quickly before their leader escapes!
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_16,Boba Fett: Too soon.  The pirates know we're here now.
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_17,Boba Fett: They know we're here now.  We've got to act quickly before their leader escapes!
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_18,Tarkin: While you have been off chasing pirates, Vader, I've been informed the Death Star construction project has run low on certain resources and labor assets.  I now require your assistance.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_19,Darth Vader: I am in the service of the Emperor currently.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_20,Tarkin: You are now in my service.  My plans are the top priority for the Empire, the Emperor said so himself.  I have chosen a system that will provide us with the raw materials and work force necessary for the project.  I suspect the Geonosians won't see the benefit in this.
@@ -14808,31 +14808,31 @@ TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_18,Darth Vader: This traitor must be using 
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_19,Stormtrooper: Yes, sir!
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_20,Imperial Officer: My lord, reports are coming in from Fondor that Rebel forces have routed our troops and taken control of some local settlements.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_21,Darth Vader: This meaningless retaliation only serves to give away their location.  Eliminate them quickly and recover any communications you may find in the rubble.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_24,Imperial Officer: My lord, we’ve located a small Rebel outpost using the nearby abandoned communications tower to receive Imperial transmissions.
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_24,Imperial Officer: My lord, we've located a small Rebel outpost using the nearby abandoned communications tower to receive Imperial transmissions.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_25,Darth Vader: Have the Rebels detected our presence?
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_26,Imperial Officer: No, my lord.  We jammed their sensors and communications before we landed.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_27,Darth Vader: I hope that you are not mistaken, commander.  We will eliminate the Rebel forces here and discover the identity of the traitor with one swift strike.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_28,Imperial Officer: Yes, sir.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_29,Imperial Officer: Sir! The Rebels got out a warning before we could secure the communications array.  It’s likely that other Rebel groups in the area will...
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_29,Imperial Officer: Sir! The Rebels got out a warning before we could secure the communications array.  It's likely that other Rebel groups in the area will...
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_30,Darth Vader: Most unfortunate.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_31,Darth Vader: I warned you of the consequences of failing me, commander.  I can only hope your replacement will be more tactful.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_32,Darth Vader: Trooper, did you find anything in your search?
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_33,Stormtrooper: Some of the equipment we’ve found carries pirate insignias.  The Rebels may be working with them.
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_33,Stormtrooper: Some of the equipment we've found carries pirate insignias.  The Rebels may be working with them.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_34,Darth Vader: They must be trading information on our cargo routes for supplies from the pirates.  Reconstruct their communications.  They will lead us to the Rebellion.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_35,Darth Vader: The Rebels will see no more use from this communications center - destroy it!
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_36,Rebel Soldier: Imperial forces! Start the evacuation!
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_41,Darth Vader: We cannot give away our presence.  Send the probe droid!
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_42,Darth Vader: Build a strike force and escort Boba Fett to Ilum.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_43,Darth Vader: Exterminate the Rebel scum on Fondor.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_44,Rebel Soldier:  My comm.  hasn’t worked all morning...I have a bad feeling about this.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_45,Rebel Soldier:  Stormtroopers!  They’ve found us!
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_44,Rebel Soldier:  My comm.  hasn't worked all morning...I have a bad feeling about this.
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_45,Rebel Soldier:  Stormtroopers!  They've found us!
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_46,Rebel Soldier:  Imperial walkers! Engage them immediately!
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_47,Rebel Soldier:  Our shield is down!  Attack!
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_48,Stormtrooper:  There they are.  Blast 'em!
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_49,Stormtrooper:  The communication array is destroyed, Lord Vader.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_50,Stormtrooper: The power generator is down.  Finish the rest of the Rebels.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_51,Stormtrooper: These tanks should make short work of their base.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_52,Imperial Officer: We’re landing reinforcements, stand by.
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_52,Imperial Officer: We're landing reinforcements, stand by.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_53,Darth Vader: Your incompetence is troubling.  The Rebels were clearly alerted to our presence.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_54,Imperial Officer: My Lord, it is likely the traitor we are hunting may have... (choke)
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_55,Darth Vader: You've failed me for the last time, Commander.  I will be better off without your services.
@@ -14869,7 +14869,7 @@ TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_09,Imperial Officer: Sir, we have been inf
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_10,Tarkin: See to it that the situation is dealt with.  The Death Star requires additional labor and each of these brutes is worth two of anything else.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_11,Imperial Officer: Yes, sir!
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_12,Imperial Officer: All hands!  A Mon Calamari capital ship has entered the area.  Be prepared for heavy fire!
-TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_13,Han Solo: C’mon - what are you waiting for, an invitation?  Get some weapons and secure those reinforcement points!
+TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_13,Han Solo: C'mon - what are you waiting for, an invitation?  Get some weapons and secure those reinforcement points!
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_14,Darth Vader: I am finished with your task, so now I must continue my search for the elusive traitor.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_15,Tarkin: There is very little this informant could do to lessen the might of the Empire.  The subjugation of the Geonosians will surely send a clear message to all those who would consider opposing us.  The Rebellion won't be so bold again.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_16,Emperor: The Rebel's strength will continue to grow as long as they continue to acquire allies.  To that end, the potential firepower of the Mon Calamari fleet far exceeds that of the Rebels, and it would be a detriment if they joined forces.  We must insure this does not occur.
@@ -14940,14 +14940,14 @@ TEXT_SPEECH_EMPIRE_ACT03_MISSION_NINE_14,Emperor: You underestimate the power of
 TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_04,Darth Vader: Report on your findings.
 TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_05,Stormtrooper: We found indications that the Rebels have had access to a great deal of coded Imperial data, some of it is very recent and highly classified.
 TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_06,Darth Vader: Are you certain?
-TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_07,Stormtrooper: They managed to destroy most of the data before we could secure it, but we’ve found a few files that reference the Death Star.  We’re unsure just how much they know about it.
+TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_07,Stormtrooper: They managed to destroy most of the data before we could secure it, but we've found a few files that reference the Death Star.  We're unsure just how much they know about it.
 TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_08,Darth Vader: This traitor in our midst is more powerful than we thought to have this kind of access.  Continue your search.  This Rebel sympathizer is running out of places to hide.
 TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_09,Stormtrooper: Yes, sir!
 TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_10,Darth Vader: Master, I am concerned that these Rebels know too much about the Death Star.  We have uncovered evidence which reveals it is Moff Kalast who has betrayed your trust.
 TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_11,Emperor: Not even someone of his rank could learn the full capabilities of the Death Star.  I have made sure that the schematics have been split into sections.  None of our bases ever has more than one segment at a time.
 TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_12,Tarkin: You worry too much Lord Vader.  The only thing that the Rebels will learn is that they have no hope against the might of the Death Star.
 TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_13,Emperor: We shall see if your faith is well placed once it has been tested Tarkin.  In the meantime, see to it that no more classified information is handed to the Rebels.  Bring this Moff Kalast to me.
-TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_14,Imperial Officer: We’re getting some strange energy readings from the planet surface.
+TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_14,Imperial Officer: We're getting some strange energy readings from the planet surface.
 TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_15,Tarkin: What kind of readings?
 TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_16,Tarkin: Ion cannons!  Keep your distance from the planet!
 TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_17,Imperial Officer: A Mon Calamari ship has entered system space!
@@ -14971,7 +14971,7 @@ TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_19,Tarkin: And how might I ask would one
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_04,Imperial Officer: Lord Vader, request immediate assistance! Pirate raider party engaged, taking casualties!
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_05,Darth Vader: Witness the awful vengeance of the Empire against its enemies, Commander!
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_06,Imperial Officer: That's all of them.  Thank you for the assistance.
-TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_07,Imperial Officer: We’re picking up Rebel transmissions from a nearby sector.  They should be within range within moments.
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_07,Imperial Officer: We're picking up Rebel transmissions from a nearby sector.  They should be within range within moments.
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_08,Darth Vader: Move the fleet into the nebulas to avoid detection.
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_09,Blue Leader: All clear!  Stand by to receive transmission
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_10,Darth Vader: Now!  Capture her quickly!
@@ -14984,9 +14984,9 @@ TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_16,Blue Leader: Imperial forces detected!  
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_17,Rebel Captain: Jump complete.  Begin the sweep, and stay alert!
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_18,Darth Vader: Wait until the Princess acknowledges the transmission before moving on them... .
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_19,Captain Antilles: Imperial forces, we are on a diplomatic mission.  You have no authority here to detain us.
-TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_20,Imperial Officer: We’ve detected a burst transmission to the Princess’ ship, and a confirmation tag.
-TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_21,Blue Leader: Imperial forces!  It’s a trap!  Get the Princess out of here!
-TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_22,Darth Vader: Bring the Interdictors on-line to block the Rebels’ escape!
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_20,Imperial Officer: We've detected a burst transmission to the Princess' ship, and a confirmation tag.
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_21,Blue Leader: Imperial forces!  It's a trap!  Get the Princess out of here!
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_22,Darth Vader: Bring the Interdictors on-line to block the Rebels' escape!
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_23,Darth Vader: The Death Star plans were not found in the Rebel ship's memory banks.  We are searching the nearby systems.
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_24,Tarkin: It's of no consequence.  The Death Star has been completed and is ready for testing.  Once we persuade her to reveal the Rebels' location, we will test this station on their hidden base.
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_25,Darth Vader: Those Interdictors must be protected.
@@ -15011,7 +15011,7 @@ TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_04,Darth Vader: What is thy bidding my m
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_05,Emperor: I have sensed that this Rebellion is seeking, in its final desperate hours, to attack the Death Star.  They have managed to consolidate their forces on five worlds.  Destroy them.  All of them!
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_06,Darth Vader: It shall be done.
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_07,Tarkin: What of the Death Star, your majesty?
-TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_08,Emperor: Use it’s full destructive power against them!
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_08,Emperor: Use it's full destructive power against them!
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_09,Imperial Officer: Sir, I've analyzed their attack and there is a danger.  Shall I have your shuttle standing by?
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_10,Tarkin: Evacuate?  In our moment of triumph? I think you overestimate their chances!
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_11,Imperial Officer: Yes, sir....
@@ -15101,7 +15101,7 @@ TEXT_SPEECH_FOCUS_DEMO_43,Hint: Now drag the F9-TZ Transport company from the re
 TEXT_SPEECH_FOCUS_DEMO_44,Tyber Zann: Now that those pests have been taken care of, we need to take out that shield generator.
 TEXT_SPEECH_FOCUS_DEMO_45,Hint: Load your units into the troop transport by selecting them and clicking on the transport unit, then move the transport to the designated area.
 TEXT_SPEECH_FOCUS_DEMO_46,Hint: Some areas are impassable to vehicles and can only be reached by infantry.  Eject your troops and send them to the shield generator.
-TEXT_SPEECH_FOCUS_DEMO_47,Tyber Zann: Now that our way is clear, take our forces and destroy the enemy’s base.
+TEXT_SPEECH_FOCUS_DEMO_47,Tyber Zann: Now that our way is clear, take our forces and destroy the enemy's base.
 TEXT_SPEECH_FONDOR_CRM_VICTORY_COR21_05,Defiler: The highly valuable indigenous units of Fondor are now ours to use as we see fit.
 TEXT_SPEECH_FONDOR_PIR_LOAD_COR21_01,Bossk: I'll not be denied. Move your ships into place!
 TEXT_SPEECH_FONDOR_PIR_LOSS_COR21_04,Bossk:  Now I want to go back into the fight and finish the job I started.
@@ -15215,7 +15215,7 @@ TEXT_SPEECH_KAMINO_CRM_VICTORY_COR28_01,Defiler: Corrupting the military forces 
 TEXT_SPEECH_KASHYYYK_BND_VICTORY_COR29_02,Defiler: The Zann Consortium now has the use of Wookiees as slaves. They should provide additional brute force.
 TEXT_SPEECH_KASHYYYK_RKT_VICTORY_COR29_01,Defiler: I have been successful in setting up an organization that can be used as a model for the Consortium all over the galaxy.
 TEXT_SPEECH_KESSEL_CRM_VICTORY_COR30_05,Defiler: I've successfully corrupted the Kessel miners. The enemy will not appreciate the uprising when the funds are cut to their workers.
-TEXT_SPEECH_KESSEL_PIR_LOAD_COR30_01,IG-88: I’ve computed a 98% chance of success, begin the battle!
+TEXT_SPEECH_KESSEL_PIR_LOAD_COR30_01,IG-88: I've computed a 98% chance of success, begin the battle!
 TEXT_SPEECH_KESSEL_PIR_LOSS_COR30_04,IG-88: My calculations failed, I've even now reevaluated the situation and am ready to try again.
 TEXT_SPEECH_KESSEL_PIR_TACTICAL_COR30_02,IG-88: I am tasked to enter the Kessel system and locate an Imperial Communication Satellite. Securing it will allow us to direct enemy ship movements toward our docks for confiscation.
 TEXT_SPEECH_KESSEL_PIR_VICTORY_COR30_03,IG-88: We have succeeded beyond my calculations. We have added a new ship to our fleet. We are redirecting enemy credits into our own coffers. Already we have heard reports of transport ships mysteriously disappearing as a result of our taking over control of the communication satellite.
@@ -15267,7 +15267,7 @@ TEXT_SPEECH_MON_EVENT_HERO_GATHERING_02,Well done, commander!
 TEXT_SPEECH_MON_EVENT_HUNT_CAPITAL_SHIPS_00,Reports are coming in that several Imperial capital ships have been spotted in orbit above a planet controlled by the Empire.
 TEXT_SPEECH_MON_EVENT_HUNT_CAPITAL_SHIPS_01,The Alliance is in your debt commander.
 TEXT_SPEECH_MON_EVENT_INDIGENOUS_REVOLT_00,Word comes to us that the inhabitants of one of the Empire's systems are revolting against their Imperial oppressors.
-TEXT_SPEECH_MON_EVENT_INDIGENOUS_REVOLT_01,We’ve received a distress call from a planet revolting against the Empire.
+TEXT_SPEECH_MON_EVENT_INDIGENOUS_REVOLT_01,We've received a distress call from a planet revolting against the Empire.
 TEXT_SPEECH_MON_EVENT_INDIGENOUS_REVOLT_02,This is a sad day, commander.
 TEXT_SPEECH_MON_EVENT_INDIGENOUS_REVOLT_03,We have been contacted by the leader of the revolt.
 TEXT_SPEECH_MON_EVENT_OPPRESSION_01,We have received a distress call that cannot be ignored.
@@ -15321,8 +15321,8 @@ TEXT_SPEECH_NALHUTTA_KID_LOSS_COR40_04,Urai Fen: There was no way to know the si
 TEXT_SPEECH_NALHUTTA_KID_TACTICAL_COR40_02,Urai Fen: Advancing to the space port director's location could be extremely dangerous. Carefully scout all areas for the enemy positions before moving forward.
 TEXT_SPEECH_NALHUTTA_KID_VICTORY_COR40_03,Urai Fen: With Tanda the Hutt in our control our operations should run more smoothly in this sector.
 TEXT_SPEECH_OBI_HC_01,I thought I sensed a disturbance in the force...
-TEXT_SPEECH_OBI_HC_02,You’re only a master of evil.
-TEXT_SPEECH_OBI_HC_03,You can’t win.
+TEXT_SPEECH_OBI_HC_02,You're only a master of evil.
+TEXT_SPEECH_OBI_HC_03,You can't win.
 TEXT_SPEECH_OBI_HC_04,If you strike me down, I shall become more powerful than you can possibly imagine!
 TEXT_SPEECH_OBI_HC_05,The dark side cannot succeed for long.
 TEXT_SPEECH_PLANET_CONTROL_ACHIEVED,Planetary control achieved.
@@ -15338,7 +15338,7 @@ TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_08,Imperial Captain: This is the Tyranny.  Y
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_09,Imperial Captain: The Tyranny is on Imperial Security assignment.  Maintain channel silence for ceremony communications.
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_10,Imperial Officer: Kuat shipyard to all Imperial units!  We are under siege by significant Rebel forces!  All ships in the area, respond!  Emergency code zero!
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_11,Imperial Captain: This is the Tyranny.  Responding to code zero.  Be aware that you are altering plans set by Lord Vader himself, and you will answer to him if this code has been invoked lightly.
-TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_12,Antilles: Better stay away from the starbase - we can’t match its firepower!
+TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_12,Antilles: Better stay away from the starbase - we can't match its firepower!
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_13,Imperial Captain: Jump completed.  Scanning for Rebel fleet...targets sighted.  Preparing to engage.
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_14,Antilles: Looks like we got their attention.  Now lets get out of here.
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_15,Antilles: It looks like we didn't cause enough damage to pull their attention away from Fresia.  Prepare the ships.  We'll need to try it again.
@@ -15351,9 +15351,9 @@ TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_22,Antilles: Blast!  We'd have the entire Im
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_23,C-3PO: Excuse me sir, but I believe Artoo could get the codes from the Imperial station uplink on Wayland to register your ships.  Then the Fresian sentries would clear you to the surface.
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_24,Antilles: Not a bad plan, Threepio.  But you droids will never get there on your own.  You'll need a sizeable escort of ground troops to have any chance at all.
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_25,DO NOT DISPLAY THIS TEXT: TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_25
-TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_26,Antilles: You can't come up with a plan and let someone else take all the credit, Threepio.  We can't attack Fresia if you and Artoo don’t get to the Imperial network on Wayland.  We're counting on you.
+TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_26,Antilles: You can't come up with a plan and let someone else take all the credit, Threepio.  We can't attack Fresia if you and Artoo don't get to the Imperial network on Wayland.  We're counting on you.
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_27,C-3PO: Oh my!
-TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_28,Antilles: The alarm will sound almost immediately, and reinforcements won’t be far behind.  We’ve got to cause enough damage to get the Tyranny back here!
+TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_28,Antilles: The alarm will sound almost immediately, and reinforcements won't be far behind.  We've got to cause enough damage to get the Tyranny back here!
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_29,C-3PO: But, sir, I think my presence there won't be necessary... .
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_03,Rebel Pilot: The pilots are ready to go, sir.
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_04,Antilles: With the sensors blind to our ships, we should be able to sneak right down to Fresia and grab those X-wings.
@@ -15523,11 +15523,11 @@ TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_07,Han Solo: We've been spotted by another
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_08,Han Solo: We've been spotted again.
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_09,Han Solo: Looks like we've found it.  Why is it always in the last place we look?
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_10,Han Solo: The TIE Fighter patrol has reported our presence in the system.  The Empire is scrambling ships.  We better wrap this up quick.
-TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_14,Han Solo: ...and another thing Chewie - I tell you, the next time we run into the Imperials, I’m just going to dump the cargo and let them board us.
+TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_14,Han Solo: ...and another thing Chewie - I tell you, the next time we run into the Imperials, I'm just going to dump the cargo and let them board us.
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_15,Mon Mothma: You can do whatever you wish once you finish this task and return to your chosen career, Solo.
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_16,Han Solo: Look, lady, I'm a stand up guy.  So I'll take care of this for you.  But the next time I'll expect payment in advance.
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_17,Han Solo: I think I've repaid my debt.  If you don't mind, I've got better things to do that won't involve me almost getting killed.
-TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_18,Mon Mothma: Don’t go running off too far though.  You've proven yourself effective and trustworthy.  We may have a job for you soon... one that pays.
+TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_18,Mon Mothma: Don't go running off too far though.  You've proven yourself effective and trustworthy.  We may have a job for you soon... one that pays.
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_19,Han Solo: Now you've got my attention.  I'll be around - I'm sure you know where you can find me.
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_20,Antilles: We'll monitor Imperial comms.  That should lead us right to you.
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_21,Han Solo: Trust me, they won't be catching me again.
@@ -15695,7 +15695,7 @@ TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_44,Get Han and Chewie to the shuttle landing
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_45,Han Solo: Alright, we're through with this Rebellion after this, Chewie.  That cause is a one-way ticket to getting us killed.
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_46,DO NOT DISPLAY THIS TEXT LINE
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_47,Han Solo: Chewie?  Chewie?!
-TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_04,Han Solo: Ok, that's it.  We’re done.  Here's what you were after.  Now give us our fee and we'll be leaving.
+TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_04,Han Solo: Ok, that's it.  We're done.  Here's what you were after.  Now give us our fee and we'll be leaving.
 TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_05,Mon Mothma: You've certainly earned this.  The Mon Calamari will be able to restart their production facilities now.  The Alliance would be happy to discuss the possibility of a longer-term relationship if you'd like further work... .
 TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_06,Han Solo: No more discussions!  Every time I listen to you for more than a minute, Chewie and I end up risking our necks!  No thanks!  We're getting as far away from you as possible until this blows over.  C'mon Chewie, let's get out of here while we can.
 TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_08,Mon Mothma: We received an Imperial announcement that Princess Leia Organa's ship, the Tantive IV, was attacked by pirates.  The Empire has promised an investigation, but we are certain that is merely a cover.
@@ -15721,7 +15721,7 @@ TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_09,Mon Mothma: We must do what we can, an
 TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_10,Rebel Soldier: A Corellian freighter just arrived from the vicinity of Alderaan.  They claim to have the data on the Death Star with them.
 TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_11,Han Solo: Freighter?  Freighter?!  I'll have you know she's much more than that, pal.
 TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_12,Mon Mothma: It appears you are back in our fold yet again, Captain Solo.
-TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_13,Han Solo: I tell you, if I had known all along what you were up to, I would have just let the Empire catch me on Carida.  I’m just here to drop off that Princess of yours, and those droids.  I'll take my reward and be off.
+TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_13,Han Solo: I tell you, if I had known all along what you were up to, I would have just let the Empire catch me on Carida.  I'm just here to drop off that Princess of yours, and those droids.  I'll take my reward and be off.
 TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_14,Mon Mothma: We cannot force you to aid us, but know that if the Empire has its way, you will find no safe haven no matter where you run.
 TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_15,Han Solo: I'll take my chances.
 TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_16,Mon Mothma: General Dodonna's analysis of the Death Star plans provided by Princess Leia has provided us with what might be a weakness in its defenses, and I am afraid that we will soon be forced to put it to the test.
@@ -15751,10 +15751,10 @@ TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_17,DO NOT USE THIS LINE: TEXT_SPEECH_REBEL_CAMP
 TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_18,Antilles: Well then, we've got a new target, gentlemen.
 TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_19,Rebel Pilot: The shipyard then?
 TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_20,Antilles: Yes.  I think we can get their attention....
-TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_21,Rebel Pilot: There’s no way we’re getting past that Star Destroyer.  You’d think the Fresians would have warned us.
-TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_22,Antilles: It’s not their fault.  The nationalization wasn’t announced.  The Emperor likes his surprises.
+TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_21,Rebel Pilot: There's no way we're getting past that Star Destroyer.  You'd think the Fresians would have warned us.
+TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_22,Antilles: It's not their fault.  The nationalization wasn't announced.  The Emperor likes his surprises.
 TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_23,Rebel Pilot: So what now?
-TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_24,Antilles: If the Tyranny is here, then it’s not at its normal station...and the Tyranny is normally stationed at...
+TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_24,Antilles: If the Tyranny is here, then it's not at its normal station...and the Tyranny is normally stationed at...
 TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_25,Rebel Pilot: Kuat!  The Imperial shipyards?
 TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_26,Antilles: Yes.  I think we can get their attention...
 TEXT_SPEECH_REINFORCEMENTS_CANCELED,Reinforcements canceled
@@ -15849,7 +15849,7 @@ TEXT_SPEECH_THYFERRA_KID_LOAD_COR48_01,Tyber Zann: I won't tolerate mistakes in 
 TEXT_SPEECH_THYFERRA_KID_LOSS_COR48_04,Tyber Zann: I needed to use more experienced mercenaries in that raid. I'll regroup and try again.
 TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_02,Tyber Zann: Ungarr Daris will have many security forces guarding him. Kill them and take him.
 TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_06,Tyber Zann: Ungarr Daris, you're a very important man.  I'll give you a choice.  You can come with me and continue to be an important man, or you can die right here and now.
-TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_07,Ungarr Daris: I don’t want any trouble, just don't hurt my family.
+TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_07,Ungarr Daris: I don't want any trouble, just don't hurt my family.
 TEXT_SPEECH_THYFERRA_KID_TACTICAL_COR48_08,Tyber Zann: As long as you or your family don't upset me, they'll be fine.
 TEXT_SPEECH_THYFERRA_KID_VICTORY_COR48_03,Tyber Zann: With Ungarr in our control, many useful things can happen on the planet and in that sector of space.
 TEXT_SPEECH_THYFERRA_RKT_VICTORY_COR48_05,Defiler: Centering our racketeering efforts around Bacta production can bring the economic power of the planet under our control
@@ -15860,7 +15860,7 @@ TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_06,Hint: To take control of the space above Ka
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_07,Shuttle Officer: Welcome to the front line.  We've pinpointed their base of operations and are standing by.  Our orders are to eliminate this station by any means necessary.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_08,Hint: Double-click on any unit to select all visible units of that same type.  Smaller units, such as fighter squadrons, can be selected by clicking on either the squadron icon or on the individual units.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_09,Hint: Your units can be assigned to control groups.  Select all units to be added to a control group, and then press the CTRL button and a number key.  Pressing the assigned number key again will select all units within the control group.
-TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_10,Shuttle Officer: We will need to navigate through this hazardous terrain to reach our destination.  Stay away from the asteroid fields, and stay alert.  This area is ripe for an ambush, and we can’t afford to take any losses!  Follow me.
+TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_10,Shuttle Officer: We will need to navigate through this hazardous terrain to reach our destination.  Stay away from the asteroid fields, and stay alert.  This area is ripe for an ambush, and we can't afford to take any losses!  Follow me.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_12,Hint: Asteroid fields damage larger units over a period of time.  If a large ship travels through an asteroid field it may become heavily damaged or destroyed.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_13,Shuttle Officer: Incoming hostiles!  Remember your training!  Divert power to weapons!
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_15,Hint: When using fighter units to attack enemy fighter or bomber squadrons, they will engage in a dogfight.
@@ -15869,8 +15869,8 @@ TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_17,Shuttle Officer: Good job.  Watch out for t
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_19,Hint: Nebula Fields are swirling clouds of gas and dust that can be found in space.  These fields do not damage ships, but they do disable the use of unit abilities, such as the Power to Weapons ability.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_20,Shuttle Officer: Incoming hostiles!  Open fire!
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_21,Shuttle Officer: Imperial scouts reported a frigate ship along with a bomber squadron in the vicinity.  Take a moment to allow our shields to regenerate before advancing.
-TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_22,Hint: Shield status is reflected by a blue bar on a ship's health meter.  Shields regenerate over time for most space units.  Hull status is reflected by a green meter.  Unlike shield damage, hull damage does not regenerate over time.  If a ship’s hull is destroyed, the ship will be destroyed.
-TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_23,Shuttle Officer: Okay, let’s move out... follow me.
+TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_22,Hint: Shield status is reflected by a blue bar on a ship's health meter.  Shields regenerate over time for most space units.  Hull status is reflected by a green meter.  Unlike shield damage, hull damage does not regenerate over time.  If a ship's hull is destroyed, the ship will be destroyed.
+TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_23,Shuttle Officer: Okay, let's move out... follow me.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_24,Shuttle Officer: There they are!   The frigate has been damaged, probably by one of our patrols.  If those bombers manage to attack us first, their torpedoes will tear our hulls apart.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_26,Hint: Units with torpedo projectiles, such as bombers, are able to bypass shields on all ships and structures.  This makes them extremely dangerous.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_28,Shuttle Officer: Good work.  That damaged frigate lies between us and the Rebel station.  Even wounded, it poses a threat.  As we approach we will need to intercept any Rebel fighter squadrons with our scouts, and direct all other units to attack the frigate.
@@ -15881,10 +15881,10 @@ TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_32,Shuttle Officer: Good!  We will need reinfo
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_34,Hint: To bring reinforcements into a battle, select the reinforcement button, then drag and release the ships into space from the reinforcement window.  Remember - reinforcements can only be released in open space, away from enemy structures and other hazards.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_35,Shuttle Officer: Watch out for those ion fields!
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_36,Hint: Ion Fields are swirling clouds of charged gas and dust that can be found in space.  These fields do not damage ships, but they do disable unit abilities and shield regeneration.
-TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_37,Shuttle Officer: Be careful.  This doesn’t look like the work of space rabble... the shields on that derelict space station have been restored.  Approach the station with Fighter Squadrons to draw its fire, and use other units to eliminate the remaining hard-points.
+TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_37,Shuttle Officer: Be careful.  This doesn't look like the work of space rabble... the shields on that derelict space station have been restored.  Approach the station with Fighter Squadrons to draw its fire, and use other units to eliminate the remaining hard-points.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_39,Hint: Small fighters are useful against space stations because of their speed and small size.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_40,Hint: Destroy the shield generator hard-point for enemy ships and space stations to disable their ability to regenerate shields.  This will make them more vulnerable to attack, and easier to destroy.
-TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_41,Shuttle Officer: Excellent work!  Let’s return to base.
+TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_41,Shuttle Officer: Excellent work!  Let's return to base.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_43,Hint: Broadside Cruiser ships are long range units that are strong against space stations.  In addition, these ships have the Barrage ability.  To use this ability: select a Broadside Cruiser unit, click on the Barrage ability icon, and then target enemy units or structures using the left-mouse-button.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_54,Hint: Select your units by left-clicking on them, and then issue a move command by right-clicking on the desired map location.  Scroll the tactical display by moving your cursor to the edge of the screen, or by using the keyboard arrow keys.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_55,Hint: Select your units by left-clicking on them, and then issue an attack command by right-clicking on enemy units.
@@ -15924,15 +15924,15 @@ TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_63,Hint: Bounty Hunters are spy units that can
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_64,Hint: Since there are no Rebel forces on Kashyyyk, the Empire can capture the planet without entering into a land battle.  Whenever you capture a planet, you will be rewarded with credits, as well as the ability to support more units.  The more planets that you capture, the larger your forces can become.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_65,Hint: Upgrading your technology level will provide you with access to new units, structures, and upgrades.  Switch to land production mode by selecting the land production tab.  Then, upgrade your technology level by clicking on the Upgrade Technology icon.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_70,Hint: You have found Pirates.  While they are hostile to the Empire, these aren't the Rebels you're looking for.    Gather more information about nearby enemy planets, by deploying Imperial Probe Droids to the ground slot of each planet.
-TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_01,Field Commander: This clearing is suitable for use as a Reinforcement Point.  Secure the area, and deploy our scouts.  We’ll launch the assault from this position.
+TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_01,Field Commander: This clearing is suitable for use as a Reinforcement Point.  Secure the area, and deploy our scouts.  We'll launch the assault from this position.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_03,Hint: The area surrounding a Reinforcement Point must be clear of enemies before it may be captured.  Remember - you can use Build Pads to purchase defensive structures in strategic areas, such as this Reinforcement Point.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_05,Hint: Land reinforcements can only be deployed in controlled areas, known as Reinforcement Points.  Conquering Reinforcement Points is of particular strategic importance in this game.  The amount of units you can bring into any Reinforcement Point is determined by that Point's capacity, denoted by the number shown.  Once you reach that capacity, you can no longer land units at that particular Reinforcement Point.  You will have to conquer another Reinforcement Point to bring down more units.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_06,Field Commander: A sandstorm!  It will, no doubt, prove to be a nuisance - but it will not stop us from achieving victory!
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_07,Hint: Foul weather can reduce the effectiveness of your units.  You must account for weather changes whenever you are engaged in battle on a planet's surface.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_08,Field Commander: The locals are supporting the Rebel forces on this system.  Eliminate them - we cannot afford to lose control of the Reinforcement Point!
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_10,Hint: When invading the surface of a planet, it is vital you maintain control of as many Reinforcement Points as possible since you can only deploy reinforcements near areas that you control.  If the defender gains control of a Reinforcement Point, you will not be able to deploy reinforcements at that location.
-TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_11,Field Commander: Good work!  They’ll think twice before interfering in Imperial affairs. Now, about that Rebel base...
-TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_12,Field Commander: The Rebels apparently have a Base Shield Generator.  Clever, but it won’t stop us for long - locate the Power Generator supplying power to that shield, and destroy it!
+TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_11,Field Commander: Good work!  They'll think twice before interfering in Imperial affairs. Now, about that Rebel base...
+TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_12,Field Commander: The Rebels apparently have a Base Shield Generator.  Clever, but it won't stop us for long - locate the Power Generator supplying power to that shield, and destroy it!
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_14,Hint: Base Shield Generators provide the defender with a significant advantage by blocking enemy blaster fire and reducing the movement speed of enemy units.  Base Shield Generators require Power Generators in order to function.  This means that if you destroy the Power Generator, the Base Shield will be disabled.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_15,Hint: Since bombing-capable units are in orbit above this system, Bombing Runs are available for use in this battle.  Select the Bombing Run icon on the command bar, and then target a visible area to bomb by left-clicking on the battlefield.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT05_16,Field Commander: The Base Shield Generator is down!  All units - attack the Rebel base!
@@ -15988,7 +15988,7 @@ TEXT_SPEECH_TUTORIAL_MP_ACT07_14,Hint: To activate an Asteroid Mining Facility, 
 TEXT_SPEECH_TUTORIAL_MP_ACT07_15,Hint: Unlike ground battles, reinforcements are not limited to Reinforcement Points. During a space-based skirmish game, you can deploy reinforcements at almost any location.  However, you cannot deploy reinforcements in hazardous terrain or within unexplored territory.
 TEXT_SPEECH_TUTORIAL_MP_ACT07_16,Hint: Lastly, to achieve victory in a space-based skirmish game you must either destroy all enemy units, structures, or both.  Remember that the victory conditions for space-based skirmish games may change depending on the map and game settings, so it's important to know what they are before entering into any skirmish game.
 TEXT_SPEECH_TUTORIAL_MP_ACT07_17,Good luck, soldier!
-TEXT_SPEECH_TUTORIAL_REBEL_ACT00_01,Hint: Welcome to Star Wars: Empire At War.  Your goal in this game is clear, TAKE CONTROL OF PLANETS, conquer the Star Wars galaxy, and become the ultimate Galactic Commander.  You’ll have the ability to command everything from individual troops to starships and even the mighty Death Star as you fight on the ground, in space and across the entire galaxy!  How you do it is up to you!  Will you repeat Star Wars history or will you change it forever?
+TEXT_SPEECH_TUTORIAL_REBEL_ACT00_01,Hint: Welcome to Star Wars: Empire At War.  Your goal in this game is clear, TAKE CONTROL OF PLANETS, conquer the Star Wars galaxy, and become the ultimate Galactic Commander.  You'll have the ability to command everything from individual troops to starships and even the mighty Death Star as you fight on the ground, in space and across the entire galaxy!  How you do it is up to you!  Will you repeat Star Wars history or will you change it forever?
 TEXT_SPEECH_TUTORIAL_REBEL_ACT00_04,Hint: The time to decide is now!  The Empire is launching an assault on the Rebel base on Kashyyyk!  To prepare you for the challenges of conquering the Star Wars galaxy, we are going down to the surface of Kashyyyk to show you how to take command of your land units to repel this invasion.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_01,Base Dispatch: Be advised - the last transmission we received from the lost patrol squad came from a position near your current location.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_02,Patrol Leader: They can't be far from here - let's find them!
@@ -16006,11 +16006,11 @@ TEXT_SPEECH_TUTORIAL_REBEL_ACT01_15,Patrol Leader: Nice job - we should be able 
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_16,Rebel Soldier: Sir!  This jamming device has Imperial markings!
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_17,Patrol Leader: Delta Base, this is patrol squad three.  Imperial forces have breached the perimeter!  I repeat, Imperial forces have breached the perimeter!
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_18,Base Dispatch: Acknowledged, squad three.  All units, return to base!
-TEXT_SPEECH_TUTORIAL_REBEL_ACT01_20,Patrol Leader: Let’s move out!
+TEXT_SPEECH_TUTORIAL_REBEL_ACT01_20,Patrol Leader: Let's move out!
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_21,Hint: To move your selected troops to the Rebel base, you can give them movement orders by right-clicking directly on the battlefield map or on the mini-map.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_22,Hint: When moving multiple units, a single-click movement order will force units to move at the speed of the slowest unit, while a double-click allows the units to move independently.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_23,Hint: Press the Tab key to zoom-out even further.  The zoomed-out view will provide you with an overview of the battlefield that can be extremely useful when moving your troops over long distances.
-TEXT_SPEECH_TUTORIAL_REBEL_ACT01_24,Base Dispatch: We’re tracking multiple Imperial transports from the east!
+TEXT_SPEECH_TUTORIAL_REBEL_ACT01_24,Base Dispatch: We're tracking multiple Imperial transports from the east!
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_25,Patrol Leader: Get those defensive structures online, now!
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_27,Hint: To view this battle from a cinematic perspective - select the cinematic camera option, located on the command bar.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_28,Hint: Build defensive structures to prepare for the incoming Imperial attack by right-clicking on the Build Pads located near the base walls, and then selecting a defensive structure to be built.  Currently, you can build a turret and a bacta healing station, but more structures will be available later in the game.
@@ -16032,19 +16032,19 @@ TEXT_SPEECH_TUTORIAL_REBEL_ACT01_44,Patrol Leader: We need to reclaim all Reinfo
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_48,Hint: Remember, you can review your mission objectives at any time by clicking on the Mission Holocron option, located on the left side of the Command Bar.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_49,Hint: Units can be assigned to control groups.  Select all units to be added to the group, and then press the CTRL button and a number key.  Pressing the assigned number key again selects all units in the control group.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_50,Hint: Capturing the Reinforcement points will prevent the enemy from landing even more troops.  To capture a Reinforcement Point, you must eliminate all enemy units in the area and remain near the Reinforcement point until it turns green.  Note that every Reinforcement Point has a limit to how many units it can accommodate, denoted by the number shown.  In Tutorial 5, we'll give you the opportunity to bring reinforcements into a land battle.
-TEXT_SPEECH_TUTORIAL_REBEL_ACT01_51,Hint: Remember, garrisoned units can be used to replenish lost forces.  Don’t forget to check the Rebel base for any Garrisoned units that may become available.
+TEXT_SPEECH_TUTORIAL_REBEL_ACT01_51,Hint: Remember, garrisoned units can be used to replenish lost forces.  Don't forget to check the Rebel base for any Garrisoned units that may become available.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_52,Hint: Units may be ordered to fight any enemies they encounter, while moving to a destination. This is known as an attack-move.  To issue an attack-move order, select your units, then select the Attack option located on the Command Bar, before targeting the desired destination.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_53,Patrol Leader: Secure that Reinforcement Point!
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_54,Patrol Leader: Incoming Imperials!  Open fire!
-TEXT_SPEECH_TUTORIAL_REBEL_ACT01_55,Patrol Leader: Area secure!  Let’s keep moving!
-TEXT_SPEECH_TUTORIAL_REBEL_ACT01_56,Patrol Leader: Area secure!  That’s all of them!
-TEXT_SPEECH_TUTORIAL_REBEL_ACT01_57,Base Dispatch: Sir, I’m receiving reports that a massive Imperial Fleet is en route to Kashyyyk!
+TEXT_SPEECH_TUTORIAL_REBEL_ACT01_55,Patrol Leader: Area secure!  Let's keep moving!
+TEXT_SPEECH_TUTORIAL_REBEL_ACT01_56,Patrol Leader: Area secure!  That's all of them!
+TEXT_SPEECH_TUTORIAL_REBEL_ACT01_57,Base Dispatch: Sir, I'm receiving reports that a massive Imperial Fleet is en route to Kashyyyk!
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_58,Patrol Leader: This system is no longer secure.  We need to evacuate this base immediately.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_60,Hint: Retreating allows you to save your units from certain destruction whenever you are faced with overwhelming odds.  Remember - you can always return to a battle later with additional units.  Select the retreat button on your command bar to take your remaining forces and regroup them on another planet.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_61,Patrol Leader: Inform the main Alliance fleet that the Empire is aware of our presence on Kashyyyk.  The rest of you - prepare for evacuation!
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_62,Rebel Soldier: Yes, sir!
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_63,Hint: While the retreat timer is active, your units are more vulnerable to enemy attacks.
-TEXT_SPEECH_TUTORIAL_REBEL_ACT01_64,Patrol Leader: I can only hope that the Imperials haven’t uncovered any other Alliance outposts.
+TEXT_SPEECH_TUTORIAL_REBEL_ACT01_64,Patrol Leader: I can only hope that the Imperials haven't uncovered any other Alliance outposts.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_78,Hint: Imperial forces have detected the Rebel presence here on the surface of Kashyyyk.  You will need to gather your troops and defend the Alliance base on this planet.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_79,Hint: To accomplish this, you must command ground units, like these Rebel Soldiers who are currently on patrol, to eliminate the enemy invaders; but before you begin, it is critical that you also understand how to use the command bar.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_80,Hint: To view the entire battlefield, use the mini-map located in the bottom left corner of the screen.  Friendly units on the mini-map are displayed in green, while enemy units are red.
@@ -16056,7 +16056,7 @@ TEXT_SPEECH_TUTORIAL_REBEL_ACT01_85,Hint: Use your Rebel infantry units and defe
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_01,Hint: Since you have successfully retreated from Kashyyyk you can continue to command the surviving forces from that battle within the Galactic View.  This view allows you to manage the resources on all of your planets, including your economy, bases, and units.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_02,Patrol Leader: We need to evacuate Kashyyyk and reinforce the main Alliance fleet at Bothawui.  Prepare for departure by moving our ground forces into orbit above Kashyyyk.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_04,Hint: Units within the Galactic View are represented by stacks of units, known as Fleets.  The strongest unit within a Fleet is always displayed on top.  Move these ground forces into orbit by dragging them from the surface of Kashyyyk into one of the available slots located above the planet.  This will prepare them for space travel.
-TEXT_SPEECH_TUTORIAL_REBEL_ACT02_05,Patrol Leader: Good work.  I’ll transmit the system coordinates for Bothawui to you now... stand by.
+TEXT_SPEECH_TUTORIAL_REBEL_ACT02_05,Patrol Leader: Good work.  I'll transmit the system coordinates for Bothawui to you now... stand by.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_06,Hint: To access a more detailed view of a selected planet, click on the zoom-in icon, located on the Mini-Map.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_07,Patrol Leader: There it is... direct all fleets located on Kashyyyk to move to Bothawui.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_09,Hint: Whenever a system has been selected, a ring is also displayed.  This ring indicates the approximate distance that a fleet can travel into unexplored territory, from that planet.
@@ -16213,7 +16213,7 @@ TEXT_SPEECH_UNDERWORLD_TUTORIAL_58,Hint: Some areas are impassable to vehicles a
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_59,Jabba's Troops: We're under attack call for back up!
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_60,Jabba's Troops: There's too many of them!  We can't hold out!  Where are those reinforcements?
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_61,Jabba: Do not fail me!  I've arranged for Imperial reinforcements.  If you lose my artifact to Tyber Zann, you will suffer a slow and painful death!
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_62,Tyber Zann: Now that our way is clear, take our forces and destroy the enemy’s base.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_62,Tyber Zann: Now that our way is clear, take our forces and destroy the enemy's base.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_63,Tyber Zann: I don't know what this artifact is, but if Jabba thought it was worth a planet's ransom, it's worth finding out.  I'm sure whatever secrets it holds will be well worth the cost of this little operation.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_64,Tyber Zann: Urai, you are the only one I would trust with this artifact.  Take it and guard it with your life.  I'll meet with you at the rendezvous point, where we can celebrate our victory.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_65,Stormtrooper: Tyber Zann!  You're under arrest for crimes against the Empire.  Drop your weapons!  If you do not come peacefully, we are authorized to use force!
@@ -16342,13 +16342,13 @@ TEXT_SPEECH_UW_ACT01_M01_08,Tyber Zann: You're right, sooner than you thought.
 TEXT_SPEECH_UW_ACT01_M01_09,Tyber Zann: Perfect timing as usual Urai.
 TEXT_SPEECH_UW_ACT01_M01_10,Urai Fen: We must move quickly to the landing site.  I had the power on your blaster upgraded while you were imprisoned.  It should prove very effective.  Come.  The Zann Consortium awaits your return.
 TEXT_SPEECH_UW_ACT01_M01_11,Tyber Zann: I've been here far too long already.  I assume you've arranged for a hasty departure?  This way!
-TEXT_SPEECH_UW_ACT01_M01_12,Han Solo: Hold on a second, where’s my cargo?  And what's with all these people?  I'm not running a passenger ship!
+TEXT_SPEECH_UW_ACT01_M01_12,Han Solo: Hold on a second, where's my cargo?  And what's with all these people?  I'm not running a passenger ship!
 TEXT_SPEECH_UW_ACT01_M01_13,Tyber Zann: Urai, explain things to the prisoners.  Their usefulness is at an end.
 TEXT_SPEECH_UW_ACT01_M01_14,Urai Fen: Consider it done.
 TEXT_SPEECH_UW_ACT01_M01_15,Tyber Zann: I'm your cargo, Captain Solo.  Don't worry about the prisoners.  They found their way in here, they can find their own way out.
 TEXT_SPEECH_UW_ACT01_M01_16,Han Solo: Whoa, wait a minute.  Your man said this was just a spice run.  Now of course I never believed that nonsense about a spice run but I didn't count on an Imperial prison riot!
 TEXT_SPEECH_UW_ACT01_M01_17,Tyber Zann: I'll double your already considerable fee.
-TEXT_SPEECH_UW_ACT01_M01_18,Han Solo: I know Chewie, I get the feeling we don’t have much choice if we want to leave here with our skins attached.  Get aboard now, we’re leaving.
+TEXT_SPEECH_UW_ACT01_M01_18,Han Solo: I know Chewie, I get the feeling we don't have much choice if we want to leave here with our skins attached.  Get aboard now, we're leaving.
 TEXT_SPEECH_UW_ACT01_M01_19,Tyber Zann: Let's go, Urai.  We need to reestablish our criminal network as soon as possible.  With Jabba posting a bounty on my head, every bounty hunter in the galaxy will be out to stop us.
 TEXT_SPEECH_UW_ACT01_M01_20,Tyber Zann: Perhaps some of our comrades can make themselves useful in getting past that turret.
 TEXT_SPEECH_UW_ACT01_M01_21,Tyber Zann: Stay clear of those, if you don't like explosions.
@@ -16386,7 +16386,7 @@ TEXT_SPEECH_UW_ACT01_M01_52,Tyber Zann: The artifact now belongs to me, you can 
 TEXT_SPEECH_UW_ACT01_M01_53,Jabba the Hutt: I thought you would respond with impotent threats.  One way or another I'll find the artifact.  The bounty I've placed on your head will make for an interesting, if not exciting, stay in prison.  The good news is your sentence will not be a long one.
 TEXT_SPEECH_UW_ACT01_M01_54,Tyber Zann: Urai, come in at once, do you read me?  Urai!
 TEXT_SPEECH_UW_ACT01_M01_55,Urai Fen: Urai here, We are in system, as planned.
-TEXT_SPEECH_UW_ACT01_M01_56,Tyber Zann: I'm accelerating our plans.  Jabba has sent some of his lackeys to finish the job he couldn't.  Get that ship landed, now.  I’ll set things in motion here.
+TEXT_SPEECH_UW_ACT01_M01_56,Tyber Zann: I'm accelerating our plans.  Jabba has sent some of his lackeys to finish the job he couldn't.  Get that ship landed, now.  I'll set things in motion here.
 TEXT_SPEECH_UW_ACT01_M01_57,Urai Fen: Captain Solo wanted more time to slip past the Imperial defenses.  I believe I can motivate him with additional credits.
 TEXT_SPEECH_UW_ACT01_M01_58,Tyber Zann: We need to make sure that neither Jabba nor the Empire has discovered the location of our hidden palace on Ryloth.
 TEXT_SPEECH_UW_ACT01_M01_59,Urai Fen: There has been no unusual activity near Ryloth,  The Hutts are unaware of our palace there and the Imperials have extended themselves trying to quell the Rebellion.  We will be able to expand our operations quickly upon your return.
@@ -16395,40 +16395,40 @@ TEXT_SPEECH_UW_ACT01_M01_61,Han Chewie, get the Falcon ready, we're leaving.  We
 TEXT_SPEECH_UW_ACT01_M01_62,Tyber Zann: Captain, I'm very sorry.  I understand your concern, but that's the problem with good help like my lieutenant - by the time I can get a word out to stop him, he's already finished.
 TEXT_SPEECH_UW_ACT01_M01_63,Han Solo: When we get out of Imperial space, you're on your own.  I never heard of you.
 TEXT_SPEECH_UW_ACT01_M01_64,Tyber Zann: I'll bribe these fools to aid in my escape.
-TEXT_SPEECH_UW_ACT01_M01_65,Han Solo: It’s about time you guys showed up.  Look, your man Urai here, didn’t say anything about springing prisoners.
-TEXT_SPEECH_UW_ACT01_M01_66,Tyber Zann: I’m already free of my bonds, Captain Solo, as you can plainly see.  How this transpired is none of your concern. 
+TEXT_SPEECH_UW_ACT01_M01_65,Han Solo: It's about time you guys showed up.  Look, your man Urai here, didn't say anything about springing prisoners.
+TEXT_SPEECH_UW_ACT01_M01_66,Tyber Zann: I'm already free of my bonds, Captain Solo, as you can plainly see.  How this transpired is none of your concern. 
 TEXT_SPEECH_UW_ACT01_M01_67,Tyber Zann: I know you have been inconvenienced, and I am prepared to compensate you.  Shall we say... double your original fee?
 TEXT_SPEECH_UW_ACT01_M01_68,Urai Fen: I have let you live this long, Captain Solo.  Perhaps I should reconsider?
-TEXT_SPEECH_UW_ACT01_M02_00,Pilot: We’ve scanned the outer area.  No sign of enemy fleet movements.
+TEXT_SPEECH_UW_ACT01_M02_00,Pilot: We've scanned the outer area.  No sign of enemy fleet movements.
 TEXT_SPEECH_UW_ACT01_M02_01,Tyber Zann: As I expected.  I want a thorough search of that debris field.  Take anything of worth.  But do it quickly.
 TEXT_SPEECH_UW_ACT01_M02_02,Pilot: What now?
-TEXT_SPEECH_UW_ACT01_M02_03,Tyber Zann: Let’s make a final pass.  There must be something worthwhile here.
+TEXT_SPEECH_UW_ACT01_M02_03,Tyber Zann: Let's make a final pass.  There must be something worthwhile here.
 TEXT_SPEECH_UW_ACT01_M02_04,Pilot: Looks like Rebel ships incoming!
 TEXT_SPEECH_UW_ACT01_M02_05,Rebel Ship: Identify yourselves!  Send your transponder codes now!
 TEXT_SPEECH_UW_ACT01_M02_06,Tyber Zann: Engage the Rebels.  We need to buy more time.
 TEXT_SPEECH_UW_ACT01_M02_07,Tyber Zann: That may very well be an emergency data pod from the Death Star.  Retrieve it.
 TEXT_SPEECH_UW_ACT01_M02_08,Tyber Zann: Another data pod.
 TEXT_SPEECH_UW_ACT01_M02_09,Tyber Zann: There's another data pod.
-TEXT_SPEECH_UW_ACT01_M02_10,Tyber Zann: That’s enough.  We have what we came for - prepare to jump to Hyperspace!
+TEXT_SPEECH_UW_ACT01_M02_10,Tyber Zann: That's enough.  We have what we came for - prepare to jump to Hyperspace!
 TEXT_SPEECH_UW_ACT01_M02_11,Wedge Antilles: Unidentified ships – you are trespassing in Alliance space.  Surrender immediately and prepare to be boarded!
-TEXT_SPEECH_UW_ACT01_M02_12,Tyber Zann: Surrender isn’t in an option.  Let our enemies fight each other.  Stay focused on those data pods.
-TEXT_SPEECH_UW_ACT01_M02_13,Wedge Antilles: Red 2 to all Alliance units – we need to regroup for another strike - we’re losing too many fighters!
+TEXT_SPEECH_UW_ACT01_M02_12,Tyber Zann: Surrender isn't in an option.  Let our enemies fight each other.  Stay focused on those data pods.
+TEXT_SPEECH_UW_ACT01_M02_13,Wedge Antilles: Red 2 to all Alliance units – we need to regroup for another strike - we're losing too many fighters!
 TEXT_SPEECH_UW_ACT01_M02_14,Tyber Zann: Oh look, the little Rebels are deploying defensive satellites.  Do not let their toys interfere with our operation.
-TEXT_SPEECH_UW_ACT01_M02_15,Pirate Ship: This is not your fight.  Move along or we’ll add you to the scrap!
+TEXT_SPEECH_UW_ACT01_M02_15,Pirate Ship: This is not your fight.  Move along or we'll add you to the scrap!
 TEXT_SPEECH_UW_ACT01_M02_16,Tyber Zann: Brush these insects off.  Leave them for the Rebels.
 TEXT_SPEECH_UW_ACT01_M02_17,Imperial Ship: Pirates inbound!  Maintain the defensive perimeter, we need more time for repairs!
 TEXT_SPEECH_UW_ACT01_M02_18,Tyber Zann: Amusing - Imperial vessels licking their wounds.  I wonder how that fits into the Emperor's grand vision...
-TEXT_SPEECH_UW_ACT01_M02_19,Tartan Commander: There’s the code phrase.  Switch your transponders and fall in with Zann’s forces.
+TEXT_SPEECH_UW_ACT01_M02_19,Tartan Commander: There's the code phrase.  Switch your transponders and fall in with Zann's forces.
 TEXT_SPEECH_UW_ACT01_M02_20,Imperial Ship: Mutinous traitors!  Lord Vader will hear of this!
 TEXT_SPEECH_UW_ACT01_M02_21,Tyber Zann: Welcome aboard, gentlemen.
 TEXT_SPEECH_UW_ACT01_M02_22,Pirate Vessel: Too slow, Zann!  You want this, you'll have to pay for it!
 TEXT_SPEECH_UW_ACT01_M02_23,Tyber Zann: What insolence!  That vessel has our data pod, do not let it escape!
-TEXT_SPEECH_UW_ACT01_M02_24,Pilot: Incoming hyperspace signature!  Whatever it is, it’s massive.
+TEXT_SPEECH_UW_ACT01_M02_24,Pilot: Incoming hyperspace signature!  Whatever it is, it's massive.
 TEXT_SPEECH_UW_ACT01_M02_25,Tyber Zann: That would be the inevitable Imperial fleet.  Ah, here is their transmission now:
 TEXT_SPEECH_UW_ACT01_M02_26,Imperial Commander: All surviving Imperial forces regroup and reinforce the blockade.  Eliminate all remaining vessels.  No one leaves here alive.
-TEXT_SPEECH_UW_ACT01_M02_27,Tyber Zann: We’re no match for that destroyer.  Prepare to evacuate the system!
+TEXT_SPEECH_UW_ACT01_M02_27,Tyber Zann: We're no match for that destroyer.  Prepare to evacuate the system!
 TEXT_SPEECH_UW_ACT01_M02_28,Tyber Zann: The pirate has dropped the data pod!  Retrieve it immediately!
-TEXT_SPEECH_UW_ACT01_M02_29,Rebel Commander: We’ve got scavengers on our tail – protect the shuttles at all costs!
+TEXT_SPEECH_UW_ACT01_M02_29,Rebel Commander: We've got scavengers on our tail – protect the shuttles at all costs!
 TEXT_SPEECH_UW_ACT01_M02_30,Tyber Zann: Hmm... Rebel forces evacuating Yavin.  Might be worth a change in plans.  Detain the shuttles, confiscate anything worthwhile, and destroy the rest.
 TEXT_SPEECH_UW_ACT01_M02_31,Tyber Zann: Scans indicate that wreckage has high mineral value.  Inspect the debris and retrieve anything of worth.
 TEXT_SPEECH_UW_ACT01_M02_32,Tyber Zann: This one is just useless chatter between the Grand Moffs.  Look for another.
@@ -16437,8 +16437,8 @@ TEXT_SPEECH_UW_ACT01_M02_34,Tyber Zann: Looks like this one contains some inform
 TEXT_SPEECH_UW_ACT01_M02_BOUNCE,Tyber Zann: I want to oversee this mission personally.
 TEXT_SPEECH_UW_ACT01_M02_FAIL,Tyber Zann: Failure is unacceptable.  We'll be better prepared next time.
 TEXT_SPEECH_UW_ACT01_M03_01,Consortium Soldier: No reports of outgoing transports...nowhere to hide...what is this?
-TEXT_SPEECH_UW_ACT01_M03_02,Urai Fen: Jabba’s will be planning an ambush.  Expect resistance at the landing site.
-TEXT_SPEECH_UW_ACT01_M03_03,Consortium Soldier: We’ve got a...disturbance...
+TEXT_SPEECH_UW_ACT01_M03_02,Urai Fen: Jabba's will be planning an ambush.  Expect resistance at the landing site.
+TEXT_SPEECH_UW_ACT01_M03_03,Consortium Soldier: We've got a...disturbance...
 TEXT_SPEECH_UW_ACT01_M03_04,Urai Fen: This was expected.  Maintain defenses here - I will reestablish a reinforcement point.
 TEXT_SPEECH_UW_ACT01_M03_05,Hutt Soldier: There he is, just like Jabba warned, an infiltrator!
 TEXT_SPEECH_UW_ACT01_M03_06,Urai Fen: Whether Jabba warned you or not is of no consequence.  Stand down or be eliminated.
@@ -16459,7 +16459,7 @@ TEXT_SPEECH_UW_ACT01_M04_11,Tyber Zann: I'm sure Jabba's not paying enough for t
 TEXT_SPEECH_UW_ACT01_M04_12,Bossk: (translated) It's never enough...
 TEXT_SPEECH_UW_ACT01_M04_13,Tyber Zann: Indeed.  What would you say if I tripled Jabba's payment, and delivered it in advance?
 TEXT_SPEECH_UW_ACT01_M04_14,Bossk: (translated) Where's the target?
-TEXT_SPEECH_UW_ACT01_M04_15,Tyber Zann: Jabba, your men are dead, and you’re surrounded.  I'd say that puts you at a disadvantage.
+TEXT_SPEECH_UW_ACT01_M04_15,Tyber Zann: Jabba, your men are dead, and you're surrounded.  I'd say that puts you at a disadvantage.
 TEXT_SPEECH_UW_ACT01_M04_16,Jabba the Hutt: (translated) We can make a deal Tyber!  There's no need to do anything...permanent.
 TEXT_SPEECH_UW_ACT01_M04_17,Tyber Zann: The only deal that lets you live is this - The price on my head--gone.  The hits on my territories--stop.  The planets Saleucami and Hypori--now belong to me.  If I see your people anywhere in my territory, I'll personally come to Tatooine and feed you to your own rancor.
 TEXT_SPEECH_UW_ACT01_M04_18,Jabba the Hutt: (translated) Agreed.  Just leave Hutt territory alone and I will leave you to your business.
@@ -16497,12 +16497,12 @@ TEXT_SPEECH_UW_ACT01_M04_49,Tyber Zann: Is the factory open for business?
 TEXT_SPEECH_UW_ACT01_M04_50,Urai Fen: The emergency defenses are active.  The droids will pursue us until I can shut them down.
 TEXT_SPEECH_UW_ACT01_M04_51,Tyber Zann: Can we get to the shutoff controls?
 TEXT_SPEECH_UW_ACT01_M04_52,Urai Fen: They are deep within the factory.  We can reach them, if we avoid any unnecessary conflicts.
-TEXT_SPEECH_UW_ACT01_M04_53,Tyber Zann: Backing down from a fight?  Urai, don't tell me you've grown soft while I’ve been away.
+TEXT_SPEECH_UW_ACT01_M04_53,Tyber Zann: Backing down from a fight?  Urai, don't tell me you've grown soft while I've been away.
 TEXT_SPEECH_UW_ACT01_M04_54,Urai Fen: I said nothing about backing down - we likely won't have that option.  Droidekas are fast...very fast.
 TEXT_SPEECH_UW_ACT01_M04_55,Urai Fen: The battle class droideka is 1.83 meters in height and has a built in shield projector, making it a formidable threat to infantry and light vehicles.
 TEXT_SPEECH_UW_ACT01_M04_56,Tyber Zann: I've never encountered one myself, but I've heard the stories.
 TEXT_SPEECH_UW_ACT01_M04_57,Urai Fen: It has twin rapid-fire blaster cannons...
-TEXT_SPEECH_UW_ACT01_M04_58,Tyber Zann: ...meaning you don’t want to be up against a mob of these things.
+TEXT_SPEECH_UW_ACT01_M04_58,Tyber Zann: ...meaning you don't want to be up against a mob of these things.
 TEXT_SPEECH_UW_ACT01_M04_59,Urai Fen: Exactly.  This model is also equipped with ion blasters, allowing them to cripple shielded units.
 TEXT_SPEECH_UW_ACT01_M04_60,Tyber Zann: That kind of versatility could prove useful.  Are we at the controls yet?
 TEXT_SPEECH_UW_ACT01_M04_61,Urai Fen: We should be near.
@@ -16547,7 +16547,7 @@ TEXT_SPEECH_UW_ACT02_G11_02,Tyber Zann: Impossible!  How did you find me?
 TEXT_SPEECH_UW_ACT02_G11_03,Thrawn: Of course I was aware you had taken Jabba's comm node on Saleucami; tapping into it to reach you was trivial.
 TEXT_SPEECH_UW_ACT02_G11_04,Tyber Zann: I shouldn't be surprised that you were able to track me down.  I see you've risen quickly in the Imperial Ranks.  With the way the Empire treats non-humans, I'm surprised you're not commanding a garbage scow somewhere.
 TEXT_SPEECH_UW_ACT02_G11_05,Thrawn: My capabilities have proven more than enough to inspire the Emperor's tolerance.  Ironic that you were once one of the Academy's most promising students.  Now, you're an outcast, and foolish enough to try and pay your way by attacking Imperial holdings.
-TEXT_SPEECH_UW_ACT02_G11_06,Tyber Zann: I took nothing the Empire wasn’t going to lose to the Rebels anyway.  Watch me too closely Thrawn, and you will not like what I have to show you.
+TEXT_SPEECH_UW_ACT02_G11_06,Tyber Zann: I took nothing the Empire wasn't going to lose to the Rebels anyway.  Watch me too closely Thrawn, and you will not like what I have to show you.
 TEXT_SPEECH_UW_ACT02_G11_07,Thrawn: A clumsy threat, Tyber, and an empty one.  You may be king among your little cadre of bandits, but you will soon provoke a response beyond your capacity to comprehend.  Consider this warning a courtesy from an old friend.
 TEXT_SPEECH_UW_ACT02_G11_08,Tyber Zann: Your crumbling Empire and its aging admirals may find they have their hands full with the Zann Consortium this time around, Thrawn.  You'd think a tactical genius such as yourself would see that coming.
 TEXT_SPEECH_UW_ACT02_G11_09,Thrawn: What I see is a petty criminal who will be destroyed the moment he rises from the sludge and attracts the attention of the Empire.
@@ -16623,9 +16623,9 @@ TEXT_SPEECH_UW_ACT02_M06_13,Silri: I... could, given time.  But I would demand m
 TEXT_SPEECH_UW_ACT02_M06_16,Tyber Zann: Name your price.
 TEXT_SPEECH_UW_ACT02_M06_17,Silri: I'll need transport off this planet in order to gather the needed resources.  I ask one other thing - Revenge on my captor.
 TEXT_SPEECH_UW_ACT02_M06_18,Urai Fen: Do not trust her, Tyber.  Even now, she is reaching out to you with the dark side, prying at your defenses...
-TEXT_SPEECH_UW_ACT02_M06_19,Tyber Zann: I’m not concerned about our lovely Silri, Urai.  For now, at least, our goals are mutually beneficial.
-TEXT_SPEECH_UW_ACT02_M06_20,Silri: Understood, now release me from this cell and we’ll go to kill the Imperial Governor that put me on display in this cage.
-TEXT_SPEECH_UW_ACT02_M06_21,Silri: That is the Imperial Governor’s stronghold.  His lifeless body will send a message to the Emperor.  The use of Dark Force powers against his army should convince the Emperor it would be wise to leave Dathomir.
+TEXT_SPEECH_UW_ACT02_M06_19,Tyber Zann: I'm not concerned about our lovely Silri, Urai.  For now, at least, our goals are mutually beneficial.
+TEXT_SPEECH_UW_ACT02_M06_20,Silri: Understood, now release me from this cell and we'll go to kill the Imperial Governor that put me on display in this cage.
+TEXT_SPEECH_UW_ACT02_M06_21,Silri: That is the Imperial Governor's stronghold.  His lifeless body will send a message to the Emperor.  The use of Dark Force powers against his army should convince the Emperor it would be wise to leave Dathomir.
 TEXT_SPEECH_UW_ACT02_M06_22,Imperial Governor: Wait, please!  I'm worth more to you alive!  Your message will get out through my ransom!  Your demands will be met!
 TEXT_SPEECH_UW_ACT02_M06_23,Silri: My message will be sent -- written in your blood.
 TEXT_SPEECH_UW_ACT02_M06_24,Tyber Zann: There, now.  That worked out well for you.  Now it is time for you to hold up your end of the bargain.
@@ -16654,8 +16654,8 @@ TEXT_SPEECH_UW_ACT02_M06_56,Tyber Zann: And?  Who would be the most powerful amo
 TEXT_SPEECH_UW_ACT02_M06_57,Nightsister: Silri can be found in the Frenzied River Prison to the north.  The Imperial Governor placed her in a cage and broadcast news of her imprisonment planet-wide, in order to break our spirit.  It didn't work.  We rebelled, but many of our number were captured, and imprisoned all over the planet.  The Empire is now our mortal enemy.
 TEXT_SPEECH_UW_ACT02_M06_SAB_BOUNCE,Tyber Zann: We need to destroy the orbital sensor array before we can approach Dathomir; trying to land would be suicide otherwise.
 TEXT_SPEECH_UW_ACT02_M07_00,Stormtrooper: Your arrival isn't on my schedule.  Let me see your identification papers.
-TEXT_SPEECH_UW_ACT02_M07_01,Tyber Zann: You don’t need to see my identification.
-TEXT_SPEECH_UW_ACT02_M07_02,Stormtrooper: This one thinks he’s a Jedi.  And why don't I need to see your identification?
+TEXT_SPEECH_UW_ACT02_M07_01,Tyber Zann: You don't need to see my identification.
+TEXT_SPEECH_UW_ACT02_M07_02,Stormtrooper: This one thinks he's a Jedi.  And why don't I need to see your identification?
 TEXT_SPEECH_UW_ACT02_M07_03,Tyber Zann: Because you're dead.
 TEXT_SPEECH_UW_ACT02_M07_04,Tyber Zann: We don't have much time.  I'll plant the evidence against Xizor.  Urai, see to the Tibanna Gas.  IG-88, slice into the Imperial computer banks and get me security access for all of the planets on my hit list.
 TEXT_SPEECH_UW_ACT02_M07_05,Urai Fen: Each Tibanna gas collection facility is surrounded by four refineries.  I will need to escort the gas droids to the refineries, where they will procure the gas.  We will need to return with eight full droids for this mission to be a success.
@@ -16695,7 +16695,7 @@ TEXT_SPEECH_UW_ACT02_M09_02,Thrawn: In a manner of speaking, yes.  Xizor is dead
 TEXT_SPEECH_UW_ACT02_M09_03,Tyber Zann: Really.  You don't think I came unprepared, do you?
 TEXT_SPEECH_UW_ACT02_M09_04,Thrawn: Well done, for a petty criminal.  Of course I wouldn't have expected you to anticipate the hypervelocity gun on the surface.
 TEXT_SPEECH_UW_ACT02_M09_05,Tyber Zann: Well I would expect an Imperial Officer to be arrogant enough not to be ready for my surprises.
-TEXT_SPEECH_UW_ACT02_M09_06,Thrawn: Well.  This may actually prove interesting.  Why don’t we begin?
+TEXT_SPEECH_UW_ACT02_M09_06,Thrawn: Well.  This may actually prove interesting.  Why don't we begin?
 TEXT_SPEECH_UW_ACT02_M09_07,Tyber Zann: Agreed...for an admittedly brilliant strategist, one thing you've never been, Thrawn, is boring...
 TEXT_SPEECH_UW_ACT02_M09_08,Pilot: Bossk has stolen the artifact!  He's heading towards Thrawn's ship.  All fire on the Hound's Tooth!
 TEXT_SPEECH_UW_ACT02_M09_09,Tyber Zann: No!  Let him go!  Let him go.
@@ -16783,15 +16783,15 @@ TEXT_SPEECH_UW_ACT03_M11_16,Tyber Zann: That should take care of the cameras
 TEXT_SPEECH_UW_ACT03_M11_17,Urai Fen: I can sense the dark side of the Force within you.  It has been a long time since I have had a challenging opponent, do not disappoint me.
 TEXT_SPEECH_UW_ACT03_M11_18,Urai Fen: There are three more of them.
 TEXT_SPEECH_UW_ACT03_M11_19,Urai Fen: The power is down.  Now I must reach Tyber.
-TEXT_SPEECH_UW_ACT03_M11_20,Tyber Zann: Now that the museum’s defenses are down, we can bring in a little extra security, just as a precaution.  Good thing I left those MDUs parked out front.
+TEXT_SPEECH_UW_ACT03_M11_20,Tyber Zann: Now that the museum's defenses are down, we can bring in a little extra security, just as a precaution.  Good thing I left those MDUs parked out front.
 TEXT_SPEECH_UW_ACT03_M11_21,Tyber Zann: Damn!  A trap!
 TEXT_SPEECH_UW_ACT03_M11_22,Urai Fen: This door is being held shut by remote control.  There is nothing I can do to open it.
 TEXT_SPEECH_UW_ACT03_M11_23,Urai Fen: Got it!
 TEXT_SPEECH_UW_ACT03_M11_24,Tyber Zann: Just in time.
 TEXT_SPEECH_UW_ACT03_M11_25,Urai Fen: I just need a few minutes to find the passkey....
-TEXT_SPEECH_UW_ACT03_M11_26,Tyber Zann: Hmm...  A security system I didn’t plan for.  You can bet the guards are on their way here as we speak.  We’ll have to destroy them to release their control on the door.
+TEXT_SPEECH_UW_ACT03_M11_26,Tyber Zann: Hmm...  A security system I didn't plan for.  You can bet the guards are on their way here as we speak.  We'll have to destroy them to release their control on the door.
 TEXT_SPEECH_UW_ACT03_M11_27,Urai Fen: Got it.  Do you want anything else in the vault?
-TEXT_SPEECH_UW_ACT03_M11_28,Tyber Zann: Tempting, but there's no time.  We have the plans and that’s what we came for.  Let's leave while we still can.
+TEXT_SPEECH_UW_ACT03_M11_28,Tyber Zann: Tempting, but there's no time.  We have the plans and that's what we came for.  Let's leave while we still can.
 TEXT_SPEECH_UW_ACT03_M11_29,Silri: What is it, my pet?
 TEXT_SPEECH_UW_ACT03_M11_30,Tyber Zann: What's that thing doing out of its cage?  And why aren't you waiting in the hangar?
 TEXT_SPEECH_UW_ACT03_M11_31,Silri: I...sensed something, I went to investigate.
@@ -16804,18 +16804,18 @@ TEXT_SPEECH_UW_ACT03_M11_37,Tyber Zann: What an amazing gift for understatement 
 TEXT_SPEECH_UW_ACT03_M11_38,Tyber Zann: Was that really necessary?
 TEXT_SPEECH_UW_ACT03_M11_39,Urai Fen: Do you not know what this is?  It is a Juggernaut!
 TEXT_SPEECH_UW_ACT03_M11_40,Silri: Let's get out of here.
-TEXT_SPEECH_UW_ACT03_M11_41,Tyber Zann: I’m not going to lie to anyone.  Breaking into the Emperor’s personal archive isn’t going to be easy, but we need that passkey.
-TEXT_SPEECH_UW_ACT03_M11_42,Tyber Zann: So let’s review the plan.  I’ll infiltrate the security section and disable the monitoring controls.  That will blind the cameras while we’re breaking into the vault.  After that...
+TEXT_SPEECH_UW_ACT03_M11_41,Tyber Zann: I'm not going to lie to anyone.  Breaking into the Emperor's personal archive isn't going to be easy, but we need that passkey.
+TEXT_SPEECH_UW_ACT03_M11_42,Tyber Zann: So let's review the plan.  I'll infiltrate the security section and disable the monitoring controls.  That will blind the cameras while we're breaking into the vault.  After that...
 TEXT_SPEECH_UW_ACT03_M11_43,Urai Fen: After that, it is up to me to sneak into the main power grid and shut it down.  This will disable the turret guns.
 TEXT_SPEECH_UW_ACT03_M11_44,Tyber Zann: ...Silri?  Are you paying attention?
 TEXT_SPEECH_UW_ACT03_M11_45,Silri: And I wait, while you two get all the glory?
-TEXT_SPEECH_UW_ACT03_M11_46,Tyber Zann: You’re guarding our only means of escape. Don’t forget it. Once we have the plans, we’ll need a transport to get past the exit defenses.
+TEXT_SPEECH_UW_ACT03_M11_46,Tyber Zann: You're guarding our only means of escape. Don't forget it. Once we have the plans, we'll need a transport to get past the exit defenses.
 TEXT_SPEECH_UW_ACT03_M11_47,Silri: I guess I didn't realize this mission was guard duty.
 TEXT_SPEECH_UW_ACT03_M11_48,Urai Fen: Give me the word at any time, Tyber.  I would be more than happy to eliminate her.
 TEXT_SPEECH_UW_ACT03_M11_49,Tyber Zann: I hate to admit it, Urai, but I think she's actually growing on me.  Of course it's comforting knowing that option is always available.
 TEXT_SPEECH_UW_ACT03_M11_50,Silri: There's something troubling here...
-TEXT_SPEECH_UW_ACT03_M11_51,Tyber Zann: The vault is open.  Let’s see what’s inside.
-TEXT_SPEECH_UW_ACT03_M11_52,Tyber Zann: Why aren’t those Ysalamiri cages being deployed?  We’re in trouble here!
+TEXT_SPEECH_UW_ACT03_M11_51,Tyber Zann: The vault is open.  Let's see what's inside.
+TEXT_SPEECH_UW_ACT03_M11_52,Tyber Zann: Why aren't those Ysalamiri cages being deployed?  We're in trouble here!
 TEXT_SPEECH_UW_ACT03_M11_53,Tyber Zann: Everyone into the transport!
 TEXT_SPEECH_UW_ACT03_M11_54,Tyber Zann: This thing must move faster.
 TEXT_SPEECH_UW_ACT03_M11_55,Silri: Use the laser defenses!
@@ -16867,15 +16867,15 @@ TEXT_SPEECH_UW_CLD_06,Defiler: I've successfully established a recruitment cente
 TEXT_SPEECH_UW_CLD_07,Defiler: The vast Kuat ship yards are in your control. I've set up a black market ring to bring the technologies of your enemies into your hands. The Zann Consortium will now be able to use our stolen plans to build units in the future. There was some resistance from a few of the powerful families controlling Kuat, but there's no longer a power base to stop us there at the present time. Long live the Consortium!
 TEXT_SPEECH_UW_CLD_08,Urai Fen: Our forces mass to move on the planet. We will not fail the Zann Consortium.
 TEXT_SPEECH_UW_CLD_09,Tyber Zann: Well done, this world has been successfully corrupted.
-TEXT_SPEECH_UW_CLD_10,IG-88: I’ve computed a 98% chance of success, begin the battle!
+TEXT_SPEECH_UW_CLD_10,IG-88: I've computed a 98% chance of success, begin the battle!
 TEXT_SPEECH_UW_END_CINEMATIC_00,Tyber Zann: Do you see Urai?  Billions of credits!  Technical data hoarded for decades!  Priceless works of art!  It's incredible!  There is more wealth in these hidden vaults than even I can imagine!
 TEXT_SPEECH_UW_END_CINEMATIC_01,Urai Fen: An impressive victory.  With the contents of the vault and this ship, there may soon be a new galactic emperor.
-TEXT_SPEECH_UW_END_CINEMATIC_02,Tyber Zann: I've no need to keep the half-constructed Eclipse.  And it presents a target even the Rebels couldn't miss.  With the treasures from Palpatine's vaults, I can now spread my organization across the galaxy.  Let the Rebels form their New Republic!  I’ve always wanted to own a Senator...
+TEXT_SPEECH_UW_END_CINEMATIC_02,Tyber Zann: I've no need to keep the half-constructed Eclipse.  And it presents a target even the Rebels couldn't miss.  With the treasures from Palpatine's vaults, I can now spread my organization across the galaxy.  Let the Rebels form their New Republic!  I've always wanted to own a Senator...
 TEXT_SPEECH_UW_END_CINEMATIC_03,Silri: Soon you will understand the true meaning of power Tyber Zann.  When I teach it to you.
 TEXT_SPEECH_UW_END_CINEMATIC_04,Silri: Hahahahahahaha!
 TEXT_SPEECH_VAD_EVENT_FAVOR_02,You show great promise, commander.
 TEXT_SPEECH_VAD_EVENT_FAVOR_03,Your commanding officer may be right about you.
-TEXT_SPEECH_VAD_HC_01,I’ve been waiting for you Obi Wan!
+TEXT_SPEECH_VAD_HC_01,I've been waiting for you Obi Wan!
 TEXT_SPEECH_VAD_HC_02,When I left you, I was but the learner, now “I” am the master!
 TEXT_SPEECH_VAD_HC_03,Your powers are weak, old man!
 TEXT_SPEECH_VAD_HC_04,You should not have come back!
@@ -17023,7 +17023,7 @@ TEXT_STORY_EMPIRE_ACT03_MISSION_SEVEN_21,The Rebel Fortress - Complete!
 TEXT_STORY_EMPIRE_ACT03_MISSION_SEVEN_22,Reward: New Units - AT-ATs
 TEXT_STORY_EMPIRE_ACT04_MISSION_10_100,Activate and protect your interdictors.
 TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_00,The Destruction of Alderaan
-TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_01,A suitable demonstration of the Death Star’s power is necessary.  Princess Leia has unwillingly picked the target - her homeworld of Alderaan.
+TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_01,A suitable demonstration of the Death Star's power is necessary.  Princess Leia has unwillingly picked the target - her homeworld of Alderaan.
 TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_02,Task: Build a fleet and escort the Death Star to Alderaan.
 TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_03,Alderaan is now only a memory, and a wayward freighter has been captured.  It is only a matter of time before the location of the Rebel base is revealed, and the Rebellion itself is brought to a close.
 TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_06,Task: Keep your fleet alive long enough to fire the Death Star.
@@ -17192,7 +17192,7 @@ TEXT_STORY_REBEL_ACT04_MISSION_ELEVEN_07,REWARD SYSTEM CUT
 TEXT_STORY_REBEL_ACT04_MISSION_ELEVEN_19,Task: Remove the Empire fleet from Mon Calamari.  Cruisers will not be available for construction until control is restored.
 TEXT_STORY_REBEL_ACT04_MISSION_ELEVEN_22,Hint: Mon Calamari can only be approached by three routes - guard them accordingly
 TEXT_STORY_REBEL_ACT04_MISSION_ELEVEN_25,Task: Remove the Empire fleet from Mon Calamari.
-TEXT_STORY_REBEL_ACT04_MISSION_TEN_100,Hint: Target the Tantive IV’s engines to disable the ship.
+TEXT_STORY_REBEL_ACT04_MISSION_TEN_100,Hint: Target the Tantive IV's engines to disable the ship.
 TEXT_STORY_REBEL_ACT04_MISSION_TWELVE_00,The Final Battle
 TEXT_STORY_REBEL_ACT04_MISSION_TWELVE_01,The Empire's ultimate weapon, The Death Star, has been unleashed upon an unsuspecting galaxy.  The planet Alderaan was the first to pay the price, with millions of deaths being the cost.  The Rebel fleet is far too weak to confront the battle station head on, but with the aid of General Dodonna's military knowledge and courageous fighter pilots, the Rebellion may yet have a chance.
 TEXT_STORY_REBEL_ACT04_MISSION_TWELVE_02,Task: Confront the Death Star in a tactical battle that includes Red Squadron.  If Red Squadron survives the battle, Luke can destroy the Death Star and win the game
@@ -17496,7 +17496,7 @@ TEXT_STRUCTURE_PRODUCTION_02,Production Facility
 TEXT_STRUCTURE_PRODUCTION_03,Production Facility
 TEXT_STRUCTURE_PRODUCTION_04,Production Facility
 TEXT_STRUCTURE_PRODUCTION_05,Production Facility
-TEXT_STRUCTURE_PYNGANI,Pyn’gani Dwelling
+TEXT_STRUCTURE_PYNGANI,Pyn'gani Dwelling
 TEXT_STRUCTURE_RANCOR_ROCK,Rancor Den
 TEXT_STRUCTURE_REBEL_BUILDABLE_BACTA_TANK,Rebel Bacta Healing Station
 TEXT_STRUCTURE_REBEL_BUILDABLE_BACTA_TANK_UC,Rebel Bacta Healing Station (constructing)
@@ -17594,7 +17594,7 @@ TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_SARLACC,Sarlacc Pits have been spotted in t
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_SULLUSTAN,The Sullustans have been long been our allies against the Empire.  They will attack the Empire where possible.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_TUSCAN_RAIDER,Tusken Raiders will attack without provocation.  Neutralize their dwelling to receive a bonus.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_TWILEK,The local Twi'leks are tired of being suppressed.  They fight along side our forces against the Empire.
-TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_TWILEK_01,The Twi’leks have sided with the Consortium and may prove hostile to our cause.
+TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_TWILEK_01,The Twi'leks have sided with the Consortium and may prove hostile to our cause.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_VORNSKR,The Vornskr are vicious hunters that track their pray using the Force.  We may be forced to destroy them to protect our troops.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_WAMPA,Wampas have been a nuissance to local infantry.  Destroy their caves for a reward.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_WOOKIEE,The Local Wookiees are being persued by Imperial slavers.  We must assist them in their fight against the Empire.
@@ -17604,7 +17604,7 @@ TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_FELUCIAPLANTS,The plant life on Felucia can
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_GEONOSIAN,The Geonosians are interfering with our operations on this world.  Remove them for a bonus.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_GUNGAN,Gungans are not worth corrupting.  Destroy their structures to make room for our associates and receive a reward.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_HUMAN_00,The local population supports the Zann Consortium and will fight for us.
-TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_HUMAN_01,The local population has been resistant to the Consortium’s advances; destroy their structures to make an example.
+TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_HUMAN_01,The local population has been resistant to the Consortium's advances; destroy their structures to make an example.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_HUTT,The Zann Consortium has a standard policy of making the Hutts' lives miserable; destroy their structures for a reward.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_JAWA,The local Jawas are stealing from the Consortium.  Destroy their sandcrawlers for a bounty.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_MANDALORIAN,The Mandalorian militia trust no one but themselves and are formidable opponents.  Destroy them at any opportunity.
@@ -17618,7 +17618,7 @@ TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_SANDPEOPLE,The Sandpeople tend to attack wh
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_SARLACC,Sarlacc Pits are a nasty way to die - steer clear of them to avoid casualties.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_SULLUSTAN,Sullustans interfere with our piracy efforts elsewhere - destroy their structures for a reward.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_TWILEK,The Twi'leks are friendly with the Consortium and will fight for us.
-TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_TWILEK01,The Twi’leks are in the employ of the Consortium and will need to be dealt with if they attack.
+TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_TWILEK01,The Twi'leks are in the employ of the Consortium and will need to be dealt with if they attack.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_VORNSKR,The wild Vornskr are vicious hunters that track their pray using the Force.  Destroy their lairs and we may find a use for the pups.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_WAMPA,Wampas are known to inhabit the area and are highly dangerous; destroy their lairs for a bonus.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_WOOKIEE,Wookiees are hard to corrupt and tend to pull the arms off of Defilers - destroy their structures to teach them a lesson.
@@ -17715,7 +17715,7 @@ TEXT_TAR_EVENT_FLEET_RAMPAGE_00,You have interfered with the Empire for the last
 TEXT_TAR_EVENT_FLEET_RAMPAGE_01,Do not presume that I have been defeated, commander.  When the time is right, I will strike again.  The next time we meet, things will not end as fortunately for you as they have today.
 TEXT_TAR_EVENT_FLEET_RAMPAGE_02,My fleet has failed me.  They were weak and deserved the punishment they received.  Rest easy today, commander, for tomorrow I will return to exact my vengeance.
 TEXT_TAR_EVENT_FLEET_RAMPAGE_03,Yet again you have failed the Empire.  You have allowed a Rebellion fleet to defeat you on your own territory.  If you do not regroup and exterminate these criminals, you will learn how Lord Vader deals with incompetence.
-TEXT_TAR_EVENT_HERO_GATHERING_00,I have word from Lord Vader of a Rebel gathering.  Apparently, he has sensed that many of the Rebellion’s leaders are gathered together on one planet.  This is our chance to crush the Rebellion.  Take a fleet and assassinate these dissenters.
+TEXT_TAR_EVENT_HERO_GATHERING_00,I have word from Lord Vader of a Rebel gathering.  Apparently, he has sensed that many of the Rebellion's leaders are gathered together on one planet.  This is our chance to crush the Rebellion.  Take a fleet and assassinate these dissenters.
 TEXT_TAR_EVENT_HERO_GATHERING_01,You have let another opportunity passed you by.  The Rebellion has learned of our attack and dispersed its leaders.  Lord Vader will not be pleased with your incompetence.
 TEXT_TAR_EVENT_HERO_GATHERING_02,We have succeeded in disrupting the leadership of the Rebellion.  Lord Vader is very pleased with our actions.  Unfortunately, your ineptitude has allowed our targets to escape death.  Fortunately, they will need time to recover from the battle.  During this time, they will be unable to command any of the Rebellion forces.
 TEXT_TAR_EVENT_HUNT_CAPITAL_SHIPS_00,Our probes are reporting that several Rebel capital ships have been spotted in orbit above a Rebel-controlled planet.  We cannot allow the Rebellion to grow unchallenged.  I need you to seek this fleet out and dispatch at least 3 of these ships.
@@ -17925,7 +17925,7 @@ TEXT_TOOLTIP_ABILITY_STICKY_BOMB_DESCRIPTION,Throw a bomb that will stick to a t
 TEXT_TOOLTIP_ABILITY_STICKY_BOMB_NAME,Thermal Detonator
 TEXT_TOOLTIP_ABILITY_STIM_PACK_DESCRIPTION,Stim packs allow the unit to run faster and do more damage.  Each use causes damage to the unit.
 TEXT_TOOLTIP_ABILITY_STIM_PACK_NAME,Stim Pack
-TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION,This ability temporarily boosts Rogue Squadron’s rate of fire, movement speed, and damage.
+TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION,This ability temporarily boosts Rogue Squadron's rate of fire, movement speed, and damage.
 TEXT_TOOLTIP_ABILITY_STRIKE_NAME,Strike
 TEXT_TOOLTIP_ABILITY_STUN_DESCRIPTION,When activated, a blast will radiate from around the hero stunning all infantry for a limited amount of time.
 TEXT_TOOLTIP_ABILITY_STUN_NAME,Sonic Stunner
@@ -18248,7 +18248,7 @@ TEXT_TOOLTIP_QUEUE_GROUND,Land production queue
 TEXT_TOOLTIP_QUEUE_SPACE,Space production queue
 TEXT_TOOLTIP_QUICK_REF,Planet Quick Reference
 TEXT_TOOLTIP_R2D2,A droid with a knack for acquiring sensitive information and being in the right place at the right time.
-TEXT_TOOLTIP_R2D2_AND_C3P0,A droid duo with the ability to steal technology from the Empire to progress the Rebellion’s tech level and the ability to travel the galaxy unnoticed by the enemy.
+TEXT_TOOLTIP_R2D2_AND_C3P0,A droid duo with the ability to steal technology from the Empire to progress the Rebellion's tech level and the ability to travel the galaxy unnoticed by the enemy.
 TEXT_TOOLTIP_RANCOR_CUDDLES,Silri's loyal and fierce rancor ally.
 TEXT_TOOLTIP_REBEL_PILOT,Well trained fighter pilot, but vulnerable on the ground - must be protected.
 TEXT_TOOLTIP_REBEL_REFUGEE,A group of refugees on the run from Imperial forces.
@@ -18320,15 +18320,15 @@ TEXT_TOOLTIP_TAB_GROUND,Build Ground Forces
 TEXT_TOOLTIP_TAB_HEROES,Recruit Heroes
 TEXT_TOOLTIP_TAB_SPACE,Build Space Ships
 TEXT_TOOLTIP_TAB_STRUCTURES,Build Special Structures
-TEXT_TOOLTIP_TARKIN,Commander of the Empire’s military effort to defeat the Rebellion. Boosts effectiveness of ships in space combat by 25%. Unable to contemplate retreat as a viable option.
-TEXT_TOOLTIP_TARKIN_01,Commander of the Empire’s military effort to defeat the Rebellion. Boosts effectiveness of ships in space combat by 25%. Reduces the production cost of Research Facilities by 25% at his current location.  Unable to contemplate retreat as a viable option.
+TEXT_TOOLTIP_TARKIN,Commander of the Empire's military effort to defeat the Rebellion. Boosts effectiveness of ships in space combat by 25%. Unable to contemplate retreat as a viable option.
+TEXT_TOOLTIP_TARKIN_01,Commander of the Empire's military effort to defeat the Rebellion. Boosts effectiveness of ships in space combat by 25%. Reduces the production cost of Research Facilities by 25% at his current location.  Unable to contemplate retreat as a viable option.
 TEXT_TOOLTIP_TARTAN,Light patrol cruiser armed with 4 laser cannons. Well suited to defeating fighters and bombers. It can temporarily transfer power to weapons for added firepower at the expense of shield protection.
 TEXT_TOOLTIP_TECH_LEVEL,Current tech level
 TEXT_TOOLTIP_TECH_LEVEL_EMPIRE,The current tech level determines what units and structures can be built.  The Empire can advance their tech tree by building a technology upgrade at any planet with a research facility.
 TEXT_TOOLTIP_TECH_LEVEL_REBEL,The current tech level determines what units and structures can be built.  The Rebellion advances their tech tree by stealing technology from the Empire with R2-D2 and C3P0.  When all the units and structures are stolen for the current tech level, the Rebellion will advance to the next tech level.
 TEXT_TOOLTIP_TEXT_UNIT_CANDEROUS_TANK,The Canderous-class Assault repulsortank is heavily armed, heavily armored and can hold its own vs. an AT-AT.
 TEXT_TOOLTIP_THRAWN,The only non-human to ever gain the title of Grand Admiral, Thrawn is a master strategist and tactician.
-TEXT_TOOLTIP_TIE_ADVANCED,Darth Vader, a Sith Lord powerful with the dark side of the Force. Though an excellent pilot in his own right, his wingmen are recruited from the Empire’s most skilled.
+TEXT_TOOLTIP_TIE_ADVANCED,Darth Vader, a Sith Lord powerful with the dark side of the Force. Though an excellent pilot in his own right, his wingmen are recruited from the Empire's most skilled.
 TEXT_TOOLTIP_TIE_BOMBER,Bomber armed with proton torpedoes that can bypass enemy shields. Designed to attack the larger enemy ships and space stations. 4 bombers per squadron.
 TEXT_TOOLTIP_TIE_DEFENDER,The most advanced heavy fighter-bomber available to the Empire.  It boasts formidable firepower, and can hold its own against most ships.
 TEXT_TOOLTIP_TIE_FIGHTER,Light fighter armed with laser cannons. Speedy and maneuverable, but lacks shielding and adequate armor. 7 fighters per squadron.
@@ -18363,7 +18363,7 @@ TEXT_TOOLTIP_V_WING,Marginally out-dated fighter armed with laser cannons. Salva
 TEXT_TOOLTIP_V_WING_01,Marginally outdated fighter armed with laser cannons. Salvaged from the Clone Wars, but can still be effective. 5 fighters per squadron.
 TEXT_TOOLTIP_VEERS,Commands an enhanced AT-AT while in land combat. Reduces AT-AT construction time by 50% at his current location.
 TEXT_TOOLTIP_VEERS_01,Commands an enhanced AT-AT while in land combat that is immune to cable attacks. Reduces the production cost of AT-ATs, AT-STs, and AT-AAs by 25% at his current location.
-TEXT_TOOLTIP_VEERS_ATAT,Commander Veers pilots an advanced AT-AT armed with boosted heavy laser cannons able to inflict great damage when charged for maximum firepower. Boosts all Imperial units’ defenses by 25%.
+TEXT_TOOLTIP_VEERS_ATAT,Commander Veers pilots an advanced AT-AT armed with boosted heavy laser cannons able to inflict great damage when charged for maximum firepower. Boosts all Imperial units' defenses by 25%.
 TEXT_TOOLTIP_VENETOR,Battle ship formerly used by the Old Republic. Well rounded, but is now considered obsolete.
 TEXT_TOOLTIP_VENGEANCE,The Vengeance frigate carries four heavy mass driver cannons and two turbolaser batteries. It has no shields, but has very heavy armor and a cloaking device.
 TEXT_TOOLTIP_VICTORY,Heavy frigate armed with 2 enhanced turbolaser batteries and 1 ion cannon battery. Also carries 6 TIE fighter squadrons and 2 TIE bomber squadrons. Can take down enemy shields quickly to compensate for its fewer turbolaser batteries.
@@ -19058,8 +19058,8 @@ TEXT_UW_ACT01_M02_NOTICE_01,Notice: The Imperial Tartan Patrol Cruisers have def
 TEXT_UW_ACT01_M03_GOAL_01,Recapture a reinforcement point.
 TEXT_UW_ACT01_M03_GOAL_02,Destroy all remaining Hutt forces.
 TEXT_UW_ACT01_M03_GOAL_03,The Communications Station must remain intact.
-TEXT_UW_ACT01_M03_HINT_01,Hint: Use Urai Fen’s Personal Cloaking Field to sneak past the enemy blockade.
-TEXT_UW_ACT01_M03_HINT_02,Hint: Use Urai Fen’s Sonic Stunner to incapacitate multiple infantry units simultaneously.
+TEXT_UW_ACT01_M03_HINT_01,Hint: Use Urai Fen's Personal Cloaking Field to sneak past the enemy blockade.
+TEXT_UW_ACT01_M03_HINT_02,Hint: Use Urai Fen's Sonic Stunner to incapacitate multiple infantry units simultaneously.
 TEXT_UW_ACT01_M04_GOAL_01,Capture all reinforcement points.
 TEXT_UW_ACT01_M04_GOAL_02,Get Urai Fen to the Droid Works to gain droid allies.
 TEXT_UW_ACT01_M04_GOAL_03,Tyber Zann must survive.
