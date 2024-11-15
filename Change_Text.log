@@ -83,7 +83,7 @@ International:
 	-- GER: N/A
 
 • MB_LAND_PLANET_BESTINE_INTIMIDATION: (BUG #280)
-	-- ENG: Massive ship yards fill the oceans of Bestine. Kidnapping commander Falan will bring the entire planet and its yards to their knees. The secrets that man holds are galaxy wide and soon to be ours. ... -> Massive shipyards fill the oceans of Bestine.  Kidnapping Commander Falan will bring the entire planet and its shipyards to their knees.  The secrets that man holds are galaxy-wide, and soon to be ours. ...
+	-- ENG: Massive ship yards fill the oceans of Bestine. Kidnapping commander Falan will bring the entire planet and its yards to their knees. The secrets that man holds are galaxy wide and soon to be ours. -> Massive shipyards fill the oceans of Bestine.  Kidnapping Commander Falan will bring the entire planet and its shipyards to their knees.  The secrets that man holds are galaxy-wide, and soon to be ours.
 	-- GER: N/A
 
 • MB_LAND_PLANET_BOTHAWUI_INTIMIDATION: (BUG #281)
@@ -119,12 +119,12 @@ International:
 	-- GER: N/A
 
 • MB_SPACE_PLANET_BESPIN_PIRACY: (BUG #289)
-	-- ENG: Bespin provides the perfect set up for Piracy. The gas giant has many floating staging platforms where ships can hide. Tibanna gas is constantly being transported from the system and capturing some of the cargo transports is a perfect use for Zann associates. ... -> Bespin provides the perfect setup for piracy.  The gas giant has many floating staging platforms where ships can hide.  Tibanna gas is constantly being transported from the system, and capturing the gas from some of the cargo transports is perfect leverage for the Consortium's associates. ...
-	-- GER: N/A
+	-- ENG: Bespin provides the perfect set up for Piracy. The gas giant has many floating staging platforms where ships can hide. Tibanna gas is constantly being transported from the system and capturing some of the cargo transports is a perfect use for Zann associates. -> Bespin provides the perfect setup for piracy.  The gas giant has many floating staging platforms where ships can hide.  Tibanna gas is constantly being transported from the system, and capturing the gas from some of the cargo transports is perfect leverage for the Consortium's associates.
+	-- GER: TODO
 
 • MB_SPACE_PLANET_BESPIN_PIRACY_STORY: (BUG #289)
 	-- ENG: Bespin provides the perfect set up for Piracy. The gas giant has many floating staging platforms where ships can hide. Tibanna gas is constantly being transported from the system and capturing some of the cargo transports is a perfect use for Zann associates. ... -> Bespin provides the perfect setup for piracy.  The gas giant has many floating staging platforms where ships can hide.  Tibanna gas is constantly being transported from the system, and capturing the gas from some of the cargo transports is perfect leverage for the Consortium's associates. ...
-	-- GER: N/A
+	-- GER: TODO
 
 • MB_SPACE_PLANET_CORELLIA_PIRACY: (BUG #290)
 	-- ENG: There are many manufacturing satellites above Corellia, destroying several of them will establish our power over the planet. ... -> There are many manufacturing satellites above Corellia, and destroying several of them will establish our power over the planet. ...
@@ -140,15 +140,15 @@ International:
 
 • MB_SPACE_PLANET_KESSEL_PIRACY: (BUG #293)
 	-- ENG: ...These satellites are weak to an assault by our Defilers. Controlling them will trick Consortium enemies into sending ships to Zann controlled docks. ... -> ...These satellites are weak to an assault by our fleet.  Controlling them will trick our enemies into sending ships to Consortium-controlled docks. ...
-	-- GER: N/A
+	-- GER: TODO
 
 • MB_SPACE_PLANET_MANDALORE_PIRACY: (BUG #294)
 	-- ENG: Piracy is going to be especially dangerous to set up around Mandalore. I will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore and their brand of space fighters. ... -> Piracy is going to be especially dangerous to setup around Mandalore.  I will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore, and the fleet of the Mandalorian Clan Leader. ...
-	-- GER: N/A
+	-- GER: TODO
 
 • MB_SPACE_PLANET_MANDALORE_PIRACY_STORY: (BUG #294)
 	-- ENG: Piracy is going to be especially dangerous to set up around Mandalore. I will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore and their brand of space fighters. . ... -> Piracy is going to be especially dangerous to setup around Mandalore.  I will have to personally take charge to make this mission work against the vicious inhabitants of Mandalore, and the fleet of the Mandalorian Clan Leader. ...
-	-- GER: N/A
+	-- GER: TODO
 
 • MB_SPACE_PLANET_MANDALORE_PIRACY_PROLOGUE: (BUG #295)
 	-- ENG: Piracy is going to be especially dangerous to set up around Mandalore. ... -> Piracy is going to be especially dangerous to setup around Mandalore. ...
@@ -185,6 +185,195 @@ International:
 • TEXT_CORRUPTION_ATZERRI_STORY_BLACKMARKET: (BUG #303)
 	-- ENG: The marketplaces of Atzerri are almost ready-made for Consortium Black Markets ... -> The marketplaces of Atzerri are almost ready-made for the Consortium's black markets ...
 	-- GER: N/A
+
+• TEXT_CORRUPTION_ATZERRI_STORY_RACKETEER: (BUG #304)
+	-- ENG: With the planet already seeded in racketeering organizations, all the Zann Consortium needs to do is take over control of those criminal elements and it becomes a win/win situation. -> With the planet already seeded with racketeering organizations, all the Zann Consortium needs to do is take over control of those criminal elements and it becomes a win-win situation.
+	-- GER: N/A
+
+• TEXT_CORRUPTION_BESPIN_STORY_PIRACY: (BUG #305)
+	-- ENG: Bespin provides the perfect set up for Piracy. The gas giant has many floating staging platforms where ships can hide. Tibanna gas is constantly being transported from the system and capturing some of the cargo transports is a perfect use for Zann associates. -> Bespin provides the perfect setup for piracy.  The gas giant has many floating staging platforms where ships can hide.  Tibanna gas is constantly being transported from the system, and capturing the gas from some of the cargo transports is perfect leverage for the Consortium's associates.
+	-- GER: TODO
+
+• TEXT_CORRUPTION_BESPIN_STORY_RACKETEER: (BUG #306)
+	-- ENG: The potential targets for Racketeering are all clustered on one level of the Bespin gas giant. The cloud city metropolis is a perfect  target for our consortium. -> The potential targets for racketeering are all clustered at one location on the Bespin gas giant.  Cloud City's metropolis is a perfect target for our consortium.
+	-- GER: TODO
+
+• TEXT_CORRUPTION_BESTINE_STORY_BLACKMARKET: (BUG #307)
+	-- ENG: The on-planet ship yards are a virtual mine of technology, making a black market set up ideal on the planet. -> The on-planet shipyards are virtual mines of technology, making a black market setup ideal on this planet.
+	-- GER: N/A
+
+• TEXT_CORRUPTION_BESTINE_STORY_KIDNAP: (BUG #308)
+	-- ENG: Massive ship yards fill the oceans of Bestine. Kidnapping  commander Falan will bring the entire planet and its yards to their knees. The secrets that man holds are galaxy wide and soon to be ours. -> Massive shipyards fill the oceans of Bestine.  Kidnapping Commander Falan will bring the entire planet and its shipyards to their knees.  The secrets that man holds are galaxy-wide, and soon to be ours.
+	-- GER: N/A
+
+• TEXT_CORRUPTION_BESTINE_STORY_KIDNAP: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_BLACK_MARKET_ENCYCLOPEDIA: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_BONADAN_STORY_BLACKMARKET: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_BONADAN_STORY_CORUPTMILITIA: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_BONADAN_STORY_RACKETEER: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_BOTHAWUI_STORY_BLACKMARKET: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_BOTHAWUI_STORY_INTIMIDATION: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_BYSS_STORY_KIDNAP: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_CARIDA_STORY_BLACKMARKET: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_CARIDA_STORY_BRIBERY: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_CORELLIA_STORY_PIRACY: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_CORULAG_STORY_PIRACY: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_DANTOOINE_STORY_BRIBERY: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_ENDOR_STORY_BONDEDCITIZENS: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_ERIADU_STORY_BLACKMARKET: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_ERIADU_STORY_RACKETEER: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_FELUCIA_STORY_RACKETEER: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_FONDOR_STORY_PIRACY: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_FRESIA_STORY_BRIBERY: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_FRESIA_STORY_CORUPTMILITIA: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_GEONOSIS_STORY_BONDEDCITIZENS: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_GEONOSIS_STORY_CORUPTMILITIA: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_HONOGHR_STORY_RACKETEER: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_HOTH_STORY_RACKETEER: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_ILUM_STORY_BRIBERY: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_JABIIM_STORY_RACKETEER: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_KAMINO_STORY_BLACKMARKET: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_KESSEL_STORY_PIRACY: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_KIDNAPPING_BENEFIT: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_KIDNAPPING_ENCYCLOPEDIA: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_MANDALORE_STORY_PIRACY: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_MONCALAMARI_STORY_BONDEDCITIZENS: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_MONCALAMARI_STORY_PIRACY: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_MUSTAFAR_STORY_CORUPTMILITIA: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_NALHUTTA_STORY_BLACKMARKET: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_NALHUTTA_STORY_KIDNAP: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_PIRACY_BENEFIT: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_POLUS_STORY_BLACKMARKET: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_RACKETEERING_ENCYCLOPEDIA: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_SHOLA_STORY_RACKETEER: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_TARIS_STORY_INTIMIDATION: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
+• TEXT_CORRUPTION_UTAPAU_STORY_KIDNAP: (BUG #)
+	-- ENG:  -> 
+	-- GER: N/A
+
 
 • TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON: (BUG #257)
 	-- ENG: Fighter Squadron -> Class: Fighter Squadron
