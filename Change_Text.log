@@ -65,7 +65,7 @@ Additions:
 
 
 Housekeeping:
-• Despite the vast majority of dialogue being double-spaced in EaW (and partially in FoC), dialogue during the Consortium's prologue, campaign, corruption missions and general mission briefings wouldn't be.  Double-spacing has been rectified, and remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as all dialogue is single-spaced.) (BUG #208).
+• Despite the vast majority of dialogue being double-spaced in EaW (and partially in FoC), dialogue during general mission briefings, the Consortium's prologue, campaign and corruption missions wouldn't be.  Double-spacing has been rectified, and remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as all dialogue is single-spaced.) (BUG #208).
 • Various texts across EaW and FoC would inconsistently use a special "…" (elipsis) character, or "..." (three periods).  The ellipses character is harder to read at high resolutions, and back-and-forth use of ellipses and periods caused spacing issues (f.e. as "to the Empire… .").  All ellipses have been swapped out for three periods and remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as three periods are always used.) (BUG #211)
 • English localization infrequently referred to the Keldabe-class Battleship as the "Kedalbe," an old spelling from '80s Star Wars material, and German localization almost completely used that spelling.  All instances of "Kedalbe" have been swapped out for "Keldabe," and left unmarked to not clog the changelog. (BUG #236)
 
