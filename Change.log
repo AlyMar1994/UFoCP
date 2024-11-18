@@ -198,6 +198,7 @@ Map/Planet Fixes:
 
 
 Model Fixes:
+• To help with galactic performance, the planet corruption particle effects have been replaced with a more performant version.  The new effect should look very similar, with less spawned particles on the map. (Thanks .lany!) (BUG #349)
 • The Venator-class Cruiser's shielding ability didn't cover the whole ship as the shield model didn't cover large segments of the ship's model, and the ship had incorrect shader assignments.  This was rectified in patch 1.121.826596 for EaW only. (Thanks irampagingrhin0!) (BUG #137)
 • The IPV-1 Patrol Craft had a visible blue plane in its center engine; the plane that spawned the engine particles wasn't set to "Hidden" when exported. (BUG #85)
 • TIE defenders didn't have a particle glow for their engines. (BUG #87)
