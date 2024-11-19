@@ -3748,6 +3748,7 @@
 		<Health>450.0</Health>
 		<Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+		<Damage_Type>Damage_Mass_Driver_Space</Damage_Type>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Mass_Driver_Death</Death_Explosion_SFXEvent>
@@ -3788,6 +3789,7 @@
         <Health>450.0</Health>
         <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+		<Damage_Type>Damage_Station_Laser</Damage_Type>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -3827,6 +3829,7 @@
         <Health>450.0</Health>
         <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3866,6 +3869,7 @@
         <Health>450.0</Health>
         <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+		<Damage_Type>Damage_Station_Laser</Damage_Type>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -3905,6 +3909,7 @@
         <Health>450.0</Health>
         <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3914,7 +3919,6 @@
         <Damage_Decal>HP02_TBL_BLAST</Damage_Decal>
         <Damage_Particles>HP02_TBL_EMITDAMAGE</Damage_Particles>
 
-		<Damage_Type> Damage_Station_Turbolaser </Damage_Type>
         <Fire_Bone_A>FP02_TBL_00</Fire_Bone_A>
         <Fire_Bone_B>FP02_TBL_01</Fire_Bone_B>
         <Fire_Cone_Width>160.0</Fire_Cone_Width>
@@ -4017,6 +4021,7 @@
 		<Health>450.0</Health>
 		<Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+		<Damage_Type>Damage_Mass_Driver_Space</Damage_Type>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Mass_Driver_Death</Death_Explosion_SFXEvent>
@@ -4235,6 +4240,7 @@
         <Health>450.0</Health>
         <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4244,7 +4250,6 @@
         <Damage_Decal>HP04_TBL_BLAST</Damage_Decal>
         <Damage_Particles>HP04_TBL_EMITDAMAGE</Damage_Particles>
 
-		<Damage_Type> Damage_Station_Turbolaser </Damage_Type>
         <Fire_Bone_A>FP04_TBL_00</Fire_Bone_A>
         <Fire_Bone_B>FP04_TBL_01</Fire_Bone_B>
         <Fire_Cone_Width>160.0</Fire_Cone_Width>
@@ -4316,6 +4321,7 @@
 		<Health>450.0</Health>
 		<Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+		<Damage_Type>Damage_Mass_Driver_Space</Damage_Type>
 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Mass_Driver_Death</Death_Explosion_SFXEvent>
@@ -4432,6 +4438,7 @@
         <Health>450.0</Health>
         <Repair_Cost_Per_Frame>1.0</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>2.0</Repair_Amount_Per_Frame>
+		<Damage_Type>Damage_Station_Turbolaser</Damage_Type>
 
 		<Death_Breakoff_Prop> Hardpoint_Breakoff_U_Station_L5_Turbolaser </Death_Breakoff_Prop>
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
