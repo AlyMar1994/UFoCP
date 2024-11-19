@@ -1467,7 +1467,7 @@
     <Damage_To_Armor_Mod> Damage_IonCannon_LRG, Armor_MC30_Frigate, 1 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_IonCannon_LRG, Armor_SSD, 3 </Damage_To_Armor_Mod>
 
-	<!-- Proton Torpedo Damage Type - Space Only - Y-Wing and Tie Bomber -->
+	<!-- Proton Torpedo Damage Type - Space Only - Y-Wing, TIE Bomber, B-wing -->
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Shield_Default, 1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Proton_Torp, Armor_Transport, 1 </Damage_To_Armor_Mod>
