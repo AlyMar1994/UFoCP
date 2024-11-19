@@ -63,7 +63,7 @@
 	</HardPoint>
 
     <HardPoint Name="HP_BWING_ION_00">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Damage_Type>Damage_IonCannon</Damage_Type>
@@ -90,7 +90,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_BWING_ION_01">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Damage_Type>Damage_IonCannon</Damage_Type>
