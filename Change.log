@@ -224,11 +224,12 @@ Structure Fixes:
 • The Pirate Asteroid Base's hardpoints didn't have damage multipliers against units because its multiplier variables were misspelled, respectively, as "Damage_Sation_Laser" and "Damage_Sation_Turbolaser" instead of "Station." (BUG #119)
 • The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC; from station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> U/A --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
 • The Skirmish Repulsorlift Jammer had various issues: it still used the Empire version of its icon, model, and was affiliated with the Empire when under construction. (BUG #159)
+• The Empire's Skirmish Mining Facility would be revealed wherever the opposing player was on the map in some instances because its "collision" size was overridden to 800x800 units manually, instead of 50x50 like other mining facilities. (BUG #351)
 
 
 Texture Fixes:
 • All map previews (except Bespin's) have been compressed to save space and processing time, cutting filesizes in half (128kb vs. 256kb).  All previews also were completely redone due to incomplete or inconsistent material, or low-quality patch material.  Changes include: (BUG #253)
-•• Many previews (both original and patched, mainly land previews) failed to follow EaW/FoC's established art style (shaded borders, processed water, shaded out-of-bounds).
+•• Many previews (both original and patched, mainly land previews) failed to follow EaW/FoC's established art style (shaded borders & out-of-bounds, processed water).
 •• Consortium Campaign previews not including some scripted units or structures on the map.
 •• MP Space Bespin displayed an incorrect map entirely.
 •• Aeten II, Aeten II's Piracy mission, MP Space Shola, SP Space Shola and Sullust used Desert planet GFX instead of the fixed volcanic planet GFX.

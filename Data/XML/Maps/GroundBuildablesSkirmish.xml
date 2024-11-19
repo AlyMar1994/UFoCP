@@ -1307,8 +1307,8 @@
 
 		<Space_Layer> Corvette </Space_Layer>
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
-		<Custom_Hard_XExtent> 800.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 800.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1481,8 +1481,8 @@
 		<Behavior>TACTICAL_SELL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<Space_Layer> Corvette </Space_Layer>
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
-		<Custom_Hard_XExtent> 800.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 800.0 </Custom_Hard_YExtent>
+		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
 		<Victory_Relevant>No</Victory_Relevant>
