@@ -942,6 +942,7 @@
 		Damage_MDU_Grenade,
 		Damage_Interceptor_IV,
 		Damage_Crusader_Gunship,
+		Damage_Arc_Hammer,
 
 
 		<!-- PLEASE add your new damage types ABOVE this point.
@@ -1652,6 +1653,38 @@
     <Damage_To_Armor_Mod> Damage_Star_Destroyer, Armor_Vengeance, 1.0</Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Star_Destroyer, Armor_MC30_Frigate, 2.5 </Damage_To_Armor_Mod>
     <Damage_To_Armor_Mod> Damage_Star_Destroyer, Armor_SSD, 1.0 </Damage_To_Armor_Mod>
+
+	<!-- Arc Hammer lasers -->
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Default, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Shield_Default, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Transport, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Bomber, 1.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Fighter, 1.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Hero_Transport, 2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Corellian_Corvette, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Missile_Cruiser, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Tartan, 1.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Interdictor, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Corellian_Gunboat, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Nebulon_B, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Acclamator, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Pirate_Frigate, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Satellite, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Frigate, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Victory_Class, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Assault_Frigate, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Calamari_Cruiser, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Star_Destroyer, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Station, 0.1 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Arc_Hammer, Shield_Capital, 0.25</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Arc_Hammer, Shield_Frigate, 1</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Arc_Hammer, Shield_Corvette, 1</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Arc_Hammer, Shield_Fighter, 1 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Arc_Hammer, Shield_SSD, 0.25 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_Vengeance, 0.5</Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_MC30_Frigate, 1 </Damage_To_Armor_Mod>
+    <Damage_To_Armor_Mod> Damage_Arc_Hammer, Armor_SSD, 0.25</Damage_To_Armor_Mod>
+
 
 	<!-- Nebulon B turbolasers -->
 	<Damage_To_Armor_Mod> Damage_Nebulon_B, Armor_Default, 1 </Damage_To_Armor_Mod>

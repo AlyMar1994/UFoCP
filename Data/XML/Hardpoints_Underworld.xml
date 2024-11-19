@@ -3439,6 +3439,7 @@
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
             <Health>250.0</Health>
+			<Damage_Type>Damage_Arc_Hammer</Damage_Type>
 
             <Model_To_Attach>EV_ARCHAMMER_HP_LC_L_00.ALO</Model_To_Attach>
             <Attachment_Bone>HP_LC_L_00_BONE</Attachment_Bone>
@@ -3478,6 +3479,7 @@
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
             <Health>250.0</Health>
+			<Damage_Type>Damage_Arc_Hammer</Damage_Type>
 
             <Model_To_Attach>EV_ARCHAMMER_HP_LC_R_00.ALO</Model_To_Attach>
             <Attachment_Bone>HP_LC_R_00_BONE</Attachment_Bone>
@@ -3517,6 +3519,7 @@
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
             <Health>250.0</Health>
+			<Damage_Type>Damage_Star_Destroyer</Damage_Type>
 
             <Attachment_Bone>HP_TLC_L_00_BONE</Attachment_Bone>
             <Collision_Mesh>HP_TLC_L_00_COLL</Collision_Mesh>
@@ -3554,6 +3557,7 @@
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
             <Health>250.0</Health>
+			<Damage_Type>Damage_Star_Destroyer</Damage_Type>
 
             <Attachment_Bone>HP_TLC_R_00_BONE</Attachment_Bone>
             <Collision_Mesh>HP_TLC_R_00_COLL</Collision_Mesh>
