@@ -261,6 +261,7 @@ Unit Fixes:
 • Imperial infantry wouldn't use their stand-at-attention animation in Darth Vader's "imposing presence" because the animation table didn't include Vader's land FoC unit, only his EaW one. (BUG #68)
 • Rebel infantry wouldn't use their celebration animations around Veers' capitulated AT-AT because his unit death models didn't have an "imposing presence" behavior setup, and even if he did, Rebel infantry didn't have his death models included in the animation table. (BUG #47)
 • Bossk would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #152)
+• Bossk's space weapons weren't defined with daamge multipliers, leading to under- or overperforming in certain scenarios.  For example, his lasers would do unintentionally increased damage against capital ships. (BUG #360)
 • IG-88 would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #151)
 • Boba Fett would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #149)
 • Han Solo & Chewbacca would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of their land units. (BUG #147)
