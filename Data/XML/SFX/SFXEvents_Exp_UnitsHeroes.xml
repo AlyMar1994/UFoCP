@@ -1033,9 +1033,9 @@
 
   <SFXEvent Name="Unit_Lost_Ion_Tyber_Zann_Space">
 		  <Use_Preset>Preset_UR</Use_Preset>
-		  <Samples>U000_TYS2601_ENG.wav U000_TYS2502_ENG.wav</Samples>
+		  <Samples>U000_TYS2601_ENG.wav U000_TYS2602_ENG.wav</Samples>
 			  <Localize> Yes </Localize>
-			  <Play_Sequentially> No </Play_Sequentially> <!-- AM1994: He only has 1 ion cannon, so let either line play when applicable. -->
+			  <Play_Sequentially> Yes </Play_Sequentially> <!-- AM1994: He only has 1 ion cannon, so let either line play when applicable. -->
 			  <Text_ID>TEXT_SFX_TYB_SPACE_LOST_ION_1, TEXT_SFX_TYB_SPACE_LOST_ION_2</Text_ID>
 			  <Overlap_Test> Unit_Tyber_Zann_Space </Overlap_Test>
 	</SFXEvent>
@@ -1044,7 +1044,7 @@
 		  <Use_Preset>Preset_UR</Use_Preset>
 		  <Samples>U000_TYS3401_ENG.wav U000_TYS3401_ENG.wav</Samples>
 			  <Localize> Yes </Localize>
-			  <Play_Sequentially> No </Play_Sequentially> <!-- AM1994: He only has 1 plasma cannon, so let either line play when applicable. -->
+			  <Play_Sequentially> Yes </Play_Sequentially> <!-- AM1994: He only has 1 plasma cannon, so let either line play when applicable. -->
 			  <Text_ID>TEXT_SFX_TYB_SPACE_LOST_MAIN_GUN_1, TEXT_SFX_TYB_SPACE_LOST_MAIN_GUN_2</Text_ID>
 			  <Overlap_Test> Unit_Tyber_Zann_Space </Overlap_Test>
 	</SFXEvent>
