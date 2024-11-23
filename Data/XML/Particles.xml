@@ -48,7 +48,7 @@
         <!-- (gth) 1/19/2006 does not need particle behavior, AffectedByShieldBehaviorClass manages these -->
 	</Particle>
 
-	
+
 	<Particle Name="Test_Particle">
 		<Land_Model_Name>p_dirt_emitter_test1.alo</Land_Model_Name>
 		<Space_Model_Name>p_dirt_emitter_test1.alo</Space_Model_Name>
@@ -58,7 +58,7 @@
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
 	</Particle>
 
-	
+
 <!--Particle Name="Rain_Particle">
 		<Land_Model_Name>test_rain.alo</Land_Model_Name>
 		<Space_Model_Name>test_rain.alo</Space_Model_Name>
@@ -233,8 +233,8 @@
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
-	</Particle>	
-	
+	</Particle>
+
 	<Particle Name="Empire_Bombing_Run_Explosion_Land">
 		<Land_Model_Name>p_explosion_thermal_empire.alo</Land_Model_Name>
 		<Space_Model_Name>p_explosion_thermal_empire.alo</Space_Model_Name>
@@ -256,7 +256,7 @@
 		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
 	</Particle>
-	
+
 	<Particle Name="Rebel_Bombing_Run_Explosion_Land">
 		<Land_Model_Name>p_explosion_thermal_rebel.alo</Land_Model_Name>
 		<Space_Model_Name>p_explosion_thermal_rebel.alo</Space_Model_Name>
@@ -267,7 +267,7 @@
 		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
 	</Particle>
-	
+
 	<Particle Name="Harmonic_Bomb_Explosion_Slave_I">
 		<Space_Model_Name>p_seismic_explosion00.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -378,7 +378,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.5</No_Particle_Below_Detail_Level>
     </Particle>
-    
+
     <Particle Name="Small_Damage_Land">
         <Land_Model_Name>p_damage_small00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_small00.alo</Space_Model_Name>
@@ -569,7 +569,7 @@
         <Behavior>PARTICLE</Behavior>
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
-    </Particle>	
+    </Particle>
 
     <Particle Name="AT_AT_FootPuff_Dirt">
         <Land_Model_Name>p_ATAT_Footpuff_dirt.alo</Land_Model_Name>
@@ -578,9 +578,9 @@
         <Behavior>PARTICLE</Behavior>
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
-    </Particle>	
-    
-    
+    </Particle>
+
+
      <Particle Name="AT_AT_FootPuff_Water">
         <Land_Model_Name>p_splash_wake.alo</Land_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -588,8 +588,8 @@
         <Behavior>PARTICLE</Behavior>
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.6</No_Particle_Below_Detail_Level>
-    </Particle>	
-    
+    </Particle>
+
     <Particle Name="AT_AT_FootPuff_Grass">
         <Land_Model_Name>p_ATAT_Footpuff_grass.alo</Land_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -597,8 +597,8 @@
         <Behavior>PARTICLE</Behavior>
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
-    </Particle>	
-    
+    </Particle>
+
     <Particle Name="AT_AT_FootPuff_Snow">
         <Land_Model_Name>p_ATAT_Footpuff_snow.alo</Land_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -606,8 +606,8 @@
         <Behavior>PARTICLE</Behavior>
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
-    </Particle>	
-    		
+    </Particle>
+
     <Particle Name="Thermal_Detonator_Explosion">
         <Land_Model_Name>p_explosion_thermal_small00.ALO</Land_Model_Name>
         <Space_Model_Name>p_explosion_thermal_small00.ALO</Space_Model_Name>
@@ -665,9 +665,9 @@
 		<Is_Decoration>Yes</Is_Decoration>
         <Behavior>PARTICLE</Behavior>
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-        
+
         <Is_Editor_Placed>false</Is_Editor_Placed>
-        
+
 	</Particle>
 
 	<Particle Name="Splash_Wake_Ice">
@@ -706,7 +706,7 @@
 		<Is_Decoration>Yes</Is_Decoration>
         <!-- (gth) 1/19/2006 does not need particle behavior, TransportLandingBehavior manages these -->
 	</Particle>
-				
+
 	<Particle Name="Transport_Landing_Dust_Volcanic">
 		<Land_Model_Name>p_landing_dust_volcanic.alo</Land_Model_Name>
 		<Is_Decoration>Yes</Is_Decoration>
@@ -718,7 +718,7 @@
 		<Is_Decoration>Yes</Is_Decoration>
         <!-- (gth) 1/19/2006 does not need particle behavior, TransportLandingBehavior manages these -->
 	</Particle>
-	
+
 	<Particle Name="Magnepulse_Chargeup_Particles">
 		<Land_Model_Name>p_magnespulse_buildup.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -742,7 +742,7 @@
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>450</Particle_Lifetime_Frames>
 	</Particle>
-	
+
 	<Particle Name="Stunned_Object_Skirmish_Magnepulse">
 		<Land_Model_Name>p_magnepulse_damage00.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -750,7 +750,7 @@
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>510</Particle_Lifetime_Frames>
 	</Particle>
-	
+
 	<Particle Name="Stunned_Object_Orbital_Consortium">
 		<Land_Model_Name>p_magnepulse_damage00.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -758,7 +758,7 @@
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>210</Particle_Lifetime_Frames>
 	</Particle>
-	
+
 	<Particle Name="Stunned_Object_Orbital_Rebel">
 		<Land_Model_Name>p_magnepulse_damage00.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -766,8 +766,8 @@
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>840</Particle_Lifetime_Frames>
 	</Particle>
-	
-	
+
+
 	<Particle Name="Unit_Healed_Particles">
 		<Land_Model_Name>p_heal00.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -817,7 +817,7 @@
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
 	</Particle>
-	
+
 	<!-- Darth Vader -->
 	<Particle Name="Force_Whirlwind_Particles">
 		<Land_Model_Name>p_force_push.ALO</Land_Model_Name>
@@ -827,7 +827,7 @@
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
 	</Particle>
-	
+
 	<!-- Generic: Emperor, FOW_Ping -->
 	<Particle Name="FOW_Ping_Blast_Particles">
 		<Land_Model_Name>p_force_whirlwind.ALO</Land_Model_Name>
@@ -838,7 +838,7 @@
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
 		<Model_Visible_To_Enemy>No</Model_Visible_To_Enemy>
 	</Particle>
-	
+
 	<Particle Name="Emperor_Force_Convert_Particles">
 		<Land_Model_Name>p_force_convert.ALO</Land_Model_Name>
 		<Space_Model_Name>p_force_convert.ALO</Space_Model_Name>
@@ -847,7 +847,7 @@
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
 	</Particle>
-	
+
 	<Particle Name="Lure_Ability_Particle">
 		<Land_Model_Name>p_lure_object_particle_effect.ALO</Land_Model_Name>
 		<Space_Model_Name>p_lure_object_particle_effect.ALO</Space_Model_Name>
@@ -861,8 +861,8 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 	</Particle>
-	
-	
+
+
 	<Particle Name="Veers_Powerup_Particle_Effect">
 		<Land_Model_Name>P_AT-AT_powerup.alo</Land_Model_Name>
 		<Scale_Factor>20.0</Scale_Factor>
@@ -879,7 +879,7 @@
 		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
 		<Is_Decoration>Yes</Is_Decoration>
 	</Particle>
-	
+
 	<Particle Name="Replenish_Wingmen_Particle_Effect">
 		<Space_Model_Name>p_replenish_wingmen_particle_effect.ALO</Space_Model_Name>
 		<Scale_Factor>20.0</Scale_Factor>
@@ -887,9 +887,9 @@
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
 	</Particle>
-	
-	
-	
+
+
+
 	<Particle Name="Weaken_Enemy_Particle_Effect">
 		<Space_Model_Name>p_weaken_enemy_particle_effect.ALO</Space_Model_Name>
 		<Scale_Factor>20.0</Scale_Factor>
@@ -933,7 +933,7 @@
 		<Behavior>PARTICLE</Behavior>
       <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
 	</Particle>
-	
+
 	<Particle Name="Smoke_Small_Land">
 		<Land_Model_Name>p_smoke_small01.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -1177,7 +1177,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 		<Behavior> PARTICLE </Behavior>
-		<Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>		
+		<Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
 	</Particle>
 
 	<Particle Name="Environmental_Fire_Damage_Particles">
@@ -1402,7 +1402,7 @@
         <Scale_Factor> 1.0 </Scale_Factor>
         <Is_Decoration> Yes </Is_Decoration>
         <Behavior> PARTICLE </Behavior>
-        <Particle_Lifetime_Frames> 20 </Particle_Lifetime_Frames>	
+        <Particle_Lifetime_Frames> 20 </Particle_Lifetime_Frames>
     </Particle>
 
     <Particle Name="Leech_Effect">
@@ -1411,7 +1411,7 @@
         <Scale_Factor> 1.0 </Scale_Factor>
         <Is_Decoration> Yes </Is_Decoration>
         <Behavior> PARTICLE </Behavior>
-        <Particle_Lifetime_Frames> 750 </Particle_Lifetime_Frames>	
+        <Particle_Lifetime_Frames> 750 </Particle_Lifetime_Frames>
     </Particle>
 
     <Particle Name="Blast_Charging_Effect">
@@ -1420,7 +1420,7 @@
         <Scale_Factor> 1.0 </Scale_Factor>
         <Is_Decoration> Yes </Is_Decoration>
         <Behavior> PARTICLE </Behavior>
-        <Particle_Lifetime_Frames> 7500 </Particle_Lifetime_Frames>	
+        <Particle_Lifetime_Frames> 7500 </Particle_Lifetime_Frames>
     </Particle>
 
     <Particle Name="Blast_Charged_Effect">
@@ -1429,7 +1429,7 @@
         <Scale_Factor> 1.0 </Scale_Factor>
         <Is_Decoration> Yes </Is_Decoration>
         <Behavior> PARTICLE </Behavior>
-        <Particle_Lifetime_Frames> 7500 </Particle_Lifetime_Frames>	
+        <Particle_Lifetime_Frames> 7500 </Particle_Lifetime_Frames>
     </Particle>
 
     <Particle Name="Shield_Flare_Effect">
@@ -1463,16 +1463,16 @@
         <Scale_Factor> 1.0 </Scale_Factor>
         <Is_Decoration> Yes </Is_Decoration>
         <Behavior> PARTICLE </Behavior>
-        <Particle_Lifetime_Frames> 750 </Particle_Lifetime_Frames>	
+        <Particle_Lifetime_Frames> 750 </Particle_Lifetime_Frames>
     </Particle>
-    
+
     <Particle Name="Jedi_Mind_Trick_Effect">
         <Space_Model_Name>p_mind_trick.alo</Space_Model_Name>
         <Land_Model_Name>p_mind_trick.alo</Land_Model_Name>
         <Scale_Factor> 1.0 </Scale_Factor>
         <Is_Decoration> Yes </Is_Decoration>
         <Behavior> PARTICLE </Behavior>
-        <Particle_Lifetime_Frames> 750 </Particle_Lifetime_Frames>	
+        <Particle_Lifetime_Frames> 750 </Particle_Lifetime_Frames>
     </Particle>
 
     <Particle Name="Corrupt_Systems_Flare_Effect">
@@ -1499,7 +1499,7 @@
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>240</Particle_Lifetime_Frames>
 		<Explosion_Scorch_Mark />
-	</Particle>	
+	</Particle>
 
     <Particle Name="Sensor_Jamming_Effect">
         <Land_Model_Name>p_sensorjammer.alo</Land_Model_Name>
@@ -1508,7 +1508,7 @@
         <Is_Decoration>Yes</Is_Decoration>
         <Behavior>PARTICLE</Behavior>
     </Particle>
-    
+
      <Particle Name="Sensor_Jamming_Effect_Skipray">
         <Land_Model_Name>p_sensorjammer.alo</Land_Model_Name>
         <Space_Model_Name>p_sensorjammer.alo</Space_Model_Name>
@@ -1555,7 +1555,7 @@
 
         </Abilities>
 
-	</Particle>	
+	</Particle>
 
 
     <Particle Name="Ysalamiri_Force_Drain_Effect">
