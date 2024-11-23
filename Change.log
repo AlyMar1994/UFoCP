@@ -67,6 +67,7 @@ Ability Fixes:
 • "Urai_Block_Lightsaber" for Urai Fen's cortosis blades didn't have a chance to deflect the campaign Force Adepts' lightsabers. (BUG #80)
 • "Urai_Block_Lightsaber" for Urai Fen's cortosis blades didn't have a chance to deflect Silri's lightsaber whip during Skirmish mirror-matches. (BUG #81)
 • "Urai_Block_Lightsaber" for Urai Fen's cortosis blades didn't have a chance to deflect Darth Vader's lightsaber in FoC land combat. (BUG #30)
+• "SENSOR_JAMMING" for Bossk would prematurely stop rendering the blue jamming ring particles before the ability completed.  The ability was using its internally defined lifetime, instead of a lifetime overridden to be 30 seconds. (BUG #367)
 • Tyber Zann was a stealth-capable unit in Galactic Conquest despite having a devastating capital ship, even when cloaking technology upgrade wasn't purchased yet.  His stealth ability has been removed entirely for balance, like other heroes with capital ships, but is still a stealth unit during the Consortium's campaign and prologue. (BUG #154)
 
 
