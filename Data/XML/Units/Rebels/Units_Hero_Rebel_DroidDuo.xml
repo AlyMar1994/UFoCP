@@ -311,7 +311,7 @@
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>0</Bank_Turn_Angle>
 		<Use_Special_Submit_Rules> true </Use_Special_Submit_Rules>
-		
+
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -340,10 +340,10 @@
 
 		<Behavior>TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
-		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		
+
 		<Obstacle_Width>140.0</Obstacle_Width>
 		<Obstacle_Height>60.0</Obstacle_Height>
 		<Obstacle_X_Offset>-70.0</Obstacle_X_Offset>
@@ -374,7 +374,7 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		
+
 		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Gallofree</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Gallofree</SFXEvent_Move>
@@ -397,7 +397,7 @@
 		<CategoryMask>Transport</CategoryMask>
 		<Landing_Transport_Variant>Gallofree_Transport_Landing</Landing_Transport_Variant>
         <AI_Combat_Power>10</AI_Combat_Power>
-		
+
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Can_Participate_In_Space_Battle> No </Can_Participate_In_Space_Battle>
 

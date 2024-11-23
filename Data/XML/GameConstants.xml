@@ -4,7 +4,7 @@
 	<!-- Ordered list of hotkey fast load debug maps for keys CTRL+SHIFT+1 through CTRL+SHIFT+9 -->
 	<!-- Note: Map names cannot have SPACES in them due to XML parsing! Also, keep ordered CTRL+SHIFT+1 through CTRL+SHIFT+9 -->
 	<!-- CTRL+SHIFT+0 is a special key for loading the galactic campaign named in the Debug_Hot_Key_Load_Campaign tag. -->
-   <!-- Each map should be paired with a script name entry even if the entry is empty -->
+	<!-- Each map should be paired with a script name entry even if the entry is empty -->
 
 		<Debug_Hot_Key_Load_Map> .\\Data\\Art\\Maps\\!End_Cine_Test.ted </Debug_Hot_Key_Load_Map>
 		<Debug_Hot_Key_Load_Map_Script> Story_Plots_UM00_CIN_Test.xml </Debug_Hot_Key_Load_Map_Script>

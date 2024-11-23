@@ -2,7 +2,6 @@
 <GroundBuildables>
 
 	<GroundBuildable Name="Skirmish_Build_Pad">
-
 		<Behavior> TACTICAL_BUILD_OBJECTS, REVEAL, HIDE_WHEN_FOGGED, CAPTURE_POINT </Behavior>
 
 		<Space_Layer> Land </Space_Layer>
