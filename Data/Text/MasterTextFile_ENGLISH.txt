@@ -1539,11 +1539,16 @@ TEXT_ENCYCLOPEDIA_SPEEDER_SQUADRON,Airspeeder Squadron
 TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP,This ship is unmanned, deactivated, and awaiting repairs
 TEXT_ENCYCLOPEDIA_STORY_UNDER_CONSTRUCTION,This ship is under construction and not functional
 TEXT_ENCYCLOPEDIA_SULLUSTAN_SPAWNER,Periodically creates Sullustans until destroyed.
-TEXT_ENCYCLOPEDIA_TECH_UPGRADE_01,Allows Production (with pre-requisites) of: Heavy Vehicle Factory, SPMA-T, TIE mauler, TIE bomber, Broadside-class Cruiser, Upgrade to Tech Level 2
-TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02,Allows Production (with pre-requisites) of: Imperial Space Station Lv. 3, Victory-class Star Destroyer, Heavy Vehicle Factory, Base Shield Generator, Magnapulse Cannon, Turbolaser Tower, SPMA-T Upgrade to Tech Level 3
-TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03,Allows Production (with pre-requisites) of: Imperial Space Station Lv. 4, Orbital Long Range Scanner, TIE scout, Hypervelocity Gun, Mining Facility, Advanced Factory, 2-M Repulsor Tanks, AT-AT Walker, Upgrade to Tech Level 4
-TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04,Allows Production (with pre-requisites) of: Imperial Space Station Lv. 5, Gravity Well Station, Imperial-class Star Destroyer, Interdictor Cruiser, Repulsor Lift Jammer, AT-AA Walker, Upgrade to Tech Level 5
-TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05,Allows Production (with pre-requisites) of: The Death Star
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_01,Allows production (with prerequisites) of: Barracks, Light Vehicle Factory, Mining Facility, Officer Academy, Research Facility, Imperial Field Commander, basic Imperial Light Infantry and Vehicles, Imperial Space Station Lv. 1, basic Imperial Light Cruisers, Imperial Fleet Commander, Probe Droids, and an Upgrade to Tech Level 2.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_01_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: Boba Fett, Emperor Palpatine, and Grand Moff Tarkin.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02,Allows production (with prerequisites) of: Imperial Space Station Lv. 3, Victory-class Cruiser, Base Shield Generator, Heavy Vehicle Factory, Magnapulse Cannon, Turbolaser Tower Defenses, 2-M Repulsor Tanks, SPMA-T, and an Upgrade to Tech Level 3.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: Blizzard 1 - General Maximilian Veers.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03,Allows production (with prerequisites) of: Imperial Space Station Lv. 4, Orbital Long Range Scanner, TIE scout, Advanced Vehicle Factory, Hypervelocity Gun, AT-AT Walker, B5 Juggernaught transport, and an Upgrade to Tech Level 4.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: The Accuser - Captain Piett.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04,Allows production (with prerequisites) of: Gravity Well Station, Imperial Space Station Lv. 5, Imperial Star Destroyer, Interdictor Cruiser, TIE phantom, AT-AA Walker, Dark Trooper Phase I and II, Lancet Air Wing, and an Upgrade to Tech Level 5.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: The Arc Hammer - General Mohc.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05,Allows production (with prerequisites) of: the Death Star II, the Executor Super Star Destroyer, TIE defender, and the Dark Trooper Phase III.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: The Admonitor - Grand Admiral Thrawn.
 TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE,This indigenous unit is enslaved to the will of the Zann Consortium.
 TEXT_ENCYCLOPEDIA_TURBOLASER_00,A surface-to-surface weapon capable of destroying the most powerful enemy assault vehicles, but has little effect against smaller fast-moving objects.
 TEXT_ENCYCLOPEDIA_TURBOLASER_DEFENSE,Places 2-5 turbolaser towers in strategic defensive positions around your base.  The number of towers depends on the size of the base and the planet's terrain.

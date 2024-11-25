@@ -56,6 +56,7 @@ Additions:
 	- In related change, the Consortium Slave text changed for consistency (TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE):
 		- ENG: An indigenous unit enslaved to the will of the Zann Consortium -> This indigenous unit is enslaved to the will of the Zann Consortium.
 		- GER: Ein einheimisches Lebewesen, das vom Zann-Konsortium versklavt wurde. -> Diese einheimische Einheit wird vom Zann-Konsortium versklavt.
+• Imperial technology tooltips now include what heroes the player recruits by upgrading their technology (TEXT_ENCYCLOPEDIA_TECH_UPGRADE_XX_RECRUITMENT). (BUG #369)
 • Fix Grand Admiral Thrawn having an unfinished/subpar unit description (TEXT_TOOLTIP_SD_ADMONITOR_02). (BUG #225)
 • Fix Captain Piett having an unfinished/subpar unit description (TEXT_TOOLTIP_PIETT_02). (BUG #227)
 • Fix General Mohc having an unfinished/subpar unit description (TEXT_TOOLTIP_ARC_HAMMER_02). (BUG #230)
@@ -366,6 +367,26 @@ International:
 • TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON: (BUG #257)
 	-- ENG: Fighter Squadron -> Class: Fighter Squadron
 	-- GER: Jägergeschwader -> Klasse: Jägergeschwader
+
+• TEXT_ENCYCLOPEDIA_TECH_UPGRADE_01: (BUG #369)
+	-- ENG: Allows Production (with pre-requisites) of: Heavy Vehicle Factory, SPMA-T, TIE mauler, TIE bomber, Broadside-class Cruiser, Upgrade to Tech Level 2 -> Allows production (with prerequisites) of: Barracks, Light Vehicle Factory, Mining Facility, Officer Academy, Research Facility, Imperial Field Commander, basic Imperial Light Infantry and Vehicles, Imperial Space Station Lv. 1, basic Imperial Light Cruisers, Imperial Fleet Commander, Probe Droids, and an Upgrade to Tech Level 2.
+	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Schwere Fahrzeugfabrik, SPMA-T, TIE-Mauler, TIE-Bomber, Kreuzer der Broadside-Klasse, Aufrüstung auf Tech-Stufe 2 -> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Kaserne, Leichte Fabrik, Mine, Offiziersakademie, Forschungseinrichtung, Feldkommandeur, einfache imperiale Leichte Infanterie und Fahrzeuge, Raumstation des Imperiums Stufe 1, leichte Kreuzer der imperialen Grundflotte, Flottenkommandeur, Suchdroide, und Aufrüstung auf Tech-Stufe 2
+
+• TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02: (BUG #369)
+	-- ENG: Allows Production (with pre-requisites) of: Imperial Space Station Lv. 3, Victory-class Star Destroyer, Heavy Vehicle Factory, Base Shield Generator, Magnapulse Cannon, Turbolaser Tower, SPMA-T Upgrade to Tech Level 3 -> Allows production (with prerequisites) of: Imperial Space Station Lv. 3, Victory-class Cruiser, Base Shield Generator, Heavy Vehicle Factory, Magnapulse Cannon, Turbolaser Tower Defenses, 2-M Repulsor Tanks, SPMA-T, and an Upgrade to Tech Level 3.
+	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums Stufe 3, Sternenzerstörer der Victory-Klasse, Schwere Fahrzeugfabrik, Stützpunktschildgenerator, Magnetpuls-Geschütz, Turbolaser-Turm, SPMA-T, Aufrüstung auf Tech-Stufe 3 -> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums Stufe 3, Victory-Kreuzer, Schildgenerator, Schwere Fabrik, Magnetpulsgeschütz, Turbolaserturm-Verteidigung, Repulsor-Panzer 2-M, SPMA-T-Kampfläufer, und Aufrüstung auf Tech-Stufe 3.
+
+• TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03: (BUG #369)
+	-- ENG: Allows Production (with pre-requisites) of: Imperial Space Station Lv. 4, Orbital Long Range Scanner, TIE scout, Hypervelocity Gun, Mining Facility, Advanced Factory, 2-M Repulsor Tanks, AT-AT Walker, Upgrade to Tech Level 4 -> Allows production (with prerequisites) of: Imperial Space Station Lv. 4, Orbital Long Range Scanner, TIE scout, Advanced Vehicle Factory, Hypervelocity Gun, AT-AT Walker, B5 Juggernaught transport, and an Upgrade to Tech Level 4.
+	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums - Stufe 4, Orbital-Langstreckenscanner, TIE-Scout, Hyper-V-Geschütz, Mine, Verbesserte Fabrik, Repulsor-Panzer 2-M, AT-AT-Kampfläufer, Aufrüstung auf Tech-Stufe 4 -> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums Stufe 4, Orbital-Langstreckenscanner, TIE-Scout, Verbesserte Fabrik, Hyper-V-Geschütz, AT-AT-Kampfläufer, Juggernaut HAVt B5, und Aufrüstung auf Tech-Stufe 4.
+
+• TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04: (BUG #369)
+	-- ENG: Allows Production (with pre-requisites) of: Imperial Space Station Lv. 5, Gravity Well Station, Imperial-class Star Destroyer, Interdictor Cruiser, Repulsor Lift Jammer, AT-AA Walker, Upgrade to Tech Level 5 -> Allows production (with prerequisites) of: Gravity Well Station, Imperial Space Station Lv. 5, Imperial Star Destroyer, Interdictor Cruiser, TIE phantom, AT-AA Walker, Dark Trooper Phase I and II, Lancet Air Wing, and an Upgrade to Tech Level 5.
+	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Raumstation des Imperiums - Stufe 5, Schwerkraftsteuerung, Imperialer Sternenzerstörer, Kreuzer der Interdictor-Klasse, Repulsorlift-Störer, AT-AA-Kampfläufer, Aufrüstung auf Tech-Stufe 5 -> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: Schwerkraftsteuerung, Raumstation des Imperiums Stufe 5, Imperialer Sternenzerstörer, Kreuzer der Interdictor-Klasse, TIE-Phantom, AT-AA-Kampfläufer, Dunkle Truppe Phase I und II, Lancet-Flugartillerie, und Aufrüstung auf Tech-Stufe 5.
+
+• TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05: (BUG #369)
+	-- ENG: Allows Production (with pre-requisites) of: The Death Star -> Allows production (with prerequisites) of: the Death Star II, the Executor Super Star Destroyer, TIE defender, and the Dark Trooper Phase III.
+	-- GER: Ermöglicht bei Erfüllung der Vorbedingungen die Produktion des Todessterns -> Ermöglicht bei Erfüllung der Vorbedingungen die Produktion von: der Todesstern II, der Super-Sternenzerstörer Exekutor, TIE-Defender, und Dunkle Truppe Phase III.
 
 • TEXT_PLANET_CAPITAL_SHIP_PRODUCER: (BUG #145)
 	-- ENG: This planet can produce capital ships (Mon Calamari Cruisers or Imperial Star Destroyers). -> This planet can produce capital ships (Mon Calamari Cruisers, Imperial Star Destroyers, Aggressor-class Destroyers or Keldabe-class Battleships).
