@@ -455,10 +455,6 @@ General
 
 -Modified generic galactic squadron container unit, by giving it a CategoryMask of "fighter" so the game stops throwing errors.
 
--Fixed all Empire technology levels not mentioning objects that can be built when upgrading (for example, 2-M Repulsor Tanks or the Heavy Vehicle Factory not being mentioned when upgrading to level 2 in the tooltip).
--Fixed items being improperly named on Empire tech level tooltips.
--Fixed erratic spacing and ordering of Empire technology level tooltips. It now follows this order, alphabetically: [Space Objects], [Space Units], [Land Objects], [Land Units], [Misc].
-
 
 ==================
 A.I.
