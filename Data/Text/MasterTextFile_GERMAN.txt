@@ -1009,7 +1009,7 @@ TEXT_CORRUPTION_POLUS_STORY_BONDEDCITIZENS,Bergarbeiter lassen sich spielend lei
 TEXT_CORRUPTION_POLUS_STORY_RACKETEER,Die Primärziele für organisierte Kriminalität auf dieser tiefgefrorenen Welt sind die Karbonit-Bergarbeiter.
 TEXT_CORRUPTION_RACKETEERING,Organisierte Kriminalität
 TEXT_CORRUPTION_RACKETEERING_BENEFIT,VORTEILE: Generiert automatisch größere Creditmengen auf galaktischer Ebene. Bringt einen Bergungsbonus in Credits für jede im taktischen Kampf zerstörte Feindeinheit.
-TEXT_CORRUPTION_RACKETEERING_ENCYCLOPEDIA,Bei dieser Mission muss ein Defiler einen Planeten infiltrieren und ihn mit organisiertem Verbrechen überziehen. Das Konsortium wird passives Einkommen aus Spielhöllen, Schmuggel, Schwarzhandel, sozialer Manipulation oder Tierwildererringen erzielen.
+TEXT_CORRUPTION_RACKETEERING_ENCYCLOPEDIA,Bei dieser Mission muss ein Verderber einen Planeten infiltrieren und ihn mit organisiertem Verbrechen überziehen. Das Konsortium wird passives Einkommen aus Spielhöllen, Schmuggel, Schwarzhandel, sozialer Manipulation oder Tierwildererringen erzielen.
 TEXT_CORRUPTION_REMOVAL_DISPLAY_TEXT,Kosten:
 TEXT_CORRUPTION_REMOVE_PERCENT,Korruption eingegrenzt: %d%%
 TEXT_CORRUPTION_REQUIRED,Es ist ein Verderber nötig, um die Korruptionsoptionen zu aktivieren.
@@ -17806,8 +17806,8 @@ TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION,Alle Waffen richten mit Schnellfeuer ge
 TEXT_TOOLTIP_ABILITY_ASSAULT_NAME,Sturm
 TEXT_TOOLTIP_ABILITY_AVOID_DANGER_DESCRIPTION,Gefahren ausweichen
 TEXT_TOOLTIP_ABILITY_AVOID_DANGER_NAME,Gefahren ausweichen
-TEXT_TOOLTIP_ABILITY_-BAD_VALUE-_DESCRIPTION,!! REPORT THIS TO AlyMar1994 ON THE UFoCP GITHUB AS SOON AS POSSIBLE !!
-TEXT_TOOLTIP_ABILITY_-BAD_VALUE-_NAME,!! THIS ABILITY IS BROKEN INTERNALLY !!
+TEXT_TOOLTIP_ABILITY_-BAD VALUE-_DESCRIPTION,Diese Fähigkeit gibt einen vorübergehenden Bonus auf die Feuerrate, die Bewegungsgeschwindigkeit und den Schaden des Rogue-Geschwaders.
+TEXT_TOOLTIP_ABILITY_-BAD VALUE-_NAME,Schlag
 TEXT_TOOLTIP_ABILITY_BARRAGE_DESCRIPTION,Deckt einen Zielort auf der Karte mit einem Raketen-Trommelfeuer ein. Die Raketen verursachen schwere Schäden bei allen Einheiten in der Nähe. Während des Beschusses eines Zielorts kann die Einheit nicht bewegt werden.
 TEXT_TOOLTIP_ABILITY_BARRAGE_NAME,Flächenbeschuss
 TEXT_TOOLTIP_ABILITY_BERSERKER_DESCRIPTION,Wird er aktiviert, springt Yoda um den Gegner herum und richtet großen Schaden an.
