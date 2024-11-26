@@ -107,6 +107,7 @@ AI Fixes:
 
 
 Audio Fixes:
+• General Veers' callouts for appearing on the battlefield wouldn't play for any faction because the reference was looking for the "General_Veers" unit and not "Veers_AT_AT_Walker." (BUG #372)
 • Darth Vader's callouts for appearing on the battlefield would play sporatically, as some of the checks wouldn't look for his FoC land unit, only his EaW one. (BUG #29)
 • Thrawn's callout for appearing on the battlefield wouldn't play for any faction because the reference was looking for the unused "Grand_Admiral_Thrawn" unit and not "Admonitor_Star_Destroyer." (BUG #24)
 • Thrawn's callout for removing corruption would play the Rebels' announcement VO instead of the Empire's. (BUG #12)
