@@ -766,7 +766,7 @@
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
-		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+		<!-- <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting> --> <!-- AM1994 11/26/24 - Required on Veers_AT_AT_Walker, named hero character can't trigger callouts. -->
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Veers_Combat_Bonus">
