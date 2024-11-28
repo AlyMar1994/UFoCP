@@ -57,6 +57,9 @@ HOUSEKEEPING:
 • Skipray Blastboats' ion cannons were internally defined as lasers instead of ion cannons.  There shouldn't be any forward-facing changes, just internal consistency with other bombers. (BUG #357)
 • Tyber Zann's main ion cannon was internally coded as a "special weapon" instead of an ion cannon.  There shouldn't be any forward-facing changes, except that his unit can now detect when his ion cannon fails, and can use VO for it. (BUG #259)
 • Thrawn's unused "political" unit that was supposed to replace Tarkin, Grand_Admiral_Thrawn and Grand_Admiral_Thrawn_Team, were both broken in odd ways.  The named hero wasn't linked to the Admonitor_Star_Destroyer unit entry, while the team only spawned/contained the Grand_Moff_Tarkin hero, among other issues.  This unit isn't currently used, but is now available should someone want to, or otherwise. (BUG #371)
+
+MISC:
+• Disable game's internal hardware check for Intel GPUs, as DX9 shader compilation was getting disabled for Intel's newest line of GPUs thinking they were integrated (CPU) chipsets that couldn't support hardware shaders. (BUG #378)
 ======
 
 

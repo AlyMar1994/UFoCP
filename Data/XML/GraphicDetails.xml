@@ -155,6 +155,11 @@
         <!-- Intel special cases, all Intel HW gets fixed function due to the lack of hardware vertex shaders      -->
         <!--                                                                                                       -->
         <!--                                                                                                       -->
+
+		<!-- AM1994 11/28/2024 - TODO: Until Petroglyph has a more official fix for this, disable Intel HW GPU check   -->
+		<!-- checking for Intel's vendor ID disables DX9 shader compilation on their newest (ARC) line of GPUs because -->
+		<!-- it thinks that they're integrated/CPU chipsets.  This is dirty but required for now. 					   -->
+<!--
         <HardwareConfiguration name="Config_Intel_Fast">
                 <GraphicDetailSettingName>	FF_0	FF_1	FF_2	FF_3</GraphicDetailSettingName>
                 <DefaultGraphicDetailLevel>2</DefaultGraphicDetailLevel>
@@ -176,6 +181,7 @@
 
                 <VendorIDHEX>0x8086</VendorIDHEX>
         </HardwareConfiguration>
+-->
 
         <!--                                                                                                       -->
         <!--                                                                                                       -->
