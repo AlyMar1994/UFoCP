@@ -177,6 +177,7 @@ Interface Fixes:
 • The Consortium used Black Sun Pirate unit icons when their planets were attacked without garrisons; the UI now uses their most generic arsenal icon for space and land (StarVipers or Grenadiers, respectively). (BUG #40)
 • The Consortium's tech tree window had the space station level requirements for the Aggressor and Keldabe-class swapped, implying Keldabes are bought at station level 4 instead of 5 (and the Aggressor at level 5 instead of 4). (BUG #183)
 • The Consortium Soldier/advisor during the prologue "Crime Lord Unleashed" used the Black Sun Pirate hologram instead of the Consortium Soldier hologram.  While I like the aesthetic, unfortunately it's a bug. (BUG #61)
+• The Consortium's galactic dashboard had its info icons misaligned by a couple pixels.  One of the icons would overlap with the bar when pressed. (BUG #376)
 • When Darth Vader arrives on Bespin during Consortium campaign mission #6 "Cloud City Conflict," the hologram announcer used the Black Sun Pirate hologram instead of the Consortium Soldier hologram. (BUG #104)
 • The Hypervelocity Cannon's special weapon cursor used the Magnepulse Cannon's texture instead of its own because of each texture having swapped names. (BUG #260)
 
