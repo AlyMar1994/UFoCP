@@ -2,7 +2,7 @@
 
 <Game_Object_Files>
 
-	<File>TransportUnits.xml</File>
+	<File>Units\TransportUnits.xml</File>
 
 	<File>TechBuilding.xml</File>		<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
 	<File>GroundBases.xml</File>
@@ -124,7 +124,7 @@
 	<!-- Expansion General Files -->
 
 	<File>SpaceProps_Underworld.xml</File>
-	<File>Underworld_TransportUnits.xml</File>
+	<File>Units\Underworld_TransportUnits.xml</File>
 	<File>Props_Felucia.xml</File>
 	<File>GroundBuildablesUnderworld.xml</File>
 	<File>GroundStructures_Underworld.xml</File>
