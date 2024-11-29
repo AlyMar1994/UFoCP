@@ -280,6 +280,7 @@ Unit Fixes:
 • IG-88's space weapons weren't defined with daamge multipliers, leading to under- or overperforming in certain scenarios.  For example, his lasers would do unintentionally increased damage against capital ships. (BUG #361)
 • Boba Fett would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #149)
 • Han Solo & Chewbacca would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of their land units. (BUG #147)
+• Consortium, Imperial and Rebel unit transport shuttles didn't take population cap size, meaning an infinite amount of them could be used to exploit in battle.  They now take an extensive 3 pop cap each to avoid spam when land units are sent to space mode. (BUG #380)
 
 
 Upgrade Fixes:

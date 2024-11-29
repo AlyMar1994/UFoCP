@@ -122,7 +122,7 @@
         <AI_Combat_Power>10</AI_Combat_Power>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
+		<Population_Value>3</Population_Value>
 	</TransportUnit>
 
 	<UniqueUnit Name="Underworld_Vehicle_Transport_Death_Clone">
@@ -333,6 +333,7 @@
         <AI_Combat_Power>10</AI_Combat_Power>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Population_Value>3</Population_Value>
 	</TransportUnit>
 
 	<UniqueUnit Name="Underworld_Infantry_Droid_Shuttle_Death_Clone">
@@ -487,6 +488,7 @@
 		<CategoryMask>Transport</CategoryMask>
         <AI_Combat_Power>10</AI_Combat_Power>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Population_Value>3</Population_Value>
 	</TransportUnit>
 
 	<UniqueUnit Name="Underworld_Hero_Shuttle_Death_Clone">
