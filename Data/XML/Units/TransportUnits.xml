@@ -48,7 +48,7 @@
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
-		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -91,7 +91,7 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		
+
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Sentinel_Lander</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Sentinel_Lander</SFXEvent_Move>
@@ -131,20 +131,20 @@
 		<Variant_Of_Existing_Type>Imperial_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
 		<Scale_Factor>2.25</Scale_Factor>
-		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 		<Has_Space_Evaluator>False</Has_Space_Evaluator>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>	
+      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 	</TransportUnit>
-	
+
 	<TransportUnit Name="Imperial_Landing_Craft_Landing_Cinematic">
 		<Variant_Of_Existing_Type>Imperial_Landing_Craft</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
 		<Scale_Factor>2.25</Scale_Factor>
-		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<User_Bound_Min>0, 0, 0</User_Bound_Min>
 		<User_Bound_Max>0, 0, 0</User_Bound_Max>
@@ -199,7 +199,7 @@
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
-		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -240,7 +240,7 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		
+
 		<SFXEvent_Fire>Unit_Shuttle_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_ATAT_Barge</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_ATAT_Barge</SFXEvent_Move>
@@ -258,11 +258,11 @@
         <AI_Combat_Power>10</AI_Combat_Power>
 
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
-		
+
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-        
+
 	</TransportUnit>
 
 	<UniqueUnit Name="Imperial_ATAT_Barge_Death_Clone">
@@ -284,15 +284,15 @@
 		<Variant_Of_Existing_Type>Imperial_ATAT_Barge</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
 		<Scale_Factor>1.1</Scale_Factor>
-		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 		<Has_Space_Evaluator>False</Has_Space_Evaluator>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		
+
 		<Use_Transported_Object_Bounds_For_Landing_Z> false </Use_Transported_Object_Bounds_For_Landing_Z>
-      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>	
+      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 	</TransportUnit>
 
 	<TransportUnit Name="Gallofree_Transport">
@@ -317,7 +317,7 @@
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>0</Bank_Turn_Angle>
 		<Use_Special_Submit_Rules> true </Use_Special_Submit_Rules>
-		
+
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -346,10 +346,10 @@
 
 		<Behavior>TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
-		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		
+
 		<Obstacle_Width>140.0</Obstacle_Width>
 		<Obstacle_Height>60.0</Obstacle_Height>
 		<Obstacle_X_Offset>-70.0</Obstacle_X_Offset>
@@ -374,7 +374,7 @@
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		
+
 		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Gallofree</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Gallofree</SFXEvent_Move>
@@ -392,7 +392,7 @@
         <AI_Combat_Power>10</AI_Combat_Power>
 
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
-		
+
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 		<Remove_Upon_Death>true</Remove_Upon_Death>
@@ -422,18 +422,18 @@
 		<Variant_Of_Existing_Type>Gallofree_Transport</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
 		<Scale_Factor>1.5</Scale_Factor>
-		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<User_Bound_Min>0, 0, 0</User_Bound_Min>
 		<User_Bound_Max>0, 0, 0</User_Bound_Max>
 		<Has_Space_Evaluator>False</Has_Space_Evaluator>
-		
+
 		<Obstacle_Width>0</Obstacle_Width>
 		<Obstacle_Height>0</Obstacle_Height>
 		<Obstacle_X_Offset>-70.0</Obstacle_X_Offset>
       	<Obstacle_Y_Offset>-30.0</Obstacle_Y_Offset>
-      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>	
-      	<Space_Layer> Land </Space_Layer>	
+      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>
+      	<Space_Layer> Land </Space_Layer>
       	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</TransportUnit>
 
@@ -491,7 +491,7 @@
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
-		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -551,7 +551,7 @@
         <AI_Combat_Power>10</AI_Combat_Power>
 
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
-		
+
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 	</TransportUnit>
@@ -571,40 +571,40 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</UniqueUnit>
-	
+
 	<TransportUnit Name="Shuttle_Tyderium_Landing">
 		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT, HINT</Behavior>
 		<Scale_Factor>2.25</Scale_Factor>
-		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<User_Bound_Min>-50, -50, 0</User_Bound_Min>
 		<User_Bound_Max>50, 50, 1500</User_Bound_Max>
 		<Has_Space_Evaluator>False</Has_Space_Evaluator>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-		
+
 		<!-- For appropriate collision when this object is on the ground with wings folded -->
 		<Custom_Hard_XExtent> 40.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 27.0 </Custom_Hard_YExtent>
-      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>	
+      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 	</TransportUnit>
-	
+
 	<TransportUnit Name="Shuttle_Tyderium_Landing_Cinematic">
 		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT, HINT</Behavior>
 		<Scale_Factor>2.25</Scale_Factor>
-		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<User_Bound_Min>-50, -50, 0</User_Bound_Min>
 		<User_Bound_Max>50, 50, 1500</User_Bound_Max>
 		<Has_Space_Evaluator>False</Has_Space_Evaluator>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		<Hover_Offset>0.0</Hover_Offset>
-		
+
 		<!-- For appropriate collision when this object is on the ground with wings folded -->
 		<Custom_Hard_XExtent> 40.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 27.0 </Custom_Hard_YExtent>
-      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>	
+      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 	</TransportUnit>
 
 	<TransportUnit Name="Shuttle_Tyderium_Prisoners">
@@ -615,7 +615,7 @@
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT</SpaceBehavior>
 		<Mouse_Collide_Override_Sphere_Radius>30</Mouse_Collide_Override_Sphere_Radius>
 	</TransportUnit>
-	
+
 	<TransportUnit Name="Shuttle_Tyderium_Tutorial">
 		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
 		<Max_Speed>2.5</Max_Speed>
@@ -679,7 +679,7 @@
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
-		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
 		<TacticalBehavior> SELECTABLE </TacticalBehavior>
 
       	<Obstacle_Width>60.0</Obstacle_Width>
@@ -730,7 +730,7 @@
 		<SFXEvent_Move>Unit_Move_Alliance_Shuttle</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Alliance_Shuttle</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Alliance_Shuttle</SFXEvent_Attack>
-		
+
 		<SFXEvent_Engine_Idle_Loop> Unit_Gallofree_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Gallofree_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Gallofree_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
@@ -743,7 +743,7 @@
         <AI_Combat_Power>10</AI_Combat_Power>
 
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
-		
+
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 		<Remove_Upon_Death>true</Remove_Upon_Death>
@@ -771,16 +771,16 @@
 		<Variant_Of_Existing_Type>Alliance_Shuttle</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
 		<Scale_Factor>1.5</Scale_Factor>
-		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
 		<User_Bound_Max>700, 700, 1500</User_Bound_Max>
 		<Has_Space_Evaluator>False</Has_Space_Evaluator>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>	
+      	<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 
 	</TransportUnit>
-	
+
 	<TransportUnit Name="RM09_Alliance_Shuttle">
 		<Variant_Of_Existing_Type>Alliance_Shuttle</Variant_Of_Existing_Type>
 		<Armor_Type> Armor_Transport </Armor_Type>
@@ -789,8 +789,8 @@
 		<Shield_Refresh_Rate>250</Shield_Refresh_Rate>
 	</TransportUnit>
 
-	
-	
-	
+
+
+
 
 </TransportUnits>
