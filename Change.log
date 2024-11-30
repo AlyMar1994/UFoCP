@@ -95,7 +95,7 @@ AI Fixes:
 • AI plans wouldn't factor in Consortium turbolaser towers as artillery to avoid when attacking buildings; Consortium turbolaser towers also weren't a part of the artillery infrastructure list to specifically target. (BUG #116)
 • AI plans wouldn't factor in Consortium mobile artillery (MALs), nor any faction's missile defense satellites as artillery to avoid when attacking; they also weren't apart of the artillery infrastructure list to specifically target. (BUG #160)
 • The AI's budgeting wouldn't factor in the Consortium's Repulsorlift Jammer as it wasn't apart of their defensive structure list. (BUG #118)
-• The Master Force Adept (the Teleporter) in Consortium campaign mission #9 "Following the Artifact" couldn't properly target the player because it referenced a non-existent variable, instead attacking any hostile entity in the area. (BUG #126)
+• The Master Force Adept (the Teleporter) in Consortium campaign mission #8 "Following the Artifact" couldn't properly target the player because it referenced a non-existent variable, instead attacking any hostile entity in the area. (BUG #126)
 • The Galactic AI had a misspelled variable that prevented reconsidering unit positions every eight seconds as intended; unit movement is no longer irregularly serviced. (BUG #130)
 • The Galactic AI didn't include Tyber Zann as a possible leader_object for its service to attack planets or find targets. (BUG #140)
 • The Galactic AI for what planet(s) heroes like to hang out on when not in use didn't include the Sundered Heart. (BUG #162)
@@ -231,7 +231,7 @@ Script/Story Fixes:
 • Consortium Campaign #3 ("Communications Breakdown") would, on widescreen resolutions, crop Urai's head out of camera view during his monologue at the Hutt ambush.  The camera's position was only intended for 4:3/Normal resolutions, and has been adjusted to pan out the frame more. (BUG #270)
 • Consortium Campaign #6 ("Cloud City Conflict") would spawn the EaW version of Darth Vader instead of the FoC version with the Executor. (BUG #27)
 • Consortium Campaign #6 ("Cloud City Conflict") had an exploit where Grenadiers could leave Proximity Mines where Vader and the Stormtrooper meet.  The Stormtrooper would explode and Vader would then walk around destroying mines in the ending cutscene.  While funny, it would break the sequence. (BUG #131)
-• Consortium Campaign #8 ("Baiting the Hook") didn't set any flags to prevent the player or Empire from retreating, leading to sequence breaks or softlocks. (BUG #56)
+• Consortium Campaign #7 ("Baiting the Hook") didn't set any flags to prevent the player or Empire from retreating, leading to sequence breaks or softlocks. (BUG #56)
 • "Destroy the Death Star" prerequisites for GC wouldn't work because the Empire's faction entry wasn't looking for the Death Star II. (BUG #33)
 • Land Bothawui's intimidation mission had guards that lacked the "pointguard" scripting hint, or had it misspelled to "pointguards," meaning the mission script wouldn't function as intended. (BUG #219)
 • Land Bestine's kidnapping mission had guards that lacked the "pointguard" scripting hint, meaning the mission script wouldn't function as intended. (BUG #222)
@@ -282,6 +282,7 @@ Unit Fixes:
 • Boba Fett would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #149)
 • Han Solo & Chewbacca would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of their land units. (BUG #147)
 • Consortium, Imperial and Rebel unit transport shuttles didn't take population cap size, meaning an infinite amount of them could be used to exploit in battle.  They now take an extensive 3 pop cap each to avoid spam when land units are sent to space mode. (BUG #380)
+• The Boarding Shuttle from Consortium Campaign #9 ("The Emperor's New Weapon") had no selection ring when selected in combat. (BUG #384)
 
 
 Upgrade Fixes:
