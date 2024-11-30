@@ -2874,18 +2874,16 @@
 		<Icon_Name>i_button_uv_rz_52.tga</Icon_Name>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
-		<SFXEvent_Fire>Unit_Tank_T2B_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Cloaking_Transport</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Cloaking_Transport</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Cloaking_Transport</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Cloaking_Transport</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Cloaking_Transport</SFXEvent_Guard>
-		<SFXEvent_Turret_Rotating_Loop> Vehicle_Turret_Motor </SFXEvent_Turret_Rotating_Loop>
-		<SFXEvent_Assist_Move> Unit_Assist_Cloaking_Transport </SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Attack> Unit_Assist_Cloaking_Transport</SFXEvent_Assist_Attack>
-		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
-		<SFXEvent_Engine_Idle_Loop> Unit_T2B_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_T2B_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Fire>Unit_Underworld_Ship_Laser_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_UVT_Transport</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_UVT_Transport</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_UVT_Transport</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_UVT_Transport</SFXEvent_Attack>
+		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Engine_Idle_Loop> Unit_Gallofree_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Gallofree_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Gallofree_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Ambient_Loop>Unit_Gallofree_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
 		<SFXEvent_Unit_Lost> UHD_Unit_Destroyed </SFXEvent_Unit_Lost>
 		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
