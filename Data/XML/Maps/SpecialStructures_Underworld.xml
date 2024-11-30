@@ -179,6 +179,16 @@
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
 			</Income_Stream_Ability>
 
+			<Income_Stream_Mod_Ability Name="U_Power_Plant_Income_Penalty">
+				<Income_Multiplier>0.80</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>2.0</Interval_Multiplier>
+				<Stacking_Category>0</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Ground_Mining_Facility_U</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>Yes</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+
 			<!-- The state of these abilities (enabled/disabled) is controlled by hard points -->
  			<Enable_Radar_Ability Name="Underworld_Palace_Enable_Radar">
  				<Activation_Style>Ground_Automatic</Activation_Style>
