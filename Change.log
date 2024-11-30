@@ -283,6 +283,7 @@ Unit Fixes:
 • Han Solo & Chewbacca would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of their land units. (BUG #147)
 • Consortium, Imperial and Rebel unit transport shuttles didn't take population cap size, meaning an infinite amount of them could be used to exploit in battle.  They now take an extensive 3 pop cap each to avoid spam when land units are sent to space mode. (BUG #380)
 • The Boarding Shuttle from Consortium Campaign #9 ("The Emperor's New Weapon") had no selection ring when selected in combat. (BUG #384)
+• The Boarding Shuttle from Consortium Campaign #9 ("The Emperor's New Weapon") would spawn the IPV-1 Patrol Craft death animation when destroyed instead of the Consortium infantry shuttle's. (BUG #385)
 
 
 Upgrade Fixes:

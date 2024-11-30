@@ -2867,7 +2867,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 
-		<Death_Clone>Damage_Normal, IPV1_System_Patrol_Craft_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, Underworld_Infantry_Droid_Shuttle_Death_Clone</Death_Clone>
 
 		<CategoryMask> Corvette | AntiFighter | AntiBomber </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
