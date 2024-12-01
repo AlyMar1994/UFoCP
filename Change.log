@@ -225,6 +225,7 @@ Model Fixes:
 • Consortium swamp speeders would use Black Sun Pirate infantry in its cockpit.  They've now been swapped out for Grenadiers. (Thanks theshyshallot!) (BUG #233)
 • Consortium space stations were able to dodge Ion and Hypervelocity Guns because the positioning of their base skeleton was abnormal.  All stations have recieved new collision models to compensate and make collision more in-line with other stations. (Thanks theshyshallot!) (BUG #16)
 • The generic grenade model that Bossk, the Grenadiers, and the Empire's concussion grenade turret used wasn't using its custom texture, and instead was pure white.  The model was looking for "w_grenade" instead of "w_therm_detonator." (BUG #269)
+• Only half of the AT-AT Barge's model would explode upon death, the remainder permanently floating in space.  The animation ends on the same frame it would disable the model in an explosion, but it doesn't work due to an engine bug.  The animation was extended 2 frames to compensate, with the entire barge model exploding properly now. (BUG #387)
 
 
 Script/Story Fixes:
