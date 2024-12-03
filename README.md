@@ -38,8 +38,8 @@ Forces of Corruption and Petroglyph's second game Universe at War uses ALO/ALA 2
 
 When installing the map editor, an Autodesk 3DS Max 8 and 9 version of Petroglyph's official plugin are provided within the game's files.  3DS Max 8 and 9 cannot be aquired legally anymore.  The app itself is also buggy on modern computers, making 3DS Max an unrecommended model editor.
 
-[Gaukler](https://github.com/Gaukler) created a Blender plugin that interprets ALO and ALA effectively, including quality-of-life warnings, and was updated subsequently by the maintainers at [AlamoEngine-Tools](https://github.com/AlamoEngine-Tools).  This plugin DOES NOT support ALA 1.0 included with Empire at War, and will require Mike.nl's animation converter.
-- [ALAMO Plugin](https://github.com/AlamoEngine-Tools/Mirror-Blender-Alamo-Plugin)
+[Gaukler](https://github.com/Gaukler) created a Blender plugin that interprets ALO and ALA effectively, including quality-of-life warnings, and has currently been mainted by [evilbobthebob](https://github.com/andrewfullard).  This plugin DOES NOT support ALA 1.0 included with Empire at War, and will require Mike.nl's animation converter.
+- [ALAMO Plugin](https://github.com/andrewfullard/Blender-ALAMO-Plugin)
 - [Animation Converter](https://modtools.petrolution.net/tools/AnimationConverter)
 - [ALOViewer](https://github.com/gryttr/alo-viewer)
 
