@@ -255,6 +255,7 @@ Texture Fixes:
 •• Consortium Campaign previews not including some scripted units or structures on the map.
 •• MP Space Bespin displayed an incorrect map entirely.
 •• Aeten II, Aeten II's Piracy mission, MP Space Shola, SP Space Shola and Sullust used Desert planet GFX instead of the fixed volcanic planet GFX.
+•• MP previews originally displayed possible base positions for the Rebels or Empire; this was regressed to empty maps (no bases) in patch 1.121.826596.  Base positions have been restored, and in addition, applicable 3-way map previews have been enhanced, and now display all 3 faction bases on the map as a possible layout, where FoC on release only displayed 2 bases.
 
 
 Unit Fixes:
