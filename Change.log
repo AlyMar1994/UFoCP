@@ -141,6 +141,7 @@ Audio Fixes:
 • TIE defenders' ion cannons sounded and acted like proton torpedoes when used in-battle. (BUG #179)
 • Broadside Cruisers used an unused set of Interdictor Cruiser VO for its BARRAGE ability. (BUG #244)
 • Marauder Cruisers used an unused set of Corellian Corvette VO for its BARRAGE ability. (BUG #245)
+• The Boarding Shuttle from Consortium Campaign #9 ("The Emperor's New Weapon") had inconsistent dialogue, borrowing from Rebel T2-B SFX and using the Consortium's cloaking transport SFX instead of the normal infantry transport ones. (BUG #386)
 
 
 Interface Fixes:
@@ -171,6 +172,7 @@ Interface Fixes:
 • Consortium Piracy reward units would have Consortium units in the advantages indicators in the tooltip.  Considering these units can't be used in mirror matches, the Consortium icons have been swapped out for appropriate faction ones. (BUG #82)
 • Planets corrupted via Piracy didn't have a corruption icon next to the planet like other corruption types because one was never included in the interface GFX library. (BUG #161)
 • The IPV-1 Patrol Craft didn't have a selection ring in combat. (BUG #83)
+• The Boarding Shuttle from Consortium Campaign #9 ("The Emperor's New Weapon") didn't have a selection ring in combat. (BUG #384)
 • Keldabe-class Battleships didn't have the tooltip noting that it can be only built on special planets, like Star Destroyers and Mon Calamari Cruisers. (BUG #143)
 • Keldabe-class Battleships, Aggressor-class Star Destroyers, Vengeance Frigates and Interceptor IV Frigates didn't use 1x2 icon tiles like all other ships of their types in the Galactic fleet management window. (BUG #175)
 • Interceptor 4 Frigates used the Black Sun rusted pirate frigate icon instead of an icon with the new silver-bodied frigate. (BUG #206)
@@ -252,11 +254,11 @@ Structure Fixes:
 
 Texture Fixes:
 • All map previews (except Bespin's) have been compressed to save space and processing time, cutting filesizes in half (128kb vs. 256kb).  All previews also were completely redone due to incomplete or inconsistent material, or low-quality patch material.  Changes include: (BUG #253)
-•• Many previews (both original and patched, mainly land previews) failed to follow EaW/FoC's established art style (shaded borders & out-of-bounds, processed water).
-•• Consortium Campaign previews not including some scripted units or structures on the map.
+•• Many previews (both original and patched, mainly land previews) failed to follow EaW/FoC's established art style (shaded borders/out-of-bounds, processed/wavy water).
+•• Consortium Campaign previews not including scripted units or structures on the map.
 •• MP Space Bespin displayed an incorrect map entirely.
 •• Aeten II, Aeten II's Piracy mission, MP Space Shola, SP Space Shola and Sullust used Desert planet GFX instead of the fixed volcanic planet GFX.
-•• MP previews originally displayed possible base positions for the Rebels or Empire; this was regressed to empty maps (no bases) in patch 1.121.826596.  Base positions have been restored, and in addition, applicable 3-way map previews have been enhanced, and now display all 3 faction bases on the map as a possible layout, where FoC on release only displayed 2 bases.
+•• Multiplayer map previews originally displayed possible base positions for the Rebels or Empire; this was regressed in patch 1.121.826596 (bases were removed).  Base positions have been restored, and as an enhancement, applicable 3-way map previews now display all 3 faction bases on the map as possible layouts, where FoC on release only displayed Empire and Rebel bases.
 
 
 Unit Fixes:
@@ -287,9 +289,7 @@ Unit Fixes:
 • Boba Fett would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of his land unit. (BUG #149)
 • Han Solo & Chewbacca would permanently contest objects when spawned in his space unit in Skirmish, because the game also spawned an invisible version of their land units. (BUG #147)
 • Consortium, Imperial and Rebel unit transport shuttles didn't take population cap size, meaning an infinite amount of them could be used to exploit in battle.  They now take an extensive 3 pop cap each to avoid spam when land units are sent to space mode. (BUG #380)
-• The Boarding Shuttle from Consortium Campaign #9 ("The Emperor's New Weapon") had no selection ring when selected in combat. (BUG #384)
-• The Boarding Shuttle from Consortium Campaign #9 ("The Emperor's New Weapon") would spawn the IPV-1 Patrol Craft death animation when destroyed instead of the Consortium infantry shuttle's. (BUG #385)
-• The Boarding Shuttle from Consortium Campaign #9 ("The Emperor's New Weapon") would would have inconsistent and odd dialogue, borrowing from Rebel T2-B SFX and using the Consortium's cloaking transport SFX instead of the normal infantry transport ones. (BUG #386)
+• The Boarding Shuttle from Consortium Campaign #9 ("The Emperor's New Weapon") would use the IPV-1 Patrol Craft death animation when destroyed instead of the Consortium infantry shuttle's. (BUG #385)
 
 
 Upgrade Fixes:
