@@ -5812,6 +5812,18 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
 
+	<HardPoint Name="HP_Pirate_Base_Fighter_Bay_00_DUMMY">
+		<Type> HARD_POINT_DUMMY_ART </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Model_To_Attach>Nb_apbase_hp_hb.alo</Model_To_Attach>
+		<Attachment_Bone>HP_HB_BONE</Attachment_Bone>
+		<Collision_Mesh>HP_HB_COLL</Collision_Mesh>
+		<Damage_Decal>HP_HB_BLAST</Damage_Decal>
+		<Damage_Particles>HP_HB_EMITDAMAGE</Damage_Particles>
+	</HardPoint>
+
 
 	<!--jdg these are the hardpoints for the pirate asteroid in the Boba Fett mission.-->
 	<HardPoint Name="HP_Pirate_Base_Laser_Cannon_00_Weak">

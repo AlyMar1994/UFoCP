@@ -243,6 +243,7 @@ Script/Story Fixes:
 Structure Fixes:
 • One of the Pirate Asteroid Base's laser cannon hardpoints wasn't attached station's model in-game, meaning the laser wouldn't fire properly. (BUG #17)
 • The Pirate Asteroid Base's hardpoints didn't have damage multipliers against units because its multiplier variables were misspelled, respectively, as "Damage_Sation_Laser" and "Damage_Sation_Turbolaser" instead of "Station." (BUG #119)
+• The Hutt/Skirmish Asteroid Base had a permanently missing hardpoint because there was no "dummy" replacement for the hangar hardpoint usually used on the Pirate Asteroid Base. (BUG #399)
 • The Consortium's space station's weapons majorily weren't defined with damage multipliers, leading to under- or overperforming in certain scenarios. (BUG #358)
 • The player couldn't consistently buy the upgrade "Reinforced Durasteel" from the Consortium space station in GC; from station 1-5, the upgrade tiering from Level 1-3 was "L1 --> L1 --> L1 + 2 --> U/A --> L1."  It now has its ordering from Skirmish: "L1 --> L1 --> L1 + 2 --> L1 + 2 --> L1, 2 + 3." (BUG #60)
 • The Skirmish Repulsorlift Jammer had various issues: it still used the Empire version of its icon, model, and was affiliated with the Empire when under construction. (BUG #159)

@@ -1048,7 +1048,16 @@
 		<SFXEvent_Unit_Under_Attack> </SFXEvent_Unit_Under_Attack>
 
 		<HardPoints>
-			HP_Pirate_Base_Shield_Gen_00_Weak, HP_Pirate_Base_Heavy_Turret_00_Weak, HP_Pirate_Base_Heavy_Turret_01_Weak, HP_Pirate_Base_Turbolaser_00_Weak, HP_Pirate_Base_Turbolaser_01_Weak, HP_Pirate_Base_Turbolaser_02_Weak, HP_Pirate_Base_Turbolaser_03_Weak, HP_Pirate_Base_Laser_Cannon_00_Weak, HP_Pirate_Base_Laser_Cannon_01_Weak
+			HP_Pirate_Base_Fighter_Bay_00_DUMMY,
+			HP_Pirate_Base_Shield_Gen_00_Weak,
+			HP_Pirate_Base_Heavy_Turret_00_Weak,
+			HP_Pirate_Base_Heavy_Turret_01_Weak,
+			HP_Pirate_Base_Turbolaser_00_Weak,
+			HP_Pirate_Base_Turbolaser_01_Weak,
+			HP_Pirate_Base_Turbolaser_02_Weak,
+			HP_Pirate_Base_Turbolaser_03_Weak,
+			HP_Pirate_Base_Laser_Cannon_00_Weak,
+			HP_Pirate_Base_Laser_Cannon_01_Weak
 		</HardPoints>
 
 		<Scale_Factor> .85 </Scale_Factor>
