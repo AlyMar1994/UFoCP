@@ -65,10 +65,16 @@ function Definitions()
 	mission_started = false
 	victory_triggered = false
 	close_to_objective = false
+
+	ig2000_spawnlist = { "IG2000" }
 end
 
 function State_Corulag_Piracy_Mission_Begin(message)
 	if message == OnEnter then
+		ig2000_start = Find_Hint("STORY_TRIGGER_ZONE", "igstart")
+		ig2000_list = SpawnList(ig2000_spawnlist, ig2000_start.Get_Position(), underworld, false, true)
+		ig2000 = ig2000_list[1]
+
 		mission_started = true
 
 		--current_cinematic_thread = Create_Thread("Intro_Cinematic")

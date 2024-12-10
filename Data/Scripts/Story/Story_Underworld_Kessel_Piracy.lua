@@ -71,11 +71,17 @@ function Definitions()
 	rebel_enemy = false
 	empire_enemy = false
 	hutt_enemy = false
+
+	ig88_spawnlist = { "IG2000" }
 end
 
 function State_Kessel_Piracy_Mission_Begin(message)
 	if message == OnEnter then
 		mission_started = true
+
+		ig88_start = Find_Hint("STORY_TRIGGER_ZONE", "igstart")
+		ig88_list = SpawnList(ig88_spawnlist, ig88_start.Get_Position(), underworld, false, true)
+		ig88 = ig88_list[1]
 
 		empire_list = Find_All_Objects_Of_Type(empire)
 

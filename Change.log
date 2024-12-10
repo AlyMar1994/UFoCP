@@ -60,6 +60,7 @@ HOUSEKEEPING:
 
 MISC:
 • Disable game's internal hardware check for Intel GPUs, as DX9 shader compilation was getting disabled for Intel's newest line of GPUs thinking they were integrated (CPU) chipsets that couldn't support hardware shaders. (BUG #378)
+• Corulag and Kessel's space piracy missions no longer use IG-2000 placed directly on map, they now use a spawned in version of IG-2000 from a script.  This is to bugfix and future proof any changes needed to be made to IG-2000's entry in the future (as before, the reference was missing with the entry change of report #256).
 ======
 
 
