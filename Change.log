@@ -197,7 +197,7 @@ Map/Planet Fixes:
 • Space Saleucami's orbital defense satellites wouldn't spawn on the map when bought in GC. (BUG #19)
 • Space Dathomir's defense satellites would only appear when the planet was owned by the Rebels. (BUG #251)
 • Space Nal Hutta's moon would be destroyed by the Death Star II, instead of Nal Hutta.  Upon returning to the map, it magically reappeared with Nal Hutta destroyed, because the moon used Coruscant's model.  A new moon entry, "Nar_Shaddaa_Backdrop" (the moon's Legends name) has been added and swapped into the map. (BUG #166)
-• Land Bestine Kidnapping had awkward/bad passability painting around the whole map, especially around large rock obstacles, meaning units could pass through map objects.  In addition, the small lakes on the map weren't tagged for hover vehicles to fly over.  The whole map has gotten a new brush pass where infantry can walk and regenerated AI pathfinding zones. (BUG #374)
+• Land Bestine Kidnapping had awkward/bad passability painting around the whole map, especially around large rock obstacles, meaning units could pass through map objects.  In addition, the small lakes on the map weren't tagged for hover vehicles to fly over.  The whole map has gotten a new brush pass where units can move and regenerated AI pathfinding zones. (BUG #374)
 • Land Bonadan had awkward/bad passability painting near some of the walkway's walls, meaning units could enter the sinkholes and defy gravity.  The whole map has gotten a new brush pass where infantry can walk and regenerated AI pathfinding zones. (BUG #373)
 • Land Tatooine's sarlacc was cut for censorship (i.e. eating infantry alive), but remained uncensored in the Land Skirmish map "Clash on Tatooine."  Petroglyph uncensored the rancor's eat-infantry ability in patch 1.121.826596, therefore consistency the sarlacc has been restored to Tatooine. (BUG #129)
 • Land Honoghr had two spots where droidekas would get softlocked because the factories would spawn them into "Steep" terrain and be unable to move. (BUG #77)
@@ -217,7 +217,9 @@ Map/Planet Fixes:
 • The Maw wouldn't have a space map preview in the Galactic view's "planet info" screen.  The game can only pull previews from land maps, so the space map was set as both the land and space map to force it to pull a preview.  The Maw is still a space-only map. (BUG #350)
 • Honoghr in the campaign would display a generic human instead of a Noghri in its loading screen. (BUG #88)
 • Mandalore in the campaign and prologue would display a generic human instead of a Mandalorian in its loading screen. (BUG #89)
-• Land Taris had a corrupted AI pathfinding zone affecting the AI's navigation. (BUG #394)
+• Land Saleucami had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Saleucami has also recieved a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #393)
+• Land Taris had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Taris has also recieved a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #394)
+
 
 
 Model Fixes:
