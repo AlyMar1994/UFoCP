@@ -236,6 +236,7 @@ Model Fixes:
 
 Script/Story Fixes:
 • Consortium Campaign #3 ("Communications Breakdown") would, on widescreen resolutions, crop Urai's head out of camera view during his monologue at the Hutt ambush.  The camera's position was only intended for 4:3/Normal resolutions, and has been adjusted to pan out the frame more. (BUG #270)
+• Consortium Campaign #5 ("A Dark Ally")'s turrets wouldn't disable if the player rushed the Nightsisters to the Governor's Palace and destroyed it prematurely, ignoring all other prisons or generators.  The ensuring scene was funny, but had to be fixed. (BUG #400)
 • Consortium Campaign #6 ("Cloud City Conflict") would spawn the EaW version of Darth Vader instead of the FoC version with the Executor. (BUG #27)
 • Consortium Campaign #6 ("Cloud City Conflict") had an exploit where Grenadiers could leave Proximity Mines where Vader and the Stormtrooper meet.  The Stormtrooper would explode and Vader would then walk around destroying mines in the ending cutscene.  While funny, it would break the sequence. (BUG #131)
 • Consortium Campaign #7 ("Baiting the Hook") didn't set any flags to prevent the player or Empire from retreating, leading to sequence breaks or softlocks. (BUG #56)

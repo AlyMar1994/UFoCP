@@ -1686,6 +1686,36 @@ end
 --	Cinematic functions
 -- ##########################################################################################
 function Thread_Cinematic_Finale()
+	-- AM1994 12/11/2024 - Mission power-downs; when the
+	-- final objective is achieved, disable power across
+	-- map (especially Governors!) so turrets don't fire
+	-- on heroes or other things during ending cutscene.
+
+	-- Just in case player rushes and doesn't disable
+	-- the prison/palace power gens like intended.
+	prison_2_power_down = true
+	Create_Thread("Prison_2_Power_Down")
+
+	-- Disable Nightsister Prison 3 from Death_Monitor_Prison3_Power
+	-- (generator MAY still be valid, so we have to manually disable
+	-- versus just calling the function).
+	for i, prison3_turret in pairs(prison3_turret_list) do
+		if TestValid(prison3_turret) then
+			prison3_turret.Change_Owner(neutral)
+
+		end
+	end
+
+	-- Disable Governor's turrets from Death_Monitor_Governors_Power
+	-- (generator MAY still be valid, so we have to manually disable
+	-- versus just calling the function).
+	governors_turret_list = Find_All_Objects_With_Hint("gov-turret")
+	for i, governors_turret in pairs(governors_turret_list) do
+		if TestValid(governors_turret) then
+			governors_turret.Change_Owner(neutral)
+		end
+	end
+
 	Fade_Screen_Out(.5)
 	Suspend_AI(1)
 	Lock_Controls(1)
