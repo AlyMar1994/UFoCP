@@ -126,6 +126,7 @@ Audio Fixes:
 • Silri's VO lacked 4 VO file references for her Drain Life ability, and VO for attacking/moving with groups of units wasn't implemented at all. (BUG #263)
 • Aggressor-class Destroyers were missing VO regarding attacking Gravity Wells and losing its main ion or plasma cannon.  The former SFX wasn't referenced in the unit's entry, the latter wasn't used at all. (BUG #265)
 • Keldabe-class Battleships were missing VO regarding attacking Gravity Wells and about entering asteroid fields.  The respective SFX wasn't referenced in the unit's entry. (BUG #266)
+• Interceptor IV Frigates were missing VO regarding attacking hangar bays and entering asteroids fields.  The respective SFX weren't referenced in the unit's entry. (BUG #401)
 • Skipray Blastboats were missing VO regarding entering asteroid fields and dogfighting lines when their enemies' health is low or critical.  The respective SFX wasn't referenced in the unit's entry. (BUG #267)
 • StarViper Squadrons were missing VO regarding entering asteroid fields and dogfighting lines when joining in a dogfight or group movement.  The respective SFX wasn't referenced in the unit's entry. (BUG #268)
 • Rogue 4's Derek Klivian wouldn't use either of his very-low-health callouts after becoming leader of Rogue Squadron.  The offending sound entry was misspelled as "...Critcal_Derek_Klivian" instead of "Critical." (BUG #164)
