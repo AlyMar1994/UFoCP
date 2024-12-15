@@ -86,6 +86,7 @@ AI Fixes:
 • AI plans for managing, budgeting wouldn't look for FoC's Death Star II unit. (BUG #53)
 • AI plans to upgrade Imperial tech didn't include the Death Star II apart of the list of upgrade objects. (BUG #71)
 • AI plans for firing the Death Star wouldn't look for FoC's Death Star II unit. (BUG #51)
+• AI plans for firing the Death Star only considered player-controlled planets as targets for destruction due to an outdated planet owner check from EaW.  The Empire should now consider all enemies as targets. (BUG #411)
 • AI plans for building anti-infantry turrets weren't updated from EaW; the AI now knows the Proton Torpedo Turret is the Consortium's designated anti-infantry turret, and now has the same considerations to buy it like the Rebels and Empire. (BUG #114)
 • AI plans wouldn't factor in IG-88 nor Garm Bel Iblis when considering buying Repair Facilities. (BUG #117)
 • AI plans for finding the nearest appropriate healing object for special units didn't include Darth Vader's unit for FoC land combat, only his EaW unit. (BUG #27)

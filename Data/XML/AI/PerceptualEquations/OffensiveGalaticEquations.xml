@@ -464,8 +464,6 @@
 		Function_First_Attack_Allowed.Evaluate
 		*
 		(Variable_Target.EnemyForce.GroundTotalUnnormalized > 1500)
-		*
-		Variable_Target.IsHumanControlled
 	</Want_To_Fire_DS>
 
 	<First_Attack_Allowed>
