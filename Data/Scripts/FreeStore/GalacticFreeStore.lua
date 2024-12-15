@@ -156,7 +156,7 @@ function FreeStoreService()
 	elseif PlayerObject.Get_Faction_Name() == "EMPIRE" then
 		leader_object = Find_First_Object("EMPEROR_PALPATINE")
 	elseif PlayerObject.Get_Faction_Name() == "UNDERWORLD" then
-		leader_object = Find_First_Object("THE_PEACEBRINGER") -- AM1994: TYBER_ZANN and THE_PEACEBRINGER should both exist at the same time in GC, so either should work here.
+		leader_object = Find_First_Object("THE_PEACEBRINGER") -- AM1994 12/15/2024 - Due to an engine limitation regarding transports, technically Tyber only exists as THE_PEACEBRINGER in GC.
 	end
 
 	MovedUnitsThisService = 0
