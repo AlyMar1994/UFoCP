@@ -108,6 +108,7 @@ AI Fixes:
 • The Galactic AI for what planet(s) heroes like to hang out on when not in use included an unused version of Red Squadron, and not the proper unit team. (BUG #205)
 • The Galactic AI's magic defense spawning system now cannot spawn TIE interceptor Squadrons on the Galactic map to prevent AI pathfinding errors when the AI can't move Interceptors. (BUG #243)
 • The Galactic AI wouldn't build cantinas due to reversed logic tricking them into thinking they were always at max capacity for cantinas.  They now build 1 cantina per planet if applicable. (BUG #407)
+• The Galactic AI would only send smugglers and bounty hunters to player-controlled planets due to an outdated planet owner check from EaW.  The AI should now send these lucrative agents to all major factions. (BUG #409)
 • Darth Vader's land assistance AI wouldn't factor in his FoC land unit, only his EaW one, and prematurely shutdown. (BUG #27)
 • Han Solo & Chewbacca's galactic planning AI wouldn't factor in avoiding Darth Vader's FoC unit, nor factor in attacking the Death Star II. (BUG #27/53)
 

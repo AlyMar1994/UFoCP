@@ -242,13 +242,26 @@
 		(1.0 - (Variable_Self.GrossIncomeNBPTM > 0.33))
 
     -->
+	<!--
+		AM1994 12/15/2024 - Remove * Variable_Target.IsHumanControlled b/c
+		this check is now invalid for FoC.  There are no AI players on the
+		galactic scale, and this prevented the AI from smuggling against
+		the other AI faction (they only focused the player).
+		FIXME HIGH: This should be corrected to adapt to hostile factions
+		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
+		This fix isn't exactly very backwards compatible since the AI will
+		consider neutrals/pirates a valid target.
+	-->
 	<Is_Good_Weaken_Target>
-		0.5 *
-		(Function_GenericPlanetValue.Evaluate +
-		Variable_Target.EnemyForce.SpaceTotal.TimeLastSeen +
-		(1.0 - Variable_Target.HasCreditSiphon) +
-		Variable_Target.TargetPoliticalControl) *
-		Variable_Target.IsHumanControlled
+		0.5
+		*
+		(Function_GenericPlanetValue.Evaluate
+		+
+		Variable_Target.EnemyForce.SpaceTotal.TimeLastSeen
+		+
+		(1.0 - Variable_Target.HasCreditSiphon)
+		+
+		Variable_Target.TargetPoliticalControl)
 	</Is_Good_Weaken_Target>
 
 	<!-- Can't have multiple smugglers on a target -->
