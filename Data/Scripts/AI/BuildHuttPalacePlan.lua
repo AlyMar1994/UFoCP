@@ -41,17 +41,18 @@
 
 require("pgevents")
 
+-- Tell the script pooling system to pre-cache this number of scripts.
+ScriptPoolCount = 4
 
 function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
 
-	Category = "AlwaysOff"
-	-- Category = "Build_Hutt_Palace"
+	Category = "Build_Hutt_Palace"
 	IgnoreTarget = true
 	TaskForce = {
 	{
 		"StructureForce",
-		-- "Ground_Hutt_Palace_E | Ground_Hutt_Palace_R = 1"
+		"Ground_Hutt_Palace_E | Ground_Hutt_Palace_R = 1"
 	}
 	}
 

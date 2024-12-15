@@ -485,6 +485,12 @@
 		*
 		(1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
 		*
+		(
+			Variable_Target.StructureCount {Parameter_Type = "Ground_Hutt_Palace_E",
+											Parameter_Type = "Ground_Hutt_Palace_R",
+											Parameter_Only_Consider_Complete = 1.0} == 0.0
+		)
+		*
 		50.0
 	</Needs_Hutt_Palace>
 
