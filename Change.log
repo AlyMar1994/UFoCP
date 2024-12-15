@@ -92,6 +92,7 @@ AI Fixes:
 • AI plans for finding the nearest appropriate healing object for special units didn't include Darth Vader's unit for FoC land combat, only his EaW unit. (BUG #27)
 • AI plans for finding the nearest appropriate healing object for special units didn't include General Veers as a valid recipiant for repairing. (BUG #188)
 • AI plans for calculating what planets need the most defense didn't include Tyber Zann into the equation like Palpatine or Mothma were. (BUG #414)
+• AI plans for calculating high defense and needed defenses misreferenced an unused version of the Repulsorlift Jammer. (BUG #415)
 • Consortium AI plans wouldn't consider buying the Venator-class Cruiser in Space Skirmish because the unit wasn't included in its Skirmish unit table (despite being the only faction able to buy it). (BUG #165)
 • Consortium AI plans wouldn't consider building Ysalamiri cages when Darth Vader appears in-battle, as the unit list didn't include Vader's unit for FoC land combat. (BUG #27)
 • Consortium AI plans wouldn't consider building Ysalamiri cages when Silri appears in-battle during a Consortium mirror-match. (BUG #187)
