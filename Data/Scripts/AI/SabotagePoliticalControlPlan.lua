@@ -43,16 +43,16 @@ require("pgevents")
 
 function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
-	
+
 	IgnoreTarget = true;
 	Category = "Weaken_Planet"
 	TaskForce = {
 	{
-		"BountyForce"						
+		"BountyForce"
 		,"Bounty_Hunter_Team_E | Bounty_Hunter_Team_R = 1"
 	}
 	}
-	
+
 	DebugMessage("%s -- Done Definitions", tostring(Script))
 end
 
