@@ -397,7 +397,7 @@
 		*
 		(Variable_Target.StructureCount {Parameter_Type = "Ground_Cantina_E",
 											Parameter_Type = "Ground_Cantina_R",
-											Parameter_Only_Consider_Complete = 1.0} == 1.0)
+											Parameter_Only_Consider_Complete = 1.0} == 0.0)
 		*
 		50.0
 	</Needs_Cantina>
