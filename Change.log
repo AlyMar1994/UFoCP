@@ -46,6 +46,9 @@ v2.0.0.#### (##-##-2024) [FoC v1.121.]
 
 UFoCP:
 ======
+ENHANCEMENTS:
+• New shaders have been implemented that default to x16 anisotropic filtering instead of linear filtering.  Distant textures should now be much sharper. (Thanks evilbobthebob!) (BUG #379)
+
 HOUSEKEEPING:
 • Darth Vader's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Empire_Darth_Vader.xml.
 • R2D2 & C-3PO's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Rebel_DroidDuo.xml.

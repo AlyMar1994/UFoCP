@@ -52,9 +52,9 @@ sampler TextureSampler = sampler_state
     AddressU  = CLAMP;        
     AddressV  = CLAMP;
     AddressW  = CLAMP;
-    MIPFILTER = LINEAR;
-    MINFILTER = LINEAR;
-    MAGFILTER = LINEAR;
+    MIPFILTER = ANISOTROPIC;
+    MINFILTER = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
 };
 
 

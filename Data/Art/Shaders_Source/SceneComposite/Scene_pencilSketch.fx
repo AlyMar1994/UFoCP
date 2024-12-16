@@ -30,23 +30,26 @@ texture pencil1Texture
 sampler Sampler = sampler_state
 {
     Texture   = (inputTexture0);
-    MipFilter = LINEAR;
-    MinFilter = LINEAR;
-    MagFilter = LINEAR;
+    MIPFILTER = ANISOTROPIC;
+    MINFILTER = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 sampler pencil0Sampler = sampler_state
 {
     Texture   = (pencil0Texture);
-    MipFilter = LINEAR;
-    MinFilter = LINEAR;
-    MagFilter = LINEAR;
+    MIPFILTER = ANISOTROPIC;
+    MINFILTER = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 sampler pencil1Sampler = sampler_state
 {
     Texture   = (pencil1Texture);
-    MipFilter = LINEAR;
-    MinFilter = LINEAR;
-    MagFilter = LINEAR;
+    MIPFILTER = ANISOTROPIC;
+    MINFILTER = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 

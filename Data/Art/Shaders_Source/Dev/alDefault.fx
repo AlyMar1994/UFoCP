@@ -83,9 +83,10 @@ VS_OUTPUT VS(VS_INPUT In)
 sampler Sampler = sampler_state
 {
     Texture   = (m_diffuseTexture);
-    MipFilter = LINEAR;
-    MinFilter = LINEAR;
-    MagFilter = LINEAR;
+    MIPFILTER = ANISOTROPIC;
+    MINFILTER = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 float4 PS(

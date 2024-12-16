@@ -82,9 +82,10 @@ texture CloudNormalTexture
 sampler BaseSampler = sampler_state
 {
 	Texture   = (BaseTexture);
-	MipFilter = LINEAR;
-	MinFilter = LINEAR;
-	MagFilter = LINEAR;
+	MIPFILTER = ANISOTROPIC;
+	MINFILTER = ANISOTROPIC;
+	MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 	AddressU  = WRAP;        
 	AddressV  = WRAP;
 };
@@ -92,9 +93,10 @@ sampler BaseSampler = sampler_state
 sampler NormalSampler = sampler_state
 {
 	Texture   = (NormalTexture);
-	MipFilter = LINEAR;
-	MinFilter = LINEAR;
-	MagFilter = LINEAR;
+	MIPFILTER = ANISOTROPIC;
+	MINFILTER = ANISOTROPIC;
+	MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 	AddressU  = WRAP;        
 	AddressV  = WRAP;
 };
@@ -102,9 +104,10 @@ sampler NormalSampler = sampler_state
 sampler CloudSampler = sampler_state
 {
 	Texture   = (CloudTexture);
-	MipFilter = LINEAR;
-	MinFilter = LINEAR;
-	MagFilter = LINEAR;
+	MIPFILTER = ANISOTROPIC;
+	MINFILTER = ANISOTROPIC;
+	MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 	AddressU  = WRAP;        
 	AddressV  = WRAP;
 };
@@ -112,9 +115,10 @@ sampler CloudSampler = sampler_state
 sampler CloudNormalSampler = sampler_state
 {
 	Texture   = (CloudNormalTexture);
-	MipFilter = LINEAR;
-	MinFilter = LINEAR;
-	MagFilter = LINEAR;
+	MIPFILTER = ANISOTROPIC;
+	MINFILTER = ANISOTROPIC;
+	MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 	AddressU  = WRAP;        
 	AddressV  = WRAP;
 };

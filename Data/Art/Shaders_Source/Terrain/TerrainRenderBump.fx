@@ -35,9 +35,10 @@ sampler TextureSampler = sampler_state
     AddressU  = WRAP;        
     AddressV  = WRAP;
     AddressW  = CLAMP;
-    MIPFILTER = LINEAR;
-    MINFILTER = LINEAR;
-    MAGFILTER = LINEAR;
+    MIPFILTER = ANISOTROPIC;
+    MINFILTER = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 sampler BlendSampler = sampler_state 
@@ -46,9 +47,10 @@ sampler BlendSampler = sampler_state
     AddressU  = CLAMP;        
     AddressV  = CLAMP;
     AddressW  = CLAMP;
-    MIPFILTER = LINEAR;
-    MINFILTER = LINEAR;
-    MAGFILTER = LINEAR;
+    MIPFILTER = ANISOTROPIC;
+    MINFILTER = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 sampler NormalSampler = sampler_state
@@ -57,9 +59,10 @@ sampler NormalSampler = sampler_state
     AddressU  = WRAP;        
     AddressV  = WRAP;
     AddressW  = CLAMP;
-    MipFilter = LINEAR;
-    MinFilter = LINEAR;
-    MagFilter = LINEAR;
+    MIPFILTER = ANISOTROPIC;
+    MINFILTER = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 sampler CloudSampler = sampler_state
@@ -68,9 +71,10 @@ sampler CloudSampler = sampler_state
     AddressU  = WRAP;        
     AddressV  = WRAP;
     AddressW  = CLAMP;
-    MipFilter = LINEAR;
-    MinFilter = LINEAR;
-    MagFilter = LINEAR;
+    MIPFILTER = ANISOTROPIC;
+    MINFILTER = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 

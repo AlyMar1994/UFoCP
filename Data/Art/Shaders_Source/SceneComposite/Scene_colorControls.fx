@@ -23,9 +23,10 @@ texture inputTexture1 : RENDERCOLORTARGET
 sampler Sampler = sampler_state
 {
     Texture   = (inputTexture0);
-    MipFilter = LINEAR;
-    MinFilter = LINEAR;
-    MagFilter = LINEAR;
+    MIPFILTER = ANISOTROPIC;
+    MINFILTER = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 

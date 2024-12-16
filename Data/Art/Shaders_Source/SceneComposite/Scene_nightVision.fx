@@ -33,19 +33,19 @@ texture inputTexture4 : RENDERCOLORTARGET
 //Need to create a sampler for each texture you create
 sampler Sampler0 = sampler_state
 {
-    Texture   = (inputTexture0);MipFilter = LINEAR;MinFilter = LINEAR;MagFilter = LINEAR;
+    Texture   = (inputTexture0);MIPFILTER = ANISOTROPIC;MINFILTER = ANISOTROPIC;MAGFILTER = ANISOTROPIC; MaxAnisotropy = 16;
 };
 sampler Sampler1 = sampler_state
 {
-    Texture   = (inputTexture1);MipFilter = LINEAR;MinFilter = LINEAR;MagFilter = LINEAR;
+    Texture   = (inputTexture1);MIPFILTER = ANISOTROPIC;MINFILTER = ANISOTROPIC;MAGFILTER = ANISOTROPIC; MaxAnisotropy = 16;
 };
 sampler Sampler2 = sampler_state
 {
-    Texture   = (inputTexture2);MipFilter = LINEAR;MinFilter = LINEAR;MagFilter = LINEAR;
+    Texture   = (inputTexture2);MIPFILTER = ANISOTROPIC;MINFILTER = ANISOTROPIC;MAGFILTER = ANISOTROPIC; MaxAnisotropy = 16;
 };
 sampler Sampler3 = sampler_state
 {
-    Texture   = (inputTexture3);MipFilter = LINEAR;MinFilter = LINEAR;MagFilter = LINEAR;
+    Texture   = (inputTexture3);MIPFILTER = ANISOTROPIC;MINFILTER = ANISOTROPIC;MAGFILTER = ANISOTROPIC; MaxAnisotropy = 16;
 };
 
 //////////////////////////////////////////////////////////////////

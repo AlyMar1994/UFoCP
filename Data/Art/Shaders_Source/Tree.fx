@@ -46,17 +46,19 @@ texture NormalTexture
 sampler BaseSampler = sampler_state
 {
     Texture   = (BaseTexture);
-    MipFilter = LINEAR;
-    MinFilter = POINT;
-    MagFilter = POINT;
+    MIPFILTER = ANISOTROPIC;
+    MinFilter = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 sampler NormalSampler = sampler_state
 {
     Texture   = (NormalTexture);
-    MipFilter = LINEAR;
-    MinFilter = POINT;
-    MagFilter = POINT;
+    MIPFILTER = ANISOTROPIC;
+    MinFilter = ANISOTROPIC;
+    MagFilter = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 

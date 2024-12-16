@@ -46,39 +46,44 @@ texture inputTexture5 : RENDERCOLORTARGET
 sampler Sampler0 = sampler_state
 {
     Texture   = (inputTexture0);
-	MipFilter = LINEAR;
-	MinFilter = LINEAR;
-	MagFilter = LINEAR;
+	MIPFILTER = ANISOTROPIC;
+	MINFILTER = ANISOTROPIC;
+	MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 sampler Sampler1 = sampler_state
 {
     Texture   = (inputTexture1);
-	MipFilter = LINEAR;
-	MinFilter = LINEAR;
-	MagFilter = LINEAR;
+	MIPFILTER = ANISOTROPIC;
+	MINFILTER = ANISOTROPIC;
+	MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 sampler Sampler2 = sampler_state
 {
     Texture   = (inputTexture2);
-	MipFilter = LINEAR;
-	MinFilter = LINEAR;
-	MagFilter = LINEAR;
+	MIPFILTER = ANISOTROPIC;
+	MINFILTER = ANISOTROPIC;
+	MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 sampler Sampler3 = sampler_state
 {
     Texture   = (inputTexture3);
-	MipFilter = LINEAR;
-	MinFilter = LINEAR;
-	MagFilter = LINEAR;
+	MIPFILTER = ANISOTROPIC;
+	MINFILTER = ANISOTROPIC;
+	MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 sampler Sampler4 = sampler_state
 {
     Texture   = (inputTexture4);
-	MipFilter = LINEAR;
-	MinFilter = LINEAR;
-	MagFilter = LINEAR;
+	MIPFILTER = ANISOTROPIC;
+	MINFILTER = ANISOTROPIC;
+	MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 //-----------------------------------------------------------------------------

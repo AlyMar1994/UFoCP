@@ -36,9 +36,10 @@ sampler FOWSampler = sampler_state
     AddressU  = CLAMP;        
     AddressV  = CLAMP;
     AddressW  = CLAMP;
-    MIPFILTER = LINEAR;
-    MINFILTER = LINEAR;
-    MAGFILTER = LINEAR;
+    MIPFILTER = ANISOTROPIC;
+    MINFILTER = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 sampler GridSampler = sampler_state

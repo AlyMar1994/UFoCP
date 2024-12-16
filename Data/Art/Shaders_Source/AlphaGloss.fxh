@@ -52,9 +52,10 @@ sampler BaseSampler = sampler_state
     AddressU  = WRAP;        
     AddressV  = WRAP;
     AddressW  = CLAMP;
-    MIPFILTER = LINEAR;
-    MINFILTER = LINEAR;
-    MAGFILTER = LINEAR;
+    MIPFILTER = ANISOTROPIC;
+    MINFILTER = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 sampler GlossSampler = sampler_state 
@@ -63,9 +64,10 @@ sampler GlossSampler = sampler_state
     AddressU  = WRAP;        
     AddressV  = WRAP;
     AddressW  = CLAMP;
-    MIPFILTER = LINEAR;
-    MINFILTER = LINEAR;
-    MAGFILTER = LINEAR;
+    MIPFILTER = ANISOTROPIC;
+    MINFILTER = ANISOTROPIC;
+    MAGFILTER = ANISOTROPIC;
+	MaxAnisotropy = 16;
 };
 
 /////////////////////////////////////////////////////////////////////
