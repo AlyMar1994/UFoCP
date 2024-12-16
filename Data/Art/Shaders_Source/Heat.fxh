@@ -1,0 +1,72 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// Petroglyph Confidential Source Code -- Do Not Distribute
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//          $File: //depot/Projects/StarWars/Art/Shaders/RSkinBumpColorize.fx $
+//          $Author: Greg_Hjelstrom $
+//          $DateTime: 2004/04/14 15:29:37 $
+//          $Revision: #3 $
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+
+    The heat shaders are used to generate heat distortions.  They just have to 
+    alpha blend the bump texture into the full-screen distortion texture. 
+	
+*/
+
+#include "AlamoEngine.fxh"
+
+/////////////////////////////////////////////////////////////////////
+//
+// Material parameters
+//
+/////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////
+//
+// Material parameters
+//
+/////////////////////////////////////////////////////////////////////
+
+texture DistortionTexture
+<
+	string UIName = "DistortionTexture";
+	string UIType = "bitmap";
+>;
+
+float2 UVScrollRate 
+< 
+	string UIName="UVScrollRate"; 
+> = { 0.0f, 0.0f };
+
+
+sampler DistortionSampler = sampler_state 
+{
+	texture = (DistortionTexture);
+};
+
+
+/////////////////////////////////////////////////////////////////////
+//
+// Shared Shader Code
+//
+/////////////////////////////////////////////////////////////////////
+
+struct VS_OUTPUT
+{
+    float4 Pos  : POSITION;
+    float4 Diff : COLOR0;
+    float2 Tex  : TEXCOORD0;
+    float  Fog	: FOG;
+};
+
+
+half4 heat_ps_main(VS_OUTPUT In) : COLOR
+{
+    half4 texel = tex2D(DistortionSampler,In.Tex);
+    texel.a = In.Diff.a;
+    return texel;
+}
+
+
