@@ -43,27 +43,27 @@ require("pgevents")
 
 function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
-	
+
 	IgnoreTarget = true;
 	Category = "Weaken_Planet"
 	TaskForce = {
 	{
-		"SmugglerForce",						
+		"SmugglerForce",
 		"DenyHeroAttach",
 		"Smuggler_Team_E | Smuggler_Team_R = 1"
 	}
 	}
-	
+
 	DebugMessage("%s -- Done Definitions", tostring(Script))
 end
 
 function SmugglerForce_Thread()
 	DebugMessage("%s -- In SmugglerForce_Thread.", tostring(Script))
-	
+
 	if EvaluatePerception("Suitable_Smuggler_Target", PlayerObject, Target) < 0.5 then
 		ScriptExit()
 	end
-	
+
 	Sleep(1)
 
 	AssembleForce(SmugglerForce)
@@ -72,10 +72,10 @@ function SmugglerForce_Thread()
 
 	-- Landing a hero deploys it, removing it from the game and killing the script.  So,
 	-- we have to indicate success before we land the unit, even though she hasn't deployed.
-	-- If a hero killer gets her before she deploys, the plan should die before setting itself successful.	
-	SmugglerForce.Set_Plan_Result(true)	
+	-- If a hero killer gets her before she deploys, the plan should die before setting itself successful.
+	SmugglerForce.Set_Plan_Result(true)
 	LandUnits(SmugglerForce)
-	
+
 	DebugMessage("%s -- SmugglerForce Done!  Exiting Script!", tostring(Script))
 	ScriptExit()
 end
