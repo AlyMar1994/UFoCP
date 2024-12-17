@@ -320,3 +320,4 @@ Upgrade Fixes:
 • "Recharge Special Abilities" would increase the Consortium's ability recharge times in Land Skirmish, instead of decrease.  The percentage was corrected from "+0.85" to "-0.15." (BUG #173)
 • "Salvage" wasn't able to gain salvage from Jabba's Criminal Empire, as their faction reference was misspelled as "Hutt" instead of "Hutts." (BUG #74)
 • "Increased Production" Level 1 and 2 wouldn't affect the skirmish mining facilities properly. (BUG #246)
+• "Starbase Plasma Cannon" for the Consortium space station was able to be used infinitely after purchasing it the first time (BUG #418).

@@ -1366,7 +1366,7 @@
 
 <!-- Align Space Station Cannon: Allows the player to fire the Plasma Cannon once. -->
 	<UpgradeObject Name="US_Plasma_Cannon_Use_Upgrade">
-		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_SPECIAL_WEAPON_FIRED</Behavior>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 2800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>260</Tactical_Build_Cost_Campaign>
