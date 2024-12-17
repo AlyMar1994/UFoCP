@@ -65,7 +65,7 @@ MBRM01_Space_Planet_Kuat.TED,Unable to get to Fresia directly, Captain Antilles 
 MBRM02_Interpreting_the_Network.TED,Undaunted by the setback in their plans to steal the X-wings, the Alliance devises a scheme to fool the Imperial sensors scattered around Fresia.  An Imperial network uplink station on Wayland seems like the ideal way to steal codes for the Imperial sensors if R2-D2 can get to it unharmed.  With the network fooled, the Alliance can slip past Fresia's defenses with the Empire none the wiser... .
 MBRM03_Theft_of_the_X-wing.TED,Unwilling to let the X-wings fall into the Empire's hands, some Incom scientists have provided the Alliance with the location of the prototype craft.  With nationalization only a few days away, the Alliance doesn't have a moment to spare.  Soon the Imperials will descend on Fresia and seize the X-wings for its own growing military force.  The Alliance realizes that this will not be an easy task.  The facility is heavily guarded, and it won't take long for the Empire to realize what they're up to... .
 MBRM04_Kessel_Rescue,The infamous spice mines of Kessel are death sentences to any prisoners of the Empire sent to work there.  Receiving word that Incom's scientists and other Rebel supporters are being transferred to the facility, the Alliance wastes no time in staging a rescue before the prisoners can reach the mines.  Using the ion attack ability of the Y-wings, the Alliance can disable the shuttles, then Captain Antilles in the Sundered Heart can swoop in and liberate the prisoners before they reach Kessel!
-MBRM06_Imperial_Liberation,Intercepting communications chatter from a developing situation on Kashyyyk, the Alliance learns of a raid being led on Wookiee containment facilities the Empire has established.   Wookiees are being released from confinement and arming themselves.  The Alliance must act to assist in any action that would free citizens from the clutches of the Empire.
+MBRM06_Imperial_Liberation,Intercepting communications chatter from a developing situation on Kashyyyk, the Alliance learns of a raid being led on Wookiee containment facilities the Empire has established.  Wookiees are being released from confinement and arming themselves.  The Alliance must act to assist in any action that would free citizens from the clutches of the Empire.
 MBRM07_Highest_Bidder,Dealing with the seedy underworld is always a risk, and this time the fate of the Alliance hangs in the balance.  A disgruntled associate of one of the Alliance's contacts has stolen critical data about their dealings, and is offering it up to the Empire... for a price.
 MBRM07A_Rescue_Falcon,No sooner does Han get away from the Alliance than he's back in hot water with the Imperials.  Caught in a Star Destroyer's tractor beam while running illicit goods to Corulag, it's only a matter of time before his engines burn out and the Empire boards his ship.  The Alliance moves quickly to rescue him in the hopes of acquiring his services for a mission that only a smuggler could handle... .
 MBRM08A_Cargo_Woes,Typically, Han Solo would be stealing things from depots like this one - not adding things to them.  This particular staging area resupplies fleets from all over the sector, and traffic through it is heavy.  There are more Imperial ships passing through here per day than most systems will see in a year.  Cargo containers bound for a multitude of systems float around the facility, easy pickings for those that know how to circumvent the security.  The Alliance hopes that Han is one of those in the know.
@@ -15138,44 +15138,44 @@ TEXT_SPEECH_GES_INTRO_LAND_DEFEND_E_01,The best defense is a good offense.  Go o
 TEXT_SPEECH_GES_INTRO_LAND_DEFEND_E_02,Rebel cells are showing their faces across the galaxy.  We can't allow them to burrow into the Empire like worms.  Show them that their aggressions against the Empire will not be tolerated.
 TEXT_SPEECH_GES_INTRO_LAND_DEFEND_E_03,The ground bases are the backbone of our defenses.  We need to increase their number if we are to teach the Rebellion that their cause is a losing proposition.
 TEXT_SPEECH_GES_INTRO_LAND_DEFEND_E_04,A small force of Rebels has infiltrated our outer defenses and landed somewhere on the planet surface.  Seek out and remove them immediately.
-TEXT_SPEECH_GES_INTRO_LAND_DEFEND_E_05,Remove the Rebel presence from the surface of the planet immediately!   We must take every precaution to ensure that the Emperor is not harmed.
+TEXT_SPEECH_GES_INTRO_LAND_DEFEND_E_05,Remove the Rebel presence from the surface of the planet immediately!  We must take every precaution to ensure that the Emperor is not harmed.
 TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_00,These vagrants stand in our way.  Eliminate them to prepare for our land invasion.
 TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_01,This pitiful force is preventing our assault on this system.  Dispatch them so that we can secure orbit for the Empire.
 TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_02,Sensors are reporting that there is a hostile presence surrounding the planet.  Lay waste to any forces that oppose the Empire.
 TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_03,Let's show these dissidents who rules this galaxy. Remove their influence from this system by destroying all their defenses.
-TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_04,This is a momentous occasion for the Empire!   Bring the Death Star in range of the planet and show this pitiful insurgency the true power of this fully functional battle station!
+TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_04,This is a momentous occasion for the Empire!  Bring the Death Star in range of the planet and show this pitiful insurgency the true power of this fully functional battle station!
 TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_00,You've let unidentified ships slip through our perimeter! Send a fleet to investigate.
 TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_01,Our sensors are reporting that a fleet is incoming.  Show them how we deal with traitors.
 TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_02,We will not be threatened by these thugs.  See to it that their fleet is destroyed.
 TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_03,Our hold on this system must not be compromised.  Seek out and destroy every intruder to our system.
-TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_04,This Rebel scum must be forced out of orbit.   Ensure that the Emperor is not harmed.
-TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_05,This Rebel scum must be forced out of orbit.   Ensure that the Death Star is protected from the invading force.
+TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_04,This Rebel scum must be forced out of orbit.  Ensure that the Emperor is not harmed.
+TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_05,This Rebel scum must be forced out of orbit.  Ensure that the Death Star is protected from the invading force.
 TEXT_SPEECH_GRS_INTRO_LAND_ATTACK_R_00,We have to show the Empire that we are a force to be reckoned with.  Land some troops and show them.
 TEXT_SPEECH_GRS_INTRO_LAND_ATTACK_R_01,We need to deploy more troops, or we will not last long against the enemy forces.
 TEXT_SPEECH_GRS_INTRO_LAND_ATTACK_R_02,Strike at the heart of the enemy!  Take out their structures and their ground forces will retreat.
 TEXT_SPEECH_GRS_INTRO_LAND_ATTACK_R_03,Sometimes the best path is not a direct one.  Scout out all the options before leading your forces to the enemy base.
-TEXT_SPEECH_GRS_INTRO_LAND_ATTACK_R_04,Take a small force and inflict whatever damage you can on the enemy.   Sometimes the most surgical of strikes can strike a deadly blow.
+TEXT_SPEECH_GRS_INTRO_LAND_ATTACK_R_04,Take a small force and inflict whatever damage you can on the enemy.  Sometimes the most surgical of strikes can strike a deadly blow.
 TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_00,Reports have revealed that a hostile force is closing in on us.  Try scouting the area and find a weakness.
 TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_01,The enemy is landing their forces as we speak.  Fortify our defenses and stave off their attack.
 TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_02,Our defense must hold.  The innocent people of this planet are depending on us.  Build defenses and fortify those locations with Alliance forces.
 TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_03,Use the terrain to your advantage.  We must repel this invasion if the Rebellion is to survive.
-TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_04,Enemy transports are landing near our base.   We must protect Mon Mothma at all costs - or the Alliance is certainly doomed!
-TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_05,You are our last hope.  We must defend our only remaining base.   Our loss will be the ultimate defeat of the Rebellion.   May the Force be with you!
-TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_00,We're advancing on the enemy stronghold.  This presence must be eliminated before we can liberate the planet.
-TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_01,We suspect that this planet's defenses could be very powerful.   We're counting on you to remove all enemy forces protecting the planet to allow our ground forces through.
+TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_04,Enemy transports are landing near our base.  We must protect Mon Mothma at all costs - or the Alliance is certainly doomed!
+TEXT_SPEECH_GRS_INTRO_LAND_DEFEND_R_05,You are our last hope.  We must defend our only remaining base.  Our loss will be the ultimate defeat of the Rebellion.  May the Force be with you!
+TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_00,We're advancing on the enemy stronghold. This presence must be eliminated before we can liberate the planet.
+TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_01,We suspect that this planet's defenses could be very powerful.  We're counting on you to remove all enemy forces protecting the planet to allow our ground forces through.
 TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_02,Destroying key elements of the enemy's forces is an optimal tactic.  Try to separate the defending units to pick them apart.
 TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_03,A larger force doesn't always guarantee victory.  Use tactics to you advantage and remove the defending position.
-TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_04,Mon Mothma has accompanied us into battle.   We must protect her at all costs - or the Alliance is certainly doomed!
-TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_05,Our chance for victory has come at long last.   Destroying the Emperor will shatter the Imperial menace and restore freedom to the galaxy.   May the Force be with you!
-TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_06,The Death Star is in orbit above the planet.  Our forces will not be able to withstand that kind of firepower.
-TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_07,Destroying the Death Star will shatter the Imperial menace and restore freedom to the galaxy.   May the Force be with you!
+TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_04,Mon Mothma has accompanied us into battle.  We must protect her at all costs - or the Alliance is certainly doomed!
+TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_05,Our chance for victory has come at long last.  Destroying the Emperor will shatter the Imperial menace and restore freedom to the galaxy.  May the Force be with you!
+TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_06,The Death Star is in orbit above the planet. Our forces will not be able to withstand that kind of firepower.
+TEXT_SPEECH_GRS_INTRO_SPACE_ATTACK_R_07,Destroying the Death Star will shatter the Imperial menace and restore freedom to the galaxy.  May the Force be with you!
 TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_00,Our captain has informed me that an Imperial fleet is closing in on us.  We must defend the innocent inhabitants of this planet.  Good Luck!
 TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_01,We are detecting multiple ships entering from hyperspace.  Be prepared to defend our position and repel the Imperials.
 TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_02,Our scanners have detected a hostile fleet moving towards our location.  Their presence in our system must be removed.
-TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_03,Enemy ships have hyperspaced to our location.   These invaders must never set foot on the planet surface.
-TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_04,Enemy ships have appeared on our scanners.   We must protect Mon Mothma at all costs - or the Rebellion is certainly doomed!
-TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_05,The Death Star is quickly approaching the planet.   All units attack!  We cannot withstand battle station's firepower.
-TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_06,The Death Star is quickly approaching.   We must use all our available resources to stop this threat once and for all.
+TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_03,Enemy ships have hyperspaced to our location.  These invaders must never set foot on the planet surface.
+TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_04,Enemy ships have appeared on our scanners.  We must protect Mon Mothma at all costs - or the Rebellion is certainly doomed!
+TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_05,The Death Star is quickly approaching the planet.  All units attack!  We cannot withstand battle station's firepower.
+TEXT_SPEECH_GRS_INTRO_SPACE_DEFEND_R_06,The Death Star is quickly approaching.  We must use all our available resources to stop this threat once and for all.
 TEXT_SPEECH_GUS_INTRO_LAND_ATTACK_U_00,We have to show our enemy that we are a force to be reckoned with.  Land some troops and show them.
 TEXT_SPEECH_GUS_INTRO_LAND_ATTACK_U_01,We need to deploy more troops, or we will not last long against the enemy forces.
 TEXT_SPEECH_GUS_INTRO_LAND_ATTACK_U_02,Strike at the heart of the enemy!  Take out their structures and their ground forces will retreat.
@@ -15202,7 +15202,7 @@ TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_02,Our scanners have detected a hostile fle
 TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_03,Enemy ships have hyperspaced to our location.  These invaders must never set foot on the planet surface.
 TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_04,Enemy ships have appeared on our scanners.  We must protect Tyber Zann at all costs - or the Zann Consortium is certainly doomed!
 TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_05,The Death Star is quickly approaching the planet.  All units attack!  We cannot withstand battle station's firepower.
-TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_06,The Death Star is quickly approaching.   We must use all our available resources to stop this threat once and for all.
+TEXT_SPEECH_GUS_INTRO_SPACE_DEFEND_U_06,The Death Star is quickly approaching.  We must use all our available resources to stop this threat once and for all.
 TEXT_SPEECH_HONOGHR_INT_LOAD_COR25_01,Urai Fen: We move as quickly otherwise our forces will be overwhelmed by Noghri assassins.  I have heard boastful rumors of their battle skills, so this should be a good challenge.
 TEXT_SPEECH_HONOGHR_INT_LOSS_COR25_05,Urai Fen: We tried our best but their forces were just too much.
 TEXT_SPEECH_HONOGHR_INT_TACTICAL_COR25_02,Urai Fen: What the Noghri assassins of Honoghr lack in numbers they make up for in skill.  If we can destroy three of their base camp structures it will send a strong message.
