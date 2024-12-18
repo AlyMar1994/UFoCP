@@ -120,6 +120,7 @@ AI Fixes:
 • The Galactic AI would only send smugglers and bounty hunters to player-controlled planets due to an outdated planet owner check from EaW.  The AI should now send these lucrative agents to all major factions. (BUG #409)
 • Darth Vader's land assistance AI wouldn't factor in his FoC land unit, only his EaW one, and prematurely shutdown. (BUG #27)
 • Han Solo & Chewbacca's galactic planning AI wouldn't factor in avoiding Darth Vader's FoC unit, nor factor in attacking the Death Star II. (BUG #27/53)
+• Luke Skywalker was only considered a "LandHero" for AI planning, and not both a land hero and "SpaceHero" despite controlling his X-wing in space. (BUG #420)
 
 
 Audio Fixes:

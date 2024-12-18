@@ -106,7 +106,7 @@
 
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> LandHero | SpaceHero </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 		<MovementClass>Infantry</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
@@ -287,7 +287,7 @@
 		<SFXEvent_Hero_Respawned>Unit_Select_Luke_Land</SFXEvent_Hero_Respawned>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Luke_Land</SFXEvent_Fleet_Move>
 
-		<CategoryMask>LandHero</CategoryMask>
+		<CategoryMask> LandHero | SpaceHero </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 		<Population_Value>1</Population_Value>
 
