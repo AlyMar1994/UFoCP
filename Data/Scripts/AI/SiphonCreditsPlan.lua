@@ -60,7 +60,12 @@ end
 function SmugglerForce_Thread()
 	DebugMessage("%s -- In SmugglerForce_Thread.", tostring(Script))
 
-	if EvaluatePerception("Suitable_Smuggler_Target", PlayerObject, Target) < 0.5 then
+	-- AM1994 12/19/2024 - The AI finds these vibes immaculate and will do this as much
+	-- as physically possible.  Due to the way the perception is now, values range from
+	-- 0.45052 to 0.78771 (with around median of 0.64948).  0.64 is preferred for right
+	-- now as those *should* be the more important money generators and not lead to AI
+	-- spam.
+	if EvaluatePerception("Suitable_Smuggler_Target", PlayerObject, Target) < 0.64 then -- was 0.5
 		ScriptExit()
 	end
 
