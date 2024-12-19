@@ -483,6 +483,16 @@
 		* (50.0 + (2.0  * Variable_Self.PlanetsControlledUnnormalized))
 	</Initial_Grace_Period>
 
+	<!--
+		AM1994 12/18/2024 - Remove * Variable_Target.IsHumanControlled b/c
+		this check is now invalid for FoC.  There are no AI players on the
+		galactic scale, and this prevented the AI from control grab against
+		the other AI faction (they only focused the player).
+		FIXME HIGH: This should be corrected to adapt to hostile factions
+		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
+		This fix isn't exactly very backwards compatible since the AI will
+		consider neutrals/pirates a valid target.
+	-->
 	<Should_Perform_Unrestricted_Grab_Space>
 		50.0
 		*
@@ -495,10 +505,18 @@
 		Function_Is_Connected_To_Me.Evaluate
 		*
 		(1.0 - Variable_Target.FriendlyForce.HasSpaceForce)
-		*
-		Variable_Target.IsHumanControlled
 	</Should_Perform_Unrestricted_Grab_Space>
 
+	<!--
+		AM1994 12/18/2024 - Remove * Variable_Target.IsHumanControlled b/c
+		this check is now invalid for FoC.  There are no AI players on the
+		galactic scale, and this prevented the AI from control grab against
+		the other AI faction (they only focused the player).
+		FIXME HIGH: This should be corrected to adapt to hostile factions
+		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
+		This fix isn't exactly very backwards compatible since the AI will
+		consider neutrals/pirates a valid target.
+	-->
 	<Should_Perform_Unrestricted_Grab_Land>
 		50.0
 		*
@@ -513,8 +531,6 @@
 		(Variable_Target.StarbaseLevel == 0.0)
 		*
 		(1.0 - Variable_Target.EnemyForce.HasSpaceForce)
-		*
-		Variable_Target.IsHumanControlled
 	</Should_Perform_Unrestricted_Grab_Land>
 
 	<Space_Force_Limit_For_Unrestricted_Grab>
