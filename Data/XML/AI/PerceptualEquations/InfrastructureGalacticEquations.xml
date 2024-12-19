@@ -611,6 +611,10 @@
 				(Variable_Self.TechLevel == 4) *
 				((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel"}) +
 				(0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
+				+
+				(Variable_Self.TechLevel == 5) *
+				((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "Darth_Team_Executor"}) +
+				(0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "Darth_Team_Executor", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
 			)
 			+
 			(Variable_Self.TechLevel == 5) *
@@ -679,6 +683,10 @@
 			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
 			(Variable_Self.TechLevel == 4) *
 			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel"} >= 0.8)
+			+
+			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
+			(Variable_Self.TechLevel == 5) *
+			(Variable_Self.BudgetFractionToBuild{Parameter_Type = "Darth_Team_Executor"} >= 0.8)
 			+
 			Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
 			(Variable_Self.TechLevel == 5) *

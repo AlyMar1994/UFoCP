@@ -221,6 +221,8 @@
 	<Need_To_Flush_MajorItem_Budget>
 		Function_Needs_More_Space_Force_Globally.Evaluate
 		+
+		Variable_Self.HasUnit{Parameter_Type = "Darth_Team_Executor", Parameter_Count = 1}
+		+
 		Variable_Self.HasUnit{Parameter_Type = "Death_Star_II", Parameter_Count = 1}
 	</Need_To_Flush_MajorItem_Budget>
 
