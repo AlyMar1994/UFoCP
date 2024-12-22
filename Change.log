@@ -84,13 +84,28 @@ Ability Fixes:
 
 
 AI Fixes:
-• During certain conquering plans, the AI always slept 5 minutes after a victory/failure because of a coding mistake (the scripts couldn't find the player's Difficulty setting); the AI now sleeps for its appropriate cycles: 5 minutes on Easy, 3 minutes 30 seconds on Normal, and 45 seconds on Hard. (BUG #69)
-• The AI's blitzkrieg conquering plan "Crush" always cancelled before starting because of a coding mistake (the script couldn't find the player's Difficulty setting); the AI now continues the plan should the Difficulty be set to Hard. (BUG #79)
-• The AI's "unrestricted" space and land conquering plans for special scenarios and regarding general conquering attacks only applied to player-controlled planets due to an outdated planet owner check from EaW.  Now that there's a third valid faction on the map, they should focus on them as well. (BUG #422)
-• AI plans for managing, budgeting wouldn't look for FoC's Death Star II unit. (BUG #53)
-• AI plans to upgrade Imperial tech didn't include the Death Star II apart of the list of upgrade objects. (BUG #71)
-• AI plans for firing the Death Star wouldn't look for FoC's Death Star II unit. (BUG #51)
-• AI plans for firing the Death Star only considered player-controlled planets as targets for destruction due to an outdated planet owner check from EaW.  The Empire should now consider all enemies as targets. (BUG #411)
+• During various AI conquering plans, the AI would always stall/sleep for 5 minutes after a victory or failure because the AI code was unable to properly find the player's Difficulty setting, and in turn was unable to apply the proper time to sleep.  The following scripts were rectified to use their appropriate sleep times (5 minutes on Easy, 3 minutes 30 seconds on Normal, and 45 seconds on Hard):
+•• ConquerOpponentPlan (General AI conquering script) (BUG #69)
+•• CrushPlan (General AI "blitzkrieg" conquering script for Hard difficulty) (BUG #69) (BUG #79)
+•• RaidPlan (Rebel AI raiding script) (BUG #69)
+•• DeathStarUsePlan (Empire AI script for exploding planets on the GC scale) (BUG #69)
+
+• During various AI considerations, the AI would exit out of many completely valid plans because they would only check if they applied toward the player.  Originally (in EaW), these plans would look for "REBEL" or "EMPIRE," as EaW was a 1v1 game in GC, so these plans would look for a "human" player for the AI so it doesn't waste its time on Neutral or Pirate "speedbump" planets.  However, for FoC, it appears a Content Designer had the wrong idea, and changed these checks so the AI ONLY looks for human players, and tends to ignore the third other, completely valid, AI player on the map.  The following equations have had their check for a "human" player removed (NOTE: These equations will be further updated in the coming versions to work more like they did in EaW for when the EaW GCs are re-enabled):
+•• (OffensiveGalaticEquations) Is_Good_Weaken_Target (BUG #409)
+•• (OffensiveGalaticEquations) Want_To_Fire_DS (BUG #411)
+•• (OffensiveGalaticEquations) Should_Perform_Unrestricted_Grab_Space, Should_Perform_Unrestricted_Grab_Land (BUG #422)
+
+• Various AI plans and considerations wouldn't properly grab the Death_Star_II unit, instead having an outdated check to look for the DS1 from EaW.  The following plans, equations and files have had their checks updated (NOTE: These equations will be further updated in the coming versions to be a little more backwards-compatible for EaW for when the EaW GCs are re-enabled) (BUG #28, #32, #33, #51, #53, #71):
+•• Factions.xml (Empire and Rebel conditional advisor dialogue checks)
+•• Factions.xml (Empire "faction superweapon" for GC win conditions)
+•• Expansion_Factions.xml (Consortium conditional advisor dialogue checks)
+•• (Scripts) HanSoloPlan
+•• (Scripts) FireDeathStar
+•• (BudgetingEquations) BasicEmpireMajorItemBudgetAllocation, TechUpgradeBudgetRequirement
+•• (OffensiveGalaticEquations) Need_To_Flush_MajorItem_Budget, Should_Conquer_Opponent_Planet
+•• (InfrastructureGalacticEquations) Empire_Should_Upgrade_Tech, Empire_Tech_Trigger, Empire_Tech_Untrigger
+
+
 • AI plans for building anti-infantry turrets weren't updated from EaW; the AI now knows the Proton Torpedo Turret is the Consortium's designated anti-infantry turret, and now has the same considerations to buy it like the Rebels and Empire. (BUG #114)
 • AI plans wouldn't factor in IG-88 nor Garm Bel Iblis when considering buying Repair Facilities. (BUG #117)
 • AI plans for finding the nearest appropriate healing object for special units didn't include Darth Vader's unit for FoC land combat, only his EaW unit. (BUG #27)
@@ -119,7 +134,6 @@ AI Fixes:
 • The Galactic AI wouldn't build cantinas due to reversed logic tricking them into thinking they were always at max capacity for cantinas.  They now build 1 cantina per planet if applicable. (BUG #407)
 • The Galactic AI wouldn't build Hutt palaces due to their logic being disabled.  The original building AI was incomplete/unfinished and lacked basic checks the building AI for the cantinas have.  They should now build 1 Hutt palace per planet if applicable, and bounty hunters with them should enemy smugglers exist on their controlled planets.  In addition, the outdated bounty hunter "SabotagePoliticalControl" plan has been disabled, as bounty hunters no longer can wreck a faction's political control over a planet; this plan also lead to the AI overbuying bounty hunters. (BUG #408)
 • The Galactic AI wouldn't be inclined to purchase Vader and the Executor.  As a major hero and ship, they've been added to the Empire's tech plan AI; Vader is now a mandatory purchase before building the Death Star II. (BUG #421)
-• The Galactic AI would only send smugglers and bounty hunters to player-controlled planets due to an outdated planet owner check from EaW.  The AI should now send these lucrative agents to all major factions. (BUG #409)
 • Darth Vader's land assistance AI wouldn't factor in his FoC land unit, only his EaW one, and prematurely shutdown. (BUG #27)
 • Han Solo & Chewbacca's galactic planning AI wouldn't factor in avoiding Darth Vader's FoC unit, nor factor in attacking the Death Star II. (BUG #27/53)
 • Luke Skywalker was only considered a "LandHero" for AI planning, and not both a land hero and "SpaceHero" despite controlling his X-wing in space. (BUG #420)
