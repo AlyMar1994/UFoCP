@@ -333,9 +333,20 @@
 		Variable_Target.FriendlyForce.HasGroundForce)
 	</Self_Present>
 
+	<!--
+		AM1994 12/22/2024 - Remove * Variable_Target.IsHumanControlled b/c
+		this check is now invalid for FoC.  There are no AI players on the
+		galactic scale, and this prevented the AI from smuggling against
+		the other AI faction (they only focused the player).
+		FIXME HIGH: This should be corrected to adapt to hostile factions
+		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
+		This fix isn't exactly very backwards compatible since the AI will
+		consider neutrals/pirates a valid target.
+		In EaW, this entire check was
+		(Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire"} + 
+		Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire"})
+	-->
 	<Enemy_Present>
-		Variable_Target.IsHumanControlled
-		*
 		((Variable_Target.EnemyForce.HasSpaceForce + Variable_Target.EnemyForce.HasGroundForce) > 0.0)
 	</Enemy_Present>
 
