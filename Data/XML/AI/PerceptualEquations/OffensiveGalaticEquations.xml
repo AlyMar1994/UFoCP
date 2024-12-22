@@ -59,16 +59,13 @@
 			Use this to respond to the enemy amassing all of their forces in one or few systems.
 		-->
 	<Is_Neglected_By_My_Opponent_Space>
-		Variable_Target.IsHumanControlled
-		*
-		((Variable_Target.EnemyForce.HasSpaceForce + Variable_Target.EnemyForce.HasGroundForce) > 0)
+		(((Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})
+		+ (Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})) > 0)
 		*
 		(1.0 - Variable_Target.EnemyForce.SpaceTotalNBPTM)
 	</Is_Neglected_By_My_Opponent_Space>
 
 	<Is_Neglected_By_My_Opponent_Ground>
-		Variable_Target.IsHumanControlled
-		*
 		(((Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})
 		+ (Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"})) > 0)
 		*
