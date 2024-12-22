@@ -426,13 +426,25 @@
 			Must be raid capable faction
 			Target must have accessible surface
 	-->
+
+	<!--
+		AM1994 12/22/2024 - Remove * Variable_Target.IsHumanControlled b/c
+		this check is now invalid for FoC.  There are no AI players on the
+		galactic scale, and this prevented the AI from smuggling against
+		the other AI faction (they only focused the player).
+		FIXME HIGH: This should be corrected to adapt to hostile factions
+		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
+		This fix isn't exactly very backwards compatible since the AI will
+		consider neutrals/pirates a valid target.
+		In EaW, IsHumanControlled was replaced with after IsSurfaceAccessible
+		(Variable_Target.IsFaction {Parameter_Faction = "PIRATES"} ==  0) *
+	-->
 	<Is_Good_Raid_Target>
 		(0.5 + (1000 >= Variable_Target.EnemyForce.GroundTotalUnnormalized))
 		*
 		Variable_Self.IsFaction {Parameter_Faction = "REBEL"} *
 		Function_Is_Good_Invasion_Target.Evaluate *
 		Variable_Target.IsSurfaceAccessible *
-		Variable_Target.IsHumanControlled *
 		Function_First_Attack_Allowed.Evaluate
 	</Is_Good_Raid_Target>
 
