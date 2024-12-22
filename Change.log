@@ -95,6 +95,7 @@ AI Fixes:
 •• (OffensiveGalaticEquations) Want_To_Fire_DS (BUG #411)
 •• (OffensiveGalaticEquations) Should_Perform_Unrestricted_Grab_Space, Should_Perform_Unrestricted_Grab_Land (BUG #422)
 •• (OffensiveGalaticEquations) Is_Neglected_By_My_Opponent_Space, Is_Neglected_By_My_Opponent_Ground (BUG #426)
+•• (OffensiveGalaticEquations) Is_Target_A_Current_Threat (BUG #427)
 
 • Various AI plans and considerations wouldn't properly grab the Death_Star_II unit, instead having an outdated check to look for the DS1 from EaW.  The following plans, equations and files have had their checks updated (NOTE: These equations will be further updated in the coming versions to be a little more backwards-compatible for EaW for when the EaW GCs are re-enabled) (BUG #28, #32, #33, #51, #53, #71):
 •• Factions.xml (Empire and Rebel conditional advisor dialogue checks)
