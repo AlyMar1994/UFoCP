@@ -91,13 +91,15 @@ AI Fixes:
 •• DeathStarUsePlan (Empire AI script for exploding planets on the GC scale) (BUG #69)
 
 • During various AI considerations, the AI would exit out of many completely valid plans because they would only check if they applied toward the player.  Originally (in EaW), these plans would look for "REBEL" or "EMPIRE," as EaW was a 1v1 game in GC, so these plans would look for a "human" player for the AI so it doesn't waste its time on Neutral or Pirate "speedbump" planets.  However, for FoC, it appears a Content Designer had the wrong idea, and changed these checks so the AI ONLY looks for human players, and tends to ignore the third other, completely valid, AI player on the map.  The following equations have had their check for a "human" player removed (NOTE: These equations will be further updated in the coming versions to work more like they did in EaW for when the EaW GCs are re-enabled):
-•• (OffensiveGalaticEquations) Is_Good_Weaken_Target (BUG #409)
+•• (OffensiveGalaticEquations) Is_Good_Weaken_Target (Smuggler/Bounty Hunter use) (BUG #409)
 •• (OffensiveGalaticEquations) Want_To_Fire_DS (BUG #411)
 •• (OffensiveGalaticEquations) Should_Perform_Unrestricted_Grab_Space, Should_Perform_Unrestricted_Grab_Land (BUG #422)
-•• (OffensiveGalaticEquations) Is_Neglected_By_My_Opponent_Space, Is_Neglected_By_My_Opponent_Ground (BUG #426)
-•• (OffensiveGalaticEquations) Is_Target_A_Current_Threat (BUG #427)
-•• (OffensiveGalaticEquations) Enemy_Present (BUG #428)
-•• (OffensiveGalaticEquations) Is_Good_Raid_Target (BUG #429)
+•• (OffensiveGalaticEquations) Is_Neglected_By_My_Opponent_Space, Is_Neglected_By_My_Opponent_Ground (If a planet is left neglected by a faction) (BUG #426)
+•• (OffensiveGalaticEquations) Is_Target_A_Current_Threat (If the enemy has a threatening force on a nearby planet) (BUG #427)
+•• (OffensiveGalaticEquations) Enemy_Present (If an enemy is present on a target) (BUG #428)
+•• (OffensiveGalaticEquations) Is_Good_Raid_Target (Rebel Raid AI pool, see if it's a good target) (BUG #429)
+•• (OffensiveGalaticEquations) Opens_New_Front, Should_Conquer_Pirate_Planet (If conquering a planet or conquering from a Pirate will open a new front/is a good idea) (BUG #430)
+•• (OffensiveGalaticEquations) Should_Conquer_Opponent_Planet (General AI conquering focus) (BUG #431)
 
 • Various AI plans and considerations wouldn't properly grab the Death_Star_II unit, instead having an outdated check to look for the DS1 from EaW.  The following plans, equations and files have had their checks updated (NOTE: These equations will be further updated in the coming versions to be a little more backwards-compatible for EaW for when the EaW GCs are re-enabled) (BUG #28, #32, #33, #51, #53, #71):
 •• Factions.xml (Empire and Rebel conditional advisor dialogue checks)

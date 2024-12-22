@@ -448,24 +448,40 @@
 		Function_First_Attack_Allowed.Evaluate
 	</Is_Good_Raid_Target>
 
+	<!--
+		AM1994 12/22/2024 - Remove * Variable_Target.IsHumanControlled b/c
+		this check is now invalid for FoC.  There are no AI players on the
+		galactic scale, and this prevented the AI from smuggling against
+		the other AI faction (they only focused the player).
+		FIXME HIGH: This should be corrected to adapt to hostile factions
+		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
+		This fix isn't exactly very backwards compatible since the AI will
+		consider neutrals/pirates a valid target.
+		In EaW, IsHumanControlled was replaced with
+		Variable_Target.IsFaction {Parameter_Faction = "PIRATES"} *
+	-->
 	<Opens_New_Front>
-		(Variable_Target.IsHumanControlled == 0.0) *
 		Function_Is_Connected_To_Enemy.Evaluate
 	</Opens_New_Front>
 
 	<Should_Conquer_Pirate_Planet>
 		Function_Is_Good_Invasion_Target.Evaluate
 		*
-		(Variable_Target.IsHumanControlled == 0.0)
+		Variable_Target.IsFaction { Parameter_Faction = "NEUTRAL", Parameter_Faction = "PIRATES", Parameter_Faction = "HUTTS" }
 	</Should_Conquer_Pirate_Planet>
 
+	<!--
+		AM1994 12/22/2024 - Swap out the DS check to work with FoC properly.
+		FIXME HIGH: This should be corrected to consider both the DS1 and
+		DS2 when the EaW GCs are reenabled.
+	-->
 	<Should_Conquer_Opponent_Planet>
 		(
 			1.25
 			*
 			Function_Is_Good_Invasion_Target.Evaluate
 			*
-			Variable_Target.IsHumanControlled
+			(1.0 - Variable_Target.IsFaction { Parameter_Faction = "NEUTRAL", Parameter_Faction = "PIRATES", Parameter_Faction = "HUTTS" })
 			*
 			((Variable_Self.HasUnit {Parameter_Type = "Death_Star_II"} == 0.0)
 			+
@@ -487,6 +503,8 @@
 		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
 		This fix isn't exactly very backwards compatible since the AI will
 		consider neutrals/pirates a valid target.
+		In EaW, the Human check was
+		* (Variable_Target.IsFaction {Parameter_Faction = "REBEL"} == 1.0)
 	-->
 	<Want_To_Fire_DS>
 		Variable_Self.IsFaction { Parameter_Faction = "EMPIRE" }
