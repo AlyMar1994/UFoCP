@@ -228,6 +228,7 @@ Interface Fixes:
 • The Consortium Soldier/advisor during the prologue "Crime Lord Unleashed" used the Black Sun Pirate hologram instead of the Consortium Soldier hologram.  While I like the aesthetic, unfortunately it's a bug. (BUG #61)
 • The Consortium's galactic dashboard had its info icons misaligned by a couple pixels.  One of the icons would overlap with the bar when pressed. (BUG #376)
 • The Empire's skirmish dashboard had its Main Menu icon misaligned by a couple pixels.  It overlapped with the bar. (BUG #377)
+• The Pause/Play button on the command bar was referencing a non-existent texture (i_button_command_bar_disabled) when disabled.  The proper icon has been assigned (i_button_command_bar_play_disabled). (BUG #433)
 • When Darth Vader arrives on Bespin during Consortium campaign mission #6 "Cloud City Conflict," the hologram announcer used the Black Sun Pirate hologram instead of the Consortium Soldier hologram. (BUG #104)
 • The Hypervelocity Cannon's special weapon cursor used the Magnepulse Cannon's texture instead of its own because of each texture having swapped names. (BUG #260)
 
