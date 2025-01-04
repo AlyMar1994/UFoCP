@@ -62,9 +62,16 @@ HOUSEKEEPING:
 • Thrawn's unused "political" unit that was supposed to replace Tarkin, Grand_Admiral_Thrawn and Grand_Admiral_Thrawn_Team, were both broken in odd ways.  The named hero wasn't linked to the Admonitor_Star_Destroyer unit entry, while the team only spawned/contained the Grand_Moff_Tarkin hero, among other issues.  This unit isn't currently used, but is now available should someone want to, or otherwise. (BUG #371)
 • AI plans for firing the Death Star wouldn't cancel for other factions than the Empire.  There shouldn't be forward-facing changes, as the Rebels and Consortium shouldn't have been using this plan anyway. (BUG #410)
 
+• The game's interface definitions (CommandBarComponents.xml) had multiple unused settings/tags that were removed before release.  These settings were throwing WARNINGS in the game's logging, so they have been removed.
+•• i_main_commandbar: "<Mega_Texture_Name>"
+•• b_play_pause: "<Disabled_Darken>" (Texture darkening is handled through a seperate texture)
+•• b_fast_forward: "<Disabled_Darken>"
+•• b_play_pause_t: "<Disabled_Darken>"
+•• b_fast_forward_t: "<Disabled_Darken>"
+
 MISC:
 • Disable game's internal hardware check for Intel GPUs, as DX9 shader compilation was getting disabled for Intel's newest line of GPUs thinking they were integrated (CPU) chipsets that couldn't support hardware shaders. (BUG #378)
-• Corulag and Kessel's space piracy missions no longer use IG-2000 placed directly on map, they now use a spawned in version of IG-2000 from a script.  This is to bugfix and future proof any changes needed to be made to IG-2000's entry in the future (as before, the reference was missing with report #256).
+• Corulag and Kessel's space piracy missions no longer use IG-2000 placed directly on map, they now use a spawned in version of IG-2000 from a script.  This is to bugfix and future proof any changes needed to be made to IG-2000's entry in the future (as before, the reference was missing with #256).
 ======
 
 

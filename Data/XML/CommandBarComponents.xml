@@ -5,7 +5,6 @@
             <Model_Name>i_galactic_controls.alo</Model_Name>
             <Type>Shell</Type>
             <Group>Shells</Group>
-            <Mega_Texture_Name>MT_CommandBar</Mega_Texture_Name>
             <Disabled>False</Disabled>
             <Model_Offset_X>True</Model_Offset_X>
             <Model_Offset_Y>True</Model_Offset_Y>
@@ -8555,7 +8554,6 @@
             <Tab>True</Tab>
             <Toggle>True</Toggle>
             <Click_Shift>True</Click_Shift>
-            <Disabled_Darken>True</Disabled_Darken>
    </CommandBarComponent>
 
     <CommandBarComponent Name="b_fast_forward">
@@ -8574,7 +8572,6 @@
             <Click_Shift>True</Click_Shift>
             <Tab>True</Tab>
             <Toggle>True</Toggle>
-            <Disabled_Darken>True</Disabled_Darken>
     </CommandBarComponent>
 
     <CommandBarComponent Name="b_play_pause_t">
@@ -8594,7 +8591,6 @@
             <Tab>True</Tab>
             <Toggle>True</Toggle>
             <Click_Shift>True</Click_Shift>
-            <Disabled_Darken>True</Disabled_Darken>
   </CommandBarComponent>
 
     <CommandBarComponent Name="b_fast_forward_t">
@@ -8613,7 +8609,6 @@
             <Click_Shift>True</Click_Shift>
             <Tab>True</Tab>
             <Toggle>True</Toggle>
-            <Disabled_Darken>True</Disabled_Darken>
    </CommandBarComponent>
 
     <CommandBarComponent Name="text_galactic_help">
