@@ -101,25 +101,29 @@ end
 
 function On_Unit_Service(object)
 
-	-- If this unit isn't in a safe spot move him regardless of the MovedUnitsThisService
-	-- Also, Heroes need to be where they most want to be asap
-	if (FreeStore.Is_Unit_Safe(object) == false) or (object.Get_Type().Is_Hero()) then
-		MoveUnit(object)
+	-- AM1994 1/11/2025 - TODO: Removed check if considered units Is_Transport and/or Is_Hero because
+	-- without that, this'll also 'consider' objects like particles; however, using Is_Transport is
+	-- special to land only units (as they're contained in a transport), so other units get jipped.
+	if FreeStore.Is_Unit_In_Transit(object) == true then
+		DebugMessage("%s -- Object: %s is already in transit!  Won't try moving them until next cycle.", tostring(Script), tostring(object))
 		return
-	end
+	else
+		-- If this unit isn't in a safe spot move him regardless of the MovedUnitsThisService
+		-- Also, Heroes need to be where they most want to be asap
+		if (FreeStore.Is_Unit_Safe(object) == false) or (object.Get_Type().Is_Hero()) then
+			MoveUnit(object)
+			return
+		end
 
-	if object.Is_Transport() then
-		if GameRandom.Get_Float() < GroundAvailablePercent and GroundUnitsMoved < GroundUnitsToMove then
-			if FreeStore.Is_Unit_In_Transit(object) == false then
+		if object.Is_Transport() then
+			if GameRandom.Get_Float() < GroundAvailablePercent and GroundUnitsMoved < GroundUnitsToMove then
 				DebugMessage("%s -- Object: %s service move order issued", tostring(Script), tostring(object))
 				if MoveUnit(object) then
 					GroundUnitsMoved = GroundUnitsMoved + 1
 				end
 			end
-		end
-	else
-		if GameRandom.Get_Float() < SpaceAvailablePercent and SpaceUnitsMoved < SpaceUnitsToMove then
-			if FreeStore.Is_Unit_In_Transit(object) == false then
+		else
+			if GameRandom.Get_Float() < SpaceAvailablePercent and SpaceUnitsMoved < SpaceUnitsToMove then
 				DebugMessage("%s -- Object: %s service move order issued", tostring(Script), tostring(object))
 				if MoveUnit(object) then
 					SpaceUnitsMoved = SpaceUnitsMoved + 1
@@ -127,6 +131,7 @@ function On_Unit_Service(object)
 			end
 		end
 	end
+
 end
 
 --	// param 1: playerwrapper.
@@ -144,7 +149,9 @@ function On_Unit_Added(object)
 		DebugMessage("%s -- Hero Object: %s added to freestore", tostring(Script), obj_type.Get_Name())
 	end
 
-	MoveUnit(object)
+	if FreeStore.Is_Unit_In_Transit(object) == false then
+		MoveUnit(object)
+	end
 
 end
 
