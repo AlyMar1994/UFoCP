@@ -583,24 +583,24 @@
 
 	<Space_Force_Limit_For_Unrestricted_Grab>
 		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Easy]}
-		* (1000.0 + (100.0 * Variable_Human.TechLevel))
+		* (1000.0 + (100.0 * Variable_Enemy.TechLevel))
 		+
 		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Normal]}
-		* (1500.0 + (200.0 * Variable_Human.TechLevel))
+		* (1500.0 + (200.0 * Variable_Enemy.TechLevel))
 		+
 		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Hard]}
-		* (2500.0 + (500.0  * Variable_Human.TechLevel))
+		* (2500.0 + (500.0  * Variable_Enemy.TechLevel))
 	</Space_Force_Limit_For_Unrestricted_Grab>
 
 	<Ground_Force_Limit_For_Unrestricted_Grab>
 		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Easy]}
-		* (200.0 + (20.0 * Variable_Human.TechLevel))
+		* (200.0 + (20.0 * Variable_Enemy.TechLevel))
 		+
 		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Normal]}
-		* (400.0 + (40.0 * Variable_Human.TechLevel))
+		* (400.0 + (40.0 * Variable_Enemy.TechLevel))
 		+
 		Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Hard]}
-		* (800.0 + (80.0 * Variable_Human.TechLevel))
+		* (800.0 + (80.0 * Variable_Enemy.TechLevel))
 	</Ground_Force_Limit_For_Unrestricted_Grab>
 
 	<Should_Shutdown_Offense_For_Story_Campaign>
