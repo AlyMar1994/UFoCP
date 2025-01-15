@@ -209,10 +209,9 @@ function GetAbilityChanceSeed()
 end
 
 function GetChanceAllowed(difficulty)
-	--Possibly change these back, but randomness makes things hard to test
-	chance = 100
+	chance = 60
 	if difficulty == "Easy" then
-		chance = 100
+		chance = 20
 	elseif difficulty == "Hard" then
 		chance = 100
 	end

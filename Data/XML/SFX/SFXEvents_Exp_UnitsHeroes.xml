@@ -1158,12 +1158,13 @@
 					<Overlap_Test> Unit_Silri </Overlap_Test>
 				</SFXEvent>
 
+				<!-- AM1994 1/17/2025 - Removed U000_SIL2901_ENG.wav ('I WILL DRAIN THEIR LIFE!').  Too cheesy. -->
 				<SFXEvent Name="Unit_Drain_Life_Silri">
 					<Use_Preset>Preset_UR</Use_Preset>
-					<Samples> U000_SIL0214_ENG.wav U000_SIL2901_ENG.wav U000_SIL0402_ENG.wav U000_SIL2902_ENG.wav U000_SIL2903_ENG.wav U000_SIL2904_ENG.wav U000_SIL0403_ENG.wav U000_SIL0404_ENG.wav </Samples>
+					<Samples> U000_SIL0214_ENG.wav U000_SIL0402_ENG.wav U000_SIL2902_ENG.wav U000_SIL2903_ENG.wav U000_SIL0403_ENG.wav U000_SIL2904_ENG.wav U000_SIL0404_ENG.wav </Samples>
 					<Localize> Yes </Localize>
 					<Play_Sequentially> Yes </Play_Sequentially>
-					<Text_ID> TEXT_SFX_SIL_MOVE_14, TEXT_SFX_SIL_LIFE_DRAIN_1, TEXT_SFX_SIL_CONFUSE_2, TEXT_SFX_SIL_LIFE_DRAIN_2, TEXT_SFX_SIL_LIFE_DRAIN_3, TEXT_SFX_SIL_LIFE_DRAIN_4, TEXT_SFX_SIL_CONFUSE_3, TEXT_SFX_SIL_CONFUSE_4 </Text_ID>
+					<Text_ID> TEXT_SFX_SIL_MOVE_14, TEXT_SFX_SIL_CONFUSE_2, TEXT_SFX_SIL_LIFE_DRAIN_2, TEXT_SFX_SIL_LIFE_DRAIN_3, TEXT_SFX_SIL_CONFUSE_3, TEXT_SFX_SIL_LIFE_DRAIN_4, TEXT_SFX_SIL_CONFUSE_4 </Text_ID>
 					<Overlap_Test> Unit_Silri </Overlap_Test>
 				</SFXEvent>
 
