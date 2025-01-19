@@ -217,7 +217,7 @@
 		If we don't have at least X% the space force of all of our enemies (including pirates)
 	-->
 	<Needs_More_Space_Force_Globally>
-		(Variable_Human.SpaceTotalUnnormalized > (Variable_Self.SpaceTotalUnnormalized * 1.0))
+		(Variable_Enemy.SpaceTotalUnnormalized > (Variable_Self.SpaceTotalUnnormalized * 1.0))
 	</Needs_More_Space_Force_Globally>
 
 	<!-- Don't trickle to Major Item fund if:
