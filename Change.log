@@ -109,6 +109,7 @@ AI Fixes:
 •• (OffensiveGalaticEquations) Opens_New_Front, Should_Conquer_Pirate_Planet (If conquering a planet or conquering from a Pirate will open a new front/is a good idea) (BUG #430)
 •• (OffensiveGalaticEquations) Should_Conquer_Opponent_Planet (General AI conquering focus) (BUG #431)
 •• (OffensiveGalaticEquations) Needs_More_Space_Force_Globally (BUG #439)
+•• (OffensiveGalaticEquations) Am_I_In_Winning_Position (BUG #440)
 
 • Various AI plans and considerations wouldn't properly grab the Death_Star_II unit, instead having an outdated check to look for the DS1 from EaW.  The following plans, equations and files have had their checks updated (NOTE: These equations will be further updated in the coming versions to be a little more backwards-compatible for EaW for when the EaW GCs are re-enabled) (BUG #28, #32, #33, #51, #53, #71):
 •• Factions.xml (Empire and Rebel conditional advisor dialogue checks)

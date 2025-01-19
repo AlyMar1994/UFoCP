@@ -413,11 +413,11 @@
 	<Am_I_In_Winning_Position>
 		(Game.Age > 300.0)
 		*
-		(Variable_Self.PlanetsControlledUnnormalized > (2.0 * Variable_Human.PlanetsControlled))
+		(Variable_Self.PlanetsControlledUnnormalized > (2.0 * Variable_Enemy.PlanetsControlled))
 		*
-		(Variable_Self.SpaceTotalUnnormalized > (3.0 * Variable_Human.SpaceTotalUnnormalized))
+		(Variable_Self.SpaceTotalUnnormalized > (3.0 * Variable_Enemy.SpaceTotalUnnormalized))
 		*
-		(Variable_Self.GroundTotalUnnormalized > (3.0 * Variable_Human.GroundTotalUnnormalized))
+		(Variable_Self.GroundTotalUnnormalized > (3.0 * Variable_Enemy.GroundTotalUnnormalized))
 	</Am_I_In_Winning_Position>
 
 	<!-- Same basic concept as whether I should conquer a planet
