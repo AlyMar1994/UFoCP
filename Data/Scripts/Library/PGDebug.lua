@@ -49,7 +49,8 @@ function DebugEventAlert(event, params)
 	
 	table.foreachi(params, AppendParameter)
 	
-	MessageBox(message)
+	--MessageBox(message)
+	DebugMessage(message)
 end
 
 function MessageBox(...)

@@ -57,7 +57,7 @@ function Definitions()
 end
 
 function MainForce_Thread()
-	--MessageBox("%s -- Building a turret.", tostring(Script))
+	DebugMessage("%s -- Building a turret.", tostring(Script))
 
 	-- Make sure we've ended up with a build location that's reasonably close to our original target
 	pad_table = MainForce.Get_Reserved_Build_Pads()

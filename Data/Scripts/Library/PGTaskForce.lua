@@ -421,7 +421,7 @@ function Obscure(tf, range, use_nebulae, path_through_fields)
 			enemy_nearest_loc = Find_Nearest(asteroids, PlayerObject, false)
 			if not TestValid(enemy_nearest_loc) or enemy_nearest_loc.Get_Distance(asteroids) < 750 then
 
-				--MessageBox("%s -- moving to asteroids:%s", tostring (Script), path_through_fields)
+				DebugMessage("%s -- moving to asteroids:%s", tostring (Script), path_through_fields)
 				BlockOnCommand(tf.Move_To(asteroids, 10, path_through_fields))
 				return true
 			end
@@ -431,7 +431,7 @@ function Obscure(tf, range, use_nebulae, path_through_fields)
 				enemy_nearest_loc = Find_Nearest(nebula, PlayerObject, false)
 				if not TestValid(enemy_nearest_loc) or enemy_nearest_loc.Get_Distance(nebula) < 750 then
 
-					--MessageBox("%s -- moving to nebulae:%s", tostring (Script), path_through_fields)
+					DebugMessage("%s -- moving to nebulae:%s", tostring (Script), path_through_fields)
 					BlockOnCommand(tf.Move_To(nebula, 10, path_through_fields))
 					return true
 				end	
@@ -511,7 +511,7 @@ function GalacticAttackAllowed(difficulty, ai_territories_just_gained)
 
 		-- If the AI has allowed attacks left, permit the attack and decrement
 		GlobalValue.Set(PlayerSpecificName(PlayerObject, "num_ai_attacks_left"), num_ai_attacks_left - 1)
-		--MessageBox("%s -- ai has %d attacks left; not pausing before next attack", tostring(Script), num_ai_attacks_left)
+		DebugMessage("%s -- ai has %d attacks left; not pausing before next attack", tostring(Script), num_ai_attacks_left)
 		return true
 	else
 		
@@ -534,7 +534,7 @@ function GalacticAttackAllowed(difficulty, ai_territories_just_gained)
 		-- Track the player's progress
 		num_land_enemy_controlled = EvaluatePerception("Num_Enemy_Land_Territories", PlayerObject)
 		num_space_enemy_controlled = EvaluatePerception("Num_Enemy_Space_Territories", PlayerObject)
-		--MessageBox("%s -- num_land_enemy_controlled:%d num_space_enemy_controlled:%d", tostring(Script), num_land_enemy_controlled, num_space_enemy_controlled)
+		DebugMessage("%s -- num_land_enemy_controlled:%d num_space_enemy_controlled:%d", tostring(Script), num_land_enemy_controlled, num_space_enemy_controlled)
 
 		player_gains_before_attacking = GetGlobalValueOrZero(PlayerObject, "player_gains_before_attacking")
         if player_gains_before_attacking == 0 then
@@ -542,7 +542,7 @@ function GalacticAttackAllowed(difficulty, ai_territories_just_gained)
 			-- Establish how far the player can go unresponded
 			player_gains_before_attacking = GameRandom(min_player_wins_unresponded, max_player_wins_unresponded)
 			GlobalValue.Set(PlayerSpecificName(PlayerObject, "player_gains_before_attacking"), player_gains_before_attacking)
-			--MessageBox("%s -- Determined %d player gains allowed and recording current player territories.", tostring(Script), player_gains_before_attacking)
+			DebugMessage("%s -- Determined %d player gains allowed and recording current player territories.", tostring(Script), player_gains_before_attacking)
 
 			-- Record the state of the galaxy
 			GlobalValue.Set(PlayerSpecificName(PlayerObject, "recent_land_enemy_controlled"), num_land_enemy_controlled)
@@ -564,16 +564,15 @@ function GalacticAttackAllowed(difficulty, ai_territories_just_gained)
 			-- Also reset the losses allowed, so that it will be randomized next time
 			GlobalValue.Set(PlayerSpecificName(PlayerObject, "player_gains_before_attacking"), 0)
 
-			--MessageBox("%s -- player has enough wins unresponded (%d); not pausing before next attack. \n AI gets %d attacks without pause", tostring(Script), player_territories_gained, num_ai_attacks_left)
+			DebugMessage("%s -- player has enough wins unresponded (%d); not pausing before next attack. \n AI gets %d attacks without pause", tostring(Script), player_territories_gained, num_ai_attacks_left)
 			return true
 		else
 
-			--MessageBox("%s -- %d player territories gained, %d allowed before responding so pausing before next attack"
-			--							, tostring(Script), player_territories_gained, player_gains_before_attacking)
+			DebugMessage("%s -- %d player territories gained, %d allowed before responding so pausing before next attack", tostring(Script), player_territories_gained, player_gains_before_attacking)
 			if player_territories_gained < 0 then
 
 				-- Record the state of the galaxy
-				--MessageBox("%s -- player lost ground; resetting recent territories records", tostring(Script))
+				DebugMessage("%s -- player lost ground; resetting recent territories records", tostring(Script))
 				GlobalValue.Set(PlayerSpecificName(PlayerObject, "recent_land_enemy_controlled"), num_land_enemy_controlled)
 				GlobalValue.Set(PlayerSpecificName(PlayerObject, "recent_space_enemy_controlled"), num_space_enemy_controlled)
 			end 

@@ -275,7 +275,7 @@ function State_Underworld_A02M07_Begin (message)
 			terminal.Make_Invulnerable(true)
 			terminal.Set_Cannot_Be_Killed(true)
 
-			--MessageBox("terminal set to invulnerable")
+			JoeMessage("terminal set to invulnerable")
 		end
 
 
@@ -295,9 +295,9 @@ function State_Underworld_A02M07_Begin (message)
 			if TestValid(tyber) then
 				tyber.Teleport_And_Face(tyber_goto_0)
 				tyber.Prevent_All_Fire(true)
-				--MessageBox("Tyber Reinforcement found, teleporting")
+				JoeMessage("Tyber Reinforcement found, teleporting")
 			else
-				MessageBox("No Tyber Reinforcement found, spawning and teleporting")
+				JoeMessage("No Tyber Reinforcement found, spawning and teleporting")
 				--tyber_spawn = Spawn_Unit(Find_Object_Type("TYBER_ZANN_PASSENGER"), tyber_temp_loc, underworld)
 				tyber_spawn = Spawn_Unit(Find_Object_Type("TYBER_ZANN_PASSENGER"), tyber_goto_0, underworld)
 				tyber = tyber_spawn[1]
@@ -326,7 +326,7 @@ function State_Underworld_A02M07_Begin (message)
 
 
 			Fade_Screen_In(2)
-			--MessageBox("Exit_Cinematic")
+			JoeMessage("Exit_Cinematic")
 			Create_Thread("Exit_Cinematic")
 			Master_Volume_Restore()
 
@@ -398,9 +398,9 @@ function Reinforce_Empire_Units()
 				reinforcement_table = reinforcement_table + 1
 			end
 		end
-		--MessageBox("Empire controlls %d reinforcement points", reinforcement_table)
+		JoeMessage("Empire controlls %d reinforcement points", reinforcement_table)
 		if reinforcement_table <= 0 then
-			MessageBox("Empire controlls no reinforcement points...breaking out of loop")
+			JoeMessage("Empire controlls no reinforcement points...breaking out of loop")
 			break
 		end
 
@@ -410,7 +410,7 @@ function Reinforce_Empire_Units()
 
 			--current_list = reinforcement_table_list[GameRandom(1, 4)]
 
-			--MessageBox("current reinforced_units  is %d", reinforced_units)
+			JoeMessage("current reinforced_units  is %d", reinforced_units)
 
 			if reinforced_units <= 6 then
 					current_list = reinforcement_table_list[GameRandom(1, 1)]
@@ -441,7 +441,7 @@ function Garrison_Prox(unit_list)
 	for k, unit in pairs(unit_list) do
 		if TestValid(unit) then
 			if unit.Is_Category("Infantry") and unit.Get_Owner().Get_Faction_Name() == "EMPIRE" then
-				--MessageBox("Attaching Prox to %s!", unit.Get_Type().Get_Name())
+				JoeMessage("Attaching Prox to %s!", unit.Get_Type().Get_Name())
 				Register_Prox(unit, PROX_Juggernaut_Load, 250, empire)
 			end
 			if unit.Get_Type().Get_Name() == "HAV_JUGGERNAUT" then
@@ -459,16 +459,16 @@ function Move_Jug(juggernaut)
 	if garrison_count >= 3 then
 		juggernaut.Suspend_Locomotor(false)
 		Create_Thread("Hunt_Underworld", juggernaut)
-		--MessageBox("Hunting Underworld!  Total Garrisons = %d", garrison_count)
+		JoeMessage("Hunting Underworld!  Total Garrisons = %d", garrison_count)
 	else
-		--MessageBox("Not enough garrisons to hunt!  Total Garrisons = %d", garrison_count)
+		JoeMessage("Not enough garrisons to hunt!  Total Garrisons = %d", garrison_count)
 		Sleep(5)
 		Create_Thread("Move_Jug", juggernaut)
 	end
 end
 
 function Juggernaut_Attacked_Callback(fell_under_attack, most_deadly_enemy, victim)
-	--MessageBox("Juggernaut Attacked!")
+	JoeMessage("Juggernaut Attacked!")
 	victim_garrison_list = victim.Get_Garrisoned_Units()
 	victim_garrison_count = table.getn(victim_garrison_list)
 	if victim_garrison_count > 0 then
@@ -504,7 +504,7 @@ function Story_Mode_Service()
 
 	if not droid_objective_achieved and droids_returned >= 8 then
 		droid_objective_achieved = true
-		--MessageBox("All 8 Droids returned.")
+		JoeMessage("All 8 Droids returned.")
 		Story_Event("TRIGGER_MISSION_07_DROIDS_RETURNED")
 		Story_Event("TEXT_SPEECH_UW_ACT02_M07_22")
 		--Urai Fen: Tyber, we've collected enough gas.  All droids are returning to the shuttle.
@@ -521,7 +521,7 @@ function Story_Mode_Service()
 
 	if not outpost_objective_achieved and outposts_tripped >= 4 then
 		outpost_objective_achieved = true
-		--MessageBox("All Outposts Visited.")
+		JoeMessage("All Outposts Visited.")
 		Story_Event("TRIGGER_MISSION_07_EVIDENCE_PLANTED")
 
 		objectives_achieved = objectives_achieved + 1
@@ -529,7 +529,7 @@ function Story_Mode_Service()
 
 	if not final_objective_triggered and objectives_achieved >= 3 then
 		final_objective_triggered = true
-		--MessageBox("3 objectives triggered.")
+		JoeMessage("3 objectives triggered.")
 
 		Story_Event("TRIGGER_MISSION_07_FINAL_OBJECTIVE")
 	end
@@ -628,7 +628,7 @@ function PROX_Gas_Refinery(prox_obj, trigger_obj)
 			end
 
 			  prox_obj.Cancel_Event_Object_In_Range(PROX_Gas_Refinery)
-			  --MessageBox("Droid tripped Refinery prox event.")
+			  JoeMessage("Droid tripped Refinery prox event.")
 
 			prox_obj.Highlight(false)
 			Create_Thread("Remove_Refinery_Blip", prox_obj)
@@ -791,7 +791,7 @@ function PROX_Droid_Return(prox_obj, trigger_obj)
 			trigger_obj.Set_Selectable(false)
 			Story_Event("TEXT_SPEECH_UW_ACT02_M07_17")
 			  --Gas Cargo Droid: Transferring gas�
-			  --MessageBox("Droid tripped shuttle prox event, droids returned = %d", droids_returned)
+			  JoeMessage("Droid tripped shuttle prox event, droids returned = %d", droids_returned)
 			  Create_Thread("Gas_Droid_Returned", trigger_obj)
 			end
 
@@ -801,7 +801,7 @@ end
 
 function Gas_Droid_Returned(full_droid)
 	full_droid.Set_Cannot_Be_Killed(true)
-	--MessageBox("function Gas_Droid_Returned(full_droid) HIT!!")
+	JoeMessage("function Gas_Droid_Returned(full_droid) HIT!!")
 	--Sleep(6)
 
 	if TestValid(full_droid) then
@@ -815,7 +815,7 @@ function Gas_Droid_Returned(full_droid)
 		droids_returned = droids_returned + 1
 
 		if droids_returned == 1 then
-			--MessageBox("droids_returned == 1")
+			JoeMessage("droids_returned == 1")
 			Story_Event("UM07_SEVEN_CONTAINERS_LEFT")
 		elseif droids_returned == 2 then
 			Story_Event("UM07_SIX_CONTAINERS_LEFT")
@@ -856,7 +856,7 @@ end
 function PROX_Bespin_Server(prox_obj, trigger_obj)
 	if trigger_obj.Get_Type().Get_Name() == "IG-88"  then
 		prox_obj.Cancel_Event_Object_In_Range(PROX_Bespin_Server)
-        --MessageBox("IG-88 tripped Server prox event.")
+        JoeMessage("IG-88 tripped Server prox event.")
 
         Story_Event("TEXT_SPEECH_UW_ACT02_M07_13")
         --ig88.Suspend_Locomotor(true)
@@ -874,7 +874,7 @@ function IG88_Acquire_Data(server)
 
 
 		if not TestValid(server_flag) then
-			MessageBox("not TestValid(server_flag)")
+			JoeMessage("not TestValid(server_flag)")
 		else
 			BlockOnCommand(ig88.Move_To(server_flag))
 			ig88.Turn_To_Face(server)
@@ -895,7 +895,7 @@ function IG88_Acquire_Data(server)
 end
 
 function PROX_Guard_Outpost(prox_obj, trigger_obj)
-	--MessageBox("Prox Tripped by: %s", trigger_obj.Get_Type().Get_Name())
+	JoeMessage("Prox Tripped by: %s", trigger_obj.Get_Type().Get_Name())
 	if trigger_obj.Get_Type().Get_Name() == "TYBER_ZANN_PASSENGER"  then
 		prox_obj.Cancel_Event_Object_In_Range(PROX_Guard_Outpost)
 
@@ -933,7 +933,7 @@ function Thread_Guard_Outpost(thread_info)
 
 	if bool_first_security_outpost == true then
 		bool_first_security_outpost = false
-		--MessageBox("Story_Event(UM07_TYBER_IDENTIFIES_GUARD_OUTPOSTS)")
+		JoeMessage("Story_Event(UM07_TYBER_IDENTIFIES_GUARD_OUTPOSTS)")
 		Story_Event("UM07_TYBER_IDENTIFIES_GUARD_OUTPOSTS")
 	end
 
@@ -945,7 +945,7 @@ function Thread_Guard_Outpost(thread_info)
 	local_tyber.Set_Selectable(false)
 
 	if not TestValid(local_tyber) then
-		MessageBox("not local_tyber")
+		JoeMessage("not local_tyber")
 	end
 
 	--find nearest interface node
@@ -1023,13 +1023,13 @@ function PROX_Hero_Return(prox_obj, trigger_obj)
 					ig88_dist = ig88.Get_Distance(prox_obj)
 				end
 
-				--MessageBox("Hero Prox triggered. tyber_dist = %d, urai_dist = %d, ig88_dist = %d.", tyber_dist, urai_dist, ig88_dist)
+				JoeMessage("Hero Prox triggered. tyber_dist = %d, urai_dist = %d, ig88_dist = %d.", tyber_dist, urai_dist, ig88_dist)
 
 				if tyber_dist <= 275 and
 				   urai_dist <= 275 and
 				   ig88_dist <= 275 then
 						prox_obj.Cancel_Event_Object_In_Range(PROX_Hero_Return)
-						--MessageBox("All Heroes in range! Sending Victory Trigger!")
+						JoeMessage("All Heroes in range! Sending Victory Trigger!")
 						Story_Event("TRIGGER_MISSION_07_HEROES_AT_SHUTTLE")
 						Create_Thread("End_Cinematic")
 				end
@@ -1082,9 +1082,9 @@ function Intro_Cinematic()
 	if TestValid(tyber) then
 		tyber.Teleport_And_Face(tyber_temp_loc)
 		tyber.Prevent_All_Fire(true)
-		--MessageBox("Tyber Reinforcement found, teleporting")
+		JoeMessage("Tyber Reinforcement found, teleporting")
 	else
-		MessageBox("No Tyber Reinforcement found, spawning and teleporting")
+		JoeMessage("No Tyber Reinforcement found, spawning and teleporting")
 		tyber_spawn = Spawn_Unit(Find_Object_Type("TYBER_ZANN_PASSENGER"), tyber_temp_loc, underworld)
 		tyber = tyber_spawn[1]
 		tyber.Prevent_All_Fire(true)
@@ -1184,7 +1184,7 @@ end
 function State_Underworld_A02M07_Speech_Line_00_Remove_Text(message)
 	if message == OnEnter then
 
-		--MessageBox("State_Underworld_A02M07_Speech_Line_00_Remove_Text  HIT!!")
+		JoeMessage("State_Underworld_A02M07_Speech_Line_00_Remove_Text  HIT!!")
 		Transition_Cinematic_Camera_Key(cin_trooper_0, 0, 100, 15, 180, 1, 0, 1, 0)
 		Transition_Cinematic_Target_Key(tyber, 0, 0, 0, 0, 0, 0, 0, 0)
 
@@ -1198,7 +1198,7 @@ end
 function State_Underworld_A02M07_Speech_Line_01_Remove_Text(message)
 	if message == OnEnter then
 
-		--MessageBox("State_Underworld_A02M07_Speech_Line_01_Remove_Text  HIT!!")
+		JoeMessage("State_Underworld_A02M07_Speech_Line_01_Remove_Text  HIT!!")
 		Transition_Cinematic_Camera_Key(tyber, 0, 100, 15, 0, 1, 0, 1, 0)
 		Transition_Cinematic_Target_Key(cin_trooper_0, 0, 0, 0, 0, 0, 0, 0, 0)
 
@@ -1212,7 +1212,7 @@ function State_Underworld_A02M07_Speech_Line_02_Remove_Text(message)
 
 		--Transition_Cinematic_Camera_Key(tyber, 0, 100, 15, 180, 1, 0, 1, 0)
 		--Transition_Cinematic_Target_Key(cin_trooper_0, 0, 0, 0, 0, 0, 0, 0, 0)
-		--MessageBox("State_Underworld_A02M07_Speech_Line_02_Remove_Text  HIT!!")
+		JoeMessage("State_Underworld_A02M07_Speech_Line_02_Remove_Text  HIT!!")
 
 
 		Story_Event("TEXT_SPEECH_UW_ACT02_M07_03")
@@ -1318,7 +1318,7 @@ function State_Underworld_A02M07_Speech_Line_07_Remove_Text(message)
 end
 
 function Exit_Cinematic()
-	--MessageBox("Exit_Cinematic HIT!")
+	JoeMessage("Exit_Cinematic HIT!")
 	current_cinematic_thread = nil
 
 	urai.Suspend_Locomotor(false)
@@ -1405,9 +1405,9 @@ function End_Camera()
 	if TestValid(tyber) then
 		tyber.Teleport_And_Face(tyber_goto_0)
 		tyber.Prevent_All_Fire(false)
-		--MessageBox("Tyber Reinforcement found, teleporting")
+		JoeMessage("Tyber Reinforcement found, teleporting")
 	else
-		MessageBox("No Tyber Reinforcement found, spawning and teleporting")
+		JoeMessage("No Tyber Reinforcement found, spawning and teleporting")
 		--tyber_spawn = Spawn_Unit(Find_Object_Type("TYBER_ZANN_PASSENGER"), tyber_temp_loc, underworld)
 		tyber_spawn = Spawn_Unit(Find_Object_Type("TYBER_ZANN_PASSENGER"), tyber_goto_0, underworld)
 		tyber = tyber_spawn[1]
@@ -1472,7 +1472,7 @@ function End_Camera()
 
 
 	Fade_Screen_In(2)
-	--MessageBox("Exit_Cinematic")
+	JoeMessage("Exit_Cinematic")
 	Create_Thread("Exit_Cinematic")
 
 
@@ -1965,7 +1965,7 @@ function State_Underworld_A02M07_Speech_Line_35_Remove_Text(message)
 	Suspend_AI(0)
 
 	Story_Event("VICTORY_TRIGGER")
-	--MessageBox("Victory message sent!")
+	JoeMessage("Victory message sent!")
 
 	end
 end
@@ -1976,7 +1976,7 @@ end
 
 function Thread_Cloud_Car_Flyovers()
 	--see how many flyovers there currently are
-	--MessageBox("function Thread_Cloud_Car_Flyovers() HIT!")
+	JoeMessage("function Thread_Cloud_Car_Flyovers() HIT!")
 	Sleep(5)
 	local flyover_max = 0
 	for i, cloud_city_car in pairs(cloud_city_cars) do
@@ -1993,7 +1993,7 @@ function Thread_Cloud_Car_Flyovers()
 		local flyover_roll = GameRandom.Free_Random(1, flyover_max)
 
 		while cloud_cars_in_use[cloud_city_cars[flyover_roll]] do
-			--MessageBox("Cloud car in use")
+			JoeMessage("Cloud car in use")
 			flyover_roll = GameRandom.Free_Random(1, flyover_max)
 			Sleep(3)
 		end
@@ -2011,7 +2011,7 @@ function Thread_Flyover_Animation(cloud_car)
 	cloud_cars_in_use[cloud_car] = true
 
 	cloud_car.Hide(false)
-	--MessageBox("BlockOnCommand(cloud_car.Play_Animation")
+	JoeMessage("BlockOnCommand(cloud_car.Play_Animation")
 	BlockOnCommand(cloud_car.Play_Animation("Cinematic", false, 0))
 	cloud_car.Hide(true)
 
@@ -2022,6 +2022,6 @@ end
 
 -- ##########################################################################################
 function JoeMessage(...)
-	--JoeMessage("current current_spawn_times  is %d", current_spawn_times)
+	JoeMessage("current current_spawn_times  is %d", current_spawn_times)
 	_CustomScriptMessage("JoeLog.txt", string.format(unpack(arg)))
 end

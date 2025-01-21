@@ -42,7 +42,7 @@
 require("PGCommands")
 
 function Base_Definitions()
-	-- DebugMessage("%s -- In Base_Definitions", tostring(Script))
+	DebugMessage("%s -- In Base_Definitions", tostring(Script))
 
 	InSpaceConflict = false
 	MagicPlan = false

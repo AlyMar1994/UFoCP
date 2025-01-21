@@ -106,7 +106,7 @@ function GoKite(tf, unit, kite_pos, release)
 		tf.Release_Unit(unit)
 	else
 		if not unit.Is_On_Diversion() then
-			--MessageBox("%s -- Diverting: %s", tostring(Script), tostring(unit))
+			DebugMessage("%s -- Diverting: %s", tostring(Script), tostring(unit))
 			Try_Ability(unit,"Turbo") -- Enable Turbo mode, if we have it.
 			Try_Ability(unit,"JET_PACK", kite_pos)
 			Try_Ability(unit,"EJECT_VEHICLE_THIEF")
@@ -383,13 +383,13 @@ function Default_Unit_Damaged(tf, unit, attacker, deliberate)
 end
 
 function Default_Original_Target_Destroyed()
-	--DebugMessage("%s -- Original target destroyed.  Aborting.", tostring(Script))
+	DebugMessage("%s -- Original target destroyed.  Aborting.", tostring(Script))
 	Attacking = false
 	--ScriptExit() Some plans now have behaviors to occur after this event.
 end
 
 function Default_Current_Target_Destroyed(tf)
-	--MessageBox("%s -- Current target destroyed.  Aborting.", tostring(Script))
+	DebugMessage("%s -- Current target destroyed.  Aborting.", tostring(Script))
 	Attacking = false
 	
 	-- Turn off some unending abilities that might no longer be appropriate
@@ -443,7 +443,7 @@ end
 
 
 function Default_Target_In_Range(tf, unit, target)
-	--MessageBox("%s -- unit:  Default_Target_In_Range for: %s.", tostring(Script), tostring(unit), tostring(target))
+	DebugMessage("%s -- unit:  Default_Target_In_Range for: %s.", tostring(Script), tostring(unit), tostring(target))
 
 	-- We'll assume that once the first unit within a task force is in range, the attack has begun.
 	Attacking = true
@@ -494,11 +494,11 @@ end
 -- This fires if the countdown was going and it is now refreshed or if you come out of a nebula
 function Default_Unit_Ability_Ready(tf, unit, ability)
 
-	--MessageBox("%s ready for %s", ability, tostring(unit))
+	DebugMessage("%s ready for %s", ability, tostring(unit))
 	
 	-- Try to recover use of interrupted abilities.
 	if lib_cancelled_abilities[unit] and lib_cancelled_abilities[unit][ability] then
-		--MessageBox("%s-- attempting to recover use of %s", tostring(Script), ability)
+		DebugMessage("%s-- attempting to recover use of %s", tostring(Script), ability)
 		unit.Activate_Ability(ability, true)
 		lib_cancelled_abilities[unit][ability] = false
 	end

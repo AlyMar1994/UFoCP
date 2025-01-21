@@ -993,7 +993,7 @@ function Get_Game_Stat_For_Control_ID(player, control_id, for_tactical)
 		end
 		return last
 	else
-		MessageBox("Unknown control id %s:%s for Get_Game_Stat_For_Control_ID", type(control_id), tostring(control_id));
+		DebugMessage("Unknown control id %s:%s for Get_Game_Stat_For_Control_ID", type(control_id), tostring(control_id));
 	end
 
 end

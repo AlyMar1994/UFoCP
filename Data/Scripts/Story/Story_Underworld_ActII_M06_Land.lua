@@ -638,7 +638,7 @@ function PROX_Encountered_Heroes(prox_obj, trigger_obj) --JET_PACK
 				end
 			end
 
-			--MessageBox("Fly guard should now attack heroes")
+			JoeMessage("Fly guard should now attack heroes")
 			flag_flyguard01_to_ai = true
 
 			--cancel all prox events on waypoints
@@ -742,7 +742,7 @@ function Thread_Group1Rancors_Start_Guarding()
 			end
 
 			if counter_rancors == 0 then
-				--MessageBox("All Rancors Dead")
+				JoeMessage("All Rancors Dead")
 				break
 			end
 		end
@@ -765,7 +765,7 @@ function Thread_Group2Rancors_Start_Guarding()
 			end
 
 			if counter_rancors == 0 then
-				--MessageBox("All Rancors Dead")
+				JoeMessage("All Rancors Dead")
 				break
 			end
 		end
@@ -789,7 +789,7 @@ function Thread_Group3Rancors_Start_Guarding()
 			end
 
 			if counter_rancors == 0 then
-				--MessageBox("All Rancors Dead")
+				JoeMessage("All Rancors Dead")
 				break
 			end
 		end
@@ -813,7 +813,7 @@ function Thread_Group4Rancors_Start_Guarding()
 			end
 
 			if counter_rancors == 0 then
-				--MessageBox("All Rancors Dead")
+				JoeMessage("All Rancors Dead")
 				break
 			end
 		end
@@ -838,7 +838,7 @@ function PROX_RancorGroup1_vs_Tyber_and_Urai(prox_obj, trigger_obj)
 			end
 
 			if flag_message_given == false then
-				--MessageBox("Rancors have detected NON-STEALTHED unit...attacking")
+				JoeMessage("Rancors have detected NON-STEALTHED unit...attacking")
 				flag_message_given = true
 				flag_group1rancors_guarding = false
 			end
@@ -893,7 +893,7 @@ function Thread_Group1Rancors_Attack_Heroes(first_target)
 		return --everyone is dead...exit and wait for mission loss events to take over
 	end
 
-	--MessageBox("Rancors returning to initial positions")
+	JoeMessage("Rancors returning to initial positions")
 	flag_group1rancors_guarding = true
 
 	--group1_rancors = Find_All_Objects_With_Hint("group1-rancor")
@@ -922,7 +922,7 @@ function PROX_RancorGroup2_vs_Tyber_and_Urai(prox_obj, trigger_obj)
 			end
 
 			if flag_message_given == false then
-				--MessageBox("Rancors have detected NON-STEALTHED unit...attacking")
+				JoeMessage("Rancors have detected NON-STEALTHED unit...attacking")
 				flag_message_given = true
 				flag_group2rancors_guarding = false
 			end
@@ -977,7 +977,7 @@ function Thread_Group2Rancors_Attack_Heroes(first_target)
 		return --everyone is dead...exit and wait for mission loss events to take over
 	end
 
-	--MessageBox("Rancors returning to initial positions")
+	JoeMessage("Rancors returning to initial positions")
 	flag_group2rancors_guarding = true
 	--group2_rancors = Find_All_Objects_With_Hint("group2-rancor")
 	for i, rancor in pairs(group2_rancors) do
@@ -1006,7 +1006,7 @@ function PROX_RancorGroup3_vs_Tyber_and_Urai(prox_obj, trigger_obj)
 			end
 
 			if flag_message_given == false then
-				--MessageBox("Rancors have detected NON-STEALTHED unit...attacking")
+				JoeMessage("Rancors have detected NON-STEALTHED unit...attacking")
 				flag_message_given = true
 				flag_group3rancors_guarding = false
 			end
@@ -1061,7 +1061,7 @@ function Thread_Group3Rancors_Attack_Heroes(first_target)
 		return --everyone is dead...exit and wait for mission loss events to take over
 	end
 
-	--MessageBox("Rancors returning to initial positions")
+	JoeMessage("Rancors returning to initial positions")
 	flag_group3rancors_guarding = true
 	--group3_rancors = Find_All_Objects_With_Hint("group3-rancor")
 	for i, rancor in pairs(group3_rancors) do
@@ -1090,7 +1090,7 @@ function PROX_RancorGroup4_vs_Tyber_and_Urai(prox_obj, trigger_obj)
 			end
 
 			if flag_message_given == false then
-				--MessageBox("Rancors have detected NON-STEALTHED unit...attacking")
+				JoeMessage("Rancors have detected NON-STEALTHED unit...attacking")
 				flag_message_given = true
 				flag_group4rancors_guarding = false
 			end
@@ -1145,7 +1145,7 @@ function Thread_Group4Rancors_Attack_Heroes(first_target)
 		return --everyone is dead...exit and wait for mission loss events to take over
 	end
 
-	--MessageBox("Rancors returning to initial positions")
+	JoeMessage("Rancors returning to initial positions")
 	flag_group4rancors_guarding = true
 	--group4_rancors = Find_All_Objects_With_Hint("group4-rancor")
 	for i, rancor in pairs(group4_rancors) do
@@ -1300,7 +1300,7 @@ function PROX_Player_Crossing_River(prox_obj, trigger_obj)
 	if trigger_obj.Get_Owner() == underworld then
 		prox_obj.Cancel_Event_Object_In_Range(PROX_Player_Crossing_River)
 		--land the shuttles at prison 03
-		--MessageBox("p3 prox tripped...")
+		JoeMessage("p3 prox tripped...")
 
 
 		Create_Thread("Thread_Player_Crossing_River")
@@ -1310,7 +1310,7 @@ end
 
 function Thread_Player_Crossing_River()
 	while (TestValid(uplink_station) or TestValid(uplink_station02) or TestValid(uplink_station03)) do
-		--MessageBox("p3 prox tripped...landing shuttles")
+		JoeMessage("p3 prox tripped...landing shuttles")
 		if flag_first_river_crossing == true then
 			flag_first_river_crossing = false
 			ReinforceList(empire_prison03_list01, prison03_lz01, empire, true, true, true)
@@ -1396,7 +1396,7 @@ function State_OBJECTIVE_ADD_Destroy_Prison01_PowerGenerator(message)
 			Add_Radar_Blip(prison_1_power, "radar_blip_prison_1_power")
 			--Create_Thread("Death_Monitor_Prison1_Power")
 		else
-			--MessageBox("Cannot find Prison_1_power...tell Dan Etter Immediately.")
+			JoeMessage("Cannot find Prison_1_power...tell Dan Etter Immediately.")
 		end
 
 
@@ -1410,7 +1410,7 @@ function State_UM06_OBJECTIVE_ADD_Destroy_Singing_Mountains_Nightsister_Prison(m
 			Add_Radar_Blip(singing_prison, "radar_blip_singing_prison")
 			--Create_Thread("Death_Monitor_Prison1_Power")
 		else
-			--MessageBox("Cannot find singing_prison...tell Dan Etter Immediately.")
+			JoeMessage("Cannot find singing_prison...tell Dan Etter Immediately.")
 		end
 	end
 end
@@ -1457,12 +1457,12 @@ end
 
 function State_Underworld_A02M06_Victory_Trigger(message)
 	if message == OnEnter then
-		--MessageBox("Governors Quarters destroyed!  Trigger Victory!")
+		JoeMessage("Governors Quarters destroyed!  Trigger Victory!")
 	end
 end
 
 function Story_Mode_Service()
-	--MessageBox("State Hit!")
+	JoeMessage("State Hit!")
 	if not TestValid(prison_2_power) then
 		if not prison_2_power_down and prison_2_power_identified then
 			prison_2_power_down = true
@@ -1472,7 +1472,7 @@ function Story_Mode_Service()
 	end
 	if not TestValid(singing_prison) and not singing_tripped then
 		singing_tripped = true
-		--MessageBox("Singing prison destroyed!  Sending Message!")
+		JoeMessage("Singing prison destroyed!  Sending Message!")
 		Story_Event("TRIGGER_MISSION_06_SINGING")
 		Create_Thread("Thread_Cinematic_Tyber_Meets_Sisters")
 
@@ -1482,21 +1482,21 @@ function Story_Mode_Service()
 	end
 	if not TestValid(frenzied_prison) and not frenzied_tripped then
 		frenzied_tripped = true
-		--MessageBox("Frenzied prison destroyed!  Sending Message!")
+		JoeMessage("Frenzied prison destroyed!  Sending Message!")
 		Story_Event("TRIGGER_MISSION_06_FRENZIED")
 		Create_Thread("Thread_Spawn_Prison02_Sisters")
 		Create_Thread("Thread_Cinematic_Tyber_Meets_Silri")
 	end
 	if not TestValid(misty_prison) and not misty_tripped then
 		misty_tripped = true
-		--MessageBox("Misty prison destroyed!  Sending Message!")
+		JoeMessage("Misty prison destroyed!  Sending Message!")
 		Story_Event("TRIGGER_MISSION_06_MISTY")
 		Create_Thread("Thread_Spawn_Prison03_Sisters")
 		Create_Thread("Thread_Spawn_Prisoners", 3) --the "2" param tells which prison to spawn at
 	end
 	if not TestValid(governors_quarters) and governors_quarters_identified and not victory_triggered then
 		victory_triggered = true
-		--MessageBox("Governors Quarters destroyed!  Sending Message!")
+		JoeMessage("Governors Quarters destroyed!  Sending Message!")
 		--Story_Event("TRIGGER_MISSION_06_VICTORY")
 		Create_Thread("Thread_Cinematic_Finale")
 	end
@@ -1592,7 +1592,7 @@ function Prison_2_Power_Down()
 
 		for k, turret in pairs(prison_2_turret_list) do
 			if TestValid(turret) then
-				--MessageBox("Turret faction switched to neutral!")
+				JoeMessage("Turret faction switched to neutral!")
 				turret.Change_Owner(neutral)
 
 			end
@@ -1600,7 +1600,7 @@ function Prison_2_Power_Down()
 
 		for k, turbolaser in pairs(prison_2_turbolaser_list) do
 			if TestValid(turbolaser) then
-				--MessageBox("turbolaser faction switched to neutral!")
+				JoeMessage("turbolaser faction switched to neutral!")
 				turbolaser.Change_Owner(neutral)
 			end
 		end
@@ -1632,7 +1632,7 @@ function PROX_Rancor_NightSister(prox_obj, trigger_obj)
 		sisters_in_use[prox_obj] = true
 
 		prox_obj.Cancel_Event_Object_In_Range(PROX_Rancor_NightSister)
-		--MessageBox("Night Sister tripped Rancor prox event.")
+		JoeMessage("Night Sister tripped Rancor prox event.")
 		prox_obj.Make_Invulnerable(true)
 		trigger_obj.Make_Invulnerable(true)
 	  --current_sister = prox_obj
@@ -1651,11 +1651,11 @@ function Mount_Rancor(thread_info)
     rancor = ThreadValue.Get("rancor");
     current_sister = ThreadValue.Get("current_sister");
 
-	--MessageBox("Night Sister moving to rancor.")
+	JoeMessage("Night Sister moving to rancor.")
 	if TestValid(rancor) then
-		--MessageBox("rancor is valid.")
+		JoeMessage("rancor is valid.")
 		if TestValid(current_sister) then
-			--MessageBox("Night Sister is valid.")
+			JoeMessage("Night Sister is valid.")
 			rancor.Stop()
 			rancor_loc = rancor.Get_Position()
             BlockOnCommand(current_sister.Move_To(rancor_loc))
@@ -1757,7 +1757,7 @@ function Thread_Cinematic_Finale()
 
 	cuddles = Find_First_Object("Cuddles_The_Rancor")
 	if not TestValid(cuddles) then
-		--MessageBox("not registering cuddles")
+		JoeMessage("not registering cuddles")
 	else
 		cuddles.Stop()
 		Sleep(1)
@@ -2429,17 +2429,17 @@ end
 
 function Thread_Spawn_Prisoners(prison)
 	if prison == 1 then
-		--MessageBox("Thread_Spawn_Prisoners prison == 1")
+		JoeMessage("Thread_Spawn_Prisoners prison == 1")
 		spawn_flag01 = Find_Hint("MARKER_GENERIC_YELLOW", "prison01-prisoner-spawn01")
 		spawn_flag02 = Find_Hint("MARKER_GENERIC_YELLOW", "prison01-prisoner-spawn02")
 		spawn_flag03 = Find_Hint("MARKER_GENERIC_YELLOW", "prison01-prisoner-spawn03")
 	elseif prison == 2 then
-		--MessageBox("Thread_Spawn_Prisoners prison == 2")
+		JoeMessage("Thread_Spawn_Prisoners prison == 2")
 		spawn_flag01 = Find_Hint("MARKER_GENERIC_YELLOW", "prison02-prisoner-spawn01")
 		spawn_flag02 = Find_Hint("MARKER_GENERIC_YELLOW", "prison02-prisoner-spawn02")
 		spawn_flag03 = Find_Hint("MARKER_GENERIC_YELLOW", "prison02-prisoner-spawn03")
 	else
-		--MessageBox("Thread_Spawn_Prisoners prison == other")
+		JoeMessage("Thread_Spawn_Prisoners prison == other")
 		spawn_flag01 = Find_Hint("MARKER_GENERIC_YELLOW", "prison03-prisoner-spawn01")
 		spawn_flag02 = Find_Hint("MARKER_GENERIC_YELLOW", "prison03-prisoner-spawn02")
 		spawn_flag03 = Find_Hint("MARKER_GENERIC_YELLOW", "prison03-prisoner-spawn03")
@@ -2586,7 +2586,7 @@ end
 function State_UM06_DIALOG_NightSister_Greets_Tyber_Remove_Text (message)
 	if message == OnEnter then
 		--do camera switch here
-		--MessageBox("close-up of Tyber")
+		JoeMessage("close-up of Tyber")
 
 		camera_show_tyber = Find_Hint("MARKER_GENERIC_RED", "midtro01-camera-tyber")
 
@@ -2610,7 +2610,7 @@ end
 function State_UM06_DIALOG_NightSister_Greets_Tyber_Line2_Remove_Text (message)
 	if message == OnEnter then
 		--do camera switch here
-		--MessageBox("pull out to show both tyber and the night sisters")
+		JoeMessage("pull out to show both tyber and the night sisters")
 		midtro01_camera_nightsister= Find_Hint("MARKER_GENERIC_RED", "midtro01-camera-nightsister")
 
 		cine_sister = sister1_list[1]
@@ -2631,7 +2631,7 @@ end
 function State_UM06_DIALOG_NightSister_Greets_Tyber_Line3_Remove_Text (message)
 	if message == OnEnter then
 		--do camera switch here
-		--MessageBox("close up of tyber #2")
+		JoeMessage("close up of tyber #2")
 
 		Transition_Cinematic_Camera_Key(camera_show_tyber, 0, 5, 0, 0, 1, 0, 0, 0)
 		--Transition_Cinematic_Target_Key(tyber, 0, 0, 0, 5, 0, tyber, 0, 0)
@@ -2649,7 +2649,7 @@ end
 function State_UM06_DIALOG_NightSister_Greets_Tyber_Line4_Remove_Text (message)
 	if message == OnEnter then
 		--do camera switch here
-		--MessageBox("show silri in her cage here")
+		JoeMessage("show silri in her cage here")
 
 		show_silri_camera_start = Find_Hint("MARKER_GENERIC_RED", "midtro01-showsilri-camerastart")
 		show_silri_camera_move = Find_Hint("MARKER_GENERIC_RED", "midtro01-showsilri-cameramove")
@@ -2678,7 +2678,7 @@ end
 function State_UM06_DIALOG_NightSister_Greets_Tyber_Line5_Remove_Text (message)
 	if message == OnEnter then
 		--do camera switch here
-		--MessageBox("close up of urai")
+		JoeMessage("close up of urai")
 
 		midtro01_camera_urai= Find_Hint("MARKER_GENERIC_RED", "midtro01-camera-urai")
 
@@ -2697,7 +2697,7 @@ end
 function State_UM06_DIALOG_NightSister_Greets_Tyber_Line6_Remove_Text (message)
 	if message == OnEnter then
 		--do camera switch here
-		--MessageBox("quick shot of rancor then back to tyber")
+		JoeMessage("quick shot of rancor then back to tyber")
 
 		Transition_Cinematic_Camera_Key(midtro01_camera_nightsister, 0, 5, 0, 0, 1, 0, 0, 0)
 		Transition_Cinematic_Target_Key(sister1_gotospot, 0, 0, 0, 15, 0, sister1_gotospot, 0, 0)
@@ -2946,7 +2946,7 @@ function Thread_Death_Monitor_Empire_Reinforce(reinforce_list)
 		end
 
 		if spawned_troopers_dead == true then
-			--JoeMessage("Reinforced empire troops dead...bring in new ones")
+			JoeMessage("Reinforced empire troops dead...bring in new ones")
 			Sleep(30)
 			flag_okay_to_reinforce = true
 			break
@@ -3197,7 +3197,7 @@ function Thread_DeathMonitor_UplinkStation01()
 		Sleep(3)
 	end
 
-	--MessageBox("Thread_DeathMonitor_UplinkStation01")
+	JoeMessage("Thread_DeathMonitor_UplinkStation01")
 	--flag_uplink_01_destroyed = true
 	Story_Event("UM06_UPLINKSTATION_DESTOYED")
 end
@@ -3206,7 +3206,7 @@ function Thread_DeathMonitor_UplinkStation02()
 	while TestValid(uplink_station02) do
 		Sleep(3)
 	end
-	--MessageBox("Thread_DeathMonitor_UplinkStation02")
+	JoeMessage("Thread_DeathMonitor_UplinkStation02")
 	--flag_uplink_02_destroyed = true
 	Story_Event("UM06_UPLINKSTATION_DESTOYED")
 end
@@ -3216,7 +3216,7 @@ function Thread_DeathMonitor_UplinkStation03()
 		Sleep(3)
 	end
 
-	--MessageBox("Thread_DeathMonitor_UplinkStation03")
+	JoeMessage("Thread_DeathMonitor_UplinkStation03")
 	--flag_uplink_03_destroyed = true
 	Story_Event("UM06_UPLINKSTATION_DESTOYED")
 end
@@ -3226,7 +3226,7 @@ function Thread_DeathMonitor_UplinkStations()
 		Sleep(3)
 	end
 
-	--MessageBox("UM06_COMPLETE_OBJECTIVE_DESTROY_THE_UPLINK_STATIONS_AI_NOTIFICATION")
+	JoeMessage("UM06_COMPLETE_OBJECTIVE_DESTROY_THE_UPLINK_STATIONS_AI_NOTIFICATION")
 	Story_Event("UM06_COMPLETE_OBJECTIVE_DESTROY_THE_UPLINK_STATIONS_AI_NOTIFICATION")
 
 end
@@ -3249,17 +3249,17 @@ function Thread_Death_Monitor_Gate()
 	Create_Thread("Thread_Prison_Transports")
 
 	if TestValid(uplink_station) then
-		--MessageBox("Thread_DeathMonitor_UplinkStation01")
+		JoeMessage("Thread_DeathMonitor_UplinkStation01")
 		Create_Thread("Thread_DeathMonitor_UplinkStation01")
 	end
 
 	if TestValid(uplink_station02) then
-		--MessageBox("Thread_DeathMonitor_UplinkStation02")
+		JoeMessage("Thread_DeathMonitor_UplinkStation02")
 		Create_Thread("Thread_DeathMonitor_UplinkStation02")
 	end
 
 	if TestValid(uplink_station03) then
-		--MessageBox("Thread_DeathMonitor_UplinkStation03")
+		JoeMessage("Thread_DeathMonitor_UplinkStation03")
 		Create_Thread("Thread_DeathMonitor_UplinkStation03")
 	end
 
@@ -3281,7 +3281,7 @@ function Death_Monitor_Prison1_Power()
 
 	for k, turret in pairs(prison01_turrets_list) do
 		if TestValid(turret) then
-			--MessageBox("Turret faction switched to neutral!")
+			JoeMessage("Turret faction switched to neutral!")
 			turret.Change_Owner(neutral)
 
 		end
@@ -3602,7 +3602,7 @@ end
 
 
 function JoeMessage(...)
-	--JoeMessage("current current_spawn_times  is %d", current_spawn_times)
+	JoeMessage("current current_spawn_times  is %d", current_spawn_times)
 
 	_CustomScriptMessage("JoeLog.txt", string.format(unpack(arg)))
 

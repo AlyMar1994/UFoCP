@@ -132,7 +132,7 @@ function Cancel_Timer(func)
 	if func ~= nil then
 		TimerTable[func] = nil
 	else
-		MessageBox("%s -- cancelling nonexistant function, got:%s; aborting.", tostring(Script), type(func))
+		DebugMessage("%s -- cancelling nonexistant function, got:%s; aborting.", tostring(Script), type(func))
 	end
 end
 
@@ -140,12 +140,12 @@ end
 -- Setup a callback for the death or deletion of a given object.
 function Register_Death_Event(obj, func)
 	if not TestValid(obj) then
-		MessageBox("%s -- Error, object doesn't exist or has already died.", tostring(Script))
+		DebugMessage("%s -- Error, object doesn't exist or has already died.", tostring(Script))
 		return
 	end
 
 	if DeathTable[obj] ~= nil then
-		MessageBox("%s -- Error, object already registered for death event", tostring(Script))
+		DebugMessage("%s -- Error, object already registered for death event", tostring(Script))
 		return
 	end
 
@@ -166,12 +166,12 @@ end
 -- Setup a callback for a given object falling under attack.
 function Register_Attacked_Event(obj, func)
 	if not TestValid(obj) then
-		MessageBox("%s -- Error, object doesn't exist or has died.", tostring(Script))
+		DebugMessage("%s -- Error, object doesn't exist or has died.", tostring(Script))
 		return
 	end
 
 	if AttackedTable[obj] ~= nil then
-		MessageBox("%s -- Error, object already registered for attacked event", tostring(Script))
+		DebugMessage("%s -- Error, object already registered for attacked event", tostring(Script))
 		return
 	end
 
@@ -201,7 +201,7 @@ function Process_Attacked_Events()
 			-- Update that we don't have a deadly enemy any longer.
 			--else
 			elseif table[2] then
-				--MessageBox("obj:%s now has no deadly enemy", tostring(obj))
+				DebugMessage("obj:%s now has no deadly enemy", tostring(obj))
 				table[2] = false
 				table[1](false, nil, obj)
 			end
@@ -213,7 +213,7 @@ function Cancel_Attacked_Event(obj)
 	if obj ~= nil then
 		AttackedTable[obj] = nil
 	else
-		MessageBox("received nil object")
+		DebugMessage("received nil object")
 	end
 end
 
@@ -229,7 +229,7 @@ function Register_Prox(obj, func, range, player_filter)
 	end
 
 	if not TestValid(obj) then
-		MessageBox("%s -- Error, prox object doesn't exist; aborting", tostring(Script))
+		DebugMessage("%s -- Error, prox object doesn't exist; aborting", tostring(Script))
 		ScriptError("%s -- Error, prox object doesn't exist; aborting", tostring(Script))
 		return
 	end
@@ -280,7 +280,7 @@ function Try_Ability(thing, ability_name, target)
 		owner = thing.Get_Owner()
 	end
 	if owner == nil then
-		MessageBox("%s -- no owner for thing:%s", tostring(Script), tostring(thing))
+		DebugMessage("%s -- no owner for thing:%s", tostring(Script), tostring(thing))
 	end
 
 	-- At a given difficulty, there is a chance that the ability use will be allowed.

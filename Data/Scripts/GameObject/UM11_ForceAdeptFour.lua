@@ -100,7 +100,7 @@ function AdeptFour_AI()
 				Object.Override_Max_Speed(.1)
 				Object.Attach_Particle_Effect("STUNNED_OBJECT")
 				Object.Set_Cannot_Be_Killed(false)
-				--MessageBox("Stunned")
+				DebugMessage("%s -- UM11 BOSS: Stunned!", tostring(Script))
 			end
 		else
 			Object.Set_Cannot_Be_Killed(true)

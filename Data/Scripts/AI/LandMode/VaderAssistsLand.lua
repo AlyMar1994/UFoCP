@@ -72,7 +72,7 @@ function MainForce_Thread()
 
 	vader = MainForce.Get_Unit_Table()[1]
 	if not TestValid(vader) then
-		MessageBox("unexpected state; vader unavailable")
+		DebugMessage("unexpected state; vader unavailable", tostring(Script))
 		ScriptExit()
 	end
 

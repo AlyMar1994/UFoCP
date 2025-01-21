@@ -53,12 +53,12 @@ end
 
 function Sleep(time)
 
-	--DebugMessage("Sleeping...  SleepTime: %.3f, CurTime: %.3f\n", time, GetCurrentTime())
+	DebugMessage("Sleeping...  SleepTime: %.3f, CurTime: %.3f\n", time, GetCurrentTime())
 	ThreadValue.Set("StartTime", GetCurrentTime())
 	while GetCurrentTime() - ThreadValue("StartTime") < time do
 		PumpEvents()
 	end
-	--DebugMessage("Done with Sleep.  Continuing, CurTime: %.3f\n", GetCurrentTime())
+	DebugMessage("Done with Sleep.  Continuing, CurTime: %.3f\n", GetCurrentTime())
 end
 
 -- Service the block until optional max duration has expired or alternate break function returns true
@@ -85,12 +85,12 @@ function BlockOnCommand(block, max_duration, alternate_break_func)
 	
 		if ((max_duration ~= nil) and (max_duration ~= -1) 
 			and (GetCurrentTime() - ThreadValue("BlockStart") > max_duration)) then
-			--MessageBox("%s -- Had a time limit and it expired", tostring(Script))
+			DebugMessage("%s -- Had a time limit and it expired", tostring(Script))
 			return nil
 		end
 
 		if ((alternate_break_func ~= nil) and alternate_break_func()) then
-			--MessageBox("%s-- had a break func and it returned true", tostring(Script))
+			DebugMessage("%s-- had a break func and it returned true", tostring(Script))
 			return nil
 		end
 
@@ -131,10 +131,10 @@ function PumpEvents()
 
 	ThreadValue.Set("InPumpEvents", true)
 	
-	--DebugMessage("%s -- Entering yield.  Count: %d, Time: %.3f\n", tostring(Script), YieldCount, GetCurrentTime())
+	DebugMessage("%s -- Entering yield.  Count: %d, Time: %.3f\n", tostring(Script), YieldCount, GetCurrentTime())
 	YieldCount = YieldCount + 1
 	coroutine.yield(true) -- yield here and return to 'C'
-	--DebugMessage("%s -- Return from yield.  Count: %d, Time: %.3f\n", tostring(Script), YieldCount, GetCurrentTime())
+	DebugMessage("%s -- Return from yield.  Count: %d, Time: %.3f\n", tostring(Script), YieldCount, GetCurrentTime())
 	
 	CurrentEvent = GetEvent()
 	while CurrentEvent do
