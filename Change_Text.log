@@ -66,7 +66,7 @@ Additions:
 
 
 Housekeeping:
-• Despite the vast majority of dialogue being double-spaced in EaW (and partially in FoC), dialogue during general mission briefings, the Consortium's prologue, campaign and corruption missions wouldn't be.  Double-spacing has been rectified, and remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as all dialogue is single-spaced.) (BUG #208).
+• Despite the vast majority of dialogue being double-spaced in EaW (and mostly in FoC), dialogue during general mission briefings, the Consortium's prologue, campaign and corruption missions wouldn't be.  Double-spacing has been rectified, and remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as all dialogue is single-spaced.) (BUG #208).
 • Some dialogue would be triple-spaced.  This was majorily inconsistent, however when present would cause some graphical oddities with text.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #419)
 • Bossk's dialogue sometimes didn't follow the general trend of alien language dialogue, and wasn't prefixed with "(Translated)" like Jabba's dialogue, or his own dialogue in the campaign.  The prefix has been added and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #362)
 • Some of Jabba the Hutt's dialogue didn't follow the general trend of alien language dialogue, and wasn't prefixed with "(Translated)" like other parts of his dialogue in the campaign.  The prefix has been added and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #432)
