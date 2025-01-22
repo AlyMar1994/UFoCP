@@ -1594,7 +1594,7 @@
 
 		<SFXEvent Name="UHD_GravGen_Destroyed">
 			<Use_Preset> Preset_HUD </Use_Preset>
-			<Samples> I000_UHD8001_ENG.wav </Samples>
+			<Samples> I000_UHD8002_ENG.wav </Samples>
 			<Localize> Yes </Localize>
 			<Text_ID> TEXT_SFX_UHD_GRAVGEN_DESTROYED_1</Text_ID>
 			<Overlap_Test> Unit_UHD </Overlap_Test>
