@@ -2,7 +2,7 @@
 
 <SFXEvents>
 
-	<!--    START NEW REBEL HUD LINES      -->  
+	<!--    START NEW REBEL HUD LINES      -->
 
 	<SFXEvent Name="RHD_Bombard_Available">
 		<Use_Preset> Preset_HUD </Use_Preset>
@@ -76,7 +76,7 @@
 		<Overlap_Test> Unit_RHD </Overlap_Test>
 	</SFXEvent>
 
-	<!--    END NEW REBEL HUD LINES      --> 
+	<!--    END NEW REBEL HUD LINES      -->
 
 
 
@@ -86,7 +86,7 @@
 
 
 
-	<!--    START NEW EMPIRE HUD LINES      --> 
+	<!--    START NEW EMPIRE HUD LINES      -->
 
 	<SFXEvent Name="EHD_Bombard_Available">
 		<Use_Preset> Preset_HUD </Use_Preset>
@@ -168,7 +168,7 @@
 		<Overlap_Test> Unit_EHD </Overlap_Test>
 	</SFXEvent>
 
-	<!--    END NEW EMPIRE HUD LINES      --> 
+	<!--    END NEW EMPIRE HUD LINES      -->
 
 
 
@@ -183,7 +183,7 @@
 
 
 
-	<!--    START UNDERWORLD HUD LINES      --> 
+	<!--    START UNDERWORLD HUD LINES      -->
 
 	<SFXEvent Name="UHD_Space_Station_Under_Attack">
 		<Use_Preset> Preset_HUD </Use_Preset>
@@ -553,7 +553,7 @@
 		  <Localize> Yes </Localize>
 		  <Text_ID> TEXT_SFX_UHD_BACTA_TANK_SOLD_1</Text_ID>
 		  <Overlap_Test> Unit_UHD </Overlap_Test>
-	  </SFXEvent>      
+	  </SFXEvent>
 
 	 <SFXEvent Name="UHD_Turret_Sold">
 		 <Use_Preset> Preset_HUD </Use_Preset>
@@ -601,7 +601,7 @@
 		  <Overlap_Test> Unit_UHD </Overlap_Test>
 	 </SFXEvent>
 
- 
+
 	 <SFXEvent Name="UHD_Retreat_Cancelled">
 		 <Use_Preset> Preset_HUD </Use_Preset>
 		 <Samples> I000_UHD0805_ENG.wav</Samples>
@@ -707,7 +707,7 @@
 		 <Overlap_Test> Unit_UHD </Overlap_Test>
 	 </SFXEvent>
 
- 
+
 	 <SFXEvent Name="UHD_Mon_Mothma_Defeated">
 		 <Use_Preset> Preset_HUD </Use_Preset>
 		 <Samples> I000_UHD2201_ENG.wav </Samples>
@@ -828,7 +828,7 @@
 		 <Text_ID> TEXT_SFX_UHD_DEATH_STAR_CLEARED</Text_ID>
 		 <Overlap_Test> Unit_UHD </Overlap_Test>
 	 </SFXEvent>
- 
+
 
 
 
@@ -852,7 +852,7 @@
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BACTA_TANK_BUILD_1</Text_ID>
 		 <Overlap_Test> Unit_UHD </Overlap_Test>
-	 </SFXEvent>       
+	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Repair_Station_Build">
 		 <Use_Preset> Preset_HUD </Use_Preset>
@@ -896,7 +896,7 @@
 			<Max_Volume>85</Max_Volume>
 		 <Text_ID> TEXT_SFX_UHD_MISSION_UPDATED_1</Text_ID>
 		 <Overlap_Test> Unit_UHD </Overlap_Test>
-	 </SFXEvent>       
+	 </SFXEvent>
 
 
 
@@ -1347,7 +1347,7 @@
 			 <Overlap_Test> Unit_UHD </Overlap_Test>
 		</SFXEvent>
 
-		
+
 		<SFXEvent Name="UHD_SENSOR_ARRAY_UNDER_ATTACK">
 			<Use_Preset> Preset_HUD </Use_Preset>
 		  <Samples> I000_UHD5820_ENG.wav</Samples>
@@ -1364,7 +1364,7 @@
 		  <Localize> Yes </Localize>
 			 <Text_ID> TEXT_SFX_UHD_SENSOR_ARRAY_DESTROYED_1 </Text_ID>
 			 <Overlap_Test> Unit_UHD </Overlap_Test>
-		</SFXEvent>          
+		</SFXEvent>
 
 		<SFXEvent Name="UHD_CREDIT_CAPACITY">
 			<Use_Preset> Preset_HUD </Use_Preset>
@@ -1663,10 +1663,10 @@
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_FIRE_WHEN_READY_1</Text_ID>
 		 <Overlap_Test> Unit_UHD </Overlap_Test>
-	 </SFXEvent> 
+	 </SFXEvent>
 
 
- 	<!--    END UNDERWORLD HUD LINES      --> 
+ 	<!--    END UNDERWORLD HUD LINES      -->
 
 
 
@@ -1886,7 +1886,7 @@
 		<Localize> Yes </Localize>
 		<Text_ID> TEXT_SFX_UHD_PLANETARY_SHIELDS_DOWN_1</Text_ID>
 		<Overlap_Test> Unit_UHD </Overlap_Test>
-	</SFXEvent>      
+	</SFXEvent>
 
 	<SFXEvent Name="UHD_Planetary_Shields_Up">
 		<Use_Preset> Preset_HUD </Use_Preset>
@@ -2047,7 +2047,7 @@
 				<Localize> Yes </Localize>
 				<Text_ID> TEXT_SFX_UHD_PLANETARY_SHIELDS_DOWN_1</Text_ID>
 
-			</SFXEvent>   
+			</SFXEvent>
 
 			<SFXEvent Name="UHD_Hutt_Palace_Sold">
 				<Use_Preset> Preset_HUD </Use_Preset>
@@ -2151,7 +2151,7 @@
 				 <Localize> Yes </Localize>
 				 <Text_ID> TEXT_SFX_UHD_ENEMY_FLEEING_1, TEXT_SFX_UHD_ENEMY_FLEEING_2, TEXT_SFX_UHD_ENEMY_FLEEING_3</Text_ID>
 				 <Overlap_Test> Unit_UHD </Overlap_Test>
-			 </SFXEvent>        
+			 </SFXEvent>
 
 			 <SFXEvent Name="UHD_Retreat_Base">
 				 <Use_Preset> Preset_HUD </Use_Preset>
@@ -2191,7 +2191,7 @@
 				<Localize> Yes </Localize>
 				<Text_ID> TEXT_SFX_UHD_ENEMY_WALKER_1, TEXT_SFX_UHD_ENEMY_WALKER_2</Text_ID>
 				<Overlap_Test> Unit_UHD </Overlap_Test>
-			</SFXEvent>       --> 
+			</SFXEvent>       -->
 
 <!--	 <SFXEvent Name="UHD_Death_Star_Approaching">
 		 <Use_Preset> Preset_HUD </Use_Preset>
@@ -2199,7 +2199,7 @@
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_DEATH_STAR_APPROACHING_1</Text_ID>
 		 <Overlap_Test> Unit_UHD </Overlap_Test>
-	 </SFXEvent>       
+	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Bounty_Hunter_Deployed">
 		 <Use_Preset> Preset_HUD </Use_Preset>
@@ -2207,7 +2207,7 @@
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BOUNTY_HUNTER_DEPLOYED_1</Text_ID>
 		 <Overlap_Test> Unit_UHD </Overlap_Test>
-	 </SFXEvent>     
+	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Bounty_Hunter_Capture">
 		 <Use_Preset> Preset_HUD </Use_Preset>
@@ -2281,7 +2281,7 @@
 				<Localize> Yes </Localize>
 				<Text_ID> TEXT_SFX_UHD_SMUGGLER_ELIMINATED_1</Text_ID>
 				<Overlap_Test> Unit_UHD </Overlap_Test>
-			</SFXEvent>       --> 
+			</SFXEvent>       -->
 
 		<!--   <SFXEvent Name="UHD_Enemy_Hero_Detected">
 				 <Use_Preset> Preset_HUD </Use_Preset>
@@ -2330,7 +2330,7 @@
 				 <Localize> Yes </Localize>
 				 <Text_ID> TEXT_SFX_UHD_BOMBING_TARGET_1, TEXT_SFX_UHD_BOMBING_TARGET_2</Text_ID>
 				 <Overlap_Test> Unit_UHD </Overlap_Test>
-			 </SFXEvent>     
+			 </SFXEvent>
 
 			<SFXEvent Name="UHD_Enemy_Gain_Tech_Level">
 				<Use_Preset> Preset_HUD </Use_Preset>
@@ -2338,7 +2338,7 @@
 				<Localize> Yes </Localize>
 				<Text_ID> TEXT_SFX_UHD_ENEMY_GAIN_TECH_LEVEL_1</Text_ID>
 				<Overlap_Test> Unit_UHD </Overlap_Test>
-			</SFXEvent>         
+			</SFXEvent>
 
 			<SFXEvent Name="UHD_Gain_Tech_Level">
 				<Use_Preset> Preset_HUD </Use_Preset>
@@ -2356,7 +2356,7 @@
 		 <Overlap_Test> Unit_UHD </Overlap_Test>
 	 </SFXEvent>     -->
 
-         
+
 
 
 
@@ -2480,7 +2480,7 @@
 		 <Samples> I000_UHD3901_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ABREGADO_RAE</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Aeten_II">
@@ -2488,7 +2488,7 @@
 		 <Samples> I000_UHD3902_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_AETEN_II</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Alderaan">
@@ -2496,7 +2496,7 @@
 		 <Samples> I000_UHD3903_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ALDERAAN</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Alzoc_III">
@@ -2504,7 +2504,7 @@
 		 <Samples> I000_UHD3904_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ALZOC_III</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Anaxes">
@@ -2512,7 +2512,7 @@
 		 <Samples> I000_UHD3905_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ANAXES</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Aridus">
@@ -2520,7 +2520,7 @@
 		 <Samples> I000_UHD3906_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ARIDUS</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Atzerri">
@@ -2528,7 +2528,7 @@
 		 <Samples> I000_UHD3907_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ATZERRI</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Bakura">
@@ -2536,7 +2536,7 @@
 		 <Samples> I000_UHD3908_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BAKURA</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Balmorra">
@@ -2544,7 +2544,7 @@
 		 <Samples> I000_UHD3909_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BALMORRA</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Bespin">
@@ -2552,7 +2552,7 @@
 		 <Samples> I000_UHD3910_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BESPIN</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Bestine">
@@ -2560,7 +2560,7 @@
 		 <Samples> I000_UHD3911_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BESTINE</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Bonadan">
@@ -2568,7 +2568,7 @@
 		 <Samples> I000_UHD3912_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BONADAN</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Bothawui">
@@ -2576,7 +2576,7 @@
 		 <Samples> I000_UHD3913_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BOTHAWUI</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Brentaal">
@@ -2584,7 +2584,7 @@
 		 <Samples> I000_UHD3914_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BRENTAAL</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Byss">
@@ -2592,7 +2592,7 @@
 		 <Samples> I000_UHD3915_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BYSS</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Carida">
@@ -2600,7 +2600,7 @@
 		 <Samples> I000_UHD3916_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_CARIDA</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Corellia">
@@ -2608,7 +2608,7 @@
 		 <Samples> I000_UHD3917_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_CORELLIA</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Corulag">
@@ -2616,7 +2616,7 @@
 		 <Samples> I000_UHD3918_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_CORULAG</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Coruscant">
@@ -2624,7 +2624,7 @@
 		 <Samples> I000_UHD3919_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_CORUSCANT</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Dagobah">
@@ -2632,7 +2632,7 @@
 		 <Samples> I000_UHD3920_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_DAGOBAH</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Dantooine">
@@ -2640,7 +2640,7 @@
 		 <Samples> I000_UHD3921_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_DANTOOINE</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Duro">
@@ -2648,7 +2648,7 @@
 		 <Samples> I000_UHD3922_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_DURO</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Endor">
@@ -2656,7 +2656,7 @@
 		 <Samples> I000_UHD3923_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ENDOR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Eriadu">
@@ -2664,7 +2664,7 @@
 		 <Samples> I000_UHD3924_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ERIADU</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Fondor">
@@ -2672,7 +2672,7 @@
 		 <Samples> I000_UHD3925_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_FONDOR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Fresia">
@@ -2680,7 +2680,7 @@
 		 <Samples> I000_UHD3926_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_FRESIA</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Gamorr">
@@ -2688,7 +2688,7 @@
 		 <Samples> I000_UHD3927_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_GAMORR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Geonosis">
@@ -2696,7 +2696,7 @@
 		 <Samples> I000_UHD3928_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_GEONOSIS</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Hapes">
@@ -2704,7 +2704,7 @@
 		 <Samples> I000_UHD3929_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_HAPES</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Hoth">
@@ -2712,7 +2712,7 @@
 		 <Samples> I000_UHD3930_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_HOTH</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Ilum">
@@ -2720,7 +2720,7 @@
 		 <Samples> I000_UHD3931_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ILUM</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Jabiim">
@@ -2728,7 +2728,7 @@
 		 <Samples> I000_UHD3932_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_JABIIM</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Kamino">
@@ -2736,7 +2736,7 @@
 		 <Samples> I000_UHD3933_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_KAMINO</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Kashyyyk">
@@ -2744,7 +2744,7 @@
 		 <Samples> I000_UHD3934_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_KASHYYYK</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Kessel">
@@ -2752,7 +2752,7 @@
 		 <Samples> I000_UHD3935_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_KESSEL</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Korriban">
@@ -2760,7 +2760,7 @@
 		 <Samples> I000_UHD3936_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_KORRIBAN</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Kuat">
@@ -2768,7 +2768,7 @@
 		 <Samples> I000_UHD3937_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_KUAT</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Lwhekk">
@@ -2776,7 +2776,7 @@
 		 <Samples> I000_UHD3938_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_LWHEKK</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Manaan">
@@ -2784,7 +2784,7 @@
 		 <Samples> I000_UHD3939_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_MANAAN</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Mon_Calimari">
@@ -2792,7 +2792,7 @@
 		 <Samples> I000_UHD3940_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_MON_CALIMARI</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Naboo">
@@ -2800,7 +2800,7 @@
 		 <Samples> I000_UHD3941_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_NABOO</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_NalHutta">
@@ -2808,7 +2808,7 @@
 		 <Samples> I000_UHD3942_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_NALHUTTA</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Rakatta">
@@ -2816,7 +2816,7 @@
 		 <Samples> I000_UHD3943_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_RAKATTA</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Ralltiir">
@@ -2824,7 +2824,7 @@
 		 <Samples> I000_UHD3944_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_RALLTIIR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Rhinnal">
@@ -2832,7 +2832,7 @@
 		 <Samples> I000_UHD3945_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_RHINNAL</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Rothana">
@@ -2840,7 +2840,7 @@
 		 <Samples> I000_UHD3946_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ROTHANA</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Ryloth">
@@ -2848,7 +2848,7 @@
 		 <Samples> I000_UHD3947_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_RYLOTH</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Sullust">
@@ -2856,7 +2856,7 @@
 		 <Samples> I000_UHD3948_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_SULLUST</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Taris">
@@ -2864,7 +2864,7 @@
 		 <Samples> I000_UHD3949_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_TARIS</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Tatooine">
@@ -2872,7 +2872,7 @@
 		 <Samples> I000_UHD3950_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_TATOOINE</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Thyferra">
@@ -2880,7 +2880,7 @@
 		 <Samples> I000_UHD3951_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_THYFERRA</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Trandosha">
@@ -2888,7 +2888,7 @@
 		 <Samples> I000_UHD3952_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_TRANDOSHA</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Tynna">
@@ -2896,7 +2896,7 @@
 		 <Samples> I000_UHD3953_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_TYNNA</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Vergesso_Asteroids">
@@ -2904,7 +2904,7 @@
 		 <Samples> I000_UHD3954_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_VERGESSO_ASTEROIDS</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Wayland">
@@ -2912,7 +2912,7 @@
 		 <Samples> I000_UHD3955_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_WAYLAND</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Yavin">
@@ -2920,7 +2920,7 @@
 		 <Samples> I000_UHD3956_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_YAVIN</Text_ID>
-		 
+
 	 </SFXEvent>
 
 
@@ -2932,7 +2932,7 @@
 		 <Samples> I000_UHD4001_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ABREGADO_RAE_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Aeten_II_Death_Star">
@@ -2940,7 +2940,7 @@
 		 <Samples> I000_UHD4002_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_AETEN_II_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Alderaan_Death_Star">
@@ -2948,7 +2948,7 @@
 		 <Samples> I000_UHD4003_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ALDERAAN_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Alzoc_III_Death_Star">
@@ -2956,7 +2956,7 @@
 		 <Samples> I000_UHD4004_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ALZOC_III_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Anaxes_Death_Star">
@@ -2964,7 +2964,7 @@
 		 <Samples> I000_UHD4005_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ANAXES_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Aridus_Death_Star">
@@ -2972,7 +2972,7 @@
 		 <Samples> I000_UHD4006_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ARIDUS_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Atzerri_Death_Star">
@@ -2980,7 +2980,7 @@
 		 <Samples> I000_UHD4007_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ATZERRI_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Bakura_Death_Star">
@@ -2988,7 +2988,7 @@
 		 <Samples> I000_UHD4008_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BAKURA_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Balmorra_Death_Star">
@@ -2996,7 +2996,7 @@
 		 <Samples> I000_UHD4009_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BALMORRA_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Bespin_Death_Star">
@@ -3004,7 +3004,7 @@
 		 <Samples> I000_UHD4010_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BESPIN_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Bestine_Death_Star">
@@ -3012,7 +3012,7 @@
 		 <Samples> I000_UHD4011_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BESTINE_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Bonadan_Death_Star">
@@ -3020,7 +3020,7 @@
 		 <Samples> I000_UHD4012_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BONADAN_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Bothawui_Death_Star">
@@ -3028,7 +3028,7 @@
 		 <Samples> I000_UHD4013_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BOTHAWUI_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Brentaal_Death_Star">
@@ -3036,7 +3036,7 @@
 		 <Samples> I000_UHD4014_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BRENTAAL_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Byss_Death_Star">
@@ -3044,7 +3044,7 @@
 		 <Samples> I000_UHD4015_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_BYSS_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Carida_Death_Star">
@@ -3052,7 +3052,7 @@
 		 <Samples> I000_UHD4016_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_CARIDA_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Corellia_Death_Star">
@@ -3060,7 +3060,7 @@
 		 <Samples> I000_UHD4017_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_CORELLIA_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Corulag_Death_Star">
@@ -3068,7 +3068,7 @@
 		 <Samples> I000_UHD4018_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_CORULAG_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Coruscant_Death_Star">
@@ -3076,7 +3076,7 @@
 		 <Samples> I000_UHD4019_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_CORUSCANT_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Dagobah_Death_Star">
@@ -3084,7 +3084,7 @@
 		 <Samples> I000_UHD4020_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_DAGOBAH_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Dantooine_Death_Star">
@@ -3092,7 +3092,7 @@
 		 <Samples> I000_UHD4021_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_DANTOOINE_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Duro_Death_Star">
@@ -3100,7 +3100,7 @@
 		 <Samples> I000_UHD4022_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_DURO_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Endor_Death_Star">
@@ -3108,7 +3108,7 @@
 		 <Samples> I000_UHD4023_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ENDOR_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Eriadu_Death_Star">
@@ -3116,7 +3116,7 @@
 		 <Samples> I000_UHD4024_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ERIADU_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Fondor_Death_Star">
@@ -3124,7 +3124,7 @@
 		 <Samples> I000_UHD4025_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_FONDOR_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Fresia_Death_Star">
@@ -3132,7 +3132,7 @@
 		 <Samples> I000_UHD4026_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_FRESIA_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Gamorr_Death_Star">
@@ -3140,7 +3140,7 @@
 		 <Samples> I000_UHD4027_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_GAMORR_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Geonosis_Death_Star">
@@ -3148,7 +3148,7 @@
 		 <Samples> I000_UHD4028_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_GEONOSIS_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Hapes_Death_Star">
@@ -3156,7 +3156,7 @@
 		 <Samples> I000_UHD4029_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_HAPES_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Hoth_Death_Star">
@@ -3164,7 +3164,7 @@
 		 <Samples> I000_UHD4030_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_HOTH_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Ilum_Death_Star">
@@ -3172,7 +3172,7 @@
 		 <Samples> I000_UHD4031_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ILUM_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Jabiim_Death_Star">
@@ -3180,7 +3180,7 @@
 		 <Samples> I000_UHD4032_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_JABIIM_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Kamino_Death_Star">
@@ -3188,7 +3188,7 @@
 		 <Samples> I000_UHD4033_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_KAMINO_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Kashyyyk_Death_Star">
@@ -3196,7 +3196,7 @@
 		 <Samples> I000_UHD4034_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_KASHYYYK_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Kessel_Death_Star">
@@ -3204,7 +3204,7 @@
 		 <Samples> I000_UHD4035_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_KESSEL_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Korriban_Death_Star">
@@ -3212,7 +3212,7 @@
 		 <Samples> I000_UHD4036_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_KORRIBAN_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Kuat_Death_Star">
@@ -3220,7 +3220,7 @@
 		 <Samples> I000_UHD4037_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_KUAT_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Lwhekk_Death_Star">
@@ -3228,7 +3228,7 @@
 		 <Samples> I000_UHD4038_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_LWHEKK_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Manaan_Death_Star">
@@ -3236,7 +3236,7 @@
 		 <Samples> I000_UHD4039_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_MANAAN_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Mon_Calimari_Death_Star">
@@ -3244,7 +3244,7 @@
 		 <Samples> I000_UHD4040_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_MON_CALIMARI_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Naboo_Death_Star">
@@ -3252,7 +3252,7 @@
 		 <Samples> I000_UHD4041_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_NABOO_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_NalHutta_Death_Star">
@@ -3260,7 +3260,7 @@
 		 <Samples> I000_UHD4042_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_NALHUTTA_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Rakatta_Death_Star">
@@ -3268,7 +3268,7 @@
 		 <Samples> I000_UHD4043_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_RAKATTA_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Ralltiir_Death_Star">
@@ -3276,7 +3276,7 @@
 		 <Samples> I000_UHD4044_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_RALLTIIR_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Rhinnal_Death_Star">
@@ -3284,7 +3284,7 @@
 		 <Samples> I000_UHD4045_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_RHINNAL_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Rothana_Death_Star">
@@ -3292,7 +3292,7 @@
 		 <Samples> I000_UHD4046_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_ROTHANA_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Ryloth_Death_Star">
@@ -3300,7 +3300,7 @@
 		 <Samples> I000_UHD4047_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_RYLOTH_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Sullust_Death_Star">
@@ -3308,7 +3308,7 @@
 		 <Samples> I000_UHD4048_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_SULLUST_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Taris_Death_Star">
@@ -3316,7 +3316,7 @@
 		 <Samples> I000_UHD4049_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_TARIS_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Tatooine_Death_Star">
@@ -3324,7 +3324,7 @@
 		 <Samples> I000_UHD4050_ENG.wav </Samples>
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_TATOOINE_DEATH_STAR</Text_ID>
-		 
+
 	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Thyferra_Death_Star">
@@ -3398,7 +3398,7 @@
 		 <Localize> Yes </Localize>
 		 <Text_ID> TEXT_SFX_UHD_CONSTRUCTING_1</Text_ID>
 		 <Overlap_Test> Unit_UHD </Overlap_Test>
-	 </SFXEvent>     
+	 </SFXEvent>
 
 	 <SFXEvent Name="UHD_Structure_Sold">
 		 <Use_Preset> Preset_HUD </Use_Preset>
@@ -3414,7 +3414,7 @@
 				<Localize> Yes </Localize>
 				<Text_ID> TEXT_SFX_UHD_MISSION_TIMER_1</Text_ID>
 				<Overlap_Test> Unit_UHD </Overlap_Test>
-			</SFXEvent>      --> 
+			</SFXEvent>      -->
 
 <!-- 	<SFXEvent Name="UHD_Choose_Landing">
 		<Use_Preset> Preset_HUD </Use_Preset>
@@ -3430,7 +3430,7 @@
 	 <Localize> Yes </Localize>
 		<Text_ID> TEXT_SFX_UHD_BUILD_HERO_1 </Text_ID>
 		<Overlap_Test> Unit_UHD </Overlap_Test>
-  </SFXEvent>               
+  </SFXEvent>
 
 	<SFXEvent Name="UHD_Credits_Gained">
 		<Use_Preset> Preset_HUD </Use_Preset>
@@ -3446,7 +3446,7 @@
 			<Localize> Yes </Localize>
 			  <Text_ID> TEXT_SFX_UHD_PURCHASE_AVAILABLE_1 </Text_ID>
 			  <Overlap_Test> Unit_UHD </Overlap_Test>
-		 </SFXEvent>     --> 
+		 </SFXEvent>     -->
 
 		<!--  <SFXEvent Name="UHD_New_Units">
 			  <Use_Preset> Preset_HUD </Use_Preset>
@@ -3454,7 +3454,7 @@
 			<Localize> Yes </Localize>
 			  <Text_ID> TEXT_SFX_UHD_NEW_UNITS_1, TEXT_SFX_UHD_NEW_UNITS_2 </Text_ID>
 			  <Overlap_Test> Unit_UHD </Overlap_Test>
-		 </SFXEvent>         --> 
+		 </SFXEvent>         -->
 
  <!--    <SFXEvent Name="UHD_Reinforments_Canceled">
 		  <Use_Preset> Preset_HUD </Use_Preset>
@@ -3462,7 +3462,7 @@
 		 <Localize> Yes </Localize>
 			<Text_ID> TEXT_SFX_UHD_REINFORCEMENTS_CANCELED_1 </Text_ID>
 			<Overlap_Test> Unit_UHD </Overlap_Test>
-	  </SFXEvent>         --> 
+	  </SFXEvent>         -->
 
 		<!-- 	<SFXEvent Name="UHD_LOST_MERCENARIES">
 				 <Use_Preset> Preset_HUD </Use_Preset>
@@ -3470,7 +3470,7 @@
 				<Localize> Yes </Localize>
 				  <Text_ID> TEXT_SFX_UHD_LOST_MERCENARIES_1 </Text_ID>
 				  <Overlap_Test> Unit_UHD </Overlap_Test>
-			 </SFXEvent>      
+			 </SFXEvent>
 
 
 			 <SFXEvent Name="UHD_MERCENARY_UNDER_ATTACK">
@@ -3479,7 +3479,7 @@
 				<Localize> Yes </Localize>
 				  <Text_ID> TEXT_SFX_UHD_MERCENARY_UNDER_ATTACK_1 </Text_ID>
 				  <Overlap_Test> Unit_UHD </Overlap_Test>
-			 </SFXEvent>			 --> 
+			 </SFXEvent>			 -->
 
   <!--    	<SFXEvent Name="UHD_MERCENARY_DESTROYED">
 			<Use_Preset> Preset_HUD </Use_Preset>
@@ -3487,7 +3487,7 @@
 		  <Localize> Yes </Localize>
 			 <Text_ID> TEXT_SFX_UHD_MERCENARY_DESTROYED_1 </Text_ID>
 			 <Overlap_Test> Unit_UHD </Overlap_Test>
-		</SFXEvent>         -->  
+		</SFXEvent>         -->
 
 		<!--  	<SFXEvent Name="UHD_STARBASE_UPGRADED">
 				  <Use_Preset> Preset_HUD </Use_Preset>
@@ -3495,7 +3495,7 @@
 			 <Localize> Yes </Localize>
 				<Text_ID> TEXT_SFX_UHD_STARBASE_UPGRADED_1 </Text_ID>
 				<Overlap_Test> Unit_UHD </Overlap_Test>
-		  </SFXEvent>           
+		  </SFXEvent>
 
 			  <SFXEvent Name="UHD_ENEMY_STARBASE_UPGRADED">
 				  <Use_Preset> Preset_HUD </Use_Preset>
