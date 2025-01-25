@@ -238,6 +238,7 @@ Interface Fixes:
 • The Pause/Play button on the command bar was referencing a non-existent texture (i_button_command_bar_disabled) when disabled.  The proper icon has been assigned (i_button_command_bar_play_disabled). (BUG #433)
 • When Darth Vader arrives on Bespin during Consortium campaign mission #6 "Cloud City Conflict," the hologram announcer used the Black Sun Pirate hologram instead of the Consortium Soldier hologram. (BUG #104)
 • The Hypervelocity Cannon's special weapon cursor used the Magnepulse Cannon's texture instead of its own because of each texture having swapped names. (BUG #260)
+• Defilers' icon usage is now consistent with other Minor Heroes.  Despite being a Minor Hero, their icons weren't consistent with Field or Fleet Commanders, despite being formatted the same way.  Their "hero head"/"closeup" icon should've only been used on the hero bar/physical unit to emphasize they are Minor Heroes in-battle, and otherwise (like in GC), their unused, unique "infantry-styled" icon should be used to be consistent with other infantry. (BUG #443)
 
 
 Map/Planet Fixes:
