@@ -299,6 +299,7 @@ Script/Story Fixes:
 • "Destroy the Death Star" prerequisites for GC wouldn't work because the Empire's faction entry wasn't looking for the Death Star II. (BUG #33)
 • Land Bothawui's intimidation mission had guards that lacked the "pointguard" scripting hint, or had it misspelled to "pointguards," meaning the mission script wouldn't function as intended. (BUG #219)
 • Land Bestine's kidnapping mission had guards that lacked the "pointguard" scripting hint, meaning the mission script wouldn't function as intended. (BUG #222)
+• Empire Tutorial 5 (Land Empire) had a sequence break where the Imperial Field Commander demands you lead the charge "against the locals," which required you to destroy a Jawa Sandcrawler.  The Sandcrawler was accidentally forgotten and not added to the map - the sequence would break, not give the player a tutorial about indigenous units, and skip immediately to the "destroy the Power Generator" objective. (BUG #444)
 
 
 Structure Fixes:
