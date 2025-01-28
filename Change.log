@@ -121,7 +121,6 @@ AI Fixes:
 •• (OffensiveGalaticEquations) Need_To_Flush_MajorItem_Budget, Should_Conquer_Opponent_Planet
 •• (InfrastructureGalacticEquations) Empire_Should_Upgrade_Tech, Empire_Tech_Trigger, Empire_Tech_Untrigger
 
-
 • AI plans for building anti-infantry turrets weren't updated from EaW; the AI now knows the Proton Torpedo Turret is the Consortium's designated anti-infantry turret, and now has the same considerations to buy it like the Rebels and Empire. (BUG #114)
 • AI plans wouldn't factor in IG-88 nor Garm Bel Iblis when considering buying Repair Facilities. (BUG #117)
 • AI plans for finding the nearest appropriate healing object for special units didn't include Darth Vader's unit for FoC land combat, only his EaW unit. (BUG #27)
@@ -237,7 +236,13 @@ Interface Fixes:
 • The Pause/Play button on the command bar was referencing a non-existent texture (i_button_command_bar_disabled) when disabled.  The proper icon has been assigned (i_button_command_bar_play_disabled). (BUG #433)
 • When Darth Vader arrives on Bespin during Consortium campaign mission #6 "Cloud City Conflict," the hologram announcer used the Black Sun Pirate hologram instead of the Consortium Soldier hologram. (BUG #104)
 • The Hypervelocity Cannon's special weapon cursor used the Magnepulse Cannon's texture instead of its own because of each texture having swapped names. (BUG #260)
-• Defilers' icon usage is now consistent with other Minor Heroes.  Despite being a Minor Hero, their icons weren't consistent with Field or Fleet Commanders, despite being formatted the same way.  Their "hero head"/"closeup" icon should've only been used on the hero bar/physical unit to emphasize they are Minor Heroes in-battle, and otherwise (like in GC), their unused, unique "infantry-styled" icon should be used to be consistent with other infantry. (BUG #443)
+• Defilers' icon usage is now consistent with other Minor Heroes, despite being formatted the same way.  Their "hero head"/"closeup" icon should've only been used on the hero bar/physical unit to emphasize they are Minor Heroes in-battle, and otherwise (like in GC), their unused, unique "infantry-styled" icon should be used to be consistent with other infantry. (BUG #443)
+• Conditions for campaign "Heart of the Maw" were wrong compared to what the player actually got in-game.  All factions were supposed to start at Tech Level 4 (only the Rebels did, Empire started at Tech Level 3) and were supposed to start with 12,000 credits (everyone started with 13,000). (BUG #445)
+• Conditions for campaign "Clusters" were wrong compared to what the player actually got in-game.  All factions were supposed to start with 5,000 credits (everyone started with 12,000). (BUG #446)
+• Conditions for campaign "Rim World Conflict" were wrong compared to what the player actually got in-game.  All factions were supposed to start with 10,000 credits (everyone started with 12,000). (BUG #447)
+• Conditions for campaign "Gateways" were wrong compared to what the player actually got in-game.  All factions were supposed to start with 8,000 credits (everyone started with 12,000). (BUG #448)
+• Conditions for campaign "Equal Footing" were wrong compared to what the player actually got in-game.  All factions were supposed to start with 8,000 credits (everyone started with 12,000). (BUG #449)
+• Conditions for campaign "Origin of Corruption" were wrong compared to what the player actually got in-game.  All factions were supposed to start with 10,000 credits (everyone started with 12,000), and all factions are supposed to start at Tech Level 1 (Rebels started at Tech Level 2). (BUG #450)
 
 
 Map/Planet Fixes:
@@ -274,7 +279,6 @@ Map/Planet Fixes:
 • MP Land Felucia had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Felucia has also recieved a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #397)
 • MP Land Utapau had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Utapau has also recieved a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #398)
 • Kamino and it's MP map had multiple badly painted movement zones that affected the AI's navigation, and caused levitating bugs.  To rectify this, both maps recieved major revisions/passes at where units are allowed to move, and AI zones were regenerated. (BUG #424)
-
 
 
 Model Fixes:
