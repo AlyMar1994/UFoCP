@@ -49,6 +49,7 @@ UFoCP:
 ENHANCEMENTS:
 • New shaders have been implemented that default to x16 anisotropic filtering instead of linear filtering.  Distant textures should now be much sharper. (Thanks evilbobthebob!) (BUG #379)
 • The Canderous Assault Tank's shadow mesh had some awkward parts that wouldn't reflect shadows properly on the model in certain conditions. (Thanks theshyshallot!) (BUG #388)
+• A new HD/recreated main menu and loading screen were added; resolution was boosted from 1280x768 to 1920x1440 for both, and comes with a smaller filesize than the original files.  The main menu has also been mostly aspect-corrected for Widescreen, and the game's main logo should no longer be stretched; because Petroglyph's website button requires some unmodifyable changes, while their and LucasArts' logos have been recreated as well, it'll still be a little stretched horizontally. (BUG #451)
 
 HOUSEKEEPING:
 • Darth Vader's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Empire_Darth_Vader.xml.
