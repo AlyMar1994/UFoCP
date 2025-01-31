@@ -41,7 +41,7 @@
 
 require("PGDebug")
 
-YieldCount = 0;
+YieldCount = 0
 
 function ScriptExit()
 	_ScriptExit() -- set a flag in 'C' to terminate the whole script on next yield
@@ -227,7 +227,7 @@ function PlayerSpecificName(player_object, var_name)
 end
 
 function Flush_G()
-
+	DebugMessage("%s -- In Flush_G, flushing globals...", tostring(Script))
 	entries_for_deletion = {}
 	
 	--Define the set of tables that we had better keep around
@@ -258,6 +258,7 @@ function Flush_G()
 				end
 			end
 			if not keep_table then
+				DebugMessage("%s -- UNIMPORTANT TABLE FOUND!  DELETING: %s", tostring(Script), tostring(i))
 				table.insert(entries_for_deletion, i)
 			end
 			
@@ -278,9 +279,15 @@ function Flush_G()
 	for i,bad_entry in pairs(entries_for_deletion) do
 		_G[bad_entry] = nil
 	end
-	
+
+	-- AM1994 01/30/2025 - We might run into scenarios where, because _LOADED isn't
+	-- cleared previously, the game may try to reference non existant scripts that
+	-- have recently been <require>'d.  Add _LOADED to be cleared as well - if the
+	-- game needs them, it'll reload them again.
+	_LOADED = {}
 	entries_for_deletion = nil
 	very_important_tables = nil
 
+	DebugMessage("%s -- Done flushing globals!  Leaving Flush_G...", tostring(Script))
 end
 

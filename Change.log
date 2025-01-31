@@ -50,6 +50,7 @@ ENHANCEMENTS:
 • New shaders have been implemented that default to x16 anisotropic filtering instead of linear filtering.  Distant textures should now be much sharper. (Thanks evilbobthebob!) (BUG #379)
 • The Canderous Assault Tank's shadow mesh had some awkward parts that wouldn't reflect shadows properly on the model in certain conditions. (Thanks theshyshallot!) (BUG #388)
 • A new HD/recreated main menu and loading screen were added; resolution was boosted from 1280x768 to 1920x1440 for both, and comes with a smaller filesize than the original files.  The main menu has also been mostly aspect-corrected for Widescreen, and the game's main logo should no longer be stretched; because Petroglyph's website button requires some unmodifyable changes, while their and LucasArts' logos have been recreated as well, it'll still be a little stretched horizontally. (BUG #451)
+• As apart of #442, extra debugging messages/info has been added to PGBase, specifically <function Flush_G()>.
 
 HOUSEKEEPING:
 • Darth Vader's unit information has been compiled into one file: [Units\Empire\]Units_Hero_Empire_Darth_Vader.xml.
@@ -305,6 +306,7 @@ Script/Story Fixes:
 • Land Bothawui's intimidation mission had guards that lacked the "pointguard" scripting hint, or had it misspelled to "pointguards," meaning the mission script wouldn't function as intended. (BUG #219)
 • Land Bestine's kidnapping mission had guards that lacked the "pointguard" scripting hint, meaning the mission script wouldn't function as intended. (BUG #222)
 • Empire Tutorial 5 (Land Empire) had a sequence break where the Imperial Field Commander demands you lead the charge "against the locals," which required you to destroy a Jawa Sandcrawler.  The Sandcrawler was accidentally forgotten and not added to the map - the sequence would break, not give the player a tutorial about indigenous units, and skip immediately to the "destroy the Power Generator" objective. (BUG #444)
+• It was originally possible that the game's scripting system may try to reference cleared information in consequtive tactical battles, because scripts would not be re-referenced due to still being held in memory, but the tables contained within them are cleared. (Thanks __pox__!) (BUG #442)
 
 
 Structure Fixes:
