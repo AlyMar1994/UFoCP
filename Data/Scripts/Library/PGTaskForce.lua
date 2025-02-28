@@ -53,6 +53,11 @@ function AssembleForce(taskforce, stage_at_strongest_space)
 		stage = taskforce.Get_Stage()
 		DebugMessage("%s -- Using default system %s (nearest faction system) for staging.", tostring(Script), tostring(stage))
 	end
+
+	if not stage and stage_at_strongest_space then
+		stage = taskforce.Get_Stage()
+		DebugMessage("%s -- Using default system %s (nearest faction system) for staging.", tostring(Script), tostring(stage))
+	end
 	
 	if not stage then 
 		DebugMessage("%s -- Unable to find a staging area.  Abandonning plan.", tostring(Script))
