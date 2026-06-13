@@ -39,7 +39,6 @@
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>3</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -59,7 +58,7 @@
 		<AI_Combat_Power>4250</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Size_Value>360</Size_Value>
+
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, TARGETING, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 
@@ -78,10 +77,6 @@
 		</HardPoints>
 
 		<Icon_Name>i_button_mon_calimari_cruiser.tga</Icon_Name>
-		<GUI_Model_Name>RV_moncalcruiser.ALO</GUI_Model_Name>
-		<GUI_Distance>1650</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
@@ -131,8 +126,6 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
 
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -240,7 +233,6 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
@@ -262,7 +254,7 @@
 		<AI_Combat_Power>5900</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Size_Value>8</Size_Value>
+
 
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -336,10 +328,6 @@
 
 		<CategoryMask>Capital | AntiFrigate</CategoryMask>
 		<Icon_Name>i_button_imperator.tga</Icon_Name>
-		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
-		<GUI_Distance>2300</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -352,8 +340,6 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
@@ -417,7 +403,6 @@
 	<SpaceUnit Name="Star_Destroyer_Death_Clone">
 		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
 		<Space_Model_Name>EV_StarDestroyer_D.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>EV_StarDestroyer_Dead.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Scale_Factor>1</Scale_Factor>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>

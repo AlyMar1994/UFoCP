@@ -53,7 +53,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Size_Value>75</Size_Value>
+
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Is_Stationary_When_Attacking>No</Is_Stationary_When_Attacking>
@@ -312,7 +312,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Size_Value>75</Size_Value>
+
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Land_FOW_Reveal_Range>225.0</Land_FOW_Reveal_Range>
@@ -581,7 +581,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>99999</Energy_Capacity>
 		<Energy_Refresh_Rate>99999</Energy_Refresh_Rate>
-		<Size_Value>75</Size_Value>
+
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<Deploys>Yes</Deploys>
@@ -890,7 +890,7 @@
 		<AI_Combat_Power>4800</AI_Combat_Power>
 		<Build_Time_Seconds>100</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Size_Value>8</Size_Value>
+
 
 		<!-- Set to spawn all units once and then not continue - No reserves -->
 		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>

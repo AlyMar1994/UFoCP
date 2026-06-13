@@ -21,7 +21,7 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>2</Build_Max_Instances_Per_Planet>
-		<Size_Value>100</Size_Value>
+
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>800</Slice_Cost_Credits>
@@ -134,7 +134,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>90</Size_Value>
+
 		<Base_Position>Orbital</Base_Position>
 		<Tech_Level>4</Tech_Level>
 
@@ -228,7 +228,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>90</Size_Value>
+
 		<Base_Position>Orbital</Base_Position>
 		<Tech_Level>100</Tech_Level>
 
@@ -298,7 +298,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>90</Size_Value>
+
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>750</Slice_Cost_Credits>
@@ -373,7 +373,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>90</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
 
@@ -477,7 +477,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>90</Size_Value>
+
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1750</Slice_Cost_Credits>
@@ -582,7 +582,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>30</Size_Value>
+
 		<Base_Position>Orbital</Base_Position>
 		<Tech_Level>3</Tech_Level>
 
@@ -664,7 +664,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NB_SpaceSensorNode.ALO</Space_Model_Name>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>30</Size_Value>
+
 		<Tactical_Health>100</Tactical_Health> <!-- jdg was 500 -->
 		<Behavior>DUMMY_ORBITAL_STRUCTURE</Behavior>
 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL</SpaceBehavior>
@@ -743,7 +743,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>30</Size_Value>
+
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
@@ -838,7 +838,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Base_Position>Out_Base</Base_Position>
@@ -935,7 +935,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Base_Position>Out_Base</Base_Position>
@@ -1032,7 +1032,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Base_Position>Out_Base</Base_Position>
@@ -1125,7 +1125,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Tech_Level>0</Tech_Level>
 
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -1209,7 +1209,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Tech_Level>0</Tech_Level>
 
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -1341,7 +1341,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>2</Tech_Level>
 
@@ -1495,7 +1495,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
@@ -1628,7 +1628,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Base_Position>Out_Base</Base_Position>
@@ -1730,7 +1730,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
 
@@ -1828,7 +1828,7 @@
 		<Build_Time_Seconds>95</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>2</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Base_Position>Out_Base</Base_Position>
@@ -1960,7 +1960,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
@@ -2111,7 +2111,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>2</Tech_Level>
 
@@ -2222,7 +2222,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
 
@@ -2349,7 +2349,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>250</Slice_Cost_Credits>
@@ -2559,7 +2559,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
@@ -2691,7 +2691,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
@@ -2819,7 +2819,7 @@
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>1</Tech_Level>
 
@@ -3001,7 +3001,7 @@
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -3179,7 +3179,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>1</Tech_Level>
 
@@ -3357,7 +3357,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 
 		<Sabotage_Cost_Credits>1000</Sabotage_Cost_Credits>
@@ -3532,7 +3532,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>2</Tech_Level>
 
@@ -3721,7 +3721,7 @@
 		<Sabotage_Cost_Credits>2000</Sabotage_Cost_Credits>
 
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -3902,7 +3902,7 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>3</Tech_Level>
 
@@ -4022,7 +4022,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>1</Tech_Level>
 
@@ -4143,7 +4143,7 @@
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -4271,7 +4271,7 @@
 		<Build_Time_Seconds>240</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
 
@@ -4424,7 +4424,7 @@
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>1</Tech_Level>
 
@@ -4530,7 +4530,7 @@
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
 
@@ -4683,7 +4683,7 @@
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
 
@@ -4867,7 +4867,7 @@
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
 
@@ -5007,7 +5007,7 @@
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
 
@@ -5134,7 +5134,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
 
@@ -5256,7 +5256,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
 
@@ -5364,7 +5364,7 @@
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
 
@@ -5519,7 +5519,7 @@
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
 
@@ -5660,7 +5660,7 @@
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>100</Size_Value>
+
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>1000</Slice_Cost_Credits>
@@ -5731,7 +5731,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-		<Size_Value>50</Size_Value>
+
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Base_Position>Out_Base</Base_Position>
@@ -5795,7 +5795,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Neutral</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>90</Size_Value>
+
 		<Base_Position>Orbital</Base_Position>
 		<Tactical_Health>125</Tactical_Health>
 		<Behavior>IDLE, SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
@@ -5831,7 +5831,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Neutral</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>90</Size_Value>
+
 		<Base_Position>Orbital</Base_Position>
 		<Tactical_Health>250</Tactical_Health>
 		<Behavior>IDLE, SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
@@ -5869,7 +5869,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Neutral</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>90</Size_Value>
+
 		<Base_Position>Orbital</Base_Position>
 		<Tactical_Health>500</Tactical_Health>
 		<Behavior>IDLE, SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
@@ -5907,7 +5907,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Neutral</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>90</Size_Value>
+
 		<Base_Position>Orbital</Base_Position>
 		<Tactical_Health>1000</Tactical_Health>
 		<Behavior>IDLE, SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
@@ -5949,7 +5949,7 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Neutral</Affiliation>
-		<Size_Value>30</Size_Value>
+
 
 		<Shield_Points>500</Shield_Points>
 		<Tactical_Health>1000</Tactical_Health>
@@ -6292,7 +6292,7 @@
 
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Political_Control>0</Political_Control>
-		<Size_Value>50</Size_Value>
+
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Base_Position>Out_Base</Base_Position>

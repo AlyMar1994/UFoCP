@@ -215,7 +215,6 @@
 		<Shield_Refresh_Rate>15</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Size_Value>120</Size_Value>
 		<Damage>5</Damage>
 		<Behavior>DUMMY_STARSHIP, TRANSPORT, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, NEBULA, SELECTABLE, DAMAGE_TRACKING</SpaceBehavior>
@@ -413,7 +412,6 @@
 		<Auto_Deploys>No</Auto_Deploys>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>150</Size_Value>
 
 		<Damage>70</Damage>
 		<Tactical_Health>2000</Tactical_Health>
@@ -650,7 +648,6 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>50</Squadron_Capacity>
 		<AI_Combat_Power>4000</AI_Combat_Power>
-		<Size_Value>360</Size_Value>
 		<Behavior>DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>
 			SELECTABLE,
@@ -898,7 +895,6 @@
 		<Is_Bomber>No</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Size_Value>8</Size_Value>
 		<!-- <Behavior>TRANSPORT</Behavior>AJA 11/18/2005: These units are not transports, and this tag was breaking the hero respawn logic. -->
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, NEBULA, DAMAGE_TRACKING</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1205,7 +1201,6 @@
 		<Is_Bomber>No</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Size_Value>8</Size_Value>
 		<Behavior>TRANSPORT</Behavior>
 		<SpaceBehavior>
 			ABILITY_COUNTDOWN,
@@ -1497,7 +1492,6 @@
 		<Is_Bomber>No</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Size_Value>8</Size_Value>
 		<Behavior>TRANSPORT</Behavior>
 		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX</SpaceBehavior>
 
@@ -1628,7 +1622,6 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<AI_Combat_Power>1000</AI_Combat_Power>
 
-		<Size_Value>120</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 		<Lua_Script>Sundered_Heart</Lua_Script>
@@ -1808,7 +1801,6 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<AI_Combat_Power>1800</AI_Combat_Power>
 		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
-		<Size_Value>8</Size_Value>
 		<Behavior>
 			DUMMY_STARSHIP,
 			SELECTABLE,
@@ -2006,7 +1998,6 @@
 		<Scale_Factor>0.7</Scale_Factor>
 		<Select_Box_Scale>40</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
-		<Size_Value>8</Size_Value>
 		<Icon_Name>i_button_V_Wing.tga</Icon_Name>
 
 		<Max_Lift>1.0</Max_Lift>
@@ -2205,7 +2196,6 @@
 
 		<Ranged_Target_Z_Adjust>4.0</Ranged_Target_Z_Adjust>
 
-		<Size_Value>60</Size_Value>
 		<Tactical_Health>150</Tactical_Health>
 		<Energy_Capacity>600</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -2415,8 +2405,6 @@
 		<Deploys>No</Deploys>
 		<Select_Box_Scale>50</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
-
-		<Size_Value>75</Size_Value>
 
 		<Armor_Type>Armor_ATST</Armor_Type>
 

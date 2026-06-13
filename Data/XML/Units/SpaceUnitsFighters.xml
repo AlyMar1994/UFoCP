@@ -49,7 +49,6 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Build_Cost_Credits>60</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
-		<Size_Value>4</Size_Value> <!-- 8 -->
 		<SpaceBehavior>
 			ABILITY_COUNTDOWN, LURE, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA
 		</SpaceBehavior>
@@ -226,7 +225,7 @@
 		<Is_Bomber>No</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Size_Value>8</Size_Value>
+
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
@@ -375,7 +374,7 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
-		<Size_Value>8</Size_Value>
+
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
@@ -505,7 +504,7 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Build_Cost_Credits>70</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
-		<Size_Value>8</Size_Value>
+
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
@@ -626,7 +625,7 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Build_Cost_Credits>30</Build_Cost_Credits>
 		<Build_Time_Seconds>5</Build_Time_Seconds>
-		<Size_Value>8</Size_Value>
+
 		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>3</Damage>
@@ -774,7 +773,7 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Build_Cost_Credits>30</Build_Cost_Credits>
 		<Build_Time_Seconds>5</Build_Time_Seconds>
-		<Size_Value>8</Size_Value>
+
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<HardPoints>
@@ -902,7 +901,7 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Build_Cost_Credits>80</Build_Cost_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
-		<Size_Value>8</Size_Value>
+
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, ABILITY_COUNTDOWN, NEBULA</SpaceBehavior>
 		<Avoid_Enemy_Exclusion_Range>500.0</Avoid_Enemy_Exclusion_Range>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1046,7 +1045,7 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Size_Value>8</Size_Value>
+
 		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>4</Damage>
@@ -1169,7 +1168,7 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Build_Cost_Credits>50</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Size_Value>8</Size_Value>
+
 		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>4</Damage>
@@ -1315,7 +1314,7 @@
 		<Is_Bomber>No</Is_Bomber>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
-		<Size_Value>8</Size_Value>
+
 		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>4</Damage>

@@ -27,7 +27,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>False</Reveal_During_Setup_Phase>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
 
@@ -187,7 +187,7 @@
 		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
 
@@ -362,7 +362,7 @@
 
 		<Affiliation>Neutral, Rebel, Empire, Pirates, Underworld</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>50</Size_Value>
+
 		<Tactical_Health>600</Tactical_Health>
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -438,7 +438,7 @@
 		<Affiliation>Neutral, Rebel, Empire, Pirates, Underworld</Affiliation>
 		<Political_Control>0</Political_Control>
 
-		<Size_Value>50</Size_Value>
+
 
 		<Tactical_Health>500</Tactical_Health>
 		<Victory_Relevant>No</Victory_Relevant>
@@ -914,7 +914,7 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Affiliation>Hutts</Affiliation>
 		<AI_Combat_Power>6000</AI_Combat_Power>
-		<Size_Value>10</Size_Value>
+
 		<Tech_Level>9</Tech_Level>
 		<Base_Level>1</Base_Level>
 		<CategoryMask>Capital</CategoryMask>

@@ -43,7 +43,7 @@
 		<Required_Planets />
 		<Override_Bounty_SP>50</Override_Bounty_SP>
 		<Override_Bounty_MP>50</Override_Bounty_MP>
-		<Size_Value>120</Size_Value>
+
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
@@ -194,7 +194,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<Size_Value>120</Size_Value>
+
 
 		<Death_Clone>Damage_Normal, Imperial_ATAT_Barge_Death_Clone</Death_Clone>
 
@@ -342,7 +342,7 @@
 		<Required_Planets />
 		<Override_Bounty_SP>50</Override_Bounty_SP>
 		<Override_Bounty_MP>50</Override_Bounty_MP>
-		<Size_Value>120</Size_Value>
+
 
 		<Death_Clone>Damage_Normal, Gallofree_Transport_Death_Clone</Death_Clone>
 
@@ -485,7 +485,7 @@
 		<Required_Planets />
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Size_Value>120</Size_Value>
+
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
@@ -675,7 +675,7 @@
 		<Required_Planets />
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Size_Value>120</Size_Value>
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Death_Clone>Damage_Normal, Alliance_Shuttle_Death_Clone</Death_Clone>

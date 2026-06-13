@@ -55,7 +55,7 @@
 		<Deploys>No</Deploys>
 		<Affiliation>Empire</Affiliation>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Size_Value>10</Size_Value>
+
 		<Shield_Points>0</Shield_Points>
 		<Armor_Type>Armor_Hero</Armor_Type>
 		<Tactical_Health>500</Tactical_Health>
@@ -571,7 +571,7 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
 		<Surface_Bombardment_Capable>No</Surface_Bombardment_Capable>
-		<Size_Value>8</Size_Value>
+
 		<Behavior>TRANSPORT</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, NEBULA, DAMAGE_TRACKING</SpaceBehavior>
 
@@ -741,7 +741,7 @@
 		<AI_Combat_Power>45000</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Size_Value>8</Size_Value>
+
 
 		<!-- Fighter Spawners -->
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0>

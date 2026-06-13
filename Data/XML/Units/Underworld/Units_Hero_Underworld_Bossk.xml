@@ -52,7 +52,7 @@
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Underworld</Affiliation>
-		<Size_Value>10</Size_Value>
+
 		<Shield_Points>0</Shield_Points>
 
 		<Tactical_Health>400</Tactical_Health>
@@ -239,7 +239,7 @@
 		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Size_Value>120</Size_Value>
+
 		<Damage>5</Damage>
 		<Behavior>DUMMY_STARSHIP, TRANSPORT, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, NEBULA, SELECTABLE</SpaceBehavior>

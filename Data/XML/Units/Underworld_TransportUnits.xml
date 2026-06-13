@@ -48,7 +48,6 @@
 		<Required_Planets />
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>120</Build_Time_Seconds>
-		<Size_Value>120</Size_Value>
 
 		<Behavior>TRANSPORT</Behavior>
 		<SpaceBehavior>
@@ -273,7 +272,6 @@
 		<Required_Planets />
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Size_Value>120</Size_Value>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
@@ -425,7 +423,6 @@
 		<Required_Planets />
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Size_Value>120</Size_Value>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>

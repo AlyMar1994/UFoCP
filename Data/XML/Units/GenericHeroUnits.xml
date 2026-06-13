@@ -10,7 +10,7 @@
 		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>75</Size_Value>
+
 		<!--  <Damage>2</Damage>-->
 		<Autoresolve_Health>30</Autoresolve_Health>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
@@ -70,7 +70,7 @@
 		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>75</Size_Value>
+
 		<!--  <Damage>2</Damage>-->
 		<Autoresolve_Health>30</Autoresolve_Health>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
@@ -130,7 +130,7 @@
 		<Type>Walk</Type>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>75</Size_Value>
+
 		<!--  <Damage>2</Damage>-->
 		<Autoresolve_Health>30</Autoresolve_Health>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
@@ -190,7 +190,7 @@
 		<Type>Walk</Type>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>75</Size_Value>
+
 		<!--  <Damage>2</Damage>-->
 		<Autoresolve_Health>30</Autoresolve_Health>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
@@ -247,7 +247,7 @@
 		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>75</Size_Value>
+
 		<Autoresolve_Health>30</Autoresolve_Health>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
@@ -306,7 +306,7 @@
 		<Type>Walk</Type>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>75</Size_Value>
+
 		<Autoresolve_Health>30</Autoresolve_Health>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
@@ -370,7 +370,7 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>75</Size_Value>
+
 
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,REVEAL,HIDE_WHEN_FOGGED</LandBehavior>
@@ -530,7 +530,7 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>75</Size_Value>
+
 
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,REVEAL,HIDE_WHEN_FOGGED</LandBehavior>
@@ -654,7 +654,7 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>75</Size_Value>
+
 
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,REVEAL,HIDE_WHEN_FOGGED</LandBehavior>
@@ -813,7 +813,7 @@
 		<Type>Walk</Type>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>75</Size_Value>
+
 		<!--		<Damage>2</Damage>-->
 		<Autoresolve_Health>30</Autoresolve_Health>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
@@ -863,7 +863,7 @@
 		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>75</Size_Value>
+
 		<!--		<Damage>2</Damage>-->
 		<Autoresolve_Health>30</Autoresolve_Health>
 		<Execute_Script_On_Type>True</Execute_Script_On_Type>
@@ -911,7 +911,7 @@
 		<Type>Walk</Type>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>75</Size_Value>
+
 		<!--  <Damage>2</Damage>-->
 		<Autoresolve_Health>30</Autoresolve_Health>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
@@ -951,7 +951,7 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>75</Size_Value>
+
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 
 		<Behavior>SELECTABLE</Behavior>

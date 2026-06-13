@@ -45,15 +45,11 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Neutral, Rebel, Empire, Underworld</Affiliation>
-		<Size_Value>30</Size_Value>
+
 		<Tactical_Health>1200</Tactical_Health>
 
 		<Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
 
-		<GUI_Model_Name>NV_LDS_pad.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
@@ -130,7 +126,7 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>30</Size_Value>
+
 		<Tactical_Health>1200</Tactical_Health>
 		<Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
 
@@ -138,10 +134,7 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<SFXEvent_Fire>Unit_A_Wing_Fire</SFXEvent_Fire>
 		<Icon_Name>i_button_lds.tga</Icon_Name>
-		<GUI_Model_Name>NV_LDS_build.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
@@ -208,7 +201,7 @@
 
 		<Affiliation>Underworld</Affiliation>
 		<Victory_Relevant>No</Victory_Relevant>
-		<Size_Value>30</Size_Value>
+
 		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
@@ -264,7 +257,7 @@
 
 		<Affiliation>Underworld</Affiliation>
 		<Victory_Relevant>No</Victory_Relevant>
-		<Size_Value>30</Size_Value>
+
 		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
@@ -319,7 +312,7 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Victory_Relevant>No</Victory_Relevant>
-		<Size_Value>30</Size_Value>
+
 		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
@@ -374,7 +367,7 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Victory_Relevant>No</Victory_Relevant>
-		<Size_Value>30</Size_Value>
+
 		<GUI_Row>0</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
@@ -439,7 +432,7 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>30</Size_Value>
+
 		<Tactical_Health>1200</Tactical_Health>
 		<Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
 
@@ -447,10 +440,7 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<SFXEvent_Fire>Unit_A_Wing_Fire</SFXEvent_Fire>
 		<Victory_Relevant>No</Victory_Relevant>
-		<GUI_Model_Name>NV_MDS_build.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -538,7 +528,7 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>30</Size_Value>
+
 		<Shield_Points>500</Shield_Points>
 		<Tactical_Health>1200</Tactical_Health>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
@@ -564,10 +554,7 @@
 		<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Icon_Name>i_button_lds.tga</Icon_Name>
-		<GUI_Model_Name>NV_LDS.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
@@ -624,7 +611,7 @@
 		<SpaceBehavior>TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, SHIELDED, DAMAGE_TRACKING, TURRET, TACTICAL_SELL</SpaceBehavior>
 
 		<Affiliation>Underworld</Affiliation>
-		<Size_Value>30</Size_Value>
+
 		<Armor_Type>Armor_Satellite</Armor_Type>
 		<Shield_Points>500</Shield_Points>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
@@ -708,7 +695,7 @@
 		<SpaceBehavior>TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SHIELDED, DAMAGE_TRACKING, TACTICAL_SELL</SpaceBehavior>
 
 		<Affiliation>Underworld</Affiliation>
-		<Size_Value>30</Size_Value>
+
 		<Armor_Type>Armor_Satellite</Armor_Type>
 		<Shield_Points>800</Shield_Points>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
@@ -778,7 +765,7 @@
 		<SpaceBehavior>TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SHIELDED, POWERED, DAMAGE_TRACKING, TACTICAL_SELL, TARGETING, ABILITY_COUNTDOWN</SpaceBehavior>
 
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>30</Size_Value>
+
 		<Armor_Type>Armor_Satellite</Armor_Type>
 		<Shield_Points>800</Shield_Points>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
@@ -870,7 +857,7 @@
 		<SpaceBehavior>TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SHIELDED, DAMAGE_TRACKING, TACTICAL_SELL</SpaceBehavior>
 
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>30</Size_Value>
+
 		<Armor_Type>Armor_Satellite</Armor_Type>
 		<Shield_Points>700</Shield_Points>
 		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
@@ -933,7 +920,6 @@
 				<Owner_Light_Effect_Color2 />
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
 			</Force_Healing_Ability>
 		</Abilities>
 
@@ -969,7 +955,7 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>30</Size_Value>
+
 
 		<Shield_Points>500</Shield_Points>
 		<Tactical_Health>1000</Tactical_Health>
@@ -1004,10 +990,7 @@
 
 		<SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
 		<Victory_Relevant>Yes</Victory_Relevant>
-		<GUI_Model_Name>NV_MDS.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
@@ -1057,7 +1040,7 @@
 		<SpaceBehavior>TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, SHIELDED, DAMAGE_TRACKING, TURRET, TACTICAL_SELL</SpaceBehavior>
 
 		<Affiliation>Underworld</Affiliation>
-		<Size_Value>30</Size_Value>
+
 		<Armor_Type>Armor_Satellite</Armor_Type>
 		<Shield_Points>600</Shield_Points>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
@@ -1244,14 +1227,10 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Neutral, Rebel, Empire, Underworld</Affiliation>
-		<Size_Value>30</Size_Value>
+
 
 		<Space_FOW_Reveal_Range>275</Space_FOW_Reveal_Range>
 
-		<GUI_Model_Name>NB_AsteroidMining_Pad.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
@@ -1308,16 +1287,13 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>30</Size_Value>
+
 		<Space_FOW_Reveal_Range>275</Space_FOW_Reveal_Range>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Victory_Relevant>No</Victory_Relevant>
-		<GUI_Model_Name>NB_AsteroidMining.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
@@ -1390,15 +1366,12 @@
 		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>30</Size_Value>
+
 		<Space_FOW_Reveal_Range>400</Space_FOW_Reveal_Range>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Victory_Relevant>No</Victory_Relevant>
-		<GUI_Model_Name>NB_AsteroidMining_Full.ALO</GUI_Model_Name>
-		<GUI_Distance>1000</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>

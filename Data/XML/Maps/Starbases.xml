@@ -17,7 +17,7 @@
 		<AI_Combat_Power>5000</AI_Combat_Power>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
-		<Size_Value>10</Size_Value>
+
 		<Tech_Level>0</Tech_Level>
 		<Base_Level>1</Base_Level>
 		<Prev_Level_Base />
@@ -163,7 +163,7 @@
 		<AI_Combat_Power>10000</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
-		<Size_Value>20</Size_Value>
+
 		<Tech_Level>0</Tech_Level>
 		<Base_Level>2</Base_Level>
 		<Prev_Level_Base>Rebel_Star_Base_1</Prev_Level_Base>
@@ -311,7 +311,7 @@
 		<AI_Combat_Power>15000</AI_Combat_Power>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
-		<Size_Value>30</Size_Value>
+
 		<Tech_Level>1</Tech_Level>
 		<Base_Level>3</Base_Level>
 		<Prev_Level_Base>Rebel_Star_Base_2</Prev_Level_Base>
@@ -466,7 +466,7 @@
 		<AI_Combat_Power>20000</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
-		<Size_Value>40</Size_Value>
+
 		<Tech_Level>2</Tech_Level>
 		<Base_Level>4</Base_Level>
 		<Prev_Level_Base>Rebel_Star_Base_3</Prev_Level_Base>
@@ -633,7 +633,7 @@
 		<AI_Combat_Power>35000</AI_Combat_Power>
 		<Build_Time_Seconds>150</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
-		<Size_Value>50</Size_Value>
+
 		<Tech_Level>3</Tech_Level>
 		<Base_Level>5</Base_Level>
 		<Prev_Level_Base>Rebel_Star_Base_4</Prev_Level_Base>
@@ -813,7 +813,7 @@
 		<AI_Combat_Power>5000</AI_Combat_Power>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
-		<Size_Value>10</Size_Value>
+
 		<Tech_Level>0</Tech_Level>
 		<Base_Level>1</Base_Level>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
@@ -948,7 +948,7 @@
 		<AI_Combat_Power>10000</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
-		<Size_Value>20</Size_Value>
+
 		<Tech_Level>1</Tech_Level>
 		<Base_Level>2</Base_Level>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
@@ -1092,7 +1092,7 @@
 		<AI_Combat_Power>15000</AI_Combat_Power>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
-		<Size_Value>30</Size_Value>
+
 		<Tech_Level>2</Tech_Level>
 		<Base_Level>3</Base_Level>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
@@ -1243,7 +1243,7 @@
 		<AI_Combat_Power>20000</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
-		<Size_Value>40</Size_Value>
+
 		<Tech_Level>3</Tech_Level>
 		<Base_Level>4</Base_Level>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
@@ -1394,7 +1394,7 @@
 		<AI_Combat_Power>35000</AI_Combat_Power>
 		<Build_Time_Seconds>150</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
-		<Size_Value>50</Size_Value>
+
 		<Tech_Level>4</Tech_Level>
 		<Base_Level>5</Base_Level>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
@@ -1552,7 +1552,7 @@
 		<Select_Box_Scale>1200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>10</Size_Value>
+
 		<Tech_Level>0</Tech_Level>
 		<Base_Level>1</Base_Level>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
@@ -1632,7 +1632,7 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Affiliation>Pirates</Affiliation>
 		<AI_Combat_Power>6000</AI_Combat_Power>
-		<Size_Value>10</Size_Value>
+
 		<Tech_Level>0</Tech_Level>
 		<Base_Level>1</Base_Level>
 		<CategoryMask>Capital</CategoryMask>

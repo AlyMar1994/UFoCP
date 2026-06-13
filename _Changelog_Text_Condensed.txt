@@ -38,7 +38,7 @@ https://github.com/AlyMar1994/UFoCP/issues/
 
 Additions:
 • UFCP now "supports" all standard language texts currently available for FoC (standard langauges: English, French, German, Italian, Spaniard Spanish, Polish and Russian).  Only English and German has translated text for now, other languages have English text ported to the respective language so the text doesn't appear missing.  Changes that only involve numeric values (f.e. changing "10%" to "25%") are ported in full.  Japanese isn't supported, because that is EaW only; fan patches currently aren't supported (Chinese, Czech-Slovak) unless these translation teams are willing to push changes to the UFCP GitHub.
-•• (06/10/2026) Japanese has now been added to the Unofficial Forces of Corruption Patch too!  This fanmade translation was done by unknown user(s), and was pulled from SabanYanko.com (further clarified in "_Readme.txt").  A "MasterTextFile_JAPANESE.dat" file has been included in the mod's text directory - to use it, see the mod's main GitHub page readme for instructions in English and Japanese.
+•• (06/10/2026, v2.2.0.1519) Japanese has now been added to the Unofficial Forces of Corruption Patch too!  This fanmade translation was done by unknown user(s), and was pulled from SabanYanko.com (further clarified in "_Readme.txt").  A "MasterTextFile_JAPANESE.dat" file has been included in the mod's text directory - to use it, see the mod's main GitHub page readme for instructions in English and Japanese.
 
 • All indigenous units (and their Consortium Slave counterparts) didn't have customized descriptions like all other units in the game. (BUG #224)
 	-- A related change, the Noghri description changed for consistency (TEXT_TOOLTIP_NOGHRI_ASSASSIN):

@@ -14,7 +14,7 @@
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Scale_Factor>0.5</Scale_Factor>
 		<GUI_Row>1</GUI_Row>
-		<Size_Value>120</Size_Value>
+
 		<Mass>0.995</Mass>
 
 		<Max_Speed>2.45</Max_Speed>
@@ -201,7 +201,7 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Size_Value>120</Size_Value>
+
 
 		<Behavior>DUMMY_STARSHIP, POWERED, SHIELDED, SELECTABLE</Behavior>
 		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, WEAPON, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
@@ -312,7 +312,7 @@
 		<Space_Model_Name>rv_missile_ship.alo</Space_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Mass>0.995</Mass>
-		<Size_Value>120</Size_Value>
+
 		<GUI_Row>1</GUI_Row>
 
 		<Max_Speed>2.5</Max_Speed>
@@ -457,7 +457,7 @@
 		<Scale_Factor>0.7</Scale_Factor>
 		<Select_Box_Scale>40</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
-		<Size_Value>8</Size_Value>
+
 		<Mass>0.995</Mass>
 
 		<Max_Lift>1.0</Max_Lift>
@@ -695,7 +695,7 @@
 		<Mass>0.999</Mass>
 		<Select_Box_Scale>400</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Size_Value>8</Size_Value>
+
 
 		<Max_Thrust>1.6</Max_Thrust>
 		<Max_Speed>2.2</Max_Speed>
@@ -1062,7 +1062,7 @@
 		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
 		<Select_Box_Scale>50</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
-		<Size_Value>75</Size_Value>
+
 		<Mass>1.0</Mass>
 
 		<Walk_Transition>Yes</Walk_Transition>
@@ -1282,7 +1282,7 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 		<Mass>1.0</Mass>
 		<GUI_Row>1</GUI_Row>
-		<Size_Value>75</Size_Value>
+
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -1461,7 +1461,7 @@
 
 		<Land_Model_Name>NI_Twilek_F.ALO</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Size_Value>10</Size_Value>
+
 		<Mass>1.0</Mass>
 
 		<Movement_Animation_Speed>0.8</Movement_Animation_Speed>
@@ -1642,7 +1642,7 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Size_Value>10</Size_Value>
+
 		<Stealth_Capable>Yes</Stealth_Capable>
 		<CanCellStack>Yes</CanCellStack>
 		<Mass>1.0</Mass>
@@ -1817,7 +1817,7 @@
 		<Land_Model_Name>W_huttpalace_variant.alo</Land_Model_Name>
 		<Scale_Factor>0.8</Scale_Factor>
 		<GUI_Row>0</GUI_Row>
-		<Size_Value>50</Size_Value>
+
 
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
@@ -1933,7 +1933,7 @@
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
 
@@ -2047,7 +2047,7 @@
 
 		<Affiliation>Hutts</Affiliation>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>9</Tech_Level>
 
@@ -2129,7 +2129,7 @@
 
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>99</Tech_Level>
 		<Icon_Name>i_button_power_generator.tga</Icon_Name>

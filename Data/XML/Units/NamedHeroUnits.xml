@@ -51,7 +51,7 @@
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>10</Size_Value>
+
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>400</Tactical_Health>
 		<Damage>60</Damage>
@@ -231,7 +231,7 @@
 		<Scale_Factor>1.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>10</Size_Value>
+
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>400</Tactical_Health>
 		<Damage>60</Damage>
@@ -372,7 +372,7 @@
 		<Affiliation>Empire</Affiliation>
 		<!-- If you want heroes to contribute to political control, use Political_Control_Bonus_Ability -->
 		<Political_Faction>Empire</Political_Faction>
-		<Size_Value>75</Size_Value>
+
 
 		<Armor_Type>Armor_Hero</Armor_Type>
 		<Damage>100</Damage>
@@ -640,7 +640,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<Size_Value>75</Size_Value>
+
 		<Damage>80</Damage>
 		<Lua_Script>Veers</Lua_Script>
 
@@ -725,7 +725,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<Size_Value>75</Size_Value>
+
 		<Damage>80</Damage>
 		<Lua_Script>Tarkin</Lua_Script>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
@@ -831,7 +831,7 @@
 		<Required_Special_Structures />
 		<Required_Planets />
 		<Armor_Type>Armor_Hero</Armor_Type>
-		<Size_Value>75</Size_Value>
+
 		<Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
 		<Damage>50</Damage>
 		<Tactical_Health>400</Tactical_Health>
@@ -991,7 +991,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<Size_Value>75</Size_Value>
+
 		<Damage>80</Damage>
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
 		<Unique_Space_Unit>Accuser_Star_Destroyer</Unique_Space_Unit>
@@ -1061,7 +1061,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<Size_Value>75</Size_Value>
+
 		<Damage>70</Damage>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
@@ -1132,7 +1132,7 @@
 		<Type>Walk</Type>
 		<Affiliation>Rebel</Affiliation>
 
-		<Size_Value>10</Size_Value>
+
 		<Stealth_Capable>No</Stealth_Capable>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<CanCellStack>Yes</CanCellStack>
@@ -1348,7 +1348,7 @@
 		<Scale_Factor>1.75</Scale_Factor>
 		<Affiliation>Rebel</Affiliation>
 
-		<Size_Value>10</Size_Value>
+
 
 		<Armor_Type>Armor_Hero</Armor_Type>
 		<Damage>25</Damage>
@@ -1508,7 +1508,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<Size_Value>75</Size_Value>
+
 		<Damage>100</Damage>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
@@ -1613,7 +1613,7 @@
 		<Deploys>No</Deploys>
 		<Affiliation>Rebel</Affiliation>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Size_Value>10</Size_Value>
+
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Damage>100</Damage>
@@ -1858,7 +1858,7 @@
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>10</Size_Value>
+
 		<Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
 
 		<Armor_Type>Armor_Hero</Armor_Type>
@@ -2010,7 +2010,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<Size_Value>75</Size_Value>
+
 		<Damage>60</Damage>
 
 		<SFXEvent_Select>Unit_Select_Luke</SFXEvent_Select>
@@ -2053,7 +2053,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<Size_Value>75</Size_Value>
+
 		<Damage>60</Damage>
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>

@@ -1,6 +1,6 @@
 # UFCP
 ## Unofficial Forces of Corruption Patch
-- Version: v2.1.0.####
+- Version: v2.2.0.1520
 - License: The UnLicense (with a special request, please see LICENSE)
 ---
 The Unofficial Forces of Corruption Patch is a one-does-all community patch for Petroglyph Games' "STAR WARS: Empire at War – Forces of Corruption."  UFCP's objective is to correct as many errors/bugs/glitches as possible in one convenient package, to whatever limit is available, within Petroglyph's Alamo engine.
@@ -17,9 +17,16 @@ To change the game's language, the parameter `LANGUAGE=[Language Name]` can be u
 **NOTE:** The engine natively supports English, French (Français), German (Deutsch), Italian (Italiano), Polish (Polski), Russian (Русский) and Spain Spanish (Español).  Non-native languages _can_ be displayed - to use them, the "MasterTextFile_ENGLISH.dat" file has to be backed up somewhere, and the unsupported language file must be renamed to "MasterTextFile_ENGLISH.dat."  Instructions for non-native languages in local tongue are below:
 
 ### 日本（日本語）
-「Unofficial Forces of Corruption Patch」では、バージョン2.0.0以降、日本語が公式にはサポートされていないものの、利用可能な言語オプションとして追加されています。この翻訳は、日本のリアルタイムストラテジーゲームフォーラム「sabanyanko.web.fc2.com」から入手したもので、作成者は不明です。
+「Unofficial Forces of Corruption Patch」では、バージョン2.2.0.1520以降、日本語が公式にはサポートされていないものの、利用可能な言語オプションとして追加されています。この翻訳は、日本のリアルタイムストラテジーゲームフォーラム「sabanyanko.web.fc2.com」から入手したもので、作成者は不明です。
 
 ダウンロードしたMODで日本語に対応させるには、「MasterTextFile_ENGLISH.dat」を「MasterTextFile_ENGLISH.dat.bak」にリネームしてください。次に、「MasterTextFile_JAPANESE.dat」を「MasterTextFile_ENGLISH.dat」にリネームしてください。将来的には、Petroglyph社に対し、「LANGUAGE=JAPANESE」の起動オプションを再有効化するよう要望できることを願っています。
+
+また、MODのファイル内には、ロード画面やメインメニューのタイトルを日本語化したバージョンが含まれています。これらを使用するには、（前述の通り）「Splash.dds」と「Menuback_Overlay.dds」の名前を変更し、「Splash_Japanese.dds」と「Menuback_Overlay_Japanese.dds」をそれぞれの英語版の名前に変更する必要があります。
+
+### Україна (українська)
+Наразі Unofficial Forces of Corruption Patch (UFCP) не підтримує українську мову як опцію. Я не маю дозволу від автора цього перекладу на його включення до цього модифікації і хочу дочекатися, поки його отримаю.
+
+Однак, починаючи з версії 2.2.0.1520, UFCP містить екран завантаження та титульний екран головного меню, локалізовані українською мовою. Щоб ними скористатися, потрібно перейменувати файли «Splash.dds» та «Menuback_Overlay.dds» і/або створити їх резервну копію в безпечному місці. Потім, щоб вони працювали, файли «Splash_Ukrainian.dds» та «Menuback_Overlay_Ukrainian.dds» потрібно перейменувати на їхні англійські еквіваленти.
 
 ## Prerequisities
 ### Editors

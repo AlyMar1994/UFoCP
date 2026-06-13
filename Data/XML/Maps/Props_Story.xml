@@ -929,7 +929,7 @@
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>30</Size_Value>
+
 		<Shield_Points>20000</Shield_Points>
 		<Tactical_Health>20000</Tactical_Health>
 		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
@@ -1891,7 +1891,7 @@
 		<Affiliation>Empire</Affiliation>
 		<!-- If you want heroes to contribute to political control, use Political_Control_Bonus_Ability -->
 		<Political_Faction>Empire</Political_Faction>
-		<Size_Value>75</Size_Value>
+
 
 		<Armor_Type>Armor_Hero</Armor_Type>
 		<Damage>100</Damage>
@@ -2071,7 +2071,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
 
@@ -2506,7 +2506,7 @@
 		<AI_Combat_Power>35000</AI_Combat_Power>
 		<Build_Time_Seconds>150</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
-		<Size_Value>50</Size_Value>
+
 		<Tech_Level>9</Tech_Level>
 		<Base_Level>5</Base_Level>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
@@ -2670,7 +2670,7 @@
 		<Build_Cost_Credits>1200</Build_Cost_Credits>
 		<AI_Combat_Power>800</AI_Combat_Power>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Size_Value>120</Size_Value>
+
 		<Behavior>DUMMY_STARSHIP, POWERED, SHIELDED, SELECTABLE</Behavior>
 		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 

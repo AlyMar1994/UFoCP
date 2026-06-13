@@ -63,7 +63,7 @@
 		<Auto_Deploys>No</Auto_Deploys>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>150</Size_Value>
+
 
 		<Armor_Type>Armor_ATAT</Armor_Type>
 
@@ -391,7 +391,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 
-		<Size_Value>75</Size_Value>
+
 
 		<Armor_Type>Armor_ATST</Armor_Type>
 		<Damage_Type>Damage_ATST</Damage_Type>
@@ -706,7 +706,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 
 		<Armor_Type>Armor_ATAA</Armor_Type>
-		<Size_Value>150</Size_Value>
+
 		<Damage>10</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>300</Tactical_Health>
@@ -940,7 +940,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 
 		<Armor_Type>Armor_SPMAT</Armor_Type>
-		<Size_Value>150</Size_Value>
+
 		<Damage>20</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>150</Tactical_Health>
@@ -1166,7 +1166,7 @@
 
 		<Scale_Factor>1.2</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Size_Value>15</Size_Value>
+
 		<Select_Box_Scale>40</Select_Box_Scale>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
@@ -1356,7 +1356,7 @@
 		<Type>Tracked</Type>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>90</Size_Value>
+
 
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>1.1</Max_Speed>
@@ -1598,7 +1598,7 @@
 		<Deploys>No</Deploys>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>10</Size_Value>
+
 		<Damage>4</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>20</Tactical_Health>
@@ -1720,7 +1720,7 @@
 
 		<Armor_Type>Armor_T2B</Armor_Type>
 		<Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
-		<Size_Value>70</Size_Value>
+
 		<Damage>6</Damage>
 		<Shield_Points>150</Shield_Points>
 		<Tactical_Health>100</Tactical_Health>
@@ -1904,7 +1904,7 @@
 		<MovementPredictionInterval>3.0</MovementPredictionInterval>
 
 		<Armor_Type>Armor_T4B</Armor_Type>
-		<Size_Value>75</Size_Value>
+
 		<Damage>20</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
@@ -2101,7 +2101,7 @@
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<Armor_Type>Armor_Mauler</Armor_Type>
-		<Size_Value>75</Size_Value>
+
 		<Damage>4</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>125</Tactical_Health>
@@ -2339,7 +2339,7 @@
 		<Ranged_Target_Z_Adjust>9.0</Ranged_Target_Z_Adjust>
 		<Armor_Type>Armor_2M</Armor_Type>
 		<Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
-		<Size_Value>60</Size_Value>
+
 		<Damage>10</Damage>
 		<Shield_Points>100</Shield_Points>
 		<Tactical_Health>200</Tactical_Health>
@@ -2612,7 +2612,7 @@
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<Armor_Type>Armor_Mauler</Armor_Type>
-		<Size_Value>60</Size_Value>
+
 		<Damage>5</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>250</Tactical_Health>
@@ -2805,7 +2805,7 @@
 		<Type>Fly</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>15</Size_Value>
+
 
 		<Damage>25</Damage>
 		<Shield_Points>50</Shield_Points>
@@ -2872,7 +2872,7 @@
 		<Type>Fly</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>15</Size_Value>
+
 
 		<Damage>2</Damage>
 		<Shield_Points>30</Shield_Points>
@@ -2965,7 +2965,7 @@
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Underworld</Affiliation>
-		<Size_Value>10</Size_Value>
+
 		<Damage>4</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>20</Tactical_Health>

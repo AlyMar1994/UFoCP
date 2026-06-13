@@ -53,7 +53,7 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Build_Cost_Credits>120</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
-		<Size_Value>8</Size_Value>
+
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>

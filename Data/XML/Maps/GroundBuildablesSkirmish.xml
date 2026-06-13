@@ -319,7 +319,7 @@
 		<Text_ID>TEXT_STRUCTURE_POWER_GENERATOR</Text_ID>
 		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Icon_Name>i_button_power_generator.tga</Icon_Name>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
@@ -364,7 +364,7 @@
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Icon_Name>i_button_power_generator.tga</Icon_Name>
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -432,7 +432,7 @@
 		<Text_ID>TEXT_STRUCTURE_POWER_GENERATOR</Text_ID>
 		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Icon_Name>i_button_power_generator.tga</Icon_Name>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
@@ -479,7 +479,7 @@
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Icon_Name>i_button_power_generator.tga</Icon_Name>
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -582,7 +582,7 @@
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Political_Control>0</Political_Control>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -648,7 +648,7 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -710,7 +710,7 @@
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -788,7 +788,7 @@
 		<Custom_Hard_YExtent>50.0</Custom_Hard_YExtent>
 		<Custom_Soft_Footprint_Radius>40.0</Custom_Soft_Footprint_Radius>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -852,7 +852,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -954,7 +954,7 @@
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Political_Control>0</Political_Control>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1056,7 +1056,7 @@
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1129,7 +1129,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -1192,7 +1192,7 @@
 		<Scale_Factor>0.75</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Political_Control>0</Political_Control>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1251,7 +1251,7 @@
 		<Scale_Factor>0.75</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Political_Control>0</Political_Control>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1310,7 +1310,7 @@
 		<Scale_Factor>0.75</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Political_Control>0</Political_Control>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
@@ -1362,7 +1362,7 @@
 		<Scale_Factor>0.75</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Political_Control>0</Political_Control>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -1422,7 +1422,7 @@
 		<Scale_Factor>0.75</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Political_Control>0</Political_Control>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
@@ -1520,7 +1520,7 @@
 		<Build_Time_Seconds>27</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>-1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>In_Base</Base_Position>
 		<Tech_Level>9</Tech_Level>
 
@@ -1688,7 +1688,7 @@
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
-		<Size_Value>50</Size_Value>
+
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>40</Energy_Refresh_Rate>
 		<Icon_Name>i_button_turbolaser_tower.tga</Icon_Name>
@@ -1755,7 +1755,7 @@
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
-		<Size_Value>50</Size_Value>
+
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>40</Energy_Refresh_Rate>
 		<Icon_Name>i_button_turbolaser_tower.tga</Icon_Name>
@@ -1809,7 +1809,7 @@
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<Size_Value>50</Size_Value>
+
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>40</Energy_Refresh_Rate>
 		<Icon_Name>i_button_turbolaser_tower.tga</Icon_Name>
@@ -1868,7 +1868,7 @@
 		<Shield_Points>0</Shield_Points>
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
-		<Size_Value>50</Size_Value>
+
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>40</Energy_Refresh_Rate>
 		<Icon_Name>i_button_turbolaser_tower.tga</Icon_Name>
@@ -1921,7 +1921,7 @@
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<Size_Value>50</Size_Value>
+
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>40</Energy_Refresh_Rate>
 		<Icon_Name>i_button_turbolaser_tower.tga</Icon_Name>
@@ -2003,7 +2003,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_e_infantry_barracks.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2052,7 +2052,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_e_infantry_barracks.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2115,7 +2115,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -2163,7 +2163,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -2226,7 +2226,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_e_vehicle_factory.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2275,7 +2275,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_e_vehicle_factory.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2338,7 +2338,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -2387,7 +2387,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -2450,7 +2450,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_e_advanced_weapons.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2499,7 +2499,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_e_advanced_weapons.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2562,7 +2562,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -2611,7 +2611,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -2674,7 +2674,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_e_mega_advanced_weapons.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2721,7 +2721,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_e_mega_advanced_weapons.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2783,7 +2783,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_e_officer_academy.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2830,7 +2830,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_e_officer_academy.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -2891,7 +2891,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -2938,7 +2938,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -3052,7 +3052,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_e_research_facility.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -3101,7 +3101,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_e_research_facility.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -3165,7 +3165,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_rb_researchfacility.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -3214,7 +3214,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_rb_researchfacility.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -3263,7 +3263,7 @@
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_communications_array.tga</Icon_Name>
 		<Select_Box_Scale>100</Select_Box_Scale>
 
@@ -3315,7 +3315,7 @@
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_communications_array.tga</Icon_Name>
 		<Select_Box_Scale>100</Select_Box_Scale>
 
@@ -3375,7 +3375,7 @@
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_communications_array.tga</Icon_Name>
 		<Select_Box_Scale>100</Select_Box_Scale>
 
@@ -3427,7 +3427,7 @@
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_communications_array.tga</Icon_Name>
 		<Select_Box_Scale>100</Select_Box_Scale>
 
@@ -3489,7 +3489,7 @@
 		<Radar_Icon_Size>0.15 0.15</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_eb_commandcenter.tga</Icon_Name>
 		<Select_Box_Scale>300</Select_Box_Scale>
 
@@ -3548,7 +3548,7 @@
 		<Radar_Icon_Size>0.15 0.15</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_eb_commandcenter.tga</Icon_Name>
 		<Select_Box_Scale>300</Select_Box_Scale>
 
@@ -3612,7 +3612,7 @@
 		<Radar_Icon_Size>0.15 0.15</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_rb_commandcenter.tga</Icon_Name>
 		<Select_Box_Scale>100</Select_Box_Scale>
 
@@ -3669,7 +3669,7 @@
 		<Radar_Icon_Size>0.15 0.15</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_rb_commandcenter.tga</Icon_Name>
 		<Select_Box_Scale>300</Select_Box_Scale>
 
@@ -3798,7 +3798,7 @@
 		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_nb_cmc22mining_sml.tga</Icon_Name>
 		<Select_Box_Scale>100</Select_Box_Scale>
 
@@ -3865,7 +3865,7 @@
 		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_nb_cmc22mining_sml.tga</Icon_Name>
 		<Select_Box_Scale>50</Select_Box_Scale>
 
@@ -4196,7 +4196,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Underworld</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_ub_barracks.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -4247,7 +4247,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Underworld</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_ub_barracks.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
@@ -4296,7 +4296,7 @@
 		<Radar_Icon_Size>0.15 0.15</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_ub_palace.tga</Icon_Name>
 		<Select_Box_Scale>100</Select_Box_Scale>
 
@@ -4352,7 +4352,7 @@
 		<Radar_Icon_Size>0.15 0.15</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
-		<Size_Value>50</Size_Value>
+
 		<Icon_Name>i_button_ub_palace.tga</Icon_Name>
 		<Select_Box_Scale>300</Select_Box_Scale>
 
@@ -4431,7 +4431,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Underworld</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -4480,7 +4480,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Underworld</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -4543,7 +4543,7 @@
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 		<Affiliation>Underworld</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
@@ -4592,7 +4592,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Underworld</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -4730,7 +4730,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -4899,7 +4899,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Empire</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -5001,7 +5001,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Underworld</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -5050,7 +5050,7 @@
 		<Build_Time_Seconds>45</Build_Time_Seconds>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-		<Size_Value>50</Size_Value>
+
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>0</Tech_Level>
 
@@ -5191,7 +5191,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 		<Affiliation>Rebel</Affiliation>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
@@ -5366,7 +5366,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Scale_Factor>1</Scale_Factor>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Size_Value>50</Size_Value>
+
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
