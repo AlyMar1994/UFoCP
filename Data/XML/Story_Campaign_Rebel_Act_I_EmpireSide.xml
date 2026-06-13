@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+	<Event Name="Rebel_Campaign_Lock_Out_DeathStar">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Death_Star</Reward_Param1>
+	</Event>
+	
+	<Event Name="Rebel_Campaign_Lock_Out_DeathStar2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Death_Star_II</Reward_Param1>
+	</Event>
+	
+	<Event Name="Rebel_Campaign_Lock_Out_Executor">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Darth_Team_Executor</Reward_Param1>
+	</Event>
+	
+	<Event Name="Rebel_Campaign_Lock_Out_Research">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>E_Ground_Research_Facility</Reward_Param1>
+	</Event>
+
+
+</Story>

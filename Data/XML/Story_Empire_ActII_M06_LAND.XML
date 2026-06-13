@@ -1,0 +1,953 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+<!--
+
+	<Event Name="">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq></Prereq>
+	</Event>
+
+
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1></Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+-->
+
+<!-- Preliminary Setup -->
+
+	<Event Name="Empire_A02M06_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<Event Name="Empire_M06_Autoresolve_Off">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIDE_AUTORESOLVE</Reward_Type>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Prevent_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Prevent_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Remove_FoW">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_FOW</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+	
+	<!-- <Event Name="Empire_A02M06_Allow_Replay">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>USE_RETRY_DIALOG</Reward_Type>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>-->
+
+	<Event Name="Empire_A02M06_Win_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Empire_A02M06_Win</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+
+<!-- First Sequence: Destruction of Targets -->
+<!-- Announcer Welcomes Officers -->
+	<Event Name="Empire_A02M06_Announcer_A1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_05</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_05</Reward_Param8>
+		<Reward_Param9>Veers_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Announcer_A3">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_05</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_05</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Announcer_A1</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Announcer_A3_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_A02M06_Announcer_A3</Prereq>
+	</Event>
+
+<!-- Announcer Mentions Wall Crossing -->
+	<Event Name="Empire_A02M06_Announcer_A4">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_06</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_06</Reward_Param8>
+		<Reward_Param9>Veers_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A02M06_Announcer_A3</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Announcer_A5">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_06</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_06</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Announcer_A4</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Announcer_A6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_A02M06_Announcer_A5</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Wall_Hint">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_30</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Empire_A02M06_Announcer_A6</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Wall_Hint_Cleanup">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_30</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Wall_Hint</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Highlight_Marker04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_04</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>4</Reward_Param3>		
+		<Prereq>Empire_A02M06_Wall_Hint</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Highlight_Marker04_Cleanup">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_04</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Reward_Param3>4</Reward_Param3>		
+		<Prereq>Empire_A02M06_Wall_Hint_Cleanup</Prereq>
+	</Event>
+
+<!-- Announcer Mentions Firing -->
+	<Event Name="Empire_A02M06_Announcer_A10">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_09</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_09</Reward_Param8>
+		<Reward_Param9>Veers_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A02M06_Wall_Hint</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Announcer_A11">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_09</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_09</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Announcer_A10</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Announcer_A12">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_A02M06_Announcer_A11</Prereq>
+	</Event>
+	
+<!-- Add Highlight for Firepower -->
+	<Event Name="Empire_A02M06_Show_Destroyable_Vehicle">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>T4B_TANK</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>1</Reward_Param3>		
+		<Prereq>Empire_A02M06_Announcer_A12</Prereq>
+	</Event>
+
+<!--	<Event Name="Empire_A02M06_Hide_Destroyable_Vehicle">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>E3_T4B_TANK</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Reward_Param3>1</Reward_Param3>		
+		<Prereq>Empire_A02M06_Show_Destroyable_Vehicle</Prereq>
+	</Event> -->
+		
+<!-- Display Destroyable Hint -->
+	<Event Name="Empire_A02M06_Destroyable_Hint_On">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_10</Reward_Param1>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Prereq>Empire_A02M06_Show_Destroyable_Vehicle</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Destroyable_Hint_Off">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_10</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Destroyable_Hint_On</Prereq>
+	</Event>
+
+<!-- Display no bombing run notice line -->
+
+	<Event Name="Empire_A02M06_No_Bombing_Runs">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_6_100</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>System</Reward_Param7>
+		<Prereq>Empire_A02M06_Destroyable_Hint_Off</Prereq>
+	</Event>
+
+<!-- Player Triggers Pirate Invasion -->
+	<Event Name="Empire_A02M06_Trigger_Pirates">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>A02M06_TRIGGER_PIRATES</Event_Param2>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Announcer_B1">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_20</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_20</Reward_Param8>
+		<Reward_Param9>Veers_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A02M06_Trigger_Pirates</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Announcer_B2">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_20</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_20</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Announcer_B1</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Announcer_B3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_A02M06_Announcer_B2</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Hint_Stormtroopers">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_21</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7><!-- HINT color coding - green -->
+		<Prereq>Empire_A02M06_Announcer_B3</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Hint_Stormtroopers_Cleanup">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_21</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Hint_Stormtroopers</Prereq>
+	</Event>
+	
+<!-- Announcer Thanks Prison System -->
+	<Event Name="Empire_A02M06_Announcer_B4">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_22</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_22</Reward_Param8>
+		<Reward_Param9>Veers_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A02M06_Hint_Stormtroopers_Cleanup</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Announcer_B5">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_22</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_22</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Announcer_B4</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Announcer_B6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_A02M06_Announcer_B5</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Emperor_Response_00">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>T2B_Tank</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Emperor_Response_01">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>A02M06_EMPEROR_ANNOUNCES</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_40</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param9>Emperor_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_40</Reward_Param8> <!-- Put speech file name here -->
+		<Prereq>Empire_A02M06_Emperor_Response_00</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Emperor_Response_01_Done">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_40</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_40</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Emperor_Response_01</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Emperor_Response_01_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_A02M06_Emperor_Response_01_Done</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Emperor_Response_02">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>T4B_Tank</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Emperor_Response_02a">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>A02M06_EMPEROR_ANNOUNCES2</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_39</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param9>Emperor_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_39</Reward_Param8> <!-- Put speech file name here -->
+		<Prereq>Empire_A02M06_Emperor_Response_02</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Emperor_Response_02_Done">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_39</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_39</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Emperor_Response_02a</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Emperor_Response_02_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_A02M06_Emperor_Response_02_Done</Prereq>
+	</Event>
+
+	<!-- Player Triggers Rancor Release -->
+	<Event Name="Empire_A02M06_Trigger_Rancors">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>A02M06_TRIGGER_RANCORS</Event_Param2>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Announcer_C1">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_23</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_23</Reward_Param8>
+		<Reward_Param9>Veers_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A02M06_Trigger_Rancors</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Announcer_C2">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_23</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_23</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Announcer_C1</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Announcer_C3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_A02M06_Announcer_C2</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Hint_Rancor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_24</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Empire_A02M06_Announcer_C3</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Hint_Rancor_Cleanup">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_24</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Hint_Rancor</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Highlight_Rancor">	
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>RANCOR</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>2</Reward_Param3>		
+		<Prereq>Empire_A02M06_Hint_Rancor</Prereq>
+	</Event>
+
+<!--	<Event Name="Empire_A02M06_Hide_Rancor">	
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>RANCOR</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Reward_Param3>2</Reward_Param3>		
+		<Prereq>Empire_A02M06_Highlight_Rancor</Prereq>
+	</Event>-->
+	
+	<!-- Player Triggers Rebel Invasion -->
+	<Event Name="Empire_A02M06_Trigger_Rebels">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Rancor</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Prereq>Empire_A02M06_Trigger_Rancors</Prereq>
+	</Event>
+	
+	
+	
+	
+	
+	
+	
+	<!-- TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_25
+	 Veers: What's this?  It looks like Rebel soldiers are invading.  Not to worry.  
+	 They pose no threat to the AT-AT.  -->
+	<Event Name="Empire_A02M06_Announcer_D1">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>A02M06_TRIGGER_REBELS</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_25</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_25</Reward_Param8>
+		<Reward_Param9>Veers_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A02M06_Trigger_Rebels</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Announcer_D2">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_25</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_25</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Announcer_D1</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Announcer_D3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_A02M06_Announcer_D2</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Task_Rebels">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_11</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Empire_A02M06_Announcer_D3</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Task_Rebels_Cleanup">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_11</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Task_Rebels</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Hint_Rebels">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_31</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7><!-- HINT color coding - green -->
+		<Prereq>Empire_A02M06_Task_Rebels_Cleanup</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Hint_Rebels_Cleanup">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_31</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Hint_Rebels</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Allow_Win_Condition">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Prereq>Empire_A02M06_Hint_Rebels_Cleanup</Prereq> 
+	</Event>
+
+<!-- VICTORY CONDITION: All Rebel Units Destroyed 
+TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_27
+Veers: Thank you, your highness, for watching this demonstration.  
+As you can see the AT-AT is clearly capable of handling even the most… surprising of situations.  -->
+
+	<Event Name="Empire_A02M06_All_Rebel_Destroyed_WIN">
+		<Event_Type>STORY_CHECK_DESTROYED</Event_Type>
+		<Event_Param1>REBEL</Event_Param1>
+		<Event_Param2>DESTROY_ALL_UNITS</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_27</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_27</Reward_Param8>
+		<Reward_Param9>Veers_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A02M06_Allow_Win_Condition</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Rebel_Destroyed_Dialog">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_27</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_27</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_All_Rebel_Destroyed_WIN</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Rebel_Destroyed_Dialog_01">	
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_41</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param9>Emperor_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_41</Reward_Param8> <!-- Put speech file name here -->
+		<Prereq>Empire_A02M06_Rebel_Destroyed_Dialog</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Rebel_Destroyed_Dialog_01_Cleanup">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_41</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_41</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Rebel_Destroyed_Dialog_01</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Rebel_Destroyed_Dialog_02">	
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_42</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param9>Tarkin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_42</Reward_Param8> <!-- Put speech file name here -->
+		<Prereq>Empire_A02M06_Rebel_Destroyed_Dialog_01_Cleanup</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Rebel_Destroyed_Dialog_02_Cleanup">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_42</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_42</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Rebel_Destroyed_Dialog_02</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Rebel_Destroyed_Dialog_03">	
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_45</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param9>Emperor_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_45</Reward_Param8> <!-- Put speech file name here -->
+		<Prereq>Empire_A02M06_Rebel_Destroyed_Dialog_02_Cleanup</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Rebel_Destroyed_Dialog_03_Cleanup">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_45</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_45</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Rebel_Destroyed_Dialog_03</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Rebel_Destroyed_Dialog_03_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_A02M06_Rebel_Destroyed_Dialog_03_Cleanup</Prereq>
+	</Event>
+	
+	
+	<!-- jdg feeds back to lua to reset cinematic camera stuff -->
+	<Event Name="Empire_A02M06_Rebel_Destroyed_Complete_Mission">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>EMPIRE</Reward_Param1>
+		<Prereq>Empire_A02M06_Rebel_Destroyed_Dialog_03_Stop_Movie</Prereq> 
+	</Event>
+
+	<Event Name="Empire_A02M06_Increment_Win">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>EMPIRE</Event_Param1>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Empire_A02M06_Win</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Return_FoW">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_FOW</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Empire_A02M06_Increment_Win</Prereq>
+	</Event>
+
+<!-- Hint: Show the four bunkers to be protected -->
+	<Event Name="Empire_A02M06_Highlight_Bunker00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_00</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>0</Reward_Param3>		
+		<Prereq>Empire_A02M06_Task_Rebels</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Highlight_Bunker01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_01</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>1</Reward_Param3>		
+		<Prereq>Empire_A02M06_Task_Rebels</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Highlight_Bunker02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_02</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>2</Reward_Param3>		
+		<Prereq>Empire_A02M06_Task_Rebels</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Highlight_Bunker03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_03</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>3</Reward_Param3>		
+		<Prereq>Empire_A02M06_Task_Rebels</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Highlight_Bunker00_Cleanup">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_00</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Reward_Param3>0</Reward_Param3>		
+		<Prereq>Empire_A02M06_Task_Rebels_Cleanup</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Highlight_Bunker01_Cleanup">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_01</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Reward_Param3>1</Reward_Param3>		
+		<Prereq>Empire_A02M06_Task_Rebels_Cleanup</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Highlight_Bunker02_Cleanup">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_02</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Reward_Param3>2</Reward_Param3>		
+		<Prereq>Empire_A02M06_Task_Rebels_Cleanup</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Highlight_Bunker03_Cleanup">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_03</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Reward_Param3>3</Reward_Param3>		
+		<Prereq>Empire_A02M06_Task_Rebels_Cleanup</Prereq>
+	</Event>
+		
+<!-- Encouragement for Player after Timer Expires -->
+	<Event Name="Empire_A02M06_Encourage_Timer">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>30</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_6_900</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Empire_A02M06_Destroyable_Hint_Off</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Encourage_Timer_Highlight">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Empire_A02M06_Encourage_Timer</Prereq>
+	</Event>
+	
+<!-- Encouragement for Player after T2Bs Destroyed -->
+	<Event Name="Empire_A02M06_Encourage_T2B">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>T2B_Tank</Event_Param1>
+		<Event_Param3>3</Event_Param3>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Encourage_T2B_Highlight">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>A02M06_ENCOURAGE_T2B</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_6_900</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+	</Event>
+	
+<!-- Encouragement for Player after T4Bs Destroyed -->
+	<Event Name="Empire_A02M06_Encourage_T4B">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>T4B_Tank</Event_Param1>
+		<Event_Param3>2</Event_Param3>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Encourage_T4B_Highlight">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>A02M06_ENCOURAGE_T4B</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_6_900</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+	</Event>
+	
+<!-- Encouragement for Player after Pod Walkers Destroyed -->
+	<Event Name="Empire_A02M06_Encourage_Pod_Walker">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Pod_Walker</Event_Param1>
+		<Event_Param3>3</Event_Param3>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Encourage_Pod_Walker_Highlight">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>A02M06_ENCOURAGE_POD_WALKER</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_6_900</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+	</Event>
+	
+<!-- Encouragement for Player after Pirate Invasion -->
+	<Event Name="Empire_A02M06_Encourage_Pirates">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_6_900</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Empire_A02M06_Announcer_B6</Prereq>
+	</Event>
+
+<!-- The Course Highlighting Event -->
+	<Event Name="Empire_A02M06_Highlight_Course">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>A02M06_HIGHLIGHT_COURSE</Event_Param2>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_05</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>9</Reward_Param3>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+	
+<!-- The Course Highlighting Cleanup Event -->
+	<Event Name="Empire_A02M06_Highlight_Course_Cleanup">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_05</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Reward_Param3>9</Reward_Param3>		
+		<Prereq>Empire_A02M06_Trigger_Rancors</Prereq>
+		<Prereq>Empire_A02M06_Trigger_Rebels</Prereq>
+	</Event>
+	
+<!-- LOSS CONDITION 1: All Bunkers Destroyed -->
+	
+	<Event Name="Empire_A02M06_All_Bunkers_Destroyed">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Imperial_Observation_Bunker</Event_Param1>
+		<Event_Param3>4</Event_Param3>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_18</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_FIVE_18</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_All_Bunkers_Destroyed_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_FIVE_18</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_18</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_All_Bunkers_Destroyed</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_All_Bunkers_Destroyed_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_A02M06_All_Bunkers_Destroyed_Remove_Text</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_All_Bunkers_Destroyed_Player_Loses">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Prereq>Empire_A02M06_All_Bunkers_Destroyed_Stop_Movie</Prereq>
+	</Event>
+
+<!-- LOSS CONDITION 2: General Veers Defeated -->
+	
+	<Event Name="Empire_A02M06_Veers_Destroyed">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Veers_AT_AT_Walker</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_46</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_46</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Veers_Destroyed_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_46</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_46</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_A02M06_Veers_Destroyed</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Veers_Destroyed_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_A02M06_Veers_Destroyed_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Veers_Destroyed_Player_Loses">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Prereq>Empire_A02M06_Veers_Destroyed_Stop_Movie</Prereq>
+	</Event>
+	
+<!-- Scripts for tactical objectives -->
+	<Event Name="Empire_A02M06_Tactical_01_On">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_6_900</Reward_Param1>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Tactical_02_On">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_35</Reward_Param1>
+		<Prereq>Empire_A02M06_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Tactical_03_On">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_11</Reward_Param1>
+		<Prereq>Empire_A02M06_Trigger_Rebels</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Tactical_01_Off">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_6_900</Reward_Param1>
+		<Prereq>Empire_A02M06_Trigger_Rebels</Prereq>
+	</Event>
+
+	<Event Name="Empire_A02M06_Tactical_02_Fail">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_35</Reward_Param1>
+		<Prereq>Empire_A02M06_Veers_Destroyed</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A02M06_Tactical_03_Fail">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_11</Reward_Param1>
+		<Prereq>Empire_A02M06_All_Bunkers_Destroyed</Prereq>
+	</Event>
+	
+</Story>

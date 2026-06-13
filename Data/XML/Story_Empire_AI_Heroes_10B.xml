@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+
+<!-- Empire Hero Release -->
+
+
+	<!-- Spawn Starting Heroes -->
+
+	<Event Name="Empire_AI_Unlock_Research_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>E_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Empire_AI_Heroes_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Grand_Moff_Tarkin_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Empire_AI_Heroes_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+	<!-- Spawn Tech Level 1 Heroes -->
+
+	<Event Name="Empire_AI_Heroes_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Empire_AI_Heroes_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Boba_Fett_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_AI_Heroes_03</Prereq>
+	</Event>
+
+
+	<!-- Spawn Time Era 2 Heroes -->
+
+	<Event Name="Empire_AI_Heroes_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+	<Event Name="Empire_AI_Heroes_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>General_Veers_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_AI_Heroes_05</Prereq>
+	</Event>
+
+
+	<!-- Spawn Time Era 3 Heroes -->
+
+	<Event Name="Empire_AI_Heroes_07">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<Event Name="Empire_AI_Heroes_08">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Accuser_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_AI_Heroes_07</Prereq>
+	</Event>
+
+
+	<!-- Spawn Time Era 4 Heroes -->
+
+	<Event Name="Empire_AI_Heroes_09">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+	<Event Name="Empire_AI_Heroes_10">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_AI_Heroes_09</Prereq>
+	</Event>
+	
+	<Event Name="Executor_Variant_Option">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Darth_Team_Executor</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Prereq>Empire_AI_Heroes_09</Prereq>
+	</Event>
+	
+	<Event Name="Despawn_Vader_Old_Option">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+		<Prereq>Executor_Variant_Option</Prereq>
+	</Event>
+
+
+
+
+
+
+	<!-- Victory/Defeat Cutscenes Specific -->
+	
+	<Event Name="Death_Star_Construction">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Death_Star_II</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Prereq>Empire_AI_Heroes_09</Prereq>
+	</Event>
+	
+	<Event Name="Death_Star_Created">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Prereq>Death_Star_Construction</Prereq>
+	</Event>
+	
+	<!-- Winning Movies Event -->
+ 
+	<!-- DEATH STAR WIN CONDITION -->
+	
+	<Event Name="Death_Star_Target">
+		<Event_Type>STORY_DESTROY</Event_Type>
+		<Event_Param1>Death_Star_II</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Prevent_Victory"><!-- Disables that you can Win in GC -->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Death_Star_Target</Prereq>
+	</Event>
+	
+	<Event Name="AI_Stop_Win_Death_Star">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+		<Prereq>Death_Star_Target</Prereq>
+	</Event>
+	
+	<Event Name="Winning_Preset_Death_Star">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Prereq>Death_Star_Target</Prereq>
+	</Event>
+	
+	<Event Name="Winning_Begin_Death_Star">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Winning_Preset_Death_Star</Prereq>
+	</Event>
+
+	<Event Name="Winning_Movie_Start_Death_Star">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Rebel_Win_DeathStar</Reward_Param1>
+		<Prereq>Winning_Begin_Death_Star</Prereq>
+	</Event>
+
+	<Event Name="Winning_Movie_Done_Death_Star">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+		<Prereq>Winning_Movie_Start_Death_Star</Prereq>
+	</Event>
+	
+	<Event Name="Win_The_Game_Movie_Death_Star">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_CAMPAIGN_VICTORY_MOVIE</Reward_Type>
+		<Prereq>Winning_Begin_Death_Star</Prereq><!-- Important! Point to event 3 slots up -->
+	</Event>
+
+	<Event Name="Reenable_Victory_Death_Star"><!-- Reenables that the game can end at once, because already reached the win/lose-condition -->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Win_The_Game_Movie_Death_Star</Prereq>
+	</Event>
+ 
+	<!-- ELSE WIN CONDITION -->
+
+	<Event Name="Winning_Movie">
+		<!-- Can only be used if Winning in GC is disabled -->
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>Win_GC</Event_Param2>
+	</Event>
+	
+	<Event Name="AI_Stop_Win">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+		<Prereq>Winning_Movie</Prereq>
+	</Event>
+	
+	<Event Name="Winning_Preset">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Prereq>Winning_Movie</Prereq>
+	</Event>
+	
+	<Event Name="Winning_Begin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Winning_Preset</Prereq>
+	</Event>
+
+	<Event Name="Winning_Movie_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Rebel_Win_Space</Reward_Param1>
+		<Prereq>Winning_Begin</Prereq>
+	</Event>
+
+	<Event Name="Winning_Movie_Done">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+		<Prereq>Winning_Movie_Start</Prereq>
+	</Event>
+	
+	<Event Name="Win_The_Game_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_CAMPAIGN_VICTORY_MOVIE</Reward_Type>
+		<Prereq>Winning_Begin</Prereq><!-- Important! Point to event 3 slots up -->
+	</Event>
+
+	<!-- Losing Movies Event -->
+ 
+	<!-- DEATH STAR LOSE CONDITION -->
+
+	<Event Name="Losing_Movie_Death_Star">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>Lose_GC_Death_Star</Event_Param2>
+	</Event>
+	
+	<Event Name="AI_Stop_Lost_Death_Star">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+		<Prereq>Losing_Movie_Death_Star</Prereq>
+	</Event>
+	
+	<Event Name="Losing_Preset_Death_Star">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Prereq>Losing_Movie_Death_Star</Prereq>
+	</Event>
+	
+	<Event Name="Losing_Begin_Death_Star">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Losing_Preset_Death_Star</Prereq>
+	</Event>
+
+	<Event Name="Losing_Movie_Start_Death_Star">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Empire_Win_DeathStar</Reward_Param1>
+		<Prereq>Losing_Begin_Death_Star</Prereq>
+	</Event>
+
+	<Event Name="Losing_Movie_Done_Death_Star">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+		<Prereq>Losing_Movie_Start_Death_Star</Prereq>
+	</Event>
+	
+	<Event Name="Lose_The_Game_Movie_Death_Star">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_CAMPAIGN_VICTORY_MOVIE</Reward_Type>
+		<Prereq>Losing_Begin_Death_Star</Prereq><!-- Important! Point to event 3 slots up -->
+	</Event>
+	
+	<!-- ELSE LOSE CONDITION -->
+
+	<Event Name="Losing_Movie">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>Lose_GC</Event_Param2>
+	</Event>
+	
+	<Event Name="AI_Stop_Lost">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+		<Prereq>Losing_Movie</Prereq>
+	</Event>
+	
+	<Event Name="Losing_Preset">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Prereq>Losing_Movie</Prereq>
+	</Event>
+	
+	<Event Name="Losing_Begin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Losing_Preset</Prereq>
+	</Event>
+
+	<Event Name="Losing_Movie_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Empire_Win_Land</Reward_Param1>
+		<Prereq>Losing_Begin</Prereq>
+	</Event>
+
+	<Event Name="Losing_Movie_Done">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+		<Prereq>Losing_Movie_Start</Prereq>
+	</Event>
+	
+	<Event Name="Lose_The_Game_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_CAMPAIGN_VICTORY_MOVIE</Reward_Type>
+		<Prereq>Losing_Begin</Prereq><!-- Important! Point to event 3 slots up -->
+	</Event>
+
+</Story>

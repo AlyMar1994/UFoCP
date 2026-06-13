@@ -1,0 +1,1079 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+<!--
+
+	<Event Name="">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq></Prereq>
+	</Event>
+
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1></Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_TECH_ADVANCE</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>System</Reward_Param7>
+		
+-->
+
+<!-- Preliminary setup and planet reveal -->
+	<Event Name="Rebel_ActIV_Check_Act_Counter">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Rebel_Act_Counter</Event_Param1>
+		<Event_Param2>4</Event_Param2>
+		<Event_Param3>EQUAL_TO</Event_Param3>
+	</Event>
+
+	<Event Name="Rebel_ActIV_Begin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_ActIV_Check_Act_Counter</Prereq>
+	</Event>
+
+<!-- Do not modify this tech level without consulting campaign designers -->
+	<Event Name="Rebel_ActIV_Empire_Tech_Upgrade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>5</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIV_Constrain_Tech">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_MAX_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+<!-- Do not modify this tech level without consulting campaign designers -->
+	<Event Name="Rebel_ActIV_Rebel_Tech_Upgrade_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>3</Reward_Param2>
+		<Prereq>Rebel_ActIV_Constrain_Tech</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActIV_Rebel_Tech_Upgrade_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_TECH_ADVANCE</Reward_Param1>
+		<Reward_Param2>6</Reward_Param2>
+		<Reward_Param7>System</Reward_Param7><!-- SYSTEM color coding - Red -->
+		<Prereq>Rebel_ActIV_Rebel_Tech_Upgrade_00</Prereq>
+	</Event>
+
+<!-- Lock the Calamari Cruiser so that it can only be built after mission 10 -->
+	<Event Name="Rebel_A4_M11_Lock_Cruiser_at_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Calamari_Cruiser</Reward_Param1>
+		<Prereq>Rebel_ActIV_Rebel_Tech_Upgrade_01</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_A4_M11_Lock_Frigate_at_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>MC30_Frigate</Reward_Param1>
+		<Prereq>Rebel_ActIV_Rebel_Tech_Upgrade_01</Prereq>
+	</Event>
+
+<!-- Rebel ACT I Planet Reveals -->
+	<Event Name="Rebel_ActI_Reveal_ActIV_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Alderaan</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Reveal_ActIV_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Dantooine</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Reveal_ActIV_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Fresia</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Reveal_ActIV_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Kessel</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Reveal_ActIV_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Korriban</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Reveal_ActIV_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Kuat</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Reveal_ActIV_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Wayland</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Reveal_ActIV_07">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Yavin</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="All_ActI_Planets_Revealed_ActIV">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_ActI_Reveal_ActIV_00 Rebel_ActI_Reveal_ActIV_01 Rebel_ActI_Reveal_ActIV_02 Rebel_ActI_Reveal_ActIV_03 Rebel_ActI_Reveal_ActIV_04 Rebel_ActI_Reveal_ActIV_05 Rebel_ActI_Reveal_ActIV_06 Rebel_ActI_Reveal_ActIV_07</Prereq>
+	</Event>
+
+<!-- Reveal all Act II Planets -->
+	<Event Name="Rebel_ActII_Reveal_ActIV_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>MonCalimari</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Reveal_ActIV_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Kashyyyk</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Reveal_ActIV_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>NalHutta</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Reveal_ActIV_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Bothawui</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Reveal_ActIV_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Tatooine</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Reveal_ActIV_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Geonosis</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Reveal_ActIV_07">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Ryloth</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Reveal_ActIV_08">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Shola</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>	
+	
+	<Event Name="Rebel_ActII_Reveal_ActIV_09">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Atzerri</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Reveal_ActIV_10">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Corellia</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="All_ActII_Planets_Revealed_ActIV">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_ActII_Reveal_ActIV_00 Rebel_ActII_Reveal_ActIV_01 Rebel_ActII_Reveal_ActIV_03 Rebel_ActII_Reveal_ActIV_04 Rebel_ActII_Reveal_ActIV_05 Rebel_ActII_Reveal_ActIV_06 Rebel_ActII_Reveal_ActIV_07 Rebel_ActII_Reveal_ActIV_08 Rebel_ActII_Reveal_ActIV_09 Rebel_ActII_Reveal_ActIV_10</Prereq>
+	</Event>
+
+<!-- Reveal all Act III Planets -->
+	<Event Name="Rebel_ActIII_Reveal_ActIV_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Endor</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Reveal_ActIV_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Bestine</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Reveal_ActIV_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Sullust</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Reveal_ActIV_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Corellia</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Reveal_ActIV_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Bespin</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Reveal_ActIV_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Eriadu</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Reveal_ActIV_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Naboo</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Reveal_ActIV_07">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Hoth</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActIII_Reveal_ActIV_08">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Dagobah</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>	
+	
+	<Event Name="Rebel_ActIII_Reveal_ActIV_09">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>VergessoAsteroids</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Reveal_ActIV_10">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Corulag</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActIII_Reveal_ActIV_11">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Carida</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+
+	<Event Name="All_ActIII_Planets_Revealed_ActIV">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_ActIII_Reveal_ActIV_00 Rebel_ActIII_Reveal_ActIV_01 Rebel_ActIII_Reveal_ActIV_02 Rebel_ActIII_Reveal_ActIV_03 Rebel_ActIII_Reveal_ActIV_04 Rebel_ActIII_Reveal_ActIV_05 Rebel_ActIII_Reveal_ActIV_06 Rebel_ActIII_Reveal_ActIV_07 Rebel_ActIII_Reveal_ActIV_08 Rebel_ActIII_Reveal_ActIV_09 Rebel_ActIII_Reveal_ActIV_10 Rebel_ActIII_Reveal_ActIV_11</Prereq>
+	</Event>
+	
+<!-- Reveal all Act IV Planets -->
+	<Event Name="Rebel_Reveal_ActIV_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>AlzocIII</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_Reveal_ActIV_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Manaan</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>	
+	
+	<Event Name="Rebel_Reveal_ActIV_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>AetenII</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>	
+	
+	<Event Name="Rebel_Reveal_ActIV_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Jabiim</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>	
+	
+	<Event Name="Rebel_Reveal_ActIV_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Thyferra</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>	
+	
+	<Event Name="Rebel_Reveal_ActIV_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Taris</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>	
+	
+	<Event Name="Rebel_Reveal_ActIV_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Polus</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>	
+	
+	<Event Name="Rebel_Reveal_ActIV_07">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Ilum</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>	
+	
+	<Event Name="Rebel_Reveal_ActIV_08">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Fondor</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_Reveal_ActIV_09">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Anaxes</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>	
+
+	<Event Name="Rebel_Reveal_ActIV_10">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Abregado_Rae</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>	
+	
+	<Event Name="Rebel_Reveal_ActIV_11">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Coruscant</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActIV_Begin</Prereq>
+	</Event>	
+
+	<Event Name="All_ActIV_Planets_Revealed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_Reveal_ActIV_00 Rebel_Reveal_ActIV_01 Rebel_Reveal_ActIV_02 Rebel_Reveal_ActIV_03 Rebel_Reveal_ActIV_04 Rebel_Reveal_ActIV_05 Rebel_Reveal_ActIV_06 Rebel_Reveal_ActIV_07 Rebel_Reveal_ActIV_08 Rebel_Reveal_ActIV_09 Rebel_Reveal_ActIV_10 Rebel_Reveal_ActIV_11 </Prereq>
+	</Event>
+
+<!-- Set win flags -->
+	<Event Name="Rebel_ActIV_M11_Win_Flag">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_A04M11_Win</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>All_ActI_Planets_Revealed_ActIV All_ActII_Planets_Revealed_ActIV All_ActIII_Planets_Revealed_ActIV All_ActIV_Planets_Revealed</Prereq>
+	</Event>	
+
+	<Event Name="Rebel_ActIV_M12_Win_Flag">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_A04M12_Win</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Rebel_ActIV_M11_Win_Flag</Prereq>
+	</Event>	
+
+	<Event Name="Rebel_ActIV_Ready_To_Begin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_ActIV_M12_Win_Flag</Prereq>
+	</Event>	
+
+<!-- Pre-mission 11 dialog -->
+<!-- Han Solo 
+TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_04
+Han Solo: Ok, that's it.  We’re done.  Here's what you were after.  
+Now give us our fee and we'll be leaving. -->
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_04</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_04</Reward_Param8>
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActIV_Ready_To_Begin</Prereq>
+	</Event>	
+
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_00_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_04</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_04</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_00</Prereq>
+	</Event>	
+
+<!-- Mon Mothma
+TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_05
+Mon Mothma: You've certainly earned this.  
+The Mon Calamari will be able to restart their production facilities now.  
+The Alliance would be happy to discuss the possibility of a longer-term relationship 
+if you'd like further work… . -->
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_05</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_05</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_00_Remove_Text</Prereq>
+	</Event>	
+
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_01a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_05</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_05</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_01</Prereq>
+	</Event>
+
+<!-- Han Solo 
+TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_06
+Han Solo: No more discussions!  
+Every time I listen to you for more than a minute, 
+Chewie and I end up risking our necks!  No thanks!  
+We're getting as far away from you as possible until this blows over.  
+C'mon Chewie, let's get out of here while we can. -->
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_06</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_06</Reward_Param8>
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_01a</Prereq>
+	</Event>	
+
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_02b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_06</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_06</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_02</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_02b_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_02b</Prereq>
+	</Event>
+
+<!-- Unlock Mon Calamari and Calamari Cruiser -->
+	<Event Name="Rebel_ActIV_Unlock_MC_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Calamari_Cruiser</Reward_Param1>
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_02b_Remove_Movie</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIV_Unlock_MC_Frigate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>MC30_Frigate</Reward_Param1>
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_02b_Remove_Movie</Prereq>
+	</Event>
+
+<!-- Remove Han Solo Team until later in the story -->
+	<Event Name="Rebel_ActIII_M09_Remove_Han_Solo">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Prereq>Rebel_ActIV_Unlock_MC_Cruiser</Prereq>
+	</Event>
+
+<!-- This scene comes a few seconds after Han Solo "leaves" and sets up mission 11 -->
+<!-- Mon Mothma 
+TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_08
+Mon Mothma: We received an Imperial announcement that Princess Leia Organa's ship, 
+the Tantive IV, was attacked by pirates.  
+The Empire has promised an investigation, but we are certain that is merely a cover. -->
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_03">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>4</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_08</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_08</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActIII_M09_Remove_Han_Solo</Prereq>
+	</Event>	
+
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_03_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_08</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_08</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActIII_M09_Remove_Han_Solo</Prereq>
+	</Event>	
+
+<!-- Mon Mothma Speaks -->
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_04A">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_21</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_21</Reward_Param8>
+		<!-- Movie loop continues from above-->
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_03_Remove_Text</Prereq>
+	</Event>	
+
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_04Ab">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_21</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_21</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_04A</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_04Ab_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_04Ab</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIV_M11_Remove_Sundered_Heart">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Sundered_Heart</Reward_Param1>
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_04Ab_Remove_Movie</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIV_M11_Remove_Droids">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Droids_Team</Reward_Param1>
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_04Ab_Remove_Movie</Prereq>
+	</Event>
+
+<!-- FINALLY Get to introduce mission 11 -->
+	<Event Name="Rebel_ActIV_Unlock_Mon_Calamari">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>4</Event_Param1>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>MonCalimari</Reward_Param1>
+		<Reward_Param2>Rebel</Reward_Param2>
+		<Prereq>Rebel_ActIV_M11_Remove_Droids</Prereq>
+	</Event>	
+
+<!-- Spawn Ackbar Hero -->
+	<Event Name="Rebel_ActIV_Spawn_Home_One">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Home_One</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Rebel_ActIV_Unlock_Mon_Calamari</Prereq>
+	</Event>	
+			
+<!-- FLASH Ackbar Hero -->
+	<Event Name="Rebel_ActIV_FLASH_Home_One">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>.5</Event_Param1>
+		<Reward_Type>FLASH_FLEET_WITH_UNIT</Reward_Type>
+		<Reward_Param1>Home_One</Reward_Param1>
+		<Reward_Param2>Home_One_Flash</Reward_Param2>
+		<Prereq>Rebel_ActIV_Spawn_Home_One</Prereq>
+	</Event>
+			
+<!-- Remove FLASH Ackbar Hero 
+	<Event Name="Rebel_ActIV_Remove_FLASH_Home_One">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Reward_Param1>Home_One_Flash</Reward_Param1>
+		<Prereq>Rebel_ActIV_FLASH_Home_One</Prereq>
+	</Event>-->
+	
+	<Event Name="Rebel_ActIV_Remove_FLASH_Home_One">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>click</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Reward_Param1>Home_One_Flash</Reward_Param1>
+		<Prereq>Rebel_ActIV_FLASH_Home_One</Prereq>
+	</Event>
+
+<!-- Mon Mothma 
+TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_09
+Mon Mothma: The Mon Calamari have thrown off Imperial control 
+and attacked the Empire's fleets orbiting above them.  
+They have pledged their assistance to us and are using the schematics 
+we recovered to rebuild their fleets.   -->
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_09</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_09</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActIV_Unlock_Mon_Calamari</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_04_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_09</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_09</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_04</Prereq>
+	</Event>
+
+<!-- Do not modify this tech level without consulting campaign designers -->
+	<Event Name="Rebel_ActIV_Rebel_Tech_Upgrade_Last">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_04_Remove_Text</Prereq>
+	</Event>
+
+<!-- Mon Mothma 
+TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_10
+Mon Mothma: True to form, the Empire has wasted no time in assembling a fleet to retake the planet.  
+If they were to reach Mon Calamari, 
+the devastation to the planet would be catastrophic.  -->
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_10</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_10</Reward_Param8>
+		<!-- Movie loop continues from above -->
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_04_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_05a_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_10</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_10</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_05</Prereq>
+	</Event>
+
+<!-- Mon Mothma 
+TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_11
+Mon Mothma: We have informants in place to alert us when the fleet gets underway.  
+We must not waste a moment in preparing for this assault.  -->
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_11</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_11</Reward_Param8>
+		<!-- Movie loop continues from above -->
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_05a_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_06b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_11</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_11</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_06</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_06b_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_06b</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIV_M11_PreMission_Dialog_Hint_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT04_MISSION_ELEVEN_22</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_06b_Remove_Movie</Prereq>
+	</Event>
+	
+<!-- Story dialog for mission 2 -->
+	<Event Name="Rebel_ActIV_Mission_Eleven_Story_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Prereq>Rebel_ActIV_M11_PreMission_Dialog_Hint_00</Prereq>
+		<Story_Dialog>Dialog_Rebel_Story_Campaign</Story_Dialog>
+		<Story_Chapter>10</Story_Chapter>
+		<Story_Tag>Rebel_Mission_Eleven_Tag</Story_Tag>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
+	</Event>
+
+<!-- Open up mission 11 which takes place at the galactic level -->
+	<Event Name="OK_to_Begin_ActIV">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_ELEMENT</Reward_Type>
+		<Reward_Param1>Story_Rebel_ActIV_M11_GALACTIC</Reward_Param1>
+      <Prereq>Rebel_ActIV_Mission_Eleven_Story_Begin</Prereq>
+	</Event>	
+
+<!-- Mission 11 is complete! -->
+	<Event Name="Rebel_ActIV_Mission_Eleven_Story_End">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Rebel_A04M11_Win</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Rebel_Mission_Eleven_Tag</Reward_Param1>
+	</Event>
+
+	<Event Name="Rebel_ActIV_Unlock_MC_Cruiser_Again">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Calamari_Cruiser</Reward_Param1>
+		<Prereq>Rebel_ActIV_Mission_Eleven_Story_End</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActIV_Unlock_MC_Frigate_Again">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>MC30_Frigate</Reward_Param1>
+		<Prereq>Rebel_ActIV_Mission_Eleven_Story_End</Prereq>
+	</Event>
+
+<!-- Pre-mission 12 Dialog -->
+<!-- Mon Mothma 
+TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_03
+Mon Mothma: Our victory over the Empire's fleet is cause for celebration, 
+but I find it disturbing that they appear almost unconcerned with the loss of ships and personnel.  -->
+	<Event Name="Rebel_ActIV_M12_PreMission_Dialog_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_03</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_03</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActIV_Mission_Eleven_Story_End</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIV_M12_PreMission_Dialog_00_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_03</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_03</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActIV_M12_PreMission_Dialog_00</Prereq>
+	</Event>
+
+<!-- Mon Mothma 
+TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_05
+Mon Mothma: Perhaps... they no longer need the ships.  
+I fear that the Alliance and all those that cherish freedom in the galaxy are in danger. -->
+	<Event Name="Rebel_ActIV_M12_PreMission_Dialog_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_05</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_05</Reward_Param8>
+		<Prereq>Rebel_ActIV_M12_PreMission_Dialog_00_Remove_Text</Prereq>
+	</Event>
+	
+	<!-- Make sure Alderaan blows up by giving it to the Rebels, if not in control -->
+	<Event Name="Rebel_A4_M12_Rebel_Alderaan">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>Alderaan</Reward_Param1>
+		<Reward_Param2>Rebel</Reward_Param2>
+		<Prereq>Rebel_ActIV_M12_PreMission_Dialog_02</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIV_M12_PreMission_Dialog_02b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_05</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_05</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_ActIV_M12_PreMission_Dialog_02</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_ActIV_M12_PreMission_Dialog_02b_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Prereq>Rebel_ActIV_M12_PreMission_Dialog_02b</Prereq>
+	</Event>
+
+	<Event Name="OK_to_Begin_Mission_12">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>4</Event_Param1>
+		<Prereq>Rebel_ActIV_M12_PreMission_Dialog_02b_Remove_Movie</Prereq>
+	</Event>
+
+<!-- MISSION 12: The Final Battle (Galactic) -->
+	<Event Name="Rebel_Act4_Mission_12">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_ELEMENT</Reward_Type>
+		<Reward_Param1>Story_Rebel_ActIV_M12_GALACTIC</Reward_Param1>
+      <Prereq>OK_to_Begin_Mission_12</Prereq>
+	</Event>
+
+<!-- Game over! -->
+	<Event Name="Rebel_Act4_Post_Mission_12">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Rebel_A04M12_Win</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
+      <Prereq>Rebel_Act4_Mission_12</Prereq>
+	</Event>
+	
+	<Event Name="AI_Stop">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+		<Prereq>Rebel_Act4_Post_Mission_12</Prereq>
+	</Event>
+	
+	<Event Name="Winning_Preset_Death_Star">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Prereq>Rebel_Act4_Post_Mission_12</Prereq>
+	</Event>
+	
+	<Event Name="Winning_Begin_Death_Star">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Winning_Preset_Death_Star</Prereq>
+	</Event>
+
+	<Event Name="Winning_Movie_Start_Death_Star">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Rebel_Win_DeathStar</Reward_Param1>
+		<Prereq>Winning_Begin_Death_Star</Prereq>
+	</Event>
+
+	<Event Name="Winning_Movie_Done_Death_Star">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+		<Prereq>Winning_Movie_Start_Death_Star</Prereq>
+	</Event>
+	
+	<Event Name="Win_The_Game_Movie_Death_Star">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_CAMPAIGN_VICTORY_MOVIE</Reward_Type>
+		<Prereq>Winning_Begin_Death_Star</Prereq><!-- Important! Point to event 3 slots up -->
+	</Event>
+
+	<Event Name="Reenable_Victory_Death_Star">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Win_The_Game_Movie_Death_Star</Prereq>
+	</Event>
+
+	<Event Name="Complete_Victory_Death_Star"><!--Additional trigger-->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Prereq>Winning_Movie_Start_Death_Star</Prereq>
+	</Event>
+	
+	
+
+<!-- Debug events -->
+<!-- Jump to mission 11 -->
+	<Event Name="Mission11">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_Act_Counter</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>
+	</Event>	
+	
+	<Event Name="RA_To_11_a">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_A4_M11_Begin</Reward_Param1>
+      <Prereq>Mission11 OK_to_Begin_ActIV</Prereq>
+	</Event>	
+	
+	<Event Name="RA_To_11_b">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>3</Reward_Param2>
+      <Prereq>RA_To_11_a</Prereq>
+	</Event>	
+
+<!-- Jump to mission 12 -->
+	<Event Name="Mission12">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_Act_Counter</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>
+	</Event>	
+
+<!-- Prevent mission 11 from firing off -->
+	<Event Name="RA_To_12_a">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_ActIV_M11_PreMission_Dialog_05</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>1</Reward_Param3>
+      <Prereq>Mission12 Rebel_ActIV_Ready_To_Begin</Prereq>
+	</Event>	
+
+	<Event Name="RA_To_12_b">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_ActIV_M11_PreMission_Dialog_00</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>1</Reward_Param3>
+      <Prereq>RA_To_12_a</Prereq>
+	</Event>	
+
+	<Event Name="RA_To_12_c">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_ActIV_Unlock_MC_Cruiser</Reward_Param1>
+      <Prereq>RA_To_12_b</Prereq>
+	</Event>	
+
+<!-- Spawn Mon Mothma -->
+	<Event Name="RA_To_12_d">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+      <Prereq>RA_To_12_c</Prereq>
+	</Event>
+
+<!-- Flag mission 11 as won -->
+	<Event Name="RA_To_12_e">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_A04M11_Win</Reward_Param1>
+      <Reward_Param2>1</Reward_Param2>
+      <Prereq>RA_To_12_d</Prereq>
+	</Event>	
+	
+<!-- Spawn red squadron -->
+	<Event Name="RA_To_12_f">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Red_Squadron</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>RA_To_12_e</Prereq>
+	</Event>
+
+<!-- Spawn Droids -->
+	<Event Name="RA_To_12_g">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>DROIDS_TEAM</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>RA_To_12_f</Prereq>
+	</Event>
+	
+</Story>

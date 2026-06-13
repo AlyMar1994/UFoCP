@@ -1,0 +1,387 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+<!--
+
+	<Event Name="">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq></Prereq>
+	</Event>
+
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1></Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+-->
+
+<!-- Mission start setup -->
+	<Event Name="Rebel_A4_M11_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_No_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+        <Prereq>Rebel_A4_M11_Begin</Prereq>
+	</Event>
+
+<!-- WIN CONDITION -->
+	<Event Name="Rebel_A4_M11_Check_Win_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>fleet_destroyed</Event_Param2>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_Disable_Dialogs_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>FIRST_WARNING</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_A4_M11_Check_Win_00</Prereq>
+		<Prereq>Rebel_A4_M11_Check_Win_Back_01</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_Disable_Dialogs_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>SECOND_WARNING</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_A4_M11_Disable_Dialogs_00</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_Check_Win_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>RA04M11</Reward_Param1>
+		<Prereq>Rebel_A4_M11_Disable_Dialogs_01</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_Yes_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+        <Prereq>Rebel_A4_M11_Check_Win_01</Prereq>
+	</Event>
+
+<!-- Final Dialog for mission itself -->
+<!-- Pilot Speaks -->
+	<Event Name="Rebel_A4_M11_Win_Announce_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_20</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_20</Reward_Param8>
+		<Reward_Param9>Wedge_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M11_Check_Win_01</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_Win_Announce_00a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_20</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_20</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_A4_M11_Win_Announce_00</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_Win_Announce_00a_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Rebel_A4_M11_Win_Announce_00a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_Win_Actual_Win">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_A04M11_Win</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_A4_M11_Win_Announce_00a_Stop_Movie</Prereq>
+	</Event>
+
+<!-- Dialog when super fleet leaves Coruscant -->
+    <Event Name="Rebel_A4_M11_Super_Fleet_Trigger">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>Super_Fleet_Moves</Event_Param2>
+		<Branch>First_Warning</Branch>
+	</Event>
+
+<!-- Pilot Speaks -->
+	<Event Name="Rebel_A4_M11_SuperFleet_at_Alderaan_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_12</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_12</Reward_Param8>
+		<Reward_Param9>Wedge_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M11_Super_Fleet_Trigger</Prereq>
+		<Branch>First_Warning</Branch>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_SuperFleet_at_Alderaan_00_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_12</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_12</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M11_SuperFleet_at_Alderaan_00</Prereq>
+		<Branch>First_Warning</Branch>
+	</Event>
+
+<!-- Mon Mothma Speaks -->
+	<Event Name="Rebel_A4_M11_SuperFleet_at_Alderaan_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_13</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_13</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M11_SuperFleet_at_Alderaan_00_Remove_Text</Prereq>
+		<Branch>First_Warning</Branch>
+	</Event>
+	
+	<Event Name="Rebel_A4_M11_SuperFleet_at_Alderaan_01_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_13</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_13</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M11_SuperFleet_at_Alderaan_01</Prereq>
+		<Branch>First_Warning</Branch>
+	</Event>
+
+<!-- Pilot speaks -->
+	<Event Name="Rebel_A4_M11_SuperFleet_at_Alderaan_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_14</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_14</Reward_Param8>
+		<Reward_Param9>Wedge_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M11_SuperFleet_at_Alderaan_01_Remove_Text</Prereq>
+		<Branch>First_Warning</Branch>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_SuperFleet_at_Alderaan_02_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_14</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_14</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M11_SuperFleet_at_Alderaan_02</Prereq>
+		<Branch>First_Warning</Branch>
+	</Event>
+
+<!-- Mon Mothma Speaks -->
+	<Event Name="Rebel_A4_M11_SuperFleet_at_Alderaan_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_15</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_15</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M11_SuperFleet_at_Alderaan_02</Prereq>
+		<Branch>First_Warning</Branch>
+	</Event>
+	
+	<Event Name="Rebel_A4_M11_SuperFleet_at_Alderaan_03b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_15</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_15</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_A4_M11_SuperFleet_at_Alderaan_03</Prereq>
+		<Branch>First_Warning</Branch>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_SuperFleet_at_Alderaan_03b_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Rebel_A4_M11_SuperFleet_at_Alderaan_03b</Prereq>
+		<Branch>First_Warning</Branch>
+	</Event>
+
+<!-- Dialog when super fleet reaches Kashyyyk -->
+<!-- Pilot Speaks -->
+	<Event Name="Rebel_A4_M11_SuperFleet_at_Kashyyyk_00">
+		<Event_Type>STORY_ENTER</Event_Type>
+		<Event_Param1>Kashyyyk</Event_Param1>
+		<Event_Param2>FILTER_ENEMY_ONLY</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_16</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_16</Reward_Param8>
+		<Reward_Param9>Wedge_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M11_Begin</Prereq>
+		<Branch>Second_Warning</Branch>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_SuperFleet_at_Kashyyyk_00a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_16</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_16</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_A4_M11_SuperFleet_at_Kashyyyk_00</Prereq>
+		<Branch>Second_Warning</Branch>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_SuperFleet_at_Kashyyyk_00a_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Rebel_A4_M11_SuperFleet_at_Kashyyyk_00a</Prereq>
+	</Event>
+
+<!-- Pseudo LOSS CONDITION: Mon Calamari captured -->
+<!-- Check to see if the super fleet has arrived at Mon Calamari -->
+	<Event Name="Rebel_A4_M11_Check_Lose_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>super_fleet_arrived</Event_Param2>
+	</Event>
+
+<!-- Check to see if the player loses the subsequent battle at Mon Calamari -->
+	<Event Name="Rebel_A4_M11_Check_Lose_01">
+		<Event_Type>STORY_LOSE_BATTLES</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Event_Param2>BASE_SPACE</Event_Param2>
+		<Event_Param4>MonCalimari</Event_Param4>
+		<Prereq>Rebel_A4_M11_Check_Lose_00</Prereq>
+	</Event>
+
+<!-- If there are no rebel forces above MonCal, a space battle won't start -->
+	<Event Name="Rebel_A4_M11_Check_Lose_02">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Prereq>Rebel_A4_M11_Check_Lose_00</Prereq>
+	</Event>
+
+<!-- If a space battle is starting, disable the timer so we don't accidentally switch sides after a rebel victory -->
+	<Event Name="Rebel_A4_M11_Check_Lose_03">
+		<Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+		<Event_Param2>MonCalimari</Event_Param2>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_A4_M11_Check_Lose_02</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_A4_M11_Check_Lose_00</Prereq>
+	</Event>
+
+<!-- If the fleet has arrived and wins a battle or no battle happens and the timer fires, the player will lose control of Mon Calamari -->
+	<Event Name="Rebel_A4_M11_Check_Lose_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>MonCalimari</Reward_Param1>
+		<Reward_Param2>Empire</Reward_Param2>
+		<Prereq>Rebel_A4_M11_Check_Lose_01</Prereq>
+		<Prereq>Rebel_A4_M11_Check_Lose_02</Prereq>
+	</Event>	
+
+<!-- Pilot Speaks -->
+	<Event Name="Rebel_A4_M11_Lost_MonCalamari_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_17</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_17</Reward_Param8>
+		<Reward_Param9>Wedge_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M11_Check_Lose_04</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_Lost_MonCalamari_00_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_17</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_17</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M11_Lost_MonCalamari_00</Prereq>
+	</Event>
+
+<!-- Mon Mothma Speaks -->
+	<Event Name="Rebel_A4_M11_Lost_MonCalamari_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_18</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_ELEVEN_18</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M11_Lost_MonCalamari_00_Remove_Text</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_A4_M11_Lost_MonCalamari_01b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_ELEVEN_18</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_18</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_A4_M11_Lost_MonCalamari_01</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_Lost_MonCalamari_01b_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Rebel_A4_M11_Lost_MonCalamari_01b</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_Lost_MonCalamari_01c">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT04_MISSION_ELEVEN_19</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->	
+		<Prereq>Rebel_A4_M11_Lost_MonCalamari_01b</Prereq>
+	</Event>
+
+<!-- Prevent production of Mon Cal Cruisers until super fleet is destroyed -->
+	<Event Name="Rebel_A4_M11_Lost_MonCalamari_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Calamari_Cruiser</Reward_Param1>
+		<Prereq>Rebel_A4_M11_Lost_MonCalamari_01b</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_A4_M11_Lost_MonCalamari_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>MC30_Frigate</Reward_Param1>
+		<Prereq>Rebel_A4_M11_Lost_MonCalamari_01b</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_Check_Win_Back_01">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>MonCalimari</Event_Param1>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Prereq>Rebel_A4_M11_Lost_MonCalamari_02</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M11_Check_Win_Override">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_A4_M11_Check_Win_00</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_A4_M11_Check_Win_Back_01</Prereq>
+	</Event>
+
+</Story>

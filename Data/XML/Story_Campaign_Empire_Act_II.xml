@@ -1,0 +1,1409 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+<!--
+
+	<Event Name="">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq></Prereq>
+	</Event>
+
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1></Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+-->
+
+<!-- Preliminary setup  -->
+
+	<Event Name="Empire_ActII_Check_Act_Counter">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Empire_Act_Counter</Event_Param1>
+		<Event_Param2>2</Event_Param2>
+		<Event_Param3>EQUAL_TO</Event_Param3>
+	</Event>
+
+	<Event Name="Empire_ActII_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Prereq>Empire_ActII_Check_Act_Counter</Prereq>
+	</Event>
+	<Event Name="Empire_Always_Lock_Death_Star2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Death_Star_II</Reward_Param1>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Empire_Always_Lock_Executor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Darth_Team_Executor</Reward_Param1>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>										  
+
+<!-- Do not modify this tech level without consulting campaign designers -->
+	<Event Name="Empire_ActII_Advance_Empire_Tech_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>2</Reward_Param2>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+
+<!-- Do not modify this tech level without consulting campaign designers -->
+	<Event Name="Empire_ActII_Advance_Rebel_Tech">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Advance_Empire_Tech_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_TECH_ADVANCE</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>System</Reward_Param7>
+		<Prereq>Empire_ActII_Advance_Empire_Tech_00</Prereq>
+	</Event>
+
+<!-- Empire Act I Planet Reveals -->
+
+	<Event Name="Empire_ActI_Reveal_Act2_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Thyferra</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActI_Reveal_Act2_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Ilum</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActI_Reveal_Act2_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Anaxes</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActI_Reveal_Act2_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Fondor</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActI_Reveal_Act2_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Abregado_Rae</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActI_Reveal_Act2_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Coruscant</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActI_Reveal_Act2_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Bestine</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActI_Reveal_Act2_07">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Corulag</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActI_Reveal_Act2_08">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Byss</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActI_Reveal_Act2_10">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Geonosis</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="All_ActI_in_ActII_Revealed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Empire_ActI_Reveal_Act2_00 Empire_ActI_Reveal_Act2_01 Empire_ActI_Reveal_Act2_02 Empire_ActI_Reveal_Act2_03 Empire_ActI_Reveal_Act2_04 Empire_ActI_Reveal_Act2_05 Empire_ActI_Reveal_Act2_06 Empire_ActI_Reveal_Act2_07 Empire_ActI_Reveal_Act2_08 Empire_ActI_Reveal_Act2_10</Prereq>
+	</Event>
+
+<!-- Reveal Act II Planets -->
+	<Event Name="Empire_ActII_Reveal_08">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Empire_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="All_Empire_ActII_Revealed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Empire_ActII_Reveal_08</Prereq>
+	</Event>
+
+	<Event Name="OK_To_Begin_Empire_ActII">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>All_ActI_in_ActII_Revealed All_Empire_ActII_Revealed</Prereq>
+	</Event>
+
+<!-- MISSION SKIPPING TRIGGERS FOR DEBUG -->
+	<Event Name="Mission_Five">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_Six">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+<!-- Mission 4: Attack on Mon Calamari (No Hero/Space/Mon Calamari)  -->
+	<Event Name="Empire_ActII_Mission_Four_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>8</Event_Param1>
+		<Prereq>OK_To_Begin_Empire_ActII</Prereq>
+	</Event>
+	
+<!-- Darth Vader Speaks -->
+	<Event Name="Empire_ActII_Mission_Four_00a">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_14</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_FOUR_14</Reward_Param8>
+		<Reward_Param9>Vader_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_ActII_Mission_Four_00</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Four_00d">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_FOUR_14</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_14</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_ActII_Mission_Four_00a</Prereq>
+	</Event>
+	
+<!-- Tarkin Speaks -->
+	<Event Name="Empire_ActII_Mission_Four_00e">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_15</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_FOUR_15</Reward_Param8>
+		<Reward_Param9>Tarkin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_ActII_Mission_Four_00d</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Four_00h">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_FOUR_15</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_15</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_ActII_Mission_Four_00e</Prereq>
+	</Event>
+
+<!-- Emperor Speaks 
+TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_16
+Emperor: The Rebel's strength will continue to grow 
+as long as they continue to acquire allies.  
+To that end, the potential firepower of the Mon Calamari fleet 
+far exceeds that of the Rebels, 
+and it would be a detriment if they joined forces.  
+We must insure this does not occur.  -->
+	<Event Name="Empire_ActII_Mission_Four_00i">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_16</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_FOUR_16</Reward_Param8>
+		<Reward_Param9>Emperor_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_ActII_Mission_Four_00h</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Four_00l">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_FOUR_16</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_16</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_ActII_Mission_Four_00i</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Four_00l_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_ActII_Mission_Four_00l</Prereq>
+	</Event>
+
+<!-- jdg second set of planet reveals here
+Ryloth, Nal Hutta, Corellia, Kuat, Kessel, Korriban, Mon Calamari -->
+	<Event Name="Empire_ActII_Reveal_Ryloth">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Ryloth</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Four_00i</Prereq>
+	</Event>
+	
+	<Event Name="Empire_ActII_Reveal_NalHutta">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>NalHutta</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Four_00i</Prereq>
+	</Event>
+	
+	<Event Name="Empire_ActII_Reveal_Corellia">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Corellia</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Four_00i</Prereq>
+	</Event>
+	
+	<Event Name="Empire_ActII_Reveal_Kuat">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>4</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Kuat</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Four_00i</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Reveal_Kessel">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Kessel</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Four_00i</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Reveal_Korriban">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>6</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Korriban</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Four_00i</Prereq>
+	</Event>
+	
+	<Event Name="Empire_ActII_Reveal_MonCalimari">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>MonCalimari</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Four_00l</Prereq>
+	</Event>
+	
+<!-- Flash Mon Calimari -->
+	<Event Name="Empire_ActII_Mission_Four_Flash_MonCal">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>MonCalimari</Reward_Param1>
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
+		<Reward_Param4>MonCal_GUI_Flash</Reward_Param4>
+		<Reward_Param5>True</Reward_Param5>
+		<Prereq>Empire_ActII_Reveal_MonCalimari Empire_ActII_Mission_Four_00l_Stop_Movie</Prereq>
+		<!--<Branch>BRANCH_EA02M04</Branch>-->
+	</Event>
+	
+	<Event Name="Empire_ActII_Mission_Four_Task_Reveal">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_FOUR_03</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7>
+		<Prereq>Empire_ActII_Mission_Four_Flash_MonCal</Prereq>
+		<Prereq>Empire_ActII_Mission_Four_Failed_01_Stop_Movie</Prereq>
+		<Branch>BRANCH_EA02M04</Branch>
+	</Event>
+	
+	<!--ADD holocron for mon calamari-->
+	<Event Name="Empire_ActII_Holocron_MonCalamari_Entry">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Story_Dialog>Dialog_Empire_Story_Campaign</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Tag>Empire_ActII_Holocron_MonCalamari_Entry</Story_Tag>
+		<Prereq>Empire_ActII_Mission_Four_Task_Reveal</Prereq>
+	</Event>
+
+
+	<Event Name="Empire_ActII_Mission_Four_04">
+		<Event_Type>STORY_ENTER</Event_Type>
+		<Event_Param1>MonCalimari</Event_Param1>
+		<Event_Param2>FILTER_FRIENDLY_ONLY</Event_Param2>
+		<Reward_Type>LINK_TACTICAL</Reward_Type>
+		<Reward_Param1>MonCalimari</Reward_Param1>
+		<Reward_Param2>SPACE</Reward_Param2>
+		<Reward_Param3>Empire</Reward_Param3>
+		<Reward_Param4>EM05_Attack_on_Mon_Calamari.TED</Reward_Param4>
+		<Reward_Param5>Rebel</Reward_Param5>
+		<Reward_Param7>Story_Plots_Empire_ActII_M04_SPACE.XML</Reward_Param7>
+		<Reward_Param8>1</Reward_Param8>
+		<Prereq>Empire_ActII_Holocron_MonCalamari_Entry</Prereq>
+		<Branch>BRANCH_EA02M04_QUICKSTART</Branch>
+	</Event>
+
+<!-- Mission 4 Failed -->
+<!-- Detect mission 4 being lost.  Display text telling the player to try again -->
+	<Event Name="Empire_ActII_Mission_Four_Failed">
+		<Event_Type>STORY_MISSION_LOST</Event_Type>
+		<Event_Param1>Story_Plots_Empire_ActII_M04_SPACE.XML</Event_Param1>
+		<Prereq>Empire_ActII_Mission_Four_04</Prereq>
+		<Branch>BRANCH_EA02M04</Branch>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Four_Failed_01_Start_Dialog">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>battle_end_closed</Event_Param1>
+		<Prereq>Empire_ActII_Mission_Four_Failed</Prereq>
+		<Branch>BRANCH_EA02M04</Branch>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Four_Failed_04_Quickstart">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>RESET_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_EA02M04_QUICKSTART</Reward_Param1>
+		<Prereq>Empire_ActII_Mission_Four_Failed_01_Start_Dialog</Prereq>
+		<Branch>BRANCH_EA02M04</Branch>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Four_Failed_01">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_19</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_FOUR_19</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Tarkin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_ActII_Mission_Four_Failed_01_Start_Dialog</Prereq>
+		<Branch>BRANCH_EA02M04</Branch>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Four_Failed_01_Stop_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_FOUR_19</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_19</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_ActII_Mission_Four_Failed_01</Prereq>
+		<Branch>BRANCH_EA02M04</Branch>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Four_Failed_01_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_ActII_Mission_Four_Failed_01_Stop_Text</Prereq>
+		<Branch>BRANCH_EA02M04</Branch>
+	</Event>
+
+<!-- Re-enable mission 4 -->
+	<Event Name="Empire_ActII_Mission_Four_Failed_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>RESET_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_EA02M04</Reward_Param1>
+		<Prereq>Empire_ActII_Mission_Four_Failed_01_Stop_Movie</Prereq>
+		<Branch>BRANCH_EA02M04</Branch>
+	</Event>
+
+<!-- Mission 4 Win -->
+	<Event Name="Empire_ActII_Mission_Four_05">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Empire_A02M04_Win</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
+		<Prereq>Empire_ActII_Mission_Four_04</Prereq>
+	</Event>
+	
+				<Event Name="Empire_ActII_Mission_Four_RemoveFlash_MonCal">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+					<Reward_Param1>MonCal_GUI_Flash</Reward_Param1>
+					<Prereq>Empire_ActII_Mission_Four_05</Prereq>
+				</Event>
+				
+				<!-- COMPLETE holocron for geonosis -->
+				<Event Name="Empire_ActII_Holocron_MonCalamari_Entry_Completed">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+					<Reward_Param1>Empire_ActII_Holocron_MonCalamari_Entry</Reward_Param1>
+					<Prereq>Empire_ActII_Mission_Four_05</Prereq>
+				</Event> 
+
+	<Event Name="Empire_ActII_Mission_Four_Win_Disable_Branch">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_EA02M04</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Four_05</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Four_Win_Disable_Branch_Quickstart">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_EA02M04_QUICKSTART</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Four_Win_Disable_Branch</Prereq>
+	</Event>
+	
+	<Event Name="ActII_M04_Final_Goal_Complete_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>MonCalimari</Reward_Param1>
+		<Reward_Param2>Empire</Reward_Param2>
+		<Prereq>Empire_ActII_Holocron_MonCalamari_Entry_Completed</Prereq>
+	</Event>
+
+<!-- Mission 5: Trouble on Kashyyyk (No Hero/Land/Kashyyyk)  -->
+<!-- Officer Speaks -->
+	<Event Name="ActII_M05_Intro_Dialog_00_Start_Dialog">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>battle_end_closed</Event_Param1>
+		<Prereq>Empire_ActII_Mission_Four_05</Prereq>
+	</Event>
+
+	<Event Name="ActII_M05_Intro_Dialog_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_09</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_FOUR_09</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M05_Intro_Dialog_00_Start_Dialog</Prereq>
+	</Event>
+
+	<Event Name="ActII_M05_Intro_Dialog_00b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_FOUR_09</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_09</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M05_Intro_Dialog_00</Prereq>
+	</Event>
+
+<!-- Tarkin  Speaks -->
+	<Event Name="ActII_M05_Intro_Dialog_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_10</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_FOUR_10</Reward_Param8>
+		<Reward_Param9>Tarkin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M05_Intro_Dialog_00b</Prereq>
+	</Event>
+
+	<Event Name="ActII_M05_Intro_Dialog_01c">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_FOUR_10</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_10</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M05_Intro_Dialog_01</Prereq>
+	</Event>
+
+<!-- Officer  Speaks -->
+	<Event Name="ActII_M05_Intro_Dialog_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_11</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_FOUR_11</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M05_Intro_Dialog_01c</Prereq>
+	</Event>
+
+	<Event Name="ActII_M05_Intro_Dialog_03">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_FOUR_11</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_11</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M05_Intro_Dialog_02</Prereq>
+	</Event>
+
+<!-- Emperor speaks -->
+	<Event Name="Empire_ActII_Mission_Five_Intro_Dialog_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_17</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_FOUR_17</Reward_Param8>
+		<Reward_Param9>Emperor_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M05_Intro_Dialog_03</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Five_Intro_Dialog_04c">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_FOUR_17</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_17</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_ActII_Mission_Five_Intro_Dialog_04</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Five_Intro_Dialog_04c_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_ActII_Mission_Five_Intro_Dialog_04c</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Reveal_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Kashyyyk</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Five_Intro_Dialog_04c_Stop_Movie</Prereq>
+	</Event>
+
+<!-- Flash Kashyyyk -->
+	<Event Name="Empire_ActII_Mission_Five_Flash_Kashyyyk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Kashyyyk</Reward_Param1>
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
+		<Reward_Param4>Kashyyyk_GUI_Flash</Reward_Param4>
+		<Reward_Param5>True</Reward_Param5>
+		<Prereq>Empire_ActII_Reveal_01</Prereq>
+		<!--<Branch>BRANCH_EA02M05</Branch>-->
+	</Event>
+
+	<Event Name="ActII_M05_Show_Task">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_6_103</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7>
+		<Prereq>Empire_ActII_Mission_Five_Flash_Kashyyyk</Prereq>
+	    <Prereq>Empire_ActII_Mission_Five_Failed_03</Prereq>
+	    <Branch>BRANCH_EA02M05</Branch>
+	</Event>
+	
+	<!-- ADD holocron for kashyyyk -->
+	<Event Name="Empire_ActII_Holocron_Kashyyyk_Entry">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Story_Dialog>Dialog_Empire_Story_Campaign</Story_Dialog>
+		<Story_Chapter>5</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Tag>Empire_ActII_Holocron_Kashyyyk_Entry</Story_Tag>
+		<Prereq>ActII_M05_Show_Task</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Five_01">
+		<Event_Type>STORY_LAND_ON</Event_Type>
+		<Event_Param1>Kashyyyk</Event_Param1>
+		<Event_Param2>FILTER_FRIENDLY_ONLY</Event_Param2>
+		<Reward_Type>LINK_TACTICAL</Reward_Type>
+		<Reward_Param1>Kashyyyk</Reward_Param1>
+		<Reward_Param2>LAND</Reward_Param2>
+		<Reward_Param3>Empire</Reward_Param3>
+		<Reward_Param4>EM06_Trouble_on_Kashyyyk.TED</Reward_Param4>
+		<Reward_Param5>Rebel</Reward_Param5>
+		<Reward_Param7>Story_Plots_Empire_ActII_M05_LAND.XML</Reward_Param7>
+		<Reward_Param8>1</Reward_Param8>
+		<Reward_Param9>0</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Reward_Param11>0</Reward_Param11>
+		<Prereq>Empire_ActII_Reveal_01</Prereq>
+		<Branch>BRANCH_EA02M05_QUICKSTART</Branch>
+	</Event>
+	
+<!-- Mission 5 failed -->
+<!-- Detect mission 5 being lost.  Display text telling the player to try again -->
+	<Event Name="Empire_ActII_Mission_Five_Failed">
+		<Event_Type>STORY_MISSION_LOST</Event_Type>
+		<Event_Param1>Story_Plots_Empire_ActII_M05_LAND.XML</Event_Param1>
+		<Prereq>Empire_ActII_Mission_Five_01</Prereq>
+		<Branch>BRANCH_EA02M05</Branch>
+	</Event>
+	
+<!-- Wait until the battle summary dialog is closed -->
+	<Event Name="Empire_ActII_Mission_Five_Failed_01_Start_Dialog">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>battle_end_closed</Event_Param1>
+		<Prereq>Empire_ActII_Mission_Five_Failed</Prereq>
+		<Branch>BRANCH_EA02M05</Branch>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Five_Failed_01_Quickstart">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>RESET_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_EA02M05_QUICKSTART</Reward_Param1>
+		<Prereq>Empire_ActII_Mission_Five_Failed_01_Start_Dialog</Prereq>
+		<Branch>BRANCH_EA02M05</Branch>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Five_Failed_01">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_19</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_FIVE_19</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Tarkin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_ActII_Mission_Five_Failed_01_Start_Dialog</Prereq>
+		<Branch>BRANCH_EA02M05</Branch>
+	</Event>
+	
+	<Event Name="Empire_ActII_Mission_Five_Failed_02">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_FIVE_19</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_19</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_ActII_Mission_Five_Failed_01</Prereq>
+		<Branch>BRANCH_EA02M05</Branch>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Five_Failed_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_ActII_Mission_Five_Failed_02</Prereq>
+		<Branch>BRANCH_EA02M05</Branch>
+	</Event>
+	
+<!-- Re-enable mission 5 -->
+	<Event Name="Empire_ActII_Mission_Five_Failed_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>RESET_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_EA02M05</Reward_Param1>
+		<Prereq>Empire_ActII_Mission_Five_Failed_03</Prereq>
+		<Branch>BRANCH_EA02M05</Branch>
+	</Event>
+
+<!-- Mission 5 win -->
+	<Event Name="Empire_ActII_Mission_Five_02">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Empire_A02M05_Win</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
+		<Prereq>Empire_ActII_Mission_Five_01</Prereq>
+	</Event>
+	
+			<Event Name="Empire_ActII_Mission_Five_RemoveFlash_Kashyyyk">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+				<Reward_Param1>Kashyyyk_GUI_Flash</Reward_Param1>
+				<Prereq>Empire_ActII_Mission_Five_02</Prereq>
+			</Event>
+			
+			<!-- COMPLETE holocron for kashyyyk -->
+				<Event Name="Empire_ActII_Holocron_Kashyyyk_Entry_Completed">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+					<Reward_Param1>Empire_ActII_Holocron_Kashyyyk_Entry</Reward_Param1>
+					<Prereq>Empire_ActII_Mission_Five_02</Prereq>
+				</Event>
+
+	<Event Name="Empire_ActII_Mission_Five_02_Win_Disable_Branch">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_EA02M05</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Five_02</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Five_02_Win_Disable_Branch_Quickstart">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_EA02M05_QUICKSTART</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Five_02_Win_Disable_Branch</Prereq>
+	</Event>
+	
+	<!-- Forces Vader respawn. Sometimes he disappears, this ensures he's always available -->
+	<Event Name="Empire_ActII_Mission_Five_Despawn_Vader">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+		<Prereq>Empire_ActII_Mission_Five_02</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Five_Spawn_Vader">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+		<Reward_Param2>Kashyyyk</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Five_Despawn_Vader</Prereq>
+	</Event>
+
+<!-- Tarkin speaks -->
+	<Event Name="ActII_M05_End_Dialog_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_08</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_FIVE_08</Reward_Param8>
+		<Reward_Param9>Tarkin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_ActII_Mission_Five_02</Prereq>
+	</Event>
+
+	<Event Name="ActII_M05_End_Dialog_00b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_FIVE_08</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_08</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M05_End_Dialog_00</Prereq>
+	</Event>
+
+<!-- Boba Fett Speaks -->
+	<Event Name="ActII_M05_End_Dialog_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_09</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_FIVE_09</Reward_Param8>
+		<Reward_Param9>Boba_Fett_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M05_End_Dialog_00b</Prereq>
+	</Event>
+
+	<Event Name="ActII_M05_End_Dialog_02">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_FIVE_09</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_09</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M05_End_Dialog_01</Prereq>
+	</Event>
+
+<!-- Vader Speaks -->
+	<Event Name="ActII_M05_End_Dialog_03a">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_17</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_FIVE_17</Reward_Param8>
+		<Reward_Param9>Vader_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M05_End_Dialog_02</Prereq>
+	</Event>
+
+	<Event Name="ActII_M05_End_Dialog_03d">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_FIVE_17</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_17</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M05_End_Dialog_03a</Prereq>
+	</Event>
+
+	<Event Name="ActII_M05_End_Dialog_03d_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>ActII_M05_End_Dialog_03d</Prereq>
+	</Event>
+
+<!-- Mission 6: A New Weapon of War (Veers/Land/Carida)-->
+<!-- Emperor Speaks 1 -->
+	<Event Name="ActII_M06_Intro_Dialog_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>4</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_12</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_12</Reward_Param8>
+		<Reward_Param9>Emperor_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M05_End_Dialog_03d_Stop_Movie</Prereq>
+	</Event>
+
+	<Event Name="ActII_M06_Intro_Dialog_00b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_12</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_12</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M06_Intro_Dialog_00</Prereq>
+	</Event>
+
+<!-- Tarkin Speaks -->
+	<Event Name="ActII_M06_Intro_Dialog_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_13</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_13</Reward_Param8>
+		<Reward_Param9>Tarkin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M06_Intro_Dialog_00b</Prereq>
+	</Event>
+
+	<Event Name="ActII_M06_Intro_Dialog_01c">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_13</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_13</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M06_Intro_Dialog_01</Prereq>
+	</Event>
+
+<!-- Emperor Speaks 2 -->
+	<Event Name="ActII_M06_Intro_Dialog_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_14</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_14</Reward_Param8>
+		<Reward_Param9>Emperor_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M06_Intro_Dialog_01c</Prereq>
+	</Event>
+
+	<Event Name="ActII_M06_Intro_Dialog_03">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_14</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_14</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M06_Intro_Dialog_02</Prereq>
+	</Event>
+
+<!--Vader Speaks -->
+	<Event Name="ActII_M06_Intro_Dialog_03a">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_36</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_36</Reward_Param8>
+		<Reward_Param9>Vader_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M06_Intro_Dialog_03</Prereq>
+	</Event>
+
+	<Event Name="ActII_M06_Intro_Dialog_03b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_36</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_36</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M06_Intro_Dialog_03a</Prereq>
+	</Event>
+
+<!--Tarkin Speaks -->
+	<Event Name="ActII_M06_Intro_Dialog_03c">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_37</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_37</Reward_Param8>
+		<Reward_Param9>Tarkin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M06_Intro_Dialog_03b</Prereq>
+	</Event>
+
+	<Event Name="ActII_M06_Intro_Dialog_03d">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_37</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_37</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M06_Intro_Dialog_03c</Prereq>
+	</Event>
+
+<!--Emperor Speaks -->
+	<Event Name="ActII_M06_Intro_Dialog_03e">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_38</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_38</Reward_Param8>
+		<Reward_Param9>Emperor_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M06_Intro_Dialog_03d</Prereq>
+	</Event>
+
+	<Event Name="ActII_M06_Intro_Dialog_03f">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_38</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_38</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M06_Intro_Dialog_03e</Prereq>
+	</Event>
+
+	<Event Name="ActII_M06_Intro_Dialog_03a_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>ActII_M06_Intro_Dialog_03f</Prereq>
+	</Event>
+
+
+	<Event Name="Empire_ActII_Carida_Off_Limits">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Carida</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>ActII_M06_Intro_Dialog_03a_Stop_Movie</Prereq>
+	</Event>
+	
+	<Event Name="Empire_ActII_Mission_Six_Reveal_Carida">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Carida</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>ActII_M06_Intro_Dialog_03a_Stop_Movie</Prereq>
+	</Event>
+			
+	<Event Name="Empire_ActII_Mission_Six_Switch_Carida">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>Carida</Reward_Param1>
+		<Reward_Param2>Empire</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Six_Reveal_Carida</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Six_Spawn_Carida">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Stormtrooper_Squad</Reward_Param1>
+		<Reward_Param2>Carida</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Six_Switch_Carida</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Six_Spawn_Veers">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>General_Veers_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Six_Spawn_Carida</Prereq>
+	</Event>
+	
+<!-- Flash Veers on galactic -->
+	<Event Name="Empire_Act2_Mission_6_Flash_Veers">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_FLEET_WITH_UNIT</Reward_Type>
+		<Reward_Param1>General_Veers</Reward_Param1>
+		<Reward_Param2>General_Veers_Team_Flash</Reward_Param2>
+		<Prereq>Empire_ActII_Mission_Six_Spawn_Veers</Prereq>
+	</Event>
+	
+	<Event Name="Empire_Act2_Mission_6_RemoveFlash_Veers">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>click</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Reward_Param1>General_Veers_Team_Flash</Reward_Param1>
+		<Prereq>Empire_Act2_Mission_6_Flash_Veers</Prereq>
+	</Event>
+
+<!-- Flash Carida -->
+	<Event Name="Empire_ActII_Mission_Six_Flash_Carida">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Carida</Reward_Param1>
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
+		<Reward_Param4>Carida_GUI_Flash</Reward_Param4>
+		<Reward_Param5>True</Reward_Param5>
+		<Prereq>Empire_ActII_Mission_Six_Spawn_Veers</Prereq>
+	</Event>
+
+	<Event Name="ActII_M06_Show_Task">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT02_MISSION_SIX_03</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Empire_ActII_Mission_Six_Flash_Carida</Prereq>
+	</Event>
+	
+	<!--ADD holocron for col veers-->
+	<Event Name="Empire_ActII_Holocron_Veers_Entry">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Story_Dialog>Dialog_Empire_Story_Campaign</Story_Dialog>
+		<Story_Chapter>6</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Tag>Empire_ActII_Holocron_Veers_Entry</Story_Tag>
+		<Prereq>ActII_M06_Show_Task</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Six_01">
+		<Event_Type>STORY_MOVE</Event_Type>
+		<Event_Param1>General_Veers</Event_Param1>
+		<Event_Param2>Carida</Event_Param2>
+		<Reward_Type>LINK_TACTICAL</Reward_Type>
+		<Reward_Param1>Carida</Reward_Param1>
+		<Reward_Param2>LAND</Reward_Param2>
+		<Reward_Param3>Rebel</Reward_Param3>
+		<Reward_Param4>EM09_A_New_Weapon_of_War.TED</Reward_Param4>
+		<Reward_Param5>Empire</Reward_Param5>
+		<Reward_Param7>Story_Plots_Empire_ActII_M06_LAND.XML</Reward_Param7>
+		<Reward_Param8>1</Reward_Param8>
+		<!-- Do we want the prebattle cinematic to play?-->
+		<Reward_Param9>0</Reward_Param9>
+		<!-- Do we want to start the scene faded out?-->
+		<Reward_Param10>1</Reward_Param10>
+		<!-- Do we want to start the scene in letter box mode-->
+		<Reward_Param11>1</Reward_Param11>
+		<Prereq>Empire_ActII_Holocron_Veers_Entry</Prereq>
+	</Event>
+
+<!-- For when the player moves to Carida without General Veers. -->
+	<Event Name="Empire_ActII_Veers_Bounced">
+		<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
+		<Event_Param1>Carida</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_34</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_34</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Emperor_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Perpetual>True</Perpetual>
+	</Event>
+
+	<Event Name="Empire_ActII_Veers_Bounced_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_34</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_34</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_ActII_Veers_Bounced</Prereq>
+		<Perpetual>True</Perpetual>
+	</Event>
+	
+	<Event Name="Empire_ActII_Veers_Bounced_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_ActII_Veers_Bounced_Remove_Text</Prereq>
+		<Perpetual>True</Perpetual>
+	</Event>
+
+<!-- Mission 6 failed -->
+<!-- Detect mission 6 being lost.  Display text telling the player to try again -->
+	<Event Name="Empire_ActII_Mission_Six_Failed">
+		<Event_Type>STORY_MISSION_LOST</Event_Type>
+		<Event_Param1>Story_Plots_Empire_ActII_M06_LAND.XML</Event_Param1>
+		<Prereq>Empire_ActII_Mission_Six_01</Prereq>
+		<Branch>BRANCH_EA02M06</Branch>
+	</Event>
+
+<!-- Wait until the battle summary dialog is closed -->
+	<Event Name="Empire_ActII_Mission_Six_Failed_01_Start_Dialog">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>battle_end_closed</Event_Param1>
+		<Prereq>Empire_ActII_Mission_Six_Failed</Prereq>
+		<Branch>BRANCH_EA02M06</Branch>
+	</Event>
+
+	<Event Name="Empire_ActII_Mission_Six_Failed_01_Restart_Mission">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LINK_TACTICAL</Reward_Type>
+		<Reward_Param1>Carida</Reward_Param1>
+		<Reward_Param2>LAND</Reward_Param2>
+		<Reward_Param3>Rebel</Reward_Param3>
+		<Reward_Param4>EM09_A_New_Weapon_of_War.TED</Reward_Param4>
+		<Reward_Param5>Empire</Reward_Param5>
+		<Reward_Param7>Story_Plots_Empire_ActII_M06_LAND.XML</Reward_Param7>
+		<Reward_Param8>1</Reward_Param8>
+		<!-- Do we want the prebattle cinematic to play?-->
+		<Reward_Param9>0</Reward_Param9>
+		<!-- Do we want to start the scene faded out?-->
+		<Reward_Param10>1</Reward_Param10>
+		<!-- Do we want to start the scene in letter box mode-->
+		<Reward_Param11>1</Reward_Param11>
+		<Prereq>Empire_ActII_Mission_Six_Failed_01_Start_Dialog</Prereq>
+		<Branch>BRANCH_EA02M06</Branch>
+	</Event>
+
+<!-- Re-enable mission 6 -->
+	<Event Name="Empire_ActII_Mission_Six_Failed_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>RESET_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_EA02M06</Reward_Param1>
+		<Prereq>Empire_ActII_Mission_Six_Failed_01_Restart_Mission</Prereq>
+		<Branch>BRANCH_EA02M06</Branch>
+	</Event>
+
+<!-- Mission 6 win -->
+	<Event Name="Empire_ActII_Mission_Six_02">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Empire_A02M06_Win</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
+		<Prereq>Empire_ActII_Mission_Six_01</Prereq>
+	</Event>
+	
+			<Event Name="Empire_ActII_Mission_Six_RemoveFlash_Carida">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+				<Reward_Param1>Carida_GUI_Flash</Reward_Param1>
+				<Prereq>Empire_ActII_Mission_Six_02</Prereq>
+			</Event>
+			
+			
+			<!-- COMPLETE holocron for veers -->
+				<Event Name="Empire_ActII_Holocron_Veers_Entry_Completed">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+					<Reward_Param1>Empire_ActII_Holocron_Veers_Entry</Reward_Param1>
+					<Prereq>Empire_ActII_Mission_Six_02</Prereq>
+				</Event>
+
+	<Event Name="Empire_ActII_Carida_Enable_Visitation">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Carida</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Empire_ActII_Holocron_Veers_Entry_Completed</Prereq>
+	</Event>
+
+<!-- Tarkin Speaks 
+TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_15
+Tarkin: General Veers is of the opinion that the Rebel base that launched the attack could not be far away 
+based on the size of their force.-->
+	<Event Name="ActII_M06_End_Dialog_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_15</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_15</Reward_Param8>
+		<Reward_Param9>Tarkin_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_ActII_Holocron_Veers_Entry_Completed</Prereq>
+	</Event>
+
+	<Event Name="ActII_M06_End_Dialog_00b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_15</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_15</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M06_End_Dialog_00</Prereq>
+	</Event>
+
+<!-- Vader Speaks 
+TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_16
+Darth Vader: I have used his information to pinpoint Jabiim as the likely origin point. 
+Allow me to take a force there and crush them once and for all!-->
+	<Event Name="ActII_M06_End_Dialog_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_16</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_16</Reward_Param8>
+		<Reward_Param9>Vader_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M06_End_Dialog_00b</Prereq>
+	</Event>
+
+	<Event Name="ActII_M06_End_Dialog_01c">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_16</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_16</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M06_End_Dialog_01</Prereq>
+	</Event>
+
+<!-- Emperor Speaks 
+TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_17
+Emperor: More important than destroying their worthless base of operations is finding the identity 
+of the one who revealed the location of this demonstration, my apprentice.-->
+	<Event Name="ActII_M06_End_Dialog_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_17</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_17</Reward_Param8>
+		<Reward_Param9>Emperor_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>ActII_M06_End_Dialog_01c</Prereq>
+	</Event>
+
+	<Event Name="ActII_M06_End_Dialog_02a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_17</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_17</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M06_End_Dialog_02</Prereq>
+	</Event>
+
+<!-- Vader speaks -->
+	<Event Name="ActII_M06_End_Dialog_02d">		
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_43</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param9>Vader_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Reward_Param8>EMPIRE_ACT02_MISSION_SIX_43</Reward_Param8> <!-- Put speech file name here -->
+		<Prereq>ActII_M06_End_Dialog_02a</Prereq>
+	</Event>
+	
+	<Event Name="ActII_M06_End_Dialog_02e">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT02_MISSION_SIX_43</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_43</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>ActII_M06_End_Dialog_02d</Prereq>
+	</Event>
+
+	<Event Name="ActII_M06_End_Dialog_02e_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>ActII_M06_End_Dialog_02e</Prereq>
+	</Event>
+
+<!-- jdg moved act3 planet reveals here for aesthetics -->
+	<Event Name="Empire_ActIII_Reveal_Fresia">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Fresia</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>ActII_M06_End_Dialog_02</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActIII_Reveal_Wayland">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Wayland</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>ActII_M06_End_Dialog_02</Prereq>
+	</Event>
+	
+	<Event Name="Empire_ActIII_Reveal_Dantooine">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Dantooine</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>ActII_M06_End_Dialog_02</Prereq>
+	</Event>
+	
+	<Event Name="Empire_ActIII_Reveal_AetenII">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>4</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>AetenII</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>ActII_M06_End_Dialog_02</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActIII_Reveal_Manaan">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Manaan</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>ActII_M06_End_Dialog_02</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActIII_Reveal_Jabiim">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Jabiim</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>ActII_M06_End_Dialog_02e_Stop_Movie</Prereq>
+	</Event>
+
+<!-- Flash Jabiim -->
+	<Event Name="Empire_ActIII_Mission_Seven_Flash_Jabiim">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Jabiim</Reward_Param1>
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
+		<Reward_Param4>Jabim_GUI_Flash</Reward_Param4>
+		<Reward_Param5>True</Reward_Param5>
+		<Prereq>Empire_ActIII_Reveal_Jabiim</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActIII_Mission_Seven_Jabiim_Task">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT03_MISSION_SEVEN_02</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Empire_ActIII_Mission_Seven_Flash_Jabiim</Prereq>
+	</Event>
+	
+	<!--ADD holocron for jabim-->
+	<Event Name="Empire_ActII_Holocron_Jabim_Entry">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Story_Dialog>Dialog_Empire_Story_Campaign</Story_Dialog>
+		<Story_Chapter>7</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Tag>Empire_ActII_Holocron_Jabim_Entry</Story_Tag>
+		<Prereq>Empire_ActIII_Mission_Seven_Jabiim_Task</Prereq>
+	</Event>
+
+<!-- Open Act III once completing mission 6 -->
+	<Event Name="Empire_ActII_Open_Act_III_01">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>STORY_ELEMENT</Reward_Type>
+		<Reward_Param1>Story_Campaign_Empire_Act_III</Reward_Param1>
+		<Prereq>Empire_ActIII_Mission_Seven_Jabiim_Task</Prereq>
+	</Event>
+
+	<Event Name="Empire_ActII_Open_Act_III_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Empire_Act_Counter</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_ActII_Open_Act_III_01</Prereq>
+	</Event>
+	
+	
+
+</Story>

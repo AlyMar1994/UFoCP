@@ -1,0 +1,579 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+<!--
+
+	<Event Name="">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq></Prereq>
+	</Event>
+
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1></Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_TECH_ADVANCE</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>System</Reward_Param7>
+-->
+
+<!-- Mission start setup -->
+	<Event Name="Rebel_A4_M12_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+	<Event Name="Rebel_A4_M12_Enable_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Rebel_A4_M12_Begin</Prereq>	
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Play_Death_Star_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>Empire_Win_Deathstar</Reward_Param1>
+		<Prereq>Rebel_A4_M12_Enable_Victory</Prereq>	
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Pause_After_Movie">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+		<Prereq>Rebel_A4_M12_Play_Death_Star_Movie</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Empire_Takes_Alderaan">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>Alderaan</Reward_Param1>
+		<Reward_Param2>Empire</Reward_Param2>
+		<Prereq>Rebel_A4_M12_Pause_After_Movie</Prereq>
+	</Event>
+
+<!-- Alderaan Gone - Rebel Soldier Speaks -->
+	<Event Name="Rebel_A4_M12_Intro_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_06</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_06</Reward_Param8>
+		<Reward_Param9>Rebel_Trooper_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_Pause_After_Movie</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Intro_00_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_06</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_06</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M12_Intro_00</Prereq>
+	</Event>
+
+<!-- Mon Mothma Speaks -->
+	<Event Name="Rebel_A4_M12_Intro_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_07</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_07</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_Intro_00_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Intro_01_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_07</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_07</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M12_Intro_01</Prereq>
+	</Event>
+
+<!-- Rebel Soldier Speaks -->
+	<Event Name="Rebel_A4_M12_Intro_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_08</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_08</Reward_Param8>
+		<Reward_Param9>Rebel_Trooper_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_Intro_01_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Intro_02_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_08</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_08</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M12_Intro_02</Prereq>
+	</Event>
+
+	<!-- Mon Mothma Speaks -->
+	<Event Name="Rebel_A4_M12_Intro_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_09</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_09</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_Intro_02_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Intro_03b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_09</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_09</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_A4_M12_Intro_03</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Intro_03b_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Rebel_A4_M12_Intro_03b</Prereq>
+	</Event>
+
+<!-- Rebel Soldier Speaks -->
+	<Event Name="Rebel_A4_M12_DeathStar_Plans_Speech_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>4</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_10</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_10</Reward_Param8>
+		<Reward_Param9>Rebel_Trooper_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_Intro_03b_Stop_Movie</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_DeathStar_Plans_Speech_00_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_10</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_10</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_00</Prereq>
+	</Event>
+
+<!-- Han Solo Speaks -->
+	<Event Name="Rebel_A4_M12_DeathStar_Plans_Speech_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_11</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_11</Reward_Param8>
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_00_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_DeathStar_Plans_Speech_01_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_11</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_11</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_01</Prereq>
+	</Event>
+
+<!-- Mon Mothma Speaks -->
+	<Event Name="Rebel_A4_M12_DeathStar_Plans_Speech_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_12</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_12</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_01_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_DeathStar_Plans_Speech_02_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_12</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_12</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_02</Prereq>
+	</Event>
+
+<!-- Han Solo Speaks -->
+	<Event Name="Rebel_A4_M12_DeathStar_Plans_Speech_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_13</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_13</Reward_Param8>
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_02_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_DeathStar_Plans_Speech_03_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_13</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_13</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_03</Prereq>
+	</Event>
+
+<!-- Mon Mothma Speaks -->
+	<Event Name="Rebel_A4_M12_DeathStar_Plans_Speech_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_14</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_14</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_03_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_DeathStar_Plans_Speech_04_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_14</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_14</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_04</Prereq>
+	</Event>
+
+<!-- Han Solo Speaks -->
+	<Event Name="Rebel_A4_M12_DeathStar_Plans_Speech_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_15</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_15</Reward_Param8>
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_04_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_DeathStar_Plans_Speech_05b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_15</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_15</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_05</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_DeathStar_Plans_Speech_05b_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_05b</Prereq>
+	</Event>
+
+<!-- Get the droids back -->
+	<Event Name="Rebel_A4_M12_Spawn_Droids_Again">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Droids_Team</Reward_Param1>
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_05b_Stop_Movie</Prereq>
+	</Event>
+
+<!-- FLASH Droids Team -->
+	<Event Name="Rebel_ActIV_FLASH_Droids">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>.5</Event_Param1>
+		<Reward_Type>FLASH_FLEET_WITH_UNIT</Reward_Type>
+		<Reward_Param1>Droids_Team</Reward_Param1>
+		<Reward_Param2>Droids_Team_Flash</Reward_Param2>
+		<Prereq>Rebel_A4_M12_Spawn_Droids_Again</Prereq>
+	</Event>
+	
+<!-- Spawn red squadron -->
+	<Event Name="Rebel_A4_M12_Spawn_Red_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Red_Squadron</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_05b_Stop_Movie</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActIV_FLASH_Red_Squadron">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>.5</Event_Param1>
+		<Reward_Type>FLASH_FLEET_WITH_UNIT</Reward_Type>
+		<Reward_Param1>Red_Squadron</Reward_Param1>
+		<Reward_Param2>Red_Squadron_Flash</Reward_Param2>
+		<Prereq>Rebel_A4_M12_Spawn_Red_Squadron</Prereq>
+	</Event>
+	
+	<!-- Remove FLASH Droids Team -->
+	<Event Name="Rebel_ActIV_Remove_FLASH_Droids">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Reward_Param1>Droids_Team_Flash</Reward_Param1>
+		<Prereq>Rebel_ActIV_FLASH_Droids</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActIV_Remove_FLASH_Red_Squadron">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Reward_Param1>Red_Squadron_Flash</Reward_Param1>
+		<Prereq>Rebel_ActIV_FLASH_Red_Squadron</Prereq>
+	</Event>
+
+<!-- Mon Mothma Speaks -->
+	<Event Name="Rebel_A4_M12_Final_Battle_Begin_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>4</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_16</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_16</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_Spawn_Droids_Again</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Final_Battle_Begin_00_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_16</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_16</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M12_Final_Battle_Begin_00</Prereq>
+	</Event>
+	
+	<!-- Homing beacon found, let the Empire hunt -->
+	<Event Name="Rebel_A4_M12_Hunt">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Prereq>Rebel_A4_M12_Final_Battle_Begin_00_Remove_Text</Prereq>
+	</Event>
+
+<!-- Mon Mothma Speaks -->
+	<Event Name="Rebel_A4_M12_Final_Battle_Begin_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_22</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_22</Reward_Param8>
+		<Prereq>Rebel_A4_M12_Final_Battle_Begin_00_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Final_Battle_Begin_01_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_22</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_22</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M12_Final_Battle_Begin_01</Prereq>
+	</Event>
+
+<!-- Rebel Pilot Speaks -->
+	<Event Name="Rebel_A4_M12_Final_Battle_Begin_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_17</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_17</Reward_Param8>
+		<Reward_Param9>Wedge_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_Final_Battle_Begin_01_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Final_Battle_Begin_02_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_17</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_17</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M12_Final_Battle_Begin_02</Prereq>
+	</Event>
+
+<!-- Mon Mothma Speaks -->
+	<Event Name="Rebel_A4_M12_Final_Battle_Begin_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_18</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_18</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_Final_Battle_Begin_02_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Final_Battle_Begin_03b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_18</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_18</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_A4_M12_Final_Battle_Begin_03</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Final_Battle_Begin_03b_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Rebel_A4_M12_Final_Battle_Begin_03b</Prereq>
+	</Event>
+
+<!-- Add holocron entry -->
+	<Event Name="Rebel_A4_M12_Add_Story_Holocron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Story_Dialog>Dialog_Rebel_Story_Campaign</Story_Dialog>
+		<Story_Chapter>11</Story_Chapter>
+		<Story_Tag>Rebel_Mission_Twelve_Tag</Story_Tag>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
+		<Prereq>Rebel_A4_M12_Final_Battle_Begin_03b_Stop_Movie</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_A4_M12_Spawn_R2D2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>DROIDS_TEAM</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebel_A4_M12_Add_Story_Holocron</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Spawn_Solo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebel_A4_M12_Add_Story_Holocron</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIV_FLASH_Han_Solo">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>.5</Event_Param1>
+		<Reward_Type>FLASH_FLEET_WITH_UNIT</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>Han_Solo_Team_Flash</Reward_Param2>
+		<Prereq>Rebel_A4_M12_Spawn_Solo</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_ActIV_Remove_FLASH_Han_Solo">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Reward_Param1>Han_Solo_Team_Flash</Reward_Param1>
+		<Prereq>Rebel_ActIV_FLASH_Han_Solo</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Spawn_Notify_Player">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT04_MISSION_TWELVE_21</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>System</Reward_Param7>
+		<Prereq>Rebel_A4_M12_Spawn_Red_Squadron Rebel_A4_M12_Spawn_Solo</Prereq>
+	</Event>
+
+<!-- Mon Mothma Speaks -->
+	<Event Name="Rebel_A4_M12_Han_Arrives_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_19</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_19</Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_Spawn_Notify_Player</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Han_Arrives_00_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_19</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_19</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_A4_M12_Han_Arrives_00</Prereq>
+	</Event>
+
+<!-- Han Solo Speaks -->
+	<Event Name="Rebel_A4_M12_Han_Arrives_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_20</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT04_MISSION_TWELVE_20</Reward_Param8>
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A4_M12_Han_Arrives_00_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Han_Arrives_01b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT04_MISSION_TWELVE_20</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_20</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_A4_M12_Han_Arrives_01</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Han_Arrives_01b_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Rebel_A4_M12_Han_Arrives_01b</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Give_Main_Objective">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT04_MISSION_TWELVE_02</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7>
+		<Prereq>Rebel_A4_M12_Han_Arrives_01b_Stop_Movie</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Give_Main_Objective_02">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT04_MISSION_TWELVE_24</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
+		<Prereq>Rebel_A4_M12_Give_Main_Objective</Prereq>
+	</Event> 
+ 
+<!-- WIN CONDITION -->
+	<Event Name="Rebel_A4_M12_Check_Win_00">
+		<Event_Type>STORY_DESTROY</Event_Type>
+		<Event_Param1>Death_Star</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_A04M12_Win</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+
+	<Event Name="Rebel_A4_M12_Check_Win_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Rebel_Mission_Twelve_Tag</Reward_Param1>
+		<Prereq>Rebel_A4_M12_Check_Win_00</Prereq>
+	</Event>
+
+</Story>

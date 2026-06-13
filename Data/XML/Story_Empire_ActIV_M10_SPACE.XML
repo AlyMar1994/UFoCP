@@ -1,0 +1,1684 @@
+﻿<?xml version="1.0" ?>
+
+
+
+<Story>
+
+
+<!-- Preliminary Setup -->
+
+	<Event Name="Empire_A04M10_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<Event Name="Empire_M10_Autoresolve_Off">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIDE_AUTORESOLVE</Reward_Type>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A04M10_Prevent_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_A04M10_Prevent_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>
+
+	<!-- <Event Name="Empire_A04M10_Allow_Replay">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>USE_RETRY_DIALOG</Reward_Type>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>-->
+
+ <!-- ensuring player has reinforcements-->
+    <Event Name="Empire_M10_Allow_Reinforcements">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>DISABLE_REINFORCEMENTS</Reward_Type>
+        <Reward_Param1>0</Reward_Param1>
+        <Prereq>Empire_A04M10_Begin</Prereq>
+    </Event>
+
+	<Event Name="Empire_A04M10_Transmission_Complete_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Transmission_Complete</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_A04M10_Princess_Captured_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Princess_Captured</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_A04M10_Win_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Empire_A04M10_Win</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>
+
+
+
+
+
+
+
+<!-- Intro Dialog -->
+
+	<!-- Officer Speaks 1 
+	TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_04
+	Imperial Officer: Lord Vader, request immediate assistance! 
+	Pirate raider party engaged, taking casualties!-->
+	<Event Name="Empire_A04M10_Dialog_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>M10_INTRO_DIALOG_01_GO</Event_Param2>
+	</Event>
+	
+			<Event Name="Empire_A04M10_Dialog_00a">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_04</Reward_Param1>
+				<Reward_Param2>-1</Reward_Param2>
+				<Prereq>Empire_A04M10_Dialog_00</Prereq>
+			</Event>
+
+			<Event Name="Empire_A04M10_Dialog_00b">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SPEECH</Reward_Type>
+				<Reward_Param1>EMPIRE_ACT04_MISSION_TEN_04</Reward_Param1>
+				<Prereq>Empire_A04M10_Dialog_00</Prereq>
+			</Event>
+			
+	<!-- Vader Speaks 1 
+	TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_25
+	Darth Vader: Those Interdictors must be protected.   -->
+	<Event Name="Empire_M10_Vader_Interdictor_Line_00">
+        <Event_Type>STORY_SPEECH_DONE</Event_Type>
+        <Event_Param1>EMPIRE_ACT04_MISSION_TEN_04</Event_Param1>
+        <Reward_Type>MULTIMEDIA</Reward_Type>
+        <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_25</Reward_Param1>
+        <Reward_Param2>-1</Reward_Param2>	
+        <Reward_Param8>EMPIRE_ACT04_MISSION_TEN_25</Reward_Param8>
+        <Reward_Param9>Vader_Loop</Reward_Param9>
+        <Reward_Param10>1</Reward_Param10>
+        <Prereq>Empire_A04M10_Begin</Prereq>
+    </Event>
+
+                        <Event Name="Empire_M10_Vader_Interdictor_Line_00_Remove_Text">
+                            <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                            <Event_Param1>EMPIRE_ACT04_MISSION_TEN_25</Event_Param1>
+                            <Reward_Type>SCREEN_TEXT</Reward_Type>
+                            <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_25</Reward_Param1>
+                            <Reward_Param4>Remove</Reward_Param4>	
+                            <Prereq>Empire_M10_Vader_Interdictor_Line_00</Prereq>
+                        </Event>
+
+                         <Event Name="Empire_M10_Vader_Interdictor_Line_00_Remove_Movie">
+                            <Event_Type>STORY_TRIGGER</Event_Type>
+                            <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                            <Prereq>Empire_M10_Vader_Interdictor_Line_00_Remove_Text</Prereq>
+                        </Event>
+
+	<!-- Vader Speaks 2 
+	TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_05
+	Darth Vader: Witness the awful vengeance of the Empire against its enemies, Commander! -->
+	<Event Name="Empire_M10_Vader_Interdictor_Line_01">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>M10_INTRO_DIALOG_02_GO</Event_Param2>
+        <Reward_Type>MULTIMEDIA</Reward_Type>
+        <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_05</Reward_Param1>
+        <Reward_Param2>-1</Reward_Param2>	
+        <Reward_Param8>EMPIRE_ACT04_MISSION_TEN_05</Reward_Param8>
+        <Reward_Param9>Vader_Loop</Reward_Param9>
+        <Reward_Param10>1</Reward_Param10>
+        <Prereq>Empire_A04M10_Begin</Prereq>
+    </Event>
+
+                        <Event Name="Empire_M10_Vader_Interdictor_Line_01_Remove_Text">
+                            <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                            <Event_Param1>EMPIRE_ACT04_MISSION_TEN_05</Event_Param1>
+                            <Reward_Type>SCREEN_TEXT</Reward_Type>
+                            <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_05</Reward_Param1>
+                            <Reward_Param4>Remove</Reward_Param4>	
+                            <Prereq>Empire_M10_Vader_Interdictor_Line_01</Prereq>
+                        </Event>
+
+                         <Event Name="Empire_M10_Vader_Interdictor_Line_01_Remove_Movie">
+                            <Event_Type>STORY_TRIGGER</Event_Type>
+                            <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                            <Prereq>Empire_M10_Vader_Interdictor_Line_01_Remove_Text</Prereq>
+                        </Event>
+
+
+<!-- jdg 9/3/05 adding mission objectives here 
+TEXT_STORY_EMPIRE_ACT01_MISSION_TWO_66		Darth Vader must survive.
+TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_42		Save at least one Interdictor.
+TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_43		Destroy the pirate starbase and all pirate units.-->
+
+		<Event Name="Empire_Mission10_ADD_OBJECTIVE_Keep_Vader_Alive">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT01_MISSION_TWO_66</Reward_Param1>
+			<Prereq>Empire_M10_Vader_Interdictor_Line_01_Remove_Movie</Prereq>
+		</Event>
+		
+		<Event Name="Empire_Mission10_ADD_OBJECTIVE_Save_Interdictors">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_42</Reward_Param1>
+			<Prereq>Empire_M10_Vader_Interdictor_Line_01_Remove_Movie</Prereq>
+		</Event>
+		
+		<Event Name="Empire_Mission10_ADD_OBJECTIVE_Destroy_All_Pirates">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_43</Reward_Param1>
+			<Prereq>Empire_M10_Vader_Interdictor_Line_01_Remove_Movie</Prereq>
+		</Event>
+		
+<!-- Kill the pirates 01 
+vader
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_36
+Darth Vader: Clear the sector of all pirates, 
+they must not interfere with our plans.  -->
+
+	<Event Name="Empire_M10_Clear_The_Sector_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>		
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_36</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_36</Reward_Param8>
+		<Reward_Param9>Vader_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_M10_Vader_Interdictor_Line_01_Remove_Text</Prereq>
+	</Event>
+
+			<Event Name="Empire_M10_Clear_The_Sector_Dialog_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_36</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_36</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_M10_Clear_The_Sector_Dialog</Prereq>
+			</Event>
+
+			<Event Name="Empire_M10_Clear_The_Sector_Dialog_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_M10_Clear_The_Sector_Dialog_Remove_Text</Prereq>
+			</Event>
+			
+			
+			
+			
+<!-- Kill the pirates 02 
+vader
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_30
+Darth Vader: Long-range scanners have picked up a Rebel scouting party.   -->
+
+	<Event Name="Empire_M10_Long_Range_Scanners_Dialog">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VADER_TALKS_ABOUT_SCOUTS_HURRY_UP</Event_Param2>	
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_30</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_30</Reward_Param8>
+		<Reward_Param9>Vader_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_M10_Clear_The_Sector_Dialog</Prereq>
+	</Event>
+
+			<Event Name="Empire_M10_Long_Range_Scanners_Dialog_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_30</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_30</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_M10_Long_Range_Scanners_Dialog</Prereq>
+			</Event>
+
+<!-- Kill the pirates 02b
+vader
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_37
+Darth Vader: Time is running out, destroy all the pirates!   -->
+
+	<Event Name="Empire_M10_Time_Running_Out_Dialog">
+		<Event_Type>STORY_TRIGGER</Event_Type>	
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_37</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_37</Reward_Param8>
+		<!--<Reward_Param9>Vader_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>-->
+		<Prereq>Empire_M10_Long_Range_Scanners_Dialog_Remove_Text</Prereq>
+	</Event>
+
+			<Event Name="Empire_M10_Time_Running_Out_Dialog_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_37</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_37</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_M10_Time_Running_Out_Dialog</Prereq>
+			</Event>
+			
+			<Event Name="Empire_M10_Time_Running_Out_Dialog_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_M10_Time_Running_Out_Dialog_Remove_Text</Prereq>
+			</Event>
+
+<!-- Pirates all Destroyed - start part 2 -->
+
+	<Event Name="Empire_A04M10_Waiting_For_Princess_00">
+		<Event_Type>STORY_CHECK_DESTROYED</Event_Type>
+		<Event_Param1>Pirates</Event_Param1>
+		<Event_Param2>DESTROY_ALL</Event_Param2>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>
+	
+	<!-- COMPLETING pirate objectives here 
+TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_43		
+Destroy the pirate starbase and all pirate units.-->
+
+			<Event Name="Empire_Mission10_COMPLETE_OBJECTIVE_Destroy_All_Pirates">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+				<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_43</Reward_Param1>
+				<Prereq>Empire_A04M10_Waiting_For_Princess_00</Prereq>
+			</Event>
+			
+	<!-- COMPLETING protect interdictors objective here 
+TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_42		
+Save at least one Interdictor.-->
+
+			<Event Name="Empire_Mission10_COMPLETE_OBJECTIVE_Save_Interdictors">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+				<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_42</Reward_Param1>
+				<Prereq>Empire_A04M10_Waiting_For_Princess_00</Prereq>
+			</Event>
+
+
+	<!-- Officer Speaks 1 
+	TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_06
+	Imperial Officer: That's all of them.  Thank you for the assistance. -->
+	<Event Name="Empire_M010_Pirates_Dead_Dialog_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>		
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_06</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_06</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A04M10_Waiting_For_Princess_00</Prereq>
+	</Event>
+
+			<Event Name="Empire_M010_Pirates_Dead_Dialog_00_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_06</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_06</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_M010_Pirates_Dead_Dialog_00</Prereq>
+			</Event>
+
+			<Event Name="Empire_M010_Pirates_Dead_Dialog_00_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_M010_Pirates_Dead_Dialog_00_Remove_Text</Prereq>
+			</Event>
+
+	<!-- Officer Speaks 2 
+	TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_07
+	Imperial Officer: We’re picking up Rebel transmissions from a nearby sector.  
+	They should be within range within moments.  -->
+	<Event Name="Empire_M010_Rebels_on_the_Way_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>		
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_07</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_07</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_M010_Pirates_Dead_Dialog_00_Remove_Text</Prereq>
+	</Event>
+
+			<Event Name="Empire_M010_Rebels_on_the_Way_Dialog_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_07</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_07</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_M010_Rebels_on_the_Way_Dialog</Prereq>
+			</Event>
+
+			<Event Name="Empire_M010_Rebels_on_the_Way_Dialog_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_M010_Rebels_on_the_Way_Dialog_Remove_Text</Prereq>
+			</Event>
+			
+	<!-- Vader Speaks 2 
+	TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_08
+	Darth Vader: Move the fleet into the nebulas to avoid detection.  -->
+	<Event Name="Empire_M010_Hide_In_Nebulas_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>		
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_08</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_08</Reward_Param8>
+		<Reward_Param9>Vader_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_M010_Rebels_on_the_Way_Dialog_Remove_Text</Prereq>
+	</Event>
+
+			<Event Name="Empire_M010_Hide_In_Nebulas_Dialog_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_08</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_08</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_M010_Hide_In_Nebulas_Dialog</Prereq>
+			</Event>
+
+			<Event Name="Empire_M010_Hide_In_Nebulas_Dialog_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_M010_Hide_In_Nebulas_Dialog_Remove_Text</Prereq>
+			</Event>
+			
+	<!-- ADDING nebula mission objectives here 
+TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_44			
+Hide your fleet in the nebulas.-->
+
+		<Event Name="Empire_Mission10_ADD_OBJECTIVE_Hide_In_Nebulas">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_44</Reward_Param1>
+			<Prereq>Empire_M010_Hide_In_Nebulas_Dialog_Remove_Text</Prereq>
+		</Event>
+
+	
+<!-- PRINCESS GETS A RADAR FLAG -->
+
+	<Event Name="Empire_A04M10_Flag_The_Princess">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>FLAG_THE_PRINCESS</Event_Param2>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>Tantive_IV</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>		
+		<Reward_Param3>10</Reward_Param3>		
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>
+	
+<!-- Darth Vader 
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_18  
+Darth Vader: Wait until the Princess acknowledges the transmission before 
+moving on them…-->
+
+	<Event Name="Empire_A04M10_Vader_Says_StayBack">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DARTH_VADER_WAIT_LINE</Event_Param2>
+	</Event>
+	
+	<Event Name="Empire_M10_Wait_Until_Data_Received_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>		
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_18</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_18</Reward_Param8>
+		<Reward_Param9>Vader_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A04M10_Vader_Says_StayBack</Prereq>
+	</Event>
+
+			<Event Name="Empire_M10_Wait_Until_Data_Received_Dialog_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_18</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_18</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_M10_Wait_Until_Data_Received_Dialog</Prereq>
+			</Event>
+
+			<Event Name="Empire_M10_Wait_Until_Data_Received_Dialog_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_M10_Wait_Until_Data_Received_Dialog_Remove_Text</Prereq>
+			</Event>
+	
+	
+<!-- jdg 9/3/05 COMPLETING nebula mission objectives here 
+TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_44		
+Hide your fleet in the nebulas.-->
+
+		<Event Name="Empire_Mission10_COMPLETE_OBJECTIVE_Hide_In_Nebulas">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_44</Reward_Param1>
+			<Prereq>Empire_M10_Wait_Until_Data_Received_Dialog</Prereq>
+		</Event>
+		
+<!-- jdg 9/3/05 ADDING wait mission objectives here 
+TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_45			
+Wait until the Princess receives the data transmission.-->
+
+		<Event Name="Empire_Mission10_ADD_OBJECTIVE_Wait_In_Nebulas">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_45</Reward_Param1>
+			<Prereq>Empire_M10_Wait_Until_Data_Received_Dialog</Prereq>
+		</Event>
+
+
+
+
+<!-- PRINCESS GETS TO SATELLITE -->
+<!-- Rebel Speaks 2 
+	TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_09
+	Rebel Captain: All clear!  Stand by to receive transmission-->
+
+	<Event Name="Empire_A04M10_Princess_Proximity_Sattellite">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PRINCESS_REACHED_SATELLITE</Event_Param2>
+		<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+	</Event>
+	
+	<Event Name="Empire_M010_Stand_By_To_Receive_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>		
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_09</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_09</Reward_Param8>
+		<Reward_Param9>Wedge_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A04M10_Princess_Proximity_Sattellite</Prereq>
+		<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+	</Event>
+
+			<Event Name="Empire_M010_Stand_By_To_Receive_Dialog_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_09</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_09</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_M010_Stand_By_To_Receive_Dialog</Prereq>
+				<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+			</Event>
+
+			<Event Name="Empire_M010_Stand_By_To_Receive_Dialog_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_M010_Stand_By_To_Receive_Dialog_Remove_Text</Prereq>
+				<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+			</Event>
+			
+			
+			
+			
+			
+			
+			
+			
+<!-- TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_20
+Imperial Officer: We’ve detected a burst transmission to the Princess’ ship, 
+and a confirmation tag.  -->			
+	<Event Name="Empire_M010_Message_Received_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>		
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_20</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_20</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_M010_Stand_By_To_Receive_Dialog_Remove_Text</Prereq>
+		<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+	</Event>
+
+			<Event Name="Empire_M010_Message_Received_Dialog_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_20</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_20</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_M010_Message_Received_Dialog</Prereq>
+				<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+			</Event>
+
+			<Event Name="Empire_M010_Message_Received_Dialog_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_M010_Message_Received_Dialog_Remove_Text</Prereq>
+				<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+			</Event>		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+
+
+	<!-- Vader Speaks 
+	TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_10
+	Darth Vader: Now!  Capture her quickly before she can run!-->
+	<Event Name="Empire_M010_Capture_Her_Quickly_Dialog">
+		<Event_Type>STORY_TRIGGER</Event_Type>	
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_10</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_10</Reward_Param8>
+		<Reward_Param9>Vader_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_M010_Message_Received_Dialog_Remove_Text</Prereq>
+		<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+	</Event>
+
+			<Event Name="Empire_M010_Capture_Her_Quickly_Dialog_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_10</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_10</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_M010_Capture_Her_Quickly_Dialog</Prereq>
+				<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+			</Event>
+
+			<!-- <Event Name="Empire_M010_Message_Received_Dialog_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_M010_Message_Received_Dialog_Remove_Text</Prereq>
+			</Event>	-->
+		
+<!-- Vader
+    TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_22
+   Darth Vader: Bring the Interdictors on-line to block the Rebels’ escape!-->
+    <Event Name="Empire_M10_Use_Interdictor_Line_01">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>MULTIMEDIA</Reward_Type>
+        <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_22</Reward_Param1>
+        <Reward_Param2>-1</Reward_Param2>	
+        <Reward_Param8>EMPIRE_ACT04_MISSION_TEN_22</Reward_Param8>
+        <!--<Reward_Param9>Vader_Loop</Reward_Param9>
+        <Reward_Param10>1</Reward_Param10>-->
+        <Prereq>Empire_M010_Capture_Her_Quickly_Dialog_Remove_Text</Prereq>
+        <Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+    </Event>
+
+                        <Event Name="Empire_M10_Use_Interdictor_Line_01_Remove_Text">
+                            <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                            <Event_Param1>EMPIRE_ACT04_MISSION_TEN_22</Event_Param1>
+                            <Reward_Type>SCREEN_TEXT</Reward_Type>
+                            <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_22</Reward_Param1>
+                            <Reward_Param4>Remove</Reward_Param4>	
+                            <Prereq>Empire_M10_Use_Interdictor_Line_01</Prereq>
+                            <Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+                        </Event>
+
+                         <!--TEXT_STORY_EMPIRE_ACT04_MISSION_10_100
+                         Activate and protect your interdictors.-->
+                        
+                        <Event Name="Empire_Mission10_ADD_OBJECTIVE_Activate_Interdictors">
+							<Event_Type>STORY_TRIGGER</Event_Type>
+							<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+							<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_10_100</Reward_Param1>
+							<Prereq>Empire_M10_Use_Interdictor_Line_01</Prereq>
+							<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+						</Event>
+			
+<!-- jdg 9/3/05 COMPLETING wait mission objectives here 
+TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_45			
+Wait until the Princess receives the data transmission.-->
+
+		<Event Name="Empire_Mission10_COMPLETE_OBJECTIVE_Wait_In_Nebulas">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_45</Reward_Param1>
+			<Prereq>Empire_M010_Capture_Her_Quickly_Dialog_Remove_Text</Prereq>
+			<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+		</Event>
+                        
+ <!-- Vader
+    TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_38
+   Darth Vader: The Princess must be kept alive.  
+   Use the Star Destroyer's Tractor Beam to capture her ship.  -->                       
+                        
+ <Event Name="Empire_M10_Use_StarDestroyer_Line_01">
+    <Event_Type>STORY_ELAPSED</Event_Type>
+	<Event_Param1>1</Event_Param1>
+    <Reward_Type>MULTIMEDIA</Reward_Type>
+    <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_38</Reward_Param1>
+    <Reward_Param2>-1</Reward_Param2>	
+    <Reward_Param8>EMPIRE_ACT04_MISSION_TEN_38</Reward_Param8>
+    <!--<Reward_Param9>Vader_Loop</Reward_Param9>
+    <Reward_Param10>1</Reward_Param10> -->
+    <Prereq>Empire_M10_Use_Interdictor_Line_01_Remove_Text</Prereq>
+    <Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+</Event>
+
+                    <Event Name="Empire_M10_Use_StarDestroyer_Line_01_Remove_Text">
+                        <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                        <Event_Param1>EMPIRE_ACT04_MISSION_TEN_38</Event_Param1>
+                        <Reward_Type>SCREEN_TEXT</Reward_Type>
+                        <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_38</Reward_Param1>
+                        <Reward_Param4>Remove</Reward_Param4>	
+                        <Prereq>Empire_M10_Use_StarDestroyer_Line_01</Prereq>
+                        <Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+                    </Event>
+
+                        <Event Name="Empire_M10_Use_StarDestroyer_Line_01_Remove_Movie">
+                        <Event_Type>STORY_TRIGGER</Event_Type>
+                        <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                        <Prereq>Empire_M10_Use_StarDestroyer_Line_01_Remove_Text</Prereq>
+                        <Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+                    </Event>
+                    
+                    <!-- TEXT_STORY_REBEL_ACT04_MISSION_TEN_100
+                     Hint: Target the Tantive IV’s engines to disable the ship.-->
+                    <Event Name="Empire_M10_Hint_For_Hardpoint">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>SCREEN_TEXT</Reward_Type>
+						<Reward_Param1>TEXT_STORY_REBEL_ACT04_MISSION_TEN_100</Reward_Param1>
+						<Reward_Param2>10</Reward_Param2>
+						<Reward_Param7>Hint</Reward_Param7>
+						<Prereq>Empire_M10_Use_StarDestroyer_Line_01_Remove_Text</Prereq>
+						<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+					</Event>
+			
+
+		
+				
+<!-- jdg 9/3/05 ADDING capture with tractor-beams mission objectives here 
+TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_46			
+Capture the Princess with a tractor beam from a Star Destroyer.-->
+
+		<Event Name="Empire_Mission10_ADD_OBJECTIVE_Capture_the_Princess">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_46</Reward_Param1>
+			<Prereq>Empire_M10_Use_StarDestroyer_Line_01_Remove_Text</Prereq>
+			<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+		</Event>
+			
+
+	<Event Name="Empire_A04M010_Set_Transmission_Flag">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Transmission_Complete</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_M010_Message_Received_Dialog_Remove_Text</Prereq>
+		<Branch>BRANCH_PRINCESS_REACHED_SATELLITE</Branch>
+	</Event>
+
+	<Event Name="Empire_A04M10_Allow_Rebel_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Empire_A04M010_Set_Transmission_Flag</Prereq>
+	</Event>
+	
+<!-- jdg 8/24/05 - Chatter for rebel scouts-->
+	
+	<!-- TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_32 -->
+	<!-- Blue Leader: This is Blue Squadron initiating sector sweep. -->
+	<Event Name="Empire_M10_BLUE_SQUAD_DIALOG_01">
+                <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+                <Event_Param2>SCOUTS_ENTER_SCENE</Event_Param2>
+                <Reward_Type>MULTIMEDIA</Reward_Type>
+                <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_32</Reward_Param1>
+                <Reward_Param2>-1</Reward_Param2>	
+                <Reward_Param8>EMPIRE_ACT04_MISSION_TEN_32</Reward_Param8>
+                <Reward_Param9>Wedge_Loop</Reward_Param9>
+                <Reward_Param10>1</Reward_Param10>
+                <Prereq>Empire_A04M10_Begin</Prereq>
+            </Event>
+
+                                <Event Name="Empire_M10_BLUE_SQUAD_DIALOG_01_Remove_Text">
+                                    <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                                    <Event_Param1>EMPIRE_ACT04_MISSION_TEN_32</Event_Param1>
+                                    <Reward_Type>SCREEN_TEXT</Reward_Type>
+                                    <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_32</Reward_Param1>
+                                    <Reward_Param4>Remove</Reward_Param4>	
+                                    <Prereq>Empire_M10_BLUE_SQUAD_DIALOG_01</Prereq>
+                                </Event>
+
+                                 <Event Name="Empire_M10_BLUE_SQUAD_DIALOG_01_Remove_Movie">
+                                    <Event_Type>STORY_TRIGGER</Event_Type>
+                                    <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                                    <Prereq>Empire_M10_BLUE_SQUAD_DIALOG_01_Remove_Text</Prereq>
+                                </Event>
+                                
+	<!-- TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_33 -->
+	<!-- Captain Antilles: Roger that, Blue Leader, standing by.   -->
+	<Event Name="Empire_M10_ANTILLES_DIALOG_01">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>MULTIMEDIA</Reward_Type>
+        <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_33</Reward_Param1>
+        <Reward_Param2>-1</Reward_Param2>	
+        <Reward_Param8>EMPIRE_ACT04_MISSION_TEN_33</Reward_Param8>
+        <Reward_Param9>Antillies_Loop</Reward_Param9>
+        <Reward_Param10>1</Reward_Param10>
+        <Prereq>Empire_M10_BLUE_SQUAD_DIALOG_01_Remove_Movie</Prereq>
+    </Event>
+
+                        <Event Name="Empire_M10_ANTILLES_DIALOG_01_Remove_Text">
+                            <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                            <Event_Param1>EMPIRE_ACT04_MISSION_TEN_33</Event_Param1>
+                            <Reward_Type>SCREEN_TEXT</Reward_Type>
+                            <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_33</Reward_Param1>
+                            <Reward_Param4>Remove</Reward_Param4>	
+                            <Prereq>Empire_M10_ANTILLES_DIALOG_01</Prereq>
+                        </Event>
+
+                            <Event Name="Empire_M10_ANTILLES_DIALOG_01_Remove_Movie">
+                            <Event_Type>STORY_TRIGGER</Event_Type>
+                            <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                            <Prereq>Empire_M10_ANTILLES_DIALOG_01_Remove_Text</Prereq>
+                        </Event>		
+			
+<!-- jdg 8/24/05 - Chatter for rebel scouts #2-->
+
+	<Event Name="Empire_A04M10_Scouts_Report_In_01">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SCOUTS_REPORT_01</Event_Param2>
+		<Branch>BRANCH_SCOUTS_CHATTER</Branch>
+	</Event>
+	
+	<!-- TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_34 -->
+	<!-- Blue Leader: It's quiet…too quiet.  Didn't Intel report a heavy pirate presence here? -->
+	<Event Name="Empire_M10_BLUE_SQUAD_DIALOG_02">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>MULTIMEDIA</Reward_Type>
+        <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_34</Reward_Param1>
+        <Reward_Param2>-1</Reward_Param2>	
+        <Reward_Param8>EMPIRE_ACT04_MISSION_TEN_34</Reward_Param8>
+        <Reward_Param9>Wedge_Loop</Reward_Param9>
+        <Reward_Param10>1</Reward_Param10>
+        <Prereq>Empire_A04M10_Scouts_Report_In_01</Prereq>
+        <Branch>BRANCH_SCOUTS_CHATTER</Branch>
+    </Event>
+
+                        <Event Name="Empire_M10_BLUE_SQUAD_DIALOG_02_Remove_Text">
+                            <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                            <Event_Param1>EMPIRE_ACT04_MISSION_TEN_34</Event_Param1>
+                            <Reward_Type>SCREEN_TEXT</Reward_Type>
+                            <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_34</Reward_Param1>
+                            <Reward_Param4>Remove</Reward_Param4>	
+                            <Prereq>Empire_M10_BLUE_SQUAD_DIALOG_02</Prereq>
+                            <Branch>BRANCH_SCOUTS_CHATTER</Branch>
+                        </Event>
+
+                            <Event Name="Empire_M10_BLUE_SQUAD_DIALOG_02_Remove_Movie">
+                            <Event_Type>STORY_TRIGGER</Event_Type>
+                            <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                            <Prereq>Empire_M10_BLUE_SQUAD_DIALOG_02_Remove_Text</Prereq>
+                            <Branch>BRANCH_SCOUTS_CHATTER</Branch>
+                        </Event>
+			
+<!-- At end of new timer, scouts summon princess as long as they have not spotted Empire -->
+<!-- TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_35 -->
+
+	<Event Name="Empire_A04M10_Rebels_Call_Princess">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CALL_FOR_PRINCESS</Event_Param2>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+		<Branch>BRANCH_SCOUTS_CHATTER</Branch>
+	</Event>
+
+	<!-- Rebel Speaks 1 
+	TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_35
+	Blue Leader: Base, this is Blue Leader, Tatooine space is clear.  
+	We are go for jump…repeat…we are go for jump.-->
+	<Event Name="Empire_M10_BLUE_SQUAD_DIALOG_03">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+        <Reward_Type>MULTIMEDIA</Reward_Type>
+        <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_35</Reward_Param1>
+        <Reward_Param2>-1</Reward_Param2>	
+        <Reward_Param8>EMPIRE_ACT04_MISSION_TEN_35</Reward_Param8>
+        <Reward_Param9>Wedge_Loop</Reward_Param9>
+        <Reward_Param10>1</Reward_Param10>
+        <Prereq>Empire_A04M10_Rebels_Call_Princess</Prereq>
+        <Branch>BRANCH_SCOUTS_CHATTER</Branch>
+    </Event>
+
+                        <Event Name="Empire_M10_BLUE_SQUAD_DIALOG_03_Remove_Text">
+                            <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                            <Event_Param1>EMPIRE_ACT04_MISSION_TEN_35</Event_Param1>
+                            <Reward_Type>SCREEN_TEXT</Reward_Type>
+                            <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_35</Reward_Param1>
+                            <Reward_Param4>Remove</Reward_Param4>	
+                            <Prereq>Empire_M10_BLUE_SQUAD_DIALOG_03</Prereq>
+                            <Branch>BRANCH_SCOUTS_CHATTER</Branch>
+                        </Event>
+
+                            <Event Name="Empire_M10_BLUE_SQUAD_DIALOG_03_Remove_Movie">
+                            <Event_Type>STORY_TRIGGER</Event_Type>
+                            <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                            <Prereq>Empire_M10_BLUE_SQUAD_DIALOG_03_Remove_Text</Prereq>
+                            <Branch>BRANCH_SCOUTS_CHATTER</Branch>
+                        </Event>
+                        
+
+<!-- jdg 8/26/05 scouts damaged - flee the area -->	
+
+	<Event Name="Empire_A04M10_Scouts_take_Damage_Flee">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SCOUTS_ATTACKED</Event_Param2>
+		<Branch>BRANCH_SCOUTS_ATTACKED</Branch>
+	</Event>
+	
+	<!-- Disable various speech events here to prevent nasty ovelapping dialog-->
+			<Event Name="Tutorial_M05_Disable_BRANCH_Tantive_Destroyed_c">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_Tantive_Destroyed</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Empire_A04M10_Scouts_take_Damage_Flee</Prereq>
+			</Event>
+			
+			<Event Name="Tutorial_M05_Disable_BRANCH_PRINCESS_CAPTURED_WITH_INFO_c">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_PRINCESS_CAPTURED_WITH_INFO</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Tutorial_M05_Disable_BRANCH_Tantive_Destroyed_c</Prereq>
+			</Event>
+			
+			<Event Name="Tutorial_M05_Disable_BRANCH_EMPIRE_SPOTTED_c">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_PRINCESS_ESCAPED</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Tutorial_M05_Disable_BRANCH_PRINCESS_CAPTURED_WITH_INFO_c</Prereq>
+			</Event>
+			
+			<Event Name="Tutorial_M05_Disable_BRANCH_PRINCESS_REACHED_SATELLITE_c">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_PRINCESS_REACHED_SATELLITE</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Tutorial_M05_Disable_BRANCH_EMPIRE_SPOTTED_c</Prereq>
+			</Event>
+			
+			<Event Name="Tutorial_M05_Disable_BRANCH_SCOUTS_CHATTER_c">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_SCOUTS_CHATTER</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Tutorial_M05_Disable_BRANCH_PRINCESS_REACHED_SATELLITE_c</Prereq>
+			</Event>
+	
+	<!-- Proximity to Space Station Warning 
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_21
+Blue Leader: Imperial forces!  It’s a trap!  Get the princess out of here!-->
+<Event Name="Empire_A04M10_Scouts_take_Damage_Flee_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>		
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_21</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_21</Reward_Param8>
+		<Reward_Param9>Wedge_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A04M10_Scouts_take_Damage_Flee</Prereq>
+		<Branch>BRANCH_SCOUTS_ATTACKED</Branch>
+	</Event>
+
+					<Event Name="Empire_A04M10_Scouts_take_Damage_Flee_00_Remove_Text">
+						<Event_Type>STORY_SPEECH_DONE</Event_Type>
+						<Event_Param1>EMPIRE_ACT04_MISSION_TEN_21</Event_Param1>
+						<Reward_Type>SCREEN_TEXT</Reward_Type>
+						<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_21</Reward_Param1>
+						<Reward_Param4>Remove</Reward_Param4>	
+						<Prereq>Empire_A04M10_Scouts_take_Damage_Flee_00</Prereq>
+						<Branch>BRANCH_SCOUTS_ATTACKED</Branch>
+					</Event>
+
+					<Event Name="Empire_A04M10_Scouts_take_Damage_Flee_00_Remove_Movie">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+						<Prereq>Empire_A04M10_Scouts_take_Damage_Flee_00_Remove_Text</Prereq>
+						<Branch>BRANCH_SCOUTS_ATTACKED</Branch>
+					</Event>
+	
+			<Event Name="Empire_A04M10_Scouts_take_Damage_Flee_03">
+				<Event_Type>STORY_ELAPSED</Event_Type>
+				<Event_Param1>5</Event_Param1>
+				<Reward_Type>VICTORY</Reward_Type>
+				<Reward_Param1>REBEL</Reward_Param1>
+				<Prereq>Empire_A04M10_Scouts_take_Damage_Flee_00_Remove_Text</Prereq>
+				<Branch>BRANCH_SCOUTS_ATTACKED</Branch>
+			</Event> 
+
+
+
+<!-- Player disables Tantive IV with a tractor beam -->
+
+	<Event Name="Empire_A04M10_Princess_Captured">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PRINCESS_CAPTURED_WITH_INFO</Event_Param2>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Empire_M10_Use_Interdictor_Line_01</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>	
+		<Branch>BRANCH_PRINCESS_CAPTURED_WITH_INFO</Branch>
+	</Event>
+
+	<Event Name="Empire_A04M10_Princess_Captured_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Empire_M10_Use_StarDestroyer_Line_01</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>	
+		<Prereq>Empire_A04M10_Princess_Captured</Prereq>
+	</Event>
+	
+	
+			<!-- jdg 9/3/05 COMPLETING capture mission objectives here 
+TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_46			
+Capture the Princess with a tractor beam from a Star Destroyer.-->
+
+		<Event Name="Empire_Mission10_COMPLETE_OBJECTIVE_Capture_The_Princess">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_46</Reward_Param1>
+			<Prereq>Empire_A04M10_Princess_Captured</Prereq>
+			<Branch>BRANCH_PRINCESS_CAPTURED_WITH_INFO</Branch>
+		</Event>
+		
+<!-- jdg 9/3/05 COMPLETING mission objectives here 
+TEXT_STORY_EMPIRE_ACT01_MISSION_TWO_66		
+Darth Vader must survive.-->
+
+		<Event Name="Empire_Mission10_COMPLETE_OBJECTIVE_Keep_Vader_Alive">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT01_MISSION_TWO_66</Reward_Param1>
+			<Prereq>Empire_A04M10_Princess_Captured</Prereq>
+			<Branch>BRANCH_PRINCESS_CAPTURED_WITH_INFO</Branch>
+		</Event>
+		
+
+
+
+
+
+
+        <!-- Hooking up ending cinematic dialog here -->  
+        <!-- TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_14
+           Imperial Officer: The ship has been neutralized.  -->
+            <Event Name="Empire_M10_Ending_Cine_Dialog_01">
+                <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+                <Event_Param2>CUE_M10_ENDING_DIALOG_OFFICER_01</Event_Param2>
+                <Reward_Type>MULTIMEDIA</Reward_Type>
+                <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_14</Reward_Param1>
+                <Reward_Param2>-1</Reward_Param2>	
+                <Reward_Param8>EMPIRE_ACT04_MISSION_TEN_14</Reward_Param8>
+                <Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+                <Reward_Param10>1</Reward_Param10>
+                <Prereq>Empire_A04M10_Begin</Prereq>
+            </Event>
+
+                                <Event Name="Empire_M10_Ending_Cine_Dialog_01_Remove_Text">
+                                    <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                                    <Event_Param1>EMPIRE_ACT04_MISSION_TEN_14</Event_Param1>
+                                    <Reward_Type>SCREEN_TEXT</Reward_Type>
+                                    <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_14</Reward_Param1>
+                                    <Reward_Param4>Remove</Reward_Param4>	
+                                    <Prereq>Empire_M10_Ending_Cine_Dialog_01</Prereq>
+                                </Event>
+
+                                 <Event Name="Empire_M10_Ending_Cine_Dialog_01_Remove_Movie">
+                                    <Event_Type>STORY_TRIGGER</Event_Type>
+                                    <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                                    <Prereq>Empire_M10_Ending_Cine_Dialog_01_Remove_Text</Prereq>
+                                </Event>
+
+
+        <!-- TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_19
+           Captain Antilles: Imperial forces, we are on a diplomatic mission.  You have no authority here to detain us.   -->
+            <Event Name="Empire_M10_Ending_Cine_Dialog_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>MULTIMEDIA</Reward_Type>
+                <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_19</Reward_Param1>
+                <Reward_Param2>-1</Reward_Param2>	
+                <Reward_Param8>EMPIRE_ACT04_MISSION_TEN_19</Reward_Param8>
+                <Reward_Param9>Antillies_Loop</Reward_Param9>
+                <Reward_Param10>1</Reward_Param10>
+                <Prereq>Empire_M10_Ending_Cine_Dialog_01_Remove_Text</Prereq>
+            </Event>
+
+                                <Event Name="Empire_M10_Ending_Cine_Dialog_02_Remove_Text">
+                                    <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                                    <Event_Param1>EMPIRE_ACT04_MISSION_TEN_19</Event_Param1>
+                                    <Reward_Type>SCREEN_TEXT</Reward_Type>
+                                    <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_19</Reward_Param1>
+                                    <Reward_Param4>Remove</Reward_Param4>	
+                                    <Prereq>Empire_M10_Ending_Cine_Dialog_02</Prereq>
+                                </Event>
+
+                                 <Event Name="Empire_M10_Ending_Cine_Dialog_02_Remove_Movie">
+                                    <Event_Type>STORY_TRIGGER</Event_Type>
+                                    <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                                    <Prereq>Empire_M10_Ending_Cine_Dialog_02_Remove_Text</Prereq>
+                                </Event>
+
+        <!-- TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_15
+           Darth Vader: Your diplomatic immunity is worthless now, Rebel.    -->
+            <Event Name="Empire_M10_Ending_Cine_Dialog_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>MULTIMEDIA</Reward_Type>
+                <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_15</Reward_Param1>
+                <Reward_Param2>-1</Reward_Param2>	
+                <Reward_Param8>EMPIRE_ACT04_MISSION_TEN_15</Reward_Param8>
+                <Reward_Param9>Vader_Loop</Reward_Param9>
+                <Reward_Param10>1</Reward_Param10>
+                <Prereq>Empire_M10_Ending_Cine_Dialog_02_Remove_Text</Prereq>
+            </Event>
+
+                                <Event Name="Empire_M10_Ending_Cine_Dialog_03_Remove_Text">
+                                    <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                                    <Event_Param1>EMPIRE_ACT04_MISSION_TEN_15</Event_Param1>
+                                    <Reward_Type>SCREEN_TEXT</Reward_Type>
+                                    <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_15</Reward_Param1>
+                                    <Reward_Param4>Remove</Reward_Param4>	
+                                    <Prereq>Empire_M10_Ending_Cine_Dialog_03</Prereq>
+                                </Event>
+
+                                 <Event Name="Empire_M10_Ending_Cine_Dialog_03_Remove_Movie">
+                                    <Event_Type>STORY_TRIGGER</Event_Type>
+                                    <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                                    <Prereq>Empire_M10_Ending_Cine_Dialog_03_Remove_Text</Prereq>
+                                </Event>
+			
+
+			
+			
+			
+
+
+
+  
+
+	<Event Name="Empire_A04M010_Set_Capture_Flag">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Princess_Captured</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_M10_Ending_Cine_Dialog_01_Remove_Text</Prereq>
+	</Event>
+
+
+
+
+
+
+
+
+
+<!-- FORCE EMPIRE LOSS if they are not in the nebulas when the Scouts arrive -->
+	<Event Name="Empire_A04M10_Rebels_Spot_Empire_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>EMPIRE_SPOTTED</Event_Param2>
+		<Branch>BRANCH_EMPIRE_SPOTTED</Branch>
+	</Event>
+	
+	<!-- Disable various speech events here to prevent nasty ovelapping dialog-->
+			<Event Name="Tutorial_M05_Disable_BRANCH_Tantive_Destroyed_b">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_Tantive_Destroyed</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Empire_A04M10_Rebels_Spot_Empire_00</Prereq>
+			</Event>
+			
+			<Event Name="Tutorial_M05_Disable_BRANCH_SCOUTS_ATTACKED_b">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_SCOUTS_ATTACKED</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Tutorial_M05_Disable_BRANCH_Tantive_Destroyed_b</Prereq>
+			</Event>
+			
+			<Event Name="Tutorial_M05_Disable_BRANCH_PRINCESS_CAPTURED_WITH_INFO_b">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_PRINCESS_CAPTURED_WITH_INFO</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Tutorial_M05_Disable_BRANCH_SCOUTS_ATTACKED_b</Prereq>
+			</Event>
+			
+			<Event Name="Tutorial_M05_Disable_BRANCH_EMPIRE_SPOTTED_b">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_PRINCESS_ESCAPED</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Tutorial_M05_Disable_BRANCH_PRINCESS_CAPTURED_WITH_INFO_b</Prereq>
+			</Event>
+			
+			<Event Name="Tutorial_M05_Disable_BRANCH_PRINCESS_REACHED_SATELLITE_b">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_PRINCESS_REACHED_SATELLITE</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Tutorial_M05_Disable_BRANCH_EMPIRE_SPOTTED_b</Prereq>
+			</Event>
+			
+			<Event Name="Tutorial_M05_Disable_BRANCH_SCOUTS_CHATTER_b">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_SCOUTS_CHATTER</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Tutorial_M05_Disable_BRANCH_PRINCESS_REACHED_SATELLITE_b</Prereq>
+			</Event>
+			
+
+	<!-- Rebel Speaks 3 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_16 
+	Blue Leader: Imperial forces detected! Abort mission! Abort!-->
+<Event Name="Empire_A04M10_Empire_Spotted_Dialog_01">
+	<Event_Type>STORY_ELAPSED</Event_Type>
+	<Event_Param1>2</Event_Param1>		
+	<Reward_Type>MULTIMEDIA</Reward_Type>
+	<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_16</Reward_Param1>
+	<Reward_Param2>-1</Reward_Param2>	
+	<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_16</Reward_Param8>
+	<Reward_Param9>Wedge_Loop</Reward_Param9>
+	<Reward_Param10>1</Reward_Param10>
+	<Prereq>Tutorial_M05_Disable_BRANCH_SCOUTS_CHATTER_b</Prereq>
+	<Branch>BRANCH_EMPIRE_SPOTTED</Branch>
+</Event>
+
+		<Event Name="Empire_A04M10_Empire_Spotted_Dialog_01_Remove_Text">
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>EMPIRE_ACT04_MISSION_TEN_16</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_16</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>	
+			<Prereq>Empire_A04M10_Empire_Spotted_Dialog_01</Prereq>
+			<Branch>BRANCH_EMPIRE_SPOTTED</Branch>
+		</Event>
+
+		<Event Name="Empire_A04M10_Empire_Spotted_Dialog_01_Remove_Movie">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Prereq>Empire_A04M10_Empire_Spotted_Dialog_01_Remove_Text</Prereq>
+			<Branch>BRANCH_EMPIRE_SPOTTED</Branch>
+		</Event>
+			
+			
+	
+	
+		<!-- jdg 9/3/05 FAILING nebula mission objectives here 
+		TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_44			
+		Hide your fleet in the nebulas.-->
+
+			<Event Name="Empire_Mission10_FAIL_OBJECTIVE_Hide_In_Nebulas">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+				<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_44</Reward_Param1>
+				<Prereq>Empire_A04M10_Empire_Spotted_Dialog_01_Remove_Text</Prereq>
+				<Branch>BRANCH_EMPIRE_SPOTTED</Branch>
+			</Event>
+
+	<Event Name="Empire_A04M10_Rebel_Spot_Loss">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Prereq>Empire_A04M10_Empire_Spotted_Dialog_01_Remove_Text</Prereq>
+		<Branch>BRANCH_EMPIRE_SPOTTED</Branch>
+	</Event>
+
+
+
+
+
+
+
+
+<!-- FORCE EMPIRE LOSS if Tantive IV is destroyed at any time -->
+
+	<Event Name="Empire_A04M10_Tantive_Destroyed">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Tantive_IV</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+		<Branch>BRANCH_Tantive_Destroyed</Branch>
+	</Event>
+
+	<!-- Vader Speaks 
+	TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_13
+	Darth Vader: You fools!  I said capture her, not destroy her!-->
+	<Event Name="Empire_A04M10_Tantive_Destroyed_Dialog_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>		
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_13</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_13</Reward_Param8>
+		<Reward_Param9>Vader_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A04M10_Tantive_Destroyed</Prereq>
+		<Branch>BRANCH_Tantive_Destroyed</Branch>
+	</Event>
+
+			<Event Name="Empire_A04M10_Tantive_Destroyed_Dialog_00_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_13</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_13</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_A04M10_Tantive_Destroyed_Dialog_00</Prereq>
+				<Branch>BRANCH_Tantive_Destroyed</Branch>
+			</Event>
+
+			<Event Name="Empire_A04M10_Tantive_Destroyed_Dialog_00_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_A04M10_Tantive_Destroyed_Dialog_00_Remove_Text</Prereq>
+				<Branch>BRANCH_Tantive_Destroyed</Branch>
+			</Event>
+
+	<Event Name="Empire_A04M10_Tantive_Destroyed_Loss">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Prereq>Empire_A04M10_Tantive_Destroyed_Dialog_00_Remove_Text</Prereq>
+		<Branch>BRANCH_Tantive_Destroyed</Branch>
+	</Event>
+
+
+
+
+
+
+
+
+
+
+<!-- FORCE LOSS IF PRINCESS MANAGES TO RETREAT 
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_12
+Imperial Officer: The princess has jumped to hyperspace!-->
+
+	<Event Name="Empire_A04M10_Princess_Escapes">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PRINCESS_ESCAPED</Event_Param2>
+		<Branch>BRANCH_PRINCESS_ESCAPED</Branch>
+	</Event>
+	
+	<!-- jdg turning off various speech events when princess escapes-->
+			<Event Name="Tutorial_M05_Disable_BRANCH_Tantive_Destroyed">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_Tantive_Destroyed</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Empire_A04M10_Princess_Escapes</Prereq>
+			</Event>
+			
+			<Event Name="Tutorial_M05_Disable_BRANCH_SCOUTS_ATTACKED">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_SCOUTS_ATTACKED</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Tutorial_M05_Disable_BRANCH_Tantive_Destroyed</Prereq>
+			</Event>
+			
+			<Event Name="Tutorial_M05_Disable_BRANCH_PRINCESS_CAPTURED_WITH_INFO">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_PRINCESS_CAPTURED_WITH_INFO</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Tutorial_M05_Disable_BRANCH_SCOUTS_ATTACKED</Prereq>
+			</Event>
+			
+			<Event Name="Tutorial_M05_Disable_BRANCH_EMPIRE_SPOTTED">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_EMPIRE_SPOTTED</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Tutorial_M05_Disable_BRANCH_PRINCESS_CAPTURED_WITH_INFO</Prereq>
+			</Event>
+			
+			<Event Name="Tutorial_M05_Disable_BRANCH_PRINCESS_REACHED_SATELLITE">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_BRANCH</Reward_Type>
+				<Reward_Param1>BRANCH_PRINCESS_REACHED_SATELLITE</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Tutorial_M05_Disable_BRANCH_EMPIRE_SPOTTED</Prereq>
+			</Event>
+			
+			
+			
+	
+	<Event Name="Empire_A04M10_Princess_Escapes_Dialog_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>		
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_12</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_12</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Tutorial_M05_Disable_BRANCH_PRINCESS_REACHED_SATELLITE</Prereq>
+		<Branch>BRANCH_PRINCESS_ESCAPED</Branch>
+	</Event>
+
+			<Event Name="Empire_A04M10_Princess_Escapes_Dialog_00_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_12</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_12</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_A04M10_Princess_Escapes_Dialog_00</Prereq>
+				<Branch>BRANCH_PRINCESS_ESCAPED</Branch>
+			</Event>
+
+			<Event Name="Empire_A04M10_Princess_Escapes_Dialog_00_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_A04M10_Princess_Escapes_Dialog_00_Remove_Text</Prereq>
+				<Branch>BRANCH_PRINCESS_ESCAPED</Branch>
+			</Event>
+			
+			
+			
+			
+		
+
+	<Event Name="Empire_A04M10_Princess_Escapes_Loss">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Prereq>Empire_A04M10_Princess_Escapes_Dialog_00_Remove_Text</Prereq>
+		<Branch>BRANCH_PRINCESS_ESCAPED</Branch>
+	</Event>
+
+
+
+
+
+
+
+
+
+<!-- FORCE LOSS IF ALL EMPIRE UNITS DIE -->
+
+	<Event Name="Empire_A04M10_All_Empire_Destroyed">
+		<Event_Type>STORY_CHECK_DESTROYED</Event_Type>
+		<Event_Param1>Empire</Event_Param1>
+		<Event_Param2>DESTROY_ALL</Event_Param2>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>
+	
+	
+<!-- Loss Condition: Vader dies
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_56
+Stormtrooper: Lord Vader has retreated! Fall back!-->
+	
+	<Event Name="Empire_M10_Vader_Dies_Speech_01">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>TIE_PROTOTYPE</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_56</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT01_MISSION_TWO_56</Reward_Param8> <!-- Put speech file name here -->
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>
+	
+	<!--FAILING ingame objective text for keeping vader alive 
+			TEXT_STORY_EMPIRE_ACT01_MISSION_TWO_66
+			Darth Vader must survive.-->
+			<Event Name="Empire_Mission10_FAIL_OBJECTIVE_Keep_Vader_Alive">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT01_MISSION_TWO_66</Reward_Param1>
+			<Prereq>Empire_M10_Vader_Dies_Speech_01</Prereq>
+		</Event>
+	
+	
+				<Event Name="Empire_M10_Vader_Dies_Speech_01_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT01_MISSION_TWO_56</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_56</Reward_Param1>
+				<Reward_Param4>remove</Reward_Param4>
+				<Prereq>Empire_M10_Vader_Dies_Speech_01</Prereq>
+			</Event>
+			
+<!-- Loss Condition: Vader dies
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_39
+Captain Antilles: The Imperial forces are retreating! 
+Concenrate your fire on their remaining vessels!-->
+	
+	<Event Name="Empire_M10_Vader_Dies_Speech_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_39</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<!-- <Reward_Param9>Emperor_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>-->
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_39</Reward_Param8> <!-- Put speech file name here -->
+		<Prereq>Empire_M10_Vader_Dies_Speech_01_Remove_Text</Prereq>
+	</Event>
+	
+				<Event Name="Empire_M10_Vader_Dies_Speech_02_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_39</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_39</Reward_Param1>
+				<Reward_Param4>remove</Reward_Param4>
+				<Prereq>Empire_M10_Vader_Dies_Speech_02</Prereq>
+			</Event>
+	
+	
+	<Event Name="Empire_M10_Vader_Dies_Player_Loss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Prereq>Empire_M10_Vader_Dies_Speech_02_Remove_Text</Prereq>
+	</Event>
+	
+			
+<!-- jdg 8/24/05 - Feedback event for second Interdictor killed. STORY_AI_NOTIFICATION
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_28
+Imperial Officer: We've lost one of our Interdictors!-->	
+	<Event Name="Empire_A04M10_Second_Interdictors_Destroyed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SECOND_INTERDICTOR_KILLED</Event_Param2>	
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_28</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_28</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>
+
+			<Event Name="Empire_A04M10_Second_Interdictors_Destroyed_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_28</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_28</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_A04M10_Second_Interdictors_Destroyed</Prereq>
+			</Event>
+
+			<Event Name="Empire_A04M10_Second_Interdictors_Destroyed_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_A04M10_Second_Interdictors_Destroyed_Remove_Text</Prereq>
+			</Event>
+			
+<!-- jdg 8/24/05 - Feedback event for third Interdictor killed.
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_29
+Imperial Officer: There's only one Intedictor left.  -->
+<Event Name="Empire_A04M10_Third_Interdictors_Destroyed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>THIRD_INTERDICTOR_KILLED</Event_Param2>	
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_29</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_29</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>
+
+			<Event Name="Empire_A04M10_Third_Interdictors_Destroyed_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_29</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_29</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_A04M10_Third_Interdictors_Destroyed</Prereq>
+			</Event>
+
+			<Event Name="Empire_A04M10_Third_Interdictors_Destroyed_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_A04M10_Third_Interdictors_Destroyed_Remove_Text</Prereq>
+			</Event>
+			
+			
+			
+	
+<!-- jdg 8/24/05 - Loss event if all Interdictors get killed.
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_26
+Imperial Officer: All Interdictors have been destroyed, Lord Vader.-->
+<Event Name="Empire_A04M10_Last_Interdictors_Destroyed">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>LAST_INTERDICTOR_KILLED</Event_Param2>	
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_26</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_26</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A04M10_Begin</Prereq>
+	</Event>
+
+			<Event Name="Empire_A04M10_Last_Interdictors_Destroyed_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_26</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_26</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_A04M10_Last_Interdictors_Destroyed</Prereq>
+			</Event>
+
+			<Event Name="Empire_A04M10_Last_Interdictors_Destroyed_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_A04M10_Last_Interdictors_Destroyed_Remove_Text</Prereq>
+			</Event>
+			
+		<!--TEXT_STORY_EMPIRE_ACT04_MISSION_10_100
+         Activate and protect your interdictors.-->
+		<Event Name="Empire_Mission10_FAIL_OBJECTIVE_Activate_Interdictors">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_10_100</Reward_Param1>
+			<Prereq>Empire_A04M10_Last_Interdictors_Destroyed</Prereq>
+		</Event>
+
+<!-- vader
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_27
+Darth Vader: You have failed me for the last time, commander.  -->
+	<Event Name="Empire_A04M10_Last_Interdictors_Destroyed_Vader_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>	
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_27</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_27</Reward_Param8>
+		<Reward_Param9>Vader_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Empire_A04M10_Last_Interdictors_Destroyed_Remove_Text</Prereq>
+	</Event>
+
+			<Event Name="Empire_A04M10_Last_Interdictors_Destroyed_Vader_00_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>EMPIRE_ACT04_MISSION_TEN_27</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_27</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Empire_A04M10_Last_Interdictors_Destroyed_Vader_00</Prereq>
+			</Event>
+
+			<Event Name="Empire_A04M10_Last_Interdictors_Destroyed_Vader_00_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Empire_A04M10_Last_Interdictors_Destroyed_Vader_00_Remove_Text</Prereq>
+			</Event>
+			
+	<Event Name="Empire_A04M10_All_Interdictors_Destroyed_CueLose">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Prereq>Empire_A04M10_Last_Interdictors_Destroyed_Vader_00_Remove_Text</Prereq>
+	</Event> 
+
+
+<!-- jdg 9/3/05 FAILING interdictor mission objectives here 
+TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_42		Save at least one Interdictor.
+-->
+		<Event Name="Empire_Mission10_FAIL_OBJECTIVE_Save_Interdictors">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_42</Reward_Param1>
+			<Prereq>Empire_A04M10_Last_Interdictors_Destroyed</Prereq>
+		</Event>
+
+	
+	
+<!-- PLAYER VICTORY HERE -->
+
+	<Event Name="Empire_A04M010_Win_For_Empire">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Prereq>Empire_M10_Ending_Cine_Dialog_03_Remove_Text</Prereq>
+	</Event>
+			
+	<Event Name="Empire_A04M010_Increment_Win">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>EMPIRE</Event_Param1>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Empire_A04M10_Win</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+
+
+</Story>

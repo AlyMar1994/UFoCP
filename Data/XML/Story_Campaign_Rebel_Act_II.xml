@@ -1,0 +1,1836 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+<!-- 
+	 LINK_TACTICAL
+	 <Reward_Param1> = Planet name
+	 <Reward_Param2> = Planet location (space,land)
+	 <Reward_Param3> = Attacking faction
+	 <Reward_Param4> = Map name
+	 <Reward_Param5> = Defending faction
+	 <Reward_Param6> = Hero pathfinder name
+	 <Reward_Param7> = Tactical script name
+	 <Reward_Param8> = Use sandbox units
+	 <Reward_Param9> = Enable Prebattle Cinematic
+	 <Reward_Param10>= Start Scene Faded Out
+	 <Reward_Param11>= Start Scene Letterboxed
+	 <Reward_Param12>= RETREAT_PLAYER
+-->
+<!--
+
+	<Event Name="">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq></Prereq>
+	</Event>
+
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1></Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+-->
+
+<!-- Debug Events -->
+<!-- To get to mission X in this act, just type: "trigger MissionX" in the console -->
+<!-- All missions are set up so that typing: "victory rebel" in any tactical mission will 'win' it correctly -->
+	<Event Name="Mission4">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+	
+	<Event Name="Mission5">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+	
+	<Event Name="Mission6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_Debug_01">			<!-- define this variable if we skipped to act-2 -->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_Act_Counter</Reward_Param1>
+		<Reward_Param2>2</Reward_Param2>
+		<Prereq>Mission4</Prereq> <!-- debug shortcut -->
+		<Prereq>Mission5</Prereq> <!-- debug shortcut -->
+		<Prereq>Mission6</Prereq> <!-- debug shortcut -->
+	</Event>
+	
+	<Event Name="Mission_Debug_02">			<!-- Spawn Capt Antillies -->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Sundered_Heart</Reward_Param1>
+		<Reward_Param2>Alderaan</Reward_Param2>
+		<Prereq>Mission4</Prereq> <!-- debug shortcut -->
+		<Prereq>Mission5</Prereq> <!-- debug shortcut -->
+		<Prereq>Mission6</Prereq> <!-- debug shortcut -->
+	</Event>
+
+<!-- Preliminary setup and planet reveal -->
+	<Event Name="Rebel_ActII_Check_Act_Counter">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Rebel_Act_Counter</Event_Param1>
+		<Event_Param2>2</Event_Param2>
+		<Event_Param3>EQUAL_TO</Event_Param3>
+	</Event>
+
+	<Event Name="Rebel_ActII_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Prereq>Rebel_ActII_Check_Act_Counter</Prereq>
+		<Prereq>Mission4</Prereq> <!-- debug shortcut -->
+		<Prereq>Mission5</Prereq> <!-- debug shortcut -->
+		<Prereq>Mission6</Prereq> <!-- debug shortcut -->
+	</Event>
+
+<!-- Rebel Act I Planet Reveals -->
+	<Event Name="Rebel_ActI_Reveal_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Alderaan</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Reveal_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Dantooine</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Reveal_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Fresia</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Reveal_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Korriban</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Reveal_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Kuat</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Reveal_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Wayland</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Reveal_07">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Yavin</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Begin</Prereq>
+	</Event>
+
+	<Event Name="OK_To_Begin_Rebel_ActII">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_ActI_Reveal_00 Rebel_ActI_Reveal_01 Rebel_ActI_Reveal_02 Rebel_ActI_Reveal_04 Rebel_ActI_Reveal_05 Rebel_ActI_Reveal_06 Rebel_ActI_Reveal_07</Prereq>
+	</Event>
+
+<!-- Act II Start -->
+<!-- Pre Mission 4 speech events -->
+<!-- Mon Mothma
+TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_30
+Mon Mothma: I'm afraid we can't do that. If the Rebellion is to survive, we must choose our targets wisely. 
+That way we have a chance of clearing the Imperial oppression from all the systems, not just Fresia.-->
+	<Event Name="Rebel_ActII_Pre_Mission_Four_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_30</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT01_MISSION_THREE_30</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>OK_To_Begin_Rebel_ActII</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Pre_Mission_Four_01_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT01_MISSION_THREE_30</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_30</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_01</Prereq>
+	</Event>
+
+<!-- Antillies 
+TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_31
+Antilles: We should strike back immediately! We can show the Fresians we are not alone.-->
+	<Event Name="Rebel_ActII_Pre_Mission_Four_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_31</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT01_MISSION_THREE_31</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_01_Remove_Text</Prereq>
+	</Event>
+			
+    <Event Name="Rebel_ActII_Pre_Mission_Four_02_Remove_Text">
+        <Event_Type>STORY_SPEECH_DONE</Event_Type>
+        <Event_Param1>REBEL_ACT01_MISSION_THREE_31</Event_Param1>
+        <Reward_Type>SCREEN_TEXT</Reward_Type>
+        <Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_31</Reward_Param1>
+        <Reward_Param4>Remove</Reward_Param4>     
+        <Prereq>Rebel_ActII_Pre_Mission_Four_02</Prereq>
+    </Event>
+
+<!-- Mon Mothma & Antillies 
+TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_32
+Mon Mothma: We cannot turn our back on those that helped us, but we cannot afford to attack the Empire head-on.  
+The time may be right to strike against them in another way.-->
+	<Event Name="Rebel_ActII_Pre_Mission_Four_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_32</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT01_MISSION_THREE_32</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_02_Remove_Text</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Pre_Mission_Four_03_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT01_MISSION_THREE_32</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_32</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_03</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Pre_Mission_Four_03_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_03_Remove_Text</Prereq>
+	</Event>
+
+<!-- Mon Mothma
+TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_34
+Mon Mothma: Transmissions we've intercepted indicate that many of the captured scientists will be transferred to Kessel. 
+We must not leave them to die in the darkness of the spice mines.-->
+	<Event Name="Rebel_ActII_Pre_Mission_Four_05">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>4</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_34</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT01_MISSION_THREE_34</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_03_Stop_Movie</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_ActII_Pre_Mission_Four_05_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT01_MISSION_THREE_34</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_34</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_05</Prereq>
+	</Event>
+
+<!-- Antillies 
+TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_35
+Antilles: If we can get to those shuttles during the transfer, 
+we may be able to pull the prisoners right out from under the Empire's nose!-->
+	<Event Name="Rebel_ActII_Pre_Mission_Four_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_35</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT01_MISSION_THREE_35</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_05_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Pre_Mission_Four_06_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT01_MISSION_THREE_35</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_35</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Pre_Mission_Four_06</Prereq>
+	</Event>
+				
+	<Event Name="Rebel_ActII_Pre_Mission_Four_06_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>    
+		<Prereq>Rebel_ActII_Pre_Mission_Four_06_Remove_Text</Prereq>
+	</Event>
+
+<!-- REWARD: 5 Y-WING SQUADRONS 	removing free y wings...jdg		
+	<Event Name="Rebel_ActII_Pre_Mission_Four_Y-Wing_Reward_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Y-Wing_Squadron</Reward_Param1>
+		<Reward_Param2>Alderaan</Reward_Param2>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_06_Remove_Movie</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Pre_Mission_Four_Y-Wing_Reward_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Y-Wing_Squadron</Reward_Param1>
+		<Reward_Param2>Alderaan</Reward_Param2>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_06_Remove_Movie</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Pre_Mission_Four_Y-Wing_Reward_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Y-Wing_Squadron</Reward_Param1>
+		<Reward_Param2>Alderaan</Reward_Param2>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_06_Remove_Movie</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Pre_Mission_Four_Y-Wing_Reward_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Y-Wing_Squadron</Reward_Param1>
+		<Reward_Param2>Alderaan</Reward_Param2>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_06_Remove_Movie</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Pre_Mission_Four_Y_Wing_Reward_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Y-Wing_Squadron</Reward_Param1>
+		<Reward_Param2>Alderaan</Reward_Param2>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_06_Remove_Movie</Prereq>
+	</Event>-->
+
+<!-- Reveal Kessel -->	
+	<Event Name="Rebel_ActII_Reveal_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Kessel</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_06_Remove_Movie</Prereq>
+	</Event>
+
+<!-- Mon Mothma & Antillies 
+TEXT_STORY_REBEL_ACT01_MISSION_THREE_37
+TASK: Take Captain Antillies and a fleet to Kessel and liberate the prisoners. 
+Be sure to bring a good number of Y-wings.-->
+	<Event Name="Rebel_ActII_Pre_Mission_Four_08">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_37</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Rebel_ActII_Reveal_00</Prereq>
+		<Prereq>Rebel_ActII_Mission_Four_Failed_Time_Delay</Prereq>
+		<Branch>BRANCH_RA02M04</Branch>
+	</Event>
+
+<!-- Mission 4: Kessel Rescue - Rescue prisoners from imperial transports -->
+<!-- jdg Revealing and flashing Kessel here-->
+	<Event Name="Rebel_ActII_Flash_Kessel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Kessel</Reward_Param1>
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
+		<Reward_Param4>Kessel_GUI_Flash</Reward_Param4>
+		<Reward_Param5>True</Reward_Param5>
+		<Prereq>Rebel_ActII_Pre_Mission_Four_08</Prereq>
+		<!--<Branch>BRANCH_RA02M04</Branch>-->
+	</Event>
+						
+<!-- Restrict Kessel -->
+	<Event Name="Rebel_ActI_Mission_Four_Lock_Kessel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Kessel</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Reveal_00</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Four_Begin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_ActII_Reveal_00</Prereq>
+		<Story_Dialog>Dialog_Rebel_Story_Campaign</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Tag>Rebel_Mission_Four_Tag</Story_Tag>
+	</Event>
+
+<!-- Trigger mission if Antilles is present -->
+	<Event Name="Rebel_ActII_Mission_Four_00">
+		<Event_Type>STORY_ENTER</Event_Type>
+        <Event_Param1>Kessel</Event_Param1>
+        <Event_Param2>FILTER_FRIENDLY_ONLY</Event_Param2>
+        <Event_Param3>Sundered_Heart, Y-Wing</Event_Param3>
+		<Reward_Type>LINK_TACTICAL</Reward_Type>
+		<Reward_Param1>Kessel</Reward_Param1>
+		<Reward_Param2>SPACE</Reward_Param2>
+		<Reward_Param3>Rebel</Reward_Param3>
+		<Reward_Param4>RM04_Kessel_Rescue.ted</Reward_Param4>
+		<Reward_Param5>Empire</Reward_Param5>
+		<Reward_Param7>Story_Plots_Rebel_ActII_M04_SPACE.XML</Reward_Param7>
+		<Reward_Param8>1</Reward_Param8>
+		<!-- Play prebattle cinematics? -->
+		<Reward_Param9>0</Reward_Param9>
+		<!-- Start scene faded out -->
+		<Reward_Param10>1</Reward_Param10>
+		<!-- Start scene letterboxed -->
+		<Reward_Param11>0</Reward_Param11>
+		<Reward_Param12>RETREAT_PLAYER</Reward_Param12>
+		<Reward_Param14>0</Reward_Param14>									   
+		<Branch>BRANCH_RA02M04_QUICKSTART</Branch>
+	</Event>
+	
+<!-- For when the player moves an inappropriate fleet to Kessel. 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_39
+Mon Mothma: Captain Antilles, you will need to take several Y-wing bomber squads to free the prisoners.-->
+	<Event Name="Rebel_Act01_Kessel_Fleet_Bounce_Message_Start_Dialog">
+		<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
+		<Event_Param1>Kessel</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_39</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FOUR_39</Reward_Param8> <!-- Put CORRECT speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Perpetual>True</Perpetual>
+		<Prereq>Rebel_ActI_Mission_Four_Lock_Kessel</Prereq>
+	</Event>
+		
+	<Event Name="Rebel_Act01_Kessel_Fleet_Bounce_Message_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FOUR_39</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_39</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Perpetual>True</Perpetual>
+		<Prereq>Rebel_Act01_Kessel_Fleet_Bounce_Message_Start_Dialog</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_Act01_Kessel_Fleet_Bounce_Message_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>    
+		<Perpetual>True</Perpetual>
+		<Prereq>Rebel_Act01_Kessel_Fleet_Bounce_Message_Remove_Text</Prereq>
+	</Event>
+	
+<!-- Mission 4 failed -->
+<!-- Detect mission 4 being lost.  Display text telling the player to try again -->
+	<Event Name="Rebel_ActII_Mission_Four_Failed">
+		<Event_Type>STORY_MISSION_LOST</Event_Type>
+		<Event_Param1>Story_Plots_Rebel_ActII_M04_SPACE.XML</Event_Param1>
+		<Prereq>Rebel_ActII_Mission_Four_00</Prereq>
+		<Branch>BRANCH_RA02M04</Branch>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Mission_Four_Failed_Respawn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FORCE_RESPAWN</Reward_Type>
+		<Reward_Param1>Sundered_Heart</Reward_Param1>
+		<Prereq>Rebel_ActII_Mission_Four_Failed</Prereq>
+		<Branch>BRANCH_RA02M04</Branch>
+	</Event>
+
+<!-- Wait until the battle summary dialog is closed -->
+	<Event Name="Rebel_ActII_Mission_Four_Failed_01_Start_Dialog">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>battle_end_closed</Event_Param1>
+		<Prereq>Rebel_ActII_Mission_Four_Failed</Prereq>
+		<Branch>BRANCH_RA02M04</Branch>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Four_Failed_04_Quickstart">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>RESET_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_RA02M04_QUICKSTART</Reward_Param1>
+		<Prereq>Rebel_ActII_Mission_Four_Failed_01_Start_Dialog</Prereq>
+		<Branch>BRANCH_RA02M04</Branch>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Four_Failed_01">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT02_MISSION_FOUR_06</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7><!-- HINT color coding - green -->
+		<Prereq>Rebel_ActII_Mission_Four_Failed</Prereq>
+		<Branch>BRANCH_RA02M04</Branch>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Four_Failed_Time_Delay">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Prereq>Rebel_ActII_Mission_Four_Failed_01</Prereq>
+		<Branch>BRANCH_RA02M04</Branch>
+	</Event>
+	
+<!-- Re-enable mission 4 -->
+	<Event Name="Rebel_ActII_Mission_Four_Failed_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>RESET_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_RA02M04</Reward_Param1>
+		<Prereq>Rebel_ActII_Mission_Four_Failed_Time_Delay</Prereq>
+		<Branch>BRANCH_RA02M04</Branch>
+	</Event>
+
+<!-- Mission 4 ends successfully -->
+	<Event Name="Rebel_ActII_Mission_Four_Completed">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Rebel_A02M04_Win</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
+	</Event>
+	
+			<Event Name="Rebel_ActII_Mission_Four_Completed_RemoveFlash_Kessel">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+				<Reward_Param1>Kessel_GUI_Flash</Reward_Param1>
+				<Prereq>Rebel_ActII_Mission_Four_Completed</Prereq>
+			</Event>
+
+	<Event Name="Rebel_ActII_Mission_Four_Win_Disable_Branch">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_RA02M04</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Four_Completed</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Four_Win_Disable_Branch_Quickstart">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_RA02M04_QUICKSTART</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Four_Win_Disable_Branch</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Four_Completed_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Rebel_Mission_Four_Tag</Reward_Param1>
+		<Prereq>Rebel_ActII_Mission_Four_Completed</Prereq>
+	</Event>
+
+<!-- Open Kessel back up -->
+	<Event Name="Rebel_ActI_Mission_Four_Unlock_Kessel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Kessel</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Four_Completed</Prereq>
+	</Event>
+	
+<!-- Post-Mission 04 Speech -->
+<!-- Mothma Speaks: Chatting with Antillies about super weapons 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_20
+Mon Mothma: The rescued Incom scientists have provided us with a 
+wealth of scientific knowledge that will benefit all of the Rebellion.  
+We are fortunate to have them on our side.-->
+	<Event Name="Rebel_ActII_Post_Mission_Four_01_Start_Dialog">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>battle_end_closed</Event_Param1>
+		<Prereq>Rebel_ActII_Mission_Four_Completed</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Post_Mission_Four_01">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_20</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FOUR_20</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Post_Mission_Four_01_Start_Dialog</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Post_Mission_Four_01_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FOUR_20</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_20</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>
+		<Prereq>Rebel_ActII_Post_Mission_Four_01</Prereq>
+	</Event>
+
+<!-- Mothma Speaks: Chatting with Antillies about super weapons 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_21
+Mon Mothma: However, the Empire appears to have more in store for us.  
+Whispers are circulating of a super-weapon that is in development this very moment.  
+Many in the Empire believe this weapon will bring about an end to the Alliance once and for all.-->
+	<Event Name="Rebel_ActII_Post_Mission_Four_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_21</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FOUR_21</Reward_Param8> <!-- Put speech file name here -->
+		<Prereq>Rebel_ActII_Post_Mission_Four_01_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Post_Mission_Four_02a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FOUR_21</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_21</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Post_Mission_Four_02</Prereq>
+	</Event>
+
+<!-- Antillies Speaks: Chatting with Mothma about super weapons 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_22
+Antilles: If this weapon exists, we'll find it, and destroy it!-->
+	<Event Name="Rebel_ActII_Post_Mission_Four_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_22</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FOUR_22</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Post_Mission_Four_02a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Post_Mission_Four_03_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FOUR_22</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_22</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActII_Post_Mission_Four_03</Prereq>
+	</Event>
+	
+<!-- Mothma Speaks: Chatting Antillies about super weapons 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_23
+Mon Mothma: We can only hope it will be that easy.  
+While we look into these rumors, we receive more cries of help from nearby systems.  
+We must take steps to assist them against the Empire.-->
+	<Event Name="Rebel_ActII_Post_Mission_Four_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_23</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FOUR_23</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Post_Mission_Four_03_Remove_Text</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Post_Mission_Four_04_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FOUR_23</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_23</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActII_Post_Mission_Four_04</Prereq>
+	</Event>
+
+<!-- Pre-Mission 05 Speech -->
+<!-- Antillies chatting with the droids 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_24
+Antilles: Artoo, I think we have further need of your services.-->
+	<Event Name="Rebel_ActII_Pre_Mission_Five_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_24</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FOUR_24</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Post_Mission_Four_04_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Pre_Mission_Five_01_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FOUR_24</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_24</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActII_Pre_Mission_Five_01</Prereq>
+	</Event>
+
+<!-- R2D2 squeels DO NOT DISPLAY R2s TEXT-->
+	<Event Name="Rebel_ActII_Pre_Mission_Five_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param8>REBEL_ACT02_MISSION_FOUR_25</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>R2D2_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Pre_Mission_Five_01_Remove_Text</Prereq>
+	</Event>
+
+<!-- C3PO 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_26
+C3PO: We are happy to assist in any  -->
+	<Event Name="Rebel_ActII_Pre_Mission_Five_03">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FOUR_25</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_26</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FOUR_26</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>C3PO_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Pre_Mission_Five_02</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Pre_Mission_Five_03_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FOUR_26</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_26</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActII_Pre_Mission_Five_03</Prereq>
+	</Event>
+
+<!-- Antillies chatting with the droids 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_27
+Antilles:   That's great, Threepio. The Alliance needs to know more about what the Imperials are up to, 
+and Artoo's ability to interpret the network is the best way way to get that information.-->
+	<Event Name="Rebel_ActII_Pre_Mission_Five_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_27</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FOUR_27</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Pre_Mission_Five_03_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Pre_Mission_Five_04_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FOUR_27</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_27</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActII_Pre_Mission_Five_04</Prereq>
+	</Event>
+
+<!-- Antillies chatting with the droids 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_28
+C-3PO: Oh dear, will it be dangerous?-->
+	<Event Name="Rebel_ActII_Pre_Mission_Five_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_28</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FOUR_28</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>C3PO_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Pre_Mission_Five_04_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Pre_Mission_Five_05_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FOUR_28</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_28</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActII_Pre_Mission_Five_05</Prereq>
+	</Event>
+
+<!-- Antillies chatting with the droids 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_29
+Antilles: Relax, Threepio.  You'll overload your circuits 
+and we don't have time to for you to be out of commission.-->
+	<Event Name="Rebel_ActII_Pre_Mission_Five_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_29</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FOUR_29</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Pre_Mission_Five_05_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Pre_Mission_Five_06_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FOUR_29</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_29</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActII_Pre_Mission_Five_06</Prereq>
+	</Event>
+
+<!-- Antillies chatting with the droids DO NOT DISPLAY R2s TEXT
+TEXT_SPEECH_REBEL_ACT02_MISSION_FOUR_30
+-->
+	<Event Name="Rebel_ActII_Pre_Mission_Five_07">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FOUR_30</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>R2D2_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Pre_Mission_Five_06_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Pre_Mission_Five_07_Stop_Movie">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FOUR_30</Event_Param1>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>   
+		<Prereq>Rebel_ActII_Pre_Mission_Five_07</Prereq>
+	</Event>
+
+    <Event Name="Rebel_ActI_Mission_Five_GiveBack_Droids_Slice_Ability">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>NEW_POWER_FOR_ALL</Reward_Type>
+		<Reward_Param1>Droid_R2D2</Reward_Param1>
+		<Reward_Param2>R2D2_SLICER</Reward_Param2>
+		<Prereq>Rebel_ActII_Pre_Mission_Five_07_Stop_Movie</Prereq>
+	</Event>
+
+<!-- Mission 05: Interpreting the Network -->
+	<Event Name="Disable_Skipped_01">  <!-- debug state: disables Kessel mission 04 so you can get to mission 5 -->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_ActII_Mission_Four_00</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Post_Mission_Four_01</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Five_Disable_Previous_Branch">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_RA02M04</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Post_Mission_Four_01</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Five_Begin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_ActI_Mission_Five_GiveBack_Droids_Slice_Ability</Prereq>
+		<Story_Dialog>Dialog_Rebel_Story_Campaign</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Tag>Rebel_Mission_Five_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Five_Task_Message">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT02_MISSION_FIVE_02</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2> 
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Rebel_ActI_Mission_Five_GiveBack_Droids_Slice_Ability</Prereq>
+	</Event>
+
+<!-- Moved these here so that the Rebels are assured of having a slice list -->
+	<Event Name="Rebel_ActII_Constrain_Tech">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_MAX_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>2</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Five_Task_Message</Prereq>
+	</Event>
+
+<!-- Do not modify this tech level without consulting campaign designers -->
+	<Event Name="Rebel_ActII_Rebel_Tech_Upgrade_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Constrain_Tech</Prereq>
+	</Event>
+
+<!-- Do not modify this tech level without consulting campaign designers -->
+	<Event Name="Rebel_ActII_Empire_Tech_Upgrade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>2</Reward_Param2>
+		<Prereq>Rebel_ActII_Constrain_Tech</Prereq>
+	</Event>
+
+	<Event Name="Lock_MonCal_For_Rebels_ActII">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Calamari_Cruiser</Reward_Param1>
+		<Prereq>Rebel_ActII_Constrain_Tech</Prereq>
+	</Event>
+	
+	<Event Name="Lock_Frigate_For_Rebels_ActIII">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>MC30_Frigate</Reward_Param1>
+		<Prereq>Rebel_ActII_Constrain_Tech</Prereq>
+	</Event>
+
+<!-- 
+Reveal and lockout an empire planet here for the droids in case
+the player has conquered all planets up to this point.
+-->
+	<Event Name="Rebel_ActII_Reveal_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>MonCalimari</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Five_Task_Message</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Flash_MonCalimari">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>MonCalimari</Reward_Param1>
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
+		<Reward_Param4>MonCalimari_GUI_Flash</Reward_Param4>
+		<Reward_Param5>True</Reward_Param5>
+		<Prereq>Rebel_ActII_Mission_Five_Task_Message</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_Mission_Four_Lock_MonCalimari">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>MonCalimari</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Five_Task_Message</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Filter_MonCalimari_01">
+		<Event_Type>STORY_ENTER</Event_Type>
+		<Event_Param1>MonCalimari</Event_Param1>
+		<Event_Param3>Droids_Team</Event_Param3>
+		<Event_Param6>1</Event_Param6>
+        <Prereq>Rebel_ActII_Mission_Five_Task_Message</Prereq>
+	</Event>
+
+	<Event Name="Rebel_Mission_TEN_Bounce_MonCal">
+		<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
+		<Event_Param1>MonCalimari</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT02_MISSION_FIVE_33</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7><!-- HINT color coding - green -->
+		<Reward_Param8>REBEL_ACT01_MISSION_TWO_04</Reward_Param8>
+		<Reward_Param9>R2D2_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Rebel_ActII_Reveal_01</Prereq>
+		<Perpetual>True</Perpetual>
+	</Event>
+
+<!-- Triggered when droids are dropped into slice slot -->	
+<!-- 3P0 whining about the mission, discussion 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_01
+C-3PO: I - I don't think this is such a good idea… the Imperials are sure to catch us!-->
+	<Event Name="Rebel_ActII_Mission_Five_Speech_01">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>slice_slot</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_01</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_01</Reward_Param8>
+		<Reward_Param9>C3PO_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Mission_Five_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Five_Speech_01_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_01</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_01</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActII_Mission_Five_Speech_01</Prereq>
+	</Event>
+	
+			<Event Name="Rebel_ActII_Mission_Five_Speech_01_Stop_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Rebel_ActII_Mission_Five_Speech_01_Remove_Text</Prereq>
+			</Event>
+
+
+
+
+
+<!-- Triggered when slice dialog is opened for the first time -->	
+<!-- slice dialog speech 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_18
+Antilles: Hmm… I don't see any information on this super-weapon, but it looks like there's a lot of tech we could go after.-->
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Dialog_Speech_00">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>slice_dialog</Event_Param1>
+		<Prereq>Rebel_ActII_Mission_Five_Begin</Prereq>
+	</Event>
+	
+			<Event Name="Rebel_ActII_Mission_Five_RemoveFlash_MonCalimari">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+				<Reward_Param1>MonCalimari_GUI_Flash</Reward_Param1>
+				<Prereq>Rebel_ActII_Mission_Five_Slice_Dialog_Speech_00</Prereq>
+			</Event>
+	
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Dialog_Speech_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_18</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_18</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Dialog_Speech_00 Rebel_ActII_Mission_Five_Speech_01_Stop_Movie</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Dialog_Speech_01a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_18</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_18</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Dialog_Speech_01</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Dialog_Speech_01a_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Dialog_Speech_01a</Prereq>
+	</Event>
+
+<!-- slice dialog speech DO NOT DISPLAY R2'S TEXT LINES-->
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Dialog_Speech_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_19</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>R2D2_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Dialog_Speech_01a_Stop_Movie</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Dialog_Speech_02a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_19</Event_Param1>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type> 
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Dialog_Speech_02</Prereq>
+	</Event>
+
+<!-- slice dialog speech 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_21
+Antilles: We'll get something easy then.  Let's see how this goes.-->
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Dialog_Speech_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_21</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_21</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Dialog_Speech_02a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Dialog_Speech_04a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_21</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_21</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Dialog_Speech_04</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Dialog_Speech_04a_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Dialog_Speech_04a</Prereq>
+	</Event>
+
+<!-- slice dialog goal -->
+	<Event Name="Rebel_ActII_Mission_Five_WaitForSlice">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>slice</Event_Param1>
+		<Prereq>Rebel_ActII_Mission_Five_Begin</Prereq>
+	</Event>
+
+    <Event Name="Rebel_ActII_Filter_MonCalimari_02">
+		<Event_Type>STORY_ENTER</Event_Type>
+		<Event_Param1>MonCalimari</Event_Param1>
+		<Event_Param3>Droids_Team</Event_Param3>
+		<Event_Param6>1</Event_Param6>
+		<Prereq>Rebel_ActII_Mission_Five_WaitForSlice</Prereq>
+    </Event>
+
+<!-- Discussion after first slice selected -->
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Initiated_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_04</Reward_Param8>
+		<Reward_Param9>R2D2_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Mission_Five_WaitForSlice Rebel_ActII_Mission_Five_Slice_Dialog_Speech_04a_Remove_Movie</Prereq>
+	</Event>
+	
+<!-- Discussion after first slice selected -->
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Initiated_02">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_04</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_05</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_05</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>C3PO_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Initiated_01</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Initiated_02a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_05</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_05</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Initiated_02</Prereq>
+	</Event>
+
+<!-- Discussion after first slice selected 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_06
+Antilles: Great.  In the meantime, we'll see what else the Empire is up to in this sector.xxx-->
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Initiated_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_06</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_06</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Initiated_02a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Initiated_03a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_06</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_06</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Initiated_03</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Initiated_03a_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Initiated_03a</Prereq>
+	</Event>
+			
+<!-- jdg removing mon cal restriction sooner 10/27 -->
+	<Event Name="Rebel_ActI_Mission_Five_UnLock_MonCalimari">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>MonCalimari</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Initiated_03a_Remove_Movie</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_ActII_Mission_Five_LetSliceClear">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Prereq>Rebel_ActII_Mission_Five_WaitForSlice</Prereq>
+	</Event>
+	
+<!-- Rebel Act II Planet Reveals -->
+	<Event Name="Rebel_ActII_Reveal_06">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Shola</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Initiated_03a</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Reveal_07">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Ryloth</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Initiated_03a</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Reveal_10">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Geonosis</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Initiated_03a</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Reveal_11">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>4</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Tatooine</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Initiated_03a</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Reveal_08">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Bothawui</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Initiated_03a</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Reveal_05">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>6</Event_Param1>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>NalHutta</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Initiated_03a</Prereq>
+	</Event>
+
+<!--Hint text
+TEXT_STORY_REBEL_ACT02_MISSION_FIVE_31
+Hint: Use this time to tend to your home systems.-->
+	<Event Name="Rebel_ActII_NewPlantes_Revealed_Hint_Text">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT02_MISSION_FIVE_31</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7><!-- HINT color coding - green -->
+		<Prereq>Rebel_ActII_Reveal_05</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_NewPlanets_Galactic_Warning">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_STANDARD_ACT02_NOTICE</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>System</Reward_Param7>
+		<Prereq>Rebel_ActII_NewPlantes_Revealed_Hint_Text</Prereq>
+	</Event>
+
+<!-- turning ON Empire Galactic AI here -->
+	<Event Name="Rebel_ActII_Activate_EMPIRE_AI">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>300</Event_Param1>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>BasicEmpire</Reward_Param2>
+		<Prereq>Rebel_ActII_NewPlantes_Revealed_Hint_Text</Prereq>
+	</Event>
+
+<!-- Congrats on slice -->
+<!-- Congrats on slice, more whining TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_16 C3PO: We did it! We did it!
+r2-c3po respawn timer now at 60 seconds-->
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Congrats_01">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>60</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_16</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_16</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>C3PO_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Mission_Five_LetSliceClear</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Five_Slice_Congrats_01a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_16</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_16</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Congrats_01</Prereq>
+	</Event>			
+
+<!-- Droid Exclamations TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_15 
+C3PO: Artoo has recovered the requested data from the Empire!-->
+	<Event Name="Rebel_ActII_Mission_Five_Droid_Exclamations_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_15</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_15</Reward_Param8>
+		<Prereq>Rebel_ActII_Mission_Five_Slice_Congrats_01a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Five_Droid_Exclamations_03a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_15</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_15</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Mission_Five_Droid_Exclamations_03</Prereq>
+	</Event>			
+
+<!-- Congrats on second slice 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_10
+Mon Mothma: Your actions have set a shining example for the Alliance, brave little droids.  
+The technology you've acquired will go a long way to helping in the fight against the Empire.-->
+	<Event Name="Rebel_ActII_Mission_Five_Second_Slice_Congrats_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_10</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_10</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Mission_Five_Droid_Exclamations_03a</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Mission_Five_Second_Slice_Congrats_01a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_10</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_10</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Mission_Five_Second_Slice_Congrats_01</Prereq>
+	</Event>			
+
+<!-- C3PO Speaks -->
+	<Event Name="Rebel_ActII_Mission_Five_Second_Slice_Congrats_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_11</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_11</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>C3PO_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Mission_Five_Second_Slice_Congrats_01a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Five_Second_Slice_Congrats_02a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_11</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_11</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Mission_Five_Second_Slice_Congrats_02</Prereq>
+	</Event>			
+
+<!-- Congrats on second slice DO NOT DISPLAY R2'S TEXT LINES-->
+	<Event Name="Rebel_ActII_Mission_Five_Second_Slice_Congrats_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_12</Reward_Param8>
+		<Reward_Param9>R2D2_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Mission_Five_Second_Slice_Congrats_02a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Five_Second_Slice_Congrats_03a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_12</Event_Param1>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type> 
+		<Prereq>Rebel_ActII_Mission_Five_Second_Slice_Congrats_03</Prereq>
+	</Event>			
+
+	<Event Name="Rebel_ActII_Mission_Five_Completed_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Rebel_Mission_Five_Tag</Reward_Param1>
+		<Prereq>Rebel_ActII_Mission_Five_Second_Slice_Congrats_03a</Prereq>
+	</Event>
+
+<!-- Hint to continue slicing -->
+	<Event Name="Rebel_ActII_Post_Mission_Five_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_HINT_REBEL_ACT02_MISSION_FIVE_01</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7><!-- HINT color coding - green -->
+		<Prereq>Rebel_ActII_Mission_Five_Completed_01</Prereq>
+	</Event>
+	
+<!-- Post Mission 5 speech events -->
+<!-- Mon Mothma 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_22
+Mon Mothma: We have not received the intelligence we hoped for on this Imperial super-weapon.  
+The Empire must have hidden the information well.-->
+	<Event Name="Rebel_ActII_Post_Mission_Five_01">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_22</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_22</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Post_Mission_Five_04</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_ActII_Post_Mission_Five_01a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_22</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_22</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Post_Mission_Five_01</Prereq>
+	</Event>			
+			
+<!-- Antillies & Mon Mothma 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_23
+Antilles: Well, the droids can continue to look for it.  
+In the meantime, we do have other channels to go through for information… .-->
+	<Event Name="Rebel_ActII_Post_Mission_Five_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_23</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_23</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Post_Mission_Five_01a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Post_Mission_Five_02a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_23</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_23</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Post_Mission_Five_02</Prereq>
+	</Event>			
+
+<!-- Antillies & Mon Mothma 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_24
+Mon Mothma: Indeed.  I have been reluctant to make use of those sympathetic to our plight, 
+but I believe we have no other options. I will contact our friends in the senate.-->
+	<Event Name="Rebel_ActII_Post_Mission_Five_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_24</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_24</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Post_Mission_Five_02a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Post_Mission_Five_03a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_24</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_24</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Post_Mission_Five_03</Prereq>
+	</Event>		
+			
+	<Event Name="Rebel_ActII_Post_Mission_Five_03a_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Prereq>Rebel_ActII_Post_Mission_Five_03a</Prereq>
+	</Event>	
+
+<!-- Pre Mission 6 speech events -->
+<!-- Mon Mothma 
+TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_25
+Mon Mothma: The Empire is in a stir about events unfolding on Kashyyyk.  It appears that Wookiees are being freed by a former Imperial soldier turned rogue smuggler.  
+We've intercepted a transmission from the planet…-->
+	<Event Name="Rebel_ActII_Pre_Mission_Six_01">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>4</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_25</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_25</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Post_Mission_Five_03a_Remove_Movie</Prereq>
+		<Prereq>Mission6</Prereq> <!-- debug shortcut -->
+	</Event>
+			
+	<Event Name="Rebel_ActII_Pre_Mission_Six_01a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_25</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_25</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Pre_Mission_Six_01</Prereq>
+	</Event>			
+			
+<!-- Mon Mothma & Han Solo -->
+	<Event Name="Rebel_ActII_Pre_Mission_Six_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_26</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_26</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Pre_Mission_Six_01a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Pre_Mission_Six_02a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_26</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_26</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Pre_Mission_Six_02</Prereq>
+	</Event>			
+
+<!-- Mon Mothma & Han Solo -->
+	<Event Name="Rebel_ActII_Pre_Mission_Six_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_27</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_FIVE_27</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Pre_Mission_Six_02a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Pre_Mission_Six_03a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_FIVE_27</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_27</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Pre_Mission_Six_03</Prereq>
+	</Event>		
+
+	<Event Name="Rebel_ActII_Pre_Mission_Six_03a_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>   
+		<Prereq>Rebel_ActII_Pre_Mission_Six_03a</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_ActII_Reveal_Kashyyyk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Kashyyyk</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Pre_Mission_Six_03a_Stop_Movie</Prereq>
+	</Event>
+						
+	<Event Name="Rebel_ActII_Flash_Kashyyyk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+		<Reward_Param1>Kashyyyk</Reward_Param1>
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
+		<Reward_Param4>Kashyyyk_GUI_Flash</Reward_Param4>
+		<Reward_Param5>True</Reward_Param5>
+		<Prereq>Rebel_ActII_Reveal_Kashyyyk</Prereq>
+		<!--<Branch>BRANCH_RA02M06</Branch>-->
+	</Event>
+
+<!-- Objective Text -->			
+	<Event Name="Rebel_ActII_Pre_Mission_Six_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT02_MISSION_SIX_00A</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Rebel_ActII_Flash_Kashyyyk</Prereq>
+		<Prereq>Rebel_ActII_Mission_Six_Failed_01_Reprimand_01_Remove_Movie</Prereq>
+		<Branch>BRANCH_RA02M06</Branch>
+	</Event>
+
+<!-- Mission 06: Imperial Liberation -->
+	<Event Name="Rebel_ActII_Mission_Six_Begin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_ActII_Pre_Mission_Six_04</Prereq>
+		<Story_Dialog>Dialog_Rebel_Story_Campaign</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Tag>Rebel_Mission_Six_Tag</Story_Tag>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Six_00">
+		<Event_Type>STORY_LAND_ON</Event_Type>
+		<Event_Param1>Kashyyyk</Event_Param1>
+		<Event_Param2>FILTER_FRIENDLY_ONLY</Event_Param2>
+		<Reward_Type>LINK_TACTICAL</Reward_Type>
+		<Reward_Param1>Kashyyyk</Reward_Param1>
+		<Reward_Param2>LAND</Reward_Param2>
+		<Reward_Param3>Rebel</Reward_Param3>
+		<Reward_Param4>RM06_Imperial_Liberation.ted</Reward_Param4>
+		<Reward_Param5>Empire</Reward_Param5>
+		<Reward_Param7>Story_Plots_Rebel_ActII_M06_LAND.XML</Reward_Param7>
+		<Reward_Param8>1</Reward_Param8>
+		<!-- Play prebattle cinematics? -->
+		<Reward_Param9>0</Reward_Param9>
+		<!-- Start scene faded out -->
+		<Reward_Param10>1</Reward_Param10>
+		<!-- Start scene letterboxed -->
+		<Reward_Param11>0</Reward_Param11>
+		<Prereq>Rebel_ActII_Mission_Six_Begin</Prereq>
+		<Branch>BRANCH_RA02M06_QUICKSTART</Branch>
+	</Event>
+
+<!-- Mission 6 failed -->
+<!-- Detect mission 6 being lost.  Display text telling the player to try again -->
+	<Event Name="Rebel_ActII_Mission_Six_Failed">
+		<Event_Type>STORY_MISSION_LOST</Event_Type>
+		<Event_Param1>Story_Plots_Rebel_ActII_M06_LAND.XML</Event_Param1>
+		<Prereq>Rebel_ActII_Mission_Six_00</Prereq>
+		<Branch>BRANCH_RA02M06</Branch>
+	</Event>
+
+<!-- Wait until the battle summary dialog is closed -->
+	<Event Name="Rebel_ActII_Mission_Six_Failed_01">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>battle_end_closed</Event_Param1>
+		<Prereq>Rebel_ActII_Mission_Six_Failed</Prereq>
+		<Branch>BRANCH_RA02M06</Branch>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Six_Failed_04_Quickstart">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>RESET_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_RA02M06_QUICKSTART</Reward_Param1>
+		<Prereq>Rebel_ActII_Mission_Six_Failed_01</Prereq>
+		<Branch>BRANCH_RA02M06</Branch>
+	</Event>
+	
+<!-- jdg Galactic Reprimand for losing mission 
+TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_24
+Mon Mothma: Our mission is not yet complete.  
+If we retreat now, we will have failed to help the Wookiees in their time of need.-->
+	<Event Name="Rebel_ActII_Mission_Six_Failed_01_Reprimand_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_24</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_SIX_24</Reward_Param8> <!-- Put CORRECT speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Mission_Six_Failed_01</Prereq>
+		<Branch>BRANCH_RA02M06</Branch>
+	</Event>
+	
+	<Event Name="Rebel_ActII_Mission_Six_Failed_01_Reprimand_01_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_SIX_24</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_24</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Mission_Six_Failed_01_Reprimand_01</Prereq>
+		<Branch>BRANCH_RA02M06</Branch>
+	</Event>  
+				
+	<Event Name="Rebel_ActII_Mission_Six_Failed_01_Reprimand_01_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>    
+		<Prereq>Rebel_ActII_Mission_Six_Failed_01_Reprimand_01_Remove_Text</Prereq>
+		<Branch>BRANCH_RA02M06</Branch>
+	</Event>
+	
+<!-- Re-enable mission 6 -->
+	<Event Name="Rebel_ActII_Mission_Six_Failed_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>RESET_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_RA02M06</Reward_Param1>
+		<Prereq>Rebel_ActII_Mission_Six_Failed_01_Reprimand_01_Remove_Movie</Prereq>
+		<Branch>BRANCH_RA02M06</Branch>
+	</Event>
+
+<!-- Mission 6 ends successfully -->
+	<Event Name="Rebel_ActII_Mission_Six_Completed">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Rebel_A02M06_Win</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
+	</Event>
+	
+			<Event Name="Rebel_ActII_Mission_Six_RemoveFlash_Kashyyyk">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+				<Reward_Param1>Kashyyyk_GUI_Flash</Reward_Param1>
+				<Prereq>Rebel_ActII_Mission_Six_Completed</Prereq>
+			</Event>
+
+	<Event Name="Rebel_ActII_Mission_Six_Win_Disable_Branch">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_RA02M06</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Six_Completed</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Mission_Six_Win_Disable_Branch_Quickstart">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>BRANCH_RA02M06_QUICKSTART</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Mission_Six_Win_Disable_Branch</Prereq>
+	</Event>
+
+
+
+	
+
+	<!--<Event Name="Rebel_ActII_Mission_Six_Completed_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_ActII_Mission_Six_Completed</Prereq>
+		<Story_Dialog>Dialog_Rebel_ActII_M06</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Tag>Rebel_A02M06_Mission</Story_Tag>
+	</Event>-->
+	
+	<Event Name="Rebel_ActII_Mission_Six_Completed_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Rebel_Mission_Six_Tag</Reward_Param1>
+		<Prereq>Rebel_ActII_Mission_Six_Completed</Prereq>
+	</Event> 
+	
+
+
+
+
+
+
+<!-- Post Mission 6 speech events -->
+<!-- Mon Mothma & Han Solo 
+TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_28
+Mon Mothma: I cannot believe that a smuggler would put himself 
+at such great risk to help the Wookiees.  You are truly a hero.-->
+	<Event Name="Rebel_ActII_Post_Mission_Six_01_Start_Dialog">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>battle_end_closed</Event_Param1>
+		<Prereq>Rebel_ActII_Mission_Six_Completed_01</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Post_Mission_Six_01">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_28</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_SIX_28</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Post_Mission_Six_01_Start_Dialog</Prereq>
+	</Event>
+			
+	<Event Name="Rebel_ActII_Post_Mission_Six_01a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_SIX_28</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_28</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Post_Mission_Six_01</Prereq>
+	</Event>			
+			
+<!-- Mon Mothma & Han Solo 
+TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_29
+Han Solo: You can spare me the flattery.  I didn't do that for your Rebellion or your gratitude.  
+I've got bills to pay.-->
+	<Event Name="Rebel_ActII_Post_Mission_Six_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_29</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_SIX_29</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Post_Mission_Six_01a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Post_Mission_Six_02a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_SIX_29</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_29</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Post_Mission_Six_02</Prereq>
+	</Event>			
+
+<!-- Mon Mothma 
+TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_30
+Mon Mothma: The Alliance is always in need of help, 
+remember that if you ever find yourself out of work. -->
+	<Event Name="Rebel_ActII_Post_Mission_Six_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_30</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_SIX_30</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Post_Mission_Six_02a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Post_Mission_Six_03a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_SIX_30</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_30</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Post_Mission_Six_03</Prereq>
+	</Event>			
+
+<!--Han Solo 
+TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_31
+Han Solo: Sorry, but I've got my own problems to worry about.  
+If you have a job for me - one that pays - feel free to look me up.  
+Until then, I'll stick with causes that are more... lucrative.-->
+	<Event Name="Rebel_ActII_Post_Mission_Six_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_31</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT02_MISSION_SIX_31</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActII_Post_Mission_Six_03a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Post_Mission_Six_04a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT02_MISSION_SIX_31</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT02_MISSION_SIX_31</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>     
+		<Prereq>Rebel_ActII_Post_Mission_Six_04</Prereq>
+	</Event>			
+	
+	<Event Name="Rebel_ActII_Post_Mission_Six_04a_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Prereq>Rebel_ActII_Post_Mission_Six_04a</Prereq>
+	</Event>
+
+<!-- Open Act III -->
+	<Event Name="Rebel_ActII_Post_Mission_Six_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_ELEMENT</Reward_Type>
+		<Reward_Param1>Story_Campaign_Rebel_Act_III</Reward_Param1>
+		<Prereq>Rebel_ActII_Post_Mission_Six_04a_Remove_Movie</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActII_Post_Mission_Six_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_Act_Counter</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActII_Post_Mission_Six_05</Prereq>
+	</Event>
+	
+</Story>
