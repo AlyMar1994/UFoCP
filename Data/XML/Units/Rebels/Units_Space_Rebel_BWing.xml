@@ -48,7 +48,7 @@
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>No</Is_Escort>
 		<Is_Bomber>Yes</Is_Bomber>
-		<Land_Bomber_Type>Y-Wing_Bombing_Run</Land_Bomber_Type>
+		<Land_Bomber_Type>B-Wing_Bombing_Run</Land_Bomber_Type>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Build_Cost_Credits>120</Build_Cost_Credits>
@@ -155,7 +155,7 @@
 		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>Nos</Is_Escort>
+		<Is_Escort>No</Is_Escort>
 		<Is_Bomber>Yes</Is_Bomber>
 		<Damage>15</Damage>
 		<Affiliation>Rebel</Affiliation>

@@ -42,10 +42,11 @@
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
-		<Ship_Class>fighter</Ship_Class>
+		<Ship_Class>bomber</Ship_Class>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>Yes</Is_Bomber>
+		<Land_Bomber_Type>TIE_Defender_Bombing_Run</Land_Bomber_Type>
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Build_Cost_Credits>100</Build_Cost_Credits>
@@ -189,7 +190,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>Yes</Is_Escort>
-		<Is_Bomber>No</Is_Bomber>
+		<Is_Bomber>Yes</Is_Bomber>
 		<Damage>50</Damage>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
