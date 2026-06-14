@@ -185,8 +185,8 @@
 
 			<Combat_Bonus_Ability Name="GBI_Space_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
-				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Health_Bonus_Percentage>0.05</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.05</Damage_Bonus_Percentage>
@@ -246,7 +246,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Tech_Level>5</Tech_Level>
-		
+
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Special_Structures />

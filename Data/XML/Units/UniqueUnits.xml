@@ -106,8 +106,8 @@
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Piet_Combat_Bonus_General">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
-				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
@@ -122,7 +122,7 @@
 				<Unit_Strength_Category />
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Star_Destroyer</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Star_Destroyer, Admonitor_Star_Destroyer, Arc_Hammer</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -503,7 +503,7 @@
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
-		<!-- Non-Hero unit abilities description -->
+		<!-- Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
@@ -532,6 +532,20 @@
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Veers_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Unit_Strength_Category>Vehicle | Infantry | Air</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Vehicle | Infantry | Air</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
 			<Maximum_Firepower_Attack_Ability Name="AT_AT_Maximum_Firepower_Attack">
 				<Activation_Style>User_Input</Activation_Style>
 				<!-- We only consider the following unit types "valid targets": -->

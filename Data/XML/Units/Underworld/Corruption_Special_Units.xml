@@ -1607,7 +1607,10 @@
 
 		<Encyclopedia_Good_Against>TIE_Fighter TIE_Scout TIE_Bomber</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
+
 		<Affiliation>Underworld</Affiliation>
+		<Create_Team>Yes</Create_Team>
+		<Create_Team_Type>Underworld_A_Wing_Squadron</Create_Team_Type>
 	</SpaceUnit>
 
 	<Squadron Name="Underworld_A_Wing_Squadron">
@@ -1633,6 +1636,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
 		<Squadron_Units>A-Wing_Underworld, A-Wing_Underworld, A-Wing_Underworld, A-Wing_Underworld, A-Wing_Underworld</Squadron_Units>
 		<Squadron_Offsets>30.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,15.0,0.0</Squadron_Offsets>
@@ -1652,8 +1656,9 @@
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags>SmallShip</Property_Flags>
 		<Score_Cost_Credits>600</Score_Cost_Credits>
-		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
 		<Population_Value>1</Population_Value>
+
+		<Create_Team_Type>Underworld_A_Wing_Squadron_Container</Create_Team_Type>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -1665,13 +1670,103 @@
 		</Unit_Abilities_Data>
 	</Squadron>
 
+	<Container Name="Underworld_A_Wing_Squadron_Container">
+		<Text_ID>TEXT_A_WING_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
+		<Encyclopedia_Good_Against>TIE_Fighter TIE_Scout TIE_Bomber</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_a_wing.tga</Icon_Name>
+
+		<Behavior>
+			TEAM,
+			TEAM_LOCOMOTOR,
+			SELECTABLE,
+			TARGETING,
+			UNIT_AI
+		</Behavior>
+		<SpaceBehavior>
+			REVEAL,
+			ABILITY_COUNTDOWN
+		</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
+		<Formation_Priority>1</Formation_Priority>
+		<Damage>35</Damage>
+		<Affiliation>Underworld</Affiliation>
+		<AI_Combat_Power>400</AI_Combat_Power>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>0</Tech_Level>
+		<CategoryMask>Fighter | AntiBomber</CategoryMask>
+		<Max_Speed>5.2</Max_Speed>
+		<Min_Speed>3.5</Min_Speed>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<MovementClass>Space</MovementClass>
+
+		<Squadron_Offsets>30.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,15.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-15.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-30.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>1</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+
+		<!-- Unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<GUI_Activated_Ability_Name>Underworld_Tie_Defender_Ion_Cannon_Shot</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ion_Cannon_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
+				<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
+				<Recharge_Seconds>25.0</Recharge_Seconds>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, -25.0</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.2f</Mod_Multiplier>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>6</Expiration_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Ion_Cannon_Shot_Attack_Ability Name="Underworld_Tie_Defender_Ion_Cannon_Shot">
+				<Activation_Style>User_Input</Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+		</Abilities>
+	</Container>
+
 
 	<SpaceUnit Name="TIE_Defender_Underworld">
 		<Variant_Of_Existing_Type>TIE_Defender</Variant_Of_Existing_Type>
 
 		<Encyclopedia_Good_Against>A-Wing Nebulon_B_Frigate Calamari_Cruiser</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Corellian_Corvette</Encyclopedia_Vulnerable_To>
+
 		<Affiliation>Underworld</Affiliation>
+		<Create_Team>Yes</Create_Team>
+		<Create_Team_Type>Underworld_TIE_Defender_Squadron</Create_Team_Type>
 	</SpaceUnit>
 
 	<Squadron Name="Underworld_TIE_Defender_Squadron">
@@ -1719,6 +1814,8 @@
 		<Population_Value>1</Population_Value>
 		<Tactical_Bribe_Cost>200</Tactical_Bribe_Cost>
 
+		<Create_Team_Type>Underworld_TIE_Defender_Squadron_Container</Create_Team_Type>
+
 		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -1754,4 +1851,89 @@
 			</Ion_Cannon_Shot_Attack_Ability>
 		</Abilities>
 	</Squadron>
+
+	<Container Name="Underworld_TIE_Defender_Squadron_Container">
+		<Text_ID>TEXT_TIE_DEFENDER_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_DEFENDER</Encyclopedia_Text>
+		<Encyclopedia_Good_Against>A-Wing Nebulon_B_Frigate Calamari_Cruiser</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Corellian_Corvette</Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_EV_TIE_Defender.tga</Icon_Name>
+
+		<Behavior>
+			TEAM,
+			TEAM_LOCOMOTOR,
+			SELECTABLE,
+			TARGETING,
+			UNIT_AI
+		</Behavior>
+		<SpaceBehavior>
+			REVEAL,
+			ABILITY_COUNTDOWN
+		</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
+		<Formation_Priority>1</Formation_Priority>
+		<Damage>50</Damage>
+		<Affiliation>Underworld</Affiliation>
+		<AI_Combat_Power>240</AI_Combat_Power>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>0</Tech_Level>
+		<CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
+		<Max_Speed>4.5</Max_Speed>
+		<Min_Speed>3.0</Min_Speed>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<MovementClass>Space</MovementClass>
+
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-40.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>1</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
+
+		<!-- Unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<GUI_Activated_Ability_Name>Tie_Defender_Ion_Cannon_Shot</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ion_Cannon_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
+				<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
+				<Recharge_Seconds>25.0</Recharge_Seconds>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, -25.0</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.2f</Mod_Multiplier>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>6</Expiration_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Ion_Cannon_Shot_Attack_Ability Name="Tie_Defender_Ion_Cannon_Shot">
+				<Activation_Style>User_Input</Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+		</Abilities>
+	</Container>
 </Corruption_Special_Units>

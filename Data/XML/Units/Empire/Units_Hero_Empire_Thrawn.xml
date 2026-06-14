@@ -33,7 +33,7 @@
 		<Unique_Space_Unit>Admonitor_Star_Destroyer</Unique_Space_Unit>
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<Has_Space_Evaluator>False</Has_Space_Evaluator><!-- Evaluator is on The Admonitor, inverse of this tag needs to be added there too. -->
+		<Has_Space_Evaluator>False</Has_Space_Evaluator> <!-- Evaluator is on The Admonitor, inverse of this tag needs to be added there too. -->
 
 		<CategoryMask>SpaceHero</CategoryMask>
 		<Ranking_In_Category>3</Ranking_In_Category>
@@ -105,15 +105,24 @@
 
 			<Combat_Bonus_Ability Name="Admonitor_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
-				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<!-- AM1994 (06/14/26): Containers required for movement speed bonus. -->
+				<Applicable_Unit_Types>
+					TIE_Fighter_Squadron_Container,
+					TIE_Interceptor_Squadron_Container,
+					TIE_Scout_Squadron_Container,
+					TIE_Bomber_Squadron_Container,
+					TIE_Defender_Squadron_Container,
+					TIE_Phantom_Squadron_Container,
+					Darth_Vader_TIE_Fighter_Container
+				</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.1</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.1</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.10</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.10</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 
@@ -140,8 +149,8 @@
 
 			<Remove_Corruption_Ability Name="Thrawn_Remove_Corruption">
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Corruption_Removal_Cost_Multiplier>1.1</Corruption_Removal_Cost_Multiplier><!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->
-				<Corruption_Removal_Time_In_Secs>20</Corruption_Removal_Time_In_Secs><!-- Time it takes to remove corruption-->
+				<Corruption_Removal_Cost_Multiplier>1.1</Corruption_Removal_Cost_Multiplier> <!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->
+				<Corruption_Removal_Time_In_Secs>20</Corruption_Removal_Time_In_Secs> <!-- Time it takes to remove corruption-->
 				<Activation_Style>Ground_Activated</Activation_Style>
 				<Causes_Despawn>No</Causes_Despawn>
 				<SFXEvent_Activate>EHD_Removing_Corruption</SFXEvent_Activate>
@@ -333,9 +342,18 @@
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Admonitor_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
-				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<!-- AM1994 (06/14/26): Containers required for movement speed bonus. -->
+				<Applicable_Unit_Types>
+					TIE_Fighter_Squadron_Container,
+					TIE_Interceptor_Squadron_Container,
+					TIE_Scout_Squadron_Container,
+					TIE_Bomber_Squadron_Container,
+					TIE_Defender_Squadron_Container,
+					TIE_Phantom_Squadron_Container,
+					Darth_Vader_TIE_Fighter_Container
+				</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -381,8 +399,8 @@
 
 			<Remove_Corruption_Ability Name="Thrawn_Remove_Corruption">
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Corruption_Removal_Cost_Multiplier>1.1</Corruption_Removal_Cost_Multiplier><!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->
-				<Corruption_Removal_Time_In_Secs>20</Corruption_Removal_Time_In_Secs><!-- Time it takes to remove corruption-->
+				<Corruption_Removal_Cost_Multiplier>1.1</Corruption_Removal_Cost_Multiplier> <!--1.2 means 20% more expensive than base cost, 0.8 means 20% cheaper-->
+				<Corruption_Removal_Time_In_Secs>20</Corruption_Removal_Time_In_Secs> <!-- Time it takes to remove corruption-->
 				<Activation_Style>Ground_Activated</Activation_Style>
 				<Causes_Despawn>No</Causes_Despawn>
 				<SFXEvent_Activate>EHD_Removing_Corruption</SFXEvent_Activate>

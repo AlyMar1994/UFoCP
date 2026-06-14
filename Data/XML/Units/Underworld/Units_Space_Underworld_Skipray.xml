@@ -109,6 +109,7 @@
 		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
+		<Create_Team_Type>Skipray_Squadron</Create_Team_Type>
 		<AI_Combat_Power>75</AI_Combat_Power>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
@@ -198,6 +199,7 @@
 		<Score_Cost_Credits>700</Score_Cost_Credits>
 
 		<Max_Squad_Size>3</Max_Squad_Size>
+		<Create_Team_Type>Skipray_Blastboat_Squadron_Container</Create_Team_Type>
 
 		<!-- <MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
@@ -227,4 +229,76 @@
 			</Sensor_Jamming_Ability>
 		</Abilities>
 	</Squadron>
+
+
+	<Container Name="Skipray_Blastboat_Squadron_Container">
+		<Text_ID>TEXT_UNIT_SKIPRAY_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SKIPRAY</Encyclopedia_Text>
+		<Encyclopedia_Good_Against>Star_Destroyer Calamari_Cruiser Acclamator_Assault_Ship</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Corellian_Corvette Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_skipray.tga</Icon_Name>
+
+		<Behavior>
+			TEAM,
+			TEAM_LOCOMOTOR,
+			SELECTABLE,
+			TARGETING,
+			UNIT_AI
+		</Behavior>
+		<SpaceBehavior>
+			REVEAL,
+			ABILITY_COUNTDOWN
+		</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
+		<Formation_Priority>2</Formation_Priority>
+		<Damage>15</Damage>
+		<Affiliation>Underworld</Affiliation>
+		<AI_Combat_Power>225</AI_Combat_Power>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>0</Tech_Level>
+		<CategoryMask>Bomber | AntiCapital</CategoryMask>
+		<Max_Speed>3.60</Max_Speed>
+		<Min_Speed>2.30</Min_Speed>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.60</Hyperspace_Speed>
+		<MovementClass>Space</MovementClass>
+
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-60.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>3</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+
+		<!-- Unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SENSOR_JAMMING</Type>
+				<GUI_Activated_Ability_Name>Skipray_Sensor_Jamming</GUI_Activated_Ability_Name>
+				<Recharge_Seconds>35.0</Recharge_Seconds>
+				<Expiration_Seconds>30.0</Expiration_Seconds>
+				<Effective_Radius>300.0</Effective_Radius>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Jam_Sensors_On_Skipray</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Jam_Sensors_Off_Skipray</SFXEvent_GUI_Unit_Ability_Deactivated>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Sensor_Jamming_Ability Name="Skipray_Sensor_Jamming">
+				<Activation_Style>User_Input</Activation_Style>
+				<Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
+				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+			</Sensor_Jamming_Ability>
+		</Abilities>
+	</Container>
 </Skipray_Blastboat_Data>

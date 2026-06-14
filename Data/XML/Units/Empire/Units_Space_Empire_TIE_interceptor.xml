@@ -117,6 +117,7 @@
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 		<Minimum_Follow_Distance>60.0</Minimum_Follow_Distance>
 		<Create_Team>Yes</Create_Team>
+		<Create_Team_Type>TIE_Interceptor_Squadron</Create_Team_Type>
 		<AI_Combat_Power>60</AI_Combat_Power>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
@@ -142,7 +143,6 @@
 		<Strafe_Distance>400.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
 	</SpaceUnit>
-
 
 
 	<!-- **** SQUADRON INFORMATION **** -->
@@ -198,6 +198,7 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
 
 		<Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+		<Create_Team_Type>TIE_Interceptor_Squadron_Container</Create_Team_Type>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -216,4 +217,75 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</Squadron>
+
+
+	<!-- **** CONTAINER INFORMATION **** -->
+	<Container Name="TIE_Interceptor_Squadron_Container">
+		<Text_ID>TEXT_TIE_INTERCEPTOR_SQUADRON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERCEPTOR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against>Starviper_Fighter X-wing</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Corellian_Corvette Crusader_Gunship Buzz_Droids</Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_EV_TIE_Interceptor.tga</Icon_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<Damage>25</Damage>
+		<Affiliation>Empire</Affiliation>
+		<AI_Combat_Power>420</AI_Combat_Power>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>4</Tech_Level>
+
+		<Behavior>
+			TEAM,
+			SELECTABLE,
+			UNIT_AI,
+			TEAM_LOCOMOTOR,
+			TARGETING
+		</Behavior>
+		<SpaceBehavior>
+			REVEAL
+		</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+
+		<MovementClass>Space</MovementClass>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<CategoryMask>Fighter</CategoryMask>
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Max_Speed>5.50</Max_Speed>
+		<Min_Speed>3.50</Min_Speed>
+
+		<!-- Unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
 </TIE_Interceptor_Files>

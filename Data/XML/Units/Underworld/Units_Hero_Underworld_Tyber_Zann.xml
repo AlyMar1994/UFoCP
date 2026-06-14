@@ -741,9 +741,14 @@
 
 			<Combat_Bonus_Ability Name="Tyber_Zann_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
-				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>
+					StarViper_Team,
+					Skipray_Blastboat_Squadron_Container,
+					Underworld_A_Wing_Squadron_Container,
+					Underworld_TIE_Defender_Squadron_Container
+				</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>

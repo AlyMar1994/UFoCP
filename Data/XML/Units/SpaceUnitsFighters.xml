@@ -692,6 +692,7 @@
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
 		<Create_Team>Yes</Create_Team>
+		<Create_Team_Type>TIE_Fighter_Squadron</Create_Team_Type>
 		<AI_Combat_Power>35</AI_Combat_Power>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
@@ -825,6 +826,7 @@
 		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
 
 		<Create_Team>Yes</Create_Team>
+		<Create_Team_Type>TIE_Bomber_Squadron</Create_Team_Type>
 		<AI_Combat_Power>60</AI_Combat_Power>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
@@ -959,6 +961,7 @@
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
 		<Create_Team>Yes</Create_Team>
+		<Create_Team_Type>TIE_Scout_Squadron</Create_Team_Type>
 		<AI_Combat_Power>25</AI_Combat_Power>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>

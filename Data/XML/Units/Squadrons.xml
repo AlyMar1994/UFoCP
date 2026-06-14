@@ -198,7 +198,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>3</Tech_Level>
-		
+
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
@@ -371,8 +371,8 @@
 
 	<Squadron Name="TIE_Fighter_Squadron">
 		<Text_ID>TEXT_TIE_FIGHTER_2_SQUADRON</Text_ID>
-		<Encyclopedia_Good_Against>Y-Wing Z-95_Headhunter_Rebel</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Corellian_Corvette X-wing A-Wing</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>Y-Wing Z-95_Headhunter_Rebel Skipray_Blastboat</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Corellian_Corvette Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>1</Formation_Priority>
@@ -418,6 +418,8 @@
 		<Property_Flags>SmallShip</Property_Flags>
 		<Score_Cost_Credits>420</Score_Cost_Credits>
 
+		<Create_Team_Type>TIE_Fighter_Squadron_Container</Create_Team_Type>
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -449,8 +451,8 @@
 
 	<Squadron Name="TIE_Bomber_Squadron">
 		<Text_ID>TEXT_TIE_BOMBER_SQUADRON</Text_ID>
-		<Encyclopedia_Good_Against>Calamari_Cruiser Alliance_Assault_Frigate Nebulon_B_Frigate</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>Corellian_Corvette X-wing A-Wing</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against>Calamari_Cruiser Vengeance_Frigate Nebulon_B_Frigate</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>Corellian_Corvette X-wing Starviper_Fighter</Encyclopedia_Vulnerable_To>
 		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -492,6 +494,8 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Property_Flags>SmallShip</Property_Flags>
 
+		<Create_Team_Type>TIE_Bomber_Squadron_Container</Create_Team_Type>
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_BOMBER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 
@@ -517,7 +521,7 @@
 	<Squadron Name="TIE_Scout_Squadron">
 		<Text_ID>TEXT_TIE_SCOUT_SQUADRON</Text_ID>
 		<Encyclopedia_Good_Against>Y-wing Z-95_Headhunter_Rebel</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>A-Wing</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To>A-Wing Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>3</Formation_Priority>
@@ -553,6 +557,8 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags>SmallShip</Property_Flags>
+
+		<Create_Team_Type>TIE_Scout_Squadron_Container</Create_Team_Type>
 
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_SCOUT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>

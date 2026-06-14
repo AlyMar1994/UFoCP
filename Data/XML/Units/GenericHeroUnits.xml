@@ -839,8 +839,9 @@
 				<Enhancement_Percentage>0.25</Enhancement_Percentage>
 				<Apply_To_All_Allies>No</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
-				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
 			</Enhance_Defense_Ability>
+
 			<Battlefield_Modifier_Ability Name="Rebel_Fleet_Commander_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -889,8 +890,9 @@
 				<Enhancement_Percentage>0.25</Enhancement_Percentage>
 				<Apply_To_All_Allies>No</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
-				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
 			</Enhance_Defense_Ability>
+
 			<Battlefield_Modifier_Ability Name="Empire_Fleet_Commander_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
