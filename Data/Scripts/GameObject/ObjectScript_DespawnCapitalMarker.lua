@@ -1,8 +1,10 @@
+-- ============================================================================
 -- STAR WARS: Empire at War - Forces of Corruption Unofficial Patch Source File
 -- Original Author: Galyana
 --			Author: jsuzu
 --			Date:   05-22-2026
 --		Revision:   1
+-- ============================================================================
 
 require("PGStateMachine")
 

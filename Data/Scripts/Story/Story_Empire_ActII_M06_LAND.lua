@@ -56,10 +56,10 @@ require("PGStoryMode")
 
 --
 -- Definitions -- This function is called once when the script is first created.
--- 
+--
 function Definitions()
 
-	StoryModeEvents = 
+	StoryModeEvents =
 	{
 		Empire_A02M06_Begin = State_Empire_A02M06_Begin,
 		Empire_A02M06_Trigger_Rebels = State_Empire_A02M06_Trigger_Rebels,
@@ -81,12 +81,12 @@ function Definitions()
 		"Rebel_Infantry_Squad",
 		"Rebel_Light_Tank_Brigade"
 	}
-	
+
 	type_list2 = {
 		"Rebel_Infantry_Squad",
 		"Rebel_Infantry_Squad"
 	}
-	
+
 	type_list3 = {
 		"Rebel_Infantry_Squad",
 		"Rebel_Infantry_Squad"
@@ -96,7 +96,7 @@ function Definitions()
 		"Rebel_Infantry_Squad",
 		"Rebel_Light_Tank_Brigade"
 	}
-	
+
 	type_list5 = {
 		"Pirate_Soldier_Squad"
 	}
@@ -104,24 +104,24 @@ function Definitions()
 	prox_range_despawn_cines = 200
 	prox_range_movement_patrol = 100
 	prox_range_despawn_commanders = 10
-	
+
 	prox_range_spawn_pirates = 200
 	prox_range_spawn_rancors = 200
 	prox_range_spawn_rebels = 200
-	
+
 	rebels_are_invading = 0
 	pirates_are_invading = 0
 	rancors_are_invading = 0
-	
+
 	-- For memory pool cleanup hints
-	
+
 	unit = nil
-	
+
 end
 
 function State_Empire_A02M06_Begin(message)
 	if message == OnEnter then
-	
+
 --		Fade_Screen_Out(0)
 		Letter_Box_In(0)
 		Lock_Controls(1)
@@ -149,7 +149,7 @@ function State_Empire_A02M06_Begin(message)
 		marker80 = Find_Hint("GENERIC_MARKER_LAND", "80")
 		marker81 = Find_Hint("GENERIC_MARKER_LAND", "81")
 		marker82 = Find_Hint("GENERIC_MARKER_LAND", "82")
-		
+
 		target_hint_table = Find_All_Objects_With_Hint("99")
 		for i,unit in pairs(target_hint_table) do
 			unit.Set_Selectable(false)
@@ -158,7 +158,7 @@ function State_Empire_A02M06_Begin(message)
 			unit.Prevent_All_Fire(true)
 			unit.Suspend_Locomotor(true)
 		end
-		
+
 		default_hint_table = Find_All_Objects_With_Hint("1")
 		for i,unit in pairs(default_hint_table) do
 			unit.Set_Selectable(false)
@@ -210,7 +210,7 @@ function State_Empire_A02M06_Begin(message)
 			unit.Prevent_AI_Usage(true)
 			unit.Move_To(marker10)
 		end
-		
+
 		bunker_shutoff_table = Find_All_Objects_Of_Type("IMPERIAL_OBSERVATION_BUNKER")
 		for i,unit in pairs(bunker_shutoff_table) do
 			unit.Set_Selectable(false)
@@ -223,10 +223,10 @@ function State_Empire_A02M06_Begin(message)
 
 		Register_Prox(marker10, State_Empire_A02M06_Marker10_Prox, prox_range_despawn_cines, empire_player)
 		Register_Prox(marker14, State_Empire_A02M06_Marker14_Prox, prox_range_despawn_commanders, empire_player)
-		
+
 		Register_Prox(marker12, State_Empire_A02M06_Marker12_Prox, prox_range_movement_patrol, empire_player)
 		Register_Prox(marker13, State_Empire_A02M06_Marker13_Prox, prox_range_movement_patrol, empire_player)
-		
+
 		Register_Prox(marker80, State_Empire_A02M06_Marker80_Prox, prox_range_spawn_pirates, empire_player)
 		Register_Prox(marker81, State_Empire_A02M06_Marker81_Prox, prox_range_spawn_rancors, empire_player)
 
@@ -239,18 +239,18 @@ function State_Empire_A02M06_Begin(message)
 		Start_Cinematic_Camera()
 		Set_Cinematic_Camera_Key(marker14, 0, 0, 20, 0, 0, 0, 0)
 		Set_Cinematic_Target_Key(veers_atat, 0, 0, 0, 0, 0, 0, 0)
-		
+
 		Fade_Screen_In(5)
-		
+
 --		Transition_Cinematic_Camera_Key(runawaycamerastart, 15, 100, 0, 300, 0, 0, 0, 0)
 
-		
+
 		Transition_To_Tactical_Camera(12)
 		Sleep(10)
 		Letter_Box_Out(0.5)
 		End_Cinematic_Camera()
 		Lock_Controls(0)
-		
+
 	end
 end
 
@@ -306,8 +306,8 @@ function State_Empire_A02M06_Marker80_Prox(prox_obj, trigger_obj)
 	if pirates_are_invading == 0 then
 		if trigger_obj.Get_Type() == Find_Object_Type("VEERS_AT_AT_WALKER") then
 			pirates_are_invading = 1
- 			ReinforceList(type_list5, marker21, rebel_player, true, true, true, Attack_Veers)
- 			ReinforceList(type_list5, marker22, rebel_player, true, true, true, Attack_Veers)
+			ReinforceList(type_list5, marker21, rebel_player, true, true, true, Attack_Veers)
+			ReinforceList(type_list5, marker22, rebel_player, true, true, true, Attack_Veers)
 			Story_Event("A02M06_TRIGGER_PIRATES")
 		end
 	else
@@ -391,7 +391,7 @@ function State_Empire_A02M06_Trigger_Rebels()
 		ReinforceList(type_list3, marker43, rebel_player, true, true, true)
 		ReinforceList(type_list4, marker44, rebel_player, true, true, true)
 		--Story_Event("A02M06_TRIGGER_REBELS")
-		
+
 		Create_Thread("Show_Rebels_Cine")
 	end
 end
@@ -399,8 +399,8 @@ end
 function Show_Rebels_Cine()
 
 	Sleep(2)
-	
-	Cancel_Fast_Forward() 
+
+	Cancel_Fast_Forward()
 	--SET UP CINEMATIC CAMERA
 	Fade_Screen_Out(1)
 	Suspend_AI(1)
@@ -409,14 +409,14 @@ function Show_Rebels_Cine()
 	Sleep(1)
 	Start_Cinematic_Camera()
 	Fade_Screen_In(1)
-	
+
 	camera_start = Find_Hint("GENERIC_MARKER_LAND", "42")
-	
-	
+
+
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Set_Cinematic_Camera_Key(camera_start, 500, 12, 30, 1, 0, 0, 0)
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
-	Set_Cinematic_Target_Key(camera_start, 0, 0, 0, 0, camera_start, 0, 0) 
+	Set_Cinematic_Target_Key(camera_start, 0, 0, 0, 0, camera_start, 0, 0)
 	-- Transition_Cinematic_Camera_Key(target_pos, time, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Transition_Cinematic_Camera_Key(camera_start, 7, 500, 12, 170, 1, 0, 0, 0)
 	Sleep(1)
@@ -427,14 +427,14 @@ function Show_Rebels_Cine()
 	Sleep(1)
 	--end cinematic
 	Point_Camera_At(veers_atat)
-	
+
 	Transition_To_Tactical_Camera(1)
-    Letter_Box_Out(1)
-    
-    End_Cinematic_Camera()
-    Fade_Screen_In(1)
+	Letter_Box_Out(1)
+
+	End_Cinematic_Camera()
+	Fade_Screen_In(1)
 	Lock_Controls(0)
-	Suspend_AI(0)	
+	Suspend_AI(0)
 end
 
 
@@ -508,18 +508,18 @@ function State_Empire_A02M06_Emperor_Response_02(message)
 			Story_Event("A02M06_EMPEROR_ANNOUNCES2")
 		end
 	end
-end 
+end
 
 function State_Empire_A02M06_All_Rebel_Destroyed_WIN(message)
 	if message == OnEnter then
 		Create_Thread("Ending_Cine")
 	end
-end 
+end
 
 function Ending_Cine()
 
-	
-	Cancel_Fast_Forward() 
+
+	Cancel_Fast_Forward()
 	--SET UP CINEMATIC CAMERA
 	Fade_Screen_Out(1)
 	Suspend_AI(1)
@@ -528,20 +528,20 @@ function Ending_Cine()
 	Sleep(1)
 	Start_Cinematic_Camera()
 	Fade_Screen_In(1)
-	
+
 	if not TestValid(veers_atat) then
-		--MessageBox("ending cine cannot find veers")
+		DebugMessage("ending cine cannot find veers")
 	end
-	
-	
+
+
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Set_Cinematic_Camera_Key(veers_atat, 350, 12, 180, 1, 0, 0, 0)
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
-	Set_Cinematic_Target_Key(veers_atat, 0, 0, 0, 0, veers_atat, 0, 0) 
+	Set_Cinematic_Target_Key(veers_atat, 0, 0, 0, 0, veers_atat, 0, 0)
 	-- Transition_Cinematic_Camera_Key(target_pos, time, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Transition_Cinematic_Camera_Key(veers_atat, 20, 350, 12, 45, 1, 0, 0, 0)
 	Sleep(20)
-	
+
 	--Fade_Screen_Out(1)
 	--
 
@@ -550,9 +550,7 @@ end
 --turn off cinematic camera safety stuff here
 function State_Empire_A02M06_Rebel_Destroyed_Complete_Mission(message)
 	if message == OnEnter then
-		--MessageBox("End_Cinematic_Camera()")
+		DebugMessage("End_Cinematic_Camera()")
 		End_Cinematic_Camera()
 	end
-end 
-
-
+end

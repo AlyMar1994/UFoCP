@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <Campaigns>
+	<Campaign Name="GC_Divider">
+		<Campaign_Set>GC_List_Divider</Campaign_Set>
+		<Sort_Order>1</Sort_Order>
 
+		<Text_ID>TEXT_HELP_SEPERATOR_GC</Text_ID>
+    </Campaign>
+
+	<Campaign Name="GC_Divider_2">
+		<Campaign_Set>GC_List_Divider_2</Campaign_Set>
+		<Sort_Order>7</Sort_Order>
+
+		<Text_ID>TEXT_HELP_SEPERATOR_GC</Text_ID>
+    </Campaign>	
 
 
 <!-- ************************************************************** -->
@@ -7950,28 +7962,6 @@
 		<Starting_Forces> Underworld, Muunilinst, Underworld_Disruptor_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Muunilinst, Underworld_Disruptor_Merc_Squad</Starting_Forces>
 		
-    </Campaign>
-	
-	
-	<Campaign Name="Divider_Mod">
-
-		<Campaign_Set> Divider_Mod </Campaign_Set>
-		<Sort_Order>1</Sort_Order>
-
-		<Text_ID> ---------------------------------------------------------------------------- </Text_ID>
-
-
-    </Campaign>
-	
-	
-	<Campaign Name="Divider_Mod_2">
-
-		<Campaign_Set> Divider_Mod_2 </Campaign_Set>
-		<Sort_Order>7</Sort_Order>
-
-		<Text_ID> ---------------------------------------------------------------------------- </Text_ID>
-
-
     </Campaign>
     
 

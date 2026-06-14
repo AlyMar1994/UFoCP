@@ -43,7 +43,7 @@ require("PGStoryMode")
 
 function Definitions()
 
-	StoryModeEvents = 
+	StoryModeEvents =
 	{
 		Empire_M08_Begin = State_Empire_M08_Begin,
 		Empire_M08_Battle_Start = State_Empire_M08_Battle_Start
@@ -56,7 +56,7 @@ function State_Empire_M08_Begin(message)
 	if message == OnEnter then
 
 		kalast_left = false
-	
+
 		--First off, grab Falast.  If he's not here, then this ain't mission 8.
 		falast = Find_First_Object("Moff_Falast_Star_Destroyer")
 		if not TestValid(falast) then
@@ -67,21 +67,21 @@ function State_Empire_M08_Begin(message)
 		Story_Event("FALAST_INTRO")
 		falast.Prevent_AI_Usage(true)
 		falast.Set_Cannot_Be_Killed(true)
-	
+
 		--Next we had better make sure that there's at least one interdictor present, otherwise
 		--the elusive Moff is just going to scram
 		interdictor_table = Find_All_Objects_Of_Type("Interdictor_Cruiser")
-		
+
 		if table.getn(interdictor_table) == 0 then
 			falast.Make_Invulnerable(true)
-			-- MessageBox("Feedback needed: player doesn't have an interdictor")
+			DebugMessage("Feedback needed: player doesn't have an interdictor")
 			closest_unit = Find_Nearest(falast, empire_player, true)
 			falast.Teleport(closest_unit)
 			Sleep(10)
 			falast.Hyperspace_Away(true)
 			Story_Event("MOFF_FALAST_RUNS")
 		else
-			-- MessageBox("Feedback needed: interdictor can trap Falast")
+			DebugMessage("Feedback needed: interdictor can trap Falast")
 			Story_Event("MOFF_FALAST_TRAPPED")
 		end
 	end
@@ -91,23 +91,23 @@ function State_Empire_M08_Battle_Start(message)
 	if message == OnEnter then
 
 		kalast_left = false
-	
+
 		--record the current time so that we can give the player a window to get the interdictors online
 		last_run_check_time = GetCurrentTime()
-		
+
 	elseif message == OnUpdate then
-	
+
 		if not TestValid(falast) then
-			--MessageBox("Moff Falast should not be completely destroyable. Error.")
+			DebugMessage("Moff Falast should not be completely destroyable. Error.")
 			ScriptExit()
 		end
-		
+
 		if falast.Get_Hull() <= 0.25 then
 			falast.Make_Invulnerable(true)
-			Cancel_Fast_Forward() 
+			Cancel_Fast_Forward()
 			Story_Event("MOFF_FALAST_DISABLED")
 		elseif GetCurrentTime() - last_run_check_time > 30.0 then
-		
+
 			--Make sure that the player still has an active interdictor
 			any_active = false
 			for i,interdictor in pairs(interdictor_table) do
@@ -115,7 +115,7 @@ function State_Empire_M08_Battle_Start(message)
 					any_active = true
 				end
 			end
-			
+
 			if not any_active then
 				if falast.Are_Engines_Online() then
 					falast.Make_Invulnerable(true)
@@ -130,6 +130,6 @@ function State_Empire_M08_Battle_Start(message)
 			else
 				last_run_check_time = GetCurrentTime()
 			end
-		end		
+		end
 	end
 end

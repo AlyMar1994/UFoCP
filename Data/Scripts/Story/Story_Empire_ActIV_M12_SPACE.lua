@@ -43,20 +43,20 @@ require("PGStoryMode")
 
 --
 -- Definitions -- This function is called once when the script is first created.
--- 
+--
 function Definitions()
 
 	DebugMessage("%s -- In Definitions", tostring(Script))
-	
-	StoryModeEvents = 
+
+	StoryModeEvents =
 	{
 		Empire_A04M12_Begin = State_Empire_A04M12_Begin
 	}
-	
+
 	reinforce_type_list_1 = {
 		"Acclamator_Assault_Ship"
 	}
-	
+
 	reinforce_delay = 30
 
 	-- For memory pool cleanup hints
@@ -65,17 +65,17 @@ end
 
 function State_Empire_A04M12_Begin(message)
 	if message == OnEnter then
-		--MessageBox("State_Empire_A04M12_Begin")
+		DebugMessage("State_Empire_A04M12_Begin")
 
 		reinforce_point = Find_Hint("DEFENDING FORCES POSITION")
 		rebel_player = Find_Player("Rebel")
 		if not reinforce_point then
-			--MessageBox("Didn't find DEFENDING FORCES POSITION marker, expected for all sandbox space maps; aborting")
+			DebugMessage("Didn't find DEFENDING FORCES POSITION marker, expected for all sandbox space maps; aborting")
 			ScriptExit()
 		end
-		
+
 		Register_Timer(Spawn_Reinforcements, reinforce_delay)
-		
+
 		death_star_list = Find_All_Objects_Of_Type("Death_Star")
 		death_star = death_star_list[1]
 		death_star.Override_Max_Speed(0.20)
@@ -83,12 +83,10 @@ function State_Empire_A04M12_Begin(message)
 end
 
 function Spawn_Reinforcements()
-	--MessageBox("More reinforcements!")
+	DebugMessage("More reinforcements!")
 	ReinforceList(reinforce_type_list_1, reinforce_point, rebel_player, true, true)
 end
 
 function Story_Mode_Service()
 
 end
-
-

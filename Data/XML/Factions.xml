@@ -153,8 +153,8 @@
 		</Debug_Ground_Structures>
 
 		<!-- EAW_Campaign_Mod -->
-		<Superweapon_Win_Movie></Superweapon_Win_Movie> <!--Rebel_Win_DeathStar-->
-		<Generic_Win_Movie></Generic_Win_Movie> <!--Rebel_Win_Space-->
+		<Superweapon_Win_Movie /> <!--Rebel_Win_DeathStar-->
+		<Generic_Win_Movie /> <!--Rebel_Win_Space-->
 		<Finale_Movie>Rebel_Win_Land</Finale_Movie>
 		<Victory_Text>TEXT_REBEL_VICTORY</Victory_Text>
 		<Defeat_Text>TEXT_REBEL_DEFEAT</Defeat_Text>
@@ -921,8 +921,8 @@
 		</Debug_Ground_Structures>
 
 		<!-- EAW_Campaign_Mod -->
-		<Superweapon_Win_Movie></Superweapon_Win_Movie> <!--Empire_Win_DeathStar-->
-		<Generic_Win_Movie></Generic_Win_Movie> <!--Empire_Win_Land-->
+		<Superweapon_Win_Movie /> <!--Empire_Win_DeathStar-->
+		<Generic_Win_Movie /> <!--Empire_Win_Land-->
 		<Finale_Movie>Empire_Win_Space</Finale_Movie>
 		<Victory_Text>TEXT_EMPIRE_VICTORY</Victory_Text>
 		<Defeat_Text>TEXT_EMPIRE_DEFEAT</Defeat_Text>

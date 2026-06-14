@@ -1207,7 +1207,8 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 	
-	<!-- EAW_Campaign_Mod -->
+	<!-- EAW Campaign -->
+	<!-- ============ -->
 	<TradeRoute Name="Kashyyyk_MonCalimari">
 		<Point_A>Kashyyyk</Point_A>
 		<Point_B>MonCalimari</Point_B>
@@ -1216,8 +1217,6 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 	
-	
-	<!-- EAW_Campaign_Mod -->
 	<TradeRoute Name="Kessel_MonCalimari">
 		<Point_A>Kessel</Point_A>
 		<Point_B>MonCalimari</Point_B>
@@ -1226,7 +1225,6 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 	
-	<!-- EAW_Campaign_Mod -->
 	<TradeRoute Name="Kuat_MonCalimari">
 		<Point_A>Kuat</Point_A>
 		<Point_B>MonCalimari</Point_B>
@@ -1234,6 +1232,7 @@
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
+	<!-- ============ -->
 
 	<TradeRoute Name="Manaan_Wayland">
 		<Point_A>Manaan</Point_A>
@@ -2370,7 +2369,7 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 	
-	<!-- EAW_Campaign_Mod -->
+	<!-- EAW Campaign -->
     <TradeRoute Name="AetenII_Wayland">
 		<Point_A>AetenII</Point_A>
 		<Point_B>Wayland</Point_B>
@@ -2436,7 +2435,7 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 	
-	<!-- EAW_Campaign_Mod -->
+	<!-- EAW Campaign -->
 	<TradeRoute Name="Bonadan_Dantooine">
 		<Point_A>Bonadan</Point_A>
 		<Point_B>Dantooine</Point_B>

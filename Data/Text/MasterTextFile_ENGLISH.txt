@@ -611,7 +611,7 @@ TEXT_CAMPAIGN_DIFFICULTY,Difficulty:
 TEXT_CAMPAIGN_DIRECTIONS,EMPIRE AT WAR - Choose your difficulty, then choose your side...
 TEXT_CAMPAIGN_DIRECTIONS2,Choose your destiny...
 TEXT_CAMPAIGN_FOCUSDEMO,FOCUS DEMO
-TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN,Conditions:\n\nPlanets: 42\nTech Level: 1\nCredits: 20,000
+TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN,Conditions:\n\nPlanets: 42\nTech Level: 1\nCredits: 20,000\n\nExperience the rise of either the Galactic Empire or Rebel Alliance in these two-sided story campaigns.
 TEXT_CAMPAIGN_FULL_STORY_EMPIRE,Empire Story Campaign
 TEXT_CAMPAIGN_FULL_STORY_REBEL,Rebellion Story Campaign
 TEXT_CAMPAIGN_GROUND_BATTLE_STYLE,COMICON DEMO
@@ -677,65 +677,51 @@ TEXT_CAMPAIGN_PLANET_CONTROL,Target Planetary Control
 TEXT_CAMPAIGN_REINFORCEMENT_TEST,Omaha Beach
 TEXT_CAMPAIGN_SELECT_FACTION,Choose your side
 TEXT_CAMPAIGN_SINGLE_10A,Closing on Coruscant
-TEXT_CAMPAIGN_SINGLE_10A_EAW,Closing on Coruscant (EAW)
-TEXT_CAMPAIGN_SINGLE_10A_FOC,Closing on Coruscant (FOC)
+TEXT_CAMPAIGN_SINGLE_10A_FOC,Closing on Coruscant (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_10B,Alderaan's Demise
-TEXT_CAMPAIGN_SINGLE_10B_EAW,Alderaan's Demise (EAW)
-TEXT_CAMPAIGN_SINGLE_10B_FOC,Alderaan's Demise (FOC)
+TEXT_CAMPAIGN_SINGLE_10B_FOC,Alderaan's Demise (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_12,Heart of the Maw
-TEXT_CAMPAIGN_SINGLE_12_EAW,Heart of the Maw (EAW)
-TEXT_CAMPAIGN_SINGLE_12_FOC,Heart of the Maw (FOC)
+TEXT_CAMPAIGN_SINGLE_12_EAW,Heart of the Maw (EAW Heroes)
 TEXT_CAMPAIGN_SINGLE_12_INTRO_E,The Empire wishes to use the Maw as a location for a research facility.  Both the Rebellion and the Zann Consortium also wish to use the location for their own purposes.  The emperor instructs you to capture the Maw along with four other key planets to further his plans.  You have 60 galactic days to do this - fail at your own peril.
 TEXT_CAMPAIGN_SINGLE_12_INTRO_R,We wish to wrest control of the Maw from the Zann Consortium; the location is ideal for a refuge due to the difficulty in navigating the area.  It would also be beneficial to the Alliance if we were to control four other key planets.  However, the Empire is attempting to interfere with our plans - we only have 60 galactic days to take control, or we lose everything.  May the Force be with you!
 TEXT_CAMPAIGN_SINGLE_12_INTRO_U,The Maw is a location that attracts attention from all sides; the Empire wishes to produce a research facility in the location, while the Rebellion wants to use it as a refuge.  I want it because they want it.  With the Maw under consortium control along with four other key locations, my power will be absolute.  But we only have 60 days before the plan fails.  See to it!
 TEXT_CAMPAIGN_SINGLE_15,The Shipyards of Kuat
-TEXT_CAMPAIGN_SINGLE_15_EAW,The Shipyards of Kuat (EAW)
-TEXT_CAMPAIGN_SINGLE_15_FOC,The Shipyards of Kuat (FOC)
+TEXT_CAMPAIGN_SINGLE_15_FOC,The Shipyards of Kuat (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_20,Pirate Dominance
 TEXT_CAMPAIGN_SINGLE_21,Origin of Corruption
-TEXT_CAMPAIGN_SINGLE_21_EAW,Origin of Corruption (EAW)
-TEXT_CAMPAIGN_SINGLE_21_FOC,Origin of Corruption (FOC)
+TEXT_CAMPAIGN_SINGLE_21_EAW,Origin of Corruption (EAW Heroes)
 TEXT_CAMPAIGN_SINGLE_21_INTRO_E,The galaxy is in turmoil following the Battle of Yavin.  Many of the planetary governments have seceded from the Empire, but are not ready to trust the Rebellion.  Meanwhile, there is a new force working in the background of the galaxy.  The Empire will not tolerate any interference - crush all who oppose us.
 TEXT_CAMPAIGN_SINGLE_21_INTRO_R,The galaxy is in turmoil following the Battle of Yavin.  Many of the planetary governments have seceded from the Empire, but are not ready to trust the Rebellion.  Meanwhile, there is a new force working in the background of the galaxy.  We must unite the galaxy against the evils of the Empire, while not falling to the temptations of the Zann Consortium.  May the Force be with you!
 TEXT_CAMPAIGN_SINGLE_21_INTRO_U,The galaxy is in turmoil following the Battle of Yavin.  Many of the planetary governments have seceded from the Empire, but are not ready to trust the Rebellion.  Meanwhile, there is a new force working in the background of the galaxy.  The galaxy is ripe for the picking.
 TEXT_CAMPAIGN_SINGLE_25,Empire Surrounded
-TEXT_CAMPAIGN_SINGLE_25_EAW,Empire Surrounded (EAW)
-TEXT_CAMPAIGN_SINGLE_25_FOC,Empire Surrounded (FOC)
+TEXT_CAMPAIGN_SINGLE_25_FOC,Empire Surrounded (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_27,Gateways
-TEXT_CAMPAIGN_SINGLE_27_EAW,Gateways (EAW)
-TEXT_CAMPAIGN_SINGLE_27_FOC,Gateways (FOC)
+TEXT_CAMPAIGN_SINGLE_27_EAW,Gateways (EAW Heroes)
 TEXT_CAMPAIGN_SINGLE_27_INTRO_U,The battle rages on for the galaxy.  We are separated from our enemies by a few core planets.  The struggle for the galaxy will hinge on the control of these planets.  Use your starting resources wisely in order to conquer the galaxy.
 TEXT_CAMPAIGN_SINGLE_30,Roles Reversed
 TEXT_CAMPAIGN_SINGLE_33B,Clusters
-TEXT_CAMPAIGN_SINGLE_33B_EAW,Clusters (EAW)
-TEXT_CAMPAIGN_SINGLE_33B_FOC,Clusters (FOC)
+TEXT_CAMPAIGN_SINGLE_33B_EAW,Clusters (EAW Heroes)
 TEXT_CAMPAIGN_SINGLE_33B_INTRO_E,The fools in the Rebellion and the Zann Consortium seek my life.  Let them play their games - I will play the rabbit for now while you go and seek their deaths instead.  Conquer Yavin 4 and Endor, and bring me proof that Mon Mothma and Tyber Zann will bother the Empire no longer.
 TEXT_CAMPAIGN_SINGLE_33B_INTRO_R,The Empire and the Zann Consortium have put a price on my head.  While I hate resorting to assassination at any time, it seems we have no choice in the matter.  Take control of Coruscant and Endor, and see that Emperor Palpatine and Tyber Zann are brought to justice.
 TEXT_CAMPAIGN_SINGLE_33B_INTRO_U,It is a dire time for the Zann Consortium.  With our major successes all across the galaxy, both the Rebellion and the Empire have put a price on my head.  If they wish to challenge me, then we will play their game.  Assassinate Mon Mothma and Emperor Palpatine, and take control of their current bases of operation: Yavin 4 and Coruscant.
 TEXT_CAMPAIGN_SINGLE_35,Empire at War
-TEXT_CAMPAIGN_SINGLE_35_EAW,Empire at War (EAW)
-TEXT_CAMPAIGN_SINGLE_35_FOC,Empire at War (FOC)
+TEXT_CAMPAIGN_SINGLE_35_FOC,Empire at War (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_36,Rim World Conflict
-TEXT_CAMPAIGN_SINGLE_36_EAW,Rim World Conflict (EAW)
-TEXT_CAMPAIGN_SINGLE_36_FOC,Rim World Conflict (FOC)
+TEXT_CAMPAIGN_SINGLE_36_EAW,Rim World Conflict (EAW Heroes)
 TEXT_CAMPAIGN_SINGLE_36_INTRO_E,While the heart of the Empire is relatively secure, the Outer Rim is a constant plague of corruption and disorder.  The emperor wants the worlds of the Rim under control and his laws enforced; with the Rim in his control the Rebels and criminals will have nowhere left to run.
 TEXT_CAMPAIGN_SINGLE_36_INTRO_R,In many ways, the Alliance started on the Outer Rim.  Planets used being left alone by the Republic chafed under the rules of the Empire.  If the Alliance can gain control of the Rim, we surround the galaxy itself with a vision of freedom, an example to all who dwell closer to Coruscant and the heart of evil.
 TEXT_CAMPAIGN_SINGLE_36_INTRO_U,The Outer Rim worlds hold much promise for the Zann Consortium.  They are isolated and far from the Empire's center at Coruscant, and as a result are more used to freedom and the temptations that only the Consortium can provide.  If we control the Rim, we complete a noose around the galaxy that we can then slowly constrict, choking the rest of the Empire.
 TEXT_CAMPAIGN_SINGLE_44,Galactic Conflict
-TEXT_CAMPAIGN_SINGLE_44_EAW,Galactic Conflict (EAW)
-TEXT_CAMPAIGN_SINGLE_44_FOC,Galactic Conflict (FOC)
+TEXT_CAMPAIGN_SINGLE_44_FOC,Galactic Conflict (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_50,The Conflict Begins
-TEXT_CAMPAIGN_SINGLE_50_EAW,The Conflict Begins (EAW)
-TEXT_CAMPAIGN_SINGLE_50_FOC,The Conflict Begins (FOC)
+TEXT_CAMPAIGN_SINGLE_50_FOC,The Conflict Begins (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_56,Equal Footing
-TEXT_CAMPAIGN_SINGLE_56_EAW,Equal Footing (EAW)
-TEXT_CAMPAIGN_SINGLE_56_FOC,Equal Footing (FOC)
+TEXT_CAMPAIGN_SINGLE_56_EAW,Equal Footing (EAW Heroes)
 TEXT_CAMPAIGN_SINGLE_56_INTRO_E,During our battles with the Rebellion, we have noticed increased corruption and crime on many worlds.  The emperor does not enjoy hearing that the funds meant for the advancement of his military are going to criminals, any more than he likes Rebel scum interfering with his rule.  Remove the Zann Consortium and the Rebellion from the galaxy by any means necessary.  Use your initial credits wisely to upgrade and expand your forces.
 TEXT_CAMPAIGN_SINGLE_56_INTRO_R,Many worlds have been corrupted by the Zann Consortium, and still others have fallen to the iron hand of the Empire.  While I hate to divide our forces, something must be done.  Use your initial credits wisely to upgrade and expand your forces and remove the Consortium and the Empire once and for all from the galaxy.
 TEXT_CAMPAIGN_SINGLE_56_INTRO_U,Many worlds have been corrupted by the Zann Consortium, but the Empire and Rebellion are taking more notice of our cause and as a result, more of their forces are being devoted to eliminating the Consortium.  We are a much greater threat than ever before and as such, we will be seeing large scale attacks against Consortium-held worlds.  Use your initial credits wisely to upgrade and expand your forces, and prepare for my total control of the galaxy.
 TEXT_CAMPAIGN_SINGLE_60,The Lines are Drawn
-TEXT_CAMPAIGN_SINGLE_60_EAW,The Lines are Drawn (EAW)
-TEXT_CAMPAIGN_SINGLE_60_FOC,The Lines are Drawn (FOC)
+TEXT_CAMPAIGN_SINGLE_60_FOC,The Lines are Drawn (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST,Tactical Corruption Test
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_EMPIRE,Tactical Corruption Test (Empire)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_REBEL,Tactical Corruption Test (Rebel)
@@ -1797,7 +1783,7 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_AUTORESOLVE_COMBO,When set to Ask, each player
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_HEROES,When enabled, each player can purchase hero units.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_NAT_NEGOTIATION,Enable to better connect through firewalls
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_RANDOM_EVENTS,When enabled, random missions and events with procedural rewards will start spontaneously.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_STARTING_UNIT_PURCHASE,When enabled, each player will begin the match with two starting fighter squadrons.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_STARTING_UNIT_PURCHASE,When enabled, each player will begin the match with two squads of infantry (Land Combat) or fighters (Space Combat).
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_SUPER_WEAPONS,When enabled, each player can purchase planetary super weapons.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_UPNP,Enables UPnP
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_WINDOWS_FIREWALL_BYPASS,Bypass Windows Firewall protocols
@@ -1847,7 +1833,7 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_NETWORK_PORT_NUMBER,Manually set network port #
 TEXT_GUI_DIALOG_TOOLTIP_IDC_NETWORK_QUICKMATCH_DEFAULT,Sets Quick Match game mode options
 TEXT_GUI_DIALOG_TOOLTIP_IDC_NEW_AUTORESOLVE_BUTTON,The battle will be instantly resolved for you, but your losses may be higher.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_PARTICLE_DETAIL_SLIDER,High quality particles will produce more detailed explosions and other particle effects.  Lower quality may improve performance.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_PRE_BUILT_BASE,Start game with bases pre-built on/off
+TEXT_GUI_DIALOG_TOOLTIP_IDC_PRE_BUILT_BASE,When enabled, each player will begin the battle with their bases already built.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_EASY,Easy game difficulty
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_HARD,Hard game difficulty
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_MEDIUM,Medium game difficulty
@@ -1889,6 +1875,7 @@ TEXT_HARD_AI_PLAYER,Hard AI
 TEXT_HEADHUNTER_SQUADRON,Z-95 Squadron
 TEXT_HELLO,Hello!
 TEXT_HELP_SEPERATOR,_________________________________________________________________________________________
+TEXT_HELP_SEPERATOR_GC,----------------------------------------------------------------------------
 TEXT_HERO_4LOM,4-LOM
 TEXT_HERO_4LOM_TEAM,4-LOM
 TEXT_HERO_AKBAR_TEAM,Admiral Ackbar

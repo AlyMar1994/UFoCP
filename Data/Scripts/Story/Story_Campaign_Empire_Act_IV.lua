@@ -46,16 +46,16 @@ require("PGStoryMode")
 
 --
 -- Definitions -- This function is called once when the script is first created.
--- 
+--
 function Definitions()
 
 	DebugMessage("%s -- In Definitions", tostring(Script))
-	
-	StoryModeEvents = 
+
+	StoryModeEvents =
 	{
 		Empire_ActIV_Mission_Twelve_01 = State_Empire_ActIV_Mission_Twelve_01
 	}
-	
+
 	-- For memory pool cleanup hints
 	yavin = nil
 	alzoc3 = nil
@@ -64,7 +64,7 @@ function Definitions()
 	polus = nil
 	planet_table = nil
 	empire_player = nil
-	
+
 	-- End cutscene specific
 	found = false
 	final_planet = nil
@@ -72,14 +72,14 @@ end
 
 function State_Empire_ActIV_Mission_Twelve_01(message)
 	if message == OnUpdate then
-		--MessageBox("Empire_ActIV_Mission_Twelve_01")
+		DebugMessage("Empire_ActIV_Mission_Twelve_01")
 		yavin = FindPlanet("Yavin")
 		alzoc3 = FindPlanet("AlzocIII")
 		shola = FindPlanet("Shola")
 		hoth = FindPlanet("Hoth")
 		polus = FindPlanet("Polus")
 		empire_player = Find_Player("Empire")
-		planet_table = {[yavin] = false, 
+		planet_table = {[yavin] = false,
 						[alzoc3] = false,
 						[shola] = false,
 						[hoth] = false,
@@ -101,17 +101,17 @@ function State_Empire_ActIV_Mission_Twelve_01(message)
 				end
 			end
 		end
-		
+
 		-- If 4 of 5 systems have been conquered, the last planet stages the end game.
 		if not found and conquered_count == 4 then
 			for planet, was_conquered in pairs(planet_table) do
-				if not was_conquered then 
+				if not was_conquered then
 					final_planet = planet
 					found = true
 				end
 			end
 		end
-		
+
 		if found and final_planet.Is_Planet_Destroyed() and conquered_count == 5 then
 			Story_Event("Win_GC_Death_Star")
 			ScriptExit()

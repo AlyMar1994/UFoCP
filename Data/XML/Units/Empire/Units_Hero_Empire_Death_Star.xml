@@ -53,8 +53,7 @@
 			Victory_Destroyer
 		</Space_Escort_Unit_Types>
 		<Behavior>
-			DUMMY_STARSHIP,
-			DUMMY_CANT_PATHFIND
+			DUMMY_STARSHIP
 		</Behavior>
 		<GalacticBehavior>SELECTABLE</GalacticBehavior>
 		<!-- Death Star needs IDLE so that it can play it's attack anim for some strange reason -->

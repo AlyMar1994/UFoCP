@@ -48,13 +48,13 @@ require("PGStoryMode")
 function Definitions()
 
 	DebugMessage("%s -- In Definitions", tostring(Script))
-	
-	StoryModeEvents = 
+
+	StoryModeEvents =
 	{
 		Rebel_A2_M04_Begin = State_Rebel_A2_M04_Begin
 		,Rebel_A2_M04_All_Shuttles_Rescued_03 = State_End_Cinematic_Camera
 	}
-	
+
 	convoy_escort_type = {
 		"ACCLAMATOR_ASSAULT_SHIP",
 		"TIE_FIGHTER_SQUADRON",
@@ -71,7 +71,7 @@ function Definitions()
 		"TIE_FIGHTER_SQUADRON",
 		"TIE_FIGHTER_SQUADRON"
 	}
-	
+
 	-- these are markers in the layout where the ships will be spawned.
 	convoy_escort_markers = {
 		"capital4",
@@ -89,7 +89,7 @@ function Definitions()
 		"tiefighter24",
 		"tiefighter25"
 	}
-	
+
 	shuttle_markers = {
 		"shuttletyderium2",
 		"shuttletyderium3",
@@ -103,7 +103,7 @@ function Definitions()
 		"shuttletyderium2",
 		"cruiser22"
 	}
-	
+
 	star_destoyers = {
 		"VICTORY_DESTROYER"
 		,"VICTORY_DESTROYER"
@@ -114,22 +114,22 @@ function Definitions()
 	shuttles_rescued = 0
 	total_shuttles = 6
 	player_notified = 0
-	
+
 	counter_shuttle_needs_rescue = 1
 	counter_shuttles_disabled = 0
-		    
+
 	-- For memory pool cleanup hints
 	unit = nil
-	new_units = nil	
+	new_units = nil
 	convoy_escorts = nil
 	star_destroyers = nil
 	sundered_heart = nil
-	
+
 	flag_all_shuttles_disabled = false
 	flag_mission_over = false
-	
+
 	fog_id = nil
-	
+
 end
 
 function State_Rebel_A2_M04_Begin(message)
@@ -152,12 +152,12 @@ function State_Rebel_A2_M04_Begin(message)
 		waypoint8 = Find_Hint("GENERIC_MARKER_SPACE", "waypoint8")
 		waypoint9 = Find_Hint("GENERIC_MARKER_SPACE", "waypoint9")
 		destroyer_arrival = Find_Hint("GENERIC_MARKER_SPACE", "cruiser17")
-		
+
 		if not waypoint1 or not waypoint2 or not waypoint3 or not waypoint4 or not waypoint4a or not waypoint5 or not waypoint6 or not waypoint7 or not waypoint7a or not waypoint8 or not waypoint9 then
 			MessageBox("Error - Could not find all waypoint markers.")
 			return
 		end
-		
+
 -- Get Empire & Rebel Owners
 
 		empire = Find_Player("Empire")
@@ -180,7 +180,7 @@ function State_Rebel_A2_M04_Begin(message)
 				unit.Move_To(waypoint1)
 				Register_Death_Event(unit,Shuttle_Destroyed)
 			end
-		end		
+		end
 
 -- Spawn the escorting convoy ships
 
@@ -200,7 +200,7 @@ function State_Rebel_A2_M04_Begin(message)
 					unit.Guard_Target(Find_Nearest(unit,"SHUTTLE_TYDERIUM_PRISONERS"))
 					unit.Override_Max_Speed(1)
 					-- max speed is 2.2 normally
-					
+
 				else
 					unit.Move_To(waypoint1)
 				end
@@ -222,7 +222,7 @@ function State_Rebel_A2_M04_Begin(message)
 		Register_Prox(waypoint7a, Prox_Waypoint, prox_range, empire)
 		Register_Prox(waypoint8, Prox_Waypoint, prox_range, empire)
 		Register_Prox(waypoint9, Prox_Final_Waypoint, 200, empire)
-		
+
 -- wait a while, then spawn a star destroyer to wipe out incautious rebels. Also set up service call timer.
 
 		Register_Timer(Spawn_Star_Destroyers,120)
@@ -247,54 +247,54 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 
 function Intro_Cinematic()
-	
+
 -- Lock out controls for intro cinematic and reveal FOW
 
 	Suspend_AI(1)
 	Lock_Controls(1)
 	Letter_Box_In(0)
-	
+
 	Point_Camera_At(sundered_heart)
-	
+
 -- now find a shuttle to point the camera at
 
 	shuttle = Find_Hint("GENERIC_MARKER_SPACE", "shuttletyderium9")
-	
+
 	Start_Cinematic_Camera()
 	Sleep(3)
 	Fade_Screen_In(2)
-	
+
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Set_Cinematic_Camera_Key(shuttle, 800, -4, -55, 1, 0, 1, 0)
-	
+
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
-	Set_Cinematic_Target_Key(shuttle, 100, 0, 50, 0, 0, 0, 0) 
-	
+	Set_Cinematic_Target_Key(shuttle, 100, 0, 50, 0, 0, 0, 0)
+
 	Transition_Cinematic_Camera_Key(shuttle, 5, 800, -2, -55, 1, 0, 1, 0)
-	
-	
+
+
 	Sleep (1)
 	Story_Event("M04_INTRO_DIALOG_01_GO")
 	Sleep (4)
 	--Fade_Screen_Out(.5)
 	--Sleep(.5)
-	Set_Cinematic_Camera_Key(shuttle, 2000, 5, -60, 1, 0, 1, 0) 
+	Set_Cinematic_Camera_Key(shuttle, 2000, 5, -60, 1, 0, 1, 0)
 	--Fade_Screen_In(.5)
-	
-	
-	
+
+
+
 	Sleep(5)
 	Fade_Screen_Out(.5)
 	Sleep(.5)
 	Transition_To_Tactical_Camera(0)
 	End_Cinematic_Camera()
-	Letter_Box_Out(.5)	
+	Letter_Box_Out(.5)
 	Lock_Controls(0)
 	Suspend_AI(0)
 	Point_Camera_At(sundered_heart)
 	Fade_Screen_In(.5)
 	Story_Event("M04_INTRO_DIALOG_02_GO")
-	
+
 end
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -303,46 +303,46 @@ end
 
 
 function Ending_Cinematic()
-	
+
 -- Lock out controls for intro cinematic and reveal FOW
 	Sleep (2)
 
-	Cancel_Fast_Forward() 
+	Cancel_Fast_Forward()
 	Story_Event("ALL_SHUTTLES_RESCUED")
 	Fade_Screen_Out(.5)
 	Suspend_AI(1)
 	Lock_Controls(1)
 	Letter_Box_In(0)
-	
+
 -- Ensure Antilles is still present for this cinematic
 
 	if not sundered_heart then
 		return
 	end
-	
+
 	warp_loc = Find_Hint("GENERIC_MARKER_SPACE", "warploc")
 	exit_pos = Find_Hint("ATTACKER ENTRY POSITION", "attacker-entry")
-		
+
 	Start_Cinematic_Camera()
 	Fade_Screen_In(2)
-	
+
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Set_Cinematic_Camera_Key(warp_loc, 1000, -10, 60, 1, 0, 1, 0)
-	
+
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
-	Set_Cinematic_Target_Key(warp_loc, -20, 0, 0, 0, 0, 0, 0) 
-	
-	
+	Set_Cinematic_Target_Key(warp_loc, -20, 0, 0, 0, 0, 0, 0)
+
+
 	-- Transition_Cinematic_Camera_Key(target_pos, time, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Transition_Cinematic_Camera_Key(warp_loc, 7, 600, 2.5, 110, 1, 0, 1, 0)
 	Transition_Cinematic_Camera_Key(warp_loc, 7, 600, 17, 160, 1, 0, 1, 0)
-	
+
 	rebel = Find_Player("Rebel")
 	unit_list = Find_All_Objects_Of_Type(rebel)
 	for i, unit in pairs(unit_list) do
 		unit.Set_Selectable(false)
 	end
-		
+
 	Start_Cinematic_Space_Retreat(rebel.Get_ID(), 8)
 	Sleep(12)
 	--End_Cinematic_Camera()
@@ -354,7 +354,7 @@ function State_End_Cinematic_Camera(message)
 		Sleep(2)
 		End_Cinematic_Camera()
 	end
-end 
+end
 
 -- Move the convoy along the waypoint paths
 
@@ -453,7 +453,7 @@ function Shuttle_Needs_Rescue(unit)
 			Story_Event("SHUTTLE_NEEDS_RESCUE_2")
 			counter_shuttle_needs_rescue = counter_shuttle_needs_rescue + 1
 		end
-		
+
 	end
 end
 
@@ -480,7 +480,7 @@ function Story_Mode_Service()
 	if not start_service_calls then
 		return
 	end
-	
+
 -- If the user hasn't enough Y-Wings and there are still shuttles left to disable, end the mission
 
 	if not flag_all_shuttles_disabled then
@@ -509,7 +509,7 @@ function Story_Mode_Service()
 				unit.Highlight(true)
 				Register_Prox(unit, Prox_Shuttle_Rescue, 75, rebel)
 				Register_Timer(Shuttle_Needs_Rescue,15,unit)
-				
+
 				if counter_shuttles_disabled == 0 then
 					counter_shuttles_disabled = counter_shuttles_disabled + 1
 					Story_Event("SHUTTLE_DISABLED1")
@@ -521,14 +521,14 @@ function Story_Mode_Service()
 					Story_Event("SHUTTLE_DISABLED3")
 				elseif counter_shuttles_disabled == 3 then
 					counter_shuttles_disabled = counter_shuttles_disabled + 1
-					Story_Event("SHUTTLE_DISABLED4")	
+					Story_Event("SHUTTLE_DISABLED4")
 				else
 					counter_shuttles_disabled = counter_shuttles_disabled + 1
 				end
-				
+
 				if counter_shuttles_disabled == 6 then
 					-- turn off y-wing loss condition here
-					--MessageBox("All 6 shuttles disabled--turning off y-wing lose condition")
+					DebugMessage("All 6 shuttles disabled--turning off y-wing lose condition")
 					Story_Event("CANCEL_NOT_ENOUGH_YWINGS")
 					flag_all_shuttles_disabled = true
 				end
@@ -540,8 +540,8 @@ end
 
 function Handle_Shuttle_Rescue_Thread(shuttle_obj)
 
-	shuttles_rescued = shuttles_rescued + 1	
-	
+	shuttles_rescued = shuttles_rescued + 1
+
 -- Check if the appropriate amount of shuttles has been met for collection
 
 	if shuttles_rescued >= total_shuttles then
@@ -556,14 +556,14 @@ function Handle_Shuttle_Rescue_Thread(shuttle_obj)
 	elseif shuttles_rescued == 4 then
 			Story_Event("4_SHUTTLES_RESCUED")
 	elseif shuttles_rescued == 5 then
-			Story_Event("5_SHUTTLES_RESCUED") 
+			Story_Event("5_SHUTTLES_RESCUED")
 	end
 
 	shuttle_obj.Highlight(false)
 	shuttle_obj.Make_Invulnerable(true)
 	shuttle_obj.Prevent_AI_Usage(true)
 	shuttle_obj.Prevent_All_Fire(true)
-	
+
 	--Play a rescue effect for player feedback and wait for it to finish before removing the shuttle
 	shuttle_obj.Attach_Particle_Effect("Rescue_Effect")
 	Sleep(1)
@@ -574,8 +574,8 @@ function Handle_Shuttle_Rescue_Thread(shuttle_obj)
 	shuttle_obj.Move_To(rescued_shuttle_goto)
 	shuttle_obj.Hide(true)
 	shuttle_obj.Stop()
-	
-	
+
+
 	--below will not work unless we can cancel the death event
 	--shuttle_obj.Change_Owner(neutral_player)
 	--shuttle_obj.Despawn()
