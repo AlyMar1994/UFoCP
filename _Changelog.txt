@@ -47,14 +47,14 @@ v2.3.0.XXX (XX-13-2026) [FoC v1.121.859328]
 UFCP:
 ======
 ENHANCEMENTS:
-• UFCP has merged with cha20202's "EAW Campaigns & Conquests to FOC Conversion", to restore bugfixed versions of the EaW GCs and story campaigns.  UFCP was already moderately predisposed to be backwards compatible with EaW due to certain compatibility changes, and this merging fully completes it (as far as we know).  A selection of bugfixes include:
+• UFCP has merged with cha20202's "EAW Campaigns & Conquests to FOC Conversion" to restore bugfixed versions of the EaW GCs and story campaigns.  UFCP was already moderately predisposed to be backwards compatible with EaW due to certain compatibility changes, and this merging fully completes it (as far as we know).  A selection of bugfixes include:
 •• Fixed Land Alderaan's Pirate Base location has been moved to prevent units getting stuck on the terrain.
 •• Fixed various Rebel campaign oddities, collision issues and script bugs.
 •• Fixed various Empire campaign oddities, collision issues and script bugs.
-•• Fixed the Empire AI in the Rebel campaign teching up prematurely by buying Research Facilities.
-•• Fixed the Empire AI breaking the Rebel campaign story script by trying to obliterate Yavin IV as fast as possible instead of pausing for dramatic effect during Rebel mission #11 ("Attack on the Death Star").
 •• Darth Vader was added into Rebel mission #11 ("Attack on the Death Star").  This is because it is cool.
-•• Fixed GC win videos not playing after completing a win condition.
+•• Fixed GC win videos not playing after completing a win condition (for both story and normal Galactic Conquests).
+
+• B-wings and TIE defenders no longer use the Y-wing or TIE bomber model when summoned for bombing runs, respectively.  They now use their own models. (BUG #777)
 ======
 
 
