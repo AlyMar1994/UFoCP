@@ -20,43 +20,6 @@
 
 Thank you for downloading the Unofficial Forces of Corruption Patch!
 
-v2.2.0.1520 brings with it a host of new text fixes, various enhancements and MP
-stability improvements.  This update was a bit of a doozy - so much (given some last-
-minute bug requests) that I decided to hold off of publishing v2.2.0 on May 13th until
-June.
-
-MP stability should be greatly improved for Steam users.  More assertions were fixed, and
-various objects are now removed upon death so they don't keep bogging down the network. In
-addition, some maps (for both GC and Skirmish) are now net-positive in network performance,
-as certain map props were switched out with MP-friendly versions.
-
-On the enhancement side of things, Rogue Squadron has been rebalanced - ever since UFCP's
-initial release, Rogue Squad has been derided as one of the worst performing units in the
-Hero roster.  Now, they initially operate more similarly to Darth Vader & Black Squadron,
-with Wedge being a powerful and tanky frontman for the high-damage and tanky wingmen.
-Their abilities - Strike! and Lock S-Foils - have also been rebalanced.  Strike! no longer
-gives all-round benefits, and each ability now only improves one area.  Strike! deals better
-damage, firing speed and shield regen, while Lock S-Foils is now a better version of the
-standard X-wing ability and increase speed multiplicatively.
-Remember to bring corvettes!
-
-Also of note are completely redone EaW/FoC game logos, which include special, fanmade,
-localized versions (by yours truly) in Italian and Spanish (which were initially
-included in vanilla), Polish, Russian, Japanese and Ukrainian.  The Japanese and
-Ukrainian ones will require some file renaming to work.  This push was to get rid of
-the AI-upscaled game logos that we were initially using - while AI-upscaling isn't seen
-as bad as AI-generation, we wanted to avoid the trouble overall.  The localized logos
-were also added since they are a popular change in translation mods (such as the Korean,
-Chinese and Ukrainian translations) - I was already creating a template to try and match
-the official logos as close as possible, I figured that it'd be a nice gift to those who
-lament having to constantly see English (especially if they don't use the Latin alphabet).
-
-There's a ton in this update so I'm not going to go into more detail here, see the
-changelog.  However, it's worth noting that the official Petroglyph update (in 2016) that
-improved the game's grass shaders have been removed.  While having them cast shadows and be
-visible underwater was a treat, it broke skybox rendering.  See the GitHub for more details,
-it looked **really bad!**  We don't like reverting official changes, but it's an unfortunate
-situation.
 
 Known issues are recorded on the GitHub, hopefully to be solved for the upcoming patches.
 If you find any bugs or have anything to report or ask for, make sure to visit the GitHub!
@@ -112,6 +75,9 @@ Texturing:
 -- UV_CrusaderClassCorvette.dds - Inspiration for new team coloring
 -- NV_IPV1.dds - Inspiration for new team coloring
 -- I_Minimap_Empire_Dock.tga - Minimap icon for the drydock props
+
+- cha20202
+-- I_Button_Mustafarian.tga - Tooltip icon for Mustafarians
 
 - Galyana
 -- NV_IPV1.dds - Inspiration for new team coloring
