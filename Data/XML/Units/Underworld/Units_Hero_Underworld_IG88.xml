@@ -294,6 +294,7 @@
 		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.20</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>0.20</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Max_Flight_Distance>1000.0</Projectile_Max_Flight_Distance> <!-- AM1994: it's 1000 on his hardpoint??? -->
 
 		<Fire_Inaccuracy_Distance>Fighter, 5.00</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 5.00</Fire_Inaccuracy_Distance>
@@ -328,7 +329,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_IG88</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_IG88</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_IG88</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_Pirate_Ship_Laser_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_IG2000_Fire</SFXEvent_Fire>
 		<SFXEvent_Group_Move>Unit_Group_Move_IG88</SFXEvent_Group_Move>
 		<SFXEvent_Group_Attack>Unit_Group_Attack_IG88</SFXEvent_Group_Attack>
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_IG88</SFXEvent_Health_Low_Warning>
