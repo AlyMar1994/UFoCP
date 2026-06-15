@@ -58,6 +58,14 @@ Scripting:
 - __pox__
 -- Extra info regarding Flush_G() and clearing loaded global tables.
 
+- cha20202
+-- Script reworks to re-enable the EaW GCs and story campaigns.
+
+- galyana
+-- ObjectScript_Interdictor - Improved AI script enabling the and improve Missile Shield usage.
+-- ObjectScript_MissileShield - Improved AI script improving Missile Shield usage.
+-- ObjectScript_SensorJamming - New AI script enabling the Sensor Jamming ability for AI and autofire.
+
 
 Text:
 - Jorritkarwehr & arch_fallen
