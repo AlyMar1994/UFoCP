@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Story>
 <!-- Mission start setup -->
-
 	<Event Name="Rebel_A3_M08_Begin">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>.5</Event_Param1>
@@ -330,7 +329,7 @@ Boba Fett: You won't escape this time! -->
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_32</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_32</Reward_Param8>
-		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Rebel_A3_M08_Boba_Finds_Han_00</Prereq>
 	</Event>

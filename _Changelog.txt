@@ -63,6 +63,10 @@ Map/Planet Fixes:
 • Land Korriban did not have a base shield generator position marker, which broke Shield Generator placement. (BUG #778)
 
 
+Script/Story Fixes:
+• Rebel campaign mission #7 ("Needle in a Haystack") had a scripting error where upon Boba Fett finding Han Solo, Solo would ask Chewie who that bozo is; but for some reason, Solo's hologram was programmed to use the Station Commander's Moff hologram instead of his own. (BUG #785)
+
+
 Unit Fixes:
 • Indigenous Mustafarians (who inhabit a magma planet) used the generic arctic human icon in their encyclopedia tooltip. (BUG #739) (Thanks, cha20202!)
 • Various Hero abilities were inconsistent in what units they applied to (for example, despite tooltips claiming abilities applied to "all units," some wouldn't apply to bombers and unit transports while others would).  In addition, some Hero abilities (such as Thrawn's Fleet Commander bonuses) didn't apply its speed buff to fighters due to issues with the units' "containers."  These have been universally fixed. (BUG #792)
