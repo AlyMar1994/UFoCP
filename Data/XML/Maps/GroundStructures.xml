@@ -2971,6 +2971,7 @@
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Behavior>SELECTABLE, UNIT_AI</Behavior>
 		<LandBehavior>IDLE, LAND_OBSTACLE, SPACE_OBSTACLE, REVEAL</LandBehavior>
+		<Icon_Name>i_button_bunker.tga</Icon_Name>
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
