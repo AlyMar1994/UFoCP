@@ -47,15 +47,20 @@ v2.3.0.XXX (XX-13-2026) [FoC v1.121.859328]
 UFCP:
 ======
 ENHANCEMENTS:
-• UFCP has merged with cha20202's "EAW Campaigns & Conquests to FOC Conversion" to restore bugfixed versions of the EaW GCs and story campaigns.  UFCP was already moderately predisposed to be backwards compatible with EaW due to certain compatibility changes, and this merging fully completes it (as far as we know).  A selection of bugfixes include:
+• UFCP has merged with cha20202's "EAW Campaigns & Conquests to FOC Conversion" to restore bugfixed versions of the EaW GCs and story campaigns.  UFCP was already moderately predisposed to be backwards compatible with EaW due to certain compatibility changes, and this merging fully completes it (as far as we know).  A selection of changes include: (BUG #247)
 •• Fixed Land Alderaan's Pirate Base location has been moved to prevent units getting stuck on the terrain.
 •• Fixed various Rebel campaign oddities, collision issues and script bugs.
 •• Fixed various Empire campaign oddities, collision issues and script bugs.
 •• Darth Vader was added into Rebel mission #11 ("Attack on the Death Star").  This is because it is cool.
 •• Fixed GC win videos not playing after completing a win condition (for both story and normal Galactic Conquests).
+•• Added "alternate history" versions of EaW/FoC's GC campaigns.  FoC campaigns (such as Equal Footing, or Clusters) have received variants where you can play with EaW Heroes instead of FoC ones, with the option of "upgrading" Vader from his starfighter squadron to the Executor by purchasing him like normal.  EaW campaigns have received the same treatment, with variants with FoC Heroes.  Unfortunately, due to engine limitations, the original Death Star has not been re-enabled for the EaW GCs, though the DS2 can still be built like normal and operates the same way.
 
 • B-wings and TIE defenders no longer use the Y-wing or TIE bomber model when summoned for bombing runs, respectively.  They now use their own models - in addition, TIE defenders are now capable of triggering bombing runs from orbit (where before they couldn't, unlike the B-wing). (BUG #777)
 ======
+
+
+Interface Fixes:
+• The SPMA-T Artillery's command bar icon was not centered.  Yes, it was annoying. (BUG #782)
 
 
 Map/Planet Fixes:
@@ -64,7 +69,7 @@ Map/Planet Fixes:
 
 
 Script/Story Fixes:
-• Rebel campaign mission #7 ("Needle in a Haystack") had a scripting error where upon Boba Fett finding Han Solo, Solo would ask Chewie who that bozo is; but for some reason, Solo's hologram was programmed to use the Station Commander's Moff hologram instead of his own. (BUG #785)
+• Rebel campaign mission #7 ("Needle in a Haystack") had a scripting error where upon Boba Fett finding Han Solo, Solo would ask Chewie who that bozo is; but for some reason, Solo's hologram was programmed to use the Station Commander's Moff hologram instead of his own. (BUG #785) (Thanks, cha20202!)
 
 
 Unit Fixes:
@@ -73,7 +78,7 @@ Unit Fixes:
 
 
 Upgrade Fixes:
-• Various Space and Land upgrades were inconsistent in what units they applied to (for example, despite tooltips claiming abilities applied to "all units," some wouldn't apply to Skirmish Pirate units, or Heroes while others would).  In addition, speed enhancing upgrades didn't properly apply their speed buffs to fighters due to issues with the units' "containers."  These have been universally fixed. (BUG #794)
+• Various Space and Land upgrades were inconsistent in what units they applied to (for example, despite tooltips claiming abilities applied to "all units," some wouldn't apply to Skirmish Pirate units, or Heroes while others would).  In addition, speed enhancing upgrades didn't properly apply their speed buffs to fighters due to issues with the units' "containers" (the icon that "owned" the squadron).  These have been universally fixed. (BUG #794)
 
 
 
