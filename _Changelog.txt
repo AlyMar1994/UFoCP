@@ -59,6 +59,10 @@ ENHANCEMENTS:
 ======
 
 
+AI Fixes:
+• The Space Combat AI would typically not properly use (or use at all) the Missile Shield, Interdict or Sensor Jamming abilities.  A handful of changes have been made to ensure the AI can use these abilities properly. In addition, the Crusader Gunship's Point-Laser Defense, Skipray Blastboat and Bossk's Sensor Jamming, and the Arc Hammer's Missile Shield now support autofiring. (BUG #774)
+
+
 Interface Fixes:
 • The SPMA-T Artillery's command bar icon was not centered.  Yes, it was annoying. (BUG #782)
 • The Imperial Observation Bunker used in Empire campaign mission #7 ("A New Weapon of War") and Rebel campaign mission #9 ("Handle with Care!") didn't have a tooltip icon.  It was likely that EaW didn't ship with one - however, the model was reused as the Imperial infantry bunker in Skirmish, which did receive an icon, and it has been applied to the Observation Bunker. (BUG #786)

@@ -69,6 +69,7 @@
 
 		<Behavior>ABILITY_COUNTDOWN, DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, TARGETING, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -132,9 +133,8 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Score_Cost_Credits>1250</Score_Cost_Credits>
 		<Population_Value>2</Population_Value>
-		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
 
-		<!-- Non-Hero unit abilities description -->
+		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>LASER_DEFENSE</Type>
@@ -144,7 +144,7 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Laser_Defense_On_Crusader</SFXEvent_GUI_Unit_Ability_Activated> <!--(by pressing the activate button)-->
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Laser_Defense_Off_Crusader</SFXEvent_GUI_Unit_Ability_Deactivated> <!--(by pressing deactivate)-->
 				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-				<Supports_Autofire>False</Supports_Autofire>
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 

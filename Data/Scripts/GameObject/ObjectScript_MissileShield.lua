@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/GameObject/ObjectScript_MissileShield.lua#1 $
+-- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/GameObject/ObjectScript_MissileShield.lua#2 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,17 +25,17 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Steam/FOC/Run/Data/Scripts/GameObject/ObjectScript_MissileShield.lua $
+--              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/GameObject/ObjectScript_MissileShield.lua $
 --
 --    Original Author: James Yarrow
 --
---            $Author: Brian_Hayes $
+--            $Author: James_Yarrow $
 --
---            $Change: 637819 $
+--            $Change: 51104 $
 --
---          $DateTime: 2017/03/22 10:16:16 $
+--          $DateTime: 2006/08/10 18:18:02 $
 --
---          $Revision: #1 $
+--          $Revision: #2 $
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -74,19 +74,26 @@ function State_AI_Autofire(message)
 			if TestValid(enemy) then
 				projectile_types = enemy.Get_All_Projectile_Types()
 				for _, projectile in pairs(projectile_types) do
-					if projectile.Is_Affected_By_Missile_Shield() then
+					if projectile.Is_Affected_By_Missile_Shield() or projectile.Is_Affected_By_Laser_Defense() then
 						Object.Activate_Ability(ability_name, true)
+						if Get_Game_Mode() == "Space" then
+							Register_Timer(Cancel_Missile_Shield, 90)
+						end
 						return
 					end
 				end
 			end
 		end
 
-		--Land units can change hands
+		-- Land units can change hands
 		if Object.Get_Owner().Is_Human() then
 			Set_Next_State("State_Human_No_Autofire")
 		end
 	end
+end
+
+function Cancel_Missile_Shield()
+	Object.Activate_Ability(ability_name, false)
 end
 
 function State_Human_No_Autofire(message)
@@ -106,7 +113,7 @@ function State_Human_Autofire(message)
 					projectile_types = enemy.Get_All_Projectile_Types()
 					if projectile_types then
 						for _, projectile in pairs(projectile_types) do
-							if projectile.Is_Affected_By_Missile_Shield() then
+							if projectile.Is_Affected_By_Missile_Shield() or projectile.Is_Affected_By_Laser_Defense() then
 								Object.Activate_Ability(ability_name, true)
 								return
 							end

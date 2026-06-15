@@ -244,6 +244,7 @@
 		<Behavior>DUMMY_STARSHIP, TRANSPORT, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, NEBULA, SELECTABLE</SpaceBehavior>
 		<LandBehavior>REVEAL, HIDE_WHEN_FOGGED, IDLE</LandBehavior>
+		<Lua_Script>ObjectScript_SensorJamming</Lua_Script>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Hover_Offset>30.0</Hover_Offset>
 
@@ -316,8 +317,6 @@
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<Lua_Script />
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
@@ -325,6 +324,7 @@
 				<Recharge_Seconds>75.0</Recharge_Seconds>
 				<Expiration_Seconds>30.0</Expiration_Seconds>
 				<Effective_Radius>900.0</Effective_Radius>
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 

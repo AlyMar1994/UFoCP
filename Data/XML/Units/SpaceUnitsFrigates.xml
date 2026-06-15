@@ -842,7 +842,7 @@
 
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
-		<Lua_Script>Interdictor</Lua_Script>
+		<Lua_Script>ObjectScript_Interdictor</Lua_Script>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
@@ -915,7 +915,6 @@
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 
 		<Tactical_Bribe_Cost>2000</Tactical_Bribe_Cost>
-		<Lua_Script>ObjectScript_MissileShield</Lua_Script>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">

@@ -135,6 +135,7 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Jam_Sensors_On_Skipray</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Jam_Sensors_Off_Skipray</SFXEvent_GUI_Unit_Ability_Deactivated>
 				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -218,6 +219,7 @@
 				<Expiration_Seconds>30.0</Expiration_Seconds>
 				<Effective_Radius>300.0</Effective_Radius>
 				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -250,6 +252,7 @@
 			REVEAL,
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
+		<Lua_Script>ObjectScript_SensorJamming</Lua_Script>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<Formation_Priority>2</Formation_Priority>
@@ -290,6 +293,7 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Jam_Sensors_On_Skipray</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Jam_Sensors_Off_Skipray</SFXEvent_GUI_Unit_Ability_Deactivated>
 				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 

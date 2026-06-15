@@ -901,6 +901,7 @@
 
 		<Behavior>SELECTABLE, DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Lua_Script>ObjectScript_MissileShield</Lua_Script>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
@@ -993,6 +994,7 @@
 				<Expiration_Seconds>20</Expiration_Seconds>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Shield_Arc_Hammer</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
