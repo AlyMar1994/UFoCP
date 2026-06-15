@@ -65,8 +65,8 @@
 
 		<Starting_Active_Player>Underworld</Starting_Active_Player>
 
-		<Rebel_Story_Name></Rebel_Story_Name>
-		<Empire_Story_Name></Empire_Story_Name>
+		<Rebel_Story_Name />
+		<Empire_Story_Name />
 		<Underworld_Story_Name>Story_Plots_Universal_Triggers_U.xml</Underworld_Story_Name>
 
 		<AI_Player_Control>Empire, None</AI_Player_Control>
@@ -295,8 +295,8 @@
 
 		<Starting_Active_Player>Underworld</Starting_Active_Player>
 
-		<Rebel_Story_Name></Rebel_Story_Name>
-		<Empire_Story_Name></Empire_Story_Name>
+		<Rebel_Story_Name />
+		<Empire_Story_Name />
 		<Underworld_Story_Name>Story_Plots_Universal_Triggers_U.xml</Underworld_Story_Name>
 
 		<AI_Player_Control>Empire, None</AI_Player_Control>
@@ -307,7 +307,7 @@
 		<Markup_Filename>Empire, AlderaansDemiseHints</Markup_Filename>
 		<Markup_Filename>Pirates, AlderaansDemiseHints</Markup_Filename>
 		<Markup_Filename>Rebel, AlderaansDemiseHints</Markup_Filename>
--->
+		-->
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
 
@@ -477,7 +477,7 @@
 			Ryloth, Saleucami, Shola, Sullust, Taris, Tatooine, The_Maw, Thyferra, Utapau,
 			VergessoAsteroids, Wayland, Yavin</Locations>
 
-		<Trade_Routes></Trade_Routes>
+		<Trade_Routes />
 
 		<Home_Location>Rebel, Hoth</Home_Location>
 		<Home_Location>Empire, Coruscant</Home_Location>
@@ -485,9 +485,9 @@
 
 		<Starting_Active_Player>Underworld</Starting_Active_Player>
 
-		<Rebel_Story_Name></Rebel_Story_Name>
-		<Empire_Story_Name></Empire_Story_Name>
-		<Underworld_Story_Name></Underworld_Story_Name>
+		<Rebel_Story_Name />
+		<Empire_Story_Name />
+		<Underworld_Story_Name />
 
 		<AI_Player_Control>Empire, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, None</AI_Player_Control>
@@ -635,7 +635,7 @@
 			Ryloth, Saleucami, Shola, Sullust, Taris, Tatooine, The_Maw, Thyferra, Utapau,
 			VergessoAsteroids, Wayland, Yavin</Locations>
 
-		<Trade_Routes></Trade_Routes>
+		<Trade_Routes />
 
 		<Home_Location>Rebel, Hoth</Home_Location>
 		<Home_Location>Empire, Coruscant</Home_Location>
@@ -643,9 +643,9 @@
 
 		<Starting_Active_Player>Rebel</Starting_Active_Player>
 
-		<Rebel_Story_Name></Rebel_Story_Name>
-		<Empire_Story_Name></Empire_Story_Name>
-		<Underworld_Story_Name></Underworld_Story_Name>
+		<Rebel_Story_Name />
+		<Empire_Story_Name />
+		<Underworld_Story_Name />
 
 		<AI_Player_Control>Empire, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
@@ -793,7 +793,7 @@
 			Ryloth, Saleucami, Shola, Sullust, Taris, Tatooine, The_Maw, Thyferra, Utapau,
 			VergessoAsteroids, Wayland, Yavin</Locations>
 
-		<Trade_Routes></Trade_Routes>
+		<Trade_Routes />
 
 		<Home_Location>Rebel, Hoth</Home_Location>
 		<Home_Location>Empire, Coruscant</Home_Location>
@@ -801,9 +801,9 @@
 
 		<Starting_Active_Player>Empire</Starting_Active_Player>
 
-		<Rebel_Story_Name></Rebel_Story_Name>
-		<Empire_Story_Name></Empire_Story_Name>
-		<Underworld_Story_Name></Underworld_Story_Name>
+		<Rebel_Story_Name />
+		<Empire_Story_Name />
+		<Underworld_Story_Name />
 
 		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 		<AI_Player_Control>Rebel, None</AI_Player_Control>
