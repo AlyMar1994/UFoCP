@@ -4,7 +4,7 @@
 
 	<File>TechBuilding.xml</File> <!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
 	<File>GroundBases.xml</File>
-	<File>GroundStructures.xml</File>
+	<File>Maps\GroundStructures.xml</File>
 	<File>Maps\GroundTurrets.xml</File>
 	<File>Units\GroundInfantry.xml</File>
 	<File>Units\GroundVehicles.xml</File>
