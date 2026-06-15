@@ -1,10 +1,5 @@
-<?xml version="1.0" ?>
-
-
-
+<?xml version="1.0"?>
 <Story>
-
-
 <!-- Mission start setup -->
 
 	<Event Name="Rebel_A3_M08_Begin">
@@ -50,30 +45,30 @@
 		<Event_Param2>4</Event_Param2>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_14</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_14</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Rebel_A3_M08_Begin</Prereq>
 	</Event>
-	
+
 			<Event Name="Rebel_A3_M08_Mission_Intro_Dialog_00_Remove_Text">
 				<Event_Type>STORY_SPEECH_DONE</Event_Type>
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_14</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_14</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Mission_Intro_Dialog_00</Prereq>
 			</Event>
 
 			<Event Name="Rebel_A3_M08_Mission_Intro_Dialog_00_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_Mission_Intro_Dialog_00_Remove_Text</Prereq>
 			</Event>
 
-	<!-- HINT 
-	TEXT_STORY_REBEL_ACT03_MISSION_EIGHT_04 
+	<!-- HINT
+	TEXT_STORY_REBEL_ACT03_MISSION_EIGHT_04
 	Hint: Scan the cargo containers by moving close to them. -->
 	<Event Name="Rebel_A3_M08_Mission_Intro_Dialog_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -114,7 +109,7 @@
 
 
 
-<!-- Boba Fett appears on the scene 
+<!-- Boba Fett appears on the scene
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_37
 Imperial Officer: State your business, bounty hunter.
 <Branch>Falcon_Spotted_Branch</Branch>-->
@@ -126,7 +121,7 @@ Imperial Officer: State your business, bounty hunter.
 				<Reward_Param2>1</Reward_Param2>
 				<Prereq>Rebel_A3_M08_Begin</Prereq>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Boba_Appears_00_Disable_All_Falcon_Spotted_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -134,7 +129,7 @@ Imperial Officer: State your business, bounty hunter.
 				<Reward_Param2>1</Reward_Param2>
 				<Prereq>Rebel_A3_M08_Boba_Appears_00_Disable_All_Cargo_Speech</Prereq>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Boba_Appears_00_Disable_All_Scan_Complete_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -148,30 +143,30 @@ Imperial Officer: State your business, bounty hunter.
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_37</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_37</Reward_Param8>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Rebel_A3_M08_Boba_Appears_00_Disable_All_Cargo_Speech</Prereq>
 	</Event>
-	
+
 			<Event Name="Rebel_A3_M08_Boba_Appears_00_Remove_Text">
 				<Event_Type>STORY_SPEECH_DONE</Event_Type>
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_37</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_37</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Boba_Appears_00</Prereq>
 			</Event>
 
 <!-- TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_26
-Boba Fett: I'm tracking a ship that was reported in this area recently. 
+Boba Fett: I'm tracking a ship that was reported in this area recently.
  Anything suspicious to report?-->
 	<Event Name="Rebel_A3_M08_Boba_Appears_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_26</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_26</Reward_Param8>
 		<Reward_Param9>Boba_Fett_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -183,7 +178,7 @@ Boba Fett: I'm tracking a ship that was reported in this area recently.
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_26</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_26</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Boba_Appears_01</Prereq>
 			</Event>
 
@@ -193,7 +188,7 @@ Imperial Officer: Nothing, aside from the usual pirate activity.-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_27</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_27</Reward_Param8>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -205,7 +200,7 @@ Imperial Officer: Nothing, aside from the usual pirate activity.-->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_27</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_27</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Boba_Appears_02</Prereq>
 			</Event>
 
@@ -215,7 +210,7 @@ Boba Fett: I'll take a look around just to make sure.  -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_28</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_28</Reward_Param8>
 		<Reward_Param9>Boba_Fett_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -227,7 +222,7 @@ Boba Fett: I'll take a look around just to make sure.  -->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_28</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_28</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Boba_Appears_03</Prereq>
 			</Event>
 
@@ -237,7 +232,7 @@ Imperial Officer: Just make it quick.    -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_38</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_38</Reward_Param8>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -249,16 +244,16 @@ Imperial Officer: Just make it quick.    -->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_38</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_38</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Boba_Appears_04</Prereq>
 			</Event>
 
 			<Event Name="Rebel_A3_M08_Boba_Appears_04b_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_Boba_Appears_04a</Prereq>
 			</Event>
-			
+
 			<!--re-enable scan dialog-->
 			<Event Name="Rebel_A3_M08_Boba_Appears_00_Enable_All_Cargo_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
@@ -267,7 +262,7 @@ Imperial Officer: Just make it quick.    -->
 				<Reward_Param2>0</Reward_Param2>
 				<Prereq>Rebel_A3_M08_Boba_Appears_04b_Remove_Movie</Prereq>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Boba_Appears_00_Enable_All_Falcon_Spotted_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -275,7 +270,7 @@ Imperial Officer: Just make it quick.    -->
 				<Reward_Param2>0</Reward_Param2>
 				<Prereq>Rebel_A3_M08_Boba_Appears_04b_Remove_Movie</Prereq>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Boba_Appears_00_Enable_All_Scan_Complete_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -283,13 +278,13 @@ Imperial Officer: Just make it quick.    -->
 				<Reward_Param2>0</Reward_Param2>
 				<Prereq>Rebel_A3_M08_Boba_Appears_04b_Remove_Movie</Prereq>
 			</Event>
-			
-			
 
 
 
 
-<!-- Boba Fett finds Millennium Falcon 
+
+
+<!-- Boba Fett finds Millennium Falcon
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_29
 Boba Fett: You won't escape this time! -->
 			<Event Name="Rebel_A3_M08_Boba_Finds_Han_00_Disable_All_Cargo_Speech">
@@ -300,7 +295,7 @@ Boba Fett: You won't escape this time! -->
 				<Reward_Param2>1</Reward_Param2>
 				<Prereq>Rebel_A3_M08_Begin</Prereq>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Boba_Finds_Han_Disable_All_Falcon_Spotted_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -308,7 +303,7 @@ Boba Fett: You won't escape this time! -->
 				<Reward_Param2>1</Reward_Param2>
 				<Prereq>Rebel_A3_M08_Boba_Finds_Han_00_Disable_All_Cargo_Speech</Prereq>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Boba_Finds_Han_Disable_All_Scan_Complete_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -321,7 +316,7 @@ Boba Fett: You won't escape this time! -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_29</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_29</Reward_Param8>
 		<Reward_Param9>Boba_Fett_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -333,7 +328,7 @@ Boba Fett: You won't escape this time! -->
 		<Event_Param1>REBEL_ACT03_MISSION_EIGHT_29</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_32</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_32</Reward_Param8>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -344,7 +339,7 @@ Boba Fett: You won't escape this time! -->
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_29</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Boba_Finds_Han_01</Prereq>
 			</Event>
 
@@ -353,17 +348,17 @@ Boba Fett: You won't escape this time! -->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_32</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_32</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Boba_Finds_Han_01</Prereq>
 			</Event>
-			
-			
+
+
 			<Event Name="Rebel_A3_M08_Boba_Finds_Han_01b_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_Boba_Finds_Han_01b</Prereq>
 			</Event>
-			
+
 			<!--re-enable scan dialog-->
 			<Event Name="Rebel_A3_M08_Boba_Finds_Han_00_Enable_All_Cargo_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
@@ -372,7 +367,7 @@ Boba Fett: You won't escape this time! -->
 				<Reward_Param2>0</Reward_Param2>
 				<Prereq>Rebel_A3_M08_Boba_Finds_Han_01b_Remove_Movie</Prereq>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Boba_Finds_Han_Enable_All_Falcon_Spotted_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -380,7 +375,7 @@ Boba Fett: You won't escape this time! -->
 				<Reward_Param2>0</Reward_Param2>
 				<Prereq>Rebel_A3_M08_Boba_Finds_Han_00_Enable_All_Cargo_Speech</Prereq>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Boba_Finds_Han_Enable_All_Scan_Complete_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -397,7 +392,7 @@ Boba Fett: You won't escape this time! -->
 
 
 
-<!-- Millennium Falcon Detected Events 
+<!-- Millennium Falcon Detected Events
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_05
 Imperial Officer: Intruder detected!  Combat patrols investigate!  -->
 	<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_00_Disable_All_Cargo_Speech">
@@ -409,7 +404,7 @@ Imperial Officer: Intruder detected!  Combat patrols investigate!  -->
 		<Prereq>Rebel_A3_M08_Begin</Prereq>
 		<Branch>Falcon_Spotted_Branch</Branch>
 	</Event>
-			
+
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_00_Disable_Scan_Complete_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -418,19 +413,19 @@ Imperial Officer: Intruder detected!  Combat patrols investigate!  -->
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_00_Disable_All_Cargo_Speech</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="FALCON_SPOTTED1_Reset_Alarm_Message">
 				<Event_Type>STORY_ELAPSED</Event_Type>
 				<Event_Param1>15</Event_Param1>
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_00_Disable_All_Cargo_Speech</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 	<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_05</Reward_Param8>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -443,18 +438,18 @@ Imperial Officer: Intruder detected!  Combat patrols investigate!  -->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_05</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_05</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_00</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_00a_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_00a</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<!--re-enable scan dialog-->
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_00_Enable_All_Cargo_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
@@ -464,7 +459,7 @@ Imperial Officer: Intruder detected!  Combat patrols investigate!  -->
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_00a_Remove_Movie</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_00_Enable_Scan_Complete_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -476,7 +471,7 @@ Imperial Officer: Intruder detected!  Combat patrols investigate!  -->
 
 
 
-<!-- Millennium Falcon Detected Events 
+<!-- Millennium Falcon Detected Events
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_06
 Han Solo: We've been spotted again!  Quick!  Take them out!   -->
 	<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_01_Disable_All_Cargo_Speech">
@@ -488,7 +483,7 @@ Han Solo: We've been spotted again!  Quick!  Take them out!   -->
 		<Prereq>Rebel_A3_M08_Begin</Prereq>
 		<Branch>Falcon_Spotted_Branch</Branch>
 	</Event>
-			
+
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_01_Disable_Scan_Complete_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -497,19 +492,19 @@ Han Solo: We've been spotted again!  Quick!  Take them out!   -->
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_01_Disable_All_Cargo_Speech</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="FALCON_SPOTTED2_Reset_Alarm_Message">
 				<Event_Type>STORY_ELAPSED</Event_Type>
 				<Event_Param1>15</Event_Param1>
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_01_Disable_All_Cargo_Speech</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 	<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_06</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -522,18 +517,18 @@ Han Solo: We've been spotted again!  Quick!  Take them out!   -->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_06</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_06</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_01</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_01a_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_01a</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<!--re-enable scan dialog-->
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_01_Enable_All_Cargo_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
@@ -543,7 +538,7 @@ Han Solo: We've been spotted again!  Quick!  Take them out!   -->
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_01a_Remove_Movie</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_01_Enable_Scan_Complete_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -553,7 +548,7 @@ Han Solo: We've been spotted again!  Quick!  Take them out!   -->
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
 
-<!-- Millennium Falcon Detected Events 
+<!-- Millennium Falcon Detected Events
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_07
 Han Solo: We've been spotted by another patrol.  I hope no Star Destroyers show up.    -->
 	<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_02_Disable_All_Cargo_Speech">
@@ -565,7 +560,7 @@ Han Solo: We've been spotted by another patrol.  I hope no Star Destroyers show 
 		<Prereq>Rebel_A3_M08_Begin</Prereq>
 		<Branch>Falcon_Spotted_Branch</Branch>
 	</Event>
-			
+
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_02_Disable_Scan_Complete_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -574,19 +569,19 @@ Han Solo: We've been spotted by another patrol.  I hope no Star Destroyers show 
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_02_Disable_All_Cargo_Speech</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="FALCON_SPOTTED3_Reset_Alarm_Message">
 				<Event_Type>STORY_ELAPSED</Event_Type>
 				<Event_Param1>15</Event_Param1>
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_02_Disable_All_Cargo_Speech</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 	<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_07</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -599,18 +594,18 @@ Han Solo: We've been spotted by another patrol.  I hope no Star Destroyers show 
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_07</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_07</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_02</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_02a_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_02a</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<!--re-enable scan dialog-->
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_02_Enable_All_Cargo_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
@@ -620,7 +615,7 @@ Han Solo: We've been spotted by another patrol.  I hope no Star Destroyers show 
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_02a_Remove_Movie</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_02_Enable_Scan_Complete_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -631,7 +626,7 @@ Han Solo: We've been spotted by another patrol.  I hope no Star Destroyers show 
 			</Event>
 
 
-<!-- Millennium Falcon Detected Events 
+<!-- Millennium Falcon Detected Events
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_08
 Han Solo: We've been spotted again.     -->
 	<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_03_Disable_All_Cargo_Speech">
@@ -643,7 +638,7 @@ Han Solo: We've been spotted again.     -->
 		<Prereq>Rebel_A3_M08_Begin</Prereq>
 		<Branch>Falcon_Spotted_Branch</Branch>
 	</Event>
-			
+
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_03_Disable_Scan_Complete_Speech">
 				<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 				<Event_Param2>FALCON_SPOTTED4</Event_Param2>
@@ -653,19 +648,19 @@ Han Solo: We've been spotted again.     -->
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_03_Disable_All_Cargo_Speech</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="FALCON_SPOTTED4_Reset_Alarm_Message">
 				<Event_Type>STORY_ELAPSED</Event_Type>
 				<Event_Param1>15</Event_Param1>
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_03_Disable_All_Cargo_Speech</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 	<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_08</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -678,18 +673,18 @@ Han Solo: We've been spotted again.     -->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_08</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_08</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_03</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_03a_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_03a</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<!--re-enable scan dialog-->
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_03_Enable_All_Cargo_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
@@ -699,7 +694,7 @@ Han Solo: We've been spotted again.     -->
 				<Prereq>Rebel_A3_M08_We_Have_Been_Spotted_Text_03a_Remove_Movie</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_We_Have_Been_Spotted_Text_03_Enable_Scan_Complete_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -713,9 +708,9 @@ Han Solo: We've been spotted again.     -->
 
 
 
-<!-- Set the Alarm off 
+<!-- Set the Alarm off
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_10
-Han Solo: The TIE Fighter patrol has reported our presence in the system.  
+Han Solo: The TIE Fighter patrol has reported our presence in the system.
 The Empire is scrambling ships.  We better wrap this up quick.-->
 
 			<Event Name="Rebel_A3_M08_Alarm_Activated_00_Disable_All_Cargo_Speech">
@@ -727,7 +722,7 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Prereq>Rebel_A3_M08_Begin</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Alarm_Activated_00_Disable_Scan_Complete_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -736,13 +731,13 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Prereq>Rebel_A3_M08_Alarm_Activated_00_Disable_All_Cargo_Speech</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
-		
+
+
 	<Event Name="Rebel_A3_M08_Alarm_Activated_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_10</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -755,18 +750,18 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_10</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_10</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Alarm_Activated_00</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Alarm_Activated_00a_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_Alarm_Activated_00a</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<!--re-enable scan dialog-->
 			<Event Name="Rebel_A3_M08_Alarm_Activated_00_Enable_All_Cargo_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
@@ -776,7 +771,7 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Prereq>Rebel_A3_M08_Alarm_Activated_00a_Remove_Movie</Prereq>
 				<Branch>Falcon_Spotted_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Alarm_Activated_00_Enable_Scan_Complete_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -796,7 +791,7 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 <!-- Cargo Scan Speech Events -->
 
 
-	<!-- Begin scan of cargo 
+	<!-- Begin scan of cargo
 	TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_22
 	Han Solo: Ok, hold it here.  I'll start the scan… .-->
 	<Event Name="Rebel_A3_M08_Begin_Scan_00">
@@ -804,7 +799,7 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 		<Event_Param2>BEGIN_CARGO_SCAN</Event_Param2>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_22</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_22</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -818,21 +813,21 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_22</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_22</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Begin_Scan_00</Prereq>
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Begin_Scan_00a_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_Begin_Scan_00a</Prereq>
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
 			</Event>
-			
-			<!--re-set scan-complete dialog--> 
+
+			<!--re-set scan-complete dialog-->
 			<Event Name="Rebel_A3_M08_Begin_Scan_00a_Enable_Scan_Complete_Dialog">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>RESET_BRANCH</Reward_Type>
@@ -841,8 +836,8 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
 			</Event>
-	
-	<!-- Begin scan of cargo2 
+
+	<!-- Begin scan of cargo2
 	TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_45
 	Han Solo: Scanning initiated.-->
 	<Event Name="Rebel_A3_M08_BEGIN_CARGO_SCAN2">
@@ -850,7 +845,7 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 		<Event_Param2>BEGIN_CARGO_SCAN2</Event_Param2>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_45</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_45</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -864,20 +859,20 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_45</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_45</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_BEGIN_CARGO_SCAN2</Prereq>
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_BEGIN_CARGO_SCAN2_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_BEGIN_CARGO_SCAN2_Remove_Text</Prereq>
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
 			</Event>
-			
+
 			<!--re-set scan-complete dialog-->
 			<Event Name="Rebel_A3_M08_Begin_Scan_00b_Enable_Scan_Complete_Dialog">
 				<Event_Type>STORY_TRIGGER</Event_Type>
@@ -888,8 +883,8 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
 			</Event>
-			
-<!-- Begin scan of cargo3 
+
+<!-- Begin scan of cargo3
 	TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_46
 	Han Solo: Go ahead and scan Chewie.-->
 	<Event Name="Rebel_A3_M08_BEGIN_CARGO_SCAN3">
@@ -897,7 +892,7 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 		<Event_Param2>BEGIN_CARGO_SCAN3</Event_Param2>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_46</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_46</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -911,20 +906,20 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_46</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_46</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_BEGIN_CARGO_SCAN3</Prereq>
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_BEGIN_CARGO_SCAN3_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_BEGIN_CARGO_SCAN3_Remove_Text</Prereq>
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
 			</Event>
-			
+
 			<!--re-set scan-complete dialog-->
 			<Event Name="Rebel_A3_M08_Begin_Scan_00c_Enable_Scan_Complete_Dialog">
 				<Event_Type>STORY_TRIGGER</Event_Type>
@@ -935,8 +930,8 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
 			</Event>
-			
-<!-- Begin scan of cargo4 
+
+<!-- Begin scan of cargo4
 	TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_47
 	Han Solo: We're scanning.-->
 	<Event Name="Rebel_A3_M08_BEGIN_CARGO_SCAN4">
@@ -944,7 +939,7 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 		<Event_Param2>BEGIN_CARGO_SCAN4</Event_Param2>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_47</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_47</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -958,20 +953,20 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_47</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_47</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_BEGIN_CARGO_SCAN4</Prereq>
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_BEGIN_CARGO_SCAN4_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_BEGIN_CARGO_SCAN4_Remove_Text</Prereq>
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
 			</Event>
-			
+
 			<!--re-set scan-complete dialog-->
 			<Event Name="Rebel_A3_M08_Begin_Scan_00d_Enable_Scan_Complete_Dialog">
 				<Event_Type>STORY_TRIGGER</Event_Type>
@@ -982,25 +977,25 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
 			</Event>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
 
-	<!-- Cargo Scan Completed 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Cargo Scan Completed
 	TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_23
 	Han Solo: It's not in this one.  Let's keep looking Chewie.  -->
-	
+
 	<Event Name="Rebel_A3_M08_Completed_Scan_00_AI_Notification">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CARGO_SCAN_DONE</Event_Param2>
@@ -1008,13 +1003,13 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 		<!--<Perpetual>True</Perpetual>-->
 		<Branch>Scan_Complete_Dialog_Branch</Branch>
 	</Event>
-	
-	
+
+
 	<Event Name="Rebel_A3_M08_Completed_Scan_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_23</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_23</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1028,22 +1023,22 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_23</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_23</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Completed_Scan_00</Prereq>
 				<!--<Perpetual>True</Perpetual>-->
-				<Branch>Scan_Complete_Dialog_Branch</Branch>		
+				<Branch>Scan_Complete_Dialog_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Completed_Scan_00a_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_Completed_Scan_00a</Prereq>
 				<!--<Perpetual>True</Perpetual>-->
 				<Branch>Scan_Complete_Dialog_Branch</Branch>
 			</Event>
 
 
-	<!-- Cargo Scan Aborted due to movement 
+	<!-- Cargo Scan Aborted due to movement
 	TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_48
 	Han Solo: We moved to far away - we lost the scan lock.-->
 	<Event Name="Rebel_A3_M08_Aborted_Scan_00">
@@ -1051,8 +1046,8 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 		<Event_Param2>CARGO_SCAN_ABORTED</Event_Param2>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_48</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
-		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_48</Reward_Param8> 
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_48</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Rebel_A3_M08_Begin</Prereq>
@@ -1065,15 +1060,15 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_48</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_48</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Aborted_Scan_00</Prereq>
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Aborted_Scan_00a_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_Aborted_Scan_00a</Prereq>
 				<Perpetual>True</Perpetual>
 				<Branch>Scan_Dialog_Branch</Branch>
@@ -1091,7 +1086,7 @@ The Empire is scrambling ships.  We better wrap this up quick.-->
 
 
 
-<!-- WIN CONDITION: Cargo found - plant device 
+<!-- WIN CONDITION: Cargo found - plant device
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_09
 Han Solo: Looks like we've found it.  Why is it always in the last place we look?-->
 	<Event Name="Rebel_A3_M08_Cargo_Found_Text_00">
@@ -1099,22 +1094,22 @@ Han Solo: Looks like we've found it.  Why is it always in the last place we look
 		<Event_Param2>CARGO_SCANNED</Event_Param2>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
-		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_09</Reward_Param8> 
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_09</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Rebel_A3_M08_Begin</Prereq>
 	</Event>
-	
+
 			<Event Name="Rebel_A3_M08_Cargo_Found_Text_00_Remove_Text">
 				<Event_Type>STORY_SPEECH_DONE</Event_Type>
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_09</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_09</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Cargo_Found_Text_00</Prereq>
 			</Event>
-	
+
 			<Event Name="Rebel_A3_M08_Cargo_Found_Disable_All_Cargo_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -1122,7 +1117,7 @@ Han Solo: Looks like we've found it.  Why is it always in the last place we look
 				<Reward_Param2>1</Reward_Param2>
 				<Prereq>Rebel_A3_M08_Cargo_Found_Text_00</Prereq>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Cargo_Found_Disable_Falcon_Spotted_Speech">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -1145,7 +1140,7 @@ Han Solo: Looks like we've found it.  Why is it always in the last place we look
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_24</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_24</Reward_Param8>
 		<!-- movie loop continued from above-->
 		<Prereq>Rebel_A3_M08_Cargo_Found_Text_00_Remove_Text</Prereq>
@@ -1156,13 +1151,13 @@ Han Solo: Looks like we've found it.  Why is it always in the last place we look
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_24</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_24</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Cargo_Found_Text_01</Prereq>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Cargo_Found_Text_01a_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_Cargo_Found_Text_01a</Prereq>
 			</Event>
 
@@ -1180,7 +1175,7 @@ Han Solo: Looks like we've found it.  Why is it always in the last place we look
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_25</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_25</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1191,7 +1186,7 @@ Han Solo: Looks like we've found it.  Why is it always in the last place we look
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_24</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Cargo_Found_Text_02</Prereq>
 			</Event>
 
@@ -1200,13 +1195,13 @@ Han Solo: Looks like we've found it.  Why is it always in the last place we look
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_25</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_25</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_Cargo_Found_Text_02</Prereq>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Cargo_Found_Text_02b_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_Cargo_Found_Text_02b</Prereq>
 			</Event>
 
@@ -1216,14 +1211,14 @@ Han Solo: Looks like we've found it.  Why is it always in the last place we look
 				<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_EIGHT_42</Reward_Param1>
 				<Prereq>Rebel_A3_M08_Cargo_Found_Text_02</Prereq>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_Goal_05">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
 				<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_EIGHT_41</Reward_Param1>
 				<Prereq>Rebel_A3_M08_Cargo_Found_Text_02</Prereq>
 			</Event>
-			
+
 	<Event Name="Rebel_A3_M08_Disable_Falcon_Killed">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>DISABLE_FALCON_KILLED</Event_Param2>
@@ -1231,14 +1226,13 @@ Han Solo: Looks like we've found it.  Why is it always in the last place we look
 		<Reward_Param1>Rebel_A3_M08_All_Rebels_Destroyed_00</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
 	</Event>
-		
+
 	<Event Name="Rebel_A3_M08_Cargo_Found_Text_03">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>VICTORY_TRIGGER</Event_Param2>
 		<Reward_Type>VICTORY</Reward_Type>
 		<Reward_Param1>Rebel</Reward_Param1>
 	</Event>
-	
 
 
 
@@ -1247,7 +1241,8 @@ Han Solo: Looks like we've found it.  Why is it always in the last place we look
 
 
 
-<!-- WIN CONDITION: Destroy all Empire forces on map 
+
+<!-- WIN CONDITION: Destroy all Empire forces on map
 why would this be a win condition?
 	<Event Name="Rebel_A3_M08_All_Empire_Destroyed">
 		<Event_Type>STORY_CHECK_DESTROYED</Event_Type>
@@ -1264,7 +1259,7 @@ why would this be a win condition?
 
 
 <!-- REBEL VICTORY: Set Flag -->
-	
+
 	<Event Name="Rebel_A3_M08_VICTORY">
 		<Event_Type>STORY_VICTORY</Event_Type>
 		<Event_Param1>REBEL</Event_Param1>
@@ -1292,8 +1287,8 @@ TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_36
 		<Event_Param2>DESTROY_ALL</Event_Param2>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_36</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
-		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_36</Reward_Param8> 
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_36</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Rebel_A3_M08_Begin</Prereq>
@@ -1304,13 +1299,13 @@ TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_36
 				<Event_Param1>REBEL_ACT03_MISSION_EIGHT_36</Event_Param1>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>
 				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_36</Reward_Param1>
-				<Reward_Param4>Remove</Reward_Param4>	
+				<Reward_Param4>Remove</Reward_Param4>
 				<Prereq>Rebel_A3_M08_All_Rebels_Destroyed_00</Prereq>
 			</Event>
-			
+
 			<Event Name="Rebel_A3_M08_All_Rebels_Destroyed_00a_Remove_Movie">
 				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 				<Prereq>Rebel_A3_M08_All_Rebels_Destroyed_00a</Prereq>
 			</Event>
 
@@ -1337,9 +1332,4 @@ TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_36
 		<Reward_Param1>EMPIRE</Reward_Param1>
 		<Prereq>Rebel_A3_M08_All_Rebels_Destroyed_00a</Prereq>
 	</Event>
-
-
-
-
-
 </Story>
