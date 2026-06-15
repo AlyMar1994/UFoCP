@@ -41,20 +41,14 @@
 
 require("PGStateMachine")
 
-
 function Definitions()
-
-	--MessageBox("script attached!")
-	Define_State("State_Init", State_Init)
-	
 	ServiceRate = 1
 
+	Define_State("State_Init", State_Init)
 end
 
 function State_Init(message)
-
 	-- prevent this from doing anything in galactic mode
-	--MessageBox("%s, mode %s", tostring(Script), Get_Game_Mode())
 	if Get_Game_Mode() ~= "Space" then
 		ScriptExit()
 	end
@@ -63,9 +57,9 @@ function State_Init(message)
 	if Object.Get_Owner().Is_Human() then
 		ScriptExit()
 	end
-		
+
 	if message == OnEnter then
-		--MessageBox("%s--Object:%s", tostring(Script), tostring(Object))
+		DebugMessage("%s--Object:%s", tostring(Script), tostring(Object))
 
 
 		--rebel_player = Find_Player("REBEL")
@@ -74,11 +68,8 @@ function State_Init(message)
 		cancelling_shield = false
 		marauder = Find_Object_Type("Marauder_Missile_Cruiser")
 		broadside = Find_Object_Type("Broadside_Class_Cruiser")
-
 	elseif message == OnUpdate then
-
 		repeat
-		
 			-- The AI may not yet be initialized
 			Sleep(1)
 			enemy_is_retreating = EvaluatePerception("Enemy_Retreating", Object.Get_Owner())
@@ -87,22 +78,22 @@ function State_Init(message)
 		-- Prevent the enemy from retreating, if they're trying to
 		if (enemy_is_retreating ~= 0) and (not interdicting) then
 			interdicting = true
-			Sleep(GameRandom(3,8))
-			--MessageBox("trying to interdict")
+			Sleep(GameRandom(3, 8))
+
+			DebugMessage("%s - %s trying to interdict!", tostring(Script), tostring(Object))
+
 			Object.Activate_Ability("INTERDICT", true)
 			Register_Timer(Cancel_Interdiction, 20)
 		end
-		
+
 		-- Use the missile shield if we're being attacked by a rocket boat
 		if Under_Missile_Attack() and (not using_missile_shield) then
 			using_missile_shield = true
 			Object.Activate_Ability("MISSILE_SHIELD", true)
 		elseif using_missile_shield and (not cancelling_shield) then
-			cancelling_shield = true	
+			cancelling_shield = true
 			Register_Timer(Cancel_Missile_Shield, 30)
-			
 		end
-
 	end
 end
 
@@ -124,11 +115,11 @@ end
 
 function Cancel_Missile_Shield()
 	cancelling_shield = false
-	
+
 	if Under_Missile_Attack() then
 		return
 	end
-	
+
 	Object.Activate_Ability("MISSILE_SHIELD", false)
-	using_missile_shield = false 	
+	using_missile_shield = false
 end
