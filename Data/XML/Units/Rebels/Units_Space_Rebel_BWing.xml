@@ -54,7 +54,7 @@
 		<Build_Cost_Credits>120</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 
-		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA</SpaceBehavior>
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, WEAPON, REVEAL, NEBULA</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
 		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
@@ -64,15 +64,34 @@
 		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 
-		<HardPoints>
+		<!--
+			AM1994 (06-15-26):
+			Once laser hardpoint muzzle flashes are enabled, we can add the laser hardpoints
+			back later.
 			HP_BWING__LASER_00,
 			HP_BWING__LASER_01,
+		-->
+		<HardPoints>
 			HP_BWING_ION_00,
 			HP_BWING_ION_01,
 			HP_BWING_TORP_00
 		</HardPoints>
 
-		<SFXEvent_Fire>Unit_Y_Wing_Fire</SFXEvent_Fire>
+		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.20</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.50</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Inaccuracy_Distance>Fighter, 3.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 5.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 5.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 70.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 30.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 30.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 30.00</Fire_Inaccuracy_Distance>
+
+		<SFXEvent_Fire>Unit_Rebel_Ship_Laser_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_B_Wing</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_B_Wing</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_B_Wing</SFXEvent_Fleet_Move>
