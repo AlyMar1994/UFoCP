@@ -71,6 +71,7 @@ Map/Planet Fixes:
 
 
 Script/Story Fixes:
+• Rebel campaign mission #3 ("Theft of the X-wings") had a mysterious bubble of revealed fog-of-war behind the Imperial Officer Academy, at the top of the map.  Turns out, there was an invisible "reveal" object for testing purposes that was never removed from the map. (BUG #784)
 • Rebel campaign mission #7 ("Needle in a Haystack") had a scripting error where upon Boba Fett finding Han Solo, Solo would ask Chewie who that bozo is; but for some reason, Solo's hologram was programmed to use the Station Commander's Moff hologram instead of his own. (BUG #785) (Thanks, cha20202!)
 
 
