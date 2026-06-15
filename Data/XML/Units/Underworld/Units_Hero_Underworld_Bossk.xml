@@ -241,19 +241,39 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Damage>5</Damage>
-		<Behavior>DUMMY_STARSHIP, TRANSPORT, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, NEBULA, SELECTABLE</SpaceBehavior>
+		<Behavior>DUMMY_STARSHIP, TRANSPORT</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, UNIT_AI, NEBULA, SELECTABLE</SpaceBehavior>
 		<LandBehavior>REVEAL, HIDE_WHEN_FOGGED, IDLE</LandBehavior>
 		<Lua_Script>ObjectScript_SensorJamming</Lua_Script>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Hover_Offset>30.0</Hover_Offset>
 
-		<HardPoints>
+		<!--
+			AM1994 (06-15-26):
+			Once laser hardpoint muzzle flashes are enabled, we can add the laser hardpoints
+			back later.
 			HP_HOUNDSTOOTH_LASER_00,
 			HP_HOUNDSTOOTH_LASER_01,
+		-->
+		<HardPoints>
 			HP_HOUNDSTOOTH_CMISSILE_00,
 			HP_HOUNDSTOOTH_CMISSILE_01
 		</HardPoints>
+
+		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Projectile_Types>Proj_Ship_Medium_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.20</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.50</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Max_Flight_Distance>1000.0</Projectile_Max_Flight_Distance> <!-- AM1994: it's 1000 on his hardpoint??? -->
+
+		<Fire_Inaccuracy_Distance>Fighter, 5.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 5.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 5.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 70.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 30.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 30.00</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Super, 30.00</Fire_Inaccuracy_Distance>
 
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
@@ -277,7 +297,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Bossk</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Bossk</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Bossk</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_Pirate_Ship_Laser_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_Houndstooth_Fire</SFXEvent_Fire>
 		<SFXEvent_Group_Move>Unit_Move_Bossk</SFXEvent_Group_Move>
 		<SFXEvent_Group_Attack>Unit_Attack_Bossk</SFXEvent_Group_Attack>
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Bossk</SFXEvent_Health_Low_Warning>
