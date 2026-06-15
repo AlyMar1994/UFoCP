@@ -68,6 +68,10 @@ Unit Fixes:
 • Various Hero abilities were inconsistent in what units they applied to (for example, despite tooltips claiming abilities applied to "all units," some wouldn't apply to bombers and unit transports while others would).  In addition, some Hero abilities (such as Thrawn's Fleet Commander bonuses) didn't apply its speed buff to fighters due to issues with the units' "containers."  These have been universally fixed. (BUG #792)
 
 
+Upgrade Fixes:
+• Various Space and Land upgrades were inconsistent in what units they applied to (for example, despite tooltips claiming abilities applied to "all units," some wouldn't apply to Skirmish Pirate units, or Heroes while others would).  In addition, speed enhancing upgrades didn't properly apply their speed buffs to fighters due to issues with the units' "containers."  These have been universally fixed. (BUG #794)
+
+
 
 
 v2.2.0.1520 (06-13-2026) [FoC v1.121.859328]

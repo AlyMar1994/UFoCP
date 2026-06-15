@@ -712,7 +712,7 @@
 		<Encyclopedia_Vulnerable_To>X-Wing, Starviper_Fighter</Encyclopedia_Vulnerable_To>
 		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Formation_Priority>1</Formation_Priority>
+		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
 		<Damage>20</Damage>
@@ -738,8 +738,8 @@
 		<Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
 
-
 		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Create_Team_Type>Z95_Headhunter_Empire_Squadron_Container</Create_Team_Type> <!-- AM1994 (06-14-26): Necessary for Empire Enhanced Reactors upgrade. -->
 
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
@@ -1070,6 +1070,8 @@
 		<SFXEvent_Tactical_Build_Started>EHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete>EHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled>EHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
+
+		<Create_Team_Type>Empire_Pirate_Fighter_Squadron_Container</Create_Team_Type> <!-- AM1994 (06-14-26): Necessary for Empire Enhanced Reactors upgrade. -->
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
