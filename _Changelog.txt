@@ -66,6 +66,7 @@ Interface Fixes:
 Map/Planet Fixes:
 • Land Ilum did not have a base shield generator position marker, which broke Shield Generator placement. (BUG #778)
 • Land Korriban did not have a base shield generator position marker, which broke Shield Generator placement. (BUG #778)
+• Land Fresia had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Fresia has also recieved a minor revision/pass at where units are allowed to move, and AI zones were regenerated. (BUG #780)
 
 
 Script/Story Fixes:
