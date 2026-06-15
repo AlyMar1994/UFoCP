@@ -3,7 +3,7 @@
 -- Original Author: Galyana
 --			Author: jsuzu
 --			Date:   06-15-2026
---		Revision:   2
+--		Revision:   3
 -- ============================================================================
 
 require("PGStateMachine")
@@ -40,25 +40,26 @@ function State_AI_Autofire(message)
 	if message == OnUpdate then
 		-- Land units can change hands
 		if Object.Get_Owner().Is_Human() then
-			Object.Cancel_Event_Object_In_Range(Unit_Prox)
 			Set_Next_State("State_Human_No_Autofire")
 		end
 	end
 end
 
 function State_Human_No_Autofire(message)
-	if message == OnUpdate then
+	if message == OnEnter then
+		Object.Cancel_Event_Object_In_Range(Unit_Prox)
+	elseif message == OnUpdate then
 		if Object.Is_Ability_Autofire(ability_name) then
-			Register_Prox(Object, Unit_Prox, 700)
 			Set_Next_State("State_Human_Autofire")
 		end
 	end
 end
 
 function State_Human_Autofire(message)
-	if message == OnUpdate then
+	if message == OnEnter then
+		Register_Prox(Object, Unit_Prox, 700)
+	elseif message == OnUpdate then
 		if not Object.Is_Ability_Autofire(ability_name) then
-			Object.Cancel_Event_Object_In_Range(Unit_Prox)
 			Set_Next_State("State_Human_No_Autofire")
 		end
 	end
