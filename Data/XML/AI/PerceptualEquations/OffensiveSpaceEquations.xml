@@ -301,13 +301,13 @@
 	</Unit_Needs_To_Be_Bombed>
 
 
-    <Unit_Needs_Escort>
-        30.0
+	<Unit_Needs_Escort>
+		30.0
 		  *
-        Variable_Target.Force
-    </Unit_Needs_Escort>
+		Variable_Target.Force
+	</Unit_Needs_Escort>
 
-	 <!-- Sweeps are primarily designed to find pockets of transports, fighters
+	<!-- Sweeps are primarily designed to find pockets of transports, fighters
 			and bombers, because they don't show up as a Variable_Target when units
 			are specified (they are found by location threat)
 
@@ -316,7 +316,7 @@
 
 			This desirability should be relatively low since it functions as a failsafe.
 			-->
-    <Area_Needs_Sweeping>
+	<Area_Needs_Sweeping>
 		(1 - Function_Should_Burn_Units_Space.Evaluate)
 		*
 		(
@@ -510,6 +510,8 @@
 				)
 				+
 				(1 - Game.IsCampaignGame)
+				*
+				(Game.Age >= 360)
 				*
 				(Variable_Self.BaseLevel == 0)
 			)
