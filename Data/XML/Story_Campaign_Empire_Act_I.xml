@@ -1,9 +1,6 @@
-<?xml version="1.0" ?>
-
+<?xml version="1.0"?>
 <Story>
-
 <!--
-
 	<Event Name="">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
@@ -15,7 +12,7 @@
 
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8></Reward_Param8>
 		<Reward_Param9>_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -28,7 +25,6 @@
 -->
 
 <!-- Preliminary Setup  -->
-
 	<Event Name="Empire_ActI_Begin">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
@@ -41,14 +37,14 @@
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Always_Lock_Death_Star2">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>Death_Star_II</Reward_Param1>
 		<Prereq>Empire_ActI_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Always_Lock_Executor">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
@@ -73,14 +69,14 @@
 		<Reward_Param2>0</Reward_Param2>
 		<Prereq>Empire_ActI_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Lock_Out_Research_Facility">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>E_Ground_Research_Facility</Reward_Param1>
 		<Prereq>Empire_ActI_Begin</Prereq>
 	</Event>
-	
+
 <!-- jdg turning off invasion for the empire campaign -->
 	<Event Name="Empire_ActI_Lock_Out_INVASION">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -120,7 +116,7 @@
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Reveal_Taris">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REVEAL_PLANET</Reward_Type>
@@ -166,7 +162,7 @@
 		<Prereq>OK_To_Begin_Empire_ActI</Prereq>
 		<Branch>BRANCH_EA01M02</Branch>
 	</Event>
-	
+
 <!-- Mission 2 failed -->
 <!-- Detect mission 2 being lost.  Display text telling the player to try again -->
 	<Event Name="Empire_ActI_Mission_Two_Failed">
@@ -210,9 +206,9 @@
 		<Prereq>Empire_ActI_Mission_Two_08</Prereq>
 	</Event>
 
-<!-- Officer Speaks 
+<!-- Officer Speaks
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_20
-Imperial Officer: My lord, reports are coming in from Fondor that rebel forces have been sabotaging 
+Imperial Officer: My lord, reports are coming in from Fondor that rebel forces have been sabotaging
 our activities there.  They have routed local troops and taken control of some settlements.-->
 	<Event Name="Empire_ActI_Mission_Two_09">
 		<Event_Type>STORY_GENERIC</Event_Type>
@@ -224,7 +220,7 @@ our activities there.  They have routed local troops and taken control of some s
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_20</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_TWO_20</Reward_Param8>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -239,22 +235,22 @@ our activities there.  They have routed local troops and taken control of some s
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_ActI_Mission_Two_09_Start_Dialog</Prereq>
 	</Event>
-	
-<!-- Vader Speaks 
+
+<!-- Vader Speaks
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_21
-Darth Vader: Their retaliation only serves to give away their location.  
+Darth Vader: Their retaliation only serves to give away their location.
 We will eliminate them quickly.-->
 	<Event Name="Empire_ActI_Mission_Two_11">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_21</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_TWO_21</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_ActI_Mission_Two_10</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Mission_Two_12">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_TWO_21</Event_Param1>
@@ -279,17 +275,17 @@ We will eliminate them quickly.-->
 		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
 		<Prereq>Empire_ActI_Mission_Two_12</Prereq>
 	</Event>
-	
+
 <!--ADD holocron entry for Fondor-->
 	<Event Name="Empire_ActI_Holocron_Fondor_Entry">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Empire_Story_Campaign</Story_Dialog>
 		<Story_Chapter>0</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Empire_ActI_Holocron_Fondor_Entry</Story_Tag>
 		<Prereq>Empire_ActI_Mission_Two_12a</Prereq>
 	</Event>
-	
+
 <!--adding fondor reveal here-->
 	<Event Name="Empire_ActI_Reveal_Fondor">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -297,8 +293,8 @@ We will eliminate them quickly.-->
 		<Reward_Param1>Fondor</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_Mission_Two_12a</Prereq>
-	</Event>  
-					
+	</Event>
+
 <!-- adding in flash event for Fondor -->
 	<Event Name="Empire_ActI_Mission_Two_Flash_Fondor">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -309,7 +305,7 @@ We will eliminate them quickly.-->
 		<Reward_Param5>True</Reward_Param5>
 		<Prereq>Empire_ActI_Reveal_Fondor</Prereq>
 	</Event>
-	
+
 <!-- trial set up for Fondor -->
 	<Event Name="ActI_M02_FONDOR_Setup_for_Land">
 		<Event_Type>STORY_LAND_TACTICAL</Event_Type>
@@ -318,7 +314,7 @@ We will eliminate them quickly.-->
 		<Prereq>Empire_ActI_Mission_Two_Flash_Fondor</Prereq>
 		<Perpetual>True</Perpetual>
 	</Event>
-	
+
 <!-- Make sure the Empire can see Fondor -->
 	<Event Name="ActI_Fondor_Complete_Visibility">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -337,15 +333,15 @@ We will eliminate them quickly.-->
 		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
 		<Prereq>Empire_ActI_Mission_Two_11</Prereq>
 	</Event>
-	
+
 			<!--COMPLETE holocron entry for Fondor-->
 			<Event Name="Empire_ActI_Holocron_Fondor_Entry_Completed">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
 				<Reward_Param1>Empire_ActI_Holocron_Fondor_Entry</Reward_Param1>
 				<Prereq>Empire_ActI_Mission_Three_00</Prereq>
-			</Event> 
-	
+			</Event>
+
 	<Event Name="Empire_ActI_Mission_Three_Fondor_BackTo_Normal">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
@@ -353,7 +349,7 @@ We will eliminate them quickly.-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_Mission_Three_00</Prereq>
 	</Event>
-	
+
 <!-- Turn off the visibility modifier on Fondor to restore normal behavior -->
 <!-- The Empire will still be able to see it because they just conquered it -->
 	<Event Name="ActI_Fondor_Undo_Visibility">
@@ -364,29 +360,29 @@ We will eliminate them quickly.-->
 		<Reward_Param3>None</Reward_Param3>
 		<Reward_Param4>ActI_Fondor_Complete_Visibility</Reward_Param4>
 		<Prereq>Empire_ActI_Mission_Three_00</Prereq>
-	</Event>	
+	</Event>
 
 	<Event Name="Empire_ActI_Mission_Three_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>Empire_ActI_Mission_Three_00</Prereq>
 	</Event>
 
-<!-- Vader Speaks 
+<!-- Vader Speaks
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_72
-Darth Vader: Fondor has been subjugated.  
+Darth Vader: Fondor has been subjugated.
 Have you intercepted any information about our traitor?-->
 	<Event Name="Empire_ActI_M03_Intro_Dialog_00">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_72</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_TWO_72</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_ActI_Mission_Three_00</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_M03_Intro_Dialog_00a">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_TWO_72</Event_Param1>
@@ -402,22 +398,22 @@ Have you intercepted any information about our traitor?-->
 		<Reward_Param1>Fondor_GUI_Flash</Reward_Param1>
 		<Prereq>Empire_ActI_Mission_Three_00</Prereq>
 	</Event>
-	
-<!-- Stormtrooper Speaks 
+
+<!-- Stormtrooper Speaks
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_00
-Stormtrooper: We have cracked encoded transmissions which were redirected several times, 
+Stormtrooper: We have cracked encoded transmissions which were redirected several times,
 but eventually routed to the Ilum system.-->
 	<Event Name="Empire_ActI_M03_Intro_Dialog_00b">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_00</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_00</Reward_Param8>
 		<Reward_Param9>Stormtrooper_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_ActI_M03_Intro_Dialog_00a</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_M03_Intro_Dialog_01">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_00</Event_Param1>
@@ -427,20 +423,20 @@ but eventually routed to the Ilum system.-->
 		<Prereq>Empire_ActI_M03_Intro_Dialog_00b</Prereq>
 	</Event>
 
-<!-- Vader Speaks 
+<!-- Vader Speaks
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_01
 Darth Vader: The pirates' den, no doubt.  Send a probe droid to confirm this…infestation.-->
 	<Event Name="Empire_ActI_M03_Intro_Dialog_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_01</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_ActI_M03_Intro_Dialog_01</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_M03_Intro_Dialog_02a">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_01</Event_Param1>
@@ -450,20 +446,20 @@ Darth Vader: The pirates' den, no doubt.  Send a probe droid to confirm this…i
 		<Prereq>Empire_ActI_M03_Intro_Dialog_02</Prereq>
 	</Event>
 
-<!-- Stormtrooper Speaks 
+<!-- Stormtrooper Speaks
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_02
 Stormtrooper: Yes Sir!-->
 	<Event Name="Empire_ActI_M03_Intro_Dialog_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_02</Reward_Param8>
 		<Reward_Param9>Stormtrooper_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_ActI_M03_Intro_Dialog_02a</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_M03_Intro_Dialog_03a">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_02</Event_Param1>
@@ -487,20 +483,20 @@ Stormtrooper: Yes Sir!-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_Reveal_Ilum</Prereq>
 	</Event>
-	
+
 <!-- For when the player moves an inappropriate fleet to Ilum. -->
 	<Event Name="Empire_ActI_Ilum_Probe_Bounced">
 		<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
 		<Event_Param1>Ilum</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_41</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
-		<Reward_Param8>EMPIRE_ACT01_MISSION_TWO_41</Reward_Param8> 
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>EMPIRE_ACT01_MISSION_TWO_41</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Perpetual>True</Perpetual>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Ilum_Probe_Bounced_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_TWO_41</Event_Param1>
@@ -525,7 +521,7 @@ Stormtrooper: Yes Sir!-->
 		<Prereq>Empire_ActI_M03_Intro_Dialog_03b</Prereq>
 		<Story_Dialog>Dialog_Empire_ActI_M03</Story_Dialog>
 		<Story_Chapter>0</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Empire_A01M03_Start</Story_Tag>
 	</Event>-->
 
@@ -536,7 +532,7 @@ Stormtrooper: Yes Sir!-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_M03_Intro_Dialog_03b</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Mission_Two_Flash_Ilum_Probe_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
@@ -545,8 +541,8 @@ Stormtrooper: Yes Sir!-->
 		<Reward_Param4>Ilum_GUI_Flash_Probe</Reward_Param4>
 		<Reward_Param5>True</Reward_Param5>
 		<Prereq>Empire_ActI_M03_Intro_Dialog_03b</Prereq>
-	</Event>	
-					
+	</Event>
+
 <!-- TASK:Build a probe droid at a system with a starbase, and send it to Ilum.-->
 	<Event Name="Empire_ActI_Mission_Two_Flash_Ilum_Probe">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -556,13 +552,13 @@ Stormtrooper: Yes Sir!-->
 		<Reward_Param7>Task</Reward_Param7>
 		<Prereq>Empire_ActI_M03_Intro_Dialog_03b</Prereq>
 	</Event>
-	
+
 	<!--ADD holocron entry for Probe Droid to Ilum-->
 	<Event Name="Empire_ActI_Holocron_ProbeDroid_Entry">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Empire_Story_Campaign</Story_Dialog>
 		<Story_Chapter>1</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Empire_ActI_Holocron_ProbeDroid_Entry</Story_Tag>
 		<Prereq>Empire_ActI_Mission_Two_Flash_Ilum_Probe</Prereq>
 	</Event>
@@ -580,7 +576,7 @@ Stormtrooper: Yes Sir!-->
 		<Reward_Param1>b_space_tab</Reward_Param1>
 		<Prereq>Empire_ActI_M02_Select_Courscant</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_M02_Flash_Probe">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0.01</Event_Param1>
@@ -589,7 +585,7 @@ Stormtrooper: Yes Sir!-->
 		<Reward_Param2>Flash_Probe_Droid</Reward_Param2>
 		<Prereq>Empire_ActI_M02_OpenSpaceTab</Prereq>
 	</Event>
-   
+
    <Event Name="Empire_ActI_M02_Remove_Probe_Flash">
 		<Event_Type>STORY_GENERIC</Event_Type>
 		<Event_Param1>click</Event_Param1>
@@ -597,7 +593,7 @@ Stormtrooper: Yes Sir!-->
 		<Reward_Param1>Flash_Probe_Droid</Reward_Param1>
 		<Prereq>Empire_ActI_M02_Flash_Probe</Prereq>
 	</Event>
-	
+
 	<!-- 12/15/2005 JSY: Slightly modified this event to make sure the probe droid is all by itself -->
 	<Event Name="Empire_ActI_Mission_Three_04">
 		<Event_Type>STORY_ENTER</Event_Type>
@@ -606,15 +602,15 @@ Stormtrooper: Yes Sir!-->
 		<Event_Param6>1</Event_Param6>
 		<Prereq>Empire_ActI_Holocron_ProbeDroid_Entry</Prereq>
 	</Event>
-	
+
 	<!--COMPLETE holocron entry for Probe Droid to Ilum-->
 			<Event Name="Empire_ActI_Holocron_ProbeDroid_Entry_Completed">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
 				<Reward_Param1>Empire_ActI_Holocron_ProbeDroid_Entry</Reward_Param1>
 				<Prereq>Empire_ActI_Mission_Three_04</Prereq>
-			</Event> 
-	
+			</Event>
+
 	<Event Name="Empire_ActI_Disable_Ilum_Probe_Bounce_Message">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
@@ -622,7 +618,7 @@ Stormtrooper: Yes Sir!-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_Mission_Three_04</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Mission_Two_RemoveFlash_Ilum_Probe">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
@@ -630,14 +626,14 @@ Stormtrooper: Yes Sir!-->
 		<Prereq>Empire_ActI_Mission_Three_04</Prereq>
 	</Event>
 
-<!-- Officer Speaks TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_03 Imperial Officer: The probe droid has pinpointed what we believe to be the pirate base.  
+<!-- Officer Speaks TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_03 Imperial Officer: The probe droid has pinpointed what we believe to be the pirate base.
 It is in a dense asteroid field, with a heavy, layered defense.-->
 	<Event Name="Empire_ActI_M03_Probe_Dialog_00">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_03</Reward_Param8>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -653,20 +649,20 @@ It is in a dense asteroid field, with a heavy, layered defense.-->
 		<Prereq>Empire_ActI_M03_Probe_Dialog_00</Prereq>
 	</Event>
 
-<!-- Vader Speaks NEW  
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_52 
-Darth Vader: Contact the bounty-hunter Boba Fett.-->	
+<!-- Vader Speaks NEW
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_52
+Darth Vader: Contact the bounty-hunter Boba Fett.-->
 	<Event Name="Empire_Act01_First_Fett_Dialog_Vader01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_52</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_52</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_ActI_M03_Probe_Dialog_01</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act01_First_Fett_Dialog_Vader01_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_52</Event_Param1>
@@ -675,21 +671,21 @@ Darth Vader: Contact the bounty-hunter Boba Fett.-->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_Act01_First_Fett_Dialog_Vader01</Prereq>
 	</Event>
-			
-<!-- Stormtrooper Speaks NEW  
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_53 
-Imperial Officer: Yes, Lord Vader.-->	
+
+<!-- Stormtrooper Speaks NEW
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_53
+Imperial Officer: Yes, Lord Vader.-->
 	<Event Name="Empire_Act01_First_Fett_Dialog_Stromtrooper01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_53</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_53</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_Act01_First_Fett_Dialog_Vader01_Remove_Text</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act01_First_Fett_Dialog_Stromtrooper01_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_53</Event_Param1>
@@ -698,28 +694,28 @@ Imperial Officer: Yes, Lord Vader.-->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_Act01_First_Fett_Dialog_Stromtrooper01</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act01_First_Fett_Dialog_Stromtrooper01_Stop_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Empire_Act01_First_Fett_Dialog_Stromtrooper01_Remove_Text</Prereq>
 	</Event>
-			
-<!-- Fett Speaks NEW  
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_54 
-Boba Fett: What do you need?-->	
+
+<!-- Fett Speaks NEW
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_54
+Boba Fett: What do you need?-->
 	<Event Name="Empire_Act01_First_Fett_Dialog_BobaFett01">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_54</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param9>Boba_Fett_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_54</Reward_Param8> <!-- Put speech file name here -->
 		<Prereq>Empire_Act01_First_Fett_Dialog_Stromtrooper01_Remove_Text</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act01_First_Fett_Dialog_BobaFett01_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_54</Event_Param1>
@@ -728,7 +724,7 @@ Boba Fett: What do you need?-->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_Act01_First_Fett_Dialog_Stromtrooper01</Prereq>
 	</Event>
-			
+
 <!-- Spawn Boba before allowing mission to start -->
 	<Event Name="Empire_ActI_Mission_Three_Spawn_Boba">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -738,8 +734,8 @@ Boba Fett: What do you need?-->
 		<!-- <Prereq>Empire_ActI_Mission_Three_06</Prereq> -->
 		<Prereq>Empire_Act01_First_Fett_Dialog_BobaFett01</Prereq>
 	</Event>
-	
-	
+
+
 	<!-- xxx -->
 	<Event Name="Empire_ActI_Mission_Two_Remove_Fett_Neutralize_Hero">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -748,7 +744,7 @@ Boba Fett: What do you need?-->
 		<Reward_Param2>Boba_Fett_Neutralize_Hero</Reward_Param2>
 		<Prereq>Empire_ActI_Mission_Three_Spawn_Boba</Prereq>
 	</Event>
-	
+
 <!-- Flash Fett on galactic -->
 	<Event Name="Empire_ActI_Mission_Two_Flash_Fett">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -757,7 +753,7 @@ Boba Fett: What do you need?-->
 		<Reward_Param2>Boba_Fett_Unit_Flash</Reward_Param2>
 		<Prereq>Empire_ActI_Mission_Three_Spawn_Boba</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Mission_Two_RemoveFlash_Fett">
 		<Event_Type>STORY_GENERIC</Event_Type>
 		<Event_Param1>click</Event_Param1>
@@ -766,20 +762,20 @@ Boba Fett: What do you need?-->
 		<Prereq>Empire_ActI_Mission_Two_Flash_Fett</Prereq>
 	</Event>
 
-<!-- Vader Speaks 02   
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_55 
-Darth Vader: The Empire is willing to pay a considerable fee for disposing of defense systems orbiting the Ilum system.-->	
+<!-- Vader Speaks 02
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_55
+Darth Vader: The Empire is willing to pay a considerable fee for disposing of defense systems orbiting the Ilum system.-->
 	<Event Name="Empire_Act01_First_Fett_Dialog_Vader02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_55</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_55</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_Act01_First_Fett_Dialog_BobaFett01_Remove_Text</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act01_First_Fett_Dialog_Vader02_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_55</Event_Param1>
@@ -788,21 +784,21 @@ Darth Vader: The Empire is willing to pay a considerable fee for disposing of de
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_Act01_First_Fett_Dialog_Vader02</Prereq>
 	</Event>
-			
-<!-- Fett Speaks 02   
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_56 
-Boba Fett: Is my target one of the filthy pirates in that sector?-->	
+
+<!-- Fett Speaks 02
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_56
+Boba Fett: Is my target one of the filthy pirates in that sector?-->
 	<Event Name="Empire_Act01_First_Fett_Dialog_BobaFett02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_56</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_56</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Boba_Fett_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_Act01_First_Fett_Dialog_Vader02_Remove_Text</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act01_First_Fett_Dialog_BobaFett02_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_56</Event_Param1>
@@ -810,22 +806,22 @@ Boba Fett: Is my target one of the filthy pirates in that sector?-->
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_56</Reward_Param1>
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_Act01_First_Fett_Dialog_BobaFett02</Prereq>
-	</Event>	
-			
-<!-- Vader Speaks 03   
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_57 
-Darth Vader: Your target is the defenses, the Imperial fleet will take care of the rest.-->	
+	</Event>
+
+<!-- Vader Speaks 03
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_57
+Darth Vader: Your target is the defenses, the Imperial fleet will take care of the rest.-->
 	<Event Name="Empire_Act01_First_Fett_Dialog_Vader03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_57</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_57</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_Act01_First_Fett_Dialog_BobaFett02_Remove_Text</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act01_First_Fett_Dialog_Vader03_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_57</Event_Param1>
@@ -833,22 +829,22 @@ Darth Vader: Your target is the defenses, the Imperial fleet will take care of t
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_57</Reward_Param1>
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_Act01_First_Fett_Dialog_Vader03</Prereq>
-	</Event>		
-			
-<!-- Fett Speaks 02   
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_70 
-Boba Fett: If there's no target, there's no deal.-->	
+	</Event>
+
+<!-- Fett Speaks 02
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_70
+Boba Fett: If there's no target, there's no deal.-->
 	<Event Name="Empire_Act01_First_Fett_Dialog_BobaFett03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_70</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_70</Reward_Param8> <!-- Put CORRECT speech file here when new audio comes -->
 		<Reward_Param9>Boba_Fett_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_Act01_First_Fett_Dialog_Vader03_Remove_Text</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act01_First_Fett_Dialog_BobaFett03_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_70</Event_Param1>
@@ -857,22 +853,22 @@ Boba Fett: If there's no target, there's no deal.-->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_Act01_First_Fett_Dialog_BobaFett03</Prereq>
 	</Event>
-			
-<!-- Vader Speaks 04   
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_71 
-Darth Vader: Do not overestimate your value to the Empire, Fett. 
-But your services are required here. Our target is the pirate leader, and he will be taken alive. -->	
+
+<!-- Vader Speaks 04
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_71
+Darth Vader: Do not overestimate your value to the Empire, Fett.
+But your services are required here. Our target is the pirate leader, and he will be taken alive. -->
 	<Event Name="Empire_Act01_First_Fett_Dialog_Vader04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_71</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_71</Reward_Param8> <!-- Put CORRECT speech file here when new audio comes -->
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_Act01_First_Fett_Dialog_BobaFett03_Remove_Text</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act01_First_Fett_Dialog_Vader04_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_71</Event_Param1>
@@ -888,7 +884,7 @@ But your services are required here. Our target is the pirate leader, and he wil
 		<Prereq>Empire_Act01_First_Fett_Dialog_Vader04_Remove_Text</Prereq>
 	</Event>
 
-<!-- Task: Build a fleet and escort Boba Fett to Ilum.-->		
+<!-- Task: Build a fleet and escort Boba Fett to Ilum.-->
 	<Event Name="Empire_ActI_M03_Fett_Hint_Message">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
@@ -899,17 +895,17 @@ But your services are required here. Our target is the pirate leader, and he wil
 		<Prereq>Empire_ActI_Mission_Three_Failed_Stop_Movie</Prereq>
 		<Branch>BRANCH_EA01M03</Branch>
 	</Event>
-	
+
 	<!--ADD holocron entry for Fett to Ilum-->
 	<Event Name="Empire_ActI_Holocron_FettToIlum_Entry">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Empire_Story_Campaign</Story_Dialog>
 		<Story_Chapter>2</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Empire_ActI_Holocron_FettToIlum_Entry</Story_Tag>
 		<Prereq>Empire_ActI_M03_Fett_Hint_Message</Prereq>
 	</Event>
-	
+
 	<!-- jdg - adding in flash new flash for ilum -->
 	<Event Name="Empire_ActI_Mission_Two_Flash_Ilum_For_Fett">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -922,7 +918,7 @@ But your services are required here. Our target is the pirate leader, and he wil
 		<!--<Branch>BRANCH_EA01M03</Branch>-->
 	</Event>
 
-<!-- fett only player message -->		
+<!-- fett only player message -->
 <!-- TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_62
 Boba Fett: That is my bounty, scav! Don't even think of starting without me!-->
 	<Event Name="Empire_ActI_Ilum_Fleet_Bounced_Fett">
@@ -930,14 +926,14 @@ Boba Fett: That is my bounty, scav! Don't even think of starting without me!-->
 		<Event_Param1>Ilum</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_62</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_62</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Boba_Fett_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_Act01_First_Fett_Dialog_Vader04_Stop_Movie</Prereq>
 		<Perpetual>True</Perpetual>
 	</Event>
-		
+
 	<Event Name="Empire_ActI_Ilum_Fett_Bounced_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_62</Event_Param1>
@@ -983,7 +979,7 @@ Boba Fett: That is my bounty, scav! Don't even think of starting without me!-->
 		<Prereq>Empire_ActI_Mission_Three_07</Prereq>
 		<Branch>BRANCH_EA01M03</Branch>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Mission_Failed_Respawn">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FORCE_RESPAWN</Reward_Type>
@@ -992,9 +988,9 @@ Boba Fett: That is my bounty, scav! Don't even think of starting without me!-->
 		<Branch>BRANCH_EA01M03</Branch>
 	</Event>
 
-<!-- Wait until the battle summary dialog is closed 
+<!-- Wait until the battle summary dialog is closed
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_61
-Darth Vader: I will not tolerate mistakes, Fett. You are not living up to your reputation. 
+Darth Vader: I will not tolerate mistakes, Fett. You are not living up to your reputation.
 Bring the pirate leader's knowledge of the Rebellion to me.-->
 	<Event Name="Empire_ActI_Mission_Three_Failed_01_Start_Dialog">
 		<Event_Type>STORY_GENERIC</Event_Type>
@@ -1016,7 +1012,7 @@ Bring the pirate leader's knowledge of the Rebellion to me.-->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_61</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_61</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1058,14 +1054,14 @@ Bring the pirate leader's knowledge of the Rebellion to me.-->
 		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
 		<Prereq>Empire_ActI_Mission_Three_07</Prereq>
 	</Event>
-	
+
 	<!--COMPLETE holocron entry for Fett to ilum-->
 			<Event Name="Empire_ActI_Holocron_FettToIlum_Entry_Completed">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
 				<Reward_Param1>Empire_ActI_Holocron_FettToIlum_Entry</Reward_Param1>
 				<Prereq>Empire_ActI_Mission_Three_08</Prereq>
-			</Event> 
+			</Event>
 
 	<Event Name="Empire_ActI_Mission_Three_Win_Disable_Branch">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -1074,7 +1070,7 @@ Bring the pirate leader's knowledge of the Rebellion to me.-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_Mission_Three_08</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Mission_Three_Win_Disable_Branch_Quickstart">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_BRANCH</Reward_Type>
@@ -1082,14 +1078,14 @@ Bring the pirate leader's knowledge of the Rebellion to me.-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_Mission_Three_Win_Disable_Branch</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Mission_Three_08_Remove_Flash">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
 		<Reward_Param1>Ilum_GUI_Flash_Fett</Reward_Param1>
 		<Prereq>Empire_ActI_Mission_Three_08</Prereq>
 	</Event>
-	
+
 <!-- Ilum is now FULLY accessible -->
 	<Event Name="Empire_ActI_Ilum_Accessible">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -1106,10 +1102,10 @@ Bring the pirate leader's knowledge of the Rebellion to me.-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_Ilum_Accessible</Prereq>
 	</Event>
-	
-<!-- Vader Speaks   
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_58 Darth Vader: Continue your interrogation, Fett. 
-I am sure this pirate knows the Rebel's intentions.-->	
+
+<!-- Vader Speaks
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_58 Darth Vader: Continue your interrogation, Fett.
+I am sure this pirate knows the Rebel's intentions.-->
 	<Event Name="Empire_Act01_Second_Fett_Dialog_Vader01_Start_Dialog">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>2</Event_Param1>
@@ -1120,13 +1116,13 @@ I am sure this pirate knows the Rebel's intentions.-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_58</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_58</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_Act01_Second_Fett_Dialog_Vader01_Start_Dialog</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act01_Second_Fett_Dialog_Vader01_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_58</Event_Param1>
@@ -1134,21 +1130,21 @@ I am sure this pirate knows the Rebel's intentions.-->
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_58</Reward_Param1>
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_Act01_Second_Fett_Dialog_Vader01</Prereq>
-	</Event>	
-			
-<!-- Fett Speaks NEW  TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_59 
-Imperial Officer: Yes, my lord.  -->	
+	</Event>
+
+<!-- Fett Speaks NEW  TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_59
+Imperial Officer: Yes, my lord.  -->
 	<Event Name="Empire_Act01_Second_Fett_Dialog_BobaFett01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_59</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_59</Reward_Param8> <!-- Put speech file name here -->
 		<Prereq>Empire_Act01_Second_Fett_Dialog_Vader01_Remove_Text</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act01_Second_Fett_Dialog_BobaFett01_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_59</Event_Param1>
@@ -1157,7 +1153,7 @@ Imperial Officer: Yes, my lord.  -->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_Act01_Second_Fett_Dialog_BobaFett01</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act01_BobaFett_Exits_Stage_Left">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
@@ -1172,14 +1168,14 @@ Imperial Officer: Yes, my lord.  -->
 		<Prereq>Empire_Act01_Second_Fett_Dialog_BobaFett01_Remove_Text</Prereq>
 	</Event>
 
-<!-- Tarkin Speaks NEW TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_18 Tarkin: While you have been off chasing pirates, Vader, 
+<!-- Tarkin Speaks NEW TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_18 Tarkin: While you have been off chasing pirates, Vader,
 I've been informed the Death Star construction project has run low on certain resources and "labor assets".-->
 	<Event Name="Empire_ActI_M03_Post_Mission_Dialog_00">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_18</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_18</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1195,13 +1191,13 @@ I've been informed the Death Star construction project has run low on certain re
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_00</Prereq>
 	</Event>
 
-<!-- Vader Speaks 
+<!-- Vader Speaks
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_19 Darth Vader: And?-->
 	<Event Name="Empire_ActI_M03_Post_Mission_Dialog_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_19</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_19</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1215,18 +1211,18 @@ TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_19 Darth Vader: And?-->
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_19</Reward_Param1>
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_02</Prereq>
-	</Event> 
+	</Event>
 
-<!-- Tarkin Speaks 
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_20 
-Tarkin: I have picked a likely candidate which will provide us with the raw materials 
-and work force for the project. 
+<!-- Tarkin Speaks
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_20
+Tarkin: I have picked a likely candidate which will provide us with the raw materials
+and work force for the project.
 I suspect the Geonosians won't see the benefit in this.-->
 	<Event Name="Empire_ActI_M03_Post_Mission_Dialog_04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_20</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_20</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1247,7 +1243,7 @@ I suspect the Geonosians won't see the benefit in this.-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_23</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_23</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1270,7 +1266,7 @@ Assemble your forces and lead the attack personally, Lord Vader.-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_22</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_22</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1284,14 +1280,14 @@ Assemble your forces and lead the attack personally, Lord Vader.-->
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_22</Reward_Param1>
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_08</Prereq>
-	</Event> 
+	</Event>
 
 <!-- Vader Speaks TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_21 Darth Vader: As you wish.-->
 	<Event Name="Empire_ActI_M03_Post_Mission_Dialog_10">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_21</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_21</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1309,19 +1305,19 @@ Assemble your forces and lead the attack personally, Lord Vader.-->
 
 <!-- Emperor speaks
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_24
-Emperor: Though the Death Star project is of utmost importance, ensure you do not neglect the rest of the Empire. Rebel and pirate uprisings are becoming more frequent. 
+Emperor: Though the Death Star project is of utmost importance, ensure you do not neglect the rest of the Empire. Rebel and pirate uprisings are becoming more frequent.
 This contagious behavior must be suppressed!-->
 	<Event Name="Empire_ActI_M03_Post_Mission_Dialog_Emperor01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_24</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param9>Emperor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_24</Reward_Param8> <!-- Put speech file name here -->
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_11</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_M03_Post_Mission_Dialog_Emperor01_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_24</Event_Param1>
@@ -1346,11 +1342,11 @@ This contagious behavior must be suppressed!-->
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_Emperor01_Stop_Movie</Prereq>
 	</Event>
 
-<!-- jdg 8/22/05 adding in "player-thunk" hint message to take vader + strike force to Geonosia 
+<!-- jdg 8/22/05 adding in "player-thunk" hint message to take vader + strike force to Geonosia
 TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_35
-Task: Build a fleet and escort Darth Vader to Geonosis.  -->		
+Task: Build a fleet and escort Darth Vader to Geonosis.  -->
 	<Event Name="Empire_ActI_M03_Vader_Hint_Message">
-		<Event_Type>STORY_TRIGGER</Event_Type>	
+		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_35</Reward_Param1>
 		<Reward_Param2>10</Reward_Param2>
@@ -1359,13 +1355,13 @@ Task: Build a fleet and escort Darth Vader to Geonosis.  -->
 		<Prereq>Empire_ActI_Mission_Four_Failed_Dialog_02_Stop_Movie</Prereq>
 		<Branch>BRANCH_EA01M04</Branch>
 	</Event>
-	
+
 	<!--ADD holocron entry for Geonosis-->
 	<Event Name="Empire_ActI_Holocron_Geonosis_Entry">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Empire_Story_Campaign</Story_Dialog>
 		<Story_Chapter>3</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Empire_ActI_Holocron_Geonosis_Entry</Story_Tag>
 		<Prereq>Empire_ActI_M03_Vader_Hint_Message</Prereq>
 	</Event>
@@ -1393,13 +1389,13 @@ Task: Build a fleet and escort Darth Vader to Geonosis.  -->
 	</Event>
 
 <!-- MISSION FOUR (Space): Subjugating Geonosis (Tarkin/Ground/Geonosis) -->
-<!-- holocron start geonosis 
+<!-- holocron start geonosis
 	<Event Name="Empire_ActI_Mission_Four_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>Empire_ActI_M03_Vader_Hint_Message</Prereq>
 		<Story_Dialog>Dialog_Empire_ActI_M04</Story_Dialog>
 		<Story_Chapter>0</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Empire_A01M04_p1</Story_Tag>
 	</Event>-->
 
@@ -1412,7 +1408,7 @@ Task: Build a fleet and escort Darth Vader to Geonosis.  -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_Emperor01</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Reveal_Bestine">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>2</Event_Param1>
@@ -1421,7 +1417,7 @@ Task: Build a fleet and escort Darth Vader to Geonosis.  -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_Emperor01</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Reveal_Endor">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>3</Event_Param1>
@@ -1430,7 +1426,7 @@ Task: Build a fleet and escort Darth Vader to Geonosis.  -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_Emperor01</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Reveal_Bespin">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>4</Event_Param1>
@@ -1439,7 +1435,7 @@ Task: Build a fleet and escort Darth Vader to Geonosis.  -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_Emperor01</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Reveal_Dagobah">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>5</Event_Param1>
@@ -1448,7 +1444,7 @@ Task: Build a fleet and escort Darth Vader to Geonosis.  -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_Emperor01</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Reveal_VergessoAsteroids">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>6</Event_Param1>
@@ -1457,7 +1453,7 @@ Task: Build a fleet and escort Darth Vader to Geonosis.  -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_Emperor01</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Naboo_Reveal">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>7</Event_Param1>
@@ -1466,7 +1462,7 @@ Task: Build a fleet and escort Darth Vader to Geonosis.  -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_Emperor01</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Eriadu_Reveal">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>8</Event_Param1>
@@ -1475,7 +1471,7 @@ Task: Build a fleet and escort Darth Vader to Geonosis.  -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_Emperor01</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Reveal_Byss">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>9</Event_Param1>
@@ -1493,8 +1489,8 @@ Task: Build a fleet and escort Darth Vader to Geonosis.  -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActI_M03_Post_Mission_Dialog_Emperor01</Prereq>
 	</Event>
-				
-<!-- Turning on Rebel galactic AI here post Ilum 
+
+<!-- Turning on Rebel galactic AI here post Ilum
 giving player a 5 minute cussion-->
 	<Event Name="Empire_ActI_Activate_Rebel_AI">
 		<Event_Type>STORY_ELAPSED</Event_Type>
@@ -1504,7 +1500,7 @@ giving player a 5 minute cussion-->
 		<Reward_Param2>BasicRebel</Reward_Param2>
 		<Prereq>Empire_ActI_Reveal_Bestine</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Activate_Pirate_AI">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>305</Event_Param1>
@@ -1513,7 +1509,7 @@ giving player a 5 minute cussion-->
 		<Reward_Param2>None</Reward_Param2>
 		<Prereq>Empire_ActI_Reveal_Bestine</Prereq>
 	</Event>
-	
+
 	<Event Name="Unlock_X_wings_For_Rebels">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
@@ -1531,7 +1527,7 @@ giving player a 5 minute cussion-->
 		<Prereq>Empire_ActI_Mission_Two_Flash_Geonosis</Prereq>
 	</Event>
 
-<!-- trigger mission if vader is present -->	
+<!-- trigger mission if vader is present -->
 	<Event Name="Empire_ActI_Mission_Four_01">
 		<Event_Type>STORY_MOVE</Event_Type>
 		<Event_Param1>Darth_Vader</Event_Param1>
@@ -1552,8 +1548,8 @@ giving player a 5 minute cussion-->
 		<Prereq>Empire_ActI_Geonosis_Reveal</Prereq>
 		<Branch>BRANCH_EA01M04_QUICKSTART</Branch>
 	</Event>
-		
-<!-- For when the player moves an inappropriate fleet to Geonosis. 
+
+<!-- For when the player moves an inappropriate fleet to Geonosis.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_FOUR_30
 Darth Vader: It would be a mistake to go against my master's wishes. I must see to this matter personally.-->
 	<Event Name="Empire_ActI_Geonosis_Fleet_Bounce_Message">
@@ -1561,13 +1557,13 @@ Darth Vader: It would be a mistake to go against my master's wishes. I must see 
 		<Event_Param1>Geonosis</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_FOUR_30</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_FOUR_30</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Perpetual>True</Perpetual>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Geonosis_Fleet_Bounce_Message_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_FOUR_30</Event_Param1>
@@ -1584,7 +1580,7 @@ Darth Vader: It would be a mistake to go against my master's wishes. I must see 
 		<Prereq>Empire_ActI_Geonosis_Fleet_Bounce_Message_Remove_Text</Prereq>
 		<Perpetual>True</Perpetual>
 	</Event>
-			
+
 	<Event Name="Empire_ActI_Disable_Geonosis_Bounce_Message">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
@@ -1601,7 +1597,7 @@ Darth Vader: It would be a mistake to go against my master's wishes. I must see 
 		<Prereq>Empire_ActI_Mission_Four_01</Prereq>
 		<Branch>BRANCH_EA01M04</Branch>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Mission_Four_Failed_Respawn">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FORCE_RESPAWN</Reward_Type>
@@ -1609,8 +1605,8 @@ Darth Vader: It would be a mistake to go against my master's wishes. I must see 
 		<Prereq>Empire_ActI_Mission_Four_Failed</Prereq>
 		<Branch>BRANCH_EA01M04</Branch>
 	</Event>
-	
-<!-- Wait until the battle summary dialog is closed 
+
+<!-- Wait until the battle summary dialog is closed
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_34
 Tarkin: Assemble your forces and lead the attack personally, Lord Vader.-->
 	<Event Name="Empire_ActI_Mission_Four_Failed_Dialog_01_Start_Dialog">
@@ -1627,20 +1623,20 @@ Tarkin: Assemble your forces and lead the attack personally, Lord Vader.-->
 		<Prereq>Empire_ActI_Mission_Four_Failed_Dialog_01_Start_Dialog</Prereq>
 		<Branch>BRANCH_EA01M04</Branch>
 	</Event>
-	
+
 	<Event Name="Empire_ActI_Mission_Four_Failed_Dialog_01">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_34</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_34</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_ActI_Mission_Four_Failed_Dialog_01_Start_Dialog</Prereq>
 		<Branch>BRANCH_EA01M04</Branch>
 	</Event>
-		
+
 	<Event Name="Empire_ActI_Mission_Four_Failed_Dialog_01_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_34</Event_Param1>
@@ -1652,19 +1648,19 @@ Tarkin: Assemble your forces and lead the attack personally, Lord Vader.-->
 	</Event>
 
 <!--TEXT_SPEECH_EMPIRE_ACT01_MISSION_FOUR_24
-Darth Vader: As you wish.-->				
+Darth Vader: As you wish.-->
 	<Event Name="Empire_ActI_Mission_Four_Failed_Dialog_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_FOUR_24</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_FOUR_24</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_ActI_Mission_Four_Failed_Dialog_01_Remove_Text</Prereq>
 		<Branch>BRANCH_EA01M04</Branch>
 	</Event>
-		
+
 	<Event Name="Empire_ActI_Mission_Four_Failed_Dialog_02_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT01_MISSION_FOUR_24</Event_Param1>
@@ -1698,7 +1694,7 @@ Darth Vader: As you wish.-->
 		<Event_Param2>1</Event_Param2>
 		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
 	</Event>
-	
+
 			<Event Name="Empire_ActI_Mission_Four_RemoveFlash_Geonosis">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
@@ -1743,7 +1739,7 @@ Darth Vader: As you wish.-->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_FOUR_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_FOUR_07</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1764,7 +1760,7 @@ Darth Vader: As you wish.-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_FOUR_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_FOUR_09</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1785,7 +1781,7 @@ Darth Vader: As you wish.-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_FOUR_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_FOUR_10</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1806,7 +1802,7 @@ Darth Vader: As you wish.-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_FOUR_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT01_MISSION_FOUR_11</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1852,22 +1848,22 @@ Darth Vader: As you wish.-->
 		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
 		<Prereq>Empire_ActI_Geonosis_Reveal</Prereq>
 	</Event>
-	
+
 			<!--COMPLETE holocron entry for Geonosis-->
 			<Event Name="Empire_ActI_Holocron_Geonosis_Entry_Completed">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
 				<Reward_Param1>Empire_ActI_Holocron_Geonosis_Entry</Reward_Param1>
 				<Prereq>Empire_ActI_Mission_Four_04</Prereq>
-			</Event> 
-	
+			</Event>
+
 			<Event Name="Empire_ActI_Mission_Four_RemoveFlash_GeonosisLand">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
 				<Reward_Param1>Geonosis_Reveal_Flash_02</Reward_Param1>
 				<Prereq>Empire_ActI_Mission_Four_04</Prereq>
 			</Event>
-	
+
 	<Event Name="Empire_ActI_Mission_Three_Geonosis_BackTo_Normal">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
