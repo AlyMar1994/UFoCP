@@ -472,7 +472,7 @@ TASK: Task: Build a fleet and escort Darth Vader to intercept and capture Prince
 You will need to use the Tractor Beam from a Star Destroyer to catch her.  -->
 	<Event Name="Empire_ActIV_Take_Vader_To_Tatooine">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>SCREEN_TEXT</Reward_Type>``
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_TEN_02</Reward_Param1>
 		<Reward_Param2>10</Reward_Param2>
 		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
