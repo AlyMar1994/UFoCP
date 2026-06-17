@@ -1500,14 +1500,12 @@ giving player a 5 minute cussion-->
 		<Reward_Param2>BasicRebel</Reward_Param2>
 		<Prereq>Empire_ActI_Reveal_Bestine</Prereq>
 	</Event>
-
 	<Event Name="Empire_ActI_Activate_Pirate_AI">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>305</Event_Param1>
+		<Event_Type>STORY_TRIGGER</Event_Type>	  
 		<Reward_Type>SWITCH_CONTROL</Reward_Type>
 		<Reward_Param1>Pirates</Reward_Param1>
 		<Reward_Param2>None</Reward_Param2>
-		<Prereq>Empire_ActI_Reveal_Bestine</Prereq>
+		<Prereq>Empire_ActI_Activate_Rebel_AI</Prereq>
 	</Event>
 
 	<Event Name="Unlock_X_wings_For_Rebels">

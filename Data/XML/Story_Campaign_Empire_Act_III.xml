@@ -270,6 +270,14 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>All_Empire_ActI_Act3_Revealed All_Empire_ActII_Revealed_Act3 All_Empire_ActIII_Revealed</Prereq>
 	</Event>
+	
+	<Event Name="Empire_ActIII_Activate_Pirate_AI">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Pirates</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+		<Prereq>OK_To_Begin_Empire_ActIII</Prereq>
+	</Event>
 
 <!-- MISSION SKIPPING TRIGGERS FOR DEBUG -->
 	<Event Name="Mission_Eight">
