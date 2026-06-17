@@ -325,6 +325,14 @@ jdg these guys are now being introduced earlier in the game-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>All_Empire_ActI_Act4_Revealed All_Empire_ActII_Revealed_Act4 All_Empire_ActIII_Revealed_Act4 All_Empire_ActIV_Revealed</Prereq>
 	</Event>
+	
+	<Event Name="Empire_ActIV_Activate_Pirate_AI">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Pirates</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+		<Prereq>OK_To_Begin_Empire_ActIV</Prereq>
+	</Event>
 
 <!-- MISSION SKIPPING TRIGGERS FOR DEBUG -->
 	<Event Name="Mission_Eleven">

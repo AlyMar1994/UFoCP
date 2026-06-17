@@ -185,6 +185,14 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>All_ActI_in_ActII_Revealed All_Empire_ActII_Revealed</Prereq>
 	</Event>
+	
+	<Event Name="Empire_ActII_Activate_Pirate_AI">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Pirates</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+		<Prereq>OK_To_Begin_Empire_ActII</Prereq>
+	</Event>
 
 <!-- MISSION SKIPPING TRIGGERS FOR DEBUG -->
 	<Event Name="Mission_Five">
