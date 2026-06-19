@@ -69,6 +69,7 @@
 
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
@@ -194,5 +195,7 @@
 		<Affiliation>Underworld</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 </MC30_Frigate_Data>
