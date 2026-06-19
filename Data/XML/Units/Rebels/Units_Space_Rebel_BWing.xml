@@ -99,9 +99,10 @@
 		<SFXEvent_Guard>Unit_Guard_B_Wing</SFXEvent_Guard>
 		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_B_Wing</SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula>Unit_Nebula_B_Wing</SFXEvent_Move_Into_Nebula>
-
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_B_Wing</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_B_Wing</SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_B_Wing</SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning>Unit_Enemy_Health_Critical_B_Wing</SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_B_Wing</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_B_Wing</SFXEvent_Attack_Hardpoint>
@@ -110,6 +111,7 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_B_Wing</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_B_Wing</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_B_Wing</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_B_Wing</SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Ambient_Moving>Unit_Y_Wing_Fly_By</SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds>5</SFXEvent_Ambient_Moving_Min_Delay_Seconds>

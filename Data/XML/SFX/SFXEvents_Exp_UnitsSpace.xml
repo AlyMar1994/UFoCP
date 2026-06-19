@@ -1967,7 +1967,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Health_Low_B_Wing">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_BWP1801_ENG.wav U000_BWP1802_ENG.wav U000_BWP1803_ENG.wav U000_BWP1804_ENG.wav U000_BWP1805_ENG.wav U000_BWP1806_ENG.wav U000_BWP1807_ENG.wav U000_BWP1808_ENG.wav U000_BWP1809_ENG.wav U000_BWP1810_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -1976,7 +1976,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Health_Critical_B_Wing">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_BWP1901_ENG.wav U000_BWP1902_ENG.wav U000_BWP1903_ENG.wav U000_BWP1904_ENG.wav U000_BWP1905_ENG.wav U000_BWP1906_ENG.wav U000_BWP1907_ENG.wav U000_BWP1908_ENG.wav U000_BWP1909_ENG.wav U000_BWP1910_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -1985,7 +1985,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Low_B_Wing">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_BWP2001_ENG.wav U000_BWP2002_ENG.wav U000_BWP2003_ENG.wav U000_BWP2004_ENG.wav U000_BWP2005_ENG.wav U000_BWP2006_ENG.wav U000_BWP2007_ENG.wav U000_BWP2008_ENG.wav U000_BWP2009_ENG.wav U000_BWP2010_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -1994,7 +1994,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Critical_B_Wing">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_BWP2101_ENG.wav U000_BWP2102_ENG.wav U000_BWP2103_ENG.wav U000_BWP2104_ENG.wav U000_BWP2105_ENG.wav U000_BWP2106_ENG.wav U000_BWP2107_ENG.wav U000_BWP2108_ENG.wav U000_BWP2109_ENG.wav U000_BWP2110_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>

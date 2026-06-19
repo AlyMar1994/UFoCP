@@ -66,7 +66,8 @@ AI Fixes:
 
 
 Audio Fixes:
-• The Skipray Blastboat's restored "my health is low/critical" and "my enemy's health is low/critical" VO (BUG #267) was playing too frequently, and too loudly, because the VO events were using the wrong "preset" that dictated their frequency, pitch, and volume.  The GitHub report has a graphic that depicts the changed settings with the correct preset that other units have. (BUG #800)
+• The Skipray Blastboat's restored "my health is low/critical" and "my enemy's health is low/critical" VO (BUG #267) was playing too frequently, and too loudly, because the VO events were using the wrong "preset" that dictated their frequency, pitch, and volume, unlike other units.  The GitHub report has a graphic that depicts the changed settings with the correct preset.  In addition, Skiprays didn't use VO when attacking fighter bays, despite it existing. (BUG #800)
+• B-wings didn't use their "my enemy's health is low/critical" and attacking hangar VO.  That VO, and their "my health is low/critical" were also playing too frequently, and too loudly, because the VO events were using the wrong "preset" that dictated their frequency, pitch, and volume, unlike other units.  The GitHub report has a graphic that depicts the changed settings with the correct preset. (BUG #801)
 
 
 Interface Fixes:
