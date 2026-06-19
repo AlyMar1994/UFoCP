@@ -86,6 +86,7 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Skipray</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Skipray</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Skipray</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Skipray</SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Ambient_Moving>Unit_Y_Wing_Fly_By</SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds>5</SFXEvent_Ambient_Moving_Min_Delay_Seconds>
