@@ -903,7 +903,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Health_Low_Luke">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_LUK0702_ENG.wav U000_LUK0704_ENG.wav U000_LUK0803_ENG.wav</Samples>
 		<Post_Samples>U000_OBI1304_ENG.wav</Post_Samples>
 		<Localize>Yes</Localize>
@@ -912,7 +912,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Health_Critical_Luke">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_LUK0801_ENG.wav U000_LUK0802_ENG.wav U000_LUK0804_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -921,7 +921,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Low_Luke">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_LUK1509_ENG.wav U000_LUK1510_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -930,7 +930,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Low_Luke_Jedi">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_LUK0208_ENG.WAV, U000_LUK0311_ENG.WAV, U000_LUK0312_ENG.WAV</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -939,7 +939,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Critical_Luke">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_LUK0310_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -1087,7 +1087,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Health_Low_Wedge">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_WED0701_ENG.wav U000_WED0702_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -1096,7 +1096,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Health_Critical_Wedge">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_WED0801_ENG.wav U000_WED0802_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -1105,7 +1105,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Low_Wedge">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_WED0902_ENG.wav U000_WED0903_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -1114,7 +1114,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Critical_Wedge">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_WED0905_ENG.wav U000_WED0906_ENG.wav U000_LUK1504_ENG.wav U000_BIG1104_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -1209,7 +1209,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Health_Low_Red_Leader">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_RLD2701_ENG.wav U000_RLD2801_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Text_ID>TEXT_SFX_RLD_ATTACKED_1, TEXT_SFX_RLD_NEAR_DEATH_1</Text_ID>
@@ -1226,7 +1226,7 @@
 
 
 	<SFXEvent Name="Unit_Health_Critical_Red_Leader">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_RLD2802_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Text_ID>TEXT_SFX_RLD_NEAR_DEATH_2</Text_ID>
@@ -1234,7 +1234,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Low_Red_Leader">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_RLD0703_ENG.wav U000_RLD0704_ENG.wav U000_RLD0706_ENG.wav U000_LUK1505_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -1243,7 +1243,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Critical_Red_Leader">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_RLD0703_ENG.wav U000_RLD0704_ENG.wav U000_RLD0706_ENG.wav U000_LUK1505_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -1254,7 +1254,7 @@
 
 
 	<SFXEvent Name="Unit_Health_Low_Porkins">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_POR2801_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Text_ID>TEXT_SFX_POR_CHATTER_2</Text_ID>
@@ -1262,8 +1262,8 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Health_Critical_Porkins">
-		<Use_Preset>Preset_UR</Use_Preset>
-		<Samples>U000_POR2801_ENG.wav</Samples>
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>U000_POR1801_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Text_ID>TEXT_SFX_POR_CHATTER_2</Text_ID>
 		<Overlap_Test>Unit_Red_Squadron</Overlap_Test>
@@ -1279,7 +1279,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Low_Porkins">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_POR1706_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Text_ID>TEXT_SFX_POR_CHATTER_6</Text_ID>
@@ -1287,7 +1287,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Critical_Porkins">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_POR1706_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Text_ID>TEXT_SFX_POR_CHATTER_6</Text_ID>
@@ -1297,7 +1297,7 @@
 
 
 	<SFXEvent Name="Unit_Health_Low_Biggs">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Pre_Samples>U000_LUK1503_ENG.wav</Pre_Samples>
 		<Samples>U000_BIG1102_ENG.wav</Samples>
 		<Localize>Yes</Localize>
@@ -1306,7 +1306,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Health_Critical_Biggs">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_BIG2701_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Text_ID>TEXT_SFX_BIG_CHATTER_2</Text_ID>
@@ -1323,7 +1323,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Low_Biggs">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_BIG1105_ENG.wav U000_BIG1106_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -1332,7 +1332,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Critical_Biggs">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Pre_Samples>U000_LUK1506_ENG.wav</Pre_Samples>
 		<Samples>U000_BIG1201_ENG.wav</Samples>
 		<Localize>Yes</Localize>
@@ -1352,7 +1352,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Health_Low_Klivian">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_LUK0701_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Text_ID>TEXT_SFX_LUK_ATTACKED_1</Text_ID>
@@ -1361,7 +1361,7 @@
 
 
 	<SFXEvent Name="Unit_Health_Critical_Klivian">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_BIG1103_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Text_ID>TEXT_SFX_RLD_DEFEAT_R3</Text_ID>
@@ -1369,7 +1369,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Low_Klivian">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_KLI1302_ENG.wav U000_KLI1303_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Play_Sequentially>Yes</Play_Sequentially>
@@ -1378,7 +1378,7 @@
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Enemy_Health_Critical_Klivian">
-		<Use_Preset>Preset_UR</Use_Preset>
+		<Use_Preset>Preset_URC</Use_Preset>
 		<Samples>U000_KLI1302_ENG.wav U000_KLI1303_ENG.wav</Samples>
 		<Localize>Yes</Localize>
 		<Text_ID>TEXT_SFX_KLI_CHATTER_2, TEXT_SFX_BIG_CHATTER_3</Text_ID>

@@ -1155,6 +1155,7 @@
 		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Porkins</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Porkins</SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning>Unit_Enemy_Health_Low_Porkins</SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning />
 		<SFXEvent_Unit_Lost>Unit_Defeat_Porkins</SFXEvent_Unit_Lost>
 	</UniqueUnit>
 
