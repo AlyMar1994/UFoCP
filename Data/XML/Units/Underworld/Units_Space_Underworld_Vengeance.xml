@@ -97,11 +97,12 @@
 
 		<SFXEvent_Select>Unit_Select_Vengeance_Frigate</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Vengeance_Frigate</SFXEvent_Move>
+		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Vengeance_Frigate</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Vengeance_Frigate</SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vengeance_Frigate</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Vengeance_Frigate</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Vengeance_Frigate</SFXEvent_Guard>
 		<SFXEvent_Barrage>Unit_Barrage_Vengeance_Frigate</SFXEvent_Barrage>
-		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Vengeance_Frigate</SFXEvent_Move_Into_Nebula>
 
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Vengeance_Frigate</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Vengeance_Frigate</SFXEvent_Attack_Hardpoint>
@@ -110,6 +111,7 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Vengeance_Frigate</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Vengeance_Frigate</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Vengeance_Frigate</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_BAY_Vengeance_Frigate</SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Vengeance_Frigate</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,</SFXEvent_Hardpoint_Destroyed>
