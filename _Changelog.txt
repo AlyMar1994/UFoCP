@@ -70,6 +70,8 @@ Audio Fixes:
 • B-wings didn't use their assigned VO when attacking hangars, and their "my enemy's health is low/critical".  That VO, and their "my health is low/critical" were also playing too frequently, and too loudly, because the VO events were using the wrong "preset" that dictated their frequency, pitch and volume.  The GitHub report has a graphic that depicts the changed settings with the correct preset. (BUG #801)
 • TIE defenders didn't have VO when attacking hangar bays, and entering asteroid fields and nebulas.  In addition, multiple forgotten voice lines for these three events were restored, as apparently they were missed when creating the SFX Events. (BUG #802)
 • TIE interceptors didn't have VO when attacking hangar bays. (BUG #803)
+• Vengeance Frigates didn't use their assigned VO when entering asteroid fields or when attacking hangar bays. (BUG #805)
+• Crusader Gunships didn't use their assigned VO when entering asteroid fields or when attacking hangar bays. (BUG #806)
 
 
 Interface Fixes:

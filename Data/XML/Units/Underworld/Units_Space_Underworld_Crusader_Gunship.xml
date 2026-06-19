@@ -101,11 +101,12 @@
 		<SFXEvent_Ambient_Loop>Unit_Carrack_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
 		<SFXEvent_Select>Unit_Select_Crusader</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Crusader</SFXEvent_Move>
+		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Crusader</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Crusader</SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Crusader</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Crusader</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Crusader</SFXEvent_Guard>
 		<SFXEvent_Barrage>Unit_Barrage_Crusader</SFXEvent_Barrage>
-		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Crusader</SFXEvent_Move_Into_Nebula>
 
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Crusader</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Crusader</SFXEvent_Attack_Hardpoint>
@@ -114,6 +115,7 @@
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Crusader</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Crusader</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Crusader</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Crusader</SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Engine_Idle_Loop>Unit_Tartan_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop>Unit_Tartan_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
