@@ -1,45 +1,41 @@
 <?xml version="1.0"?>
-
-
 <MC30_Frigate_Data>
-
-
 	<SpaceUnit Name="MC30_Frigate">
 		<Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
-		<Encyclopedia_Good_Against> Star_Destroyer Kedalbe_Battleship </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> TIE_Bomber Vengeance_Frigate </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text> TEXT_TOOLTIP_MC30_FRIGATE</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against>Star_Destroyer Kedalbe_Battleship</Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>TIE_Bomber Vengeance_Frigate</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MC30_FRIGATE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FRIGATE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_mc30c.tga</Icon_Name>
-		
-		<GUI_Row> 1 </GUI_Row>
+
+		<GUI_Row>1</GUI_Row>
 		<Space_Model_Name>RV_MC30CMONCAL.ALO</Space_Model_Name>
 		<Select_Box_Scale>370</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
 		<Scale_Factor>0.75</Scale_Factor>
 		<Moniker>Alliance_Assault_Frigate.txt</Moniker>
-		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 
-        <Ranking_In_Category>6</Ranking_In_Category>
+		<Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Max_Speed>4.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Frigate </Space_Layer>
+		<MovementClass>Space</MovementClass>
+		<Space_Layer>Frigate</Space_Layer>
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
-		<OverrideAcceleration> .05 </OverrideAcceleration>
-		<OverrideDeceleration> .05 </OverrideDeceleration>
-		
+		<OverrideAcceleration>.05</OverrideAcceleration>
+		<OverrideDeceleration>.05</OverrideDeceleration>
+
 		<Max_Thrust>1.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
-		<Armor_Type> Armor_MC30_Frigate </Armor_Type>
-        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+		<Armor_Type>Armor_MC30_Frigate</Armor_Type>
+		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>3000</Shield_Points>
@@ -63,21 +59,21 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 
 		<Formation_Priority>3</Formation_Priority>
-		<Is_Escort>yes</Is_Escort>
-		<Is_Bomber>no</Is_Bomber>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>No</Is_Bomber>
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<AI_Combat_Power>2500</AI_Combat_Power>
-		<Size_Value>8</Size_Value>		
-		
+		<Size_Value>8</Size_Value>
+
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
 		<Death_Clone>Damage_Normal, MC30_Frigate_Death_Clone</Death_Clone>
 
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
@@ -101,38 +97,38 @@
 		<SFXEvent_Attack>Unit_Attack_MC30_Frigate</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_MC30_Frigate</SFXEvent_Guard>
 		<SFXEvent_Barrage>Unit_Barrage_MC30_Frigate</SFXEvent_Barrage>
-		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_MC30_Frigate </SFXEvent_Move_Into_Asteroid_Field>
-		<SFXEvent_Move_Into_Nebula> Unit_Nebula_MC30_Frigate </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_MC30_Frigate</SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula>Unit_Nebula_MC30_Frigate</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_MC30_Frigate </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_MC30_Frigate </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_MC30_Frigate </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_MC30_Frigate </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_MC30_Frigate </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_MC30_Frigate </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_MC30_Frigate </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_MC30_Frigate</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_MC30_Frigate</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_MC30_Frigate</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_MC30_Frigate</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_MC30_Frigate</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_MC30_Frigate</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_MC30_Frigate</SFXEvent_Attack_Hardpoint>
 
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_MC30_Frigate </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_MC30_Frigate </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_MC30_Frigate </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_MC30_Frigate</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_MC30_Frigate</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Lost_Engines_MC30_Frigate</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_GRAVITY_WELL,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM,</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
 
-		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Engine_Idle_Loop>Unit_Nebulon_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Nebulon_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
-		<Victory_Relevant>yes</Victory_Relevant>
+		<CategoryMask>Frigate | AntiCorvette</CategoryMask>
+		<Victory_Relevant>Yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
@@ -143,7 +139,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		<Population_Value>3</Population_Value>
-		<Score_Cost_Credits> 2500</Score_Cost_Credits>
+		<Score_Cost_Credits>2500</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
@@ -151,41 +147,36 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
 
 		<Lua_Script>ObjectScript_MC30</Lua_Script>
-	
-		<!-- Non-Hero unit abilities description -->
+
+		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-
-            <Unit_Ability>
-                <Type>CLUSTER_BOMB</Type>
-                <Recharge_Seconds>50.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> MC30_Cluster_Bomb </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cluster_Bombs_MC30_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
-                <Supports_Autofire>True</Supports_Autofire>
-            </Unit_Ability>
-
+			<Unit_Ability>
+				<Type>CLUSTER_BOMB</Type>
+				<Recharge_Seconds>50.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>MC30_Cluster_Bomb</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Effective_Radius>500.0</Effective_Radius>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Cluster_Bombs_MC30_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
-
-            <Cluster_Bomb_Ability Name="MC30_Cluster_Bomb">
-                <Activation_Style> User_Input </Activation_Style>
-                <Detonation_Time_In_Secs> 1.5 </Detonation_Time_In_Secs>
-                <Bomb_Type>Proj_Cluster_Bomb</Bomb_Type>
-                <Number_Of_Bombs> 12 </Number_Of_Bombs>
-                <SFXEvent_Activate>Unit_MC30_Launch_Cluster_Bomb</SFXEvent_Activate>
-            </Cluster_Bomb_Ability>
-
+		<Abilities SubObjectList="Yes">
+			<Cluster_Bomb_Ability Name="MC30_Cluster_Bomb">
+				<Activation_Style>User_Input</Activation_Style>
+				<Detonation_Time_In_Secs>1.5</Detonation_Time_In_Secs>
+				<Bomb_Type>Proj_Cluster_Bomb</Bomb_Type>
+				<Number_Of_Bombs>12</Number_Of_Bombs>
+				<SFXEvent_Activate>Unit_MC30_Launch_Cluster_Bomb</SFXEvent_Activate>
+			</Cluster_Bomb_Ability>
 		</Abilities>
-		
-		<Ship_Class>frigate</Ship_Class>
 
+		<Ship_Class>frigate</Ship_Class>
 	</SpaceUnit>
 
 	<SpaceUnit Name="MC30_Frigate_Death_Clone">
@@ -202,101 +193,6 @@
 		<Bank_Turn_Angle>0</Bank_Turn_Angle>
 		<Affiliation>Underworld</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 	</SpaceUnit>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </MC30_Frigate_Data>
