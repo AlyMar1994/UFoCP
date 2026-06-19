@@ -21,6 +21,7 @@
 		<Size_Value>8</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED</Behavior>
 		<SpaceBehavior>SELF_DESTRUCT, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
 
 		<Max_Speed>2.5</Max_Speed>
 		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
@@ -209,5 +210,7 @@
 		<Affiliation>Underworld</Affiliation>
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Persistence_Duration>0</Death_Persistence_Duration>
+		<CategoryMask>None</CategoryMask>
 	</SpaceUnit>
 </Vengeance_Frigate_Data>
