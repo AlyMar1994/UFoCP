@@ -49,8 +49,7 @@ UFCP:
 ENHANCEMENTS:
 • UFCP has merged with cha20202's "EAW Campaigns & Conquests to FOC Conversion" to restore bugfixed versions of the EaW GCs and story campaigns.  UFCP was already moderately predisposed to be backwards compatible with EaW due to certain compatibility changes, and this merging fully completes it (as far as we know).  A selection of changes include: (BUG #247)
 •• Fixed Land Alderaan's Pirate Base location.  It has been moved to prevent units getting stuck on the terrain.
-•• Fixed various Rebel campaign oddities, collision issues and script bugs.
-•• Fixed various Empire campaign oddities, collision issues and script bugs.
+•• Fixed various Rebel and Empire campaign oddities, collision issues and script bugs.
 •• Darth Vader was added into Rebel mission #11 ("Attack on the Death Star").  This is because it is cool.
 •• Fixed GC win videos not playing after completing a win condition (for both story and normal Galactic Conquests).
 •• Added "alternate history" versions of EaW/FoC's GC campaigns.  FoC campaigns (such as Equal Footing, or Clusters) have received variants where you can play with EaW Heroes instead of FoC ones, with the option of "upgrading" Vader from his starfighter squadron to the Executor by purchasing him like normal.  EaW campaigns have received the same treatment, with variants with FoC Heroes.  Unfortunately, due to engine limitations, the original Death Star has not been re-enabled for the EaW GCs, though the DS2 can still be built like normal and operates the same way.

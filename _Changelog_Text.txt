@@ -53,8 +53,12 @@ Additions:
 • To support the merge with "EAW Campaigns & Conquests to FOC Conversion" and the new "alternate history" campaigns, multiple text strings have been renamed, modified or added. (all MTEM/MTRM/MBEM/MBRM titles and mission bios/titles, TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN, TEXT_CAMPAIGN_SINGLE_10A_FOC, TEXT_CAMPAIGN_SINGLE_10B_FOC, TEXT_CAMPAIGN_SINGLE_12_EAW, TEXT_CAMPAIGN_SINGLE_15_FOC, TEXT_CAMPAIGN_SINGLE_21_EAW, TEXT_CAMPAIGN_SINGLE_25_FOC, TEXT_CAMPAIGN_SINGLE_27_EAW, TEXT_CAMPAIGN_SINGLE_33B_EAW, TEXT_CAMPAIGN_SINGLE_35_FOC, TEXT_CAMPAIGN_SINGLE_36_EAW, TEXT_CAMPAIGN_SINGLE_44_FOC, TEXT_CAMPAIGN_SINGLE_50_FOC, TEXT_CAMPAIGN_SINGLE_56_EAW, TEXT_CAMPAIGN_SINGLE_60_FOC, TEXT_HELP_SEPERATOR_GC) (BUG #247)
 
 
+Housekeeping:
+• Various instances of "C3P0" or "C-3P0" have been corrected to "C-3PO."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.  Only the English, Japanese and Polish translations suffered this issue.
+
+
 • TEXT_TOOLTIP_TECH_LEVEL_REBEL: (BUG #783)
-	-- ENG: ...The Rebellion advances their tech tree by stealing technology from the Empire with R2-D2 and C3P0. ... --> ...The Rebellion advances their tech tree by stealing technology from the Empire with R2-D2 and C-3P0. ...
+	-- ENG: ...The Rebellion advances their tech tree by stealing technology from the Empire with R2-D2 and C3PO. ... --> ...The Rebellion advances their tech tree by stealing technology from the Empire with R2-D2 and C-3PO. ...
 
 • TEXT_TOOLTIP_Z95_HEADHUNTER: (BUG #799)
 	-- ENG: Out-dated fighter armed with light laser cannons. ... --> Outdated fighter armed with light laser cannons. ...
