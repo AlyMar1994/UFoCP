@@ -1,116 +1,117 @@
 <?xml version="1.0"?>
 <Campaigns>
-	<!-- ***************************************** -->
+	<!-- ******************************************** -->
 	<!-- ***** LIST OF INBASE-OUTBASE BUILDINGS ***** -->
-	<!-- *****************************************
-Pirate_Command_Center (pirates)
-P_Ground_Base_Shield_Small (pirates)
+	<!-- ******************************************** -->
+	<!--
+		Pirate_Command_Center (pirates)
+		P_Ground_Base_Shield_Small (pirates)
 
-REBEL - In_Base
-Ground_Infiltrator_Facility
-R_Ground_Barracks
-R_Ground_Light_Vehicle_Factory
-R_Ground_Heavy_Vehicle_Factory
-R_Ground_Officer_Academy
-Rebel_Ground_Mining_Facility
+		REBEL - In_Base
+		Ground_Infiltrator_Facility
+		R_Ground_Barracks
+		R_Ground_Light_Vehicle_Factory
+		R_Ground_Heavy_Vehicle_Factory
+		R_Ground_Officer_Academy
+		Rebel_Ground_Mining_Facility
 
-Rebel - Shield
-R_Ground_Base_Shield
-R_Ground_Base_Shield_Small
+		Rebel - Shield
+		R_Ground_Base_Shield
+		R_Ground_Base_Shield_Small
 
-Rebel - Power
-Power_Generator_R
+		Rebel - Power
+		Power_Generator_R
 
-REBEL - Out_Base
-Ground_Ion_Cannon
-Ground_Cantina_R
-Ground_Hutt_Palace_R
+		REBEL - Out_Base
+		Ground_Ion_Cannon
+		Ground_Cantina_R
+		Ground_Hutt_Palace_R
 
-Rebel - Turbolaser  (multiple markers but only place one per planet in galactic)
-R_Galactic_Turbolaser_Tower_Defenses
+		Rebel - Turbolaser  (multiple markers but only place one per planet in galactic)
+		R_Galactic_Turbolaser_Tower_Defenses
 
-REBEL - Orbital
-R_Orbital_Jamming_Station
-Rebel_Orbital_Long_Range_Scanner
+		REBEL - Orbital
+		R_Orbital_Jamming_Station
+		Rebel_Orbital_Long_Range_Scanner
 
-********************************************************
+		********************************************************
 
-EMPIRE - In_Base
-E_Ground_Barracks
-E_Ground_Light_Vehicle_Factory
-E_Ground_Heavy_Vehicle_Factory
-E_Ground_Advanced_Vehicle_Factory
-E_Ground_Officer_Academy
-Empire_Ground_Mining_Facility
+		EMPIRE - In_Base
+		E_Ground_Barracks
+		E_Ground_Light_Vehicle_Factory
+		E_Ground_Heavy_Vehicle_Factory
+		E_Ground_Advanced_Vehicle_Factory
+		E_Ground_Officer_Academy
+		Empire_Ground_Mining_Facility
 
-Empire - Shield
-E_Ground_Base_Shield
-E_Ground_Base_Shield_Small
+		Empire - Shield
+		E_Ground_Base_Shield
+		E_Ground_Base_Shield_Small
 
-Empire - Power
-Power_Generator_E
+		Empire - Power
+		Power_Generator_E
 
-EMPIRE - Out_Base
-Ground_Hutt_Palace_E
-Ground_Cantina_E
-Ground_Empire_Hypervelocity_Gun
-Ground_Magnepulse_Cannon
-Imperial_Prison_Facility
+		EMPIRE - Out_Base
+		Ground_Hutt_Palace_E
+		Ground_Cantina_E
+		Ground_Empire_Hypervelocity_Gun
+		Ground_Magnepulse_Cannon
+		Imperial_Prison_Facility
 
-Empire - Turbolaser (multiple markers but only place one per planet in galactic)
-E_Galactic_Turbolaser_Tower_Defenses
+		Empire - Turbolaser (multiple markers but only place one per planet in galactic)
+		E_Galactic_Turbolaser_Tower_Defenses
 
-EMPIRE - Orbital
-E_Gravity_Well_Station
-E_Orbital_Jamming_Station
-Empire_Orbital_Long_Range_Scanner
+		EMPIRE - Orbital
+		E_Gravity_Well_Station
+		E_Orbital_Jamming_Station
+		Empire_Orbital_Long_Range_Scanner
 
 
-PLANETS - BUILDING LIMITS
-Abregado_Rae - 3
-AetenII - 3
-Alderaan - 8
-AlzocIII - 5
-Anaxes - 4
-Atzerri - 5 (was 7)
-Bespin - 0?
-Bestine - 4
-Bonadan - 7
-Bothawui - 6
-Byss - 8
-Carida - 7 (was 8)
-Corellia - 4
-Corulag - 6
-Coruscant - 8
-Dagobah - 2
-Dantooine - 5
-Endor - 4
-Eriadu - 5
-Fondor - 3
-Fresia - 2
-Geonosis - 8
-Hoth - 4
-Ilum - 6
-Jabiim - 2
-Kamino - 3
-Kashyyyk - 5
-Kessel - 2
-Korriban - 3
-Kuat - 3
-Manaan - 2
-MonCalimari - 3
-Naboo - 5
-NalHutta - 8
-Polus - 3
-Ryloth - 5
-Shola - 6
-Sullust - 4
-Taris - 6
-Tatooine - 6
-Thyferra - 6
-VergessoAsteroids - 0
-Wayland - 6
-Yavin - 6
+		PLANETS - BUILDING LIMITS
+		Abregado_Rae - 3
+		AetenII - 3
+		Alderaan - 8
+		AlzocIII - 5
+		Anaxes - 4
+		Atzerri - 5 (was 7)
+		Bespin - 0?
+		Bestine - 4
+		Bonadan - 7
+		Bothawui - 6
+		Byss - 8
+		Carida - 7 (was 8)
+		Corellia - 4
+		Corulag - 6
+		Coruscant - 8
+		Dagobah - 2
+		Dantooine - 5
+		Endor - 4
+		Eriadu - 5
+		Fondor - 3
+		Fresia - 2
+		Geonosis - 8
+		Hoth - 4
+		Ilum - 6
+		Jabiim - 2
+		Kamino - 3
+		Kashyyyk - 5
+		Kessel - 2
+		Korriban - 3
+		Kuat - 3
+		Manaan - 2
+		MonCalimari - 3
+		Naboo - 5
+		NalHutta - 8
+		Polus - 3
+		Ryloth - 5
+		Shola - 6
+		Sullust - 4
+		Taris - 6
+		Tatooine - 6
+		Thyferra - 6
+		VergessoAsteroids - 0
+		Wayland - 6
+		Yavin - 6
 	-->
 
 
@@ -836,7 +837,6 @@ Manaan AetenII Dantooine Wayland Fresia & Bothawui, Atzerri -->
 		<Starting_Forces>Rebel, Yavin, Corellian_Corvette</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Marauder_Missile_Cruiser</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Alliance_Assault_Frigate</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Droids_Team</Starting_Forces>
 
 		<!-- Alzoc III - 5 -->
 		<!-- dme 11/8/05- changing to Marauder & Nebulon B heavy battle -->
@@ -1093,7 +1093,6 @@ Manaan AetenII Dantooine Wayland Fresia & Bothawui, Atzerri -->
 		<Starting_Forces>Rebel, Alderaan, Z95_Headhunter_Rebel_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Alderaan, Z95_Headhunter_Rebel_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Alderaan, Z95_Headhunter_Rebel_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Corellian_Corvette</Starting_Forces>
 		<Starting_Forces>Rebel, Alderaan, Corellian_Corvette</Starting_Forces>
 		<Starting_Forces>Rebel, Alderaan, Corellian_Corvette</Starting_Forces>
 		<Starting_Forces>Rebel, Alderaan, Corellian_Corvette</Starting_Forces>
@@ -1620,11 +1619,9 @@ AlzocIII Manaan AetenII Jabiim Thyferra Taris Polus Ilum Fondor Anaxes AbregadoR
 		<Starting_Forces>Empire, Taris, Victory_Destroyer</Starting_Forces>
 
 		<Starting_Forces>Empire, Taris, E_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Empire, Taris, Empire_Ground_Mining_Facility</Starting_Forces>
 		<Starting_Forces>Empire, Taris, E_Ground_Light_Vehicle_Factory</Starting_Forces>
 		<Starting_Forces>Empire, Taris, E_Ground_Heavy_Vehicle_Factory</Starting_Forces>
 		<Starting_Forces>Empire, Taris, Ground_Empire_Hypervelocity_Gun</Starting_Forces>
-		<Starting_Forces>Empire, Taris, Ground_Gravity_Generator</Starting_Forces>
 
 		<Starting_Forces>Empire, Taris, Imperial_Stormtrooper_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Taris, Imperial_Stormtrooper_Squad</Starting_Forces>

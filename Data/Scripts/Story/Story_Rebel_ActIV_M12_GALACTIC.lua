@@ -95,7 +95,7 @@ end
 
 function State_Rebel_A4_M12_Hunt(message)
     if message == OnEnter then
-		Sleep(60)
+		Sleep(60) -- AM1994 (06-22-2026): Ensure 1min wait so all dialogue and system notifs can play before the DS targets the player
 		DeathStar_Attack()
 	end
 end

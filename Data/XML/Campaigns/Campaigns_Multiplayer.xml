@@ -3016,9 +3016,6 @@
 			Corellia_Geonosis
 		</Trade_Routes>
 
-		<Rebel_Story_Name>Story_Plots_Universal_Triggers_R.xml</Rebel_Story_Name>
-		<Empire_Story_Name>Story_Plots_Universal_Triggers_E.xml</Empire_Story_Name>
-
 		<Home_Location>Rebel, Hoth</Home_Location>
 		<Home_Location>Empire, Geonosis</Home_Location>
 
@@ -3268,9 +3265,6 @@
 			NalHutta_Bothawui
 		</Trade_Routes>
 
-		<Rebel_Story_Name>Story_Plots_Universal_Triggers_R.xml</Rebel_Story_Name>
-		<Empire_Story_Name>Story_Plots_Universal_Triggers_E.xml</Empire_Story_Name>
-
 		<!-- Win Conditions -->
 		<Human_Victory_Conditions>
 			Galactic_All_Planets_Controlled
@@ -3508,9 +3502,6 @@
 			Corellia_Kashyyyk
 		</Trade_Routes>
 
-		<Rebel_Story_Name>Story_Plots_Universal_Triggers_R.xml</Rebel_Story_Name>
-		<Empire_Story_Name>Story_Plots_Universal_Triggers_E.xml</Empire_Story_Name>
-
 		<Home_Location>Rebel, Kuat</Home_Location>
 		<Home_Location>Empire, Endor</Home_Location>
 
@@ -3723,9 +3714,6 @@
 			Alderaan_Sullust,
 			Naboo_Sullust
 		</Trade_Routes>
-
-		<Rebel_Story_Name>Story_Plots_Universal_Triggers_R.xml</Rebel_Story_Name>
-		<Empire_Story_Name>Story_Plots_Universal_Triggers_E.xml</Empire_Story_Name>
 
 		<Home_Location>Rebel, Sullust</Home_Location>
 		<Home_Location>Empire, Shola</Home_Location>
@@ -4009,9 +3997,6 @@
 			MonCalimari_Yavin,
 			Alderaan_Korriban
 		</Trade_Routes>
-
-		<Rebel_Story_Name>Story_Plots_Universal_Triggers_R.xml</Rebel_Story_Name>
-		<Empire_Story_Name>Story_Plots_Universal_Triggers_E.xml</Empire_Story_Name>
 
 		<!-- Win Conditions -->
 		<Human_Victory_Conditions>
@@ -4351,9 +4336,6 @@
 		<Camera_Shift_X>20.0</Camera_Shift_X>
 		<Camera_Shift_Y>-55.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
-
-		<Rebel_Story_Name>Story_Plots_Universal_Triggers_R.xml</Rebel_Story_Name>
-		<Empire_Story_Name>Story_Plots_Universal_Triggers_E.xml</Empire_Story_Name>
 
 		<Locations>
 			Galaxy_Core_Art_Model,
@@ -4731,9 +4713,6 @@
 
 		<Home_Location>Rebel, Hoth</Home_Location>
 		<Home_Location>Empire, Coruscant</Home_Location>
-
-		<Rebel_Story_Name>Story_Plots_Universal_Triggers_R.xml</Rebel_Story_Name>
-		<Empire_Story_Name>Story_Plots_Universal_Triggers_E.xml</Empire_Story_Name>
 
 		<!-- Win Conditions -->
 		<Human_Victory_Conditions>
