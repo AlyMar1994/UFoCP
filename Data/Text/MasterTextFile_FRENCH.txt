@@ -51,7 +51,7 @@ MB_SPACE_PLANET_MANDALORE_PIRACY_PROLOGUE,Établir un réseau de piraterie autou
 MB_SPACE_PLANET_MANDALORE_PIRACY_STORY,Il sera difficile d'établir un réseau de piraterie sur Mandalore. Je vais personnellement participer à cette mission. C'est le seul moyen de vaincre les cruels habitants de Mandalore et leurs redoutables chasseurs. Je vais mobiliser nos réservistes pour accomplir cette mission.
 MB_SPACE_PLANET_MONCALAMARI_PIRACY,Les Mon Calamari sont surtout connus pour leurs croiseurs stellaires. Il faudrait les confronter aux forces du Consortium pour savoir si leur réputation est méritée. Je vais mobiliser nos réservistes pour accomplir cette mission.
 MBEM02_AN_ORGANIZED_RESISTANCE,L'Empereur a envoyé Dark Vador sur la planète Thyferra à la recherche de l'agent Impérial qui conspire avec les Rebelles. Après avoir intercepté des transmissions codées, Vador a décidé de passer à l'attaque. Il espère ainsi surprendre à la fois les Rebelles et sa cible.
-MBEM03_THE_PIRATE_MENACE,Boba Fett prête main forte à l'Empire en échange d'une forte récompense. Il va passer en revue les défenses ennemies et neutraliser leur système d'alerte avant l'arrivée de la flotte. 
+MBEM03_THE_PIRATE_MENACE,Boba Fett prête main forte à l'Empire en échange d'une forte récompense. Il va passer en revue les défenses ennemies et neutraliser leur système d'alerte avant l'arrivée de la flotte.
 MBEM04_SPACE_PLANET_GEONOSIS,Le Grand Moff Tarkin a demandé à Dark Vador de réquisitionner les ressources de Géonosis. Il faut prendre le contrôle de la surface et de l'espace.
 MBEM05_ATTACK_ON_MON_CALAMARI,L'Empereur pense que le peuple Mon Calamari, farouchement attaché à son indépendance, n'hésitera pas à venir en aide à la Rébellion. Il faut conquérir leur planète pour les empêcher de prendre part au conflit.
 MBEM06_TROUBLE_ON_KASHYYYK,Un déserteur Impérial nommé Yan Solo a trahi l'Empire en libérant des Wookiees de leur prison. Il s'apprête à commettre un geste insensé : faire quitter la planète aux habitants de Kashyyyk. Il s'agit d'une main d'œuvre très précieuse, nous ne devons pas le laisser faire.
@@ -400,7 +400,7 @@ TEXT_BM_POINT_DEFENSE,Système de défense
 TEXT_BM_REMOTE_WEAPON,Armes télécommandées
 TEXT_BM_SENSOR_JAMMING,Brouillage
 TEXT_BM_SHIELD_REDIST,Absorption d'énergie
-TEXT_BM_STRAT_DEMO,Autodestruction 
+TEXT_BM_STRAT_DEMO,Autodestruction
 TEXT_BM_UNIT_LEAD,Amélioration :
 TEXT_BM_WEAPON_SYNC,Synchronisation des armes
 TEXT_BM_WEAPONIZED_CARBONITE,Projectiles de carbonite
@@ -415,7 +415,7 @@ TEXT_BOBA_FETT_NEUTRALIZES_MON_MOTHMA,Boba Fett a temporairement neutralisé Mon
 TEXT_BOBA_FETT_NEUTRALIZES_OBI_WAN_KENOBI,Boba Fett a temporairement neutralisé Obi-Wan Kenobi ! Lieu :
 TEXT_BOSSK_FLAMETHROWER_DESCRIPTION,Active le lance-flammes de Bossk, qui inflige des dommages aux unités se trouvant face à lui.
 TEXT_BOSSK_SWAP_DESCRIPTION,Passer d'un blaster à des grenades plasma
-TEXT_BOTH_MOUSE_BUTTONS_ROTATE,Rotation avec les 2 boutons 
+TEXT_BOTH_MOUSE_BUTTONS_ROTATE,Rotation avec les 2 boutons
 TEXT_BOUNTY_HUNTER_NEUTRALIZES_BOBA_FETT,Un chasseur de primes a temporairement neutralisé Boba Fett ! Lieu :
 TEXT_BOUNTY_HUNTER_NEUTRALIZES_DARTH_VADER,Un chasseur de primes a temporairement neutralisé Dark Vador ! Lieu :
 TEXT_BOUNTY_HUNTER_NEUTRALIZES_DROID_R2D2,Un chasseur de primes a temporairement neutralisé R2-D2 et C-3PO ! Lieu :
@@ -634,7 +634,7 @@ TEXT_CAMPAIGN_MIKE_TEST,Campagne de test magique de Mike
 TEXT_CAMPAIGN_MOVIE_MAP,Planètes du film uniquement
 TEXT_CAMPAIGN_MULTI_ALDERAAN,La destruction d'Aldérande
 TEXT_CAMPAIGN_MULTI_BESPIN,Affrontements sur Bespin
-TEXT_CAMPAIGN_MULTI_CORUSCANT,Le bouclage de Coruscant 
+TEXT_CAMPAIGN_MULTI_CORUSCANT,Le bouclage de Coruscant
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_ALDERAAN,Ce scénario comporte 7 planètes.
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_BESPIN,Ce scénario comporte 5 planètes.
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_CORUSCANT,Ce scénario comporte 11 planètes.
@@ -803,7 +803,7 @@ TEXT_CAMPAIGN_STORY_TEST,P2 - Campagne de test scénario
 TEXT_CAMPAIGN_TUTORIAL_01,DIDACTICIEL I - Combat terrestre
 TEXT_CAMPAIGN_TUTORIAL_02,DIDACTICIEL II - Combat spatial
 TEXT_CAMPAIGN_TUTORIAL_03,DIDACTICIEL III - Présentation
-TEXT_CAMPAIGN_TUTORIAL_04,DIDACTICIEL IV - Économie et production galactiques 
+TEXT_CAMPAIGN_TUTORIAL_04,DIDACTICIEL IV - Économie et production galactiques
 TEXT_CAMPAIGN_TUTORIAL_05,DIDACTICIEL V - Création et mouvements de la flotte
 TEXT_CAMPAIGN_TUTORIAL_06,DIDACTICIEL VI - Niveaux technologiques et époques
 TEXT_CAMPAIGN_TUTORIAL_07,DIDACTICIEL VII - Missions galactiques scénarisées
@@ -906,7 +906,7 @@ TEXT_CONNECTED,Connecté
 TEXT_CONNECTION_FAILED,Échec de la connexion
 TEXT_CONNECTION_INTERRUPTED,Connexion interrompue
 TEXT_CONQUEST_EFFICIENCY,Efficacité conquête :
-TEXT_CONTAINS,Contient : 
+TEXT_CONTAINS,Contient :
 TEXT_CONTINUE,Continuer
 TEXT_CORELLIA_PIRACY_OBJECTIVE_00,Détruire les centres de production du quai spatial
 TEXT_CORELLIA_PIRACY_OBJECTIVE_01,Tyber Zann doit survivre.
@@ -918,7 +918,7 @@ TEXT_CORRUPTION_AETENII_STORY_RACKETEER,Les ouvriers qui extraient les cristaux 
 TEXT_CORRUPTION_ALZOCIII_STORY_BLACKMARKET,Le Marché noir d'Alzoc III est une importante source de technologies dans ce secteur de la galaxie. Les plans des nouveaux vaisseaux Impériaux et Rebelles seront un atout supplémentaire pour le Consortium de Zann.
 TEXT_CORRUPTION_ALZOCIII_STORY_INTIMIDATION,L'intendant chargé de l'approvisionnement en nourriture joue un rôle essentiel dans les coulisses de cette planète. Si nous le convainquons de collaborer, nous prendrons le contrôle de la production minière.
 TEXT_CORRUPTION_ANAXES_STORY_BLACKMARKET,Le Défenseur du Noyau et ses technologies de nouvelle génération sont une cible difficile pour établir un Marché noir. Mais si vous y parvenez, vous ne le regretterez pas.
-TEXT_CORRUPTION_ANAXES_STORY_INTIMIDATION,Flankar, le commandant de la flotte, vit sur Anaxis. Il faut éliminer les défenses de son complexe et s'attaquer à lui pour intimider les autres capitaines de vaisseau de la galaxie. 
+TEXT_CORRUPTION_ANAXES_STORY_INTIMIDATION,Flankar, le commandant de la flotte, vit sur Anaxis. Il faut éliminer les défenses de son complexe et s'attaquer à lui pour intimider les autres capitaines de vaisseau de la galaxie.
 TEXT_CORRUPTION_ANAXES_STORY_RACKETEER,Les marchands d'Anaxis sont des cibles parfaites. Nous allons détruire certains de leurs vaisseaux et les contraindre à nous verser des crédits en échange de notre protection.
 TEXT_CORRUPTION_ASSASSINATION,Intimidation (combat terrestre)
 TEXT_CORRUPTION_ASSASSINATION_BENEFIT,AVANTAGES : Neutralise l'aptitude spéciale de la planète. (Requis pour Extorsion)
@@ -948,13 +948,13 @@ TEXT_CORRUPTION_BOTHAWUI_STORY_INTIMIDATION,S'il parvenait à intimider le séna
 TEXT_CORRUPTION_BRIBERY,Soudoyer
 TEXT_CORRUPTION_BRIBERY_BENEFIT,AVANTAGES : Aucune unité de garnison ennemie ne sera produite tant que la planète sera corrompue. Le Consortium sera prévenu en cas de mouvement des troupes. (Requis pour Milice corrompue)
 TEXT_CORRUPTION_BRIBERY_ENCYCLOPEDIA,Dans cette mission, un Corrupteur doit soudoyer les dignitaires et les industriels ennemis pour perturber les procédures militaires habituelles.
-TEXT_CORRUPTION_BYSS_STORY_BLACKMARKET,Les technologies de l'Empire les plus évoluées sont élaborées grâce aux systèmes informatiques de Byss. 
+TEXT_CORRUPTION_BYSS_STORY_BLACKMARKET,Les technologies de l'Empire les plus évoluées sont élaborées grâce aux systèmes informatiques de Byss.
 TEXT_CORRUPTION_BYSS_STORY_KIDNAP,Byss est un monde dangereux et très apprécié de l'Empereur. L'enlèvement du gouverneur planétaire Kirith pourrait nous rapporter beaucoup de crédits.
 TEXT_CORRUPTION_CARIDA_STORY_BLACKMARKET,En établissant des relations avec le Marché noir de Carida, nous gagnerons en puissance et en prestige, mais nous aurons aussi accès à de nouvelles technologies Impériales.
 TEXT_CORRUPTION_CARIDA_STORY_BRIBERY,En soudoyant Dalken Hol, le responsable de la route commerciale Perlemienne, nous aurons accès à de précieuses informations. De plus, nous empêcherons la puissante garnison de Carida de produire des unités ennemies.
 TEXT_CORRUPTION_CARIDA_STORY_KIDNAP,Si nous parvenons à capturer l'amiral Dalken Hol, nous serons libres de nous établir autour de l'Académie Impériale.
 TEXT_CORRUPTION_CORELLIA_STORY_BLACKMARKET,Le chantiers en orbite autour de Corellia ont assuré sa renommée. Sa surface, par contre, est peu peuplée. Un endroit idéal pour implanter un Marché noir.
-TEXT_CORRUPTION_CORELLIA_STORY_PIRACY,Certains satellites de Corellia approvisionnent la planète. Il suffirait d'en détruire quelques-uns pour faire étalage de notre puissance. De plus, nos unités y gagneraient en expérience. 
+TEXT_CORRUPTION_CORELLIA_STORY_PIRACY,Certains satellites de Corellia approvisionnent la planète. Il suffirait d'en détruire quelques-uns pour faire étalage de notre puissance. De plus, nos unités y gagneraient en expérience.
 TEXT_CORRUPTION_CORULAG_STORY_CORUPTMILITIA,Nous allons corrompre les services de sécurité de ce monde et prendre le contrôle de ses défenses. Si l'influence du Consortium venait à s'estomper, un vent de révolte soufflerait sur cette planète.
 TEXT_CORRUPTION_CORULAG_STORY_PIRACY,C'est l'une des planètes les plus riches du secteur de Bormea. Une cible parfaite pour nos pirates.
 TEXT_CORRUPTION_CORUSCANT_STORY_BLACKMARKET,Cette planète est au centre de la galaxie. C'est l'endroit rêvé pour établir un Marché noir.
@@ -975,7 +975,7 @@ TEXT_CORRUPTION_ERIADU_STORY_RACKETEER,Les satellites habités d'Eriadu sont des
 TEXT_CORRUPTION_FELUCIA_STORY_BRIBERY,C'est la Guilde du commerce qui détient le pouvoir sur cette planète. Il suffirait de soudoyer ses membres pour que toutes les autres organisations rallient notre cause.
 TEXT_CORRUPTION_FELUCIA_STORY_RACKETEER,Si le Consortium parvient à infiltrer le complexe de Jiaozi, il pourrait mettre en place un véritable réseau d'extorsion sur Félucia.
 TEXT_CORRUPTION_FONDOR_STORY_CORUPTMILITIA,Si le Consortium parvient à semer la corruption sur Fondor, il sera difficile à quiconque de le chasser de cette planète sans provoquer de révolution.
-TEXT_CORRUPTION_FONDOR_STORY_PIRACY,Plusieurs stations de combat sont en orbite autour de Fondor. En en détruisant une, le Consortium de Zann pourrait asseoir sa domination sur ce système. 
+TEXT_CORRUPTION_FONDOR_STORY_PIRACY,Plusieurs stations de combat sont en orbite autour de Fondor. En en détruisant une, le Consortium de Zann pourrait asseoir sa domination sur ce système.
 TEXT_CORRUPTION_FRESIA_STORY_BRIBERY,En soudoyant le président d'Incom Corporation, le Consortium de Zann gagnerait en puissance sur les plans politique et technologique.
 TEXT_CORRUPTION_FRESIA_STORY_CORUPTMILITIA,Les célèbres chasseurs X-wing ont été conçus sur Frésia. De nouveaux modèles plus évolués seraient déjà disponibles. Une fois la milice sous notre contrôle, nous aurons accès à des données confidentielles et nous identifierons leurs faiblesses.
 TEXT_CORRUPTION_GEONOSIS_STORY_BONDEDCITIZENS,Les habitants de Géonosis sont des faibles. S'ils sont réduits en esclavage, ils pourront servir le Consortium.
@@ -1001,7 +1001,7 @@ TEXT_CORRUPTION_KUAT_STORY_BLACKMARKET,Les chantiers navals de Kuat et les centr
 TEXT_CORRUPTION_KUAT_STORY_KIDNAP,Bevel Lemelisk est un génial concepteur de vaisseaux. Ce qui en fait une proie idéale pour le Consortium de Zann.
 TEXT_CORRUPTION_MANAAN_STORY_RACKETEER,Les Selkath sont une race aquatique très peu puissante. Une cible parfaite pour une tentative de racket.
 TEXT_CORRUPTION_MANDALORE_STORY_BRIBERY,Les clans Mandaloriens nomment traditionnellement l'un des leurs pour les représenter dans la galaxie. En soudoyant celui qu'ils ont choisi, le Consortium de Zann pourra s'approprier de précieuses ressources.
-TEXT_CORRUPTION_MANDALORE_STORY_PIRACY,Il sera difficile d'établir un réseau de piraterie sur Mandalore. Tyber Zann va personnellement participer à cette mission. C'est le seul moyen de vaincre les cruels habitants de Mandalore et leurs redoutables chasseurs. 
+TEXT_CORRUPTION_MANDALORE_STORY_PIRACY,Il sera difficile d'établir un réseau de piraterie sur Mandalore. Tyber Zann va personnellement participer à cette mission. C'est le seul moyen de vaincre les cruels habitants de Mandalore et leurs redoutables chasseurs.
 TEXT_CORRUPTION_MANDALORE_STORY_RACKETEER,Les habitants de cette planète sont organisés en clans, ce qui facilitera nos tentatives d'extorsion.
 TEXT_CORRUPTION_MISSION_REQUIREMENT,Nombre de missions de corruption à remplir afin d'établir la corruption sur ce monde
 TEXT_CORRUPTION_MONCALAMARI_STORY_BONDEDCITIZENS,La population de cette planète est passive et vit dans des cités bâties sur des eaux peu profondes, ce qui en fait des proies faciles.
@@ -1022,7 +1022,7 @@ TEXT_CORRUPTION_PIRACY,Piraterie (combat spatial)
 TEXT_CORRUPTION_PIRACY_BENEFIT,AVANTAGES : Offre des revenus sous forme de taxes imposées à tous les vaisseaux passant dans l'espace autour de la planète. De plus, le Consortium a accès à des types de vaisseaux ennemis spécifiques en fonction du réseau de piraterie. (Requis pour Marché noir et Esclavage)
 TEXT_CORRUPTION_PIRACY_ENCYCLOPEDIA,Dans cette mission, le Consortium de Zann doit engager un combat tactique spatial pour prendre le contrôle des couloirs de navigation.
 TEXT_CORRUPTION_PLANET_REQUIREMENT,Planète requise pour corrompre la planète
-TEXT_CORRUPTION_POLUS_STORY_BLACKMARKET,Les Pyn'gani n'aiment pas les étrangers mais raffolent des nouvelles technologies. Nous n'aurons pas de mal à faire diversion pendant que nous implantons un Marché noir. 
+TEXT_CORRUPTION_POLUS_STORY_BLACKMARKET,Les Pyn'gani n'aiment pas les étrangers mais raffolent des nouvelles technologies. Nous n'aurons pas de mal à faire diversion pendant que nous implantons un Marché noir.
 TEXT_CORRUPTION_POLUS_STORY_BONDEDCITIZENS,Les mineurs sont faciles à réduire en esclavage. Le Consortium pourra compter sur plusieurs milliers de serviteurs.
 TEXT_CORRUPTION_POLUS_STORY_RACKETEER,Nous devons soudoyer les mineurs des gisements de carbonite sur ce monde gelé.
 TEXT_CORRUPTION_RACKETEERING,Extorsion
@@ -1058,7 +1058,7 @@ TEXT_CORRUPTION_UTAPAU_STORY_KIDNAP_OBJECTIVE_02,Se rendre maître du complexe d
 TEXT_CORRUPTION_UTAPAU_STORY_KIDNAP_OBJECTIVE_03,Conduire Silri auprès de Garnak Fey
 TEXT_CORRUPTION_UTAPAU_STORY_KIDNAP_OBJECTIVE_04,Ramener Silri et Garnak Fey à la navette
 TEXT_CORRUPTION_WAYLAND_STORY_BLACKMARKET,Cette planète est célèbre pour ses armes organiques. Le Marché noir nous permettrait d'avoir accès à ces technologies.
-TEXT_CORRUPTION_WAYLAND_STORY_RACKETEER,Les entrepôts Impériaux de la planète renferment de nombreux secrets. Seule l'extorsion peut nous permettre de les découvrir. 
+TEXT_CORRUPTION_WAYLAND_STORY_RACKETEER,Les entrepôts Impériaux de la planète renferment de nombreux secrets. Seule l'extorsion peut nous permettre de les découvrir.
 TEXT_CORRUPTION_YAVIN_STORY_BRIBERY,Des Rebelles se sont établis sur Yavin 4 et dans le reste du système. Nous allons en soudoyer certains pour obtenir des renseignements sur leurs mouvements de troupes dans le secteur.
 TEXT_CORRUPTION_YAVIN_STORY_RACKETEER,Yavin est une géante gazeuse dotée de trois lunes habitables. Implanter une organisation sur Yavin 4 faciliterait la prise de contrôle des autres lunes.
 TEXT_CORULAG_PIRACY_OBJECTIVE_00,Vaincre tous les vaisseaux lourds du secteur
@@ -1079,11 +1079,11 @@ TEXT_CURRENT_CREDIT_RESERVE,Réserve de crédits :
 TEXT_CURRENT_TIME_ERA,Période actuelle :
 TEXT_CURRENTLY_PRODUCING,Production :
 TEXT_CUSOM_CAMPAIGN_GAME_TITLE,Configuration du scénario
-TEXT_CYCLES,Jour 
+TEXT_CYCLES,Jour
 TEXT_DATA_CHART,Historique
 TEXT_DATABASE_CHANGED,Les fichiers de données ont changé. Recharger ?
 TEXT_DEATH_STAR_COUNTDOWN_TIMER,Temps de construction de l'Étoile Noire :
-TEXT_DEATH_STAR_IN_RANGE_CCOUNTDOWN_TIMER,ÉTOILE NOIRE À PORTÉE 
+TEXT_DEATH_STAR_IN_RANGE_CCOUNTDOWN_TIMER,ÉTOILE NOIRE À PORTÉE
 TEXT_DEATH_STAR_POSITION,Position de l'Étoile Noire
 TEXT_DEATHSTAR_PART_DURASTEEL,Augmenter Niveau tech. Impérial (niv. 4)
 TEXT_DEATHSTAR_PART_HYPERMATTER,Augmenter Niveau tech. Impérial (niv. 5)
@@ -1138,7 +1138,7 @@ TEXT_DOOR,Porte anti-explosion
 TEXT_DOOR_TOOLTIP,L'ouverture des portes anti-explosions est généralement contrôlée par un panneau de sécurité situé non loin.
 TEXT_DOORNODE,Commandes d'ouverture
 TEXT_DOWNLOAD_PROGRESS,Progression du téléchargement :
-TEXT_DOWNLOADING_MAP,Récupération de la carte auprès de l’hôte... 
+TEXT_DOWNLOADING_MAP,Récupération de la carte auprès de l’hôte...
 TEXT_DRAG_AND_DROP,Glisser-déposer sur la carte
 TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_00,Pour anéantir l'ennemi, vous devez conquérir toutes les planètes de la galaxie.
 TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_01,Plus vous contrôlez de planètes, plus vous accumulez de crédits.
@@ -1153,7 +1153,7 @@ TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_09,Utilisez les filtres près de la mini-cart
 TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_10,Chaque planète a des caractéristiques qui lui sont propres, qu'il s'agisse des conditions météo ou des bonus. Tenez compte de ces particularités dans votre stratégie.
 TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_11,Si vous manquez de crédits, pensez à construire des Complexes miniers sur vos planètes.
 TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_12,Pour produire des Chasseurs stellaires ou d'autres vaisseaux sur une planète que vous venez de conquérir, vous devez d'abord construire une Station spatiale.
-TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_13,Améliorez votre Station spatiale pour avoir accès à un plus grand nombre de vaisseaux et accélérer leur production. 
+TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_13,Améliorez votre Station spatiale pour avoir accès à un plus grand nombre de vaisseaux et accélérer leur production.
 TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_14,Les routes d'hyperespace constituent le moyen le plus rapide pour se déplacer dans la galaxie. Déplacer un vaisseau d'une planète à une autre sans emprunter ces routes nécessite plus de temps.
 TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_15,Les unités terrestres peuvent être déplacées dans l'espace. Toutefois, en cas d'attaque, les transports terrestres sont incapables de se défendre.
 TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_16,Utilisez les boutons ci-dessous pour ralentir, accélérer ou mettre en pause le temps galactique. Ceci n'est valable qu'en mode Un joueur.
@@ -1208,7 +1208,7 @@ TEXT_DROID_ADVISOR_REBEL_GALACTIC_09,Utilisez les filtres près de la mini-carte
 TEXT_DROID_ADVISOR_REBEL_GALACTIC_10,Chaque planète a des caractéristiques qui lui sont propres, qu'il s'agisse des conditions météo ou des bonus. Tenez compte de ces particularités dans votre stratégie.
 TEXT_DROID_ADVISOR_REBEL_GALACTIC_11,Si vous manquez de crédits, construisez des Complexes miniers sur vos planètes.
 TEXT_DROID_ADVISOR_REBEL_GALACTIC_12,Pour produire des Chasseurs stellaires ou d'autres vaisseaux sur une planète que vous venez de libérer, vous devez d'abord construire une Station spatiale.
-TEXT_DROID_ADVISOR_REBEL_GALACTIC_13,Améliorez votre Station spatiale pour avoir accès à un plus grand nombre de vaisseaux et accélérer leur production. 
+TEXT_DROID_ADVISOR_REBEL_GALACTIC_13,Améliorez votre Station spatiale pour avoir accès à un plus grand nombre de vaisseaux et accélérer leur production.
 TEXT_DROID_ADVISOR_REBEL_GALACTIC_14,Les routes d'hyperespace constituent le moyen le plus rapide pour se déplacer dans la galaxie. Déplacer un vaisseau d'une planète à une autre sans emprunter ces routes nécessite plus de temps.
 TEXT_DROID_ADVISOR_REBEL_GALACTIC_15,Les unités terrestres peuvent être déplacées dans l'espace. Toutefois, les transports terrestres sont incapables de se défendre contre les flottes adverses.
 TEXT_DROID_ADVISOR_REBEL_GALACTIC_16,Les Rebelles peuvent faire des incursions sur les planètes. Vous pouvez ainsi éviter le combat spatial et attaquer directement la surface avec une petite flotte.
@@ -1266,7 +1266,7 @@ TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_10,Utilisez les filtres près de la mini-
 TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_11,Chaque planète a des caractéristiques qui lui sont propres, qu'il s'agisse des conditions météo ou des bonus. Tenez compte de ces particularités dans votre stratégie.
 TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_12,Si vous manquez de crédits, construisez des Complexes miniers sur vos planètes.
 TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_13,Pour produire des Chasseurs stellaires ou d'autres vaisseaux sur une planète que vous venez de libérer, vous devez d'abord construire une Station spatiale.
-TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_14,Améliorez votre Station spatiale pour avoir accès à un plus grand nombre de vaisseaux et accélérer leur production. 
+TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_14,Améliorez votre Station spatiale pour avoir accès à un plus grand nombre de vaisseaux et accélérer leur production.
 TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_15,Les routes d'hyperespace constituent le moyen le plus rapide pour se déplacer dans la galaxie. Déplacer un vaisseau d'une planète à une autre sans emprunter ces routes nécessite plus de temps.
 TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_16,Le Consortium de Zann peut tracer des routes commerciales secrètes et efficaces en corrompant des mondes peu distants les uns des autres.
 TEXT_DROID_ADVISOR_UNDERWORLD_GALACTIC_17,Les unités terrestres peuvent être déplacées dans l'espace. Toutefois, les transports terrestres sont incapables de se défendre contre les flottes adverses.
@@ -1369,14 +1369,14 @@ TEXT_EMPIRE_TITLE5,Grade : Second maître
 TEXT_EMPIRE_TITLE6,Grade : Second maître chef
 TEXT_EMPIRE_TITLE7,Grade : Porte-étendard
 TEXT_EMPIRE_TITLE8,Grade : Lieutenant
-TEXT_EMPIRE_TITLE9,Grade : Capitaine de corvette 
+TEXT_EMPIRE_TITLE9,Grade : Capitaine de corvette
 TEXT_EMPIRE_VICTORY,Félicitations ! Vous avez aidé l'Empire à éradiquer la Rébellion dans toute la galaxie.
 TEXT_EMPTY_SLOT,[Emplacement vide]
 TEXT_ENABLE_HINTS,Afficher Astuces
 TEXT_ENABLE_UPNP,Activer UPNP
 TEXT_ENCYCLOPEDIA_ABREV_ATAA,TB-AA : Transport Blindé AntiAérien
 TEXT_ENCYCLOPEDIA_ABREV_ATAT,TB-TT : Transport Blindé Tout-Terrain
-TEXT_ENCYCLOPEDIA_ABREV_ATST,TR-TT : Transport de Reconnaissance Tout-Terrain 
+TEXT_ENCYCLOPEDIA_ABREV_ATST,TR-TT : Transport de Reconnaissance Tout-Terrain
 TEXT_ENCYCLOPEDIA_ABREV_MPTL,LTPM : Lance-Torpilles à Protons Mobile
 TEXT_ENCYCLOPEDIA_ABREV_SPMAT,TAS-AP : Turbolaser d'Artillerie Standard AutoPropulsé
 TEXT_ENCYCLOPEDIA_ACADEMY,War academy for officers who specialize in combat buffs.  Trains battlefield commanders.
@@ -1800,7 +1800,7 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_CE_STATIC2,Efficacité au combat ennemie
 TEXT_GUI_DIALOG_TOOLTIP_IDC_CHECK_USE_DEFAULT_PORT,Utiliser le port réseau par défaut.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_DELAY_TOOLTIPS,Augmente le délai d'affichage des infobulles.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_DETAIL_LEVEL_SLIDER,Cette glissière contrôle la qualité générale des graphismes. L'image sera meilleure si vous choisissez un paramètre élevé, au détriment des performances du jeu.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ENVIRONMENT_DETAIL_SLIDER,Un environnement très détaillé autorise un décor plus vivant et un terrain plus réaliste, mais peut réduire les performances du jeu. 
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ENVIRONMENT_DETAIL_SLIDER,Un environnement très détaillé autorise un décor plus vivant et un terrain plus réaliste, mais peut réduire les performances du jeu.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER,Détermine la vitesse de jeu dans l'espace et à la surface.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER2,Détermine la vitesse de défilement de l'écran.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_TYPE_FILTER_COMBO,N'afficher que les parties de ce type.
@@ -2083,7 +2083,7 @@ TEXT_INTERNET_INCORRECT_PASSWORD,Le mot de passe saisi est incorrect.
 TEXT_INTERNET_INCORRECT_PASSWORD_FOR_EMAIL,Le mot de passe ne correspond pas à l'adresse email.
 TEXT_INTERNET_IP,Adresse Internet :
 TEXT_INTERNET_JOIN_GAME_TITLE,Partie rejointe
-TEXT_INTERNET_JOINED_GROUP_ROOM,Vous êtes entré dans la salle de jeu : 
+TEXT_INTERNET_JOINED_GROUP_ROOM,Vous êtes entré dans la salle de jeu :
 TEXT_INTERNET_LAUNCH_BROWSER,Pour accéder à la page de la communauté, votre navigateur Internet doit être lancé. Continuer ?
 TEXT_INTERNET_LAUNCH_BROWSER_ARENA,Pour accéder à la page web de l'arène, votre navigateur Internet doit être lancé. Continuer ?
 TEXT_INTERNET_LOBBY_TITLE,Empire at War Online – Match perso.
@@ -2162,13 +2162,13 @@ TEXT_KESSEL_PIRACY_OBJECTIVE_00,Sécuriser le satellite de communication ennemi
 TEXT_KESSEL_PIRACY_OBJECTIVE_01,IG-88 doit survivre.
 TEXT_KESSEL_PIRACY_OBJECTIVE_02,Détruire toutes les défenses ennemies
 TEXT_KEY_ADD,Ajouter
-TEXT_KEY_ALT,Alt 
-TEXT_KEY_ALT_MODIFIER,Alt + 
+TEXT_KEY_ALT,Alt
+TEXT_KEY_ALT_MODIFIER,Alt +
 TEXT_KEY_BACKSPACE,Ret. Arr.
 TEXT_KEY_CAPITAL,Verr Maj
 TEXT_KEY_CAPS_LOCK,Verr. Maj.
-TEXT_KEY_CONTROL,Ctrl 
-TEXT_KEY_CTRL_MODIFIER,Ctrl + 
+TEXT_KEY_CONTROL,Ctrl
+TEXT_KEY_CTRL_MODIFIER,Ctrl +
 TEXT_KEY_DECIMAL,Décimale
 TEXT_KEY_DELETE,Suppr
 TEXT_KEY_DIVIDE,Diviser
@@ -2221,8 +2221,8 @@ TEXT_KEY_PAGE_UP,Page Haut
 TEXT_KEY_RIGHT_ARROW,Droite
 TEXT_KEY_SCROLL,Verr Déf
 TEXT_KEY_SEPERATOR,Séparateur
-TEXT_KEY_SHIFT,Maj 
-TEXT_KEY_SHIFT_MODIFIER,Maj + 
+TEXT_KEY_SHIFT,Maj
+TEXT_KEY_SHIFT_MODIFIER,Maj +
 TEXT_KEY_SPACE,Espace
 TEXT_KEY_SUBTRACT,Soustraire
 TEXT_KEY_TAB,Tab
@@ -2269,7 +2269,7 @@ TEXT_LAN_PLAYERS,Joueurs :
 TEXT_LAND_FLEETS,Forces terrestres
 TEXT_LAND_UNITS,Forces terrestres
 TEXT_LANG_CHINESE,Chinois
-TEXT_LANG_ENGLISH,Anglais 
+TEXT_LANG_ENGLISH,Anglais
 TEXT_LANG_ENGLISH_US,Anglais (USA)
 TEXT_LANG_FRENCH,Français
 TEXT_LANG_ITALIAN,Italien
@@ -2303,7 +2303,7 @@ TEXT_LOSS_VALUE,Valeur des pertes :
 TEXT_LOST_BATTLE,Vous êtes vaincu !
 TEXT_LOW,Bas
 TEXT_MAIN_MENU,Menu principal
-TEXT_MAIN_MENU_TITLE_1,Star Wars 
+TEXT_MAIN_MENU_TITLE_1,Star Wars
 TEXT_MAIN_MENU_TITLE_2,Empire at War
 TEXT_MAIN_OPTIONS,Options
 TEXT_MAL_SWAP_DESCRIPTION,Permet de passer des Missiles à concussion aux Missiles à carbonite. Les Missiles à carbonite ralentissent et endommagent la cible.
@@ -2382,7 +2382,7 @@ TEXT_MAP_NAME_MP_SPACE_17,Péril au-dessus de Polus
 TEXT_MAP_NAME_MP_SPACE_20,Chaos autour de Kashyyyk
 TEXT_MAP_NAME_MP_SPACE_21,Combats sur Bespin
 TEXT_MAP_NAME_MP_SPACE_22,Dathomir
-TEXT_MAP_NAME_MP_SPACE_23,Opération sur Félucia 
+TEXT_MAP_NAME_MP_SPACE_23,Opération sur Félucia
 TEXT_MAP_NAME_MP_SPACE_24,La fournaise d'Hypori
 TEXT_MAP_NAME_MP_SPACE_25,Tempête sur Kamino
 TEXT_MAP_NAME_MP_SPACE_26,Le Complexe de Maw
@@ -2418,7 +2418,7 @@ TEXT_MON_EVENT_CONTRIVED_ATTACK_01,Les Impériaux sont passés à l'attaque, leu
 TEXT_MON_EVENT_CONTRIVED_ATTACK_02,C'est une grande victoire ! L'Empire y réfléchira à deux fois avant de porter une nouvelle attaque surprise.
 TEXT_MON_EVENT_CONTRIVED_ATTACK_03,Nos services de renseignement ont sous-estimé l'ampleur de cette attaque. Nous devons nous regrouper et les affronter. Il faut mettre fin au blocus Impérial.
 TEXT_MON_EVENT_CREDIT_WINDFALL_00,Merci. Nous nous retrouvons avec un surplus de crédits. C'est à vous de nous dire comment nous devons les utiliser.
-TEXT_MON_EVENT_CREDITS_00,D'après nos experts financiers, nous allons bientôt manquer de crédits. Nous devons redresser nos finances pour mettre fin à la crise.  
+TEXT_MON_EVENT_CREDITS_00,D'après nos experts financiers, nous allons bientôt manquer de crédits. Nous devons redresser nos finances pour mettre fin à la crise.
 TEXT_MON_EVENT_CREDITS_01,Merci de votre aide. En votre absence, nos scientifiques ont mis au point une toute nouvelle technologie, que vous apprécierez sûrement.
 TEXT_MON_EVENT_ENLIGHTENMENT_01,Des espions pirates nous informent que l'Empire a laissé l'un de ses systèmes sans défenses. Nous devons en profiter pour tirer des civils innocents des griffes Impériales. Mais restez prudent : ces informations sont sujettes à caution.
 TEXT_MON_EVENT_ENLIGHTENMENT_02,Les informateurs pirates nous ont été d'une grande utilité, mais restez prudent : les pirates n'agissent que dans leur propre intérêt. Leurs prochains rapports doivent être pris avec la plus grande prudence.
@@ -2451,7 +2451,7 @@ TEXT_MON_EVENT_PLANET_OWNERSHIP_FLIP_00,Une de nos planètes alliées nous a tra
 TEXT_MON_EVENT_PLANET_WINDFALL_00,Une planète contrôlée par l'Empire a rallié notre cause. Ils ont décidé de se révolter contre l'oppresseur.
 TEXT_MON_EVENT_REFUGEE_01,Les Impériaux ont localisé un groupe de sympathisants de l'Alliance. Ils tentent maintenant de les capturer. Nous devons garantir leur sécurité et les escorter vers un système allié. Un riche dignitaire se trouve parmi eux. Il vous offrira une belle récompense.
 TEXT_MON_EVENT_REFUGEE_02,Le consul vous remercie du grand service que vous lui avez rendu. Il a décidé de vous offrir une belle récompense.
-TEXT_MON_EVENT_REFUGEE_03,Tout ne s'est pas déroulé comme nous l'espérions. Les réfugiés ont péri et nous ne toucherons pas de récompense. Vous n'étiez peut-être pas prêt à exercer de telles responsabilités. 
+TEXT_MON_EVENT_REFUGEE_03,Tout ne s'est pas déroulé comme nous l'espérions. Les réfugiés ont péri et nous ne toucherons pas de récompense. Vous n'étiez peut-être pas prêt à exercer de telles responsabilités.
 TEXT_MON_EVENT_REFUGEE_DESTINATION,Escorter réfugiés vers : %s
 TEXT_MON_EVENT_REFUGEE_LOCATION,Localisation des réfugiés : %s
 TEXT_MON_EVENT_REFUGEE_TITLE,Protection des réfugiés
@@ -2471,7 +2471,7 @@ TEXT_MON_EVENT_TRAP_00,Certains mouvements de troupe Impériaux ont changé la d
 TEXT_MON_EVENT_TRAP_01,Nous n'avons pas saisi cette opportunité. Les défenses Impériales sont de nouveau en place. Je ne doute pas que vous ayez fait le bon choix en refusant de foncer tête baissée, mais n'oubliez pas : en adoptant une position trop défensive, vous laissez le champ libre à l'Empire.
 TEXT_MON_EVENT_TRAP_02,C'est un piège ! Renforcez vos défenses pour survivre à cette bataille.
 TEXT_MON_EVENT_UNIT_WINDFALL_00,Votre présence est une aubaine, commandant. De nouvelles unités vont être placées sous vos ordres. Je suis sûr que vous saurez comment les utiliser.
-TEXT_MON_EVENT_UNITS_00,Une simple base ne peut protéger nos mondes contre l'Empire. Une bonne défense, c'est aussi une flotte, des troupes terrestres et des structures secondaires. 
+TEXT_MON_EVENT_UNITS_00,Une simple base ne peut protéger nos mondes contre l'Empire. Une bonne défense, c'est aussi une flotte, des troupes terrestres et des structures secondaires.
 TEXT_MON_EVENT_UNITS_01,Vous vous êtes montré particulièrement efficace. J'ai décidé de vous octroyer des fonds supplémentaires. Faites en bon usage.
 TEXT_MON_EVENT_UPGRADE_STATION_00,Vous êtes efficace, mais nos défenses doivent encore être renforcées. Améliorez les capacités défensives d'une de nos bases stellaires.
 TEXT_MON_EVENT_UPGRADE_STATION_01,Grâce à vous, nos positions dans la galaxie ont été consolidées. Vos actions ne passent pas inaperçues et nos bienfaiteurs sont de plus en plus nombreux. Utilisez ces crédits avec discernement.
@@ -2673,7 +2673,7 @@ TEXT_PA_HIGH_CREDIT_VALUE,Coût élevé
 TEXT_PA_IMPROVED_ATAT_REACTORS,Moteurs TB-TT avancés
 TEXT_PA_IMPROVED_TREADS,Chenilles améliorées
 TEXT_PA_IMPROVED_WEAPONS,Armes améliorées
-TEXT_PA_LIGHT_ARMOR_PLATING,Amél. blindage léger 
+TEXT_PA_LIGHT_ARMOR_PLATING,Amél. blindage léger
 TEXT_PA_MINING_COLONY,Colonie minière
 TEXT_PA_RESEARCH_ADVANCES,Avancées technologiques
 TEXT_PA_RESTRICTED_UNITS,Unités restreintes
@@ -2759,7 +2759,7 @@ TEXT_PLANET_ARIDUS_ENCYC,Colonie minière : Revenus supplémentaires générés 
 TEXT_PLANET_ARIDUS_INFO_ADV,Colonie minière
 TEXT_PLANET_ARIDUS_INFO_HIS,Monde désertique perdu dans l'Expansion et dont l'atmosphère, qui provoque naturellement des interférences, rend toute communication longue portée impossible. La planète est peuplée de petites créatures d'aspect lézardesque appelées Chubbits, qui sillonnent les étendues sablonneuses de leur planète à bord de chars à voiles poussés par le vent. La faune est composée de grands lézards domestiqués et de scarabées de lave aridusiens. Les Chubbits conduisent des opérations minières rentables un peu partout sur leur planète.
 TEXT_PLANET_ARIDUS_INFO_POP,Chubbit
-TEXT_PLANET_ARIDUS_INFO_TAC,Revenus supplémentaires générés par les activités minières des Chubbits. 
+TEXT_PLANET_ARIDUS_INFO_TAC,Revenus supplémentaires générés par les activités minières des Chubbits.
 TEXT_PLANET_ARIDUS_INFO_TER,Désert
 TEXT_PLANET_ARIDUS_INFO_WEA,Clair, tempête de sable
 TEXT_PLANET_ARIDUS_INFO_WL,Scarabée de lave aridusien, créatures reptiliennes
@@ -2826,7 +2826,7 @@ TEXT_PLANET_BONADAN_INFO_WL,Tortapo
 TEXT_PLANET_BOTHAWUI_ENCYC,Réseau d'espionnage : Le réseau d'espionnage bothan fournit des Informations tactiques sur les systèmes voisins. Les Bothans sont susceptibles d'aider les forces Rebelles.
 TEXT_PLANET_BOTHAWUI_ENCYC_01,Des informations tactiques sur les systèmes voisins sont disponibles.
 TEXT_PLANET_BOTHAWUI_INFO_ADV,Réseau d'espionnage
-TEXT_PLANET_BOTHAWUI_INFO_HIS,Bothawui est un monde neutre servant de base au réseau d'espionnage bothan. Il s'agit d'une planète montagneuse couverte de forêts. Les artères de ses principales agglomérations, larges et bien entretenues, sont bordées de hauts bâtiments faits d'une roche naturelle étincelante. Cette planète cosmopolite et bien organisée est considérée depuis toujours comme un territoire neutre, car elle constitue un noeud stratégique pour toutes les forces en présence. S'ils ont beaucoup à offrir à la galaxie, les Bothans sont surtout connus pour leurs espions intrépides. Le réseau bothan compte parmi les plus importants servcices de renseignements, grâce à des agents en poste partout dans la galaxie. 
+TEXT_PLANET_BOTHAWUI_INFO_HIS,Bothawui est un monde neutre servant de base au réseau d'espionnage bothan. Il s'agit d'une planète montagneuse couverte de forêts. Les artères de ses principales agglomérations, larges et bien entretenues, sont bordées de hauts bâtiments faits d'une roche naturelle étincelante. Cette planète cosmopolite et bien organisée est considérée depuis toujours comme un territoire neutre, car elle constitue un noeud stratégique pour toutes les forces en présence. S'ils ont beaucoup à offrir à la galaxie, les Bothans sont surtout connus pour leurs espions intrépides. Le réseau bothan compte parmi les plus importants servcices de renseignements, grâce à des agents en poste partout dans la galaxie.
 TEXT_PLANET_BOTHAWUI_INFO_HIS_01,Bothawui est un monde neutre servant de base au réseau d'espionnage bothan. Il s'agit d'une planète montagneuse couverte de forêts. Les artères de ses principales agglomérations, larges et bien entretenues, sont bordées de hauts bâtiments faits d'une roche naturelle étincelante. Cette planète cosmopolite et bien organisée est considérée depuis toujours comme un territoire neutre, car elle constitue un noeud stratégique pour toutes les forces en présence. S'ils ont beaucoup à offrir à la galaxie, les Bothans sont surtout connus pour leurs espions intrépides.
 TEXT_PLANET_BOTHAWUI_INFO_POP,Bothans
 TEXT_PLANET_BOTHAWUI_INFO_TAC,Le réseau d'espionnage bothan fournit des Informations tactiques sur les systèmes voisins.
@@ -2835,7 +2835,7 @@ TEXT_PLANET_BOTHAWUI_INFO_WEA,Clair, pluie
 TEXT_PLANET_BOTHAWUI_INFO_WL,Kra'jya, ganjuko, halkra, krak'jya, skar'kla, rals
 TEXT_PLANET_BRENTAAL_ENCYC,Bonus de défense (transports) : Bonus de défense accordés aux transports grâce à la Route commerciale perlémienne.
 TEXT_PLANET_BRENTAAL_INFO_ADV,Bonus de défense : Transports
-TEXT_PLANET_BRENTAAL_INFO_HIS,Située dans le secteur de Borméa, en plein Noyau Galactique, cette planète se situe à l'intersection stratégique de la Route commerciale perlémienne et de la Voie Hydienne. Sa surface est couverte d'astroports, de complexes industriels et de places de commerce bouillonnantes qui font vivre près de 65 milliards d'habitants. Chaque jour, plusieurs milliers de transports traversent le système Brentaal, tant et si bien que le marché noir et d'autres activités illégales y sont devenus florissants. Brentaal IV dispose de sa propre police, destinée à assurer la sécurité des couloirs de navigation. 
+TEXT_PLANET_BRENTAAL_INFO_HIS,Située dans le secteur de Borméa, en plein Noyau Galactique, cette planète se situe à l'intersection stratégique de la Route commerciale perlémienne et de la Voie Hydienne. Sa surface est couverte d'astroports, de complexes industriels et de places de commerce bouillonnantes qui font vivre près de 65 milliards d'habitants. Chaque jour, plusieurs milliers de transports traversent le système Brentaal, tant et si bien que le marché noir et d'autres activités illégales y sont devenus florissants. Brentaal IV dispose de sa propre police, destinée à assurer la sécurité des couloirs de navigation.
 TEXT_PLANET_BRENTAAL_INFO_POP,Humains
 TEXT_PLANET_BRENTAAL_INFO_TAC,Bonus de défense accordés aux transports grâce à la Route commerciale perlémienne.
 TEXT_PLANET_BRENTAAL_INFO_TER,Agglomérations, océans, montagnes
@@ -2845,7 +2845,7 @@ TEXT_PLANET_BYSS_ENCYC,Temps de production réduits (bases) : Les temps de const
 TEXT_PLANET_BYSS_ENCYC_01,Tant que cette planète est sous contrôle, la vitesse et la puissance de feu de tous les TB-TT de la galaxie augmentent de 20%.
 TEXT_PLANET_BYSS_ENCYC_02,Quand cette planète est sous contrôle, la rapidité et la puissance de feu des TB-TT augmentent de 25% dans toute la galaxie.
 TEXT_PLANET_BYSS_INFO_ADV,Temps de production réduits : Bases
-TEXT_PLANET_BYSS_INFO_ADV_01,Moteurs de TB-TT améliorés 
+TEXT_PLANET_BYSS_INFO_ADV_01,Moteurs de TB-TT améliorés
 TEXT_PLANET_BYSS_INFO_HIS,La mystérieuse planète Byss est située dans le Noyau Sombre, un bastion Impérial. Ses paysages baignent dans une sinistre lumière bleue-verte. La planète elle-même est un mythe inventé de toutes pièces pour aiguiser la curiosité de ceux qui, dans le passé, ont entendu parler de ce paradis mystérieux sous contrôle de l'Empire. Ses paysages tranquilles, sa faible activité géologique, ses saisons clémentes et l'impression de luxe qui s'en dégage en font un monde idéal, du moins c'est l'illusion que l'Empereur Palpatine a voulu produire. Celui-ci a invoqué le côté Obscur de la Force pour corrompre ce monde et ses habitants, et permettre à la planète de se développer rapidement.
 TEXT_PLANET_BYSS_INFO_HIS_01,La mystérieuse planète Byss est située dans le Noyau Sombre, un bastion Impérial. Ses paysages baignent dans une lumière bleue-verte sinistre. La planète elle-même est un mythe inventé de toutes pièces par l'Empereur et passe pour un paradis galactique. Palpatine a invoqué le côté Obscur de la Force pour corrompre ce monde et ses habitants.
 TEXT_PLANET_BYSS_INFO_POP,Humains
@@ -2926,7 +2926,7 @@ TEXT_PLANET_DATHOMIR_INFO_TAC,Les Sorcières invoquent la Force pour empêcher l
 TEXT_PLANET_DATHOMIR_INFO_TER,Forêts, montagnes, déserts, canyons
 TEXT_PLANET_DATHOMIR_INFO_WEA,Pluie
 TEXT_PLANET_DATHOMIR_INFO_WL,Rancors
-TEXT_PLANET_DURO_ENCYC,Coûts de production réduits (stations spatiales) : Le coût des stations spatiales est réduit en raison des vastes centres urbains orbitaux de Duro. 
+TEXT_PLANET_DURO_ENCYC,Coûts de production réduits (stations spatiales) : Le coût des stations spatiales est réduit en raison des vastes centres urbains orbitaux de Duro.
 TEXT_PLANET_DURO_INFO_ADV,Coûts de production réduits : Stations spatiales
 TEXT_PLANET_DURO_INFO_HIS,Monde du Noyau peuplé par les Duros. Une grande partie de la planète, inhabitée, est couverte d'exploitations agricoles automatisées, destinées au ravitaillement des stations spatiales. La faune comprenait autrefois un arachnide cannibale, une espèce aujourd'hui éteinte. Les Duros, caractérisés par leurs gros yeux, leur absence de nez et une fente étroite en guise de bouche, sillonnent l'espace à bord de cargos depuis des millénaires. Leur système est parsemé de vastes cités satellites et de nombreux entrepôts et chantiers navals. Il est dirigé par un groupe de constructeurs spatiaux. Si les actionnaires tentent de rester neutres, ce sont toujours eux qui prennent les décisions. Le vaste centre urbain orbital de Duro permet de construire rapidement de nouvelles stations et cités spatiales.
 TEXT_PLANET_DURO_INFO_POP,Duros
@@ -3171,7 +3171,7 @@ TEXT_PLANET_MUUNILINST_INFO_WEA,Pluie
 TEXT_PLANET_MUUNILINST_INFO_WL,Dragons sauvages
 TEXT_PLANET_MYRKR_ENCYC,Négation de Force : En raison d'une importante population d'Ysalamiri, les aptitudes liées à la Force sont neutralisées dans certaines zones. Le Consortium de Zann peut produire des Vornskrs.
 TEXT_PLANET_MYRKR_INFO_ADV,Négation de Force
-TEXT_PLANET_MYRKR_INFO_HIS,Planète isolée de la Bordure intérieure. Connue seulement des contrebandiers et des hors-la-loi, elle est couverte de forêts dont les arbres présentent une importante teneur en métaux, ce qui a pour effet de brouiller le fonctionnement des senseurs. Myrkr, qui fut habitée par des colons pendant près de trois siècles, se situe dans la région de la Bordure, entre les territoires de la République et de l'Empire. Pourtant, l'Ancienne République, comme les Chevaliers Jedi, l'ont de tout temps évitée. Cette aversion historique de la part des Jedi est due à l'une des espèces indigènes de Myrkr, les Ysalamiri. En effet, ces créatures ont développé un mécanisme de défense qui leur permet de repousser la Force, si bien que, regroupés en grand nombre, ils peuvent en interdire l'usage sur des régions entières. 
+TEXT_PLANET_MYRKR_INFO_HIS,Planète isolée de la Bordure intérieure. Connue seulement des contrebandiers et des hors-la-loi, elle est couverte de forêts dont les arbres présentent une importante teneur en métaux, ce qui a pour effet de brouiller le fonctionnement des senseurs. Myrkr, qui fut habitée par des colons pendant près de trois siècles, se situe dans la région de la Bordure, entre les territoires de la République et de l'Empire. Pourtant, l'Ancienne République, comme les Chevaliers Jedi, l'ont de tout temps évitée. Cette aversion historique de la part des Jedi est due à l'une des espèces indigènes de Myrkr, les Ysalamiri. En effet, ces créatures ont développé un mécanisme de défense qui leur permet de repousser la Force, si bien que, regroupés en grand nombre, ils peuvent en interdire l'usage sur des régions entières.
 TEXT_PLANET_MYRKR_INFO_POP,Humains
 TEXT_PLANET_MYRKR_INFO_TAC,En raison d'une importante population d'Ysalamiri, les aptitudes liées à la Force sont neutralisées dans certaines zones. Le Consortium de Zann peut produire des Vornskrs.
 TEXT_PLANET_MYRKR_INFO_TER,Forêt
@@ -3202,8 +3202,8 @@ TEXT_PLANET_NALHUTTA_INFO_WEA,Pollution, pluie
 TEXT_PLANET_NALHUTTA_INFO_WL,T'landa Til, divers aliens
 TEXT_PLANET_POLUS_INFO_ADV,Importante source de crédits
 TEXT_PLANET_POLUS_INFO_ENCYC,Importante source de crédits : Revenus supplémentaires générés par l'extraction de carbonite.
-TEXT_PLANET_POLUS_INFO_HIS,En orbite autour de la double étoile Avindia, dans la Bordure Extérieure, Polus est une planète montagneuse au climat arctique, caractérisée par un immense océan gelé. Habituellement, les températures extrêmes s'accompagnent d'un blizzard persistant et de fréquentes tempêtes de glace. Chaque année pourtant, pendant une brève période, la planète est réchauffée par les rayons des deux soleils. Polus abrite les Pyn’gani, spécialistes en recherche thermique. Leurs villes et habitats sont protégés par un réseau de générateurs de chaleurs. Les Pyn’gani ont joué un rôle central dans le développement du processus de congélation carbonique, qui permet de stocker les marchandises lors des transports de longue durée. La carbonite reste leur ressource principale. 
-TEXT_PLANET_POLUS_INFO_HIS_01,Polus est une planète montagneuse au climat polaire, caractérisée par un immense océan gelé. Habituellement, les températures extrêmes s'accompagnent d'un blizzard persistant et de fréquentes tempêtes de glace. Chaque année pourtant, pendant une brève période, la planète est réchauffée par les rayons de ses deux soleils. Polus abrite les Pyn’gani, spécialistes en recherche thermique. Leurs cités sont protégées par un générateur thermique. Les Pyn’gani ont joué un rôle central dans le développement du processus de congélation carbonique. La carbonite reste leur ressource principale. 
+TEXT_PLANET_POLUS_INFO_HIS,En orbite autour de la double étoile Avindia, dans la Bordure Extérieure, Polus est une planète montagneuse au climat arctique, caractérisée par un immense océan gelé. Habituellement, les températures extrêmes s'accompagnent d'un blizzard persistant et de fréquentes tempêtes de glace. Chaque année pourtant, pendant une brève période, la planète est réchauffée par les rayons des deux soleils. Polus abrite les Pyn’gani, spécialistes en recherche thermique. Leurs villes et habitats sont protégés par un réseau de générateurs de chaleurs. Les Pyn’gani ont joué un rôle central dans le développement du processus de congélation carbonique, qui permet de stocker les marchandises lors des transports de longue durée. La carbonite reste leur ressource principale.
+TEXT_PLANET_POLUS_INFO_HIS_01,Polus est une planète montagneuse au climat polaire, caractérisée par un immense océan gelé. Habituellement, les températures extrêmes s'accompagnent d'un blizzard persistant et de fréquentes tempêtes de glace. Chaque année pourtant, pendant une brève période, la planète est réchauffée par les rayons de ses deux soleils. Polus abrite les Pyn’gani, spécialistes en recherche thermique. Leurs cités sont protégées par un générateur thermique. Les Pyn’gani ont joué un rôle central dans le développement du processus de congélation carbonique. La carbonite reste leur ressource principale.
 TEXT_PLANET_POLUS_INFO_POP,Pyn'gani
 TEXT_PLANET_POLUS_INFO_TAC,Revenus supplémentaires générés par l'extraction de carbonite.
 TEXT_PLANET_POLUS_INFO_TER,Montagnes, quelques villes
@@ -3245,8 +3245,8 @@ TEXT_PLANET_RYLOTH_ENCYC,Vigilance : Les héros mineurs sont automatiquement dé
 TEXT_PLANET_RYLOTH_ENCYC_01,Tant que cette planète est sous contrôle, l'énergie de tous les Stormtroopers de la galaxie augmente de 35%.
 TEXT_PLANET_RYLOTH_INFO_ADV,Vigilance
 TEXT_PLANET_RYLOTH_INFO_ADV_01,Regain d'énergie
-TEXT_PLANET_RYLOTH_INFO_HIS_01,Ryloth est une planète montagneuse. Sa rotation s'effectue en un temps égal à sa révolution, si bien qu'elle présente toujours la même face à son soleil. Seule la zone crépusculaire faisant transition entre les deux faces est habitable. Les Twi'leks vivent dans des habitations troglodytes creusées dans les montagnes. Très sociables, ils ne cessent d'échanger des informations entre eux. 
-TEXT_PLANET_RYLOTH_INFO_HIST,Principale planète du système de Ryloth, au sein de la Bordure Extérieure, non loin de Tatooine, peuplée de Twi'leks. Cette planète montagneuse présente une rotation tellement lente qu'elle s'effectue en un temps égal à une révolution effectuée autour de son soleil. Ainsi, l'une de ses faces demeure toujours exposée à la lumière. Seule la zone crépusculaire située entre les deux faces est habitable. Les considérables perturbations qui agitent la mince atmosphère de Ryloth contribuent à répartir la chaleur sur l'ensemble de cette région, où les Twi'leks vivent dans des habitations troglodytes creusées dans les montagnes. Les Twi’leks sont une espèce humanoïde caractérisée par deux longues queues situées derrière la tête. Très sociables, ils ne cessent d'échanger des informations entre eux. 
+TEXT_PLANET_RYLOTH_INFO_HIS_01,Ryloth est une planète montagneuse. Sa rotation s'effectue en un temps égal à sa révolution, si bien qu'elle présente toujours la même face à son soleil. Seule la zone crépusculaire faisant transition entre les deux faces est habitable. Les Twi'leks vivent dans des habitations troglodytes creusées dans les montagnes. Très sociables, ils ne cessent d'échanger des informations entre eux.
+TEXT_PLANET_RYLOTH_INFO_HIST,Principale planète du système de Ryloth, au sein de la Bordure Extérieure, non loin de Tatooine, peuplée de Twi'leks. Cette planète montagneuse présente une rotation tellement lente qu'elle s'effectue en un temps égal à une révolution effectuée autour de son soleil. Ainsi, l'une de ses faces demeure toujours exposée à la lumière. Seule la zone crépusculaire située entre les deux faces est habitable. Les considérables perturbations qui agitent la mince atmosphère de Ryloth contribuent à répartir la chaleur sur l'ensemble de cette région, où les Twi'leks vivent dans des habitations troglodytes creusées dans les montagnes. Les Twi’leks sont une espèce humanoïde caractérisée par deux longues queues situées derrière la tête. Très sociables, ils ne cessent d'échanger des informations entre eux.
 TEXT_PLANET_RYLOTH_INFO_POP,Twi'leks
 TEXT_PLANET_RYLOTH_INFO_TAC,Les héros mineurs sont automatiquement détectés et éliminés, comme le veut la tradition Twi'Lek.
 TEXT_PLANET_RYLOTH_INFO_TER,Montagnes, déserts, toundra
@@ -3270,14 +3270,14 @@ TEXT_PLANET_SHOLA_INFO_TER,Surface plate et désolée, rivières de magma
 TEXT_PLANET_SHOLA_INFO_WEA,Tempêtes de cendres et de poussière
 TEXT_PLANET_SHOLA_INFO_WL,Serpents du magma
 TEXT_PLANET_SPACE_BASE_STEALTH_DESC,Les stations spatiales sont impossibles à détecter à cause du champ gravitationnel d'Endor. Les Ewoks peuvent venir en aide aux forces alliées.
-TEXT_PLANET_SULLUST_ENCYC,Coûts de production réduits (corvette): Coûts réduits pour les vaisseaux de type corvette grâce à la SoroSuub Corporation. 
+TEXT_PLANET_SULLUST_ENCYC,Coûts de production réduits (corvette): Coûts réduits pour les vaisseaux de type corvette grâce à la SoroSuub Corporation.
 TEXT_PLANET_SULLUST_ENCYC_01,Tant que cette planète est sous contrôle, le coût de production des Croiseurs de patrouille Tartans baisse de 20% sur toutes les autres planètes.
 TEXT_PLANET_SULLUST_INFO_ADV,Coûts de production réduits : Vaisseaux de type corvette
 TEXT_PLANET_SULLUST_INFO_ADV_01,Production accélérée (Croiseur de patrouille Tartan)
 TEXT_PLANET_SULLUST_INFO_HIS,Monde volcanique de la Bordure Extérieure, appartenant au système du même nom. Sullust est couverte d'épais nuages de gaz chaud, quasiment irrespirables. Seules ses vastes et magnifiques cités souterraines, qui attirent un grand nombre de touristes, sont habitables. Les Sullustains sont un peuple d'humanoïdes aux bajoues flasques, aux oreilles de souris et aux grands yeux ronds. Piringiisi, station touristique fort fréquentée, est connue pour ses sources chaudes et sa boue verte. La puissante SoroSuub Corporation, qui a son siège sur Sullust, emploie presque la moitié de la population de la planète dans ses différentes branches minières, énergétiques et industrielles. SoroSuub produit des vaisseaux, des véhicules et des armes, mais ses usines sont surtout équipées pour fabriquer à bas coût de petites corvettes.
 TEXT_PLANET_SULLUST_INFO_HIS_01,Sullust est couverte d'épais nuages de gaz chauds et quasiment irrespirables. Seules ses vastes et magnifiques cités souterraines, qui attirent un grand nombre de touristes, sont habitables. La puissante SoroSuub Corporation, qui a son siège sur Sullust, emploie presque la moitié de la population de la planète dans ses différentes branches minières, énergétiques et industrielles.
 TEXT_PLANET_SULLUST_INFO_POP,Sullustéens
-TEXT_PLANET_SULLUST_INFO_TAC,Coûts réduits pour les vaisseaux de classe corvette grâce à la SoroSuub Corporation. 
+TEXT_PLANET_SULLUST_INFO_TAC,Coûts réduits pour les vaisseaux de classe corvette grâce à la SoroSuub Corporation.
 TEXT_PLANET_SULLUST_INFO_TER,Rivières de lave, volcans, cavernes
 TEXT_PLANET_SULLUST_INFO_WEA,Chaud, étouffant, pluies de cendres
 TEXT_PLANET_SULLUST_INFO_WL,Drutash Grub
@@ -3295,7 +3295,7 @@ TEXT_PLANET_TARIS_INFO_WL,Aucune
 TEXT_PLANET_TATOOINE_ENCYC,Vigilance : La présence des Hutts empêche les contrebandiers et les chasseurs de primes d'opérer sur cette planète.
 TEXT_PLANET_TATOOINE_ENCYC_01,Tant que cette planète est sous contrôle, le blindage de tous les Chars T2-B et Speeders d'assaut de la galaxie est renforcé de 25%.
 TEXT_PLANET_TATOOINE_INFO_ADV,Vigilance : La présence des Hutts empêche les héros invisibles d'opérer sur cette planète.
-TEXT_PLANET_TATOOINE_INFO_ADV_01,Amélioration blindage léger 
+TEXT_PLANET_TATOOINE_INFO_ADV_01,Amélioration blindage léger
 TEXT_PLANET_TATOOINE_INFO_HIS,Ce monde désertique de la Bordure Extérieure orbite autour de soleils jumeaux. La surface de Tatooine est composée de mésas, de canyons et de mers de dunes. La majorité de la population vit dans de petites fermes hydroponiques éparpillées dans le désert. Certaines villes, comme Mos Eisley, attirent un vaste panel de criminels, contrebandiers et brigands. Tatooine est un monde dangereux, tourmenté par de violentes tempêtes, des groupes d'Hommes des sables et les terribles dragons krayt. La planète est contrôlée par les Hutts, de puissants criminels et seigneurs du crime qui ont transformé ce monde désert en un paradis pour les joueurs, les contrebandiers et les esclavagistes. Même les espions préfèrent travailler pour les Hutts, plutôt que de prendre le risque de les espionner.
 TEXT_PLANET_TATOOINE_INFO_HIS_01,La surface de Tatooine est composée de mésas, de canyons et de mers de dunes. La majorité de la population vit dans de petites fermes hydroponiques éparpillées dans le désert. Certaines villes, comme Mos Eisley, attirent de nombreux criminels, contrebandiers et brigands. Tatooine est un monde dangereux, tourmenté par de violentes tempêtes. Mieux vaut éviter les groupes d'Hommes des sables et les redoutables dragons krayt. La planète est contrôlée par les Hutts, puissants seigneurs du crime qui ont transformé ce monde désert en un paradis pour les joueurs, les contrebandiers et les esclavagistes.
 TEXT_PLANET_TATOOINE_INFO_POP,Humains, Hutts, Jawas, Hommes des sables
@@ -3378,7 +3378,7 @@ TEXT_PLANET_YAVIN_INFO_TAC,Le coût des Chasseurs est réduit grâce aux temples
 TEXT_PLANET_YAVIN_INFO_TER,Forêt tropicale
 TEXT_PLANET_YAVIN_INFO_WEA,Clair, pluie
 TEXT_PLANET_YAVIN_INFO_WL,Scarabées piranhas, lézards venimeux, ventrivoles, serpents de cristal, hurleurs
-TEXT_PLANETARY,Systèmes 
+TEXT_PLANETARY,Systèmes
 TEXT_PLANETARY_ADVANTAGES,Avantages planète :
 TEXT_PLANETARY_CORRUPTION_INFO,Infos de corruption planétaire
 TEXT_PLANETARY_QUICK_REFERENCE,Détails planète :
@@ -3552,7 +3552,7 @@ TEXT_SAVELOAD_LOADING_MSG,Chargement...
 TEXT_SAVELOAD_MAX_SAVES_MSG,Nombre maximum de sauvegardes atteint. Veuillez effacer quelques sauvegardes.
 TEXT_SAVELOAD_SAVING_MSG,Sauvegarde...
 TEXT_SCAVENGER_DROID_COMPANY,Groupe de droïdes casseurs
-TEXT_SCENARIO_ALL_TOO_EASY_DESCRIPTION,Dark Vador doit en finir avec les Rebelles sur Thyferra. Ils n'auront plus jamais l'occasion de sous-estimer le pouvoir du côté Obscur. 
+TEXT_SCENARIO_ALL_TOO_EASY_DESCRIPTION,Dark Vador doit en finir avec les Rebelles sur Thyferra. Ils n'auront plus jamais l'occasion de sous-estimer le pouvoir du côté Obscur.
 TEXT_SCENARIO_ALL_TOO_EASY_NAME,Beaucoup trop facile
 TEXT_SCENARIO_DECEPTION_DESCRIPTION,Kyle Katarn doit pénétrer dans une base Impériale sans se faire repérer. Une fois les plans secrets dérobés, le carnage peut commencer...
 TEXT_SCENARIO_DECEPTION_NAME,Déception et diversion
@@ -4591,7 +4591,7 @@ TEXT_SFX_BHT_ANNOUNCE_1,Je dois éliminer quelqu'un ?
 TEXT_SFX_BHT_BUILD_1,Je suis prêt à me mettre en chasse.
 TEXT_SFX_BHT_BUILD_2,Qui dois-je éliminer ?
 TEXT_SFX_BHT_BUILD_3,Je ne crains personne. Quelle est ma cible ?
-TEXT_SFX_BHT_BUILD_4,A votre service, je ne manque jamais ma cible. 
+TEXT_SFX_BHT_BUILD_4,A votre service, je ne manque jamais ma cible.
 TEXT_SFX_BHT_DEPLOY_1,Je m'en occupe.
 TEXT_SFX_BHT_DEPLOY_2,Je recherche des cibles.
 TEXT_SFX_BHT_DEPLOY_3,Ils peuvent s'enfuir, mais ils ne m'échapperont pas.
@@ -5735,7 +5735,7 @@ TEXT_SFX_EHD_CAPACITY_3,Maximum d'unités atteint. Entraînement interrompu.
 TEXT_SFX_EHD_CAPACITY_4,Capacité maximale en unités atteinte.
 TEXT_SFX_EHD_CAPACITY_5,Capacité maximale atteinte. Construction interrompue.
 TEXT_SFX_EHD_CAPTURE_HEAVY_VEHICLE_1,Nous avons capturé une Usine de véhicules lourds à l'abandon.
-TEXT_SFX_EHD_CAPTURE_HEAVY_VEHICLE_2,Nous avons sécurisé une Usine de véhicules lourds à l'abandon. 
+TEXT_SFX_EHD_CAPTURE_HEAVY_VEHICLE_2,Nous avons sécurisé une Usine de véhicules lourds à l'abandon.
 TEXT_SFX_EHD_CAPTURE_MERCENARIES_1,Nous avons pris un camp de mercenaires.
 TEXT_SFX_EHD_CAPTURE_MERCENARIES_2,Nous avons établi le contact avec les mercenaires.
 TEXT_SFX_EHD_CAPTURE_MERCENARIES_3,Nous avons recruté des mercenaires.
@@ -5842,7 +5842,7 @@ TEXT_SFX_EHD_ENEMY_FLEET_APPROACH_1,Flotte ennemie en approche
 TEXT_SFX_EHD_ENEMY_FORCES_1,Forces Rebelles en approche.
 TEXT_SFX_EHD_ENEMY_GAIN_TECH_LEVEL_1,Le niveau technologique de la Rébellion a progressé.
 TEXT_SFX_EHD_ENEMY_GAIN_TECH_LEVEL_2,L'Alliance est passé au niveau technologique suivant.
-TEXT_SFX_EHD_ENEMY_GRAVITY_CONTROL_DESTROYED_1,Le générateur de gravité est détruit ! 
+TEXT_SFX_EHD_ENEMY_GRAVITY_CONTROL_DESTROYED_1,Le générateur de gravité est détruit !
 TEXT_SFX_EHD_ENEMY_HERO_DETECTED_1,Héro ennemi repéré.
 TEXT_SFX_EHD_ENEMY_HERO_ELIMINATED_1,Héro ennemi éliminé.
 TEXT_SFX_EHD_ENEMY_HUTT_PALACE_DESTROYED_1,Le Palais des Hutts a été détruit.
@@ -5883,7 +5883,7 @@ TEXT_SFX_EHD_FRESIA,Frésia
 TEXT_SFX_EHD_GAMORR,Gamorr
 TEXT_SFX_EHD_GEONOSIS,Géonosis
 TEXT_SFX_EHD_GRAVITY_CONTROL_DESTROYED_1,Générateur de gravité détruit.
-TEXT_SFX_EHD_GRAVITY_CONTROL_SOLD_1,Le générateur de gravité a été vendu. 
+TEXT_SFX_EHD_GRAVITY_CONTROL_SOLD_1,Le générateur de gravité a été vendu.
 TEXT_SFX_EHD_GRAVITY_CONTROL_UNDER_ATTACK_1,Le générateur de gravité est attaqué.
 TEXT_SFX_EHD_GRAVITY_GENERATOR_DESTROYED_1,Le générateur de gravité est détruit.
 TEXT_SFX_EHD_HAPES,Hapès
@@ -5920,8 +5920,8 @@ TEXT_SFX_EHD_KESSEL,Kessel
 TEXT_SFX_EHD_KORRIBAN,Korriban
 TEXT_SFX_EHD_KUAT,Kuat
 TEXT_SFX_EHD_LANDING_ZONE_CAPTURED_1,Nous avons sécurisé la Zone d'atterrissage.
-TEXT_SFX_EHD_LANDING_ZONE_INVALID_1,La zone d'atterrissage n'est pas valide. 
-TEXT_SFX_EHD_LANDING_ZONE_INVALID_2,La zone d'atterrissage n'est pas valide. 
+TEXT_SFX_EHD_LANDING_ZONE_INVALID_1,La zone d'atterrissage n'est pas valide.
+TEXT_SFX_EHD_LANDING_ZONE_INVALID_2,La zone d'atterrissage n'est pas valide.
 TEXT_SFX_EHD_LANDING_ZONE_INVALID_SHIELDS_1,La zone d'atterrissage n'est pas valide - Elle comporte des boucliers.
 TEXT_SFX_EHD_LANDING_ZONE_LOST_1,Nous avons perdu une Zone d'atterrissage.
 TEXT_SFX_EHD_LASER_DEFENSE_1,Satellite laser de défense en ligne (construction achevée)
@@ -6551,7 +6551,7 @@ TEXT_SFX_GAT_MOVE_2,Je vois.
 TEXT_SFX_GAT_MOVE_3,Si vous insistez…
 TEXT_SFX_GAT_MOVE_4,Bien.
 TEXT_SFX_GAT_MOVE_5,Je m'y attendais un peu...
-TEXT_SFX_GAT_MOVE_6,Si vous trouvez cela logique... 
+TEXT_SFX_GAT_MOVE_6,Si vous trouvez cela logique...
 TEXT_SFX_GAT_MOVE_7,J'espère que vous avez un plan.
 TEXT_SFX_GAT_MOVE_8,Très bien.
 TEXT_SFX_GAT_MOVE_9,Comme si c'était fait.
@@ -6600,7 +6600,7 @@ TEXT_SFX_GES_CAPTURED_2,On a capturé une Usine de véhicules lourds à l'abando
 TEXT_SFX_GES_CAPTURED_3,On a capturé une Batterie de senseurs abandonnée.
 TEXT_SFX_GES_CAPTURED_4,On a capturé une Tour à turbolaser.
 TEXT_SFX_GES_CAPTURED_5,On a sécurisé un Complexe minier désaffecté.
-TEXT_SFX_GES_CAPTURED_6,On a sécurisé une Usine de véhicules lourds à l'abandon. 
+TEXT_SFX_GES_CAPTURED_6,On a sécurisé une Usine de véhicules lourds à l'abandon.
 TEXT_SFX_GES_CAPTURED_7,On a sécurisé une Batterie de senseurs abandonnée.
 TEXT_SFX_GES_CAPTURED_8,On a sécurisé une Tour à turbolaser abandonnée.
 TEXT_SFX_GES_CAPTURED_9,On a pris un camp de mercenaires.
@@ -7314,7 +7314,7 @@ TEXT_SFX_I4F_SELECT_14,Message incompréhensible, veuillez répéter.
 TEXT_SFX_I4F_SELECT_15,Frégate au rapport !
 TEXT_SFX_I4F_SELECT_2,Les officiers et l'équipage se tiennent prêts.
 TEXT_SFX_I4F_SELECT_3,Systèmes offensifs opérationnels.
-TEXT_SFX_I4F_SELECT_4,Armes chargées. 
+TEXT_SFX_I4F_SELECT_4,Armes chargées.
 TEXT_SFX_I4F_SELECT_5,Senseurs activés.
 TEXT_SFX_I4F_SELECT_6,Ici la frégate, nous sommes en position.
 TEXT_SFX_I4F_SELECT_7,Prêts à passer à l'action, commandant !
@@ -8483,7 +8483,7 @@ TEXT_SFX_MAS_SELECT_13,Quels sont les ordres ?
 TEXT_SFX_MAS_SELECT_14,Parés au combat.
 TEXT_SFX_MAS_SELECT_15,J'attends vos ordres !
 TEXT_SFX_MAS_SELECT_2,On ne se lasse pas de vos crédits.
-TEXT_SFX_MAS_SELECT_3,Signal reçu. 
+TEXT_SFX_MAS_SELECT_3,Signal reçu.
 TEXT_SFX_MAS_SELECT_4,Prêt au combat !
 TEXT_SFX_MAS_SELECT_5,On attend les ordres !
 TEXT_SFX_MAS_SELECT_6,Unité au rapport.
@@ -8870,7 +8870,7 @@ TEXT_SFX_MJD_SELECT_6,Quels sont vos ordres ?
 TEXT_SFX_MJD_SELECT_7,Quel est mon prochain objectif ?
 TEXT_SFX_MJD_SELECT_8,Vous avez un plan ?
 TEXT_SFX_MJD_SELECT_9,Je suis là.
-TEXT_SFX_MON_ANNOUNCE_1,La différence entre l'Alliance et les Impériaux, c'est que nos troupes nous restent fidèles. 
+TEXT_SFX_MON_ANNOUNCE_1,La différence entre l'Alliance et les Impériaux, c'est que nos troupes nous restent fidèles.
 TEXT_SFX_MON_ATTACK_1,Je vais essayer.
 TEXT_SFX_MON_ATTACK_2,Pour l'Alliance !
 TEXT_SFX_MON_ATTACK_3,Compris
@@ -9503,7 +9503,7 @@ TEXT_SFX_PFP_DEATH_3,J'ai besoin d'aide par ici !
 TEXT_SFX_PFP_DEATH_4,On me tire dessus !
 TEXT_SFX_PFP_DEATH_5,Je peux pas le semer !
 TEXT_SFX_PFP_DEATH_6,Je le vois plus…
-TEXT_SFX_PFP_DEATH_7,C'est pas vrai... 
+TEXT_SFX_PFP_DEATH_7,C'est pas vrai...
 TEXT_SFX_PFP_DEATH_8,Je vais devoir vous laisser !
 TEXT_SFX_PFP_DEATH_9,(Cri de mort)
 TEXT_SFX_PFP_GUARD_1,Je surveille la cible.
@@ -10488,7 +10488,7 @@ TEXT_SFX_RHD_CAPACITY_3,Maximum d'unités atteint. Entraînement interrompu.
 TEXT_SFX_RHD_CAPACITY_4,Capacité maximale en unités atteinte.
 TEXT_SFX_RHD_CAPACITY_5,Capacité maximale atteinte. Construction interrompue.
 TEXT_SFX_RHD_CAPTURE_HEAVY_VEHICLE_1,Nous avons capturé une Usine de véhicules lourds à l'abandon.
-TEXT_SFX_RHD_CAPTURE_HEAVY_VEHICLE_2,Nous avons sécurisé une Usine de véhicules lourds à l'abandon. 
+TEXT_SFX_RHD_CAPTURE_HEAVY_VEHICLE_2,Nous avons sécurisé une Usine de véhicules lourds à l'abandon.
 TEXT_SFX_RHD_CAPTURE_MERCENARIES_1,Nous avons pris un camp de mercenaires.
 TEXT_SFX_RHD_CAPTURE_MERCENARIES_2,Nous avons établi le contact avec les mercenaires.
 TEXT_SFX_RHD_CAPTURE_MERCENARIES_3,Nous avons recruté des mercenaires.
@@ -10600,7 +10600,7 @@ TEXT_SFX_RHD_ENEMY_FLEEING_3,L'ennemi se replie.
 TEXT_SFX_RHD_ENEMY_FLEET_1,Flotte Impériale en approche.
 TEXT_SFX_RHD_ENEMY_FLEET_APPROACH_1,Flotte ennemie en approche
 TEXT_SFX_RHD_ENEMY_GAIN_TECH_LEVEL_1,Le niveau technologique de l'Empire a progressé.
-TEXT_SFX_RHD_ENEMY_GRAVITY_GENERATOR_DESTROYED_1,Le générateur de gravité est détruit ! 
+TEXT_SFX_RHD_ENEMY_GRAVITY_GENERATOR_DESTROYED_1,Le générateur de gravité est détruit !
 TEXT_SFX_RHD_ENEMY_HERO_DETECTED_1,Héros ennemi repéré.
 TEXT_SFX_RHD_ENEMY_HERO_ELIMINATED_1,Héros ennemi éliminé.
 TEXT_SFX_RHD_ENEMY_HUTT_PALACE_DESTROYED_1,Le Palais des Hutts a été détruit.
@@ -10693,8 +10693,8 @@ TEXT_SFX_RHD_KORRIBAN_DEATH_STAR,Korriban a été détruite par l'Etoile Noire.
 TEXT_SFX_RHD_KUAT,Kuat
 TEXT_SFX_RHD_KUAT_DEATH_STAR,Kuat a été détruite par l'Etoile Noire.
 TEXT_SFX_RHD_LANDING_ZONE_CAPTURED_1,Nous avons sécurisé une Zone d'atterrissage.
-TEXT_SFX_RHD_LANDING_ZONE_INVALID_1,La zone d'atterrissage n'est pas valide. 
-TEXT_SFX_RHD_LANDING_ZONE_INVALID_2,La zone d'atterrissage n'est pas valide. 
+TEXT_SFX_RHD_LANDING_ZONE_INVALID_1,La zone d'atterrissage n'est pas valide.
+TEXT_SFX_RHD_LANDING_ZONE_INVALID_2,La zone d'atterrissage n'est pas valide.
 TEXT_SFX_RHD_LANDING_ZONE_INVALID_SHIELDS_1,La zone d'atterrissage n'est pas valide - Elle comporte des boucliers.
 TEXT_SFX_RHD_LANDING_ZONE_LOST_1,Nous avons perdu une Zone d'atterrissage.
 TEXT_SFX_RHD_LASER_DEFENSE_1,Satellite laser de défense opérationnel (construction achevée)
@@ -11287,7 +11287,7 @@ TEXT_SFX_SMG_DEPLOY_9,On va équilibrer les richesses.
 TEXT_SFX_SMG_MOVE_1,Je vous couvre.
 TEXT_SFX_SMG_RESCUE_1,J'espère qu'on a pas fait ça pour rien.
 TEXT_SFX_SMG_SYPHON_1,On a amasser des crédits.
-TEXT_SFX_SPD_ASSIST_1,Assurez la couverture terrestre, on se charge du reste. 
+TEXT_SFX_SPD_ASSIST_1,Assurez la couverture terrestre, on se charge du reste.
 TEXT_SFX_SPD_ASSIST_2,Je vous suis.
 TEXT_SFX_SPD_ASSIST_3,On vous couvre.
 TEXT_SFX_SPD_ATAT_1,TB-TT droit devant ! Préparez les câbles de remorquage !
@@ -11557,7 +11557,7 @@ TEXT_SFX_STD_ATTACK_4,Je lance l'attaque.
 TEXT_SFX_STD_ATTACK_5,En position d'attaque.
 TEXT_SFX_STD_ATTACK_6,Cible identifiée
 TEXT_SFX_STD_ATTACK_7,À l'attaque !
-TEXT_SFX_STD_ATTACK_8,Tirez ! 
+TEXT_SFX_STD_ATTACK_8,Tirez !
 TEXT_SFX_STD_ATTACK_9,Feu !
 TEXT_SFX_STD_BARRAGE_1,Puissance de tir maximum.
 TEXT_SFX_STD_BARRAGE_2,Cible verrouillée, puissance maximum.
@@ -11769,7 +11769,7 @@ TEXT_SFX_SVP_DEATH_3,J'ai besoin d'aide, ici !
 TEXT_SFX_SVP_DEATH_4,Ils me tirent dessus !
 TEXT_SFX_SVP_DEATH_5,J'en ai un aux trousses !
 TEXT_SFX_SVP_DEATH_6,Je le vois plus…
-TEXT_SFX_SVP_DEATH_7,C'est pas vrai... 
+TEXT_SFX_SVP_DEATH_7,C'est pas vrai...
 TEXT_SFX_SVP_DEATH_8,Je dois vous laisser !
 TEXT_SFX_SVP_DEATH_9,(Cri de mort)
 TEXT_SFX_SVP_GUARD_1,Je surveille la cible.
@@ -11792,7 +11792,7 @@ TEXT_SFX_SVP_HP_TORP_2,Le lance-torpilles est une cible prioritaire.
 TEXT_SFX_SVP_MOVE_1,On approche de notre destination.
 TEXT_SFX_SVP_MOVE_10,Destination confirmée.
 TEXT_SFX_SVP_MOVE_11,Je fonce vers les coordonnées.
-TEXT_SFX_SVP_MOVE_12,Vitesse maximale ! 
+TEXT_SFX_SVP_MOVE_12,Vitesse maximale !
 TEXT_SFX_SVP_MOVE_13,Continuez !
 TEXT_SFX_SVP_MOVE_14,Par ici !
 TEXT_SFX_SVP_MOVE_15,Tout de suite.
@@ -11811,7 +11811,7 @@ TEXT_SFX_SVP_PATROL_3,Je recherche l'ennemi.
 TEXT_SFX_SVP_PATROL_4,Je surveille mes radars.
 TEXT_SFX_SVP_PATROL_5,Restez dans la zone.
 TEXT_SFX_SVP_PATROL_6,Patrouille confirmée.
-TEXT_SFX_SVP_SEE_HERO_15,Le vaisseau de Thrawn a rejoint leur flotte !  
+TEXT_SFX_SVP_SEE_HERO_15,Le vaisseau de Thrawn a rejoint leur flotte !
 TEXT_SFX_SVP_SEE_HERO_16,Sans aide, on ne viendra pas à bout de l'Executor.
 TEXT_SFX_SVP_SELECT_1,Escadron de Starviper, au rapport.
 TEXT_SFX_SVP_SELECT_10,Veuillez répéter...
@@ -12028,7 +12028,7 @@ TEXT_SFX_TAN_SELECT_2,Commandant ?
 TEXT_SFX_TAN_SELECT_3,Je suis prêt.
 TEXT_SFX_TAN_SELECT_4,Je peux vous aider ?
 TEXT_SFX_TAR_PLANET_SELECT_1,Pas de panique, la planète est sous mes ordres.
-TEXT_SFX_TAR_PLANET_SELECT_2,Je mettrai fin à la propagande des Rebelles. 
+TEXT_SFX_TAR_PLANET_SELECT_2,Je mettrai fin à la propagande des Rebelles.
 TEXT_SFX_TAR_PLANET_SELECT_3,Grâce à moi, il ne peut rien nous arriver.
 TEXT_SFX_TAR_RESPAWN_1,Eh bien… Que s'est-il passé ?
 TEXT_SFX_TAR_RESPAWN_2,Vous pouvez continuer, je suis de retour.
@@ -12716,7 +12716,7 @@ TEXT_SFX_TRP_SEE_HERO_14,Une sœur noire les accompagne. Tirez à distance !
 TEXT_SFX_TRP_SEE_HERO_15,L'amiral Thrawn a rejoint notre flotte !
 TEXT_SFX_TRP_SEE_HERO_16,Ils ne peuvent rien faire contre l'Executor.
 TEXT_SFX_TRP_SEE_HERO_17,On a repéré la princesse Leia - Suivez la !
-TEXT_SFX_TRP_SEE_HERO_18,Nous sommes tombés sur maître Yoda. Repli général ! 
+TEXT_SFX_TRP_SEE_HERO_18,Nous sommes tombés sur maître Yoda. Repli général !
 TEXT_SFX_TRP_SEE_HERO_19,C'est Skywalker. Pas de risques inutiles !
 TEXT_SFX_TRP_SEE_HERO_20,On a repéré le Gargantua. Attaquez ce traître !
 TEXT_SFX_TRP_SELECT_1,Au rapport.
@@ -12856,7 +12856,7 @@ TEXT_SFX_TWI_SELECT_9,On est parés.
 TEXT_SFX_TYB_ATTACK_1,Je vais m'occuper d'eux.
 TEXT_SFX_TYB_ATTACK_10,Je vais vous montrer comment vaincre l'ennemi !
 TEXT_SFX_TYB_ATTACK_11,Réduisez-les en poussière !
-TEXT_SFX_TYB_ATTACK_12,Ils ne peuvent rien contre moi ! 
+TEXT_SFX_TYB_ATTACK_12,Ils ne peuvent rien contre moi !
 TEXT_SFX_TYB_ATTACK_13,Celui-là, il est pour moi !
 TEXT_SFX_TYB_ATTACK_14,Ça ne devrait pas poser de problème.
 TEXT_SFX_TYB_ATTACK_15,Leur vie ne tient qu'à un fil.
@@ -13258,7 +13258,7 @@ TEXT_SFX_UHD_CAPACITY_3,Maximum d'unités atteint. Entraînement interrompu.
 TEXT_SFX_UHD_CAPACITY_4,Capacité maximale atteinte. Production interrompue.
 TEXT_SFX_UHD_CAPACITY_5,Capacité maximale atteinte. Construction interrompue.
 TEXT_SFX_UHD_CAPTURE_HEAVY_VEHICLE_1,Nous avons capturé une Usine de véhicules lourds à l'abandon.
-TEXT_SFX_UHD_CAPTURE_HEAVY_VEHICLE_2,Nous avons sécurisé une Usine de véhicules lourds à l'abandon. 
+TEXT_SFX_UHD_CAPTURE_HEAVY_VEHICLE_2,Nous avons sécurisé une Usine de véhicules lourds à l'abandon.
 TEXT_SFX_UHD_CAPTURE_MERCENARIES_1,Nous avons pris un camp de mercenaires.
 TEXT_SFX_UHD_CAPTURE_MERCENARIES_2,Nous avons établi le contact avec les mercenaires.
 TEXT_SFX_UHD_CAPTURE_MERCENARIES_3,Nous avons recruté des mercenaires.
@@ -13803,7 +13803,7 @@ TEXT_SFX_VER_ATTACKED_1,Des tirs Rebelles !
 TEXT_SFX_VER_ATTACKED_2,Les forces Rebelles ont ouvert le feu.
 TEXT_SFX_VER_ATTACKED_3,Ils nous attaquent !
 TEXT_SFX_VER_ATTACKED_4,Les forces ennemies nous attaquent.
-TEXT_SFX_VER_DEFEAT_1,Non ! C'est impossible ! 
+TEXT_SFX_VER_DEFEAT_1,Non ! C'est impossible !
 TEXT_SFX_VER_DEFEAT_2,C'est impossible !
 TEXT_SFX_VER_DEPLOY_1,Déploiement des Stormtroopers...
 TEXT_SFX_VER_DEPLOY_2,On déploie d'autres soldats.
@@ -14605,10 +14605,10 @@ TEXT_SPEECH_ABREGADORAE_BRB_VICTORY_COR01_01,Corrupteur : J'ai soudoyé le respo
 TEXT_SPEECH_ACT01_M04_BOUNCE,Tyber Zann : Je tiens à régler son compte à Jabba personnellement. Attendez-moi pour donner l'assaut.
 TEXT_SPEECH_AETENII_PIR_LOAD_COR02_01,Bossk : Ceux qui ne rempliront pas leur mission, je les tuerai personnellement. Que le combat commence !
 TEXT_SPEECH_AETENII_PIR_LOSS_COR02_04,Bossk : Les forces que vous m'avez envoyées n'étaient pas prêtes. J'ai moi-même achevé celles qui ont survécu aux combats. Dorénavant, c'est moi qui me chargerai de la formation. Personne ne m'arrêtera !
-TEXT_SPEECH_AETENII_PIR_TACTICAL_COR02_02,Bossk : Les containers de cristaux de Stygium sont bien protégés. Mais en détruisant 5 containers et les vaisseaux ennemis situés à proximité, nous affirmerons notre présence dans le système Aeten II. 
+TEXT_SPEECH_AETENII_PIR_TACTICAL_COR02_02,Bossk : Les containers de cristaux de Stygium sont bien protégés. Mais en détruisant 5 containers et les vaisseaux ennemis situés à proximité, nous affirmerons notre présence dans le système Aeten II.
 TEXT_SPEECH_AETENII_PIR_VICTORY_COR02_03,Bossk : Les capsules de cristaux de Stygium et les cibles ennemies ont été détruites. Ça mérite bien une prime supplémentaire.
-TEXT_SPEECH_AETENII_RKT_VICTORY_COR02_05,Corrupteur : Les mineurs d'Aeten II se ruinent dans nos cantinas. Certains paient même leurs dettes avec des cristaux de Stygium. 
-TEXT_SPEECH_ALZOCIII_BLK_VICTORY_COR03_05,Corrupteur : Nous avons établi un Marché noir sur Alzoc III. Les forces du Consortium vont disposer de nouveaux vaisseaux d'une puissance extraordinaire. 
+TEXT_SPEECH_AETENII_RKT_VICTORY_COR02_05,Corrupteur : Les mineurs d'Aeten II se ruinent dans nos cantinas. Certains paient même leurs dettes avec des cristaux de Stygium.
+TEXT_SPEECH_ALZOCIII_BLK_VICTORY_COR03_05,Corrupteur : Nous avons établi un Marché noir sur Alzoc III. Les forces du Consortium vont disposer de nouveaux vaisseaux d'une puissance extraordinaire.
 TEXT_SPEECH_ALZOCIII_INT_LOAD_COR03_01,Tyber Zann : Tant qu'à être ici, autant en profiter pour tuer des Shaaks. Dix têtes feraient l'affaire.
 TEXT_SPEECH_ALZOCIII_INT_LOSS_COR03_04,Tyber Zann : Les forces d'Alzoc III ont fait de la résistance. Je vais avoir besoin de plus d'unités de combat pour parvenir à mes fins.
 TEXT_SPEECH_ALZOCIII_INT_TACTICAL_COR03_02,Tyber Zann : Je vais me rendre sur la planète avec quelques associés pour ramener l'intendant à la raison. C'est toute la production de la planète que nous pourrions contrôler à travers lui.
@@ -14617,11 +14617,11 @@ TEXT_SPEECH_ANAXES_INT_LOAD_COR04_01,Bossk : Bougez-vous un peu. Je ne veux pas 
 TEXT_SPEECH_ANAXES_INT_LOSS_COR04_04,Bossk : Ils avaient caché des renforts sur la planète. Il faudra être mieux préparé si nous voulons porter une nouvelle attaque.
 TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02,Bossk : Flankar, le commandant de la flotte d'Anaxis, est l'un des meilleurs de la galaxie. Pour le convaincre de collaborer, nous devons faire étalage de notre puissance.
 TEXT_SPEECH_ANAXES_INT_VICTORY_COR04_03,Bossk : La route commerciale Perlemienne est entièrement sous notre contrôle. Près de la moitié des échanges commerciaux de la galaxie passent par nous.
-TEXT_SPEECH_ANAXES_RKT_VICTORY_COR04_05,Corrupteur : Notre organisation va s'attaquer aux nombreux membres d'équipage qui viennent se distraire sur la planète. Cette opération devrait nous rapporter gros. 
-TEXT_SPEECH_ATZERRI_BRB_VICTORY_COR05_02,Corrupteur : Les pots-de-vin versés sur Atzerri ont porté leurs fruits, bien au-delà de nos espérances. La planète est totalement corrompue et les crédits affluents sur nos comptes. 
+TEXT_SPEECH_ANAXES_RKT_VICTORY_COR04_05,Corrupteur : Notre organisation va s'attaquer aux nombreux membres d'équipage qui viennent se distraire sur la planète. Cette opération devrait nous rapporter gros.
+TEXT_SPEECH_ATZERRI_BRB_VICTORY_COR05_02,Corrupteur : Les pots-de-vin versés sur Atzerri ont porté leurs fruits, bien au-delà de nos espérances. La planète est totalement corrompue et les crédits affluents sur nos comptes.
 TEXT_SPEECH_ATZERRI_RKT_VICTORY_COR05_01,Corrupteur : Sur un monde corrompu comme Atzerri, nos tentatives d'extorsion ne pouvaient qu'aboutir. Les seigneurs du crime locaux veulent tous collaborer avec nous.
-TEXT_SPEECH_BESPIN_PIR_LOAD_COR06_01,Tyber Zann : Nous allons détruire la prochaine cargaison de gaz Tibanna. Ainsi, il nous sera plus simple de trouver des crédits pour construire nos flottes. 
-TEXT_SPEECH_BESPIN_PIR_LOSS_COR06_04,Tyber Zann : Les escadrons de la mort qui protégeaient les transports de gaz Tibanna étaient redoutables. Si nous voulons corrompre ce système, il faudra prévoir une force d'assaut plus importante. 
+TEXT_SPEECH_BESPIN_PIR_LOAD_COR06_01,Tyber Zann : Nous allons détruire la prochaine cargaison de gaz Tibanna. Ainsi, il nous sera plus simple de trouver des crédits pour construire nos flottes.
+TEXT_SPEECH_BESPIN_PIR_LOSS_COR06_04,Tyber Zann : Les escadrons de la mort qui protégeaient les transports de gaz Tibanna étaient redoutables. Si nous voulons corrompre ce système, il faudra prévoir une force d'assaut plus importante.
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_02,Tyber Zann : Je n'ai pas l'intention de traîner ici. Détruisez les vaisseaux ennemis et préparez votre prochaine mission.
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_06,Tyber Zann : Nous avons réussi à nous emparer d'un Interdictor impérial. Nous allons nous en servir pour faire sortir les convois de gaz Tibanna de l'hyperespace. Pour que ce plan fonctionne, il faudra que l'Interdictor active son aptitude à proximité des routes commerciales de Bespin.
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_07,Tyber Zann : Le premier convoi devrait arriver d'un instant à l'autre. Il faut détruire les navettes de gaz Tibanna avant qu'elles ne soient hors de portée de l'Interdictor.
@@ -14630,9 +14630,9 @@ TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_09,Tyber Zann : Détruire un autre convoi 
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_10,Marchand de gaz Tibanna : Des pirates ! A tout l'équipage : défendez la navette de gaz Tibanna !
 TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_11,Tyber Zann : Bravo. Bespin est désormais sous la protection du Consortium de Zann.
 TEXT_SPEECH_BESPIN_PIR_VICTORY_COR06_03,Tyber Zann : Les livraisons de gaz Tibanna vont s'espacer et nos ennemis en subiront les conséquences. De notre côté, nous aurons bientôt assez de crédits pour construire de nouvelles flottes.
-TEXT_SPEECH_BESPIN_RKT_VICTORY_COR06_05,Corrupteur : La corruption règne sur la Cité des Nuages. Toutes les zones stratégiques de ce système seront bientôt sous notre contrôle. 
+TEXT_SPEECH_BESPIN_RKT_VICTORY_COR06_05,Corrupteur : La corruption règne sur la Cité des Nuages. Toutes les zones stratégiques de ce système seront bientôt sous notre contrôle.
 TEXT_SPEECH_BESTINE_BLK_VICTORY_COR07_05,Corrupteur : Grâce aux nombreux centres technologiques de Bestine, le Marché noir propose régulièrement toutes sortes de produits, garantissant au Consortium des revenus constants et de nouvelles armes.
-TEXT_SPEECH_BESTINE_KID_LOAD_COR07_01,IG-88 : Nos chances de réussite sont de 87%. Commencez la mission. 
+TEXT_SPEECH_BESTINE_KID_LOAD_COR07_01,IG-88 : Nos chances de réussite sont de 87%. Commencez la mission.
 TEXT_SPEECH_BESTINE_KID_LOSS_COR07_04,IG-88 : Ce n'est pas une cible facile, je vais avoir besoin de forces supplémentaires. Rassemblez plus d'unités et nous attaquerons à nouveau.
 TEXT_SPEECH_BESTINE_KID_TACTICAL_COR07_02,IG-88 : Le commandant des chantiers navals de Bestine est l'homme le plus influent de la planète. Prenons-le en otage et nous aurons accès à des informations de première importance.
 TEXT_SPEECH_BESTINE_KID_VICTORY_COR07_03,IG-88 : Des droïdes de torture se chargent de faire parler notre otage. Nous connaîtrons bientôt ses plans et nous modifierons nos stratégies en conséquence sur toutes les planètes que nous contrôlons.
@@ -14652,25 +14652,25 @@ TEXT_SPEECH_BYSS_KID_TACTICAL_COR10_02,Silri : Le côté Obscur de la Force est 
 TEXT_SPEECH_BYSS_KID_VICTORY_COR10_03,Silri : J'ai corrompu l'un des mondes les plus puissants de la galaxie. Nous allons enfin attirer l'attention de l'Empereur.
 TEXT_SPEECH_CAMPAIGN_SINGLE_,[TBL]
 TEXT_SPEECH_CAMPAIGN_SINGLE_10A_INTRO_E,L'Empire perd son emprise sur la galaxie. Seuls trois systèmes sont encore sous notre contrôle, mais leurs défenses sont insuffisantes. Vous devez repousser l'offensive Rebelle pour assurer la survie de l'Empire. Vous recevrez 5000 crédits pour consolider nos défenses. Nous avons localisé plusieurs systèmes contrôlés par des pirates dans les profondeurs de la galaxie. Ils ne doivent pas enrayer notre progression.
-TEXT_SPEECH_CAMPAIGN_SINGLE_10A_INTRO_R,Seul un petit nombre de systèmes est encore sous le contrôle de l'Empire, mais les ravages de la guerre ont été terribles. Avant de poursuivre notre avancée, il faut commencer par reconstruire. Utilisez les 5000 crédits qui vous sont accordés pour détruire les derniers bastions Impériaux. Mais restez prudent : plusieurs systèmes distants sont toujours contrôlés par des pirates. 
+TEXT_SPEECH_CAMPAIGN_SINGLE_10A_INTRO_R,Seul un petit nombre de systèmes est encore sous le contrôle de l'Empire, mais les ravages de la guerre ont été terribles. Avant de poursuivre notre avancée, il faut commencer par reconstruire. Utilisez les 5000 crédits qui vous sont accordés pour détruire les derniers bastions Impériaux. Mais restez prudent : plusieurs systèmes distants sont toujours contrôlés par des pirates.
 TEXT_SPEECH_CAMPAIGN_SINGLE_10B_INTRO_E,Les recherches liées au projet Étoile Noire sont achevées. Vous disposez maintenant de 8000 crédits pour construire cette station de combat. N'oubliez pas de produire des unités supplémentaires pour accompagner l'Étoile Noire lors de son premier voyage. Lorsqu'elle sera achevée, vous devrez éradiquer toute présence Rebelle dans la galaxie.
 TEXT_SPEECH_CAMPAIGN_SINGLE_10B_INTRO_R,L'Empire a entrepris de construire une super plateforme mobile assez puissante pour détruire des planètes entières. 8000 crédits vous ont été affectés. Votre mission est de détruire l'Étoile Noire. À tout prix.
 TEXT_SPEECH_CAMPAIGN_SINGLE_15_INTRO_E,Plusieurs destroyers stellaires ont déjà été construits dans les chantiers du système de Kuat. De leur côté, les Rebelles ont amélioré leurs bases stellaires en prévision des prochains combats. Nous vous avons octroyé 15000 crédits pour éliminer les Rebelles. Vous ne disposerez que de 20 jours pour remplir cette mission. Passé ce délai, les Rebelles se réfugieront dans les confins de la galaxie.
 TEXT_SPEECH_CAMPAIGN_SINGLE_15_INTRO_R,D'après nos renseignements, il semble que les chantiers du système Kuat n'aient jamais construit autant de destroyers stellaires. Il faut empêcher l'Empire de prendre l'avantage dans l'espace. Nous vous octroyons 8000 crédits pour conquérir Fondor, Frésia et Kuat. Ne perdez pas de temps : si vous ne remplissez pas cette mission sous 20 jours, tout est perdu !
 TEXT_SPEECH_CAMPAIGN_SINGLE_20_INTRO_E,La mainmise des Impériaux sur la galaxie ne cesse d'être contestée. De nombreux systèmes ont été envahis par les pirates. Vous disposez de 3000 crédits pour conquérir les planètes contrôlées par les pirates et les Rebelles.
-TEXT_SPEECH_CAMPAIGN_SINGLE_20_INTRO_R,L'Empire est miné par la corruption. La plupart de leurs systèmes sont envahis par les pirates. Menez nos forces au combat ; affrontez les pirates et les Impériaux restants. Vous disposerez au départ de 4000 crédits. Utilisez-les pour libérer les planètes que nous ne contrôlons pas encore. 
+TEXT_SPEECH_CAMPAIGN_SINGLE_20_INTRO_R,L'Empire est miné par la corruption. La plupart de leurs systèmes sont envahis par les pirates. Menez nos forces au combat ; affrontez les pirates et les Impériaux restants. Vous disposerez au départ de 4000 crédits. Utilisez-les pour libérer les planètes que nous ne contrôlons pas encore.
 TEXT_SPEECH_CAMPAIGN_SINGLE_25_INTRO_E,Les Rebelles ont conquis de nombreux systèmes distants. L'Empire est sur le point de perdre Coruscant. Nos forces se sont repliées pour défendre les mondes du Noyau, mais la Rébellion ne tardera pas à passer à l'assaut. Une somme de 15000 crédits vous est affectée. Construisez une nouvelle flotte Impériale, éliminez les Rebelles et protégez l'Empereur à tout prix.
 TEXT_SPEECH_CAMPAIGN_SINGLE_25_INTRO_R,L'Alliance contrôle maintenant la plupart des mondes de la Bordure Extérieure. C'est l'occasion de frapper l'Empire en plein coeur. Il faut faire tomber l'Empereur Palpatine et prendre le contrôle de Coruscant. Nous avons amassé 15000 crédits en prévision de cet assaut.
 TEXT_SPEECH_CAMPAIGN_SINGLE_30_INTRO_E,Les forces Impériales ont été contraintes de se réfugier dans les confins de la galaxie. L'effort de guerre et les erreurs de gestion de certains officiers Impériaux ont réduit nos fonds à 5000 crédits. Reprenez le contrôle des mondes du Noyau puis de la galaxie.
 TEXT_SPEECH_CAMPAIGN_SINGLE_30_INTRO_R,L'Alliance a chassé l'Empire des mondes du Noyau, mais certaines planètes distantes restent sous le contrôle des Impériaux. Nous ne disposons plus que de 5000 crédits pour nos opérations militaires. La reconquête de plusieurs mondes contrôlés par les pirates nous permettrait pourtant d'améliorer la situation. N'oubliez pas, notre but ultime est de prendre les derniers bastions de l'Empire.
 TEXT_SPEECH_CAMPAIGN_SINGLE_35_INTRO_E,L'Empire a sous-estimé la combativité des Rebelles. Pendant que nous nous battions dans la Bordure Extérieure, ils ont pris le contrôle de plusieurs planètes du Noyau et mis nos forces en déroute. La Rébellion renforce ses positions partout dans la galaxie. Nous vous avons alloué la somme de 6000 crédits, utilisez-la pour rassembler nos armées.
 TEXT_SPEECH_CAMPAIGN_SINGLE_35_INTRO_R,La guerre fait rage. Les combats qui nous ont opposés à l'Empire ont dispersé nos forces dans toute la galaxie. La plupart des mondes que nous contrôlons sont coupés les uns des autres, à la merci des attaques Impériales. Il faut agir sans perdre de temps : vous disposez de 6000 crédits pour consolider nos positions.
-TEXT_SPEECH_CAMPAIGN_SINGLE_44_INTRO_E,La Rébellion s'organise dans de nombreux mondes de la Bordure. Vous disposez de 10000 crédits pour éradiquer toute présence Rebelle et reprendre le contrôle de la galaxie. 
+TEXT_SPEECH_CAMPAIGN_SINGLE_44_INTRO_E,La Rébellion s'organise dans de nombreux mondes de la Bordure. Vous disposez de 10000 crédits pour éradiquer toute présence Rebelle et reprendre le contrôle de la galaxie.
 TEXT_SPEECH_CAMPAIGN_SINGLE_44_INTRO_R,De nombreux mondes ont prêté allégeance à l'Alliance et les Impériaux ont fini par nous prendre au sérieux. Ils vont maintenant lancer des attaques de grande envergure contre les mondes que nous contrôlons. Vous disposez de 10000 crédits pour consolider nos forces.
 TEXT_SPEECH_CAMPAIGN_SINGLE_50_INTRO_E,Coruscant est au centre de la puissance Impériale, dans tous les sens du terme. De nombreux systèmes distants ont rallié notre cause, mais l'Empereur souhaite prendre une part plus active dans le contrôle de ces planètes. Vous disposez de 8000 crédits pour étendre encore l'influence de l'Empire. Vous rencontrerez peut-être des poches de résistance Rebelle. Écrasez-les !
 TEXT_SPEECH_CAMPAIGN_SINGLE_50_INTRO_R,Les forces de l'Alliance sont réduites : nous ne disposons que d'une seule base opérationnelle. L'Empire a consolidé ses positions dans les mondes du Noyau, mais aucun camp n'a pris un avantage définitif. Les Rebelles doivent tout faire pour que la liberté règne sur la galaxie. Vous disposez de 8000 crédits pour consolider vos forces. N'oubliez pas : pour l'emporter, nous devons prendre le contrôle de nouvelles planètes.
 TEXT_SPEECH_CAMPAIGN_SINGLE_60_INTRO_E,Les forces Impériales ont réussi à faire reculer la Rébellion mais ce secteur résiste. Aucun des deux camps n'a l'avantage. Utilisez vos 20000 crédits pour éliminer les forces Rebelles dans ce secteur et permettre à l'Empire de se concentrer sur des problèmes plus importants.
-TEXT_SPEECH_CAMPAIGN_SINGLE_60_INTRO_R,La Rébellion et l'Empire se partagent ce secteur de la galaxie. Aucun des deux camps n'a l'avantage. Utilisez vos 20000 crédits pour libérer tous ces mondes et restaurer la liberté dans ce secteur. 
+TEXT_SPEECH_CAMPAIGN_SINGLE_60_INTRO_R,La Rébellion et l'Empire se partagent ce secteur de la galaxie. Aucun des deux camps n'a l'avantage. Utilisez vos 20000 crédits pour libérer tous ces mondes et restaurer la liberté dans ce secteur.
 TEXT_SPEECH_CAMPAIGN_SINGLE_FOCUS_INTRO_U,Tyber Zann : Le Cartel de Jabba n'a cessé de se développer alors que je croupissais en prison ! Maintenant que je suis libre, je compte bien récupérer mon territoire. Jabba sera ma première cible !
 TEXT_SPEECH_CARIDA_BLK_VICTORY_COR11_06,Corrupteur : Le Marché noir que nous avons implanté nous donne accès à de nombreuses informations. Les plans de Tyber continuent de se mettre en place.
 TEXT_SPEECH_CARIDA_BRB_VICTORY_COR11_05,Corrupteur : Les pots-de-vin que nous avons versé ont porté leurs fruits. La planète est corrompue et nous avons mis la main sur des informations très précieuses.
@@ -14787,7 +14787,7 @@ TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_11,Boba Fett : Ces chasseurs ne doivent p
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_12,Boba Fett : Il faut que je détruise ce satellite avant qu'il ne déclenche l'alerte.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_13,Boba Fett : Les satellites sont détruits. Vous pouvez y aller.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_14,Boba Fett : C'est le chef des pirates. Il ne doit pas s'échapper.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_15,Officier Impérial : Nous détectons des signatures pirates sur plusieurs vecteurs. 
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_15,Officier Impérial : Nous détectons des signatures pirates sur plusieurs vecteurs.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_16,Boba Fett : Dommage. Maintenant, les pirates savent qu'on est là.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_17,Boba Fett : Ils savent qu'on est là. Il faut faire vite, sinon leur chef va s'enfuir !
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_18,Tarkin : Pendant que vous chassiez les pirates, Seigneur Vador, on m'a informé que nous manquions de ressources et de main d'œuvre pour construire l'Étoile Noire. Je vais avoir besoin de votre aide.
@@ -14828,7 +14828,7 @@ TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_62,Boba Fett : C'est MA cible ! Ne vous a
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_64,Boba Fett : Détruisez ces tourelles ! Visez les points critiques des astéroïdes !
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_70,Boba Fett : Pas de cible, pas de contrat…
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_71,Dark Vador : N'allez pas imaginer que vous êtes indispensable à l'Empire, Fett, mais nous avons besoin de vos services. Votre cible est le chef des pirates. Prenez-le vivant.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_00,Boba Fett : J'ai décrypté la transmission. Le message adressé aux Jedi provenait de la planète Thyferra. Elle doit abriter une base Rebelle.  
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_00,Boba Fett : J'ai décrypté la transmission. Le message adressé aux Jedi provenait de la planète Thyferra. Elle doit abriter une base Rebelle.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_01,Dark Vador : Je vais m'en occuper personnellement.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_07,Stormtrooper : Seigneur, nous avons localisé un avant-poste Rebelle derrière la colline. Ils utilisent une tour de communication abandonnée pour intercepter nos transmissions.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_08,Dark Vador : Les Rebelles ont-ils détecté notre présence ?
@@ -14839,17 +14839,17 @@ TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_13,Dark Vador : Il faut neutraliser ce bouc
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_15,Stormtrooper : Seigneur, la Rébellion a déclenché l'alerte avant qu'on ne sécurise l'antenne de communication. Les autres groupes de Rebelles vont être sur le qui-vive.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_16,Dark Vador : S'ils n'ont rien de mieux à nous opposer, ils ne pèseront pas lourd face à l'Empire.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_17,Stormtrooper : Nous avons trouvé des insignes pirates sur de l'équipement. Les Rebelles travaillent peut-être avec eux.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_18,Dark Vador : Ce traître demande sûrement aux pirates de masquer ses communications avec la Rébellion. Essayez de retrouver une trace de ces transmissions et tenez-moi informé. 
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_18,Dark Vador : Ce traître demande sûrement aux pirates de masquer ses communications avec la Rébellion. Essayez de retrouver une trace de ces transmissions et tenez-moi informé.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_19,Stormtrooper : Oui, seigneur !
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_20,Officier Impérial : Seigneur, les nouvelles de Fondor sont mauvaises. Les Rebelles ont écrasé nos troupes et pris le contrôle de certaines installations.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_21,Dark Vador : Mais nous savons maintenant où ils se trouvent. Éliminez-les sans attendre et récupérez toute trace de communications dans la zone.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_24,Officier Impérial : Seigneur, nous avons localisé un petit avant-poste Rebelle. Ils utilisent une tour de communication abandonnée pour intercepter nos transmissions.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_25,Dark Vador : Les Rebelles ont-ils détecté notre présence ?
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_26,Officier Impérial : Non, seigneur. Nous avons brouillé leurs senseurs et leurs communications avant d'atterrir.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_27,Dark Vador : J'espère que vous savez ce que vous faites, commandant. Nous allons éliminer les forces Rebelles, et nous en profiterons pour découvrir l'identité du traître. 
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_27,Dark Vador : J'espère que vous savez ce que vous faites, commandant. Nous allons éliminer les forces Rebelles, et nous en profiterons pour découvrir l'identité du traître.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_28,Officier Impérial : Oui, seigneur.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_29,Officier Impérial : Seigneur, les Rebelles ont déclenché l'alerte avant qu'on ne sécurise le système de communication. Les autres groupes de Rebelles vont être...
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_30,Dark Vador : C'est regrettable. 
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_30,Dark Vador : C'est regrettable.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_31,Dark Vador : Vous saviez ce qu'il en coûte de me décevoir, commandant. J'espère que votre successeur sera plus efficace.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_32,Dark Vador : Qu'ont donné vos recherches, soldat ?
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_33,Stormtrooper : Nous avons trouvé des insignes pirates sur de l'équipement. Les Rebelles travaillent peut-être avec eux.
@@ -14869,9 +14869,9 @@ TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_50,Stormtrooper : Le générateur est détr
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_51,Stormtrooper : Ces chars ne vont faire qu'une bouchée de leur base.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_52,Officier Impérial : Atterrissage des renforts. En attente.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_53,Dark Vador : Votre incompétence me consterne. Les Rebelles ont été alertés de notre présence.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_54,Officier Impérial : Seigneur, le traître que nous poursuivons semble avoir… 
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_54,Officier Impérial : Seigneur, le traître que nous poursuivons semble avoir…
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_55,Dark Vador : C'est la dernière fois que vous me décevez, commandant. Je vais devoir me passer de vos services.
-TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_56,Stormtrooper : Le Seigneur Vador bat en retraite ! Repliez-vous ! 
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_56,Stormtrooper : Le Seigneur Vador bat en retraite ! Repliez-vous !
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_57,Empereur : Je m'attendais à mieux de votre part, Seigneur Vador. Cette pitoyable Rébellion ne saurait tenir tête à un Sith.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_58,Dark Vador : Je vais m'en occuper personnellement. Thyferra ne doit pas tomber entre les mains des Rebelles.
 TEXT_SPEECH_EMPIRE_ACT01_MISSION_TWO_59,Astuce : Utilisez la Charge sismique de Boba Fett pour détruire des groupes entiers de chasseurs ennemis.
@@ -14894,7 +14894,7 @@ TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_15,Stormtrooper : Le traître Solo a été
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_16,Officier Impérial : Essayez de le localiser. Sa capture servira d'exemple.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_17,Dark Vador : Nous avons des choses plus importantes à régler. Seule une personne haut placé a pu permettre aux Rebelles de se poser sans éveiller l'attention. Ce traître n'est peut-être pas n'importe qui, finalement.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_18,Officier Impérial : Comment les Rebelles ont-ils fait pour passer le blocus ? C'est terminé, repliez-vous !
-TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_19,Tarkin : Vos capacités d'adaptation laissent à désirer, vous n'êtes pas apte à commander nos troupes. Tant que cette affaire ne sera pas réglée, vous n'aurez plus aucune responsabilité. 
+TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_19,Tarkin : Vos capacités d'adaptation laissent à désirer, vous n'êtes pas apte à commander nos troupes. Tant que cette affaire ne sera pas réglée, vous n'aurez plus aucune responsabilité.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_20,Officier Impérial : Unités Rebelles en approche ! Qu'est-ce qu'ils font là ?
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_05,Officier Impérial : Ce monde est maintenant sous contrôle Impérial. Soumettez-vous à la volonté de l'Empereur !
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_FOUR_06,Officier Impérial : Ce monde est maintenant sous contrôle Impérial. Soumettez-vous à la volonté de l'Empereur !
@@ -14916,7 +14916,7 @@ TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_06,Veers : Comme vous le voyez, le TB-TT es
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_07,Veers : Les dimensions de ce transport d'assaut sont réellement exceptionnelles. Regardez-le écraser nos pitoyables ennemis !
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_08,Astuce : Vous pouvez piétiner les véhicules légers et l'infanterie avec le TB-TT.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_09,Veers : Le TB-TT dispose d'une puissance de feu dévastatrice. Quelques salves suffisent à détruire une cible.
-TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_10,Astuce : Pour détruire vos cibles plus rapidement, utilisez le canon spécial du TB-TT. 
+TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_10,Astuce : Pour détruire vos cibles plus rapidement, utilisez le canon spécial du TB-TT.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_12,Empereur : Tarkin, faites-moi votre rapport.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_13,Tarkin : Grâce à la main d'œuvre de Géonosis et de Kashyyyk, la construction de l'Étoile Noire est en avance sur les prévisions. Le surplus de matières premières a été mis au service de certaines innovations technologiques.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_14,Empereur : Tout cela est très encourageant. On m'a parlé de la nouvelle machine de guerre du colonel Veers. Nous allons assister à une petite démonstration à distance. Cela promet d'être intéressant. Vous devriez regarder, vous et le Seigneur Vador.
@@ -14941,7 +14941,7 @@ TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_38,Empereur : Vous allez tous les deux assi
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_39,Empereur : Excellent, colonel.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_40,Empereur : Très impressionnant.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_41,Empereur : Cette arme est vraiment digne de l'armée Impériale. Beau travail, colonel.
-TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_42,Tarkin : Je continue de penser que cette machine nous sera inutile. Rien de mieux que l'Étoile Noire pour semer la désolation dans la galaxie. 
+TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_42,Tarkin : Je continue de penser que cette machine nous sera inutile. Rien de mieux que l'Étoile Noire pour semer la désolation dans la galaxie.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_43,Dark Vador : Nous allons retrouver la trace de ce traître. Il sera ma prochaine cible, mon Maître. Il ne m'échappera pas.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_45,Empereur : J'ai l'impression que vous ne vous attendiez pas à ce que la nouvelle arme de Veers soit une telle réussite, Tarkin.
 TEXT_SPEECH_EMPIRE_ACT02_MISSION_SIX_46,Officier Impérial : Le prototype a été détruit ! Évacuation immédiate !
@@ -15033,7 +15033,7 @@ TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_30,Dark Vador : Les radars longue portée s
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_31,Dark Vador : Attendez que la princesse reçoive la transmission pour déclencher l'attaque.
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_32,Leader Bleu : Ici l'escadron Bleu, en patrouille dans la zone.
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_33,Capitaine Antilles : Bien reçu, leader Bleu, terminé.
-TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_34,Leader Bleu : C'est trop calme… Pourtant, on nous avait signalé des pirates dans la zone... 
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_34,Leader Bleu : C'est trop calme… Pourtant, on nous avait signalé des pirates dans la zone...
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_35,Leader Bleu : Ici Leader Bleu, l'espace de Tatooine est dégagé. Prêt à passer en hyperespace. Je répète, prêt à passer en hyperespace.
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_36,Dark Vador : Éliminez tous les pirates du secteur, ils ne doivent pas interférer dans nos plans.
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_37,Dark Vador : Nous manquons de temps, éliminez tous les pirates !
@@ -15065,7 +15065,7 @@ TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_24,Officier Impérial : La planète Yavi
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_25,Empereur : Tous nos efforts n'auront servi à rien si l'Étoile Noire n'est pas utilisée avec plus de discernement. Celui qui manie une arme d'une telle puissance doit se montrer impitoyable. Ne me décevez plus !
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_26,Tarkin : L'Empereur nous a demandé d'utiliser l'Étoile Noire, me semble-t-il... Il serait dommage de se priver d'une arme d'une telle puissance !
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_27,Dark Vador : Vous avez attiré l'attention de l'Empereur. Vos derniers succès vous ont valu une récompense.
-TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_28,Dark Vador : Les ressources Impériales sont affectées en priorité à ceux qui savent s'en servir. Sachez profiter de la générosité de l'Empereur. 
+TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_28,Dark Vador : Les ressources Impériales sont affectées en priorité à ceux qui savent s'en servir. Sachez profiter de la générosité de l'Empereur.
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_29,Dark Vador : Mon maître se félicite déjà de vos prochains succès. Il a mis de nouvelles unités à votre disposition.
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_30,Dark Vador : Chaque défaite de la Rébellion nous rapproche un peu plus de la victoire finale. Ces unités vous permettront d'être encore plus puissant.
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_31,Tarkin : Il semble que notre attaque se déroule comme prévue. Les jours de la Rébellion sont comptés.
@@ -15137,7 +15137,7 @@ TEXT_SPEECH_FOCUS_DEMO_44,Tyber Zann : La vermine ne nous posera plus de problè
 TEXT_SPEECH_FOCUS_DEMO_45,ASTUCE : Chargez vos unités dans le transport de troupes : sélectionnez-les, cliquez sur le transport, et déplacez ce dernier vers la zone indiquée.
 TEXT_SPEECH_FOCUS_DEMO_46,ASTUCE : Certaines zones inaccessibles aux véhicules ne peuvent être atteintes que par l'infanterie. Débarquez vos troupes et envoyez-les vers le générateur de bouclier.
 TEXT_SPEECH_FOCUS_DEMO_47,Tyber Zann : Maintenant que la voie est libre, envoyez nos forces détruire la base ennemie.
-TEXT_SPEECH_FONDOR_CRM_VICTORY_COR21_05,Corrupteur : Nous pouvons maintenant utiliser les précieuses unités indigènes de Fondor comme nous l'entendons. 
+TEXT_SPEECH_FONDOR_CRM_VICTORY_COR21_05,Corrupteur : Nous pouvons maintenant utiliser les précieuses unités indigènes de Fondor comme nous l'entendons.
 TEXT_SPEECH_FONDOR_PIR_LOAD_COR21_01,Bossk : Personne ne se mettra en travers de mon chemin ! Positionnez vos vaisseaux !
 TEXT_SPEECH_FONDOR_PIR_LOSS_COR21_04,Bossk : Je vais retourner au combat et finir ce que j'ai commencé.
 TEXT_SPEECH_FONDOR_PIR_OBJECTIVE_02,Détruire la Station spatiale ennemie
@@ -15175,7 +15175,7 @@ TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_02,D'après les radars, des forces ennemis 
 TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_03,Nous allons montrer à ces dissidents qui est le maître de la galaxie. Détruisez leurs défenses ! Ils perdront le contrôle de ce système.
 TEXT_SPEECH_GES_INTRO_SPACE_ATTACK_E_04,C'est une occasion unique pour l'Empire ! Placez l'Étoile Noire à portée de tir de la planète et montrez aux insurgés toute la puissance de notre nouvelle station de combat !
 TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_00,Des vaisseaux non identifiés ont pénétré dans le périmètre ! Envoyez une flotte sur place !
-TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_01,Nos radars signalent l'arrivée d'une flotte ennemie. Montrez-leur comment l'Empire punit les traîtres. 
+TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_01,Nos radars signalent l'arrivée d'une flotte ennemie. Montrez-leur comment l'Empire punit les traîtres.
 TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_02,L'Empire ne se laissera pas intimider. Détruisez leur flotte pour faire un exemple.
 TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_03,Nous devons à tout prix garder le contrôle de ce système. Traquez les intrus et éliminez-les sans attendre !
 TEXT_SPEECH_GES_INTRO_SPACE_DEFEND_E_04,Chassez les Rebelles en orbite autour de la planète. Il faut à tout prix protéger l'Empereur.
@@ -15219,7 +15219,7 @@ TEXT_SPEECH_GUS_INTRO_LAND_DEFEND_U_04,Des transports ennemis sont en train d'at
 TEXT_SPEECH_GUS_INTRO_LAND_DEFEND_U_05,La situation est critique. Il faut défendre notre dernière base. Notre défaite marquerait la fin du Consortium.
 TEXT_SPEECH_GUS_INTRO_LAND_INDIGENOUS_U_00,La population indigène a accepté l'offre généreuse de Tyber et luttera à nos côtés.
 TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_00,Nous approchons du bastion ennemi. Il faut éliminer toutes leurs unités afin de libérer cette planète.
-TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_01,Nous pensons que cette planète dispose de puissantes défenses. Éliminez leurs défenses pour permettre à nos forces terrestres de passer. 
+TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_01,Nous pensons que cette planète dispose de puissantes défenses. Éliminez leurs défenses pour permettre à nos forces terrestres de passer.
 TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_02,Détruire certains éléments clés est la meilleure tactique. Essayez de disperser les forces ennemies et d'affronter de plus petits groupes.
 TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_03,Attaquer en nombre ne garantit pas la victoire. Faites preuve d'esprit tactique et éliminez leurs défenses.
 TEXT_SPEECH_GUS_INTRO_SPACE_ATTACK_U_04,Tyber Zann va se battre à nos côtés. Nous devons le protéger à tout prix, ou le Consortium court à sa perte !
@@ -15250,7 +15250,7 @@ TEXT_SPEECH_KAMINO_CRM_VICTORY_COR28_01,Corrupteur : En soudoyant les forces mil
 TEXT_SPEECH_KASHYYYK_BND_VICTORY_COR29_02,Corrupteur : Le Consortium de Zann a réduit les Wookiees en esclavage. Ils feront de l'excellente chair à canon.
 TEXT_SPEECH_KASHYYYK_RKT_VICTORY_COR29_01,Corrupteur : J'ai réussi à mettre sur pied une organisation qui pourra servir de modèle au Consortium dans toute la galaxie.
 TEXT_SPEECH_KESSEL_CRM_VICTORY_COR30_05,Corrupteur : J'ai réussi à corrompre les mineurs de Kessel. Quand nos ennemis ne pourront plus payer leurs ouvriers, un vent de révolte soufflera sur ce monde.
-TEXT_SPEECH_KESSEL_PIR_LOAD_COR30_01,IG-88 : J'évalue à 98% nos chances de succès. Donnez l'assaut ! 
+TEXT_SPEECH_KESSEL_PIR_LOAD_COR30_01,IG-88 : J'évalue à 98% nos chances de succès. Donnez l'assaut !
 TEXT_SPEECH_KESSEL_PIR_LOSS_COR30_04,IG-88 : Mes calculs étaient inexacts, mais j'ai réévalué la situation et je suis prêt à recommencer.
 TEXT_SPEECH_KESSEL_PIR_TACTICAL_COR30_02,IG-88 : Je dois entrer dans le système Kessel pour localiser un satellite de communication Impérial. Quand cette unité sera sous contrôle, nous serons avertis des mouvements de la flotte ennemie et nous pourrons rediriger leurs vaisseaux vers les quais spatiaux de Zann, pour nous en emparer.
 TEXT_SPEECH_KESSEL_PIR_VICTORY_COR30_03,IG-88 : Notre succès a dépassé nos attentes, nous nous sommes emparés d'un nouveau vaisseau. Dorénavant, les crédits dont devait bénéficier l'ennemi vont finir dans nos propres coffres. Certains rapports évoquent des transports qui ont mis le cap sur le soleil sans raison apparente. Deux d'entre eux se sont écrasés sur une planète, peu après que les satellites de communication sont passés sous notre contrôle.
@@ -15276,9 +15276,9 @@ TEXT_SPEECH_MANDALORE_STORY_PIR_VICTORY_COR34_06,Corrupteur : J'ai réussi à va
 TEXT_SPEECH_MON_EVENT_CONFRONT_01,Des sources fiables nous ont transmis des informations.
 TEXT_SPEECH_MON_EVENT_CONFRONT_02,Vous avez rendu un grand service à l'Alliance.
 TEXT_SPEECH_MON_EVENT_CONQUER_00,Si nous ne gagnons pas du terrain, nous serons vaincus.
-TEXT_SPEECH_MON_EVENT_CONQUER_01,Vos actions ne sont pas passées inaperçues. 
+TEXT_SPEECH_MON_EVENT_CONQUER_01,Vos actions ne sont pas passées inaperçues.
 TEXT_SPEECH_MON_EVENT_CONTRIVED_ATTACK_00,Des événements troublants nous obligent à intervenir.
-TEXT_SPEECH_MON_EVENT_CONTRIVED_ATTACK_01,Les Impériaux sont passés à l'attaque, leurs vaisseaux vont bientôt quitter l'hyperespace. 
+TEXT_SPEECH_MON_EVENT_CONTRIVED_ATTACK_01,Les Impériaux sont passés à l'attaque, leurs vaisseaux vont bientôt quitter l'hyperespace.
 TEXT_SPEECH_MON_EVENT_CONTRIVED_ATTACK_02,C'est une grande victoire !
 TEXT_SPEECH_MON_EVENT_CONTRIVED_ATTACK_03,Nos services de renseignement ont sous-estimé l'ampleur de cette attaque.
 TEXT_SPEECH_MON_EVENT_CREDIT_WINDFALL_00,Merci.
@@ -15326,7 +15326,7 @@ TEXT_SPEECH_MON_EVENT_TRAP_00,Certains mouvements de troupe Impériaux ont chang
 TEXT_SPEECH_MON_EVENT_TRAP_01,Nous n'avons pas saisi cette opportunité. Les défenses Impériales sont de nouveau en place.
 TEXT_SPEECH_MON_EVENT_TRAP_02,Nos craintes étaient fondées !
 TEXT_SPEECH_MON_EVENT_UNIT_WINDFALL_00,Votre présence est une aubaine, commandant.
-TEXT_SPEECH_MON_EVENT_UNITS_00,Une simple base ne peut protéger nos mondes contre l'Empire. 
+TEXT_SPEECH_MON_EVENT_UNITS_00,Une simple base ne peut protéger nos mondes contre l'Empire.
 TEXT_SPEECH_MON_EVENT_UNITS_01,Vous vous êtes montré particulièrement efficace.
 TEXT_SPEECH_MON_EVENT_UPGRADE_STATION_00,Vous êtes efficace, mais nos défenses doivent encore être renforcées.
 TEXT_SPEECH_MON_EVENT_UPGRADE_STATION_01,Grâce à vous, nos positions dans la galaxie ont été consolidées.
@@ -15347,7 +15347,7 @@ TEXT_SPEECH_NABOO_BND_VICTORY_COR39_05,Corrupteur : Nous avons réussi, nous pou
 TEXT_SPEECH_NABOO_INT_LOAD_COR39_01,Silri : Nous devons intimider le président et le convaincre de ne plus rien nous refuser.
 TEXT_SPEECH_NABOO_INT_LOSS_COR39_04,Silri : Les gardes du président se sont montrés plus coriaces que prévu. Je vais réfléchir à un autre plan d'attaque.
 TEXT_SPEECH_NABOO_INT_TACTICAL_COR39_02,Silri : Nous n'aurons aucun mal à vaincre les forces de sécurité de Naboo.
-TEXT_SPEECH_NABOO_INT_VICTORY_COR39_03,Silri : Le président n'est plus en état de s'opposer à nous. Nous pourrons toujours le tuer en cas de problème, mais cette planète ne devrait plus aider les ennemis du Consortium. 
+TEXT_SPEECH_NABOO_INT_VICTORY_COR39_03,Silri : Le président n'est plus en état de s'opposer à nous. Nous pourrons toujours le tuer en cas de problème, mais cette planète ne devrait plus aider les ennemis du Consortium.
 TEXT_SPEECH_NALHUTTA_BLK_VICTORY_COR40_06,Corrupteur : Le Marché noir de Nal Hutta nous fournit déjà des technologies avancées. Le Consortium de Zann va pouvoir renforcer ses flottes.
 TEXT_SPEECH_NALHUTTA_BRB_VICTORY_COR40_05,Corrupteur : Les pots-de-vin versés sur Nal Hutta ont porté leurs fruits. Dorénavant, les unités de garnison cesseront de rallier l'ennemi et nous serons tenus informés des mouvements de leur flotte grâce aux senseurs de la planète.
 TEXT_SPEECH_NALHUTTA_CRM_VICTORY_COR40_07,Corrupteur : Les Les Hutts veulent aider le Consortium et croire qu'en retour nous interviendrons dans leurs stupides querelles. Leurs milices combattront à nos côtés quand l'occasion se présentera.
@@ -15382,7 +15382,7 @@ TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_18,Antilles : N'approchez pas de la station 
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_19,Mon Mothma : Le Tyrannie et sa flotte devraient rester en place pendant les réparations. La destruction des chantiers de Kuat va les occuper pendant un petit moment.
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_20,Antilles : Alors il faut qu'on s'occupe des X-wings qui se trouvent sur Frésia.
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_21,Pilote Rebelle : Capitaine ! D'après nos radars, le Tyrannie a déployé de nombreux droïdes de surveillance avant de se diriger vers Kuat. Le système de Frésia est inaccessible.
-TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_22,Antilles : C'est pas vrai ! Au moindre geste, on aura toute la flotte Impériale sur le dos ! 
+TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_22,Antilles : C'est pas vrai ! Au moindre geste, on aura toute la flotte Impériale sur le dos !
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_23,C-3PO : Excusez-moi, maître, mais je pense que R2 pourrait s'introduire dans le terminal de Wayland relié à la station Impériale et enregistrer vos vaisseaux. Les sentinelles de Frésia vous laisseraient alors rejoindre la surface.
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_24,Antilles : Bonne idée, C-3PO. Mais n'oubliez pas que vous êtes des droïdes. Sans une escorte de troupes terrestres, vous n'avez aucune chance d'y arriver.
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_25,DO NOT DISPLAY THIS TEXT: TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_25
@@ -15393,7 +15393,7 @@ TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_29,C-3PO : Maître, je pense que ma présenc
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_03,Pilote Rebelle : Les pilotes sont prêts à décoller.
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_04,Antilles : Les radars ne vont pas nous détecter, on pourra donc rejoindre la surface de Frésia et s'emparer des X-wings !
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_05,Pilote Rebelle : Les radars sont vraiment désactivés ?
-TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_06,Antilles : Il n'y a qu'un moyen de le savoir… Rassemblez vos troupes, on va y aller. 
+TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_06,Antilles : Il n'y a qu'un moyen de le savoir… Rassemblez vos troupes, on va y aller.
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_07,Antilles : Aucune alerte Impériale n'a été signalée. On est passés. Continuez, les gars.
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_08,Antilles : Voilà votre cible ! Escortez les pilotes jusqu'aux X-wings !
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_10,Soldat Rebelle : On a perdu un des pilotes. Protégez les autres !
@@ -15406,7 +15406,7 @@ TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_19,Antilles : Mission annulée ! On a perd
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_20,Pilote Rebelle : Tourelles neutralisées ! Allez, on se tire avec les vaisseaux !
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_21,Antilles : On n'a pas réussi à capturer les X-wings. L'Alliance avait absolument besoin de ces vaisseaux. Il va falloir qu'on y retourne.
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_22,Antilles : Opération annulée. Tous les pilotes sont morts ! Repliez-vous !
-TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_24,Antilles : Vous pouvez mettre les Z-95 au rebut ! L'Empire peut toujours envoyer des vaisseaux… Avec ces X-wings, on n'a plus rien à craindre. 
+TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_24,Antilles : Vous pouvez mettre les Z-95 au rebut ! L'Empire peut toujours envoyer des vaisseaux… Avec ces X-wings, on n'a plus rien à craindre.
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_25,Mon Mothma : Ces vaisseaux nous aideront sûrement, mais je crains pour la vie des habitants de Frésia et des scientifiques d'Incom. L'Empire risque de vouloir faire un exemple…
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_26,Antilles : On ne peut pas les laisser faire ça… Il faut à tout prix défendre Frésia !
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_28,Soldat Rebelle : On a perdu un pilote ! En position défensive !
@@ -15448,7 +15448,7 @@ TEXT_SPEECH_REBEL_ACT01_MISSION_TWO_28,C-3PO : Oh ! Par le grand Créateur ! À 
 TEXT_SPEECH_REBEL_ACT01_MISSION_TWO_29,Antilles : On a perdu les droïdes ! Mission annulée !
 TEXT_SPEECH_REBEL_ACT01_MISSION_TWO_30,Antilles : Récupérez les pièces détachées des droïdes. On va les remettre sur pied en un rien de temps.
 TEXT_SPEECH_REBEL_ACT01_MISSION_TWO_31,Antilles : Apparemment, les droïdes ont récupéré plus de données que prévu. Intéressant, ces plans…Ça pourrait nous être utile.
-TEXT_SPEECH_REBEL_ACT01_MISSION_TWO_37,Soldat Rebelle : Des navettes Impériales en approche, au sud-ouest ! 
+TEXT_SPEECH_REBEL_ACT01_MISSION_TWO_37,Soldat Rebelle : Des navettes Impériales en approche, au sud-ouest !
 TEXT_SPEECH_REBEL_ACT01_MISSION_TWO_38,Soldat Rebelle : Des navettes Impériales en approche, au sud !
 TEXT_SPEECH_REBEL_ACT01_MISSION_TWO_39,Soldat Rebelle : Des navettes Impériales en approche, au nord-ouest !
 TEXT_SPEECH_REBEL_ACT01_MISSION_TWO_40,Soldat Rebelle : R2-D2 est prêt à être évacué. Beau travail !
@@ -15477,7 +15477,7 @@ TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_21,Antilles : On va essayer quelque chose d
 TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_22,Mon Mothma : Nous n'avons pas récupéré les informations que nous recherchions sur la nouvelle arme Impériale. L'Empire doit les avoir bien cachées.
 TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_23,Antilles : Les droïdes vont continuer leurs recherches. En attendant, il y a sûrement d'autres pistes qui méritent d'être explorées…
 TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_24,Mon Mothma : C'est vrai. J'ai toujours hésité à demander de l'aide à nos sympathisants, mais je crois que nous n'avons plus le choix. Je vais contacter nos amis au Sénat.
-TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_25,Mon Mothma : L'Empire est très préoccupé par les événements qui secouent Kashyyyk. Il semble qu'un ancien soldat Impérial, devenu contrebandier, ait entrepris de libérer les Wookiees. Nous avons intercepté un message en provenance de la planète...   
+TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_25,Mon Mothma : L'Empire est très préoccupé par les événements qui secouent Kashyyyk. Il semble qu'un ancien soldat Impérial, devenu contrebandier, ait entrepris de libérer les Wookiees. Nous avons intercepté un message en provenance de la planète...
 TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_26,Yan Solo : … je me fous de savoir ce qu'il fait, il est pas là. Non, je peux pas leur demander, ils me tirent dessus ! Ouais, ouais… Je vais voir ça…
 TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_27,Mon Mothma : Quelles que soient ses motivations, il tente de libérer les Wookiees des esclavagistes Impériaux, et nous devons l'aider. Rassemblez des unités et rendez-vous sur Kashyyyk sans tarder !
 TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_28,Yan Solo : Je sais pas trop pourquoi vous êtes là, mais on a sûrement pas les mêmes motivations. Je suis là pour retrouver un Wookiee. Et après, je me tire…
@@ -15558,7 +15558,7 @@ TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_07,Yan Solo : Une autre patrouille nous a 
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_08,Yan Solo : On a encore été repérés...
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_09,Yan Solo : Je crois qu'on l'a trouvé. Et bien sûr, c'est toujours là où on cherche en dernier...
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_10,Yan Solo : La patrouille de chasseurs TIE a signalé notre présence. L'Empire envoie des vaisseaux. On ferait mieux de pas traîner.
-TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_14,Yan Solo : ... autre chose, Chewie. Je te préviens, la prochaine fois qu'on tombe sur les Impériaux, je balance la cargaison et je les laisse nous aborder. 
+TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_14,Yan Solo : ... autre chose, Chewie. Je te préviens, la prochaine fois qu'on tombe sur les Impériaux, je balance la cargaison et je les laisse nous aborder.
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_15,Mon Mothma : Une fois la mission terminée, vous pourrez retourner à vos occupations habituelles, Solo.
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_16,Yan Solo : Écoutez, petite dame, je suis pas du genre à me défiler. Je vais m'occuper de ça, mais la prochaine fois, vous payez d'avance.
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_17,Yan Solo : Je crois qu'on est quittes maintenant. Alors si ça ne vous fait rien, je vais me consacrer à des activités moins... dangereuses.
@@ -15619,7 +15619,7 @@ TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_32,Capitaine Antilles : Ça ne durera pas. 
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_33,Capitaine Antilles : Groupes d'intervention, à vous de jouer. Fouillez la station et collectez le plus de données possible.
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_34,Soldat Rebelle : À vos ordres !
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_35,Capitaine Antilles : Les effets électromagnétiques commencent à se dissiper. Protégez le groupe d'intervention et détruisez tous les vaisseaux réactivés !
-TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_36,Mon Mothma : Les Mon Calamari que nous avons secourus ont longtemps travaillé pour Tarkin. Une vraie mine d'informations. La nouvelle arme de l'Empire s'appelle l'Étoile Noire. 
+TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_36,Mon Mothma : Les Mon Calamari que nous avons secourus ont longtemps travaillé pour Tarkin. Une vraie mine d'informations. La nouvelle arme de l'Empire s'appelle l'Étoile Noire.
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_37,Capitaine Antilles : Des nouvelles de nos autres contacts ?
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_38,Mon Mothma : Notre amie au Sénat continue de se renseigner. Elle pourra peut-être nous fournir des plans détaillés de l'Étoile Noire, mais elle a besoin d'un homme de confiance. Elle veut éviter de prendre trop de risques.
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_39,Capitaine Antilles : Je rejoins son vaisseau immédiatement. C-3PO, R2, venez avec moi. On risque d'avoir besoin de vous.
@@ -15724,12 +15724,12 @@ TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_38,Yan Solo : Non, vraiment je pensais que c
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_39,Yan Solo : Cette tour nous empêche d'avancer. Il faut trouver un moyen de la détruire de là où on est… Une idée ?
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_40,Yan Solo : Hmm…on pourrait essayer ça, tu crois pas, Chewie ?
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_41,Yan Solo : Impossible d'approcher de la zone de stockage avec toutes ces tourelles. Il faudrait qu'on coupe l'alimentation.
-TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_42,Yan Solo : Et voilà ! Il suffit de neutraliser le générateur d'alimentation et on pourra passer devant les turbolasers. 
+TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_42,Yan Solo : Et voilà ! Il suffit de neutraliser le générateur d'alimentation et on pourra passer devant les turbolasers.
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_43,Yan Solo : On est pas passés devant des navettes tout à l'heure ? Je crois que c'est le moment d'en emprunter une…
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_44,Amener Yan et Chewie jusqu'à la zone d'atterrissage des navettes.
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_45,Yan Solo : OK, Chewie… Après ça, je veux plus entendre parler de cette foutue Rébellion. Je tiens à la vie, moi !
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_46,DO NOT DISPLAY THIS TEXT LINE
-TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_47,Yan Solo : Chewie ?  Chewie ?!  
+TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_47,Yan Solo : Chewie ?  Chewie ?!
 TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_04,Yan Solo : Voilà. C'est terminé. On a ce que vous vouliez. Maintenant, payez-nous et on débarrasse le plancher.
 TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_05,Mon Mothma : Vous avez bien mérité votre prime. Les Mon Calamari vont pouvoir relancer la production de leurs vaisseaux. L'Alliance est prête à discuter avec vous d'une collaboration à plus long terme, si vous êtes intéressé, bien sûr…
 TEXT_SPEECH_REBEL_ACT04_MISSION_ELEVEN_06,Yan Solo : J'en ai assez des discussions ! À chaque fois que je vous écoute pendant plus d'une minute, on finit par risquer notre peau ! Alors non merci ! On va s'éloigner le plus possible de l'Alliance en attendant que ça se calme. Allez Chewie, on reste pas là.
@@ -15761,7 +15761,7 @@ TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_14,Mon Mothma : Nous ne pouvons pas vous 
 TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_15,Yan Solo : Je prends le risque…
 TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_16,Mon Mothma : Le général Dodonna a analysé les plans que nous a fournis la princesse Leia. Il semble y avoir une faille dans les défenses de l'Étoile Noire. Malheureusement, le seul moyen de s'en assurer, c'est d'aller se rendre compte sur place.
 TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_17,Pilote Rebelle : Mais on ne peut rien faire contre une telle puissance de feu.
-TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_18,Mon Mothma : Une attaque directe est impossible, il faut tenter d'exploiter son point faible. L'heure est grave. Notre destin est entre les mains de nos pilotes. Nous devons empêcher l'Étoile Noire de détruire d'autres mondes ! 
+TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_18,Mon Mothma : Une attaque directe est impossible, il faut tenter d'exploiter son point faible. L'heure est grave. Notre destin est entre les mains de nos pilotes. Nous devons empêcher l'Étoile Noire de détruire d'autres mondes !
 TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_19,Mon Mothma : Je savais bien qu'il n'y a pas que l'argent qui vous intéresse.
 TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_20,Yan Solo : Ne dites ça à personne, c'est mauvais pour les affaires. C'est juste que je pouvais pas partir sans vous dire au revoir…
 TEXT_SPEECH_REBEL_ACT04_MISSION_TWELVE_22,Mon Mothma : Nous avons trouvé un mouchard dans le vaisseau de Yan Solo. Au moment où je vous parle, l'Empire doit déjà faire route vers notre position.
@@ -15786,7 +15786,7 @@ TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_17,DO NOT USE THIS LINE: TEXT_SPEECH_REBEL_CAMP
 TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_18,Antilles : Eh bien, voilà notre nouvelle cible, messieurs.
 TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_19,Pilote Rebelle : On attaque les chantiers ?
 TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_20,Antilles : Oui. On va essayer d'attirer leur attention.
-TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_21,Pilote Rebelle : Il n'y a aucun moyen d'éviter le destroyer stellaire… Nos contacts sur Frésia auraient pu nous prévenir. 
+TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_21,Pilote Rebelle : Il n'y a aucun moyen d'éviter le destroyer stellaire… Nos contacts sur Frésia auraient pu nous prévenir.
 TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_22,Antilles : Ce n'est pas leur faute. Personne n'avait annoncé la cérémonie. L'Empereur aime les surprises.
 TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_23,Pilote Rebelle : Alors, on fait quoi ?
 TEXT_SPEECH_REBEL_CAMPAIGN_INTRO_24,Antilles : Si le Tyrannie est ici, c'est qu'il ne protège plus sa station d'attache… Et en temps normal, le Tyrannie stationne près de…
@@ -15826,7 +15826,7 @@ TEXT_SPEECH_SULLUST_BND_VICTORY_COR45_02,Corrupteur : Les camps d'esclaves produ
 TEXT_SPEECH_SULLUST_BRB_VICTORY_COR45_01,Corrupteur : Sian Thew s'est rangé du côté du Consortium de Zann. Ce monde corrompu représente un atout considérable.
 TEXT_SPEECH_TAR_EVENT_AMBUSH_01,Des informations fiables nous sont parvenues.
 TEXT_SPEECH_TAR_EVENT_AMBUSH_02,Vous avez réussi à leur arracher la victoire.
-TEXT_SPEECH_TAR_EVENT_AMBUSH_03,Vous auriez mieux fait d'écouter mes conseils. 
+TEXT_SPEECH_TAR_EVENT_AMBUSH_03,Vous auriez mieux fait d'écouter mes conseils.
 TEXT_SPEECH_TAR_EVENT_CONQUER_00,Notre mission consiste à éradiquer la Rébellion dans toute la galaxie.
 TEXT_SPEECH_TAR_EVENT_CONQUER_01,Je vous ai peut-être sous-estimé.
 TEXT_SPEECH_TAR_EVENT_CONTRIVED_ATTACK_00,La Rébellion se moque de nous, semble-t-il…
@@ -15868,8 +15868,8 @@ TEXT_SPEECH_TAR_EVENT_TRAP_00,La Rébellion a une nouvelle fois montré qu'elle 
 TEXT_SPEECH_TAR_EVENT_TRAP_01,Votre manque de réaction a permis aux Rebelles d'identifier leur point faible et d'étoffer leurs défenses !
 TEXT_SPEECH_TAR_EVENT_TRAP_02,Idiot ! Vous avez jeté vos hommes dans le piège tendu par les Rebelles !
 TEXT_SPEECH_TAR_EVENT_UNIT_WINDFALL_00,Vous vous en êtes bien tiré.
-TEXT_SPEECH_TAR_EVENT_UNITS_00,Les crédits que vous n'utilisez pas ne profitent pas à l'Empire. 
-TEXT_SPEECH_TAR_EVENT_UNITS_01,Grâce à vous, j'ai gagné du temps et des ressources. 
+TEXT_SPEECH_TAR_EVENT_UNITS_00,Les crédits que vous n'utilisez pas ne profitent pas à l'Empire.
+TEXT_SPEECH_TAR_EVENT_UNITS_01,Grâce à vous, j'ai gagné du temps et des ressources.
 TEXT_SPEECH_TAR_EVENT_UPGRADE_STATION_00,Nos stations spatiales et nos bases terrestres sont nos meilleurs atouts.
 TEXT_SPEECH_TAR_EVENT_UPGRADE_STATION_01,Du bon travail.
 TEXT_SPEECH_TARIS_BRB_VICTORY_COR46_05,Corrupteur : Les Hutts ne refusent jamais un pot-de-vin. Cette mission a coûté bien peu comparé à ce qu'elle nous a rapporté.
@@ -15904,7 +15904,7 @@ TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_17,Officier de la navette : Bien joué. Méfie
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_19,Astuce : Les nébuleuses sont de véritables amas de gaz et de poussière. Elles n'infligent pas d'avaries aux vaisseaux, mais elles les privent de certaines fonctions comme Puissance sur les armes.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_20,Officier de la navette : Ennemis en approche ! Feu à volonté !
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_21,Officier de la navette : Des éclaireurs Impériaux nous signalent la présence d'une Frégate et d'un escadron de Bombardiers dans le secteur. Prenons le temps de recharger nos boucliers avant de poursuivre.
-TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_22,Astuce : Les boucliers sont symbolisés par une jauge bleue sur la jauge d'état du vaisseau. Les boucliers de la plupart des unités spatiales se régénèrent avec le temps. L'état de la coque est indiqué par la jauge verte. Contrairement aux boucliers, la coque ne se régénère pas. Si elle est détruite, le vaisseau explose. 
+TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_22,Astuce : Les boucliers sont symbolisés par une jauge bleue sur la jauge d'état du vaisseau. Les boucliers de la plupart des unités spatiales se régénèrent avec le temps. L'état de la coque est indiqué par la jauge verte. Contrairement aux boucliers, la coque ne se régénère pas. Si elle est détruite, le vaisseau explose.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_23,Officier de la navette : Bien, allons-y... Suivez-moi !
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_24,Officier de la navette : Les voilà ! La frégate est endommagée, c'est sûrement l'oeuvre d'une de nos patrouilles. Si ces Bombardiers nous attaquent les premiers, leurs torpilles vont détruire la coque de nos vaisseaux.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_26,Astuce : Les unités dotées de torpilles, comme les Bombardiers, sont capables de transpercer les boucliers de n'importe quel vaisseau ou structure, ce qui les rend redoutables.
@@ -15914,7 +15914,7 @@ TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_30,Astuce : Les unités dotées de torpilles, 
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_31,Pilote Acclamator : À toute la flotte, ici l'Acclamator Impérial 0-1-9. Nous sommes en route pour renforcer votre position et attendons les coordonnées. Veuillez confirmer.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_32,Officier de la navette : Bien ! Nous aurons besoin de renforts pour donner l'assaut. Déployez nos vaisseaux de renfort et augmentez notre puissance de feu, nous en aurons besoin pour venir à bout de cette station de combat.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_34,Astuce : Pour déployer des renforts, sélectionnez l'option Renforts, puis faites glisser vos unités de la fenêtre des renforts vers la zone cible. Vous ne pouvez pas déployer de renforts près de structures ennemies ou dans une zone non dégagée.
-TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_35,Officier de la navette : Attention à ces champs ioniques ! 
+TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_35,Officier de la navette : Attention à ces champs ioniques !
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_36,Astuce : Les champs ioniques sont des tourbillons de gaz et de poussière. Ils n'endommagent pas les vaisseaux, mais ils désactivent certaines fonctions et la régénération des boucliers.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_37,Officier de la navette : Attention, ce n'est pas l'oeuvre de vulgaires pirates. Les boucliers de cette Station spatiale ont été réactivés. Approchez avec des escadrons de Chasseurs pour faire diversion, et utilisez d'autres unités pour détruire les derniers points critiques.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT03_39,Astuce : En raison de leur rapidité et de leur petite taille, les Chasseurs sont très efficaces contre les Stations spatiales.
@@ -15933,9 +15933,9 @@ TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_05,Astuce : En prenant le contrôle de Kashyyy
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_06,Officier de la station : Excellent...
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_07,Astuce : Une route commerciale relie maintenant Kashyyyk à Nal Hutta. En plus d'augmenter les revenus générés par les planètes connectées entre elles, les routes commerciales permettent aux flottes de se déplacer plus rapidement.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_08,Officier de la station : Maintenant que nous contrôlons Kashyyyk, renforcez les bases spatiales de Nal Hutta.
-TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_10,Astuce : En améliorant votre Station spatiale, vous disposerez de défenses plus efficaces et vous pourrez accueillir de nouvelles unités. Sélectionnez l'onglet Production spatiale et construisez une station en cliquant sur l'icône Station spatiale. 
+TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_10,Astuce : En améliorant votre Station spatiale, vous disposerez de défenses plus efficaces et vous pourrez accueillir de nouvelles unités. Sélectionnez l'onglet Production spatiale et construisez une station en cliquant sur l'icône Station spatiale.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_11,Officier de la station : Contrairement aux Rebelles, nous ne volons pas la technologie de nos adversaires, et nous n'enlevons pas leurs scientifiques. Construisez un Centre de recherches et passez au Niveau technologique 2 !
-TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_14,Astuce : Contrairement aux Rebelles, les Impériaux doivent disposer de structures fondamentales, appelées Centres de recherches, pour développer leur technologie. Sélectionnez l'onglet Production terrestre puis construisez un Centre de recherches en cliquant sur l'icône Centre de recherches. 
+TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_14,Astuce : Contrairement aux Rebelles, les Impériaux doivent disposer de structures fondamentales, appelées Centres de recherches, pour développer leur technologie. Sélectionnez l'onglet Production terrestre puis construisez un Centre de recherches en cliquant sur l'icône Centre de recherches.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_20,Officier de la station : Un Moff de Coruscant a détecté une anomalie dans nos bilans trimestriels. Dans la mesure où je supervise moi-même toutes les transactions, je ne vois qu'une seule explication : il y a un contrebandier parmi nous ! Louez les services d'un chasseur de primes dans le palais des Hutts, ce contrebandier ne doit plus sévir sur Nal Hutta.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_22,Astuce : Lorsque la valeur en crédits d'une planète est modifiée, une indication apparaît près de la planète. Ici, les crédits générés par Nal Hutta ont été réduits par la présence d'un contrebandier.
 TEXT_SPEECH_TUTORIAL_EMPIRE_ACT04_23,Officier de la station : Le contrebandier que nous avons capturé ne s'est pas montré coopératif. Peu importe, le journal de bord de son vaisseau a révélé qu'il provenait d'un système voisin. Déployez des droïdes sondes, il faut localiser ses employeurs !
@@ -16028,7 +16028,7 @@ TEXT_SPEECH_TUTORIAL_REBEL_ACT00_04,Astuce : C'est le moment de vous décider ! 
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_01,Message de la base : La dernière transmission que nous avons reçue de la patrouille provenait de votre position courante.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_02,Chef de patrouille : Ils ne doivent pas être très loin. Il faut les trouver !
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_04,Astuce : Pour partir à la recherche de la patrouille, sélectionnez votre escouade avec le bouton gauche de la souris, puis cliquez avec le bouton droit à l'endroit où vous voulez qu'elle se déplace.
-TEXT_SPEECH_TUTORIAL_REBEL_ACT01_05,Astuce : Vous pouvez faire défiler la carte à l'aide des flèches curseur, ou en amenant le pointeur de la souris vers les bords de l'écran. 
+TEXT_SPEECH_TUTORIAL_REBEL_ACT01_05,Astuce : Vous pouvez faire défiler la carte à l'aide des flèches curseur, ou en amenant le pointeur de la souris vers les bords de l'écran.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_06,Astuce : À tout moment, vous pouvez consulter les objectifs de la mission en sélectionnant l'option Holocron de la mission dans la Barre de commandement.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_07,Astuce : Sur la mini-carte, les unités alliées apparaissent en vert et celles de l'ennemi en rouge. Les unités ennemies sont visibles sur la mini-carte quand elles sont visibles dans l'écran tactique.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_08,Soldat Rebelle : Au rapport !
@@ -16097,7 +16097,7 @@ TEXT_SPEECH_TUTORIAL_REBEL_ACT02_07,Chef de patrouille : La voilà... Ordonnez �
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_09,Information : Quand vous sélectionnez un système, un cercle indique la distance maximale que peut parcourir une flotte dans l'espace inconnu, en partant de ce système.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_10,Astuce : En mode Galactique, vous pouvez revoir les objectifs de mission à tout moment en sélectionnant l'option Holocron de la mission dans la Barre de commandement.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_108,Astuce : Pour obtenir plus de ressources, vous devez vous emparer d'une autre planète. Quand vous capturez une planète, le nombre de crédits que vous accumulez à la fin de chaque journée galactique augmente, de même que le nombre total d'unités que vous pouvez produire.
-TEXT_SPEECH_TUTORIAL_REBEL_ACT02_109,Astuce : Pour le moment, Ryloth n'est pas occupée. Ce qui veut dire que vous devriez pouvoir vous en emparer assez facilement. Commencez par mettre vos forces en orbite autour de Ryloth. 
+TEXT_SPEECH_TUTORIAL_REBEL_ACT02_109,Astuce : Pour le moment, Ryloth n'est pas occupée. Ce qui veut dire que vous devriez pouvoir vous en emparer assez facilement. Commencez par mettre vos forces en orbite autour de Ryloth.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_11,Chef de patrouille : La principale flotte de l'Alliance devrait être en vue quand nous arriverons.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_110,Astuce : Pour capturer une planète, vos forces doivent occuper sa surface. Faites glisser votre flotte sur l'emplacement terrestre près du centre de la planète.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_115,Astuce : Observons Ryloth d'un peu plus près. Pour obtenir une vue détaillée d'une planète, sélectionnez-la et cliquez sur l'icône de Zoom avant dans la mini-carte.
@@ -16112,7 +16112,7 @@ TEXT_SPEECH_TUTORIAL_REBEL_ACT02_18,Information : Quand un système est capturé
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_19,Mon Mothma : Il y a un petit nombre de systèmes voisins qui, j'en suis sûre, feront l'affaire.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_20,Mon Mothma : Contrairement à l'Empire, nous n'employons pas la force pour convaincre les systèmes de rallier notre cause. Nous préférons nous procurer les ressources tactiques au détriment de l'Empire.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_21,Mon Mothma : Par chance, notre réseau d'espionnage nous permet d'être au courant des systèmes contrôlés par l'Empire dans tout le secteur.
-TEXT_SPEECH_TUTORIAL_REBEL_ACT02_22,Information : Les systèmes alliés apparaissent en vert, les ennemis en rouge, ceux contrôlés par les pirates en jaune et les neutres en gris. 
+TEXT_SPEECH_TUTORIAL_REBEL_ACT02_22,Information : Les systèmes alliés apparaissent en vert, les ennemis en rouge, ceux contrôlés par les pirates en jaune et les neutres en gris.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_23,Mon Mothma : Un contrebandier de Bothawui accepte de nous aider et de se rendre sur Nal Hutta. Envoyez-le détourner les crédits de ce monde.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_24,Détourner les crédits de Nal Hutta.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_24A,Information : Un contrebandier est disponible sur Bothawui car il y a une Cantina sur ce système. Si cette Cantina était détruite, il faudrait la reconstruire pour que le contrebandier soit de nouveau disponible.
@@ -16146,7 +16146,7 @@ TEXT_SPEECH_TUTORIAL_REBEL_ACT02_72,Astuce : Pour recruter des unités d'infante
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_73,Astuce : Pour faire un zoom avant sur un système, cliquez sur l'icône de zoom dans la Barre de commandement.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_74,Astuce : Les Contrebandiers vous fournissent des revenus supplémentaires. Ils sont très utiles quand vous ne pouvez pas vous emparer des planètes ennemies.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_79,Astuce : Pour construire des unités spatiales, vous devez au préalable bâtir une Station spatiale. Une Station spatiale vous permet de construire des structures défensives fondamentales et des unités spatiales. Sélectionnez l'onglet Production spatiale et cliquez sur l'icône Station spatiale pour bâtir cette structure.
-TEXT_SPEECH_TUTORIAL_REBEL_ACT02_80,Astuce : En construisant plusieurs bâtiments similaires sur une planète, vous obtenez des bonus qui vous permettent par exemple de mettre sur pied des unités spécifiques plus rapidement. Mais n'oubliez pas que chaque planète ne peut accueillir qu'un nombre limité de structures. 
+TEXT_SPEECH_TUTORIAL_REBEL_ACT02_80,Astuce : En construisant plusieurs bâtiments similaires sur une planète, vous obtenez des bonus qui vous permettent par exemple de mettre sur pied des unités spécifiques plus rapidement. Mais n'oubliez pas que chaque planète ne peut accueillir qu'un nombre limité de structures.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_81,Astuce : Dans la galaxie Star Wars, chaque planète est unique : sa surface, ses conditions météorologiques, ses habitants ou encore ses bonus lui sont spécifiques.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_82,Astuce : Des infobulles sont disponibles pour toutes les planètes, structures, unités, flottes et boutons. Amenez le pointeur de la souris sur un élément du jeu pour obtenir des informations détaillées.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT02_83,Astuce : Quand vous capturez une planète, vous gagnez des crédits, que vous pouvez utiliser pour acheter de nouvelles unités, structures et améliorations.
@@ -16185,21 +16185,21 @@ TEXT_SPEECH_UNDERWORLD_PROLOGUE_FELUCIA_19,Tyber Zann : Ces tours de garde voien
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_00,Astuce : Le Consortium de Zann utilise la corruption pour prendre l'avantage sur l'Empire et les Rebelles. Tâchez de ne pas l'oublier quand vous enverrez Tyber Zann sur une planète. Dans ce scénario, Tyber va demander à un Corrupteur de semer la corruption sur Mandalore, puis d'établir un Marché noir sur Nal Hutta, sans prendre le contrôle de ces planètes.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_01,Tyber Zann : Il y a un an, nous avons combiné nos forces avec celles de Jabba le Hutt. En mettant en commun nos contacts et nos ressources, nous avons gagné beaucoup d'argent. Mais je n'ai jamais imaginé que cette alliance soit durable. Jabba vient d'acquérir un artefact très particulier, qui lui a coûté la moitié de sa fortune. C'est un objet trop précieux pour ne pas s'y intéresser. Bientôt, cet artefact sera à moi...
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_02,Tyber Zann : Je vais me rendre sur Nal Hutta pour y soudoyer certains clans de Hutts. Il faut que j'en apprenne plus sur Jabba. Je dois aussi localiser le Marché noir le plus proche. On y trouve toutes sortes de technologies volées. Dès qu'une technologie est développée par l'Alliance ou l'Empire, elle est disponible au Marché noir.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_03,Astuce : Faites glisser Tyber Zann vers l'emplacement brillant de forme ovale au-dessus de Nal Hutta. 
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_04,Tyber Zann : Toutes les planètes présentent les mêmes faiblesses. Leurs dirigeants ont toujours besoin de crédits. Il suffit de les approcher, de les soudoyer et de s'assurer qu'ils ne manquent de rien. À partir de là, la corruption se répand d'elle-même et tout le monde finit par m'être entièrement dévoué. Pour l'instant, je recherche l'un des membres de la famille de Jabba. Il s'agit de l'un de ses nombreux cousins, qui souhaite rallier notre cause. J'ai déjà traité avec lui, je connais bien ce genre de criminel. Il ne sera pas facile à localiser, mais tout acte de corruption nécessite un minimum d'efforts... 
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_03,Astuce : Faites glisser Tyber Zann vers l'emplacement brillant de forme ovale au-dessus de Nal Hutta.
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_04,Tyber Zann : Toutes les planètes présentent les mêmes faiblesses. Leurs dirigeants ont toujours besoin de crédits. Il suffit de les approcher, de les soudoyer et de s'assurer qu'ils ne manquent de rien. À partir de là, la corruption se répand d'elle-même et tout le monde finit par m'être entièrement dévoué. Pour l'instant, je recherche l'un des membres de la famille de Jabba. Il s'agit de l'un de ses nombreux cousins, qui souhaite rallier notre cause. J'ai déjà traité avec lui, je connais bien ce genre de criminel. Il ne sera pas facile à localiser, mais tout acte de corruption nécessite un minimum d'efforts...
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_05,ASTUCE : Envoyez Tyber explorer la zone. Passez à proximité des unités et des personnages que vous rencontrerez. Certains vous attaqueront, d'autres vous ignoreront. Si vous vous rapprochez assez, ils engageront la conversation.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_06,Hut-tina, quatrième cousine de Jabba : Tyber Zann, ça faisait longtemps... Ce trafic de drogues qu'on a mis en place sur les lunes extérieures continue de bien rapporter, je crois. Que devenez-vous, vous et mon misérable cousin ?
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_07,Tyber Zann : Trêve de civilités, Hut-tina. J'ai des crédits et j'ai besoin d'informations. Je sais que tu as aidé Jabba à cacher son nouveau trésor sur Félucia. Dis-moi où et je te paierai.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_08,Hut-tina : Ce n'est pas si simple. Tu vas d'abord devoir t'adresser au Marché noir de Kashyyyk. Une fois que tu auras récupéré des Droïdes Buzz, rends-toi sur Félucia. C'est là que se trouve la base secrète de Jabba. Mais pas besoin d'y aller en force, seules les troupes terrestres peuvent y accéder. Pour réussir cette mission, tu auras besoin de Droïdes Buzz.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_09,Astuce : Tyber demande à un Corrupteur de négocier avec le Marché noir de Nal Hutta. 
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_09,Astuce : Tyber demande à un Corrupteur de négocier avec le Marché noir de Nal Hutta.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_10,Astuce : Pour voir combien vous devrez débourser pour acheter votre passage sur une planète, faites glisser vos forces vers leur destination sans relâcher le bouton de la souris. La somme à payer apparaîtra près de votre flotte.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_100,Astuce : Les Droïdes Buzz se posent sur la coque d'un vaisseau ennemi et tentent de la transpercer. Pour activer cette aptitude, cliquez sur le bouton en surbrillance et ciblez une zone proche de la cible.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_101,Astuce : Urai Fen a la capacité innée de guérir de ses blessures.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_102,Astuce : Le Consortium de Zann peut corrompre les planètes ou en prendre le contrôle. C'est à vous de décider.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_103,Astuce : La conquête d'une planète vous permet d'en prendre le contrôle et d'y construire de nouvelles bases. Si vous vous contentez de semer la corruption sur une planète, l'ennemi en garde le contrôle mais Tyber peut avoir accès à des améliorations technologiques et à des informations. Par ailleurs, la planète génère des revenus supplémentaires et elle est incluse sur vos routes commerciales.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_11,Tyber Zann : Mon plan se déroule comme prévu. Dès que nous aurons des contacts sur Nal Hutta, nous pourrons infiltrer leur Marché noir. On y trouve de nombreuses technologies volées. Maintenant que je sais qu'il y a un Marché noir sur cette planète, je vais demander à un Corrupteur de contacter ceux qui le dirigent. 
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_11,Tyber Zann : Mon plan se déroule comme prévu. Dès que nous aurons des contacts sur Nal Hutta, nous pourrons infiltrer leur Marché noir. On y trouve de nombreuses technologies volées. Maintenant que je sais qu'il y a un Marché noir sur cette planète, je vais demander à un Corrupteur de contacter ceux qui le dirigent.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_12,Narrateur : Faites glisser un Corrupteur vers l'emplacement 'Répandre la corruption' de Nal Hutta. Puis demandez au Corrupteur d'infiltrer le Marché noir. Vous pourrez ensuite obtenir des contacts et récupérer des technologies provenant des mondes les plus évolués de la galaxie. Une fois que vous aurez infiltré le Marché noir, ce monde sera corrompu et se ralliera à votre cause.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_13,Tyber Zann : Nal Hutta grouille d'unités Impériales. Pour passer inaperçus, nous allons devoir soudoyer les dirigeants de ce système. Notre objectif est d'attaquer la base secrète de Jabba pour lui dérober son artefact. Je vais rassembler toutes mes forces spatiales et terrestres pour rejoindre Félucia. Je ne compte pas m'y attarder, ce n'est pas en un jour que je parviendrai à contrôler une planète aussi puissante... Mais son tour viendra. 
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_13,Tyber Zann : Nal Hutta grouille d'unités Impériales. Pour passer inaperçus, nous allons devoir soudoyer les dirigeants de ce système. Notre objectif est d'attaquer la base secrète de Jabba pour lui dérober son artefact. Je vais rassembler toutes mes forces spatiales et terrestres pour rejoindre Félucia. Je ne compte pas m'y attarder, ce n'est pas en un jour que je parviendrai à contrôler une planète aussi puissante... Mais son tour viendra.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_14,Tyber Zann : Pour voler l'artefact à Jabba et à l'Empire, nous allons devoir approcher discrètement de Félucia. Les Corrupteurs sont capables de saboter des structures sur des planètes ennemies. Que l'un d'entre eux se rende sur Félucia et détruise le Radar orbital longue portée.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_15,Astuce : Faites glisser le Corrupteur vers l'emplacement brillant de forme ovale sur Félucia et détruisez le Canon à ions.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_16,Tyber Zann : Félucia, voilà notre objectif ! Mais évitons d'attirer l'attention de l'Empire... pour l'instant. Nous allons acheter notre passage sur Nal Hutta et nous inviter au rendez-vous de Jabba sur Félucia. Rassemblez vos forces spatiales autour de Ryloth et déplacez-les vers Félucia.
@@ -16260,7 +16260,7 @@ TEXT_SPEECH_UNDERWORLD_TUTORIAL_70,Jabba : Tyber Zann, je sais que les Impériau
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_71,Tyber Zann : Pour permettre à mes forces de se développer, je dois établir un Marché noir sur Nal Hutta. Mais avant cela, je vais leur montrer de quoi je suis capable.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_72,Soldat du Consortium de Zann : Le Grand Stratège mandalorien se dirige vers la station spatiale des Hutts en orbite autour de Mandalore. Grâce à la piraterie, nous pourrions augmenter nos chances d'établir un Marché noir sur Nal Hutta.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_73,Astuce : Pour recourir à la piraterie, faites glisser ce Corrupteur vers l'emplacement 'Répandre la corruption' de la planète Mandalore. Les Corrupteurs sont des unités spéciales du Consortium. Elles seules peuvent répandre la corruption.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_74,Astuce : Quand un Corrupteur tente de répandre la corruption sur une planète, toutes les options de corruption disponibles pour cette planète sont affichées. Pour débloquer certaines options de corruption, vous devrez d'abord remplir certaines conditions. Soyez vigilant : ces options varient d'une planète à une autre. 
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_74,Astuce : Quand un Corrupteur tente de répandre la corruption sur une planète, toutes les options de corruption disponibles pour cette planète sont affichées. Pour débloquer certaines options de corruption, vous devrez d'abord remplir certaines conditions. Soyez vigilant : ces options varient d'une planète à une autre.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_75,Astuce : Choisissez 'Piraterie' dans le menu de corruption.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_76,Tyber Zann : Je m'attends à livrer l'un des combats les plus difficiles de toute ma vie. Les habitants de Mandalore ont une longue tradition guerrière, et je vais affronter leur chef de clan le plus puissant au-dessus de la planète.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_77,Tyber Zann : J'ai piraté le vaisseau du Grand Stratège mandalorien. Tous les mondes de la galaxie seront bientôt informés de ma victoire. Ils y réfléchiront à deux fois avant d'attaquer le Consortium.
@@ -16289,7 +16289,7 @@ TEXT_SPEECH_UNDERWORLD_TUTORIAL_99,Astuce : Le brouillard jaune qui entoure une 
 TEXT_SPEECH_UTAPAU_BRB_VICTORY_COR49_05,Corrupteur : Nous avons soudoyé les capitaines de leur flotte. Les dirigeants de la planète ont cédé eux aussi, de peur d'être privés de leurs vaisseaux.
 TEXT_SPEECH_UTAPAU_KID_LOAD_COR49_01,Silri : Une nouvelle victoire pour le Consortium de Zann !
 TEXT_SPEECH_UTAPAU_KID_LOSS_COR49_04,Silri : J'avais un mauvais pressentiment. Mais maintenant, leurs défenses n'ont plus de secrets pour nous. La deuxième tentative sera la bonne.
-TEXT_SPEECH_UTAPAU_KID_TACTICAL_COR49_02,Silri : Les gardes qui protègent la famille Fey sont redoutables. Nous allons nous concentrer sur un secteur bien précis. Ensuite, nous continuerons d'avancer et nous capturerons Garnak Fey. 
+TEXT_SPEECH_UTAPAU_KID_TACTICAL_COR49_02,Silri : Les gardes qui protègent la famille Fey sont redoutables. Nous allons nous concentrer sur un secteur bien précis. Ensuite, nous continuerons d'avancer et nous capturerons Garnak Fey.
 TEXT_SPEECH_UTAPAU_KID_VICTORY_COR49_03,Silri : La famille Fey est sous contrôle. Cette planète nous est acquise.
 TEXT_SPEECH_UW_ACT01_G01_01,Tyber Zann : Mon incarcération a fait du tort au Consortium. J'imagine que Jabba est déjà au courant de mon évasion. Il ne faut pas traîner. Urai, quelle est la situation ?
 TEXT_SPEECH_UW_ACT01_G01_02,Urai Fen : Nous disposons seulement de quelques vieux speeders. La plupart de nos associés nous ont tourné le dos. Que suggères-tu ?
@@ -16397,7 +16397,7 @@ TEXT_SPEECH_UW_ACT01_M01_28,Prisonnier : Passez devant !
 TEXT_SPEECH_UW_ACT01_M01_29,Prisonnier : Enfin !
 TEXT_SPEECH_UW_ACT01_M01_30,Prisonnier : Tyber s'est évadé ! Dirigez-vous vers les portes !
 TEXT_SPEECH_UW_ACT01_M01_31,Tyber Zann : Suivez-moi et le Consortium de Zann règnera de nouveau en maître !
-TEXT_SPEECH_UW_ACT01_M01_32,Tyber Zann : Il ne faudra pas oublier de remercier Jabba quand je... je veux dire... quand on sera sortis d'ici ! 
+TEXT_SPEECH_UW_ACT01_M01_32,Tyber Zann : Il ne faudra pas oublier de remercier Jabba quand je... je veux dire... quand on sera sortis d'ici !
 TEXT_SPEECH_UW_ACT01_M01_33,Urai Fen : Attends. Ces droïdes devant n'ont pas l'air commode. Je passe devant, je vais m'en occuper.
 TEXT_SPEECH_UW_ACT01_M01_34,Tyber Zann : Ne sois pas ridicule. Envoyons plutôt les prisonniers. Je n'ai pas l'intention de les laisser embarquer avec nous.
 TEXT_SPEECH_UW_ACT01_M01_35,Yan Solo : Je ne vais pas rester les bras croisés à attendre les Impériaux ! Magnez-vous !
@@ -16412,7 +16412,7 @@ TEXT_SPEECH_UW_ACT01_M01_43,Urai Fen : Il va falloir nous battre pour atteindre 
 TEXT_SPEECH_UW_ACT01_M01_44,Tyber Zann : J'ai empoisonné leurs rations d'eau. Ça ne devrait pas être trop compliqué...
 TEXT_SPEECH_UW_ACT01_M01_45,Tyber Zann : Ça va donner aux gardes l'occasion de se défouler un peu.
 TEXT_SPEECH_UW_ACT01_M01_46,Yan Solo : Mieux vaut éviter de prendre un contrebandier par surprise, surtout près d'une prison Impériale. J'aurais pu tirer !
-TEXT_SPEECH_UW_ACT01_M01_47,Jabba le Hutt : Ho, ho, ho ! Tyber Zann, mon ancien associé ! J'espère que tu apprécies le petit séjour que je t'ai organisé. 
+TEXT_SPEECH_UW_ACT01_M01_47,Jabba le Hutt : Ho, ho, ho ! Tyber Zann, mon ancien associé ! J'espère que tu apprécies le petit séjour que je t'ai organisé.
 TEXT_SPEECH_UW_ACT01_M01_48,Tyber Zann : Les visites sont terminées, Jabba. Si c'est ton artefact que tu es venu chercher, sois rassuré, je le conserve en lieu sûr.
 TEXT_SPEECH_UW_ACT01_M01_49,Jabba le Hutt : Alors il y restera pour l'éternité. Ton Consortium est en pleine agonie. Tu va rester derrière les barreaux jusqu'à ce que j'envoie quelqu'un mettre un terme à ta pitoyable existence.
 TEXT_SPEECH_UW_ACT01_M01_50,Tyber Zann : Excellente idée, ça me tiendra compagnie. Mais je te préviens : si tu fais ça, tu peux dire adieu à ton artefact. Ce serait dommage...
@@ -16430,7 +16430,7 @@ TEXT_SPEECH_UW_ACT01_M01_61,Yan Solo : Chewie, prépare le Faucon, on file. On a
 TEXT_SPEECH_UW_ACT01_M01_62,Tyber Zann : Capitaine, je comprends votre point de vue. Mais voyez-vous, je vous suggère de changer d'avis avant que mon lieutenant ne devienne... incontrôlable.
 TEXT_SPEECH_UW_ACT01_M01_63,Yan Solo : Ok, je vous aide à quitter l'espace Impérial mais après, vous m'oubliez.
 TEXT_SPEECH_UW_ACT01_M01_64,Tyber Zann : Je vais soudoyer ces imbéciles, ils m'aideront à m'évader.
-TEXT_SPEECH_UW_ACT01_M01_65,Yan Solo : Pas trop tôt ! Dites, votre ami... Urai. Il ne m'a jamais parlé de prisonniers à libérer. 
+TEXT_SPEECH_UW_ACT01_M01_65,Yan Solo : Pas trop tôt ! Dites, votre ami... Urai. Il ne m'a jamais parlé de prisonniers à libérer.
 TEXT_SPEECH_UW_ACT01_M01_66,Tyber Zann : Capitaine Solo, comme vous pouvez le voir, je ne suis plus un prisonnier. Quant au reste, ce ne sont pas vos affaires.
 TEXT_SPEECH_UW_ACT01_M01_67,Tyber Zann : Mais je reconnais que vous vous retrouvez dans une situation délicate, et je suis prêt à vous dédommager. Que diriez-vous de... doubler votre prime ?
 TEXT_SPEECH_UW_ACT01_M01_68,Urai Fen : Jusqu'ici, je vous ai laissé la vie sauve, Capitaine Solo. Mais je peux encore changer d'avis.
@@ -16465,7 +16465,7 @@ TEXT_SPEECH_UW_ACT01_M02_27,Tyber Zann : Ce Destroyer est trop puissant pour nou
 TEXT_SPEECH_UW_ACT01_M02_28,Tyber Zann : Le pirate s'est emparé de notre capsule de données ! Récupérez-la, immédiatement !
 TEXT_SPEECH_UW_ACT01_M02_29,Commandant Rebelle : On a des pillards aux trousses. Protégez les navettes à tout prix !
 TEXT_SPEECH_UW_ACT01_M02_30,Tyber Zann : Hmm… Les forces Rebelles évacuent Yavin. On devrait peut-être modifier nos plans... Retenez les navettes, confisquez tout ce qui a de la valeur et détruisez le reste.
-TEXT_SPEECH_UW_ACT01_M02_31,Tyber Zann : Nos radars indiquent la présence de minerais précieux. Inspectez les débris et récupérez tout ce qui en vaut la peine. 
+TEXT_SPEECH_UW_ACT01_M02_31,Tyber Zann : Nos radars indiquent la présence de minerais précieux. Inspectez les débris et récupérez tout ce qui en vaut la peine.
 TEXT_SPEECH_UW_ACT01_M02_32,Tyber Zann : C'est juste des conversations sans importance entre les Grand Moffs. Cherchez-en une autre.
 TEXT_SPEECH_UW_ACT01_M02_33,Tyber Zann : Attendez... Celle-ci contient des informations sur un nouveau vaisseau de guerre.  Je n'ai rien vu d'aussi ambitieux depuis l'Étoile Noire. Apparemment, la construction a été confiée aux chantiers navals de Kuat. Très intéressant. Cherchez d'autres capsules.
 TEXT_SPEECH_UW_ACT01_M02_34,Tyber Zann : Il s'agit d'informations extraites des archives personnelles de l'Empereur. C'est fascinant. Poursuivez les recherches.
@@ -16517,7 +16517,7 @@ TEXT_SPEECH_UW_ACT01_M04_34,Tyber Zann : Réagis ! Capture cette plateforme d'at
 TEXT_SPEECH_UW_ACT01_M04_35,Urai Fen : Ce n'est même pas la peine d'y penser. J'ai déjà essayé. Il y a un verrouillage magnétique.
 TEXT_SPEECH_UW_ACT01_M04_36,Tyber Zann : Ça ne sert à rien. Les portes sont scellées magnétiquement.
 TEXT_SPEECH_UW_ACT01_M04_37,Tyber Zann : Il va falloir trouver un autre accès.
-TEXT_SPEECH_UW_ACT01_M04_38,Urai Fen : Pour ouvrir ces portes, il faut couper l'alimentation. 
+TEXT_SPEECH_UW_ACT01_M04_38,Urai Fen : Pour ouvrir ces portes, il faut couper l'alimentation.
 TEXT_SPEECH_UW_ACT01_M04_39,Tyber Zann : Zone d'atterrissage capturée.
 TEXT_SPEECH_UW_ACT01_M04_40,Tyber Zann : Une zone d'atterrissage capturée. Plus que trois !
 TEXT_SPEECH_UW_ACT01_M04_41,Tyber Zann : On en a capturé la moitié !
@@ -16537,7 +16537,7 @@ TEXT_SPEECH_UW_ACT01_M04_54,Urai Fen : Ça n'a rien à voir. Les Droïdekas sont
 TEXT_SPEECH_UW_ACT01_M04_55,Urai Fen : L'unité de combat de classe droïdekas mesure 1,83 m et dispose d'un projecteur de bouclier. Elle est redoutable contre les unités d'infanterie et les véhicules légers.
 TEXT_SPEECH_UW_ACT01_M04_56,Tyber Zann : Je n'en ai jamais rencontré mais j'en ai entendu parler...
 TEXT_SPEECH_UW_ACT01_M04_57,Urai Fen : Et elle est équipée de deux canons blaster à tir rapide.
-TEXT_SPEECH_UW_ACT01_M04_58,Tyber Zann : Je vois ...mieux vaut éviter de se retrouver face à ces droïdes. 
+TEXT_SPEECH_UW_ACT01_M04_58,Tyber Zann : Je vois ...mieux vaut éviter de se retrouver face à ces droïdes.
 TEXT_SPEECH_UW_ACT01_M04_59,Urai Fen : Tout à fait. Ce modèle est aussi équipé de blasters ioniques. Même les unités protégées par des boucliers ne sont pas à l'abri.
 TEXT_SPEECH_UW_ACT01_M04_60,Tyber Zann : Très polyvalent. Ça pourrait nous être utile. On est encore loin des commandes ?
 TEXT_SPEECH_UW_ACT01_M04_61,Urai Fen : On se rapproche.
@@ -16650,14 +16650,14 @@ TEXT_SPEECH_UW_ACT02_M06_05,Urai Fen : Ce n'est pas un sujet que j'aborde facile
 TEXT_SPEECH_UW_ACT02_M06_06,Tyber Zann : Bien. Il faut trouver un adepte de la Force si nous voulons ouvrir cet artefact.
 TEXT_SPEECH_UW_ACT02_M06_07,Silri : Vous détestez voir un allié dans une cellule. Vous allez ouvrir cette porte, maintenant.
 TEXT_SPEECH_UW_ACT02_M06_08,Tyber Zann : Urai, si elle essaie encore d'utiliser la Force, tu la descends. Silri, c'est ça ? Vous ne pouvez pas pénétrer notre esprit si facilement. D'ailleurs, qui vous dit que je ne vais pas ouvrir cette porte de mon plein gré ?
-TEXT_SPEECH_UW_ACT02_M06_09,Silri : Je déteste qu'on se moque de moi. Si je sors de cette cellule, je promets de vous tuer, quelles qu'en soient les conséquences. 
-TEXT_SPEECH_UW_ACT02_M06_10,Tyber Zann : Du calme... Nous pourrions peut-être trouver un arrangement. Savez-vous ce que c'est ? 
+TEXT_SPEECH_UW_ACT02_M06_09,Silri : Je déteste qu'on se moque de moi. Si je sors de cette cellule, je promets de vous tuer, quelles qu'en soient les conséquences.
+TEXT_SPEECH_UW_ACT02_M06_10,Tyber Zann : Du calme... Nous pourrions peut-être trouver un arrangement. Savez-vous ce que c'est ?
 TEXT_SPEECH_UW_ACT02_M06_11,Silri : Ça a été conçu par les Sith. Il y a très longtemps. Où vous l'êtes-vous procuré ?
 TEXT_SPEECH_UW_ACT02_M06_12,Tyber Zann : Ce n'est pas important. Ce que je veux savoir, c'est si vous pouvez accéder aux données stockées à l'intérieur.
 TEXT_SPEECH_UW_ACT02_M06_13,Silri : C'est possible... mais il me faudra du temps. Et il ne suffira pas de me libérer pour que j'accepte.
 TEXT_SPEECH_UW_ACT02_M06_16,Tyber Zann : Quel est votre prix ?
 TEXT_SPEECH_UW_ACT02_M06_17,Silri : Je vais avoir besoin de ressources, et donc de quitter cette planète. Autre chose : Je veux me venger de celui qui m'a enfermée.
-TEXT_SPEECH_UW_ACT02_M06_18,Urai Fen : Ne lui fais pas confiance, Tyber. Elle utilise le côté Obscur de la Force pour essayer de t'atteindre. 
+TEXT_SPEECH_UW_ACT02_M06_18,Urai Fen : Ne lui fais pas confiance, Tyber. Elle utilise le côté Obscur de la Force pour essayer de t'atteindre.
 TEXT_SPEECH_UW_ACT02_M06_19,Tyber Zann : Je n'ai que faire de Silri. Mais il se trouve que nos intérêts convergent.
 TEXT_SPEECH_UW_ACT02_M06_20,Silri : D'accord, maintenant faites-moi sortir et nous allons éliminer le gouverneur Impérial qui m'a mise en cage.
 TEXT_SPEECH_UW_ACT02_M06_21,Silri : C'est la forteresse du gouverneur Impérial. Quand il trouvera son corps sans vie, l'Empereur saura qu'il faut nous prendre au sérieux. Et quand il verra que j'utilise les pouvoirs de la Force contre son armée, il comprendra qu'il est temps de quitter Dathomir.
@@ -16683,7 +16683,7 @@ TEXT_SPEECH_UW_ACT02_M06_40,Urai Fen : Combattez à nos côtés et nous vous aid
 TEXT_SPEECH_UW_ACT02_M06_41,Soeur Noire : L'Empire paiera pour ce qu'il nous a fait subir. Conduisez-nous à nos Rancors et nous mettrons les forces Impériales à genoux.
 TEXT_SPEECH_UW_ACT02_M06_42,Urai Fen : Ces armes vont nous tailler en pièces. Il faut les neutraliser.
 TEXT_SPEECH_UW_ACT02_M06_43,Tyber Zann : La prison ne produit pas assez d'énergie pour faire fonctionner des armes si puissantes. C'est sûrement le barrage devant lequel on est passé qui les alimente.
-TEXT_SPEECH_UW_ACT02_M06_54,Tyber Zann : Vous reconnaissez cet artefact ? 
+TEXT_SPEECH_UW_ACT02_M06_54,Tyber Zann : Vous reconnaissez cet artefact ?
 TEXT_SPEECH_UW_ACT02_M06_55,Soeur Noire : Il a été conçu par les Sith. Seuls les adeptes les plus puissants du côté Obscur de la Force peuvent déchiffrer son code.
 TEXT_SPEECH_UW_ACT02_M06_56,Tyber Zann : D'accord. Et vous en seriez capable ? Quelle est la plus puissante d'entre vous ?
 TEXT_SPEECH_UW_ACT02_M06_57,Soeur Noire : C'est Silri, vous la trouverez dans la prison de la Rivière furieuse, au nord. Le gouverneur Impérial l'a mise en cage et répand la nouvelle de sa capture sur toute la planète, pour briser notre moral. Mais il n'a pas réussi. Nous nous sommes rebellées, et beaucoup d'entre nous ont été capturées et emprisonnées. L'Empire est devenu notre ennemi juré.
@@ -16734,7 +16734,7 @@ TEXT_SPEECH_UW_ACT02_M09_06,Thrawn : Plutôt intéressant, comme situation. C'es
 TEXT_SPEECH_UW_ACT02_M09_07,Tyber Zann : D'accord… Vous êtes un brillant stratège, Thrawn, je l'avoue. Avec vous, on ne s'ennuie jamais.
 TEXT_SPEECH_UW_ACT02_M09_08,Pilote : Bossk a volé l'artefact ! Il se dirige vers le vaisseau de Thrawn. Concentrez vos tirs sur le Dent de chien !
 TEXT_SPEECH_UW_ACT02_M09_09,Tyber Zann : Non, laissez-le partir. C'est compris ?
-TEXT_SPEECH_UW_ACT02_M09_10,Thrawn : Vous voyez, Tyber, j'ai fini par obtenir ce que je voulais. Adieu, au plaisir de ne pas vous revoir. 
+TEXT_SPEECH_UW_ACT02_M09_10,Thrawn : Vous voyez, Tyber, j'ai fini par obtenir ce que je voulais. Adieu, au plaisir de ne pas vous revoir.
 TEXT_SPEECH_UW_ACT02_M09_11,Tyber Zann : Le grand amiral Thrawn se replie. On aura tout vu.
 TEXT_SPEECH_UW_ACT02_M09_12,Thrawn : Contrairement à vous, Tyber, je considère le repli comme une option tactique. Dans le cas présent, on a besoin de moi ailleurs, et j'ai déjà suffisamment abusé de votre temps.
 TEXT_SPEECH_UW_ACT02_M09_13,Tyber Zann : Vous voulez sauver votre peau, avouez-le...
@@ -16803,7 +16803,7 @@ TEXT_SPEECH_UW_ACT03_M11_01,Silri : Des Dark Troopers. Ils ne sont plus menaçan
 TEXT_SPEECH_UW_ACT03_M11_02,Silri : Je ressens le pouvoir de l'artefact. Il doit être tout proche !
 TEXT_SPEECH_UW_ACT03_M11_03,Silri : Par où ?
 TEXT_SPEECH_UW_ACT03_M11_04,Silri : Le voilà. Quand je détiendrai ses secrets, je me débarrasserai de ces crétins qui pensent pouvoir me donner des ordres...
-TEXT_SPEECH_UW_ACT03_M11_05,Silri : Quelque chose ne va pas... Les ténèbres... un pouvoir important au sein de la Force. 
+TEXT_SPEECH_UW_ACT03_M11_05,Silri : Quelque chose ne va pas... Les ténèbres... un pouvoir important au sein de la Force.
 TEXT_SPEECH_UW_ACT03_M11_06,Adepte de la Force : J'ai senti ta présence au moment où tu t'es posée ici, sorcière ! Tu aurais mieux fait de rester sur Dathomir.
 TEXT_SPEECH_UW_ACT03_M11_07,Silri : Où que j'aille, rien ni personne ne peut me nuire, pitoyable créature !
 TEXT_SPEECH_UW_ACT03_M11_08,Adepte de la Force : Ta tête et celles de tes créatures finiront dans mon armoire à trophées !
@@ -16858,7 +16858,7 @@ TEXT_SPEECH_UW_ACT03_M11_BOUNCE,Tyber Zann : Urai, Silri et moi-même devons nou
 TEXT_SPEECH_UW_ACT03_M12_00,Tyber Zann : Je n'ai jamais rien vu d'aussi beau, Urai. Du moins, ça le sera quand nous en aurons pris le contrôle.
 TEXT_SPEECH_UW_ACT03_M12_01,Urai Fen : Plusieurs flottes en approche, Tyber !
 TEXT_SPEECH_UW_ACT03_M12_02,Tyber Zann : Il s'agit probablement des vaisseaux survivants de la flotte Impériale. Ils viennent réparer les avaries et se rassembler.
-TEXT_SPEECH_UW_ACT03_M12_03,Urai Fen : Il y a également de multiples échos de vaisseaux de l'Alliance. 
+TEXT_SPEECH_UW_ACT03_M12_03,Urai Fen : Il y a également de multiples échos de vaisseaux de l'Alliance.
 TEXT_SPEECH_UW_ACT03_M12_04,Tyber Zann : Vraiment ? Ils sont plus organisés que je le croyais. Ne traînons pas !
 TEXT_SPEECH_UW_ACT03_M12_05,Yan Solo : Vaisseaux non identifiés, que venez-vous faire dans ce secteur spatial ?
 TEXT_SPEECH_UW_ACT03_M12_06,Tyber Zann : Nous avons entendu parler de la victoire de l'Alliance sur Endor, et nous sommes là pour nous joindre à vous.
@@ -16902,7 +16902,7 @@ TEXT_SPEECH_UW_CLD_06,Corrupteur : J’ai établi un centre de recrutement sur K
 TEXT_SPEECH_UW_CLD_07,Corrupteur : Les chantiers navals de Kuat sont sous notre contrôle. J'ai développé un  marché noir pour nous permettre de profiter des avancées technologiques de nos ennemis. Le Consortium de Zann pourra ainsi produire toutes les unités dont nous nous serons procurés les plans. Certaines familles qui régnaient sur le système Kuat ont tenté de nous résister, mais nous en sommes venus à bout. Longue vie au Consortium !
 TEXT_SPEECH_UW_CLD_08,Urai Fen : Nos forces se dirigent vers la planète. Le Consortium de Zann finira par l'emporter.
 TEXT_SPEECH_UW_CLD_09,Tyber Zann : Bien joué, ce monde est maintenant corrompu.
-TEXT_SPEECH_UW_CLD_10,IG-88 : J'évalue à 98% nos chances de succès. Donnez l'assaut ! 
+TEXT_SPEECH_UW_CLD_10,IG-88 : J'évalue à 98% nos chances de succès. Donnez l'assaut !
 TEXT_SPEECH_UW_END_CINEMATIC_00,Tyber Zann : Urai, tu vois ce que je vois ? Des crédits par milliards ! Des données technologiques cachées depuis si longtemps ! Des oeuvres d'art inestimables ! C'est fabuleux ! Je ne pensais pas que l'Empire avait accumulé autant de richesses !
 TEXT_SPEECH_UW_END_CINEMATIC_01,Urai Fen : Quelle victoire ! Un vaisseau gigantesque, des trésors cachés... La galaxie aura bientôt un nouvel empereur…
 TEXT_SPEECH_UW_END_CINEMATIC_02,Tyber Zann : Inutile de nous encombrer d'un tel fardeau. Même les Rebelles ne seraient pas capables de rater une telle cible. Grâce aux trésors de Palpatine, je vais asseoir mon pouvoir dans la galaxie. Que les Rebelles constituent leur Nouvelle République ! J'ai toujours rêvé d'avoir un sénateur dans ma poche...
@@ -16960,7 +16960,7 @@ TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_27,Le droïde sonde a rempli sa mission. U
 TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_28,La chasse aux pirates
 TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_29,La menace pirate
 TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_30,La menace pirate : Succès !
-TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_31,Boba Fett prête main forte à l'Empire en échange d'une forte récompense. Il va passer en revue les défenses ennemies et neutraliser leur système d'alerte avant l'arrivée de la flotte. 
+TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_31,Boba Fett prête main forte à l'Empire en échange d'une forte récompense. Il va passer en revue les défenses ennemies et neutraliser leur système d'alerte avant l'arrivée de la flotte.
 TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_32,Objectif : Construire une flotte et escorter Boba Fett de Coruscant à Ilum.
 TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_33,L'assaut de la base pirate a permis de récupérer des informations très utiles sur les activités Rebelles. Ces derniers ont pourtant réussi à dissimuler l'identité du traître, qui reste introuvable. Dark Vador doit poursuivre la chasse.
 TEXT_STORY_EMPIRE_ACT01_MISSION_THREE_35,Objectif : Construire une flotte et escorter Dark Vador jusqu'à Géonosis.
@@ -17120,7 +17120,7 @@ TEXT_STORY_REBEL_ACT01_MISSION_TWO_00,Piratage du réseau
 TEXT_STORY_REBEL_ACT01_MISSION_TWO_01,Des drones ont été déployés autour de Frésia, empêchant une fois encore l'Alliance de dérober les chasseurs X-wings. Un réseau de liaison satellite établi par l'Empire sur Wayland a été laissé sans surveillance. C'est peut-être la solution pour échapper à la vigilance des drones...
 TEXT_STORY_REBEL_ACT01_MISSION_TWO_02,Objectif : Conduire R2-D2 et un groupe d'assaut terrestre sur Wayland pour s'introduire dans le réseau Impérial.
 TEXT_STORY_REBEL_ACT01_MISSION_TWO_08,Objectif : Permettre aux droïdes d'atteindre la station de liaison.
-TEXT_STORY_REBEL_ACT01_MISSION_TWO_10,Astuce : Utilisez la compétence Se mettre à couvert des soldats Rebelles pour que ceux-ci essuient moins de dommages. 
+TEXT_STORY_REBEL_ACT01_MISSION_TWO_10,Astuce : Utilisez la compétence Se mettre à couvert des soldats Rebelles pour que ceux-ci essuient moins de dommages.
 TEXT_STORY_REBEL_ACT01_MISSION_TWO_15,Astuce : Détruisez la tourelle puis cliquez sur la matrice de construction pour bâtir la structure de votre choix. Vous pouvez prendre le contrôle d'une matrice neutre en vous en approchant. Il n'est pas possible de contrôler une matrice occupée.
 TEXT_STORY_REBEL_ACT01_MISSION_TWO_27,Objectif :  Conduire les droïdes vers un Point de renforts sous contrôle pour procéder à l'évacuation.
 TEXT_STORY_REBEL_ACT01_MISSION_TWO_32,REWARD SYSTEM CUT
@@ -17234,7 +17234,7 @@ TEXT_STORY_REBEL_ACT04_MISSION_TWELVE_02,Objectif : Affronter l'Étoile Noire da
 TEXT_STORY_REBEL_ACT04_MISSION_TWELVE_21,Avertissement : Les droïdes sont de retour parmi les Rebelles. L'escadron Rouge est maintenant disponible.
 TEXT_STORY_REBEL_ACT04_MISSION_TWELVE_23,Objectif : Empêcher à tout prix la destruction du vaisseau de Mon Mothma par l'Étoile Noire. Sa présence est vitale dans les rangs des Rebelles. Si elle périt, la partie est perdue.
 TEXT_STORY_REBEL_ACT04_MISSION_TWELVE_24,Astuce : Seul l'escadron Rouge est en mesure de détruire l'Étoile Noire. Sans ses courageux pilotes, vous pourrez au mieux détruire la flotte qui accompagne l'Étoile Noire.
-TEXT_STORY_REBEL_INVALID_ACTION,Mon Mothma : Cette action me semble inappropriée dans cette situation. 
+TEXT_STORY_REBEL_INVALID_ACTION,Mon Mothma : Cette action me semble inappropriée dans cette situation.
 TEXT_STORY_REBEL_TECH_ADVANCE,Information : Une nouvelle technologie sera disponible si vous utilisez la compétence de vol des droïdes.
 TEXT_STORY_STANDARD_ACT02_NOTICE,Information : Les planètes qui ne sont pas encore affichées le seront ultérieurement. Nous vous suggérons de conquérir les planètes ennemies et de sécuriser la galaxie avant de passer à la mission suivante.
 TEXT_STORY_TRANSMISSION_01,Message du général Dodonna
@@ -17257,7 +17257,7 @@ TEXT_STORY_TRANSMISSION_17,Message de Mon Mothma
 TEXT_STORY_TRANSMISSION_18,Message du Grand Moff Tarkin
 TEXT_STORY_TRANSMISSION_19,Message de Tani Ab'yla
 TEXT_STORY_TRANSMISSION_20,Message du capitaine Antilles
-TEXT_STORY_TRANSMISSION_TYBER,Arrivée d'un message de Tyber Zann 
+TEXT_STORY_TRANSMISSION_TYBER,Arrivée d'un message de Tyber Zann
 TEXT_STORY_TRANSMISSION_URAI,Incoming Transmission from Urai Fen
 TEXT_STORY_TRIGGER_ZONE,Zone déclencheur d'événement
 TEXT_STORY_TUTORIAL_EMPIRE_ACT03_00,Didacticiel 3 - Notions spatiales (Empire)
@@ -17435,7 +17435,7 @@ TEXT_STORY_UNDERWORLD_ACT02_MISSION_SEVEN_02,Pirater les serveurs de Bespin avec
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SEVEN_03,Déposer des preuves dans 4 avant-postes avec Tyber Zann
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SEVEN_04,Ramener Tyber Zann, Urai Fen et IG-88 au vaisseau
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_01,Libérer la prison de la Montagne chantante
-TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_02,Libérer la prison de la Rivière furieuse 
+TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_02,Libérer la prison de la Rivière furieuse
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_03,Libérer la prison des Cascades brumeuses
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_04,Détruisez les quartiers du gouverneur
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_05,Conduisez les Soeurs Noires à leurs montures, les Rancors.
@@ -17483,7 +17483,7 @@ TEXT_STRUCTURE_EMPIRE_MINERAL_PROCESSOR,Processeur de minerai Impérial
 TEXT_STRUCTURE_EMPIRE_RESOURCE_PAD,Matrice de ressources Impériale
 TEXT_STRUCTURE_EWOK_CAGE,Cage à Ewok
 TEXT_STRUCTURE_EWOK_TREEHOUSE,Cabane d'Ewoks
-TEXT_STRUCTURE_FRENZIED_RIVER_PRISON,Prison de la Rivière furieuse 
+TEXT_STRUCTURE_FRENZIED_RIVER_PRISON,Prison de la Rivière furieuse
 TEXT_STRUCTURE_FUEL_PUMP,Pompe de ravitaillement
 TEXT_STRUCTURE_GATE,Porte
 TEXT_STRUCTURE_GENERIC_PAD_UC,(en construction)
@@ -17693,12 +17693,12 @@ TEXT_TACTICAL_SECONDARY_SENSOR_CAPTURE,Localiser et capturer la batterie de sens
 TEXT_TACTICAL_SECONDARY_TRAINING_DESTROY,Localiser et détruire le centre d'entraînement de la Rébellion pour affaiblir les unités Rebelles.
 TEXT_TACTICAL_SECONDARY_TURBOLASER_CAPTURE,Localiser et capturer la tour à turbolaser Impériale abandonnée.
 TEXT_TACTICAL_SPACE_BATTLE_IS_PENDING,: BATAILLE SPATIALE IMMINENTE
-TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH,Les cendres réduisent de 50% la visibilité de l'Infanterie. 
-TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH_30,Les cendres réduisent de 30% la visibilité de l'Infanterie. 
-TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH_40,Les cendres réduisent de 40% la visibilité de l'Infanterie. 
-TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH_60,Les cendres réduisent de 60% la visibilité de l'Infanterie. 
-TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH_70,Les cendres réduisent de 70% la visibilité de l'Infanterie. 
-TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH_ALT,Les cendres réduisent de %d% la visibilité de l'Infanterie. 
+TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH,Les cendres réduisent de 50% la visibilité de l'Infanterie.
+TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH_30,Les cendres réduisent de 30% la visibilité de l'Infanterie.
+TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH_40,Les cendres réduisent de 40% la visibilité de l'Infanterie.
+TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH_60,Les cendres réduisent de 60% la visibilité de l'Infanterie.
+TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH_70,Les cendres réduisent de 70% la visibilité de l'Infanterie.
+TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH_ALT,Les cendres réduisent de %d% la visibilité de l'Infanterie.
 TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN,Les pluies torrentielles ont réduit la précision des lasers de 50%.
 TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN_30,Les pluies torrentielles ont réduit la précision des lasers de 30%.
 TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN_30_ALT,Les pluies torrentielles ont réduit la précision des véhicules de 30%.
@@ -17748,7 +17748,7 @@ TEXT_TAR_EVENT_FAVOR_01,Le seigneur Vador requiert votre assistance, malgré vot
 TEXT_TAR_EVENT_FAVOR_TITLE,Soutien au Seigneur Vador
 TEXT_TAR_EVENT_FLEET_RAMPAGE_00,C'est la dernière fois que vous bafouez l'Empire. Nous avons déjà perdu beaucoup d'hommes pour tenter de vous éliminer. Je vais m'occuper de vous personnellement. La reddition n'est pas envisageable.
 TEXT_TAR_EVENT_FLEET_RAMPAGE_01,Je n'ai pas dit mon dernier mot, commandant. Mon heure viendra et je frapperai de nouveau. Lors de notre prochaine rencontre, vous ne vous en tirerez pas.
-TEXT_TAR_EVENT_FLEET_RAMPAGE_02,J'ai été trahi par ma propre flotte. Ces lâches ont bien mérité leur châtiment. Profitez de ce moment, commandant, car bientôt je reviendrai pour accomplir ma vengeance. 
+TEXT_TAR_EVENT_FLEET_RAMPAGE_02,J'ai été trahi par ma propre flotte. Ces lâches ont bien mérité leur châtiment. Profitez de ce moment, commandant, car bientôt je reviendrai pour accomplir ma vengeance.
 TEXT_TAR_EVENT_FLEET_RAMPAGE_03,Vous avez échoué, une nouvelle fois. La flotte Rebelle vous a vaincu sur votre propre terrain. Rassemblez vos forces et exterminez ces criminels. Le Seigneur Vador déteste les incompétents…
 TEXT_TAR_EVENT_HERO_GATHERING_00,Le seigneur Vador nous a signalé un rassemblement Rebelle. Il a senti la présence de leurs leaders sur une planète. C'est l'occasion d'écraser la Rébellion. Prenez la tête d'une flotte et éliminez ces traîtres.
 TEXT_TAR_EVENT_HERO_GATHERING_01,Vous avez gâché une nouvelle opportunité. La Rébellion a été mise au courant de votre attaque et ses leaders se sont échappés. Le Seigneur Vador risque de ne pas apprécier.
@@ -17769,7 +17769,7 @@ TEXT_TAR_EVENT_SCOUT_02,Vos informations ont été très utiles à l'Empire. Nou
 TEXT_TAR_EVENT_SMUGGLER_01,Les chasseurs de primes ont retrouvé la trace de Solo. Apparemment, ce sale contrebandier travaille pour les Rebelles. Il a volé les crédits et les équipements de l'Empire. Il doit payer pour ses crimes. Éliminez-les, lui et tous ses complices.
 TEXT_TAR_EVENT_SMUGGLER_02,Vos actes ont été couronnés de succès. Vous êtes parvenu à éliminer les Rebelles présent sur la planète. Pourtant, il semble que Yan Solo ait survécu. Vous êtes dans une situation périlleuse, commandant. Par votre faute, je suis obligé d'intervenir et de prendre le contrôle de la planète.
 TEXT_TAR_EVENT_SMUGGLER_TITLE,Contrebandier Rebelle
-TEXT_TAR_EVENT_STRUCTURE_00,Une simple base ne peut protéger un monde contre ces maudits Rebelles. Une bonne défense, c'est aussi une flotte, des troupes terrestres et des structures secondaires. 
+TEXT_TAR_EVENT_STRUCTURE_00,Une simple base ne peut protéger un monde contre ces maudits Rebelles. Une bonne défense, c'est aussi une flotte, des troupes terrestres et des structures secondaires.
 TEXT_TAR_EVENT_STRUCTURE_01,Je suis sûr que l'Empereur vous remercierait s'il était avec nous. Ces nouvelles troupes devraient vous satisfaire.
 TEXT_TAR_EVENT_TECH_WINDFALL_00,L'Empire apprécie les services que vous lui rendez. Continuez de pourchasser les Rebelles. J'ai aussi besoin de vous pour tester une nouvelle arme. Votre niveau technologique a été augmenté.
 TEXT_TAR_EVENT_TRAITOR_01,Un traître se cache parmi nous. Nous l'avons surpris en train de transmettre des informations confidentielles à la Rébellion. Malheureusement, il a réussi à rejoindre une planète contrôlée par les Rebelles. Prenez cette planète d'assaut et éliminez toute résistance.
@@ -17880,7 +17880,7 @@ TEXT_TOOLTIP_ABILITY_FLAME_THROWER_DESCRIPTION,Permet de déclencher le lance-fl
 TEXT_TOOLTIP_ABILITY_FLAME_THROWER_NAME,Lance-flammes
 TEXT_TOOLTIP_ABILITY_FORCE_CLOAK_DESCRIPTION,Crée un champ de dissimulation autour de Luke. Les unités ennemies, à l'exception des héros, ne peuvent pas détecter sa présence.
 TEXT_TOOLTIP_ABILITY_FORCE_CLOAK_NAME,Dissimulation par la Force
-TEXT_TOOLTIP_ABILITY_FORCE_CONFUSE_DESCRIPTION,Les unités prises pour cible sont désorientées. 
+TEXT_TOOLTIP_ABILITY_FORCE_CONFUSE_DESCRIPTION,Les unités prises pour cible sont désorientées.
 TEXT_TOOLTIP_ABILITY_FORCE_CONFUSE_NAME,Confusion par la Force
 TEXT_TOOLTIP_ABILITY_FORCE_LIGHTNING_DESCRIPTION,Les mains de l'Empereur émettent des éclairs vers le groupe de soldats ennemis qui est ciblé.
 TEXT_TOOLTIP_ABILITY_FORCE_LIGHTNING_NAME,Éclair de Force
@@ -17940,7 +17940,7 @@ TEXT_TOOLTIP_ABILITY_ROCKET_ATTACK_DESCRIPTION,Le T4-B tire des roquettes au lie
 TEXT_TOOLTIP_ABILITY_ROCKET_ATTACK_NAME,Roquette
 TEXT_TOOLTIP_ABILITY_SABER_THROW_DESCRIPTION,Luke lance son sabre laser, infligeant de lourds dommages aux unités d'infanterie, structures et véhicules ennemis.
 TEXT_TOOLTIP_ABILITY_SABER_THROW_NAME,Lancer de sabre
-TEXT_TOOLTIP_ABILITY_SELF_DESTRUCT_DESCRIPTION,Déclenche une surcharge ionique dans les réacteurs du Mauler TIE. L'explosion qui en résulte cause des dommages à toutes les unités situées à proximité.  
+TEXT_TOOLTIP_ABILITY_SELF_DESTRUCT_DESCRIPTION,Déclenche une surcharge ionique dans les réacteurs du Mauler TIE. L'explosion qui en résulte cause des dommages à toutes les unités situées à proximité.
 TEXT_TOOLTIP_ABILITY_SELF_DESTRUCT_NAME,Autodestruction
 TEXT_TOOLTIP_ABILITY_SENSOR_JAMMING_DESCRIPTION,Empêche les radars ennemis de détecter les unités.
 TEXT_TOOLTIP_ABILITY_SENSOR_JAMMING_NAME,Brouillage de senseurs
@@ -18039,7 +18039,7 @@ TEXT_TOOLTIP_CLICK_FOR_MORE_INFO,Cliquez pour obtenir plus d'informations sur le
 TEXT_TOOLTIP_CLOAK,Dissimulation
 TEXT_TOOLTIP_CLOSED_STRUCTURE_SLOT,Emplacement de structure vide
 TEXT_TOOLTIP_COMPANY_COUNT,Forces terrestres sur la planète
-TEXT_TOOLTIP_CORELLIAN_CORVETTE,Croiseur de patrouille rapide, doté de 8 canons laser, capable d'affronter chasseurs et bombardiers. Ses réacteurs sont extrêmement puissants, ce qui lui permet de battre rapidement en retraite. 
+TEXT_TOOLTIP_CORELLIAN_CORVETTE,Croiseur de patrouille rapide, doté de 8 canons laser, capable d'affronter chasseurs et bombardiers. Ses réacteurs sont extrêmement puissants, ce qui lui permet de battre rapidement en retraite.
 TEXT_TOOLTIP_CORELLIAN_GUNBOAT,Croiseur de patrouille rapide, équipé de 2 canons laser et de 4 lance-missiles à concussion. Ses missiles peuvent causer de lourds dégâts aux vaisseaux ennemis, même dotés de boucliers.
 TEXT_TOOLTIP_CORRUPT_EVIL_PLANET,Planète corrompue sous contrôle Impérial
 TEXT_TOOLTIP_CORRUPT_GOOD_PLANET,Planète corrompue sous contrôle Rebelle
@@ -18205,7 +18205,7 @@ TEXT_TOOLTIP_KRAYT_DESTROYER,Les redoutables canons couplés de l'Agressor peuve
 TEXT_TOOLTIP_KRAYT_DESTRUCT_DESCRIPTION,Déclenche une réaction en chaîne dans les canons principaux, ce qui provoque une terrible explosion.
 TEXT_TOOLTIP_KYLE_KATARN,Ancien commando Impérial qui a rejoint l'Alliance après avoir découvert que l'Empire était responsable de la mort de son père. Kyle maîtrise de nombreuses armes, en particulier les explosifs.
 TEXT_TOOLTIP_LANCET,Le Lancet est un véhicule à répulsion peu rapide, mais équipé d'un puissant canon à protons.
-TEXT_TOOLTIP_LEAH,Princesse d'Aldérande et membre de la Rébellion. Les héros n'hésitent pas à parcourir de longues distances pour lui porter secours. 
+TEXT_TOOLTIP_LEAH,Princesse d'Aldérande et membre de la Rébellion. Les héros n'hésitent pas à parcourir de longues distances pour lui porter secours.
 TEXT_TOOLTIP_LUKE,Apprenti Jedi. Invoque le côté Lumineux de la Force. Membre de l'Escadron Rouge, capable d'infliger de lourds dommages en visant avec une précision remarquable.
 TEXT_TOOLTIP_LUKE_SKYWALKER_JEDI,Jeune fermier de Tatooine, Luke Skywalker a été formé par le Maître Jedi Yoda, et a ouvert la voie à une nouvelle génération de Chevaliers Jedi.
 TEXT_TOOLTIP_M1_REPULSOR,Char de taille standard, équipé de canons laser à cadence rapide. Ses réacteurs à répulsion lui permettent de se déplacer facilement sur le champ de bataille. 4 véhicules par groupe.
@@ -18234,13 +18234,13 @@ TEXT_TOOLTIP_MOVE,Déplacement
 TEXT_TOOLTIP_MOVE_01,Ordonne aux unités sélectionnées de se déplacer vers la destination ciblée, et d'ignorer les ennemis rencontrés en chemin.
 TEXT_TOOLTIP_MPTL,Lance-Torpilles à Protons Mobile, armé de 9 lance-torpilles longue portée. Il doit être déployé pour pouvoir tirer. Accompagné d'un droïde de visée qui l'aide à localiser ses cibles. 2 véhicules et 2 Observateurs par groupe.
 TEXT_TOOLTIP_MZ8_PC_TANK,Le MZ-8 est un char à chenilles qui transporte un arsenal offensif impressionnant au détriment de son blindage, si bien qu'il nécessite une escorte.
-TEXT_TOOLTIP_NEBULON_B,Vaisseau de guerre de taille standard, doté de 2 batteries de turbolasers et de 2 batteries de canons à ions. Polyvalent, il ne présente apparemment aucun point faible. 
+TEXT_TOOLTIP_NEBULON_B,Vaisseau de guerre de taille standard, doté de 2 batteries de turbolasers et de 2 batteries de canons à ions. Polyvalent, il ne présente apparemment aucun point faible.
 TEXT_TOOLTIP_NEXT_BUTTON,Planète sous contrôle suivante
 TEXT_TOOLTIP_NIGHT_SISTER,Natives de Dathomir, les Soeurs Noires invoquent le Côté Obscur de la Force pour contrôler les Rancors avec lesquels elles se déplacent.
 TEXT_TOOLTIP_NOGHRI_ASSASSIN,Les Noghri ont prêté allégeance à Dark Vador, qui en retour assure leur protection. Ce sont de féroces guerriers et des assassins.
 TEXT_TOOLTIP_OBI_WAN,Chevalier Jedi invoquant le côté Lumineux de la Force. Capable de soigner et de protéger ses alliés.
 TEXT_TOOLTIP_OBI_WAN_01,Chevalier Jedi invoquant le côté Lumineux de la Force. Capable de soigner et de protéger ses alliés.
-TEXT_TOOLTIP_OFFENSIVE_SENSOR_NODE,Permet de visualiser une grande partie du terrain dissimulé par le brouillard de guerre. Un système offensif projetant des décharges d'énergie assure sa protection. 
+TEXT_TOOLTIP_OFFENSIVE_SENSOR_NODE,Permet de visualiser une grande partie du terrain dissimulé par le brouillard de guerre. Un système offensif projetant des décharges d'énergie assure sa protection.
 TEXT_TOOLTIP_ORBITAL_CONTROL,Contrôle orbital
 TEXT_TOOLTIP_ORG_GARRISON,Emplacement libre Garnison de la base
 TEXT_TOOLTIP_ORG_HERO,Ouvrir emplacement héros
@@ -18298,7 +18298,7 @@ TEXT_TOOLTIP_REP_TURRET_SPACE,Station orbitale permettant de réparer les avarie
 TEXT_TOOLTIP_REPAIR_DROID,Le S-RD5 est un droïde de maintenance lourd conçu pour effectuer de petites réparations au combat. Il n'est pas armé et nécessite du temps pour faire son travail.
 TEXT_TOOLTIP_REQUIRED_PLANETS_CANTINA,Cette structure ne peut être construite que sur Abregado-Rae, Atzerri, Corellia, Nal Hutta, Ryloth ou Tatooine.
 TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS,Ce vaisseau ne peut être construit que sur Kuat, Sullust, Fondor ou Mon Calamari.
-TEXT_TOOLTIP_REQUIRED_PLANETS_HUTT_PALACE,Cette structure ne peut être construite que sur Atzerri, Nal Hutta, Ryloth ou Tatooine. 
+TEXT_TOOLTIP_REQUIRED_PLANETS_HUTT_PALACE,Cette structure ne peut être construite que sur Atzerri, Nal Hutta, Ryloth ou Tatooine.
 TEXT_TOOLTIP_REQUIRES_COMM_ARRAY,Les antennes de communication de la base doivent être fonctionnelles pour pouvoir déclencher le tir.
 TEXT_TOOLTIP_RESIDUAL_INFLUENCE,Influence résiduelle
 TEXT_TOOLTIP_RESULTS_EMPIRE_KILLED,Nombre total d'unités Impériales détruites :
@@ -18459,7 +18459,7 @@ TEXT_TUTORIAL_7_COMPLETE_UW,Félicitations ! Vous avez terminé le Didacticiel 7
 TEXT_TUTORIAL_CHAP_01_00,Didacticiel 1 : Introduction aux combats terrestres
 TEXT_TUTORIAL_CHAP_01_02,Objectif : Cliquer avec le bouton gauche sur  la frégate Nébulon-B pour la sélectionner.
 TEXT_TUTORIAL_CHAP_01_03,Objectif : Sélectionner plusieurs unités en dessinant un rectangle avec le bouton gauche.
-TEXT_TUTORIAL_CHAP_01_04,Objectif : Sélectionner la frégate Nébulon-B et la déplacer en cliquant sur un espace vide. 
+TEXT_TUTORIAL_CHAP_01_04,Objectif : Sélectionner la frégate Nébulon-B et la déplacer en cliquant sur un espace vide.
 TEXT_TUTORIAL_CHAP_01_05,Objectif : Déplacer la flotte jusqu'à la station spatiale Impériale.
 TEXT_TUTORIAL_CHAP_01_06,Objectif : Sélectionner les X-wings, cliquer sur le bouton Garder, puis sur l'icône Y-wing.
 TEXT_TUTORIAL_CHAP_01_07,Objectif : Détruire les chasseurs TIE avant de s'occuper du destroyer stellaire.
@@ -18516,7 +18516,7 @@ TEXT_UNDERWORLD_CAMPAIGN_FEATURE_DEMO_DESCRIPTION,Découvrez toutes les nouveaut
 TEXT_UNDERWORLD_DEFEAT,Vous avez été vaincu. Réessayez.
 TEXT_UNDERWORLD_PROLOGUE_TITLE,Cinq ans avant la bataille de Yavin...
 TEXT_UNDERWORLD_TUTORIAL_COMPLETE,Félicitations !  Vous avez terminé ce didacticiel. Sélectionnez Nouvelle Campagne dans le menu principal pour plonger au coeur d'une campagne pour un joueur.
-TEXT_UNDERWORLD_VICTORY,Félicitations ! Le Consortium de Zann a pris le contrôle du crime organisé dans la galaxie ! 
+TEXT_UNDERWORLD_VICTORY,Félicitations ! Le Consortium de Zann a pris le contrôle du crime organisé dans la galaxie !
 TEXT_UNIT_1M_REPULSOR_TANK,Char à répulsion 2-M
 TEXT_UNIT_A_WING,A-wing
 TEXT_UNIT_ACCLAMATOR,Croiseur Acclamator
@@ -18878,7 +18878,7 @@ TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_INTIMIDATION,L'aptitude spéciale de l
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_KIDNAPPING,La planète a été corrompue grâce au Kidnapping.
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY,La planète a été corrompue grâce à la Piraterie.
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING,Une somme d'argent est versée pour chaque unité ennemie détruite.
-TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE,Acheter un bombardement par Y-wing. 
+TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE,Acheter un bombardement par Y-wing.
 TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Réduit de 50% les dommages essuyés par les Soldats Rebelles.
 TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Réduit de 50% les dommages essuyés par les Soldats Plex.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_BASE_SHIELD,Empêche tous les tirs ennemis de percer une brèche dans vos boucliers terrestres.
@@ -18938,7 +18938,7 @@ TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L1,Le Bouclier pour structure du C
 TEXT_UPGRADE_TOOLTIP_UL_BLACKMARKET_SHIELDING_L2,Le Bouclier pour structure du Consortium absorbe 50% de dommages supplémentaires. Activé pour toutes les structures disposant d'un bouclier.
 TEXT_UPGRADE_TOOLTIP_UL_BOMBING_RUN_USE,Acheter un bombardement d'une Vedette Skipray
 TEXT_UPGRADE_TOOLTIP_UL_BOUNTY,Accorde une prime pour chaque unité détruite au cours des combats.
-TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE,Les unités n'essuient plus de dommages et se déploient 25% plus vite à partir des transports envoyés en renforts. 
+TEXT_UPGRADE_TOOLTIP_UL_ENHANCED_DEPLOYMENT_L1_UPGRADE,Les unités n'essuient plus de dommages et se déploient 25% plus vite à partir des transports envoyés en renforts.
 TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L1,Réduit de 20% les dommages subis par les Unités de défense mobiles.
 TEXT_UPGRADE_TOOLTIP_UL_MDU_ARMOR_L2,Réduit de 40% les dommages subis par les Unités de défense mobiles.
 TEXT_UPGRADE_TOOLTIP_UL_RANCOR_STIMULANT_L1,Augmente de 15% la vitesse de déplacement des Rancors, montures des Soeurs Noires.
@@ -19004,8 +19004,8 @@ TEXT_UPGRADE_US_TARGETING_SYSTEMS_L2,Systèmes de visée (Niveau 2)
 TEXT_UPGRADE_US_TARGETING_SYSTEMS_L3,Systèmes de visée (Niveau 3)
 TEXT_UPGRADE_UTAPAU_KEDALBE_SHIELD,Bouclier Kedalbe amélioré
 TEXT_UPGRADES,Améliorations
-TEXT_UPLOAD_PROGRESS,Progression de l’envoi : 
-TEXT_UPLOADING_MAP_TO_PLAYER,Envoi de la carte au joueur : 
+TEXT_UPLOAD_PROGRESS,Progression de l’envoi :
+TEXT_UPLOADING_MAP_TO_PLAYER,Envoi de la carte au joueur :
 TEXT_UPNP_DETAILS,Détails UPNP
 TEXT_UPNP_DEVICES,Routeurs UPNP :
 TEXT_UPNP_FRAMEWORK_ENABLED,Structure UPNP :
