@@ -743,6 +743,7 @@
 		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
 
 		<Multiplayer_Campaign_Heroes>
+		<!--
 			Mon_Mothma_Team,
 			Droids_Team,
 			Han_Solo_Team,
@@ -753,6 +754,7 @@
 			Garm_Bel_Iblis_Team,
 			Luke_Skywalker_Jedi_Team,
 			Yoda_Team
+		-->
 		</Multiplayer_Campaign_Heroes>
 
 		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_REBEL.TGA</Multiplayer_Map_Preview_Icon>
@@ -1477,11 +1479,13 @@
 		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
 
 		<Multiplayer_Campaign_Heroes>
+		<!--
 			Grand_Moff_Tarkin_Team,
 			Emperor_Palpatine_Team,
 			Boba_Fett_Team,
 			General_Veers_Team,
 			Accuser_Star_Destroyer
+		-->
 		</Multiplayer_Campaign_Heroes>
 
 		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_EMPIRE.TGA</Multiplayer_Map_Preview_Icon>

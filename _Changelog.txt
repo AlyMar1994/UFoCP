@@ -47,6 +47,8 @@ v2.3.0.XXX (XX-13-2026) [FoC v1.121.859328]
 UFCP:
 ======
 ENHANCEMENTS:
+• (In what will probably be a never-ending process,) the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team color textures, icons, etc.) have been touched up to improve misc. problems.
+
 • UFCP has merged with cha20202's "EAW Campaigns & Conquests to FOC Conversion" to restore bugfixed versions of the EaW GCs and story campaigns.  UFCP was already moderately backwards compatible with EaW, and this merging fully completes it (as far as we know).  A selection of changes include: (BUG #247)
 •• Fixed Land Alderaan's Pirate Base location.  It has been moved to prevent units getting stuck on the terrain.
 •• Fixed various Rebel and Empire campaign oddities, collision issues and script bugs.
@@ -57,6 +59,10 @@ ENHANCEMENTS:
 •• Reimplemented the EaW MPGC maps.  These currently do not have hero-swapped "alternate history" versions.
 
 • B-wings and TIE defenders no longer use the Y-wing, TIE bomber or Skipray Blastboat model when summoned for bombing runs, respectively.  They now use their own models - in addition, TIE defenders are now capable of triggering bombing runs from orbit (where before they couldn't, unlike the B-wing). (BUG #777)
+
+
+HOUSEKEEPING:
+• Due to the EaW GCs naturally having around 15k credits, the SP and MPGC credit cap Advanced Option has been increased to 30k credits.
 ======
 
 

@@ -76,7 +76,7 @@
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
 		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
-		<Max_Custom_Starting_Credits>12000</Max_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 		<Human_Victory_Conditions>
@@ -472,7 +472,7 @@
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
 		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
-		<Max_Custom_Starting_Credits>12000</Max_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -888,7 +888,7 @@
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
 		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
-		<Max_Custom_Starting_Credits>12000</Max_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -1200,7 +1200,7 @@
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
 		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
-		<Max_Custom_Starting_Credits>12000</Max_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -1774,7 +1774,7 @@
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
 		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
-		<Max_Custom_Starting_Credits>12000</Max_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -2188,7 +2188,7 @@
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
 		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
-		<Max_Custom_Starting_Credits>12000</Max_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 		<Human_Victory_Conditions>
@@ -2996,6 +2996,11 @@
 		<Camera_Shift_Y>-55.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
 
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
+
 		<Locations>
 			Galaxy_Core_Art_Model,
 			Bespin,
@@ -3243,6 +3248,11 @@
 		<Camera_Shift_Y>-55.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
 
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
+
 		<Locations>
 			Galaxy_Core_Art_Model,
 			Bespin,
@@ -3484,6 +3494,11 @@
 		<Camera_Shift_Y>-55.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
 
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
+
 		<Locations>
 			Galaxy_Core_Art_Model,
 			Endor,
@@ -3690,6 +3705,11 @@
 		<Camera_Shift_X>20.0</Camera_Shift_X>
 		<Camera_Shift_Y>-55.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<Locations>
 			Galaxy_Core_Art_Model,
@@ -3960,6 +3980,11 @@
 		<Camera_Shift_X>40.0</Camera_Shift_X>
 		<Camera_Shift_Y>0.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<Locations>
 			Galaxy_Core_Art_Model,
@@ -4337,6 +4362,11 @@
 		<Camera_Shift_Y>-55.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
 
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
+
 		<Locations>
 			Galaxy_Core_Art_Model,
 			Alderaan,
@@ -4649,6 +4679,11 @@
 		<Camera_Shift_X>40.0</Camera_Shift_X>
 		<Camera_Shift_Y>0.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<Locations>
 			Galaxy_Core_Art_Model,
