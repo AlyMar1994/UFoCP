@@ -44,6 +44,23 @@
 		<Max_Pitch>110</Max_Pitch>
 	</SFXEvent>
 
+	<!--
+		AM1994 (06-27-26): Duplicate of URC without min/max pitch so heroes
+		don't sound out-of-place (chipmunk Wedge).
+	-->
+	<SFXEvent Name="Preset_URC_Hero">
+		<Is_Preset>Yes</Is_Preset>
+		<Is_2D>Yes</Is_2D>
+		<Is_3D>No</Is_3D>
+		<Is_Unit_Response_VO>Yes</Is_Unit_Response_VO>
+		<Is_Ambient_VO>No</Is_Ambient_VO>
+		<Priority>2</Priority>
+		<Probability>50</Probability>
+		<Max_Instances>1</Max_Instances>
+		<Min_Volume>60</Min_Volume>
+		<Max_Volume>60</Max_Volume>
+	</SFXEvent>
+
 	<SFXEvent Name="Preset_UR_MOVIE">
 		<Is_Preset>Yes</Is_Preset>
 		<Is_2D>Yes</Is_2D>
