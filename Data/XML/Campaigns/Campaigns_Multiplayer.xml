@@ -3077,6 +3077,7 @@
 		<Starting_Forces>Rebel, Hoth, Rebel_Infantry_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Hoth, Rebel_Infantry_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Hoth, Mon_Mothma_Team</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth, Obi_Wan_Team</Starting_Forces>
 
 		<Starting_Forces>Rebel, Hoth, Rebel_Star_Base_2</Starting_Forces>
 		<Starting_Forces>Rebel, Hoth, Corellian_Corvette</Starting_Forces>
@@ -3086,6 +3087,8 @@
 		<Starting_Forces>Rebel, Hoth, Rebel_X-Wing_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Hoth, Y-Wing_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Hoth, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth, Han_Solo_Team</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth, Home_One</Starting_Forces>
 
 
 		<Starting_Forces>Rebel, Bespin, Rebel_Star_Base_1</Starting_Forces>
@@ -3106,6 +3109,7 @@
 		<Starting_Forces>Empire, Geonosis, Imperial_Light_Scout_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Geonosis, Imperial_Heavy_Scout_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Geonosis, Imperial_Anti_Infantry_Brigade</Starting_Forces>
+		<Starting_Forces>Empire, Geonosis, General_Veers_Team</Starting_Forces>
 
 		<Starting_Forces>Empire, Geonosis, Empire_Star_Base_2</Starting_Forces>
 		<Starting_Forces>Empire, Geonosis, Tartan_Patrol_Cruiser</Starting_Forces>
@@ -3121,6 +3125,7 @@
 		<Starting_Forces>Empire, Corellia, Darth_Team</Starting_Forces>
 		<Starting_Forces>Empire, Corellia, Grand_Moff_Tarkin_Team</Starting_Forces>
 		<Starting_Forces>Empire, Corellia, Boba_Fett_Team</Starting_Forces>
+		<Starting_Forces>Empire, Corellia, Accuser_Star_Destroyer</Starting_Forces>
 
 
 		<!-- PIRATE STARTING FORCES -->
@@ -3333,8 +3338,11 @@
 		<Starting_Forces>Rebel, Polus, Y-Wing_Squadron</Starting_Forces>
 
 		<Starting_Forces>Rebel, Polus, Mon_Mothma_Team</Starting_Forces>
+		<Starting_Forces>Rebel, Polus, Obi_Wan_Team</Starting_Forces>
 		<Starting_Forces>Rebel, Polus, Droids_Team</Starting_Forces>
+		<Starting_Forces>Rebel, Polus, Han_Solo_Team</Starting_Forces>
 		<Starting_Forces>Rebel, Polus, Sundered_Heart</Starting_Forces>
+		<Starting_Forces>Rebel, Polus, Home_One</Starting_Forces>
 		<Starting_Forces>Rebel, Polus, Red_Squadron</Starting_Forces>
 
 		<Starting_Forces>Rebel, Polus, Rebel_Infantry_Squad</Starting_Forces>
@@ -3354,6 +3362,8 @@
 		<Starting_Forces>Empire, NalHutta, General_Veers_Team</Starting_Forces>
 		<Starting_Forces>Empire, NalHutta, Grand_Moff_Tarkin_Team</Starting_Forces>
 		<Starting_Forces>Empire, NalHutta, Boba_Fett_Team</Starting_Forces>
+		<Starting_Forces>Empire, NalHutta, Darth_Team</Starting_Forces>
+		<Starting_Forces>Empire, NalHutta, Accuser_Star_Destroyer</Starting_Forces>
 
 		<Starting_Forces>Empire, NalHutta, Imperial_Stormtrooper_Squad</Starting_Forces>
 		<Starting_Forces>Empire, NalHutta, Imperial_Stormtrooper_Squad</Starting_Forces>
@@ -3578,12 +3588,16 @@
 		<Starting_Forces>Rebel, Kuat, Rebel_Tank_Buster_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Kuat, Rebel_Light_Tank_Brigade</Starting_Forces>
 
+
 		<Starting_Forces>Rebel, Kashyyyk, R_Ground_Barracks</Starting_Forces>
 		<Starting_Forces>Rebel, Kashyyyk, Rebel_Infantry_Squad</Starting_Forces>
 
 		<Starting_Forces>Rebel, Kashyyyk, Mon_Mothma_Team</Starting_Forces>
+		<Starting_Forces>Rebel, Kashyyyk, Obi_Wan_Team</Starting_Forces>
 		<Starting_Forces>Rebel, Kashyyyk, Droids_Team</Starting_Forces>
+		<Starting_Forces>Rebel, Kashyyyk, Han_Solo_Team</Starting_Forces>
 		<Starting_Forces>Rebel, Kashyyyk, Sundered_Heart</Starting_Forces>
+		<Starting_Forces>Rebel, Kashyyyk, Home_One</Starting_Forces>
 		<Starting_Forces>Rebel, Kashyyyk, Red_Squadron</Starting_Forces>
 
 		<!-- EMPIRE STARTING FORCES -->
@@ -3609,6 +3623,8 @@
 		<Starting_Forces>Empire, Bestine, Darth_Team</Starting_Forces>
 		<Starting_Forces>Empire, Bestine, Grand_Moff_Tarkin_Team</Starting_Forces>
 		<Starting_Forces>Empire, Bestine, Boba_Fett_Team</Starting_Forces>
+		<Starting_Forces>Empire, Bestine, General_Veers_Team</Starting_Forces>
+		<Starting_Forces>Empire, Bestine, Accuser_Star_Destroyer</Starting_Forces>
 
 		<!-- PIRATE STARTING FORCES -->
 
@@ -3792,6 +3808,7 @@
 		<Starting_Forces>Rebel, Sullust, R_Ground_Barracks</Starting_Forces>
 		<Starting_Forces>Rebel, Sullust, Rebel_Infantry_Squad</Starting_Forces>
 
+
 		<Starting_Forces>Rebel, Naboo, Rebel_Star_Base_1</Starting_Forces>
 		<Starting_Forces>Rebel, Naboo, Rebel_X-Wing_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Naboo, Corellian_Corvette</Starting_Forces>
@@ -3799,17 +3816,20 @@
 		<Starting_Forces>Rebel, Naboo, R_Ground_Light_Vehicle_Factory</Starting_Forces>
 		<Starting_Forces>Rebel, Naboo, Rebel_Light_Tank_Brigade</Starting_Forces>
 
+
 		<Starting_Forces>Rebel, Tatooine, Rebel_Star_Base_1</Starting_Forces>
 		<Starting_Forces>Rebel, Tatooine, Rebel_X-Wing_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Tatooine, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine, Sundered_Heart</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine, Red_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine, Han_Solo_Team</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine, Home_One</Starting_Forces>
 
 		<Starting_Forces>Rebel, Tatooine, R_Ground_Light_Vehicle_Factory</Starting_Forces>
 		<Starting_Forces>Rebel, Tatooine, Rebel_Light_Tank_Brigade</Starting_Forces>
-
 		<Starting_Forces>Rebel, Tatooine, Mon_Mothma_Team</Starting_Forces>
 		<Starting_Forces>Rebel, Tatooine, Droids_Team</Starting_Forces>
-		<Starting_Forces>Rebel, Tatooine, Sundered_Heart</Starting_Forces>
-		<Starting_Forces>Rebel, Tatooine, Red_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine, Obi_Wan_Team</Starting_Forces>
 
 
 		<!-- EMPIRE STARTING FORCES -->
@@ -3819,10 +3839,12 @@
 
 		<Starting_Forces>Empire, Shola, Empire_Star_Base_1</Starting_Forces>
 		<Starting_Forces>Empire, Shola, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Shola, Accuser_Star_Destroyer</Starting_Forces>
 
 		<Starting_Forces>Empire, Shola, Imperial_Stormtrooper_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Shola, E_Ground_Barracks</Starting_Forces>
 		<Starting_Forces>Empire, Shola, Grand_Moff_Tarkin_Team</Starting_Forces>
+		<Starting_Forces>Empire, Shola, General_Veers_Team</Starting_Forces>
 
 
 		<Starting_Forces>Empire, MonCalimari, Empire_Star_Base_2</Starting_Forces>
@@ -3832,6 +3854,7 @@
 		<Starting_Forces>Empire, MonCalimari, Imperial_Anti_Infantry_Brigade</Starting_Forces>
 		<Starting_Forces>Empire, MonCalimari, Emperor_Palpatine_Team</Starting_Forces>
 		<Starting_Forces>Empire, MonCalimari, Darth_Team</Starting_Forces>
+
 
 		<Starting_Forces>Empire, NalHutta, Empire_Star_Base_1</Starting_Forces>
 		<Starting_Forces>Empire, NalHutta, Tartan_Patrol_Cruiser</Starting_Forces>
@@ -4089,7 +4112,6 @@
 		<Starting_Forces>Rebel, Yavin, Y-Wing_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Y-Wing_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Nebulon_B_Frigate</Starting_Forces>
-
 		<Starting_Forces>Rebel, Yavin, Sundered_Heart</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Red_Squadron</Starting_Forces>
 
@@ -4446,13 +4468,18 @@
 		<Starting_Credits>Rebel, 15000</Starting_Credits>
 		<Starting_Tech_Level>Rebel, 1</Starting_Tech_Level>
 
+		<!-- Rebel Space Forces YAVIN -->
 		<Starting_Forces>Rebel, Yavin, Rebel_Star_Base_3</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Nebulon_B_Frigate</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Alliance_Assault_Frigate</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Rebel_X-Wing_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Rebel_X-Wing_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Y-Wing_Squadron</Starting_Forces>
-
+		<Starting_Forces>Rebel, Yavin, Home_One</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin, Sundered_Heart</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin, Han_Solo_Team</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin, Red_Squadron</Starting_Forces>
+		<!-- Rebel Land Forces YAVIN -->
 		<Starting_Forces>Rebel, Yavin, R_Ground_Base_Shield</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Ground_Ion_Cannon</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Rebel_Infantry_Squad</Starting_Forces>
@@ -4461,22 +4488,25 @@
 		<Starting_Forces>Rebel, Yavin, Rebel_Artillery_Brigade</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Mon_Mothma_Team</Starting_Forces>
 		<Starting_Forces>Rebel, Yavin, Droids_Team</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin, Obi_Wan_Team</Starting_Forces>
 
 
+		<!-- Rebel Space Forces DANTOOINE -->
 		<Starting_Forces>Rebel, Dantooine, Rebel_Star_Base_2</Starting_Forces>
 		<Starting_Forces>Rebel, Dantooine, Marauder_Missile_Cruiser</Starting_Forces>
 		<Starting_Forces>Rebel, Dantooine, Y-Wing_Squadron</Starting_Forces>
-
+		<!-- Rebel Land Forces DANTOOINE -->
 		<Starting_Forces>Rebel, Dantooine, R_Ground_Light_Vehicle_Factory</Starting_Forces>
 		<Starting_Forces>Rebel, Dantooine, Rebel_Light_Tank_Brigade</Starting_Forces>
 		<Starting_Forces>Rebel, Dantooine, Rebel_Light_Tank_Brigade</Starting_Forces>
 		<Starting_Forces>Rebel, Dantooine, Rebel_Tank_Buster_Squad</Starting_Forces>
 
 
+		<!-- Rebel Space Forces MON CALAMARI -->
 		<Starting_Forces>Rebel, MonCalimari, Rebel_Star_Base_2</Starting_Forces>
 		<Starting_Forces>Rebel, MonCalimari, Corellian_Gunboat</Starting_Forces>
 		<Starting_Forces>Rebel, MonCalimari, Rebel_X-Wing_Squadron</Starting_Forces>
-
+		<!-- Rebel Land Forces MON CALAMARI -->
 		<Starting_Forces>Rebel, MonCalimari, R_Ground_Barracks</Starting_Forces>
 		<Starting_Forces>Rebel, MonCalimari, R_Ground_Officer_Academy</Starting_Forces>
 		<Starting_Forces>Rebel, MonCalimari, Rebel_Infantry_Squad</Starting_Forces>
@@ -4490,10 +4520,11 @@
 		<Starting_Credits>Empire, 15000</Starting_Credits>
 		<Starting_Tech_Level>Empire, 2</Starting_Tech_Level>
 
+		<!-- Empire Space Forces FONDOR -->
 		<Starting_Forces>Empire, Fondor, Empire_Star_Base_3</Starting_Forces>
 		<Starting_Forces>Empire, Fondor, Acclamator_Assault_Ship</Starting_Forces>
 		<Starting_Forces>Empire, Fondor, Victory_Destroyer</Starting_Forces>
-
+		<!-- Empire Land Forces FONDOR -->
 		<Starting_Forces>Empire, Fondor, E_Ground_Base_Shield</Starting_Forces>
 		<Starting_Forces>Empire, Fondor, Ground_Magnepulse_Cannon</Starting_Forces>
 		<Starting_Forces>Empire, Fondor, Imperial_Artillery_Corp</Starting_Forces>
@@ -4501,22 +4532,28 @@
 		<Starting_Forces>Empire, Fondor, Imperial_Stormtrooper_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Fondor, Imperial_Stormtrooper_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Fondor, Emperor_Palpatine_Team</Starting_Forces>
+		<Starting_Forces>Empire, Fondor, Grand_Moff_Tarkin_Team</Starting_Forces>
 		<Starting_Forces>Empire, Fondor, Darth_Team</Starting_Forces>
 
 
+		<!-- Empire Space Forces ATZERRI -->
 		<Starting_Forces>Empire, Atzerri, Empire_Star_Base_2</Starting_Forces>
 		<Starting_Forces>Empire, Atzerri, Acclamator_Assault_Ship</Starting_Forces>
-
+		<Starting_Forces>Empire, Atzerri, Boba_Fett_Team</Starting_Forces>
+		<!-- Empire Land Forces ATZERRI -->
 		<Starting_Forces>Empire, Atzerri, E_Ground_Light_Vehicle_Factory</Starting_Forces>
 		<Starting_Forces>Empire, Atzerri, E_Ground_Heavy_Vehicle_Factory</Starting_Forces>
 		<Starting_Forces>Empire, Atzerri, Imperial_Heavy_Scout_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Atzerri, Imperial_Heavy_Scout_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Atzerri, Imperial_Anti_Infantry_Brigade</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri, General_Veers_Team</Starting_Forces>
 
 
+		<!-- Empire Space Forces GEONOSIS -->
 		<Starting_Forces>Empire, Geonosis, Empire_Star_Base_2</Starting_Forces>
 		<Starting_Forces>Empire, Geonosis, Broadside_Class_Cruiser</Starting_Forces>
-
+		<Starting_Forces>Empire, Geonosis, Accuser_Star_Destroyer</Starting_Forces>
+		<!-- Empire Land Forces GEONOSIS -->
 		<Starting_Forces>Empire, Geonosis, E_Ground_Barracks</Starting_Forces>
 		<Starting_Forces>Empire, Geonosis, E_Ground_Officer_Academy</Starting_Forces>
 		<Starting_Forces>Empire, Geonosis, Imperial_Stormtrooper_Squad</Starting_Forces>
@@ -4837,7 +4874,7 @@
 		<Starting_Forces>Rebel, Endor, Rebel_X-Wing_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Endor, Rebel_X-Wing_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Endor, Rebel_X-Wing_Squadron</Starting_Forces>
-
+		<Starting_Forces>Rebel, Endor, Sundered_Heart</Starting_Forces>
 		<!-- Rebel Land Forces ENDOR -->
 		<Starting_Forces>Rebel, Endor, R_Ground_Turbolaser_Tower</Starting_Forces>
 		<Starting_Forces>Rebel, Endor, Rebel_Infantry_Squad</Starting_Forces>
@@ -4855,6 +4892,9 @@
 		<Starting_Forces>Rebel, Hoth, Rebel_X-Wing_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Hoth, Rebel_X-Wing_Squadron</Starting_Forces>
 		<Starting_Forces>Rebel, Hoth, Rebel_X-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth, Han_Solo_Team</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth, Home_One</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth, Red_Squadron</Starting_Forces>
 		<!-- Rebel Land Forces HOTH -->
 		<Starting_Forces>Rebel, Hoth, R_Ground_Barracks</Starting_Forces>
 		<Starting_Forces>Rebel, Hoth, R_Ground_Turbolaser_Tower</Starting_Forces>
@@ -4863,6 +4903,8 @@
 		<Starting_Forces>Rebel, Hoth, Rebel_Tank_Buster_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Hoth, Rebel_Tank_Buster_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Hoth, Mon_Mothma_Team</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth, Obi_Wan_Team</Starting_Forces>
+
 
 		<!-- Rebel Space Forces YAVIN -->
 		<Starting_Forces>Rebel, Yavin, Rebel_Star_Base_2</Starting_Forces>
@@ -4890,19 +4932,23 @@
 		<!-- Empire Space Forces BYSS -->
 		<Starting_Forces>Empire, Byss, Empire_Star_Base_1</Starting_Forces>
 		<Starting_Forces>Empire, Byss, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Byss, Accuser_Star_Destroyer</Starting_Forces>
 		<!-- Empire Land Forces BYSS -->
 		<Starting_Forces>Empire, Byss, E_Ground_Light_Vehicle_Factory</Starting_Forces>
 		<Starting_Forces>Empire, Byss, E_Ground_Turbolaser_Tower</Starting_Forces>
 		<Starting_Forces>Empire, Byss, Imperial_Stormtrooper_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Byss, Imperial_Light_Scout_Squad</Starting_Forces>
 
+
 		<!-- Empire Space Forces CORULAG -->
 		<Starting_Forces>Empire, Corulag, Empire_Star_Base_1</Starting_Forces>
 		<Starting_Forces>Empire, Corulag, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Corulag, Boba_Fett_Team</Starting_Forces>
 		<!-- Empire Land Forces CORULAG -->
 		<Starting_Forces>Empire, Corulag, E_Ground_Barracks</Starting_Forces>
 		<Starting_Forces>Empire, Corulag, Imperial_Stormtrooper_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Corulag, Imperial_Light_Scout_Squad</Starting_Forces>
+
 
 		<!-- Empire Space Forces CORUSCANT -->
 		<Starting_Forces>Empire, Coruscant, Empire_Star_Base_2</Starting_Forces>
@@ -4917,7 +4963,9 @@
 		<Starting_Forces>Empire, Coruscant, Imperial_Stormtrooper_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Coruscant, Imperial_Heavy_Scout_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Coruscant, Emperor_Palpatine_Team</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant, Grand_Moff_Tarkin_Team</Starting_Forces>
 		<Starting_Forces>Empire, Coruscant, Darth_Team</Starting_Forces>
+
 
 		<!-- Empire Space Forces TARIS -->
 		<Starting_Forces>Empire, Taris, Empire_Star_Base_1</Starting_Forces>
@@ -4925,6 +4973,7 @@
 		<!-- Empire Land Forces TARIS -->
 		<Starting_Forces>Empire, Taris, Imperial_Stormtrooper_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Taris, Imperial_Light_Scout_Squad</Starting_Forces>
+		<Starting_Forces>Empire, Taris, General_Veers_Team</Starting_Forces>
 
 
 		<!-- ***** Pirate Starting Forces ***** -->
@@ -5378,7 +5427,5 @@
 		<!-- Space Forces THYFERRA -->
 
 		<!-- Land Forces THYFERRA -->
-
-
 	</Campaign>
 </Campaigns>

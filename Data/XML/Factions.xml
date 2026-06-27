@@ -743,6 +743,7 @@
 		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
 
 		<Multiplayer_Campaign_Heroes>
+		<!-- AM1994 (06-26-26): Disable to prevent FoC heroes spawning in EaW MPGCs. -->
 		<!--
 			Mon_Mothma_Team,
 			Droids_Team,
@@ -1479,6 +1480,7 @@
 		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
 
 		<Multiplayer_Campaign_Heroes>
+		<!-- AM1994 (06-26-26): Disable to prevent FoC heroes spawning in EaW MPGCs. -->
 		<!--
 			Grand_Moff_Tarkin_Team,
 			Emperor_Palpatine_Team,
@@ -1504,7 +1506,6 @@
 			Generic_Black_Market_Corruption_Upgrade,
 			Generic_Bonded_Citizens_Corruption_Upgrade
 		</Automatic_Planetary_Corruption_Upgrade_Type>
-
 	</Faction>
 
 	<Faction Name="Pirates">
