@@ -1213,7 +1213,8 @@
 
 	<GroundCompany Name="Hutt_Skiff_Team">
 		<Text_ID>TEXT_PIRATE_SKIFF_TEAM</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SKIFF</Encyclopedia_Text>
 		<Encyclopedia_Good_Against>AT_ST_Walker T2B_Tank</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Plex_Soldier M1_Repulsor_Tank</Encyclopedia_Vulnerable_To>
 		<Is_Dummy>Yes</Is_Dummy>

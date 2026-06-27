@@ -673,8 +673,11 @@
 
 	<GroundCompany Name="Pirate_Skiff_Team">
 		<Text_ID>TEXT_PIRATE_SKIFF_TEAM</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SKIFF</Encyclopedia_Text>
 		<Encyclopedia_Good_Against>AT_ST_Walker T2B_Tank</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Plex_Soldier M1_Repulsor_Tank</Encyclopedia_Vulnerable_To>
+
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>15</Damage>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -692,7 +695,6 @@
 		<Tech_Level>6</Tech_Level>
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits>300</Score_Cost_Credits>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Text>
 	</GroundCompany>
 
 	<GroundCompany Name="Empire_Pirate_Skiff_Team"> <!--Multiplayer Only-->
@@ -714,9 +716,6 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-		<Encyclopedia_Text>TEXT_TOOLTIP_SKIFF</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 	</GroundCompany>
 
 	<GroundCompany Name="Rebel_Pirate_Skiff_Team"> <!--Multiplayer Only-->
@@ -738,9 +737,6 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-		<Encyclopedia_Text>TEXT_TOOLTIP_SKIFF</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 	</GroundCompany>
 
 
@@ -763,9 +759,6 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-		<Encyclopedia_Text>TEXT_TOOLTIP_SKIFF</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 	</GroundCompany>
 
 

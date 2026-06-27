@@ -89,6 +89,7 @@ Audio Fixes:
 Interface Fixes:
 • The SPMA-T Artillery's command bar icon was not centered.  Yes, it was annoying. (BUG #782)
 • The Imperial Observation Bunker used in Empire campaign mission #7 ("A New Weapon of War") and Rebel campaign mission #9 ("Handle with Care!") didn't have a tooltip icon.  It was likely that EaW didn't ship with one - however, the model was reused as the Imperial infantry bunker in Skirmish, which did receive an icon, and it has been applied to the Observation Bunker. (BUG #786)
+• The Skiff Brigade unit for the Black Sun Pirates (used in EaW SP/MPGCs) and Jabba's Criminal Empire (Consortium campaign) had their tooltips messed up: they lacked a description, and their unit class was mistakenly put in their description. (BUG #814)
 
 
 Map/Planet Fixes:
