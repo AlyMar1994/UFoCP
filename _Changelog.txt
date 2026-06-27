@@ -112,6 +112,7 @@ Unit Fixes:
 • Crusader-class Corvettes were modeled poorly, and its engines created over 200 particles per second while active in battle.  In addition, its engines wouldn't dim when stationary, unlike most ships from EaW.  A new model by Galyana from "Secrets of a Fallen Empire" has been provided. (BUG #813) (Thanks, galyana!)
 • IG-2000 (IG-88)'s engines wouldn't dim when stationary, unlike most ships from EaW. (BUG #813)
 • Keldabe-class Battleships' engines wouldn't dim when stationary or disable when destroyed, unlike most ships from EaW. (BUG #813)
+• TIE Advanced x1 - Darth Vader didn't use and wouldn't regenerate his shields because his TIE/ad didn't have the "SHIELDED" behavior. (BUG #812)
 
 
 Upgrade Fixes:
