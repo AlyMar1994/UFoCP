@@ -172,7 +172,7 @@
 		<Abilities SubObjectList="Yes">
 
 			<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L2">
-				<Initially_Enabled>No</Initially_Enabled>		<!-- Must be enabled via the EL_Heavy_Reflective_Armor_L2_Upgrade -->
+				<Initially_Enabled>No</Initially_Enabled> <!-- Must be enabled via the US_Magnetically_Sealed_Armor_L2_Upgrade -->
 				<Activation_Style>Take_Damage</Activation_Style>
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.0</Redirect_Chance>
@@ -187,7 +187,7 @@
 			</Redirect_Blaster_Ability>
 
 			<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L3">
-				<Initially_Enabled>No</Initially_Enabled>		<!-- Must be enabled via the EL_Heavy_Reflective_Armor_L2_Upgrade -->
+				<Initially_Enabled>No</Initially_Enabled> <!-- Must be enabled via the US_Magnetically_Sealed_Armor_L3_Upgrade -->
 				<Activation_Style>Take_Damage</Activation_Style>
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.0</Redirect_Chance>

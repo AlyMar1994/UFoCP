@@ -165,7 +165,7 @@
 			<Unit_Ability>
 				<Type>LEECH_SHIELDS</Type>
 				<Recharge_Seconds>55.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Kadalbe_Leech_Shields</GUI_Activated_Ability_Name><!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Kadalbe_Leech_Shields</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
 				<Effective_Radius>500.0</Effective_Radius>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Leech_Sheilds_Kadalbe</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_Target_Ability>Unit_Leech_Sheilds_Kadalbe</SFXEvent_Target_Ability>
@@ -196,7 +196,7 @@
 			</Leech_Shields_Ability>
 
 			<Redirect_Blaster_Ability Name="US_Magnetically_Sealed_Armor_Bonus_L3">
-				<Initially_Enabled>No</Initially_Enabled><!-- Must be enabled via the EL_Heavy_Reflective_Armor_L2_Upgrade -->
+				<Initially_Enabled>No</Initially_Enabled> <!-- Must be enabled via the US_Magnetically_Sealed_Armor_L3_Upgrade -->
 				<Activation_Style>Take_Damage</Activation_Style>
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.0</Redirect_Chance>
