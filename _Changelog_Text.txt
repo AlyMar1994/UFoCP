@@ -57,11 +57,19 @@ Housekeeping:
 • Various instances of "C3P0" or "C-3P0" have been corrected to "C-3PO."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.  Only the English, Japanese and Polish translations suffered this issue.
 
 
+• TEXT_HERO_VADER_TEAM: (BUG #820)
+	-- ENG: Darth Vader --> Black Squadron
+	-- GER: Darth Vader --> Schwarzes Geschwader
+
 • TEXT_TOOLTIP_TECH_LEVEL_REBEL: (BUG #783)
 	-- ENG: ...The Rebellion advances their tech tree by stealing technology from the Empire with R2-D2 and C3PO. ... --> ...The Rebellion advances their tech tree by stealing technology from the Empire with R2-D2 and C-3PO. ...
 
 • TEXT_TOOLTIP_Z95_HEADHUNTER: (BUG #799)
 	-- ENG: Out-dated fighter armed with light laser cannons. ... --> Outdated fighter armed with light laser cannons. ...
+
+• TEXT_UNIT_TIE_PROTOTYPE: (BUG #820)
+	-- ENG: TIE Advanced X-1 --> Black Leader: Darth Vader
+	-- GER: TIE Advanced X-1 --> Schwarz 1: Darth Vader
 
 • TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L2: (BUG #794)
 	-- ENG: Increases the damage dealt by Anti-Infantry, Anti-Vehicle and Anti-Aircraft turrets by 25%. --> Increases the damage dealt by Anti-Infantry, Anti-Vehicle, Anti-Aircraft and the MDU's Concussion Grenade Mortar turrets by 25%.

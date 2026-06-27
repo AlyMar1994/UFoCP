@@ -1033,7 +1033,7 @@
 
 
 	<HeroCompany Name="Darth_Team">
-		<Text_ID>TEXT_HERO_VADER_TEAM</Text_ID>
+		<Text_ID>TEXT_HERO_DARTH_VADER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DARTH_VADER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
@@ -1138,6 +1138,8 @@
 	<HeroCompany Name="Darth_Team_Land_MP">
 		<Variant_Of_Existing_Type>Darth_Team_Executor</Variant_Of_Existing_Type> <!-- AM1994: Swap to Darth_Team_Executor so FoC's land Vader takes priority. -->
 
+		<Encyclopedia_Text>TEXT_TOOLTIP_DARTH_VADER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+
 		<Tech_Level>99</Tech_Level>
 		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>33</Tactical_Build_Time_Seconds>
@@ -1151,6 +1153,7 @@
 	<HeroCompany Name="Darth_Team_Space_MP">
 		<Variant_Of_Existing_Type>Darth_Team</Variant_Of_Existing_Type>
 
+		<Text_ID>TEXT_HERO_VADER_TEAM</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_ADVANCED</Encyclopedia_Text>
 		<Encyclopedia_Good_Against>Y-Wing Z-95_Headhunter_Rebel Starviper_Fighter</Encyclopedia_Good_Against>
@@ -1165,8 +1168,10 @@
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 	</HeroCompany>
 
-	<!-- AM1994: Used for UW Campaign, Vader camping out -->
-	<!-- on Bespin after the raid on Cloud City. -->
+	<!--
+		AM1994: Used for UW Campaign, Vader camping out
+		on Bespin after the raid on Cloud City.
+	-->
 	<HeroCompany Name="Darth_Team_Land_Bounty_Hunter_Immune">
 		<Variant_Of_Existing_Type>Darth_Team_Executor</Variant_Of_Existing_Type>
 
@@ -1180,6 +1185,7 @@
 	<Squadron Name="Darth_Vader_TIE_Fighter_Squadron">
 		<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
 
+		<Text_ID>TEXT_HERO_VADER_TEAM</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_ADVANCED</Encyclopedia_Text>
 		<Encyclopedia_Good_Against>Y-Wing Z-95_Headhunter_Rebel Starviper_Fighter</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>Corellian_Corvette Crusader_Gunship A-Wing</Encyclopedia_Vulnerable_To>
@@ -1194,7 +1200,7 @@
 	</Squadron>
 
 	<Container Name="Darth_Vader_TIE_Fighter_Container">
-		<Text_ID>TEXT_HERO_DARTH_VADER</Text_ID>
+		<Text_ID>TEXT_HERO_VADER_TEAM</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_ADVANCED</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR</Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against>Y-Wing Z-95_Headhunter_Rebel Starviper_Fighter</Encyclopedia_Good_Against>
