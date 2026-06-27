@@ -573,7 +573,19 @@
 		<Surface_Bombardment_Capable>No</Surface_Bombardment_Capable>
 
 		<Behavior>TRANSPORT</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX, NEBULA, DAMAGE_TRACKING</SpaceBehavior>
+		<SpaceBehavior>
+			ABILITY_COUNTDOWN,
+			FIGHTER_LOCOMOTOR,
+			SELECTABLE,
+			TARGETING,
+			WEAPON,
+			POWERED,
+			REVEAL,
+			HIDE_WHEN_FOGGED,
+			AMBIENT_SFX,
+			NEBULA,
+			DAMAGE_TRACKING
+		</SpaceBehavior>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>100</Damage>
