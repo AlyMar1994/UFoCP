@@ -56,18 +56,7 @@ Balance Changes:
 • X-wings received a small buff where their "max targeting distance" didn't match their maximum FoW reveal distance, unlike basically every other fighter in the game. (BUG #417)
 
 
-Multiplayer:
-• While desyncs are primarily a Petroglyph issue, thanks to reports from Galyana of "Secrets of a Fallen Empire," multiple assertion errors (internal errors that may desync the game) have been fixed.  Multiple props have been decoupled from the clients' network, including hardpoint break-off graphics, land and space props.  Work will continue to try and make MP more stable. (BUG #519)
-•• (In addition, if you'd like to help Petroglyph diagnose crashes and desyncs when they happen, add "ENABLE_UPLOADS DUMP_FULL" to your command line arguments (for example, "STEAMMOD=1548018187 ENABLE_UPLOADS DUMP_FULL").  This will enable the crash reporter and frame logger, which will send a large memory dump and crash report to Petroglyph.  It is not recommended to run these commands with large overhaul mods that would send useless data.)
-
-• Fixed an exploit where heroes (such as Darth Vader and the Executor) could be duplicated if certain conditions were met. (BUG #273)
-• MP Space combat stability should be greatly improved (and marginally for Land combat, as well).  For the Long Version(tm), see the GitHub.  In short, when an object (and/or the "container" [the icon] that owned an object) was destroyed in combat, those objects were never properly removed from the game session - they would still exist, invisible, be synched between clients and cause performance drops as more of them stacked up between players and/or the AI.  Now, every type of "container," space "death clone" and object should be removed upon death. (BUG #673)
-• Reinforcement Points have received XML AI categories to prevent throwing assertion errors every few frames when present in a battle. (BUG #676)
-• As a part of BUG #482 (mentioned below), Fondor, Kuat and Mon Calamari now use optimized, MP-friendly (unsynchronized) drydock props, which should result in a positive boost for performance and MP stability.
-• As a part of BUG #683 (mentioned below), MP Space Kuat now uses optimized, MP-friendly (unsynchronized) drydock models, meaning there is now a net-positive network impact (compared to EaW and vanilla FoC).
-
-
-ENHANCEMENTS:
+Enhancements:
 • Distant and angled textures are now much sharper.  EaW and FoC originally used linear filtering for texture rendering, but a new set of shaders has been implemented that now leverage x16 anisotropic filtering instead. (Thanks, evilbobthebob!) (BUG #379)
 • The shadow mesh for the Canderous Assault Tank had awkward geometry that wouldn't properly reflect shadows on or off the model in certain conditions. (Thanks, theshyshallot!) (BUG #388)
 
@@ -78,6 +67,17 @@ ENHANCEMENTS:
 • The Land and Space Combat camera settings have been adjusted to increase the draw distance.  Petroglyph used conservative values for performance reasons - but now we don't have to be so frugal with rendering.  The improved values can be viewed on the GitHub report. (BUG #529)
 • The orbital drydock props, occasionally used on shipyard planets or in story missions involving dockyards, have received a new minimap icon (instead of using a large square). (BUG #682) (Thanks, .lany!)
 • Space Fondor, Kuat, Mon Calamari and related Piracy missions inconsistently supported whichever faction owned the space above the planet (not having faction-based "drydock" units in orbital dockyards).  Fondor and Kuat only had Empire ships (only when the Empire owns the planet), Mon Calamari had both Empire and Rebel ships, but no map had Consortium skips - now, every map supports every main faction.  Multiple custom props were created and placed, which are not only more performant than the original drydock props, but are also MP-friendly and should result in less MPGC instability. (BUG #482)
+
+
+Multiplayer:
+• While desyncs are primarily a Petroglyph issue, thanks to reports from Galyana of "Secrets of a Fallen Empire," multiple assertion errors (internal errors that may desync the game) have been fixed.  Multiple props have been decoupled from the clients' network, including hardpoint break-off graphics, land and space props.  Work will continue to try and make MP more stable. (BUG #519)
+•• (In addition, if you'd like to help Petroglyph diagnose crashes and desyncs when they happen, add "ENABLE_UPLOADS DUMP_FULL" to your command line arguments (for example, "STEAMMOD=1548018187 ENABLE_UPLOADS DUMP_FULL").  This will enable the crash reporter and frame logger, which will send a large memory dump and crash report to Petroglyph.  It is not recommended to run these commands with large overhaul mods that would send useless data.)
+
+• Fixed an exploit where heroes (such as Darth Vader and the Executor) could be duplicated if certain conditions were met. (BUG #273)
+• MP Space combat stability should be greatly improved (and marginally for Land combat, as well).  For the Long Version(tm), see the GitHub.  In short, when an object (and/or the "container" [the icon] that owned an object) was destroyed in combat, those objects were never properly removed from the game session - they would still exist, invisible, be synched between clients and cause performance drops as more of them stacked up between players and/or the AI.  Now, every type of "container," space "death clone" and object should be removed upon death. (BUG #673)
+• Reinforcement Points have received XML AI categories to prevent throwing assertion errors every few frames when present in a battle. (BUG #676)
+• As a part of BUG #482 (mentioned below), Fondor, Kuat and Mon Calamari now use optimized, MP-friendly (unsynchronized) drydock props, which should result in a positive boost for performance and MP stability.
+• As a part of BUG #683 (mentioned below), MP Space Kuat now uses optimized, MP-friendly (unsynchronized) drydock models, meaning there is now a net-positive network impact (compared to EaW and vanilla FoC).
 
 
 Ability Fixes:
