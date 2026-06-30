@@ -32,26 +32,28 @@ I hope you enjoy UFCP!  Send patches.
 CREDITS:
 Modeling:
 - .lany
--- P_Corrupt_Planet2.alo - More performant corruption particle
+-- P_Corrupt_Planet2 - More performant corruption particle
 
 - galyana
--- UB_Barracks.alo - Fixed Consortium Barracks spawn bone
--- UB_Droidworks.alo - Fixed Consortium Droidworks spawn bones
+-- UB_Barracks - Fixed Consortium Barracks spawn bone
+-- UB_Droidworks - Fixed Consortium Droidworks spawn bones
 -- NV_PSkiff_Underworld - Fixed Consortium Pirate Skiff not using Consortium infantry
 -- NV_SwampSpeeder_U - Fixed shadow mesh (v2.1)
--- UV_CanderousAssaultTank.alo - Fixed/improved Canderous Assault Tanks animations, collision and model data (v2.1)
--- UV_Vengeance_HP_RGT_TB.alo - Fixed Vengeance Frigate turbolaser mesh
--- W_Bush_Swmp00.alo - New swamp bush model
--- RB_Station_03_HP03_IC.alo - Fixed lv.3 station ion cannon tower
+-- UV_CanderousAssaultTank - Fixed/improved Canderous Assault Tanks animations, collision and model data (v2.1)
+-- UV_Vengeance_HP_RGT_TB - Fixed Vengeance Frigate turbolaser mesh
+-- W_Bush_Swmp00 - New swamp bush model
+-- RB_Station_03_HP03_IC - Fixed lv.3 station ion cannon tower
+-- UV_CrusaderClassCorvette + PE_CrusaderEngines - Fixed Crusader-class engine particles
+-- UV_KedalbeBattleship + UV_KedalbeBattleship_HP_E_00/01 - Fixed Keldabe-class engine particles
 
 - irampagingrhin0
--- NV_JediCruiser.alo - Fixed Venator shield/bumpmap mesh
+-- NV_JediCruiser - Fixed Venator shield/bumpmap mesh
 
 - theshyshallot
--- UB_XX_Station.alo - Fixed Consortium space station models having irregular collision
--- RB/UB_TLTower.alo - Fixed red muzzle flashes for Consortium & Rebel turbolaser tower models
--- NV_SwampSpeeder_U.alo - Fixed Consortium swamp speeder models not using Consortium infantry (v2.0)
--- UV_CanderousAssaultTank.alo - Fixed Canderous Assault Tank shadow mesh/collision boxes (v2.0)
+-- UB_XX_Station - Fixed Consortium space station models having irregular collision
+-- RB/UB_TLTower - Fixed red muzzle flashes for Consortium & Rebel turbolaser tower models
+-- NV_SwampSpeeder_U - Fixed Consortium swamp speeder models not using Consortium infantry (v2.0)
+-- UV_CanderousAssaultTank - Fixed Canderous Assault Tank shadow mesh/collision boxes (v2.0)
 
 
 Scripting:

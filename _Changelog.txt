@@ -55,14 +55,14 @@ ENHANCEMENTS:
 •• Fixed various oddities owed to props and objects having their sizes increased/decreased with the release of FoC (f.e., the Comm. Array in Rebel campaign mission #2 "Interpreting the Network").
 •• Darth Vader was added into Rebel campaign mission #11 ("Attack on the Death Star").  This is because it's cool.
 •• Fixed GC win videos not playing after completing a win condition (for both story and normal Galactic Conquests).
-•• Added "alternate history" versions of EaW/FoC's GC campaigns.  FoC campaigns (such as Equal Footing, or Clusters) have received variants where you can play with EaW Heroes instead of FoC ones, with the option of "upgrading" Vader from his starfighter squadron to the Executor by purchasing him like normal.  EaW campaigns have received the same treatment, with variants with FoC Heroes.  Unfortunately, due to engine limitations, the original Death Star has not been re-enabled for the EaW GCs, though the DS2 can still be built like normal and operates the same way.
-•• Reimplemented the EaW MPGC maps.  These currently do not have hero-swapped "alternate history" versions.
+•• Added "alternate history" versions of EaW/FoC's GC campaigns.  FoC campaigns (such as Equal Footing, or Clusters) have received variants where you can play with EaW Heroes instead of FoC ones, with the option of "upgrading" Vader from his starfighter squadron to the Executor by purchasing him like normal.  EaW campaigns have received the same treatment, with variants with FoC Heroes.
+•• Reimplemented the EaW MPGC maps.  These currently don't have hero-swapped "alternate history" versions.
 
 • B-wings and TIE defenders no longer use the Y-wing, TIE bomber or Skipray Blastboat model when summoned for bombing runs, respectively.  They now use their own models - in addition, TIE defenders are now capable of triggering bombing runs from orbit (where before they couldn't, unlike the B-wing). (BUG #777)
 
 
 HOUSEKEEPING:
-• Due to the EaW GCs naturally having around 20k credits, the SP and MPGC credit cap Advanced Option has been increased to 30k credits from 12k.
+• Due to the EaW GCs naturally having around 20k starting credits, the SP and MPGC credit cap Advanced Option has been increased to 30k (from 12k) credits.
 ======
 
 
@@ -87,6 +87,7 @@ Audio Fixes:
 
 
 Interface Fixes:
+• Indigenous Mustafarians (who inhabit a magma planet) used the generic arctic human icon in their encyclopedia tooltip. (BUG #739) (Thanks, cha20202!)
 • The SPMA-T Artillery's command bar icon was not centered.  Yes, it was annoying. (BUG #782)
 • The Imperial Observation Bunker used in Empire campaign mission #7 ("A New Weapon of War") and Rebel campaign mission #9 ("Handle with Care!") didn't have a tooltip icon.  It was likely that EaW didn't ship with one - however, the model was reused as the Imperial infantry bunker in Skirmish, which did receive an icon, and it has been applied to the Observation Bunker. (BUG #786)
 • The Skiff Brigade unit for the Black Sun Pirates (used in EaW SP/MPGCs) and Jabba's Criminal Empire (Consortium campaign) had their tooltips messed up: they lacked a description, and their unit class was mistakenly put in their description. (BUG #814)
@@ -99,23 +100,24 @@ Map/Planet Fixes:
 • Land Jabiim would allow The Gargantuan - Garm Bel Iblis to land or raid the planet, despite him piloting a repulsorlift vehicle.  He now no longer can participate due to the planet's special ability. (BUG #818)
 
 
+Model Fixes:
+• TIE defenders didn't use their "chin cannons" in combat. (BUG #757)
+• TIE phantoms didn't use their "chin cannons" in combat. (BUG #762)
+• The Crusader-class Corvette model's engines spawned over 200 particles per second while active in battle.  In addition, its engines wouldn't dim when stationary, unlike most ships from EaW.  A new, optimized model from "Secrets of a Fallen Empire" has been provided. (BUG #813) (Thanks, galyana!)
+• Keldabe-class Battleships, IG-2000, Skipray Blastboats and the engines of the Consortium's generic unit transport wouldn't dim when stationary or disable when destroyed, unlike most ships from EaW. (BUG #813) (Thanks, galyana!)
+
+
 Script/Story Fixes:
 • Rebel campaign mission #3 ("Theft of the X-wings") had a mysterious bubble of revealed fog-of-war behind the Imperial Officer Academy, at the top of the map.  Turns out, there was an invisible "reveal" object for testing purposes that was never removed from the map. (BUG #784)
 • Rebel campaign mission #7 ("Needle in a Haystack") had a scripting error where upon Boba Fett finding Han Solo, Solo would ask Chewie who that bozo is; but for some reason, Solo's hologram was programmed to use the Station Commander's Moff hologram instead of his own. (BUG #785) (Thanks, cha20202!)
 
 
 Unit Fixes:
-• Indigenous Mustafarians (who inhabit a magma planet) used the generic arctic human icon in their encyclopedia tooltip. (BUG #739) (Thanks, cha20202!)
 • Various Hero abilities were inconsistent in what units they applied to (for example, despite tooltips claiming abilities applied to "all units," some wouldn't apply to bombers and unit transports while others would).  In addition, some Hero abilities (such as Thrawn's Fleet Commander bonuses) didn't apply its speed buff to fighters due to issues with the units' "containers."  These have been universally fixed. (BUG #792)
-• TIE defenders didn't use their "chin cannons" in combat. (BUG #757)
 • B-wings didn't use their laser cannons' muzzle flashes in combat. (BUG #758)
-• TIE phantoms didn't use their "chin cannons" in combat. (BUG #762)
 • IG-2000 (IG-88) didn't use his laser cannons' muzzle flashes in combat. (BUG #768)
 • The Hound's Tooth (Bossk) didn't use his laser cannons' muzzle flashes in combat. (BUG #769)
-• Crusader-class Corvettes were modeled poorly, and its engines created over 200 particles per second while active in battle.  In addition, its engines wouldn't dim when stationary, unlike most ships from EaW.  A new model by Galyana from "Secrets of a Fallen Empire" has been provided. (BUG #813) (Thanks, galyana!)
-• IG-2000 (IG-88)'s engines wouldn't dim when stationary, unlike most ships from EaW. (BUG #813)
-• Keldabe-class Battleships' engines wouldn't dim when stationary or disable when destroyed, unlike most ships from EaW. (BUG #813)
-• TIE Advanced x1 - Darth Vader didn't use and wouldn't regenerate his shields because his TIE/ad didn't have the "SHIELDED" behavior. (BUG #812)
+• TIE Advanced x1 - Darth Vader didn't and wouldn't regenerate his shields because his TIE Advanced x1 didn't have the "SHIELDED" behavior. (BUG #812)
 
 
 Upgrade Fixes:
