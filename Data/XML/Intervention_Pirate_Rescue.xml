@@ -26,7 +26,7 @@
 
 	<Event Name="Pirate_Rescue_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Param>TRIGGER_AI</Reward_Param>
+		<Reward_Type>TRIGGER_AI</Reward_Type>
 		<Reward_Param1>PIRATE_RESCUE_NOTIFICATION_00</Reward_Param1>
 		<Prereq>Pirate_Rescue_01</Prereq>
 	</Event>
