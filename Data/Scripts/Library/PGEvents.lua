@@ -45,9 +45,9 @@
 require("PGTaskForce")
 
 function GoHeal(tf, unit, healer, release)
-	--If we can lay proximity mines, do so and then rely on a further call to kite the enemy over them
-	--Add a random factor here since proximity mines currently have no cooldown and so we'll never run
-	--because we can always use them
+	-- If we can lay proximity mines, do so and then rely on a further call to kite the enemy over them
+	-- Add a random factor here since proximity mines currently have no cooldown and so we'll never run
+	-- because we can always use them
 	if (GameRandom.Get_Float() > 0.5) and Try_Ability(unit, "PROXIMITY_MINES", unit) then
 		return
 	end
@@ -74,9 +74,9 @@ function GoHeal(tf, unit, healer, release)
 end
 
 function GoKite(tf, unit, kite_pos, release)
-	--If we can lay proximity mines, do so and then rely on a further call to kite the enemy over them
-	--Add a random factor here since proximity mines currently have no cooldown and so we'll never run
-	--because we can always use them
+	-- If we can lay proximity mines, do so and then rely on a further call to kite the enemy over them
+	-- Add a random factor here since proximity mines currently have no cooldown and so we'll never run
+	-- because we can always use them
 	if (GameRandom.Get_Float() > 0.5) and Try_Ability(unit, "PROXIMITY_MINES", unit) then
 		return
 	end
@@ -165,8 +165,7 @@ function Respond_To_MinRange_Attacks(tf, unit)
 
 			-- Move any units in the task force which are in range of the attacker
 			-- to a position over the max range or under the min range
-			local approach_or_flee_range = ((deadly_enemy_type.Get_Max_Range() - deadly_enemy_type.Get_Min_Range()) * 2 / 3) +
-				deadly_enemy_type.Get_Min_Range()
+			local approach_or_flee_range = ((deadly_enemy_type.Get_Max_Range() - deadly_enemy_type.Get_Min_Range()) * 2 / 3) + deadly_enemy_type.Get_Min_Range()
 			for i, tf_unit in pairs(tf.Get_Unit_Table()) do
 				DebugMessage("%s -- considering run or approach for %s", tostring(Script), tostring(tf_unit))
 
@@ -193,7 +192,7 @@ end
 
 function Is_Type_In_List(unit_type, type_name_list)
 	for i, type_name in pairs(type_name_list) do
-		DebugMessage("%s -- type:%s checking match to:%s", tostring(Script), unit_type.Get_Name(), type_name)
+		DebugMessage("%s -- type: %s checking match to: %s", tostring(Script), unit_type.Get_Name(), type_name)
 		if unit_type == Find_Object_Type(type_name) then
 			return true
 		end
@@ -282,7 +281,7 @@ function Default_Unit_Damaged(tf, unit, attacker, deliberate)
 	end
 
 	if (not lib_ability_activated) and (lib_shield_level < 0.8) then
-		lib_ability_activated = Try_Ability(unit, "Defend")
+		lib_ability_activated = Try_Ability(unit, "DEFEND")
 	end
 
 	-- AM1994 (07/01/26) - Killed as a part of UFCP #774
@@ -331,7 +330,7 @@ function Default_Unit_Damaged(tf, unit, attacker, deliberate)
 			(lib_is_hero and lib_current_health < 0.6) or
 			(lib_current_health < 0.7 and lib_attacker_is_good_vs_me) or
 			(lib_current_health < 0.4 and not lib_i_am_good_vs_attacker) then
-			--Certain factions have no self-preservation
+			-- Certain factions have no self-preservation
 			lib_faction_name = unit.Get_Owner().Get_Faction_Name()
 			if lib_faction_name == "PIRATES" or lib_faction_name == "HUTTS" then
 				return
@@ -516,5 +515,5 @@ end
 
 -- An ability finished naturally by its duration running out or by being turned off.
 function Default_Unit_Ability_Finished(tf, unit)
-	--DebugMessage("%s -- An ability for %s has finished!", tostring(Script), ability, tostring(unit))
+	--DebugMessage("%s -- An ability (%s) for %s has finished!", tostring(Script), ability, tostring(unit))
 end
