@@ -37,7 +37,7 @@
 		<Event_Type>STORY_CONQUER</Event_Type>
 		<Event_Param1 />
 		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
-		<Reward_Param>TRIGGER_AI</Reward_Param>
+		<Reward_Type>TRIGGER_AI</Reward_Type>
 		<Reward_Param1>VADER_FAVOR_NOTIFICATION_00</Reward_Param1>
 		<Prereq>Vader_Favor_01</Prereq>
 	</Event>

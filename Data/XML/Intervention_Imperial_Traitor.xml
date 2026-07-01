@@ -24,7 +24,7 @@
 
 	<Event Name="Imperial_Traitor_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Param>TRIGGER_AI</Reward_Param>
+		<Reward_Type>TRIGGER_AI</Reward_Type>
 		<Reward_Param1>IMPERIAL_TRAITOR_NOTIFICATION_00</Reward_Param1>
 		<Prereq>Imperial_Traitor_01</Prereq>
 	</Event>

@@ -119,7 +119,7 @@ Script/Story Fixes:
 • Rebel campaign mission #3 ("Theft of the X-wings") had a mysterious bubble of revealed fog-of-war behind the Imperial Officer Academy, at the top of the map.  Turns out, there was an invisible "reveal" object for testing purposes that was never removed from the map. (BUG #784)
 • Rebel campaign mission #7 ("Needle in a Haystack") had a scripting error where upon Boba Fett finding Han Solo, Solo would ask Chewie who that bozo is; but for some reason, Solo's hologram was programmed to use the Station Commander's Moff hologram instead of his own. (BUG #785) (Thanks, cha20202!)
 • The GC Intervention "Attrition" for both Empire and Rebels used the story's ending dialogue instead of the introduction dialogue upon starting.  In addition, the ending dialogue wouldn't play when completed because the dialogue wasn't implemented. (BUG #828)
-• The GC Intervention "Pirate Rescue" had wrong completion dialogue text (see _Changelog_Text.txt), and the scripting contained a broken flag which wouldn't properly end the Intervention. (BUG #829)
+• The scripting for GC Interventions "Pirate Rescue," "A Favor for Lord Vader," and "Rebel Smuggler" had broken flags that didn't properly complete the Interventions after completion. (BUG #833)
 
 
 Unit Fixes:

@@ -23,7 +23,7 @@
 
 	<Event Name="Rebel_Smuggler_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Param>TRIGGER_AI</Reward_Param>
+		<Reward_Type>TRIGGER_AI</Reward_Type>
 		<Reward_Param1>REBEL_SMUGGLER_NOTIFICATION_00</Reward_Param1>
 		<Reward_Param2>Empire</Reward_Param2>
 		<Prereq>Rebel_Smuggler_01</Prereq>
