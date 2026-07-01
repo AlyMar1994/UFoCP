@@ -53,13 +53,13 @@ function Definitions()
 	-- Commander hit list.
 	Attack_Ability_Type_Names =
 	{
-		"Infantry",              -- Attack these types.
-		"Darth_Team", "Boba_Fett_Team" -- Stay away from these types.
+		"Infantry",						-- Attack these types.
+		"Darth_Team", "Boba_Fett_Team"	-- Stay away from these types.
 	}
 	Attack_Ability_Weights =
 	{
-		10,              -- attack type weights.
-		BAD_WEIGHT, BAD_WEIGHT -- feared type weights.
+		10,						-- attack type weights.
+		BAD_WEIGHT, BAD_WEIGHT	-- feared type weights.
 	}
 	Attack_Ability_Types = WeightedTypeList.Create()
 	Attack_Ability_Types.Parse(Attack_Ability_Type_Names, Attack_Ability_Weights)
@@ -170,6 +170,11 @@ function Unit_Prox(self_obj, trigger_obj)
 	end
 
 	if trigger_obj.Is_Category("LandHero") then
+		return
+	end
+
+	if not trigger_obj then
+		DebugMessage("%s -- WARNING: prox received a nil trigger_obj.", tostring(Script))
 		return
 	end
 

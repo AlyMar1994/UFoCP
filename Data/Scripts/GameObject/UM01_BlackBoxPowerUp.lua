@@ -63,14 +63,16 @@ function State_Init(message)
 end
 
 function Unit_Prox(self_obj, trigger_obj)
+	if not trigger_obj then
+		DebugMessage("%s -- WARNING: prox received a nil trigger_obj.", tostring(Script))
+		return
+	end
+
 	player = Find_Player("Underworld")
 	if trigger_obj.Get_Owner() == player then
-		if not trigger_obj then
-			DebugMessage("Warning: prox received a nil trigger_obj.")
-			return
-		end
 		self_obj.Take_Damage(10000)
 	end
+
 	rebel_player = Find_Player("Rebel")
 	if trigger_obj.Get_Owner() == rebel_player then
 	end

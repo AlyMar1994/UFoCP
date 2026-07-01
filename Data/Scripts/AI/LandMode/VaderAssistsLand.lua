@@ -51,7 +51,7 @@ function Definitions()
 		{
 			"MainForce",
 			"DenyHeroAttach",
-			"Darth_Vader | Darth_Vader_Expansion = 1"
+			--"Darth_Vader | Darth_Vader_Expansion = 1"
 		}
 	}
 
@@ -68,7 +68,12 @@ function MainForce_Thread()
 
 	MainForce.Set_As_Goal_System_Removable(false)
 
-	local vader = MainForce.Get_Unit_Table()[1]
+	local vader = Find_First_Object("Darth_Vader")
+	if not TestValid(vader) then
+		vader = Find_First_Object("Darth_Vader_Expansion")
+	end
+
+	--local vader = MainForce.Get_Unit_Table()[1]
 	if not TestValid(vader) then
 		DebugMessage("%s -- unexpected state; vader unavailable", tostring(Script))
 		ScriptExit()

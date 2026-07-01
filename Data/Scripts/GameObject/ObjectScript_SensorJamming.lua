@@ -17,7 +17,7 @@ function Definitions()
 	Define_State("State_Human_Autofire", State_Human_Autofire)
 
 	ability_name = "SENSOR_JAMMING"
-	stealth_ability = "STEALTH"
+	stealth_ability_name = "STEALTH"
 end
 
 function State_Init(message)
@@ -66,12 +66,17 @@ function State_Human_Autofire(message)
 end
 
 function Unit_Prox(self_obj, trigger_obj)
+	if not trigger_obj then
+		DebugMessage("%s -- WARNING: prox received a nil trigger_obj.", tostring(Script))
+		return
+	end
+
 	if not trigger_obj.Get_Owner().Is_Enemy(Object.Get_Owner()) then
 		return
 	end
 
 	-- ignore stealthed enemies
-	if trigger_obj.Is_Ability_Active(stealth_ability) then
+	if trigger_obj.Is_Ability_Active(stealth_ability_name) then
 		return
 	end
 

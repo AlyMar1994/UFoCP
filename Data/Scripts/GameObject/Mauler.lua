@@ -83,7 +83,7 @@ function Unit_Prox(self_obj, trigger_obj)
 	DebugMessage("%s -- In Prox", tostring(Script))
 
 	if not trigger_obj then
-		DebugMessage("Warning: prox received a nil trigger_obj.")
+		DebugMessage("%s -- WARNING: prox received a nil trigger_obj.", tostring(Script))
 		return
 	end
 

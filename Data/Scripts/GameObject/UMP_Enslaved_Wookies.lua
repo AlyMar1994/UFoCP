@@ -60,6 +60,11 @@ function State_Init(message)
 end
 
 function Unit_Prox(self_obj, trigger_obj)
+	if not trigger_obj then
+		DebugMessage("%s -- WARNING: prox received a nil trigger_obj.", tostring(Script))
+		return
+	end
+
 	if self_obj.Is_Selectable() then
 		self_obj.Cancel_Event_Object_In_Range(Unit_Prox)
 		return

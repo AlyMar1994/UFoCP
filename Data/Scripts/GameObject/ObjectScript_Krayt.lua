@@ -69,7 +69,7 @@ function State_Init(message)
 		nearby_unit_threat = 0
 		recent_enemy_units = {}
 
-		Register_Prox(Object, Unit_Prox, ability_range)
+		Register_Prox(Object, Unit_Prox, ability_range, nil)
 
 		if Object.Get_Owner().Is_Human() then
 			Set_Next_State("State_Human_No_Autofire")
@@ -127,6 +127,11 @@ end
 
 -- If an enemy enters the prox, the Krayt-class may want to chase them down to explode
 function Unit_Prox(self_obj, trigger_obj)
+	if not trigger_obj then
+		DebugMessage("%s -- WARNING: prox received a nil trigger_obj.", tostring(Script))
+		return
+	end
+
 	if not trigger_obj.Get_Owner().Is_Enemy(Object.Get_Owner()) then
 		return
 	end

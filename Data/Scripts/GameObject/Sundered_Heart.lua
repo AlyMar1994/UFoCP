@@ -105,6 +105,11 @@ end
 
 -- If an enemy enters the prox, the unit may want to use the ability
 function Unit_Prox(self_obj, trigger_obj)
+	if not trigger_obj then
+		DebugMessage("%s -- WARNING: prox received a nil trigger_obj.", tostring(Script))
+		return
+	end
+
 	-- Note: we're explicitly tracking individual infantry here (as opposed to their parents, the squads)
 	if not trigger_obj.Get_Owner().Is_Enemy(Object.Get_Owner()) then
 		return

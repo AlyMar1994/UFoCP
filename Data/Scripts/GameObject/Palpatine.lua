@@ -148,6 +148,11 @@ function Unit_Prox(self_obj, trigger_obj)
 		return
 	end
 
+	if not trigger_obj then
+		DebugMessage("%s -- WARNING: prox received a nil trigger_obj.", tostring(Script))
+		return
+	end
+
 	if not trigger_obj.Get_Owner().Is_Enemy(Object.Get_Owner()) then
 		return
 	end
