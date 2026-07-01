@@ -47,8 +47,8 @@ function Definitions()
 	MinPlanAttachCost = 5000
 	MaxPlanAttachCost = 0
 
-	Attack_Ability_Type_Names = { "Fighter" }
-	Attack_Ability_Weights = { 10 }
+	Attack_Ability_Type_Names = { "Fighter", "Bomber" }
+	Attack_Ability_Weights = { 10, 15 }
 
 	Attack_Ability_Types = WeightedTypeList.Create()
 	Attack_Ability_Types.Parse(Attack_Ability_Type_Names, Attack_Ability_Weights)
