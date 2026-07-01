@@ -126,6 +126,10 @@ Script/Story Fixes:
 • The scripting for GC Interventions "Pirate Rescue," "A Favor for Lord Vader," and "Rebel Smuggler" had broken flags that didn't properly complete the Interventions after completion. (BUG #833)
 
 
+Structure Fixes:
+• The Empire Infantry Barracks in Skirmish would become 30% bigger upon destruction. (BUG #830)
+
+
 Unit Fixes:
 • Various Hero abilities were inconsistent in what units they applied to (for example, despite tooltips claiming abilities applied to "all units," some wouldn't apply to bombers and unit transports while others would).  In addition, some Hero abilities (such as Thrawn's Fleet Commander bonuses) didn't apply its speed buff to fighters due to issues with the units' "containers."  These have been universally fixed. (BUG #792)
 • B-wings didn't use their laser cannons' muzzle flashes in combat. (BUG #758)

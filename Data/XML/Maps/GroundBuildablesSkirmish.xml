@@ -1994,7 +1994,7 @@
 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.50</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Dummy>No</Is_Dummy>
 
@@ -2035,11 +2035,11 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.50</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Dummy>No</Is_Dummy>
 		<Land_Model_Name>EB_InfantryBarracks.alo</Land_Model_Name>
