@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+
+<Story>
+	<Event Name="Pirate_Rescue_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Story_Dialog>Dialog_R_Intervention_Pirate_Rescue</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Tag>Pirate_Rescue_Tag_00</Story_Tag>
+	</Event>
+	
+	<Event Name="Pirate_Rescue_01">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1></Event_Param1>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Reward_Param3></Reward_Param3>
+		<Prereq>Pirate_Rescue_00</Prereq>
+		<Story_Dialog>Dialog_R_Intervention_Pirate_Rescue</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+	</Event>
+		
+	<Event Name="Pirate_Rescue_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Param>TRIGGER_AI</Reward_Param>
+		<Reward_Param1>PIRATE_RESCUE_NOTIFICATION_00</Reward_Param1>
+		<Prereq>Pirate_Rescue_01</Prereq>
+	</Event>
+	
+	<Event Name="Pirate_Rescue_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Pirate_Rescue_Tag_00</Reward_Param1>
+		<Prereq>Pirate_Rescue_02</Prereq>
+	</Event>
+	
+</Story>
