@@ -12832,8 +12832,14 @@
 	</SpeechEvent>
 
 	<SpeechEvent Name="MON_EVENT_HUNT_CAPITAL_SHIPS_00">
-		<Files>RRND_MON0010_ENG.MP3</Files>
+		<Files>RRND_MON0009_ENG.MP3</Files>
 		<Text_ID>TEXT_SPEECH_MON_EVENT_HUNT_CAPITAL_SHIPS_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+
+	<SpeechEvent Name="MON_EVENT_HUNT_CAPITAL_SHIPS_01">
+		<Files>RRND_MON0010_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_MON_EVENT_HUNT_CAPITAL_SHIPS_01</Text_ID>
 		<Volume_Percent>100</Volume_Percent>
 	</SpeechEvent>
 
@@ -13170,8 +13176,14 @@
 	</SpeechEvent>
 
 	<SpeechEvent Name="TAR_EVENT_HUNT_CAPITAL_SHIPS_00">
-		<Files>ERND_TAR0110_ENG.MP3</Files>
+		<Files>ERND_TAR0109_ENG.MP3</Files>
 		<Text_ID>TEXT_SPEECH_TAR_EVENT_HUNT_CAPITAL_SHIPS_00</Text_ID>
+		<Volume_Percent>100</Volume_Percent>
+	</SpeechEvent>
+
+	<SpeechEvent Name="TAR_EVENT_HUNT_CAPITAL_SHIPS_01">
+		<Files>ERND_TAR0110_ENG.MP3</Files>
+		<Text_ID>TEXT_SPEECH_TAR_EVENT_HUNT_CAPITAL_SHIPS_01</Text_ID>
 		<Volume_Percent>100</Volume_Percent>
 	</SpeechEvent>
 
