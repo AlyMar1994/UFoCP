@@ -147,6 +147,8 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
+		<Lua_Script>ObjectScript_Krayt</Lua_Script> <!-- AM1994 (07/01/26) - Will need to generalize the name and adjust range values. -->
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
@@ -167,6 +169,7 @@
 				<Spawned_Object_Type>Vengeance_Self_Destruct_Blast</Spawned_Object_Type>
 				<GUI_Activated_Ability_Name>Vengeance_Self_Destruct</GUI_Activated_Ability_Name>
 				<Stop_When_Activated>No</Stop_When_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
 
 				<!--<SFXEvent_GUI_Unit_Ability_Activated>Unit_Self_Destruct_Krayt_Class_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>-->
 				<Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
