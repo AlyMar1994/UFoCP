@@ -51,13 +51,15 @@ function Definitions()
 	MaxPlanAttachCost = 0
 
 	-- Commander hit list.
-	Attack_Ability_Type_Names = { 
-		"Infantry",	-- Attack these types.
-		"Darth_Team" ,"Boba_Fett_Team" 				-- Stay away from these types.
+	Attack_Ability_Type_Names =
+	{
+		"Infantry",              -- Attack these types.
+		"Darth_Team", "Boba_Fett_Team" -- Stay away from these types.
 	}
-	Attack_Ability_Weights = { 
-		10,   				-- attack type weights.
-		BAD_WEIGHT, BAD_WEIGHT   				-- feared type weights.
+	Attack_Ability_Weights =
+	{
+		10,              -- attack type weights.
+		BAD_WEIGHT, BAD_WEIGHT -- feared type weights.
 	}
 	Attack_Ability_Types = WeightedTypeList.Create()
 	Attack_Ability_Types.Parse(Attack_Ability_Type_Names, Attack_Ability_Weights)
@@ -67,22 +69,21 @@ function Definitions()
 	Escort_Ability_Weights = { 3, 10, 3, BAD_WEIGHT, BAD_WEIGHT }
 	Escort_Ability_Types = WeightedTypeList.Create()
 	Escort_Ability_Types.Parse(Escort_Ability_Type_Names, Escort_Ability_Weights)
-	
--- tactical behavior stuff
 
+	-- tactical behavior stuff
 	ServiceRate = 1
 
 	Define_State("State_Init", State_Init);
 	Define_State("State_AI_Autofire", State_AI_Autofire)
 	Define_State("State_Human_No_Autofire", State_Human_No_Autofire)
 	Define_State("State_Human_Autofire", State_Human_Autofire)
-	
+
 	unit_trigger_number = 3
 	divert_range = 400
 	threat_trigger_number = 10
 	ability_range = 100
 	ability_name = "FORCE_CONFUSE"
-	
+
 	invulnerability_ability_name = "TARGETED_INVULNERABILITY"
 	min_threat_to_use_invulnerability = 100
 	invulnerability_range = 400
@@ -102,7 +103,6 @@ end
 
 function State_Init(message)
 	if message == OnEnter then
-
 		-- prevent this from doing anything in galactic mode
 		if Get_Game_Mode() ~= "Land" then
 			ScriptExit()
@@ -110,15 +110,15 @@ function State_Init(message)
 
 		nearby_unit_count = 0
 		recent_enemy_units = {}
-		
+
 		Register_Prox(Object, Invuln_Prox, invulnerability_range)
 
 		if Object.Get_Owner().Is_Human() then
-			Set_Next_State("State_Human_No_Autofire")
 			Register_Prox(Object, Unit_Prox, ability_range)
+			Set_Next_State("State_Human_No_Autofire")
 		else
-			Set_Next_State("State_AI_Autofire")
 			Register_Prox(Object, Unit_Prox, divert_range)
+			Set_Next_State("State_AI_Autofire")
 		end
 	end
 end
@@ -128,11 +128,11 @@ function State_AI_Autofire(message)
 		if (nearby_unit_count >= unit_trigger_number) and Object.Get_Hull() < 0.5 then
 			ConsiderDivertAndAOE(Object, ability_name, ability_range, recent_enemy_units, threat_trigger_number)
 		end
-		
+
 		-- reset tracked units each service.
 		nearby_unit_count = 0
 		recent_enemy_units = {}
-	end		
+	end
 end
 
 function State_Human_No_Autofire(message)
@@ -140,17 +140,15 @@ function State_Human_No_Autofire(message)
 		if Object.Is_Ability_Autofire(ability_name) then
 			Set_Next_State("State_Human_Autofire")
 		end
-		
+
 		-- reset tracked units each service.
 		nearby_unit_count = 0
 		recent_enemy_units = {}
-		
 	end
 end
 
 function State_Human_Autofire(message)
 	if message == OnUpdate then
-	
 		if Object.Is_Ability_Autofire(ability_name) then
 			if nearby_unit_count >= unit_trigger_number then
 				Object.Activate_Ability(ability_name, true)
@@ -158,30 +156,28 @@ function State_Human_Autofire(message)
 		else
 			Set_Next_State("State_Human_No_Autofire")
 		end
-		
+
 		-- reset tracked units each service.
 		nearby_unit_count = 0
 		recent_enemy_units = {}
-			
-	end				
+	end
 end
 
 function Unit_Prox(self_obj, trigger_obj)
-	
-	--Can only confuse non-hero infantry
+	-- Can only confuse non-hero infantry
 	if not trigger_obj.Is_Category("Infantry") then
 		return
 	end
-	
+
 	if trigger_obj.Is_Category("LandHero") then
 		return
-	end	
-	
+	end
+
 	if not trigger_obj.Get_Owner().Is_Enemy(Object.Get_Owner()) then
 		return
 	end
-	
-	--Promote to parent object (infantry squads) for unit counting purposes
+
+	-- Promote to parent object (infantry squads) for unit counting purposes
 	if trigger_obj.Get_Parent_Object() then
 		trigger_obj = trigger_obj.Get_Parent_Object()
 	end
@@ -197,31 +193,29 @@ function Unit_Prox(self_obj, trigger_obj)
 	end
 end
 
-function Invuln_Prox(self_obj, trigger_obj)	
-	
+function Invuln_Prox(self_obj, trigger_obj)
 	if Object.Get_Owner().Is_Human() and not Object.Is_Ability_Autofire(invulnerability_ability_name) then
 		return
 	end
-	
-	--Use invulnerability on friendly objects that are in need of help and worth preserving
+
+	-- Use invulnerability on friendly objects that are in need of help and worth preserving
 	if not trigger_obj.Get_Owner().Is_Ally(Object.Get_Owner()) then
 		return
-	end	
-	
+	end
+
 	if not trigger_obj.Get_Type().Is_Hero() then
 		if trigger_obj.Get_Type().Get_Combat_Rating() < min_threat_to_use_invulnerability then
 			return
 		end
 	end
-	
+
 	if not self_obj.Is_Ability_Ready(invulnerability_ability_name) then
 		return
 	end
-	
+
 	if not TestValid(FindDeadlyEnemy(trigger_obj)) then
 		return
 	end
 
 	self_obj.Activate_Ability(invulnerability_ability_name, trigger_obj)
 end
-

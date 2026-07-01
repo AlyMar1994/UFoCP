@@ -45,7 +45,7 @@ function Base_Definitions()
 	DebugMessage("%s -- In Base_Definitions", tostring(Script))
 
 	Common_Base_Definitions()
-	
+
 	ServiceRate = 10
 
 	if Definitions then
@@ -54,16 +54,15 @@ function Base_Definitions()
 end
 
 function main()
-
 	DebugMessage("%s -- In main for %s", tostring(Script), tostring(Object))
-	
+
 	if HeroService then
 		while 1 do
 			HeroService()
 			PumpEvents()
 		end
 	end
-	
+
 	ScriptExit()
 end
 
@@ -75,24 +74,22 @@ function inc_found_type_count(ival, type_found_val)
 end
 
 function Get_Target_Weight(target, type_list, type_weights)
-
 	FoundTypeCount = 0
 	FoundTypeWeight = 0
 
 	CurrentTypeWeights = type_weights
-	
+
 	FoundTypes = EvaluateTypeList(PlayerObject, target, type_list)
-	
+
 	if not FoundTypes then
 		return 0
 	end
-	
+
 	table.foreachi(FoundTypes, inc_found_type_count)
 
 	if FoundTypeCount == 0 then
 		return 0
 	end
-	
+
 	return FoundTypeWeight / FoundTypeCount
 end
-

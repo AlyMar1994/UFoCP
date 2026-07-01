@@ -43,43 +43,34 @@ require("PGStateMachine")
 
 
 function Definitions()
-
-   -- Object isn't valid at this point so don't do any operations that
-   -- would require it.  State_Init is the first chance you have to do
-   -- operations on Object
-   
+	-- Object isn't valid at this point so don't do any operations that
+	-- would require it.  State_Init is the first chance you have to do
+	-- operations on Object
 	DebugMessage("%s -- In Definitions", tostring(Script))
+
 	Define_State("State_Init", State_Init);
 	underworld_player = Find_Player("Underworld")
-
 end
 
-
 function State_Init(message)
-
 	if message == OnEnter then
 		-- Register a prox event that looks for any nearby units
 		Register_Prox(Object, Unit_Prox, 100, underworld_player)
-	elseif message == OnUpdate then
-		-- Do nothing
-	elseif message == OnExit then
-		-- Do nothing
 	end
-
 end
 
 function Unit_Prox(self_obj, trigger_obj)
-    if self_obj.Is_Selectable() then
-        self_obj.Cancel_Event_Object_In_Range(Unit_Prox)
-        return
-    end
+	if self_obj.Is_Selectable() then
+		self_obj.Cancel_Event_Object_In_Range(Unit_Prox)
+		return
+	end
 
-    self_obj.Change_Owner(underworld_player) 
-    self_obj.Get_Parent_Object().Change_Owner(underworld_player) 
-    self_obj.Get_Parent_Object().Set_Selectable(true)
-    self_obj.Set_Selectable(true)
-    underworld_player.Select_Object(Object)
-    
-    --self_obj.Play_SFX_Event("Unit_Select_Civilian")
-    self_obj.Cancel_Event_Object_In_Range(Unit_Prox)
+	self_obj.Change_Owner(underworld_player)
+	self_obj.Get_Parent_Object().Change_Owner(underworld_player)
+	self_obj.Get_Parent_Object().Set_Selectable(true)
+	self_obj.Set_Selectable(true)
+	underworld_player.Select_Object(Object)
+
+	--self_obj.Play_SFX_Event("Unit_Select_Civilian")
+	self_obj.Cancel_Event_Object_In_Range(Unit_Prox)
 end

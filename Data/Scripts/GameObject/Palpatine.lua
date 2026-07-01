@@ -44,16 +44,13 @@ require("HeroPlanAttach")
 require("PGStateMachine")
 
 function Definitions()
-
-
--- Hero plan self attachment stuff
-
+	-- Hero plan self attachment stuff
 	-- only join plans that meet our expense requirements.
 	MinPlanAttachCost = 45000
 	MaxPlanAttachCost = 0
 
 	-- Commander hit list.
-	Attack_Ability_Type_Names = {"All"}
+	Attack_Ability_Type_Names = { "All" }
 	Attack_Ability_Weights = { BAD_WEIGHT }
 	Attack_Ability_Types = WeightedTypeList.Create()
 	Attack_Ability_Types.Parse(Attack_Ability_Type_Names, Attack_Ability_Weights)
@@ -65,15 +62,14 @@ function Definitions()
 	Escort_Ability_Types.Parse(Escort_Ability_Type_Names, Escort_Ability_Weights)
 
 
--- Object script stuff
-
+	-- Object script stuff
 	ServiceRate = 1
 
 	Define_State("State_Init", State_Init);
 	Define_State("State_AI_Autofire", State_AI_Autofire)
 	Define_State("State_Human_No_Autofire", State_Human_No_Autofire)
 	Define_State("State_Human_Autofire", State_Human_Autofire)
-	
+
 	unit_trigger_number = 3
 	divert_range = 300
 	threat_trigger_number = 300
@@ -83,7 +79,6 @@ end
 
 function State_Init(message)
 	if message == OnEnter then
-
 		-- prevent this from doing anything in galactic mode
 		if Get_Game_Mode() ~= "Land" then
 			ScriptExit()
@@ -91,13 +86,13 @@ function State_Init(message)
 
 		nearby_unit_count = 0
 		recent_enemy_units = {}
-		
+
 		if Object.Get_Owner().Is_Human() then
-			Set_Next_State("State_Human_No_Autofire")
 			Register_Prox(Object, Unit_Prox, ability_range)
+			Set_Next_State("State_Human_No_Autofire")
 		else
-			Set_Next_State("State_AI_Autofire")
 			Register_Prox(Object, Unit_Prox, divert_range)
+			Set_Next_State("State_AI_Autofire")
 		end
 	end
 end
@@ -107,11 +102,11 @@ function State_AI_Autofire(message)
 		if (nearby_unit_count >= unit_trigger_number) then
 			ConsiderDivertAndAOE(Object, ability_name, ability_range, recent_enemy_units, Object.Get_Hull() * threat_trigger_number)
 		end
-		
+
 		-- reset tracked units each service.
 		nearby_unit_count = 0
 		recent_enemy_units = {}
-	end		
+	end
 end
 
 function State_Human_No_Autofire(message)
@@ -119,17 +114,15 @@ function State_Human_No_Autofire(message)
 		if Object.Is_Ability_Autofire(ability_name) then
 			Set_Next_State("State_Human_Autofire")
 		end
-		
+
 		-- reset tracked units each service.
 		nearby_unit_count = 0
 		recent_enemy_units = {}
-		
 	end
 end
 
 function State_Human_Autofire(message)
 	if message == OnUpdate then
-	
 		if Object.Is_Ability_Autofire(ability_name) then
 			if nearby_unit_count >= unit_trigger_number then
 				Object.Activate_Ability(ability_name, true)
@@ -137,16 +130,14 @@ function State_Human_Autofire(message)
 		else
 			Set_Next_State("State_Human_No_Autofire")
 		end
-		
+
 		-- reset tracked units each service.
 		nearby_unit_count = 0
 		recent_enemy_units = {}
-			
-	end				
+	end
 end
 
 function Unit_Prox(self_obj, trigger_obj)
-
 	-- Reject structures, which we can't corrupt
 	if trigger_obj.Is_Category("Structure") then
 		return
@@ -156,12 +147,12 @@ function Unit_Prox(self_obj, trigger_obj)
 	if trigger_obj.Is_Category("LandHero") then
 		return
 	end
-	
+
 	if not trigger_obj.Get_Owner().Is_Enemy(Object.Get_Owner()) then
 		return
 	end
-	
-	--Promote to parent object (infantry squads) for unit counting purposes
+
+	-- Promote to parent object (infantry squads) for unit counting purposes
 	if trigger_obj.Get_Parent_Object() then
 		trigger_obj = trigger_obj.Get_Parent_Object()
 	end
@@ -184,4 +175,3 @@ end
 function Get_Escort_Ability_Weights(goal)
 	return Escort_Ability_Types
 end
-

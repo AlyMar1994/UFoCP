@@ -47,19 +47,19 @@
 function Hunt_Underworld(attack_list)
 	local enemy_player = Find_Player("Underworld")
 	while true do
-	  if not VictoryStarted and not DefeatStarted then
-		for k, unit in pairs(attack_list) do
-			if TestValid(unit) then
-				if not unit.Get_Owner().Is_Human() then
-					local closest_enemy = Find_Nearest(unit, enemy_player, true)	
-					if TestValid(closest_enemy) then
-						unit.Attack_Move(closest_enemy)
+		if not VictoryStarted and not DefeatStarted then
+			for k, unit in pairs(attack_list) do
+				if TestValid(unit) then
+					if not unit.Get_Owner().Is_Human() then
+						local closest_enemy = Find_Nearest(unit, enemy_player, true)
+						if TestValid(closest_enemy) then
+							unit.Attack_Move(closest_enemy)
+						end
 					end
 				end
 			end
 		end
-	  end
-      Sleep(4)
+		Sleep(4)
 	end
 end
 
@@ -84,23 +84,24 @@ function Rebels_Patrol_Points(hint)
 	rebel_player = Find_Player("Rebel")
 	local pursuing_target = false
 	local unitlist = Find_All_Objects_With_Hint(tostring(hint))
-		one = Find_Hint("JGS_PATHPOINT_1", tostring(hint))
-		two = Find_Hint("JGS_PATHPOINT_2", tostring(hint))
-		three = Find_Hint("JGS_PATHPOINT_3", tostring(hint))
-		four = Find_Hint("JGS_PATHPOINT_4", tostring(hint))
-		five = Find_Hint("JGS_PATHPOINT_5", tostring(hint))
-		six = Find_Hint("JGS_PATHPOINT_6", tostring(hint))
-		seven = Find_Hint("JGS_PATHPOINT_7", tostring(hint))
-		eight = Find_Hint("JGS_PATHPOINT_8", tostring(hint))
-		nine = Find_Hint("JGS_PATHPOINT_9", tostring(hint))
+	one = Find_Hint("JGS_PATHPOINT_1", tostring(hint))
+	two = Find_Hint("JGS_PATHPOINT_2", tostring(hint))
+	three = Find_Hint("JGS_PATHPOINT_3", tostring(hint))
+	four = Find_Hint("JGS_PATHPOINT_4", tostring(hint))
+	five = Find_Hint("JGS_PATHPOINT_5", tostring(hint))
+	six = Find_Hint("JGS_PATHPOINT_6", tostring(hint))
+	seven = Find_Hint("JGS_PATHPOINT_7", tostring(hint))
+	eight = Find_Hint("JGS_PATHPOINT_8", tostring(hint))
+	nine = Find_Hint("JGS_PATHPOINT_9", tostring(hint))
 	local pathlist = { one, two, three, four, five, six, seven, eight, nine }
 	local pathtarget = 1
 	local incremented = false
-		while not pursuing_target do
-		  if not VictoryStarted and not DefeatStarted then
+
+	while not pursuing_target do
+		if not VictoryStarted and not DefeatStarted then
 			pathpoint = nil
 			while not TestValid(pathpoint) do
-				if pathtarget > 9 then 
+				if pathtarget > 9 then
 					pathtarget = 1
 				end
 				pathpoint = pathlist[pathtarget]
@@ -110,8 +111,8 @@ function Rebels_Patrol_Points(hint)
 			end
 			incremented = false
 			for k, unit in pairs(unitlist) do
-				if TestValid(unit) and unit.Get_Owner() == rebel_player then 
-					unit.Attack_Move(pathpoint.Get_Position()) 
+				if TestValid(unit) and unit.Get_Owner() == rebel_player then
+					unit.Attack_Move(pathpoint.Get_Position())
 					--MessageBox("%s", tostring(pathpoint.Get_Type().Get_Name()))
 					--MessageBox("%s testing...", tostring(unit.Get_Type().Get_Name()))
 					if unitlist[k].Get_Distance(pathpoint) < 150 then
@@ -121,14 +122,14 @@ function Rebels_Patrol_Points(hint)
 							--MessageBox("%s new point", tostring(hint))
 						end
 					end
-					closest_enemy = Find_Nearest(unitlist[k], underworld_player, true)	
+					closest_enemy = Find_Nearest(unitlist[k], underworld_player, true)
 					if unitlist[k].Get_Distance(closest_enemy) < 100 then
 						--pursuing_target = true
 					end
 				end
 			end
-		  end
-  		  Sleep(2)
 		end
-		--Create_Thread("Hunt_Underworld",unitlist)
+		Sleep(2)
+	end
+	--Create_Thread("Hunt_Underworld",unitlist)
 end

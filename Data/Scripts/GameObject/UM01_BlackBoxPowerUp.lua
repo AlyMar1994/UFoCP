@@ -41,21 +41,17 @@
 
 require("PGStateMachine")
 
-
 function Definitions()
-
-   -- Object isn't valid at this point so don't do any operations that
-   -- would require it.  State_Init is the first chance you have to do
-   -- operations on Object
-   
+	-- Object isn't valid at this point so don't do any operations that
+	-- would require it.  State_Init is the first chance you have to do
+	-- operations on Object
 	DebugMessage("%s -- In Definitions", tostring(Script))
+
 	Define_State("State_Init", State_Init);
-	player=nil
+	player = nil
 end
 
-
 function State_Init(message)
-
 	if message == OnEnter then
 		-- Register a prox event that looks for any nearby units
 		Register_Prox(Object, Unit_Prox, 200, nil)
@@ -64,17 +60,16 @@ function State_Init(message)
 	elseif message == OnExit then
 		-- Do nothing
 	end
-
 end
 
 function Unit_Prox(self_obj, trigger_obj)
 	player = Find_Player("Underworld")
 	if trigger_obj.Get_Owner() == player then
 		if not trigger_obj then
-			DebugMessage("Warning: prox received a nil trigger_obj .")
+			DebugMessage("Warning: prox received a nil trigger_obj.")
 			return
 		end
-		self_obj.Take_Damage(10000) 
+		self_obj.Take_Damage(10000)
 	end
 	rebel_player = Find_Player("Rebel")
 	if trigger_obj.Get_Owner() == rebel_player then

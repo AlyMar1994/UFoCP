@@ -53,10 +53,9 @@ function Definitions()
 	ability_name = "SELF_DESTRUCT"
 end
 
-
 function State_Init(message)
 	if message == OnEnter then
-		--MessageBox("%s--Object:%s", tostring(Script), tostring(Object))
+		DebugMessage("%s -- Object: %s", tostring(Script), tostring(Object))
 
 		-- Bail out if this is a human player
 		if Object.Get_Owner().Is_Human() then
@@ -69,27 +68,22 @@ function State_Init(message)
 		end
 
 		-- Register a proximity around the unit at the range he might be willing to chase a unit to use an ability
-		--MessageBox("%s-- registering prox", tostring(Script))
+		DebugMessage("%s -- registering prox", tostring(Script))
 		rebel_player = Find_Player("REBEL")
 		Register_Prox(Object, Unit_Prox, divert_range, rebel_player)
-
 	elseif message == OnUpdate then
-
 		-- Track the number of fighters within the prox, resetting each service.
 		nearby_unit_count = 0
 		recent_enemy_units = {}
 	end
-
 end
 
-
--- If an enemy enters the prox, han may want to chase them down for stun
+-- If an enemy enters the prox, the mauler may want to chase them down to explode
 function Unit_Prox(self_obj, trigger_obj)
-
 	DebugMessage("%s -- In Prox", tostring(Script))
 
 	if not trigger_obj then
-		DebugMessage("Warning: prox received a nil trigger_obj .")
+		DebugMessage("Warning: prox received a nil trigger_obj.")
 		return
 	end
 
@@ -99,13 +93,9 @@ function Unit_Prox(self_obj, trigger_obj)
 		nearby_unit_count = nearby_unit_count + 1
 
 		DebugMessage("%s -- Nearby unit count %d", tostring(Script), nearby_unit_count)
-    
+
 		if (nearby_unit_count >= unit_trigger_number) then
 			ConsiderDivertAndAOE(Object, ability_name, area_of_effect, recent_enemy_units, min_threat_to_use_ability)
 		end
 	end
 end
-
-
-
-

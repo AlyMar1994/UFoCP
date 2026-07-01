@@ -42,16 +42,14 @@
 require("PGStateMachine")
 
 function Definitions()
-
--- Object script stuff
-
+	-- Object script stuff
 	ServiceRate = 1
 
 	Define_State("State_Init", State_Init);
 	Define_State("State_AI_Autofire", State_AI_Autofire)
 	Define_State("State_Human_No_Autofire", State_Human_No_Autofire)
 	Define_State("State_Human_Autofire", State_Human_Autofire)
-	
+
 	unit_trigger_number = 3
 	ability_range = 150
 	ability_name = "SHIELD_FLARE"
@@ -59,7 +57,6 @@ end
 
 function State_Init(message)
 	if message == OnEnter then
-
 		-- prevent this from doing anything in galactic mode
 		if Get_Game_Mode() ~= "Land" then
 			ScriptExit()
@@ -67,7 +64,7 @@ function State_Init(message)
 
 		nearby_unit_count = 0
 		recent_enemy_units = {}
-		
+
 		Register_Prox(Object, Unit_Prox, ability_range)
 
 		if Object.Get_Owner().Is_Human() then
@@ -81,14 +78,14 @@ end
 function State_AI_Autofire(message)
 	if message == OnUpdate then
 		if (Object.Get_Shield() > 0.33) and (nearby_unit_count >= unit_trigger_number) then
-			--This unit is too big and slow for diverting to be sensible
+			-- This unit is too big and slow for diverting to be sensible
 			Object.Activate_Ability(ability_name, true)
 		end
-		
+
 		-- reset tracked units each service.
 		nearby_unit_count = 0
 		recent_enemy_units = {}
-	end		
+	end
 end
 
 function State_Human_No_Autofire(message)
@@ -96,17 +93,15 @@ function State_Human_No_Autofire(message)
 		if Object.Is_Ability_Autofire(ability_name) then
 			Set_Next_State("State_Human_Autofire")
 		end
-		
+
 		-- reset tracked units each service.
 		nearby_unit_count = 0
 		recent_enemy_units = {}
-		
 	end
 end
 
 function State_Human_Autofire(message)
 	if message == OnUpdate then
-	
 		if Object.Is_Ability_Autofire(ability_name) then
 			if (Object.Get_Shield() > 0.33) and (nearby_unit_count >= unit_trigger_number) then
 				Object.Activate_Ability(ability_name, true)
@@ -114,26 +109,24 @@ function State_Human_Autofire(message)
 		else
 			Set_Next_State("State_Human_No_Autofire")
 		end
-		
+
 		-- reset tracked units each service.
 		nearby_unit_count = 0
 		recent_enemy_units = {}
-			
-	end				
+	end
 end
 
 function Unit_Prox(self_obj, trigger_obj)
-	
-	--Ignore structures.  They're boring
+	-- Ignore structures.  They're boring
 	if trigger_obj.Is_Category("Structure") then
 		return
 	end
-	
+
 	if not trigger_obj.Get_Owner().Is_Enemy(Object.Get_Owner()) then
 		return
 	end
-	
-	--Promote to parent object (infantry squads) for unit counting purposes
+
+	-- Promote to parent object (infantry squads) for unit counting purposes
 	if trigger_obj.Get_Parent_Object() then
 		trigger_obj = trigger_obj.Get_Parent_Object()
 	end

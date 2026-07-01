@@ -39,12 +39,11 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
+-- This include order is important.  We need the state service defined in main to override the one in heroplanattach.
 require("HeroPlanAttach")
 require("PGStateMachine")
 
-
 function Definitions()
-
 	MinPlanAttachCost = 5000
 	MaxPlanAttachCost = 0
 
@@ -82,10 +81,10 @@ end
 
 function State_Init(message)
 	if message == OnEnter then
-		--MessageBox("%s--Object:%s", tostring(Script), tostring(Object))
+		DebugMessage("%s -- Object: %s", tostring(Script), tostring(Object))
 
 		-- prevent this from doing anything in galactic mode
-		--MessageBox("%s, mode %s", tostring(Script), Get_Game_Mode())
+		-- DebugMessage("%s, mode %s", tostring(Script), Get_Game_Mode())
 		if Get_Game_Mode() ~= "Space" then
 			ScriptExit()
 		end
@@ -97,21 +96,16 @@ function State_Init(message)
 
 		-- Register a proximity around this unit
 		Register_Prox(Object, Unit_Prox, ability_range)
-
 	elseif message == OnUpdate then
-
 		-- reset tracked units each service.
 		nearby_unit_count = 0
 		recent_enemy_units = {}
 	end
 end
 
-
 -- If an enemy enters the prox, the unit may want to use the ability
 function Unit_Prox(self_obj, trigger_obj)
-
 	-- Note: we're explicitly tracking individual infantry here (as opposed to their parents, the squads)
-
 	if not trigger_obj.Get_Owner().Is_Enemy(Object.Get_Owner()) then
 		return
 	end
