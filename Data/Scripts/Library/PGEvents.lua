@@ -237,6 +237,8 @@ function Default_Unit_Destroyed()
 	DebugMessage("%s -- In Default_Unit_Destroyed.", tostring(Script))
 end
 
+-- AM1994 (07/01/26) - This function needs to be purged ASAP once more stuff is moved to individual object scripts.
+-- It's run every time a unit is damaged and highly inefficient.
 function Default_Unit_Damaged(tf, unit, attacker, deliberate)
 	DebugMessage("%s -- In Default_Unit_Damaged.", tostring(Script))
 
@@ -283,16 +285,17 @@ function Default_Unit_Damaged(tf, unit, attacker, deliberate)
 		lib_ability_activated = Try_Ability(unit, "Defend")
 	end
 
-	local projectile_type = attacker.Get_Current_Projectile_Type()
-	if TestValid(projectile_type) then
-		if (not lib_ability_activated) and projectile_type.Is_Affected_By_Missile_Shield() then
-			lib_ability_activated = Try_Ability(unit, "SENSOR_JAMMING") or Try_Ability(unit, "MISSILE_SHIELD")
-		end
+	-- AM1994 (07/01/26) - Killed as a part of UFCP #774
+--	local projectile_type = attacker.Get_Current_Projectile_Type()
+--	if TestValid(projectile_type) then
+--		if (not lib_ability_activated) and projectile_type.Is_Affected_By_Missile_Shield() then
+--			lib_ability_activated = Try_Ability(unit, "SENSOR_JAMMING") or Try_Ability(unit, "MISSILE_SHIELD")
+--		end
 
-		if (not lib_ability_activated) and projectile_type.Is_Affected_By_Laser_Defense() then
-			lib_ability_activated = Try_Ability(unit, "LASER_DEFENSE")
-		end
-	end
+--		if (not lib_ability_activated) and projectile_type.Is_Affected_By_Laser_Defense() then
+--			lib_ability_activated = Try_Ability(unit, "LASER_DEFENSE")
+--		end
+--	end
 
 	-- Everything below deals with movement orders
 	if lib_issued_movement_response then
