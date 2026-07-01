@@ -75,6 +75,7 @@ AI Fixes:
 • The Space combat AI wouldn't properly use (or use at all) the Missile Shield, Interdict or Sensor Jamming abilities.  A handful of changes have been made to ensure the AI can use these abilities properly.  In addition, the Crusader Gunship's Point-Laser Defense, Skipray Blastboat and Bossk's Sensor Jamming, and the Arc Hammer's Missile Shield now support autofiring. (BUG #774) (Thanks, galyana!)
 • The Space combat AI would improperly evaluate when it should commit to a firesale and burn units, specifically in Space Skirmish.  The AI's perception of the situation looks for a station at level 0, but since all stations are level 0 until teching up due to an engine limitation, the AI prematurely wants to suicide. (BUG #796)
 • Fix the Tactical AI sometimes failing to find objects when looking to see if anyone is in proximity for a unit's ability, causing the scripting engine to panic. (BUG #823)
+• Fix Obi-Wan Kenobi's Tactical AI failing to avoid Darth Vader. (BUG #826)
 
 
 Audio Fixes:
