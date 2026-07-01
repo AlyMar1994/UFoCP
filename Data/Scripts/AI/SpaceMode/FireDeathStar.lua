@@ -60,7 +60,6 @@ end
 function MainForce_Thread()
 	BlockOnCommand(MainForce.Produce_Force())
 
-	--local ds = MainForce.Get_Unit_Table()[1]
 	local ds = Find_First_Object("Death_Star")
 	if not TestValid(ds) then
 		ds = Find_First_Object("Death_Star_II")
