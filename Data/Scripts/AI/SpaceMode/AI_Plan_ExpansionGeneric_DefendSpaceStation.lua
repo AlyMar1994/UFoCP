@@ -75,7 +75,11 @@ function MainForce_Thread()
 		Sleep(1)
 		MainForce.Set_Plan_Result(true)
 
-		focus_fire_on_target = Find_Nearest(Target, "Frigate | Capital", PlayerObject, false)
+		if TestValid(Target) then
+			focus_fire_on_target = Find_Nearest(Target, "Frigate | Capital", PlayerObject, false)
+		else
+			ScriptExit()
+		end
 	end
 end
 
