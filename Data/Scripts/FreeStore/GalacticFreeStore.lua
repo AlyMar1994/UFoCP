@@ -39,7 +39,6 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgcommands")
 require("GalacticHeroFreeStore")
 
 function Base_Definitions()
@@ -103,8 +102,7 @@ function On_Unit_Service(object)
 	-- without that, this'll also 'consider' objects like particles; however, using Is_Transport is
 	-- special to land only units (as they're contained in a transport), so other units get jipped.
 	if FreeStore.Is_Unit_In_Transit(object) == true then
-		DebugMessage("%s -- Object: %s is already in transit!  Won't try moving them until next cycle.", tostring(Script),
-			tostring(object))
+		DebugMessage("%s -- Object: %s is already in transit!  Won't try moving them until next cycle.", tostring(Script), tostring(object))
 		return
 	else
 		-- If this unit isn't in a safe spot move him regardless of the MovedUnitsThisService
