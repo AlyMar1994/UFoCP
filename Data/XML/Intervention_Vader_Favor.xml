@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+
+<Story>
+	<Event Name="Vader_Favor_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Story_Dialog>Dialog_E_Intervention_Vader_Favor</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Tag>Vader_Favor_Tag_00</Story_Tag>
+	</Event>
+	
+	<Event Name="Vader_Favor_00_restricted">
+		<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
+		<Event_Param1></Event_Param1>
+		<Story_Dialog>Dialog_E_Intervention_Vader_Favor</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Prereq>Vader_Favor_00</Prereq>
+		<Perpetual>True</Perpetual>
+	</Event>
+	
+	<Event Name="Vader_Favor_01">
+		<Event_Type>STORY_MOVE</Event_Type>
+		<Event_Param1>Darth_Vader</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Vader_Favor_00</Prereq>
+	</Event>
+		
+	<Event Name="Vader_Favor_02">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1></Event_Param1>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Reward_Param>TRIGGER_AI</Reward_Param>
+		<Reward_Param1>VADER_FAVOR_NOTIFICATION_00</Reward_Param1>
+		<Prereq>Vader_Favor_01</Prereq>
+	</Event>
+	
+	<Event Name="Vader_Favor_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Story_Dialog>Dialog_E_Intervention_Vader_Favor</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Prereq>Vader_Favor_02</Prereq>
+	</Event>
+	
+	<Event Name="Vader_Favor_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Vader_Favor_Tag_00</Reward_Param1>
+		<Prereq>Vader_Favor_03</Prereq>
+	</Event>
+	
+</Story>

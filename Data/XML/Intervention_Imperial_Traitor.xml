@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+
+<Story>
+	<Event Name="Imperial_Traitor_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Story_Dialog>Dialog_E_Intervention_Imperial_Traitor</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Tag>Imperial_Traitor_Tag_00</Story_Tag>
+	</Event>
+	
+	<Event Name="Imperial_Traitor_01">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1></Event_Param1>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Reward_Type>CREDITS</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Prereq>Imperial_Traitor_00</Prereq>
+		<Story_Dialog>Dialog_E_Intervention_Imperial_Traitor</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+	</Event>
+		
+	<Event Name="Imperial_Traitor_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Param>TRIGGER_AI</Reward_Param>
+		<Reward_Param1>IMPERIAL_TRAITOR_NOTIFICATION_00</Reward_Param1>
+		<Prereq>Imperial_Traitor_01</Prereq>
+	</Event>
+	
+	<Event Name="Imperial_Traitor_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Imperial_Traitor_Tag_00</Reward_Param1>
+		<Prereq>Imperial_Traitor_02</Prereq>
+	</Event>
+	
+</Story>
