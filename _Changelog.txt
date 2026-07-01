@@ -94,6 +94,10 @@ Audio Fixes:
 • Black Squadron - Darth Vader wouldn't use his assigned combat VO when attacking enemies, or when his health was low/critical. (BUG #821)
 
 
+Gameplay Fixes:
+• The Rebel and Empire versions of the "Origin of Corruption" GC had multiple planets with unit conflicts (situations where, f.e. both a Rebel and Consortium barracks are built on a planet, and both factions have infantry/starfighters on the planet).  These planets have been divided out to remove conflicting units: Bothawui, Mandalore, Honoghr, Kashyyyk, Nal Hutta, The Maw, Korriban and Saleucami.
+
+
 Interface Fixes:
 • Indigenous Mustafarians (who inhabit a magma planet) used the generic arctic human icon in their encyclopedia tooltip. (BUG #739) (Thanks, cha20202!)
 • The SPMA-T Artillery's command bar icon was not centered.  Yes, it was annoying. (BUG #782)

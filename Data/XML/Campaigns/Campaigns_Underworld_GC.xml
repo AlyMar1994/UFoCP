@@ -3981,15 +3981,6 @@
 		<Starting_Forces>Empire, Anaxes, Imperial_Stormtrooper_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Anaxes, Imperial_Heavy_Scout_Squad</Starting_Forces>
 
-		<!-- Bothawui Space Forces -->
-		<Starting_Forces>Empire, Bothawui, Empire_Star_Base_2</Starting_Forces>
-		<Starting_Forces>Empire, Bothawui, TIE_Scout_Squadron</Starting_Forces>
-		<Starting_Forces>Empire, Bothawui, Acclamator_Assault_Ship</Starting_Forces>
-		<!-- Bothawui Land Forces -->
-		<Starting_Forces>Empire, Bothawui, E_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Empire, Bothawui, Imperial_Stormtrooper_Squad</Starting_Forces>
-		<Starting_Forces>Empire, Bothawui, Imperial_Heavy_Scout_Squad</Starting_Forces>
-
 		<!-- Corellia Space Forces -->
 		<Starting_Forces>Empire, Corellia, Empire_Star_Base_2</Starting_Forces>
 		<Starting_Forces>Empire, Corellia, TIE_Scout_Squadron</Starting_Forces>
@@ -4035,15 +4026,6 @@
 		<Starting_Forces>Empire, Kuat, E_Ground_Barracks</Starting_Forces>
 		<Starting_Forces>Empire, Kuat, Imperial_Stormtrooper_Squad</Starting_Forces>
 		<Starting_Forces>Empire, Kuat, Imperial_Heavy_Scout_Squad</Starting_Forces>
-
-		<!-- Mandalore Space Forces -->
-		<Starting_Forces>Empire, Mandalore, Empire_Star_Base_2</Starting_Forces>
-		<Starting_Forces>Empire, Mandalore, TIE_Scout_Squadron</Starting_Forces>
-		<Starting_Forces>Empire, Mandalore, Acclamator_Assault_Ship</Starting_Forces>
-		<!-- Mandalore Land Forces -->
-		<Starting_Forces>Empire, Mandalore, E_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Empire, Mandalore, Imperial_Stormtrooper_Squad</Starting_Forces>
-		<Starting_Forces>Empire, Mandalore, Imperial_Heavy_Scout_Squad</Starting_Forces>
 
 		<!-- Myrkr Space Forces -->
 		<Starting_Forces>Empire, Myrkr, Empire_Star_Base_2</Starting_Forces>
@@ -4279,16 +4261,6 @@
 		<Starting_Forces>Rebel, Dathomir, Rebel_Tank_Buster_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Dathomir, Rebel_Infantry_Squad</Starting_Forces>
 
-		<!-- Honoghr Space Forces -->
-		<Starting_Forces>Rebel, Honoghr, Rebel_Star_Base_2</Starting_Forces>
-		<Starting_Forces>Rebel, Honoghr, Rebel_X-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, Honoghr, Y-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, Honoghr, Corellian_Corvette</Starting_Forces>
-		<!-- Honoghr Land Forces -->
-		<Starting_Forces>Rebel, Honoghr, R_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Rebel, Honoghr, Rebel_Tank_Buster_Squad</Starting_Forces>
-		<Starting_Forces>Rebel, Honoghr, Rebel_Infantry_Squad</Starting_Forces>
-
 		<!-- Kamino Space Forces -->
 		<Starting_Forces>Rebel, Kamino, Rebel_Star_Base_2</Starting_Forces>
 		<Starting_Forces>Rebel, Kamino, Rebel_X-Wing_Squadron</Starting_Forces>
@@ -4298,16 +4270,6 @@
 		<Starting_Forces>Rebel, Kamino, R_Ground_Barracks</Starting_Forces>
 		<Starting_Forces>Rebel, Kamino, Rebel_Tank_Buster_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Kamino, Rebel_Infantry_Squad</Starting_Forces>
-
-		<!-- Kashyyyk Space Forces -->
-		<Starting_Forces>Rebel, Kashyyyk, Rebel_Star_Base_2</Starting_Forces>
-		<Starting_Forces>Rebel, Kashyyyk, Rebel_X-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, Kashyyyk, Y-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, Kashyyyk, Corellian_Corvette</Starting_Forces>
-		<!-- Kashyyyk Land Forces -->
-		<Starting_Forces>Rebel, Kashyyyk, R_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Rebel, Kashyyyk, Rebel_Tank_Buster_Squad</Starting_Forces>
-		<Starting_Forces>Rebel, Kashyyyk, Rebel_Infantry_Squad</Starting_Forces>
 
 		<!-- Korriban Space Forces -->
 		<Starting_Forces>Rebel, Korriban, Rebel_Star_Base_2</Starting_Forces>
@@ -4329,16 +4291,6 @@
 		<Starting_Forces>Rebel, Muunilinst, Rebel_Tank_Buster_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Muunilinst, Rebel_Infantry_Squad</Starting_Forces>
 
-		<!-- NalHutta Space Forces -->
-		<Starting_Forces>Rebel, NalHutta, Rebel_Star_Base_2</Starting_Forces>
-		<Starting_Forces>Rebel, NalHutta, Rebel_X-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, NalHutta, Y-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, NalHutta, Corellian_Corvette</Starting_Forces>
-		<!-- NalHutta Land Forces -->
-		<Starting_Forces>Rebel, NalHutta, R_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Rebel, NalHutta, Rebel_Tank_Buster_Squad</Starting_Forces>
-		<Starting_Forces>Rebel, NalHutta, Rebel_Infantry_Squad</Starting_Forces>
-
 		<!-- Saleucami Space Forces -->
 		<Starting_Forces>Rebel, Saleucami, Rebel_Star_Base_2</Starting_Forces>
 		<Starting_Forces>Rebel, Saleucami, Rebel_X-Wing_Squadron</Starting_Forces>
@@ -4348,12 +4300,6 @@
 		<Starting_Forces>Rebel, Saleucami, R_Ground_Barracks</Starting_Forces>
 		<Starting_Forces>Rebel, Saleucami, Rebel_Tank_Buster_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Saleucami, Rebel_Infantry_Squad</Starting_Forces>
-
-		<!-- The_Maw Space Forces -->
-		<Starting_Forces>Rebel, The_Maw, Rebel_Star_Base_2</Starting_Forces>
-		<Starting_Forces>Rebel, The_Maw, Rebel_X-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, The_Maw, Y-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, The_Maw, Corellian_Corvette</Starting_Forces>
 
 		<!-- Yavin Space Forces -->
 		<Starting_Forces>Rebel, Yavin, Rebel_Star_Base_2</Starting_Forces>
@@ -4432,15 +4378,6 @@
 		<Starting_Forces>Underworld, Kashyyyk, Underworld_Merc_Squad</Starting_Forces>
 		<Starting_Forces>Underworld, Kashyyyk, Underworld_Disruptor_Merc_Squad</Starting_Forces>
 
-		<!-- Korriban Space Forces -->
-		<Starting_Forces>Underworld, Korriban, Underworld_Star_Base_2</Starting_Forces>
-		<Starting_Forces>Underworld, Korriban, StarViper_Squadron</Starting_Forces>
-		<Starting_Forces>Underworld, Korriban, Crusader_Gunship</Starting_Forces>
-		<!-- Korriban Land Forces -->
-		<Starting_Forces>Underworld, Korriban, U_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Underworld, Korriban, Underworld_Merc_Squad</Starting_Forces>
-		<Starting_Forces>Underworld, Korriban, Underworld_Disruptor_Merc_Squad</Starting_Forces>
-
 		<!-- Mandalore Space Forces -->
 		<Starting_Forces>Underworld, Mandalore, Underworld_Star_Base_2</Starting_Forces>
 		<Starting_Forces>Underworld, Mandalore, StarViper_Squadron</Starting_Forces>
@@ -4466,22 +4403,12 @@
 		<Starting_Forces>Underworld, Ryloth, Underworld_Merc_Squad</Starting_Forces>
 		<Starting_Forces>Underworld, Ryloth, Underworld_Disruptor_Merc_Squad</Starting_Forces>
 
-		<!-- Saleucami Space Forces -->
-		<Starting_Forces>Underworld, Saleucami, Underworld_Star_Base_2</Starting_Forces>
-		<Starting_Forces>Underworld, Saleucami, StarViper_Squadron</Starting_Forces>
-		<Starting_Forces>Underworld, Saleucami, Vengeance_Frigate</Starting_Forces>
-		<!-- Saleucami Land Forces -->
-		<Starting_Forces>Underworld, Saleucami, U_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Underworld, Saleucami, Underworld_Merc_Squad</Starting_Forces>
-		<Starting_Forces>Underworld, Saleucami, Underworld_Disruptor_Merc_Squad</Starting_Forces>
-
 		<!-- The_Maw Space Forces -->
 		<Starting_Forces>Underworld, The_Maw, Underworld_Star_Base_2</Starting_Forces>
 		<Starting_Forces>Underworld, The_Maw, StarViper_Squadron</Starting_Forces>
 		<Starting_Forces>Underworld, The_Maw, Skipray_Squadron</Starting_Forces>
 		<Starting_Forces>Underworld, The_Maw, Crusader_Gunship</Starting_Forces>
 		<Starting_Forces>Underworld, The_Maw, Vengeance_Frigate</Starting_Forces>
-
 	</Campaign>
 
 
