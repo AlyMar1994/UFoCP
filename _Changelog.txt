@@ -117,7 +117,7 @@ Model Fixes:
 • TIE defenders didn't use their "chin cannons" in combat. (BUG #757)
 • TIE phantoms didn't use their "chin cannons" in combat. (BUG #762)
 • The Crusader-class Corvette model's engines spawned over 200 particles per second while active in battle.  In addition, its engines wouldn't dim when stationary, unlike most ships from EaW.  A new, optimized model from "Secrets of a Fallen Empire" has been provided. (BUG #813) (Thanks, galyana!)
-• Keldabe-class Battleships, IG-2000, Skipray Blastboats and the engines of the Consortium's generic unit transport wouldn't dim when stationary or disable when destroyed, unlike most ships from EaW. (BUG #813) (Thanks, galyana!)
+• The engines of Keldabe-class Battleships, IG-2000, Skipray Blastboats, and all of the Consortium's unit transports wouldn't dim when stationary or disable when destroyed, unlike most ships from EaW. (BUG #813) (Thanks, galyana!)
 
 
 Script/Story Fixes:
