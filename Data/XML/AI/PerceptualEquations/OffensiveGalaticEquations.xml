@@ -172,24 +172,13 @@
 		Variable_Self.AnyCurrentThreats
 	</Is_AI_And_Should_Be_Ignored>
 
-	<!--	Does the system have a human presence
-			AND
-			Is it connected to a system owned by the AI
-	-->
 	<!--
-		AM1994 12/22/2024 - Remove * Variable_Target.IsHumanControlled b/c
-		this check is now invalid for FoC.  There are no AI players on the
-		galactic scale, and this prevented the AI from smuggling against
-		the other AI faction (they only focused the player).
-		FIXME HIGH: This should be corrected to adapt to hostile factions
-		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
-		This fix isn't exactly very backwards compatible since the AI will
-		consider neutrals/pirates a valid target.
-		In EaW, the first check was
-		Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire"}
+		Does the targeted system have a non-pirate/Hutt enemy force present
+		AND
+		Is it connected to a system owned by the AI
 	-->
 	<Is_Target_A_Current_Threat>
-		Variable_Target.EnemyForce.HasSpaceForce
+		Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"}
 		*
 		Function_Is_Connected_To_Me.Evaluate
 	</Is_Target_A_Current_Threat>
@@ -251,27 +240,21 @@
         *
 		(1.0 - (Variable_Self.GrossIncomeNBPTM > 0.33))
 
-    -->
-	<!--
-		AM1994 12/15/2024 - Remove * Variable_Target.IsHumanControlled b/c
-		this check is now invalid for FoC.  There are no AI players on the
-		galactic scale, and this prevented the AI from smuggling against
-		the other AI faction (they only focused the player).
-		FIXME HIGH: This should be corrected to adapt to hostile factions
-		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
-		This fix isn't exactly very backwards compatible since the AI will
-		consider neutrals/pirates a valid target.
 	-->
 	<Is_Good_Weaken_Target>
 		0.5
 		*
-		(Function_GenericPlanetValue.Evaluate
-		+
-		Variable_Target.EnemyForce.SpaceTotal.TimeLastSeen
-		+
-		(1.0 - Variable_Target.HasCreditSiphon)
-		+
-		Variable_Target.TargetPoliticalControl)
+		(
+			Function_GenericPlanetValue.Evaluate
+			+
+			Variable_Target.EnemyForce.SpaceTotal.TimeLastSeen
+			+
+			(1.0 - Variable_Target.HasCreditSiphon)
+			+
+			Variable_Target.TargetPoliticalControl
+		)
+		*
+		(1.0 - Variable_Target.IsFaction {Parameter_Faction = "Neutral", Parameter_Faction = "Pirates", Parameter_Faction = "Hutts"})
 	</Is_Good_Weaken_Target>
 
 	<!-- Can't have multiple smugglers on a target -->
@@ -334,21 +317,14 @@
 		Variable_Target.FriendlyForce.HasGroundForce)
 	</Self_Present>
 
-	<!--
-		AM1994 12/22/2024 - Remove * Variable_Target.IsHumanControlled b/c
-		this check is now invalid for FoC.  There are no AI players on the
-		galactic scale, and this prevented the AI from smuggling against
-		the other AI faction (they only focused the player).
-		FIXME HIGH: This should be corrected to adapt to hostile factions
-		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
-		This fix isn't exactly very backwards compatible since the AI will
-		consider neutrals/pirates a valid target.
-		In EaW, this entire check was
-		(Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire"} +
-		Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire"})
-	-->
 	<Enemy_Present>
-		((Variable_Target.EnemyForce.HasSpaceForce + Variable_Target.EnemyForce.HasGroundForce) > 0.0)
+		(
+			(
+				Variable_Target.EnemyForce.HasSpaceForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"}
+				+
+				Variable_Target.EnemyForce.HasGroundForce {Parameter_Faction = "Rebel", Parameter_Faction = "Empire", Parameter_Faction = "Underworld"}
+			) > 0.0
+		)
 	</Enemy_Present>
 
 	<!-- Do I have enough planets to start thinking about going after my true opponent? -->
@@ -356,9 +332,11 @@
 	<!-- Favor weak planets -->
 	<!-- Exclude pirate/neutral planets -->
 	<Is_Good_Harry_Target>
-		1.75 *
-		Function_Is_Good_Invasion_Target.Evaluate *
-		Variable_Target.IsHumanControlled
+		1.75
+		*
+		Function_Is_Good_Invasion_Target.Evaluate
+		*
+		(1.0 - Variable_Target.IsFaction {Parameter_Faction = "Neutral", Parameter_Faction = "Pirates", Parameter_Faction = "Hutts"})
 	</Is_Good_Harry_Target>
 
 	<Almost_Won>
@@ -427,48 +405,30 @@
 			Must be raid capable faction
 			Target must have accessible surface
 	-->
-
-	<!--
-		AM1994 12/22/2024 - Remove * Variable_Target.IsHumanControlled b/c
-		this check is now invalid for FoC.  There are no AI players on the
-		galactic scale, and this prevented the AI from smuggling against
-		the other AI faction (they only focused the player).
-		FIXME HIGH: This should be corrected to adapt to hostile factions
-		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
-		This fix isn't exactly very backwards compatible since the AI will
-		consider neutrals/pirates a valid target.
-		In EaW, IsHumanControlled was replaced with after IsSurfaceAccessible
-		(Variable_Target.IsFaction {Parameter_Faction = "PIRATES"} ==  0) *
-	-->
 	<Is_Good_Raid_Target>
+		Function_Is_Rebel.Evaluate
+		*
 		(0.5 + (1000 >= Variable_Target.EnemyForce.GroundTotalUnnormalized))
 		*
-		Variable_Self.IsFaction {Parameter_Faction = "REBEL"} *
-		Function_Is_Good_Invasion_Target.Evaluate *
-		Variable_Target.IsSurfaceAccessible *
+		Function_Is_Good_Invasion_Target.Evaluate
+		*
+		Variable_Target.IsSurfaceAccessible
+		*
+		(Variable_Target.IsFaction {Parameter_Faction = "Pirates", Parameter_Faction = "Hutts"} == 0)
+		*
 		Function_First_Attack_Allowed.Evaluate
 	</Is_Good_Raid_Target>
 
-	<!--
-		AM1994 12/22/2024 - Remove * Variable_Target.IsHumanControlled b/c
-		this check is now invalid for FoC.  There are no AI players on the
-		galactic scale, and this prevented the AI from smuggling against
-		the other AI faction (they only focused the player).
-		FIXME HIGH: This should be corrected to adapt to hostile factions
-		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
-		This fix isn't exactly very backwards compatible since the AI will
-		consider neutrals/pirates a valid target.
-		In EaW, IsHumanControlled was replaced with
-		Variable_Target.IsFaction {Parameter_Faction = "PIRATES"} *
-	-->
 	<Opens_New_Front>
+		Variable_Target.IsFaction {Parameter_Faction = "Pirates", Parameter_Faction = "Hutts"}
+		*
 		Function_Is_Connected_To_Enemy.Evaluate
 	</Opens_New_Front>
 
 	<Should_Conquer_Pirate_Planet>
-		Function_Is_Good_Invasion_Target.Evaluate
+		Variable_Target.IsFaction {Parameter_Faction = "Neutral", Parameter_Faction = "Pirates", Parameter_Faction = "Hutts"}
 		*
-		Variable_Target.IsFaction { Parameter_Faction = "NEUTRAL", Parameter_Faction = "PIRATES", Parameter_Faction = "HUTTS" }
+		Function_Is_Good_Invasion_Target.Evaluate
 	</Should_Conquer_Pirate_Planet>
 
 	<!--
@@ -494,27 +454,15 @@
 		(1.0 - Function_Should_Perform_Unrestricted_Grab_Space.Evaluate)
 	</Should_Conquer_Opponent_Planet>
 
-	<!-- fire the DS on any system unless taking it over is a cake walk -->
-	<!--
-		AM1994 12/15/2024 - Remove * Variable_Target.IsHumanControlled b/c
-		this check is now invalid for FoC.  There are no AI players on the
-		galactic scale, and this prevented the AI from smuggling against
-		the other AI faction (they only focused the player).
-		FIXME HIGH: This should be corrected to adapt to hostile factions
-		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
-		This fix isn't exactly very backwards compatible since the AI will
-		consider neutrals/pirates a valid target.
-		In EaW, the Human check was
-		* (Variable_Target.IsFaction {Parameter_Faction = "REBEL"} == 1.0)
-	-->
+	<!-- fire the DS on any non-fodder system unless taking it over is a cake walk -->
 	<Want_To_Fire_DS>
 		Function_Is_Empire.Evaluate
 		*
-		50.0
-		*
-		Function_First_Attack_Allowed.Evaluate
+		50.0 * Function_First_Attack_Allowed.Evaluate
 		*
 		(Variable_Target.EnemyForce.GroundTotalUnnormalized > 2000)
+		*
+		(Variable_Target.IsFaction {Parameter_Faction = "Rebel", Parameter_Faction = "Underworld"} == 1.0)
 	</Want_To_Fire_DS>
 
 	<First_Attack_Allowed>
@@ -532,20 +480,10 @@
 		* (50.0 + (2.0 * Variable_Self.PlanetsControlledUnnormalized))
 	</Initial_Grace_Period>
 
-	<!--
-		AM1994 12/18/2024 - Remove * Variable_Target.IsHumanControlled b/c
-		this check is now invalid for FoC.  There are no AI players on the
-		galactic scale, and this prevented the AI from control grab against
-		the other AI faction (they only focused the player).
-		FIXME HIGH: This should be corrected to adapt to hostile factions
-		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
-		This fix isn't exactly very backwards compatible since the AI will
-		consider neutrals/pirates a valid target.
-	-->
 	<Should_Perform_Unrestricted_Grab_Space>
-		50.0
+		(1.0 - Variable_Target.IsFaction {Parameter_Faction = "Neutral", Parameter_Faction = "Pirates", Parameter_Faction = "Hutts"})
 		*
-		Function_First_Attack_Allowed.Evaluate
+		50.0 * Function_First_Attack_Allowed.Evaluate
 		*
 		(Function_Space_Force_Limit_For_Unrestricted_Grab.Evaluate >= Variable_Target.EnemyForce.SpaceTotalUnnormalized)
 		*
@@ -556,20 +494,10 @@
 		(1.0 - Variable_Target.FriendlyForce.HasSpaceForce)
 	</Should_Perform_Unrestricted_Grab_Space>
 
-	<!--
-		AM1994 12/18/2024 - Remove * Variable_Target.IsHumanControlled b/c
-		this check is now invalid for FoC.  There are no AI players on the
-		galactic scale, and this prevented the AI from control grab against
-		the other AI faction (they only focused the player).
-		FIXME HIGH: This should be corrected to adapt to hostile factions
-		that aren't Hutts, Pirates or Neutral when we re-enable EaW GCs.
-		This fix isn't exactly very backwards compatible since the AI will
-		consider neutrals/pirates a valid target.
-	-->
 	<Should_Perform_Unrestricted_Grab_Land>
-		50.0
+		(1.0 - Variable_Target.IsFaction {Parameter_Faction = "Neutral", Parameter_Faction = "Pirates", Parameter_Faction = "Hutts"})
 		*
-		Function_First_Attack_Allowed.Evaluate
+		50.0 * Function_First_Attack_Allowed.Evaluate
 		*
 		(Function_Ground_Force_Limit_For_Unrestricted_Grab.Evaluate >= Variable_Target.EnemyForce.GroundTotalUnnormalized)
 		*

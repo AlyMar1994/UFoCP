@@ -531,7 +531,7 @@
 		*
 		Variable_Self.CanRetreat
 		*
-		(1.0 - Variable_Self.IsFaction {Parameter_Faction = "Pirates"})
+		(1.0 - Variable_Self.IsFaction {Parameter_Faction = "Pirates", Parameter_Faction = "Hutts"})
 	</Allowed_To_Retreat_From_Space>
 
 	<Should_Retreat_From_Space>

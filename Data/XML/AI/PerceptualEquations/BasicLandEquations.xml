@@ -320,14 +320,14 @@
 		*
 		Variable_Self.CanRetreat
 		*
-		(1.0 - Variable_Self.IsFaction {Parameter_Faction = "Pirates"})
+		(1.0 - Variable_Self.IsFaction {Parameter_Faction = "Pirates", Parameter_Faction = "Hutts"})
 	</Allowed_To_Retreat_From_Land>
 
 
 	<Should_Retreat_From_Land>
-		Function_Want_To_Retreat_From_Land.Evaluate
-		*
 		Function_Allowed_To_Retreat_From_Land.Evaluate
+		*
+		Function_Want_To_Retreat_From_Land.Evaluate
 	</Should_Retreat_From_Land>
 
 	<Game_Age>
@@ -594,26 +594,28 @@
 	<Has_Infantry_Hero>
 		Variable_Self.HasUnit{ Parameter_Type = "Emperor_Palpatine",
 								Parameter_Type = "Boba_Fett",
-								Parameter_Type = "Han_Solo",
-								Parameter_Type = "Chewbacca",
-								Parameter_Type = "Mara_Jade",
-								Parameter_Type = "Obi_Wan_Kenobi",
 								Parameter_Type = "Darth_Vader",
 								Parameter_Type = "Darth_Vader_Expansion",
+								Parameter_Type = "Mara_Jade",
+								Parameter_Type = "Han_Solo",
+								Parameter_Type = "Chewbacca",
+								Parameter_Type = "Obi_Wan_Kenobi",
+								Parameter_Type = "Luke_Skywalker_Jedi",
+								Parameter_Type = "Yoda",
 								Parameter_Type = "Kyle_Katarn",
 								Parameter_Type = "Tyber_Zann",
 								Parameter_Type = "Silri",
 								Parameter_Type = "Urai_Fen",
-								Parameter_Type = "Bossk",
-								Parameter_Type = "Luke_Skywalker_Jedi",
-								Parameter_Type = "Yoda"}
+								Parameter_Type = "Bossk"}
 	</Has_Infantry_Hero>
 
+	<!-- AM1994 07-02-26 - FIXME HIGH: IG needs to be renamed like his hero fighter next update. -->
 	<Has_Vehicle_Hero>
-		Variable_Self.HasUnit { Parameter_Type = "General_Veers",
-								Parameter_Type = "Tactical_R2_3PO_Team",
-								Parameter_Type = "Garm_Bel_Iblis_Team",
-								Parameter_Type = "IG88_Team" }
+		Variable_Self.HasUnit { Parameter_Type = "Veers_AT_AT_Walker",
+								Parameter_Type = "Droid_R2D2",
+								Parameter_Type = "Droid_C3P0",
+								Parameter_Type = "Gargantuan_Battle_Platform"
+								<!-- Parameter_Type = "IG88_Team" --> }
 	</Has_Vehicle_Hero>
 
 	<!--
