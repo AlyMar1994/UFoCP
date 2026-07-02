@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Equations>
-	<!-- Certain plans are disallowed as a defender.  These plans are allowed if
+	<!--
+	Certain plans are disallowed as a defender.  These plans are allowed if
 	It's a skirmish game
 	OR
 	It's a campaign game
@@ -18,7 +19,6 @@
 	UNUSED PARTS
 		*
 		(Script_EvaluateInGalacticContext.Evaluate{Parameter_Script_String = "Offense_Delay_Ground_Expired"})
-
 	-->
 	<Allowed_As_Defender_Land>
 		(Game.IsCampaignGame == 0)
@@ -66,7 +66,6 @@
 
 			+
 			2.0 * (Variable_Target.ContainsHero)
-
 		-->
 	<Should_Destroy_Land_Unit>
 		Function_Allowed_As_Defender_Land.Evaluate
@@ -88,23 +87,18 @@
 		)
 	</Should_Destroy_Land_Unit>
 
-	<!--
-	-->
 	<Should_Clear_Infantry>
 		Function_Allowed_As_Defender_Land.Evaluate
 		*
-		100.0
-		*
-		Variable_Target.EnemyUnitConcentrationNBTD {Parameter_Category = GameObjectCategoryType[Infantry]} -
+		100.0 * Variable_Target.EnemyUnitConcentrationNBTD {Parameter_Category = GameObjectCategoryType[Infantry]}
+		-
 		Function_Should_Clear_Vehicles.Evaluate
 	</Should_Clear_Infantry>
 
 	<Should_Clear_Vehicles>
 		Function_Allowed_As_Defender_Land.Evaluate
 		*
-		5.0
-		*
-		Variable_Target.EnemyUnitConcentrationNBTD {Parameter_Category = GameObjectCategoryType[Vehicle]}
+		5.0 * Variable_Target.EnemyUnitConcentrationNBTD {Parameter_Category = GameObjectCategoryType[Vehicle]}
 	</Should_Clear_Vehicles>
 
 	<Is_Strong_Position>
@@ -115,14 +109,14 @@
 
 
 	<!--
-	Low base desire
-	Cut desire for structures not belonging to the primary enemy
-	More desire for certain structures
-	High desire to destroy tactically active structures
-	Very high desire for unprotected structures
+		Low base desire
+		Cut desire for structures not belonging to the primary enemy
+		More desire for certain structures
+		High desire to destroy tactically active structures
+		Very high desire for unprotected structures
 
-	Don't attack turbolasers, there is a special plan for that
-	Ignore this when we may lose a land control game
+		Don't attack turbolasers, there is a special plan for that
+		Ignore this when we may lose a land control game
 	-->
 	<Should_Destroy_Structure>
 		Function_Allowed_As_Defender_Land.Evaluate
@@ -245,13 +239,13 @@
 		Variable_Target.Force
 	</Needs_Vader_Assist>
 
-	<!-- Desire to uncover the fog of war in a zone depends on:
-	Not being pinned to the base
-	AND
-		Scout near the base if we haven't seen it in a while or it's early game
-		Scout away from the base and the enemy base if we haven't seen it in a while or it's early to mid game
-		Scout near the enemy base or start location if it's a campaign game or it's not early game or it hasn't been seen in a while
-
+	<!--
+		Desire to uncover the fog of war in a zone depends on:
+		Not being pinned to the base
+		AND
+			Scout near the base if we haven't seen it in a while or it's early game
+			Scout away from the base and the enemy base if we haven't seen it in a while or it's early to mid game
+			Scout near the enemy base or start location if it's a campaign game or it's not early game or it hasn't been seen in a while
 	-->
 	<Land_Area_Needs_Scouting>
 		(1 - Function_Should_Burn_Units_Land.Evaluate)
@@ -281,7 +275,6 @@
 			AND
 			we don't have a base left
 			OR the base is small and without enough turrets to defend it
-
 	-->
 	<Want_To_Retreat_From_Land>
 		(1 - Game.IsSetupPhase)
@@ -316,11 +309,11 @@
 	</Want_To_Retreat_From_Land>
 
 	<!--
-			Is this a campaign game (the AI doesn't retreat in skirmish)
-			AND
-			Are we capable of retreat
-			AND
-			Are we not pirates
+		Is this a campaign game (the AI doesn't retreat in skirmish)
+		AND
+		Are we capable of retreat
+		AND
+		Are we not pirates
 	-->
 	<Allowed_To_Retreat_From_Land>
 		Game.IsCampaignGame
@@ -330,8 +323,7 @@
 		(1.0 - Variable_Self.IsFaction {Parameter_Faction = "Pirates"})
 	</Allowed_To_Retreat_From_Land>
 
-	<!--
-	-->
+
 	<Should_Retreat_From_Land>
 		Function_Want_To_Retreat_From_Land.Evaluate
 		*

@@ -1,25 +1,17 @@
 <?xml version="1.0"?>
 <Equations>
 	<Should_Mine_Structure>
-		(15.0
-		*
-		Variable_Target.Location.EnemyForce
-		+
-		8.0
-		*
-		Variable_Target.Location.IsFriendlyStartLocation
-		+
-		8.0
-		*
-		Variable_Self.IsDefender
-		+
-		8.0
-		*
-		Variable_Target.Force
-		+
-		15.0
-		*
-		Variable_Target.IsContestable)
+		(
+			15.0 * Variable_Target.Location.EnemyForce
+			+
+			8.0 * Variable_Target.Location.IsFriendlyStartLocation
+			+
+			8.0 * Variable_Self.IsDefender
+			+
+			8.0 * Variable_Target.Force
+			+
+			15.0 * Variable_Target.IsContestable
+		)
 		*
 		0.33
 		*
