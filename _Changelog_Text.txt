@@ -55,6 +55,7 @@ Additions:
 
 Housekeeping:
 • Various instances of "C3P0" or "C-3P0" have been corrected to "C-3PO."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.  Only the English, Japanese and Polish translations suffered this issue.
+• Various instances of Black Sun Pirate units had their name capitalized as f.e., "Black Sun pirate infantry..." when "pirate" should be capitalized.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
 
 
 • TEXT_HERO_VADER_TEAM: (BUG #820)
