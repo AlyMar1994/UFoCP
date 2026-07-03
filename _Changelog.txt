@@ -129,6 +129,7 @@ Script/Story Fixes:
 
 Structure Fixes:
 • The Empire Infantry Barracks in Skirmish would become 30% bigger upon destruction. (BUG #830)
+• Empire and Rebel Officer Academies were setup to spawn Field Commanders as garrison infantry during land battle, but were missing the behavior to actually spawn the units.  They now spawn 1 Field Commander, and when killed, will respawn another after 30 seconds (double vs. all other buildings' garrisons). (BUG #743)
 
 
 Unit Fixes:
