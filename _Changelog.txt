@@ -118,8 +118,8 @@ Model Fixes:
 • TIE phantoms didn't use their "chin cannons" in combat. (BUG #762)
 • The Crusader-class Corvette model's engines spawned over 200 particles per second while active in battle.  In addition, its engines wouldn't dim when stationary, unlike most ships from EaW.  A new, optimized model from "Secrets of a Fallen Empire" has been provided. (BUG #813) (Thanks, galyana!)
 • The engines of Keldabe-class Battleships, IG-2000, Skipray Blastboats, and all of the Consortium's unit transports wouldn't dim when stationary or disable when destroyed, unlike most ships from EaW. (BUG #813) (Thanks, galyana!)
-• The engines of B-wings would flicker under normal use, and would disappear when using S-foils.  The engine particles' "lifetimes" were too low, and the model was missing S-foil engine particle variants. (BUG #838)
-• The engines of X-wings would disappear when using S-foils.  The model was missing S-foil engine particle variants. (BUG #839)
+• The engines of B-wings would flicker under normal use, and would disappear when using S-foils.  The engine particles' "lifetimes" were too low, and the model was missing S-foil engine particle variants. (BUG #838) (Thanks, galyana!)
+• The engines of X-wings would disappear when using S-foils.  The model was missing S-foil engine particle variants. (BUG #839) (Thanks, galyana!)
 
 
 Script/Story Fixes:
