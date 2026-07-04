@@ -65,6 +65,7 @@ ENHANCEMENTS:
 •• The original Death Star has been reimplemented for the Rebel and Empire story campaigns.  It is not available in EaW SPGCs due to engine limitations with the MPGCs.
 
 • B-wings and TIE defenders no longer use the Y-wing, TIE bomber or Skipray Blastboat model when summoned for bombing runs, respectively.  They now use their own models - in addition, TIE defenders are now capable of triggering bombing runs from orbit (where before they couldn't, unlike the B-wing). (BUG #777)
+• All hardpoint icons have been overhauled.  The original icons had some visual junk that wasn't erased and needed fixing, but it was voted on a Community Poll that they looked pretty bad at high resolutions.  The 64x64 icons have been remade in 128x128 that should be a tad bolder, and sharper. (BUG #840) (Thanks, galyana!)
 
 
 HOUSEKEEPING:

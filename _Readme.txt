@@ -94,6 +94,7 @@ Texturing:
 
 - Galyana
 -- NV_IPV1.dds - Inspiration for new team coloring
+-- I_Hard_Point... .dds - New HD hard point reticles
 
 - evilbobthebob
 -- 16x Anisotropic Filtering shaders (https://discord.com/channels/401148449241956353/413428854510845953/483771208178073601)
