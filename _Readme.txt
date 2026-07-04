@@ -45,6 +45,9 @@ Modeling:
 -- RB_Station_03_HP03_IC - Fixed lv.3 station ion cannon tower
 -- UV_CrusaderClassCorvette + PE_CrusaderEngines - Fixed Crusader-class engine particles
 -- UV_KedalbeBattleship + UV_KedalbeBattleship_HP_E_00/01 - Fixed Keldabe-class engine particles
+-- RB_OfficerAcademy + EB_OfficerAcademy - Fixed Officer Academy spawn bones and meshes
+-- RV_BWing + PTE_BWing - Fixed B-wing engine particle meshes
+-- RV_XWing + PTE_XWing, RV_Rogue_Squad - Fixed X-wing engine particle meshes
 
 - irampagingrhin0
 -- NV_JediCruiser - Fixed Venator shield/bumpmap mesh
