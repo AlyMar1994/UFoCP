@@ -51,7 +51,7 @@ v2.3.0.XXX (XX-13-2026) [FoC v1.121.859328]
 
 Additions:
 • To support the merge with "EAW Campaigns & Conquests to FOC Conversion" and the new "alternate history" campaigns, multiple text strings have been renamed, modified or added. (all MTEM/MTRM/MBEM/MBRM titles and mission bios/titles, TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN, TEXT_CAMPAIGN_SINGLE_10A_FOC, TEXT_CAMPAIGN_SINGLE_10B_FOC, TEXT_CAMPAIGN_SINGLE_12_EAW, TEXT_CAMPAIGN_SINGLE_15_FOC, TEXT_CAMPAIGN_SINGLE_21_EAW, TEXT_CAMPAIGN_SINGLE_25_FOC, TEXT_CAMPAIGN_SINGLE_27_EAW, TEXT_CAMPAIGN_SINGLE_33B_EAW, TEXT_CAMPAIGN_SINGLE_35_FOC, TEXT_CAMPAIGN_SINGLE_36_EAW, TEXT_CAMPAIGN_SINGLE_44_FOC, TEXT_CAMPAIGN_SINGLE_50_FOC, TEXT_CAMPAIGN_SINGLE_56_EAW, TEXT_CAMPAIGN_SINGLE_60_FOC, TEXT_HELP_SEPERATOR_GC) (BUG #247)
-• A new string, "TEXT_UNIT_LUKE_XWING_JEDI" has been added to support Luke Skywalker being a part of Red Squadron again now that the GCs are restored. (BUG #837)
+• "TEXT_UNIT_LUKE_XWING_JEDI" has been added to support Luke Skywalker being a part of Red Squadron again now that the GCs are restored. (BUG #837)
 
 
 Housekeeping:
