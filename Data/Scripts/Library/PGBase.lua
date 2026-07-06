@@ -129,10 +129,10 @@ function PumpEvents()
 
 	ThreadValue.Set("InPumpEvents", true)
 
-	DebugMessage("%s -- Entering yield.  Count: %d, Time: %.3f\n", tostring(Script), YieldCount, GetCurrentTime())
+	--DebugMessage("%s -- Entering yield.  Count: %d, Time: %.3f\n", tostring(Script), YieldCount, GetCurrentTime())
 	YieldCount = YieldCount + 1
 	coroutine.yield(true) -- yield here and return to 'C'
-	DebugMessage("%s -- Return from yield.  Count: %d, Time: %.3f\n", tostring(Script), YieldCount, GetCurrentTime())
+	--DebugMessage("%s -- Return from yield.  Count: %d, Time: %.3f\n", tostring(Script), YieldCount, GetCurrentTime())
 
 	CurrentEvent = GetEvent()
 	while CurrentEvent do
