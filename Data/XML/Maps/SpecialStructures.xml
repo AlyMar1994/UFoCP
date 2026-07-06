@@ -6162,7 +6162,7 @@
 
 		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
-		<SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
@@ -6199,7 +6199,7 @@
 	</SpecialStructure>
 
 	<SpecialStructure Name="Pirate_Defense_Satellite_Laser">
-		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_MISSILE</Text_ID>
+		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_LASER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Space_Model_Name>NV_LDS.ALO</Space_Model_Name>
 		<Icon_Name>i_button_lds.tga</Icon_Name>
@@ -6257,7 +6257,7 @@
 
 		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
-		<SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
