@@ -68,5 +68,6 @@ function MainForce_No_Units_Remaining(tf)
 end
 
 function MainForce_Production_Failed(tf, failed_object_type)
+	DebugMessage("%s -- Abandoning plan owing to production failure.", tostring(Script))
 	ScriptExit()
 end
