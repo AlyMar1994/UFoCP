@@ -254,7 +254,7 @@ function Flush_G()
 				end
 			end
 			if not keep_table then
-				DebugMessage("%s -- UNIMPORTANT TABLE FOUND!  DELETING: %s", tostring(Script), tostring(i))
+				DebugMessage("%s -- UNIMPORTANT TABLE FOUND!  DELETING: %s, g_entry: %s", tostring(Script), tostring(i), tostring(g_entry))
 				table.insert(entries_for_deletion, i)
 			end
 
