@@ -190,8 +190,7 @@ end
 function Chance(seed, percent)
 	roll = Simple_Mod((seed + 1), 100)
 	is_allowed = roll < percent
-	DebugMessage("%s -- seed:%d percent:%d roll:%d is_allowed:%s", tostring(Script), seed, percent, roll,
-		tostring(is_allowed))
+	DebugMessage("%s -- seed: %d, percent: %d, roll: %d, is_allowed: %s", tostring(Script), seed, percent, roll, tostring(is_allowed))
 	return is_allowed
 end
 
@@ -254,7 +253,7 @@ function Flush_G()
 				end
 			end
 			if not keep_table then
-				DebugMessage("%s -- UNIMPORTANT TABLE FOUND!  DELETING: %s, g_entry: %s", tostring(Script), tostring(i), tostring(g_entry))
+				--DebugMessage("%s -- TABLE FOUND!  DELETING: %s, g_entry: %s", tostring(Script), tostring(i), tostring(g_entry))
 				table.insert(entries_for_deletion, i)
 			end
 
@@ -281,5 +280,5 @@ function Flush_G()
 	entries_for_deletion = nil
 	very_important_tables = nil
 
-	DebugMessage("%s -- Done flushing globals!  Leaving Flush_G...", tostring(Script))
+	--DebugMessage("%s -- Done flushing globals!  Leaving Flush_G...", tostring(Script))
 end
