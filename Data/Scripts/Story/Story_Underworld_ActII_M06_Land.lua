@@ -1462,7 +1462,7 @@ function State_Underworld_A02M06_Victory_Trigger(message)
 end
 
 function Story_Mode_Service()
-	JoeMessage("State Hit!")
+	--JoeMessage("State Hit!")
 	if not TestValid(prison_2_power) then
 		if not prison_2_power_down and prison_2_power_identified then
 			prison_2_power_down = true
