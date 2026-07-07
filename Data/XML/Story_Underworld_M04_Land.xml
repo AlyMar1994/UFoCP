@@ -1,11 +1,6 @@
-﻿<?xml version="1.0" ?>
-
-
+﻿<?xml version="1.0"?>
 <Story>
-
-
 <!-- Underworld Act I Mission 04: Visions of the Past -->
-
 	<Event Name="Underworld_A01M04_Begin">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
@@ -39,7 +34,7 @@
 		<Reward_Param1>0</Reward_Param1>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Underworld_A01M04_Allow_Replay">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>USE_RETRY_DIALOG</Reward_Type>
@@ -73,14 +68,14 @@
 				<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 				<Event_Param2>UM04_CONTROLS_USED</Event_Param2>
 			</Event>
-			
+
 			<Event Name="COMPLETE_OBJECTIVE_Use_Controls">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
 				<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_06</Reward_Param1>
 				<Prereq>Use_Controls_LUA_Message</Prereq>
 			</Event>
-			
+
 	<Event Name="UM04_ADD_OBJECTIVE_Tyber_Zann_Must_Survive">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
@@ -113,7 +108,7 @@
 				<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 				<Event_Param2>UM04_DROIDWORKS_CAPTURED</Event_Param2>
 			</Event>
-			
+
 			<Event Name="COMPLETE_OBJECTIVE_Capture_Droid_Works">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
@@ -132,7 +127,7 @@
 				<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 				<Event_Param2>UM04_PADSCAPTURED</Event_Param2>
 			</Event>
-			
+
 			<Event Name="COMPLETE_OBJECTIVE_Capture_Reinforcement_Points">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
@@ -251,20 +246,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_00</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_00</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_00_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_00</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_00</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_00</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_00</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_00</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_00</Prereq>
 				</Event>
 
 	<!--
@@ -276,20 +271,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_01</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_01_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_01</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_01</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_01</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_01</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_01</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_01</Prereq>
 				</Event>
 
 	<!--
@@ -301,20 +296,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_02</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_02_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_02</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_02</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_02</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_02</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_02</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_02</Prereq>
 				</Event>
 
 	<!--
@@ -326,20 +321,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_03</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_03_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_03</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_03</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_03</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_03</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_03</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_03</Prereq>
 				</Event>
 
 	<!--
@@ -351,20 +346,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_06</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_06_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_06</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_06</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_06</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_06</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_06</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_06</Prereq>
 				</Event>
 
 	<!--
@@ -376,20 +371,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_07</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_07_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_07</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_07</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_07</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_07</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_07</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_07</Prereq>
 				</Event>
 
 	<!--
@@ -401,21 +396,21 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
 		<Reward_Param8>UW_ACT01_M04_08</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_08_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_08</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_08</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_08</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_08</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_08</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_08</Prereq>
 				</Event>
 
 	<!--
@@ -427,20 +422,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_09</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_09_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_09</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_09</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_09</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_09</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_09</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_09</Prereq>
 				</Event>
 
 	<!--
@@ -452,21 +447,21 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
 		<Reward_Param8>UW_ACT01_M04_10</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_10_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_10</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_10</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_10</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_10</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_10</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_10</Prereq>
 				</Event>
 
 	<!--
@@ -478,20 +473,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_11</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_11_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_11</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_11</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_11</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_11</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_11</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_11</Prereq>
 				</Event>
 
 	<!--
@@ -503,21 +498,21 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_12</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
 		<Reward_Param8>UW_ACT01_M04_12</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_12_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_12</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_12</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_12</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_12</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_12</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_12</Prereq>
 				</Event>
 
 	<!--
@@ -529,20 +524,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_13</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_13</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_13_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_13</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_13</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_13</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_13</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_13</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_13</Prereq>
 				</Event>
 
 	<!--
@@ -554,21 +549,21 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_14</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
 		<Reward_Param8>UW_ACT01_M04_14</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_14_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_14</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_14</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_14</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_14</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_14</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_14</Prereq>
 				</Event>
 
 	<!--
@@ -580,20 +575,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_15</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_15</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_15_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_15</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_15</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_15</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_15</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_15</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_15</Prereq>
 				</Event>
 
 	<!--
@@ -605,21 +600,21 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_16</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
 		<Reward_Param8>UW_ACT01_M04_16</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_16_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_16</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_16</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_16</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_16</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_16</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_16</Prereq>
 				</Event>
 
 	<!--
@@ -631,20 +626,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_17</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_17</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_17_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_17</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_17</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_17</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_17</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_17</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_17</Prereq>
 				</Event>
 
 	<!--
@@ -656,21 +651,21 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_18</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
 		<Reward_Param8>UW_ACT01_M04_18</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_18_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_18</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_18</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_18</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_18</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_18</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_18</Prereq>
 				</Event>
 
 	<!--
@@ -682,20 +677,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_19</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_19</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_19_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_19</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_19</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_19</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_19</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_19</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_19</Prereq>
 				</Event>
 
 	<!--
@@ -707,20 +702,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_20</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_20</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_20_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_20</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_20</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_20</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_20</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_20</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_20</Prereq>
 				</Event>
 
 	<!--
@@ -732,20 +727,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_21</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_21</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_21_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_21</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_21</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_21</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_21</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_21</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_21</Prereq>
 				</Event>
 
 	<!--
@@ -757,20 +752,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_22</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_22</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_22_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_22</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_22</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_22</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_22</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_22</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_22</Prereq>
 				</Event>
 
 	<!--
@@ -782,20 +777,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_23</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_23</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_23_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_23</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_23</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_23</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_23</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_23</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_23</Prereq>
 				</Event>
 
 	<!--
@@ -807,20 +802,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_24</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_24</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_24_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_24</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_24</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_24</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_24</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_24</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_24</Prereq>
 				</Event>
 
 	<!--
@@ -832,20 +827,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_25</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_25</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_25_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_25</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_25</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_25</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_25</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_25</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_25</Prereq>
 				</Event>
 
 	<!--
@@ -857,20 +852,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_26</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_26</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_26_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_26</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_26</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_26</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_26</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_26</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_26</Prereq>
 				</Event>
 
 	<!--
@@ -882,20 +877,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_28</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_28</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_28_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_28</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_28</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_28</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_28</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_28</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_28</Prereq>
 				</Event>
 
 	<!--
@@ -907,20 +902,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_29</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_29</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_29_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_29</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_29</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_29</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_29</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_29</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_29</Prereq>
 				</Event>
 
 	<!--
@@ -932,20 +927,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_30</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_30</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_30_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_30</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_30</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_30</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_30</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_30</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_30</Prereq>
 				</Event>
 
 	<!--
@@ -957,20 +952,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_32</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_32</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_32_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_32</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_32</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_32</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_32</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_32</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_32</Prereq>
 				</Event>
 
 	<!--
@@ -982,20 +977,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_34</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_34</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_34_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_34</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_34</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_34</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_34</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_34</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_34</Prereq>
 				</Event>
 
 	<!--
@@ -1007,20 +1002,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_35</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_35</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_35_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_35</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_35</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_35</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_35</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_35</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_35</Prereq>
 				</Event>
 
 	<!--
@@ -1032,20 +1027,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_36</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_36</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_36_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_36</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_36</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_36</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_36</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_36</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_36</Prereq>
 				</Event>
 
 	<!--
@@ -1057,20 +1052,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_37</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_37</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_37_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_37</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_37</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_37</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_37</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_37</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_37</Prereq>
 				</Event>
 
 	<!--
@@ -1082,20 +1077,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_38</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_38</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_38_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_38</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_38</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_38</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_38</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_38</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_38</Prereq>
 				</Event>
 
 	<!--
@@ -1107,20 +1102,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_39</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_39</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_39_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_39</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_39</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_39</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_39</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_39</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_39</Prereq>
 				</Event>
 
 	<!--
@@ -1132,20 +1127,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_40</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_40</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_40_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_40</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_40</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_40</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_40</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_40</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_40</Prereq>
 				</Event>
 
 	<!--
@@ -1157,20 +1152,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_41</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_41</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_41_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_41</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_41</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_41</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_41</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_41</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_41</Prereq>
 				</Event>
 
 	<!--
@@ -1182,20 +1177,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_42</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_42</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_42_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_42</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_42</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_42</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_42</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_42</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_42</Prereq>
 				</Event>
 
 	<!--
@@ -1207,20 +1202,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_43</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_43</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_43_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_43</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_43</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_43</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_43</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_43</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_43</Prereq>
 				</Event>
 
 	<!--
@@ -1232,20 +1227,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_44</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_44</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_44_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_44</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_44</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_44</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_44</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_44</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_44</Prereq>
 				</Event>
 
 	<!--
@@ -1257,20 +1252,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_45</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_45</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_45_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_45</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_45</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_45</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_45</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_45</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_45</Prereq>
 				</Event>
 
 	<!--
@@ -1282,20 +1277,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_46</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_46</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_46_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_46</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_46</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_46</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_46</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_46</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_46</Prereq>
 				</Event>
 
 	<!--
@@ -1308,20 +1303,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_47</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_47</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_47_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_47</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_47</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_47</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_47</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_47</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_47</Prereq>
 				</Event>
 
 	<!--
@@ -1334,20 +1329,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_48</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_48</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_48_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_48</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_48</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_48</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_48</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_48</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_48</Prereq>
 				</Event>
 
 	<!--
@@ -1360,22 +1355,22 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_49</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_49</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_49_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_49</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_49</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_49</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_49</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_49</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_49</Prereq>
 				</Event>
-				
+
 	<!--
 		Urai Fen: The emergency defenses are on, which means the droids will be after us until I can shut them down.
 
@@ -1386,20 +1381,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_50</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_50</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_50_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_50</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_50</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_50</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_50</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_50</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_50</Prereq>
 				</Event>
 
 	<!--
@@ -1412,20 +1407,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_51</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_51</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_51_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_51</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_51</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_51</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_51</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_51</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_51</Prereq>
 				</Event>
 
 	<!--
@@ -1438,20 +1433,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_52</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_52</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_52_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_52</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_52</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_52</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_52</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_52</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_52</Prereq>
 				</Event>
 
 	<!--
@@ -1464,20 +1459,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_53</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_53</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_53_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_53</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_53</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_53</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_53</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_53</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_53</Prereq>
 				</Event>
 
 	<!--
@@ -1490,20 +1485,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_54</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_54</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_54_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_54</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_54</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_54</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_54</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_54</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_54</Prereq>
 				</Event>
 
 	<!--
@@ -1516,20 +1511,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_55</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_55</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_55_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_55</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_55</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_55</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_55</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_55</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_55</Prereq>
 				</Event>
 
 	<!--
@@ -1542,20 +1537,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_56</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_56</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_56_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_56</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_56</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_56</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_56</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_56</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_56</Prereq>
 				</Event>
 
 	<!--
@@ -1568,20 +1563,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_57</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_57</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_57_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_57</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_57</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_57</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_57</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_57</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_57</Prereq>
 				</Event>
 
 	<!--
@@ -1594,20 +1589,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_58</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_58</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_58_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_58</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_58</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_58</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_58</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_58</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_58</Prereq>
 				</Event>
 
 	<!--
@@ -1620,20 +1615,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_59</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_59</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_59_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_59</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_59</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_59</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_59</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_59</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_59</Prereq>
 				</Event>
 
 	<!--
@@ -1646,20 +1641,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_60</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_60</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_60_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_60</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_60</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_60</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_60</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_60</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_60</Prereq>
 				</Event>
 
 	<!--
@@ -1672,20 +1667,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_61</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_61</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_61_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_61</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_61</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_61</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_61</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_61</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_61</Prereq>
 				</Event>
 
 	<!--
@@ -1698,24 +1693,24 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_62</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_62</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_62_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_62</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_62</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_62</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_62</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_62</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_62</Prereq>
 				</Event>
 
 	<!--
-		Tyber Zann: Putting him in my past allows me to concentrate on bigger fish. I'm slowly growing more powerful. My defeat of Jabba allows me to take on my true enemy, the Empire. 
+		Tyber Zann: Putting him in my past allows me to concentrate on bigger fish. I'm slowly growing more powerful. My defeat of Jabba allows me to take on my true enemy, the Empire.
 
 	-->
 	<Event Name="Mission_4_Chatter_Dialog_63">
@@ -1724,24 +1719,24 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_63</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_63</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_63_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_63</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_63</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_63</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_63</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_63</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_63</Prereq>
 				</Event>
 
 	<!--
-		Urai Fen: What about the forces of the Rebellion? Their power is growing as world after world joins them. 
+		Urai Fen: What about the forces of the Rebellion? Their power is growing as world after world joins them.
 
 	-->
 	<Event Name="Mission_4_Chatter_Dialog_64">
@@ -1750,24 +1745,24 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_64</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_64</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_64_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_64</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_64</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_64</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_64</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_64</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_64</Prereq>
 				</Event>
 
 	<!--
-		Tyber Zann: I care nothing for those fools. I'll be part of the destruction of the Galactic Empire. It's the least I can do in payment for what they did to me. My parents disowned me when I was forced out of the Academy. They died soon after and I blame myself. I'm not ashamed to say I cried when they passed away. I'll take an Imperial world for every tear I shed. 
+		Tyber Zann: I care nothing for those fools. I'll be part of the destruction of the Galactic Empire. It's the least I can do in payment for what they did to me. My parents disowned me when I was forced out of the Academy. They died soon after and I blame myself. I'm not ashamed to say I cried when they passed away. I'll take an Imperial world for every tear I shed.
 
 	-->
 	<Event Name="Mission_4_Chatter_Dialog_65">
@@ -1776,20 +1771,20 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_65</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M04_65</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_A01M04_Begin</Prereq>
 	</Event>
-	
+
 				<Event Name="Mission_4_Chatter_Dialog_65_Speech_Done">
-            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-            		<Event_Param1>UW_ACT01_M04_65</Event_Param1>
-            		<Reward_Type>SCREEN_TEXT</Reward_Type>
-            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_65</Reward_Param1>
-            		<Reward_Param4>Remove</Reward_Param4>	
-            		<Prereq>Mission_4_Chatter_Dialog_65</Prereq>
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M04_65</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_65</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Mission_4_Chatter_Dialog_65</Prereq>
 				</Event>
 
 
@@ -1928,9 +1923,4 @@
 			<Reward_Param1>Pirates</Reward_Param1>
 			<Prereq>You_Have_Lost_A01M04</Prereq>
 		</Event>
-
-
-
-
-
 </Story>

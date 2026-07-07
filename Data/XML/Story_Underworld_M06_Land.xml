@@ -655,20 +655,20 @@
 		</Event>
 
 					<Event Name="UM06_Rancor_Hint_FLASH_Stealth">
-                        <Event_Type>STORY_ELAPSED</Event_Type>
+						<Event_Type>STORY_ELAPSED</Event_Type>
 						<Event_Param1>.5</Event_Param1>
-                        <Reward_Type>FLASH_SPECIAL_ABILITY</Reward_Type>
-                        <Reward_Param1>STEALTH</Reward_Param1>
-                        <Reward_Param2>flash_stealh_buttons</Reward_Param2>
-                        <Prereq>UM06_Give_Rancor_Hint</Prereq>
+						<Reward_Type>FLASH_SPECIAL_ABILITY</Reward_Type>
+						<Reward_Param1>STEALTH</Reward_Param1>
+						<Reward_Param2>flash_stealh_buttons</Reward_Param2>
+						<Prereq>UM06_Give_Rancor_Hint</Prereq>
 					 </Event>
 
 					 <Event Name="UM06_Rancor_Hint_REMOVEFLASH_Stealth">
-                        <Event_Type>STORY_ELAPSED</Event_Type>
+						<Event_Type>STORY_ELAPSED</Event_Type>
 						<Event_Param1>3</Event_Param1>
-                        <Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
-                        <Reward_Param1>flash_stealh_buttons</Reward_Param1>
-                        <Prereq>UM06_Rancor_Hint_FLASH_Stealth</Prereq>
+						<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+						<Reward_Param1>flash_stealh_buttons</Reward_Param1>
+						<Prereq>UM06_Rancor_Hint_FLASH_Stealth</Prereq>
 					 </Event>
 
 	<Event Name="UM06_AI_NOTIFICATION_Give_Backpath_Hint">

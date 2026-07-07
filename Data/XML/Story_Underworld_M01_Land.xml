@@ -1,0 +1,2000 @@
+<?xml version="1.0" ?>
+<Story>
+<!-- Underworld Act I Mission 01: A Crimelord Unleashed -->
+<!-- Mission start setup -->
+	<Event Name="Underworld_A01M01_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<Event Name="Underworld_Cut_Off_Bribery">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BOUNTY_COLLECTION</Reward_Type>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+	<Event Name="Underworld_A01M01_Autoresolve_Off">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIDE_AUTORESOLVE</Reward_Type>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+	<!-- Turn off advisor -->
+	<Event Name="Underworld_A01M01_Turn_Off_Land_Advisor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_ADVISOR</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+	<Event Name="Underworld_A01M01_Prevent_Empire_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>EMPIRE</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+	<Event Name="Underworld_A01M01_Prevent_Player_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>UNDERWORLD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+	<Event Name="Underworld_A01M01_Prevent_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+	<Event Name="Underworld_A01M01_Allow_Replay">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>USE_RETRY_DIALOG</Reward_Type>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+	<Event Name="Set_Cash">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SET_CREDITS</Event_Param2>
+		<Reward_Type>CREDITS</Reward_Type>
+		<Reward_Param1>200</Reward_Param1>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+
+
+
+	<!-- INTRO DIALOG -->
+
+	<!--
+		HAN SOLO: "Do we have landing Coordinates Chewie?"
+	-->
+	<Event Name="Prolog_Intro_Dialog_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_00</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_00</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_00</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+	<!--
+		CHEWBACCA: (Wookie growl)
+	-->
+	<Event Name="Prolog_Intro_Dialog_00a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>UW_ACT01_M01_00</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Reward_Param8>REBEL_ACT03_MISSION_TEN_46</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_00_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT03_MISSION_TEN_46</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_00</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_00a</Prereq>
+			</Event>
+
+	<!--
+		HAN SOLO: I got a bad feeling about this.  The price is right, but something about this spice run seems very wrong.
+	-->
+	<Event Name="Prolog_Intro_Dialog_01">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_01</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_01</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_01</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_01_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_01</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_01</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_01</Prereq>
+			</Event>
+
+
+	<!--
+		URAI FEN: No need to worry Captain Solo, I'm sure everything will be fine.
+	-->
+	<Event Name="Prolog_Intro_Dialog_02">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_02</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_02</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_02</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_02_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_02</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_02</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_02</Prereq>
+			</Event>
+
+
+	<!--
+		Han Solo: Cripes!  A little warning to the guy running the
+		ship controls would be a good idea, instead of scaring the
+		wits out him and possibly killing us all!  And, uh, no offense
+		meant, you know?
+	-->
+	<Event Name="Prolog_Intro_Dialog_02A">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_02A</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_46</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_46</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_02A_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_46</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_46</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_02A</Prereq>
+			</Event>
+
+
+
+<!-- Extended Cut Addition to Intro -->
+
+
+
+	<!--
+		Jabba the Hutt: ho, ho, ho, Tyber Zann, my favorite business partner!
+		How do you like the accommodations I arranged just for you?
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_00</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_47</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UW_ACT01_M01_47</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_00_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_47</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_47</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_00</Prereq>
+			</Event>
+
+	<!--
+		Tyber Zann: Visiting hours are over Jabba, but it’s always good to
+		see your wormy smile. What can I steal from you now?
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_01">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_01</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_48</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_48</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_01_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_48</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_48</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_01</Prereq>
+			</Event>
+
+
+	<!--
+		Jabba the Hutt: Your stealing days are over. I’ve made moves
+		to take over your organization. Your consortium and its contacts
+		are no more, thanks to me. I have my revenge on you for stealing
+		that ancient bauble.
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_02">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_02</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_49</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UW_ACT01_M01_49</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_02_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_49</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_49</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_02</Prereq>
+			</Event>
+
+	<!--
+		Tyber Zann: You might have set my time table back a bit; you might even
+		have surprised me when you put the Empire on my trail and aided in my
+		arrest. But I think you’ll find my reach is still galaxy wide. I don’t
+		think you’ve had much luck finding your lost artifact have you Jabba?
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_03">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_03</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_50</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_50</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_03_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_50</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_50</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_03</Prereq>
+			</Event>
+
+   <!--
+		Jabba the Hutt: I’ve come to offer you one last chance to reveal where
+		you hid my artifact. I admit you surprised me when you snuck into my
+		stronghold and took the most precious thing I owned. You see what your
+		thieving efforts earned you. I’ve destroyed your organization. I’ve taken
+		away your resources. As far as I can tell all you have left is the illusive
+		Urai Fen and a few hidden ships too weak to be of any real use to you. Tell
+		me where you hid my property!
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_04">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_04</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_51</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UW_ACT01_M01_51</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_04_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_51</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_51</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_04</Prereq>
+			</Event>
+
+   <!--
+		Tyber Zann: Jabba, you’ve won the round, I’ll give you that. But this little
+		dance of death you and I do is far from over. I’ll see you in hell first before
+		you get me to reveal where your little toy is hidden.
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_05">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_05</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_52</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_52</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_05_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_52</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_52</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_05</Prereq>
+			</Event>
+
+   <!--
+		Jabba the Hutt: I thought you would say that. You’re no longer of interest
+		to me. I found that artifact in its original hiding place and I’ll find it
+		again. I’ve sent some very special friends of mine to say hello to you today.
+		If they don’t kill you, the reward I’ve placed on your head should allow you
+		to live in interesting times. Enjoy your few remaining hours.
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_06">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_06</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_53</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UW_ACT01_M01_53</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_06_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_53</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_53</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_06</Prereq>
+			</Event>
+
+   <!--
+		Tyber Zann: Urai! Urai, come in at once, do you hear? Urai!
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_07">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_07</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_54</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_54</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_07_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_54</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_54</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_07</Prereq>
+			</Event>
+
+   <!--
+		Urai Fen: I am here, and we are in system. What do you need?
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_08">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_08</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_55</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_55</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_08_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_55</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_55</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_08</Prereq>
+			</Event>
+
+   <!--
+		Tyber Zann: We’re moving up our plans. Get that ship landed today
+		and not in three days. I’ll set things in motion here.
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_09">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_09</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_56</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_56</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_09_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_56</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_56</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_09</Prereq>
+			</Event>
+
+   <!--
+		Urai Fen: It will take some coaxing as Captain Solo likes to enter
+		systems carefully, but his ship is unusually fast and extra credits
+		seem to serve as a strong motivator for him.
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_10">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_10</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_57</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_57</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_10_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_57</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_57</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_10</Prereq>
+			</Event>
+
+   <!--
+		Tyber Zann: Has Jabba or the Empire found our hidden palace
+		on Ryloth or the other forces we stored away in case of emergencies?
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_11">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_11</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_58</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_58</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_11_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_58</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_58</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_11</Prereq>
+			</Event>
+
+   <!--
+		Urai Fen: The Zann consortium isn’t the powerful force it was before
+		you were arrested, but your emergency plans worked flawlessly. Once
+		you escape, I feel confident that your organization will grow faster
+		than ever. Rebel and Imperial forces battle everywhere. Many planets
+		are ruled only by chaos. You will be supreme once more.
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_12">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_12</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_59</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_59</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_12_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_59</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_59</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_12</Prereq>
+			</Event>
+
+   <!--
+		Tyber Zann: I made the mistake of partnering with Jabba. That’s one
+		error I won’t make again. I’m going to corrupt my way through the galaxy.
+		Soon Rebellion and Empire alike will give way before me. Just get here so
+		that my plans can move forward. Zann out.
+	-->
+	<Event Name="Prolog_Intro_Dialog_New_13">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_NEW_13</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_60</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_60</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="Prolog_Intro_Dialog_New_13_Speech_Done">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>UW_ACT01_M01_60</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_60</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>
+				<Prereq>Prolog_Intro_Dialog_New_13</Prereq>
+			</Event>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--
+		STORMTROOPER: "So, you're the great Tyber Zann - I thought you'd be taller."
+	-->
+	<Event Name="Prolog_Intro_Dialog_03">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_03</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_03</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_03</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Intro_Dialog_03_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_03</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_03</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: And I thought you'd be smarter.  So, you're going to kill me?  You're not the first to try.
+	-->
+	<Event Name="Prolog_Intro_Dialog_04">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_04</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_04</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_04</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Intro_Dialog_04_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_04</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_04</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		STORMTROOPER: I'll be the last - a million credits is a strong motivator.
+	-->
+	<Event Name="Prolog_Intro_Dialog_05">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_05</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_05</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_05</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Intro_Dialog_05_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_05</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_05</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: An impressive price.  It's a pitty Jabba didn't tell you about the riot.
+	-->
+	<Event Name="Prolog_Intro_Dialog_06">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_06</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_06</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_06</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Intro_Dialog_06_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_06</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_06</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		STORMTROOPER: Riot? What riot?
+	-->
+	<Event Name="Prolog_Intro_Dialog_07">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_07</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_07</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_07</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Intro_Dialog_07_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_07</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_07</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: That riot.
+	-->
+	<Event Name="Prolog_Intro_Dialog_08">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_08</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_08</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_08</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Intro_Dialog_08_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_08</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_08</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+
+
+	<!-- MID CINEMATIC DIALOG -->
+
+	<!--
+		TYBER ZANN: Good to see you again, old friend.
+	-->
+	<Event Name="Prolog_Midtro_Dialog_09">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_09</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_09</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_09</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Midtro_Dialog_09_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_09</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_09</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		URAI FEN: Where would a crimelord be without his bodyguard.
+	-->
+	<Event Name="Prolog_Midtro_Dialog_10">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_10</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_10</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_10</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>3</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Midtro_Dialog_10_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_10</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_10</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		URAI FEN: In Prison perhaps.
+	-->
+	<Event Name="Prolog_Midtro_Dialog_11">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_11</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_11</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_11</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>3</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Midtro_Dialog_11_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_11</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_11</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+
+
+
+	<!-- Wait for Intro cinematic to be completed before adding goals -->
+
+	<Event Name="Cinematic_Completed_LUA_Message">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM01_INTROCINE_DONE</Event_Param2>
+	</Event>
+
+	<Event Name="UMP_ADD_OBJECTIVE_Tyber_Must_Survive">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_UW_ACT01_M01_GOAL_01</Reward_Param1>
+		<Prereq>Cinematic_Completed_LUA_Message</Prereq>
+	</Event>
+
+	<Event Name="UMP_ADD_OBJECTIVE_Urai_Must_Survive">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UMP_URAI_ADDED</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_UW_ACT01_M01_GOAL_03</Reward_Param1>
+		<Prereq>Cinematic_Completed_LUA_Message</Prereq>
+	</Event>
+
+	<Event Name="UMP_ADD_OBJECTIVE_Get_to_Falcon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_UW_ACT01_M01_GOAL_02</Reward_Param1>
+		<Prereq>Cinematic_Completed_LUA_Message</Prereq>
+	</Event>
+
+	<Event Name="UMP_ADD_OBJECTIVE_Destroy_Troopers">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM01_KILL_TROOPERS</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_UW_ACT01_M01_GOAL_04</Reward_Param1>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+			<Event Name="COMPLETE_OBJECTIVE_Destroy_Troopers">
+				<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+				<Event_Param2>UM01_KILL_TROOPERS_DONE</Event_Param2>
+				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+				<Reward_Param1>TEXT_UW_ACT01_M01_GOAL_04</Reward_Param1>
+				<Prereq>Underworld_A01M01_Begin</Prereq>
+			</Event>
+
+	<!-- Hint Text -->
+
+	<Event Name="Hint_for_Spice_Containers">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM01_HINT_GETSPICE</Event_Param2>
+	</Event>
+
+		<Event Name="Show_Spice_Hint_Text">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_UW_ACT01_M01_HINT_01</Reward_Param1>
+			<Reward_Param2>6</Reward_Param2>
+			<Prereq>Hint_for_Spice_Containers</Prereq>
+		</Event>
+
+
+	<Event Name="Hint_for_Capture_Prisoners">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM01_HINT_GETWORKERS</Event_Param2>
+	</Event>
+
+		<Event Name="Show_Prisoner_Hint_Text">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_UW_ACT01_M01_HINT_02</Reward_Param1>
+			<Reward_Param2>6</Reward_Param2>
+			<Prereq>Hint_for_Capture_Prisoners</Prereq>
+		</Event>
+
+
+	<Event Name="Hint_for_Blow_Containers">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM01_HINT_BLOWCONTAINER</Event_Param2>
+	</Event>
+
+		<Event Name="Show_Container_Hint_Text">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_UW_ACT01_M01_HINT_03</Reward_Param1>
+			<Reward_Param2>6</Reward_Param2>
+			<Prereq>Hint_for_Blow_Containers</Prereq>
+		</Event>
+
+	<Event Name="Hint_for_Destroying_Doors">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM01_HINT_BLOWDOOR</Event_Param2>
+	</Event>
+
+		<Event Name="Show_Door_Hint_Text">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_UW_ACT01_M01_HINT_04</Reward_Param1>
+			<Reward_Param2>6</Reward_Param2>
+			<Prereq>Hint_for_Destroying_Doors</Prereq>
+		</Event>
+
+	<Event Name="Hint_for_Bribing_Enemies">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM01_HINT_BRIBEGUYS</Event_Param2>
+	</Event>
+
+		<Event Name="Show_Bribe_Hint_Text">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_UW_ACT01_M01_HINT_05</Reward_Param1>
+			<Reward_Param2>6</Reward_Param2>
+			<Prereq>Hint_for_Bribing_Enemies</Prereq>
+		</Event>
+
+
+
+
+
+	<!-- Tyber gets near Han Solo -->
+
+	<Event Name="Tyber_Meets_Solo_LUA_Message">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM01_ENDCINE_BEGIN</Event_Param2>
+	</Event>
+
+			<Event Name="COMPLETE_OBJECTIVE_Get_to_Falcon">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+				<Reward_Param1>TEXT_UW_ACT01_M01_GOAL_02</Reward_Param1>
+				<Prereq>Tyber_Meets_Solo_LUA_Message</Prereq>
+			</Event>
+
+	<!-- END DIALOG -->
+
+	<!--
+		"Hold on a second, where’s my cargo?  And what's with all these people?
+		I'm not running a cruise ship!"
+	-->
+	<Event Name="Prolog_End_Dialog_12">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_12</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_12</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_12</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_End_Dialog_12_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_12</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_12</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Prolog_End_Dialog_12</Prereq>
+				</Event>
+
+	<!-- "Urai, would you mind explaining things to the others here?" -->
+	<Event Name="Prolog_End_Dialog_13">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_13</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_13</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_13</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_End_Dialog_13_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_13</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_13</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!-- "It would be my pleasure." -->
+	<Event Name="Prolog_End_Dialog_14">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_14</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_14</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_14</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_End_Dialog_14_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_14</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_14</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		"As I was saying, I am your cargo Captain Solo.  I also have a small
+		amount of spice if you want something more tangible."
+	-->
+	<Event Name="Prolog_End_Dialog_15">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_15</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_15</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_15</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_End_Dialog_15_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_15</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_15</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+
+	<!-- Are you kidding? I can’t just load you aboard!  I can outrun big Corellian ships, but this is Kessel!
+		 I'm not risking my neck for you just to end up back here on the wrong side of the bars! -->
+	<Event Name="Prolog_End_Dialog_16">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_16</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_16</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_16</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_End_Dialog_16_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_16</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_16</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!-- "I’ll double your fee." -->
+	<Event Name="Prolog_End_Dialog_17">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_17</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_17</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_17</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_End_Dialog_17_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_17</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_17</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!-- "Double my…(sigh)...welcome aboard.  (chewbacca sounds) I know, I know!" -->
+	<Event Name="Prolog_End_Dialog_18">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_18</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_18</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_18</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_End_Dialog_18_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_18</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_18</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!-- "Let's go Urai - we have a business to rebuild." -->
+	<Event Name="Prolog_End_Dialog_19">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_19</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_19</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_19</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_End_Dialog_19_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_19</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_19</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+
+<!--  Mission chatter -->
+
+	<!--
+		TYBER ZANN: I'm going to need some friends if I want to get past that turret
+	-->
+	<Event Name="Prolog_Chatter_Dialog_20">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_20</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_20</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_20</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_20_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_20</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_20</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+
+	<!--
+		TYBER ZANN: That looks explosive
+	-->
+	<Event Name="Prolog_Chatter_Dialog_21">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_21</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_21</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_21</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_21_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_21</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_21</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Those look expensive
+	-->
+	<Event Name="Prolog_Chatter_Dialog_22">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_22</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_22</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_22</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_22_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_22</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_22</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: I'll take them all thank you.
+	-->
+	<Event Name="Prolog_Chatter_Dialog_23">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_23</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_23</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_23</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_23_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_23</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_23</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Come on guys, we're breaking out of here
+	-->
+	<Event Name="Prolog_Chatter_Dialog_24">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_24</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_24</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_24</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_24_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_24</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_24</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+
+	<!--
+		TYBER ZANN: Let's go.
+	-->
+	<Event Name="Prolog_Chatter_Dialog_25">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_25</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_25</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_25</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_25_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_25</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_25</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+
+	<!--
+		TYBER ZANN: Follow me to freedom guys
+	-->
+	<Event Name="Prolog_Chatter_Dialog_26">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_26</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_26</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_26</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_26_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_26</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_26</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		PRISONER: Let's get out of here!
+	-->
+	<Event Name="Prolog_Chatter_Dialog_27">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_27</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_27</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_27</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_27_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_27</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_27</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		PRISONER: Thank you my friend!
+	-->
+	<Event Name="Prolog_Chatter_Dialog_28">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_28</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_28</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_28</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_28_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_28</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_28</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		PRISONER: Meesa be free now!
+	-->
+	<Event Name="Prolog_Chatter_Dialog_29">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_29</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_29</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_29</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_29_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_29</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_29</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+
+	<!--
+		PRISONER: Whoa!  Tyber Zann!  I thought you were dead!
+	-->
+	<Event Name="Prolog_Chatter_Dialog_30">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_30</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_30</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_30</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_30_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_30</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_30</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Not dead, just taking a vacation courtesy of Jabba the Hutt
+	-->
+	<Event Name="Prolog_Chatter_Dialog_31">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_31</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_31</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_31</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_31_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_31</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_31</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Remind me to repay Jabba for his kindness once I, er... we get out of here
+	-->
+	<Event Name="Prolog_Chatter_Dialog_32">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_32</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_32</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_32</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_32_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_32</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_32</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		URAI_FEN:  Wait there are some new droids up ahead that look dangerous.  Let me...
+	-->
+	<Event Name="Prolog_Chatter_Dialog_33">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_33</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_33</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_33</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_33_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_33</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_33</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Nonsense.  Send the other prisoners - that's why I brought them along
+	-->
+	<Event Name="Prolog_Chatter_Dialog_34">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_34</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_34</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_34</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_34_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_34</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_34</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		HAN SOLO: We cant wait forever so make it snappy
+	-->
+	<Event Name="Prolog_Chatter_Dialog_35">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_35</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_35</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_35</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_35_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_35</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_35</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		HAN SOLO: yeah well, keep the engines warm
+	-->
+	<Event Name="Prolog_Chatter_Dialog_36">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_36</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_36</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_36</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_36_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_36</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_36</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		TYBER: I know jabba and i know my own people
+	-->
+	<Event Name="Prolog_Chatter_Dialog_37">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_37</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_37</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_37</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_37_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_37</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_37</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		GUARD: We'll see about that
+	-->
+	<Event Name="Prolog_Chatter_Dialog_38">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_38</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_38</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_38</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_38_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_38</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_38</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		TYBER: On time old friend as expected...
+	-->
+	<Event Name="Prolog_Chatter_Dialog_39">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_39</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_39</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_39</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_39_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_39</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_39</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		HAN SOLO: There are some stormtroopers here wondering why I'm not loading cargo.  You better hurrry up or I'm leaving.
+	-->
+	<Event Name="Prolog_Chatter_Dialog_40">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_40</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_40</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_40</Reward_Param8>
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Intro_Dialog_40_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_40</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_40</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+			<Event Name="Prolog_Intro_Dialog_40_Movie_Done">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+				<Prereq>Prolog_Intro_Dialog_40_Speech_Done</Prereq>
+			</Event>
+
+	<!--
+		HAN SOLO: I'm under fire!  If they damage the Falcon, I'm adding it to your fee - hurry up!
+	-->
+	<Event Name="Prolog_Chatter_Dialog_41">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_41</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_41</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_41</Reward_Param8>
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Intro_Dialog_41_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_41</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_41</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+			<Event Name="Prolog_Intro_Dialog_41_Movie_Done">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+				<Prereq>Prolog_Intro_Dialog_41_Speech_Done</Prereq>
+			</Event>
+
+	<!--
+		HAN SOLO: That's it - I don't take Imperial fire for anyone.  If you're not here in two minutes, I'm taking off!
+	-->
+	<Event Name="Prolog_Chatter_Dialog_42">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_42</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_42</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_42</Reward_Param8>
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Intro_Dialog_42_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_42</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_42</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+			<Event Name="Prolog_Intro_Dialog_42_Movie_Done">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+				<Prereq>Prolog_Intro_Dialog_42_Speech_Done</Prereq>
+			</Event>
+
+	<!--
+		URAI: Theres a lot of opposition between us and the ship
+	-->
+	<Event Name="Prolog_Chatter_Dialog_43">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_43</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_43</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_43</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_43_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_43</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_43</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		TYBER: I'd planned for that
+	-->
+	<Event Name="Prolog_Chatter_Dialog_44">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_44</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_44</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_44</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_44_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_44</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_44</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		TYBER: That should give the guards something else to shoot at
+	-->
+	<Event Name="Prolog_Chatter_Dialog_45">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_45</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_45</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_45</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_45_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_45</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_45</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		Han Solo: Fen, stop what you're doing now!  You can't kill all. . .
+		That's it!  Chewie, get the Falcon ready, we're leaving.  We didn't sign up for this!
+	-->
+	<Event Name="Prolog_Chatter_Dialog_61">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_61</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_61</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_61</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_61_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_61</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_61</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		Tyber Zann: Captain, I'm very sorry. I understand your concern, but that's the problem
+		with good help like my lieutenant - by the time I can get a word out to stop him, he's already finished.
+	-->
+	<Event Name="Prolog_Chatter_Dialog_62">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_62</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_62</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_62</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_62_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_62</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_62</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		Han Solo: I'm not going to take the rap for their deaths. Your man killed those prisoners.
+		I'm here to take a cargo off planet and that's all!
+	-->
+	<Event Name="Prolog_Chatter_Dialog_63">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_63</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_63</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_63</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_63_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_63</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_63</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+	<!--
+		Tyber Zann: I'll bribe these fools to aid in my escape.
+	-->
+	<Event Name="Prolog_Chatter_Dialog_64">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_64</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_64</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>UW_ACT01_M01_64</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M01_Begin</Prereq>
+	</Event>
+
+				<Event Name="Prolog_Chatter_Dialog_64_Speech_Done">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>UW_ACT01_M01_64</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_UW_ACT01_M01_64</Reward_Param1>
+					<Reward_Param4>Remove</Reward_Param4>
+					<Prereq>Underworld_A01M01_Begin</Prereq>
+				</Event>
+
+<!-- END MISSION -->
+
+
+	<Event Name="Underworld_A01M01_Win_from_LUA">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM01_ENDMISSION_VICTORY</Event_Param2>
+	</Event>
+
+	<Event Name="Underworld_Turn_On_Bribery">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_BOUNTY_COLLECTION</Reward_Type>
+		<Prereq>Underworld_A01M01_Win_from_LUA</Prereq>
+	</Event>
+
+			<Event Name="COMPLETE_OBJECTIVE_Tyber_Must_Survive">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+				<Reward_Param1>TEXT_UW_ACT01_MISSION_PRO_GOAL_01</Reward_Param1>
+				<Prereq>Underworld_A01M01_Win_from_LUA</Prereq>
+			</Event>
+
+			<Event Name="COMPLETE_OBJECTIVE_Urai_Must_Survive">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+				<Reward_Param1>TEXT_UW_ACT01_MISSION_PRO_GOAL_03</Reward_Param1>
+				<Prereq>Underworld_A01M01_Win_from_LUA</Prereq>
+			</Event>
+
+	<Event Name="Underworld_A01M01_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Underworld</Reward_Param1>
+		<Prereq>Underworld_A01M01_Win_from_LUA</Prereq>
+	</Event>
+
+			<Event Name="Underworld_Set_Mission_One_Flag">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SET_FLAG</Reward_Type>
+				<Reward_Param1>Underworld_Mission_01_Win</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+				<Prereq>Underworld_A01M01_Victory</Prereq>
+			</Event>
+
+			<Event Name="Underworld_A01M01_Re-Enable_Retreat">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_RETREAT</Reward_Type>
+				<Reward_Param1>UNDERWORLD</Reward_Param1>
+				<Reward_Param2>0</Reward_Param2>
+				<Prereq>Underworld_A01M01_Victory</Prereq>
+			</Event>
+
+
+
+	<!-- TYBER DIES GAME OVER! -->
+
+	<Event Name="Get_Tyber_Lose_Message_From_Lua">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM01_TYBERDEAD</Event_Param2>
+	</Event>
+
+			<Event Name="Goal_Failed_Tyber_Must_Survive">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+				<Reward_Param1>TEXT_UW_ACT01_MISSION_PRO_GOAL_01</Reward_Param1>
+				<Prereq>Get_Tyber_Lose_Message_From_Lua</Prereq>
+			</Event>
+
+	<!-- URAI DIES GAME OVER! -->
+
+	<Event Name="Get_Urai_Lose_Message_From_Lua">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM01_URAIDEAD</Event_Param2>
+	</Event>
+
+			<Event Name="Goal_Failed_Urai_Must_Survive">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+				<Reward_Param1>TEXT_UW_ACT01_MISSION_PRO_GOAL_03</Reward_Param1>
+				<Prereq>Get_Urai_Lose_Message_From_Lua</Prereq>
+			</Event>
+
+	<Event Name="Some_Hero_Died_You_Lose">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Prereq>Get_Tyber_Lose_Message_From_Lua</Prereq>
+		<Prereq>Get_Urai_Lose_Message_From_Lua</Prereq>
+	</Event>
+
+
+
+<!-- TYBER ZANN PRESENT:  Flashing Bribe Ability -->
+					<Event Name="Underworld_Flash_Bribe">
+						<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+						<Event_Param2>FLASH_BRIBE</Event_Param2>
+						<Prereq>Underworld_A01M01_Begin</Prereq>
+					</Event>
+
+					<Event Name="Underworld_Flash_Bribe_Ability">
+						<Event_Type>STORY_ELAPSED</Event_Type>
+						<Event_Param1>.5</Event_Param1>
+						<Reward_Type>FLASH_SPECIAL_ABILITY</Reward_Type>
+						<Reward_Param1>TACTICAL_BRIBE</Reward_Param1>
+						<Reward_Param2>flash_tyber_bribe</Reward_Param2>
+						<Prereq>Underworld_Flash_Bribe</Prereq>
+					</Event>
+
+					<Event Name="Underworld_Remove_Flash_Bribe">
+						<Event_Type>STORY_ELAPSED</Event_Type>
+						<Event_Param1>5</Event_Param1>
+						<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+						<Reward_Param1>flash_tyber_bribe</Reward_Param1>
+						<Prereq>Underworld_Flash_Bribe_Ability</Prereq>
+					 </Event>
+
+	<Event Name="Underworld_Remove_Flash_Bribe_Click">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>click</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Reward_Param1>flash_tyber_bribe</Reward_Param1>
+		<Prereq>Underworld_Flash_Bribe</Prereq>
+	</Event>
+
+	<Event Name="Underworld_Remove_Flash_Bribe_Right_Click">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>right_click</Event_Param1>
+		<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+		<Reward_Param1>flash_tyber_bribe</Reward_Param1>
+		<Prereq>Underworld_Flash_Bribe</Prereq>
+	</Event>
+</Story>

@@ -1,9 +1,6 @@
-<?xml version="1.0" ?>
-
+<?xml version="1.0"?>
 <Story>
-
 <!-- Mission start setup -->
-
 	<Event Name="Underworld_M02_Begin">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
@@ -30,7 +27,7 @@
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Underworld_M02_Prevent_Player_Retreat">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_RETREAT</Reward_Type>
@@ -45,7 +42,7 @@
 		<Reward_Param1>0</Reward_Param1>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 <!-- Intro Cinematic Completed -->
 	<Event Name="Cinematic_Completed_LUA_Message">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
@@ -59,12 +56,12 @@
 		<Reward_Param1>TEXT_UW_ACT01_M02_GOAL_01</Reward_Param1>
 		<Prereq>Cinematic_Completed_LUA_Message</Prereq>
 	</Event>
-	
+
 		<Event Name="Final_Pod_Collected_LUA_Message">
 			<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 			<Event_Param2>UM02_GOTBLACKBOXES</Event_Param2>
 		</Event>
-		
+
 		<Event Name="COMPLETE_OBJECTIVE_Collect_Data_Pods">
 			<Event_Type>STORY_TRIGGER</Event_Type>
 			<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
@@ -78,7 +75,7 @@
 		<Reward_Param1>TEXT_UW_ACT01_M02_GOAL_02</Reward_Param1>
 		<Prereq>Cinematic_Completed_LUA_Message</Prereq>
 	</Event>
-	
+
 <!-- Data Pod Counter -->
 	<Event Name="UM02_ADD_OBJECTIVE_Data_Pod_Count_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -86,7 +83,7 @@
 		<Reward_Param1>TEXT_UW_ACT01_M02_COUNT_00</Reward_Param1>
 		<Prereq>Cinematic_Completed_LUA_Message</Prereq>
 	</Event>
-	
+
 	<Event Name="UM02_ADD_OBJECTIVE_Data_Pod_Count_00_Remove">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>UM02_HINT_POD_01</Event_Param2>
@@ -94,7 +91,7 @@
 		<Reward_Param1>TEXT_UW_ACT01_M02_COUNT_00</Reward_Param1>
 		<Prereq>Cinematic_Completed_LUA_Message</Prereq>
 	</Event>
-	
+
 		<Event Name="UM02_ADD_OBJECTIVE_Data_Pod_Count_01">
 			<Event_Type>STORY_TRIGGER</Event_Type>
 			<Reward_Type>ADD_OBJECTIVE</Reward_Type>
@@ -103,31 +100,31 @@
 		</Event>
 
 <!--
-Tyber Zann: Comment 1 for pickup. 
+Tyber Zann: Comment 1 for pickup.
 -->
 	<Event Name="Mission_2_Data_Pod_01_Pickup">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_32</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_32</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>UM02_ADD_OBJECTIVE_Data_Pod_Count_01</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Data_Pod_01_Pickup_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_32</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_32</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Data_Pod_01_Pickup</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_32</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_32</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Data_Pod_01_Pickup</Prereq>
 		</Event>
-				
+
 		<Event Name="Mission_2_Data_Pod_01_Pickup_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Data_Pod_01_Pickup_Speech_Done</Prereq>
 		</Event>
 
@@ -138,7 +135,7 @@ Tyber Zann: Comment 1 for pickup.
 		<Reward_Param1>TEXT_UW_ACT01_M02_COUNT_01</Reward_Param1>
 		<Prereq>Cinematic_Completed_LUA_Message</Prereq>
 	</Event>
-	
+
 		<Event Name="UM02_ADD_OBJECTIVE_Data_Pod_Count_02">
 			<Event_Type>STORY_TRIGGER</Event_Type>
 			<Reward_Type>ADD_OBJECTIVE</Reward_Type>
@@ -147,31 +144,31 @@ Tyber Zann: Comment 1 for pickup.
 		</Event>
 
 <!--
-Tyber Zann: Comment 2 for pickup. 
+Tyber Zann: Comment 2 for pickup.
 -->
 	<Event Name="Mission_2_Data_Pod_02_Pickup">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_33</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_33</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>UM02_ADD_OBJECTIVE_Data_Pod_Count_02</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Data_Pod_02_Pickup_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_33</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_33</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Data_Pod_02_Pickup</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_33</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_33</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Data_Pod_02_Pickup</Prereq>
 		</Event>
-				
+
 		<Event Name="Mission_2_Data_Pod_02_Pickup_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Data_Pod_02_Pickup_Speech_Done</Prereq>
 		</Event>
 
@@ -182,7 +179,7 @@ Tyber Zann: Comment 2 for pickup.
 		<Reward_Param1>TEXT_UW_ACT01_M02_COUNT_02</Reward_Param1>
 		<Prereq>Cinematic_Completed_LUA_Message</Prereq>
 	</Event>
-	
+
 		<Event Name="UM02_ADD_OBJECTIVE_Data_Pod_Count_03">
 			<Event_Type>STORY_TRIGGER</Event_Type>
 			<Reward_Type>ADD_OBJECTIVE</Reward_Type>
@@ -191,31 +188,31 @@ Tyber Zann: Comment 2 for pickup.
 		</Event>
 
 <!--
-Tyber Zann: Comment 3 for pickup. 
+Tyber Zann: Comment 3 for pickup.
 -->
 	<Event Name="Mission_2_Data_Pod_03_Pickup">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_34</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_34</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>UM02_ADD_OBJECTIVE_Data_Pod_Count_03</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Data_Pod_03_Pickup_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_34</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_34</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Data_Pod_03_Pickup</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_34</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_34</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Data_Pod_03_Pickup</Prereq>
 		</Event>
-				
+
 		<Event Name="Mission_2_Data_Pod_03_Pickup_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Data_Pod_03_Pickup_Speech_Done</Prereq>
 		</Event>
 
@@ -226,7 +223,7 @@ Tyber Zann: Comment 3 for pickup.
 		<Reward_Param1>TEXT_UW_ACT01_M02_COUNT_03</Reward_Param1>
 		<Prereq>Cinematic_Completed_LUA_Message</Prereq>
 	</Event>
-	
+
 		<Event Name="UM02_ADD_OBJECTIVE_Data_Pod_Count_04">
 			<Event_Type>STORY_TRIGGER</Event_Type>
 			<Reward_Type>ADD_OBJECTIVE</Reward_Type>
@@ -269,20 +266,20 @@ PILOT: We've scanned the outer area...
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_00</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_00</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Chatter_Dialog_00_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_00</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_00</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Underworld_M02_Begin</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_00</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_00</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Underworld_M02_Begin</Prereq>
 		</Event>
 
 <!--
@@ -294,22 +291,22 @@ TYBER ZANN: As I expected.  I doubt the rebels left much of value...
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_01</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_01</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Chatter_Dialog_01_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_01</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_01</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Underworld_M02_Begin</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_01</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_01</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Underworld_M02_Begin</Prereq>
 		</Event>
-				
+
 <!--
 PILOT: What now?
 -->
@@ -319,20 +316,20 @@ PILOT: What now?
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_02</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_02</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Chatter_Dialog_02_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_02</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_02</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Underworld_M02_Begin</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_02</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_02</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Underworld_M02_Begin</Prereq>
 		</Event>
 
 <!--
@@ -344,20 +341,20 @@ TYBER ZANN: Let's make a final pass...
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_03</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Chatter_Dialog_03_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_03</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_03</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Underworld_M02_Begin</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_03</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_03</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Underworld_M02_Begin</Prereq>
 		</Event>
 
 <!--
@@ -369,20 +366,20 @@ PILOT: Sir! We aren't alone!
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_04</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Chatter_Dialog_04_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_04</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_04</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Underworld_M02_Begin</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_04</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_04</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Underworld_M02_Begin</Prereq>
 		</Event>
 
 <!--
@@ -394,20 +391,20 @@ REBEL PILOT: Unidentified ships! Send your transponder codes...
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_05</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Chatter_Dialog_05_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_05</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_05</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Underworld_M02_Begin</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_05</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_05</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Underworld_M02_Begin</Prereq>
 		</Event>
 
 <!--
@@ -419,20 +416,20 @@ TYBER ZANN: Alpha Wing! Break and deal with the rebels..
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_06</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Chatter_Dialog_06_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_06</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_06</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Underworld_M02_Begin</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_06</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_06</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Underworld_M02_Begin</Prereq>
 		</Event>
 
 <!--
@@ -444,25 +441,25 @@ TYBER_ZANN: That could be an emergency data pod...
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_07</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Chatter_Dialog_07_Speech_Done">
 			<Event_Type>STORY_SPEECH_DONE</Event_Type>
 			<Event_Param1>UW_ACT01_M02_07</Event_Param1>
 			<Reward_Type>SCREEN_TEXT</Reward_Type>
 			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_07</Reward_Param1>
-			<Reward_Param4>Remove</Reward_Param4>	
+			<Reward_Param4>Remove</Reward_Param4>
 			<Prereq>Underworld_M02_Begin</Prereq>
 		</Event>
-				
+
 		<Event Name="Mission_2_Chatter_Dialog_07_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Chatter_Dialog_07_Speech_Done</Prereq>
 		</Event>
 
@@ -475,25 +472,25 @@ TYBER_ZANN: Another data pod...
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_08</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Chatter_Dialog_08_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_08</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_08</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Underworld_M02_Begin</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_08</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_08</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Underworld_M02_Begin</Prereq>
 		</Event>
 
 		<Event Name="Mission_2_Chatter_Dialog_08_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Chatter_Dialog_08_Speech_Done</Prereq>
 		</Event>
 
@@ -506,25 +503,25 @@ TYBER_ZANN: There's another one...
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_09</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Chatter_Dialog_09_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_09</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_09</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Underworld_M02_Begin</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_09</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_09</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Underworld_M02_Begin</Prereq>
 		</Event>
 
 		<Event Name="Mission_2_Chatter_Dialog_09_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Chatter_Dialog_09_Speech_Done</Prereq>
 		</Event>
 
@@ -537,20 +534,20 @@ TYBER_ZANN: That's enough!  We have what we came for...
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_10</Reward_Param8>
 		<Reward_Param9></Reward_Param9>
 		<Reward_Param10>0</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Chatter_Dialog_10_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_10</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_10</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Underworld_M02_Begin</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_10</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_10</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Underworld_M02_Begin</Prereq>
 		</Event>
 
 <!--
@@ -562,47 +559,47 @@ Wedge: Unidentified ships – you are trespassing in Alliance space.  Surrender 
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_11</Reward_Param8>
 		<Reward_Param9>Wedge_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Rebel_Encounter_01_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_11</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_11</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Rebel_Encounter_01</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_11</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_11</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Rebel_Encounter_01</Prereq>
 		</Event>
 <!--
-Tyber Zann: Alpha Wing – Regroup and engage the Rebel reinforcements – I need more time. 
+Tyber Zann: Alpha Wing – Regroup and engage the Rebel reinforcements – I need more time.
 -->
 	<Event Name="Mission_2_Rebel_Encounter_01_Retort">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_12</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_12</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_2_Rebel_Encounter_01_Speech_Done</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Rebel_Encounter_01_Retort_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_12</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_12</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Rebel_Encounter_01_Retort</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_12</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_12</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Rebel_Encounter_01_Retort</Prereq>
 		</Event>
-				
+
 		<Event Name="Mission_2_Rebel_Encounter_01_Retort_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Rebel_Encounter_01_Retort_Speech_Done</Prereq>
 		</Event>
 
@@ -614,28 +611,28 @@ Wedge: Red 2 to all Alliance units – we need to regroup for another strike - w
 		<Event_Param2>REBEL_ENCOUNTER_DONE</Event_Param2>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_13</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_13</Reward_Param8>
 		<Reward_Param9>Wedge_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_2_Rebel_Encounter_01_Retort_Speech_Done</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Rebel_Encounter_02_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_13</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_13</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Rebel_Encounter_02</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_13</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_13</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Rebel_Encounter_02</Prereq>
 		</Event>
 
 		<Event Name="Mission_2_Rebel_Encounter_02_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Rebel_Encounter_02_Speech_Done</Prereq>
 		</Event>
-		
+
 <!--
 Tyber: Looks like the Rebels are setting up localized defenses. Destroy those missile satellites.
 -->
@@ -645,25 +642,25 @@ Tyber: Looks like the Rebels are setting up localized defenses. Destroy those mi
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_14</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_14</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Rebel_Satellite_01_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_14</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_14</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Rebel_Satellite_01</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_14</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_14</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Rebel_Satellite_01</Prereq>
 		</Event>
 
 		<Event Name="Mission_2_Rebel_Satellite_01_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Rebel_Satellite_01_Speech_Done</Prereq>
 		</Event>
 
@@ -676,20 +673,20 @@ Pirates: We’re claiming this loot! Leave now or we’ll add you to the scrap!
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_15</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_15</Reward_Param8>
 		<Reward_Param9>Pirate_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Pirate_Encounter_01_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_15</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_15</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Pirate_Encounter_01</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_15</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_15</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Pirate_Encounter_01</Prereq>
 		</Event>
 <!--
 Tyber Zann: How typical; all talk and no teeth. Those data pods are mine – make sure they pirates don’t leave here alive.
@@ -698,25 +695,25 @@ Tyber Zann: How typical; all talk and no teeth. Those data pods are mine – mak
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_16</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_16</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_2_Pirate_Encounter_01_Speech_Done</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Pirate_Encounter_01_Retort_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_16</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_16</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Pirate_Encounter_01_Retort</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_16</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_16</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Pirate_Encounter_01_Retort</Prereq>
 		</Event>
 
 		<Event Name="Mission_2_Pirate_Encounter_01_Retort_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Pirate_Encounter_01_Retort_Speech_Done</Prereq>
 		</Event>
 
@@ -729,20 +726,20 @@ Imperial Officer: Pirates inbound! Maintain the defensive perimeter, we need mor
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_17</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_17</Reward_Param8>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Imperial_Encounter_01_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_17</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_17</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Imperial_Encounter_01</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_17</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_17</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Imperial_Encounter_01</Prereq>
 		</Event>
 <!--
 Tyber: Amusing - Imperial vessels licking their wounds. Tell me, are they paying you enough for this?
@@ -751,43 +748,43 @@ Tyber: Amusing - Imperial vessels licking their wounds. Tell me, are they paying
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_18</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_18</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_2_Imperial_Encounter_01_Speech_Done</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Imperial_Encounter_01_Retort_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_18</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_18</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Imperial_Encounter_01_Retort</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_18</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_18</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Imperial_Encounter_01_Retort</Prereq>
 		</Event>
 
-<!-- 
+<!--
 Tartan Commander: That's the code phrase, gentlemen. Switch your transponders and fall in with Zann's forces.
 -->
 	<Event Name="Mission_2_Imperial_Encounter_01_Tartans">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_19</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_19</Reward_Param8>
 		<Reward_Param9>Piett_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_2_Imperial_Encounter_01_Retort_Speech_Done</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Imperial_Encounter_01_Tartans_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_19</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_19</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Imperial_Encounter_01_Tartans</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_19</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_19</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Imperial_Encounter_01_Tartans</Prereq>
 		</Event>
 
 <!--
@@ -797,20 +794,20 @@ Imperial Officer: Mutinous traitors! Lord Vader will hear of this!
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_20</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_20</Reward_Param8>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_2_Imperial_Encounter_01_Tartans_Speech_Done</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Imperial_Encounter_01_Rebuttal_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_20</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_20</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Imperial_Encounter_01_Rebuttal</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_20</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_20</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Imperial_Encounter_01_Rebuttal</Prereq>
 		</Event>
 
 <!--
@@ -820,25 +817,25 @@ Tyber Zann: Welcome aboard, gentlemen.
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_21</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_21</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_2_Imperial_Encounter_01_Rebuttal_Speech_Done</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Imperial_Encounter_01_Finale_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_21</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_21</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Imperial_Encounter_01_Finale</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_21</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_21</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Imperial_Encounter_01_Finale</Prereq>
 		</Event>
 
 		<Event Name="Mission_2_Imperial_Encounter_01_Finale_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Imperial_Encounter_01_Finale_Speech_Done</Prereq>
 		</Event>
 
@@ -860,22 +857,22 @@ Rebel Commander: We've got scavengers on our tail - protect the shuttles at all 
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_29</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_29</Reward_Param8>
 		<Reward_Param9>Rebel_Pilot_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Rebel_Convoy_Encounter_00_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_29</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_29</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Rebel_Convoy_Encounter_00</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_29</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_29</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Rebel_Convoy_Encounter_00</Prereq>
 		</Event>
-				
+
 <!--
 Tyber Zann: Rebel forces evacuating Yavin. Valuables are worth a deviation: detain the shuttles, confiscate anything worthy, and destroy the rest.
 -->
@@ -883,25 +880,25 @@ Tyber Zann: Rebel forces evacuating Yavin. Valuables are worth a deviation: deta
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_30</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_30</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_2_Rebel_Convoy_Encounter_00_Speech_Done</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Rebel_Convoy_Encounter_01_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_30</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_30</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Rebel_Convoy_Encounter_01</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_30</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_30</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Rebel_Convoy_Encounter_01</Prereq>
 		</Event>
 
 		<Event Name="Mission_2_Rebel_Convoy_Encounter_01_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Rebel_Convoy_Encounter_01_Speech_Done</Prereq>
 		</Event>
 
@@ -913,7 +910,7 @@ Tyber Zann: Rebel forces evacuating Yavin. Valuables are worth a deviation: deta
 		<Reward_Param2>10</Reward_Param2>
 		<Prereq>Mission_2_Rebel_Convoy_Encounter_01_Speech_Done</Prereq>
 	</Event>
-	
+
 	<Event Name="UM02_ADD_OBJECTIVE_Shuttle_Collection">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
@@ -938,25 +935,25 @@ Tyber Zann: The Pirate has dropped the data pod! Retrieve it immediately!
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_28</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_28</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Pirate_Dropped_Pod_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_28</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_28</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Pirate_Dropped_Pod</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_28</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_28</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Pirate_Dropped_Pod</Prereq>
 		</Event>
 
 		<Event Name="Mission_2_Pirate_Dropped_Pod_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Pirate_Dropped_Pod_Speech_Done</Prereq>
 		</Event>
 
@@ -969,25 +966,25 @@ Tyber Zann: Scans indicate that wreckage has high mineral value. Inspect the deb
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_31</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_31</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Approaching_Wreckage_00_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_31</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_31</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Approaching_Wreckage_00</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_31</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_31</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Approaching_Wreckage_00</Prereq>
 		</Event>
 
 		<Event Name="Mission_2_Approaching_Wreckage_00_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Approaching_Wreckage_00_Speech_Done</Prereq>
 		</Event>
 
@@ -1098,20 +1095,20 @@ Pirate Vessel: Too slow, Zann!
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_22</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_22</Reward_Param8>
 		<Reward_Param9>Pirate_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Underworld_M02_Begin</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Final_Encounter_00_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_22</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_22</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Final_Encounter_00</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_22</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_22</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Final_Encounter_00</Prereq>
 		</Event>
 
 <!--
@@ -1121,20 +1118,20 @@ Tyber Zann: What insolence! That vessel has our data pod, do not let it escape!
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_23</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_23</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_2_Final_Encounter_00_Speech_Done</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Final_Encounter_01_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_23</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_23</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Final_Encounter_01</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_23</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_23</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Final_Encounter_01</Prereq>
 		</Event>
 
 <!--
@@ -1144,20 +1141,20 @@ Pilot: Sir, incoming hyperspace signature! Whatever it is, it's huge!
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT03_M12_14</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT03_M12_14</Reward_Param8>
 		<Reward_Param9>Underworld_soldier_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_2_Final_Encounter_01_Speech_Done</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Final_Encounter_02_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT03_M12_14</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT03_M12_14</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Final_Encounter_02</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT03_M12_14</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT03_M12_14</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Final_Encounter_02</Prereq>
 		</Event>
 
 <!--
@@ -1167,20 +1164,20 @@ Tyber Zann: That would be the inevitable imperial fleet. Ah, here is their trans
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_25</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_25</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_2_Final_Encounter_02_Speech_Done</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Final_Encounter_03_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_25</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_25</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Final_Encounter_03</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_25</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_25</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Final_Encounter_03</Prereq>
 		</Event>
 
 <!--
@@ -1191,20 +1188,20 @@ regardless of life signs. No one leaves here alive.
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_26</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_26</Reward_Param8>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_2_Final_Encounter_03_Speech_Done</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Final_Encounter_04_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_26</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_26</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Final_Encounter_04</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_26</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_26</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Final_Encounter_04</Prereq>
 		</Event>
 
 <!--
@@ -1214,25 +1211,25 @@ Tyber Zann: We're nop match for that destroyer. We've lingered too long - collec
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_27</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>UW_ACT01_M02_27</Reward_Param8>
 		<Reward_Param9>Tyber_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Mission_2_Final_Encounter_04_Speech_Done</Prereq>
 	</Event>
-	
+
 		<Event Name="Mission_2_Final_Encounter_05_Speech_Done">
-            <Event_Type>STORY_SPEECH_DONE</Event_Type>
-            <Event_Param1>UW_ACT01_M02_27</Event_Param1>
-            <Reward_Type>SCREEN_TEXT</Reward_Type>
-            <Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_27</Reward_Param1>
-            <Reward_Param4>Remove</Reward_Param4>	
-            <Prereq>Mission_2_Final_Encounter_05</Prereq>
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>UW_ACT01_M02_27</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_27</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>
+			<Prereq>Mission_2_Final_Encounter_05</Prereq>
 		</Event>
 
 		<Event Name="Mission_2_Final_Encounter_05_Stop_Movie">
 			<Event_Type>STORY_TRIGGER</Event_Type>
-			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 			<Prereq>Mission_2_Final_Encounter_05_Speech_Done</Prereq>
 		</Event>
 
@@ -1301,5 +1298,4 @@ Tyber Zann: We're nop match for that destroyer. We've lingered too long - collec
 		<Reward_Param1>Underworld_Mission_02_Win</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
 	</Event>
-
 </Story>
