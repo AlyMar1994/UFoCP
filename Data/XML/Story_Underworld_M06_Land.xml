@@ -541,7 +541,7 @@
 			<Reward_Type>SCREEN_TEXT</Reward_Type>
 			<Reward_Param1>TEXT_STORY_UW_ACT02_M06_56</Reward_Param1>
 			<Reward_Param2>8</Reward_Param2>
-			<Reward_Param7>Hint</Reward_Param7><!-- Hint color coding - RED -->
+			<Reward_Param7>Hint</Reward_Param7><!-- Hint color coding - Green -->
 			<Prereq>UM06_AI_NOTIFICATION_Give_GuardTower_Hint</Prereq>
 		</Event>
 
@@ -596,7 +596,7 @@
 							<Reward_Type>SCREEN_TEXT</Reward_Type>
 							<Reward_Param1>TEXT_STORY_UW_ACT02_M06_55</Reward_Param1>
 							<Reward_Param2>8</Reward_Param2>
-							<Reward_Param7>System</Reward_Param7><!-- Hint color coding - RED -->
+							<Reward_Param7>System</Reward_Param7><!-- System color coding - RED -->
 							<Prereq>UM06_AI_NOTIFICATION_Uplink_Destroyed</Prereq>
 						</Event>
 
@@ -650,7 +650,7 @@
 			<Reward_Type>SCREEN_TEXT</Reward_Type>
 			<Reward_Param1>TEXT_STORY_UW_ACT02_M06_48</Reward_Param1>
 			<Reward_Param2>8</Reward_Param2>
-			<Reward_Param7>Hint</Reward_Param7><!-- Hint color coding - RED -->
+			<Reward_Param7>Hint</Reward_Param7><!-- Hint color coding - Green -->
 			<Prereq>UM06_DIALOG_Urai_Warns_About_Rancors_Remove_Movie</Prereq>
 		</Event>
 
