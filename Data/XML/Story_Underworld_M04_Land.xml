@@ -1,0 +1,1936 @@
+﻿<?xml version="1.0" ?>
+
+
+<Story>
+
+
+<!-- Underworld Act I Mission 04: Visions of the Past -->
+
+	<Event Name="Underworld_A01M04_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<Event Name="Underworld_A01M04_Autoresolve_Off">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIDE_AUTORESOLVE</Reward_Type>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+
+	<!-- Turn off advisor -->
+	<Event Name="Underworld_A01M04_Turn_Off_Land_Advisor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_ADVISOR</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+
+	<Event Name="Underworld_A01M04_Prevent_Player_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>UNDERWORLD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+
+	<Event Name="Underworld_A01M04_Prevent_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Underworld_A01M04_Allow_Replay">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>USE_RETRY_DIALOG</Reward_Type>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+
+
+
+
+
+	<!-- Intro Cinematic Completed -->
+
+	<Event Name="Cinematic_Completed_LUA_Message">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_INTROCINE_DONE</Event_Param2>
+	</Event>
+
+
+
+
+	<!-- Add on-screen goals -->
+
+	<Event Name="UM04_ADD_OBJECTIVE_Use_Controls">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_06</Reward_Param1>
+		<Prereq>Cinematic_Completed_LUA_Message</Prereq>
+	</Event>
+
+			<Event Name="Use_Controls_LUA_Message">
+				<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+				<Event_Param2>UM04_CONTROLS_USED</Event_Param2>
+			</Event>
+			
+			<Event Name="COMPLETE_OBJECTIVE_Use_Controls">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+				<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_06</Reward_Param1>
+				<Prereq>Use_Controls_LUA_Message</Prereq>
+			</Event>
+			
+	<Event Name="UM04_ADD_OBJECTIVE_Tyber_Zann_Must_Survive">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_03</Reward_Param1>
+		<Prereq>UM04_ADD_OBJECTIVE_Use_Controls</Prereq>
+	</Event>
+
+	<Event Name="UM04_ADD_OBJECTIVE_Urai_Fen_Must_Survive">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_04</Reward_Param1>
+		<Prereq>UM04_ADD_OBJECTIVE_Use_Controls</Prereq>
+	</Event>
+
+	<Event Name="UM04_ADD_OBJECTIVE_Droid_Works_Must_Survive">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_05</Reward_Param1>
+		<Prereq>COMPLETE_OBJECTIVE_Capture_Droid_Works</Prereq>
+	</Event>
+
+	<Event Name="UM04_ADD_OBJECTIVE_Capture_Droid_Works">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_HINT_DROIDWORKS</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_02</Reward_Param1>
+	</Event>
+
+			<Event Name="Capture_Droid_Works_LUA_Message">
+				<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+				<Event_Param2>UM04_DROIDWORKS_CAPTURED</Event_Param2>
+			</Event>
+			
+			<Event Name="COMPLETE_OBJECTIVE_Capture_Droid_Works">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+				<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_02</Reward_Param1>
+				<Prereq>Capture_Droid_Works_LUA_Message</Prereq>
+			</Event>
+
+	<Event Name="UM04_ADD_OBJECTIVE_Capture_Reinforcement_Points">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_HINT_LANDINGPADS</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_01</Reward_Param1>
+	</Event>
+
+			<Event Name="Capture_Reinforcement_Points_LUA_Message">
+				<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+				<Event_Param2>UM04_PADSCAPTURED</Event_Param2>
+			</Event>
+			
+			<Event Name="COMPLETE_OBJECTIVE_Capture_Reinforcement_Points">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+				<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_01</Reward_Param1>
+				<Prereq>Capture_Reinforcement_Points_LUA_Message</Prereq>
+			</Event>
+
+	<Event Name="UM04_ADD_OBJECTIVE_Bossk_Must_Survive">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_HINT_BOSSK</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_07</Reward_Param1>
+	</Event>
+
+
+
+
+
+
+
+
+
+
+	<!-- Hint Text -->
+
+	<Event Name="Hint_for_Controls">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_HINT_CONTROLS</Event_Param2>
+	</Event>
+
+		<Event Name="Show_Controls_Text">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_UW_ACT01_M04_HINT_01</Reward_Param1>
+			<Reward_Param2>6</Reward_Param2>
+			<Prereq>Hint_for_Controls</Prereq>
+		</Event>
+
+	<!-- Hint Text -->
+
+	<Event Name="Hint_for_Droid_Works">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_HINT_DROIDWORKS</Event_Param2>
+	</Event>
+
+		<Event Name="Show_Droid_Works_Text">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_UW_ACT01_M04_HINT_02</Reward_Param1>
+			<Reward_Param2>6</Reward_Param2>
+			<Prereq>Hint_for_Droid_Works</Prereq>
+		</Event>
+
+	<!-- Hint Text -->
+
+	<Event Name="Hint_for_Droids">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_HINT_USEDROIDS</Event_Param2>
+	</Event>
+
+		<Event Name="Show_Droids_Text">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_UW_ACT01_M04_HINT_03</Reward_Param1>
+			<Reward_Param2>6</Reward_Param2>
+			<Prereq>Hint_for_Droids</Prereq>
+		</Event>
+
+
+
+
+
+
+
+
+	<!-- Mid-Mission Cinematic Begins -->
+
+	<Event Name="Mid_Cinematic_Begins_LUA_Message">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_MIDCINE_BEGIN</Event_Param2>
+	</Event>
+
+
+
+
+
+
+	<!-- Mid-Mission Cinematic Ends -->
+
+	<Event Name="Mid_Cinematic_Ends_LUA_Message">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_MIDCINE_DONE</Event_Param2>
+	</Event>
+
+
+
+
+
+	<!-- End Cinematic Begins -->
+
+	<Event Name="End_Cinematic_Begins_LUA_Message">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_ENDCINE_BEGIN</Event_Param2>
+	</Event>
+
+
+
+	<!-- Mission Chatter Hooks -->
+
+	<!--
+		URAI FEN: Ah, you've brought help.  Good.
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_00</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_00</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_00</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_00_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_00</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_00</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_00</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: I take it this isn't going to be easy?
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_01">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_01</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_01</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_01</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_01_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_01</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_01</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_01</Prereq>
+				</Event>
+
+	<!--
+		URAI_FEN: Is it ever?
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_02">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_02</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_02</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_02</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_02_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_02</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_02</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_02</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: That looks like the control station.  Let's get this factory shut down before anything else happens.
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_03">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_03</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_03</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_03</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_03_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_03</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_03</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_03</Prereq>
+				</Event>
+
+	<!--
+		URAI FEN: Well that was fun.  I've managed to set the factory to manual, so we shouldn't have any more suprises
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_06">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_06</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_06</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_06</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_06_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_06</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_06</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_06</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: You were saying?
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_07">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_07</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_07</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_07</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_07_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_07</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_07</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_07</Prereq>
+				</Event>
+
+	<!--
+		JABBA THE HUTT: Ho Ho.  So you think you can steal from me...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_08">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_08</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_08</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UW_ACT01_M04_08</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_08_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_08</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_08</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_08</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: I am not "small time"
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_09">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_09</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_09</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_09</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_09_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_09</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_09</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_09</Prereq>
+				</Event>
+
+	<!--
+		JABBA THE HUTT: not scared, tyber.  Amused.  I knew you were coming...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_10">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_10</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_10</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UW_ACT01_M04_10</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_10_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_10</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_10</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_10</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Bossk.  I heard you were working for Jabba...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_11">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_11</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_11</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_11</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_11_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_11</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_11</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_11</Prereq>
+				</Event>
+
+	<!--
+		Bossk: Well enough
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_12">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_12</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_12</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UW_ACT01_M04_12</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_12_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_12</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_12</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_12</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: And what would you say if I tripled ...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_13">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_13</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_13</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_13</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_13_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_13</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_13</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_13</Prereq>
+				</Event>
+
+	<!--
+		BOSSK: Id say, what's the job boss?
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_14">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_14</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_14</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UW_ACT01_M04_14</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_14_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_14</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_14</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_14</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Your men are dead Jabba and you are surrounded
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_15">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_15</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_15</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_15</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_15_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_15</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_15</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_15</Prereq>
+				</Event>
+
+	<!--
+		JABBA THE HUTT: We can make a deal Tyber...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_16">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_16</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_16</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UW_ACT01_M04_16</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_16_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_16</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_16</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_16</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: A deal is it?  No deals Jabba.  But I will give you the terms...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_17">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_17</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_17</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_17</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_17_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_17</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_17</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_17</Prereq>
+				</Event>
+
+	<!--
+		JABBA THE HUTT: Agreed.  But the terms work both ways, Tyber...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_18">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_18</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_18</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param7>ALIEN_SPEECH</Reward_Param7>
+		<Reward_Param8>UW_ACT01_M04_18</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_18_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_18</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_18</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_18</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Of course, Jabba.  As long as you live...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_19">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_19</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_19</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_19</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_19_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_19</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_19</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_19</Prereq>
+				</Event>
+
+	<!--
+		URAI FEN: You're letting him go?
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_20">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_20</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_20</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_20</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_20_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_20</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_20</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_20</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Yes. Oh, he'll plot and plan...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_21">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_21</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_21</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_21</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_21_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_21</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_21</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_21</Prereq>
+				</Event>
+
+	<!--
+		URAI FEN: I've got to get to those controls and shut off these droids!
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_22">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_22</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_22</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_22</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_22_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_22</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_22</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_22</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: There are the controls!  Hurry and shut this thing down!
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_23">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_23</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_23</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_23</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_23_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_23</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_23</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_23</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Destroyer droids!
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_24">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_24</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_24</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_24</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_24_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_24</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_24</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_24</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: I got a bad feeling about this.
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_25">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_25</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_25</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_25</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_25_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_25</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_25</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_25</Prereq>
+				</Event>
+
+	<!--
+		URAI FEN: Droids!
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_26">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_26</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_26</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_26</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_26_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_26</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_26</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_26</Prereq>
+				</Event>
+
+	<!--
+		URAI FEN: I gotta get to the backup systems!
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_28">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_28</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_28</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_28</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_28_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_28</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_28</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_28</Prereq>
+				</Event>
+
+	<!--
+		URAI FEN: If I can get the factory working again, we can reprogram the droids...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_29">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_29</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_29</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_29</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_29_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_29</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_29</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_29</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Do it!  I'll try and hold 'em off!
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_30">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_30</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_30</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_30</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_30_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_30</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_30</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_30</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: We've got to recapture those landing platforms or we'll never get our cargo out of here!
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_32">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_32</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_32</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_32</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_32_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_32</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_32</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_32</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Don't just stand there!  Capture that landing platform!
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_34">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_34</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_34</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_34</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_34_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_34</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_34</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_34</Prereq>
+				</Event>
+
+	<!--
+		URAI FEN: Would you forget it?  I already tried they're magnetically sealed...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_35">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_35</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_35</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_35</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_35_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_35</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_35</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_35</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: These doors are magnetically sealed.  It's no use...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_36">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_36</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_36</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_36</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_36_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_36</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_36</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_36</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: We'll have to find another way around...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_37">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_37</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_37</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_37</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_37_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_37</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_37</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_37</Prereq>
+				</Event>
+
+	<!--
+		URAI FEN: Those doors aren't opening until the power goes down...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_38">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_38</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_38</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_38</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_38_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_38</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_38</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_38</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Landing Zone captured.
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_39">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_39</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_39</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_39</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_39_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_39</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_39</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_39</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: One down, three to go...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_40">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_40</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_40</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_40</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_40_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_40</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_40</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_40</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Two landing zones captured.
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_41">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_41</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_41</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_41</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_41_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_41</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_41</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_41</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: Three down.  Only one to go...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_42">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_42</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_42</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_42</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_42_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_42</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_42</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_42</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: We got em all... now what?
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_43">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_43</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_43</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_43</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_43_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_43</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_43</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_43</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: I don't know how to use this thing!  Urai get over here...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_44">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_44</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_44</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_44</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_44_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_44</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_44</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_44</Prereq>
+				</Event>
+
+	<!--
+		URAI FEN: This'll only take a minute
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_45">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_45</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_45</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_45</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_45_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_45</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_45</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_45</Prereq>
+				</Event>
+
+	<!--
+		TYBER ZANN: We don't have a minute...
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_46">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_46</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_46</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_46</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_46_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_46</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_46</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_46</Prereq>
+				</Event>
+
+	<!--
+		Urai Fen: Tyber, I've re-routed the systems in the Droid Works - we now have complete control over the destroyer droids.
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_47">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_47</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_47</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_47</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_47_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_47</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_47</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_47</Prereq>
+				</Event>
+
+	<!--
+		Tyber Zann: We'll never defeat these droids!  We've got to get to the controls!
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_48">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_48</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_48</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_48</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_48_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_48</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_48</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_48</Prereq>
+				</Event>
+
+	<!--
+		Tyber Zann: Is the factory open for business?
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_49">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_49</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_49</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_49</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_49_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_49</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_49</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_49</Prereq>
+				</Event>
+				
+	<!--
+		Urai Fen: The emergency defenses are on, which means the droids will be after us until I can shut them down.
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_50">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_50</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_50</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_50</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_50_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_50</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_50</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_50</Prereq>
+				</Event>
+
+	<!--
+		Tyber Zann: Can we get to the shutoff controls?
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_51">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_51</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_51</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_51</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_51_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_51</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_51</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_51</Prereq>
+				</Event>
+
+	<!--
+		Urai Fen: They are deep inside the factory, but I think we can make it if we avoid any unnecessary conflicts.
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_52">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_52</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_52</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_52</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_52_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_52</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_52</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_52</Prereq>
+				</Event>
+
+	<!--
+		Tyber Zann: Backing down from a fight?  Urai, you’ve changed while I’ve been away.
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_53">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_53</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_53</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_53</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_53_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_53</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_53</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_53</Prereq>
+				</Event>
+
+	<!--
+		Urai Fen: I did not say anything about backing down - we likely won't have that option.  Droidekas are fast...very fast.
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_54">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_54</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_54</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_54</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_54_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_54</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_54</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_54</Prereq>
+				</Event>
+
+	<!--
+		Urai Fen: The battle class droideka is 1.83 meters in height and has a built in shield projector, making it a formidable threat to infantry and light vehicles.
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_55">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_55</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_55</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_55</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_55_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_55</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_55</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_55</Prereq>
+				</Event>
+
+	<!--
+		Tyber Zann: They certainly feel like a threat.
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_56">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_56</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_56</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_56</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_56_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_56</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_56</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_56</Prereq>
+				</Event>
+
+	<!--
+		Urai Fen: It has twin rapid-fire blaster cannons…
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_57">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_57</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_57</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_57</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_57_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_57</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_57</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_57</Prereq>
+				</Event>
+
+	<!--
+		Tyber Zann: ...meaning you don’t want to be up against a mob of these things.
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_58">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_58</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_58</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_58</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_58_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_58</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_58</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_58</Prereq>
+				</Event>
+
+	<!--
+		Urai Fen: Exactly.  And this model has ion blasters, so they can cripple shielded units as well.
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_59">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_59</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_59</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_59</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_59_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_59</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_59</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_59</Prereq>
+				</Event>
+
+	<!--
+		Tyber Zann: That kind of versatility can come in handy on a galactic scale conquest.  Are we at the controls yet?
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_60">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_60</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_60</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_60</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_60_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_60</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_60</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_60</Prereq>
+				</Event>
+
+	<!--
+		Urai Fen: They are just ahead.
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_61">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_61</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_61</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_61</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_61_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_61</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_61</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_61</Prereq>
+				</Event>
+
+	<!--
+		HINT: Prices have changed in the black market.  Visit Imperial and Rebel worlds to see what's available
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_62">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_62</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_62</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_62</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_62_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_62</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_62</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_62</Prereq>
+				</Event>
+
+	<!--
+		Tyber Zann: Putting him in my past allows me to concentrate on bigger fish. I'm slowly growing more powerful. My defeat of Jabba allows me to take on my true enemy, the Empire. 
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_63">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_63</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_63</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_63</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_63_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_63</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_63</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_63</Prereq>
+				</Event>
+
+	<!--
+		Urai Fen: What about the forces of the Rebellion? Their power is growing as world after world joins them. 
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_64">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_64</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_64</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_64</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_64_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_64</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_64</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_64</Prereq>
+				</Event>
+
+	<!--
+		Tyber Zann: I care nothing for those fools. I'll be part of the destruction of the Galactic Empire. It's the least I can do in payment for what they did to me. My parents disowned me when I was forced out of the Academy. They died soon after and I blame myself. I'm not ashamed to say I cried when they passed away. I'll take an Imperial world for every tear I shed. 
+
+	-->
+	<Event Name="Mission_4_Chatter_Dialog_65">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CHATTER_65</Event_Param2>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_65</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>UW_ACT01_M04_65</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Underworld_A01M04_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Mission_4_Chatter_Dialog_65_Speech_Done">
+            		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+            		<Event_Param1>UW_ACT01_M04_65</Event_Param1>
+            		<Reward_Type>SCREEN_TEXT</Reward_Type>
+            		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_65</Reward_Param1>
+            		<Reward_Param4>Remove</Reward_Param4>	
+            		<Prereq>Mission_4_Chatter_Dialog_65</Prereq>
+				</Event>
+
+
+
+	<!-- LUA relays Victory -->
+
+	<Event Name="LUA_Victory_Reporting">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_ENDMISSION_VICTORY</Event_Param2>
+	</Event>
+
+	<Event Name="Underworld_M02_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Underworld</Reward_Param1>
+		<Prereq>LUA_Victory_Reporting</Prereq>
+	</Event>
+
+			<Event Name="Underworld_M02_Set_Victory_Flag">
+				<Event_Type>STORY_VICTORY</Event_Type>
+				<Event_Param1>Underworld</Event_Param1>
+				<Reward_Type>SET_FLAG</Reward_Type>
+				<Reward_Param1>Underworld_Mission_04_Win</Reward_Param1>
+				<Reward_Param2>1</Reward_Param2>
+			</Event>
+
+			<Event Name="COMPLETE_OBJECTIVE_Tyber_Must_Survive">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+				<Reward_Param1>TEXT_UW_ACT01_M02_GOAL_03</Reward_Param1>
+				<Prereq>LUA_Victory_Reporting</Prereq>
+			</Event>
+
+			<Event Name="COMPLETE_OBJECTIVE_Urai_Must_Survive">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+				<Reward_Param1>TEXT_UW_ACT01_M02_GOAL_04</Reward_Param1>
+				<Prereq>LUA_Victory_Reporting</Prereq>
+			</Event>
+
+			<Event Name="COMPLETE_OBJECTIVE_Droid_Works_Must_Survive">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+				<Reward_Param1>TEXT_UW_ACT01_M02_GOAL_05</Reward_Param1>
+				<Prereq>LUA_Victory_Reporting</Prereq>
+			</Event>
+
+			<Event Name="COMPLETE_OBJECTIVE_Bossk_Must_Survive">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+				<Reward_Param1>TEXT_UW_ACT01_M02_GOAL_07</Reward_Param1>
+				<Prereq>LUA_Victory_Reporting</Prereq>
+			</Event>
+
+			<Event Name="Underworld_A01M04_Re-Enable_Retreat">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_RETREAT</Reward_Type>
+				<Reward_Param1>UNDERWORLD</Reward_Param1>
+				<Reward_Param2>0</Reward_Param2>
+				<Prereq>Underworld_M02_Victory</Prereq>
+			</Event>
+
+
+
+<!-- TYBER DIES GAME OVER! -->
+
+	<Event Name="Get_Tyber_Dead_Message_From_Lua">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_TYBERDEAD</Event_Param2>
+	</Event>
+
+		<Event Name="Goal_Failed_Tyber_Must_Survive">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+			<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_03</Reward_Param1>
+			<Prereq>Get_Tyber_Dead_Message_From_Lua</Prereq>
+		</Event>
+
+<!-- URAI DIES GAME OVER! -->
+
+	<Event Name="Get_Urai_Dead_Message_From_Lua">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_URAIDEAD</Event_Param2>
+	</Event>
+
+		<Event Name="Goal_Failed_Urai_Must_Survive">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+			<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_04</Reward_Param1>
+			<Prereq>Get_Urai_Dead_Message_From_Lua</Prereq>
+		</Event>
+
+<!-- DROID WORKS DIES GAME OVER! -->
+
+	<Event Name="Get_DroidWorks_Dead_Message_From_Lua">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_DROIDWORKSDEAD</Event_Param2>
+	</Event>
+
+		<Event Name="Goal_Failed_DroidWorks_Must_Survive">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+			<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_05</Reward_Param1>
+			<Prereq>Get_DroidWorks_Dead_Message_From_Lua</Prereq>
+		</Event>
+
+<!-- BOSSK DIES GAME OVER! -->
+
+	<Event Name="Get_Bossk_Dead_Message_From_Lua">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_BOSSKDEAD</Event_Param2>
+	</Event>
+
+		<Event Name="Goal_Failed_Bossk_Must_Survive">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+			<Reward_Param1>TEXT_UW_ACT01_M04_GOAL_07</Reward_Param1>
+			<Prereq>Get_Bossk_Dead_Message_From_Lua</Prereq>
+		</Event>
+
+
+
+
+
+
+<!-- LUA REPORTS A LOSS -->
+
+	<Event Name="You_Have_Lost_A01M04">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>UM04_ENDMISSION_DEFEAT</Event_Param2>
+	</Event>
+
+		<Event Name="Victory_to_Jabba">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>VICTORY</Reward_Type>
+			<Reward_Param1>Pirates</Reward_Param1>
+			<Prereq>You_Have_Lost_A01M04</Prereq>
+		</Event>
+
+
+
+
+
+</Story>
