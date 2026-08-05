@@ -67,6 +67,7 @@ function SmugglerForce_Thread()
 	-- now as those *should* be the more important money generators and not lead to AI
 	-- spam.
 	if EvaluatePerception("Suitable_Smuggler_Target", PlayerObject, Target) < 0.64 then -- was 0.5
+		SmugglerForce.Set_Plan_Result(false)
 		ScriptExit()
 	end
 
@@ -79,6 +80,7 @@ function SmugglerForce_Thread()
 	-- Landing a hero deploys it, removing it from the game and killing the script.  So,
 	-- we have to indicate success before we land the unit, even though she hasn't deployed.
 	-- If a hero killer gets her before she deploys, the plan should die before setting itself successful.
+	SmugglerForce.Set_As_Goal_System_Removable(false)
 	SmugglerForce.Set_Plan_Result(true)
 	LandUnits(SmugglerForce)
 
@@ -87,5 +89,10 @@ function SmugglerForce_Thread()
 end
 
 function SmugglerForce_No_Units_Remaining()
+	-- Do nothing
+end
+
+function SmugglerForce_Production_Failed(tf, failed_object_type)
+	DebugMessage("%s -- Abandoning plan owing to production failure.", tostring(Script))
 	ScriptExit()
 end

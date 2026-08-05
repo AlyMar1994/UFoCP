@@ -62,6 +62,7 @@ function BountyForce_Thread()
 
 	if EvaluatePerception("Needs_Smuggler_Removed", PlayerObject, AITarget) < 1.0 then
 		DebugMessage("%s -- Unable to find target for BountyForce!", tostring(Script))
+		BountyForce.Set_Plan_Result(false)
 		ScriptExit()
 	end
 
@@ -78,6 +79,7 @@ function BountyForce_Thread()
 	-- land and send the BH to space without actually activating ability
 	-- and prematurely complete the plan.  I don't know why landing a BH
 	-- doesn't act like other abilities, but this seems to work.
+	BountyForce.Set_As_Goal_System_Removable(false)
 	BountyForce.Activate_Ability()
 	--BlockOnCommand(LandUnits(BountyForce))
 
@@ -86,11 +88,10 @@ function BountyForce_Thread()
 end
 
 function BountyForce_No_Units_Remaining()
-	DebugMessage("%s -- Prematurely lost BountyForce!  Exiting...", tostring(Script))
-	ScriptExit()
+	-- Do nothing
 end
 
 function BountyForce_Production_Failed(tf, failed_object_type)
-	DebugMessage("%s -- Abandonning plan owing to production failure.", tostring(Script))
+	DebugMessage("%s -- Abandoning plan owing to production failure.", tostring(Script))
 	ScriptExit()
 end

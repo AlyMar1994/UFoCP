@@ -75,8 +75,13 @@
 	<Remove_Smuggler>
 		<AIGoalApplicationFlags>Friendly</AIGoalApplicationFlags>
 		<GameMode>Galactic</GameMode>
-		<Category>Hero</Category>
-		<Reachability>Enemy_Undefended</Reachability>
+		<Category>Defensive</Category>
+		<Reachability>Any</Reachability>
+		<Build_Time_Delay_Tolerance>1.2</Build_Time_Delay_Tolerance>
+		<Time_Limit>60.0</Time_Limit>
+
+		<Tracking_Duration>600</Tracking_Duration>
+		<Per_Failure_Desire_Adjust>-10.0</Per_Failure_Desire_Adjust>
 	</Remove_Smuggler>
 
 	<Build_Turbolasers>
