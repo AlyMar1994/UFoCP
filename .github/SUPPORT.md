@@ -7,7 +7,7 @@ For basically all questions and concerns, the repo's primary maintainer can be c
 ### Asking Quality Questions
 (section shamelessly stolen from ![remarkjs](https://github.com/remarkjs/.github/blob/main/support.md) )
 
-* Don't fall for the [XY problem][https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem/66378#66378]
+* Don't fall for the ![XY problem](https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem/66378#66378)
 * Search to find out if a similar question has been asked
 * Screenshots can help, but if there's important text such as code or error messages in them, please also provide those as text
 * The more time you put into asking your question, the better we can help you
