@@ -163,6 +163,7 @@
 			<Reward_Type>SCREEN_TEXT</Reward_Type>
 			<Reward_Param1>TEXT_UW_ACT01_M04_HINT_01</Reward_Param1>
 			<Reward_Param2>6</Reward_Param2>
+			<Reward_Param7>Hint</Reward_Param7>
 			<Prereq>Hint_for_Controls</Prereq>
 		</Event>
 
@@ -178,6 +179,7 @@
 			<Reward_Type>SCREEN_TEXT</Reward_Type>
 			<Reward_Param1>TEXT_UW_ACT01_M04_HINT_02</Reward_Param1>
 			<Reward_Param2>6</Reward_Param2>
+			<Reward_Param7>Hint</Reward_Param7>
 			<Prereq>Hint_for_Droid_Works</Prereq>
 		</Event>
 
@@ -193,6 +195,7 @@
 			<Reward_Type>SCREEN_TEXT</Reward_Type>
 			<Reward_Param1>TEXT_UW_ACT01_M04_HINT_03</Reward_Param1>
 			<Reward_Param2>6</Reward_Param2>
+			<Reward_Param7>Hint</Reward_Param7>
 			<Prereq>Hint_for_Droids</Prereq>
 		</Event>
 

@@ -102,7 +102,7 @@ Interface Fixes:
 • Indigenous Mustafarians (who inhabit a magma planet) used the generic arctic human icon in their encyclopedia tooltip. (BUG #739) (Thanks, cha20202!)
 • The SPMA-T artillery's command bar icon was not centered.  Yes, it was annoying. (BUG #782)
 • The Imperial Observation Bunker used in Empire campaign mission #7 ("A New Weapon of War") and Rebel campaign mission #9 ("Handle with Care!") didn't have a tooltip icon.  It was likely that EaW didn't ship with one - however, the model was reused for FoC Land Skirmish as the Imperial infantry bunker, which did receive an icon, and it has been applied to the Observation Bunker. (BUG #786)
-• The Black Sun Pirates' Skiff Brigade (used in EaW SP/MP Galactic Conquests) and Jabba's Criminal Empire (Consortium campaign) had their tooltips messed up: they lacked a description, and their unit class was mistakenly put in their description. (BUG #814)
+• The Black Sun Pirates' Skiff Brigade (used in EaW SP/MP Galactic Conquests) had their tooltips messed up: they lacked a description, and their unit class was mistakenly put in their description. (BUG #814)
 • The Black Sun Pirates' Missile Soldier Team was missing a tooltip description when encountered in GC. (BUG #836)
 
 
@@ -128,6 +128,7 @@ Script/Story Fixes:
 • Rebel campaign mission #7 ("Needle in a Haystack") had a scripting error where, upon Boba Fett finding Han Solo, Solo would ask Chewie who that bozo is; but for some reason, Solo's hologram was programmed to use the Moff/Station Commander's hologram instead of his own. (BUG #785) (Thanks, cha20202!)
 • The GC Intervention "Attrition" for both Empire and Rebels used the story's ending dialogue as the introduction dialogue upon starting.  In addition, the ending dialogue wouldn't play when completed because the dialogue wasn't implemented properly. (BUG #828)
 • The scripting for GC Interventions "Pirate Rescue," "A Favor for Lord Vader," and "Rebel Smuggler" had broken flags that didn't properly complete the Interventions after completion. (BUG #833)
+• Various notifications during the Consortium campaign (NOTICE:, HINT: or TASK: messages) wouldn't have text coloring, unlike other sections of the Consortium campaign and the entirety of the Rebel and Empire campaigns. (BUG #843)
 
 
 Structure Fixes:

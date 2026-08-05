@@ -858,6 +858,7 @@
 			<Reward_Type>SCREEN_TEXT</Reward_Type>
 			<Reward_Param1>TEXT_UW_ACT01_M01_HINT_01</Reward_Param1>
 			<Reward_Param2>6</Reward_Param2>
+			<Reward_Param7>Hint</Reward_Param7>
 			<Prereq>Hint_for_Spice_Containers</Prereq>
 		</Event>
 
@@ -872,6 +873,7 @@
 			<Reward_Type>SCREEN_TEXT</Reward_Type>
 			<Reward_Param1>TEXT_UW_ACT01_M01_HINT_02</Reward_Param1>
 			<Reward_Param2>6</Reward_Param2>
+			<Reward_Param7>Hint</Reward_Param7>
 			<Prereq>Hint_for_Capture_Prisoners</Prereq>
 		</Event>
 
@@ -886,6 +888,7 @@
 			<Reward_Type>SCREEN_TEXT</Reward_Type>
 			<Reward_Param1>TEXT_UW_ACT01_M01_HINT_03</Reward_Param1>
 			<Reward_Param2>6</Reward_Param2>
+			<Reward_Param7>Hint</Reward_Param7>
 			<Prereq>Hint_for_Blow_Containers</Prereq>
 		</Event>
 
@@ -899,6 +902,7 @@
 			<Reward_Type>SCREEN_TEXT</Reward_Type>
 			<Reward_Param1>TEXT_UW_ACT01_M01_HINT_04</Reward_Param1>
 			<Reward_Param2>6</Reward_Param2>
+			<Reward_Param7>Hint</Reward_Param7>
 			<Prereq>Hint_for_Destroying_Doors</Prereq>
 		</Event>
 
@@ -912,6 +916,7 @@
 			<Reward_Type>SCREEN_TEXT</Reward_Type>
 			<Reward_Param1>TEXT_UW_ACT01_M01_HINT_05</Reward_Param1>
 			<Reward_Param2>6</Reward_Param2>
+			<Reward_Param7>Hint</Reward_Param7>
 			<Prereq>Hint_for_Bribing_Enemies</Prereq>
 		</Event>
 

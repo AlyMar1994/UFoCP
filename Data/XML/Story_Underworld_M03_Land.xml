@@ -147,6 +147,7 @@ Urai Fen: I can only imagine. Maintain defenses here - I will reestablish a rein
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_UW_ACT01_M03_HINT_01</Reward_Param1>
 		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
 		<Prereq>Mission_3_Intro_Dialog_03_Speech_Done</Prereq>
 	</Event>
 
@@ -243,6 +244,7 @@ Hutt Soldier: Enough talk! Double pay for the one who takes his head!
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_UW_ACT01_M03_HINT_02</Reward_Param1>
 		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
 		<Prereq>Mission_3_Midtro_Dialog_02_Speech_Done</Prereq>
 	</Event>
 

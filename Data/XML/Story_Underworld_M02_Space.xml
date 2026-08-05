@@ -242,6 +242,7 @@ Tyber Zann: Comment 3 for pickup.
 			<Reward_Type>SCREEN_TEXT</Reward_Type>
 			<Reward_Param1>TEXT_UW_ACT01_M02_HINT_01</Reward_Param1>
 			<Reward_Param2>10</Reward_Param2>
+			<Reward_Param7>Hint</Reward_Param7>
 			<Prereq>Hint_for_Data_Pods</Prereq>
 		</Event>
 
@@ -845,6 +846,7 @@ Tyber Zann: Welcome aboard, gentlemen.
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_UW_ACT01_M02_NOTICE_01</Reward_Param1>
 		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>System</Reward_Param7>
 		<Prereq>Mission_2_Imperial_Encounter_01_Finale_Speech_Done</Prereq>
 	</Event>
 
@@ -908,6 +910,7 @@ Tyber Zann: Rebel forces evacuating Yavin. Valuables are worth a deviation: deta
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_UW_ACT01_M02_HINT_03</Reward_Param1>
 		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
 		<Prereq>Mission_2_Rebel_Convoy_Encounter_01_Speech_Done</Prereq>
 	</Event>
 
@@ -994,6 +997,7 @@ Tyber Zann: Scans indicate that wreckage has high mineral value. Inspect the deb
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_UW_ACT01_M02_HINT_04</Reward_Param1>
 		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
 		<Prereq>Mission_2_Approaching_Wreckage_00_Speech_Done</Prereq>
 	</Event>
 
@@ -1239,6 +1243,7 @@ Tyber Zann: We're nop match for that destroyer. We've lingered too long - collec
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_UW_ACT01_M02_HINT_02</Reward_Param1>
 		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7>
 		<Prereq>Mission_2_Final_Encounter_05_Speech_Done</Prereq>
 	</Event>
 
