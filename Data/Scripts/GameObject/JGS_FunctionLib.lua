@@ -39,8 +39,6 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgbase")
-
 -- this function is used to send units on a neverending hunt for underworld units
 -- Usage: Create_Thread("Hunt_Underworld",attack_list)
 -- where attack_list is a list of units to send on the hunt.  for a single unit, use:
