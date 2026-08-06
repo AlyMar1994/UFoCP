@@ -4059,7 +4059,7 @@
 
 		<Starting_Spawned_Units_Tech_0>Field_Com_Empire_Team, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Field_Com_Empire_Team, -1</Reserve_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>30</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>60.0</Spawned_Squadron_Delay_Seconds>
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>65.0</Spawned_Squadron_Location_Flyout_Distances>
 		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
@@ -4185,7 +4185,7 @@
 
 		<Starting_Spawned_Units_Tech_0>Field_Com_Rebel_Team, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Field_Com_Rebel_Team, -1</Reserve_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>30</Spawned_Squadron_Delay_Seconds>
+		<Spawned_Squadron_Delay_Seconds>60.0</Spawned_Squadron_Delay_Seconds>
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>65.0</Spawned_Squadron_Location_Flyout_Distances>
 		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>

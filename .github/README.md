@@ -13,7 +13,9 @@ The Unofficial Forces of Corruption Patch is a one-does-all community patch for 
 
 You must legally own the [Steam/updated version](https://store.steampowered.com/app/32470/STAR_WARS_Empire_at_War__Gold_Pack/) of the STAR WARS: Empire at War to work on UFCP.  Retail or GOG may work, though they are unsupported.[^2]
 
-UFCP supports multiple languages, and is open to community feedback and contributions.  See the appropriate support documents, in the tabs above, for more information.  SUPPORT details general help and translation support; CONTRIBUTING details contribution support.
+UFCP supports multiple languages, and is open to community feedback and contributions.  See the appropriate support documents, in the tabs above, for more information:
+* !["SUPPORT"](SUPPORT.md) details general help and translation support;
+*!["CONTRIBUTING"](CONTRIBUTING.md) details contribution support.
 
 ## Links
 * Discord (EaW Community): https://discord.gg/ArFEBEPhYQ

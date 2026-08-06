@@ -48,94 +48,94 @@ There are changes to the game's master text directory this update!  Check "_Chan
 UFCP:
 ======
 UFCP FIXES:
-• Some unnecessary edits that were made in an attempt to fix the Empire AI magically spawning TIE interceptors in Galactic Conquest (when they shouldn't) have been removed now that the proper cause was identified.
-• As a part of v2.2.0.1520, Space Fondor's Piracy map used Utapau's planet model, and it was swapped out.  However, the map preview in the loading screen wasn't updated. (BUG #681)
+• A handful of changes introduced in v2.0.0.1039 that attempted to fix the Empire AI magically spawning TIE interceptors in Galactic Conquest (when they shouldn't) have been removed.  These files should've been removed in v2.0.0, but were forgotten.
+• Changes to Space Fondor's Piracy map in v2.2.0.1520 (mistakenly) forgot to include updating the map preview in the loading screen. (BUG #681)
 
 
 ENHANCEMENTS:
 • (In what will probably be a never-ending process,) the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team color textures, icons, etc.) have been touched up to improve misc. problems.
 
-• UFCP has merged with cha20202's "EAW Campaigns & Conquests to FOC Conversion" to restore bugfixed versions of the EaW GCs and story campaigns.  UFCP was already moderately backwards compatible with EaW, and this merging fully completes it (as far as we know).  A selection of changes include: (BUG #247)
-•• New "alternate history" versions of EaW/FoC's GC campaigns were added.  FoC campaigns (such as Equal Footing or Clusters) have received variants where you can play with EaW Heroes instead of FoC ones, with the option of "upgrading" Vader from his starfighter squadron to the Executor by purchasing him like normal.  EaW campaigns have received the same treatment, with variants with FoC Heroes.
+• This update features a merge with cha20202's "EAW Campaigns & Conquests to FOC Conversion" to restore bugfixed versions of the EaW story campaigns and Galactic Conquests.  UFCP already had changes for backwards compatibility with EaW, and this update fully completes it (as far as we know).  A selection of changes include: (BUG #247)
+•• New "alternate history" versions of the Galactic Conquests.  FoC Conquests have received variants where you can play with EaW Heroes instead of FoC ones, with the option of "upgrading" Vader from his starfighter squadron to the Executor by purchasing him like normal.  The EaW Conquests have received the same treatment, with variants with FoC Heroes.
 •• Fixed GC victory/failure videos not playing after completing a win condition.
-•• Reimplemented the EaW MP Galactic Conquests.  These currently don't have hero-swapped "alternate history" versions.
+•• Reimplemented the EaW MP Galactic Conquests.  These currently don't have hero-swapped "alternate history" versions, yet.
 •• Fixed Land Alderaan's Pirate Base location.  It has been moved to prevent units getting stuck on the terrain.
 •• Fixed various Rebel and Empire campaign oddities, collision issues and script bugs (including problems owed to props and objects having their model sizes changed in FoC, f.e. the Comm. Array in Rebel campaign mission #2 "Interpreting the Network").
 •• Darth Vader was added into Rebel campaign mission #11 ("Attack on the Death Star").  This is because it's cool (and was popular in the original mod).
-•• The original Death Star has been reimplemented for the Rebel and Empire story campaigns.  It is not available in EaW SP Galactic Conquests due to engine limitations with the MP Galactic Conquests.
+•• The Death Star has been reimplemented for the Rebel and Empire story campaigns.  It is not available in EaW's Galactic Conquests due to engine limitations with the MPGCs.
 
-• TIE defenders are now capable of triggering bombing runs from orbit (unlike the B-wing, which could).  In addition, B-wings and TIE defenders no longer use the Y-wing, TIE bomber or Skipray Blastboat models when summoned for bombing runs, respectively, they now use their own models. (BUG #777)
-• All hardpoint icons have been overhauled - the original icons had some visual junk that wasn't erased and needed fixing, but it was voted on a Community Poll that they also looked pretty bad at high resolutions.  The 64x64 icons have been faithfully remade in 128x128 that should be a tad bolder, and much sharper. (BUG #840) (Thanks, galyana!)
+• TIE defenders can now trigger bombing runs from orbit (which it couldn't do, unlike the B-wing).  In addition, B-wings and TIE defenders no longer use the Y-wing, TIE bomber or Skipray Blastboat models when summoned for bombing runs, respectively. (BUG #777)
+• All hardpoint icons have been overhauled - the original icons had visual junk/stray pixels that weren't erased and needed fixing.  However, it was voted on a Community Poll that they also looked pretty bad at high resolutions, and have been faithfully remade in 128x128.  They should be a tad bolder, and much sharper. (BUG #840) (Thanks, galyana!)
 
 
 HOUSEKEEPING:
-• Due to the EaW GCs naturally having around 20k starting credits, the SP and MP Galactic Conquest Advanced Option for credit cap has been increased to 30k (from 12k) credits.
+• Due to the EaW GCs naturally having around 20k starting credits, the SP and MPGC credit cap option has been increased to 30k (from 12k) credits.
 ======
 
 
 AI Fixes:
-• The Space Tactical AI wouldn't properly use (or use at all) the Missile Shield, Interdict or Sensor Jamming abilities.  A handful of changes have been made to ensure the AI can use these abilities properly.  In addition, the Crusader Gunship's Point-Laser Defense, Skipray Blastboat and Bossk's Sensor Jamming, Vengeance Frigate's Self Destruct, and the Arc Hammer's Missile Shield now support autofiring. (BUG #774) (Thanks, galyana!)
-• The Space Tactical AI would improperly evaluate when it should commit to a firesale and burn units, specifically in Space Skirmish.  The AI's perception of the situation looks for a station at level 0, but since all stations are level 0 until teching up due to an engine limitation, the AI prematurely wanted to suicide. (BUG #796)
+• The Space Tactical AI wouldn't properly use the Missile Shield, Interdict or Sensor Jamming abilities.  In addition, the Crusader Gunship's Point-Laser Defense, Skipray Blastboat and Bossk's Sensor Jamming, Vengeance Frigate's Self Destruct, and the Arc Hammer's Missile Shield now support autofiring. (BUG #774) (Thanks, galyana!)
+• The Space Tactical AI improperly evaluated when it should commit to a firesale and burn units, specifically in Space Skirmish.  The AI's perception of the situation looks for a station at level 0, but all stations are level 0 until teching up due to an engine limitation. (BUG #796)
 • The Tactical AI would sometimes fail to find objects in proximity of a unit for its ability, causing the scripting engine to panic and die. (BUG #823)
 • Obi-Wan Kenobi's Tactical AI would fail to avoid Darth Vader. (BUG #826)
 • Captain Antilles' Tactical AI would not prioritize bombers as an attack target. (BUG #827)
 
 
 Audio Fixes:
-• Skipray Blastboats wouldn't use their assigned VO when attacking fighter bays.  In addition, the Skipray's restored "my health is low/critical" and "my enemy's health is low/critical" VO while dogfighting (BUG #267) was playing too frequently, and too loudly, because the sound definitions were using the wrong "preset" that dictated their frequency, pitch and volume.  The GitHub report has a graphic that depicts the new preset's differences. (BUG #800)
-• B-wings wouldn't use their assigned VO when attacking hangars and when "my enemy's health is low/critical" while dogfighting.  That VO, and their "my health is low/critical" were also playing too frequently, and too loudly, because the sound definitions were using the wrong "preset" that dictated their frequency, pitch and volume.  The GitHub report has a graphic that depicts the new preset's differences. (BUG #801)
-• TIE defenders wouldn't have VO when attacking hangar bays and when entering asteroid fields and nebulas.  In addition, multiple voice lines for these dialogues were restored, as apparently they were missed when creating the dialogue tree. (BUG #802)
+• Skipray Blastboats wouldn't have VO when attacking fighter bays.  In addition, the Skipray's restored "my health is low/critical" and "my enemy's health is low/critical" VO while dogfighting (BUG #267) was playing too frequently and loudly because the sound definitions were using the wrong "preset" that dictated their frequency, pitch and volume. (BUG #800)
+• B-wings wouldn't have VO when attacking hangars and when "my enemy's health is low/critical" while dogfighting.  That VO, and their "my health is low/critical" were also playing too frequently and loudly because the sound definitions were using the wrong "preset" that dictated their frequency, pitch and volume. (BUG #801)
+• TIE defenders wouldn't have VO when attacking hangar bays and when entering asteroid fields and nebulas.  In addition, multiple voice lines for these dialogues were restored from the files, as apparently they were missed when creating the dialogue tree. (BUG #802)
 • TIE interceptors wouldn't have VO when attacking hangar bays. (BUG #803)
-• Vengeance Frigates wouldn't use their assigned VO when entering asteroid fields or when attacking hangar bays. (BUG #805)
-• Crusader Gunships wouldn't use their assigned VO when entering asteroid fields or when attacking hangar bays. (BUG #806)
-• Keldabe-class Battleships wouldn't use their assigned VO when attacking hangar bays. (BUG #807)
-• StarViper Fighters wouldn't use their assigned VO when attacking hangar bays. (BUG #809)
-• MC30 Frigates wouldn't use their assigned VO when attacking hangar bays. (BUG #810)
-• Fix Rogue and Red Squadron's restored combat VO (BUG #568) playing too frequently, loudly and obnoxiously. (BUG #811)
-• Black Leader: Darth Vader wouldn't use his assigned combat VO when attacking enemies in space, or when his health was low/critical. (BUG #821)
+• Vengeance Frigates wouldn't have VO when entering asteroid fields or when attacking hangar bays. (BUG #805)
+• Crusader Gunships wouldn't have VO when entering asteroid fields or when attacking hangar bays. (BUG #806)
+• Keldabe-class Battleships wouldn't have VO when attacking hangar bays. (BUG #807)
+• StarViper Fighters wouldn't have VO when attacking hangar bays. (BUG #809)
+• MC30 Frigates wouldn't have VO when attacking hangar bays. (BUG #810)
+• Rogue and Red Squadron's restored combat VO (BUG #568) played too frequently, loudly and obnoxiously. (BUG #811)
+• Black Leader: Darth Vader wouldn't have combat VO when attacking enemies in space, or when his health was low/critical. (BUG #821)
 
 
 Gameplay Fixes:
-• The Rebel and Empire versions of the "Origin of Corruption" GC had multiple planets with unit conflicts (situations where, f.e. both a Rebel and Consortium barracks are built on a planet, and both factions have infantry/starfighters on the planet).  These planets have been fairly divided out between the factions to remove conflicting units: Bothawui, Mandalore, Honoghr, Kashyyyk, Nal Hutta, The Maw, Korriban and Saleucami. (BUG #832)
+• The Rebel and Empire variants of the "Origin of Corruption" GC had multiple planets with unit conflicts (situations where, f.e. both a Rebel and Consortium barracks are built on a planet, and both factions have infantry/starfighters on the planet).  These planets have been fairly divided out between the factions to remove conflicting units: Bothawui, Mandalore, Honoghr, Kashyyyk, Nal Hutta, The Maw, Korriban and Saleucami. (BUG #832)
 
 
 Interface Fixes:
-• Indigenous Mustafarians (who inhabit a magma planet) used the generic arctic human icon in their encyclopedia tooltip. (BUG #739) (Thanks, cha20202!)
+• Indigenous Mustafarians (who inhabit a volcanic planet) used the generic arctic human icon in their encyclopedia tooltip. (BUG #739) (Thanks, cha20202!)
 • The SPMA-T artillery's command bar icon was not centered.  Yes, it was annoying. (BUG #782)
 • The Imperial Observation Bunker used in Empire campaign mission #7 ("A New Weapon of War") and Rebel campaign mission #9 ("Handle with Care!") didn't have a tooltip icon.  It was likely that EaW didn't ship with one - however, the model was reused for FoC Land Skirmish as the Imperial infantry bunker, which did receive an icon, and it has been applied to the Observation Bunker. (BUG #786)
-• The Black Sun Pirates' Skiff Brigade (used in EaW SP/MP Galactic Conquests) had their tooltips messed up: they lacked a description, and their unit class was mistakenly put in their description. (BUG #814)
+• The Black Sun Pirates' Skiff Brigade (used in EaW Galactic Conquests) had their tooltips messed up: they lacked a description, and their unit class was mistakenly put in their description. (BUG #814)
 • The Black Sun Pirates' Missile Soldier Team was missing a tooltip description when encountered in GC. (BUG #836)
 
 
 Map/Planet Fixes:
-• Land Ilum did not have a base shield generator position marker, which broke shield generator placement. (BUG #778)
-• Land Korriban did not have a base shield generator position marker, which broke Shield Generator placement. (BUG #778)
-• Land Fresia had a corrupted AI pathfinding zone affecting the AI's navigation.  To rectify this, Fresia has also recieved a minor revision/pass at where units are allowed to move, and AI pathfinding zones were regenerated. (BUG #780)
+• Land Ilum didn't have a base shield generator position marker, which broke shield generator placement. (BUG #778)
+• Land Korriban didn't have a base shield generator position marker, which broke shield generator placement. (BUG #778)
+• Land Fresia had a corrupted AI pathfinding zone.  To rectify this, Fresia has also recieved a minor revision/pass at where units are allowed to move, and AI pathfinding zones were regenerated. (BUG #780)
 • Land Jabiim would allow Garm Bel Iblis to land or raid the planet despite the fact that he pilots a repulsorlift vehicle.  He no longer can participate in Land Combat due to the planet's special ability. (BUG #818)
-• Land Kessel has recieved a minor revision/pass at where units are allowed to move, and AI pathfinding zones were regenerated.  This was to correct an issue where units could be reinforced into the surrounding hills of reinforcement points, getting them stuck. (BUG #841)
+• Land Kessel had an issue where units could be reinforced into the surrounding hills of reinforcement points, getting them stuck.  Kessel has recieved a minor revision/pass at where units are allowed to move, and AI pathfinding zones were regenerated. (BUG #841)
 
 
 Model Fixes:
-• TIE defenders didn't use their "chin cannons" in combat. (BUG #757)
-• TIE phantoms didn't use their "chin cannons" in combat. (BUG #762)
-• The Crusader-class Corvette model's engines spawned over 200 particles per second while active in battle.  In addition, its engines wouldn't dim when stationary, unlike most ships from EaW.  A new, optimized model from "Secrets of a Fallen Empire" has been provided. (BUG #813) (Thanks, galyana!)
-• The engines of Keldabe-class Battleships, IG-2000, Skipray Blastboats, and all of the Consortium's unit transports wouldn't dim when stationary or disable when destroyed, unlike most ships from EaW. (BUG #813) (Thanks, galyana!)
-• The engines of B-wings would flicker under normal use, and would disappear when using S-foils.  The engine particles' "lifetimes" were too low, and the model was missing S-foil engine particle variants. (BUG #838) (Thanks, galyana!)
-• The engines of X-wings would disappear when using S-foils.  The model was missing S-foil engine particle variants. (BUG #839) (Thanks, galyana!)
+• TIE defenders didn't use their "chin cannons" when firing. (BUG #757)
+• TIE phantoms didn't use their "chin cannons" when firing. (BUG #762)
+• The Crusader-class Corvette's engines spawned over 200 particles per second while active in battle.  In addition, its engines wouldn't dim when stationary, unlike the standard behavior of ships from EaW.  A new, optimized model from "Secrets of a Fallen Empire" has been provided. (BUG #813) (Thanks, galyana!)
+• The Keldabe-class Battleships, IG-2000, Skipray Blastboats, and all of the Consortium's unit transports' engines wouldn't dim when stationary or disable when destroyed, unlike most ships from EaW. (BUG #813) (Thanks, galyana!)
+• B-wing engines would flicker under normal use, and would disappear when using S-foils.  The engine particles' "lifetimes" were too low, and the model was missing S-foil engine particle variants. (BUG #838) (Thanks, galyana!)
+• X-wing engines would disappear when using S-foils.  The model was missing S-foil engine particle variants. (BUG #839) (Thanks, galyana!)
 
 
 Script/Story Fixes:
 • Rebel campaign mission #3 ("Theft of the X-wings") had a mysterious bubble of revealed fog-of-war behind the Imperial Officer Academy (at the top of the map).  As it turns out, there was an invisible "reveal" marker object for testing purposes that was never removed from the map. (BUG #784)
 • Rebel campaign mission #7 ("Needle in a Haystack") had a scripting error where, upon Boba Fett finding Han Solo, Solo would ask Chewie who that bozo is; but for some reason, Solo's hologram was programmed to use the Moff/Station Commander's hologram instead of his own. (BUG #785) (Thanks, cha20202!)
-• The GC Intervention "Attrition" for both Empire and Rebels used the story's ending dialogue as the introduction dialogue upon starting.  In addition, the ending dialogue wouldn't play when completed because the dialogue wasn't implemented properly. (BUG #828)
-• The scripting for GC Interventions "Pirate Rescue," "A Favor for Lord Vader," and "Rebel Smuggler" had broken flags that didn't properly complete the Interventions after completion. (BUG #833)
-• Various notifications during the Consortium campaign (NOTICE:, HINT: or TASK: messages) wouldn't have text coloring, unlike other sections of the Consortium campaign and the entirety of the Rebel and Empire campaigns. (BUG #843)
+• The GC Story Event "Attrition" for both Empire and Rebels used the story's ending dialogue as the introduction dialogue upon starting.  In addition, the ending dialogue wouldn't play when completed because the dialogue wasn't implemented properly. (BUG #828)
+• The scripting for GC Story Events "Pirate Rescue," "A Favor for Lord Vader," and "Rebel Smuggler" had broken flags that didn't properly complete them after completion. (BUG #833)
+• Various notifications during the Consortium campaign (the "NOTICE:," "HINT:" or "TASK:" messages) didn't have text coloring, unlike other sections of the Consortium campaign and the entirety of the Rebel and Empire story campaigns. (BUG #843)
 
 
 Structure Fixes:
 • The Empire Infantry Barracks in Skirmish would become 30% bigger upon destruction. (BUG #830)
-• Empire and Rebel Officer Academies were setup to spawn Field Commanders as garrison infantry during land battle, but were missing the behavior to actually spawn the units.  They now spawn 1 Field Commander, and when killed, will respawn another after 30 seconds (double the time vs. all other buildings' garrisons). (BUG #743)
-• The Laser Defense Satellites used during Empire campaign mission #2 "The Pirate Menace" were titled "Missile Defense Satellites," and used the wrong firing SFX. (BUG #738)
+• Empire and Rebel Officer Academies were setup to spawn Field Commanders as garrison infantry during land battle, but were missing the behavior to actually spawn them.  They now spawn 1 Field Commander, and when killed, will respawn another after 1 min. (4.5x the time vs. all other buildings' garrisons). (BUG #743)
+• The Laser Defense Satellites used during Empire campaign mission #2 ("The Pirate Menace") were named "Missile Defense Satellites" and used the wrong firing SFX. (BUG #738)
 
 
 Unit Fixes:
@@ -143,7 +143,7 @@ Unit Fixes:
 • B-wings didn't use their laser cannons' muzzle flashes in combat. (BUG #758)
 • IG-2000 (IG-88) didn't use his laser cannons' muzzle flashes in combat. (BUG #768)
 • The Hound's Tooth (Bossk) didn't use his laser cannons' muzzle flashes in combat. (BUG #769)
-• Black Leader: Darth Vader wouldn't use or regenerate his fighter's shields because TIE Advanced x1 didn't have the "SHIELDED" behavior. (BUG #812)
+• Black Leader: Darth Vader's starfighter wouldn't use or regenerate its shields because he didn't have the "SHIELDED" behavior. (BUG #812)
 
 
 Upgrade Fixes:
