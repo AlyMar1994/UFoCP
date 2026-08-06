@@ -49,6 +49,7 @@ UFCP:
 ======
 UFCP FIXES:
 • Some unnecessary edits that were made in an attempt to fix the Empire AI magically spawning TIE interceptors in Galactic Conquest (when they shouldn't) have been removed now that the proper cause was identified.
+• As a part of v2.2.0.1520, Space Fondor's Piracy map used Utapau's planet model, and it was swapped out.  However, the map preview in the loading screen wasn't updated. (BUG #681)
 
 
 ENHANCEMENTS:
