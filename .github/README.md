@@ -15,7 +15,7 @@ You must legally own the [Steam/updated version](https://store.steampowered.com/
 
 UFCP supports multiple languages, and is open to community feedback and contributions.  See the appropriate support documents, in the tabs above, for more information:
 * !["SUPPORT"](SUPPORT.md) details general help and translation support;
-*!["CONTRIBUTING"](CONTRIBUTING.md) details contribution support.
+* !["CONTRIBUTING"](CONTRIBUTING.md) details contribution support.
 
 ## Links
 * Discord (EaW Community): https://discord.gg/ArFEBEPhYQ
