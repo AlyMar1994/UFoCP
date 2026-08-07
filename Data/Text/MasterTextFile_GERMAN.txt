@@ -700,7 +700,7 @@ TEXT_CAMPAIGN_SINGLE_27_EAW,Schlüsselstellung (EAW Helden)
 TEXT_CAMPAIGN_SINGLE_27_INTRO_U,Die Schlacht um die Galaxis geht weiter. Nur ein paar Kernplaneten trennen uns von unseren Feinden, und der Ausgang der Schlacht wird von der Kontrolle dieser Welten abhängen. Benutzt Eure Startressourcen mit Bedacht, um die Galaxis zu erobern.
 TEXT_CAMPAIGN_SINGLE_30,Vertauschte Rollen
 TEXT_CAMPAIGN_SINGLE_33B,Sternhaufen
-TEXT_CAMPAIGN_SINGLE_33B_EAW,TEXT_CAMPAIGN_SINGLE_33B (EAW Helden)
+TEXT_CAMPAIGN_SINGLE_33B_EAW,Sternhaufen (EAW Helden)
 TEXT_CAMPAIGN_SINGLE_33B_INTRO_E,Diese Narren der Rebellion und des Zann-Konsortiums wollen meinen Kopf. Sollen sie ruhig ihre Spielchen spielen - ich werde getrost erst mal in die Rolle des Kaninchens schlüpfen, während ich zugleich für ihr Ableben sorge. Erobert Yavin 4 und Endor, und bringt mir Köpfe als Beweis, dass Mon Mothma und Tyber Zann das Imperium nicht länger behelligen werden.
 TEXT_CAMPAIGN_SINGLE_33B_INTRO_R,Das Imperium und das Zann-Konsortium haben ein Kopfgeld auf mich ausgesetzt. So sehr ich es auch hasse, auf Attentate zurückgreifen zu müssen, haben wir doch meines Erachtens keine andere Wahl mehr. Übernehmt die Kontrolle über Coruscant und Endor, und sorgt dafür, dass Imperator Palpatine und Tyber Zann ihre gerechte Strafe bekommen.
 TEXT_CAMPAIGN_SINGLE_33B_INTRO_U,Dies sind finstere Zeiten für das Zann-Konsortium. Nach unseren großen Erfolgen überall in der Galaxis haben sowohl die Rebellen als auch das Imperium ein Kopfgeld auf mich ausgesetzt. Aber wenn sie mich herausfordern wollen, bin ich gerne bereit, ihr Spiel mitzuspielen. Lasst Mon Mothma und Imperator Palpatine eliminieren, und übernehmt die Kontrolle über ihre derzeitigen Hauptstützpunkte, Yavin 4 und Coruscant.
@@ -725,23 +725,37 @@ TEXT_CAMPAIGN_SINGLE_60_FOC,Die Frontlinien sind gezogen (FOC Helden)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST,Taktischer Korruptionstest
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_EMPIRE,Taktischer Korruptionstest (Imperium)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_REBEL,Taktischer Korruptionstest (Rebellen)
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,Bedingungen:\n\nPlaneten: 10\nTechnologiestufe: 1\nCredits: 5.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,Bedingungen:\n\nPlaneten: 10\nTechnologiestufe: 5\nCredits: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,Bedingungen:\n\nPlaneten: 10\nTechnologiestufe: 1\nCredits: 5.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A_FOC,Bedingungen:\n\nPlaneten: 10\nTechnologiestufe: 1\nCredits: 5.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,Bedingungen:\n\nPlaneten: 10\nTechnologiestufe: 5\nCredits: 8.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B_FOC,Bedingungen:\n\nPlaneten: 10\nTechnologiestufe: 5\nCredits: 8.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12,Bedingungen:\n\nPlaneten: 12\nTechnologiestufe: 4\nCredits: 12.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,Bedingungen:\n\nPlaneten: 15\nTechnologiestufe: 3\nCredits Rebellen: 8.000\nCredits Imperium: 15.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12_EAW,Bedingungen:\n\nPlaneten: 12\nTechnologiestufe: 4\nCredits: 12.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,Bedingungen:\n\nPlaneten: 15\nTechnologiestufe: 3\nCredits Rebellen: 8.000\nCredits Imperium: 15.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15_FOC,Bedingungen:\n\nPlaneten: 15\nTechnologiestufe: 3\nCredits Rebellen: 8.000\nCredits Imperium: 15.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_20,Bedingungen:\n\nPlaneten: 20\nTechnologiestufe: 1\nCredits: 3.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21,Bedingungen:\n\nPlaneten: 21\nTechnologiestufe: 1\nCredits: 10.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_EAW,Bedingungen:\n\nPlaneten: 21\nTechnologiestufe: 1\nCredits: 10.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_R,Bedingungen:\n\nPlaneten: 21\nTechnologiestufe: 2\nCredits: 10.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,Bedingungen:\n\nPlaneten: 25\nTechnologiestufe: 3\nCredits Rebellen: 15.000\nCredits Imperium: 9.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,Bedingungen:\n\nPlaneten: 25\nTechnologiestufe: 3\nCredits Rebellen: 15.000\nCredits Imperium: 9.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25_FOC,Bedingungen:\n\nPlaneten: 25\nTechnologiestufe: 3\nCredits Rebellen: 15.000\nCredits Imperium: 9.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27,Bedingungen:\n\nPlaneten: 27\nTechnologiestufe: 2\nCredits: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27_EAW,Bedingungen:\n\nPlaneten: 27\nTechnologiestufe: 2\nCredits: 8.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_30,Bedingungen:\n\nPlaneten: 30\nTechnologiestufe: 3\nCredits: 5.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B,Bedingungen:\n\nPlaneten: 33\nTechnologiestufe: 3\nCredits: 5.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,Bedingungen:\n\nPlaneten: 35\nTechnologiestufe: 1\nCredits: 6.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B_EAW,Bedingungen:\n\nPlaneten: 33\nTechnologiestufe: 3\nCredits: 5.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,Bedingungen:\n\nPlaneten: 35\nTechnologiestufe: 1\nCredits: 6.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35_FOC,Bedingungen:\n\nPlaneten: 35\nTechnologiestufe: 1\nCredits: 6.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36,Bedingungen:\n\nPlaneten: 36\nTechnologiestufe: 2\nCredits: 10.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,Bedingungen:\n\nPlaneten: 43\nTechnologiestufe: 3\nCredits: 10.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,Bedingungen:\n\nPlaneten: 21\nTechnologiestufe: 1\nCredits: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36_EAW,Bedingungen:\n\nPlaneten: 36\nTechnologiestufe: 2\nCredits: 10.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,Bedingungen:\n\nPlaneten: 43\nTechnologiestufe: 3\nCredits: 10.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44_FOC,Bedingungen:\n\nPlaneten: 43\nTechnologiestufe: 3\nCredits: 10.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,Bedingungen:\n\nPlaneten: 21\nTechnologiestufe: 1\nCredits: 8.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50_FOC,Bedingungen:\n\nPlaneten: 21\nTechnologiestufe: 1\nCredits: 8.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56,Bedingungen:\n\nPlaneten: 55\nTechnologiestufe: 2\nCredits: 8.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,Bedingungen:\n\nPlaneten: 8\nTechnologiestufe: 3\nCredits: 20.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56_EAW,Bedingungen:\n\nPlaneten: 55\nTechnologiestufe: 2\nCredits: 8.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,Bedingungen:\n\nPlaneten: 8\nTechnologiestufe: 3\nCredits: 20.000\n\nBei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60_FOC,Bedingungen:\n\nPlaneten: 8\nTechnologiestufe: 3\nCredits: 20.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CORRUPTION_TEST,Enthält alle Planeten mit taktischen Korruptionseinsätzen.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_DEMO,Bedingungen:\n\nPlaneten: 3\nTechnologiestufe: 3\nCredits: 20.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_P3_UNDERWORLD_GALACTIC_GAMEPLAY,Eroberungsszenario auf der Galaxiskarte, um die neuen Spielelemente zu demonstrieren, die das Zann-Konsortium einsetzt.

@@ -57,6 +57,7 @@ ENHANCEMENTS:
 
 • This update features a merge with cha20202's "EAW Campaigns & Conquests to FOC Conversion" to restore bugfixed versions of the EaW story campaigns and Galactic Conquests.  UFCP already had changes for backwards compatibility with EaW, and this update fully completes it (as far as we know).  A selection of changes include: (BUG #247)
 •• New "alternate history" versions of the Galactic Conquests.  FoC Conquests have received variants where you can play with EaW Heroes instead of FoC ones, and the EaW Conquests have received variants with FoC Heroes.
+•• Random Story Events (sometimes called "Interventions") have been enabled for all regular and "alternate history" EaW Conquests.  Conquests with FoC Heroes do not have Story Events yet, and MPGC is incapable of using them.  In addition, Conquest descriptions now have a note detailing which ones have Story Events.
 •• Fixed GC victory/failure videos not playing after completing a win condition.
 •• Reimplemented the EaW MP Galactic Conquests.  These currently don't have hero-swapped "alternate history" versions, yet.
 •• Fixed Land Alderaan's Pirate Base location.  It has been moved to prevent units getting stuck on the terrain.

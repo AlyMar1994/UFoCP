@@ -611,7 +611,7 @@ TEXT_CAMPAIGN_DIFFICULTY,Poziom trudności:
 TEXT_CAMPAIGN_DIRECTIONS,EMPIRE AT WAR - wybierz stopień trudności, a następnie stronę…
 TEXT_CAMPAIGN_DIRECTIONS2,Wybierz swoje przeznaczenie…
 TEXT_CAMPAIGN_FOCUSDEMO,FOKUS DEMO
-TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN,Conditions:\n\nPlanets: 42\nTech Level: 1\nCredits: 20,000\nExperience the rise of either the Galactic Empire or the Rebel Alliance in these two-sided story campaigns.
+TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN,Warunki:\n\nPlanety: 42\nPoz. technologiczny: 1\nKredyty: 20.000\nPrzeżyj rozkwit Imperium Galaktycznego lub Sojuszu Rebeliantów w tych dwustronnych kampaniach fabularnych.
 TEXT_CAMPAIGN_FULL_STORY_EMPIRE,Kampania fabularna Imperium
 TEXT_CAMPAIGN_FULL_STORY_REBEL,Kampania fabularna Sojuszu
 TEXT_CAMPAIGN_GROUND_BATTLE_STYLE,COMICON DEMO
@@ -725,23 +725,37 @@ TEXT_CAMPAIGN_SINGLE_60_FOC,Granica wyznaczona (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST,Taktyczny test korupcji
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_EMPIRE,Taktyczny test korupcji (Imperium)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_REBEL,Taktyczny test korupcji (Rebelia)
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,Warunki:\n\nPlanety: 10\nPoz. technologiczny: 1\nKredyty: 5,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,Warunki:\n\nPlanety: 10\nPoz. technologiczny: 10\nKredyty: 8,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12,Warunki:\n\nPlanety: 12\nPoziom tech.: 3\nKredyty: 10 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,Warunki:\n\nPlanety: 15\nPoz. technologiczny: 3\nKredyty Sojuszu: 8,000\nKredyty Imperium: 15,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_20,Warunki:\n\nPlanety: 20\nPoz. technologiczny: 1\nKredyty: 3,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21,Warunki:\n\nPlanety: 21\nPoziom tech.: 1\nKredyty: 10,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_R,Warunki:\n\nPlanety: 21\nPoziom tech.: 2\nKredyty: 10,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,Warunki:\n\nPlanety: 25\nPoz. technologiczny: 3\nKredyty: 15,000\nKredyty Imperium: 9,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27,Warunki:\n\nPlanety: 27\nPoziom tech.: 2\nKredyty: 8 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_30,Warunki:\n\nPlanety: 30\nPoz. technologiczny: 3\nKredyty: 5,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B,Warunki:\n\nPlanety: 33\nPoziom tech.: 3\nKredyty: 5 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,Warunki:\n\nPlanety: 35\nPoz. technologiczny: 1\nKredyty: 6,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36,Warunki:\n\nPlanety: 36\nPoziom tech.: 2\nKredyty: 10 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,Warunki:\n\nPlanety: 43\nPoz. technologiczny: 3\nKredyty: 10,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,Warunki:\n\nPlanety: 21\nPoziom Technologiczny: 1\nKredytów: 8000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56,Warunki:\n\nPlanety: 55\nPoziom tech.: 2\nKredyty: 8 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,Warunki:\n\nPlanety: 8\nPoz. technologiczny: 3\nKredyty: 10,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,Warunki:\n\nPlanety: 10\nPoz. technologiczny: 1\nKredyty: 5.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A_FOC,Warunki:\n\nPlanety: 10\nPoz. technologiczny: 1\nKredyty: 5.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,Warunki:\n\nPlanety: 10\nPoz. technologiczny: 5\nKredyty: 8.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B_FOC,Warunki:\n\nPlanety: 10\nPoz. technologiczny: 5\nKredyty: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12,Warunki:\n\nPlanety: 12\nPoz. technologiczny: 4\nKredyty: 12.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12_EAW,Warunki:\n\nPlanety: 12\nPoz. technologiczny: 4\nKredyty: 12.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,Warunki:\n\nPlanety: 15\nPoz. technologiczny: 3\nKredyty Sojuszu: 8.000\nKredyty Imperium: 15.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15_FOC,Warunki:\n\nPlanety: 15\nPoz. technologiczny: 3\nKredyty Sojuszu: 8.000\nKredyty Imperium: 15.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_20,Warunki:\n\nPlanety: 20\nPoz. technologiczny: 1\nKredyty: 3.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21,Warunki:\n\nPlanety: 21\nPoz. technologiczny: 1\nKredyty: 10.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_EAW,Warunki:\n\nPlanety: 21\nPoz. technologiczny: 1\nKredyty: 10.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_R,Warunki:\n\nPlanety: 21\nPoz. technologiczny: 2\nKredyty: 10.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,Warunki:\n\nPlanety: 25\nPoz. technologiczny: 3\nKredyty Sojuszu: 15.000\nKredyty Imperium: 9.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25_FOC,Warunki:\n\nPlanety: 25\nPoz. technologiczny: 3\nKredyty Sojuszu: 15.000\nKredyty Imperium: 9.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27,Warunki:\n\nPlanety: 27\nPoz. technologiczny: 2\nKredyty: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27_EAW,Warunki:\n\nPlanety: 27\nPoz. technologiczny: 2\nKredyty: 8.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_30,Warunki:\n\nPlanety: 30\nPoz. technologiczny: 3\nKredyty: 5.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B,Warunki:\n\nPlanety: 33\nPoz. technologiczny: 3\nKredyty: 5.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B_EAW,Warunki:\n\nPlanety: 33\nPoz. technologiczny: 3\nKredyty: 5.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,Warunki:\n\nPlanety: 35\nPoz. technologiczny: 1\nKredyty: 6.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35_FOC,Warunki:\n\nPlanety: 35\nPoz. technologiczny: 1\nKredyty: 6.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36,Warunki:\n\nPlanety: 36\nPoz. technologiczny: 2\nKredyty: 10.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36_EAW,Warunki:\n\nPlanety: 36\nPoz. technologiczny: 2\nKredyty: 10.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,Warunki:\n\nPlanety: 43\nPoz. technologiczny: 3\nKredyty: 10.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44_FOC,Warunki:\n\nPlanety: 43\nPoz. technologiczny: 3\nKredyty: 10.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,Warunki:\n\nPlanety: 21\nPoz. technologiczny: 1\nKredyty: 8.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50_FOC,Warunki:\n\nPlanety: 21\nPoz. technologiczny: 1\nKredyty: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56,Warunki:\n\nPlanety: 55\nPoz. technologiczny: 2\nKredyty: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56_EAW,Warunki:\n\nPlanety: 55\nPoz. technologiczny: 2\nKredyty: 8.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,Warunki:\n\nPlanety: 8\nPoz. technologiczny: 3\nKredyty: 20.000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60_FOC,Warunki:\n\nPlanety: 8\nPoz. technologiczny: 3\nKredyty: 20.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CORRUPTION_TEST,Zawiera wszystkie planety, na których znajdują się taktyczne misje korupcji.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_DEMO,Warunki:\n\nPlanety: 3\nPoz. technologiczny: 2\nKredyty: 10,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_P3_UNDERWORLD_GALACTIC_GAMEPLAY,Scenariusz podboju galaktyki, który prezentuje nowe cechy rozgrywki wykorzystywane przez Podziemie.

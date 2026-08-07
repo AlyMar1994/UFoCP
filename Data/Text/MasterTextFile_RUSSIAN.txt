@@ -611,7 +611,7 @@ TEXT_CAMPAIGN_DIFFICULTY,Сложность:
 TEXT_CAMPAIGN_DIRECTIONS,EMPIRE AT WAR - Выберите сложность, затем выберите, на какой вы стороне…
 TEXT_CAMPAIGN_DIRECTIONS2,Выберите свою судьбу...
 TEXT_CAMPAIGN_FOCUSDEMO,FOCUS DEMO
-TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN,Conditions:\n\nPlanets: 42\nTech Level: 1\nCredits: 20,000\nExperience the rise of either the Galactic Empire or the Rebel Alliance in these two-sided story campaigns.
+TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN,Условия:\n\nПланет: 42\nТехнический уровень: 1\nДеньги: 20 000\nОкунитесь в историю становления Галактической Империи или Альянса повстанцев в этих двусторонних сюжетных кампаниях.
 TEXT_CAMPAIGN_FULL_STORY_EMPIRE,Сюжетная кампания - Империя
 TEXT_CAMPAIGN_FULL_STORY_REBEL,Сюжетная кампания - Повстанцы
 TEXT_CAMPAIGN_GROUND_BATTLE_STYLE,ДЕМО COMICON
@@ -725,23 +725,37 @@ TEXT_CAMPAIGN_SINGLE_60_FOC,Черта проведена (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST,Тактический тест коррупции
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_EMPIRE,Тактический тест коррупции (Империя)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_REBEL,Тактический тест коррупции (Альянс)
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,Условия:\n\nПланет: 10\nТехнический уровень: 1\nДеньги: 5000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,Условия:\n\nПланет: 10\nТехнический уровень: 5\nДеньги: 8000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12,Условия:\n\nПланет: 12\nУровень техники: 3\nДеньги: 12 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,Условия:\n\nПланет: 15\nТехнический уровень: 3\nДеньги повстанцев: 8000\nДеньги Империи: 15000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_20,Условия:\n\nПланет: 20\nТехнический уровень: 1\nДеньги: 3000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21,Условия:\n\nПланет: 21\nУровень техники: 1\nДеньги: 10 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_R,Условия:\n\nПланет: 21\nУровень техники: 2\nДеньги: 10 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,Условия:\n\nПланет: 25\nТехнический уровень: 3\nДеньги повстанцев: 15000\nДеньги Империи: 9000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27,Условия:\n\nПланет: 27\nУровень техники: 2\nДеньги: 8 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_30,Условия:\n\nПланет: 30\nТехнический уровень: 3\nДеньги: 5000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B,Условия:\n\nПланет: 33\nУровень техники: 3\nДеньги: 5 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,Условия:\n\nПланет: 35\nТехнический уровень: 1\nДеньги: 6000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36,Условия:\n\nПланет: 36\nУровень техники: 2\nДеньги: 10 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,Условия:\n\nПланет: 43\nТехнический уровень: 3\nДеньги: 10000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,Условия:\n\nПланет: 21\nТехнический уровень: 1\nДеньги: 8000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56,Условия:\n\nПланет: 55\nУровень техники: 2\nДеньги: 8 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,Условия:\n\nПланет: 8\nТехнический уровень: 3\nДеньги: 20000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,Условия:\n\nПланет: 10\nТехнический уровень: 1\nДеньги: 5 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A_FOC,Условия:\n\nПланет: 10\nТехнический уровень: 1\nДеньги: 5 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,Условия:\n\nПланет: 10\nТехнический уровень: 5\nДеньги: 8 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B_FOC,Условия:\n\nПланет: 10\nТехнический уровень: 5\nДеньги: 8 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12,Условия:\n\nПланет: 12\nТехнический уровень: 4\nДеньги: 12 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12_EAW,Условия:\n\nПланет: 12\nТехнический уровень: 4\nДеньги: 12 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,Условия:\n\nПланет: 15\nТехнический уровень: 3\nДеньги повстанцев: 8 000\nДеньги Империи: 15 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15_FOC,Условия:\n\nПланет: 15\nТехнический уровень: 3\nДеньги повстанцев: 8 000\nДеньги Империи: 15 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_20,Условия:\n\nПланет: 20\nТехнический уровень: 1\nДеньги: 3 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21,Условия:\n\nПланет: 21\nТехнический уровень: 1\nДеньги: 10 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_EAW,Условия:\n\nПланет: 21\nТехнический уровень: 1\nДеньги: 10 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_R,Условия:\n\nПланет: 21\nТехнический уровень: 2\nДеньги: 10 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,Условия:\n\nПланет: 25\nТехнический уровень: 3\nДеньги повстанцев: 15 000\nДеньги Империи: 9 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25_FOC,Условия:\n\nПланет: 25\nТехнический уровень: 3\nДеньги повстанцев: 15 000\nДеньги Империи: 9 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27,Условия:\n\nПланет: 27\nТехнический уровень: 2\nДеньги: 8 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27_EAW,Условия:\n\nПланет: 27\nТехнический уровень: 2\nДеньги: 8 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_30,Условия:\n\nПланет: 30\nТехнический уровень: 3\nДеньги: 5 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B,Условия:\n\nПланет: 33\nТехнический уровень: 3\nДеньги: 5 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B_EAW,Условия:\n\nПланет: 33\nТехнический уровень: 3\nДеньги: 5 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,Условия:\n\nПланет: 35\nТехнический уровень: 1\nДеньги: 6 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35_FOC,Условия:\n\nПланет: 35\nТехнический уровень: 1\nДеньги: 6 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36,Условия:\n\nПланет: 36\nТехнический уровень: 2\nДеньги: 10 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36_EAW,Условия:\n\nПланет: 36\nТехнический уровень: 2\nДеньги: 10 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,Условия:\n\nПланет: 43\nТехнический уровень: 3\nДеньги: 10 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44_FOC,Условия:\n\nПланет: 43\nТехнический уровень: 3\nДеньги: 10 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,Условия:\n\nПланет: 21\nТехнический уровень: 1\nДеньги: 8 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50_FOC,Условия:\n\nПланет: 21\nТехнический уровень: 1\nДеньги: 8 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56,Условия:\n\nПланет: 55\nТехнический уровень: 2\nДеньги: 8 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56_EAW,Условия:\n\nПланет: 55\nТехнический уровень: 2\nДеньги: 8 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,Условия:\n\nПланет: 8\nТехнический уровень: 3\nДеньги: 20 000\n\nВ этой кампании используются случайные задания, за выполнение которых выдаются награды.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60_FOC,Условия:\n\nПланет: 8\nТехнический уровень: 3\nДеньги: 20 000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CORRUPTION_TEST,Содержит все планеты с тактическими заданиями по коррупции.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_DEMO,Условия:\n\nПланет: 3\nТехнический уровень: 2\nДеньги: 10000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_P3_UNDERWORLD_GALACTIC_GAMEPLAY,Сценарий завоевания Галактики с целью продемонстрировать все новые игровые возможности, используемые Синдикатом.

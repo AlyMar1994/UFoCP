@@ -50,7 +50,16 @@ v2.3.0.XXX (XX-13-2026) [FoC v1.121.859328]
 ============================================
 
 Additions:
-• To support the merge with "EAW Campaigns & Conquests to FOC Conversion" and the new "alternate history" campaigns, multiple text strings have been renamed, modified or added. (all MTEM/MTRM/MBEM/MBRM titles and mission bios/titles, TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN, TEXT_CAMPAIGN_SINGLE_10A_FOC, TEXT_CAMPAIGN_SINGLE_10B_FOC, TEXT_CAMPAIGN_SINGLE_12_EAW, TEXT_CAMPAIGN_SINGLE_15_FOC, TEXT_CAMPAIGN_SINGLE_21_EAW, TEXT_CAMPAIGN_SINGLE_25_FOC, TEXT_CAMPAIGN_SINGLE_27_EAW, TEXT_CAMPAIGN_SINGLE_33B_EAW, TEXT_CAMPAIGN_SINGLE_35_FOC, TEXT_CAMPAIGN_SINGLE_36_EAW, TEXT_CAMPAIGN_SINGLE_44_FOC, TEXT_CAMPAIGN_SINGLE_50_FOC, TEXT_CAMPAIGN_SINGLE_56_EAW, TEXT_CAMPAIGN_SINGLE_60_FOC, TEXT_HELP_SEPERATOR_GC) (BUG #247)
+• To support the merge with "EAW Campaigns & Conquests to FOC Conversion" and the new "alternate history" campaigns, multiple text strings have been renamed, modified or added. (all MTEM/MTRM/MBEM/MBRM titles and mission bios/titles, TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN, TEXT_CAMPAIGN_SINGLE_10A_FOC, TEXT_CAMPAIGN_SINGLE_10B_FOC, TEXT_CAMPAIGN_SINGLE_12_EAW, TEXT_CAMPAIGN_SINGLE_15_FOC, TEXT_CAMPAIGN_SINGLE_21_EAW, TEXT_CAMPAIGN_SINGLE_25_FOC, TEXT_CAMPAIGN_SINGLE_27_EAW, TEXT_CAMPAIGN_SINGLE_33B_EAW, TEXT_CAMPAIGN_SINGLE_35_FOC, TEXT_CAMPAIGN_SINGLE_36_EAW, TEXT_CAMPAIGN_SINGLE_44_FOC, TEXT_CAMPAIGN_SINGLE_50_FOC, TEXT_CAMPAIGN_SINGLE_56_EAW, TEXT_CAMPAIGN_SINGLE_60_FOC, TEXT_HELP_SEPERATOR_GC, TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12_EAW, TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_EAW, TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27_EAW, TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B_EAW, TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36_EAW, TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56_EAW) (BUG #247)
+• To detail which Galactic Conquests now support random Story Events, new text has been added to the descriptions of EaW-based Conquests.  This line is translated into all languages in preparation for UFCP v2.4.0. (TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A - TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60_FOC) (BUG #247)
+	-- ENG: This campaign uses random Story Events that distribute rewards upon completion.
+	-- FRA: Cette campagne propose des missions aléatoires qui rapportent des récompenses une fois accomplies.
+	-- GER: Bei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+	-- ITA: Questa campagna prevede missioni casuali che assegnano ricompense una volta completate.
+	-- JAP: このキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+	-- POL: W tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+	-- RUS: В этой кампании используются случайные задания, за выполнение которых выдаются награды.
+	-- SPA: Esta campaña utiliza misiones aleatorias que otorgan recompensas al completarlas.
 • "TEXT_UNIT_LUKE_XWING_JEDI" has been added to support Luke Skywalker being a part of Red Squadron again now that the GCs are restored. (BUG #837)
 
 

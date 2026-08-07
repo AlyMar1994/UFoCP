@@ -725,23 +725,37 @@ TEXT_CAMPAIGN_SINGLE_60_FOC,The Lines are Drawn (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST,Tactical Corruption Test
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_EMPIRE,Tactical Corruption Test (Empire)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_REBEL,Tactical Corruption Test (Rebel)
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,Conditions:\n\nPlanets: 10\nTech Level: 1\nCredits: 5,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,Conditions:\n\nPlanets: 10\nTech Level: 5\nCredits: 8,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,Conditions:\n\nPlanets: 10\nTech Level: 1\nCredits: 5,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A_FOC,Conditions:\n\nPlanets: 10\nTech Level: 1\nCredits: 5,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,Conditions:\n\nPlanets: 10\nTech Level: 5\nCredits: 8,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B_FOC,Conditions:\n\nPlanets: 10\nTech Level: 5\nCredits: 8,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12,Conditions:\n\nPlanets: 12\nTech Level: 4\nCredits: 12,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,Conditions:\n\nPlanets: 15\nTech Level: 3\nRebel Credits: 8,000\nEmpire Credits: 15,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12_EAW,Conditions:\n\nPlanets: 12\nTech Level: 4\nCredits: 12,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,Conditions:\n\nPlanets: 15\nTech Level: 3\nRebel Credits: 8,000\nEmpire Credits: 15,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15_FOC,Conditions:\n\nPlanets: 15\nTech Level: 3\nRebel Credits: 8,000\nEmpire Credits: 15,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_20,Conditions:\n\nPlanets: 20\nTech Level: 1\nCredits: 3,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21,Conditions:\n\nPlanets: 21\nTech Level: 1\nCredits: 10,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_EAW,Conditions:\n\nPlanets: 21\nTech Level: 1\nCredits: 10,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_R,Conditions:\n\nPlanets: 21\nTech Level: 2\nCredits: 10,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,Conditions:\n\nPlanets: 25\nTech Level: 3\nRebel Credits: 15,000\nEmpire Credits: 9,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,Conditions:\n\nPlanets: 25\nTech Level: 3\nRebel Credits: 15,000\nEmpire Credits: 9,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25_FOC,Conditions:\n\nPlanets: 25\nTech Level: 3\nRebel Credits: 15,000\nEmpire Credits: 9,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27,Conditions:\n\nPlanets: 27\nTech Level: 2\nCredits: 8,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27_EAW,Conditions:\n\nPlanets: 27\nTech Level: 2\nCredits: 8,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_30,Conditions:\n\nPlanets: 30\nTech Level: 3\nCredits: 5,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B,Conditions:\n\nPlanets: 33\nTech Level: 3\nCredits: 5,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,Conditions:\n\nPlanets: 35\nTech Level: 1\nCredits: 6,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B_EAW,Conditions:\n\nPlanets: 33\nTech Level: 3\nCredits: 5,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,Conditions:\n\nPlanets: 35\nTech Level: 1\nCredits: 6,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35_FOC,Conditions:\n\nPlanets: 35\nTech Level: 1\nCredits: 6,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36,Conditions:\n\nPlanets: 36\nTech Level: 2\nCredits: 10,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,Conditions:\n\nPlanets: 43\nTech Level: 3\nCredits: 10,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,Conditions:\n\nPlanets: 21\nTech Level: 1\nCredits: 8,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36_EAW,Conditions:\n\nPlanets: 36\nTech Level: 2\nCredits: 10,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,Conditions:\n\nPlanets: 43\nTech Level: 3\nCredits: 10,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44_FOC,Conditions:\n\nPlanets: 43\nTech Level: 3\nCredits: 10,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,Conditions:\n\nPlanets: 21\nTech Level: 1\nCredits: 8,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50_FOC,Conditions:\n\nPlanets: 21\nTech Level: 1\nCredits: 8,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56,Conditions:\n\nPlanets: 55\nTech Level: 2\nCredits: 8,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,Conditions:\n\nPlanets: 8\nTech Level: 3\nCredits: 20,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56_EAW,Conditions:\n\nPlanets: 55\nTech Level: 2\nCredits: 8,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,Conditions:\n\nPlanets: 8\nTech Level: 3\nCredits: 20,000\n\nThis campaign uses random Story Events that distribute rewards upon completion.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60_FOC,Conditions:\n\nPlanets: 8\nTech Level: 3\nCredits: 20,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CORRUPTION_TEST,Contains all the planets that contain tactical corruption missions.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_DEMO,Conditions:\n\nPlanets: 3\nTech Level: 3\nCredits: 20,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_P3_UNDERWORLD_GALACTIC_GAMEPLAY,Galactic Conquest scenario to demonstrate the new gameplay features used by the Underworld faction.

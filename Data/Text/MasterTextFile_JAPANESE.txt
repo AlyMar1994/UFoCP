@@ -611,7 +611,7 @@ TEXT_CAMPAIGN_DIFFICULTY,Difficulty:
 TEXT_CAMPAIGN_DIRECTIONS,EMPIRE AT WAR - Choose your difficulty, then choose your side...
 TEXT_CAMPAIGN_DIRECTIONS2,Choose your destiny...
 TEXT_CAMPAIGN_FOCUSDEMO,FOCUS DEMO
-TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN,Conditions:\n\nPlanets: 42\nTech Level: 1\nCredits: 20,000\nExperience the rise of either the Galactic Empire or the Rebel Alliance in these two-sided story campaigns.
+TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN,状況:\n\n惑星: 42\n技術レベル: 1\nクレジット: 20.000\nこの両面ストーリーキャンペーンで、銀河帝国か反乱同盟軍の台頭を体験してください。
 TEXT_CAMPAIGN_FULL_STORY_EMPIRE,Empire Story Campaign
 TEXT_CAMPAIGN_FULL_STORY_REBEL,Rebellion Story Campaign
 TEXT_CAMPAIGN_GROUND_BATTLE_STYLE,COMICON DEMO
@@ -715,8 +715,8 @@ TEXT_CAMPAIGN_SINGLE_44,Galactic Conflict
 TEXT_CAMPAIGN_SINGLE_44_FOC,Galactic Conflict (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_50,The Conflict Begins
 TEXT_CAMPAIGN_SINGLE_50_FOC,The Conflict Begins (FOC Heroes)
-TEXT_CAMPAIGN_SINGLE_56,Equal Footing (所有惑星数が平等)
-TEXT_CAMPAIGN_SINGLE_56_EAW,Equal Footing (所有惑星数が平等)
+TEXT_CAMPAIGN_SINGLE_56,Equal Footing 
+TEXT_CAMPAIGN_SINGLE_56_EAW,Equal Footing (EAW Heroes)
 TEXT_CAMPAIGN_SINGLE_56_INTRO_E,反乱軍との戦いの間に、 我々は腐敗と犯罪の増加に気付いた。 皇帝は、彼の軍隊を前進させるための資金が、犯罪者に渡っていると聞いて、楽しみはしないだろう。 これは、彼の支配の邪魔をする反乱軍のカスどもを好まないのと同じである。 ザン・コンソーシアムと反乱軍を、何としてでも銀河から排除するのだ。 最初に与えられるクレジットを賢く使って軍隊をアップグレード、そして拡張せよ。
 TEXT_CAMPAIGN_SINGLE_56_INTRO_R,Many worlds have been corrupted by the Zann Consortium, and still others have fallen to the iron hand of the Empire.  While I hate to divide our forces, something must be done.  Use your initial credits wisely to upgrade and expand your forces and remove the Consortium and the Empire once and for all from the galaxy.
 TEXT_CAMPAIGN_SINGLE_56_INTRO_U,多くの世界がザン・コンソーシアムによって腐敗されたが、 帝国と反乱軍は我々の大義の方により注意を向け、 その結果、 奴らの軍隊が更にその数を増してコンソーシアムを排除することに専念しようとしている。 我々はかつてない程の大きな脅威となり、 それゆえコンソーシアムが治める世界に対する大規模な攻撃を見ることになるだろう。 最初に与えられるクレジットを賢く使って軍隊をアップグレード、そして拡張し、 私の完全なる銀河の支配に準備せよ。
@@ -725,25 +725,39 @@ TEXT_CAMPAIGN_SINGLE_60_FOC,The Lines are Drawn (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST,Tactical Corruption Test
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_EMPIRE,Tactical Corruption Test (Empire)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_REBEL,Tactical Corruption Test (Rebel)
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,Conditions:\n\nPlanets: 10\nTech Level: 1\nCredits: 5,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,Conditions:\n\nPlanets: 10\nTech Level: 5\nCredits: 8,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12,Conditions:\n\nPlanets: 12\nTech Level: 4\nCredits: 12,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,Conditions:\n\nPlanets: 15\nTech Level: 3\nRebel Credits: 8,000\nEmpire Credits: 15,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_20,Conditions:\n\nPlanets: 20\nTech Level: 1\nCredits: 3,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21,Conditions:\n\nPlanets: 21\nTech Level: 1\nCredits: 10,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_R,Conditions:\n\nPlanets: 21\nTech Level: 2\nCredits: 10,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,Conditions:\n\nPlanets: 25\nTech Level: 3\nRebel Credits: 15,000\nEmpire Credits: 9,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27,Conditions:\n\nPlanets: 27\nTech Level: 2\nCredits: 8,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_30,Conditions:\n\nPlanets: 30\nTech Level: 3\nCredits: 5,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B,Conditions:\n\nPlanets: 33\nTech Level: 3\nCredits: 5,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,Conditions:\n\nPlanets: 35\nTech Level: 1\nCredits: 6,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36,Conditions:\n\nPlanets: 36\nTech Level: 2\nCredits: 10,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,Conditions:\n\nPlanets: 43\nTech Level: 3\nCredits: 10,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,Conditions:\n\nPlanets: 21\nTech Level: 1\nCredits: 8,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56,Conditions:\n\nPlanets: 55\nTech Level: 2\nCredits: 8,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,Conditions:\n\nPlanets: 8\nTech Level: 3\nCredits: 20,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,状況:\n\n惑星: 10\n技術レベル: 1\nクレジット: 5.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A_FOC,状況:\n\n惑星: 10\n技術レベル: 1\nクレジット: 5.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,状況:\n\n惑星: 10\n技術レベル: 5\nクレジット: 8.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B_FOC,状況:\n\n惑星: 10\n技術レベル: 5\nクレジット: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12,状況:\n\n惑星: 12\n技術レベル: 4\nクレジット: 12.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12_EAW,状況:\n\n惑星: 12\n技術レベル: 4\nクレジット: 12.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,状況:\n\n惑星: 15\n技術レベル: 3\nRebel クレジット: 8.000\nEmpire クレジット: 15.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15_FOC,状況:\n\n惑星: 15\n技術レベル: 3\nRebel クレジット: 8.000\nEmpire クレジット: 15.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_20,状況:\n\n惑星: 20\n技術レベル: 1\nクレジット: 3.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21,状況:\n\n惑星: 21\n技術レベル: 1\nクレジット: 10.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_EAW,状況:\n\n惑星: 21\n技術レベル: 1\nクレジット: 10.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_R,状況:\n\n惑星: 21\n技術レベル: 2\nクレジット: 10.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,状況:\n\n惑星: 25\n技術レベル: 3\nRebel クレジット: 15.000\nEmpire クレジット: 9.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25_FOC,状況:\n\n惑星: 25\n技術レベル: 3\nRebel クレジット: 15.000\nEmpire クレジット: 9.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27,状況:\n\n惑星: 27\n技術レベル: 2\nクレジット: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27_EAW,状況:\n\n惑星: 27\n技術レベル: 2\nクレジット: 8.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_30,状況:\n\n惑星: 30\n技術レベル: 3\nクレジット: 5.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B,状況:\n\n惑星: 33\n技術レベル: 3\nクレジット: 5.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B_EAW,状況:\n\n惑星: 33\n技術レベル: 3\nクレジット: 5.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,状況:\n\n惑星: 35\n技術レベル: 1\nクレジット: 6.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35_FOC,状況:\n\n惑星: 35\n技術レベル: 1\nクレジット: 6.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36,状況:\n\n惑星: 36\n技術レベル: 2\nクレジット: 10.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36_EAW,状況:\n\n惑星: 36\n技術レベル: 2\nクレジット: 10.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,状況:\n\n惑星: 43\n技術レベル: 3\nクレジット: 10.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44_FOC,状況:\n\n惑星: 43\n技術レベル: 3\nクレジット: 10.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,状況:\n\n惑星: 21\n技術レベル: 1\nクレジット: 8.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50_FOC,状況:\n\n惑星: 21\n技術レベル: 1\nクレジット: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56,状況:\n\n惑星: 55\n技術レベル: 2\nクレジット: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56_EAW,状況:\n\n惑星: 55\n技術レベル: 2\nクレジット: 8.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,状況:\n\n惑星: 8\n技術レベル: 3\nクレジット: 20.000\n\nこのキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60_FOC,状況:\n\n惑星: 8\n技術レベル: 3\nクレジット: 20.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CORRUPTION_TEST,Contains all the planets that contain tactical corruption missions.
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_DEMO,Conditions:\n\nPlanets: 3\nTech Level: 3\nCredits: 20,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_DEMO,Conditions:\n\nPlanets: 3\nTech Level: 3\nクレジット: 20,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_P3_UNDERWORLD_GALACTIC_GAMEPLAY,Galactic Conquest scenario to demonstrate the new gameplay features used by the Underworld faction.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_RT,Test of new reinforcement logic
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_UNDERWORLD_P2,Test of three working factions, new units and base-building system.

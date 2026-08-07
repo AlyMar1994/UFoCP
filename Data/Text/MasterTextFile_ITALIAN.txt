@@ -611,7 +611,7 @@ TEXT_CAMPAIGN_DIFFICULTY,Difficoltà:
 TEXT_CAMPAIGN_DIRECTIONS,L'IMPERO IN GUERRA - Scegli un livello di difficoltà e poi decidi con chi schierarti...
 TEXT_CAMPAIGN_DIRECTIONS2,Scegli il tuo destino...
 TEXT_CAMPAIGN_FOCUSDEMO,DEMO FOCUS
-TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN,Conditions:\n\nPlanets: 42\nTech Level: 1\nCredits: 20,000\nExperience the rise of either the Galactic Empire or the Rebel Alliance in these two-sided story campaigns.
+TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN,Condizioni:\n\nPianeti: 42\nLivello tecnologico: 1\nCrediti: 20.000\nVivi l'ascesa dell'Impero Galattico o dell'Alleanza Ribelle in queste campagne narrative a doppio finale.
 TEXT_CAMPAIGN_FULL_STORY_EMPIRE,Campagna Storia dell'Impero
 TEXT_CAMPAIGN_FULL_STORY_REBEL,Campagna Storia della Ribellione
 TEXT_CAMPAIGN_GROUND_BATTLE_STYLE,DEMO COMICON
@@ -725,23 +725,37 @@ TEXT_CAMPAIGN_SINGLE_60_FOC,Spezzare l'equilibrio (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST,Test corruzione tattica
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_EMPIRE,Test corruzione tattica (Impero)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_REBEL,Test corruzione tattica (Ribelli)
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,Condizioni:\n\nPianeti: 10\nLivello tecnologico: 1\nCrediti: 5.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,Condizioni:\n\nPianeti: 10\nLivello tecnologico: 5\nCrediti: 8.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12,Condizioni:\n\nPianeti: 12\nLivello tecnologico: 3\nCrediti: 10.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,Condizioni:\n\nPianeti: 15\nLivello tecnologico: 3\nCrediti Ribelli: 8.000\nCrediti Impero: 15.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,Condizioni:\n\nPianeti: 10\nLivello tecnologico: 1\nCrediti: 5.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A_FOC,Condizioni:\n\nPianeti: 10\nLivello tecnologico: 1\nCrediti: 5.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,Condizioni:\n\nPianeti: 10\nLivello tecnologico: 5\nCrediti: 8.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B_FOC,Condizioni:\n\nPianeti: 10\nLivello tecnologico: 5\nCrediti: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12,Condizioni:\n\nPianeti: 12\nLivello tecnologico: 4\nCrediti: 12.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12_EAW,Condizioni:\n\nPianeti: 12\nLivello tecnologico: 4\nCrediti: 12.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,Condizioni:\n\nPianeti: 15\nLivello tecnologico: 3\nCrediti Ribelli: 8.000\nCrediti Impero: 15.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15_FOC,Condizioni:\n\nPianeti: 15\nLivello tecnologico: 3\nCrediti Ribelli: 8.000\nCrediti Impero: 15.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_20,Condizioni:\n\nPianeti: 20\nLivello tecnologico: 1\nCrediti: 3.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21,Condizioni:\n\nPianeti: 21\nLivello tecnologico: 1\nCrediti: 10.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_EAW,Condizioni:\n\nPianeti: 21\nLivello tecnologico: 1\nCrediti: 10.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_R,Condizioni:\n\nPianeti: 21\nLivello tecnologico: 2\nCrediti: 10.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,Condizioni:\n\nPianeti: 25\nLivello tecnologico: 3\nCrediti Ribelli: 15.000\nCrediti Impero: 9.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,Condizioni:\n\nPianeti: 25\nLivello tecnologico: 3\nCrediti Ribelli: 15.000\nCrediti Impero: 9.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25_FOC,Condizioni:\n\nPianeti: 25\nLivello tecnologico: 3\nCrediti Ribelli: 15.000\nCrediti Impero: 9.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27,Condizioni:\n\nPianeti: 27\nLivello tecnologico: 2\nCrediti: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27_EAW,Condizioni:\n\nPianeti: 27\nLivello tecnologico: 2\nCrediti: 8.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_30,Condizioni:\n\nPianeti: 30\nLivello tecnologico: 3\nCrediti: 5.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B,Condizioni:\n\nPianeti: 33\nLivello tecnologico: 3\nCrediti: 5.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,Condizioni:\n\nPianeti: 35\nLivello tecnologico: 1\nCrediti: 6.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B_EAW,Condizioni:\n\nPianeti: 33\nLivello tecnologico: 3\nCrediti: 5.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,Condizioni:\n\nPianeti: 35\nLivello tecnologico: 1\nCrediti: 6.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35_FOC,Condizioni:\n\nPianeti: 35\nLivello tecnologico: 1\nCrediti: 6.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36,Condizioni:\n\nPianeti: 36\nLivello tecnologico: 2\nCrediti: 10.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,Condizioni:\n\nPianeti: 43\nLivello tecnologico: 3\nCrediti: 10.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,Condizioni:\n\nPianeti: 21\nLivello tecnologico: 1\nCrediti: 8.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36_EAW,Condizioni:\n\nPianeti: 36\nLivello tecnologico: 2\nCrediti: 10.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,Condizioni:\n\nPianeti: 43\nLivello tecnologico: 3\nCrediti: 10.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44_FOC,Condizioni:\n\nPianeti: 43\nLivello tecnologico: 3\nCrediti: 10.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,Condizioni:\n\nPianeti: 21\nLivello tecnologico: 1\nCrediti: 8.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50_FOC,Condizioni:\n\nPianeti: 21\nLivello tecnologico: 1\nCrediti: 8.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56,Condizioni:\n\nPianeti: 55\nLivello tecnologico: 2\nCrediti: 8.000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,Condizioni:\n\nPianeti: 8\nLivello tecnologico: 3\nCrediti: 20.000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56_EAW,Condizioni:\n\nPianeti: 55\nLivello tecnologico: 2\nCrediti: 8.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,Condizioni:\n\nPianeti: 8\nLivello tecnologico: 3\nCrediti: 20.000\n\nQuesta campagna prevede missioni casuali che assegnano ricompense una volta completate.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60_FOC,Condizioni:\n\nPianeti: 8\nLivello tecnologico: 3\nCrediti: 20.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CORRUPTION_TEST,Contiene tutti i pianeti che presentano delle missioni di corruzione tattica.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_DEMO,Condizioni:\n\nPianeti: 3\nLivello tecnologico: 2\nCrediti: 10.000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_P3_UNDERWORLD_GALACTIC_GAMEPLAY,Galactic Conquest scenario to demonstrate the new gameplay features used by the Underworld faction.

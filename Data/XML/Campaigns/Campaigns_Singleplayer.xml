@@ -47,6 +47,7 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, AlderaansDemiseHints</Markup_Filename>
@@ -305,6 +306,7 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Rebel, AlderaansDemiseHints</Markup_Filename>
@@ -557,6 +559,7 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, ShipyardsOfKuatHints</Markup_Filename>
@@ -882,6 +885,7 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, ShipyardsOfKuatHints</Markup_Filename>
@@ -1225,6 +1229,7 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
@@ -1700,6 +1705,7 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
@@ -2222,6 +2228,7 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
@@ -2597,6 +2604,7 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
@@ -3009,6 +3017,7 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
@@ -3567,6 +3576,7 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
@@ -4140,6 +4150,7 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
@@ -4503,6 +4514,7 @@
 
 		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
@@ -4861,6 +4873,7 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
@@ -5128,6 +5141,7 @@
 
 		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
@@ -5414,6 +5428,7 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
@@ -5629,6 +5644,7 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
