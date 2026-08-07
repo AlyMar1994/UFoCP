@@ -108,7 +108,7 @@
         <Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Empire_Enters_Tech_04</Prereq>
 	</Event>
-	
+
 	<Event Name="Spawn_Vader">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
@@ -133,14 +133,14 @@
         <Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Empire_Enters_Tech_05</Prereq>
 	</Event>
-	
+
 	<Event Name="Executor_Variant_Option">
 		<Event_Type>STORY_CONSTRUCT</Event_Type>
 		<Event_Param1>Darth_Team_Executor</Event_Param1>
 		<Event_Param2>1</Event_Param2>
 		<Prereq>Empire_Enters_Tech_05</Prereq>
 	</Event>
-	
+
 	<Event Name="Despawn_Vader_Old_Option">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>

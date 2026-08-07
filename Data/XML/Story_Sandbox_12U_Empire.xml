@@ -9,7 +9,7 @@
 
 
 <Story>
-	
+
 	<Event Name="Universal_Story_Start">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
@@ -17,7 +17,7 @@
 		<Story_Chapter>15</Story_Chapter>
 		<Story_Tag>Intro_Tag</Story_Tag>
 	</Event>
-	
+
 
 <!-- Empire Hero Release -->
 

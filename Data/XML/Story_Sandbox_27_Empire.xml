@@ -22,7 +22,7 @@
 
 
 	<!-- Spawn Starting Heroes -->
-	
+
 	<Event Name="Empire_AI_Unlock_Research_Facility">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>BUILDABLE_UNIT</Reward_Type>

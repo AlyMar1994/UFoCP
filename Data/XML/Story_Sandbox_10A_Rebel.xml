@@ -17,7 +17,7 @@
 		<Story_Chapter>0</Story_Chapter>
 		<Story_Tag>Intro_Tag</Story_Tag>
 	</Event>
-	
+
 		<Event Name="Intro_Completed">
 			<Event_Type>STORY_GENERIC</Event_Type>
 			<Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>

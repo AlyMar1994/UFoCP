@@ -109,22 +109,22 @@
         <Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Empire_AI_Heroes_09</Prereq>
 	</Event>
-	
+
 	<Event Name="Executor_Variant_Option">
 		<Event_Type>STORY_CONSTRUCT</Event_Type>
 		<Event_Param1>Darth_Team_Executor</Event_Param1>
 		<Event_Param2>1</Event_Param2>
 		<Prereq>Empire_AI_Heroes_09</Prereq>
 	</Event>
-	
+
 	<Event Name="Despawn_Vader_Old_Option">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Darth_Team</Reward_Param1>
 		<Prereq>Executor_Variant_Option</Prereq>
 	</Event>
-	
-	
+
+
 	<!-- Spawn Time Era 5 Heroes -->
 
 	<Event Name="Empire_Enters_Tech_05">
@@ -146,24 +146,24 @@
 
 
 	<!-- Victory/Defeat Cutscenes Specific -->
-	
+
 	<Event Name="Death_Star_Construction">
 		<Event_Type>STORY_CONSTRUCT</Event_Type>
 		<Event_Param1>Death_Star_II</Event_Param1>
 		<Event_Param2>1</Event_Param2>
 		<Prereq>Empire_AI_Heroes_09</Prereq>
 	</Event>
-	
+
 	<Event Name="Death_Star_Created">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>1</Event_Param1>
 		<Prereq>Death_Star_Construction</Prereq>
 	</Event>
-	
+
 	<!-- Winning Movies Event -->
- 
+
 	<!-- DEATH STAR WIN CONDITION -->
-	
+
 	<Event Name="Death_Star_Target">
 		<Event_Type>STORY_DESTROY</Event_Type>
 		<Event_Param1>Death_Star_II</Event_Param1>
@@ -177,7 +177,7 @@
 		<Reward_Param1>0</Reward_Param1>
 		<Prereq>Death_Star_Target</Prereq>
 	</Event>
-	
+
 	<Event Name="AI_Stop_Win_Death_Star">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SWITCH_CONTROL</Reward_Type>
@@ -185,13 +185,13 @@
 		<Reward_Param2>None</Reward_Param2>
 		<Prereq>Death_Star_Target</Prereq>
 	</Event>
-	
+
 	<Event Name="Winning_Preset_Death_Star">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>1</Event_Param1>
 		<Prereq>Death_Star_Target</Prereq>
 	</Event>
-	
+
 	<Event Name="Winning_Begin_Death_Star">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>Winning_Preset_Death_Star</Prereq>
@@ -208,7 +208,7 @@
 		<Event_Type>STORY_MOVIE_DONE</Event_Type>
 		<Prereq>Winning_Movie_Start_Death_Star</Prereq>
 	</Event>
-	
+
 	<Event Name="Win_The_Game_Movie_Death_Star">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ENABLE_CAMPAIGN_VICTORY_MOVIE</Reward_Type>
@@ -221,22 +221,22 @@
 		<Reward_Param1>1</Reward_Param1>
 		<Prereq>Win_The_Game_Movie_Death_Star</Prereq>
 	</Event>
- 
+
 	<!-- HERO WIN CONDITION -->
-	
+
 	<Event Name="Hero_Target">
 		<Event_Type>STORY_DESTROY</Event_Type>
 		<Event_Param1>Emperor_Palpatine_Team</Event_Param1>
 		<Event_Param3>1</Event_Param3>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
-	
+
 	<Event Name="Hero_Eliminated">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
 		<Prereq>Hero_Target</Prereq>
 	</Event>
- 
+
 	<!-- ELSE WIN CONDITION -->
 
 	<Event Name="Winning_Movie">
@@ -244,7 +244,7 @@
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>Win_GC</Event_Param2>
 	</Event>
-	
+
 	<Event Name="AI_Stop_Win">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SWITCH_CONTROL</Reward_Type>
@@ -252,13 +252,13 @@
 		<Reward_Param2>None</Reward_Param2>
 		<Prereq>Winning_Movie</Prereq>
 	</Event>
-	
+
 	<Event Name="Winning_Preset">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>1</Event_Param1>
 		<Prereq>Winning_Movie</Prereq>
 	</Event>
-	
+
 	<Event Name="Winning_Begin">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>Winning_Preset</Prereq>
@@ -275,7 +275,7 @@
 		<Event_Type>STORY_MOVIE_DONE</Event_Type>
 		<Prereq>Winning_Movie_Start</Prereq>
 	</Event>
-	
+
 	<Event Name="Win_The_Game_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ENABLE_CAMPAIGN_VICTORY_MOVIE</Reward_Type>
@@ -283,14 +283,14 @@
 	</Event>
 
 	<!-- Losing Movies Event -->
- 
+
 	<!-- DEATH STAR LOSE CONDITION -->
 
 	<Event Name="Losing_Movie_Death_Star">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>Lose_GC_Death_Star</Event_Param2>
 	</Event>
-	
+
 	<Event Name="AI_Stop_Lost_Death_Star">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SWITCH_CONTROL</Reward_Type>
@@ -298,13 +298,13 @@
 		<Reward_Param2>None</Reward_Param2>
 		<Prereq>Losing_Movie_Death_Star</Prereq>
 	</Event>
-	
+
 	<Event Name="Losing_Preset_Death_Star">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>1</Event_Param1>
 		<Prereq>Losing_Movie_Death_Star</Prereq>
 	</Event>
-	
+
 	<Event Name="Losing_Begin_Death_Star">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>Losing_Preset_Death_Star</Prereq>
@@ -321,35 +321,35 @@
 		<Event_Type>STORY_MOVIE_DONE</Event_Type>
 		<Prereq>Losing_Movie_Start_Death_Star</Prereq>
 	</Event>
-	
+
 	<Event Name="Lose_The_Game_Movie_Death_Star">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ENABLE_CAMPAIGN_VICTORY_MOVIE</Reward_Type>
 		<Prereq>Losing_Begin_Death_Star</Prereq><!-- Important! Point to event 3 slots up -->
 	</Event>
- 
+
 	<!-- HERO LOSE CONDITION -->
-	
+
 	<Event Name="Hero_Defend">
 		<Event_Type>STORY_DESTROY</Event_Type>
 		<Event_Param1>Mon_Mothma_Team</Event_Param1>
 		<Event_Param3>1</Event_Param3>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
-	
+
 	<Event Name="Hero_Lost">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
 		<Prereq>Hero_Defend</Prereq>
 	</Event>
-	
+
 	<!-- ELSE LOSE CONDITION -->
 
 	<Event Name="Losing_Movie">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>Lose_GC</Event_Param2>
 	</Event>
-	
+
 	<Event Name="AI_Stop_Lost">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SWITCH_CONTROL</Reward_Type>
@@ -357,13 +357,13 @@
 		<Reward_Param2>None</Reward_Param2>
 		<Prereq>Losing_Movie</Prereq>
 	</Event>
-	
+
 	<Event Name="Losing_Preset">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>1</Event_Param1>
 		<Prereq>Losing_Movie</Prereq>
 	</Event>
-	
+
 	<Event Name="Losing_Begin">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>Losing_Preset</Prereq>
@@ -380,7 +380,7 @@
 		<Event_Type>STORY_MOVIE_DONE</Event_Type>
 		<Prereq>Losing_Movie_Start</Prereq>
 	</Event>
-	
+
 	<Event Name="Lose_The_Game_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ENABLE_CAMPAIGN_VICTORY_MOVIE</Reward_Type>
