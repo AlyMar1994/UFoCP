@@ -59,14 +59,25 @@ Balance Changes:
 Enhancements:
 • Distant and angled textures are now much sharper.  EaW and FoC originally used linear filtering for texture rendering, but a new set of shaders has been implemented that now leverage x16 anisotropic filtering instead. (Thanks, evilbobthebob!) (BUG #379)
 • The shadow mesh for the Canderous Assault Tank had awkward geometry that wouldn't properly reflect shadows on or off the model in certain conditions. (Thanks, theshyshallot!) (BUG #388)
-
-• New loading screens and main menus have been added for all supported game languages, including two extras for Ukrainian and Japanese.  File resolutions were upscaled from 1280x768 to 1920x1440 for both files, and are smaller in file sizes than the originals (3.0 MB -> ~2.5 MB).  The upscaled menus were designed to address grievances regarding players not knowing if the Unofficial Patch was enabled, because there was previously no indication when launching the game.  (BUG #451)
-•• (All loading screens have received new graphic material from promotional images released during FoC's development cycle.  The Zann Consortium's stylized Mandalorian Skull has been added to the logo, and graphic material in the main menu and loading screen are now widescreen corrected [no horizontal stretching at standard widescreen resolutions]).
-
 • Extra debugging notifications have been added to Petroglyph's scripting library. (BUG #442)
 • The Land and Space Combat camera settings have been adjusted to increase the draw distance.  Petroglyph used conservative values for performance reasons - but now we don't have to be so frugal with rendering.  The improved values can be viewed on the GitHub report. (BUG #529)
 • The orbital drydock props, occasionally used on shipyard planets or in story missions involving dockyards, have received a new minimap icon (instead of using a large square). (BUG #682) (Thanks, .lany!)
 • Space Fondor, Kuat, Mon Calamari and related Piracy missions inconsistently supported whichever faction owned the space above the planet (not having faction-based "drydock" units in orbital dockyards).  Fondor and Kuat only had Empire ships (only when the Empire owns the planet), Mon Calamari had both Empire and Rebel ships, but no map had Consortium skips - now, every map supports every main faction.  Multiple custom props were created and placed, which are not only more performant than the original drydock props, but are also MP-friendly and should result in less MPGC instability. (BUG #482)
+• TIE defenders can now trigger bombing runs from orbit (which it couldn't do, unlike the B-wing).  In addition, B-wings and TIE defenders no longer use the Y-wing, TIE bomber or Skipray Blastboat models when summoned for bombing runs, respectively. (BUG #777)
+• All hardpoint icons have been overhauled - the original icons had visual junk/stray pixels that weren't erased and needed fixing.  However, it was voted on a Community Poll that they also looked pretty bad at high resolutions, and have been faithfully remade in 128x128.  They should be a tad bolder, and much sharper. (BUG #840) (Thanks, galyana!)
+
+• New loading screens and main menus have been added for all supported game languages, including two extras for Ukrainian and Japanese.  File resolutions were upscaled from 1280x768 to 1920x1440 for both files, and are smaller in file sizes than the originals (3.0 MB -> ~2.5 MB).  The upscaled menus were designed to address grievances regarding players not knowing if the Unofficial Patch was enabled, because there was previously no indication when launching the game.  (BUG #451)
+•• (All loading screens have received new graphic material from promotional images released during FoC's development cycle.  The Zann Consortium's stylized Mandalorian Skull has been added to the logo, and graphic material in the main menu and loading screen are now widescreen corrected [no horizontal stretching at standard widescreen resolutions]).
+
+• UFCP has merged with cha20202's "EAW Campaigns & Conquests to FOC Conversion" to restore bugfixed versions of the EaW story campaigns and Galactic Conquests.  UFCP already had changes for backwards compatibility with EaW, and this update fully completes it (as far as we know).  A selection of changes include: (BUG #247)
+•• New "alternate history" versions of the Galactic Conquests.  FoC Conquests have received variants where you can play with EaW Heroes instead of FoC ones, and the EaW Conquests have received variants with FoC Heroes.
+•• Random Story Events (sometimes called "Interventions") have been enabled for all regular and "alternate history" EaW Conquests.  Conquests with FoC Heroes do not have Story Events yet, and MPGC is incapable of using them.  In addition, Conquest descriptions now have a note detailing which ones have Story Events.
+•• Fixed GC victory/failure videos not playing after completing a win condition.
+•• Reimplemented the EaW MP Galactic Conquests.  These currently don't have hero-swapped "alternate history" versions, yet.
+•• Fixed Land Alderaan's Pirate Base location.  It has been moved to prevent units getting stuck on the terrain.
+•• Fixed various Rebel and Empire campaign oddities, collision issues and script bugs (including problems owed to props and objects having their model sizes changed in FoC, f.e. the Comm. Array in Rebel campaign mission #2 "Interpreting the Network").
+•• Darth Vader was added into Rebel campaign mission #11 ("Attack on the Death Star").  This is because it's cool (and was popular in the original mod).
+•• The Death Star has been reimplemented for the Rebel and Empire story campaigns.  It is not available in EaW's Galactic Conquests due to engine limitations with the MPGCs.
 
 
 Multiplayer:
@@ -166,6 +177,11 @@ AI Fixes:
 • Some adjustments have been made to the Empire's budgeting AI to more frequently flush out extreme amounts of saved money regardless if the major items have been purchased.  The AI should also more efficiently buy tech tech upgrades/the Executor/the Death Star. (BUG #174)
 • The Skirmish AI is supposed to generate a 6,000 credit cash boost every 2 minutes if they had <3,000 credits and were in dire straits (to prevent quick snowballing if the AI can't keep up with the human).  The scripting, however, didn't prevent the AI from completing the plan as soon as they received the money - meaning, the AI bypassed the 2 minute wait time and could rapidly spend 6,000 credit cash drops. (BUG #571)
 • The level 1 space stations for each faction were not valid targets for various AI plans/perceptions due to an engine limitation.  Thanks to an elaborate and stupid bugfix, they should now properly prioritize distance in tactical situations. (BUG #679)
+• The Space Tactical AI wouldn't properly use the Missile Shield, Interdict or Sensor Jamming abilities.  In addition, the Crusader Gunship's Point-Laser Defense, Skipray Blastboat and Bossk's Sensor Jamming, Vengeance Frigate's Self Destruct, and the Arc Hammer's Missile Shield now support autofiring. (BUG #774) (Thanks, galyana!)
+• The Space Tactical AI improperly evaluated when it should commit to a firesale and burn units, specifically in Space Skirmish.  The AI's perception of the situation looks for a station at level 0, but all stations are level 0 until teching up due to an engine limitation. (BUG #796)
+• The Tactical AI would sometimes fail to find objects in proximity of a unit for its ability, causing the scripting engine to panic and die. (BUG #823)
+• Obi-Wan Kenobi's Tactical AI would fail to avoid Darth Vader. (BUG #826)
+• Captain Antilles' Tactical AI would not prioritize bombers as an attack target. (BUG #827)
 
 
 Animation Fixes:
@@ -227,12 +243,24 @@ Audio Fixes:
 • The Consortium MDU would not use unique VO when constructing or selling turrets, instead opting for "Turret constructing..." and silence when a unit is sold.  Each MDU buildable now uses unique dialogue. (BUG #735)
 • Whenever corruption would be removed from a Rebel planet by a Rebel hero, the game would play the Empire Announcer's VO instead of the Rebel Announcer's. (BUG #748)
 • Unlike the Rebels, the Empire's Interdictor Cruisers wouldn't trigger a battlefield callout when seen.  The Consortium now uses the Keldabe Captain VO for spotting an Interdictor, as that's most consistent with the Rebels' VO. (BUG #773)
+• Skipray Blastboats wouldn't have VO when attacking fighter bays.  In addition, the Skipray's restored "my health is low/critical" and "my enemy's health is low/critical" VO while dogfighting (BUG #267) was playing too frequently and loudly because the sound definitions were using the wrong "preset" that dictated their frequency, pitch and volume. (BUG #800)
+• B-wings wouldn't have VO when attacking hangars and when "my enemy's health is low/critical" while dogfighting.  That VO, and their "my health is low/critical" were also playing too frequently and loudly because the sound definitions were using the wrong "preset" that dictated their frequency, pitch and volume. (BUG #801)
+• TIE defenders wouldn't have VO when attacking hangar bays and when entering asteroid fields and nebulas.  In addition, multiple voice lines for these dialogues were restored from the files, as apparently they were missed when creating the dialogue tree. (BUG #802)
+• TIE interceptors wouldn't have VO when attacking hangar bays. (BUG #803)
+• Vengeance Frigates wouldn't have VO when entering asteroid fields or when attacking hangar bays. (BUG #805)
+• Crusader Gunships wouldn't have VO when entering asteroid fields or when attacking hangar bays. (BUG #806)
+• Keldabe-class Battleships wouldn't have VO when attacking hangar bays. (BUG #807)
+• StarViper Fighters wouldn't have VO when attacking hangar bays. (BUG #809)
+• MC30 Frigates wouldn't have VO when attacking hangar bays. (BUG #810)
+• Rogue and Red Squadron's restored combat VO (BUG #568) played too frequently, loudly and obnoxiously. (BUG #811)
+• Black Leader: Darth Vader wouldn't have combat VO when attacking enemies in space, or when his health was low/critical. (BUG #821)
 
 
 Gameplay Fixes:
 • The "Unlocked" camera settings (for modders) and Space Tactical Combat camera settings had the following misspelled settings: Location_Height_Smooth_Time, MinHeightAboveTerrain.  They have been corrected to Location_Height_Up_Smooth_Time/Location_Height_Down_Smooth_Time, and Min_Height_Above_Terrain. (BUG #542)
 • The "Hostile to everything" faction now has Jabba's Criminal Empire as a faction enemy. (BUG #57)
 • Jabba's Criminal Empire now has the Black Sun Pirates as a faction enemy. (BUG #58)
+• The Rebel and Empire variants of the "Origin of Corruption" GC had multiple planets with unit conflicts (situations where, f.e. both a Rebel and Consortium barracks are built on a planet, and both factions have infantry/starfighters on the planet).  These planets have been fairly divided out between the factions to remove conflicting units: Bothawui, Mandalore, Honoghr, Kashyyyk, Nal Hutta, The Maw, Korriban and Saleucami. (BUG #832)
 
 
 Interface Fixes:
@@ -295,6 +323,11 @@ Interface Fixes:
 • The Origin of Corruption GC's mission objectives didn't notate for any faction that the GC would conclude upon the destruction of the Death Star II.  This initially wasn't a problem because the mission objective didn't work until BUG #33 was fixed. (BUG #554)
 • Rogue Squadron's tooltip claimed they were strong against the Death Star, a unit they can't encounter.  It has been swapped out for the Death Star II. (BUG #578)
 • The multiplayer lobby chat bar (where text is entered) was misaligned with the chat window and lobby interface, unlike in LAN lobbies. (BUG #771)
+• Indigenous Mustafarians (who inhabit a volcanic planet) used the generic arctic human icon in their encyclopedia tooltip. (BUG #739) (Thanks, cha20202!)
+• The SPMA-T artillery's command bar icon was not centered.  Yes, it was annoying. (BUG #782)
+• The Imperial Observation Bunker used in Empire campaign mission #7 ("A New Weapon of War") and Rebel campaign mission #9 ("Handle with Care!") didn't have a tooltip icon.  It was likely that EaW didn't ship with one - however, the model was reused for FoC Land Skirmish as the Imperial infantry bunker, which did receive an icon, and it has been applied to the Observation Bunker. (BUG #786)
+• The Black Sun Pirates' Skiff Brigade (used in EaW Galactic Conquests) had their tooltips messed up: they lacked a description, and their unit class was mistakenly put in their description. (BUG #814)
+• The Black Sun Pirates' Missile Soldier Team was missing a tooltip description when encountered in GC. (BUG #836)
 
 
 Map/Planet Fixes:
@@ -346,6 +379,11 @@ Map/Planet Fixes:
 • Space Mon Calmari Piracy, when the planet was owned by the Rebels, would not have the Calamari Cruisers be destroyed when the dockyards were destroyed.  A new Calamari Cruiser prop, based on the story campaigns' destroyable drydock Star Destroyer, has been retrofitted on the map. (BUG #684)
 • Nal Hutta's indigenous Hutts would attack the Hutt units of Jabba's Criminal Empire during the Consortium campaign.  On the map, the indigenous Hutts were part of the Black Sun Pirates, who are hostile to the Hutts, but weren't vice-versa.  A duplicated map (_Land_Planet_Nal_Hutta_Story_02.ted) has been created for the Consortium campaign so the indigenous Hutts' faction can be properly assigned. (BUG #123)
 • Space Coruscant's defending forces would spawn facing backwards on the map; the unit entry flags now face toward the attacking force properly. (BUG #742)
+• Land Ilum didn't have a base shield generator position marker, which broke shield generator placement. (BUG #778)
+• Land Korriban didn't have a base shield generator position marker, which broke shield generator placement. (BUG #778)
+• Land Fresia had a corrupted AI pathfinding zone.  To rectify this, Fresia has also recieved a minor revision/pass at where units are allowed to move, and AI pathfinding zones were regenerated. (BUG #780)
+• Land Jabiim would allow Garm Bel Iblis to land or raid the planet despite the fact that he pilots a repulsorlift vehicle.  He no longer can participate in Land Combat due to the planet's special ability. (BUG #818)
+• Land Kessel had an issue where units could be reinforced into the surrounding hills of reinforcement points, getting them stuck.  Kessel has recieved a minor revision/pass at where units are allowed to move, and AI pathfinding zones were regenerated. (BUG #841)
 
 
 Model Fixes:
@@ -367,6 +405,12 @@ Model Fixes:
 • The Prop_Endor_Conifer00 prop for forest environments used an broken model assignment setting, Tactical_Model_Name.  It now uses Land_Model_Name. (BUG #544)
 • The moon models for Space maps (such as Space Kamino, or Space Mon Calamari) would never play their rotation animation.  The model entry for both moons were set to be "decorations" (non-synched objects in multiplayer) despite not being applicable due to having conflicting settings. (BUG #569)
 • The ion cannon tower added to the Rebel Space Station at station level 3 had stretched textures across the back due to messed up texture mapping. (BUG #680) (Thanks, galyana!)
+• TIE defenders didn't use their "chin cannons" when firing. (BUG #757)
+• TIE phantoms didn't use their "chin cannons" when firing. (BUG #762)
+• The Crusader-class Corvette's engines spawned over 200 particles per second while active in battle.  In addition, its engines wouldn't dim when stationary, unlike the standard behavior of ships from EaW.  A new, optimized model from "Secrets of a Fallen Empire" has been provided. (BUG #813) (Thanks, galyana!)
+• The Keldabe-class Battleships, IG-2000, Skipray Blastboats, and all of the Consortium's unit transports' engines wouldn't dim when stationary or disable when destroyed, unlike most ships from EaW. (BUG #813) (Thanks, galyana!)
+• B-wing engines would flicker under normal use, and would disappear when using S-foils.  The engine particles' "lifetimes" were too low, and the model was missing S-foil engine particle variants. (BUG #838) (Thanks, galyana!)
+• X-wing engines would disappear when using S-foils.  The model was missing S-foil engine particle variants. (BUG #839) (Thanks, galyana!)
 
 
 Script/Story Fixes:
@@ -383,6 +427,11 @@ Script/Story Fixes:
 • Thyferra Kidnapping would hardlock and be unable to completed if the player destroyed all of Ungarr Daris' defenses before trying to kidnap him.  The mission script dynamically tries to redirect Daris to the nearest friendly unit - however, if all units are destroyed, the entire scripting engine would crash.  Now, if all units are destroyed, Daris will retreat to the base's shield generator. (BUG #3)
 • Space Mandalore's Piracy corruption mission (in all regular, Consortium campaign and tutorial forms) would allow the enemy faction to retreat during battle, which breaks the story sequence.  Retreat has now been disabled for all factions until the battle concludes. (BUG #64)
 • Land Honoghr's Intimidation corruption mission (in both the regular and Consortium campaign) would allow the enemy faction to retreat during battle, which breaks the story sequence.  Retreat has now been disabled for all factions until the battle concludes. (BUG #170)
+• Rebel campaign mission #3 ("Theft of the X-wings") had a mysterious bubble of revealed fog-of-war behind the Imperial Officer Academy (at the top of the map).  As it turns out, there was an invisible "reveal" marker object for testing purposes that was never removed from the map. (BUG #784)
+• Rebel campaign mission #7 ("Needle in a Haystack") had a scripting error where, upon Boba Fett finding Han Solo, Solo would ask Chewie who that bozo is; but for some reason, Solo's hologram was programmed to use the Moff/Station Commander's hologram instead of his own. (BUG #785) (Thanks, cha20202!)
+• The GC Story Event "Attrition" for both Empire and Rebels used the story's ending dialogue as the introduction dialogue upon starting.  In addition, the ending dialogue wouldn't play when completed because the dialogue wasn't implemented properly. (BUG #828)
+• The scripting for GC Story Events "Pirate Rescue," "A Favor for Lord Vader," and "Rebel Smuggler" had broken flags that didn't properly complete them after completion. (BUG #833)
+• Various notifications during the Consortium campaign (the "NOTICE:," "HINT:" or "TASK:" messages) didn't have text coloring, unlike other sections of the Consortium campaign and the entirety of the Rebel and Empire story campaigns. (BUG #843)
 
 
 Structure Fixes:
@@ -401,6 +450,9 @@ Structure Fixes:
 • The Consortium's Droidworks factory's spawn bone location was rotated incorrectly, and was placed oddly, leading to oddities with the droidekas when rolling out of the factory.  The original spawn bone is now oriented properly, and a new spawn bone was added so droidekas make use of both doors. (BUG #527) (Thanks, galyana!)
 • Ground turrets never used their intended inaccuracy against most units/objects in-game.  Each turret was a "variant" of an "abstract" type that could be expanded upon - unfortunately, despite claiming to be fixed in the 2023 patch, using variants in this manner still broke accuracy.  The Mass Driver turrets (including the Canderous Assault Tank) were also never inaccurate against infantry or vehicles for the same reason, however, the mass driver projectile was mistakenly MISSILE instead of LASER, which meant it ignored its inaccuracy values anyway.  All of these issues have been fixed. (BUG #525)
 • The Consortium's Skirmish Sensor Scrambler used its structure icon in the UI which is inconsistent with the other defense satellite icons (which are custom upgrade-like icons).  There was an unused "upgrade" icon for the Long Range Scanner in the game's master icon atlas, and since that and the Scrambler use the same model, it has been added to the Scrambler. (BUG #577)
+• The Empire Infantry Barracks in Skirmish would become 30% bigger upon destruction. (BUG #830)
+• Empire and Rebel Officer Academies were setup to spawn Field Commanders as garrison infantry during land battle, but were missing the behavior to actually spawn them.  They now spawn 1 Field Commander, and when killed, will respawn another after 1 min. (4.5x the time vs. all other buildings' garrisons). (BUG #743)
+• The Laser Defense Satellites used during Empire campaign mission #2 ("The Pirate Menace") were named "Missile Defense Satellites" and used the wrong firing SFX. (BUG #738)
 
 
 Texture Fixes:
@@ -467,6 +519,11 @@ Unit Fixes:
 • The Vengeance Frigate had awkward firing angles, as the model bone used to dictate initial firing points upwards.  To smooth out the behavior, the Frigate's firing angle height was boosted from 90* to 120*. (BUG #772)
 • Indigenous Mandalorian units would freeze and not play an animation when getting crushed by tank-like vehicles or AT-ATs.  They were missing the "crushed" animation, and it has been swapped out for their standard death animation. (BUG #755)
 • Various indigenous units would be unable to target and fire at structures and units.  Their FoW reveal range was too low compared to their attack range. (BUG #756)
+• Various Hero abilities were inconsistent in what units they applied to (for example, despite tooltips claiming abilities applied to "all units," some wouldn't apply to bombers and unit transports while others would).  In addition, some Hero abilities (such as Thrawn's Fleet Commander bonuses) didn't apply its speed buff to fighters due to issues with the units' "containers."  These have been universally fixed. (BUG #792)
+• B-wings didn't use their laser cannons' muzzle flashes in combat. (BUG #758)
+• IG-2000 (IG-88) didn't use his laser cannons' muzzle flashes in combat. (BUG #768)
+• The Hound's Tooth (Bossk) didn't use his laser cannons' muzzle flashes in combat. (BUG #769)
+• Black Leader: Darth Vader's starfighter wouldn't use or regenerate its shields because he didn't have the "SHIELDED" behavior. (BUG #812)
 
 
 Upgrade Fixes:
@@ -481,3 +538,4 @@ Upgrade Fixes:
 • Empire upgrade "Enhanced Reactors Level 1" would not improve the TIE defender's engine speed, unlike Levels 2 and 3. (BUG #472)
 • Empire upgrade "Improved Weapons Level 1" would not improve the TIE defender's weapons damage, unlike Levels 2 and 3. (BUG #473)
 • "Increased Production" Level 1 and 2 wouldn't affect Land Skirmish mining facilities. (BUG #246)
+• Various Space and Land upgrades were inconsistent in what units they applied to (for example, despite tooltips claiming abilities applied to "all units," some wouldn't apply to Skirmish Pirate units, or Heroes while others would).  In addition, speed enhancing upgrades didn't properly apply their speed buffs to fighters due to issues with the units' "containers" (the icon that "owned" the squadron).  These have been universally fixed. (BUG #794)

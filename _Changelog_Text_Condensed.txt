@@ -69,6 +69,17 @@ Additions:
 • Infantry barracks, light vehicle factories, heavy vehicle factories and officer academies now have a generic description shared between all factions' buildings, instead of being tooltip-less.  Otherwise, each unique building (Infiltrator Academy, Droid Works, etc.) have received unique descriptions. (TEXT_ENCYCLOPEDIA_ACADEMY, TEXT_ENCYCLOPEDIA_BARRACKS, TEXT_ENCYCLOPEDIA_HEAVY_FACTORY, TEXT_ENCYCLOPEDIA_INFILTRATOR_ACADEMY, TEXT_ENCYCLOPEDIA_LIGHT_FACTORY, TEXT_TOOLTIP_GARRISON_OFFICER, TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY, TEXT_ENCYCLOPEDIA_DROIDWORKS, TEXT_ENCYCLOPEDIA_FACTORY) (BUG #744, #745, #746)
 • "TEXT_SFX_WED_CHATTER_DS_2" has been created to implement an unused voice line for Wedge Antilles. (BUG #417)
 • "TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION" has been created for Rogue Squadron's S-Foils ability. (BUG #417)
+• To support the merge with "EAW Campaigns & Conquests to FOC Conversion" and the new "alternate history" campaigns, multiple text strings have been renamed, modified or added. (all MTEM/MTRM/MBEM/MBRM titles and mission bios/titles, TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN, TEXT_CAMPAIGN_SINGLE_10A_FOC, TEXT_CAMPAIGN_SINGLE_10B_FOC, TEXT_CAMPAIGN_SINGLE_12_EAW, TEXT_CAMPAIGN_SINGLE_15_FOC, TEXT_CAMPAIGN_SINGLE_21_EAW, TEXT_CAMPAIGN_SINGLE_25_FOC, TEXT_CAMPAIGN_SINGLE_27_EAW, TEXT_CAMPAIGN_SINGLE_33B_EAW, TEXT_CAMPAIGN_SINGLE_35_FOC, TEXT_CAMPAIGN_SINGLE_36_EAW, TEXT_CAMPAIGN_SINGLE_44_FOC, TEXT_CAMPAIGN_SINGLE_50_FOC, TEXT_CAMPAIGN_SINGLE_56_EAW, TEXT_CAMPAIGN_SINGLE_60_FOC, TEXT_HELP_SEPERATOR_GC, TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12_EAW, TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_EAW, TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27_EAW, TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B_EAW, TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36_EAW, TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56_EAW) (BUG #247)
+• To detail which Galactic Conquests now support random Story Events, new text has been added to the descriptions of EaW-based Conquests.  This line is translated into all languages in preparation for UFCP v2.4.0. (TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A - TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60_FOC) (BUG #247)
+	-- ENG: This campaign uses random Story Events that distribute rewards upon completion.
+	-- FRA: Cette campagne propose des missions aléatoires qui rapportent des récompenses une fois accomplies.
+	-- GER: Bei dieser Kampagne gibt es zufällige Missionen, für deren Abschluss Belohnungen vergeben werden.
+	-- ITA: Questa campagna prevede missioni casuali che assegnano ricompense una volta completate.
+	-- JAP: このキャンペーンでは、クリアすると報酬がもらえるランダムミッションを採用しています。
+	-- POL: W tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+	-- RUS: В этой кампании используются случайные задания, за выполнение которых выдаются награды.
+	-- SPA: Esta campaña utiliza misiones aleatorias que otorgan recompensas al completarlas.
+• "TEXT_UNIT_LUKE_XWING_JEDI" has been added to support Luke Skywalker being a part of Red Squadron again now that the GCs are restored. (BUG #837)
 
 
 Housekeeping:
@@ -88,6 +99,9 @@ Housekeeping:
 • "TEXT_ENCYCLOPEDIA_ANIMAL_NEST" has been renamed to "TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST" for internal consistency. (No forward-facing changes.)
 • "TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON" has been renamed to "TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON" for internal consistency. (No forward-facing changes.)
 • "TEXT_BOMB_CLASS" has been renamed to "TEXT_ENCYCLOPEDIA_CLASS_BOMB" for internal consistency. (No forward-facing changes.)
+• Various instances of "C3P0" or "C-3P0" have been corrected to "C-3PO."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.  Only the English, Japanese and Polish translations suffered this issue.
+• Various instances of Black Sun Pirate units had their name capitalized as f.e., "Black Sun pirate infantry..." when "pirate" should be capitalized.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
+• Various instances of "Plex" (as in "Plex Missile Soldier") were unnecessarily capitalized as "PLEX" as if it were an acronym.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
 
 
 International:
@@ -1305,3 +1319,38 @@ International:
 	-- POL: Działo masowe --> Bateria akceleratorów masy
 	-- RUS: Автоматическая пушка --> Батарея автоматических пушек
 	-- SPA: Acelerador de masa --> Batería de acelerador de masas
+
+• TEXT_HERO_VADER_TEAM: (BUG #820)
+	-- ENG: Darth Vader --> Black Squadron
+	-- GER: Darth Vader --> Schwarzes Geschwader
+
+• TEXT_MON_EVENT_RESCUE_02: (BUG #829)
+	-- ENG: ...They have held true to their promise and are delivering a Venator-class cruiser to us in thanks. --> ...They have held true to their promise, and are delivering one of their Interceptor frigates to us in thanks.
+	-- GER: ...Sie haben ihr Wort gehalten und uns als Dank einen Kreuzer der Venator-Klasse überlassen. --> ...Sie haben ihr Wort gehalten und uns als Dank einen Interceptor-Fregatte überlassen.
+
+• TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_HUMAN: (BUG #819)
+	-- ENG: The Human population on this planet... --> The human population on this planet...
+
+• TEXT_TOOLTIP_TECH_LEVEL_REBEL: (BUG #783)
+	-- ENG: ...The Rebellion advances their tech tree by stealing technology from the Empire with R2-D2 and C3PO. ... --> ...The Rebellion advances their tech tree by stealing technology from the Empire with R2-D2 and C-3PO. ...
+
+• TEXT_TOOLTIP_Z95_HEADHUNTER: (BUG #799)
+	-- ENG: Out-dated fighter armed with light laser cannons. ... --> Outdated fighter armed with light laser cannons. ...
+
+• TEXT_UNIT_LUKE_XWING: (BUG #837)
+	-- ENG: Red Five - Luke Skywalker --> Luke Skywalker (Red 5)
+	-- GER: Rot Fünf - Luke Skywalker --> Luke Skywalker (Rot Fünf)
+	-- JAP: ルーク・スカイウォーカー レッド 5 (Luke Skywalker, Red 5) --> ルーク・スカイウォーカー (レッド5)
+	-- SPA: Luke Skywalker --> Luke Skywalker (Rojo 5)
+
+• TEXT_UNIT_TIE_PROTOTYPE: (BUG #820)
+	-- ENG: TIE Advanced X-1 --> Black Leader: Darth Vader
+	-- GER: TIE Advanced X-1 --> Schwarz 1: Darth Vader
+
+• TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L2: (BUG #794)
+	-- ENG: Increases the damage dealt by Anti-Infantry, Anti-Vehicle and Anti-Aircraft turrets by 25%. --> Increases the damage dealt by Anti-Infantry, Anti-Vehicle, Anti-Aircraft and the MDU's Concussion Grenade Mortar turrets by 25%.
+	-- GER: Erhöht den Schaden, den Infanterie-, Fahrzeug- und Flugabwehrtürme anrichten, um 25%. --> Erhöht den Schaden, den Infanterie-, Fahrzeug-, Luftabwehr- und Erschütterungsgranatwerfer um 25 %.
+
+• TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_TURRET_FIREPOWER_L2: (BUG #794)
+	-- ENG: Increases the damage dealt by Anti-Infantry, Anti-Vehicle and Anti-Aircraft turrets by 25%. --> Increases the damage dealt by Anti-Infantry, Anti-Vehicle, Anti-Aircraft and the MDU's Rapid-Fire Laser Turrets by 25%.
+	-- GER: Erhöht den Schaden, den Infanterie-, Fahrzeug- und Flugabwehrtürme anrichten, um 25%. --> Erhöht den Schaden, den Infanterie-, Fahrzeug-, Luftabwehr- und Schnellfeuer-Lasertürmen um 25 %.

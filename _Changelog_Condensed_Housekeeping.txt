@@ -57,7 +57,7 @@ https://github.com/AlyMar1994/UFoCP/issues/
 • AI plans for firing the Death Star will now cancel for the Rebels or the Consortium, instead of evaluating. (No forward-facing changes.) (BUG #410)
 • AI plans for buying upgrades have had two upgrades removed, as they are no longer used (RS_More_Garrisons_L1_Upgrade, ES_More_Garrisons_L1_Upgrade). (No forward-facing changes.)
 • The game's master atlas for icons (where all icons and UI elements are stored) has been compressed to save space and is now considerably smaller (16 MB -> 5 MB). (No forward-facing changes.)
-• To support reimplementing EaW's Galactic Conquests in future updates, the original Death Star's Galactic and radar icons have been restored to the game's files and are currently unused.  The Death Star II's icon files have also had their entry names changed ("2" added to their names), and the appropriate code adjusted. (No forward-facing changes.)
+• To support reimplementing EaW's Galactic Conquests, the original Death Star's Galactic and radar icons have been restored to the game's files and are currently unused.  The Death Star II's icon files have also had their entry names changed ("2" added to their names), and the appropriate code adjusted. (No forward-facing changes.)
 • The Anaxes-Carida trade route definition was duplicated, which may have led to unintentional consequences when modifying this trade route.  The earliest duplicate was removed. (No forward-facing changes.)
 • The Mandalore-Utapau trade route definition was duplicated, which may have led to unintentional consequences when modifying this trade route.  The earliest duplicate was removed. (No forward-facing changes.)
 • Removed the ability definition "Tani_Slicer" in the core game constant settings because it was causing an internal error. (No forward-facing changes.  Tani was an EaW alpha development unit for the Rebels, and was axed before release.)
@@ -80,15 +80,12 @@ https://github.com/AlyMar1994/UFoCP/issues/
 •• b_play_pause_t: <Disabled_Darken> --> <Disable_Darken>
 •• b_fast_forward_t: <Disabled_Darken> --> <Disable_Darken>
 
-• Multiple XML settings have been removed from various units, structures, and other miscellaneous files.  While the engine may or may not process these, they do not affect the game and are effectively unused.  Leaving these in "clutter" the files they're in and contribute to the character limit XML files have.
-•• (These include: Autoresolve_Health, Transport_Capacity, Moniker, GUI_Offset, Combat_Power_Value, Lighting_Effect_Name, IsBuildable, Number_per_Squadron, Is_Interdictor, Spawn_Planet, Sensor_Range, TacticalBehavior, xxxSpace_Model_Name, Tactical_Sell_Credits, Tactical_Model_Name).
-
 • Corulag and Kessel's Piracy corruption missions now use a script-spawned version of IG-2000, instead of being placed on the map itself.  (No forward-facing changes; this was to address crashes caused by BUG #256).
 • The Executor's file (Units_Space_Empire_Executor.xml) was deleted and dereferenced from the game, and the unit entry was placed inside of Darth Vader's file (Units_Hero_Empire_Darth_Vader.xml). (No forward-facing changes.)
 • The Death Star's original file has been renamed (SpaceUnitsSupers -> Units_Hero_Empire_Death_Star) and placed inside of the Empire units folder. (No forward-facing changes.)
 • Darth Vader's unit file has been cleaned up to simplify working with it and to reduce various difficulties (duplicate settings, etc.). (No forward-facing changes.)
 • The Annihilator's unit entry has been cleaned up to simplify working with it and to reduce various difficulties (duplicate settings, etc.). (No forward-facing changes.)
-• Various unused setting tags have been excised from the game's files to ease editing.  These tags can be viewed on GitHub, in the "_BrokenTags.txt" file. (No forward-facing changes.)
+• Various unused setting tags have been excised from the game's files to ease editing.  While the engine may or may not process these, they do not affect the game and are effectively unused.  Leaving these in "clutter" the files they're in and contribute to the character limit XML files have.  These tags can be viewed on GitHub, in the "_BrokenTags.txt" file. (No forward-facing changes.)
 • A duplicate of Admiral Ackbar's icon (i_button_general_akbar.tga) has been deleted from the game's master texture atlas in favor of the correctly named icon (i_button_admiral_akbar.tga). (No forward-facing changes.)
 • A duplicate of the TIE advanced's icon (i_button_tie_advanced.tga) has been deleted from the game's master texture atlas in favor of the correctly named icon (i_button_ev_tieadvanced.tga). (No forward-facing changes.)
 • Keldalbe_Prototype, the Keldabe used while corrupting Mandalore, had an unused version on the map controlled by the Black Sun Pirates that did not have the proper unit flags applied on the map.  This unit isn't used, but it is now partly setup should any modder want to use it. (No forward-facing changes.)
@@ -99,4 +96,4 @@ https://github.com/AlyMar1994/UFoCP/issues/
 • The Origin of Corruption GC's internal mission objectives for the Empire were set to trigger a victory when the Death Star II was destroyed.  This seems to have been overridden by the enemy's victory condition being the same, however - this victory condition has been removed from the Empire just in case. (No forward-facing changes.)
 • V-wing fighters have had their unit object type was changed from "UniqueUnit" to "SpaceUnit." (No forward-facing changes.)
 • FoC's internal surface GFX definition had a handful of syntax errors fixed (dealing mainly with explosion scorch marks).  It is unknown what effects these errors caused, as FoC is decently error-resistant internally and the broken definitions seemed to work anyway.
-
+• The SP and MPGC credit cap option has been increased to 30k credits due to both the EaW and FoC GCs having high starting credit caps.
