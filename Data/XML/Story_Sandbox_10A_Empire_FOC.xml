@@ -59,19 +59,6 @@
 
 	<!-- Spawn Time Era 1 Heroes -->
 
-	<Event Name="Empire_AI_Heroes_03">
-		<Event_Type>STORY_TECH_LEVEL</Event_Type>
-		<Event_Param1>1</Event_Param1>
-	</Event>
-
-	<Event Name="Empire_AI_Heroes_04">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Darth_Team</Reward_Param1>
-		<Reward_Param2>Naboo</Reward_Param2>
-		<Prereq>Empire_AI_Heroes_03</Prereq>
-	</Event>
-
 
 
 	<!-- Spawn Time Era 2 Heroes -->
@@ -128,20 +115,6 @@
 		<Reward_Param1>Boba_Fett_Team</Reward_Param1>
 		<Reward_Param2>Naboo</Reward_Param2>
 		<Prereq>Empire_AI_Heroes_08</Prereq>
-	</Event>
-
-	<Event Name="Executor_Variant_Option">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>Darth_Team_Executor</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Prereq>Empire_AI_Heroes_08</Prereq>
-	</Event>
-
-	<Event Name="Despawn_Vader_Old_Option">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Darth_Team</Reward_Param1>
-		<Prereq>Executor_Variant_Option</Prereq>
 	</Event>
 
 
