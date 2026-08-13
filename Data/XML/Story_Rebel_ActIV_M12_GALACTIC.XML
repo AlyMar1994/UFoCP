@@ -364,13 +364,6 @@
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Rebel_A4_M12_Final_Battle_Begin_00</Prereq>
 	</Event>
-	
-	<!-- Homing beacon found, let the Empire hunt -->
-	<Event Name="Rebel_A4_M12_Hunt">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>1</Event_Param1>
-		<Prereq>Rebel_A4_M12_Final_Battle_Begin_00_Remove_Text</Prereq>
-	</Event>
 
 <!-- Mon Mothma Speaks -->
 	<Event Name="Rebel_A4_M12_Final_Battle_Begin_01">
@@ -436,6 +429,13 @@
 	<Event Name="Rebel_A4_M12_Final_Battle_Begin_03b_Stop_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Rebel_A4_M12_Final_Battle_Begin_03b</Prereq>
+	</Event>
+
+	<!-- Homing beacon found, let the Empire hunt -->
+	<Event Name="Rebel_A4_M12_Hunt">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
 		<Prereq>Rebel_A4_M12_Final_Battle_Begin_03b</Prereq>
 	</Event>
 

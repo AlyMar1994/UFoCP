@@ -20,12 +20,44 @@
 
 Thank you for downloading the Unofficial Forces of Corruption Patch!
 
+v2.3.0.1712 is a huge milestone (that I probably could've held for a larger, more cele-
+bratory release).  This update almost fully* brings the base game's Galactic Conquests
+(SP and MPGCs) into FoC, more than a handful of AI fixes to support reimplementing
+the Black Sun Pirate and neutral planets, and many fixes to broken elements of the Rebel
+and Empire campaigns.  Multiple audio fixes from last update have also been adjusted to
+fix some annoyances with VO frequency, in addition to multiple model and particle optimi-
+zations.
+
+The restored EaW content was mostly handled by cha20202, ported from his mod "EAW
+Campaigns & Conquests to FOC Conversion," and is responsible for multiple bugfixes and
+improvements to the scripting and mapping.  In addition, all GCs now included in UFCP
+inherit his "alternate history" style GCs, which allow you to use the opposite roster
+of heroes from EaW (or vice-versa from FoC).
+(For example, instead of getting Thrawn and the Arc Hammer in Empire-side Equal Footing,
+you now only get Darth Vader's TIE squadron; or in Alderaan's Demise, you *can* now get
+Thrawn and the Arc Hammer.)
+
+As an extra bonus, Random Story Events (or, "Interventions") have been re-enabled for all
+GCs with EaW heroes.  This has been a popular want since Day One:tm: of UFCP, all the way
+back to v1.0, and I'm glad to have these beautiful little flavor events back in GC.
+Support for FoC Hero GCs may be an option in the future, but I'm currently theorizing how
+to deal with the Consortium lacking them.
+
+Last, but certainly not least, due to arcane forces cursed background coding, the victory/
+failure videos now play when winning or losing a GC (including for the campaigns)!  These
+broke sometime during FoC's release and haven't been fixed by Petro yet, so for the mean-
+time, we're using a complex set of campaign Story Event watchers in the background to
+trigger the videos when needed.  They work pretty seamlessly!
 
 Known issues are recorded on the GitHub, hopefully to be solved for the upcoming patches.
 If you find any bugs or have anything to report or ask for, make sure to visit the GitHub!
 
 I hope you enjoy UFCP!  Send patches.
 ~AlyMar1994
+
+*: Certain aspects, such as the original Death Star, could not be reimplemented b/c the
+Empire player in MPGCs would be able to build both Death Stars without a good way to
+lock one or the other.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

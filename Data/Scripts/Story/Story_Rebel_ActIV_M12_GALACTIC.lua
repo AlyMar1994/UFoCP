@@ -95,7 +95,7 @@ end
 
 function State_Rebel_A4_M12_Hunt(message)
     if message == OnEnter then
-		Sleep(60) -- AM1994 (06-22-2026): Ensure 1min wait so all dialogue and system notifs can play before the DS targets the player
+		--Sleep(60) AM1994 (06-22-2026): FIXME: Ensure 1min wait so all dialogue and system notifs can play before the DS targets the player
 		DeathStar_Attack()
 	end
 end
@@ -125,7 +125,7 @@ function DeathStar_Attack()
 			DebugMessage("Fire death star here")
 			death_star_list = Find_All_Objects_Of_Type("DEATH_STAR")
 			death_star = death_star_list[1]
-		DebugMessage("%s -- death_star is %s", tostring(Script), tostring(death_star))
+			DebugMessage("%s -- death_star is %s", tostring(Script), tostring(death_star))
 
 			death_star.Set_Check_Contested_Space(false)
 			death_star_fleet.Activate_Ability("DEATH_STAR")
