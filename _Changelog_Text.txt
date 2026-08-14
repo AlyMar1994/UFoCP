@@ -54,11 +54,19 @@ UFCP Fixes:
 
 
 Additions:
+• In a rare instance of where I've lost my marbles, all languages are now fully supported in UFCP and have fully translated text.  Aside from German, these are mostly machine translations.
 • Plasma Burst and Diamond Boron Missile Satellites didn't have consistent descriptions with other satellites, and would instead just use their name as their description. (MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_DBM_PAD_00, MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_PLASMA_PAD_00) (BUG #847)
 
 
 Housekeeping:
 • Various instances of "Tie" (f.e., as "Tie Mauler") have been capitalized properly to "TIE."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.) (BUG #859)
+
+
+• TEXT_TOOLTIP_DEFENSE_SATELLITE_DBM: (BUG #870)
+	-- ENG: Fires a barrage of diamond boron missiles --> Heavy weapons platform designed for perimeter defense.  Diamond boron is effective against shields, fighter and corvette class ships.
+
+• TEXT_TOOLTIP_DEFENSE_SATELLITE_PLASMA: (BUG #870)
+	-- ENG: Fires a large burst of plasma energy. --> Heavy weapons platform designed for perimeter defense against corvette and frigate class ships.
 
 
 
