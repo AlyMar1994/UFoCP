@@ -51,6 +51,10 @@ UFCP:
 ======
 
 
+AI Fixes:
+• The AI for Marauder and Broadside-class Cruisers would occasionally crash due to the "good location" they've picked to fire suddenly becoming invalid, but still hell-bent on trying to calculate if it's a good artillery location. (BUG #854)
+
+
 Interface Fixes:
 • The enemy hero icon bar (at the top left) wouldn't stretch to include a sixth hero when that many are present (the icon would remain floating). (BUG #855) (Thanks, galyana!)
 

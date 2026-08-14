@@ -104,8 +104,7 @@ function MainForce_Thread()
 		EvadeUntilSafe(tf, true)
 
 		-- Attack the nearest good target, but stop advancing if any enemies come in range
-		best_target = FindTarget(tf, "Unit_Needs_To_Be_Destroyed", "Enemy_Unit | Enemy_Structure", 1.0,
-			artillery_attack_range + slack_range)
+		best_target = FindTarget(tf, "Unit_Needs_To_Be_Destroyed", "Enemy_Unit | Enemy_Structure", 1.0, artillery_attack_range + slack_range)
 		if TestValid(best_target) then
 			enemies_in_range = false
 			BlockOnCommand(tf.Attack_Target(best_target, 10, path_through), -1, Enemies_In_Range)
@@ -113,14 +112,14 @@ function MainForce_Thread()
 		else
 			best_target = FindTarget(tf, "Unit_Needs_To_Be_Destroyed", "Enemy_Unit | Enemy_Structure", 1.0)
 			if TestValid(best_target) then
-				--MessageBox("%s --moving to target:%s", tostring(Script), tostring(best_target))
+				DebugMessage("%s -- moving to target: %s", tostring(Script), tostring(best_target))
 				enemies_in_range = false
 				BlockOnCommand(tf.Attack_Target(best_target, 10, path_through), -1, Enemies_In_Range)
 				tf.Move_To(tf)
 			end
 		end
 
-		if EvaluatePerception("Good_Space_Artillery_Area", PlayerObject, good_loc) ~= 0 then
+		if TestValid(good_loc) and (EvaluatePerception("Good_Space_Artillery_Area", PlayerObject, good_loc) ~= 0) then
 			-- We're in a good place.  Just continue to attack our last target until threatened.
 			if TestValid(best_target) then
 				enemies_near = false
