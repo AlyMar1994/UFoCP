@@ -59,6 +59,10 @@ Interface Fixes:
 • The enemy hero icon bar (at the top left) wouldn't stretch to include a sixth hero when that many are present (the icon would remain floating). (BUG #855) (Thanks, galyana!)
 
 
+Map Fixes:
+• The explosive orbital containers in Rebel campaign mission #1 ("Shipyard Diversion") wouldn't destroy everything nearby them, leaving other containers or unmanned ships undestroyed.  More containers have been added to ensure maximum destruction. (BUG #856)
+
+
 Model Fixes:
 • The Mon Calamari Cruiser's engines would not disable when the ship was destroyed. (BUG #813)
 
