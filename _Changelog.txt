@@ -60,8 +60,8 @@ Interface Fixes:
 
 
 Map Fixes:
-• The explosive orbital containers in Rebel campaign mission #1 ("Shipyard Diversion") wouldn't destroy everything nearby them, leaving other containers or unmanned ships undestroyed.  More containers have been added to ensure maximum destruction. (BUG #856)
 • One of the factory control terminals in Consortium campaign #4 ("Visions of the Past") could be destroyed, as the default affiliation of this prop is Empire.  While funny to see Tyber randomly obliterating it, it had to be fixed. (BUG #845)
+• The explosive orbital containers in Rebel campaign mission #1 ("Shipyard Diversion") wouldn't destroy everything nearby them, leaving other containers or unmanned ships undestroyed.  More containers have been added to ensure maximum destruction. (BUG #856)
 
 
 Model Fixes:
