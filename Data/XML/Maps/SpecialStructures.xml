@@ -6022,6 +6022,7 @@
 
 	<SpecialStructure Name="Defense_Satellite_Missile">
 		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_MISSILE</Text_ID>
+		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_00</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Space_Model_Name>NV_MDS.ALO</Space_Model_Name>
 		<Icon_Name>i_button_mds.tga</Icon_Name>
@@ -6107,6 +6108,7 @@
 
 	<SpecialStructure Name="Defense_Satellite_Laser">
 		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_LASER</Text_ID>
+		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_LASER_00</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Space_Model_Name>NV_LDS.ALO</Space_Model_Name>
 		<Icon_Name>i_button_lds.tga</Icon_Name>
@@ -6200,6 +6202,7 @@
 
 	<SpecialStructure Name="Pirate_Defense_Satellite_Laser">
 		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_LASER</Text_ID>
+		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_LASER_00</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Space_Model_Name>NV_LDS.ALO</Space_Model_Name>
 		<Icon_Name>i_button_lds.tga</Icon_Name>
