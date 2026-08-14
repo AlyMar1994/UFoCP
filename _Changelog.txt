@@ -52,15 +52,15 @@ UFCP:
 
 
 AI Fixes:
-• The AI for Marauder and Broadside-class Cruisers would occasionally crash due to the "good location" they've picked to fire suddenly becoming invalid, but still hell-bent on trying to calculate if it's a good artillery location. (BUG #854)
+• The AI for Marauder and Broadside-class Cruisers would occasionally crash due to the "good location" they've picked to fire suddenly becoming invalid, but they'd still be hell-bent on trying to calculate if it's a good artillery location. (BUG #854)
 
 
 Interface Fixes:
-• The enemy hero icon bar (at the top left) wouldn't stretch to include a sixth hero when that many are present (the icon would remain floating). (BUG #855) (Thanks, galyana!)
+• The enemy hero bar wouldn't stretch to include a sixth hero when that many are present (the icon would remain floating). (BUG #855) (Thanks, galyana!)
 
 
 Map Fixes:
-• One of the factory control terminals in Consortium campaign #4 ("Visions of the Past") could be destroyed, as the default affiliation of this prop is Empire.  While funny to see Tyber randomly obliterating it, it had to be fixed. (BUG #845)
+• One of the factory control terminals in Consortium campaign #4 ("Visions of the Past") could be destroyed because the Empire is the default faction affiliation of that prop.  While funny to see Tyber randomly obliterating it, it had to be fixed. (BUG #845)
 • The explosive orbital containers in Rebel campaign mission #1 ("Shipyard Diversion") wouldn't destroy everything nearby them, leaving other containers or unmanned ships undestroyed.  More containers have been added to ensure maximum destruction. (BUG #856)
 
 
