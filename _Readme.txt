@@ -49,6 +49,7 @@ Modeling:
 -- RB_OfficerAcademy + EB_OfficerAcademy - Fixed Officer Academy spawn bones and meshes
 -- RV_BWing + PTE_BWing - Fixed B-wing engine particle meshes
 -- RV_XWing + PTE_XWing, RV_Rogue_Squad - Fixed X-wing engine particle meshes
+-- I_Main_Hero_Frame_Empire - Fixed enemy hero icon bar
 
 - irampagingrhin0
 -- NV_JediCruiser - Fixed Venator shield/bumpmap mesh
