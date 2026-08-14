@@ -59,6 +59,10 @@ Interface Fixes:
 • The enemy hero icon bar (at the top left) wouldn't stretch to include a sixth hero when that many are present (the icon would remain floating). (BUG #855) (Thanks, galyana!)
 
 
+Model Fixes:
+• The Mon Calamari Cruiser's engines would not disable when the ship was destroyed. (BUG #813)
+
+
 
 v2.3.0.1713 (08-13-2026) [FoC v1.121.859328]
 ============================================
