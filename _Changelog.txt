@@ -62,6 +62,7 @@ Interface Fixes:
 Map Fixes:
 • One of the factory control terminals in Consortium campaign #4 ("Visions of the Past") could be destroyed because the Empire is the default faction affiliation of that prop.  While funny to see Tyber randomly obliterating it, it had to be fixed. (BUG #845)
 • The explosive orbital containers in Rebel campaign mission #1 ("Shipyard Diversion") wouldn't destroy everything nearby them, leaving other containers or unmanned ships undestroyed.  More containers have been added to ensure maximum destruction. (BUG #856)
+• It was possible for T2-B Tanks to be stuck while reinforcing at the initial reinforcement point in Rebel campaign mission #2 ("Interpreting the Network"). (BUG #864)
 
 
 Model Fixes:
