@@ -95,6 +95,7 @@ function Definitions()
 	}
 
 	starbase_marker = nil
+	starbase = nil
 
 	patrol_marker_count = 12
 	patrol_markers = {}
@@ -147,6 +148,13 @@ function State_Rebel_A3_M08_Begin(message)
 		starbase_marker = Find_Hint("GENERIC_MARKER_SPACE", "starbase")
 		empire = Find_Player("Empire")
 		rebel = Find_Player("Rebel")
+
+		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+		-- AM1994 (08-14-26): prevent Empire base shooting at Solo until alarm is raised
+
+		starbase = Find_First_Object("EMPIRE_STAR_BASE_5")
+		starbase.Prevent_All_Fire(true)
 
 		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -379,6 +387,9 @@ function Alarm_Activated()
 	end
 
 	DebugMessage("alarm activated")
+
+	-- AM1994 (08-14-26): allow the starbase to start the assault
+	starbase.Prevent_All_Fire(false)
 
 	-- Bring in units to intercept Millennium Falcon
 	Story_Event("ALARM_ACTIVATED")
