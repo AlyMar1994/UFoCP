@@ -49,8 +49,12 @@ https://github.com/AlyMar1994/UFoCP/issues/
 v2.4.0.XXXX (XX-13-2026) [FoC v1.121.859328]
 ============================================
 
-UFCP FIXES:
+UFCP Fixes:
 • A German translation of "Enhanced Turret Firepower Level 2"'s description was accidentally included in English text. (BUG #860)
+
+
+Housekeeping:
+• Various instances of "Tie" (f.e., as "Tie Mauler") have been capitalized properly to "TIE."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.) (BUG #859)
 
 
 
