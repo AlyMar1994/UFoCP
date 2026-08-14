@@ -50,12 +50,12 @@ function Definitions()
 	TaskForce =
 	{
 		{
-			"MainForce"
-			, "Marauder_Missile_Cruiser | Broadside_Class_Cruiser = 1,2"
+			"MainForce",
+			"Marauder_Missile_Cruiser | Broadside_Class_Cruiser = 1,2"
 		},
 		{
-			"EscortForce"
-			, "Fighter = 0,2"
+			"EscortForce",
+			"Fighter = 0,2"
 			--,"EscortForce" -- Don't require the escort to have good contrast vs our target's neighbors
 		}
 	}
