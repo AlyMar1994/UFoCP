@@ -53,6 +53,10 @@ UFCP Fixes:
 • A German translation of "Enhanced Turret Firepower Level 2"'s description was accidentally included in English text. (BUG #860)
 
 
+Additions:
+• Plasma Burst and Diamond Boron Missile Satellites didn't have consistent descriptions with other satellites, and would instead just use their name as their description. (MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_DBM_PAD_00, MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_PLASMA_PAD_00) (BUG #847)
+
+
 Housekeeping:
 • Various instances of "Tie" (f.e., as "Tie Mauler") have been capitalized properly to "TIE."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.) (BUG #859)
 

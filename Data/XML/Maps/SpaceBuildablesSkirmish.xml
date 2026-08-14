@@ -180,8 +180,8 @@
 
 	<SpaceBuildable Name="UC_Underworld_Defense_Satellite_Plasma">
 		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_PLASMA</Text_ID>
-		<Encyclopedia_Text>TEXT_ORBITAL_DEFENSE_SATELLITE_PLASMA</Encyclopedia_Text>
-		<MP_Encyclopedia_Text>TEXT_ORBITAL_DEFENSE_SATELLITE_PLASMA</MP_Encyclopedia_Text>
+		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_PLASMA_PAD_00</Encyclopedia_Text>
+		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_PLASMA_PAD_00</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Space_Model_Name>NV_LDS_build.ALO</Space_Model_Name>
@@ -486,8 +486,8 @@
 	<SpaceBuildable Name="UC_Underworld_Defense_Satellite_DBM">
 		<Variant_Of_Existing_Type>UC_Empire_Defense_Satellite_Missile</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_DBM</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_DEFENSE_SATELLITE_DBM</Encyclopedia_Text>
-		<MP_Encyclopedia_Text>TEXT_TOOLTIP_DEFENSE_SATELLITE_DBM</MP_Encyclopedia_Text>
+		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_DBM_PAD_00</Encyclopedia_Text>
+		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_DBM_PAD_00</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Tactical_Buildable_Constructed>Underworld_Defense_Satellite_DBM</Tactical_Buildable_Constructed>
