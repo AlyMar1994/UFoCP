@@ -48,27 +48,27 @@ There are changes to the game's master text directory this update!  Check "_Chan
 UFCP:
 ======
 UFCP FIXES:
-• Fix Random Story Events being available in the FoC "alternate history" variants of the EaW GCs.
-• Fix the alt-hist GCs with FoC Heroes not using the blown up version of Alderaan (and vice-versa with the EaW Heroes).
+• Fix Random Story Events being available in the "alternate history" variants of the EaW GCs.  (Currently, they only support using EaW Heroes.)
+• Fix the alt-history variants of the EaW GCs not using the blown up version of Alderaan (and vice-versa, with alive Alderaan).
 
 
 ENHANCEMENTS:
-• Alternate history versions of the MP Galactic Conquests (ones with EaW-FoC hero swapping) are now available. (BUG #853)
-• The EaW GCs, MPGCs and alt-hist versions now support using the original Death Star and Darth Vader in his TIE advanced (the DS2 and Executor will be unavailable purchase).  The campaign ending videos should properly display and track the appropriate Death Stars, as well.
+• Alt-history variants of the MP Galactic Conquests (ones with EaW-FoC hero swapping) are now available. (BUG #853)
+• The EaW GCs, MPGCs and alt-history versions now support using the original Death Star and Darth Vader in his TIE advanced (the DS2 and Executor will be unavailable to purchase).  The campaign ending videos should properly display and track the appropriate Death Stars in singleplayer, as well.
 ======
 
 
 AI Fixes:
-• The AI for Marauder and Broadside-class Cruisers would occasionally crash due to the "good location" they've picked to fire suddenly becoming invalid, but they'd still be hell-bent on trying to calculate if it's a good artillery location. (BUG #854)
+• The Marauder/Broadside-class Cruisers' AI would occasionally crash due to the "good location" they've picked to fire suddenly becoming invalid, but they'd still be hell-bent on trying to calculate if it's a good artillery location. (BUG #854)
 
 
 Interface Fixes:
-• The enemy hero bar wouldn't stretch to include a sixth hero when that many are present (the icon would remain floating). (BUG #855) (Thanks, galyana!)
+• The enemy hero bar wouldn't stretch to include a sixth hero when that many are present (the sixth icon would remain floating). (BUG #855) (Thanks, galyana!)
 
 
 Map Fixes:
-• One of the factory control terminals in Consortium campaign #4 ("Visions of the Past") could be destroyed because the Empire is the default faction affiliation of that prop.  While funny to see Tyber randomly obliterating it, it had to be fixed. (BUG #845)
-• The explosive orbital containers in Rebel campaign mission #1 ("Shipyard Diversion") wouldn't destroy everything nearby them, leaving other containers or unmanned ships undestroyed.  More containers have been added to ensure maximum destruction. (BUG #856)
+• One of the factory control terminals in Consortium campaign mission #4 ("Visions of the Past") could be destroyed because, by default, that prop's faction owner is the Empire.  While funny to see Tyber randomly obliterating it, it had to be fixed. (BUG #845)
+• The explosive orbital containers in Rebel campaign mission #1 ("Shipyard Diversion") wouldn't destroy everything nearby them, leaving other containers or unmanned ships alive.  More containers have been added to ensure total obliteration. (BUG #856)
 • It was possible for T2-B Tanks to be stuck while reinforcing at the starting reinforcement point in Rebel campaign mission #2 ("Interpreting the Network"). (BUG #864)
 • Fix Yavin 4 having the Death Star's destroyed hull floating over it during the final Rebel and Empire campaign missions.  The original map from EaW has been reimplemented into the campaigns to support this change. (BUG #868)
 
@@ -78,10 +78,10 @@ Model Fixes:
 
 
 Script Fixes:
-• During Rebel campaign mission #3 ("Theft of the X-wing"), the Empire has opportunities to reinforce their units.  During the initial reinforcement, Captain Antilles freaks out and tells you to secure the reinforcement point, implying the starting one, when he's actually talking about the Empire-controlled ones.  A red "NOTICE:" message now appears to clarify - in addition, fixed multiple problems where Antilles hologram wouldn't play during this mission. (BUG #790)
-• During Rebel campaign mission #7 ("Needle in a Haystack"), Han & Chewie would find the correct container after scanning 10 of them, when there are 12 on the map.  Normally this isn't a problem, however Han says that it's "always in the last place we look?" and it's clear it was intended that the player has to search all of them. (BUG #816)
-• During Rebel campaign mission #11 ("The Final Battle"), the Death Star would approach Yavin 4 too quickly (breaking the story sequence, preventing a handful of HINTs and dialogue from playing), and wouldn't give the player enough time in battle to defeat it (75sec.).  The developers intended to give the player ~250 seconds to defeat it, but the script command was broken - the DS now slowly approaches Yavin when the homing beacon is found, and the timer is correct. (BUG #835)
+• During Rebel campaign mission #3 ("Theft of the X-wing"), while the Empire's doing its initial unit reinforcement, Captain Antilles will freak out and tell you to secure the reinforcement point.  The VO implies it's the starting point, but he's actually talking about the Empire-controlled ones.  A red "NOTICE:" message now appears to clarify that reinforcements are scary - in addition, multiple problems where Antilles hologram wouldn't play during this mission have been fixed. (BUG #790)
+• During Rebel campaign mission #7 ("Needle in a Haystack"), Han & Chewie would find the correct container after scanning 10 of them, when there are 12 on the map.  Normally this wouldn't a problem, however Han says that it's "always in the last place we look," and it's clear it was intended that the player has to search all 12 containers. (BUG #816)
 • The Empire starbase in Rebel campaign mission #7 ("Needle in a Haystack") would sometimes fire at Han despite him remaining undetected, specifically near the top of the map.  The starbase now can no longer fire until the alarm has been raised. (BUG #871)
+• During Rebel campaign mission #11 ("The Final Battle"), the Death Star would approach Yavin 4 too quickly (breaking the story sequence before the battle), and wouldn't give the player enough time in battle to defeat it (75sec.).  The developers intended to give the player ~300 seconds to defeat it, but the script command was broken - the DS now slowly approaches Yavin when the homing beacon is found, and the timer is correct. (BUG #835)
 
 
 Structure Fixes:
