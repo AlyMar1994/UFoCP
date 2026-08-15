@@ -313,7 +313,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
 		<Reward_Param1>Red_Squadron</Reward_Param1>
-		<Reward_Param2>Yavin</Reward_Param2>
+		<Reward_Param2>Yavin_Story</Reward_Param2>
 		<Prereq>Rebel_A4_M12_DeathStar_Plans_Speech_05b_Stop_Movie</Prereq>
 	</Event>
 
@@ -453,7 +453,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>DROIDS_TEAM</Reward_Param1>
-		<Reward_Param2>Yavin</Reward_Param2>
+		<Reward_Param2>Yavin_Story</Reward_Param2>
 		<Prereq>Rebel_A4_M12_Add_Story_Holocron</Prereq>
 	</Event>
 
@@ -461,7 +461,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Han_Solo_Team</Reward_Param1>
-		<Reward_Param2>Yavin</Reward_Param2>
+		<Reward_Param2>Yavin_Story</Reward_Param2>
 		<Prereq>Rebel_A4_M12_Add_Story_Holocron</Prereq>
 	</Event>
 

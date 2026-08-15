@@ -15,7 +15,7 @@
 
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8></Reward_Param8>
 		<Reward_Param9>_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -51,7 +51,7 @@
 	<Event Name="Mission8">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 	</Event>
-	
+
 	<Event Name="Mission9">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
@@ -206,7 +206,7 @@
 		<Reward_Param1>Calamari_Cruiser</Reward_Param1>
 		<Prereq>Rebel_ActIII_Rebel_Tech_Upgrade_00</Prereq>
 	</Event>
-	
+
 	<Event Name="Lock_Frigate_For_Rebels_ActIII">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
@@ -274,7 +274,7 @@
 	<Event Name="Rebel_ActI_Reveal_ActIII_07">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REVEAL_PLANET</Reward_Type>
-		<Reward_Param1>Yavin</Reward_Param1>
+		<Reward_Param1>Yavin_Story</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActIII_Begin</Prereq>
 	</Event>
@@ -340,22 +340,22 @@
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActIII_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_ActII_Reveal_ActIII_08">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REVEAL_PLANET</Reward_Type>
 		<Reward_Param1>Shola</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActIII_Begin</Prereq>
-	</Event>	
-	
+	</Event>
+
 	<Event Name="All_ActII_Planets_Revealed_ActIII">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>Rebel_ActII_Reveal_ActIII_00 Rebel_ActII_Reveal_ActIII_01 Rebel_ActII_Reveal_ActIII_03 Rebel_ActII_Reveal_ActIII_04 Rebel_ActII_Reveal_ActIII_05 Rebel_ActII_Reveal_ActIII_06 Rebel_ActII_Reveal_ActIII_07 Rebel_ActII_Reveal_ActIII_08 </Prereq>
 	</Event>
 
 
-	
+
 	<!-- Seems to be an issue where the droids can't advance unless turbolasers are given. -->
 	<Event Name="Rebel_ActIII_Advance_Tech_Unlock_Turbolasers">
 		<Event_Type>STORY_ELAPSED</Event_Type>
@@ -366,20 +366,20 @@
 
 <!-- Mission 7: Highest Bidder (Space/Atzerri) -->
 <!-- Mon Mothma TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_04
-Mon Mothma: My inquiries into this Imperial superweapon have put us in a dangerous situation.  
+Mon Mothma: My inquiries into this Imperial superweapon have put us in a dangerous situation.
 A pirate associate of ours has gone rogue, offering to sell information on the Alliance to Imperial command.  -->
 	<Event Name="Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_00">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_04</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Rebel_ActIII_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_00_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_04</Event_Param1>
@@ -389,15 +389,15 @@ A pirate associate of ours has gone rogue, offering to sell information on the A
 		<Prereq>Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_00</Prereq>
 	</Event>
 
-<!-- Captain Antilles Speaks 
+<!-- Captain Antilles Speaks
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_05
-Antilles: That's what we get for dealing with those slimeballs.  
+Antilles: That's what we get for dealing with those slimeballs.
 Those pirates would sell their own mothers out for a few credits!  -->
 	<Event Name="Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_05</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -413,16 +413,16 @@ Those pirates would sell their own mothers out for a few credits!  -->
 		<Prereq>Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_01</Prereq>
 	</Event>
 
-<!-- Mon Mothma 
+<!-- Mon Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_06
-Mon Mothma: He has arranged a meeting with the Imperials near Atzerri.  
-We must intercept that pirate before he can transfer the detailed information 
+Mon Mothma: He has arranged a meeting with the Imperials near Atzerri.
+We must intercept that pirate before he can transfer the detailed information
 of our bases to the Empire.-->
 	<Event Name="Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_06</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -438,14 +438,14 @@ of our bases to the Empire.-->
 		<Prereq>Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_02</Prereq>
 	</Event>
 
-<!-- Captain Antilles 
+<!-- Captain Antilles
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_07
 Antilles: The Empire will not get their hands on that data!   -->
 	<Event Name="Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_07</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -460,13 +460,13 @@ Antilles: The Empire will not get their hands on that data!   -->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_03</Prereq>
 	</Event>
-			
+
 	<Event Name="Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_03b_Stop_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_03_Remove_Text</Prereq>
 	</Event>
-	
+
 	<!-- Reveal all Act III Planets -->
 	<Event Name="Rebel_Reveal_ActIII_05">
 		<Event_Type>STORY_ELAPSED</Event_Type>
@@ -476,7 +476,7 @@ Antilles: The Empire will not get their hands on that data!   -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_03</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_Reveal_ActIII_06">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>2</Event_Param1>
@@ -485,7 +485,7 @@ Antilles: The Empire will not get their hands on that data!   -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_03</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_Reveal_ActIII_08">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>3</Event_Param1>
@@ -494,7 +494,7 @@ Antilles: The Empire will not get their hands on that data!   -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_03</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_Reveal_ActIII_02">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>4</Event_Param1>
@@ -503,7 +503,7 @@ Antilles: The Empire will not get their hands on that data!   -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_03</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_Reveal_ActIII_01">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>5</Event_Param1>
@@ -512,7 +512,7 @@ Antilles: The Empire will not get their hands on that data!   -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_03</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_Reveal_ActIII_04">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>6</Event_Param1>
@@ -530,7 +530,7 @@ Antilles: The Empire will not get their hands on that data!   -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_03</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_Reveal_ActIII_00">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>8</Event_Param1>
@@ -539,7 +539,7 @@ Antilles: The Empire will not get their hands on that data!   -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_03</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_ActIII_M03_Reveal_Atzerri_00">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>9</Event_Param1>
@@ -556,45 +556,45 @@ Antilles: The Empire will not get their hands on that data!   -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActIII_M03_Reveal_Atzerri_00</Prereq>
 	</Event>
-			
-			
-			 
+
+
+
 	<Event Name="Rebel_ActIII_M03_Reveal_Atzerri_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
 		<Reward_Param1>Atzerri</Reward_Param1>
-		<Reward_Param2>FLASH_PLANET</Reward_Param2>	
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
 		<Reward_Param4>Atzerri_GUI_Flash</Reward_Param4>
 		<Reward_Param5>True</Reward_Param5>
 		<Prereq>Rebel_ActIII_M03_Reveal_Atzerri_00</Prereq>
 		<!--<Branch>BRANCH_RA03M07</Branch>-->
-	</Event> 
+	</Event>
 
 	<Event Name="Rebel_ActIII_Mission_Seven_Begin">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Rebel_Story_Campaign</Story_Dialog>
 		<Story_Chapter>5</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Rebel_Mission_Seven_Tag</Story_Tag>
 		<Prereq>Rebel_ActIII_Mission_Seven_Pre_Mission_Speech_03b_Stop_Movie</Prereq>
 	</Event>
 
-	
-			
-<!-- TEXT_STORY_REBEL_ACT02_MISSION_7_100  
+
+
+<!-- TEXT_STORY_REBEL_ACT02_MISSION_7_100
 Task: Build a fleet and escort Captain Antilles to Atzerri. -->
 	<Event Name="Rebel_ActIII_Mission_Seven_Galactic_Task_Message">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_STORY_REBEL_ACT02_MISSION_7_100</Reward_Param1>
-		<Reward_Param2>10</Reward_Param2>	
+		<Reward_Param2>10</Reward_Param2>
 		<Reward_Param7>Task</Reward_Param7>
 		<Prereq>Rebel_ActIII_M03_Reveal_Atzerri_03</Prereq>
 		<Prereq>Rebel_ActIII_Mission_Seven_Failed_01a_Remove_Movie</Prereq>
 		<Branch>BRANCH_RA03M07</Branch>
 	</Event>
 
-<!-- Captain Antilles 
+<!-- Captain Antilles
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_08
 Antilles: I said I'd take care of this, and I mean to be there to do so.   -->
 	<Event Name="Rebel_ActIII_M03_Reveal_Atzerri_02">
@@ -602,7 +602,7 @@ Antilles: I said I'd take care of this, and I mean to be there to do so.   -->
 		<Event_Param1>Atzerri</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_08</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -615,14 +615,14 @@ Antilles: I said I'd take care of this, and I mean to be there to do so.   -->
 		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_08</Event_Param1>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_08</Reward_Param1>
-		<Reward_Param4>Remove</Reward_Param4>	
+		<Reward_Param4>Remove</Reward_Param4>
 		<Prereq>Rebel_ActIII_M03_Reveal_Atzerri_02</Prereq>
 		<Perpetual>True</Perpetual>
 	</Event>
 
 	<Event Name="Rebel_ActIII_M03_Reveal_Atzerri_02a_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActIII_M03_Reveal_Atzerri_02a</Prereq>
 		<Perpetual>True</Perpetual>
 	</Event>
@@ -657,7 +657,7 @@ Antilles: I said I'd take care of this, and I mean to be there to do so.   -->
 		<Prereq>Rebel_ActIII_Mission_Seven_00</Prereq>
 		<Branch>BRANCH_RA03M07</Branch>
 	</Event>
-	
+
 	<Event Name="Rebel_ActIII_Mission_Seven_Failed_Respawn">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FORCE_RESPAWN</Reward_Type>
@@ -666,9 +666,9 @@ Antilles: I said I'd take care of this, and I mean to be there to do so.   -->
 		<Branch>BRANCH_RA03M07</Branch>
 	</Event>
 
-<!-- Galactic reprimand 
+<!-- Galactic reprimand
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_09
-Antilles: The Alliance is doomed if we don't recover that data from the pirates.  
+Antilles: The Alliance is doomed if we don't recover that data from the pirates.
 As soon as my ship is repaired, we must try again!   -->
 	<Event Name="Rebel_ActIII_Mission_Seven_Failed_01_Start_Dialog">
 		<Event_Type>STORY_GENERIC</Event_Type>
@@ -703,14 +703,14 @@ As soon as my ship is repaired, we must try again!   -->
 		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_09</Event_Param1>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_09</Reward_Param1>
-		<Reward_Param4>Remove</Reward_Param4>	
+		<Reward_Param4>Remove</Reward_Param4>
 		<Prereq>Rebel_ActIII_Mission_Seven_Failed_01</Prereq>
 		<Branch>BRANCH_RA03M07</Branch>
 	</Event>
 
 	<Event Name="Rebel_ActIII_Mission_Seven_Failed_01a_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActIII_Mission_Seven_Failed_01a</Prereq>
 		<Branch>BRANCH_RA03M07</Branch>
 	</Event>
@@ -731,7 +731,7 @@ As soon as my ship is repaired, we must try again!   -->
 		<Event_Param2>1</Event_Param2>
 		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
 	</Event>
-	
+
 			<Event Name="Rebel_ActIII_Mission_Seven_RemoveFlash_Atzerri">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
@@ -786,16 +786,16 @@ As soon as my ship is repaired, we must try again!   -->
 		<Prereq>Mission10</Prereq> <!-- Debug Shortcut -->
 	</Event>
 
-<!-- Post mission 7 conversation 
+<!-- Post mission 7 conversation
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_32
-Mon Mothma: The data the pirate carried would have been damning 
-to the Alliance's efforts and many systems would have been in jeopardy 
+Mon Mothma: The data the pirate carried would have been damning
+to the Alliance's efforts and many systems would have been in jeopardy
 had it fallen into the Empire's hands. -->
 	<Event Name="Rebel_ActIII_Mission_Seven_Post_Mission_Speech_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_32</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_32</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -811,15 +811,15 @@ had it fallen into the Empire's hands. -->
 		<Prereq>Rebel_ActIII_Mission_Seven_Post_Mission_Speech_00</Prereq>
 	</Event>
 
-<!-- Post mission 7 conversation 
+<!-- Post mission 7 conversation
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_33
-Mon Mothma: The captured pirate has divulged information he's gathered on this superweapon project.  
+Mon Mothma: The captured pirate has divulged information he's gathered on this superweapon project.
 Grand Moff Tarkin is overseeing that project personally.   -->
 	<Event Name="Rebel_ActIII_Mission_Seven_Post_Mission_Speech_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_33</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_33</Reward_Param8>
 		<!-- movie loop continues from above-->
 		<Prereq>Rebel_ActIII_Mission_Seven_Post_Mission_Speech_00_Remove_Text</Prereq>
@@ -835,14 +835,14 @@ Grand Moff Tarkin is overseeing that project personally.   -->
 	</Event>
 
 <!-- TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_34
-Mon Mothma: We know where Tarkin was conducting research, 
-but we risk a frontal assault on a fortified Imperial station.  
+Mon Mothma: We know where Tarkin was conducting research,
+but we risk a frontal assault on a fortified Imperial station.
 But there may be another way, and I think I know an experienced smuggler who can assist us... .-->
 	<Event Name="Rebel_ActIII_Mission_Seven_Post_Mission_Speech_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_34</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_34</Reward_Param8>
 		<!-- movie loop continues from above-->
 		<Prereq>Rebel_ActIII_Mission_Seven_Post_Mission_Speech_01_Remove_Text</Prereq>
@@ -859,22 +859,22 @@ But there may be another way, and I think I know an experienced smuggler who can
 
 	<Event Name="Rebel_ActIII_Mission_Seven_Post_Mission_Speech_02b_Stop_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActIII_Mission_Seven_Post_Mission_Speech_02_Remove_Text</Prereq>
 	</Event>
 
 <!-- Pre-mission 7A Dialog -->
-<!-- Han Solo 
+<!-- Han Solo
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_35
-Han Solo: Well, well, if it isn't the Rebel Alliance!  
-Seeing as how you're all about helping people, how about lending me a hand?  
+Han Solo: Well, well, if it isn't the Rebel Alliance!
+Seeing as how you're all about helping people, how about lending me a hand?
 I've got some unwanted Imperial attention… . -->
 	<Event Name="Rebel_ActIII_Mission_SevenA_Pre_Mission_Speech_00">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_35</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_35</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -890,14 +890,14 @@ I've got some unwanted Imperial attention… . -->
 		<Prereq>Rebel_ActIII_Mission_SevenA_Pre_Mission_Speech_00</Prereq>
 	</Event>
 
-<!-- Mon Mothma 
+<!-- Mon Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_36
 Mon Mothma: We will consider it payment for future services rendered. -->
 	<Event Name="Rebel_ActIII_Mission_SevenA_Pre_Mission_Speech_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_36</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_36</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -913,14 +913,14 @@ Mon Mothma: We will consider it payment for future services rendered. -->
 		<Prereq>Rebel_ActIII_Mission_SevenA_Pre_Mission_Speech_01</Prereq>
 	</Event>
 
-<!-- Han Solo 
+<!-- Han Solo
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_37
 Han Solo: Payment?  Well, I... okay, okay!  Fine!  Deal!  Just get us out of here!   -->
 	<Event Name="Rebel_ActIII_Mission_SevenA_Pre_Mission_Speech_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_37</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_37</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -938,7 +938,7 @@ Han Solo: Payment?  Well, I... okay, okay!  Fine!  Deal!  Just get us out of her
 
 	<Event Name="Rebel_ActIII_Mission_SevenA_Pre_Mission_Speech_02b_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActIII_Mission_SevenA_Pre_Mission_Speech_02_Remove_Text</Prereq>
 	</Event>
 
@@ -948,7 +948,7 @@ Han Solo: Payment?  Well, I... okay, okay!  Fine!  Deal!  Just get us out of her
 		<Prereq>Rebel_ActIII_Mission_SevenA_Pre_Mission_Speech_02b_Remove_Movie</Prereq>
 		<Story_Dialog>Dialog_Rebel_Story_Campaign</Story_Dialog>
 		<Story_Chapter>6</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Rebel_Mission_Seven_A_Tag</Story_Tag>
 	</Event>
 
@@ -978,7 +978,7 @@ Han Solo: Payment?  Well, I... okay, okay!  Fine!  Deal!  Just get us out of her
 		<Reward_Param10>1</Reward_Param10>
 		<!-- Start scene letterboxed -->
 		<Reward_Param11>0</Reward_Param11>
-		<Reward_Param12>RETREAT_PLAYER</Reward_Param12>										 
+		<Reward_Param12>RETREAT_PLAYER</Reward_Param12>
 		<Branch>BRANCH_RA03M07A_QUICKSTART</Branch>
 	</Event>
 
@@ -986,7 +986,7 @@ Han Solo: Payment?  Well, I... okay, okay!  Fine!  Deal!  Just get us out of her
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
 		<Reward_Param1>Corellia</Reward_Param1>
-		<Reward_Param2>FLASH_PLANET</Reward_Param2>	
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
 		<Reward_Param4>Corellia_GUI_Flash</Reward_Param4>
 		<Reward_Param5>True</Reward_Param5>
 		<Prereq>Rebel_Reveal_Corellia_00</Prereq>
@@ -1013,7 +1013,7 @@ Han Solo: Payment?  Well, I... okay, okay!  Fine!  Deal!  Just get us out of her
 		<Branch>BRANCH_RA03M07A</Branch>
 	</Event>
 
-<!-- Galactic Reprimand 
+<!-- Galactic Reprimand
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_03
 Mon Mothma: The loss of Captain Solo is unfortunate.  We must try again to rescue him from the Empire.  -->
 	<Event Name="Rebel_ActIII_Mission_SEVEN_A_Failed_01_Start_Dialog">
@@ -1036,7 +1036,7 @@ Mon Mothma: The loss of Captain Solo is unfortunate.  We must try again to rescu
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_A_03</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1049,14 +1049,14 @@ Mon Mothma: The loss of Captain Solo is unfortunate.  We must try again to rescu
 		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_A_03</Event_Param1>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_03</Reward_Param1>
-		<Reward_Param4>Remove</Reward_Param4>	
+		<Reward_Param4>Remove</Reward_Param4>
 		<Prereq>Rebel_ActIII_Mission_SEVEN_A_Failed_01</Prereq>
 		<Branch>BRANCH_RA03M07A</Branch>
 	</Event>
-			
+
 	<Event Name="Rebel_ActIII_Mission_SEVEN_A_Failed_01a_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActIII_Mission_SEVEN_A_Failed_01a</Prereq>
 		<Branch>BRANCH_RA03M07A</Branch>
 	</Event>
@@ -1077,7 +1077,7 @@ Mon Mothma: The loss of Captain Solo is unfortunate.  We must try again to rescu
 		<Event_Param2>1</Event_Param2>
 		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
 	</Event>
-	
+
 			<Event Name="Rebel_ActIII_Mission_SEVEN_RemoveFlash_Corellia">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
@@ -1120,14 +1120,14 @@ Mon Mothma: The loss of Captain Solo is unfortunate.  We must try again to rescu
 		<Prereq>Rebel_ActIII_Mission_SEVEN_A_Completed_01</Prereq>
 	</Event>
 
-<!-- Post mission 7A 
+<!-- Post mission 7A
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_11
 Han Solo: So about that payment in advance thing… .-->
 	<Event Name="Rebel_ActIII_Mission_Seven_A_Post_Mission_Speech_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_A_11</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1143,16 +1143,16 @@ Han Solo: So about that payment in advance thing… .-->
 		<Prereq>Rebel_ActIII_Mission_Seven_A_Post_Mission_Speech_00</Prereq>
 	</Event>
 
-<!-- Mon_Mothma 
+<!-- Mon_Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_12
-Mon Mothma: We have a mission for you, Captain Solo.  
-Something that I feel is perfectly suited for someone with your particular… skills.  
+Mon Mothma: We have a mission for you, Captain Solo.
+Something that I feel is perfectly suited for someone with your particular… skills.
 We have an errand for you to run to Vergesso.  -->
 	<Event Name="Rebel_ActIII_Mission_SEVEN_A_Post_Mission_Speech_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_12</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_A_12</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1168,14 +1168,14 @@ We have an errand for you to run to Vergesso.  -->
 		<Prereq>Rebel_ActIII_Mission_SEVEN_A_Post_Mission_Speech_01</Prereq>
 	</Event>
 
-<!-- Han Solo 
+<!-- Han Solo
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_13
 Han Solo: Vergesso, eh?  Imperial cargo depot.  What am I stealing?-->
 	<Event Name="Rebel_ActIII_Mission_Seven_A_Post_Mission_Speech_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_13</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_A_13</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1191,16 +1191,16 @@ Han Solo: Vergesso, eh?  Imperial cargo depot.  What am I stealing?-->
 		<Prereq>Rebel_ActIII_Mission_Seven_A_Post_Mission_Speech_02</Prereq>
 	</Event>
 
-<!-- Mon_Mothma 
+<!-- Mon_Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_14
-Mon Mothma: Not stealing - planting.  
-You're going to find a particular cargo container that is destined 
+Mon Mothma: Not stealing - planting.
+You're going to find a particular cargo container that is destined
 for an Imperial research facility, and place a device in it.   -->
 	<Event Name="Rebel_ActIII_Mission_Seven_A_Post_Mission_Speech_04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_14</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_A_14</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1216,14 +1216,14 @@ for an Imperial research facility, and place a device in it.   -->
 		<Prereq>Rebel_ActIII_Mission_Seven_A_Post_Mission_Speech_04</Prereq>
 	</Event>
 
-<!-- Han Solo 
+<!-- Han Solo
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_15
 Han Solo: This device wouldn't be of the explosive persuasion, would it?-->
 	<Event Name="Rebel_ActIII_Mission_Seven_A_Post_Mission_Speech_05">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_15</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_A_15</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1240,14 +1240,14 @@ Han Solo: This device wouldn't be of the explosive persuasion, would it?-->
 		<Branch>Post_7A_Dialog</Branch>
 	</Event>
 
-<!-- Mon_Mothma 
+<!-- Mon_Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_16
 Mon Mothma: Let's just say you should be very careful.   -->
 	<Event Name="Rebel_ActIII_Mission_Seven_A_Post_Mission_Speech_06">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_16</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_A_16</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1264,14 +1264,14 @@ Mon Mothma: Let's just say you should be very careful.   -->
 		<Branch>Post_7A_Dialog</Branch>
 	</Event>
 
-<!-- Han Solo 
+<!-- Han Solo
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_17
 Han Solo: Don't worry.  I do this sort of thing all the time.  -->
 	<Event Name="Rebel_ActIII_Mission_Seven_A_Post_Mission_Speech_07">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_17</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_A_17</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1289,11 +1289,11 @@ Han Solo: Don't worry.  I do this sort of thing all the time.  -->
 
 	<Event Name="Rebel_ActIII_Mission_SEVEN_A_Post_Mission_Speech_07b_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActIII_Mission_Seven_A_Post_Mission_Speech_07_Remove_Text</Prereq>
 	</Event>
 
-<!-- Mission 8: Needle in a Haystack (SPACE/VERGESSO ASTEROIDS) 
+<!-- Mission 8: Needle in a Haystack (SPACE/VERGESSO ASTEROIDS)
 jdg changed this to corellia based on lucas/qa feedback-->
 	<Event Name="Rebel_ActIII_Spawn_Han_And_Chewie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -1311,7 +1311,7 @@ jdg changed this to corellia based on lucas/qa feedback-->
 		<Prereq>Rebel_ActIII_Mission_SEVEN_A_Post_Mission_Speech_07b_Remove_Movie</Prereq>
 		<Story_Dialog>Dialog_Rebel_Story_Campaign</Story_Dialog>
 		<Story_Chapter>7</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Rebel_Mission_Eight_Tag</Story_Tag>
 	</Event>
 
@@ -1336,7 +1336,7 @@ jdg changed this to corellia based on lucas/qa feedback-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
 		<Reward_Param1>VergessoAsteroids</Reward_Param1>
-		<Reward_Param2>FLASH_PLANET</Reward_Param2>	
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
 		<Reward_Param4>VergessoAsteroids_GUI_Flash</Reward_Param4>
 		<Reward_Param5>True</Reward_Param5>
 		<Prereq>Rebel_Reveal_Vergesso_Asteroids_00</Prereq>
@@ -1362,7 +1362,7 @@ jdg changed this to corellia based on lucas/qa feedback-->
 		<Reward_Param2>Han_Solo_Team_Flash</Reward_Param2>
 		<Prereq>Rebel_ActIII_Mission_Eight_Task_Message</Prereq>
 	</Event>
-			
+
 	<!--<Event Name="Rebel_ActIII_Remove_FLASH_Han_Solo">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>10</Event_Param1>
@@ -1370,7 +1370,7 @@ jdg changed this to corellia based on lucas/qa feedback-->
 		<Reward_Param1>Han_Solo_Team_Flash</Reward_Param1>
 		<Prereq>Rebel_ActIII_FLASH_Han_Solo</Prereq>
 	</Event> -->
-	
+
 	<Event Name="Rebel_ActIII_Remove_FLASH_Han_Solo">
 		<Event_Type>STORY_GENERIC</Event_Type>
 		<Event_Param1>click</Event_Param1>
@@ -1380,16 +1380,16 @@ jdg changed this to corellia based on lucas/qa feedback-->
 	</Event>
 
 <!-- Bounce message
-Mon_Mothma 
+Mon_Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_18
-Mon Mothma: Han Solo must perform this task alone.  
+Mon Mothma: Han Solo must perform this task alone.
 Too many ships would draw unwanted attention to the area.    -->
 	<Event Name="Rebel_ActIII_Mission_Eight_Begin_02">
 		<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
 		<Event_Param1>VergessoAsteroids</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_18</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_A_18</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1402,14 +1402,14 @@ Too many ships would draw unwanted attention to the area.    -->
 		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_A_18</Event_Param1>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_A_18</Reward_Param1>
-		<Reward_Param4>Remove</Reward_Param4>	
+		<Reward_Param4>Remove</Reward_Param4>
 		<Prereq>Rebel_ActIII_Mission_Eight_Begin_02</Prereq>
 		<Perpetual>True</Perpetual>
 	</Event>
-			
+
 	<Event Name="Rebel_ActIII_Mission_Eight_Begin_02a_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActIII_Mission_Eight_Begin_02a</Prereq>
 		<Perpetual>True</Perpetual>
 	</Event>
@@ -1428,7 +1428,7 @@ Too many ships would draw unwanted attention to the area.    -->
 		<Reward_Param6>HAN_SOLO_TEAM</Reward_Param6>
 		<Reward_Param7>Story_Plots_Rebel_ActIII_M08_SPACE.XML</Reward_Param7>
 		<Reward_Param8>1</Reward_Param8>
-		<Reward_Param12>RETREAT_PLAYER</Reward_Param12>											 
+		<Reward_Param12>RETREAT_PLAYER</Reward_Param12>
 		<Branch>BRANCH_RA03M08_QUICKSTART</Branch>
 	</Event>
 
@@ -1440,7 +1440,7 @@ Too many ships would draw unwanted attention to the area.    -->
 		<Prereq>Rebel_ActIII_Mission_Eight_00</Prereq>
 		<Branch>BRANCH_RA03M08</Branch>
 	</Event>
-	
+
 	<Event Name="Rebel_ActIII_Mission_Eight_Failed_Respawn">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FORCE_RESPAWN</Reward_Type>
@@ -1451,7 +1451,7 @@ Too many ships would draw unwanted attention to the area.    -->
 
 <!-- galactic reprimand
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_03
-Mon Mothma: We must get that EMP device into the right container!  
+Mon Mothma: We must get that EMP device into the right container!
 Make sure Captain Solo gets back to the Vergesso Asteroids and finds that cargo!  -->
 	<Event Name="Rebel_ActIII_Mission_Eight_Failed_01_Start_Dialog">
 		<Event_Type>STORY_GENERIC</Event_Type>
@@ -1473,7 +1473,7 @@ Make sure Captain Solo gets back to the Vergesso Asteroids and finds that cargo!
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_03</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1486,14 +1486,14 @@ Make sure Captain Solo gets back to the Vergesso Asteroids and finds that cargo!
 		<Event_Param1>REBEL_ACT03_MISSION_EIGHT_03</Event_Param1>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_03</Reward_Param1>
-		<Reward_Param4>Remove</Reward_Param4>	
+		<Reward_Param4>Remove</Reward_Param4>
 		<Prereq>Rebel_ActIII_Mission_Eight_Failed_01</Prereq>
 		<Branch>BRANCH_RA03M08</Branch>
 	</Event>
 
 	<Event Name="Rebel_ActIII_Mission_Eight_Failed_01a_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActIII_Mission_Eight_Failed_01a</Prereq>
 		<Branch>BRANCH_RA03M08</Branch>
 	</Event>
@@ -1514,7 +1514,7 @@ Make sure Captain Solo gets back to the Vergesso Asteroids and finds that cargo!
 		<Event_Param2>1</Event_Param2>
 		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
 	</Event>
-	
+
 			<Event Name="Rebel_ActIII_Mission_Eight_RemoveFlash_Vergesso">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
@@ -1560,16 +1560,16 @@ Make sure Captain Solo gets back to the Vergesso Asteroids and finds that cargo!
 	</Event>
 
 <!-- Post mission 8 dialog -->
-<!-- Han Solo 
+<!-- Han Solo
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_17
-Han Solo: I think I've repaid my debt.  If you don't mind, 
+Han Solo: I think I've repaid my debt.  If you don't mind,
 I've got better things to do that won't involve me almost getting killed. -->
 	<Event Name="Rebel_ActIII_Mission_Eight_Post_Mission_Speech_00">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_17</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_17</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1585,16 +1585,16 @@ I've got better things to do that won't involve me almost getting killed. -->
 		<Prereq>Rebel_ActIII_Mission_Eight_Post_Mission_Speech_00</Prereq>
 	</Event>
 
-<!-- Mon Mothma 
+<!-- Mon Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_18
-Mon Mothma: Don’t go running off too far though.  
-You've proven yourself effective and trustworthy.  
+Mon Mothma: Don’t go running off too far though.
+You've proven yourself effective and trustworthy.
 We may have a job for you soon… one that pays.  -->
 	<Event Name="Rebel_ActIII_Mission_Eight_Post_Mission_Speech_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_18</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_18</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1610,15 +1610,15 @@ We may have a job for you soon… one that pays.  -->
 		<Prereq>Rebel_ActIII_Mission_Eight_Post_Mission_Speech_01</Prereq>
 	</Event>
 
-<!-- Han Solo 
+<!-- Han Solo
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_19
-Han Solo: Now you've got my attention.  
+Han Solo: Now you've got my attention.
 I'll be around - I'm sure you know where you can find me. -->
 	<Event Name="Rebel_ActIII_Mission_Eight_Post_Mission_Speech_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_19</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_19</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1634,14 +1634,14 @@ I'll be around - I'm sure you know where you can find me. -->
 		<Prereq>Rebel_ActIII_Mission_Eight_Post_Mission_Speech_02</Prereq>
 	</Event>
 
-<!-- Captain Antilles 
+<!-- Captain Antilles
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_20
 Antilles: We'll monitor Imperial comms.  That should lead us right to you.  -->
 	<Event Name="Rebel_ActIII_Mission_Eight_Post_Mission_Speech_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_20</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_20</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1657,14 +1657,14 @@ Antilles: We'll monitor Imperial comms.  That should lead us right to you.  -->
 		<Prereq>Rebel_ActIII_Mission_Eight_Post_Mission_Speech_03</Prereq>
 	</Event>
 
-<!-- Han Solo 
+<!-- Han Solo
 TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_21
 Han Solo: Trust me, they won't be catching me again. -->
 	<Event Name="Rebel_ActIII_Mission_Eight_Post_Mission_Speech_04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_EIGHT_21</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_EIGHT_21</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1688,16 +1688,16 @@ Han Solo: Trust me, they won't be catching me again. -->
 
 <!-- Mission 9: Borrowed Time (SPACE/CORULAG) -->
 <!-- Pre-mission Dialog -->
-<!-- Mon Mothma 
-TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_03 
-Mon Mothma: We've been tracking the cargo container, 
+<!-- Mon Mothma
+TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_03
+Mon Mothma: We've been tracking the cargo container,
 and the Empire has finally delivered it to the station at Corulag. -->
 	<Event Name="Rebel_ActIII_Mission_Nine_Pre_Mission_Speech_00">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_NINE_03</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1716,14 +1716,14 @@ and the Empire has finally delivered it to the station at Corulag. -->
 
 <!-- Mon Mothma cont
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_04
-Mon Mothma: The EMP device we've planted will be discovered soon, so time is critical.  
-Hurry to Corulag and detonate the device.  With the station's defenses taken offline, 
+Mon Mothma: The EMP device we've planted will be discovered soon, so time is critical.
+Hurry to Corulag and detonate the device.  With the station's defenses taken offline,
 we can move in and raid the facility for information. -->
 	<Event Name="Rebel_ActIII_Mission_Nine_Pre_Mission_Speech_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_NINE_04</Reward_Param8>
 		<!--movie loop continues from above-->
 		<Prereq>Rebel_ActIII_Mission_Nine_Pre_Mission_Speech_00_Remove_Text</Prereq>
@@ -1738,15 +1738,15 @@ we can move in and raid the facility for information. -->
 		<Prereq>Rebel_ActIII_Mission_Nine_Pre_Mission_Speech_01</Prereq>
 	</Event>
 
-<!-- Captain Antilles 
+<!-- Captain Antilles
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_05
-Antilles: We'll recover whatever data we can find 
+Antilles: We'll recover whatever data we can find
 and get to the bottom of this secret weapon once and for all!   -->
 	<Event Name="Rebel_ActIII_Mission_Nine_Pre_Mission_Speech_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_NINE_05</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1764,7 +1764,7 @@ and get to the bottom of this secret weapon once and for all!   -->
 
 	<Event Name="Rebel_ActIII_Mission_Nine_Pre_Mission_Speech_02b_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActIII_Mission_Nine_Pre_Mission_Speech_02_Remove_Text</Prereq>
 	</Event>
 
@@ -1774,7 +1774,7 @@ and get to the bottom of this secret weapon once and for all!   -->
 		<Prereq>Mission9</Prereq> <!-- debug shortcut -->
 		<Story_Dialog>Dialog_Rebel_Story_Campaign</Story_Dialog>
 		<Story_Chapter>8</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Rebel_Mission_Nine_Tag</Story_Tag>
 	</Event>
 
@@ -1800,7 +1800,7 @@ and get to the bottom of this secret weapon once and for all!   -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
 		<Reward_Param1>CORULAG</Reward_Param1>
-		<Reward_Param2>FLASH_PLANET</Reward_Param2>	
+		<Reward_Param2>FLASH_PLANET</Reward_Param2>
 		<Reward_Param4>CORULAG_GUI_Flash</Reward_Param4>
 		<Reward_Param5>True</Reward_Param5>
 		<Prereq>Rebel_ActIII_Mission_Nine_Reveal_Corulag_00</Prereq>
@@ -1820,14 +1820,14 @@ and get to the bottom of this secret weapon once and for all!   -->
 
 <!-- bounce message - Antilles
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_06
-Antilles: I'm going to need to be with the fleet for this one.  
+Antilles: I'm going to need to be with the fleet for this one.
 I won't leave a mission this important to someone else.-->
 	<Event Name="Rebel_ActIII_Mission_Nine_Reveal_Corulag_02_Start_Dialog">
 		<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
 		<Event_Param1>Corulag</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_NINE_06</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1840,18 +1840,18 @@ I won't leave a mission this important to someone else.-->
 		<Event_Param1>REBEL_ACT03_MISSION_NINE_06</Event_Param1>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_06</Reward_Param1>
-		<Reward_Param4>Remove</Reward_Param4>	
+		<Reward_Param4>Remove</Reward_Param4>
 		<Prereq>Rebel_ActIII_Mission_Nine_Reveal_Corulag_02_Start_Dialog</Prereq>
 		<Perpetual>True</Perpetual>
 	</Event>
 
 	<Event Name="Rebel_ActIII_Mission_Nine_Reveal_Corulag_02a_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActIII_Mission_Nine_Reveal_Corulag_02a</Prereq>
 		<Perpetual>True</Perpetual>
 	</Event>
-	
+
 <!-- Require Antilles' ship to begin mission -->
 	<Event Name="Rebel_ActIII_Mission_Nine_00">
 		<Event_Type>STORY_ENTER</Event_Type>
@@ -1870,7 +1870,7 @@ I won't leave a mission this important to someone else.-->
 		<Reward_Param10>1</Reward_Param10>
 		<Reward_Param11>0</Reward_Param11>
 		<Reward_Param12>RETREAT_PLAYER</Reward_Param12>
-		<Reward_Param14>0</Reward_Param14>																		   
+		<Reward_Param14>0</Reward_Param14>
 		<Branch>BRANCH_RA03M09_QUICKSTART</Branch>
 	</Event>
 
@@ -1882,7 +1882,7 @@ I won't leave a mission this important to someone else.-->
 		<Prereq>Rebel_ActIII_Mission_Nine_00</Prereq>
 		<Branch>BRANCH_RA03M09</Branch>
 	</Event>
-	
+
 	<Event Name="Rebel_ActIII_Mission_Nine_Failed_Respawn">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FORCE_RESPAWN</Reward_Type>
@@ -1914,7 +1914,7 @@ Antilles: We have to recover that information!  As soon as we can, we must retur
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_NINE_07</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1927,18 +1927,18 @@ Antilles: We have to recover that information!  As soon as we can, we must retur
 		<Event_Param1>REBEL_ACT03_MISSION_NINE_07</Event_Param1>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_07</Reward_Param1>
-		<Reward_Param4>Remove</Reward_Param4>	
+		<Reward_Param4>Remove</Reward_Param4>
 		<Prereq>Rebel_ActIII_Mission_Nine_Failed_01</Prereq>
 		<Branch>BRANCH_RA03M09</Branch>
 	</Event>
-			
+
 	<Event Name="Rebel_ActIII_Mission_Nine_Failed_01a_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActIII_Mission_Nine_Failed_01a</Prereq>
 		<Branch>BRANCH_RA03M09</Branch>
 	</Event>
-			
+
 <!-- Re-enable mission 9 -->
 	<Event Name="Rebel_ActIII_Mission_Nine_Failed_04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -1955,7 +1955,7 @@ Antilles: We have to recover that information!  As soon as we can, we must retur
 		<Event_Param2>1</Event_Param2>
 		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
 	</Event>
-	
+
 			<Event Name="Rebel_ActIII_Mission_Nine_RemoveFlash_CORULAG">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
@@ -2008,17 +2008,17 @@ Antilles: We have to recover that information!  As soon as we can, we must retur
 	</Event>
 
 <!-- Post Mission 9 Dialog -->
-<!-- Mon Mothma 
+<!-- Mon Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_36
-Mon Mothma: The Mon Calamari we rescued was in Tarkin's service for some time 
-and has a wealth of information.  
-The name of this Imperial superweapon is the Death Star.  
+Mon Mothma: The Mon Calamari we rescued was in Tarkin's service for some time
+and has a wealth of information.
+The name of this Imperial superweapon is the Death Star.
 We can only assume its purpose follows its name.   -->
 	<Event Name="Rebel_A3_M09_Post_Mission_Dialog_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_36</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_NINE_36</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2034,14 +2034,14 @@ We can only assume its purpose follows its name.   -->
 		<Prereq>Rebel_A3_M09_Post_Mission_Dialog_00</Prereq>
 	</Event>
 
-<!-- Antilles 
+<!-- Antilles
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_37
 Antilles: Any word from our other contacts? -->
 	<Event Name="Rebel_A3_M09_Post_Mission_Dialog_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_37</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_NINE_37</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2057,16 +2057,16 @@ Antilles: Any word from our other contacts? -->
 		<Prereq>Rebel_A3_M09_Post_Mission_Dialog_01</Prereq>
 	</Event>
 
-<!-- Mon Mothma 
+<!-- Mon Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_38
-Mon Mothma: Our friend within the Senate is following her leads as we speak.  
-She may be able to provide us detailed schematics of the Death Star, 
+Mon Mothma: Our friend within the Senate is following her leads as we speak.
+She may be able to provide us detailed schematics of the Death Star,
 but will need a reliable captain for some "errands" that may put her at risk.   -->
 	<Event Name="Rebel_A3_M09_Post_Mission_Dialog_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_38</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_NINE_38</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2082,15 +2082,15 @@ but will need a reliable captain for some "errands" that may put her at risk.   
 		<Prereq>Rebel_A3_M09_Post_Mission_Dialog_02</Prereq>
 	</Event>
 
-<!-- Antilles 
+<!-- Antilles
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_39
-Antilles: I'll transfer to her ship immediately.  
+Antilles: I'll transfer to her ship immediately.
 Threepio, Artoo, come along.  We'll need you too.  -->
 	<Event Name="Rebel_A3_M09_Post_Mission_Dialog_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_39</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_NINE_39</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2106,14 +2106,14 @@ Threepio, Artoo, come along.  We'll need you too.  -->
 		<Prereq>Rebel_A3_M09_Post_Mission_Dialog_03</Prereq>
 	</Event>
 
-<!-- C-3P0 
+<!-- C-3P0
 TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_40
 C-3PO: Of course, sir.  We're glad to be of service.  -->
 	<Event Name="Rebel_A3_M09_Post_Mission_Dialog_04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_40</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_NINE_40</Reward_Param8>
 		<Reward_Param9>C3PO_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2129,15 +2129,15 @@ C-3PO: Of course, sir.  We're glad to be of service.  -->
 		<Prereq>Rebel_A3_M09_Post_Mission_Dialog_04</Prereq>
 	</Event>
 
-<!-- Mon Mothma 
-TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_41 
-Mon Mothma: Do be careful, the Empire grows bolder in its liberties with the Senate each day.  
+<!-- Mon Mothma
+TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_41
+Mon Mothma: Do be careful, the Empire grows bolder in its liberties with the Senate each day.
 They may not respect any form of diplomatic immunity in their pursuit of our destruction.-->
 	<Event Name="Rebel_A3_M09_Post_Mission_Dialog_05">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_41</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_NINE_41</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2152,10 +2152,10 @@ They may not respect any form of diplomatic immunity in their pursuit of our des
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Rebel_A3_M09_Post_Mission_Dialog_05</Prereq>
 	</Event>
-		
+
 	<Event Name="Rebel_A3_M09_Post_Mission_Dialog_05b_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_A3_M09_Post_Mission_Dialog_05_Remove_Text</Prereq>
 	</Event>
 
@@ -2176,28 +2176,28 @@ They may not respect any form of diplomatic immunity in their pursuit of our des
 	</Event>
 
 <!--TEXT_STORY_REBEL_ACT03_MISSION_NINE_42
- Notice: Captain Antilles has taken command of Princess Leia's ship, the Tantive IV.  
+ Notice: Captain Antilles has taken command of Princess Leia's ship, the Tantive IV.
  The Sundered Heart and the Droids are no longer available for use.  -->
 	<Event Name="Rebel_A3_M09_Post_Mission_Dialog_06">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_NINE_42</Reward_Param1>
-		<Reward_Param2>10</Reward_Param2>	
+		<Reward_Param2>10</Reward_Param2>
 		<Reward_Param7>System</Reward_Param7><!-- SYSTEM color coding - Red -->
 		<Prereq>Rebel_ActIII_M09_Remove_Sundered_Heart</Prereq>
 	</Event>
 
 <!-- Mission 10: Lost and Found (LAND/CARIDA)-->
-<!-- Mon Mothma 
+<!-- Mon Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_14
-Mon Mothma: I have a task for our smuggler friend.  
+Mon Mothma: I have a task for our smuggler friend.
 Send the word out that we are hiring, and for a substantial fee.   -->
 	<Event Name="Rebel_A3_Mission_10_Begins_01">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>10</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_14</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_TEN_14</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2214,20 +2214,20 @@ Send the word out that we are hiring, and for a substantial fee.   -->
 		<Prereq>Rebel_A3_Mission_10_Begins_01</Prereq>
 	</Event>
 
-<!-- Rebel Soldier 
+<!-- Rebel Soldier
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_15
 Rebel Soldier: Right away!   -->
 	<Event Name="Rebel_A3_Mission_10_Begins_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_15</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_TEN_15</Reward_Param8>
 		<Reward_Param9>Rebel_Trooper_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Rebel_A3_Mission_10_Begins_01_Remove_Text</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_A3_Mission_10_Begins_02_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>REBEL_ACT03_MISSION_TEN_15</Event_Param1>
@@ -2236,10 +2236,10 @@ Rebel Soldier: Right away!   -->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Rebel_A3_Mission_10_Begins_02</Prereq>
 	</Event>
-			
+
 	<Event Name="Rebel_A3_Mission_10_Begins_02b_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_A3_Mission_10_Begins_02_Remove_Text</Prereq>
 	</Event>
 
@@ -2258,7 +2258,7 @@ Rebel Soldier: Right away!   -->
 		<Prereq>Rebel_A3_Mission_10_Begins_02b_Remove_Movie</Prereq>
 		<Story_Dialog>Dialog_Rebel_Story_Campaign</Story_Dialog>
 		<Story_Chapter>9</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Rebel_Mission_Ten_Tag</Story_Tag>
 	</Event>
 
@@ -2281,16 +2281,16 @@ triggers the "ENTER" trigger below.  Once the dialog is completed, the mission a
 <!--
 Dialog here prequels the actual mission. Once this dialog ends, the mission will auto-fire
 -->
-<!-- Mon Mothma 
+<!-- Mon Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_03
-Mon Mothma: The data we recovered from Tarkin's research station has provided 
-some information on the Death Star, but not enough technical detail to move against it.  
+Mon Mothma: The data we recovered from Tarkin's research station has provided
+some information on the Death Star, but not enough technical detail to move against it.
 I hope that our friend in the senate will turn up more. -->
 	<Event Name="Rebel_A3_M10_Pre_Mission_Dialog_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_TEN_03</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2306,18 +2306,18 @@ I hope that our friend in the senate will turn up more. -->
 		<Prereq>Rebel_A3_M10_Pre_Mission_Dialog_00</Prereq>
 	</Event>
 
-<!-- Mon Mothma 
-TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_04 
-Mon Mothma: Before returning home, 
-Ackbar told us that the development research on the Mon Calamari cruisers was annexed by the 
-Empire and is being kept in a vault on Carida.  
-With this data, the Mon Calamari could build their massive capital ships, 
+<!-- Mon Mothma
+TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_04
+Mon Mothma: Before returning home,
+Ackbar told us that the development research on the Mon Calamari cruisers was annexed by the
+Empire and is being kept in a vault on Carida.
+With this data, the Mon Calamari could build their massive capital ships,
 giving us a great advantage against Imperial Star Destroyers.-->
 	<Event Name="Rebel_A3_M10_Pre_Mission_Dialog_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_TEN_04</Reward_Param8>
 		<!-- movie loop continues from above -->
 		<Prereq>Rebel_A3_M10_Pre_Mission_Dialog_00_Remove_Text</Prereq>
@@ -2332,14 +2332,14 @@ giving us a great advantage against Imperial Star Destroyers.-->
 		<Prereq>Rebel_A3_M10_Pre_Mission_Dialog_01</Prereq>
 	</Event>
 
-<!-- Rebel Soldier 
+<!-- Rebel Soldier
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_05
 Rebel Soldier: Han Solo has arrived, as you requested, Mon Mothma.   -->
 	<Event Name="Rebel_A3_M10_Pre_Mission_Dialog_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_TEN_05</Reward_Param8>
 		<Reward_Param9>Rebel_Trooper_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2355,16 +2355,16 @@ Rebel Soldier: Han Solo has arrived, as you requested, Mon Mothma.   -->
 		<Prereq>Rebel_A3_M10_Pre_Mission_Dialog_02</Prereq>
 	</Event>
 
-<!-- Han Solo 
+<!-- Han Solo
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_06
-Han Solo: Couldn't do without me, huh?  
-If you have a paying job, I have to warn you - my price has doubled.  
+Han Solo: Couldn't do without me, huh?
+If you have a paying job, I have to warn you - my price has doubled.
 The repairs on the Falcon almost broke me!   -->
 	<Event Name="Rebel_A3_M10_Pre_Mission_Dialog_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_TEN_06</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2380,15 +2380,15 @@ The repairs on the Falcon almost broke me!   -->
 		<Prereq>Rebel_A3_M10_Pre_Mission_Dialog_03</Prereq>
 	</Event>
 
-<!-- Mon Mothma 
+<!-- Mon Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_07
-Mon Mothma: I can assure you that your ship won't receive a scratch.  
+Mon Mothma: I can assure you that your ship won't receive a scratch.
 In truth, it won't even have to move.  -->
 	<Event Name="Rebel_A3_M10_Pre_Mission_Dialog_04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_TEN_07</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2404,14 +2404,14 @@ In truth, it won't even have to move.  -->
 		<Prereq>Rebel_A3_M10_Pre_Mission_Dialog_04</Prereq>
 	</Event>
 
-<!-- Han Solo 
+<!-- Han Solo
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_08
 Han Solo: Wait a minute.  I wasn't born yesterday.  What's the catch? -->
 	<Event Name="Rebel_A3_M10_Pre_Mission_Dialog_05">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_TEN_08</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2427,14 +2427,14 @@ Han Solo: Wait a minute.  I wasn't born yesterday.  What's the catch? -->
 		<Prereq>Rebel_A3_M10_Pre_Mission_Dialog_05</Prereq>
 	</Event>
 
-<!-- Mon Mothma 
+<!-- Mon Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_09
 Mon Mothma: The best way to get you to Carida doesn't require your ship.   -->
 	<Event Name="Rebel_A3_M10_Pre_Mission_Dialog_06">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_TEN_09</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2450,15 +2450,15 @@ Mon Mothma: The best way to get you to Carida doesn't require your ship.   -->
 		<Prereq>Rebel_A3_M10_Pre_Mission_Dialog_06</Prereq>
 	</Event>
 
-<!-- Han Solo 
+<!-- Han Solo
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_10
-Han Solo: Carida?  Shipyard?  Hey, wait!  
+Han Solo: Carida?  Shipyard?  Hey, wait!
 You're not shipping us off like a couple of - Watch it!  Watch it!   -->
 	<Event Name="Rebel_A3_M10_Pre_Mission_Dialog_07">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_TEN_10</Reward_Param8>
 		<Reward_Param9>Han_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2474,15 +2474,15 @@ You're not shipping us off like a couple of - Watch it!  Watch it!   -->
 		<Prereq>Rebel_A3_M10_Pre_Mission_Dialog_07</Prereq>
 	</Event>
 
-<!-- Mon Mothma 
+<!-- Mon Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_11
-Mon Mothma: You should be very familiar with that system because of your days in the Academy, 
+Mon Mothma: You should be very familiar with that system because of your days in the Academy,
 but it is exceedingly difficult to get landing clearances for Imperial deserters there. -->
 	<Event Name="Rebel_A3_M10_Pre_Mission_Dialog_08">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_TEN_11</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2498,14 +2498,14 @@ but it is exceedingly difficult to get landing clearances for Imperial deserters
 		<Prereq>Rebel_A3_M10_Pre_Mission_Dialog_08</Prereq>
 	</Event>
 
-<!-- Rebel Soldier 
+<!-- Rebel Soldier
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_12
 Rebel Soldier: The shuttle is ready to take the container to Carida.   -->
 	<Event Name="Rebel_A3_M10_Pre_Mission_Dialog_09">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_12</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_TEN_12</Reward_Param8>
 		<Reward_Param9>Rebel_Trooper_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2521,15 +2521,15 @@ Rebel Soldier: The shuttle is ready to take the container to Carida.   -->
 		<Prereq>Rebel_A3_M10_Pre_Mission_Dialog_09</Prereq>
 	</Event>
 
-<!-- Mon Mothma 
+<!-- Mon Mothma
 TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_13
-Mon Mothma: Good.  See that it arrives safely.  
+Mon Mothma: Good.  See that it arrives safely.
 We want our smugglers in good shape.  -->
 	<Event Name="Rebel_A3_M10_Pre_Mission_Dialog_10">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_TEN_13</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT03_MISSION_TEN_13</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2544,10 +2544,10 @@ We want our smugglers in good shape.  -->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Rebel_A3_M10_Pre_Mission_Dialog_10</Prereq>
 	</Event>
-			
+
 	<Event Name="Rebel_A3_M10_Pre_Mission_Dialog_10b_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_A3_M10_Pre_Mission_Dialog_10_Remove_Text</Prereq>
 	</Event>
 

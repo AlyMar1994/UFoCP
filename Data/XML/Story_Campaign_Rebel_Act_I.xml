@@ -17,7 +17,7 @@
 
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8></Reward_Param8>
 		<Reward_Param9>_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -57,14 +57,14 @@
 		<Reward_Param1>Rebel_Star_Base_1</Reward_Param1>
 		<Prereq>Rebel_ActI_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Unlock_Y_Wings_For_Rebels">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
 		<Reward_Param1>Y-Wing_Squadron</Reward_Param1>
 		<Prereq>Rebel_ActI_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Lock_X_Wings_For_Rebels">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
@@ -78,7 +78,7 @@
 		<Reward_Param1>Calamari_Cruiser</Reward_Param1>
 		<Prereq>Rebel_ActI_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Lock_Frigate_For_Rebels_ActI">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
@@ -171,7 +171,7 @@
 	<Event Name="Rebel_ActI_Reveal_07">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REVEAL_PLANET</Reward_Type>
-		<Reward_Param1>Yavin</Reward_Param1>
+		<Reward_Param1>Yavin_Story</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActI_Begin</Prereq>
 	</Event>
@@ -197,7 +197,7 @@
 		<Reward_Param9>0</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Reward_Param11>0</Reward_Param11>
-		<Reward_Param12>RETREAT_PLAYER</Reward_Param12>				 
+		<Reward_Param12>RETREAT_PLAYER</Reward_Param12>
 		<!-- Show the Battle Pending dialog? -->
 		<Reward_Param13>0</Reward_Param13>
 		<Prereq>OK_To_Begin_Rebel_ActI</Prereq>
@@ -236,7 +236,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>Rebel_ActI_Mission_One_10</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_ActI_Mission_One_20">
 		<Event_Type>STORY_FLAG</Event_Type>
 		<Event_Param1>Rebel_A01M01_Win</Event_Param1>
@@ -261,7 +261,7 @@
 		<Reward_Param2>Dantooine</Reward_Param2>
 		<Prereq>Rebel_ActI_Mission_One_20</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_ActI_Mission_One_22">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
@@ -269,7 +269,7 @@
 		<Reward_Param2>Alderaan</Reward_Param2>
 		<Prereq>Rebel_ActI_Mission_One_20</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_ActI_Mission_One_Remove_Droids_Slice_Ability">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_POWER_FROM_ALL</Reward_Type>
@@ -278,16 +278,16 @@
 		<Prereq>Rebel_ActI_Mission_One_22</Prereq>
 	</Event>
 
-<!-- Begin Post Mission One dialog; Mon Mothma Speaks 
+<!-- Begin Post Mission One dialog; Mon Mothma Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_19
-Mon Mothma: The Tyranny and its fleet will most likely remain at their post while it is repaired.  
+Mon Mothma: The Tyranny and its fleet will most likely remain at their post while it is repaired.
 The devastation of Kuat shipyard should prove to be a lengthy distraction. -->
 	<Event Name="Rebel_ActI_Mission_One_Post_Mission_Speech_00">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_19</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_ONE_19</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -303,14 +303,14 @@ The devastation of Kuat shipyard should prove to be a lengthy distraction. -->
 		<Prereq>Rebel_ActI_Mission_One_Post_Mission_Speech_00</Prereq>
 	</Event>
 
-<!-- Antilles Speaks 
+<!-- Antilles Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_20
 Antilles: Then we've got some X-wings on Fresia to attend to.-->
 	<Event Name="Rebel_ActI_Mission_One_Post_Mission_Speech_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_20</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_ONE_20</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -326,16 +326,16 @@ Antilles: Then we've got some X-wings on Fresia to attend to.-->
 		<Prereq>Rebel_ActI_Mission_One_Post_Mission_Speech_01</Prereq>
 	</Event>
 
-<!-- Rebel Pilot Speaks 
+<!-- Rebel Pilot Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_21
-Rebel Pilot: Captain!  Scanners show the Tyranny deployed 
-numerous sentry drones just before it left for Kuat - 
+Rebel Pilot: Captain!  Scanners show the Tyranny deployed
+numerous sentry drones just before it left for Kuat -
 the Fresian system is locked down!-->
 	<Event Name="Rebel_ActI_Mission_One_Post_Mission_Speech_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_21</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_ONE_21</Reward_Param8>
 		<Reward_Param9>Wedge_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -351,15 +351,15 @@ the Fresian system is locked down!-->
 		<Prereq>Rebel_ActI_Mission_One_Post_Mission_Speech_02</Prereq>
 	</Event>
 
-<!-- Antilles Speaks 
+<!-- Antilles Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_22
-Antilles: Blast!  We'd have the entire Imperial fleet in our laps 
+Antilles: Blast!  We'd have the entire Imperial fleet in our laps
 before we could blink!-->
 	<Event Name="Rebel_ActI_Mission_One_Post_Mission_Speech_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_22</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_ONE_22</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -375,16 +375,16 @@ before we could blink!-->
 		<Prereq>Rebel_ActI_Mission_One_Post_Mission_Speech_03</Prereq>
 	</Event>
 
-<!-- C-3P0 Speaks 
+<!-- C-3P0 Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_23
-C-3PO: Excuse me sir, but I believe Artoo could slice the 
-Imperial station uplink on Wayland and register your ships.  
+C-3PO: Excuse me sir, but I believe Artoo could slice the
+Imperial station uplink on Wayland and register your ships.
 Then the Fresian sentries would clear you to the surface.  -->
 	<Event Name="Rebel_ActI_Mission_One_Post_Mission_Speech_04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_23</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_ONE_23</Reward_Param8>
 		<Reward_Param9>C3PO_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -400,15 +400,15 @@ Then the Fresian sentries would clear you to the surface.  -->
 		<Prereq>Rebel_ActI_Mission_One_Post_Mission_Speech_04</Prereq>
 	</Event>
 
-<!-- Antilles Speaks 
+<!-- Antilles Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_24
-Antilles: Not a bad plan, Threepio. But a you droids will never get there on your own. 
+Antilles: Not a bad plan, Threepio. But a you droids will never get there on your own.
 You'll need a sizeable escort of ground troops to have any chance at all.-->
 	<Event Name="Rebel_ActI_Mission_One_Post_Mission_Speech_05">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_24</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_ONE_24</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -424,14 +424,14 @@ You'll need a sizeable escort of ground troops to have any chance at all.-->
 		<Prereq>Rebel_ActI_Mission_One_Post_Mission_Speech_05</Prereq>
 	</Event>
 
-<!-- C3P0 Speaks 
+<!-- C3P0 Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_29
-C-3PO: But, sir, I think my presence there won't be necessary…-->		
+C-3PO: But, sir, I think my presence there won't be necessary…-->
 	<Event Name="Rebel_ActI_Post_Mission_One_C3PO_Speech_New01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_29</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_ONE_29</Reward_Param8>
 		<Reward_Param9>C3PO_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -443,31 +443,31 @@ C-3PO: But, sir, I think my presence there won't be necessary…-->
 		<Event_Param1>REBEL_ACT01_MISSION_ONE_29</Event_Param1>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_29</Reward_Param1>
-		<Reward_Param4>Remove</Reward_Param4>	
+		<Reward_Param4>Remove</Reward_Param4>
 		<Prereq>Rebel_ActI_Post_Mission_One_C3PO_Speech_New01</Prereq>
 	</Event>
 
 <!-- R2-D2 Speaks DO NOT DISPLAY R2'S TEXT LINES-->
 	<Event Name="Rebel_ActI_Mission_One_Post_Mission_Speech_06">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>MULTIMEDIA</Reward_Type>	
+		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param8>REBEL_ACT01_MISSION_ONE_25</Reward_Param8>
 		<Reward_Param9>R2D2_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Rebel_ActI_Post_Mission_One_C3PO_Speech_New01_Remove_Text</Prereq>
 	</Event>
 
-<!-- Antilles Speaks 
+<!-- Antilles Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_26
-Antilles: You can't come up with a plan and let someone else take all the credit, Threepio. 
-We can't attack Fresia if you and Artoo don’t hack the Imperial network on Wayland. 
+Antilles: You can't come up with a plan and let someone else take all the credit, Threepio.
+We can't attack Fresia if you and Artoo don’t hack the Imperial network on Wayland.
 We're counting on you.-->
 	<Event Name="Rebel_ActI_Mission_One_Post_Mission_Speech_07">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>REBEL_ACT01_MISSION_ONE_25</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_26</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_ONE_26</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -485,10 +485,10 @@ We're counting on you.-->
 
 	<Event Name="Rebel_ActI_Mission_One_Post_Mission_Speech_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActI_Mission_One_Post_Mission_Speech_07_Remove_Text</Prereq>
 	</Event>
-			
+
 <!-- MISSION TWO: Interpreting the network -->
 	<Event Name="Rebel_ActI_Mission_Two_Reveal_Wayland_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -515,7 +515,7 @@ Task: Escort R2D2 and C3PO to the surface of Wayland.-->
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_TWO_46</Reward_Param1>
 		<Reward_Param2>10</Reward_Param2>
-		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->	
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
 		<Prereq>Rebel_ActI_Mission_Two_Reveal_Wayland_00</Prereq>
 		<Prereq>Rebel_ActI_Mission_Two_Failed_01a_Remove_Movie</Prereq>
 		<Branch>BRANCH_RA01M02</Branch>
@@ -532,7 +532,7 @@ Task: Escort R2D2 and C3PO to the surface of Wayland.-->
 		<Prereq>Rebel_ActI_Mission_One_Post_Mission_Give_M02_Task</Prereq>
 		<!-- <Branch>BRANCH_RA01M02</Branch>-->
 	</Event>
-	
+
 <!--Bounce message going to Wayland - changing to R2D2 protesting
 TEXT_STORY_REBEL_ACT01_MISSION_TWO_46 - text message
 REBEL_ACT01_MISSION_TWO_04 - good
@@ -544,23 +544,23 @@ REBEL_ACT02_MISSION_FIVE_19 - good-->
 		<Event_Param1>Wayland</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_TWO_46</Reward_Param1>
-		<Reward_Param2>10</Reward_Param2>	
-		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->	
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
 		<Reward_Param8>REBEL_ACT01_MISSION_TWO_04</Reward_Param8>
 		<Reward_Param9>R2D2_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Perpetual>True</Perpetual>
 		<Prereq>Rebel_ActI_Mission_Two_Reveal_Wayland_00</Prereq>
 	</Event>
-			
+
 	<Event Name="Rebel_ActI_Mission_Two_R2D2_Protest02">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>REBEL_ACT01_MISSION_TWO_04</Event_Param1>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Perpetual>True</Perpetual>
 		<Prereq>Rebel_ActI_Mission_Two_Reveal_Wayland_02</Prereq>
 	</Event>
-								
+
 <!-- Trigger mission 2 -->
 	<Event Name="Rebel_ActI_Mission_Two_10">
 		<Event_Type>STORY_DEPLOY</Event_Type>
@@ -591,7 +591,7 @@ REBEL_ACT02_MISSION_FIVE_19 - good-->
 		<Prereq>Rebel_ActI_Mission_Two_10</Prereq>
 		<Branch>BRANCH_RA01M02</Branch>
 	</Event>
-	
+
 	<Event Name="Rebel_ActI_Mission_Two_Failed_Respawn">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FORCE_RESPAWN</Reward_Type>
@@ -621,7 +621,7 @@ REBEL_ACT02_MISSION_FIVE_19 - good-->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_TWO_41</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_TWO_41</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -634,11 +634,11 @@ REBEL_ACT02_MISSION_FIVE_19 - good-->
 		<Event_Param1>REBEL_ACT01_MISSION_TWO_41</Event_Param1>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_TWO_41</Reward_Param1>
-		<Reward_Param4>remove</Reward_Param4>	
+		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Rebel_ActI_Mission_Two_Failed_01</Prereq>
 		<Branch>BRANCH_RA01M02</Branch>
 	</Event>
-			
+
 	<Event Name="Rebel_ActI_Mission_Two_Failed_01a_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
@@ -664,7 +664,7 @@ REBEL_ACT02_MISSION_FIVE_19 - good-->
 		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
 		<Reward_Param1>Rebel_Mission_Two_Tag</Reward_Param1>
 	</Event>
-	
+
 		<Event Name="Rebel_ActI_Mission_Two_RemoveFlash_Wayland">
 			<Event_Type>STORY_TRIGGER</Event_Type>
 			<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
@@ -695,10 +695,10 @@ REBEL_ACT02_MISSION_FIVE_19 - good-->
 		<Reward_Param2>0</Reward_Param2>
 		<Prereq>Rebel_ActI_Mission_Two_20</Prereq>
 	</Event>
-			
-<!-- Antilles Speaks 
+
+<!-- Antilles Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_TWO_31
-Antilles: Looks like the droids got us more data than we bargained for.  
+Antilles: Looks like the droids got us more data than we bargained for.
 I've got technical plans here that we can put to good use!-->
 	<Event Name="Rebel_ActI_Mission_Two_Post_Mission_Speech_00_Start_Dialog">
 		<Event_Type>STORY_GENERIC</Event_Type>
@@ -707,7 +707,7 @@ I've got technical plans here that we can put to good use!-->
 	</Event>
 
 <!-- MISSION THREE: Theft of the X-wing -->
-<!-- Pilot Speaks 
+<!-- Pilot Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_03
 Rebel Pilot: The pilots are ready to go, sir.  -->
 	<Event Name="Rebel_ActI_Mission_Three_Pre_Mission_Speech_00">
@@ -715,7 +715,7 @@ Rebel Pilot: The pilots are ready to go, sir.  -->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_THREE_03</Reward_Param8>
 		<Reward_Param9>Wedge_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -731,15 +731,15 @@ Rebel Pilot: The pilots are ready to go, sir.  -->
 		<Prereq>Rebel_ActI_Mission_Three_Pre_Mission_Speech_00</Prereq>
 	</Event>
 
-<!-- Antilles Speaks 
+<!-- Antilles Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_04
-Antilles: With the sensors blind to our ships, 
+Antilles: With the sensors blind to our ships,
 we should be able to sneak right down to Fresia and grab those X-wings.-->
 	<Event Name="Rebel_ActI_Mission_Three_Pre_Mission_Speech_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_THREE_04</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -755,14 +755,14 @@ we should be able to sneak right down to Fresia and grab those X-wings.-->
 		<Prereq>Rebel_ActI_Mission_Three_Pre_Mission_Speech_01</Prereq>
 	</Event>
 
-<!-- Pilot Speaks 
+<!-- Pilot Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_05
 Rebel Pilot: You sure the sensors are down?-->
 	<Event Name="Rebel_ActI_Mission_Three_Pre_Mission_Speech_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_THREE_05</Reward_Param8>
 		<Reward_Param9>Wedge_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -778,14 +778,14 @@ Rebel Pilot: You sure the sensors are down?-->
 		<Prereq>Rebel_ActI_Mission_Three_Pre_Mission_Speech_02</Prereq>
 	</Event>
 
-<!-- Antilles Speaks 
+<!-- Antilles Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_06
 Antilles: Only one way to find out.  Assemble the troops and let's go!-->
 	<Event Name="Rebel_ActI_Mission_Three_Pre_Mission_Speech_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_THREE_06</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -803,7 +803,7 @@ Antilles: Only one way to find out.  Assemble the troops and let's go!-->
 
 	<Event Name="Rebel_ActI_Mission_Three_Pre_Mission_Speech_03b_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActI_Mission_Three_Pre_Mission_Speech_03_Remove_Text</Prereq>
 	</Event>
 
@@ -824,7 +824,7 @@ Antilles: Only one way to find out.  Assemble the troops and let's go!-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActI_Mission_Three_00</Prereq>
 	</Event>
-	
+
 <!-- jdg - adding in flash event for Fresia -->
 	<Event Name="Empire_ActI_Mission_Two_Flash_Fresia">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -836,7 +836,7 @@ Antilles: Only one way to find out.  Assemble the troops and let's go!-->
 		<Prereq>Rebel_ActI_Mission_Three_Reveal_Fresia_00</Prereq>
 		<!--<Branch>BRANCH_RA01M03</Branch> -->
 	</Event>
-						
+
 <!-- jdg - Fresia task message
 TEXT_STORY_REBEL_ACT01_MISSION_THREE_34
 Task: Build a ground assualt force and goto Fresia.-->
@@ -845,13 +845,13 @@ Task: Build a ground assualt force and goto Fresia.-->
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_34</Reward_Param1>
 		<Reward_Param2>10</Reward_Param2>
-		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->	
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
 		<Branch>BRANCH_RA01M03</Branch>
 		<Prereq>Empire_ActI_Mission_Two_Flash_Fresia</Prereq>
 		<Prereq>Rebel_ActI_Mission_Three_Failed_01a_Remove_Movie</Prereq>
 	</Event>
 
-<!-- Antilles Speaks 
+<!-- Antilles Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_07
 Antilles: There's no alarm on any Imperial comm. channel. We're clear. Move out, team.-->
 	<Event Name="Rebel_ActI_Mission_Three_Fresia_Humor_00">
@@ -859,7 +859,7 @@ Antilles: There's no alarm on any Imperial comm. channel. We're clear. Move out,
 		<Event_Param1>Fresia</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_THREE_07</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -871,13 +871,13 @@ Antilles: There's no alarm on any Imperial comm. channel. We're clear. Move out,
 		<Event_Param1>REBEL_ACT01_MISSION_THREE_07</Event_Param1>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_07</Reward_Param1>
-		<Reward_Param4>Remove</Reward_Param4>	
+		<Reward_Param4>Remove</Reward_Param4>
 		<Prereq>Rebel_ActI_Mission_Three_Fresia_Humor_00</Prereq>
 	</Event>
-			
+
 	<Event Name="Rebel_ActI_Mission_Three_Fresia_Humor_01_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActI_Mission_Three_Fresia_Humor_01</Prereq>
 	</Event>
 
@@ -932,7 +932,7 @@ Antilles: There's no alarm on any Imperial comm. channel. We're clear. Move out,
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_21</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_THREE_21</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -945,14 +945,14 @@ Antilles: There's no alarm on any Imperial comm. channel. We're clear. Move out,
 		<Event_Param1>REBEL_ACT01_MISSION_THREE_21</Event_Param1>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_21</Reward_Param1>
-		<Reward_Param4>Remove</Reward_Param4>	
+		<Reward_Param4>Remove</Reward_Param4>
 		<Prereq>Rebel_ActI_Mission_Three_Failed_01</Prereq>
 		<Branch>BRANCH_RA01M03</Branch>
 	</Event>
-			
+
 	<Event Name="Rebel_ActI_Mission_Three_Failed_01a_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActI_Mission_Three_Failed_01a</Prereq>
 		<Branch>BRANCH_RA01M03</Branch>
 	</Event>
@@ -975,7 +975,7 @@ Antilles: There's no alarm on any Imperial comm. channel. We're clear. Move out,
 		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
 		<Reward_Param1>Rebel_Mission_Three_Tag</Reward_Param1>
 	</Event>
-	
+
 			<Event Name="Rebel_ActI_Mission_Three_RemoveFlash_Fresia">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
@@ -999,8 +999,8 @@ Antilles: There's no alarm on any Imperial comm. channel. We're clear. Move out,
 		<Prereq>Rebel_ActI_Mission_Three_Win_Disable_Branch</Prereq>
 	</Event>
 
-<!-- Mon Mothma Speaks 
-Mon Mothma: Those craft may help us but I fear for the citizens of Fresia and Incom's scientists.  
+<!-- Mon Mothma Speaks
+Mon Mothma: Those craft may help us but I fear for the citizens of Fresia and Incom's scientists.
 The Empire may make an example of them to keep other systems in line… . -->
 	<Event Name="Rebel_ActI_Mission_Three_Post_Mission_Speech_01_Start_Dialog">
 		<Event_Type>STORY_GENERIC</Event_Type>
@@ -1013,7 +1013,7 @@ The Empire may make an example of them to keep other systems in line… . -->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_25</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_THREE_25</Reward_Param8>
 		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1029,20 +1029,20 @@ The Empire may make an example of them to keep other systems in line… . -->
 		<Prereq>Rebel_ActI_Mission_Three_Post_Mission_Speech_01</Prereq>
 	</Event>
 
-<!-- Antilles Speaks 
+<!-- Antilles Speaks
 TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_26
 Antilles: Well, then we start planning on defending Fresia. We can't let that happen.-->
 	<Event Name="Rebel_ActI_Mission_Three_Post_Mission_Speech_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_26</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>REBEL_ACT01_MISSION_THREE_26</Reward_Param8>
 		<Reward_Param9>Antillies_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Rebel_ActI_Mission_Three_Post_Mission_Speech_01_Remove_Text</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_ActI_Mission_Three_Post_Mission_Speech_02_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>REBEL_ACT01_MISSION_THREE_26</Event_Param1>
@@ -1051,13 +1051,13 @@ Antilles: Well, then we start planning on defending Fresia. We can't let that ha
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Rebel_ActI_Mission_Three_Post_Mission_Speech_02</Prereq>
 	</Event>
-			
+
 	<Event Name="Rebel_ActI_Mission_Three_Post_Mission_Speech_02a_Remove_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Rebel_ActI_Mission_Three_Post_Mission_Speech_02_Remove_Text</Prereq>
 	</Event>
-		
+
 <!-- Unlock the X-wings for the player -->
 	<Event Name="Rebel_ActI_Mission_Three_Unlock_XWings">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -1082,7 +1082,7 @@ Antilles: Well, then we start planning on defending Fresia. We can't let that ha
 		<Reward_Param2>Alderaan</Reward_Param2>
 		<Prereq>Rebel_ActI_Mission_Three_Post_Mission_Speech_01</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_ActI_Mission_Three_Free_Xwing_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
@@ -1090,7 +1090,7 @@ Antilles: Well, then we start planning on defending Fresia. We can't let that ha
 		<Reward_Param2>Alderaan</Reward_Param2>
 		<Prereq>Rebel_ActI_Mission_Three_Post_Mission_Speech_01</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_ActI_Mission_Three_Free_Xwing_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
@@ -1098,7 +1098,7 @@ Antilles: Well, then we start planning on defending Fresia. We can't let that ha
 		<Reward_Param2>Alderaan</Reward_Param2>
 		<Prereq>Rebel_ActI_Mission_Three_Post_Mission_Speech_01</Prereq>
 	</Event>
-	
+
 	<Event Name="Rebel_ActI_Mission_Three_Free_Xwing_04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>

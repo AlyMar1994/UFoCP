@@ -15,7 +15,7 @@
 
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8></Reward_Param8>
 		<Reward_Param9>_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -40,14 +40,14 @@
 		<Event_Param1>0</Event_Param1>
 		<Prereq>Empire_ActIV_Check_Act_Counter</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Always_Lock_Death_Star2">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>Death_Star_II</Reward_Param1>
 		<Prereq>Empire_ActIV_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Always_Lock_Executor">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
@@ -216,7 +216,7 @@
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActIV_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActII_Reveal_Act4_05">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REVEAL_PLANET</Reward_Type>
@@ -313,7 +313,7 @@
 		<Prereq>Empire_ActIII_Reveal_Act4_00 Empire_ActIII_Reveal_Act4_01 Empire_ActIII_Reveal_Act4_02 Empire_ActIII_Reveal_Act4_03 Empire_ActIII_Reveal_Act4_04 Empire_ActIII_Reveal_Act4_05 Empire_ActIII_Reveal_Act4_06</Prereq>
 	</Event>
 
-<!-- Reveal all Act IV Planets 
+<!-- Reveal all Act IV Planets
 jdg these guys are now being introduced earlier in the game-->
 	<Event Name="All_Empire_ActIV_Revealed">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -325,7 +325,7 @@ jdg these guys are now being introduced earlier in the game-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>All_Empire_ActI_Act4_Revealed All_Empire_ActII_Revealed_Act4 All_Empire_ActIII_Revealed_Act4 All_Empire_ActIV_Revealed</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActIV_Activate_Pirate_AI">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SWITCH_CONTROL</Reward_Type>
@@ -350,7 +350,7 @@ jdg these guys are now being introduced earlier in the game-->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_NINE_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_NINE_07</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -371,7 +371,7 @@ jdg these guys are now being introduced earlier in the game-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_NINE_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_NINE_08</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -392,7 +392,7 @@ jdg these guys are now being introduced earlier in the game-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_NINE_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_NINE_09</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -413,7 +413,7 @@ jdg these guys are now being introduced earlier in the game-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_NINE_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_NINE_10</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -435,7 +435,7 @@ jdg these guys are now being introduced earlier in the game-->
 		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Empire_ActIV_Mission_Ten_Intro_Dialog_03c</Prereq>
 	</Event>
-	
+
 <!-- jdg 8/26/05 revealing Tatooine here -->
 	<Event Name="Empire_ActIV_Reveal_Tatooine">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -445,7 +445,7 @@ jdg these guys are now being introduced earlier in the game-->
 		<Reward_Param4>Tatooine</Reward_Param4>
 		<Prereq>Empire_ActIV_Mission_Ten_Intro_Dialog_04</Prereq>
 	</Event>
-						
+
 <!-- jdg 8/26/05 setting Tatooine restriction here -->
 	<Event Name="Empire_Act4_Tatooine_Off_Limits">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -454,7 +454,7 @@ jdg these guys are now being introduced earlier in the game-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActIV_Mission_Ten_Intro_Dialog_04</Prereq>
 	</Event>
-	
+
 <!-- jdg 8/26/05 flagging Tatooine planet here -->
 	<Event Name="Empire_Act4_Mission_Two_Flash_Tatooine">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -466,9 +466,9 @@ jdg these guys are now being introduced earlier in the game-->
 		<Prereq>Empire_ActIV_Mission_Ten_Intro_Dialog_04</Prereq>
 		<!--<Branch>BRANCH_EA04M10</Branch>-->
 	</Event>
-						
-<!-- jdg 8/26/05 take vader "task" text here:  
-TASK: Task: Build a fleet and escort Darth Vader to intercept and capture Princess Leia at Tatooine.  
+
+<!-- jdg 8/26/05 take vader "task" text here:
+TASK: Task: Build a fleet and escort Darth Vader to intercept and capture Princess Leia at Tatooine.
 You will need to use the Tractor Beam from a Star Destroyer to catch her.  -->
 	<Event Name="Empire_ActIV_Take_Vader_To_Tatooine">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -480,33 +480,33 @@ You will need to use the Tractor Beam from a Star Destroyer to catch her.  -->
 		<Prereq>Empire_ActIV_Mission_Ten_Failed_01_Stop_Movie</Prereq>
 		<Branch>BRANCH_EA04M10</Branch>
 	</Event>
-	
+
 	<!--ADD holocron for princess leia-->
 	<Event Name="Empire_ActIV_Holocron_PrincessLeia_Entry">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Empire_Story_Campaign</Story_Dialog>
 		<Story_Chapter>10</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Empire_ActIV_Holocron_PrincessLeia_Entry</Story_Tag>
 		<Prereq>Empire_ActIV_Take_Vader_To_Tatooine</Prereq>
 	</Event>
-		
-<!-- jdg 8/26/05 Must have vader reminder bounce message 
+
+<!-- jdg 8/26/05 Must have vader reminder bounce message
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_41
-Darth Vader: Fool! The capture of the Princess has been entrusted to me!-->				
+Darth Vader: Fool! The capture of the Princess has been entrusted to me!-->
 	<Event Name="Empire_Act4_Fleet_Sans_Vader_Bounced">
 		<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
 		<Event_Param1>Tatooine</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_41</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_41</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_ActIV_Take_Vader_To_Tatooine</Prereq>
 		<Perpetual>True</Perpetual>
 	</Event>
-							
+
 	<Event Name="Empire_Act4_Fleet_Sans_Vader_Bounced_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT04_MISSION_TEN_41</Event_Param1>
@@ -516,7 +516,7 @@ Darth Vader: Fool! The capture of the Princess has been entrusted to me!-->
 		<Prereq>Empire_Act4_Fleet_Sans_Vader_Bounced</Prereq>
 		<Perpetual>True</Perpetual>
 	</Event>
-						
+
 	<Event Name="Empire_Act4_Fleet_Sans_Vader_Bounced_Stop_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
@@ -548,7 +548,7 @@ Darth Vader: Fool! The capture of the Princess has been entrusted to me!-->
 		<Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Empire_ActIV_Mission_Ten_Despawn_Vader</Prereq>
 	</Event>
-	
+
 <!-- Flash Star_Destroyer on galactic -->
 	<Event Name="Empire_Act4_Mission_10_Flash_Star_Destroyer">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -557,7 +557,7 @@ Darth Vader: Fool! The capture of the Princess has been entrusted to me!-->
 		<Reward_Param2>Star_Destroyer_Flash</Reward_Param2>
 		<Prereq>Empire_ActIV_Mission_Ten_Spawn_Imperial</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act4_Mission_10_RemoveFlash_Star_Destroyer">
 		<Event_Type>STORY_GENERIC</Event_Type>
 		<Event_Param1>click</Event_Param1>
@@ -587,7 +587,7 @@ Darth Vader: Fool! The capture of the Princess has been entrusted to me!-->
 		<Reward_Param14>0</Reward_Param14>
 		<Prereq>Empire_ActIV_Mission_Ten_Spawn_Imperial</Prereq>
 		<Branch>BRANCH_EA04M10_QUICKSTART</Branch>
-     </Event> 
+     </Event>
 
 <!-- Mission 10 failed -->
 <!-- Detect mission 10 being lost.  Display text telling the player to try again -->
@@ -598,10 +598,10 @@ Darth Vader: Fool! The capture of the Princess has been entrusted to me!-->
 		<Branch>BRANCH_EA04M10</Branch>
 	</Event>
 
-<!-- Wait until the battle summary dialog is closed 
+<!-- Wait until the battle summary dialog is closed
 Tarkin Reprimand
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_40
-Tarkin: I am surprised, Lord Vader. Beaten by a Princess and her entourage! 
+Tarkin: I am surprised, Lord Vader. Beaten by a Princess and her entourage!
 No matter, she will not escape us next time.-->
 	<Event Name="Empire_ActIV_Mission_Ten_Failed_01_Start_Dialog">
 		<Event_Type>STORY_GENERIC</Event_Type>
@@ -623,7 +623,7 @@ No matter, she will not escape us next time.-->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_40</Reward_Param1>
-		<Reward_Param2>10</Reward_Param2>	
+		<Reward_Param2>10</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_40</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -665,14 +665,14 @@ No matter, she will not escape us next time.-->
 		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
 		<Prereq>Empire_ActIV_Mission_Ten_03</Prereq>
 	</Event>
-	
+
 		<Event Name="Empire_ActIV_Mission_Ten_RemoveFlash_Tatooine">
 			<Event_Type>STORY_TRIGGER</Event_Type>
 			<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
 			<Reward_Param1>Tatooine_GUI_Flash</Reward_Param1>
 			<Prereq>Empire_ActIV_Mission_Ten_04</Prereq>
 		</Event>
-		
+
 		<!-- COMPLETE holocron for princess leia -->
 				<Event Name="Empire_ActIV_Holocron_PrincessLeia_Entry_Completed">
 					<Event_Type>STORY_TRIGGER</Event_Type>
@@ -680,7 +680,7 @@ No matter, she will not escape us next time.-->
 					<Reward_Param1>Empire_ActIV_Holocron_PrincessLeia_Entry</Reward_Param1>
 					<Prereq>Empire_ActIV_Mission_Ten_04</Prereq>
 				</Event>
-	
+
 
 	<Event Name="Empire_ActIV_Mission_Ten_04_Win_Disable_Branch">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -698,9 +698,9 @@ No matter, she will not escape us next time.-->
 		<Prereq>Empire_ActIV_Mission_Ten_04_Win_Disable_Branch</Prereq>
 	</Event>
 
-<!-- Vader Speaks 1 
+<!-- Vader Speaks 1
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_23
-Darth Vader: The Death Star plans were not found in the Rebel ship's memory banks.  
+Darth Vader: The Death Star plans were not found in the Rebel ship's memory banks.
 We are searching the nearby systems.  -->
 	<Event Name="Empire_ActIV_Mission_Ten_End_Dialog_Setup">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -726,7 +726,7 @@ We are searching the nearby systems.  -->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_23</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_23</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -747,7 +747,7 @@ We are searching the nearby systems.  -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TEN_24</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TEN_24</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -762,15 +762,15 @@ We are searching the nearby systems.  -->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_ActIV_Mission_Ten_End_Dialog_01</Prereq>
 	</Event>
-	
-<!-- jdg 8/26/05 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_12 
-Darth Vader:  Her resistance to the mind probe is considerable; 
-it will be some time before we can extract any information from her.-->	
+
+<!-- jdg 8/26/05 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_12
+Darth Vader:  Her resistance to the mind probe is considerable;
+it will be some time before we can extract any information from her.-->
 	<Event Name="Empire_ActIV_Mission_Ten_End_Vader_Dialog_New_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_12</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_ELEVEN_12</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -785,14 +785,14 @@ it will be some time before we can extract any information from her.-->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_ActIV_Mission_Ten_End_Vader_Dialog_New_01</Prereq>
 	</Event>
-			
-<!-- jdg 8/26/05 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_13 
-Tarkin: Perhaps she would respond to an alternative form of persuasion...-->	
+
+<!-- jdg 8/26/05 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_13
+Tarkin: Perhaps she would respond to an alternative form of persuasion...-->
 	<Event Name="Empire_ActIV_Mission_Ten_End_Tarkin_Dialog_New_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_13</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_ELEVEN_13</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -807,14 +807,14 @@ Tarkin: Perhaps she would respond to an alternative form of persuasion...-->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_ActIV_Mission_Ten_End_Tarkin_Dialog_New_02</Prereq>
 	</Event>
-			
-<!-- jdg 8/26/05 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_14 
-Darth Vader: What do you mean?-->	
+
+<!-- jdg 8/26/05 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_14
+Darth Vader: What do you mean?-->
 	<Event Name="Empire_ActIV_Mission_Ten_End_Vader_Dialog_New_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_14</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_ELEVEN_14</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -829,15 +829,15 @@ Darth Vader: What do you mean?-->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_ActIV_Mission_Ten_End_Vader_Dialog_New_03</Prereq>
 	</Event>
-			
-<!-- jdg 8/26/05 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_15 
-Tarkin: I think it is time we demonstrated the full power of this station.  
-Set your course for Alderaan.-->	
+
+<!-- jdg 8/26/05 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_15
+Tarkin: I think it is time we demonstrated the full power of this station.
+Set your course for Alderaan.-->
 	<Event Name="Empire_ActIV_Mission_Ten_End_Tarkin_Dialog_New_04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_15</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_ELEVEN_15</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -858,7 +858,7 @@ Set your course for Alderaan.-->
 		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Empire_ActIV_Mission_Ten_End_Tarkin_Dialog_New_04b</Prereq>
 	</Event>
-			
+
 <!-- jdg 8/26/05 revealing Alderaan here -->
 	<Event Name="Empire_ActIII_Reveal_Alderaan">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -867,7 +867,7 @@ Set your course for Alderaan.-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActIV_Mission_Ten_End_Tarkin_Dialog_New_04b</Prereq>
 	</Event>
-						
+
 <!-- jdg 8/26/05 setting Alderaan restriction here -->
 	<Event Name="Empire_Act4_Alderaan_Off_Limits">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -876,7 +876,7 @@ Set your course for Alderaan.-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActIV_Mission_Ten_End_Tarkin_Dialog_New_04b</Prereq>
 	</Event>
-	
+
 <!-- jdg 8/26/05 flagging Alderaan planet here -->
 	<Event Name="Empire_Act4_Mission_Two_Flash_Alderaan">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -888,9 +888,9 @@ Set your course for Alderaan.-->
 		<Prereq>Empire_ActIV_Mission_Ten_End_Tarkin_Dialog_New_04b</Prereq>
 		<!--<Branch>BRANCH_EA04M11</Branch>-->
 	</Event>
-						
-<!-- jdg 8/26/05 take vader "task" text here:  
-TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_02 
+
+<!-- jdg 8/26/05 take vader "task" text here:
+TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_02
 TASK: Take the Death Star to Alderaan and destroy it. -->
 	<Event Name="Empire_ActIV_Take_DeathStar_To_Alderaan">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -902,34 +902,34 @@ TASK: Take the Death Star to Alderaan and destroy it. -->
 		<Prereq>Empire_ActIV_Mission_Eleven_Failed_01_Stop_Movie</Prereq>
 		<Branch>BRANCH_EA04M11</Branch>
 	</Event>
-	
+
 	<!--ADD holocron for alderaan -->
 	<Event Name="Empire_ActIV_Holocron_Alderaan_Entry">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Empire_Story_Campaign</Story_Dialog>
 		<Story_Chapter>11</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Empire_ActIV_Holocron_Alderaan_Entry</Story_Tag>
 		<Prereq>Empire_ActIV_Take_DeathStar_To_Alderaan</Prereq>
 	</Event>
-		
-<!-- jdg 8/26/05 Must have Death Star reminder bounce message 
+
+<!-- jdg 8/26/05 Must have Death Star reminder bounce message
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_19
-Tarkin: And how might I ask would one effectively demonstrate the firepower of the Death Star without it being present? 
-Set its course for Alderaan immediately!-->				
+Tarkin: And how might I ask would one effectively demonstrate the firepower of the Death Star without it being present?
+Set its course for Alderaan immediately!-->
 	<Event Name="Empire_Act4_Fleet_Sans_DeathStar_Bounced">
 		<Event_Type>STORY_FLEET_BOUNCED</Event_Type>
 		<Event_Param1>Alderaan</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_19</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_ELEVEN_19</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_ActIV_Take_DeathStar_To_Alderaan</Prereq>
 		<Perpetual>True</Perpetual>
 	</Event>
-							
+
 	<Event Name="Empire_Act4_Fleet_Sans_DeathStar_Bounced_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT04_MISSION_ELEVEN_19</Event_Param1>
@@ -946,7 +946,7 @@ Set its course for Alderaan immediately!-->
 		<Prereq>Empire_Act4_Fleet_Sans_DeathStar_Bounced_Remove_Text</Prereq>
 		<Perpetual>True</Perpetual>
 	</Event>
-	
+
 <!-- Spawn Death Star before allowing mission to start -->
 	<Event Name="Empire_ActIV_Mission_Eleven_Spawn_DS">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -955,7 +955,7 @@ Set its course for Alderaan immediately!-->
 		<Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Empire_ActIV_Mission_Ten_End_Tarkin_Dialog_New_04b</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActIV_Mission_Eleven_FLASH_DS">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FLASH_FLEET_WITH_UNIT</Reward_Type>
@@ -963,7 +963,7 @@ Set its course for Alderaan immediately!-->
 		<Reward_Param2>Death_Star_Flash</Reward_Param2>
 		<Prereq>Empire_ActIV_Mission_Eleven_Spawn_DS</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActIV_Mission_Eleven_RemoveFLASH_DS">
 		<Event_Type>STORY_GENERIC</Event_Type>
 		<Event_Param1>click</Event_Param1>
@@ -971,8 +971,8 @@ Set its course for Alderaan immediately!-->
 		<Reward_Param1>Death_Star_Flash</Reward_Param1>
 		<Prereq>Empire_ActIV_Mission_Eleven_FLASH_DS</Prereq>
 	</Event>
-	
-<!-- 
+
+<!--
 	 LINK_TACTICAL
 	 <Reward_Param1> = Planet name
 	 <Reward_Param2> = Planet location (space,land)
@@ -1005,7 +1005,7 @@ Set its course for Alderaan immediately!-->
 		<Prereq>Empire_ActIV_Mission_Eleven_Spawn_DS</Prereq>
 		<Branch>BRANCH_EA04M11_QUICKSTART</Branch>
      </Event>
-     
+
 <!-- Mission 11 failed -->
 <!-- Detect mission 11 being lost.  Display text telling the player to try again -->
 	<Event Name="Empire_ActIV_Mission_Eleven_Failed">
@@ -1014,8 +1014,8 @@ Set its course for Alderaan immediately!-->
 		<Prereq>Empire_ActIV_Mission_Eleven_02</Prereq>
 		<Branch>BRANCH_EA04M11</Branch>
 	</Event>
-	
-<!-- Wait until the battle summary dialog is closed 
+
+<!-- Wait until the battle summary dialog is closed
 Tarkin Reprimand
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_18
 Tarkin: A mere setback, yet completely avoidable. Have the fleet commander report to me directly for dismissal.-->
@@ -1039,14 +1039,14 @@ Tarkin: A mere setback, yet completely avoidable. Have the fleet commander repor
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_18</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
-		<Reward_Param8>EMPIRE_ACT04_MISSION_ELEVEN_18</Reward_Param8> 
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>EMPIRE_ACT04_MISSION_ELEVEN_18</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>Empire_ActIV_Mission_Eleven_Failed_01_Start_Dialog</Prereq>
 		<Branch>BRANCH_EA04M11</Branch>
 	</Event>
-		
+
 	<Event Name="Empire_ActIV_Mission_Eleven_Failed_01_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT04_MISSION_ELEVEN_18</Event_Param1>
@@ -1056,7 +1056,7 @@ Tarkin: A mere setback, yet completely avoidable. Have the fleet commander repor
 		<Prereq>Empire_ActIV_Mission_Eleven_Failed_01</Prereq>
 		<Branch>BRANCH_EA04M11</Branch>
 	</Event>
-	
+
 	<Event Name="Empire_ActIV_Mission_Eleven_Failed_01_Stop_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
@@ -1081,14 +1081,14 @@ Tarkin: A mere setback, yet completely avoidable. Have the fleet commander repor
 		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
 		<!-- <Prereq>Empire_ActIV_Mission_Eleven_02</Prereq> -->
 	</Event>
-	
+
 		<Event Name="Empire_ActIV_Mission_Eleven_RemoveFlash_Alderaan">
 			<Event_Type>STORY_TRIGGER</Event_Type>
 			<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
 			<Reward_Param1>Alderaan_GUI_Flash</Reward_Param1>
 			<Prereq>Empire_ActIV_Mission_Eleven_03</Prereq>
 		</Event>
-		
+
 		<!-- COMPLETE holocron for alderaan -->
 				<Event Name="Empire_ActIV_Holocron_Alderaan_Entry_Completed">
 					<Event_Type>STORY_TRIGGER</Event_Type>
@@ -1112,10 +1112,10 @@ Tarkin: A mere setback, yet completely avoidable. Have the fleet commander repor
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActIV_Mission_Eleven_Win_Disable_Branch</Prereq>
 	</Event>
-			
+
 <!-- Tarkin babbles on about Dantooine
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_07
-Tarkin: She lied to us!  The remains of a Rebel base at Dantooine had been abandoned for some time-->	
+Tarkin: She lied to us!  The remains of a Rebel base at Dantooine had been abandoned for some time-->
 	<Event Name="Empire_Act04_Tarkin_Talks_about_Dantooine_Start_Dialog">
 		<Event_Type>STORY_GENERIC</Event_Type>
 		<Event_Param1>battle_end_closed</Event_Param1>
@@ -1135,13 +1135,13 @@ Tarkin: She lied to us!  The remains of a Rebel base at Dantooine had been aband
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_ELEVEN_07</Reward_Param8> <!-- Put speech file name here -->
 		<Prereq>Empire_Act04_Tarkin_Talks_about_Dantooine_Start_Dialog</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act04_Tarkin_Talks_about_Dantooine_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT04_MISSION_ELEVEN_07</Event_Param1>
@@ -1153,18 +1153,18 @@ Tarkin: She lied to us!  The remains of a Rebel base at Dantooine had been aband
 
 <!-- Vader babbles on about Obiwan
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_08
-Darth Vader: No matter.  With Obi-Wan vanquished, any further resistance will soon be crushed.-->				
+Darth Vader: No matter.  With Obi-Wan vanquished, any further resistance will soon be crushed.-->
 	<Event Name="Empire_Act04_Vader_Talks_about_Obiwan">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_ELEVEN_08</Reward_Param8> <!-- Put speech file name here -->
 		<Prereq>Empire_Act04_Tarkin_Talks_about_Dantooine_Remove_Text</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act04_Vader_Talks_about_Obiwan_Remove_Text">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT04_MISSION_ELEVEN_08</Event_Param1>
@@ -1176,12 +1176,12 @@ Darth Vader: No matter.  With Obi-Wan vanquished, any further resistance will so
 
 <!-- Tarkin talks about escape from death star
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_09
-Tarkin: What of the Princess and her collaborators?-->			
+Tarkin: What of the Princess and her collaborators?-->
 	<Event Name="Empire_ActIV_Mission_Eleven_End_Dialog_02a">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_ELEVEN_09</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1202,7 +1202,7 @@ Tarkin: What of the Princess and her collaborators?-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_ELEVEN_10</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1218,13 +1218,13 @@ Tarkin: What of the Princess and her collaborators?-->
 		<Prereq>Empire_ActIV_Mission_Eleven_End_Dialog_03</Prereq>
 	</Event>
 
-<!-- Tarkin Speaks 3 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_11 Tarkin: You're sure the homing beacon is secure aboard their ship?  
+<!-- Tarkin Speaks 3 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_11 Tarkin: You're sure the homing beacon is secure aboard their ship?
 I'm taking an awful risk, Vader, this had better work.-->
 	<Event Name="Empire_ActIV_Mission_Eleven_End_Dialog_04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_ELEVEN_11</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1245,7 +1245,7 @@ I'm taking an awful risk, Vader, this had better work.-->
 		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Empire_ActIV_Mission_Eleven_End_Dialog_05</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Wins_The_Game_Movie">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>1</Event_Param1>
@@ -1260,7 +1260,7 @@ I'm taking an awful risk, Vader, this had better work.-->
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_03</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_03</Reward_Param8>
 		<Reward_Param9>Emperor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1281,7 +1281,7 @@ I'm taking an awful risk, Vader, this had better work.-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_04</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1297,14 +1297,14 @@ I'm taking an awful risk, Vader, this had better work.-->
 		<Prereq>Empire_ActIV_Mission_Twelve_Intro_Dialog_01</Prereq>
 	</Event>
 
-<!-- Emperor Speaks 2 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_05 
-Emperor: I have sensed that this rebellion is seeking, in its final desperate hours, to attack the Death Star.  
+<!-- Emperor Speaks 2 TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_05
+Emperor: I have sensed that this rebellion is seeking, in its final desperate hours, to attack the Death Star.
 They have managed to consolidate their forces on five worlds.  Destroy them.  All of them!-->
 	<Event Name="Empire_ActIV_Mission_Twelve_Intro_Dialog_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_05</Reward_Param8>
 		<Reward_Param9>Emperor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1325,7 +1325,7 @@ They have managed to consolidate their forces on five worlds.  Destroy them.  Al
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_06</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1346,7 +1346,7 @@ They have managed to consolidate their forces on five worlds.  Destroy them.  Al
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_07</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1367,7 +1367,7 @@ They have managed to consolidate their forces on five worlds.  Destroy them.  Al
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_08</Reward_Param8>
 		<Reward_Param9>Emperor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1388,7 +1388,7 @@ They have managed to consolidate their forces on five worlds.  Destroy them.  Al
 		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 		<Prereq>Empire_ActIV_Mission_Twelve_Intro_Dialog_06</Prereq>
 	</Event>
-	
+
 	<!-- Important for ending cutscenes! -->
 	<Event Name="Empire_ActIV_Mission_Twelve_01">
 		<Event_Type>STORY_ELAPSED</Event_Type>
@@ -1396,8 +1396,8 @@ They have managed to consolidate their forces on five worlds.  Destroy them.  Al
 		<Prereq>Empire_ActIV_Mission_Twelve_Intro_Dialog_06_Stop_Movie</Prereq>
 	</Event>
 
-<!-- TASK Text TEXT_STORY_EMPIRE_ACT04_MISSION_TWELVE_02 
-TASK: Take full control of Alzoc III, Polus, Shola, Hoth and Yavin.  
+<!-- TASK Text TEXT_STORY_EMPIRE_ACT04_MISSION_TWELVE_02
+TASK: Take full control of Alzoc III, Polus, Shola, Hoth and Yavin.
 Use the Death Star to eliminate particularly difficult conflicts.-->
 	<Event Name="Empire_ActIV_Mission_Twelve_Intro_Dialog_06b">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -1407,17 +1407,17 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
 		<Prereq>Empire_ActIV_Mission_Twelve_Intro_Dialog_06</Prereq>
 	</Event>
-	
+
 	<!--ADD holocron for end game -->
 	<Event Name="Empire_ActIV_Holocron_EndGame_Entry">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Empire_Story_Campaign</Story_Dialog>
 		<Story_Chapter>12</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Empire_ActIV_Holocron_EndGame_Entry</Story_Tag>
 		<Prereq>Empire_ActIV_Mission_Twelve_Intro_Dialog_06b</Prereq>
 	</Event>
-	
+
 <!-- Do not modify this tech level without consulting campaign designers -->
 	<Event Name="Empire_ActIV_Advance_Rebel_Tech_4">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -1440,22 +1440,22 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 	<Event Name="Empire_ActIV_Reveal_Final_Planets_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REVEAL_PLANET</Reward_Type>
-		<Reward_Param1>Yavin</Reward_Param1>
+		<Reward_Param1>Yavin_Story</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActIV_Holocron_EndGame_Entry</Prereq>
 	</Event>
-	
+
 <!-- jdg 8/26/05 flagging Yavin planet here xxx-->
 	<Event Name="Empire_Act4_Mission_Two_Flash_Yavin">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
-		<Reward_Param1>Yavin</Reward_Param1>
+		<Reward_Param1>Yavin_Story</Reward_Param1>
 		<Reward_Param2>FLASH_PLANET</Reward_Param2>
 		<Reward_Param4>Yavin_GUI_Flash</Reward_Param4>
 		<Reward_Param5>True</Reward_Param5>
 		<Prereq>Empire_ActIV_Holocron_EndGame_Entry</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActIV_Reveal_Final_Planets_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REVEAL_PLANET</Reward_Type>
@@ -1463,7 +1463,7 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActIV_Holocron_EndGame_Entry</Prereq>
 	</Event>
-	
+
 <!-- jdg 8/26/05 flagging AlzocIII planet here -->
 	<Event Name="Empire_Act4_Mission_Two_Flash_AlzocIII">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -1482,7 +1482,7 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActIV_Holocron_EndGame_Entry</Prereq>
 	</Event>
-	
+
 <!-- jdg 8/26/05 flagging Shola planet here -->
 	<Event Name="Empire_Act4_Mission_Two_Flash_Shola">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -1501,7 +1501,7 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActIV_Holocron_EndGame_Entry</Prereq>
 	</Event>
-	
+
 <!-- jdg 8/26/05 flagging Hoth planet here -->
 	<Event Name="Empire_Act4_Mission_Two_Flash_Hoth">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -1520,7 +1520,7 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActIV_Holocron_EndGame_Entry</Prereq>
 	</Event>
-	
+
 <!-- jdg 8/26/05 flagging Polus planet here -->
 	<Event Name="Empire_Act4_Mission_Two_Flash_Polus">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -1560,11 +1560,11 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 
 	<Event Name="A04_M12_Conquer_to_Win_00">
 		<Event_Type>STORY_CONQUER</Event_Type>
-		<Event_Param1>Yavin</Event_Param1>
+		<Event_Param1>Yavin_Story</Event_Param1>
 		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
 		<Prereq>Empire_ActIV_Holocron_EndGame_Entry</Prereq>
 	</Event>
-	
+
 				<Event Name="A04_M12_RemoveFlash_Yavin">
 					<Event_Type>STORY_TRIGGER</Event_Type>
 					<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
@@ -1586,19 +1586,19 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Event_Param1>battle_end_closed</Event_Param1>
 		<Prereq>A04_M12_Conquer_to_Win_00a</Prereq>
 	</Event>
-		
+
 	<Event Name="A04_M12_Conquer_to_Win_00b">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_31</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_31</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>A04_M12_Conquer_to_Win_00b_Start_Dialog</Prereq>
 	</Event>
-	
+
 	<Event Name="A04_M12_Conquer_to_Win_00c">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT04_MISSION_TWELVE_31</Event_Param1>
@@ -1607,18 +1607,18 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>A04_M12_Conquer_to_Win_00b</Prereq>
 	</Event>
-	
+
 	<Event Name="A04_M12_Conquer_to_Win_00d">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_32</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_32</Reward_Param8>
 		<Reward_Param9>Emperor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>A04_M12_Conquer_to_Win_00c</Prereq>
 	</Event>
-	
+
 	<Event Name="A04_M12_Conquer_to_Win_00e">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT04_MISSION_TWELVE_32</Event_Param1>
@@ -1632,13 +1632,13 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_33</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_33</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>A04_M12_Conquer_to_Win_00e</Prereq>
 	</Event>
-	
+
 	<Event Name="A04_M12_Conquer_to_Win_00g">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT04_MISSION_TWELVE_33</Event_Param1>
@@ -1647,7 +1647,7 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>A04_M12_Conquer_to_Win_00f</Prereq>
 	</Event>
-	
+
 	<Event Name="A04_M12_Conquer_to_Win_00h">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
@@ -1660,7 +1660,7 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
 		<Prereq>Empire_ActIV_Holocron_EndGame_Entry</Prereq>
 	</Event>
-	
+
 				<Event Name="A04_M12_RemoveFlash_AlzocIII">
 					<Event_Type>STORY_TRIGGER</Event_Type>
 					<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
@@ -1695,13 +1695,13 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_34</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_34</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>A04_M12_Conquer_to_Win_01b_Start_Dialog</Prereq>
 	</Event>
-	
+
 	<Event Name="A04_M12_Conquer_to_Win_01c">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT04_MISSION_TWELVE_34</Event_Param1>
@@ -1715,7 +1715,7 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_35</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_35</Reward_Param8>
 		<Reward_Param9>Emperor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1730,7 +1730,7 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>A04_M12_Conquer_to_Win_01d</Prereq>
 	</Event>
-	
+
 	<Event Name="A04_M12_Conquer_to_Win_01f">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
@@ -1743,7 +1743,7 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
 		<Prereq>Empire_ActIV_Holocron_EndGame_Entry</Prereq>
 	</Event>
-	
+
 				<Event Name="A04_M12_RemoveFlash_Shola">
 					<Event_Type>STORY_TRIGGER</Event_Type>
 					<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
@@ -1776,20 +1776,20 @@ Use the Death Star to eliminate particularly difficult conflicts.-->
 
 
 <!-- TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_36
-Tarkin: As you can see, Lord Vader, our efforts were not in vain.  
+Tarkin: As you can see, Lord Vader, our efforts were not in vain.
 Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 	<Event Name="A04_M12_Conquer_to_Win_02b">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_36</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_36</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Prereq>A04_M12_Conquer_to_Win_02b_Start_Dialog</Prereq>
 	</Event>
-	
+
 	<Event Name="A04_M12_Conquer_to_Win_02c">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT04_MISSION_TWELVE_36</Event_Param1>
@@ -1798,12 +1798,12 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>A04_M12_Conquer_to_Win_02b</Prereq>
 	</Event>
-	
+
 	<Event Name="A04_M12_Conquer_to_Win_02d">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_37</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_37</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1831,7 +1831,7 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
 		<Prereq>Empire_ActIV_Holocron_EndGame_Entry</Prereq>
 	</Event>
-	
+
 				<Event Name="A04_M12_RemoveFlash_Hoth">
 					<Event_Type>STORY_TRIGGER</Event_Type>
 					<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
@@ -1847,14 +1847,14 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>A04_M12_Conquer_to_Win_03</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Check_Planet_Counter_03">
 		<Event_Type>STORY_FLAG</Event_Type>
 		<Event_Param1>End_Planet_Counter</Event_Param1>
 		<Event_Param2>3</Event_Param2>
 		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
 	</Event>
-	
+
 	<Event Name="A04_M12_Conquer_to_Win_03b_Start_Dialog">
 		<Event_Type>STORY_GENERIC</Event_Type>
 		<Event_Param1>battle_end_closed</Event_Param1>
@@ -1866,7 +1866,7 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_38</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_38</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1881,12 +1881,12 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>A04_M12_Conquer_to_Win_03b</Prereq>
 	</Event>
-	
+
 	<Event Name="A04_M12_Conquer_to_Win_03d">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_39</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_39</Reward_Param8>
 		<Reward_Param9>Emperor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1914,7 +1914,7 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
 		<Prereq>Empire_ActIV_Holocron_EndGame_Entry</Prereq>
 	</Event>
-	
+
 				<Event Name="A04_M12_RemoveFlash_Polus">
 					<Event_Type>STORY_TRIGGER</Event_Type>
 					<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
@@ -1951,7 +1951,7 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_09</Reward_Param8>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1972,7 +1972,7 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_10</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1993,7 +1993,7 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_TWELVE_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT04_MISSION_TWELVE_11</Reward_Param8>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -2022,7 +2022,7 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Reward_Param1>Empire</Reward_Param1>
 		<Prereq>A04_M12_Conquer_to_Win_00 A04_M12_Conquer_to_Win_01 A04_M12_Conquer_to_Win_02 A04_M12_Conquer_to_Win_03 A04_M12_Conquer_to_Win_04</Prereq>
 	</Event>
-	
+
 	<!-- Ending if Death Star is used on the final planet -->
 
 	<Event Name="Winning_Movie_Death_Star">
@@ -2030,7 +2030,7 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Event_Param2>Win_GC_Death_Star</Event_Param2>
 		<Prereq>Empire_ActIV_Mission_Twelve_01</Prereq>
 	</Event>
-	
+
 	<Event Name="AI_Stop">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SWITCH_CONTROL</Reward_Type>
@@ -2038,13 +2038,13 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Reward_Param2>None</Reward_Param2>
 		<Prereq>Winning_Movie_Death_Star</Prereq>
 	</Event>
-	
+
 	<Event Name="Winning_Preset_Death_Star">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>1</Event_Param1>
 		<Prereq>Winning_Movie_Death_Star</Prereq>
 	</Event>
-	
+
 	<Event Name="Winning_Begin_Death_Star">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>Winning_Preset_Death_Star</Prereq>
@@ -2061,16 +2061,16 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Event_Type>STORY_MOVIE_DONE</Event_Type>
 		<Prereq>Winning_Movie_Start_Death_Star</Prereq>
 	</Event>
-	
+
 	<!-- Alternate Ending if Death Star is not used on the final planet -->
-	
+
 	<Event Name="Winning_Movie">
 		<!-- Can only be used if Winning in GC is disabled -->
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>Win_GC</Event_Param2>
 		<Prereq>Empire_ActIV_Mission_Twelve_01</Prereq>
 	</Event>
-	
+
 	<Event Name="AI_Stop_Win">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SWITCH_CONTROL</Reward_Type>
@@ -2078,13 +2078,13 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Reward_Param2>None</Reward_Param2>
 		<Prereq>Winning_Movie</Prereq>
 	</Event>
-	
+
 	<Event Name="Winning_Preset">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>1</Event_Param1>
 		<Prereq>Winning_Movie</Prereq>
 	</Event>
-	
+
 	<Event Name="Winning_Begin">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>Winning_Preset</Prereq>
@@ -2101,7 +2101,7 @@ Like a cornered animal, the Rebellion panics in its last gasps for survival. -->
 		<Event_Type>STORY_MOVIE_DONE</Event_Type>
 		<Prereq>Winning_Movie_Start</Prereq>
 	</Event>
-	
+
 	<!-- COMPLETE holocron for end game -->
 				<Event Name="Empire_ActIV_Holocron_EndGame_Entry_Completed">
 					<Event_Type>STORY_TRIGGER</Event_Type>

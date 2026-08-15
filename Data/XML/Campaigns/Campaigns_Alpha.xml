@@ -172,7 +172,7 @@
 			Thyferra,
 			VergessoAsteroids,
 			Wayland,
-			Yavin
+			Yavin_Story
 		</Locations>
 
 		<Autoresolve_Exclusion_Locations>
@@ -817,26 +817,26 @@ Manaan AetenII Dantooine Wayland Fresia & Bothawui, Atzerri -->
 
 		<!-- Yavin - 6 -->
 		<!-- dme 11/8/05- changing to fighter heavy battle -->
-		<Starting_Forces>Rebel, Yavin, Ground_Ion_Cannon</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, R_Ground_Base_Shield</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Rebel_Ground_Mining_Facility</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, R_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, R_Ground_Light_Vehicle_Factory</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, R_Ground_Heavy_Vehicle_Factory</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Ground_Ion_Cannon</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, R_Ground_Base_Shield</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_Ground_Mining_Facility</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, R_Ground_Light_Vehicle_Factory</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, R_Ground_Heavy_Vehicle_Factory</Starting_Forces>
 
-		<Starting_Forces>Rebel, Yavin, Rebel_Infantry_Squad</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Rebel_Tank_Buster_Squad</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Rebel_Artillery_Brigade</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Rebel_Heavy_Tank_Brigade</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Rebel_Speeder_Wing</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_Tank_Buster_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_Artillery_Brigade</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_Heavy_Tank_Brigade</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_Speeder_Wing</Starting_Forces>
 
-		<Starting_Forces>Rebel, Yavin, Rebel_Star_Base_3</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_Star_Base_3</Starting_Forces>
 
-		<Starting_Forces>Rebel, Yavin, Rebel_X-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Y-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Corellian_Corvette</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Marauder_Missile_Cruiser</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Alliance_Assault_Frigate</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_X-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Marauder_Missile_Cruiser</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Alliance_Assault_Frigate</Starting_Forces>
 
 		<!-- Alzoc III - 5 -->
 		<!-- dme 11/8/05- changing to Marauder & Nebulon B heavy battle -->
@@ -1009,13 +1009,13 @@ Manaan AetenII Dantooine Wayland Fresia & Bothawui, Atzerri -->
 			Thyferra,
 			VergessoAsteroids,
 			Wayland,
-			Yavin
+			Yavin_Story
 		</Locations>
 
 		<Trade_Routes>
 			AetenII_Wayland,
-			Alderaan_Yavin,
-			Dantooine_Yavin,
+			Alderaan_Yavin_Story,
+			Dantooine_Yavin_Story,
 			Corellia_Geonosis,
 			Thyferra_Fondor,
 			Fondor_Abregado_Rae,
@@ -1077,14 +1077,14 @@ Manaan AetenII Dantooine Wayland Fresia & Bothawui, Atzerri -->
 		<Starting_Forces>Rebel, Dantooine, Rebel_Tank_Buster_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Dantooine, Rebel_Tank_Buster_Squad</Starting_Forces>
 
-		<Starting_Forces>Rebel, Yavin, R_Ground_Light_Vehicle_Factory</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, R_Ground_Light_Vehicle_Factory</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_Star_Base_1</Starting_Forces>
 
-		<Starting_Forces>Rebel, Yavin, Rebel_Infantry_Squad</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Rebel_Infantry_Squad</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Rebel_Tank_Buster_Squad</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Rebel_Tank_Buster_Squad</Starting_Forces>
-		<Starting_Forces>Rebel, Yavin, Rebel_Light_Tank_Brigade</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_Tank_Buster_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_Tank_Buster_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_Story, Rebel_Light_Tank_Brigade</Starting_Forces>
 
 		<Starting_Forces>Rebel, Alderaan, R_Ground_Barracks</Starting_Forces>
 		<Starting_Forces>Rebel, Alderaan, Rebel_Star_Base_1</Starting_Forces>

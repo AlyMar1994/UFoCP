@@ -158,6 +158,14 @@
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
 
+	<TradeRoute Name="Alderaan_Yavin_Story">
+		<Point_A>Alderaan</Point_A>
+		<Point_B>Yavin_Story</Point_B>
+		<HS_Speed_Factor>6.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+	</TradeRoute>
+
 
 	<!-- Used for Small Campaign Map -->
 	<TradeRoute Name="Abregado_Rae_Coruscant">
@@ -667,6 +675,15 @@
 	<TradeRoute Name="Dantooine_Yavin">
 		<Point_A>Dantooine</Point_A>
 		<Point_B>Yavin</Point_B>
+		<HS_Speed_Factor>5.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+		<Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+
+	<TradeRoute Name="Dantooine_Yavin_Story">
+		<Point_A>Dantooine</Point_A>
+		<Point_B>Yavin_Story</Point_B>
 		<HS_Speed_Factor>5.0</HS_Speed_Factor>
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
@@ -1206,7 +1223,7 @@
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
-	
+
 	<!-- EAW Campaign -->
 	<!-- ============ -->
 	<TradeRoute Name="Kashyyyk_MonCalimari">
@@ -1216,7 +1233,7 @@
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
-	
+
 	<TradeRoute Name="Kessel_MonCalimari">
 		<Point_A>Kessel</Point_A>
 		<Point_B>MonCalimari</Point_B>
@@ -1224,7 +1241,7 @@
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
-	
+
 	<TradeRoute Name="Kuat_MonCalimari">
 		<Point_A>Kuat</Point_A>
 		<Point_B>MonCalimari</Point_B>
@@ -2368,7 +2385,7 @@
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
-	
+
 	<!-- EAW Campaign -->
     <TradeRoute Name="AetenII_Wayland">
 		<Point_A>AetenII</Point_A>
@@ -2434,7 +2451,7 @@
 		<Political_Control_Gain>0</Political_Control_Gain>
 		<Credit_Gain_Factor>0.5</Credit_Gain_Factor>
 	</TradeRoute>
-	
+
 	<!-- EAW Campaign -->
 	<TradeRoute Name="Bonadan_Dantooine">
 		<Point_A>Bonadan</Point_A>
