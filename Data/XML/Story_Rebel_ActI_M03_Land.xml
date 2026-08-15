@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+
+<Story>
+
+
+<!-- Initial Setup -->
+
+
+	<Event Name="Rebel_Act1_M03_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Rebel_M03_Autoresolve_Off">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIDE_AUTORESOLVE</Reward_Type>
+		<Prereq>Rebel_Act1_M03_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_Act1_M03_Prevent_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>EMPIRE</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_Act1_M03_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_Act1_M03_Win_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_A01M03_Win</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Rebel_Act1_M03_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_Act1_M03_Prevent_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Rebel_Act1_M03_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_Act1_M03_Xwing_Destroyed_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Xwing_Destroyed</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Rebel_Act1_M03_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_Act1_M03_Dead_AA_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_A01M03_Dead_AA</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Rebel_Act1_M03_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_Act1_M03_Captured_XWing_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Pilot_Captures_XWing</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Rebel_Act1_M03_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_Act1_M03_Pilot_Dead_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_Pilot_Dead</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Rebel_Act1_M03_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_Act1_M03_Pilot_Switch_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_Pilot_Switch</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Rebel_Act1_M03_Begin</Prereq>
+	</Event>
+
+
+	<Event Name="Rebel_ActI_M03_Ready_To_Begin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_Act1_M03_Xwing_Destroyed_Flag_Set Rebel_Act1_M03_Dead_AA_Flag_Set Rebel_Act1_M03_Captured_XWing_Flag_Set Rebel_Act1_M03_Pilot_Dead_Flag_Set Rebel_Act1_M03_Pilot_Switch_Set</Prereq>
+	</Event>
+
+
+
+
+	<!-- Antilles 
+	TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_08
+	Antilles: There's your target!  Get the pilots to those X-wings! -->
+	<Event Name="Rebel_ActI_M03_Entry_Speech_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>M03_INTRO_DIALOG_01_GO</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_08</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT01_MISSION_THREE_08</Reward_Param8>
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActI_M03_Ready_To_Begin</Prereq>
+	</Event>
+
+			<Event Name="Rebel_ActI_M03_Entry_Speech_00a">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT01_MISSION_THREE_08</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_08</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_ActI_M03_Entry_Speech_00</Prereq>
+			</Event>
+
+			<Event Name="Rebel_ActI_M03_Entry_Speech_00b">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+				<Prereq>Rebel_ActI_M03_Entry_Speech_00a</Prereq>
+			</Event>
+
+	<Event Name="Rebel_ActI_M03_Entry_Speech_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>CHANGE_OWNER</Reward_Type>
+		<Reward_Param1>INVISIBLE_REVEAL_OBJECT</Reward_Param1>
+		<Reward_Param2>Rebel</Reward_Param2>	
+		<Prereq>Rebel_ActI_M03_Entry_Speech_00</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_M03_Entry_Speech_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>Capturable_Xwing</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>	
+		<Reward_Param3>0</Reward_Param3>	
+		<Prereq>Rebel_ActI_M03_Entry_Speech_00</Prereq>
+	</Event>
+
+<!-- TEXT_STORY_REBEL_ACT01_MISSION_THREE_09
+Task: Protect the pilots and get them to the X-wings.-->
+	<Event Name="Rebel_ActI_M03_Entry_Speech_04">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>M03_INTRO_DIALOG_02_GO</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_09</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Rebel_ActI_M03_Entry_Speech_00a</Prereq>
+	</Event>
+	
+					<Event Name="Rebel_ActI_M03_Flag_The_Xwings">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+						<Reward_Param1>STORY_TRIGGER_ZONE_00</Reward_Param1>	
+						<Reward_Param2>1</Reward_Param2>		
+						<Reward_Param3>1</Reward_Param3>
+						<Prereq>Rebel_ActI_M03_Entry_Speech_04</Prereq>
+					</Event>
+
+<!-- ADDING objectives here 
+TEXT_STORY_REBEL_ACT01_MISSION_THREE_31
+At least one pilot must survive.
+
+TEXT_STORY_REBEL_ACT01_MISSION_THREE_32
+Escort the pilots to the X-Wings.
+
+TEXT_STORY_REBEL_ACT01_MISSION_THREE_100
+Destroy the Power Generator to disable the Turbo Laser Towers.-->
+
+					<Event Name="Rebel_ActI_M03_ADDING_OBJECTIVE_Protect_Pilots">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+						<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_31</Reward_Param1>
+						<Prereq>Rebel_ActI_M03_Entry_Speech_04</Prereq>
+					</Event>
+					
+					<Event Name="Rebel_ActI_M03_ADDING_OBJECTIVE_Escort_Pilots">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+						<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_32</Reward_Param1>
+						<Prereq>Rebel_ActI_M03_Entry_Speech_04</Prereq>
+					</Event>
+					
+					<Event Name="Rebel_ActI_M03_ADDING_OBJECTIVE_Destroy_PowerGenerator">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+						<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_100</Reward_Param1>
+						<Prereq>Rebel_ActI_M03_Entry_Speech_04</Prereq>
+					</Event>
+
+	<Event Name="Rebel_ActI_M03_POWER_Destroyed">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>POWER_GENERATOR_E</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Prereq>Rebel_ActI_M03_Entry_Speech_04</Prereq>
+	</Event>
+	
+					<Event Name="Rebel_ActI_M03_COMPLETE_OBJECTIVE_Destroy_PowerGenerator">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+						<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_100</Reward_Param1>
+						<Prereq>Rebel_ActI_M03_POWER_Destroyed</Prereq>
+					</Event>
+
+
+<!-- Count dead pilots/xwings -->
+
+   <!-- A pilot has either been despawned or destroyed -->
+	<Event Name="Rebel_ActI_M03_Pilot_Destroyed_00">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Rebel_Pilot</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_Pilot_Dead</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+
+		<!-- A second pilot tracking flag used to know when to notify player of pilot death -->
+		<!-- When a pilot is despawned, this variable is decrememnted so if it ever reaches -->
+		<!-- a value of 1 it means that a pilot has died and not despawned.					-->
+		
+      	<Event Name="Rebel_ActI_M03_Pilot_Destroyed_01">
+      		<Event_Type>STORY_ELAPSED</Event_Type>
+			<Event_Param1>2</Event_Param1>
+      		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+      		<Reward_Param1>Rebel_Pilot_Switch</Reward_Param1>
+      		<Reward_Param2>1</Reward_Param2>
+            <Prereq>Rebel_ActI_M03_Pilot_Destroyed_00</Prereq>
+      	</Event>
+
+
+         <!-- Screen text to tell the player that a pilot has died 
+         TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_10
+         Rebel Soldier: We've lost one of the pilots!  Keep them safe!-->
+      	<Event Name="Rebel_ActI_M03_Pilot_Destroyed_02">
+      		<Event_Type>STORY_FLAG</Event_Type>
+      		<Event_Param1>Rebel_Pilot_Switch</Event_Param1>
+      		<Event_Param2>1</Event_Param2>
+      		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
+			<Reward_Type>MULTIMEDIA</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_10</Reward_Param1>
+			<Reward_Param2>-1</Reward_Param2>	
+			<Reward_Param8>REBEL_ACT01_MISSION_THREE_10</Reward_Param8>
+			<Reward_Param9>Rebel_Trooper_Loop</Reward_Param9>
+			<Reward_Param10>1</Reward_Param10>
+            <Prereq>Rebel_ActI_M03_Pilot_Destroyed_01</Prereq>
+      	</Event>
+
+			<Event Name="Rebel_ActI_M03_Pilot_Destroyed_02a">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT01_MISSION_THREE_10</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_10</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_ActI_M03_Pilot_Destroyed_02</Prereq>
+			</Event>
+
+			<Event Name="Rebel_ActI_M03_Pilot_Destroyed_02aa">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+				<Prereq>Rebel_ActI_M03_Pilot_Destroyed_02a</Prereq>
+			</Event>
+
+<!-- Hint: Pilots aren't combat units!  Keep them away from conflict! -->
+			<Event Name="Rebel_ActI_M03_Pilot_Destroyed_02b">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_11</Reward_Param1>
+				<Reward_Param2>10</Reward_Param2>	
+				<Reward_Param7>Hint</Reward_Param7><!-- HINT color coding - green -->
+				<Prereq>Rebel_ActI_M03_Pilot_Destroyed_02a</Prereq>
+			</Event>
+
+         <!-- Decrememnt the variable so the screen text is only created once per pilot death -->
+      	<Event Name="Rebel_ActI_M03_Pilot_Destroyed_03">
+      		<Event_Type>STORY_TRIGGER</Event_Type>
+      		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+      		<Reward_Param1>Rebel_Pilot_Switch</Reward_Param1>
+      		<Reward_Param2>-1</Reward_Param2>
+            <Prereq>Rebel_ActI_M03_Pilot_Destroyed_02</Prereq>
+      	</Event>
+
+
+
+
+
+   <!-- When a pilot reaches an xwing, he'll despawn triggering STORY_TACTICAL_DESTROY.
+        Decrement the death counter to offset this -->
+	<Event Name="Rebel_ActI_M03_Pilot_Despawned">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>pilot_despawned</Event_Param2>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Pilot_Captures_XWing</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+      <Perpetual>True</Perpetual>
+	</Event>
+	
+			<!-- Turning of hilhlight on x-wings since pilot has reached them-->
+			<Event Name="Rebel_ActI_M03_Xwing_Highlight_Off">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+				<Reward_Param1>STORY_TRIGGER_ZONE_00</Reward_Param1>
+				<Reward_Param2>0</Reward_Param2>	
+				<Reward_Param3>1</Reward_Param3>	
+				<Prereq>Rebel_ActI_M03_Pilot_Despawned</Prereq>
+			</Event>
+
+         <!-- Screen text to tell the player that a pilot has captured an xwing 
+         TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_14
+         Rebel Pilot: I've reached the an X-wing.  Beginning power-up sequence… .-->
+      	<Event Name="Rebel_ActI_M03_Pilot_Despawned_00">
+      		<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>MULTIMEDIA</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_14</Reward_Param1>
+			<Reward_Param2>-1</Reward_Param2>	
+			<Reward_Param8>REBEL_ACT01_MISSION_THREE_14</Reward_Param8>
+			<Reward_Param9>Wedge_Loop</Reward_Param9>
+			<Reward_Param10>1</Reward_Param10>
+            <Prereq>Rebel_ActI_M03_Pilot_Despawned</Prereq>
+      	</Event>
+
+			<Event Name="Rebel_ActI_M03_Pilot_Despawned_00a">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT01_MISSION_THREE_14</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_14</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_ActI_M03_Pilot_Despawned_00</Prereq>
+			</Event>
+
+			<Event Name="Rebel_ActI_M03_Pilot_Despawned_00b">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+				<Prereq>Rebel_ActI_M03_Pilot_Despawned_00a</Prereq>
+			</Event>
+
+
+         <!-- Decrement the pilot dead flag so the tactical destroy event won't cause a screen message -->
+      	<Event Name="Rebel_ActI_M03_Pilot_Despawned_02">
+      		<Event_Type>STORY_TRIGGER</Event_Type>
+      		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+      		<Reward_Param1>Rebel_Pilot_Dead</Reward_Param1>
+      		<Reward_Param2>-1</Reward_Param2>
+            <Perpetual>True</Perpetual>
+            <Prereq>Rebel_ActI_M03_Pilot_Despawned</Prereq>
+      	</Event>
+
+
+
+
+
+   <!-- Track xwings being destroyed -->
+	<Event Name="Rebel_ActI_M03_Xwing_Destroyed_00">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>CAPTUREABLE_XWING</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Xwing_Destroyed</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActI_M03_Pilot_Despawned</Prereq>
+		<Perpetual>True</Perpetual>
+	</Event>
+
+         <!-- Screen text to tell the player that an xwing has been destroyed 
+         TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_18
+         Antilles: We've lost an X-wing!  We need them intact or they're no good to us!-->
+      	<Event Name="Rebel_ActI_M03_Xwing_Destroyed_01">
+      		<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>MULTIMEDIA</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_18</Reward_Param1>
+			<Reward_Param2>-1</Reward_Param2>	
+			<Reward_Param8>REBEL_ACT01_MISSION_THREE_18</Reward_Param8>
+			<Reward_Param9>Antillies_Loop</Reward_Param9>
+			<Reward_Param10>1</Reward_Param10>
+            <Prereq>Rebel_ActI_M03_Xwing_Destroyed_00</Prereq>
+      	</Event>
+
+		<Event Name="Rebel_ActI_M03_Xwing_Destroyed_02">
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>REBEL_ACT01_MISSION_THREE_18</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_18</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>	
+			<Prereq>Rebel_ActI_M03_Xwing_Destroyed_01</Prereq>
+		</Event>
+		
+			<Event Name="Rebel_ActI_M03_Xwing_Destroyed_01_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Rebel_ActI_M03_Xwing_Destroyed_02</Prereq>
+			</Event>
+
+
+
+
+
+<!-- Empire reinforcements spotted 
+TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_12
+Antilles: Get more troops down there!  
+If that landing zone is taken, this mission will be over before it starts!-->
+   <Event Name="Rebel_ActI_M03_Reinforcements_Spotted">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>m03_reinforcements_spotted</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_12</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT01_MISSION_THREE_12</Reward_Param8>
+		<Reward_Param9>Antilles_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+   </Event>
+
+		<Event Name="Rebel_ActI_M03_Reinforcements_Spotted_00">
+			<Event_Type>STORY_SPEECH_DONE</Event_Type>
+			<Event_Param1>REBEL_ACT01_MISSION_THREE_12</Event_Param1>
+			<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_12</Reward_Param1>
+			<Reward_Param4>Remove</Reward_Param4>	
+			<Prereq>Rebel_ActI_M03_Reinforcements_Spotted</Prereq>
+		</Event>
+
+                             <Event Name="Rebel_ActI_M03_Reinforcements_Spotted_00_RemoveMovie">
+                    			<Event_Type>STORY_TRIGGER</Event_Type>
+                    			<Reward_Type>STOP _COMMANDBAR_MOVIE</Reward_Type>
+                    			<Prereq>Rebel_ActI_M03_Reinforcements_Spotted_00</Prereq>
+                    		</Event>
+
+
+
+
+
+
+
+<!-- Count destroyed AA turrets -->
+
+   <!-- When this event is triggered, we know at least one pilot made it to an xwing -->
+	<Event Name="Rebel_ActI_M03_Pilot_Despawned_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Prereq>Rebel_ActI_M03_Pilot_Despawned</Prereq>
+	</Event>
+	
+ <!-- COMPLETING objective here
+  TEXT_STORY_REBEL_ACT01_MISSION_THREE_32
+  Escort the pilots to the X-Wings.
+  
+  TEXT_STORY_REBEL_ACT01_MISSION_THREE_31
+At least one pilot must survive.-->	
+  
+  					<Event Name="Rebel_ActI_M03_COMPLETE_OBJECTIVE_Escort_Pilots">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+						<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_32</Reward_Param1>
+						<Prereq>Rebel_ActI_M03_Pilot_Despawned_01</Prereq>
+					</Event>
+					
+					<Event Name="Rebel_ActI_M03_COMPLETE_OBJECTIVE_Protect_Pilots">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+						<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_31</Reward_Param1>
+						<Prereq>Rebel_ActI_M03_Pilot_Despawned_01</Prereq>
+					</Event>
+					
+ <!-- turn off lose conditions-->	
+ 
+					<Event Name="Rebel_ActI_M03_Turn_Off_Pilots_Lost_LoseScripts">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+						<Reward_Param1>Rebel_ActI_M03_All_Pilots_Destroyed_Cue_Loss</Reward_Param1>
+						<Reward_Param2>1</Reward_Param2>
+						<Prereq>Rebel_ActI_M03_COMPLETE_OBJECTIVE_Protect_Pilots</Prereq>
+					</Event>
+
+                     <Event Name="Rebel_ActI_M03_Turn_Off_Pilots_Lost_DialogScripts">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+						<Reward_Param1>Rebel_ActI_M03_Pilot_Destroyed_02</Reward_Param1>
+						<Reward_Param2>1</Reward_Param2>
+						<Prereq>Rebel_ActI_M03_COMPLETE_OBJECTIVE_Protect_Pilots</Prereq>
+					</Event>
+
+
+
+
+
+
+
+   <!-- Screen text to tell the player that he needs to destroy the aa turrets 
+   TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_15
+   Rebel Pilot: Abort!  Abort launch sequence!  
+   I'm detecting anti-aircraft turrets all over the area!-->
+	<Event Name="Rebel_ActI_M03_Remove_AA">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_15</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT01_MISSION_THREE_15</Reward_Param8>
+		<Reward_Param9>Wedge_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActI_M03_Pilot_Despawned_01</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_M03_Remove_AA_00">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT01_MISSION_THREE_15</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_16</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT01_MISSION_THREE_16</Reward_Param8>
+		<Reward_Param9>Antilles_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActI_M03_Pilot_Despawned_01</Prereq>
+	</Event>
+
+			<Event Name="Rebel_ActI_M03_Remove_AA_00a">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_15</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_ActI_M03_Remove_AA_00</Prereq>
+			</Event>
+
+	<Event Name="Rebel_ActI_M03_Remove_AA_01">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT01_MISSION_THREE_16</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_16</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_ActI_M03_Remove_AA_00</Prereq>
+	</Event>
+
+                                    <Event Name="Rebel_ActI_M03_Remove_AA_01_RemoveMovie">
+                            			<Event_Type>STORY_TRIGGER</Event_Type>
+                            			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                            			<Prereq>Rebel_ActI_M03_Remove_AA_01</Prereq>
+                            		</Event>
+<!-- Task: Destroy all the Anti-Aircraft Turrets so the X-wings can take off.  -->
+	<Event Name="Rebel_ActI_M03_Remove_AA_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_17</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->	
+		<Prereq>Rebel_ActI_M03_Remove_AA_01</Prereq>
+	</Event>
+
+<!-- ADDING objective here
+ TEXT_STORY_REBEL_ACT01_MISSION_THREE_33
+ Destroy all anti-aircraft turrets.-->
+ 
+				<Event Name="Rebel_ActI_M03_ADDING_OBJECTIVE_Destroy_AA_Turrets">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+					<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_33</Reward_Param1>
+					<Prereq>Rebel_ActI_M03_Remove_AA_02</Prereq>
+				</Event>
+
+   <!-- Track destroyed anti-aircraft turrets once an xwing has been captured -->
+	<Event Name="Rebel_ActI_M03_AA_Destroyed_00">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Empire_Anti_Aircraft_Turret UC_Empire_Buildable_Anti_Aircraft_Turret</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_A01M03_Dead_AA</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Perpetual>True</Perpetual>
+		<Prereq>Rebel_ActI_M03_Pilot_Despawned_01</Prereq>
+	</Event>
+
+   <!-- The construction of an AA turret will cause the destruction of the under-construction AA turret so compensate for that -->
+	<Event Name="Rebel_ActI_M03_AA_Construct">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Empire_Anti_Aircraft_Turret</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_A01M03_Dead_AA</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Perpetual>True</Perpetual>
+		<Prereq>Rebel_ActI_M03_Pilot_Despawned_01</Prereq>
+	</Event>
+
+
+
+
+
+
+
+<!-- Check win conditions -->
+<!-- TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_20
+ Rebel Pilot: All turrets cleared!  Let's get these ships out of here!-->
+	<Event Name="Rebel_ActI_M03_Check_Win_00">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Rebel_A01M03_Dead_AA</Event_Param1>
+		<Event_Param2>8</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_20</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT01_MISSION_THREE_20</Reward_Param8>
+		<Reward_Param9>Wedge_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		 <Prereq>Rebel_ActI_M03_Ready_To_Begin</Prereq>
+	</Event>
+
+			<Event Name="Rebel_ActI_M03_Check_Win_00a">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT01_MISSION_THREE_20</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_20</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_ActI_M03_Check_Win_00</Prereq>
+			</Event>
+
+			
+<!-- jdg COMPLETING objective here
+ TEXT_STORY_REBEL_ACT01_MISSION_THREE_33
+ Destroy all anti-aircraft turrets.-->
+ 
+				<Event Name="Rebel_ActI_M03_COMPLETE_OBJECTIVE_Destroy_AA_Turrets">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+					<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_33</Reward_Param1>
+					<Prereq>Rebel_ActI_M03_Check_Win_00a</Prereq>
+				</Event>
+
+     <!-- Ending Cinematic dialog line
+     Antilles Speaks 
+     TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_24
+     Antilles: Time to retire those Z-95's!  These X-wings should be able to handle anything the Empire can send at us. -->
+	<Event Name="Rebel_ActI_M03_EndingCinematic_Speech_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_24</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT01_MISSION_THREE_24</Reward_Param8>
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActI_M03_Check_Win_00a</Prereq>
+	</Event>
+
+                            <Event Name="Rebel_ActI_M03_EndingCinematic_Speech_00_Remove_Text">
+                				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+                				<Event_Param1>REBEL_ACT01_MISSION_THREE_24</Event_Param1>
+                				<Reward_Type>SCREEN_TEXT</Reward_Type>
+                				<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_24</Reward_Param1>
+                				<Reward_Param4>Remove</Reward_Param4>	
+                				<Prereq>Rebel_ActI_M03_EndingCinematic_Speech_00</Prereq>
+                			</Event>
+                			
+                			<Event Name="Rebel_ActI_M03_EndingCinematic_Speech_00_Remove_Movie">
+								<Event_Type>STORY_TRIGGER</Event_Type>
+								<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+								<Prereq>Rebel_ActI_M03_EndingCinematic_Speech_00_Remove_Text</Prereq>
+							</Event>
+
+
+
+<!-- Mission completed -->
+
+	<Event Name="Rebel_Act1_M03_Enable_Victory">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+		<!-- <Event_Param2>CUE_M03_WIN</Event_Param2>-->
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Prereq>Rebel_ActI_M03_EndingCinematic_Speech_00_Remove_Text</Prereq>
+	</Event>
+
+	<Event Name="Rebel_Act1_M03_13">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>REBEL</Event_Param1>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_A01M03_Win</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_ActI_M03_Ready_To_Begin</Prereq>
+	</Event>
+
+
+
+
+
+
+
+<!-- LOSS CONDITION: All X-wings destroyed -->
+
+	<Event Name="Rebel_ActI_M03_Check_Lose_00">
+		<Event_Type>STORY_FLAG</Event_Type>
+		<Event_Param1>Xwing_Destroyed</Event_Param1>
+		<Event_Param2>4</Event_Param2>
+		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
+		<Prereq>Rebel_ActI_M03_Ready_To_Begin</Prereq>
+	</Event>
+
+<!-- TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_19
+ Antilles: Abort!  Abort!  We've lost all the X-wings!-->
+	<Event Name="Rebel_ActI_M03_Check_Lose_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_19</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT01_MISSION_THREE_19</Reward_Param8>
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+      <Prereq>Rebel_ActI_M03_Check_Lose_00</Prereq>
+	</Event>
+
+			<Event Name="Rebel_ActI_M03_Check_Lose_01a">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT01_MISSION_THREE_19</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_19</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_ActI_M03_Check_Lose_01</Prereq>
+			</Event>
+			
+			<Event Name="Rebel_ActI_M03_Check_Lose_01a_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Rebel_ActI_M03_Check_Lose_01a</Prereq>
+			</Event>
+
+	<Event Name="Rebel_ActI_M03_Check_Lose_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>EMPIRE</Reward_Param1>
+		<Prereq>Rebel_ActI_M03_Check_Lose_01a</Prereq>
+	</Event>
+
+
+
+<!-- LOSS CONDITION:  All pilots dead before X-wings are captured -->
+			
+<!-- jdg FAILING objective here
+  TEXT_STORY_REBEL_ACT01_MISSION_THREE_31
+  At least one pilot must survive.-->	
+  
+  <!-- jdg working around mission bugs xxx-->
+	<Event Name="Rebel_ActI_M03_All_Pilots_Destroyed_Cue_Loss">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Rebel_Pilot</Event_Param1>
+		<Event_Param3>5</Event_Param3>
+	</Event>
+	
+	<Event Name="Rebel_ActI_M03_All_Rebels_Dead_Check">
+		<Event_Type>STORY_CHECK_DESTROYED</Event_Type>
+		<Event_Param1>Rebel</Event_Param1>
+		<Event_Param2>DESTROY_ALL</Event_Param2>
+	</Event>
+  
+  					<Event Name="Rebel_ActI_M03_FAIL_OBJECTIVE_Protect_Pilots">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+						<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_31</Reward_Param1>
+						<Prereq>Rebel_ActI_M03_All_Pilots_Destroyed_Cue_Loss</Prereq>
+					</Event>
+					
+					<!-- TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_22
+					 Antilles: We have to abort - we lost all the pilots!  Retreat now!-->
+					<Event Name="Rebel_ActI_M03_Antilles_Speech_Pilots_Lost">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>MULTIMEDIA</Reward_Type>
+						<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_22</Reward_Param1>
+						<Reward_Param2>-1</Reward_Param2>	
+						<Reward_Param8>REBEL_ACT01_MISSION_THREE_22</Reward_Param8> <!-- Put speech file name here -->
+						<Reward_Param9>Antillies_Loop</Reward_Param9>
+						<Reward_Param10>1</Reward_Param10>
+						<Prereq>Rebel_ActI_M03_All_Pilots_Destroyed_Cue_Loss</Prereq>
+					</Event>
+
+								<Event Name="Rebel_ActI_M03_Antilles_Speech_Pilots_Lost_Remove_Text">
+									<Event_Type>STORY_SPEECH_DONE</Event_Type>
+									<Event_Param1>REBEL_ACT01_MISSION_THREE_22</Event_Param1>
+									<Reward_Type>SCREEN_TEXT</Reward_Type>
+									<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_THREE_22</Reward_Param1>
+									<Reward_Param4>Remove</Reward_Param4>	
+									<Prereq>Rebel_ActI_M03_Antilles_Speech_Pilots_Lost</Prereq>
+								</Event>
+								
+								<Event Name="Rebel_ActI_M03_Antilles_Speech_Pilots_Lost_Remove_Movie">
+									<Event_Type>STORY_TRIGGER</Event_Type>
+									<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+									<Prereq>Rebel_ActI_M03_Antilles_Speech_Pilots_Lost_Remove_Text</Prereq>
+								</Event>
+
+	<Event Name="Rebel_ActI_M03_Force_Loss_Pilots">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>EMPIRE</Reward_Param1>
+		<!--<Prereq>Rebel_ActI_M03_Check_Dead_Pilots_00a</Prereq>-->
+		<Prereq>Rebel_ActI_M03_Antilles_Speech_Pilots_Lost_Remove_Text</Prereq>
+		<Prereq>Rebel_ActI_M03_All_Rebels_Dead_Check</Prereq>
+	</Event>
+
+<!-- HINT TEXT FOR TURBOLASERS (AI) -->
+
+	<Event Name="Rebel_ActI_M03_Turbolaser_Hint_1">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>turbolaser_power_hint</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_H1</Reward_Param1>
+		<Reward_Param2>5</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Rebel_ActI_M03_Entry_Speech_00</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_M03_Turbolaser_Hint_2">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>turbolaser_power_hint2</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_THREE_H2</Reward_Param1>
+		<Reward_Param2>5</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Rebel_ActI_M03_Entry_Speech_00</Prereq>
+	</Event>
+
+<!-- Highlight markers for AA guns
+
+	<Event Name="Rebel_ActI_M03_AA_Gun_Highlight_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_01</Reward_Param1>	
+		<Reward_Param2>1</Reward_Param2>		
+		<Reward_Param3>2</Reward_Param3>
+		<Prereq>Rebel_ActI_M03_Remove_AA_02</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_M03_AA_Gun_Highlight_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_02</Reward_Param1>	
+		<Reward_Param2>1</Reward_Param2>		
+		<Reward_Param3>3</Reward_Param3>
+		<Prereq>Rebel_ActI_M03_Remove_AA_02</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_M03_AA_Gun_Highlight_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_03</Reward_Param1>	
+		<Reward_Param2>1</Reward_Param2>		
+		<Reward_Param3>4</Reward_Param3>
+		<Prereq>Rebel_ActI_M03_Remove_AA_02</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_M03_AA_Gun_Highlight_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_04</Reward_Param1>	
+		<Reward_Param2>1</Reward_Param2>		
+		<Reward_Param3>5</Reward_Param3>
+		<Prereq>Rebel_ActI_M03_Remove_AA_02</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_M03_AA_Gun_Highlight_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_05</Reward_Param1>	
+		<Reward_Param2>1</Reward_Param2>		
+		<Reward_Param3>6</Reward_Param3>
+		<Prereq>Rebel_ActI_M03_Remove_AA_02</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_M03_AA_Gun_Highlight_Remove_01">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_01</Reward_Param1>	
+		<Reward_Param2>0</Reward_Param2>		
+		<Reward_Param3>2</Reward_Param3>
+		<Prereq>Rebel_ActI_M03_AA_Gun_Highlight_05</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_M03_AA_Gun_Highlight_Remove_02">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_02</Reward_Param1>	
+		<Reward_Param2>0</Reward_Param2>		
+		<Reward_Param3>3</Reward_Param3>
+		<Prereq>Rebel_ActI_M03_AA_Gun_Highlight_05</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_M03_AA_Gun_Highlight_Remove_03">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_03</Reward_Param1>	
+		<Reward_Param2>0</Reward_Param2>		
+		<Reward_Param3>4</Reward_Param3>
+		<Prereq>Rebel_ActI_M03_AA_Gun_Highlight_05</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_M03_AA_Gun_Highlight_Remove_04">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_04</Reward_Param1>	
+		<Reward_Param2>0</Reward_Param2>		
+		<Reward_Param3>5</Reward_Param3>
+		<Prereq>Rebel_ActI_M03_AA_Gun_Highlight_05</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActI_M03_AA_Gun_Highlight_Remove_05">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>10</Event_Param1>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>STORY_TRIGGER_ZONE_05</Reward_Param1>	
+		<Reward_Param2>0</Reward_Param2>		
+		<Reward_Param3>6</Reward_Param3>
+		<Prereq>Rebel_ActI_M03_AA_Gun_Highlight_05</Prereq>
+	</Event>
+-->
+</Story>
