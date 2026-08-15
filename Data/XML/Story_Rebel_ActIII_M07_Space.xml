@@ -1,0 +1,1016 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+<!--
+
+	<Event Name="">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq></Prereq>
+	</Event>
+
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1></Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+-->
+
+<!-- Mission start setup -->
+	<Event Name="Rebel_A3_M07_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Rebel_M07_Autoresolve_Off">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIDE_AUTORESOLVE</Reward_Type>
+		<Prereq>Rebel_A3_M07_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Prevent_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>EMPIRE</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_A3_M07_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Win_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_A03M07_Win</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Rebel_A3_M07_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Prevent_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Begin</Prereq>
+	</Event>
+
+<!-- Intro Cinematic Dialog -->
+<!-- Captain Antilles Speaks -->
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_00_Go">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RA3M7_ANTILLES_DIALOGUE_1_GO</Event_Param2>
+		<Prereq>Rebel_A3_M07_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_38</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_38</Reward_Param8>
+		<Reward_Param9>-1</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_00_Go</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_00a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_38</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_38</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_00</Prereq>
+	</Event>
+
+<!-- Imperial Fleet warps in at this point... -->
+<!-- Captain Antilles Speaks -->
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_01_Go">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RA3M7_ANTILLES_DIALOGUE_2_GO</Event_Param2>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_00a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_39</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_39</Reward_Param8>
+		<Reward_Param9>-1</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_01_Go</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_01a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_39</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_39</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_01</Prereq>
+	</Event>
+	
+<!-- Imperial Officer Speaks -->
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_02_Go">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RA3M7_IMPERIAL_DIALOGUE_1_GO</Event_Param2>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_01a</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_40</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_40</Reward_Param8>
+		<Reward_Param9>-1</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_02_Go</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_02a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_40</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_40</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_02</Prereq>
+	</Event>
+
+<!-- Captain Antilles Speaks -->	
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_03_Go">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RA3M7_ANTILLES_DIALOGUE_3_GO</Event_Param2>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_02a</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_41</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_41</Reward_Param8>
+		<Reward_Param9>-1</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_03_Go</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_03a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_41</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_41</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_03</Prereq>
+	</Event>
+
+<!-- Imperial Officer Speaks -->
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_04_Go">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RA3M7_IMPERIAL_DIALOGUE_2_GO</Event_Param2>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_03a</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_42</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_42</Reward_Param8>
+		<Reward_Param9>-1</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_04_Go</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_04a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_42</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_42</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_04</Prereq>
+	</Event>
+			
+<!-- jdg pirate line stolen from boba fett mission 
+TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_47
+Pirate Leader: Angle the deflector shields while the navi-computer makes the calculations for hyperspace. -->
+	<Event Name="Rebel_ActIII_Mission_Seven_Pirate_Dialog">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_47</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT01_MISSION_THREE_47</Reward_Param8>
+		<Reward_Param9>-1</Reward_Param9>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_04a</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Mission_Seven_Pirate_Dialog_Remove_Text">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT01_MISSION_THREE_47</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_47</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActIII_Mission_Seven_Pirate_Dialog</Prereq>
+	</Event>
+
+<!-- The pirate runs from the Empire at this point -->
+<!-- Imperial Officer Speaks -->
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_05_Go">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RA3M7_IMPERIAL_DIALOGUE_3_GO</Event_Param2>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_04a</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_43</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_43</Reward_Param8>
+		<Reward_Param9>-1</Reward_Param9>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_05_Go</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_05a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_43</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_43</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_05</Prereq>
+	</Event>
+			
+<!-- Captain Antilles Speaks -->
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_06_Go">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RA3M7_ANTILLES_DIALOGUE_4_GO</Event_Param2>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_05a</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_44</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_44</Reward_Param8>
+		<Reward_Param9>-1</Reward_Param9>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_06_Go</Prereq>
+	</Event>
+		
+	<Event Name="Rebel_ActIII_Mission_Seven_Intro_Cinematic_06a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_44</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_44</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_06</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Highlight_Pirate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>Pirate_Frigate_Captain</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>0</Reward_Param3>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_06a</Prereq>
+	</Event>
+
+<!-- Objective: Disable Pirate -->
+	<Event Name="Rebel_ActIII_Mission_Seven_Objective_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_10</Reward_Param1>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_06a</Prereq>
+	</Event>
+
+<!-- Objective: Antilles Lives-->
+	<Event Name="Rebel_ActIII_Mission_Seven_Objective_09">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_47</Reward_Param1>
+		<Prereq>Rebel_ActIII_Mission_Seven_Intro_Cinematic_06a</Prereq>
+	</Event>
+
+<!-- Screen text messages -->
+<!-- The pirate has been disabled! -->
+	<Event Name="Rebel_A3_M07_Blockade_Text_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PIRATE_DISABLED</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_22</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_22</Reward_Param8>
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A3_M07_Begin</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Blockade_Text_00a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_22</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_22</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_A3_M07_Blockade_Text_00</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_A3_M07_Blockade_Text_00a_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Prereq>Rebel_A3_M07_Blockade_Text_00a</Prereq>
+	</Event>
+
+<!-- Disable the flee loss event just in case this happens at the last second -->
+	<Event Name="Rebel_A3_M07_Blockade_Text_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_A3_M07_Pirate_Escaped_01</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Blockade_Text_00</Prereq>
+	</Event>
+
+<!-- Complete Objective: Disable Pirate -->
+	<Event Name="Rebel_ActIII_Mission_Seven_Objective_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_10</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Blockade_Text_00</Prereq>
+	</Event>
+
+<!-- Objective: Recover Data -->
+	<Event Name="Rebel_ActIII_Mission_Seven_Objective_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_45</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Blockade_Text_00</Prereq>
+	</Event>
+
+<!-- Interdictor attacked -->
+	<Event Name="Rebel_A3_M07_Interdictor_Attacked_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>interdictor_attacked</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_11</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_11</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A3_M07_Begin</Prereq>
+		<Branch>Interdictor_Attack</Branch>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Interdictor_Attacked_01">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_11</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_12</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_12</Reward_Param8>
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A3_M07_Interdictor_Attacked_00</Prereq>
+		<Branch>Interdictor_Attack</Branch>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Interdictor_Attacked_01a">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_11</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_A3_M07_Interdictor_Attacked_01</Prereq>
+		<Branch>Interdictor_Attack</Branch>
+	</Event>
+			
+	<Event Name="Rebel_A3_M07_Interdictor_Attacked_01b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_12</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_12</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_A3_M07_Interdictor_Attacked_01</Prereq>
+		<Branch>Interdictor_Attack</Branch>
+	</Event>
+			
+	<Event Name="Rebel_A3_M07_Interdictor_Attacked_01b_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Prereq>Rebel_A3_M07_Interdictor_Attacked_01b</Prereq>
+		<Branch>Interdictor_Attack</Branch>
+	</Event>
+
+<!-- Interdictor destroyed -->
+	<Event Name="Rebel_A3_M07_Interdictor_Destroyed_00">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Interdictor_Cruiser</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_13</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_13</Reward_Param8>
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A3_M07_Begin</Prereq>
+		<Branch>Interdictor_Attack</Branch>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Interdictor_Destroyed_01">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_13</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_14</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_14</Reward_Param8>
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A3_M07_Interdictor_Destroyed_00</Prereq>
+		<Branch>Interdictor_Attack</Branch>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Interdictor_Destroyed_01a">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_13</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_A3_M07_Interdictor_Destroyed_01</Prereq>
+		<Branch>Interdictor_Attack</Branch>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Interdictor_Destroyed_01b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_14</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_14</Reward_Param1>
+		<Reward_Param4>Remove</Reward_Param4>	
+		<Prereq>Rebel_A3_M07_Interdictor_Destroyed_01</Prereq>
+		<Branch>Interdictor_Attack</Branch>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Interdictor_Destroyed_01b_Remove_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+		<Prereq>Rebel_A3_M07_Interdictor_Destroyed_01b</Prereq>
+		<Branch>Interdictor_Attack</Branch>
+	</Event>
+
+<!-- Pirate captured but still have interdictors on the map -->
+	<Event Name="Rebel_A3_M07_Rebels_Captured_Pirate_B">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REBELS_CAPTURED_PIRATE_SI</Event_Param2>
+	</Event>
+
+<!-- Complete Objective: Recover Data -->
+	<Event Name="Rebel_ActIII_Mission_Seven_Objective_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_45</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Rebels_Captured_Pirate_B</Prereq>
+	</Event>
+
+	<Event Name="Rebel_ActIII_Mission_Seven_Disable_Interdictor_Dialog">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Interdictor_Attack</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_A3_M07_Rebels_Captured_Pirate_B</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Interdictor_Destroyed_11">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_23</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_23</Reward_Param8>
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A3_M07_Rebels_Captured_Pirate_B</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Interdictor_Destroyed_11a">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_23</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_24</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_24</Reward_Param8>
+		<Reward_Param9>Wedge_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A3_M07_Interdictor_Destroyed_11</Prereq>
+	</Event>
+
+			<Event Name="Rebel_A3_M07_Interdictor_Destroyed_11a_A">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_23</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_A3_M07_Interdictor_Destroyed_11a</Prereq>
+			</Event>
+
+	<Event Name="Rebel_A3_M07_Interdictor_Destroyed_11b">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_24</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_25</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_25</Reward_Param8>
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A3_M07_Interdictor_Destroyed_11a</Prereq>
+	</Event>
+
+			<Event Name="Rebel_A3_M07_Interdictor_Destroyed_11b_A">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_24</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_A3_M07_Interdictor_Destroyed_11b</Prereq>
+			</Event>
+
+			<Event Name="Rebel_A3_M07_Interdictor_Destroyed_11b_B">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT03_MISSION_SEVEN_25</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_25</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_A3_M07_Interdictor_Destroyed_11b</Prereq>
+			</Event>
+			
+			<Event Name="Rebel_A3_M07_Interdictor_Destroyed_11b_B_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Rebel_A3_M07_Interdictor_Destroyed_11b_B</Prereq>
+			</Event>
+			
+	<!-- Objective: Destroy Interdictors -->
+	<Event Name="Rebel_ActIII_Mission_Seven_Objective_04">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_46</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Interdictor_Destroyed_11b_B</Prereq>
+	</Event>
+
+
+
+
+
+   <!-- One interdictor left, pirate not captured -->
+	<Event Name="Rebel_A3_M07_Interdictor_Destroyed_12">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>one_left_not_captured</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_15</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_15</Reward_Param8>
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A3_M07_Begin</Prereq>
+	</Event>
+
+			<Event Name="Rebel_A3_M07_Interdictor_Destroyed_12a">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT03_MISSION_SEVEN_15</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_15</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_A3_M07_Interdictor_Destroyed_12</Prereq>
+			</Event>
+			
+			<Event Name="Rebel_A3_M07_Interdictor_Destroyed_12a_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Rebel_A3_M07_Interdictor_Destroyed_12a</Prereq>
+			</Event>
+
+
+
+
+
+
+
+
+<!-- WIN CONDITION: Pirate Captured, Interdictors Destroyed -->
+
+   <!-- Pirate captured with no interdictors left -->
+	<Event Name="Rebel_A3_M07_Rebels_Captured_Pirate_A_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REBELS_CAPTURED_PIRATE_NI</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_26</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_26</Reward_Param8>
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+	</Event>
+
+			<Event Name="Rebel_A3_M07_Rebels_Captured_Pirate_A_00a">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT03_MISSION_SEVEN_26</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_26</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_A3_M07_Rebels_Captured_Pirate_A_00</Prereq>
+			</Event>
+			
+			<Event Name="Rebel_A3_M07_Rebels_Captured_Pirate_A_00a_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Rebel_A3_M07_Rebels_Captured_Pirate_A_00a</Prereq>
+			</Event>
+
+	<!-- Complete Objective: Recover Data -->
+	<Event Name="Rebel_ActIII_Mission_Seven_Objective_05">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_45</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Rebels_Captured_Pirate_A_00</Prereq>
+	</Event>
+
+
+
+
+
+   <!-- Pirate ship captured.  Called at the same time as one of the above capture events -->
+	<Event Name="Rebel_A3_M07_Rebels_Captured_Pirate">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REBELS_CAPTURED_PIRATE</Event_Param2>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Rebels_Captured_Pirate_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIGHLIGHT_OBJECT</Reward_Type>
+		<Reward_Param1>Pirate_Frigate_Captain</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Reward_Param3>0</Reward_Param3>
+		<Prereq>Rebel_A3_M07_Rebels_Captured_Pirate</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_A3_M07_OBJECTIVE_COMPLETE_Captured_Pirate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_45</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Rebels_Captured_Pirate</Prereq>
+	</Event>
+
+
+
+
+
+
+	<!-- All Interdictors have been destroyed -->
+	<Event Name="Rebel_A3_M07_All_Interdictors_Destroyed_00">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Interdictor_Cruiser</Event_Param1>
+		<Event_Param3>4</Event_Param3>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_17</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_17</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+	</Event>
+
+			<Event Name="Rebel_A3_M07_All_Interdictors_Destroyed_00a">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT03_MISSION_SEVEN_17</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_17</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_A3_M07_All_Interdictors_Destroyed_00</Prereq>
+			</Event>
+			
+			<Event Name="Rebel_A3_M07_All_Interdictors_Destroyed_00a_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Rebel_A3_M07_All_Interdictors_Destroyed_00a</Prereq>
+			</Event>
+
+	<!-- Complete Objective: Destroy all Interdictors-->
+	<Event Name="Rebel_ActIII_Mission_Seven_Objective_06">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_46</Reward_Param1>
+		<Prereq>Rebel_A3_M07_All_Interdictors_Destroyed_00</Prereq>
+	</Event>
+
+
+
+
+   <!-- WIN CONDITION A:  Player captured pirate after interdictors were destroyed -->
+	<Event Name="Rebel_A3_M07_Rebel_Mission_Completed_A">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_A3_M07_Rebels_Captured_Pirate_A_00 Rebel_A3_M07_All_Interdictors_Destroyed_00</Prereq>
+	</Event>
+
+
+
+	<!-- WIN CONDITION B:  Player captured pirate before interdictors were destroyed -->
+	<Event Name="Rebel_A3_M07_Rebel_Mission_Completed_B">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_31</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_31</Reward_Param8>
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A3_M07_Rebels_Captured_Pirate_B Rebel_A3_M07_All_Interdictors_Destroyed_00</Prereq>
+	</Event>
+
+			<Event Name="Rebel_A3_M07_Rebel_Mission_Completed_B_2">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT03_MISSION_SEVEN_31</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_31</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_A3_M07_Rebel_Mission_Completed_B</Prereq>
+			</Event>
+			
+			<Event Name="Rebel_A3_M07_Rebel_Mission_Completed_B_2_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Rebel_A3_M07_Rebel_Mission_Completed_B_2</Prereq>
+			</Event>
+
+
+
+	<Event Name="Rebel_A3_M07_Rebels_Mission_Completed_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Rebel_A3_M07_Rebel_Mission_Completed_A</Prereq>
+		<Prereq>Rebel_A3_M07_Rebel_Mission_Completed_B</Prereq>
+	</Event>
+		
+	<Event Name="Rebel_A3_M07_Rebels_Escaped">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Rebel_A3_M07_Rebels_Mission_Completed_01</Prereq>
+	</Event>
+	
+
+
+<!-- WIN CONDITION: Destroy all Empire forces on map -->
+
+	<Event Name="Rebel_A3_M07_All_Empire_Destroyed">
+		<Event_Type>STORY_CHECK_DESTROYED</Event_Type>
+		<Event_Param1>Empire</Event_Param1>
+		<Event_Param2>DESTROY_ALL</Event_Param2>
+		<Prereq>Rebel_A3_M07_Begin</Prereq>
+	</Event>
+
+<!-- Condensing all victory rewards to one event. -->
+
+	<Event Name="Rebel_A3_M07_Victory_Trigger">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq> Rebel_A3_M07_Rebels_Escaped </Prereq>
+		<Prereq> Rebel_A3_M07_All_Empire_Destroyed </Prereq>
+	</Event>
+	
+	<Event Name="Rebel_A3_M07_Disable_Antilles">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DISABLE_ANTILLES_KILLED</Event_Param2>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_A3_M07_Antilles_Killed_00</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+	
+	<Event Name="Rebel_A3_M07_Global_Victory">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MISSION_07_VICTORY</Event_Param2>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+	</Event>
+
+
+<!-- REBEL VICTORY: Set Flag -->
+	
+	<Event Name="Rebel_A3_M07_VICTORY">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>REBEL</Event_Param1>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Rebel_A03M07_Win</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+
+
+
+
+
+
+
+
+	<!-- LOSS CONDITION: Rebels wiped out -->
+
+	<Event Name="Rebel_A3_M07_All_Rebels_Destroyed">
+		<Event_Type>STORY_CHECK_DESTROYED</Event_Type>
+		<Event_Param1>Rebel</Event_Param1>
+		<Event_Param2>DESTROY_ALL</Event_Param2>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Begin</Prereq>
+	</Event>
+		
+	<Event Name="Rebel_A3_M07_All_Rebels_Destroyed_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>EMPIRE</Reward_Param1>
+		<Prereq>Rebel_A3_M07_All_Rebels_Destroyed</Prereq>
+	</Event>
+
+
+
+
+
+
+	<!-- LOSS CONDITION: Pirate captured by Empire -->
+
+	<Event Name="Rebel_A3_M07_Empire_Captured_Pirate_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>EMPIRE_CAPTURED_PIRATE</Event_Param2>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_28</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_28</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Empire_Captured_Pirate_01">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>REBEL_ACT03_MISSION_SEVEN_28</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_29</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_29</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A3_M07_Empire_Captured_Pirate_00</Prereq>
+	</Event>
+
+			<Event Name="Rebel_A3_M07_Empire_Captured_Pirate_01a">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_28</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_A3_M07_Empire_Captured_Pirate_01</Prereq>
+			</Event>
+
+			<Event Name="Rebel_A3_M07_Empire_Captured_Pirate_01b">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT03_MISSION_SEVEN_29</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_29</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_A3_M07_Empire_Captured_Pirate_01</Prereq>
+			</Event>
+			
+			<Event Name="Rebel_A3_M07_Empire_Captured_Pirate_01b_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Rebel_A3_M07_Empire_Captured_Pirate_01b</Prereq>
+			</Event>
+
+	<!-- Objective Failed: Capture Pirate-->
+	<Event Name="Rebel_ActIII_Mission_Seven_Objective_07">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_45</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Empire_Captured_Pirate_01</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Empire_Captured_Pirate_02">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Empire_Captured_Pirate_01b</Prereq>
+	</Event>
+
+
+
+
+
+
+
+
+	<!-- LOSS CONDITION: Pirate Escaped 
+	TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_27
+	Antilles: The pirate has jumped out of the system!  We've lost him!  -->
+
+	<Event Name="Rebel_A3_M07_Pirate_Escaped_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PIRATE_ESCAPED</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_27</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT03_MISSION_SEVEN_27</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Antillies_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+	</Event>
+	
+			<Event Name="Rebel_A3_M07_Pirate_Escaped_00a">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT03_MISSION_SEVEN_27</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_SEVEN_27</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_A3_M07_Pirate_Escaped_00</Prereq>
+			</Event>
+			
+			<Event Name="Rebel_A3_M07_Pirate_Escaped_00a_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Rebel_A3_M07_Pirate_Escaped_00a</Prereq>
+			</Event>
+
+	<!-- Objective Failed: Capture Pirate-->
+	<Event Name="Rebel_ActIII_Mission_Seven_Objective_08">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_10</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Pirate_Escaped_00</Prereq>
+	</Event>
+
+	<Event Name="Rebel_A3_M07_Pirate_Escaped_01">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Reward_Param1>3</Reward_Param1>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Pirate_Escaped_00a</Prereq>
+	</Event>
+
+
+
+<!-- LOSS CONDITION: ANTILLES KILLED -->
+
+	<Event Name="Rebel_A3_M07_Antilles_Killed_00">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Sundered_Heart</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT01_MISSION_ONE_32</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>System</Reward_Param7>
+	</Event>
+	
+<!-- TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_16
+Antilles: I've taken heavy damage during the fight.  
+I'll need to repair the Sundered Heart before I can rejoin you. -->
+<Event Name="Rebel_A3_M07_Antilles_Killed_Dialog_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>	
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_16</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>REBEL_ACT01_MISSION_ONE_16</Reward_Param8>
+		<Reward_Param9>Antilles_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Rebel_A3_M07_Antilles_Killed_00</Prereq>
+	</Event>
+
+			<Event Name="Rebel_A3_M07_Antilles_Killed_Dialog_00_Remove_Text">
+				<Event_Type>STORY_SPEECH_DONE</Event_Type>
+				<Event_Param1>REBEL_ACT01_MISSION_ONE_16</Event_Param1>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_REBEL_ACT01_MISSION_ONE_16</Reward_Param1>
+				<Reward_Param4>Remove</Reward_Param4>	
+				<Prereq>Rebel_A3_M07_Antilles_Killed_Dialog_00</Prereq>
+			</Event>
+
+			<Event Name="Rebel_A3_M07_Antilles_Killed_Dialog_00_Remove_Movie">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>	
+				<Prereq>Rebel_A3_M07_Antilles_Killed_Dialog_00_Remove_Text</Prereq>
+			</Event>	
+	
+	
+	
+	
+	
+
+	<!-- Objective Failed: Antilles Lives-->
+	<Event Name="Rebel_ActIII_Mission_Seven_Objective_10">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+		<Reward_Param1>TEXT_STORY_REBEL_ACT03_MISSION_SEVEN_47</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Antilles_Killed_00</Prereq>
+	</Event>
+	
+	<Event Name="Rebel_A3_M07_Antilles_Killed_02">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Reward_Param1>3</Reward_Param1>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Prereq>Rebel_A3_M07_Antilles_Killed_Dialog_00_Remove_Movie</Prereq>
+	</Event>
+
+
+
+
+
+
+
+</Story>
