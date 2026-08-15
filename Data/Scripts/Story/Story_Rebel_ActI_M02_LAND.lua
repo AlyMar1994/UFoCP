@@ -200,7 +200,7 @@ function State_Rebel_A01M02_Begin(message)
 
 		-- Make sure we found everything
 		if not empire_spawn_0 or not empire_spawn_1 or not empire_spawn_2 or not r2_uplink or not uplink then
-			DebugMessage("%s-expected objects not found; aborting", tostring(Script))
+			DebugMessage("%s -- expected objects not found; aborting", tostring(Script))
 			return
 		else
 			rebel_player = Find_Player("Rebel")

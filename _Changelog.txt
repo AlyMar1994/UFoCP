@@ -66,19 +66,20 @@ Interface Fixes:
 • The enemy hero bar wouldn't stretch to include a sixth hero when that many are present (the sixth icon would remain floating). (BUG #855) (Thanks, galyana!)
 
 
-Map Fixes:
+Map/Planet Fixes:
 • The script marker flags on the map for Empire campaign mission #3 ("The Pirate Menace") were technically owned by the Pirates, which means that Fett's Seismic Charge could destroy them and cause the script to throw errors. (BUG #817)
 • One of the factory control terminals in Consortium campaign mission #4 ("Visions of the Past") could be destroyed because, by default, that prop's faction owner is the Empire.  While funny to see Tyber randomly obliterating it, it had to be fixed. (BUG #845)
 • The explosive orbital containers in Rebel campaign mission #1 ("Shipyard Diversion") wouldn't destroy everything nearby them, leaving other containers or unmanned ships alive.  More containers have been added to ensure total obliteration. (BUG #856)
 • It was possible for T2-B Tanks to be stuck while reinforcing at the starting reinforcement point in Rebel campaign mission #2 ("Interpreting the Network"). (BUG #864)
 • Fix Yavin 4 having the Death Star's destroyed hull floating over it during the final Rebel and Empire campaign missions.  The original map from EaW has been reimplemented into the campaigns to support this change. (BUG #868)
+• Fix the uplink flag marker's position during Rebel campaign mission #2 ("Interpreting the Network") - the intro cinematic wouldn't properly focus on the uplink. (BUG #873)
 
 
 Model Fixes:
 • The Mon Calamari Cruiser's engines would not disable when the ship was destroyed. (BUG #813)
 
 
-Script Fixes:
+Script/Story Fixes:
 • During Rebel campaign mission #3 ("Theft of the X-wing"), while the Empire's doing its initial unit reinforcement, Captain Antilles will freak out and tell you to secure the reinforcement point.  The VO implies it's the starting point, but he's actually talking about the Empire-controlled ones.  A red "NOTICE:" message now appears to clarify that reinforcements are scary - in addition, multiple problems where Antilles hologram wouldn't play during this mission have been fixed. (BUG #790)
 • During Rebel campaign mission #7 ("Needle in a Haystack"), Han & Chewie would find the correct container after scanning 10 of them, when there are 12 on the map.  Normally this wouldn't a problem, however Han says that it's "always in the last place we look," and it's clear it was intended that the player has to search all 12 containers. (BUG #816)
 • The Empire starbase in Rebel campaign mission #7 ("Needle in a Haystack") would sometimes fire at Han despite him remaining undetected, specifically near the top of the map.  The starbase now can no longer fire until the alarm has been raised. (BUG #871)
