@@ -120,7 +120,7 @@ function Definitions()
 	traffic_count = 0
 
 	num_scanned_to_bring_fett = 5
-	counter_enough_scanned = 10
+	counter_enough_scanned = 12
 
 	flag_okay_to_give_alarm_message = true
 
@@ -524,7 +524,7 @@ function Discover_Then_Report(unit)
 	-- Allow the player to still have a chance to cancel the alarm
 	if TestValid(unit) then
 		DebugMessage("reporting han")
-        BlockOnCommand(unit.Move_To(starbase_marker))
+		BlockOnCommand(unit.Move_To(starbase_marker))
 	end
 
 	-- If the unit still survived, then the falcon is reported.
