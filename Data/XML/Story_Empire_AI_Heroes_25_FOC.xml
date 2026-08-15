@@ -12,6 +12,12 @@
 
 <!-- Empire Hero Release -->
 
+	<Event Name="Lock_Death_Star">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Death_Star</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
 
 	<!-- Spawn Starting Heroes -->
 

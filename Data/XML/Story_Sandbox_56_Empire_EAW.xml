@@ -28,6 +28,13 @@
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
+	<Event Name="Lock_Death_Star_II">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Death_Star_II</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
 	<!-- Spawn Starting Heroes -->
 
 	<Event Name="Empire_AI_Unlock_Research_Facility">

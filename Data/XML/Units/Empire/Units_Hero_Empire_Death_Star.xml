@@ -20,7 +20,7 @@
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 		<Collision_Box_Modifier>250.0</Collision_Box_Modifier>
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>5</Tech_Level>
 
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
@@ -95,7 +95,7 @@
 		<CategoryMask>Super</CategoryMask>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DEATH_STAR</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION</Encyclopedia_Unit_Class>
-		<Targeting_Max_Attack_Distance>20000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>20000.0</Targeting_Max_Attack_Distance> <!-- Galyana (02/08/2020): Laser ability asserts without this -->
 
 		<Unit_Abilities_Data SubObjectList="Yes" />
 
@@ -127,7 +127,6 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_DEATH_STAR_II</Encyclopedia_Text>
 		<Icon_Name>i_button_death_star_2_complete.tga</Icon_Name>
 
-		<Tech_Level>5</Tech_Level>
 		<Space_Model_Name>w_planet_deathstar02_II.alo</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 
@@ -147,11 +146,13 @@
 
 		<!-- DSII is tactically relevant above and beyond its escort (can fire laser at ships) -->
 		<AI_Combat_Power>3000</AI_Combat_Power>
-		<Targeting_Max_Attack_Distance>20000</Targeting_Max_Attack_Distance> <!-- Galyana (02/08/2020): Laser ability asserts without this -->
 
-		<Behavior>DUMMY_STARSHIP</Behavior>
-		<GalacticBehavior>SELECTABLE</GalacticBehavior>
-		<SpaceBehavior>TACTICAL_SUPER_WEAPON, IDLE, ABILITY_COUNTDOWN, TARGETING</SpaceBehavior>
+		<SpaceBehavior>
+			TACTICAL_SUPER_WEAPON,
+			IDLE,
+			ABILITY_COUNTDOWN,
+			TARGETING
+		</SpaceBehavior>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

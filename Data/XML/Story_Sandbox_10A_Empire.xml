@@ -34,6 +34,13 @@
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
+	<Event Name="Lock_Death_Star_II">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Death_Star_II</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
 <!-- Empire Hero Release -->
 
 	<Event Name="Empire_AI_Heroes_01">
@@ -138,7 +145,7 @@
 
 	<Event Name="Death_Star_Construction">
 		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>Death_Star_II</Event_Param1>
+		<Event_Param1>Death_Star</Event_Param1>
 		<Event_Param2>1</Event_Param2>
 		<Prereq>Empire_AI_Heroes_09</Prereq>
 	</Event>
@@ -261,7 +268,7 @@
 
 	<Event Name="Death_Star_Target">
 		<Event_Type>STORY_DESTROY</Event_Type>
-		<Event_Param1>Death_Star_II</Event_Param1>
+		<Event_Param1>Death_Star</Event_Param1>
 		<Event_Param3>1</Event_Param3>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
