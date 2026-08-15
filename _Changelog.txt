@@ -67,6 +67,7 @@ Interface Fixes:
 
 
 Map Fixes:
+• The script marker flags on the map for Empire campaign mission #3 ("The Pirate Menace") were technically owned by the Pirates, which means that Fett's Seismic Charge could destroy them and cause the script to throw errors. (BUG #817)
 • One of the factory control terminals in Consortium campaign mission #4 ("Visions of the Past") could be destroyed because, by default, that prop's faction owner is the Empire.  While funny to see Tyber randomly obliterating it, it had to be fixed. (BUG #845)
 • The explosive orbital containers in Rebel campaign mission #1 ("Shipyard Diversion") wouldn't destroy everything nearby them, leaving other containers or unmanned ships alive.  More containers have been added to ensure total obliteration. (BUG #856)
 • It was possible for T2-B Tanks to be stuck while reinforcing at the starting reinforcement point in Rebel campaign mission #2 ("Interpreting the Network"). (BUG #864)
