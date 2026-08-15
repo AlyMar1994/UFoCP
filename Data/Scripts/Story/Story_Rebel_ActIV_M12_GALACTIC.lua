@@ -55,7 +55,7 @@ function Definitions()
 	}
 
 	death_star_fleet = {
-		"DEATH_STAR"
+		"DEATH_STAR_RM12" -- AM1994 (08-15-26): RM12 variant for slower movement speed the designers wanted.
 		,"DARTH_TEAM"
 		,"TIE_BOMBER_SQUADRON"
 		,"TIE_SCOUT_SQUADRON"
@@ -81,21 +81,19 @@ function State_Rebel_A4_M12_Begin(message)
 			ScriptExit()
 		end
 
-		death_star_list = Find_All_Objects_Of_Type("DEATH_STAR")
+		death_star_list = Find_All_Objects_Of_Type("DEATH_STAR_RM12")
 		death_star = death_star_list[1]
-		DebugMessage("%s -- death_star is %s", tostring(Script), tostring(death_star))
-		death_star.Override_Max_Speed(0.20)
+		-- death_star.Override_Max_Speed(0.20) -- AM1994 (08-14-2026): This no longer works, if it ever did.  Death_Star_RM12 now has a slower max and hyperspace speed.
 
 		DebugMessage("feedback: DS spawned on Alderaan and attacking")
 		death_star.Set_Check_Contested_Space(false)
-		death_star_fleet.Activate_Ability("DEATH_STAR")
-        death_star.Set_Check_Contested_Space(true)
+		death_star_fleet.Activate_Ability("DEATH_STAR_RM12")
+		death_star.Set_Check_Contested_Space(true)
 	end
 end
 
 function State_Rebel_A4_M12_Hunt(message)
-    if message == OnEnter then
-		--Sleep(60) AM1994 (06-22-2026): FIXME: Ensure 1min wait so all dialogue and system notifs can play before the DS targets the player
+	if message == OnEnter then
 		DeathStar_Attack()
 	end
 end
@@ -123,12 +121,11 @@ function DeathStar_Attack()
 			next_planet = ds_path[2]
 			BlockOnCommand(death_star_fleet.Move_To(next_planet))
 			DebugMessage("Fire death star here")
-			death_star_list = Find_All_Objects_Of_Type("DEATH_STAR")
+			death_star_list = Find_All_Objects_Of_Type("DEATH_STAR_RM12")
 			death_star = death_star_list[1]
-			DebugMessage("%s -- death_star is %s", tostring(Script), tostring(death_star))
 
 			death_star.Set_Check_Contested_Space(false)
-			death_star_fleet.Activate_Ability("DEATH_STAR")
+			death_star_fleet.Activate_Ability("DEATH_STAR_RM12")
 			death_star.Set_Check_Contested_Space(true)
 		end
 

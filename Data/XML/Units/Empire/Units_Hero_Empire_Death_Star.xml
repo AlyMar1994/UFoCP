@@ -120,6 +120,14 @@
 		<Space_Override_Population_Value>0</Space_Override_Population_Value>
 	</SpaceUnit>
 
+	<!-- AM1994 (08-14-26): Variant used by RM12 to prevent the DS from destroying planets too quickly. -->
+	<SpaceUnit Name="Death_Star_RM12">
+		<Variant_Of_Existing_Type>Death_Star</Variant_Of_Existing_Type>
+
+		<Max_Speed>0.20</Max_Speed> <!-- Move speed used by Death Star to get into range in tactical space -->
+		<Hyperspace_Speed>0.045</Hyperspace_Speed>
+	</SpaceUnit>
+
 	<SpaceUnit Name="Death_Star_II">
 		<Variant_Of_Existing_Type>Death_Star</Variant_Of_Existing_Type>
 

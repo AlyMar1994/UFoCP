@@ -77,6 +77,7 @@ Model Fixes:
 
 
 Script Fixes:
+• The Death Star in Rebel campaign mission #11 ("The Final Battle") would approach Yavin 4 too quickly (breaking the story sequence, preventing a handful of HINTs and dialogue from playing), and wouldn't give the player enough time in battle to defeat it (75sec.).  The developers intended to give the player ~250 seconds to defeat it, but the script command was broken - the DS now slowly approaches Yavin when the homing beacon is found, and the timer is correct. (BUG #835)
 • The Empire starbase in Rebel campaign mission #7 ("Needle in a Haystack") would sometimes fire at Han despite him remaining undetected, specifically near the top of the map.  The starbase now can no longer fire until the alarm has been raised. (BUG #871)
 
 
@@ -107,7 +108,7 @@ ENHANCEMENTS:
 •• Reimplemented the EaW MP Galactic Conquests.  These currently don't have hero-swapped "alternate history" versions, yet.
 •• Fixed Land Alderaan's Pirate Base location.  It has been moved to prevent units getting stuck on the terrain.
 •• Fixed various Rebel and Empire campaign oddities, collision issues and script bugs (including problems owed to props and objects having their model sizes changed in FoC, f.e. the Comm. Array in Rebel campaign mission #2 "Interpreting the Network").
-•• Darth Vader was added into Rebel campaign mission #11 ("Attack on the Death Star").  This is because it's cool (and was popular in the original mod).
+•• Darth Vader was added into Rebel campaign mission #11 ("The Final Battle").  This is because it's cool (and was popular in the original mod).
 •• The Death Star has been reimplemented for the Rebel and Empire story campaigns.  It is not available in EaW's Galactic Conquests due to engine limitations with the MPGCs.
 
 • TIE defenders can now trigger bombing runs from orbit (which it couldn't do, unlike the B-wing).  In addition, B-wings and TIE defenders no longer use the Y-wing, TIE bomber or Skipray Blastboat models when summoned for bombing runs, respectively. (BUG #777)
