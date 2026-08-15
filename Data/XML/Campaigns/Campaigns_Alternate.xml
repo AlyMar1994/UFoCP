@@ -7941,9 +7941,9 @@
 		<Camera_Shift_Y>0.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
 
-		<Locations>Galaxy_Core_Art_Model, Alderaan, Eriadu, Geonosis, Shola, Kashyyyk, MonCalimari, NalHutta, Ryloth, Sullust, VergessoAsteroids</Locations>
+		<Locations>Galaxy_Core_Art_Model, Alderaan_Expansion, Eriadu, Geonosis, Shola, Kashyyyk, MonCalimari, NalHutta, Ryloth, Sullust, VergessoAsteroids</Locations>
 
-		<Trade_Routes>Alderaan_Eriadu, Alderaan_Kashyyyk, Eriadu_VergessoAsteroids, NalHutta_Ryloth, MonCalimari_Shola, Kashyyyk_MonCalimari</Trade_Routes>
+		<Trade_Routes>Alderaan_Expansion_Eriadu, Alderaan_Expansion_Kashyyyk, Eriadu_VergessoAsteroids, NalHutta_Ryloth, MonCalimari_Shola, Kashyyyk_MonCalimari</Trade_Routes>
 
 		<Home_Location>Rebel, MonCalimari</Home_Location>
 		<Home_Location>Empire, Sullust</Home_Location>
@@ -7956,7 +7956,6 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, AlderaansDemiseHints</Markup_Filename>
 		<Markup_Filename>Pirates, AlderaansDemiseHints</Markup_Filename>
@@ -8065,20 +8064,12 @@
 		<Starting_Forces>Rebel, Kashyyyk, Rebel_Light_Tank_Brigade</Starting_Forces>
 
 		<!-- Rebel Space Forces -->
-		<Starting_Forces>Rebel, Alderaan, Rebel_Star_Base_2</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_X-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_X-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Y-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Corellian_Corvette</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Nebulon_B_Frigate</Starting_Forces>
-		<!-- Rebel Land Forces -->
-		<Starting_Forces>Rebel, Alderaan, R_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, R_Ground_Light_Vehicle_Factory</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_Infantry_Squad</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_Infantry_Squad</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_Light_Tank_Brigade</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_Light_Tank_Brigade</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_Light_Tank_Brigade</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Rebel_Star_Base_2</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Rebel_X-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Rebel_X-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Nebulon_B_Frigate</Starting_Forces>
 
 
 		<!-- Empire Starting Forces -->
@@ -8198,9 +8189,9 @@
 		<Camera_Shift_Y>0.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
 
-		<Locations>Galaxy_Core_Art_Model, Alderaan, Eriadu, Geonosis, Shola, Kashyyyk, MonCalimari, NalHutta, Ryloth, Sullust, VergessoAsteroids</Locations>
+		<Locations>Galaxy_Core_Art_Model, Alderaan_Expansion, Eriadu, Geonosis, Shola, Kashyyyk, MonCalimari, NalHutta, Ryloth, Sullust, VergessoAsteroids</Locations>
 
-		<Trade_Routes>Alderaan_Eriadu, Alderaan_Kashyyyk, Eriadu_VergessoAsteroids, NalHutta_Ryloth, MonCalimari_Shola, Kashyyyk_MonCalimari</Trade_Routes>
+		<Trade_Routes>Alderaan_Expansion_Eriadu, Alderaan_Expansion_Kashyyyk, Eriadu_VergessoAsteroids, NalHutta_Ryloth, MonCalimari_Shola, Kashyyyk_MonCalimari</Trade_Routes>
 
 		<Home_Location>Rebel, MonCalimari</Home_Location>
 		<Home_Location>Empire, Sullust</Home_Location>
@@ -8213,7 +8204,6 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Rebel, AlderaansDemiseHints</Markup_Filename>
 		<Markup_Filename>Pirates, AlderaansDemiseHints</Markup_Filename>
@@ -8324,24 +8314,14 @@
 		<Starting_Forces>Rebel, Kashyyyk, Rebel_Light_Tank_Brigade</Starting_Forces>
 
 		<!-- Rebel Space Forces -->
-		<Starting_Forces>Rebel, Alderaan, Rebel_Star_Base_2</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_X-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_X-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Y-Wing_Squadron</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Corellian_Corvette</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Alliance_Assault_Frigate</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Alliance_Assault_Frigate</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Calamari_Cruiser</Starting_Forces>
-		<!-- Rebel Land Forces -->
-		<Starting_Forces>Rebel, Alderaan, R_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, R_Ground_Light_Vehicle_Factory</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_Ground_Mining_Facility</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_Ground_Mining_Facility</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_Infantry_Squad</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_Infantry_Squad</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_Light_Tank_Brigade</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_Light_Tank_Brigade</Starting_Forces>
-		<Starting_Forces>Rebel, Alderaan, Rebel_Light_Tank_Brigade</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Rebel_Star_Base_2</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Rebel_X-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Rebel_X-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Alliance_Assault_Frigate</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Alliance_Assault_Frigate</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_Expansion, Calamari_Cruiser</Starting_Forces>
 
 
 		<!-- Empire Starting Forces -->
@@ -8464,7 +8444,6 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, ShipyardsOfKuatHints</Markup_Filename>
 		<Markup_Filename>Pirates, ShipyardsOfKuatHints</Markup_Filename>
@@ -8788,7 +8767,6 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, ShipyardsOfKuatHints</Markup_Filename>
 		<Markup_Filename>Pirates, ShipyardsOfKuatHints</Markup_Filename>
@@ -9130,7 +9108,6 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
@@ -9604,7 +9581,6 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
@@ -10125,7 +10101,6 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
@@ -10499,7 +10474,6 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
@@ -10895,7 +10869,7 @@
 		<Camera_Shift_Y>0.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
 
-		<Locations>Galaxy_Core_Art_Model, Abregado_Rae, AetenII, Alderaan, AlzocIII, Anaxes, Atzerri, Bespin, Bestine, Bonadan, Bothawui, Byss, Carida, Corellia, Corulag, Coruscant, Dagobah, Dantooine, Endor, Eriadu, Fondor, Fresia, Geonosis, Hoth, Ilum, Jabiim, Kashyyyk, Kessel, Korriban, Kuat, Manaan, MonCalimari, Naboo, NalHutta, Polus, Ryloth, Shola, Sullust, Taris, Tatooine, Thyferra, VergessoAsteroids, Wayland, Yavin</Locations>
+		<Locations>Galaxy_Core_Art_Model, Abregado_Rae, AetenII, Alderaan_Expansion, AlzocIII, Anaxes, Atzerri, Bespin, Bestine, Bonadan, Bothawui, Byss, Carida, Corellia, Corulag, Coruscant, Dagobah, Dantooine, Endor, Eriadu, Fondor, Fresia, Geonosis, Hoth, Ilum, Jabiim, Kashyyyk, Kessel, Korriban, Kuat, Manaan, MonCalimari, Naboo, NalHutta, Polus, Ryloth, Shola, Sullust, Taris, Tatooine, Thyferra, VergessoAsteroids, Wayland, Yavin</Locations>
 
 		<Trade_Routes>AetenII_Wayland, Abregado_Rae_Fondor, Abregado_Rae_Sullust, Anaxes_Coruscant, Bespin_Hoth, Corellia_Coruscant, Corellia_Kessel, Corellia_Ryloth, Corulag_Coruscant, Dagobah_Eriadu, Eriadu_Sullust, Fondor_Thyferra, Bonadan_Yavin, Fresia_Wayland, Kashyyyk_MonCalimari, Kessel_MonCalimari, Bonadan_Dantooine, Kuat_MonCalimari</Trade_Routes>
 
@@ -10910,7 +10884,6 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
@@ -11315,12 +11288,9 @@
 
 
 		<!-- Empire Space Forces -->
-		<Starting_Forces>Empire, Alderaan, Empire_Star_Base_2</Starting_Forces>
-		<Starting_Forces>Empire, Alderaan, Broadside_Class_Cruiser</Starting_Forces>
-		<Starting_Forces>Empire, Alderaan, Acclamator_Assault_Ship</Starting_Forces>
-		<!-- Empire Land Forces -->
-		<Starting_Forces>Empire, Alderaan, E_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Empire, Alderaan, Imperial_Stormtrooper_Squad</Starting_Forces>
+		<Starting_Forces>Empire, Alderaan_Expansion, Empire_Star_Base_2</Starting_Forces>
+		<Starting_Forces>Empire, Alderaan_Expansion, Broadside_Class_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Alderaan_Expansion, Acclamator_Assault_Ship</Starting_Forces>
 
 
 		<!-- Empire Space Forces -->
@@ -11452,7 +11422,7 @@
 		<Camera_Shift_Y>0.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
 
-		<Locations>Galaxy_Core_Art_Model, Abregado_Rae, AetenII, Alderaan, AlzocIII, Anaxes, Atzerri, Bespin, Bestine, Bonadan, Bothawui, Byss, Carida, Corellia, Corulag, Coruscant, Dagobah, Dantooine, Endor, Eriadu, Fondor, Fresia, Geonosis, Hoth, Ilum, Jabiim, Kashyyyk, Kessel, Korriban, Kuat, Manaan, MonCalimari, Naboo, NalHutta, Polus, Ryloth, Shola, Sullust, Taris, Tatooine, Thyferra, VergessoAsteroids, Wayland, Yavin</Locations>
+		<Locations>Galaxy_Core_Art_Model, Abregado_Rae, AetenII, Alderaan_Expansion, AlzocIII, Anaxes, Atzerri, Bespin, Bestine, Bonadan, Bothawui, Byss, Carida, Corellia, Corulag, Coruscant, Dagobah, Dantooine, Endor, Eriadu, Fondor, Fresia, Geonosis, Hoth, Ilum, Jabiim, Kashyyyk, Kessel, Korriban, Kuat, Manaan, MonCalimari, Naboo, NalHutta, Polus, Ryloth, Shola, Sullust, Taris, Tatooine, Thyferra, VergessoAsteroids, Wayland, Yavin</Locations>
 
 		<Trade_Routes>AetenII_Wayland, Abregado_Rae_Fondor, Abregado_Rae_Sullust, Anaxes_Coruscant, Bespin_Hoth, Corellia_Coruscant, Corellia_Kessel, Corellia_Ryloth, Corulag_Coruscant, Dagobah_Eriadu, Eriadu_Sullust, Fondor_Thyferra, Bonadan_Yavin, Fresia_Wayland, Kashyyyk_MonCalimari, Kessel_MonCalimari, Bonadan_Dantooine, Kuat_MonCalimari</Trade_Routes>
 
@@ -11467,7 +11437,6 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
@@ -11860,12 +11829,9 @@
 
 
 		<!-- Empire Space Forces -->
-		<Starting_Forces>Empire, Alderaan, Empire_Star_Base_2</Starting_Forces>
-		<Starting_Forces>Empire, Alderaan, Broadside_Class_Cruiser</Starting_Forces>
-		<Starting_Forces>Empire, Alderaan, Acclamator_Assault_Ship</Starting_Forces>
-		<!-- Empire Land Forces -->
-		<Starting_Forces>Empire, Alderaan, E_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Empire, Alderaan, Imperial_Stormtrooper_Squad</Starting_Forces>
+		<Starting_Forces>Empire, Alderaan_Expansion, Empire_Star_Base_2</Starting_Forces>
+		<Starting_Forces>Empire, Alderaan_Expansion, Broadside_Class_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Alderaan_Expansion, Acclamator_Assault_Ship</Starting_Forces>
 
 
 		<!-- Empire Space Forces -->
@@ -12031,15 +11997,14 @@
 		<Camera_Shift_Y>0.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
 
-		<Locations>Galaxy_Core_Art_Model, Alderaan, AlzocIII, Anaxes, Atzerri, Bespin, Bonadan, Byss, Corellia, Coruscant, Dagobah, Fondor, Hoth, Jabiim, Korriban, MonCalimari, NalHutta, Ryloth, Shola, Thyferra, Wayland, Yavin</Locations>
+		<Locations>Galaxy_Core_Art_Model, Alderaan_Expansion, AlzocIII, Anaxes, Atzerri, Bespin, Bonadan, Byss, Corellia, Coruscant, Dagobah, Fondor, Hoth, Jabiim, Korriban, MonCalimari, NalHutta, Ryloth, Shola, Thyferra, Wayland, Yavin</Locations>
 
-		<Trade_Routes>Wayland_AlzocIII, Atzerri_Thyferra, Fondor_Anaxes, Dagobah_Byss, Corellia_NalHutta, NalHutta_Ryloth, MonCalimari_Shola, MonCalimari_Yavin, Alderaan_Korriban, Bonadan_Yavin</Trade_Routes>
+		<Trade_Routes>Wayland_AlzocIII, Atzerri_Thyferra, Fondor_Anaxes, Dagobah_Byss, Corellia_NalHutta, NalHutta_Ryloth, MonCalimari_Shola, MonCalimari_Yavin, Alderaan_Expansion_Korriban, Bonadan_Yavin</Trade_Routes>
 
 		<Starting_Active_Player>Rebel</Starting_Active_Player>
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
@@ -12394,15 +12359,14 @@
 		<Camera_Shift_Y>0.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
 
-		<Locations>Galaxy_Core_Art_Model, Alderaan, AlzocIII, Anaxes, Atzerri, Bespin, Bonadan, Byss, Corellia, Coruscant, Dagobah, Fondor, Hoth, Jabiim, Korriban, MonCalimari, NalHutta, Ryloth, Shola, Thyferra, Wayland, Yavin</Locations>
+		<Locations>Galaxy_Core_Art_Model, Alderaan_Expansion, AlzocIII, Anaxes, Atzerri, Bespin, Bonadan, Byss, Corellia, Coruscant, Dagobah, Fondor, Hoth, Jabiim, Korriban, MonCalimari, NalHutta, Ryloth, Shola, Thyferra, Wayland, Yavin</Locations>
 
-		<Trade_Routes>Wayland_AlzocIII, Atzerri_Thyferra, Fondor_Anaxes, Dagobah_Byss, Corellia_NalHutta, NalHutta_Ryloth, MonCalimari_Shola, MonCalimari_Yavin, Alderaan_Korriban, Bonadan_Yavin</Trade_Routes>
+		<Trade_Routes>Wayland_AlzocIII, Atzerri_Thyferra, Fondor_Anaxes, Dagobah_Byss, Corellia_NalHutta, NalHutta_Ryloth, MonCalimari_Shola, MonCalimari_Yavin, Alderaan_Expansion_Korriban, Bonadan_Yavin</Trade_Routes>
 
 		<Starting_Active_Player>Empire</Starting_Active_Player>
 
 		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
@@ -12759,7 +12723,6 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
@@ -13023,7 +12986,6 @@
 
 		<Empire_Story_Name>Story_Plots_Sandbox_60_Empire_FOC.xml</Empire_Story_Name>
 
-		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 
@@ -13295,9 +13257,9 @@
 		<Camera_Shift_Y>0.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
 
-		<Locations>Galaxy_Core_Art_Model, AetenII, Alderaan, Carida, Corellia, Corulag, Coruscant, Ilum, Kuat, Manaan, Sullust</Locations>
+		<Locations>Galaxy_Core_Art_Model, AetenII, Alderaan_Expansion, Carida, Corellia, Corulag, Coruscant, Ilum, Kuat, Manaan, Sullust</Locations>
 
-		<Trade_Routes>AetenII_Coruscant, Alderaan_Corellia, Corellia_Corulag, Corellia_Coruscant, Corulag_Ilum</Trade_Routes>
+		<Trade_Routes>AetenII_Coruscant, Alderaan_Expansion_Corellia, Corellia_Corulag, Corellia_Coruscant, Corulag_Ilum</Trade_Routes>
 
 		<Home_Location>Rebel, Sullust</Home_Location>
 		<Home_Location>Empire, Kuat</Home_Location>
@@ -13310,7 +13272,6 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
@@ -13426,11 +13387,8 @@
 		<Starting_Forces>Empire, Kuat, Imperial_Light_Scout_Squad</Starting_Forces>
 
 		<!-- Empire Space Forces -->
-		<Starting_Forces>Empire, Alderaan, Empire_Star_Base_1</Starting_Forces>
-		<Starting_Forces>Empire, Alderaan, Tartan_Patrol_Cruiser</Starting_Forces>
-		<!-- Empire Land Forces -->
-		<Starting_Forces>Empire, Alderaan, E_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Empire, Alderaan, Imperial_Stormtrooper_Squad</Starting_Forces>
+		<Starting_Forces>Empire, Alderaan_Expansion, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Alderaan_Expansion, Tartan_Patrol_Cruiser</Starting_Forces>
 
 		<!-- Empire Space Forces -->
 		<Starting_Forces>Empire, Coruscant, Empire_Star_Base_1</Starting_Forces>
@@ -13509,9 +13467,9 @@
 		<Camera_Shift_Y>0.0</Camera_Shift_Y>
 		<Camera_Distance>1200.0</Camera_Distance>
 
-		<Locations>Galaxy_Core_Art_Model, AetenII, Alderaan, Carida, Corellia, Corulag, Coruscant, Ilum, Kuat, Manaan, Sullust</Locations>
+		<Locations>Galaxy_Core_Art_Model, AetenII, Alderaan_Expansion, Carida, Corellia, Corulag, Coruscant, Ilum, Kuat, Manaan, Sullust</Locations>
 
-		<Trade_Routes>AetenII_Coruscant, Alderaan_Corellia, Corellia_Corulag, Corellia_Coruscant, Corulag_Ilum</Trade_Routes>
+		<Trade_Routes>AetenII_Coruscant, Alderaan_Expansion_Corellia, Corellia_Corulag, Corellia_Coruscant, Corulag_Ilum</Trade_Routes>
 
 		<Home_Location>Rebel, Sullust</Home_Location>
 		<Home_Location>Empire, Kuat</Home_Location>
@@ -13524,7 +13482,6 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
-		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
@@ -13633,14 +13590,9 @@
 		<Starting_Forces>Empire, Kuat, Imperial_Light_Scout_Squad</Starting_Forces>
 
 		<!-- Empire Space Forces -->
-		<Starting_Forces>Empire, Alderaan, Empire_Star_Base_1</Starting_Forces>
-		<Starting_Forces>Empire, Alderaan, Tartan_Patrol_Cruiser</Starting_Forces>
-		<Starting_Forces>Empire, Alderaan, Tartan_Patrol_Cruiser</Starting_Forces>
-		<!-- Empire Land Forces -->
-		<Starting_Forces>Empire, Alderaan, E_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Empire, Alderaan, Imperial_Stormtrooper_Squad</Starting_Forces>
-		<Starting_Forces>Empire, Alderaan, Imperial_Stormtrooper_Squad</Starting_Forces>
-		<Starting_Forces>Empire, Alderaan, Imperial_Light_Scout_Squad</Starting_Forces>
+		<Starting_Forces>Empire, Alderaan_Expansion, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Alderaan_Expansion, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Alderaan_Expansion, Tartan_Patrol_Cruiser</Starting_Forces>
 
 		<!-- Empire Space Forces -->
 		<Starting_Forces>Empire, Coruscant, Empire_Star_Base_2</Starting_Forces>
