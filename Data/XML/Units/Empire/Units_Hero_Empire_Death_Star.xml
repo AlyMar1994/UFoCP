@@ -124,6 +124,10 @@
 	<SpaceUnit Name="Death_Star_RM12">
 		<Variant_Of_Existing_Type>Death_Star</Variant_Of_Existing_Type>
 
+		<Tech_Level>99</Tech_Level>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+
 		<Max_Speed>0.20</Max_Speed> <!-- Move speed used by Death Star to get into range in tactical space -->
 		<Hyperspace_Speed>0.045</Hyperspace_Speed>
 	</SpaceUnit>
