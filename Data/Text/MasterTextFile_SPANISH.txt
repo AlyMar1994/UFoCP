@@ -9,8 +9,6 @@ Hint_IDC_NEW_CAMPAIGN_BUTTON_DEMO,[TBL]
 Hint_IDC_NEW_FIGHT_BUTTON,Inicia la batalla.
 Hint_IDC_SKIRMISH_GAMES_BUTTON,Batalla en el espacio o en tierra, con el Imperio, la Rebelión, o el Consorcio Zann.
 Hint_IDC_SKIRMISH_GAMES_BUTTON_DEMO,[TBL]
-ITEXT_SFX_MCC_NTERDICTOR_1,Tenemos que destruir ese Interdictor, o no iremos a ninguna parte.
-ITEXT_SFX_MCF_INTERDICTOR_1,Tenemos que destruir ese Interdictor, o no iremos a ninguna parte.
 LANGUAGE_CHINESE,Chino
 LANGUAGE_ENGLISH,Inglés
 LANGUAGE_FRENCH,Francés
@@ -8545,6 +8543,7 @@ TEXT_SFX_MCC_HP_SHIELDS_1,¡Disparad al generador de escudo!
 TEXT_SFX_MCC_HP_SHIELDS_2,Eliminad el generador de escudo.
 TEXT_SFX_MCC_HP_TORP_1,Esos lanzatorpedos deben ser destruidos.
 TEXT_SFX_MCC_HP_TORP_2,¡Que todos disparen sobre esos lanzatorpedos!
+TEXT_SFX_MCC_INTERDICTOR_1,Tenemos que destruir ese Interdictor, o no iremos a ninguna parte.
 TEXT_SFX_MCC_LOST_ENGINES_1,¡Nuestros motores no funcionan!
 TEXT_SFX_MCC_LOST_ENGINES_2,¡Hemos perdido el sistema impulsor primario!
 TEXT_SFX_MCC_LOST_ION_1,Los cañones de iones han sido inutilizados.
@@ -8635,6 +8634,7 @@ TEXT_SFX_MCF_HP_SHIELDS_1,¡Disparad al generador de escudo!
 TEXT_SFX_MCF_HP_SHIELDS_2,Eliminad el generador de escudo.
 TEXT_SFX_MCF_HP_TORP_1,Esos lanzatorpedos deben ser destruidos.
 TEXT_SFX_MCF_HP_TORP_2,¡Que todos disparen sobre esos lanzatorpedos!
+TEXT_SFX_MCF_INTERDICTOR_1,Tenemos que destruir ese Interdictor, o no iremos a ninguna parte.
 TEXT_SFX_MCF_LOST_ENGINES_1,¡Nuestros motores no funcionan!
 TEXT_SFX_MCF_LOST_ENGINES_2,¡Hemos perdido el sistema impulsor primario!
 TEXT_SFX_MCF_LOST_ION_1,Los cañones de iones han sido inutilizados.
@@ -12987,7 +12987,7 @@ TEXT_SFX_TYB_LAND_MOVE_13,No puedo hacerlo.
 TEXT_SFX_TYB_LAND_MOVE_14,Buena idea.
 TEXT_SFX_TYB_LAND_MOVE_15,Ah, ahora entiendo.
 TEXT_SFX_TYB_LAND_MOVE_2,Si es necesario…
-TEXT_SFX_TYB_LAND_MOVE_3,En marcha,
+TEXT_SFX_TYB_LAND_MOVE_3,En marcha.
 TEXT_SFX_TYB_LAND_MOVE_4,Destino recibido.
 TEXT_SFX_TYB_LAND_MOVE_5,Estaré allí en breve.
 TEXT_SFX_TYB_LAND_MOVE_6,De acuerdo.
@@ -17643,7 +17643,7 @@ TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_RANCOR,Los ráncor son capaces de destruir 
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_SARLACC,Hemos descubierto fosos de sarlacc en la zona. Aléjate de ellos para evitar bajas.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_SULLUSTAN,Los sullustanos llevan mucho tiempo siendo nuestros aliados contra el Imperio. Atacarán al Imperio siempre que les sea posible.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_TUSCAN_RAIDER,Los bandidos tusken atacarán sin provocación. Neutraliza su poblado para recibir una bonificación.
-TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_TWILEK,Los twi'leks de la zona están hartos de represión. Luchan junto a nuestras fuerzas contra el Imperio,
+TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_TWILEK,Los twi'leks de la zona están hartos de represión. Luchan junto a nuestras fuerzas contra el Imperio.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_TWILEK_01,Los Twi’leks se han aliado con el Consorcio y pueden mostrarse hostiles a nuestra causa.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_VORNSKR,Los vornskr son brutales cazadores que rastrean a sus presas usando la Fuerza. Puede que tengamos que destruirlos para proteger a nuestras tropas.
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_WAMPA,Los wampas son una molestia para la infantería local. Destruye sus cuevas para obtener una recompensa.
