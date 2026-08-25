@@ -18,7 +18,10 @@ LANGUAGE_GERMAN,Niemiecki
 LANGUAGE_ITALIAN,Włoski
 LANGUAGE_JAPANESE,Japoński
 LANGUAGE_KOREAN,Koreański
+LANGUAGE_POLISH,Polski
+LANGUAGE_RUSSIAN,Rosyjski
 LANGUAGE_SPANISH,Hiszpański
+LANGUAGE_UKRAINIAN,Ukraiński
 MB_LAND_PLANET_ALZOCIII_INTIMIDATION,Duża część władzy na planecie leży w rękach komisarza do spraw żywności. Jeśli go sobie podporządkujemy, to Konsorcjum Zanna będzie mogło dowolnie sterować poziomami wydobycia. Zajmę sie tym celem i poprowadzę grupę uderzeniową złożoną z naszych rezerwistów.
 MB_LAND_PLANET_ANAXES_INTIMIDATION,Na planecie Anaxes znajduje się dom rodzinny dowódcy floty, Flankara. Niszcząc oddziały strażnicze w tym osiedlu i raniąc dowódcę, wzbudzimy strach w sercach kapitanów wielu jednostek. Zajmę sie tym celem i poprowadzę grupę uderzeniową złożoną z naszych rezerwistów.
 MB_LAND_PLANET_BESTINE_KIDNAPPING,Na pokrytej oceanami Bestine znajdują się ogromne imperialne stocznie. Jeśli porwiemy ich dowódcę Falana, cała planeta wraz ze stoczniami znajdzie się u naszych stóp. Wkrótce tajemnice, które zna ten człowiek, będą nasze. Zajmę sie tym celem i poprowadzę grupę uderzeniową złożoną z naszych rezerwistów.
@@ -50,38 +53,32 @@ MB_SPACE_PLANET_MANDALORE_PIRACY,Przeprowadzanie aktów piractwa w pobliżu Mand
 MB_SPACE_PLANET_MANDALORE_PIRACY_PROLOGUE,Dokonywanie aktów piractwa jest szczególnie niebezpieczne w okolicy Mandalore. Pokonanie naczelnego stratega Mandalore pokaże Mandalorianom, że nie mają wyboru. Dokonanie aktu piractwa na Mandalore będzie pierwszym krokiem na drodze do stworzenia potężnego Konsorcjum Zanna.
 MB_SPACE_PLANET_MANDALORE_PIRACY_STORY,Przeprowadzanie aktów piractwa w pobliżu Mandalore jest bardzo niebezpieczne. Obejmę dowodzenie i poprowadzę misję, mającą na celu pokonanie walecznych mieszkańców Mandalore. Zajmę sie tym celem i poprowadzę grupę uderzeniową złożoną z naszych rezerwistów.
 MB_SPACE_PLANET_MONCALAMARI_PIRACY,Mon Calamari słynie z produkcji gwiezdnych krążowników, z którymi siły Konsorcjum na pewno będą musiały się zmierzyć, aby przekonać się o ich prawdziwej skuteczności. Zajmę sie tym celem i poprowadzę grupę uderzeniową złożoną z naszych rezerwistów.
-MBEM02_An_Organized_Resistance.TED,Darth Vader został wysłany przez Imperatora na planetę Thyferra z zadaniem odnalezienia imperialnego agenta spiskującego z Rebeliantami. Podążając za zaszyfrowanymi komunikatami, Vader dowodzi imperialnym atakiem lądowym, mając nadzieję na zaskoczenie Rebeliantów i celu jego misji.
-MBEM03_The_Pirate_Menace.TED,Boba Fett został za sporą sumę wynajęty do pomocy Imperium. Sprawdzi obronę piratów i zneutralizuje ich systemy ostrzegania zanim główna flota wleci w ten rejon.
-MBEM04_Space_Planet_Geonosis.TED,Wielki moff Tarkin rozkazał Darthowi Vaderowi zdobycie surowców z planety Geonosis.  Aby zająć planetę, należy zabezpieczyć przestrzeń kosmiczną i powierzchnię planety.
-MBEM05_Attack_on_Mon_Calamari.TED,Imperator uważa, że bardzo niezależna rasa Mon Calamari z pewnością wspomoże Rebelię, jeśli się im na to pozwoli. Aby tego uniknąć, należy podbić planetę.
-MBEM06_Trouble_on_Kashyyyk.TED,Porywczy łotrzyk o nazwisku Solo jakiś czas temu zdezerterował z Imperium i uwolnił Wookiech z więzień. W swym irracjonalnym uporze próbuje wywieźć ich z planety. Nie możemy stracić siły roboczej, którą zdobyliśmy na Kashyyyk.
-MBEM09_A_New_Weapon_of_War.TED,Gdy budowa Gwiazdy Śmierci trwała zgodnie z planem Imperator skierował swą uwagę na nowe rodzaje uzbrojenia. Pułkownik Maximilian Veers ma zademonstrować nową broń szturmową - maszynę kroczącą AT-AT. Pokaz odbędzie się na Caridzie, gdzie znajduje się ważna imperialna placówka szkoleniowa.
-MBEM13_Errand_with_the_Emperor.TED,Imperator Palpatine sądzi, że bothańska sieć szpiegowska odpowiada za przecieki informacji do Rebelii. Dlatego zdecydował, że osobiście zajmie się tą sytuacją.
-MBEM14_Capturing_a_Princess.TED,Bothanie poinformowali Imperatora, gdzie Księżniczka ma otrzymać przekaz dotyczący Gwiazdy Śmierci. Na Tatooine wysłano niewielką flotę z zadaniem schwytania jej, ale nagle doszło do ataku niezauważonych wcześniej sił pirackich. Darth Vader musi usunąć piratów zanim Księżniczka wleci do systemu, w przeciwnym razie ucieknie.
-MBEM15_The_Destruction_of_Alderaan.TED,Konieczna jest demonstracja potęgi Gwiazdy Śmierci. Nieświadomie Księżniczka Leia wybrała cel - swoją rodzinną planetę Alderaan.
+MBEM02_AN_ORGANIZED_RESISTANCE,Darth Vader został wysłany przez Imperatora na planetę Thyferra z zadaniem odnalezienia imperialnego agenta spiskującego z Rebeliantami. Podążając za zaszyfrowanymi komunikatami, Vader dowodzi imperialnym atakiem lądowym, mając nadzieję na zaskoczenie Rebeliantów i celu jego misji.
+MBEM03_THE_PIRATE_MENACE,Boba Fett został za sporą sumę wynajęty do pomocy Imperium. Sprawdzi obronę piratów i zneutralizuje ich systemy ostrzegania zanim główna flota wleci w ten rejon.
+MBEM04_SPACE_PLANET_GEONOSIS,Wielki moff Tarkin rozkazał Darthowi Vaderowi zdobycie surowców z planety Geonosis.  Aby zająć planetę, należy zabezpieczyć przestrzeń kosmiczną i powierzchnię planety.
+MBEM05_ATTACK_ON_MON_CALAMARI,Imperator uważa, że bardzo niezależna rasa Mon Calamari z pewnością wspomoże Rebelię, jeśli się im na to pozwoli. Aby tego uniknąć, należy podbić planetę.
+MBEM06_TROUBLE_ON_KASHYYYK,Porywczy łotrzyk o nazwisku Solo jakiś czas temu zdezerterował z Imperium i uwolnił Wookiech z więzień. W swym irracjonalnym uporze próbuje wywieźć ich z planety. Nie możemy stracić siły roboczej, którą zdobyliśmy na Kashyyyk.
+MBEM09_A_NEW_WEAPON_OF_WAR,Gdy budowa Gwiazdy Śmierci trwała zgodnie z planem Imperator skierował swą uwagę na nowe rodzaje uzbrojenia. Pułkownik Maximilian Veers ma zademonstrować nową broń szturmową - maszynę kroczącą AT-AT. Pokaz odbędzie się na Caridzie, gdzie znajduje się ważna imperialna placówka szkoleniowa.
+MBEM13_ERRAND_WITH_THE_EMPEROR,Imperator Palpatine sądzi, że bothańska sieć szpiegowska odpowiada za przecieki informacji do Rebelii. Dlatego zdecydował, że osobiście zajmie się tą sytuacją.
+MBEM14_CAPTURING_A_PRINCESS,Bothanie poinformowali Imperatora, gdzie Księżniczka ma otrzymać przekaz dotyczący Gwiazdy Śmierci. Na Tatooine wysłano niewielką flotę z zadaniem schwytania jej, ale nagle doszło do ataku niezauważonych wcześniej sił pirackich. Darth Vader musi usunąć piratów zanim Księżniczka wleci do systemu, w przeciwnym razie ucieknie.
+MBEM15_THE_DESTRUCTION_OF_ALDERAAN,Konieczna jest demonstracja potęgi Gwiazdy Śmierci. Nieświadomie Księżniczka Leia wybrała cel - swoją rodzinną planetę Alderaan.
 MBEXECUTIVE_TACTICAL_DEMO,Planeta ta znajduje się w sektorze Moddell, na obszarze Zewnętrznych Rubieży. Ten gigant gazowy posiada dziewięć księżyców. Największy z nich, Endor, ma rozmiary niewielkiej planety. Jego powierzchnię pokrywają sawanny, góry i lasy, w których drzewa osiągają wysokość nawet tysięcy metrów. Księżyc ten zamieszkują liczne istoty inteligentne - od ogromnych Goraxów po odważne Ewoki. Te ostatnie budują swoje wioski na konarach drzew. Poszczególne chaty połączone są wiszącymi mostkami i drewnianymi platformami. Ewoki mają co prawda wygląd stworzeń niezwykle miłych i niegroźnych, ale to doskonali wojownicy i myśliwi, potrafiący wykorzystać w walce elementy otoczenia.
 MBEXECUTIVE_TACTICAL_DEMO1,Planeta o umiarkowanym klimacie, położona w sektorze Chommell. Powierzchnia Naboo pokryta jest bagnami, równinami i zielonymi wzgórzami. W odróżnieniu od innych planet, Naboo nie ma płynnego jądra. Zamiast tego, wewnętrzna struktura planety przypomina potężny plaster miodu, wypełniony wodą. Planetę zamieszkuje wiele gatunków zwierząt oraz pokojowo nastawieni Naboo i bardziej wojowniczy Gunganie. Naboo zazwyczaj zasiedlają przepiękne miasta, takie jak Theed, a Gunganie mieszkają w egzotycznych, podwodnych miastach, ukrytych w jeziorach i bagnach. ZarównoNaboo, jak i Gunganie walczą przeciwko Imperatorowi.
-MBRM01_Space_Planet_Kuat.TED,Nie mogąc dotrzeć bezpośrednio na Frezję, kapitan Antilles postanowił przeprowadzić dywersyjny atak na imperialną stocznię na Kuat - ta wielka instalacja produkuje różne typy imperialnych okrętów. Zwykle jest silnie broniona, ale większość jej floty obronnej został oddelegowana do ceremonii nacjonalizacji zakładów Incom, stocznia jest teraz podatna na atak. Antilles ma nadzieję, że spowoduje tyle zniszczeń, że odciągnie imperialny Gwiezdny Niszczyciel Tyrania z Frezji, co odsłoni prawdziwy cel operacji.
-MBRM02_Interpreting_the_Network.TED,Niezrażeni niepowodzeniem próby skradzenia myśliwców typu X, Rebelianci postanawiają przedostać się na Frezję oszukując czujniki znajdujące się wokół tej planety. W tym celu R2-D2 musi wykraść kody z terminala sieci imperialnej, znajdującego się na Wayland. Dzięki tym kodom okręt Sojuszu będzie się mógł przedostać na Frezję.
-MBRM03_Theft_of_the_X-wing.TED,Nie chcąc by myśliwce typu X wpadły w ręce Imperium, część naukowców z firmy Incom poinformowała sojusz gdzie znajdują się prototypy. Za kilka dni ma dojść do nacjonalizacji firmy, więc Sojusz nie ma chwili do stracenia. Wkrótce siły Imperium przylecą na Frezję i zarekwirują myśliwce typu X dla własnych sił zbrojnych. Sojusz wie, że nie jest to łatwa misja. Fabryka jest silnie broniona, a Imperium szybko domyśli się co planują.
-MBRM04_Kessel_Rescue,Cieszące się złą sławą kopalnie na Kessel to wyrok śmieci dla każdego więźnia Imperium, który zostanie tam zesłany.  Otrzymawszy informacje, że przetransportowana tam ma być grupa naukowców z Incomu oraz inni sprzymierzeńcy Rebelii, Sojusz Rebeliantów, nie tracąc czasu, organizuje akcję ratowniczą, aby uratować nieszczęśników, zanim trafią do kopalń.  Korzystając z możliwości Y-skrzydłowców zwanej atakiem jonowym, Rebelianci mogą unieruchomić promy, aby do akcji mógł wkroczyć kapitan Antilles i jego Rozdarte Serce i wyzwolić więźniów, zanim dotrą na Kessel!
-MBRM06_Imperial_Liberation,Przechwyciwszy komunikaty o problemie na Kashyyyku, Sojusz Rebeliantów dowiaduje się o tym, że ktoś przypuścił atak na więzienia, w których Imperium przetrzymuje Wookiech.   Uwolnieni Wookie chwytają za broń.  Sojusz musi wspomóc wszelkie działania, które mogłyby zaowocować wyzwoleniem mieszkańców Kashyyyka z uścisku Imperium.
-MBRM07_Highest_Bidder,Kontakty z przedstawicielami świata przestępczego są zawsze obarczone ryzykiem. Tym razem los Sojuszu zawisł na włosku. Jeden ze współpracowników Sojuszu skradł ważne dane dotyczące Rebelii i zamierza je sprzedać Imperium… za sporą kwotę.
-MBRM07A_Rescue_Falcon,Zaraz po rozstaniu z Sojuszem, Han Solo znowu zadziera z Imperium. Jego statek został schwytany przez promień ściągający podczas przemycania nielegalnych towarów na Corulag. To tylko kwestia czasu, kiedy silniki statku Hana Solo ulegną przeciążeniu, a na pokład zawitają imperialni żołnierze. Sojusz musi działać szybko, jeżeli chce mu pomóc i w przyszłości skorzystać z jego usług, szczególnie w przypadku planowanej misji...
-MBRM08A_Cargo_Woes,Zazwyczaj Han Solo kradnie różne rzeczy z takich miejsc - nigdy się nie zdarzyło, żeby coś w nich zostawiał. W tym miejscu zaopatrują się jednostki z całego sektora. Jednego dnia pojawia się tutaj więcej okrętów imperialnych, niż w innych systemach przez cały rok. Pojemniki, których miejscem docelowym są różne planety, są rozmieszczone po całym magazynie i stanowią łatwy łup dla osób, które potrafią sobie poradzić z systemem bezpieczeństwa. Sojusz ma nadzieję, że Han jest jedną z tych osób.
-MBRM09_Borrowed_Time,Korzystając ze zdobytych informacji, Sojusz poznał lokalizację tajnej stacji badawczej Tarkina. Pojemnik z urządzeniem EMP dotarł na miejsce przeznaczenia. Sojusz zbiera teraz flotę i szykuję się do szturmu na stację. Po dotarciu do celu, urządzenie EMP zostanie uruchomione. Jeżeli dopisze szczęście, Rebelianci powinni odnaleźć odpowiednie dane zanim pojawi się flota Imperium.
-MBRM09_Lost_and_Found,Han Solo i Chewbacca po raz kolejny wykonują niebezpieczne zadanie dla Sojuszu. Tym razem muszą się przedostać do pilnie strzeżonego i ufortyfikowanego miasta imperialnego… w dodatku na piechotę. Ich celem jest odnalezienie schematów zabranych przez Imperium. Odzyskanie tych schematów pozwoli Kalamarianinom na wzięcie udziału w walce. Han i Chewie muszą ze sobą ściśle współpracować, odnaleźć drogę przez miasto, unikać lub eliminować napotkane patrole i dotrzeć do doku, gdzie muszą odzyskać plany i ukraść statek, którym odlecą z planety.
-MBTM00_Galactic,Zapoznanie z trybem galaktycznym
+MBRM01_SPACE_PLANET_KUAT,Nie mogąc dotrzeć bezpośrednio na Frezję, kapitan Antilles postanowił przeprowadzić dywersyjny atak na imperialną stocznię na Kuat - ta wielka instalacja produkuje różne typy imperialnych okrętów. Zwykle jest silnie broniona, ale większość jej floty obronnej został oddelegowana do ceremonii nacjonalizacji zakładów Incom, stocznia jest teraz podatna na atak. Antilles ma nadzieję, że spowoduje tyle zniszczeń, że odciągnie imperialny Gwiezdny Niszczyciel Tyrania z Frezji, co odsłoni prawdziwy cel operacji.
+MBRM02_INTERPRETING_THE_NETWORK,Niezrażeni niepowodzeniem próby skradzenia myśliwców typu X, Rebelianci postanawiają przedostać się na Frezję oszukując czujniki znajdujące się wokół tej planety. W tym celu R2-D2 musi wykraść kody z terminala sieci imperialnej, znajdującego się na Wayland. Dzięki tym kodom okręt Sojuszu będzie się mógł przedostać na Frezję.
+MBRM03_THEFT_OF_THE_X-WING,Nie chcąc by myśliwce typu X wpadły w ręce Imperium, część naukowców z firmy Incom poinformowała sojusz gdzie znajdują się prototypy. Za kilka dni ma dojść do nacjonalizacji firmy, więc Sojusz nie ma chwili do stracenia. Wkrótce siły Imperium przylecą na Frezję i zarekwirują myśliwce typu X dla własnych sił zbrojnych. Sojusz wie, że nie jest to łatwa misja. Fabryka jest silnie broniona, a Imperium szybko domyśli się co planują.
+MBRM04_KESSEL_RESCUE,Cieszące się złą sławą kopalnie na Kessel to wyrok śmieci dla każdego więźnia Imperium, który zostanie tam zesłany.  Otrzymawszy informacje, że przetransportowana tam ma być grupa naukowców z Incomu oraz inni sprzymierzeńcy Rebelii, Sojusz Rebeliantów, nie tracąc czasu, organizuje akcję ratowniczą, aby uratować nieszczęśników, zanim trafią do kopalń.  Korzystając z możliwości Y-skrzydłowców zwanej atakiem jonowym, Rebelianci mogą unieruchomić promy, aby do akcji mógł wkroczyć kapitan Antilles i jego Rozdarte Serce i wyzwolić więźniów, zanim dotrą na Kessel!
+MBRM06_IMPERIAL_LIBERATION,Przechwyciwszy komunikaty o problemie na Kashyyyku, Sojusz Rebeliantów dowiaduje się o tym, że ktoś przypuścił atak na więzienia, w których Imperium przetrzymuje Wookiech.   Uwolnieni Wookie chwytają za broń.  Sojusz musi wspomóc wszelkie działania, które mogłyby zaowocować wyzwoleniem mieszkańców Kashyyyka z uścisku Imperium.
+MBRM07_HIGHEST_BIDDER,Kontakty z przedstawicielami świata przestępczego są zawsze obarczone ryzykiem. Tym razem los Sojuszu zawisł na włosku. Jeden ze współpracowników Sojuszu skradł ważne dane dotyczące Rebelii i zamierza je sprzedać Imperium… za sporą kwotę.
+MBRM07A_RESCUE_FALCON,Zaraz po rozstaniu z Sojuszem, Han Solo znowu zadziera z Imperium. Jego statek został schwytany przez promień ściągający podczas przemycania nielegalnych towarów na Corulag. To tylko kwestia czasu, kiedy silniki statku Hana Solo ulegną przeciążeniu, a na pokład zawitają imperialni żołnierze. Sojusz musi działać szybko, jeżeli chce mu pomóc i w przyszłości skorzystać z jego usług, szczególnie w przypadku planowanej misji...
+MBRM08A_CARGO_WOES,Zazwyczaj Han Solo kradnie różne rzeczy z takich miejsc - nigdy się nie zdarzyło, żeby coś w nich zostawiał. W tym miejscu zaopatrują się jednostki z całego sektora. Jednego dnia pojawia się tutaj więcej okrętów imperialnych, niż w innych systemach przez cały rok. Pojemniki, których miejscem docelowym są różne planety, są rozmieszczone po całym magazynie i stanowią łatwy łup dla osób, które potrafią sobie poradzić z systemem bezpieczeństwa. Sojusz ma nadzieję, że Han jest jedną z tych osób.
+MBRM09_BORROWED_TIME,Korzystając ze zdobytych informacji, Sojusz poznał lokalizację tajnej stacji badawczej Tarkina. Pojemnik z urządzeniem EMP dotarł na miejsce przeznaczenia. Sojusz zbiera teraz flotę i szykuję się do szturmu na stację. Po dotarciu do celu, urządzenie EMP zostanie uruchomione. Jeżeli dopisze szczęście, Rebelianci powinni odnaleźć odpowiednie dane zanim pojawi się flota Imperium.
+MBRM09_LOST_AND_FOUND,Han Solo i Chewbacca po raz kolejny wykonują niebezpieczne zadanie dla Sojuszu. Tym razem muszą się przedostać do pilnie strzeżonego i ufortyfikowanego miasta imperialnego… w dodatku na piechotę. Ich celem jest odnalezienie schematów zabranych przez Imperium. Odzyskanie tych schematów pozwoli Kalamarianinom na wzięcie udziału w walce. Han i Chewie muszą ze sobą ściśle współpracować, odnaleźć drogę przez miasto, unikać lub eliminować napotkane patrole i dotrzeć do doku, gdzie muszą odzyskać plany i ukraść statek, którym odlecą z planety.
 MBTM00_GALACTIC,Wstęp do trybu galaktycznego
-MBTM01_Gaining_Ground,Pluton rebelianckiej piechoty został wysłany z zadaniem zlokalizowania zaginionego oddziału patrolowego, który ostatnio widziano podczas rutynowego monitorowania okolicy.
 MBTM01_GAINING_GROUND,Pluton piechoty Rebelii został wysłany na poszukiwanie zaginionego oddziału zwiadowczego, który przeprowadzał rutynowy patrol.
-MBTM02_Scramble,Po ucieczce z Kashyyyka, Sojusz Rebeliantów musi wzmocnić swoje bazy na kilku pobliskich planetach.
 MBTM02_SCRAMBLE,Po ucieczce przed atakiem Imperium na Kashyyyku, Rebelia musi wzmocnić swoje bazy rozmieszczone na kilku, pobliskich planetach.
-MBTM03_Empire_at_War,Pokonany w starciu na planecie Kashyyyk, jeden z oficerów Imperium próbuje odkryć źródło nowego ruchu oporu.
 MBTM03_EMPIRE_AT_WAR,Po porażce na powierzchni Kashyyyka, oficer imperialny usiłuje odkryć źródło nowego ruchu oporu.
-MBTM04_Imperial_Noose,Po zniszczeniu stacji kosmicznej Rebeliantów na orbicie wokół planety Kashyyyk, oficer Imperium próbuje za wszelką cenę wyeliminować wszystkie pozostałe siły Rebeliantów, zagrażające jego pozycji.
 MBTM04_IMPERIAL_NOOSE,Po udanym zniszczeniu stacji kosmicznej Rebelii nad Kashyyykiem, oficer imperialny usiłuje zniszczyć pozostałe siły rebeliantów.
-MBTM05_Imperial_Policy,Imperium zlokalizowało bazę Rebeliantów na planecie Ryloth, a imperialna armia jest już gotowa do przypuszczenia frontalnego ataku na pozycje Rebelii.
 MBTM05_IMPERIAL_POLICY,Siły Imperium odnalazły bazę Rebelii na Ryloth. Teraz zamierzają ją zniszczyć.
 MBTM06_LAND_MULTIPLAYER,Nauka podstaw gry w trybie potyczki na lądzie
 MBTM07_SPACE_MULTIPLAYER,Nauka podstaw gry w trybie potyczki w kosmosie
@@ -160,57 +157,59 @@ MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_00,W kopalniach na asteroidach wyd
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_01,Ulepszenia: Zwiększone zasoby
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_PAD_00,KLIKNIJ, aby rozpocząć budowę kopalni na asteroidzie.
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_PAD_01,W aktywnej kopalni wydobywa się rudę i cenne minerały, które potem zamienia się na kredyty.
-MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Dostępne jednostki: szturmowcy, zwiadowcy, dowódca polowy.
+MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Dostępne jednostki: szturmowcy, zwiadowcy, zabójcy Noghri
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Ulepszenia: szkolenie specjalne, zwiększona mobilność
-MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_EMPIRE_00,KLIKNIJ, aby rozpocząć budowę imperialnych koszar
-MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_REBEL_00,KLIKNIJ, aby rozpocząć budowę rebelianckich koszar
+MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_EMPIRE_00,KLIKNIJ, aby rozpocząć budowę imperialnych koszar.
+MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_REBEL_00,KLIKNIJ, aby rozpocząć budowę rebelianckich koszar.
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_UNDERWORLD_00,KLIKNIJ, aby zbudować stację najemników Podziemia.
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Dostępne jednostki: żołnierze Rebelii, żołnierze PLEX, dowódca polowy, szpieg
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,Ulepszenia: pancerz bojowy, szkolenie specjalne
-MP_TEXT_ENCYCLOPEDIA_BASE_SHIELD_EMPIRE_00,KLIKNIJ, aby rozpocząć budowę osłony bazy imperialnej
-MP_TEXT_ENCYCLOPEDIA_BASE_SHIELD_REBEL_00,KLIKNIJ, aby rozpocząć budowę osłony bazy rebelianckiej
+MP_TEXT_ENCYCLOPEDIA_BASE_SHIELD_EMPIRE_00,KLIKNIJ, aby rozpocząć budowę osłony bazy imperialnej.
+MP_TEXT_ENCYCLOPEDIA_BASE_SHIELD_REBEL_00,KLIKNIJ, aby rozpocząć budowę osłony bazy rebelianckiej.
 MP_TEXT_ENCYCLOPEDIA_CANTINA_00,Zapewnia dostęp do unikatowych jednostek po obniżonych cenach.
 MP_TEXT_ENCYCLOPEDIA_CANTINA_01,Jednostki: lekka machina krocząca, skif piracki, śmigacz bagienny.
 MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_00,Za pomocą sensorów zbiera informacje z pola bitwy w czasie rzeczywistym. W przypadku zniszczenia lub utraty zasilania radar przestaje działać.
-MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_EMPIRE_PAD_00,KLIKNIJ, aby rozpocząć tworzenie imperialnego centrum komunikacyjnego
-MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_REBEL_PAD_00,KLIKNIJ, aby rozpocząć tworzenie rebelianckiego centrum komunikacyjnego
+MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_EMPIRE_PAD_00,KLIKNIJ, aby rozpocząć tworzenie imperialnego centrum komunikacyjnego.
+MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_REBEL_PAD_00,KLIKNIJ, aby rozpocząć tworzenie rebelianckiego centrum komunikacyjnego.
 MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE_00,Imperialne centrum dowodzenia nadzoruje działanie wszystkich jednostek naziemnych. Centrum dowodzenia pozwala na rekrutację bohaterów.
 MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE_01,Ulepszenia: Poziom technologiczny 1-3
-MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_PAD_EMPIRE_00,KLIKNIJ, aby rozpocząć tworzenie centrum dowodzenia Imperium
-MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_PAD_REBEL_00,KLIKNIJ, aby rozpocząć tworzenie centrum dowodzenia Rebelii
+MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_PAD_EMPIRE_00,KLIKNIJ, aby rozpocząć tworzenie centrum dowodzenia Imperium.
+MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_PAD_REBEL_00,KLIKNIJ, aby rozpocząć tworzenie centrum dowodzenia Rebelii.
 MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_REBEL_00,Główna konstrukcja operacyjna w bazie naziemnej Rebelii. Centrum dowodzenia pozwala na rekrutację bohaterów.
 MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_REBEL_01,Ulepszenia: Poziom technologiczny 1-3
+MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_DBM_PAD_00,KLIKNIJ, aby rozpocząć tworzenie satelity z działem diamentowo-borowym.
 MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_LASER_00,Platforma laserowa, służąca do obrony przed myśliwcami i korwetami.
-MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_LASER_PAD_00,KLIKNIJ, aby rozpocząć tworzenie satelity obrony laserowej
+MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_LASER_PAD_00,KLIKNIJ, aby rozpocząć tworzenie satelity obrony laserowej.
 MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_00,Platforma wyrzutni pocisków, służąca do obrony przed korwetami i fregatami.
-MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_PAD_00,KLIKNIJ, aby rozpocząć tworzenie satelity obrony rakietowej
+MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_PAD_00,KLIKNIJ, aby rozpocząć tworzenie satelity obrony rakietowej.
+MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_PLASMA_PAD_00,KLIKNIJ, aby rozpocząć tworzenie satelity z działem plazmowym.
 MP_TEXT_ENCYCLOPEDIA_DROID_WORKS_UNDERWORLD_PAD_00,KLIKNIJ, aby zbudować fabrykę droidów Podziemia.
 MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_00,Jednostki do zamawiania: czołg repulsorowy 2-M, SPMA-T , AT-AT
 MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01,Ulepszenia: Ciężki pancerz refleksyjny, Ulepszone reaktory AT-AT
-MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_PAD_00,KLIKNIJ, aby rozpocząć budowę imperialnej fabryki pojazdów ciężko opancerzonych
+MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_PAD_00,KLIKNIJ, aby rozpocząć budowę imperialnej fabryki pojazdów ciężko opancerzonych.
 MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,Jednostki do zamawiania: artyleria MPTL, czołgiT4-B
 MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_01,Ulepszenia: ciężki pancerz, zwiększona moc rażenia T4-B, ulepszony napęd
-MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_PAD_00,KLIKNIJ, aby rozpocząć budowę rebelianckiej fabryki pojazdów ciężko opancerzonych
+MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_PAD_00,KLIKNIJ, aby rozpocząć budowę rebelianckiej fabryki pojazdów ciężko opancerzonych.
 MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Jednostki do zamawiania: AT-ST, czołg typu TIE, AT-AA
 MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Ulepszenia: Lekki pancerz refleksyjny, Wzmocnione reaktory
-MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_PAD_00,KLIKNIJ, aby rozpocząć budowę imperialnej fabryki pojazdów lekko opancerzonych
+MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_PAD_00,KLIKNIJ, aby rozpocząć budowę imperialnej fabryki pojazdów lekko opancerzonych.
 MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Jednostki do zamawiania: czołgi T2-B, śmigacze
 MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Ulepszenia: Lekki pancerz, Wzmocnione repulsory
-MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_PAD_00,KLIKNIJ, aby rozpocząć budowę rebelianckiej fabryki pojazdów lekko opancerzonych
+MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_PAD_00,KLIKNIJ, aby rozpocząć budowę rebelianckiej fabryki pojazdów lekko opancerzonych.
 MP_TEXT_ENCYCLOPEDIA_MERCHANT_SPACE_DOCK_00,Zapewnia dostęp do unikatowych jednostek po obniżonych cenach
 MP_TEXT_ENCYCLOPEDIA_MERCHANT_SPACE_DOCK_01,Jednostki: krążownik klasy Venator, fregata przechwytująca, jednostka patrolowa IPV, myśliwce piratów.
 MP_TEXT_ENCYCLOPEDIA_MINING_00,Pozyskaną z niej rudę i cenne minerały zamienia się na kredyty.
 MP_TEXT_ENCYCLOPEDIA_MINING_01,Ulepszenia: Zwiększona produkcja
-MP_TEXT_ENCYCLOPEDIA_MINING_EMPIRE_PAD_00,KLIKNIJ, aby rozpocząć budowę kopalni
-MP_TEXT_ENCYCLOPEDIA_MINING_REBEL_PAD_00,KLIKNIJ, aby rozpocząć budowę kopalni
+MP_TEXT_ENCYCLOPEDIA_MINING_EMPIRE_PAD_00,KLIKNIJ, aby rozpocząć budowę kopalni.
+MP_TEXT_ENCYCLOPEDIA_MINING_REBEL_PAD_00,KLIKNIJ, aby rozpocząć budowę kopalni.
 MP_TEXT_ENCYCLOPEDIA_PALACE_PAD_UNDERWORLD_00,KLIKNIJ, aby zbudować pałac Podziemia.
 MP_TEXT_ENCYCLOPEDIA_POWER_GENERATOR_00,Dostarcza zasilanie do generatora osłony, kopalni, centrum komunikacyjnego i turbolaserów. Zniszczenie tej konstrukcji powoduje wyłączenie osłony, turbolaserów i radaru oraz ogranicza produkcję kopalni.
-MP_TEXT_ENCYCLOPEDIA_POWER_GENERATOR_EMPIRE_PAD_00,KLIKNIJ, aby rozpocząć tworzenie imperialnego generatora mocy
-MP_TEXT_ENCYCLOPEDIA_POWER_GENERATOR_REBEL_PAD_00,KLIKNIJ, aby rozpocząć tworzenie rebelianckiego generatora mocy
+MP_TEXT_ENCYCLOPEDIA_POWER_GENERATOR_EMPIRE_PAD_00,KLIKNIJ, aby rozpocząć tworzenie imperialnego generatora mocy.
+MP_TEXT_ENCYCLOPEDIA_POWER_GENERATOR_REBEL_PAD_00,KLIKNIJ, aby rozpocząć tworzenie rebelianckiego generatora mocy.
 MP_TEXT_ENCYCLOPEDIA_RESEARCH_00,Zapewnia ulepszenia ofensywne i defensywne.
 MP_TEXT_ENCYCLOPEDIA_RESEARCH_01,Ulepszenia: naloty bombowe, wzmocnione struktury, ulepszona obrona
-MP_TEXT_ENCYCLOPEDIA_RESEARCH_EMPIRE_PAD_00,KLIKNIJ, aby rozpocząć tworzenie imperialnego centrum badawczego
-MP_TEXT_ENCYCLOPEDIA_RESEARCH_REBEL_PAD_00,KLIKNIJ, aby rozpocząć tworzenie rebelianckiego centrum badawczego
+MP_TEXT_ENCYCLOPEDIA_RESEARCH_EMPIRE_PAD_00,KLIKNIJ, aby rozpocząć tworzenie imperialnego centrum badawczego.
+MP_TEXT_ENCYCLOPEDIA_RESEARCH_REBEL_PAD_00,KLIKNIJ, aby rozpocząć tworzenie rebelianckiego centrum badawczego.
 MP_TEXT_ENCYCLOPEDIA_RESOURCE_PAD_00,Służy jako dodatkowe, niezależne źródło dochodów.
 MP_TEXT_ENCYCLOPEDIA_RESOURCE_PAD_EMPTY_00,KLIKNIJ, aby rozpocząć tworzenie stacji zasobów. Aktywna stacja dostarcza dodatkowych środków.
 MT_LAND_PLANET_ALZOCIII_INTIMIDATION,Zastrasz komisarza do spraw żywności.
@@ -244,38 +243,32 @@ MT_SPACE_PLANET_MANDALORE_PIRACY,Rozpocznij ataki na transporty Mandal Hypernaut
 MT_SPACE_PLANET_MANDALORE_PIRACY_PROLOGUE,Klęska naczelnego stratega Mandalore
 MT_SPACE_PLANET_MANDALORE_PIRACY_STORY,Rozpocznij ataki na transporty Mandal Hypernautics.
 MT_SPACE_PLANET_MONCALAMARI_PIRACY,Rozpocznij ataki na transporty z Mon Calamari.
-MTEM02_An_Organized_Resistance.TED,Zorganizowany ruch oporu
-MTEM03_The_Pirate_Menace.TED,Zagrożenie ze strony piratów
-MTEM04_Space_Planet_Geonosis.TED,Podbój Geonosis
-MTEM05_Attack_on_Mon_Calamari.TED,Atak na Mon Calamari
-MTEM06_Trouble_on_Kashyyyk.TED,Kłopoty na Kashyyyku
-MTEM09_A_New_Weapon_of_War.TED,Nowa broń
-MTEM13_Errand_with_the_Emperor.TED,Walka z Imperatorem
-MTEM14_Capturing_a_Princess.TED,W pogoni za Księżniczką
-MTEM15_The_Destruction_of_Alderaan.TED,Zniszczenie Alderaana
+MTEM02_AN_ORGANIZED_RESISTANCE,Zorganizowany ruch oporu
+MTEM03_THE_PIRATE_MENACE,Zagrożenie ze strony piratów
+MTEM04_SPACE_PLANET_GEONOSIS,Podbój Geonosis
+MTEM05_ATTACK_ON_MON_CALAMARI,Atak na Mon Calamari
+MTEM06_TROUBLE_ON_KASHYYYK,Kłopoty na Kashyyyku
+MTEM09_A_NEW_WEAPON_OF_WAR,Nowa broń
+MTEM13_ERRAND_WITH_THE_EMPEROR,Walka z Imperatorem
+MTEM14_CAPTURING_A_PRINCESS,W pogoni za Księżniczką
+MTEM15_THE_DESTRUCTION_OF_ALDERAAN,Zniszczenie Alderaana
 MTEXECUTIVE_TACTICAL_DEMO,Endor
 MTEXECUTIVE_TACTICAL_DEMO1,Naboo
-MTRM01_Space_Planet_Kuat.TED,Dywersja w Stoczni
-MTRM02_Interpreting_the_Network.TED,Interpretacja Sieci
-MTRM03_Theft_of_the_X-wing.TED,Kradzież myśliwca typu X
-MTRM04_Kessel_Rescue,Akcja ratownicza na Kessel
-MTRM06_Imperial_Liberation,Oswobodzenie z imperialnej niewoli
-MTRM07_Highest_Bidder,Najwyższa oferta
-MTRM07A_Rescue_Falcon,Pomoc dla Sokoła Millenium
-MTRM08A_Cargo_Woes,Igła w stogu siana
-MTRM09_Borrowed_Time,Pożyczony czas
-MTRM09_Lost_and_Found,Postępować z ostrożnością!
-MTTM00_Galactic,Zapoznanie z trybem galaktycznym
+MTRM01_SPACE_PLANET_KUAT,Dywersja w Stoczni
+MTRM02_INTERPRETING_THE_NETWORK,Interpretacja Sieci
+MTRM03_THEFT_OF_THE_X-WING,Kradzież myśliwca typu X
+MTRM04_KESSEL_RESCUE,Akcja ratownicza na Kessel
+MTRM06_IMPERIAL_LIBERATION,Oswobodzenie z imperialnej niewoli
+MTRM07_HIGHEST_BIDDER,Najwyższa oferta
+MTRM07A_RESCUE_FALCON,Pomoc dla Sokoła Millenium
+MTRM08A_CARGO_WOES,Igła w stogu siana
+MTRM09_BORROWED_TIME,Pożyczony czas
+MTRM09_LOST_AND_FOUND,Postępować z ostrożnością!
 MTTM00_GALACTIC,Wstęp do trybu galaktycznego
-MTTM01_Gaining_Ground,Nowe tereny
 MTTM01_GAINING_GROUND,Zdobywanie przyczółka
-MTTM02_Scramble,Umacnianie pozycji
 MTTM02_SCRAMBLE,Potyczki
-MTTM03_Empire_at_War,Imperium w stanie wojny
-MTTM03_EMPIRE_AT_WAR,Wojna w Imperium
-MTTM04_Imperial_Noose,Imperialna pętla
+MTTM03_EMPIRE_AT_WAR,Imperium w stanie wojny
 MTTM04_IMPERIAL_NOOSE,Imperialna pętla
-MTTM05_Imperial_Policy,Polityka Imperium
 MTTM05_IMPERIAL_POLICY,Polityka imperialna
 MTTM06_LAND_MULTIPLAYER,Tryb potyczki naziemnej (nieinteraktywny)
 MTTM07_SPACE_MULTIPLAYER,Tryb potyczki kosmicznej (nieinteraktywny)
@@ -413,7 +406,6 @@ TEXT_BOBA_FETT_NEUTRALIZES_HAN_SOLO,Boba Fett zneutralizował na pewien czas Han
 TEXT_BOBA_FETT_NEUTRALIZES_KYLE_KATARN,Boba Fett zneutralizował na pewien czas Kyle'a Katarna! Miejsce:
 TEXT_BOBA_FETT_NEUTRALIZES_MON_MOTHMA,Boba Fett zneutralizował na pewien czas Mon Mothmę! Miejsce:
 TEXT_BOBA_FETT_NEUTRALIZES_OBI_WAN_KENOBI,Boba Fett zneutralizował na pewien czas Obi-Wana Kenobiego! Miejsce:
-TEXT_BOMB_CLASS,Bomba
 TEXT_BOSSK_FLAMETHROWER_DESCRIPTION,Aktywuje miotacz ognia Bosska, co powoduje zadanie obrażeń jednostkom, znajdującym się w polu rażenia.
 TEXT_BOSSK_SWAP_DESCRIPTION,Przełączanie pomiędzy blasterem i granatami plazmowymi
 TEXT_BOTH_MOUSE_BUTTONS_ROTATE,Oba przyciski myszy obracają.
@@ -612,6 +604,7 @@ TEXT_CAMPAIGN_DIFFICULTY,Poziom trudności:
 TEXT_CAMPAIGN_DIRECTIONS,EMPIRE AT WAR - wybierz stopień trudności, a następnie stronę…
 TEXT_CAMPAIGN_DIRECTIONS2,Wybierz swoje przeznaczenie…
 TEXT_CAMPAIGN_FOCUSDEMO,FOKUS DEMO
+TEXT_CAMPAIGN_FULL_STORY_DESCRIPTION_CAMPAIGN,Warunki:\n\nPlanety: 42\nPoz. technologiczny: 1\nKredyty: 20,000\nPrzeżyj narodziny Imperium Galaktycznego lub Sojuszu Rebeliantów w tych dwustronnych kampaniach fabularnych.
 TEXT_CAMPAIGN_FULL_STORY_EMPIRE,Kampania fabularna Imperium
 TEXT_CAMPAIGN_FULL_STORY_REBEL,Kampania fabularna Sojuszu
 TEXT_CAMPAIGN_GROUND_BATTLE_STYLE,COMICON DEMO
@@ -634,6 +627,7 @@ TEXT_CAMPAIGN_MIKE_TEST,Magiczna kampania testowa Mike'a
 TEXT_CAMPAIGN_MOVIE_MAP,Tylko planety z filmu
 TEXT_CAMPAIGN_MULTI_ALDERAAN,Zagłada Alderaana
 TEXT_CAMPAIGN_MULTI_BESPIN,Pokaz na Bespinie
+TEXT_CAMPAIGN_MULTI_BESPIN_FOC,Pokaz na Bespinie (Bohaterowie FOC)
 TEXT_CAMPAIGN_MULTI_CORUSCANT,Coruscant otoczone
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_ALDERAAN,Ten scenariusz zawiera 7 planet.
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_BESPIN,Ten scenariusz zawiera 5 planet.
@@ -644,10 +638,15 @@ TEXT_CAMPAIGN_MULTI_DESCRIPTION_NABOO,Ten scenariusz zawiera 9 planet.
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_TATOOINE,Ten scenariusz zawiera 5 planet.
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_YAVIN,Ten scenariusz zawiera 14 planet.
 TEXT_CAMPAIGN_MULTI_ENDOR,Droga na Endor
+TEXT_CAMPAIGN_MULTI_ENDOR_FOC,Droga na Endor (Bohaterowie FOC)
 TEXT_CAMPAIGN_MULTI_HOTH,Bitwa na Hoth
+TEXT_CAMPAIGN_MULTI_HOTH_FOC,Bitwa na Hoth (Bohaterowie FOC)
 TEXT_CAMPAIGN_MULTI_NABOO,Połączenie z Naboo
+TEXT_CAMPAIGN_MULTI_NABOO_FOC,Połączenie z Naboo (Bohaterowie FOC)
 TEXT_CAMPAIGN_MULTI_TATOOINE,Od zera
+TEXT_CAMPAIGN_MULTI_TATOOINE_FOC,Od zera (Bohaterowie FOC)
 TEXT_CAMPAIGN_MULTI_YAVIN,Konflikt galaktyczny
+TEXT_CAMPAIGN_MULTI_YAVIN_FOC,Konflikt galaktyczny (Bohaterowie FOC)
 TEXT_CAMPAIGN_P3_CLUSTERS_HEROES,P3 klastry tryb wieloosobowy (bez SI - bohaterowie)
 TEXT_CAMPAIGN_P3_CLUSTERS_MULTIPLAYER,P3 klastry tryb wieloosobowy (bez SI)
 TEXT_CAMPAIGN_P3_EMPIRE_HUMAN,P3 klastry Imperium człowiek - Rebelia SI (bez implementacji)
@@ -677,57 +676,85 @@ TEXT_CAMPAIGN_PLANET_CONTROL,Docelowa kontrola planety
 TEXT_CAMPAIGN_REINFORCEMENT_TEST,Plaża Omaha
 TEXT_CAMPAIGN_SELECT_FACTION,Wybierz swoją stronę
 TEXT_CAMPAIGN_SINGLE_10A,Coruscant
+TEXT_CAMPAIGN_SINGLE_10A_FOC,Coruscant (Bohaterowie FOC)
 TEXT_CAMPAIGN_SINGLE_10B,Upadek Alderaana
+TEXT_CAMPAIGN_SINGLE_10B_FOC,Upadek Alderaana (Bohaterowie FOC)
 TEXT_CAMPAIGN_SINGLE_12,Serce Otchłani
+TEXT_CAMPAIGN_SINGLE_12_EAW,Serce Otchłani (Bohaterowie EAW)
 TEXT_CAMPAIGN_SINGLE_12_INTRO_E,Imperium pragnie stworzyć na Otchłani centrum badawcze. Miejscem tym interesuje się również Rebelia i Konsorcjum Zanna. Imperor polecił zająć Otchłań oraz cztery inne planety. Musisz to zrobić w przeciągu 60 dni galaktycznych. Porażka nie będzie tolerowana.
 TEXT_CAMPAIGN_SINGLE_12_INTRO_R,Musimy przejąć kontrolę nad Otchłanią. Jest to idealne miejsce na bazę, ze względu na utrudnioną nawigację w tym obszarze. Rebelia dużo by zyskała, gdyby udało się przejąć kontrolę nad czterema, kluczowymi planetami. Niestety, nasze plany pragnie pokrzyżować Imperium. Masz 60 dni galaktycznych, aby wykonać zadanie, inaczej stracimy wszystko. Niech Moc będzie z tobą!
 TEXT_CAMPAIGN_SINGLE_12_INTRO_U,Otchłań to miejsce, którym interesują się wszystkie frakcje. Imperium chce tu stworzyć centrum badawcze, a Rebelia tajną bazę. Ja również chcę przejąć kontrolę nad tym miejscem. Dzięki zajęciu Otchłani i czterech kluczowych planet zyskałbym władze absolutną. Mamy na to 60 dni galaktycznych. Zajmij się tym!
 TEXT_CAMPAIGN_SINGLE_15,Stocznia Kuat
+TEXT_CAMPAIGN_SINGLE_15_FOC,Stocznia Kuat (Bohaterowie FOC)
 TEXT_CAMPAIGN_SINGLE_20,Dominacja piratów
 TEXT_CAMPAIGN_SINGLE_21,Kolebka korupcji
+TEXT_CAMPAIGN_SINGLE_21_EAW,Kolebka korupcji (Bohaterowie EAW)
 TEXT_CAMPAIGN_SINGLE_21_INTRO_E,Po bitwie nad Yawin galaktykę ogarnął zamęt. Wiele planet odłączyło się od Imperium, ale ich rządy wciąż nie są gotowe zaufać Rebelii. W międzyczasie do gry weszła nowa siła. Imperium nie będzie tolerowało żadnych przeszkód - zniszcz wszystkich przeciwników.
 TEXT_CAMPAIGN_SINGLE_21_INTRO_R,Po bitwie nad Yawin galaktykę ogarnął zamęt. Wiele planet odłączyło się od Imperium, ale ich rządy wciąż nie są gotowe zaufać Rebelii. W międzyczasie do gry weszła nowa siła. Musimy zjednoczyć galaktykę i poprowadzić ją do walki z Imperium. Jednocześnie nie może ulec Konsorcjum Zanna. Niech Moc będzie z tobą!
 TEXT_CAMPAIGN_SINGLE_21_INTRO_U,Po bitwie nad Yawin galaktykę ogarnął zamęt. Wiele planet odłączyło się od Imperium, ale ich rządy wciąż nie są gotowe zaufać Rebelii. W międzyczasie do gry weszła nowa siła.
 TEXT_CAMPAIGN_SINGLE_25,Imperium otoczone
+TEXT_CAMPAIGN_SINGLE_25_FOC,Imperium otoczone (Bohaterowie FOC)
 TEXT_CAMPAIGN_SINGLE_27,Wrota
+TEXT_CAMPAIGN_SINGLE_27_EAW,Wrota (Bohaterowie EAW)
 TEXT_CAMPAIGN_SINGLE_27_INTRO_U,Trwa bitwa o galaktykę. Od nieprzyjaciół oddziela nas tylko kilka planet Jądra Galaktyki. To właśnie od kontroli nad tymi planetami będą zależały dalsze zmagania o galaktykę. Roztropnie korzystaj z otrzymanych zasobów, aby podbić galaktykę.
 TEXT_CAMPAIGN_SINGLE_30,Zmiana ról
 TEXT_CAMPAIGN_SINGLE_33B,Grupa
+TEXT_CAMPAIGN_SINGLE_33B_EAW,Grupa (Bohaterowie EAW)
 TEXT_CAMPAIGN_SINGLE_33B_INTRO_E,Ci głupcy z Rebelii i Konsorcjum Zanna pragną mojej śmierci. Na razie pobawię się z nimi. Zajmij Yawina 4 i Endor. Dostarcz mi również dowody, że Mon Mothma i Tyber Zann nie będą już przeszkadzać Imperium.
 TEXT_CAMPAIGN_SINGLE_33B_INTRO_R,Imperium i Konsorcjum Zanna wyznaczyło nagrodę za moją głowę. Brzydzę się zabójstwem, ale w tej sprawie nie mamy wyboru. Przejmij kontrolę nad Coruscant i Endorem i zajmij się Imperatorem i Tyberem Zannem.
 TEXT_CAMPAIGN_SINGLE_33B_INTRO_U,To ciężkie czasy dla Konsorcjum Zanna. Rebelia i Imperium wyznaczyły nagrodę za moją głowę. Jeżeli szukają wojny, dostaną ją. Zabij Mon Mothmę i Imperatora i przejmij kontrolę nad Coruscant i Yavinem 4.
-TEXT_CAMPAIGN_SINGLE_35,Imperium pogrążone w wojnie
+TEXT_CAMPAIGN_SINGLE_35,Imperium w stanie wojny
+TEXT_CAMPAIGN_SINGLE_35_FOC,Imperium w stanie wojny (Bohaterowie FOC)
 TEXT_CAMPAIGN_SINGLE_36,Konflikt na Zewnętrznych Rubieżach
+TEXT_CAMPAIGN_SINGLE_36_EAW,Konflikt na Zewnętrznych Rubieżach (Bohaterowie EAW)
 TEXT_CAMPAIGN_SINGLE_36_INTRO_E,Mimo że serce Imperium jest relatywnie bezpieczne, to Zewnętrzne Rubieże są źródłem korupcji i chaosu. Imperator pragnie zaprowadzić tam porządek. Musimy przejąć kontrolę nad tym miejscem.
 TEXT_CAMPAIGN_SINGLE_36_INTRO_R,Zewnętrzne Rubieże to kolebka Sojuszu. Jeżeli uda nam się przejąć kontrolę nad Rubieżami, to pokażemy całej galaktyce, co oznacza prawdziwa wolność. Niech to stanowi przykład dla wszystkich mieszkańców Coruscant.
 TEXT_CAMPAIGN_SINGLE_36_INTRO_U,Zewnętrzne Rubieże to idealne miejsce dla Konsorcjum Zanna. Znajdują się z dala od stolicy Imperium, Coruscant. Ich mieszkańcy łatwiej ulegają pokusom, które może zaspokoić Konsorcjum Zanna. Przejęcie kontroli nad Rubieżami mogłoby stanowić pierwszy krok do podbicia Imperium.
 TEXT_CAMPAIGN_SINGLE_44,Konflikt galaktyczny
+TEXT_CAMPAIGN_SINGLE_44_FOC,Konflikt galaktyczny (Bohaterowie FOC)
 TEXT_CAMPAIGN_SINGLE_50,Początek konfliktu
+TEXT_CAMPAIGN_SINGLE_50_FOC,Początek konfliktu (Bohaterowie FOC)
 TEXT_CAMPAIGN_SINGLE_56,Jak równy z równym
+TEXT_CAMPAIGN_SINGLE_56_EAW,Jak równy z równym (Bohaterowie EAW)
 TEXT_CAMPAIGN_SINGLE_56_INTRO_E,Podczas walk z Rebelią zauważyliśmy, że wiele planet uległo korupcji. Imperator jest niezadowolony, że środki, które były przeznaczone na wzmacnianie sił wojskowych, trafiają do przestępców. Za wszelką cenę zniszcz siły Rebelii i Konsorcjum Zanna. Rozsądnie wykorzystaj początkowo otrzymane kredyty, aby ulepszyć i powiększyć stan liczebny naszych sił.
 TEXT_CAMPAIGN_SINGLE_56_INTRO_R,Konsorcjum Zanna udało się skorumpować wiele światów, inne zostały podbite przez Imperium. Nie lubię rozdzielać sił, ale tym razem musimy to zrobić. Za wszelką cenę zniszcz siły Imperium i Konsorcjum Zanna. Rozsądnie wykorzystaj początkowo otrzymane kredyty, aby ulepszyć i powiększyć stan liczebny naszych sił.
 TEXT_CAMPAIGN_SINGLE_56_INTRO_U,Konsorcjum Zanna udało się skorumpować wiele światów, ale Imperium oraz Rebelia coraz bardziej zaczynają się interesować naszymi poczynaniami. W rezultacie obie te frakcje poświęcają coraz więcej wysiłku, aby wyeliminować Konsorcjum Zanna. Stanowimy teraz dla nich większe zagrożenie niż kiedykolwiek wcześniej, dlatego na pewno możemy się spodziewać zmasowanych ataków na opanowane przez nas planety. Rozsądnie wykorzystaj początkowo otrzymane kredyty, aby ulepszyć i powiększyć stan liczebny naszych sił.
 TEXT_CAMPAIGN_SINGLE_60,Granica wyznaczona
+TEXT_CAMPAIGN_SINGLE_60_FOC,Granica wyznaczona (Bohaterowie FOC)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST,Taktyczny test korupcji
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_EMPIRE,Taktyczny test korupcji (Imperium)
 TEXT_CAMPAIGN_SINGLE_CORRUPTION_TEST_REBEL,Taktyczny test korupcji (Rebelia)
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,Warunki:\n\nPlanety: 10\nPoz. technologiczny: 1\nKredyty: 5,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,Warunki:\n\nPlanety: 10\nPoz. technologiczny: 10\nKredyty: 8,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12,Warunki:\n\nPlanety: 12\nPoziom tech.: 3\nKredyty: 10 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,Warunki:\n\nPlanety: 15\nPoz. technologiczny: 3\nKredyty Sojuszu: 8,000\nKredyty Imperium: 15,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A,Warunki:\n\nPlanety: 10\nPoz. technologiczny: 1\nKredyty: 5,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10A_FOC,Warunki:\n\nPlanety: 10\nPoz. technologiczny: 1\nKredyty: 5,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B,Warunki:\n\nPlanety: 10\nPoz. technologiczny: 5\nKredyty: 8,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_10B_FOC,Warunki:\n\nPlanety: 10\nPoz. technologiczny: 5\nKredyty: 8,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12,Warunki:\n\nPlanety: 12\nPoz. technologiczny: 3\nKredyty: 10,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_12_EAW,Warunki:\n\nPlanety: 12\nPoz. technologiczny: 3\nKredyty: 10,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15,Warunki:\n\nPlanety: 15\nPoz. technologiczny: 3\nKredyty Sojuszu: 8,000\nKredyty Imperium: 15,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_15_FOC,Warunki:\n\nPlanety: 15\nPoz. technologiczny: 3\nKredyty Sojuszu: 8,000\nKredyty Imperium: 15,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_20,Warunki:\n\nPlanety: 20\nPoz. technologiczny: 1\nKredyty: 3,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21,Warunki:\n\nPlanety: 21\nPoziom tech.: 1\nKredyty: 10,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_R,Warunki:\n\nPlanety: 21\nPoziom tech.: 2\nKredyty: 10,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,Warunki:\n\nPlanety: 25\nPoz. technologiczny: 3\nKredyty: 15,000\nKredyty Imperium: 9,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27,Warunki:\n\nPlanety: 27\nPoziom tech.: 2\nKredyty: 8 000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21,Warunki:\n\nPlanety: 21\nPoz. technologiczny: 1\nKredyty: 10,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_EAW,Warunki:\n\nPlanety: 21\nPoz. technologiczny: 1\nKredyty: 10,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_R,Warunki:\n\nPlanety: 21\nPoz. technologiczny: 2\nKredyty: 10,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25,Warunki:\n\nPlanety: 25\nPoz. technologiczny: 3\nKredyty: 15,000\nKredyty Imperium: 9,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_25_FOC,Warunki:\n\nPlanety: 25\nPoz. technologiczny: 3\nKredyty: 15,000\nKredyty Imperium: 9,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27,Warunki:\n\nPlanety: 27\nPoz. technologiczny: 2\nKredyty: 8,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27_EAW,Warunki:\n\nPlanety: 27\nPoz. technologiczny: 2\nKredyty: 8,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_30,Warunki:\n\nPlanety: 30\nPoz. technologiczny: 3\nKredyty: 5,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B,Warunki:\n\nPlanety: 33\nPoziom tech.: 3\nKredyty: 5 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,Warunki:\n\nPlanety: 35\nPoz. technologiczny: 1\nKredyty: 6,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36,Warunki:\n\nPlanety: 36\nPoziom tech.: 2\nKredyty: 10 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,Warunki:\n\nPlanety: 43\nPoz. technologiczny: 3\nKredyty: 10,000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,Warunki:\n\nPlanety: 21\nPoziom Technologiczny: 1\nKredytów: 8000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56,Warunki:\n\nPlanety: 55\nPoziom tech.: 2\nKredyty: 8 000
-TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,Warunki:\n\nPlanety: 8\nPoz. technologiczny: 3\nKredyty: 10,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B,Warunki:\n\nPlanety: 33\nPoz. technologiczny: 3\nKredyty: 5,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_33B_EAW,Warunki:\n\nPlanety: 33\nPoz. technologiczny: 3\nKredyty: 5,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35,Warunki:\n\nPlanety: 35\nPoz. technologiczny: 1\nKredyty: 6,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_35_FOC,Warunki:\n\nPlanety: 35\nPoz. technologiczny: 1\nKredyty: 6,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36,Warunki:\n\nPlanety: 36\nPoz. technologiczny: 2\nKredyty: 10,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_36_EAW,Warunki:\n\nPlanety: 36\nPoz. technologiczny: 2\nKredyty: 10,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44,Warunki:\n\nPlanety: 43\nPoz. technologiczny: 3\nKredyty: 10,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_44_FOC,Warunki:\n\nPlanety: 43\nPoz. technologiczny: 3\nKredyty: 10,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50,Warunki:\n\nPlanety: 21\nPoz. technologiczny: 1\nKredyty: 8,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50_FOC,Warunki:\n\nPlanety: 21\nPoz. technologiczny: 1\nKredyty: 8,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56,Warunki:\n\nPlanety: 55\nPoz. technologiczny: 2\nKredyty: 8,000
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56_EAW,Warunki:\n\nPlanety: 55\nPoz. technologiczny: 2\nKredyty: 8,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60,Warunki:\n\nPlanety: 8\nPoz. technologiczny: 3\nKredyty: 10,000\n\nW tej kampanii wykorzystuje się losowe misje, za których ukończenie przyznawane są nagrody.
+TEXT_CAMPAIGN_SINGLE_DESCRIPTION_60_FOC,Warunki:\n\nPlanety: 8\nPoz. technologiczny: 3\nKredyty: 10,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_CORRUPTION_TEST,Zawiera wszystkie planety, na których znajdują się taktyczne misje korupcji.
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_DEMO,Warunki:\n\nPlanety: 3\nPoz. technologiczny: 2\nKredyty: 10,000
 TEXT_CAMPAIGN_SINGLE_DESCRIPTION_P3_UNDERWORLD_GALACTIC_GAMEPLAY,Scenariusz podboju galaktyki, który prezentuje nowe cechy rozgrywki wykorzystywane przez Podziemie.
@@ -750,18 +777,20 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_01,     Sojusz zostanie zniszczony
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_02,     Mon Mothma zostanie zabita
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_03,     Imperator przeżyje
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_04,     Gwiazda Śmierci nie zostanie zniszczona
+TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_05,     Gwiazda Śmierci II nie zostanie zniszczona
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00,Sojusz osiągnie zwycięstwo, jeżeli:
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00_DEMO,[TBL]
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_01,     Imperium zostanie zniszczone
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_02,     Imperator zostanie zabity
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_03,     Gwiazda Śmierci zostanie zniszczona
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_04,     Mon Mothma przeżyje
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_05,     Gwiazda Śmierci II zostanie zniszczona
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_00,Podziemie zwycięży, jeśli:
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_01, Rebelia oraz Imperium zostaną usunięte z galaktyki.
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_02, Mon Mothma oraz Imperator zostaną zabici.
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_03, Tyber Zann przeżyje.
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_04,Imperium i Konsorcjum Zanna zostały zniszczone
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_05,Rebelia i Konsorcjum Zanna zostały zniszczone
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_01,     Rebelia oraz Imperium zostaną usunięte z galaktyki.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_02,     Mon Mothma oraz Imperator zostaną zabici.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_03,     Tyber Zann przeżyje.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_04,     Imperium i Konsorcjum Zanna zostały zniszczone
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_05,     Rebelia i Konsorcjum Zanna zostały zniszczone
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_06,     Mon Mothma i Tyber Zann zostali zabici
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_07,     Imperator i Tyber Zann zostali zabici
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_08,     Tyber Zann został zabity
@@ -773,6 +802,8 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10U,     Otchłań, Mon Calamari, Tatooi
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_11,     Planety Yavin 4 i Coruscant zostały podbite
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_12,     Planety Coruscant i Endor zostały podbite
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_13,     Planety Yavin 4 i Endor zostały podbite
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_14,     Gwiazda Śmierci zostanie zniszczona
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_15,     Gwiazda Śmierci II zostanie zniszczona
 TEXT_CAMPAIGN_SMALL_EMPIRE_HUMAN,P2 mała Imperium człowiek - Rebelia SI
 TEXT_CAMPAIGN_SMALL_HUMAN,P2 mała człowiek - wróg SI *
 TEXT_CAMPAIGN_SMALL_MAP,Mała mapa kampanii
@@ -1009,7 +1040,7 @@ TEXT_CORRUPTION_POLUS_STORY_BONDEDCITIZENS,Górników bardzo łatwo zniewolić. 
 TEXT_CORRUPTION_POLUS_STORY_RACKETEER,Najważniejszym celem wymuszeń na tej spowitej lodem planecie są górnicy wydobywający karbonit.
 TEXT_CORRUPTION_RACKETEERING,Wymuszenie
 TEXT_CORRUPTION_RACKETEERING_BENEFIT,KORZYŚCI: Automatycznie generuje dużą kwotę kredytów na poziomie galaktycznym. Zapewnia dodatkowe kredyty za każdą zniszczoną jednostkę przeciwnika podczas walki taktycznej.
-TEXT_CORRUPTION_RACKETEERING_ENCYCLOPEDIA,W tej misji sabotażysta musi utworzyć na całej planecie sieć lokali hazardowych.
+TEXT_CORRUPTION_RACKETEERING_ENCYCLOPEDIA,Misja ta wymaga od sabotażysta zinfiltrowania planety i zorganizowania struktur zajmujących się nielegalnymi interesami. Konsorcjum będzie czerpać pasywny dochód z kompleksów hazardowych, odzyskiwania złomu, przemytu, handlu nielegalnymi towarami, manipulacji społecznych oraz procederu kłusownictwa.
 TEXT_CORRUPTION_REMOVAL_DISPLAY_TEXT,Koszt:
 TEXT_CORRUPTION_REMOVE_PERCENT,Usuwanie korupcji: %d%%
 TEXT_CORRUPTION_REQUIRED,Do skorzystania z opcji korupcji potrzebny jest sabotażysta
@@ -1307,7 +1338,7 @@ TEXT_EMAIL_ADDRESS,Adres e-mail
 TEXT_EMPIRE_ACT1_CRAWL_PART_1,Cała galaktyka znajduje się pod okrutnymi rządami Galaktycznego Imperium. Jedyną opozycją jest niewielka grupa Sojuszu Rebeliantów ośmielająca się walczyć z militarną potęgą Imperium.
 TEXT_EMPIRE_ACT1_CRAWL_PART_2,Budowa GWIAZDY ŚMIERCI, ostatecznej broni Imperium, może przynieść zagładę Rebelii.  Kiedy stacja zacznie działać, Imperium będzie w stanie niszczyć całe planety.
 TEXT_EMPIRE_ACT1_CRAWL_PART_3,Szale zwycięstwa może przechylić imperialny zdrajca, przekazujący tajemnice wojskowe. Imperator powierzył swojemu uczniowi DARTHOWI VADEROWI misję odnalezienia i wyeliminowania tego podwójnego agenta….
-TEXT_EMPIRE_ACT1_CRAWL_PART_TITLE,EMPIRE AT WAR
+TEXT_EMPIRE_ACT1_CRAWL_PART_TITLE,IMPERIUM W STANIE WOJNY
 TEXT_EMPIRE_BUILD_PAD,Miejsce budow. Imperium
 TEXT_EMPIRE_BUILD_PAD_01,Stacja budow. Imperium
 TEXT_EMPIRE_BUILD_PAD_01-TEMP,Stacja budow. Imperium
@@ -1361,16 +1392,18 @@ TEXT_ENCYCLOPEDIA_ABREV_ATAT,AT-AT: Uniwersalny Lądowy Transporter Opancerzony
 TEXT_ENCYCLOPEDIA_ABREV_ATST,AT-ST: Uniwersalny Lądowy Transporter Zwiadowczy
 TEXT_ENCYCLOPEDIA_ABREV_MPTL,MPTL: Samobieżna Wyrzutnia Torped Protonowych
 TEXT_ENCYCLOPEDIA_ABREV_SPMAT,SPMA-T: Samobieżna Artyleria Średniego Zasięgu
+TEXT_ENCYCLOPEDIA_ACADEMY,Akademia wojskowa dla oficerów specjalizujących się we wzmacnianiu sił bojowych. Szkoli dowódców polowych.
 TEXT_ENCYCLOPEDIA_ACADEMY_00,Pozwala na tworzenie: dowódcy polowego, dowódcy floty
 TEXT_ENCYCLOPEDIA_ACADEMY_01,Odblokowuje: centrum szkolenia szpiegów
-TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Buduje: AT-AA, AT-AT
-TEXT_ENCYCLOPEDIA_ANIMAL_NEST,Gniazdo zwierząt
+TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY,Najbardziej zaawansowana fabryka ciężkich pojazdów opancerzonych, jaką może zbudować Imperium. Produkuje potężne jednostki przystosowane do każdego terenu.
+TEXT_ENCYCLOPEDIA_ADVANCED_FACTORY_EMPIRE_00,Buduje: AT-AA, AT-AT, eskadra Lancet, B5 Argonauta
 TEXT_ENCYCLOPEDIA_ANNIHILATOR,Niszczyciel jest dowodzony przez admirała Gaarna.
+TEXT_ENCYCLOPEDIA_BARRACKS,Kwatery mieszkalne i centrum dowodzenia dla piechoty. Szkoli oddziały piechoty oraz jednostki wsparcia.
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Pozwala na tworzenie: szturmowców, zwiadowców
 TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Odblokowuje: akademię oficerską
-TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Pozwala na szkolenie plutonów piechoty i żołnierzy PLEX, a także na tworzenie akademii oficerskiej.
-TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,[TBL]
-TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD,Szkoli najemnych żołnierzy oraz żołnierzy z dezintegratorami
+TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Dostępne jednostki: żołnierze Rebelii, żołnierze Plex
+TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,Odblokowuje: akademię oficerską
+TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD,Pozwala na tworzenie: żołnierzow oraz żołnierzami z dezintegratora
 TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD_01,Ulepszenia: odnawianie zdolności poziom 1-2, stymulator rankorów poziom 1-2.
 TEXT_ENCYCLOPEDIA_BASE_SHIELD_00,Zapewnia osłonę przed atakiem bronią energetyczną. Nie powstrzymuje obiektów materialnych, takich jak pociski lub szturmujące oddziały wroga. Zatrzymuje jedynie promień lasera. Wymaga zasilania.
 TEXT_ENCYCLOPEDIA_BOTHAN_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy Bothan
@@ -1392,28 +1425,31 @@ TEXT_ENCYCLOPEDIA_BUNKER,W tej konstrukcji mogą stacjonować jednostki piechoty
 TEXT_ENCYCLOPEDIA_CANTINA_00,Pozwala na tworzenie: przemytników
 TEXT_ENCYCLOPEDIA_CLASS_ADVANCE,Klasa: Ulepszenie technologiczne
 TEXT_ENCYCLOPEDIA_CLASS_AIRCRAFT,Klasa: Jednostka latająca
-TEXT_ENCYCLOPEDIA_CLASS_AMBASSADOR,Ambasador Sojuszu
+TEXT_ENCYCLOPEDIA_CLASS_AMBASSADOR,Klasa: Ambasador Sojuszu
+TEXT_ENCYCLOPEDIA_CLASS_ANIMAL_NEST,Klasa: Gniazdo zwierząt
 TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY,Klasa: Artyleria
 TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION,Klasa: Stacja bojowa
-TEXT_ENCYCLOPEDIA_CLASS_BEAST,Wyszkolona bestia
+TEXT_ENCYCLOPEDIA_CLASS_BEAST,Klasa: Wyszkolona bestia
+TEXT_ENCYCLOPEDIA_CLASS_BOMB,Klasa: Bomba
 TEXT_ENCYCLOPEDIA_CLASS_BOMBER,Klasa: Bombowiec
 TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER,Klasa: Łowca nagród
 TEXT_ENCYCLOPEDIA_CLASS_CAPITAL,Klasa: Okręt liniowy
 TEXT_ENCYCLOPEDIA_CLASS_COMMANDO,Klasa: Agent Rebelii
 TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS,Premia za korupcję
 TEXT_ENCYCLOPEDIA_CLASS_CORVETTE,Klasa: Korweta
-TEXT_ENCYCLOPEDIA_CLASS_CRIMELORD,Herszt
+TEXT_ENCYCLOPEDIA_CLASS_CRIMELORD,Klasa: Herszt
 TEXT_ENCYCLOPEDIA_CLASS_DARKSIDE_ADEPT,Klasa: Adept Mocy
 TEXT_ENCYCLOPEDIA_CLASS_DEFENSE,Klasa: Ulepszenie defensywne
 TEXT_ENCYCLOPEDIA_CLASS_DEFENSE_PENALTY,Klasa: Współczynnik ujemny do obrony
 TEXT_ENCYCLOPEDIA_CLASS_DOORNODE,Zniszczenie tego panelu bezpieczeństwa może włączyć pobliską gródź.
 TEXT_ENCYCLOPEDIA_CLASS_DROID,Klasa: Droid
-TEXT_ENCYCLOPEDIA_CLASS_DUELIST,Zabijaka Gungan
+TEXT_ENCYCLOPEDIA_CLASS_DUELIST,Klasa: Zabijaka
 TEXT_ENCYCLOPEDIA_CLASS_ECONOMY,Klasa: Ulepszenie ekonomiczne
-TEXT_ENCYCLOPEDIA_CLASS_FACTORY_SHIP,Okręt-fabryka
-TEXT_ENCYCLOPEDIA_CLASS_FANATIC,Fanatyczny samobójca
+TEXT_ENCYCLOPEDIA_CLASS_FACTORY_SHIP,Klasa: Okręt-fabryka
+TEXT_ENCYCLOPEDIA_CLASS_FANATIC,Klasa: Fanatyczny samobójca
 TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER,Klasa: Dowódca polowy
 TEXT_ENCYCLOPEDIA_CLASS_FIGHTER,Klasa: Myśliwiec
+TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON,Klasa: Eskadra myśliwców
 TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER,Klasa: Dowódca floty
 TEXT_ENCYCLOPEDIA_CLASS_FRIGATE,Klasa: Fregata
 TEXT_ENCYCLOPEDIA_CLASS_HAND,Klasa: Ręka Imperatora
@@ -1425,23 +1461,23 @@ TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR,Klasa: Drugorzędny bohater
 TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS,Klasa: Lokalne
 TEXT_ENCYCLOPEDIA_CLASS_INFANTRY,Klasa: Piechota
 TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT,Klasa: Rycerz Jedi
-TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER,Mistrz Jedi
+TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER,Klasa: Mistrz Jedi
 TEXT_ENCYCLOPEDIA_CLASS_LIGHT_TANK,Klasa: Czołg lekko opancerzony
 TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE,Klasa: Pojazd lekko opancerzony
 TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER,Klasa: Lekka machina krocząca
 TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE,Klasa: Pojazd średnio opancerzony
-TEXT_ENCYCLOPEDIA_CLASS_MOUNT,Wierzchowiec bohaterki
+TEXT_ENCYCLOPEDIA_CLASS_MOUNT,Klasa: Wierzchowiec bohaterki
 TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT,Klasa: Ulepszenie ruchu
-TEXT_ENCYCLOPEDIA_CLASS_NIGHTSISTER,Siostra Nocy
+TEXT_ENCYCLOPEDIA_CLASS_NIGHTSISTER,Klasa: Siostra Nocy
 TEXT_ENCYCLOPEDIA_CLASS_OFFENSE,Klasa: Ulepszenie ofensywne
 TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS,Premia planetarna
 TEXT_ENCYCLOPEDIA_CLASS_POWERNODE,Zniszczenie tych urządzeń częściowo spowoduje zakłócenie dostaw mocy.
 TEXT_ENCYCLOPEDIA_CLASS_RED_SQUADRON,Klasa: Myśliwiec elitarny
 TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD,Klasa: Lord Sithów
-TEXT_ENCYCLOPEDIA_CLASS_SLAVE,Niewolnik Konsorcjum
+TEXT_ENCYCLOPEDIA_CLASS_SLAVE,Klasa: Niewolnik Konsorcjum
 TEXT_ENCYCLOPEDIA_CLASS_SMUGGLER,Klasa: Przemytnik
 TEXT_ENCYCLOPEDIA_CLASS_SPEEDER,Klasa: Śmigacz
-TEXT_ENCYCLOPEDIA_CLASS_SSD,Superniszczyciel gwiezdny
+TEXT_ENCYCLOPEDIA_CLASS_SSD,Klasa: Superniszczyciel gwiezdny
 TEXT_ENCYCLOPEDIA_CLASS_STATION,Klasa: Stacja kosmiczna
 TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE,Klasa: Konstrukcja
 TEXT_ENCYCLOPEDIA_CLASS_SUPER,Klasa: Superbroń
@@ -1450,21 +1486,23 @@ TEXT_ENCYCLOPEDIA_CLASS_TANK,Klasa: Czołg
 TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT,Klasa: Transportowiec
 TEXT_ENCYCLOPEDIA_CLASS_TURRET,Klasa: Wieżyczka
 TEXT_ENCYCLOPEDIA_CLASS_WALKER,Klasa: Machina krocząca
-TEXT_ENCYCLOPEDIA_CLASS_WARRIOR,Doborowy wojownik
+TEXT_ENCYCLOPEDIA_CLASS_WARRIOR,Klasa: Doborowy wojownik
 TEXT_ENCYCLOPEDIA_COMM_ARRAY_00,Zwiększa pole widzenia wszystkich jednostek. Pozwala na produkcję stacji sensorowych w stacjach budowlanych
 TEXT_ENCYCLOPEDIA_COMM_ARRAY_01,Odblokowuje: stację czujników
 TEXT_ENCYCLOPEDIA_CREDIT_EFFECT_SMUGGLER,Na tej planecie są tracone kredyty w ilości %d z powodu działalności przemytnika. Wykorzystaj łowcę nagród, aby temu przeciwdziałać.
 TEXT_ENCYCLOPEDIA_DROIDNODE_UNDERWORLD,Pozwala droidom podróżować niemal w mgnieniu oka pomiędzy innymi portalami lub fabrykami droidów (jeśli istnieją).
-TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD,Produkuje droidy-niszczyciele
+TEXT_ENCYCLOPEDIA_DROIDWORKS,Przystosowany obiekt przemysłowy z czasów wojen klonów. Ta fabryka droidów bojowych została skonfigurowana tak, by produkować wyłącznie droidy typu droideka.
+TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD,Buduje: Droid-niszczyciel Mk II
 TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD_01,Ulepszenia: systemy droidów poziom 1-2, pancerz płytowy MJO poziom 1-2
 TEXT_ENCYCLOPEDIA_E_SHIP_SPEED,Zwiększa prędkość wszystkich fregat oraz okrętów klasy Capital twojego zespołu.
 TEXT_ENCYCLOPEDIA_E_SPACE_ALL_ARMOR,Zwiększa pancerz wszystkich jednostek kosmicznych twojego zespołu.
 TEXT_ENCYCLOPEDIA_E_STARBASE_FIREPOWER,Zwiększa moc rażenia uzbrojenia zamocowanego w punktach krytycznych stacji kosmicznej twojego zespołu.
 TEXT_ENCYCLOPEDIA_EFFECT_SMUGGLER,Na tej planecie są tracone kredyty z powodu działalności przemytnika. Wykorzystaj łowcę nagród, aby temu przeciwdziałać.
 TEXT_ENCYCLOPEDIA_EWOK_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy Ewoków
-TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Produkuje MWR oraz transportowce F9-TZ
+TEXT_ENCYCLOPEDIA_FACTORY,Zaawansowany zakład produkcji pojazdów, zdolny do wytwarzania ciężkich czołgów zaprojektowanych przez Mandalorian.
+TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD,Buduje: Czołg Canderous, czołg MZ-8, MWR, transportowce F9-TZ
 TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_01,Ulepszenia: poprawa uzbrojenia poziom 1-2.
-TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON,Eskadra myśliwców
+TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD_02,Odblokowuje: Zakłócacz repulsatorowy
 TEXT_ENCYCLOPEDIA_GEONOSIAN_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy Geonozjan
 TEXT_ENCYCLOPEDIA_GRAND_ARENA_00,Modyfikuje współczynnik przychodów planety z hazardu. Zawierane zakłady mogą przynieść duże zyski lub ogromne straty.
 TEXT_ENCYCLOPEDIA_GRAV_GEN_00,Uniemożliwia działanie wszystkim pojazdom repulsorowym wroga. Nie wpływa na pojazdy należące do sił sprzymierzonych.
@@ -1472,9 +1510,10 @@ TEXT_ENCYCLOPEDIA_GRAV_GEN_01,Po uaktywnieniu prędkość nieprzyjacielskich poj
 TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_00,Dopóki ta konstrukcja pozostaje nienaruszona, żaden okręt wroga nie może wejść w nadprzestrzeń.
 TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_01,Uniemożliwia wylądowanie siłom wroga na obszarze wokół tej struktury.
 TEXT_ENCYCLOPEDIA_GUNGAN_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy Gunganów
+TEXT_ENCYCLOPEDIA_HEAVY_FACTORY,Fabryka ciężkich pojazdów produkująca zaawansowane opancerzenie dalekiego zasięgu.
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_00,Buduje: Czołg 2-M Repulsor, SPMA-T
 TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01,Odblokowuje: fabrykę pojazdów zaawansowanych, działo akceleratorowe
-TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,Pozwala na tworzenie: artylerii MPTL, czołgów T4-B
+TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_REBEL_00,Buduje: CTG Gallofree, artylerii MPTL, czołgów T4-B
 TEXT_ENCYCLOPEDIA_HOLOCRON_UPDATED,Holokron misji został zaktualizowany.
 TEXT_ENCYCLOPEDIA_HUMAN_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy ludzi
 TEXT_ENCYCLOPEDIA_HUTT_PALACE_00,Pozwala na tworzenie: drugorzędnych bohaterów łowców nagród.
@@ -1482,13 +1521,15 @@ TEXT_ENCYCLOPEDIA_HUTT_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas t
 TEXT_ENCYCLOPEDIA_HYPERVELOCITY_00,Broń typu ziemia-kosmos. Przenika przez tarcze, trafiając bezpośrednio w kadłub okrętu i powodując ogromne zniszczenia. Użyta do walki z mniejszymi statkami ma ograniczoną celność.
 TEXT_ENCYCLOPEDIA_IMPERIAL_GUARD_SPAWNER,Siedziba Imperatora Palpatine'a; dopóki nie zostanie zniszczona, co jakiś czas tworzy elitarną gwardię imperialną
 TEXT_ENCYCLOPEDIA_INFILTRATOR_00,Pozwala na tworzenie: szpiega
+TEXT_ENCYCLOPEDIA_INFILTRATOR_ACADEMY,Specjalistyczna akademia wojskowa kształcąca elitarne oddziały komandosów.
 TEXT_ENCYCLOPEDIA_ION_CANNON_00,Broń typu ziemia-kosmos. Zakłóca działanie osłon, silników i odzyskiwania energii przez okręty. Użyta do walki z mniejszymi statkami ma ograniczoną celność. Nie powoduje zniszczeń fizycznych. Pozwala na ograniczenie strat podczas wycofywania się z bitwy naziemnej.
 TEXT_ENCYCLOPEDIA_JAMMING_STATION_00,Zakłóca pracę urządzeń nadawczych oraz czujników wszystkich okrętów przeciwnika. Pole widzenia tych jednostek zmniejsza się wtedy o połowę.
 TEXT_ENCYCLOPEDIA_JAWA_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy Jawów
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Pozwala na tworzenie: AT-ST, czołgu typu TIE
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Odblokowuje: fabrykę pojazdów ciężko opancerzonych i wieżę turbolaserową
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Pozwala na tworzenie: czołgów T2-B, śmigaczy
-TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Odblokowywuje: fabrykę pojazdów ciężko opancerzonych, wieżę turbolaserową
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY,Fabryka lekkich pojazdów przeznaczona do szkolenia szybkich, lekko opancerzonych jednostek.
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_00,Buduje: AT-ST, czołgu typu TIE, MJO
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_EMPIRE_01,Odblokowuje: fabrykę pojazdów ciężko opancerzonych
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_00,Buduje: czołgów T2-B, śmigaczy, MJO
+TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_REBEL_01,Odblokowuje: fabrykę pojazdów ciężko opancerzonych
 TEXT_ENCYCLOPEDIA_LOADING,Wczytywanie...
 TEXT_ENCYCLOPEDIA_LRS_00,Dostarcza informacji o ruchach przeciwnika, jakie odbywają się w pobliżu tego satelity. Pozwala na uniknięcie niespodziewanych ataków.
 TEXT_ENCYCLOPEDIA_MAGNEPULSE_00,Broń typu ziemia-ziemia, która powoduje tymczasowe unieruchomienie wszystkich pojazdów, znajdujących się w polu rażenia.
@@ -1502,6 +1543,7 @@ TEXT_ENCYCLOPEDIA_MUSTAFARIAN_SPAWNER,Dopóki nie zostanie zniszczone, co jakiś
 TEXT_ENCYCLOPEDIA_NOGHRI_SPAWNER,Dopóki nie zostanie zniszczone, co jakiś czas tworzy Noghrijczyków.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD,Centrum działalności finansowej Tyber Zanna na planecie. Pałac generuje przychody i umożliwia produkcję na niektórych planetach jednostek specjalnych; umożliwia szkolenie sabotażystów i zapewnia bazie zasilanie oraz ochronę radarową.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_01,Ulepszenia: poziomy technologiczne 1-3, nalot bombowy, bombardowanie orbitalne, nagroda w gotówce, osłona obiektów poziom 1-2.
+TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_BUILDS,Produkuje: sabotażystów, MJO, łowca Ewoków, Siostry Nocy, wilkovornskry
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_1,Pałac poziomu 1 umożliwia produkcję na niektórych planetach jednostek specjalnych. Zapewnia też bazie zasilanie oraz pole siłowe.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_2,Pałac poziomu 2 umożliwia dostęp do wszystkich poprzednich korzyści, a dodatkowo umożliwia szkolenie sabotażystów i zapewnia ochronę radarową.
 TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_LVL_3,Pałac poziomu 3 umożliwia dostęp do wszystkich poprzednich korzyści, a dodatkowo powoduje ograniczenia kosztów produkcji jednostek specyficznych dla danej planety oraz poprawia zdolności obronne.
@@ -1536,15 +1578,20 @@ TEXT_ENCYCLOPEDIA_SECURITY_OUTPOST,Używane przez siły bezpieczeństwa do monit
 TEXT_ENCYCLOPEDIA_SHUTTER_SHIELD_00,Uniemożliwia wylądowanie siłom wroga oraz przeprowadzanie ataków bombowych na obszarze wokół bazy.
 TEXT_ENCYCLOPEDIA_SMUGGLER_TITLE,Obecność przemytnika
 TEXT_ENCYCLOPEDIA_SPEEDER_SQUADRON,Eskadra śmigaczy powietrznych
-TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP,Ten okręt nie jest obsadzony załogą i oczekuje na naprawę
-TEXT_ENCYCLOPEDIA_STORY_UNDER_CONSTRUCTION,Ten okręt znajduje się w fazie konstrukcji i nie można z niego korzystać
+TEXT_ENCYCLOPEDIA_STORY_BROKEN_SHIP,Ten okręt nie jest obsadzony załogą i oczekuje na naprawę.
+TEXT_ENCYCLOPEDIA_STORY_UNDER_CONSTRUCTION,Ten okręt znajduje się w fazie konstrukcji i nie można z niego korzystać.
 TEXT_ENCYCLOPEDIA_SULLUSTAN_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy Sullustaninów
-TEXT_ENCYCLOPEDIA_TECH_UPGRADE_01,Pozwala na produkcję (przy spełnieniu innych wymagań): fabryki pojazdów ciężko opancerzonych, SPMA-T, czołgu typu TIE, bombowca typu TIE, krążownika klasy Broadside, ulepszenia do poziomu technologicznego 2
-TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02,Pozwala na produkcję (przy spełnieniu innych wymagań): imperialnej stacji kosmicznej 3 poziomu, niszczycieli gwiezdnych klasy Victory, fabryki pojazdów ciężko opancerzonych, generatora osłony bazy, działa pulsomagnetycznego, wieży turbolaserowej, SPMA-T, ulepszenia do poziomu technologicznego 3
-TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03,Pozwala na produkcję (przy spełnieniu innych wymagań): imperialnej stacji 4 poziomu, orbitalnego skanera dalekiego zasięgu, myśliwca zwiadowczego typu TIE, działa akceleratorowego, kopalni, fabryki pojazdów zaawansowanych, czołgów repulsorowych 2-M, AT-AT
-TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04,Pozwala na produkcję (przy spełnieniu innych wymagań): imperialnej stacji 5 poziomu, generatora grawitacji, niszczyciela gwiezdnego klasy Imperial, krążownika klasy Interdyktor, zakłócacza repulsurowego, AT-AA, ulepszenia do poziomu technologicznego 5
-TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05,Pozwala na produkcję (przy spełnieniu innych wymagań): Gwiazdy Śmierci
-TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE,Jednostka podporządkowana woli Konsorcjum Zanna
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_01,Pozwala na produkcję (przy spełnieniu innych wymagań): Koszary, fabryka lekkich pojazdów, kopalnia, akademia oficerska, ośrodek badawczy, imperialny dowódca polowy, podstawowa imperialna lekka piechota i pojazdy, imperialna stacja kosmiczna (poziom 1), podstawowe imperialne lekkie krążowniki, imperialny dowódca floty, droidy zwiadowcze oraz ulepszenie do poziomu technologicznego 2.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_01_RECRUITMENT,Ulepszenie naszej technologii pozyska dla naszej sprawy następujących bohaterów: Bobę Fetta, Imperatora Palpatine’a oraz Wielkiego Moffa Tarkina.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02,Pozwala na produkcję (przy spełnieniu innych wymagań): Imperialna stacja kosmiczna (poziom 3), krążownik typu Victory, generator osłon bazy, fabryka ciężkich pojazdów, działo magnapulsowe, wieżyczki turbolaserowe, czołgi repulsorowe 2-M, maszyny SPMA-T oraz ulepszenie do poziomu technologicznego 3.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02_RECRUITMENT,Ulepszenie naszej technologii pozyska dla naszej sprawy następujących bohaterów: Nawałnica Jeden - Generał Maximilian Veers.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03,Pozwala na produkcję (przy spełnieniu innych wymagań): Imperialna stacja kosmiczna (poziom 4), orbitalny skaner dalekiego zasięgu, zwiadowca TIE, zaawansowana fabryka pojazdów, działo hiperprędkościowe, maszyna krocząca AT-AT, transporter B5 Juggernaut oraz ulepszenie do poziomu technologicznego 4.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03_RECRUITMENT,Ulepszenie naszej technologii pozyska dla naszej sprawy następujących bohaterów: Oskarżyciel - Kapitan Piett.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04,Pozwala na produkcję (przy spełnieniu innych wymagań): Stacja studni grawitacyjnej, imperialna stacja kosmiczna (poziom 5), imperialny Gwiezdny Niszczyciel, krążownik typu Interdictor, TIE Phantom, maszyna krocząca AT-AA, Dark Trooper (faza I i II), skrzydło powietrzne Lancet oraz ulepszenie do poziomu technologii 5.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04_RECRUITMENT,Ulepszenie naszej technologii pozyska dla naszej sprawy następujących bohaterów: Arc Hammer - Generał Mohc.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05,Pozwala na produkcję (przy spełnieniu innych wymagań): Gwiazdy Śmierci II, superniszczyciel gwiezdny typu Executor, TIE Defender oraz Dark Trooper fazy III.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_05_RECRUITMENT,Ulepszenie naszej technologii pozyska dla naszej sprawy następujących bohaterów: Admonitora - Wielkiego Admirała Thrawna.
+TEXT_ENCYCLOPEDIA_TOOLTIP_SLAVE,Ta rdzenna jednostka jest zniewolona i podporządkowana woli Konsorcjum Zanna.
 TEXT_ENCYCLOPEDIA_TURBOLASER_00,Broń typu ziemia-ziemia. Może zniszczyć potężne pojazdy wroga. Jej skuteczność jest ograniczona w odniesieniu do mniejszych, szybko poruszających się celów.
 TEXT_ENCYCLOPEDIA_TURBOLASER_DEFENSE,Umieszczenie 2-5 wież turbolaserowych w strategicznych punktach obronnych, wokół twojej bazy. Liczba wież zależy od rozmiaru bazy i ukształtowania terenu planety.
 TEXT_ENCYCLOPEDIA_TWILEK_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy Twi'leków
@@ -1559,16 +1606,10 @@ TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_THREE,Ulepsza technologię do poziomu
 TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_LEVEL_TWO,Ulepsza technologię do poziomu 2, co zapewnia dostęp do nowych jednostek i ulepszeń.
 TEXT_ENCYCLOPEDIA_VORNSKR_SPAWNER,Dopóki nie zostanie zniszczone, co jakiś czas tworzy vornskry.
 TEXT_ENCYCLOPEDIA_VORNSKR_WOLF,Vornskry to niezwykle skuteczni myśliwi, zwłaszcza jeśli ich zwierzyną są istoty wrażliwe na Moc.
-TEXT_ENCYCLOPEDIA_WAMPA_SPAWNER,Dopóki nie zostanie zniszczone, co jakiś czas tworzy wampy
-TEXT_ENCYCLOPEDIA_WOOKIEE_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy Wookiech
+TEXT_ENCYCLOPEDIA_WAMPA_SPAWNER,Dopóki nie zostanie zniszczone, co jakiś czas tworzy wampy.
+TEXT_ENCYCLOPEDIA_WOOKIEE_SPAWNER,Dopóki nie zostanie zniszczona, co jakiś czas tworzy Wookiech.
 TEXT_ENCYCLOPEDIA_YSALAMIRI_TREE,To drzewo jest domem wielu rodzin ysalamirów. Zwierzęta te blokują możliwość korzystania z Mocy w dużym promieniu wokół drzewa.
 TEXT_ENCYLOPEDIA_STRUCTURE_BOTHAN_POLOS_HOUSE,Pałaca senatora Se’Laby
-TEXT_END_OF_DATA,END OF POLISH TEXT
-TEXT_END_OF_DATA,END OF POLISH TEXT
-TEXT_END_OF_DATA,END OF POLISH TEXT
-TEXT_END_OF_DATA,END OF POLISH TEXT
-TEXT_END_OF_DATA,END OF POLISH TEXT
-TEXT_END_OF_DATA,END OF POLISH TEXT
 TEXT_END_OF_DATA,END OF POLISH TEXT
 TEXT_ENEMY_FLEET,Flota wroga
 TEXT_ENEMY_FLEET_APPROACHING_LOCATION,Flota wroga zbliża się do planety: ##0.
@@ -1585,7 +1626,7 @@ TEXT_EVIL_LAND_GARRISON,Garnizon Imperium
 TEXT_EVIL_SPACE_FLEET,Flota Imperium
 TEXT_EWOK_SELF_DESTRUCT,Buum!
 TEXT_EWOK_SELF_DESTRUCT_DESC,Zmusza kontrolowanego Ewoka do detonacji jego bomby
-TEXT_EXPANSION_TITLE,Star Wars: Empire at War - Podziemie
+TEXT_EXPANSION_TITLE,Gwiezdne Wojny: Imperium w Stanie Wojny - Siły Korupcji
 TEXT_F9TZ_TRANSPORT_COMPANY,Kompania transportowców F9-TZ
 TEXT_FACTION_BOTHAN,Bothanie
 TEXT_FACTION_EMPIRE,Imperium
@@ -1740,8 +1781,8 @@ TEXT_GROUP_ROOM_4,Gry drużynowe
 TEXT_GROUP_ROOM_5,Ogólne
 TEXT_GUARD,Ochrona
 TEXT_GUI_AUTO_SAVE,Auto zapis
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ABILITIES_DEFAULT_TO_AUTOFIRE,Zdolności jednostek będą aktywowane w sposób automatyczny.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ABSOLUTE_SCROLLING,Określenie długości przesunięcia
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ABILITIES_DEFAULT_TO_AUTOFIRE,Po włączeniu tej opcji różne umiejętności będą aktywowane automatycznie podczas walki (co jest sygnalizowane żółtą ramką wokół ikony umiejętności).
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ABSOLUTE_SCROLLING,Po włączeniu tej opcji przewijanie widoku kamery (uruchamiane przez przytrzymanie środkowego przycisku myszy) jest bardziej precyzyjne i odbywa się poprzez bezpośrednie sterowanie myszą, z uwzględnieniem ustawionej dla niej czułości.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_0,Akceptacja ustawień gry
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_1,Akceptacja ustawień gry
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_2,Akceptacja ustawień gry
@@ -1751,34 +1792,34 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_5,Akceptacja ustawień gry
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_6,Akceptacja ustawień gry
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ACCEPT_PLAYER_7,Akceptacja ustawień gry
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ADVANCED,Zaawansowane ustawienie dla doświadczonych użytkowników
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_AUTORESOLVE_COMBO,Określenie sposobu rozstrzygania walk
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_HEROES,Włączenie lub wyłączenie opcji bohaterów
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_AUTORESOLVE_COMBO,W przypadku ustawienia opcji "Pytaj" każdy gracz będzie pytany, czy chce automatycznie rozstrzygnąć starcie, czy też rozpocząć walkę taktyczną. Przy ustawieniu "Zawsze" każde starcie jest obowiązkowo rozstrzygane automatycznie.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_HEROES,Po włączeniu tej opcji każdy gracz może kupować jednostki bohaterów.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_NAT_NEGOTIATION,Opcja pozwalająca na lepsze łączenie w przypadku korzystania z firewalla
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_RANDOM_EVENTS,Włączenie lub wyłączenie zdarzeń losowych
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_STARTING_UNIT_PURCHASE,Włączenie lub wyłączenie opcji jednostek początkowych
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_SUPER_WEAPONS,Włączenie lub wyłączenie opcji superbroni
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_RANDOM_EVENTS,Po włączeniu tej opcji losowe misje i wydarzenia z proceduralnie generowanymi nagrodami będą rozpoczynać się spontanicznie.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_STARTING_UNIT_PURCHASE,Po włączeniu tej opcji każdy gracz rozpoczyna mecz z dwoma oddziałami piechoty (walka naziemna) lub myśliwców (walka w kosmosie).
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_SUPER_WEAPONS,Po włączeniu tej opcji każdy gracz może kupować planetarne superbronie.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_UPNP,Włączenie UPnP
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ALLOW_WINDOWS_FIREWALL_BYPASS,Obejście protokołów zapory Windows
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ALTERNATE_MOUSE_CONTROLS,Przełączenie pomiędzy wydawaniem komend za pomocą lewego lub prawego przycisku myszy
-TEXT_GUI_DIALOG_TOOLTIP_IDC_ANTI_ALIAS_SLIDER,Anty aliasing wysokiej jakości powoduje wygładzenie krawędzi i poprawia ogólną jakość grafiki. Niższa jakość może zwiększyć wydajność systemu.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ALTERNATE_MOUSE_CONTROLS,Po włączeniu tej opcji funkcje przycisków myszy zostają zamienione. Kliknięcie środkowym przyciskiem odpowiada kliknięciu prawym, a kliknięcie lewym przyciskiem pełni funkcję zarówno lewego, jak i prawego kliknięcia.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_ANTI_ALIAS_SLIDER,Wygładzanie krawędzi (anty aliasing) niweluje efekt "schodkowania" krawędzi w widoku z kamery. Wyższe wartości zapewniają gładsze krawędzie, ale wiążą się ze znacznym spadkiem wydajności. Najniższe ustawienie jakości wyłącza tę funkcję.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_AUDIO_3D_TECHNOLOGY_COMBOBOX,Obsługiwane technologie dźwięku 3D
-TEXT_GUI_DIALOG_TOOLTIP_IDC_AUTO_DETECT,Automatyczne wykrywanie ustawień grafiki
-TEXT_GUI_DIALOG_TOOLTIP_IDC_AUTORESOLVE,Włączenie lub wyłączenie rozstrzygania bitw
-TEXT_GUI_DIALOG_TOOLTIP_IDC_BLOOM,Włączenie opcji rozmycia spowoduje zmiękczenie światła, ale może również zmniejszyć wydajność systemu.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_BOTH_MOUSE_BUTTONS_ROTATE,Gdy opcja jest włączona, przytrzymanie wciśniętych obu przycisków myszy umożliwia obrót pola gry.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_AUTO_DETECT,Automatyczne wykrywanie zalecanych ustawień wideo na podstawie podzespołów komputera. W przypadku nowoczesnego sprzętu zazwyczaj skutkuje to ustawieniem wszystkich opcji na wartości maksymalne.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_AUTORESOLVE,Po włączeniu tej opcji wszystkie bitwy są obowiązkowo rozstrzygane automatycznie. Jest to uniwersalne ustawienie domyślne, które nadpisuje preferencje dotyczące automatycznego rozstrzygania bitew w trybach Potyczki i Podboju Galaktyki.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_BLOOM,Po włączeniu efekt Bloom zmiękcza oświetlenie sceny i obiektów, tworząc efekt poświaty. Może on jednak obniżyć wydajność w sytuacjach o dużym natężeniu oświetlenia.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_BOTH_MOUSE_BUTTONS_ROTATE,Po włączeniu tej opcji przytrzymanie obu przycisków myszy (lewego i prawego) spowoduje obrócenie pola bitwy, zamiast używania kombinacji klawisza CTRL i środkowego przycisku myszy.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_CAMPAIGN_DIFFICULTY_SLIDER,Określenie poziomu trudności gry
 TEXT_GUI_DIALOG_TOOLTIP_IDC_CE_STATIC,Twoja efektywność bojowa
 TEXT_GUI_DIALOG_TOOLTIP_IDC_CE_STATIC2,Efektywność bojowa wroga
 TEXT_GUI_DIALOG_TOOLTIP_IDC_CHECK_USE_DEFAULT_PORT,Korzystanie z domyślnego portu sieciowego
 TEXT_GUI_DIALOG_TOOLTIP_IDC_DELAY_TOOLTIPS,Zwiększenie opóźnienia wyświetlania tekstu pomocy.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_DETAIL_LEVEL_SLIDER,Ten suwak służy do zmiany jakość grafiki. Wyższe ustawienia oznaczają lepszą grafikę lepszej jakości, niższe umożliwiają zwiększenie wydajności systemu.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_DETAIL_LEVEL_SLIDER,Odpowiada za ogólną jakość oprawy graficznej. Dobrze współgra z wysokim poziomem wygładzania krawędzi. Wyższe wartości poprawiają jakość modeli, tekstur i oświetlenia, ale wiążą się ze znacznym spadkiem wydajności.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ENVIRONMENT_DETAIL_SLIDER,Wysokiej jakości grafika środowiska pozwala na zwiększenie liczby jego elementów, niższa jakość może poprawić wydajność systemu.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER,Określenie szybkości gry w przestrzeni kosmicznej i na ziemi
-TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER2,Określenie prędkości przesuwania ekranu
+TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER,Reguluje prędkość rozgrywki w taktycznych bitwach kosmicznych i naziemnych. Wyższe wartości zapewniają płynniejsze animacje, ale przyspieszają tempo gry.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_SPEED_SLIDER2,Określa prędkość przewijania kamery, gdy wyłączone jest ustawienie "Określenie przesunięcia".
 TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_TYPE_FILTER_COMBO,Wyświetlenie gier danego typu
 TEXT_GUI_DIALOG_TOOLTIP_IDC_GAME_TYPE_LIST,Tryby gry
-TEXT_GUI_DIALOG_TOOLTIP_IDC_GAMMA_SLIDER,Ustawienie jasności
-TEXT_GUI_DIALOG_TOOLTIP_IDC_HARDWARE_MOUSE,Zaznacz tę opcję, aby korzystać ze sprzętowego wskaźnika myszy. Wskaźnik tej lepiej reaguje na ruchy myszą.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_GAMMA_SLIDER,Steruje poziomem gamma monitora. Działa tylko w trybie pełnoekranowym.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_HARDWARE_MOUSE,Po włączeniu tej opcji sterowanie myszą odbywa się za pomocą bezpośredniego odczytu danych wejściowych (Direct Input), a nie kursora emulowanego programowo. Metoda ta zapewnia płynniejszy i bardziej responsywny ruch oraz nie jest uzależniona od liczby klatek na sekundę w grze, jednak może działać gorzej przy wysokich częstotliwościach odświeżania (polling rate).
 TEXT_GUI_DIALOG_TOOLTIP_IDC_HEAT_DISTORTIONS,Włączenie tej opcji spowoduje, że w przypadku efektów cieplnych wystąpi zjawisko zniekształcenia obrazu. Wyłączenie tej opcji może poprawić wydajność.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_INTERNET_CONNECTION_SPEED_COMBO,Ustawienie typu połączenia
 TEXT_GUI_DIALOG_TOOLTIP_IDC_INTERNET_GAME_TYPE_BUTTON,Sortowanie po typie gier
@@ -1805,40 +1846,40 @@ TEXT_GUI_DIALOG_TOOLTIP_IDC_NETWORK_PORT_NUMBER,Ręczne ustawienie portu sieciow
 TEXT_GUI_DIALOG_TOOLTIP_IDC_NETWORK_QUICKMATCH_DEFAULT,Ustawienie opcji trybu szybkiej potyczki
 TEXT_GUI_DIALOG_TOOLTIP_IDC_NEW_AUTORESOLVE_BUTTON,Bitwa zostanie szybko rozstrzygnięta, ale twoje straty mogą być znacznie wyższe niż w normalnym trybie.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_PARTICLE_DETAIL_SLIDER,Wyższa jakość cząsteczek oznacza bardziej szczegółową grafikę eksplozji i innych efektów cząsteczkowych. Niższa jakość może zwiększyć wydajność systemu.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_PRE_BUILT_BASE,Włączenie lub wyłączenie opcji rozpoczynania gry z rozbudowaną bazą
+TEXT_GUI_DIALOG_TOOLTIP_IDC_PRE_BUILT_BASE,Po włączeniu tej opcji każdy gracz rozpocznie bitwę z już zbudowanymi bazami.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_EASY,Niski poziom trudności gry
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_HARD,Wysoki poziom trudności gry
 TEXT_GUI_DIALOG_TOOLTIP_IDC_RADIO_MEDIUM,Średni poziom trudności gry
 TEXT_GUI_DIALOG_TOOLTIP_IDC_REFRESH_INFO_BUTTON,Odświeżenie informacji o sieci
-TEXT_GUI_DIALOG_TOOLTIP_IDC_RIGHT_BUTTON_SCROLL,Użyj prawego przycisku myszy do przewijania
+TEXT_GUI_DIALOG_TOOLTIP_IDC_RIGHT_BUTTON_SCROLL,Po włączeniu tej opcji do przewijania widoku kamery używany jest prawy przycisk myszy zamiast środkowego.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_ROOM_LIST,Dostępne pokoje gier
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SCROLL_SPEED_SLIDER,Dostosowanie szybkości przewijania
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SCROLL_SPEED_SLIDER,Określa prędkość przewijania kamery, gdy wyłączone jest ustawienie "Określenie przesunięcia".
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SELECT_CUSTOM_MAPS,Mapy stworzone przez graczy
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SELECT_OFFICIAL_MAPS,Oficjalnie zaakceptowane mapy
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SELECT_OPTIONS,Zaawansowane ustawienia gry
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SET_FILTER_BUTTON,Ustawienie filtra gier
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SHADER_DETAIL_SLIDER,Shadery wysokiej jakości wyglądają znacznie lepiej. Niższa jakość może zwiększyć wydajność systemu.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SHADOW_DETAIL_SLIDER,Cienie wysokiej jakości wyglądają bardziej realistycznie, ale niższa jakość może zwiększyć wydajność systemu.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SIMPLIFIED_FACTION_COLORS,Używaj tylko zielonych (przyjaciele) i czerwonych (wrogowie) kolorów frakcji
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_CREDITS_SLIDER,Określenie początkowej sumy kredytów dostępnej dla każdego gracza
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_MAX_TECH_LEVEL_SLIDER,Określenie maksymalnego poziomu technologicznego
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_STARTING_TECH_LEVEL_SLIDER,Określenie początkowego poziomu technologicznego
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_DIALOG_VOLUME,Ustawienie poziomu głośności dialogów
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_MASTER_VOLUME,Ustawienie poziomu głośności wszystkich dźwięków
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_MUSIC_VOLUME,Ustawienie poziomu głośności muzyki
-TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_SOUND_EFFECTS_VOLUME,Ustawienie poziomu głośności dźwiękowych efektów specjalnych
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SIMPLIFIED_FACTION_COLORS,Po włączeniu tej opcji kolory frakcji zostaną wyłączone. Siły sojusznicze (zielone) i wrogie (czerwone) będą korzystać z tej samej kolorystyki co w grze Imperium w stanie wojny.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_CREDITS_SLIDER,Określenie początkowej sumy kredytów dostępnej dla każdego gracza.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_MAX_TECH_LEVEL_SLIDER,Określenie maksymalnego poziomu technologicznego.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SKIRMISH_STARTING_TECH_LEVEL_SLIDER,Określenie początkowego poziomu technologicznego.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_DIALOG_VOLUME,Reguluje głośność wszystkich kwestii mówionych podczas przerywników filmowych i rozgrywki. Nie wpływa na głośność krzyków towarzyszących śmierci.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_MASTER_VOLUME,Ustawienie poziomu głośności wszystkich dźwięków.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_MUSIC_VOLUME,Ustawienie poziomu głośności muzyki.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_SLIDER_SOUND_EFFECTS_VOLUME,Reguluje głośność wszystkich efektów dźwiękowych, w tym niektórych odgłosów piechoty.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_SOFT_SHADOWS,Włączenie opcji miękkich cieni spowoduje wygładzenie krawędzi cieni wysokiej jakości. Wyłączenie tej opcji może zwiększyć wydajność.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_STRATEGIC_GAME_SPEED_SLIDER,Określenie szybkości gry w trybie galaktycznym
+TEXT_GUI_DIALOG_TOOLTIP_IDC_STRATEGIC_GAME_SPEED_SLIDER,Reguluje prędkość rozgrywki na mapie galaktyki. Wyższe wartości zapewniają płynniejsze animacje, ale przyspieszają tempo gry.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_TEAM_MEMBERS_ONLY,Czat z członkami zespołu
 TEXT_GUI_DIALOG_TOOLTIP_IDC_TEXTURE_MIP_DETAIL_SLIDER,Tekstury wysokiej jakości zawierają więcej szczegółów, ale mogą spowodować znaczny spadek wydajności.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_UPNP_DETAILS_BUTTON,Obejrzenie szczegółów urządzenie UPnP
 TEXT_GUI_DIALOG_TOOLTIP_IDC_USE_GAME_SUBTITLES,Włączenie lub wyłączenie podpisów wyświetlanych podczas gry
-TEXT_GUI_DIALOG_TOOLTIP_IDC_USE_MOVIE_SUBTITLES,Włączenie lub wyłączenie podpisów
-TEXT_GUI_DIALOG_TOOLTIP_IDC_VSYNC_ENABLED,Wyłączenie opcji synchronizacji pionowej może spowodować zwiększenie wydajności.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_USE_MOVIE_SUBTITLES,Po włączeniu tej opcji przerywniki filmowe będą zawierać napisy.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_VSYNC_ENABLED,Po włączeniu synchronizacja pionowa zapobiega rozrywaniu obrazu poprzez ograniczenie liczby klatek na sekundę do częstotliwości odświeżania monitora i wstrzymanie wyświetlania obrazu do momentu przetworzenia wszystkich klatek. Może to obniżyć precyzję i responsywność sterowania myszą.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_WATER_DETAIL_SLIDER,Wysokiej jakości grafika wody pozwala na uzyskanie odbić i refleksów. Niższa jakość może zwiększyć wydajność systemu.
-TEXT_GUI_DIALOG_TOOLTIP_IDC_WIDESCREEN,Zaznacz tę opcję, jeżeli korzystasz z szerokoekranowego monitora.
+TEXT_GUI_DIALOG_TOOLTIP_IDC_WIDESCREEN,Po włączeniu tej opcji proporcje obrazu z kamery są dostosowywane do monitorów panoramicznych (16:9). Funkcja nie obsługuje monitorów ultraszerokich. W przypadku korzystania z monitora o proporcjach 4:3 obraz będzie zniekształcony.
 TEXT_GUI_DIALOG_TOOLTIP_IDC_WIN_CONDITION_COMBO,Określenie warunków zwycięstwa
-TEXT_GUI_DIALOG_TOOLTIP_IDC_WINDOWED_MODE,Uruchom w oknie
+TEXT_GUI_DIALOG_TOOLTIP_IDC_WINDOWED_MODE,Po włączeniu tej opcji gra będzie działać w oknie o zmiennym rozmiarze (okno można rozciągać i maksymalizować).
 TEXT_GUI_QUICK_SAVE,[Szybki zapis]
 TEXT_GUI_TOOLTIP_BIND_KEY,Naciśnij wybrany klawisz, aby przypisać go do nowego skrótu.
 TEXT_GUI_TOOLTIP_BIND_MODIFIER,Jeżeli chcesz wykorzystać kombinację klawiszy używając klawiszy Control, Shift lub Alt, to naciśnij je w pierwszej kolejności.
@@ -1847,6 +1888,7 @@ TEXT_HARD_AI_PLAYER,Trudna SI
 TEXT_HEADHUNTER_SQUADRON,Eskadra Z-95
 TEXT_HELLO,Witaj!
 TEXT_HELP_SEPERATOR,_________________________________________________________________________________________
+TEXT_HELP_SEPERATOR_GC,----------------------------------------------------------------------------
 TEXT_HERO_4LOM,4-LOM
 TEXT_HERO_4LOM_TEAM,4-LOM
 TEXT_HERO_AKBAR_TEAM,Admirał Ackbar
@@ -1865,12 +1907,12 @@ TEXT_HERO_DROID_C3P0,C-3PO
 TEXT_HERO_DROID_R2D2,R2-D2
 TEXT_HERO_DROIDS_TEAM,C-3PO i R2-D2
 TEXT_HERO_EMPEROR_PALPATINE,Imperator Palpatine
-TEXT_HERO_GARM_BEL_IBLIS,Garm Bel Iblis
-TEXT_HERO_GARM_BEL_IBLIS_TEAM,Garm Bel Iblis
+TEXT_HERO_GARM_BEL_IBLIS,Olbrzymi - Garm Bel Iblis
+TEXT_HERO_GARM_BEL_IBLIS_TEAM,Olbrzymi - Garm Bel Iblis
 TEXT_HERO_GENERAL_DODONNA,Generał Jan Dodonna
 TEXT_HERO_GENERAL_RIEEKAN,Generał Carlist Rieekan
 TEXT_HERO_GENERAL_VEERS,Pułkownik Maximilian Veers
-TEXT_HERO_GENERAL_VEERS_02,Generał Maximilian Veers
+TEXT_HERO_GENERAL_VEERS_02,Nawałnica Jeden - Generał Maximilian Veers
 TEXT_HERO_GRAND_MOFF_TARKIN,Wielki Moff Tarkin
 TEXT_HERO_HAN_SOLO,Han Solo
 TEXT_HERO_HAN_SOLO_TEAM,Han Solo i Chewbacca
@@ -1905,7 +1947,7 @@ TEXT_HERO_MON_MOTHMA,Mon Mothma
 TEXT_HERO_MON_MOTHMA_TEAM,Mon Mothma
 TEXT_HERO_OBI_WAN,Obi-Wan Kenobi
 TEXT_HERO_OBI_WAN_TEAM,Obi-Wan Kenobi
-TEXT_HERO_PEACEBRINGER,Zwiastun Pokoju
+TEXT_HERO_PEACEBRINGER,Niemiłosierny - Tyber Zann
 TEXT_HERO_PIET_TEAM,Kapitan Piett
 TEXT_HERO_PRINCE_XIZOR,Książe Xizor
 TEXT_HERO_PRINCESS_LEIA,Księżniczka Leia Organa
@@ -1933,8 +1975,8 @@ TEXT_HERO_UNIT_PROBE_DROID,Probot
 TEXT_HERO_UNIT_SABOTEUR,Sabotażysta
 TEXT_HERO_UNIT_SMUGGLER,Przemytnik
 TEXT_HERO_URAI_FEN,Urai Fen
-TEXT_HERO_VADER_TEAM,Darth Vader
-TEXT_HERO_VEERS_TEAM,Pułkownik Maximilian Veers
+TEXT_HERO_VADER_TEAM,Eskadra Czarnych
+TEXT_HERO_VEERS_TEAM,Nawałnica Jeden - Generał Maximilian Veers
 TEXT_HERO_WEDGE_ANTILLES,Wedge Antilles
 TEXT_HERO_WEDGE_TEAM,Wedge Antilles
 TEXT_HERO_XIZOR_TEAM,Książe Xizor
@@ -2249,6 +2291,7 @@ TEXT_LANG_KOREAN,Koreański
 TEXT_LANG_POLISH,Polski
 TEXT_LANG_RUSSIAN,Rosyjski
 TEXT_LANG_SPANISH,Hiszpański
+TEXT_LANG_UKRAINIAN,Ukraiński
 TEXT_LANGUAGE_OPTIONS,Opcje języka
 TEXT_LICENSE_AGREE_TITLE,Umowa licencyjna
 TEXT_LISTENING_TO_PLAYER,Nasłuchiwanie graczy
@@ -2427,7 +2470,7 @@ TEXT_MON_EVENT_REFUGEE_DESTINATION,Eskortuj zbiegów do systemu: %s
 TEXT_MON_EVENT_REFUGEE_LOCATION,System, w którym przebywają zbiegowie to: %s
 TEXT_MON_EVENT_REFUGEE_TITLE,Eskorta zbiegów
 TEXT_MON_EVENT_RESCUE_01,Piraci Czarnego Słońca poprosili nas o pomoc. Jeden z ich przywódców został schwytany przez Imperium. Piraci nie są w stanie uwolnić go z rąk Imperium.
-TEXT_MON_EVENT_RESCUE_02,Piraci odkryli, że ich przywódca jest więziony na powierzchni tej planety. Dotrzymali danego słowa i dostarczyli nam krążownik klasy Venator.
+TEXT_MON_EVENT_RESCUE_02,Piraci odkryli, że ich przywódca jest więziony na powierzchni tej planety. Dotrzymali danego słowa i dostarczyli nam fregaty klasy piratów.
 TEXT_MON_EVENT_RESCUE_TITLE,Ratunek pirata
 TEXT_MON_EVENT_SCOUT_00,Część imperialnych flot przenosi się w rejony kosmosu, które według nas nie mają żadnego strategicznego znaczenia. Wydaje mi się, że trzeba to sprawdzić, ale wysłanie całej floty mogłoby za bardzo zwrócić ich uwagę.
 TEXT_MON_EVENT_SCOUT_01,Twoje dochodzenie okazało się niezwykle pomocne. Zdobyte przez ciebie informacje pozwoliły na ujawnienie przygotowywanego ataku w innej części galaktyki. Wyślij zwiadowców, którzy zdobędą dalsze informacje.
@@ -2653,7 +2696,6 @@ TEXT_PA_SPY_NETWORK,Siatka szpiegowska
 TEXT_PA_STAMINA_BOOST,Zwiększenie wytrzym.
 TEXT_PA_TACTICAL_AUTO_DAMAGE,Auto zniszczenia
 TEXT_PA_TACTICAL_HEAL_INFANTRY,Leczenie piechoty
-TEXT_PALACE_UNDERWORLD_BUILDS,Produkuje: sabotażystę, MDU
 TEXT_PARTICLE_DETAIL,Szczegóły cząsteczek
 TEXT_PASSWORDED_GAME,Wymagane hasło
 TEXT_PATCH_REQUEST_TEXT,Dostępna jest nowa aktualizacja wymagana do gry poprzez Internet, czy chcesz ją pobrać?
@@ -2825,7 +2867,7 @@ TEXT_PLANET_BYSS_INFO_TAC,Czas budowy bazy naziemnej skrócony ze względu na wp
 TEXT_PLANET_BYSS_INFO_TER,Jeziora, płaskowyże, rozrośnięte miasta
 TEXT_PLANET_BYSS_INFO_WEA,Brak chmur, deszcz
 TEXT_PLANET_BYSS_INFO_WL,Brak
-TEXT_PLANET_CAPITAL_SHIP_PRODUCER,Na tej planecie można produkować okręty liniowe (krążowniki Mon Calamari lub imperialne niszczyciele gwiezdne)
+TEXT_PLANET_CAPITAL_SHIP_PRODUCER,Na tej planecie można produkować okręty liniowe (krążowniki Mon Calamari, imperialne niszczyciele gwiezdne, niszczyciel klasy Krayt lub pancernik klasy Kedalbe).
 TEXT_PLANET_CARIDA_ENCYC,Redukcja czasu produkcji (Piechota): Czas szkolenia piechoty skrócony dzięki placówkom wojskowym Caridy.
 TEXT_PLANET_CARIDA_ENCYC_01,Kiedy ta planeta jest kontrolowana, tworzenie jednostek piechoty na wszystkich planetach kosztuje 20% mniej.
 TEXT_PLANET_CARIDA_INFO_ADV,Redukcja czasu produkcji: Piechota
@@ -3004,11 +3046,11 @@ TEXT_PLANET_HOTH_INFO_TAC,Bazy naziemne są niewykrywalne ze względu na duże o
 TEXT_PLANET_HOTH_INFO_TER,Jaskinie, zamarznięte niziny, łańcuchy górskie
 TEXT_PLANET_HOTH_INFO_WEA,Brak chmur, śnieg, zamiecie
 TEXT_PLANET_HOTH_INFO_WL,Tauntauny, wampy
-TEXT_PLANET_HYPORI_ENCYC,Skrócenie czasu produkcji (pojazdy lądowe): Gdy któraś ze stron kontroluje tę planetę, budowa wszystkich pojazdów lądowych pochłania 25% mniej czasu.
+TEXT_PLANET_HYPORI_ENCYC,Skrócenie czasu produkcji (pojazdy lądowe): Gdy któraś ze stron kontroluje tę planetę, budowa wszystkich pojazdów lądowych pochłania 25% mniej czasu (z wyłączeniem Dark Trooperów i droidów-niszczycieli).
 TEXT_PLANET_HYPORI_INFO_ADV,Skrócenie czasu produkcji (pojazdy lądowe)
 TEXT_PLANET_HYPORI_INFO_HIS,Leżąca na terytorium Zewnętrznych Rubieży Hypori ma umiarkowany klimat. Na tej bogatej w minerały planecie nie istnieją żadne tubylcze formy inteligentnego życia. Po bitwie o Naboo Republika wprowadziła surowe prawo, które poważnie ograniczyło produkcję i sprzedaż droidów bojowych. Przywódcy firmy zbrojeniowej Baktoid zaczęli sponsorować kolonizację Hypori, podczas której na tę planetę przeniesiono cały ul Geonozjan. Mieli oni zbudować tam nową ukrytą fabrykę, produkującą droidy bojowe dla Federacji Handlowej. Choć twarde skały utrudniały stworzenie prawdziwego kopca z ulem, geonozjańskim robotnikom udało się jednak przekształcić planetę w ogromną hutę, w której rozpoczęto produkcję armii droidów bojowych. Właśnie te droidy miały wziąć udział w Wojnach Klonów.
 TEXT_PLANET_HYPORI_INFO_POP,Brak
-TEXT_PLANET_HYPORI_INFO_TAC,Gdy któraś ze stron kontroluje tę planetę, budowa wszystkich pojazdów lądowych pochłania 25% mniej czasu.
+TEXT_PLANET_HYPORI_INFO_TAC,Gdy któraś ze stron kontroluje tę planetę, budowa wszystkich pojazdów lądowych pochłania 25% mniej czasu (z wyłączeniem Dark Trooperów i droidów-niszczycieli).
 TEXT_PLANET_HYPORI_INFO_TER,Umiarkowany
 TEXT_PLANET_HYPORI_INFO_WEA,Deszcz
 TEXT_PLANET_HYPORI_INFO_WL,Windraile, massiffy
@@ -3395,7 +3437,7 @@ TEXT_PROP_AT_AT_UNFINISHED,Niedokończone AT-AT
 TEXT_PROP_EXPLODING_CONTAINER,Zbiornik z wybuchowym paliwem
 TEXT_PROWL_DESCRIPTION,Uwalnia vornskra, by wyruszył na polowanie. Głównym celem tych zwierząt zawsze będą jednostki wrażliwe na Moc.
 TEXT_PROXIMITY_MINE,Mina zbliżeniowa
-TEXT_PROXIMITY_MINE_DESC,Jeśli nieprzyjacielska jednostka się do niej zbliży, wybuch miny wyrządzi jej poważne obrażenia.
+TEXT_PROXIMITY_MINE_DESC,Miny zbliżeniowe są ciche, potężne i niewidoczne dla wrogów na polu bitwy. Zadają ogromne obrażenia piechocie i lekkim pojazdom znajdującym się w zasięgu ich eksplozji.
 TEXT_QUICK_LOAD,Szybkie wczytanie
 TEXT_QUICK_SAVE,Szybki zapis
 TEXT_QUICKMATCH_1V1_CAMPAIGN,Kampania 1:1
@@ -14163,6 +14205,7 @@ TEXT_SFX_WED_CHATTER_4,Tu czerwony 2, lecę do ciebie
 TEXT_SFX_WED_CHATTER_5,Już go mam, Luke, trzymaj się!
 TEXT_SFX_WED_CHATTER_6,Już po nim...
 TEXT_SFX_WED_CHATTER_DS,Ależ ona ogromna!
+TEXT_SFX_WED_CHATTER_DS_2,Trafili mnie!
 TEXT_SFX_WED_GUARD_1,Rozpoczynam eskortę
 TEXT_SFX_WED_GUARD_2,Przystępuję do eskortowania obiektu
 TEXT_SFX_WED_MOVE_1,Zrozumiano
@@ -14574,20 +14617,20 @@ TEXT_SPACE_STATION,Stacja:
 TEXT_SPAIN,Hiszpania
 TEXT_SPEECH_ABREGADORAE_BRB_VICTORY_COR01_01,Sabotażysta: Udało mi się przekupić zarządcę portu kosmicznego, co zablokuje dopływ jednostek garnizonowych z Abregado Rae do naszych wrogów. Ponadto uzyskałem dostęp do informacji o ruchu okrętów na szlaku handlowym Remma.
 TEXT_SPEECH_ACT01_M04_BOUNCE,Tyber Zann: Osobiście rozprawię się z Jabbą... Nie zaczynajcie bitwy beze mnie.
-TEXT_SPEECH_AETENII_PIR_LOAD_COR02_01,Bossk: Osobiście zabiję każdego, kto nie będzie robił, co do niego należy. Rozpocząć bitwę.
-TEXT_SPEECH_AETENII_PIR_LOSS_COR02_04,Bossk: Przysłane przez was jednostki, które miały wziąć udział w bitwie, były całkowicie niewyszkolone i bezużyteczne. Sam zabiłem tych, którzy przeżyli, i wracam, żeby osobiście zająć się szkoleniem nowych oddziałów. Nie tak łatwo mnie powstrzymać!
-TEXT_SPEECH_AETENII_PIR_TACTICAL_COR02_02,Bossk: Pojemniki, w których są przechowywane kryształy stygium mają dobrą ochronę. Trzeba będzie zniszczyć pięć pojemników, aby udowodnić nasze panowanie w systemie Aetena II.
-TEXT_SPEECH_AETENII_PIR_VICTORY_COR02_03,Bossk: Pojemniki z kryształami stygium i pozostałe cele zostały zniszczone. Oczekuję podwójnego wynagrodzenia.
+TEXT_SPEECH_AETENII_PIR_LOAD_COR02_01,Bossk: (Przetłumaczony) Osobiście zabiję każdego, kto nie będzie robił, co do niego należy. Rozpocząć bitwę.
+TEXT_SPEECH_AETENII_PIR_LOSS_COR02_04,Bossk: (Przetłumaczony) Przysłane przez was jednostki, które miały wziąć udział w bitwie, były całkowicie niewyszkolone i bezużyteczne. Sam zabiłem tych, którzy przeżyli, i wracam, żeby osobiście zająć się szkoleniem nowych oddziałów. Nie tak łatwo mnie powstrzymać!
+TEXT_SPEECH_AETENII_PIR_TACTICAL_COR02_02,Bossk: (Przetłumaczony) Pojemniki, w których są przechowywane kryształy stygium mają dobrą ochronę. Trzeba będzie zniszczyć pięć pojemników, aby udowodnić nasze panowanie w systemie Aetena II.
+TEXT_SPEECH_AETENII_PIR_VICTORY_COR02_03,Bossk: (Przetłumaczony) Pojemniki z kryształami stygium i pozostałe cele zostały zniszczone. Oczekuję podwójnego wynagrodzenia.
 TEXT_SPEECH_AETENII_RKT_VICTORY_COR02_05,Sabotażysta: Górnicy z Aetena II nie skąpią kredytów, żeby dobrze się zabawić w naszych kompleksach rozrywkowych. Jako zapłatę za długi zaczęliśmy od nich nawet dostawać kryształy stygium.
 TEXT_SPEECH_ALZOCIII_BLK_VICTORY_COR03_05,Sabotażysta: Udało się nam założyć komórkę czarnego rynku na Alzoc III. Już teraz Konsorcjum uzyskało dostęp do nowych jednostek o zadziwiającej sile rażenia.
 TEXT_SPEECH_ALZOCIII_INT_LOAD_COR03_01,Tyber Zann: Skoro już tutaj jestem, zabijmy kilka Shaaków. Powiedzmy, że dziesięciu.
 TEXT_SPEECH_ALZOCIII_INT_LOSS_COR03_04,Tyber Zann: Oddziały z Alzoc III walczyły naprawdę doskonale. Zanim spróbuję ponownie zająć tę planetę, muszę zgromadzić więcej tych jednostek.
 TEXT_SPEECH_ALZOCIII_INT_TACTICAL_COR03_02,Tyber Zann: Zabieram na powierzchnię planety kilku swoich współpracowników, żeby popracowali nad komisarzem do spraw żywności. Mając kontrolę nad nim, będziemy sterować produkcją całej planety.
 TEXT_SPEECH_ALZOCIII_INT_VICTORY_COR03_03,Tyber Zann: Komisarz pracuje teraz dla nas. Zaczniemy od pozbawienia górników żywności, dopóki drastycznie nie zwiększą wydajności.
-TEXT_SPEECH_ANAXES_INT_LOAD_COR04_01,Bossk: Ruszać się. Musimy jak najszybciej wykonać tę misję.
-TEXT_SPEECH_ANAXES_INT_LOSS_COR04_04,Bossk: Na planecie znajdowały się ukryte oddziały rezerwowe. Jeśli chcemy ponowić atak w najbliższej przyszłości, musimy się tu zjawić o wiele lepiej przygotowani.
-TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02,Bossk: Komandor floty, Flankar, z planety Anaxes słynie jako najlepszy dowódca w całej galaktyce. Kiedy zademonstrujemy mu swoją potęgę, łatwiej go będzie kontrolować.
-TEXT_SPEECH_ANAXES_INT_VICTORY_COR04_03,Bossk: Przejęliśmy kontrolę nad całym Perlemiańskim Szlakiem Handlowym. Teraz będziemy mogli zastopować połowę wolnego handlu na obszarze galaktyki.
+TEXT_SPEECH_ANAXES_INT_LOAD_COR04_01,Bossk: (Przetłumaczony) Ruszać się. Musimy jak najszybciej wykonać tę misję.
+TEXT_SPEECH_ANAXES_INT_LOSS_COR04_04,Bossk: (Przetłumaczony) Na planecie znajdowały się ukryte oddziały rezerwowe. Jeśli chcemy ponowić atak w najbliższej przyszłości, musimy się tu zjawić o wiele lepiej przygotowani.
+TEXT_SPEECH_ANAXES_INT_TACTICAL_COR04_02,Bossk: (Przetłumaczony) Komandor floty, Flankar, z planety Anaxes słynie jako najlepszy dowódca w całej galaktyce. Kiedy zademonstrujemy mu swoją potęgę, łatwiej go będzie kontrolować.
+TEXT_SPEECH_ANAXES_INT_VICTORY_COR04_03,Bossk: (Przetłumaczony) Przejęliśmy kontrolę nad całym Perlemiańskim Szlakiem Handlowym. Teraz będziemy mogli zastopować połowę wolnego handlu na obszarze galaktyki.
 TEXT_SPEECH_ANAXES_RKT_VICTORY_COR04_05,Sabotażysta: Celem naszej organizacji są załogi licznych statków kupieckich, których członkowie szukają na tej planecie rozrywki. Dzięki tej operacji zarobimy więcej, niż mogliśmy się spodziewać.
 TEXT_SPEECH_ATZERRI_BRB_VICTORY_COR05_02,Sabotażysta: Przekupstwa dokonane przez nas na Atzerri przerosły nasze najśmielsze oczekiwania. Planeta została całkowicie skorumpowana, a na naszych kontach zaczynają się pojawiać ogromne ilości kredytów.
 TEXT_SPEECH_ATZERRI_RKT_VICTORY_COR05_01,Sabotażysta: Przeprowadzenie serii wymuszeń na Atzerri, planecie gdzie aż roi się od przestępców, było bardzo łatwe. Przywódcy półświatka niemal sami ustawiali się w kolejce, żeby odebrać kredyty i zaproponować nam w zamian potężne zasoby.
@@ -14645,12 +14688,12 @@ TEXT_SPEECH_CAMPAIGN_SINGLE_60_INTRO_R,Sojusz i Imperium kontrolują obszary gal
 TEXT_SPEECH_CAMPAIGN_SINGLE_FOCUS_INTRO_U,Tyber Zann: Kartel Jabby rozwijał się w najlepsze, a ja gniłem za kratkami! Teraz, kiedy jestem wolny, mogę się wreszcie zemścić na tym obrzydłym Huttcie i odzyskać utracone wpływy!
 TEXT_SPEECH_CARIDA_BLK_VICTORY_COR11_06,Sabotażysta: Powstał czarny rynek, który dostarcza nam wielu cennych informacji. Plany Tybera postępuja naprzód.
 TEXT_SPEECH_CARIDA_BRB_VICTORY_COR11_05,Sabotażysta: Z radością donoszę, że nasze łapówki odniosły efekt. Skorumpowaliśmy planetę i zyskaliśmy dostęp do wielu cennych informacji.
-TEXT_SPEECH_CARIDA_KID_LOAD_COR11_01,Bossk: Otrzymałem misję porwania admirała i nie spocznę, dopóki nie wykonam zadania.
-TEXT_SPEECH_CARIDA_KID_LOSS_COR11_04,Bossk: Pierwsza próba się nie powiodła. Jeśli dostanę więcej jednostek, to powinienem wykonać misję. Spróbuję jeszcze raz, jak tylko będę mógł.
-TEXT_SPEECH_CARIDA_KID_TACTICAL_COR11_02,Bossk: Admirał Kendal na pewno będzie miał dobrą ochronę. Najlepiej przeprowadzić szybkie uderzenie. Nie zatrzymujcie się, żeby liczyć poległych.
-TEXT_SPEECH_CARIDA_KID_TACTICAL_COR11_07,Bossk: Admirale Hol, proszę pójść ze mną, a nie zabiję pana.
+TEXT_SPEECH_CARIDA_KID_LOAD_COR11_01,Bossk: (Przetłumaczony) Otrzymałem misję porwania admirała i nie spocznę, dopóki nie wykonam zadania.
+TEXT_SPEECH_CARIDA_KID_LOSS_COR11_04,Bossk: (Przetłumaczony) Pierwsza próba się nie powiodła. Jeśli dostanę więcej jednostek, to powinienem wykonać misję. Spróbuję jeszcze raz, jak tylko będę mógł.
+TEXT_SPEECH_CARIDA_KID_TACTICAL_COR11_02,Bossk: (Przetłumaczony) Admirał Kendal na pewno będzie miał dobrą ochronę. Najlepiej przeprowadzić szybkie uderzenie. Nie zatrzymujcie się, żeby liczyć poległych.
+TEXT_SPEECH_CARIDA_KID_TACTICAL_COR11_07,Bossk: (Przetłumaczony) Admirale Hol, proszę pójść ze mną, a nie zabiję pana.
 TEXT_SPEECH_CARIDA_KID_TACTICAL_COR11_08,Admirał Dalken Hol: Pójdę. Nie chcę żadnych kłopotów.
-TEXT_SPEECH_CARIDA_KID_VICTORY_COR11_03,Bossk: Wieść o porwaniu przez nas admirała Hola rozprzestrzenia się po całej galaktyce jak rozszalały pożar. Ważne planety aż się prześcigają, żeby dołączyć do Konsorcjum.
+TEXT_SPEECH_CARIDA_KID_VICTORY_COR11_03,Bossk: (Przetłumaczony) Wieść o porwaniu przez nas admirała Hola rozprzestrzenia się po całej galaktyce jak rozszalały pożar. Ważne planety aż się prześcigają, żeby dołączyć do Konsorcjum.
 TEXT_SPEECH_CHOOSE_LANDING,Wybierz strefę lądowania
 TEXT_SPEECH_CHOOSE_REINFORCEMENTS,Wybierz siły wsparcia
 TEXT_SPEECH_CORELLIA_BLK_VICTORY_COR12_05,Sabotażysta: Czarny rynek przynosi nam korzyści w całej galaktyce. Konsorcjum Zanna zyskało nowe okręty, które wzmocnią nasza flotę.
@@ -15109,17 +15152,17 @@ TEXT_SPEECH_FOCUS_DEMO_45,Wskazówka: Wprowadź jednostki na pokład transportow
 TEXT_SPEECH_FOCUS_DEMO_46,Wskazówka: Niektóre miejsca są niedostępne dla pojazdów, mogą się tam dostać wyłącznie jednostki piechoty. Wyprowadź żołnierzy z transportowca i wyślij ich w kierunku generatora osłony.
 TEXT_SPEECH_FOCUS_DEMO_47,Tyber Zann: Droga wolna, nareszcie możemy zniszczyć bazę nieprzyjaciela.
 TEXT_SPEECH_FONDOR_CRM_VICTORY_COR21_05,Sabotażysta: Teraz Konsorcjum może w dowolny sposób wykorzystywać niezwykle cenne rdzenne jednostki pochodzące z Fondoru.
-TEXT_SPEECH_FONDOR_PIR_LOAD_COR21_01,Bossk: Nie dam się wodzić za nos. Rozmieścić okręty na pozycjach!
-TEXT_SPEECH_FONDOR_PIR_LOSS_COR21_04,Bossk: Chcę natychmiast wrócić do walki i dokończyć robotę, której się podjąłem.
+TEXT_SPEECH_FONDOR_PIR_LOAD_COR21_01,Bossk: (Przetłumaczony) Nie dam się wodzić za nos. Rozmieścić okręty na pozycjach!
+TEXT_SPEECH_FONDOR_PIR_LOSS_COR21_04,Bossk: (Przetłumaczony) Chcę natychmiast wrócić do walki i dokończyć robotę, której się podjąłem.
 TEXT_SPEECH_FONDOR_PIR_OBJECTIVE_02,Zniszcz stację kosmiczną nieprzyjaciela.
-TEXT_SPEECH_FONDOR_PIR_TACTICAL_COR21_02,Bossk: Stacje bojowe wokół Fondoru są niezwykle potężne. Musimy tak pokierować naszymi siłami, żeby całkowicie zniszczyć przynajmniej jedną z nich.
-TEXT_SPEECH_FONDOR_PIR_VICTORY_COR21_03,Bossk: Moim oddziałom udało się to, czego inni nigdy by nie dokonali. A przy okazji Imperium straciło nieco swoich zasobów.
+TEXT_SPEECH_FONDOR_PIR_TACTICAL_COR21_02,Bossk: (Przetłumaczony) Stacje bojowe wokół Fondoru są niezwykle potężne. Musimy tak pokierować naszymi siłami, żeby całkowicie zniszczyć przynajmniej jedną z nich.
+TEXT_SPEECH_FONDOR_PIR_VICTORY_COR21_03,Bossk: (Przetłumaczony) Moim oddziałom udało się to, czego inni nigdy by nie dokonali. A przy okazji Imperium straciło nieco swoich zasobów.
 TEXT_SPEECH_FRESIA_BRB_VICTORY_COR22_01,Sabotażysta: Władze Korporacji Incom okazały się bardzo chętne do współpracy. Potęga Konsorcjum znacznie wzrosła.
 TEXT_SPEECH_FRESIA_CRM_VICTORY_COR22_02,Sabotażysta: Udało się nam zdobyć dostęp do sprzętu wojskowego o potężnej skuteczności rażenia. Konsorcjum znowu stało się silniejsze!
-TEXT_SPEECH_GENERIC_COR60_01,Bossk: Tam jest nasz cel!  Naprzód!
-TEXT_SPEECH_GENERIC_COR60_02,IG-88: Cel odnaleziony!  Wykonać!
-TEXT_SPEECH_GENERIC_COR60_03,Silri: Oto nasz cel!  Do ataku!
-TEXT_SPEECH_GENERIC_COR60_04,Tyber: Tam jest nasz cel.  Wykonać plan.
+TEXT_SPEECH_GENERIC_COR60_01,Bossk: (Przetłumaczony) Tam jest nasz cel! Naprzód!
+TEXT_SPEECH_GENERIC_COR60_02,IG-88: Cel odnaleziony! Wykonać!
+TEXT_SPEECH_GENERIC_COR60_03,Silri: Oto nasz cel! Do ataku!
+TEXT_SPEECH_GENERIC_COR60_04,Tyber: Tam jest nasz cel. Wykonać plan.
 TEXT_SPEECH_GENERIC_COR60_05,Urai: Nasz cel właśnie się pokazał. Skoncentrować się tam.
 TEXT_SPEECH_GENERIC_COR60_06,Żołnierz Konsorcjum: Tam jest nasz cel! Naprzód!
 TEXT_SPEECH_GENERIC_COR60_07,Sabotażysta: Nie mogę skorumpować tej planety.
@@ -15227,10 +15270,10 @@ TEXT_SPEECH_KESSEL_PIR_TACTICAL_COR30_02,IG-88: Mam przedostać się do systemu 
 TEXT_SPEECH_KESSEL_PIR_VICTORY_COR30_03,IG-88: Sukces, który odnieśliśmy, przekracza wszelkie moje wyliczenia. Udało się nam zdobyć nowy okręt. Od tej pory kredyty, które płynęły do naszych wrogów, popłyną do skarbca Konsorcjum. Poza tym otrzymaliśmy już meldunki o tym, że w wyniku przejęcia przez nas satelity okręty transportowe zniknęły w tajemniczych okolicznościach.
 TEXT_SPEECH_KORRIBAN_RKT_VICTORY_COR31_01,Sabotażysta: Pomimo że udało mi się założyć na tej planecie komórkę naszej organizacji, wciąż obawiam się potęgi Ciemnej Strony Mocy, która spowija ten sektor.
 TEXT_SPEECH_KUAT_BLK_VICTORY_COR32_05,Sabotażysta: Komórka czarnego rynku została założona. Możemy rozpocząć gromadzenie ważnych danych dotyczących okrętów bojowych.
-TEXT_SPEECH_KUAT_KID_LOAD_COR32_01,Bossk: Nasz cel jest słaby, ale ma potężną ochronę. Działajcie szybko.
-TEXT_SPEECH_KUAT_KID_LOSS_COR32_04,Bossk: Nie udało się. Musimy spróbować jeszcze raz, jak tylko to będzie możliwe.
-TEXT_SPEECH_KUAT_KID_TACTICAL_COR32_02,Bossk: Ruszać się. Macie za wszelką cenę porwać Bevela Lemeliska. Jego wiedza bardzo się przyda Konsorcjum do podbicia tego sektora.
-TEXT_SPEECH_KUAT_KID_VICTORY_COR32_03,Bossk: Teraz, gdy Bevel Lemelisk jest w naszych rękach, do kasy Konsorcjum popłynie strumień kredytów. Wykorzystując dogodną pozycję Kuat, będziemy mogli nadzorować działania w innych systemach, dzięki czemu próby przekupstwa powinny częściej kończyć się powodzeniem.
+TEXT_SPEECH_KUAT_KID_LOAD_COR32_01,Bossk: (Przetłumaczony) Nasz cel jest słaby, ale ma potężną ochronę. Działajcie szybko.
+TEXT_SPEECH_KUAT_KID_LOSS_COR32_04,Bossk: (Przetłumaczony) Nie udało się. Musimy spróbować jeszcze raz, jak tylko to będzie możliwe.
+TEXT_SPEECH_KUAT_KID_TACTICAL_COR32_02,Bossk: (Przetłumaczony) Ruszać się. Macie za wszelką cenę porwać Bevela Lemeliska. Jego wiedza bardzo się przyda Konsorcjum do podbicia tego sektora.
+TEXT_SPEECH_KUAT_KID_VICTORY_COR32_03,Bossk: (Przetłumaczony) Teraz, gdy Bevel Lemelisk jest w naszych rękach, do kasy Konsorcjum popłynie strumień kredytów. Wykorzystując dogodną pozycję Kuat, będziemy mogli nadzorować działania w innych systemach, dzięki czemu próby przekupstwa powinny częściej kończyć się powodzeniem.
 TEXT_SPEECH_MANAAN_RKT_VICTORY_COR33_01,Sabotażysta: Zgodnie z przewidywaniami udało się nam założyć komórkę naszej organizacji na tej planecie. Zaczęli już nawet spłacać pierwsze długi, w kolto.
 TEXT_SPEECH_MANDALORE_BRB_VICTORY_COR34_08,Sabotażysta: Udało mi się przekupić przywódcę klanów Mandalorian. Od tej pory najemnicy z Mandalore będą walczyć tylko dla Zanna. Ponadto, Mandalorianie będą dla nas śledzić ruchy flot naszych nieprzyjaciół.
 TEXT_SPEECH_MANDALORE_PIR_DIALOG_COR34_10,Tyber Zann: Kapitanie, mógłbyś być cennym współpracownikiem Konsorcjum. Szkoda, że musisz zginąć.
@@ -16314,11 +16357,11 @@ TEXT_SPEECH_UW_ACT01_G05_11,Tyber Zann: Przypomnij mi, żeby sprawdzić czarne r
 TEXT_SPEECH_UW_ACT01_G05_12,Urai Fen: Czy możemy przyjrzeć się tej jednostce z bliska?
 TEXT_SPEECH_UW_ACT01_G05_13,Tyber Zann: Okrętu strzeże armada mniejszych jednostek. Wątpię, aby wpuszczali na pokład postronne osoby. Musi być jednak jakiś sposób. Coś wymyślę. Jak zwykle, Urai.
 TEXT_SPEECH_UW_ACT01_G05_14,Tyber Zann: Znakomicie. Dzięki wysiłkom sabotażystów mogę skorzystać z czarnego rynku i kupić potrzebne wyposażenie. Być może zdobędę również informacje o tym okręcie flagowym.
-TEXT_SPEECH_UW_ACT01_G06_01,Żołnierz: Nasze koszary zostały zniszczone. Z każdego sektora napływają meldunki o wielu, równocześnie następujących atakach bombowych oraz atakach ze strony snajperów... Nasze główne bazy nadal się bronią, ale Konsorcjum poniosło dotkliwe straty w całej galaktyce. Nadal nie wiemy, kto stoi za tym atakiem.
+TEXT_SPEECH_UW_ACT01_G06_01,Żołnierz Konsorcjum Zanna: Nasze koszary zostały zniszczone. Z każdego sektora napływają meldunki o wielu, równocześnie następujących atakach bombowych oraz atakach ze strony snajperów... Nasze główne bazy nadal się bronią, ale Konsorcjum poniosło dotkliwe straty w całej galaktyce. Nadal nie wiemy, kto stoi za tym atakiem.
 TEXT_SPEECH_UW_ACT01_G06_02,Tyber Zann: Moje plany związane z Jabbą są obecnie priorytetowe. Zabiłbym go od razu, gdyby nie to, że chcę, aby najpierw pocierpiał. Zaatakował moją organizację... W porządku, zapłaci mi za to potrójnie.
-TEXT_SPEECH_UW_ACT01_G06_03,Jabba Hutt: Tyber Zann. Miło cię znowu widzieć. Ostatnim razem miałem przyjemność oglądać, jak zabierali cię szturmowcy. To było równie przyjemne uczucie, co niszczenie pozostałości twojej organizacji. Jesteś głupcem, skoro znowu chcesz mnie okraść.
+TEXT_SPEECH_UW_ACT01_G06_03,Jabba Hutt: (Przetłumaczony) Tyber Zann. Miło cię znowu widzieć. Ostatnim razem miałem przyjemność oglądać, jak zabierali cię szturmowcy. To było równie przyjemne uczucie, co niszczenie pozostałości twojej organizacji. Jesteś głupcem, skoro znowu chcesz mnie okraść.
 TEXT_SPEECH_UW_ACT01_G06_04,Tyber Zann: Jabba! Jak ci służy pustynny klimat? Czy już umarłeś? Nie? Szkoda. A teraz znikaj z naszego systemu komunikacji... Jak nas tu odnalazł?
-TEXT_SPEECH_UW_ACT01_G06_05,Żołnierz: Sygnał pochodzi z planety Saleucami.  Muszą tam mieć małą bazę komunikacyjną.
+TEXT_SPEECH_UW_ACT01_G06_05,Żołnierz Konsorcjum Zanna: Sygnał pochodzi z planety Saleucami.  Muszą tam mieć małą bazę komunikacyjną.
 TEXT_SPEECH_UW_ACT01_G06_06,Tyber Zann: Chcę przejąć kontrolę nad tą bazą. Sami podsłuchamy, co się dzieje u Jabby. Najpierw musimy jednak przygotować Saleucami na nasze przybycie.
 TEXT_SPEECH_UW_ACT01_G06_07,Żołnierz: Tak jest!
 TEXT_SPEECH_UW_ACT01_G06_08,Tyber Zann: Generator osłony jest naszym głównym celem... Zniszczyć go!
@@ -16346,7 +16389,7 @@ TEXT_SPEECH_UW_ACT01_M01_06,Tyber Zann: Lepiej się stąd zabieraj, zanim zaczni
 TEXT_SPEECH_UW_ACT01_M01_07,Łowca nagród: Odejdę stąd tak szybko…gaaa
 TEXT_SPEECH_UW_ACT01_M01_08,Tyber Zann: Masz rację, stało się to bardzo szybko.
 TEXT_SPEECH_UW_ACT01_M01_09,Tyber Zann: Jak zwykle jesteś punktualny, Urai.
-TEXT_SPEECH_UW_ACT01_M01_10,Urai Fen: Musimy udać się szybko na lądowisko. Zwiększyłem moc twojego blastera, kiedy przebywałeś w więzieniu. Jest teraz bardziej skuteczny. Chodźmy, Konsorcjum Zanna czeka na twój powrót.
+TEXT_SPEECH_UW_ACT01_M01_10,Urai Fen: Musimy udać się szybko na lądowisko. Zwiększyłem moc twojego blastera, kiedy przebywałeś w więzieniu. Jest teraz bardziej skuteczny. Chodźmy, Konsorcjum Zanna czeka na twój powrót. (Blaster się aktywuje)
 TEXT_SPEECH_UW_ACT01_M01_11,Tyber Zann: Czekałem na tę chwilę od bardzo dawna. Rozumiem, że musimy szybko opuścić to miejsce... Tędy!
 TEXT_SPEECH_UW_ACT01_M01_12,Han Solo: Chwileczkę, gdzie jest ładunek? I co to za ludzie? To nie jest jednostka pasażerska!
 TEXT_SPEECH_UW_ACT01_M01_13,Tyber Zann: Urai, zajmij się więźniami. Ich przydatność dobiegła końca.
@@ -16383,13 +16426,13 @@ TEXT_SPEECH_UW_ACT01_M01_43,Urai Fen: Między nami a okrętem znajduje się wiel
 TEXT_SPEECH_UW_ACT01_M01_44,Tyber Zann: Byłoby więcej, gdybym wcześniej nie zatruł zapasów wody.
 TEXT_SPEECH_UW_ACT01_M01_45,Tyber Zann: Teraz strażnicy będą mieli do czego strzelać.
 TEXT_SPEECH_UW_ACT01_M01_46,Han Solo: Podkradanie się do nerwowego przemytnika, stojącego blisko imperialnego więzienia, nie jest najlepszym pomysłem. Niechcący mogę kogoś zastrzelić.
-TEXT_SPEECH_UW_ACT01_M01_47,Jabba Hutt: Ho, ho, ho, Tyber Zann, mój dawny partner! Jak ci się podoba miejsce, które dla ciebie zarezerwowałem?
+TEXT_SPEECH_UW_ACT01_M01_47,Jabba Hutt: (Przetłumaczony) Ho, ho, ho, Tyber Zann, mój dawny partner! Jak ci się podoba miejsce, które dla ciebie zarezerwowałem?
 TEXT_SPEECH_UW_ACT01_M01_48,Tyber Zann: Godziny odwiedzin już się skończyły, Jabba. Odpuść sobie, jeżeli szukasz skradzionego artefaktu. Jest bardzo dobrze ukryty.
-TEXT_SPEECH_UW_ACT01_M01_49,Jabba Hutt: W takim razie będzie ukryty na zawsze. Twoje Konsorcjum już nie istnieje, a ty będziesz gnił w tym więzieniu, dopóki nie przyślę kogoś, kto zakończy twoje żałosne istnienie.
+TEXT_SPEECH_UW_ACT01_M01_49,Jabba Hutt: (Przetłumaczony) W takim razie będzie ukryty na zawsze. Twoje Konsorcjum już nie istnieje, a ty będziesz gnił w tym więzieniu, dopóki nie przyślę kogoś, kto zakończy twoje żałosne istnienie.
 TEXT_SPEECH_UW_ACT01_M01_50,Tyber Zann: Proszę, przyślij mi jakieś towarzystwo. Szkoda tylko, że nigdy nie uda ci się znaleźć tego artefaktu.
-TEXT_SPEECH_UW_ACT01_M01_51,Jabba Hutt: Musiałem cię ukarać i odebrać ci wszystko, ponieważ ukradłeś mi coś bardzo cennego. Popełniłeś ogromny błąd, zabierając mój artefakt. Przybyłem, aby dać ci jeszcze jedną szansę. Powiedz mi, gdzie ukryłeś artefakt, a pozwolę ci żyć.
+TEXT_SPEECH_UW_ACT01_M01_51,Jabba Hutt: (Przetłumaczony) Musiałem cię ukarać i odebrać ci wszystko, ponieważ ukradłeś mi coś bardzo cennego. Popełniłeś ogromny błąd, zabierając mój artefakt. Przybyłem, aby dać ci jeszcze jedną szansę. Powiedz mi, gdzie ukryłeś artefakt, a pozwolę ci żyć.
 TEXT_SPEECH_UW_ACT01_M01_52,Tyber Zann: Artefakt należy teraz do mnie, możesz o nim zapomnieć. Wydaje ci się, że zniszczyłeś Konsorcjum, ale ja jestem potężniejszy, niż ci się wydaje. To ty powinieneś uważać na siebie, Jabba.
-TEXT_SPEECH_UW_ACT01_M01_53,Jabba Hutt: Spodziewałem się, że usłyszę od ciebie jedynie groźby bez pokrycia. Wcześniej czy później odnajdę artefakt. Nagroda, którą wyznaczyłem za twoją głowę z pewnością sprawi, że nie będzie ci się nudziło w więzieniu. Pociesz się, że twój pobyt w tym miejscu nie będzie trwał długo.
+TEXT_SPEECH_UW_ACT01_M01_53,Jabba Hutt: (Przetłumaczony) Spodziewałem się, że usłyszę od ciebie jedynie groźby bez pokrycia. Wcześniej czy później odnajdę artefakt. Nagroda, którą wyznaczyłem za twoją głowę z pewnością sprawi, że nie będzie ci się nudziło w więzieniu. Pociesz się, że twój pobyt w tym miejscu nie będzie trwał długo.
 TEXT_SPEECH_UW_ACT01_M01_54,Tyber Zann: Urai, przybywaj natychmiast, słyszysz mnie? Urai!
 TEXT_SPEECH_UW_ACT01_M01_55,Urai Fen: Jestem na miejscu, Tyber. Zgodnie z planem.
 TEXT_SPEECH_UW_ACT01_M01_56,Tyber Zann: Muszę nieco przyspieszyć wykonanie moich planów. Jabba wysłał kilku ludzi, aby załatwili to, czego on nie mógł zrobić. Niech statek jak najszybciej ląduje. Ja załatwię resztę.
@@ -16442,9 +16485,9 @@ TEXT_SPEECH_UW_ACT01_M02_33,Tyber Zann: Ta zawiera plany nowego okrętu. Dosyć�
 TEXT_SPEECH_UW_ACT01_M02_34,Tyber Zann: Ta zawiera informacje dotyczące osobistego archiwum Imperatora. Fascynujące. Szukajcie następnych kapsuł.
 TEXT_SPEECH_UW_ACT01_M02_BOUNCE,Tyber Zann: Osobiście będę nadzorował tę misję.
 TEXT_SPEECH_UW_ACT01_M02_FAIL,Tyber Zann: Nie ma mowy o porażce. Następnym razem będziemy lepiej przygotowani.
-TEXT_SPEECH_UW_ACT01_M03_01,Żołnierz Konsorcjum: Brak informacji o wychodzących transportach… Nie ma gdzie ukryć… Co to jest?
+TEXT_SPEECH_UW_ACT01_M03_01,Żołnierz Konsorcjum Zanna: Brak informacji o wychodzących transportach… Nie ma gdzie ukryć… Co to jest?
 TEXT_SPEECH_UW_ACT01_M03_02,Urai Fen: Jabba przygotuje zasadzkę. Bądźcie gotowi do odparcia ataku na lądowisku.
-TEXT_SPEECH_UW_ACT01_M03_03,Żołnierz Konsorcjum: Mamy… zakłócenia…
+TEXT_SPEECH_UW_ACT01_M03_03,Żołnierz Konsorcjum Zanna: Mamy… zakłócenia…
 TEXT_SPEECH_UW_ACT01_M03_04,Urai Fen: Przewidziałem to. Brońcie tego miejsca... ja zajmę się punktem wsparcia.
 TEXT_SPEECH_UW_ACT01_M03_05,Żołnierz Huttów: Tam jest, zgodnie z ostrzeżeniem Jabby!
 TEXT_SPEECH_UW_ACT01_M03_06,Urai Fen: Nie obchodzi mnie, czy Jabba was ostrzegł. Odsuńcie się, albo zginiecie.
@@ -16458,17 +16501,17 @@ TEXT_SPEECH_UW_ACT01_M04_04,Tyber Zann: Te droidy używają tych węzłów do po
 TEXT_SPEECH_UW_ACT01_M04_05,Tyber Zann: Gdzieś muszą wychodzić na powierzchnię!
 TEXT_SPEECH_UW_ACT01_M04_06,Urai Fen: Udało mi się przełączyć fabrykę na ręczny tryb sterowania. Nie czekają nas już kolejne niespodzianki.
 TEXT_SPEECH_UW_ACT01_M04_07,Tyber Zann: Co powiedziałeś?
-TEXT_SPEECH_UW_ACT01_M04_08,Jabba Hutt: Ho, ho… tak marnemu złodziejowi jak ty kiedyś skończy się szczęście. A stanie się tak właśnie za chwilę. Jakie to miłe uczucie wiedzieć, że niedługo odzyskam mój skradziony artefakt.
+TEXT_SPEECH_UW_ACT01_M04_08,Jabba Hutt: (Przetłumaczony) Ho, ho… tak marnemu złodziejowi jak ty kiedyś skończy się szczęście. A stanie się tak właśnie za chwilę. Jakie to miłe uczucie wiedzieć, że niedługo odzyskam mój skradziony artefakt.
 TEXT_SPEECH_UW_ACT01_M04_09,Tyber Zann: Nie jestem taki marny, skoro udało mi się ukraść ci twój najcenniejszy artefakt. Teraz posiadam twoją fabrykę droidów. Jabba, przyznaj, że zostałeś pokonany.
-TEXT_SPEECH_UW_ACT01_M04_10,Jabba Hutt: To jeszcze nie koniec, Tyberze. Wiedziałem, że przybędziesz i pomożesz mi w usunięciu tych droidów.  Masz moje podziękowania... A teraz możesz umrzeć. Zabić ich wszystkich!
+TEXT_SPEECH_UW_ACT01_M04_10,Jabba Hutt: (Przetłumaczony) To jeszcze nie koniec, Tyberze. Wiedziałem, że przybędziesz i pomożesz mi w usunięciu tych droidów.  Masz moje podziękowania... A teraz możesz umrzeć. Zabić ich wszystkich!
 TEXT_SPEECH_UW_ACT01_M04_11,Tyber Zann: Jestem pewien, że Jabba nie płaci wystarczająco dobrze łowcy o takim doświadczeniu.
-TEXT_SPEECH_UW_ACT01_M04_12,Bossk: Zawsze jest za mało…
+TEXT_SPEECH_UW_ACT01_M04_12,Bossk: (Przetłumaczony) Zawsze jest za mało…
 TEXT_SPEECH_UW_ACT01_M04_13,Tyber Zann: Oczywiście. Powiedzmy, że potroję stawkę Jabby i wypłacę z góry... Co ty na to?
-TEXT_SPEECH_UW_ACT01_M04_14,Bossk: Gdzie jest mój cel?
+TEXT_SPEECH_UW_ACT01_M04_14,Bossk: (Przetłumaczony) Gdzie jest mój cel?
 TEXT_SPEECH_UW_ACT01_M04_15,Tyber Zann: Jabba, twoi ludzie są martwi, a ty jesteś otoczony. Chyba masz drobny problem.
-TEXT_SPEECH_UW_ACT01_M04_16,Jabba Hutt: Możemy się dogadać, Tyber! Nie ma potrzeby podejmować żadnych pochopnych decyzji.
+TEXT_SPEECH_UW_ACT01_M04_16,Jabba Hutt: (Przetłumaczony) Możemy się dogadać, Tyber! Nie ma potrzeby podejmować żadnych pochopnych decyzji.
 TEXT_SPEECH_UW_ACT01_M04_17,Tyber Zann: Warunki są bardzo proste, Jabba. Pozwolę ci żyć. W zamian, nagroda za moją głowę... ma zniknąć. Ataki na moją własność... mają zostać zakończone. A planety Saleucami i Hypori... są odtąd moje. Jeżeli zobaczę twoich ludzi w pobliżu mojego terytorium, osobiście przybędę na Tatooine i nakarmię twoim cielskiem rankora.
-TEXT_SPEECH_UW_ACT01_M04_18,Jabba Hutt: Zgoda. Opuść terytorium Huttów, a ja nie będę się wtrącał w twoje interesy.
+TEXT_SPEECH_UW_ACT01_M04_18,Jabba Hutt: (Przetłumaczony) Zgoda. Opuść terytorium Huttów, a ja nie będę się wtrącał w twoje interesy.
 TEXT_SPEECH_UW_ACT01_M04_19,Tyber Zann: Oczywiście, Jabba. Tak długo, jak będziesz żył, pozostawię cię w spokoju. A teraz zabieraj się z mojej planety.
 TEXT_SPEECH_UW_ACT01_M04_20,Urai Fen: Lepiej byłoby go po prostu zabić.
 TEXT_SPEECH_UW_ACT01_M04_21,Tyber Zann: Nie możemy rozpoczynać teraz wojny z Huttami. Wkrótce zyskam środki pozwalające mi na zniszczenie Jabby i kartelu Huttów. Teraz nie stanowią oni bezpośredniego zagrożenia.
@@ -16681,11 +16724,11 @@ TEXT_SPEECH_UW_ACT02_M07_18,Droid zbierający gaz: Przesyłanie zakończone.
 TEXT_SPEECH_UW_ACT02_M07_20,Tyber Zann: Urai, osłaniaj droidy! Jeżeli nadal będziesz je tracił, misja zakończy się porażką.
 TEXT_SPEECH_UW_ACT02_M07_21,Tyber Zann: Straciłeś wszystkie droidy. Teraz nie uda nam się zebrać gazu.
 TEXT_SPEECH_UW_ACT02_M07_22,Urai Fen: Tyber, zebraliśmy wystarczającą ilość gazu. Wszystkie droidy wróciły na pokład promu.
-TEXT_SPEECH_UW_ACT02_M07_24,Żołnierz Podziemia: Zbliża się do was jednostka przypominająca prom Lorda Vadera.
+TEXT_SPEECH_UW_ACT02_M07_24,Żołnierz Konsorcjum Zanna: Zbliża się do was jednostka przypominająca prom Lorda Vadera.
 TEXT_SPEECH_UW_ACT02_M07_25,Tyber Zann: Musimy się pospieszyć, jeżeli chcemy się stąd wydostać w jednym kawałku.
 TEXT_SPEECH_UW_ACT02_M07_26,Dowódca polowy: Grupa przemytników przedostała się do rafinerii gazu tibanna.
 TEXT_SPEECH_UW_ACT02_M07_27,Darth Vader: Oczywiście udało wam się ich złapać i uwięzić?
-TEXT_SPEECH_UW_ACT02_M07_28,Dowódca polowy: Lordzie, prawie ich mieliśmy, ale oni mają…
+TEXT_SPEECH_UW_ACT02_M07_28,Dowódca polowy: Lordzie, prawie ich mieliśmy, ale oni mają… (Krztusząc się)
 TEXT_SPEECH_UW_ACT02_M07_29,Darth Vader: Oczekiwałem więcej od imperialnego dowódcy polowego. Sam ich poszukam.
 TEXT_SPEECH_UW_ACT02_M07_30,Tyber Zann: Znakomicie. Wracajmy do promu i wynośmy się stąd.
 TEXT_SPEECH_UW_ACT02_M07_31,Darth Vader: Melduj.
@@ -17085,6 +17128,7 @@ TEXT_STORY_REBEL_ACT01_MISSION_THREE_33,Zniszcz wszystkie wieżyczki przeciwlotn
 TEXT_STORY_REBEL_ACT01_MISSION_THREE_34,Zadanie: Stwórz lądowe siły uderzeniowe i przerzuć je na Frezję.
 TEXT_STORY_REBEL_ACT01_MISSION_THREE_36,[TBL]
 TEXT_STORY_REBEL_ACT01_MISSION_THREE_37,Zadanie: Zabierz kapitana Antillesa i flotę na Kessel i spróbuj uwolnić więźniów.  Pamiętaj o zabraniu ze sobą bombowców typu Y.
+TEXT_STORY_REBEL_ACT01_MISSION_THREE_38,Uwaga: Wrogie posiłki zaczęły lądować w imperialnych punktach desantowych.
 TEXT_STORY_REBEL_ACT01_MISSION_THREE_H1,Wskazówka: Pojazdy lekko opancerzone mogą zostać szybko zniszczone przez wieże turbolaserowe.
 TEXT_STORY_REBEL_ACT01_MISSION_THREE_H2,Wskazówka: Zniszczenie generatora mocy należącego do przeciwnika spowoduje wyłączenie wszystkich, kontrolowanych przez niego, wież turbolaserowych.
 TEXT_STORY_REBEL_ACT01_MISSION_TWO_00,Interpretacja Sieci
@@ -17797,7 +17841,7 @@ TEXT_TOOLTIP_A_WING,Znakomity myśliwiec, jedna z najszybszych i najbardziej zwr
 TEXT_TOOLTIP_AA_TURRET,Wieżyczka przeciwlotnicza używana do niszczenia myśliwców i bombowców.
 TEXT_TOOLTIP_ABILITY_AFTERBURNER_DESCRIPTION,Zwiększenie mocy silników. Prędkość ulega zwiększeniu, kosztem redukcji szybkości ostrzału.
 TEXT_TOOLTIP_ABILITY_AFTERBURNER_NAME,Zwiększenie mocy silnika
-TEXT_TOOLTIP_ABILITY_AREA_EFFECT_CONVERT_DESCRIPTION,Skorzystaj z mocy pozwalających na zawładnięcie umysłem, aby przeciągnąć pobliskie jednostki wroga na stronę Imperium.  Pozyskane w ten sposób jednostki będą walczyły dla Imperium do końca bitwy.
+TEXT_TOOLTIP_ABILITY_AREA_EFFECT_CONVERT_DESCRIPTION,Skorzystaj z mocy pozwalających na zawładnięcie umysłem, aby przeciągnąć pobliskie jednostki wroga na stronę Imperium.  Pozyskane w ten sposób jednostki będą walczyły dla Imperium przez ograniczony czas.
 TEXT_TOOLTIP_ABILITY_AREA_EFFECT_CONVERT_NAME,Korupcja Mocą
 TEXT_TOOLTIP_ABILITY_AREA_EFFECT_HEAL_DESCRIPTION,Wykorzystuje Moc do leczenia znajdujących się w pobliżu jednostek rebelianckiej piechoty.
 TEXT_TOOLTIP_ABILITY_AREA_EFFECT_HEAL_NAME,Leczenie Mocą
@@ -17817,7 +17861,7 @@ TEXT_TOOLTIP_ABILITY_BUZZ_DROIDS_DESCRIPTION,Miny kosmiczne, które po rozstawie
 TEXT_TOOLTIP_ABILITY_BUZZ_DROIDS_NAME,Droidy bombowe
 TEXT_TOOLTIP_ABILITY_CABLE_ATTACK_DESCRIPTION,Wystrzelenie liny holowniczej w kierunku mechanicznych nóg jednostki AT-AT.  Spowoduje to przewrócenie jednostki AT-AT i jej zniszczenie.
 TEXT_TOOLTIP_ABILITY_CABLE_ATTACK_NAME,Atak z liną
-TEXT_TOOLTIP_ABILITY_CAPTURE_VEHICLE_DESCRIPTION,Chewbacca, korzystając ze swojej siły, może przejąć kontrolę nad pojazdem wroga.
+TEXT_TOOLTIP_ABILITY_CAPTURE_VEHICLE_DESCRIPTION,Chewbacca, korzystając ze swojej siły, może przejąć kontrolę nad pojazdem wroga. Po przejęciu wrogiego pojazdu Chewbacca przybiera przebranie; może ukryć się wśród innych przeciwników i nie będzie automatycznie atakować ani być atakowanym. Przebranie zostaje trwale utracone po wykonaniu ataku.
 TEXT_TOOLTIP_ABILITY_CAPTURE_VEHICLE_NAME,Kradzież pojazdu
 TEXT_TOOLTIP_ABILITY_CLUSTER_BOMB_DESCRIPTION,Bomby kasetowe wystrzeliwane są wokół jednostki.
 TEXT_TOOLTIP_ABILITY_CLUSTER_BOMB_NAME,Bomba kasetowa
@@ -17919,6 +17963,7 @@ TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_DESCRIPTION,Ta zdolność umożliwia przeprowa
 TEXT_TOOLTIP_ABILITY_SHIELD_FLARE_NAME,Eksplozja tarczy
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_DESCRIPTION,Zablokowanie płatów pozwala na zwiększenie prędkości. Po zablokowaniu płatów, siła rażenia myśliwców typu X ulegnie zmniejszeniu.
 TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_NAME,Zablokowanie płatów
+TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION,Eskadra Łobuzów może przekierować dodatkową energię do silników. Jednostka ta osiąga większą prędkość przy zablokowanych skrzydłach w układzie bojowym (S-foils), lecz - w przeciwieństwie do standardowych X-wingów - tempo regeneracji osłon i uzbrojenia jest u niej znacznie obniżone.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_DESCRIPTION,Unikanie ostrzału wroga. Podczas wykonywania tych manewrów, piechota porusza się wolniej.
 TEXT_TOOLTIP_ABILITY_SPREAD_OUT_NAME,Krycie się
 TEXT_TOOLTIP_ABILITY_SPRINT_DESCRIPTION,Pozwala na czasowe zwiększenie prędkości poruszania.
@@ -17929,7 +17974,7 @@ TEXT_TOOLTIP_ABILITY_STICKY_BOMB_DESCRIPTION,Bomba, która jest przytwierdzana d
 TEXT_TOOLTIP_ABILITY_STICKY_BOMB_NAME,Termodetonator
 TEXT_TOOLTIP_ABILITY_STIM_PACK_DESCRIPTION,Pakiety stymulujące pozwalają jednostce dłużej pozostawać w biegu oraz zwiększają skuteczność ataku. Każde użycie powoduje lekkie obrażenia jednostki.
 TEXT_TOOLTIP_ABILITY_STIM_PACK_NAME,Pakiet stymulujący
-TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION,Premia do ataku dla wybranego uzbrojenia.
+TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION,Skoordynuj nalot Eskadry Łotrów, by zadać niszczycielskie uderzenie. Tymczasowo zwiększa szybkostrzelność i obrażenia Eskadry Łotrów, jednocześnie nieznacznie zmniejszając jej prędkość ruchu.
 TEXT_TOOLTIP_ABILITY_STRIKE_NAME,Uderzenie
 TEXT_TOOLTIP_ABILITY_STUN_DESCRIPTION,Po włączeniu wokół bohatera rozchodzi się paraliżująca fala dźwiękowa. Wszystkie jednostki piechoty w jej zasięgu zostaną na pewien czas sparaliżowane.
 TEXT_TOOLTIP_ABILITY_STUN_NAME,Paralizator dźwiękowy
@@ -17962,9 +18007,10 @@ TEXT_TOOLTIP_ABILITY_WEATHER_FILTER_NAME,Filtr pogody/cechy
 TEXT_TOOLTIP_ACCLAMATOR,Fregata szturmowa średniej wielkości, uzbrojona w 2 baterie turbolaserów, 2 baterie dział laserowych, wyrzutnię torped protonowych i 1 wyrzutnię pocisków. Na pokładzie przenosi 3 eskadry myśliwców typu TIE oraz 1 eskadry bombowców typu TIE. Uniwersalna jednostka, o zrównoważonych wadach i zaletach.
 TEXT_TOOLTIP_AI_TURRET,Wieżyczka przeciwpiechotna używana do walki z jednostkami piechoty.
 TEXT_TOOLTIP_AKBAR,Admirał Rebelii. Dzięki jego umiejętnościom flota walczy z maksymalną skutecznością, a koszt produkcji okrętów jest obniżony. Jego okrętem flagowym jest potężna jednostka o nazwie Baza Jeden.
-TEXT_TOOLTIP_ANNIHILATOR,Niszczyciel
+TEXT_TOOLTIP_ANNIHILATOR,Niszczyciel - Admirał Gaarn
 TEXT_TOOLTIP_ANTILLES,Okręt kapitana Raymusa Antillesa, weterana Wojen Klonów, który służył pod rozkazami senatorów Baila i Lei Organny. Jego jednostka to zmodyfikowana korweta koreliańska.
 TEXT_TOOLTIP_ARC_HAMMER,Łuk-Młot to okręt-fabryka, dowodzony przez generała Roma Mohca. Umożliwia produkcję mrocznych szturmowców na planecie, nad którą orbituje.
+TEXT_TOOLTIP_ARC_HAMMER_02,Arc Hammer, przekazany generałowi Romowi Mohcowi na potrzeby jego badań nad uzbrojeniem, stanowi główny ośrodek produkcyjny projektu "Mroczny szturmowiec". Ten lekko uzbrojony okręt-fabryka dysponuje dwiema bateriami turbolaserów, dwiema bateriami dział laserowych, jedną wyrzutnią pocisków, ośmioma eskadrami myśliwców TIE Interceptor oraz czterema specjalnymi eskadrami maszyn TIE Phantom; jest również wyposażony w pole zakłócające systemy naprowadzania pocisków. Arc Hammer umożliwia produkcję jednostek "Mroczny szturmowiec" na planecie, wokół której aktualnie orbituje.
 TEXT_TOOLTIP_ASSAULT_FRIGATE,Ciężka fregata szturmowa uzbrojona w 2 ulepszone baterie turbolaserów i 1 baterię dział jonowych. Na pokładzie przenosi 6 eskadr myśliwców typu TIE oraz 3 eskadry bombowców typu TIE. Może szybko zniszczyć tarcze nieprzyjacielskich jednostek.
 TEXT_TOOLTIP_ATAA,Uniwersalna Jednostka Przeciwlotnicza (AT-AA) jest uzbrojona w działka przeciwlotnicze. Ponadto jest wyposażona w emiter pola zakłócającego system naprowadzania pocisków. W kompanii mogą się znaleźć 3 pojazdy.
 TEXT_TOOLTIP_ATAT,Uniwersalny Lądowy Transporter Opancerzony uzbrojony w podwójne, ciężkie działa laserowe i wyposażony w gruby pancerz. Jednostka porusza się powoli, może przeprowadzać desant szturmowców.
@@ -18020,7 +18066,7 @@ TEXT_TOOLTIP_CREDIT_FILTER_NAME,Filtr kredytów
 TEXT_TOOLTIP_CREDITS_BASE,Podstawowy dochód z planety
 TEXT_TOOLTIP_CREDITS_CURRENT,Aktualny dochód z planety
 TEXT_TOOLTIP_CREDITS_TOTAL,Ogólny dochód
-TEXT_TOOLTIP_CRUSADER_GUNSHIP,Krzyżowiec to produkt zakładów zbrojeniowych MandelMotors. Jednostka ta ma za zadanie zwalczanie myśliwców.
+TEXT_TOOLTIP_CRUSADER_GUNSHIP,Krzyżowiec to produkt zakładów zbrojeniowych MandalMotors. Jednostka ta ma za zadanie zwalczanie myśliwców. Lekki okręt szturmowy uzbrojony w 12 działek laserowych, który można wyposażyć w systemy obrony bezpośredniej przeciwko pociskom rakietowym, dostępne na czarnym rynku.
 TEXT_TOOLTIP_DARKSIDE_ADEPT,Imperialni adepci Mocy, którzy używają Ciemnej Strony Mocy do atakowania wrogów.
 TEXT_TOOLTIP_DARKTROOPER_P1,Wynik pierwszej fazy projektu Mroczny szturmowiec. Jednostka lekka, szybka i niezwykle skuteczna w walce z piechotą wroga.
 TEXT_TOOLTIP_DARKTROOPER_P1_COMPANY,Kompania mrocznych szturmowców F1
@@ -18034,8 +18080,8 @@ TEXT_TOOLTIP_DEATHSTAR_FIRED,Broń Gwiazdy Śmierci niedostępna
 TEXT_TOOLTIP_DEATHSTAR_READY,Strzał z Gwiazdy Śmierci
 TEXT_TOOLTIP_DEATHSTAR_TOO_FAR,Gwiazda Śmierci jest poza zasięgiem
 TEXT_TOOLTIP_DEFEND_BUTTON,Zwiększenie współczynnika regeneracji tarczy kosztem zmniejszenia prędkości oraz szybkości strzelania
-TEXT_TOOLTIP_DEFENSE_SATELLITE_DBM,Strzela pociskami diamentowo-borowymi.
-TEXT_TOOLTIP_DEFENSE_SATELLITE_PLASMA,Strzela ładunkami plazmowymi.
+TEXT_TOOLTIP_DEFENSE_SATELLITE_DBM,Platforma uzbrojenia ciężkiego przeznaczona do obrony perymetru. Uzbrojenie typu diamentowy-bor jest skuteczne przeciwko osłonom oraz jednostkom klasy myśliwiec i korweta.
+TEXT_TOOLTIP_DEFENSE_SATELLITE_PLASMA,Platforma uzbrojenia ciężkiego przeznaczona do obrony perymetru przed okrętami klasy korweta i fregata.
 TEXT_TOOLTIP_DEFENSE_SATELLITE_TRACTOR,Może unieruchomić każdy okręt oprócz myśliwca.
 TEXT_TOOLTIP_DENGAR,Ten okrutny łowca nagród sprzedałby nawet swego najlepszego przyjaciela, gdyby tylko ktoś zaoferował mu za niego odpowiednią cenę. Może go wynająć każda ze stron.
 TEXT_TOOLTIP_DEPLOY,Rozmieszczenie / Zebranie
@@ -18069,21 +18115,22 @@ TEXT_TOOLTIP_FRIENDLY_HERO,Wpływ bohatera
 TEXT_TOOLTIP_FULL_STOP,Zatrzymanie
 TEXT_TOOLTIP_FULL_STOP_01,Anulowanie rozkazów ruchu dla wybranej jednostki. Jednostka zatrzyma się tak szybko, jak to będzie możliwe.
 TEXT_TOOLTIP_GALACTIC_RESERVE,Rezerwa galaktyczna kredytów
-TEXT_TOOLTIP_GARM_BEL_IBLIS,Garm Bel Iblis to jeden z trzech założycieli Sojuszu Rebeliantów. Udało mu się wykraść platformę bojową Gargantuan z imperialnego laboratorium badawczego.
+TEXT_TOOLTIP_GARM_BEL_IBLIS,Garm Bel Iblis to jeden z trzech założycieli Sojuszu Rebeliantów. Udało mu się wykraść platformę bojową Olbrzyma z imperialnego laboratorium badawczego.
 TEXT_TOOLTIP_GARRISON_COMMAND_CENTER,Garnizon: TBD
 TEXT_TOOLTIP_GARRISON_DROIDNODE,Garnizon: Droidy-niszczyciele
 TEXT_TOOLTIP_GARRISON_DROIDWORKS,Garnizon: Droidy-niszczyciele
-TEXT_TOOLTIP_GARRISON_E_ADVFAC,Garnizon: czołg 2-M
+TEXT_TOOLTIP_GARRISON_E_ADVFAC,Garnizon: AT-AT
 TEXT_TOOLTIP_GARRISON_E_BARRACKS,Garnizon: szturmowiec, zwiadowca
-TEXT_TOOLTIP_GARRISON_E_HVYFAC,Garnizon: SPMA-T
+TEXT_TOOLTIP_GARRISON_E_HVYFAC,Garnizon: czołg 2-M
 TEXT_TOOLTIP_GARRISON_E_LTFAC,Garnizon: AT-ST
 TEXT_TOOLTIP_GARRISON_ES_01,Garnizon: myśliwce typu TIE, bombowiec typu TIE
 TEXT_TOOLTIP_GARRISON_ES_02,Garnizon: myśliwce typu TIE, bombowce typu TIE, krążownik klasy Tartan
 TEXT_TOOLTIP_GARRISON_ES_03,Garnizon: myśliwce typu TIE, bombowce typu TIE, krążownik klasy Tartan
 TEXT_TOOLTIP_GARRISON_ES_04,Garnizon: myśliwce typu TIE, bombowiec typu TIE, krążownik klasy Tartan, krążownik klasy Acclamator
 TEXT_TOOLTIP_GARRISON_ES_05,Garnizon: myśliwce typu TIE, bombowiec typu TIE, krążownik klasy Tartan, krążownik klasy Acclamator
-TEXT_TOOLTIP_GARRISON_FACTORY,Garnizon: MWR
+TEXT_TOOLTIP_GARRISON_FACTORY,Garnizon: czołg MZ-8
 TEXT_TOOLTIP_GARRISON_INFILT,Garnizon: szpieg
+TEXT_TOOLTIP_GARRISON_OFFICER,Garnizon: Dowódcy polowi
 TEXT_TOOLTIP_GARRISON_R_BARRACKS,Garnizon: żołnierz Rebelii, żołnierz PLEX
 TEXT_TOOLTIP_GARRISON_R_HVYFAC,Garnizon: MPTL, droid wyszukujący cele
 TEXT_TOOLTIP_GARRISON_R_LTFAC,Garnizon: czołg T2-B
@@ -18135,10 +18182,30 @@ TEXT_TOOLTIP_HEROES_BUTTON,Bohaterowie
 TEXT_TOOLTIP_HOME_ONE,Okręt liniowy dowodzony przez admirała Ackbara, znakomitego dowódcę floty mogącego wydać rozkaz innym jednostkom skupienie ostrzału na wybranym celu. Baza Jeden jest uzbrojona w 4 baterie turbolaserów i 4 baterie dział jonowych.
 TEXT_TOOLTIP_HOME_ONE_01,Okręt flagowy floty admirała Ackbara. Baza Jeden jest uzbrojona w 4 baterie dział jonowych oraz 4 baterie turbolaserów.
 TEXT_TOOLTIP_HOUNDSTOOTH,Statek transportowy Bosska.
+TEXT_TOOLTIP_HOUNDSTOOTH_02,"Wściekły Pies" to powolny, lecz potężny myśliwiec kosmiczny, będący osobistym statkiem transportowym Bosska. Jednostka ta jest uzbrojona w dwie baterie szybkostrzelnych wyrzutni pocisków oraz dwa działa laserowe, a także wyposażona w zagłuszacz pocisków, który odpycha nadlatujące pociski od kadłuba.
 TEXT_TOOLTIP_HUTT_PALACE_SKIRMISH,Pozwala na tworzenie różnych jednostek Huttów oraz na ulepszenia.
 TEXT_TOOLTIP_HYPERV_BUTTON,Wystrzelenie z działa akceleratorowego
 TEXT_TOOLTIP_IG2000,Statek łowcy IG-88 jest przedłużeniem jego umysłu.
+TEXT_TOOLTIP_IG2000_02,Lekki i zwrotny myśliwiec IG-2000 stanowi bezpośrednie przedłużenie umysłu IG-88. Dzięki uzbrojeniu w dwa działa laserowe IG-88 potrafi zakłócać pracę komputerów pokładowych wrogich jednostek, wyczerpując ich osłony i obniżając celność ognia.
 TEXT_TOOLTIP_IG88,Złowieszczo wyglądający łowca nagród o ciele droida i umyśle, wykorzystującym hiperinteligentny system sztucznej inteligencji.
+TEXT_TOOLTIP_INDIG_BOTHAN_CIV,Rodzimy mieszkaniec Bothawui. Słabo uzbrojony, lecz wysoce zmotywowany do obrony swojego domu.
+TEXT_TOOLTIP_INDIG_ELITE_GUARD,Elitarni, ubrani na czerwono ochroniarze cesarza. Gwardziści królewscy posługują się pikami siłowymi - energetycznymi kosturami skutecznymi przeciwko piechocie i bohaterom naziemnym.
+TEXT_TOOLTIP_INDIG_EWOK,Rodzima istota zamieszkująca leśny księżyc Endor. Ewoki ciskają w przeciwników kamieniami i głazami, co okazuje się skuteczne przeciwko piechocie oraz budowlom.
+TEXT_TOOLTIP_INDIG_GEONOSIAN,Skrzydlaty, przypominający owada mieszkaniec Geonosis. Geonozjanie używają blasterów dźwiękowych, które są skuteczne przeciwko bunkrom i lekkim pojazdom.
+TEXT_TOOLTIP_INDIG_GUNGAN,Rdzenny wodny mieszkaniec Naboo. Gunganie miotają bombami, granatami plazmowymi, które są skuteczne przeciwko budowlom i pojazdom.
+TEXT_TOOLTIP_INDIG_HUMAN_CIV,Rodzimi ludzie zamieszkujący tę planetę. Słabo uzbrojeni, lecz wysoce zmotywowani do obrony swojego domu.
+TEXT_TOOLTIP_INDIG_HUTT_CIV,Rodzimy, przypominający ślimaka mieszkaniec Nal Hutty. Słabo uzbrojony, lecz wysoce zmotywowany do obrony swojego domu.
+TEXT_TOOLTIP_INDIG_JAWA,Jeden z mieszkańców Tatooine. Jawowie używają blasterów jonowych, które są szczególnie skuteczne przeciwko tarczom i pojazdom.
+TEXT_TOOLTIP_INDIG_MANDALORIAN,Rodowity mieszkaniec Mandalory. Uzbrojeni w szybkostrzelne karabiny blasterowe, Mandalorianie są niezwykle zdeterminowani, by bronić swojego domu.
+TEXT_TOOLTIP_INDIG_MONCAL_CIV,Jeden z rdzennych wodnych mieszkańców Mon Calamari. Słabo uzbrojeni, lecz niezwykle zdeterminowani, by bronić swojego domu.
+TEXT_TOOLTIP_INDIG_MUSTAFARIAN,Rodzimy mieszkaniec Mustafaru. Słabo uzbrojony, lecz wysoce zmotywowany do obrony swojego domu.
+TEXT_TOOLTIP_INDIG_PRISONER_CIV,Więźniowie ci, pochodzący z różnych planet galaktyki, zostali zniewoleni przez Imperium. Choć są słabo uzbrojeni, wykazują ogromną determinację w walce o swoją wolność.
+TEXT_TOOLTIP_INDIG_PYNGANI,Rodzimy mieszkaniec Polusa. Pyn'gani posługują się karabinami karbonitowymi - wszechstronną bronią skuteczną przeciwko większości konstrukcji, piechocie oraz lekkim pojazdom.
+TEXT_TOOLTIP_INDIG_SULLUSTAN,Rodzimy mieszkaniec Sullust. Słabo uzbrojony, lecz wysoce zmotywowany do obrony swojego domu.
+TEXT_TOOLTIP_INDIG_TUSKEN_RAIDER,Jeden z mieszkańców Tatooine. Ludzie Pustyni (Tuskeni) używają karabinów snajperskich, które są skuteczne przeciwko piechocie.
+TEXT_TOOLTIP_INDIG_TWILEK_CIV,Rodzimy mieszkaniec Ryloth. Słabo uzbrojony, lecz wysoce zmotywowany do obrony swojego domu.
+TEXT_TOOLTIP_INDIG_WOOKIE,Rodzimy mieszkaniec Kashyyyk. Wojownicy Wookiee są wyposażeni w potężne kusze energetyczne, zadające poważne obrażenia piechocie.
+TEXT_TOOLTIP_INDIG_WOOKIE_UNARMED,Rodzimy mieszkaniec Kashyyyk. Ten wojownik jest bezbronny i ucieknie, gdy ktoś się do niego zbliży.
 TEXT_TOOLTIP_INFILTRATOR,Świetnie wyszkolone jednostki specjalne, uzbrojone w karabiny snajperskie. Mogą podkładać ładunki wybuchowe.
 TEXT_TOOLTIP_INFO_CREDITS_GAINED,Zyskano %d kredytów za zajęcie planety: %s
 TEXT_TOOLTIP_INFO_CREDITS_LOST,Stracono %d kredytów z powodu straty planety: %s
@@ -18185,7 +18252,7 @@ TEXT_TOOLTIP_MZ8_PC_TANK,MZ-8 to czołg wyposażony w niezwykle skuteczne dział
 TEXT_TOOLTIP_NEBULON_B,Średniej wielkości fregata Sojuszu, uzbrojona w 2 baterie turbolaserów i 2 baterie dział jonowych. Uniwersalny okręt wojenny, nieposiadający żadnych znaczących wad.
 TEXT_TOOLTIP_NEXT_BUTTON,Następna kontrolowana planeta
 TEXT_TOOLTIP_NIGHT_SISTER,Pochodzące z Dathomiry, Siostry Nocy wykorzystują Ciemną Stronę Mocy, aby kontrolować rancory, których dosiadają.
-TEXT_TOOLTIP_NOGHRI_ASSASSIN,W zamian za pomoc ich ludowi Noghri ślubowali lojalność Darthowi Vaderowi. To doskonali wojownicy i zabójcy.
+TEXT_TOOLTIP_NOGHRI_ASSASSIN,W zamian za pomoc ich ludowi Noghri ślubowali lojalność Darthowi Vaderowi. To doskonali wojownicy i zabójcy wyposażone w działa zakłócające, które są niezwykle skuteczne przeciwko wszystkiemu z wyjątkiem osłon.
 TEXT_TOOLTIP_OBI_WAN,Rycerz Jedi władający Jasną Stroną Mocy. Potrafi leczyć i ochraniać sprzymierzeńców.
 TEXT_TOOLTIP_OBI_WAN_01,Rycerz Jedi władający Jasną Stroną Mocy. Potrafi leczyć i ochraniać sprzymierzeńców.
 TEXT_TOOLTIP_OFFENSIVE_SENSOR_NODE,Usuwa mgłę wojny w dużym promieniu, odkrywając teren. Stacja może się bronić dzięki broni energetycznej, w którą jest wyposażona.
@@ -18200,7 +18267,9 @@ TEXT_TOOLTIP_PATHFINDER,Jednostki umieszczone w tym miejscu wykonają skok nadpr
 TEXT_TOOLTIP_PAUSE_PLAY,Zatrzymanie/Uruchomienie gry
 TEXT_TOOLTIP_PAUSE_PLAY_NAME,Zatrzymanie/Uruchomienie
 TEXT_TOOLTIP_PEACEBRINGER,Zwiastun Pokoju to okręt flagowy Tybera Zanna. Jednostka o tej ironicznej nazwie wyposażona jest w ulepszone silniki oraz generator pola maskującego.
+TEXT_TOOLTIP_PEACEBRINGER_02,Okrętem flagowym Tybera Zanna jest niszczyciel klasy Krayt, wyposażony w ulepszone silniki; jednostkę tę można dodatkowo zmodyfikować, instalując generator pola maskującego z czarnego rynku. Okręt uzbrojony jest w dwie baterie turbolaserów, a jego działa jonowe i plazmowe dysponują funkcją przeciążenia, umożliwiającą oddanie dwóch niezwykle potężnych salw.
 TEXT_TOOLTIP_PIETT,Znakomity dowódca floty imperialnej. Dowodzi ulepszonym niszczycielem gwiezdnym, wyposażonym w potężną broń.
+TEXT_TOOLTIP_PIETT_02,Oddany dowódca imperialnej floty. Kapitan Firmus Piett zapewnia wszystkim okrętom biorącym udział w dowodzonej przez niego bitwie kosmicznej premię 25% do punktów wytrzymałości bojowej, a pozostałym Gwiezdnym Niszczycielom - dodatkowe 25%. Oskarżyciel to ulepszony Gwiezdny Niszczyciel, wyposażony w broń protonową umożliwiającą przeprowadzenie szybkiego, niszczycielskiego ataku.
 TEXT_TOOLTIP_PIETT_SD,Ciężki krążownik imperialny, uzbrojony w 4 baterie turbolaserów i 2 baterie dział jonowych. Na pokładzie przenosi 10 eskadr myśliwców typu TIE i 5 eskadr bombowców typu TIE. Ponadto wyposażony w działo protonowe oraz promień ściągający, pozwalający na unieruchomienie mniejszych okrętów wroga.
 TEXT_TOOLTIP_PIRATE,Żołnierz piratów Czarnego Słońca. Uzbrojony i niebezpieczny. W kompanii mogą się znaleźć 3 oddziały (każdy złożony z 3 żołnierzy).
 TEXT_TOOLTIP_PIRATE_FIGHTER,Ciężki myśliwiec uzbrojony w działka laserowe. Dobrze opancerzony. W eskadrze może się znaleźć 5 myśliwców
@@ -18228,7 +18297,7 @@ TEXT_TOOLTIP_PULSE_TANK_DESTRUCT_DESCRIPTION,Wymusza reakcję łańcuchową w j�
 TEXT_TOOLTIP_QUEUE_GROUND,Kolejka produkcji na lądzie
 TEXT_TOOLTIP_QUEUE_SPACE,Kolejka produkcji w kosmosie
 TEXT_TOOLTIP_QUICK_REF,Skrócone informacje o planecie
-TEXT_TOOLTIP_R2D2,Para droidów, którzy potrafią uzyskać bardzo ważne informacje. Niestety najczęściej znajdują się w nieodpowiednim miejscu o złej porze.
+TEXT_TOOLTIP_R2D2,Droid zdolny do zdobywania kluczowych informacji. Niestety, najczęściej znajduje się w niewłaściwym miejscu i w niewłaściwym czasie.
 TEXT_TOOLTIP_R2D2_AND_C3P0,Para droidów, która potrafi wykradać Imperium technologie, co umożliwia Rebelii zwiększanie poziomu technologicznego. Potrafią poruszać się po galaktyce niedostrzeżeni dla jednostek wroga.
 TEXT_TOOLTIP_RANCOR_CUDDLES,Lojalny, choć niezwykle niebezpieczny, wierzchowiec Silri.
 TEXT_TOOLTIP_REBEL_PILOT,Dobrze wyszkolony pilot myśliwca. Na ziemi wymaga ochrony - jest wtedy niemal bezbronny.
@@ -18243,7 +18312,7 @@ TEXT_TOOLTIP_REP_TURRET,Wieżyczka naprawcza, służąca do naprawiania uszkodzo
 TEXT_TOOLTIP_REP_TURRET_SPACE,Orbitalna stacja naprawcza może naprawiać uszkodzone okręty. Nie może naprawić punktów krytycznych, które zostały całkowicie zniszczone.
 TEXT_TOOLTIP_REPAIR_DROID,S-RD5 to ciężki droid naprawczy zaprojektowany do przeprowadzania szybkich napraw w czasie walki. Jest pozbawiony uzbrojenia, a przeprowadzenie naprawy wymaga czasu.
 TEXT_TOOLTIP_REQUIRED_PLANETS_CANTINA,Ta struktura może zostać wybudowana wyłącznie na następujących planetach: Abregado-Rae, Atzerri, Korelia, Nal Hutta, Ryloth i Tatooine.
-TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS,Ten okręt może zostać wybudowany wyłącznie na następujących planetach: Kuat, Sullust, Fondor i Mon Calamari.
+TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS,Ten statek można zbudować tylko na Fondorze, Hypori, Kuat, Mandalorze, Mon Calamari lub Sullust.
 TEXT_TOOLTIP_REQUIRED_PLANETS_HUTT_PALACE,Ta struktura może zostać wybudowana wyłącznie na następujących planetach: Atzerri, Nal Hutta, Ryloth i Tatooine.
 TEXT_TOOLTIP_REQUIRES_COMM_ARRAY,Do strzału wymagana jest stacja komunikacyjna.
 TEXT_TOOLTIP_RESIDUAL_INFLUENCE,Miejscowy wpływ
@@ -18259,6 +18328,7 @@ TEXT_TOOLTIP_SABOTEUR,Sabotażysta wypełnia rozkazy Tybera Zanna na terenie gal
 TEXT_TOOLTIP_SCAVENGER_DROID,Droidy-padlinożercy przyczepiają się do pojazdów i zaczynają je rozbierać, zamieniając uzyskany w ten sposób złom na kredyty.
 TEXT_TOOLTIP_SCOUTTROOPER,Żołnierze Imperium wyposażeni w skutery. Wykonują misje zwiadowcze, mogą zrzucać miny. W kompanii może się znaleźć 2 żołnierzy.
 TEXT_TOOLTIP_SD_ADMONITOR,Admonitor to okręt flagowy wielkiego admirała Thrawna.
+TEXT_TOOLTIP_SD_ADMONITOR_02,Wielki admirał Thrawn to jedyny nieczłowiek, który kiedykolwiek otrzymał ten tytuł z ręki Imperatora. Thrawn jest mistrzem strategii oraz niedoścignionym strategiem, który zapewnia niewielkie premie do obrażeń, obrony i prędkości wszystkim okrętom biorącym udział w walce w przestrzeni kosmicznej. Admonitor to Gwiezdny Niszczyciel zdolny do przeciążenia swoich baterii i przeprowadzenia błyskawicznego ataku na dowolny cel znajdujący się w zasięgu.
 TEXT_TOOLTIP_SELL_STRUCTURE,Sprzedaj wybraną budowlę
 TEXT_TOOLTIP_SENSOR_NODE,Specjalny czujnik, pozwalający na usunięcie mgły wojny.
 TEXT_TOOLTIP_SENSOR_SCRAMBLER,Zagłuszacz unieszkodliwia nieprzyjacielskie systemy radarowe oraz zakłóca systemy naprowadzania pocisków.
@@ -18277,7 +18347,7 @@ TEXT_TOOLTIP_SPEED_TIME_NAME,Przewinięcie do przodu
 TEXT_TOOLTIP_SPEEDER,Szybka jednostka latająca. Atakuje z powietrza, pozostając poza zasięgiem broni większości jednostek naziemnych. Może atakować AT-AT przy pomocy specjalnych lin.
 TEXT_TOOLTIP_SPMA,Samobieżne Działo Średniego Zasięgu wystrzeliwuje ładunki energetyczne ze znacznej odległości. Konieczność zatrzymania się przed oddaniem strzału i lekki pancerz sprawiają, że ta jednostka jest podatna na kontrataki szybkich jednostek wroga. W kompanii mogą się znaleźć 3 pojazdy
 TEXT_TOOLTIP_SPOTTER,Lekki droid, służący do wykrywania pozycji jednostek wroga i określania celów dla artylerii.
-TEXT_TOOLTIP_STAR_DESTROYER,Ciężki krążownik Imperium uzbrojony w 4 baterie turbolaserów i 2 baterie dział jonowych. Na pokładzie transportuje 10 eskadr myśliwców typu TIE oraz 5 eskadr bombowców typu TIE. Ponadto wyposażony jest w promień ściągający, pozwalający na unieruchomienie mniejszych okrętów wroga.
+TEXT_TOOLTIP_STAR_DESTROYER,Ciężki krążownik Imperium uzbrojony w 4 baterie turbolaserów i 2 baterie dział jonowych. Na pokładzie transportuje 10 eskadr TIE Interceptor oraz 5 eskadr bombowców typu TIE. Ponadto wyposażony jest w promień ściągający, pozwalający na unieruchomienie mniejszych okrętów wroga.
 TEXT_TOOLTIP_STARBASE,Stacja kosmiczna
 TEXT_TOOLTIP_STARVIPER,Wyprodukowany przez firmę MandalMotors myśliwiec Gwiezdna Żmija to wielozadaniowa maszyna o potężnej sile ognia. W związku z wysokimi kosztami produkcji myśliwce te są zazwyczaj używane wyłącznie przez bogaczy.
 TEXT_TOOLTIP_STATION1,Mała stacja kosmiczna. Potrafi odeprzeć ataki mniejszych jednostek.
@@ -18346,7 +18416,7 @@ TEXT_TOOLTIP_VEERS_01,Dowodzi wzmocnioną jednostką AT-AT, odporną na atak prz
 TEXT_TOOLTIP_VEERS_ATAT,Dowódca Veers kieruje zaawansowaną jednostką AT-AT, uzbrojoną w potężne działa laserowe, o dużej sile rażenia. Jego obecność powoduje zwiększenie współczynnika obrony jednostek imperialnych o 25%.
 TEXT_TOOLTIP_VENETOR,Okręt bojowy, używany za czasów Starej Republiki. Uniwersalna jednostka, obecnie uznawana za przestarzałą.
 TEXT_TOOLTIP_VENGEANCE,Uzbrojenie fregaty klasy Zemsta stanowią cztery ciężkie działa. Nie ma ona żadnych osłon, ale wyposażona jest w gruby pancerz oraz urządzenie maskujące.
-TEXT_TOOLTIP_VICTORY,Ciężka fregata szturmowa uzbrojona w 2 ulepszone baterie turbolaserów, 2 baterie dział laserowych, wyrzutnię torped protonowych i 1 wyrzutnię pocisków. Na pokładzie przenosi 4 eskadry myśliwców typu TIE oraz 2 eskadry bombowców typu TIE. Uniwersalna jednostka, o zrównoważonych wadach i zaletach.
+TEXT_TOOLTIP_VICTORY,Ciężka fregata szturmowa uzbrojona w 2 ulepszone baterie turbolaserów, 2 baterie dział laserowych, wyrzutnię torped protonowych i 1 wyrzutnię pocisków. Na pokładzie przenosi 5 eskadry TIE Interceptor oraz 2 eskadry bombowców typu TIE. Uniwersalna jednostka, o zrównoważonych wadach i zaletach.
 TEXT_TOOLTIP_WAYPOINT,Ustawienie punktu trasy
 TEXT_TOOLTIP_WAYPOINT_01,Wybrane jednostki przejdą do wyznaczonego punktu. W ten sposób można wyznaczyć całą trasę. Jednostki będą nią podążały, aż do ostatniego punktu.
 TEXT_TOOLTIP_WEATHER_MODIFIER_ASH_30,Zasięg widzenia tej jednostki został ograniczony o 30% ze względu na opadający popiół wulkaniczny.
@@ -18445,6 +18515,7 @@ TEXT_TUTORIAL_UNDERWORLD_COMPLETE,Gratulacje! Ukończyłeś samouczek Sił Korup
 TEXT_TWITCH,Twitch
 TEXT_TYBER_CLOAKING_DESCRIPTION,Dzięki osobistemu polu maskującemu, jednostka może się przemieszczać niezauważona przez teren wroga.
 TEXT_UK,UK
+TEXT_UKRAINE,Ukraina
 TEXT_UNDERWORLD_ACT1_CRAWL_PART_1,Rozpoczęła się galaktyczna wojna domowa. Sojusz Rebeliantów poszukuje nowej broni Imperium - GWIAZDY ŚMIERCI.
 TEXT_UNDERWORLD_ACT1_CRAWL_PART_1_01,W galaktycznej wojnie domowej Rebelianci walczą z Imperium. Mieszkańcy galaktyki są pogrążeni w szoku. Do walki przyłączają się kolejne planety. W odległym zakątku galaktyki znajduje sie mało znane więzienie, gdzie swoje plany opracowywuje Tyber Zann. Gwiazda Śmierci unosi się w przestrzeni kosmicznej, otoczona pozostałościami po zniszczonej planecie.
 TEXT_UNDERWORLD_ACT1_CRAWL_PART_2,Jednak Imperium i Rebelianci to nie jedyne potęgi, których wpływy ścierają się ze sobą w galaktyce. HUT JABBA podstępnie zesłał do kopalni przypraw na Kessel swojego konkurenta, przywódcę organizacji przestępczej Tybera Zanna, który teraz próbuje odzyskać wolność, wykorzystując swoje wpływy w kryminalnym półświatku.
@@ -18466,7 +18537,7 @@ TEXT_UNIT_1M_REPULSOR_TANK,Czołg repulsorowy 2-M
 TEXT_UNIT_A_WING,Myśliwiec typu A
 TEXT_UNIT_ACCLAMATOR,Krążownik Acclamator
 TEXT_UNIT_ALLIANCE_SHUTTLE,Prom Sojuszu
-TEXT_UNIT_ARC_HAMMER,Łuk-Młot
+TEXT_UNIT_ARC_HAMMER,Łuk-Młot - Generał Mohc
 TEXT_UNIT_ASSAULT_FRIGATE,Fregata szturm. Mk II
 TEXT_UNIT_AT_AA_WALKER,AT-AA
 TEXT_UNIT_AT_AT_WALKER,AT-AT
@@ -18497,18 +18568,18 @@ TEXT_UNIT_EWOK_SUICIDE_BOMBER,Ewok samobójca z bombą
 TEXT_UNIT_EWOK_SUICIDE_BOMBER_DESCRIPTION,Ewok - fanatyczny głosiciel słowa Tybera Zanna, który, aby wyrazić swoje oddanie sprawie, gotów jest nawet wysadzić się w powietrze. Za Tybera!
 TEXT_UNIT_EWOK_SUICIDE_BOMBER_SQUAD,Oddział Ewoków samobójców z bombami
 TEXT_UNIT_F9TZ_TRANSPORT,Transportowiec maskujący F9-TZ
-TEXT_UNIT_FALAST_SD,Mściciel - moff Kalast
+TEXT_UNIT_FALAST_SD,Mściciel - Moff Kalast
 TEXT_UNIT_FIELD_COMMANDER_HUTT,Dowódca polowy Huttów
 TEXT_UNIT_GALLOFREE_TRANSPORT,Transportowiec Gallofree
 TEXT_UNIT_G-HTT_TRANSPORT,CTG Gallofree
 TEXT_UNIT_G-HTT_TRANSPORT_COMPANY,Eskadra CTG Gallofree
-TEXT_UNIT_HOME_ONE,Baza Jeden
-TEXT_UNIT_HOUNDSTOOTH,Psi Ząb
+TEXT_UNIT_HOME_ONE,Baza Jeden - Admirał Ackbar
+TEXT_UNIT_HOUNDSTOOTH,Psi Ząb - Bossk
 TEXT_UNIT_HRB_TEAM,Oddział HRB
 TEXT_UNIT_HUTT_SOLDIER,Najemnik Huttów
 TEXT_UNIT_HUTT_SOLDIER_DES,Najemnik w służbie Jabby Hutta
-TEXT_UNIT_HUTT_SOLDIER_PLEX,Najemnik PLEX Huttów
-TEXT_UNIT_IG2000,IG-2000
+TEXT_UNIT_HUTT_SOLDIER_PLEX,Najemnik Plex Huttów
+TEXT_UNIT_IG2000,IG-2000 - IG-88
 TEXT_UNIT_IMPERIAL_ATAT_BARGE,Barka AT-AT
 TEXT_UNIT_IMPERIAL_LANDING_CRAFT,Transportowiec imperialny
 TEXT_UNIT_INTERCEPTOR4_FRIGATE,Fregata Interceptor 4
@@ -18524,12 +18595,13 @@ TEXT_UNIT_KEDALBE_BATTLESHIP,Pancernik klasy Kedalbe
 TEXT_UNIT_KRAYT_DESTROYER,Niszczyciel klasy Krayt
 TEXT_UNIT_LANCET,Artyleria powietrzna Lancet
 TEXT_UNIT_LUKE_XWING,Luke Skywalker (Czerwony 5)
+TEXT_UNIT_LUKE_XWING_JEDI,Czerwony 5 - Luke Skywalker
 TEXT_UNIT_MAL,MWR
 TEXT_UNIT_MAL_COMPANY,Kompania MWR
 TEXT_UNIT_MARAUDER_CRUISER,Krążownik Marauder
 TEXT_UNIT_MC30_FRIGATE,Fregata MC-30c
 TEXT_UNIT_MERCHANT,Frachtowiec kupiecki
-TEXT_UNIT_MILLENNIUM_FALCON,Sokół Millenium
+TEXT_UNIT_MILLENNIUM_FALCON,Sokół Millenium - Han Solo i Chewbacca
 TEXT_UNIT_MOBILE_DEFENSE_UNIT,Mobilna jednostka obronna
 TEXT_UNIT_MOBILE_DEFENSE_UNIT_EMPIRE,Może budować: generator pola elektromagnetycznego, moździerz wstrząsowy, stację czujników ofensywnych.
 TEXT_UNIT_MOBILE_DEFENSE_UNIT_REBEL,Może budować: mobilny generator osłony, punkt naprawczy, szybkostrzelne działo laserowe.
@@ -18563,27 +18635,27 @@ TEXT_UNIT_REPAIR_DROID,Droid naprawczy S-RD5
 TEXT_UNIT_ROGUE_02,Łobuz 2: Zev Senesca
 TEXT_UNIT_ROGUE_04,Łobuz 3: Derek Klivian
 TEXT_UNIT_ROGUE_07,Łobuz 4: Kasan Moor
-TEXT_UNIT_ROGUE_10,Łobuz 5: Tarrub Datch
+TEXT_UNIT_ROGUE_10,Łobuz 5: Tarrin Datch
 TEXT_UNIT_ROGUE_11,Łobuz 6: Tenk Lenso
 TEXT_UNIT_SCAVENGER_DROID,Droid-padlinożerca
 TEXT_UNIT_SCOUT_TROOPER,Zwiadowca
-TEXT_UNIT_SD_ACCUSER,Oskarżyciel - kapitan Piett
-TEXT_UNIT_SD_ADMONITOR,Admonitor
+TEXT_UNIT_SD_ACCUSER,Oskarżyciel - Kapitan Piett
+TEXT_UNIT_SD_ADMONITOR,Admonitor - Wielki admirał Thrawn
 TEXT_UNIT_SD_SINGULARITY,Osobliwość
 TEXT_UNIT_SHADOWCLAW,Shadowclaw
 TEXT_UNIT_SKIPRAY,Kanonierka Skipray
 TEXT_UNIT_SKIPRAY_SQUADRON,Eskadra kanonierek Skipray
-TEXT_UNIT_SLAVE_I,Niewolnik I
+TEXT_UNIT_SLAVE_I,Niewolnik I - Boba Fett
 TEXT_UNIT_SNOWSPEEDER,Śmigacz szturmowy
 TEXT_UNIT_SPEEDER_BIKE,Skuter
 TEXT_UNIT_SPHAT_WALKER,SPMA-T
 TEXT_UNIT_SSD_ECLIPSE,Niszczyciel klasy Zaćmienie
-TEXT_UNIT_SSD_EXECUTOR,Egzekutor
+TEXT_UNIT_SSD_EXECUTOR,Egzekutor - Darth Vader
 TEXT_UNIT_STAR_DESTROYER,Imperialny niszczyciel
 TEXT_UNIT_STAR_DESTROYER_TRAINING,Szkoleniowy niszczyciel
 TEXT_UNIT_STARVIPER,Myśliwiec Gwiezdna Żmija
 TEXT_UNIT_STORMTROOPER,Szturmowiec
-TEXT_UNIT_SUNDERED_HEART,Rozdarte Serce
+TEXT_UNIT_SUNDERED_HEART,Rozdarte Serce - Kapitan Antilles
 TEXT_UNIT_SWAMP_SPEEDER,Śmigacz bagienny
 TEXT_UNIT_T2B_TANK,Czołg T2-B
 TEXT_UNIT_T3B_TANK,Czołg T4-B
@@ -18595,7 +18667,7 @@ TEXT_UNIT_TIE_DEFENDER,TIE Defender
 TEXT_UNIT_TIE_FIGHTER,Myśliwiec typu TIE
 TEXT_UNIT_TIE_INTERCEPTOR,TIE Interceptor
 TEXT_UNIT_TIE_PHANTOM,TIE Phantom
-TEXT_UNIT_TIE_PROTOTYPE,Myśliwiec typu TIE zaawansowany X-1
+TEXT_UNIT_TIE_PROTOTYPE,Darth Vader (dowódca Czarnych)
 TEXT_UNIT_TIE_SCOUT,Myśliwiec zwiadowczy typu TIE
 TEXT_UNIT_TIE_TANBRIS,Myśliwiec typu TIE zaawansowany X-2
 TEXT_UNIT_TWILEK_COMMANDO,Twi'lekański komandos
@@ -18761,11 +18833,11 @@ TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_BASE_SHIELD,Wzmocnione osłony zatrzymują wszy
 TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_REACTORS_L1,Zwiększenie prędkości jednostek AT-AA i AT-ST o 15%.
 TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_REACTORS_L2,Zwiększenie prędkości jednostek AT-AA i AT-ST o 30%.
 TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L1,Zwiększenie mocy rażenia wieżyczek przeciwpiechotnych o 25%.
-TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L2,Zwiększenie mocy rażenia wieżyczek, przeciwlotniczych, przeciwpiechotnych i przeciwko pojazdom o 25%.
+TEXT_UPGRADE_TOOLTIP_EL_ENHANCED_TURRET_FIREPOWER_L2,Zwiększa o 25% obrażenia zadawane przez wieżyczki przeciwpiechotne, przeciwpancerne, przeciwlotnicze oraz moździerze granatów ogłuszających MJO.
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L1,Istnieje 15% prawdopodobieństwo, że strzał z blastera oddany w czołgów repulsorowych 2-M, jednostek SPMA-T i AT-AA zostanie odbity.
 TEXT_UPGRADE_TOOLTIP_EL_HEAVY_REFLECTIVE_ARMOR_L2,Istnieje 30% prawdopodobieństwo, że strzał z blastera oddany w czołgów repulsorowych 2-M, jednostek SPMA-T i AT-AA zostanie odbity.
 TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L1,Zwiększenie prędkości jednostek AT-AA o 25%.
-TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,Zwiększenie prędkości jednostek AT-AA o 25% i siły rażenia o 10%.
+TEXT_UPGRADE_TOOLTIP_EL_IMPROVED_ATAT_REACTORS_L2,Zwiększenie prędkości jednostek AT-AA o 25% i siły rażenia o 25%.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_MOBILITY,Szybkość poruszania się szturmowców wzrasta o 30%.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L1,Zwiększenie wydajności produkcji w kopalniach o 20%.
 TEXT_UPGRADE_TOOLTIP_EL_INCREASED_PRODUCTION_L2,Zwiększenie wydajności produkcji w kopalniach o 40%.
@@ -18824,13 +18896,13 @@ TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_KIDNAPPING,Ta planeta została skorump
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_PIRACY,Ta planeta została skorumpowana poprzez piractwo.
 TEXT_UPGRADE_TOOLTIP_PLANETARY_CORRUPTION_RACKETEERING,Zapewnia premię w formie dodatkowych kredytów za każdą zniszczoną jednostkę wroga.
 TEXT_UPGRADE_TOOLTIP_RL_BOMBING_RUN_USE,Zakupienie jednego nalotu wykonywanego przez bombowce typu Y.
-TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Zmniejszenie o 25% obrażeń otrzymywanych przez żołnierzy Rebelii.
-TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Zmniejszenie o 25% obrażeń otrzymywanych przez żołnierzy PLEX.
+TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L1,Zmniejszenie o 50% obrażeń otrzymywanych przez żołnierzy Rebelii.
+TEXT_UPGRADE_TOOLTIP_RL_COMBAT_ARMOR_L2,Zmniejszenie o 50% obrażeń otrzymywanych przez żołnierzy Rebelii i żołnierzy Plex.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_BASE_SHIELD,Wzmocnione osłony zatrzymują wszystkie ataki wroga.
-TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1,Zwiększenie prędkości czołgów T2-B i śmigaczy o 15%.
-TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L2,Zwiększenie prędkości czołgów T2-B i śmigaczy o 30%.
+TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L1,Zwiększenie prędkości czołgów T2-B, śmigaczy i lekka machina krocząca o 15%.
+TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_REPULSORS_L2,Zwiększenie prędkości czołgów T2-B, śmigaczy i lekka machina krocząca o 30%.
 TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_TURRET_FIREPOWER_L1,Zwiększenie mocy rażenia wieżyczek przeciwpiechotnych o 25%.
-TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_TURRET_FIREPOWER_L2,Zwiększenie mocy rażenia wieżyczek, przeciwlotniczych, przeciwpiechotnych i przeciwko pojazdom o 25%.
+TEXT_UPGRADE_TOOLTIP_RL_ENHANCED_TURRET_FIREPOWER_L2,Zwiększenie mocy rażenia wieżyczek, przeciwlotniczych, przeciwpiechotnych, przeciwko pojazdom i wieżyczka z szybkostrzelnym działem MJO o 25%.
 TEXT_UPGRADE_TOOLTIP_RL_HEAVY_ARMOR_L1,Zmniejszenie o 25% zniszczeń czołgów T4-B i jednostek MPTL, ponoszonych w wyniku ataku wroga.
 TEXT_UPGRADE_TOOLTIP_RL_HEAVY_ARMOR_L2,Zmniejszenie o 25% zniszczeń czołgów T4-B i jednostek MPTL, ponoszonych w wyniku ataku wroga.
 TEXT_UPGRADE_TOOLTIP_RL_IMPROVED_T4B_DAMAGE_L1,Zwiększenie mocy rażenia czołgów T4-B o 25%.
@@ -18840,8 +18912,8 @@ TEXT_UPGRADE_TOOLTIP_RL_IMPROVED_TREADS_L2,Zwiększenie prędkości czołgów T4
 TEXT_UPGRADE_TOOLTIP_RL_INCREASED_PRODUCTION_L1,Zwiększenie wydajności produkcji w kopalniach o 20%.
 TEXT_UPGRADE_TOOLTIP_RL_INCREASED_PRODUCTION_L2,Zwiększenie wydajności produkcji w kopalniach o 40%.
 TEXT_UPGRADE_TOOLTIP_RL_INFILTRATOR_RESEARCH,Umożliwia wykorzystywanie szpiegów, pochodzących z sąsiednich planet, w charakterze wsparcia.
-TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L1,Zmniejszenie o 25% zniszczeń czołgów T2-B i śmigaczy, ponoszonych w wyniku ataku wroga.
-TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L2,Zmniejszenie o 50% zniszczeń czołgów T2-B i śmigaczy, ponoszonych w wyniku ataku wroga.
+TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L1,Zmniejszenie o 25% zniszczeń czołgów T2-B, śmigaczy i lekka machina krocząca, ponoszonych w wyniku ataku wroga.
+TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L2,Zmniejszenie o 50% zniszczeń czołgów T2-B, śmigaczy i lekka machina krocząca, ponoszonych w wyniku ataku wroga.
 TEXT_UPGRADE_TOOLTIP_RL_MORE_GARRISONS_L1,Garnizon zostaje powiększony o dodatkowych żołnierz PLEX i czołgi T2-B.
 TEXT_UPGRADE_TOOLTIP_RL_MORE_GARRISONS_L1-TEMP,Garnizon zostaje powiększony o dodatkowych żołnierz PLEX i czołgi T4-B.
 TEXT_UPGRADE_TOOLTIP_RL_MPTL_RESEARCH,Umożliwia wykorzystywanie czołgów artylerii MPTL, pochodzącej z sąsiednich planet, w charakterze wsparcia.
@@ -18893,15 +18965,15 @@ TEXT_UPGRADE_TOOLTIP_UL_RECHARGE_ABILITY_L2,Zdolności specjalne piechoty i boha
 TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L1,Osłony droidów-niszczycieli pochłaniają dodatkowe 25% energii nieprzyjacielskiego strzału.
 TEXT_UPGRADE_TOOLTIP_UL_SMUGGLED_DROID_SYSTEMS_L2,Osłony droidów-niszczycieli pochłaniają dodatkowe 25% energii nieprzyjacielskiego strzału, a moc broni laserowej zwiększa się o 20%.
 TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L1,Zwiększa skuteczność ataku czołgu MZ-8 o 25%.
-TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2,Zwiększa skuteczność ataku czołgu MZ-8 o 50%.
+TEXT_UPGRADE_TOOLTIP_UL_WEAPON_BOOST_L2,Zwiększa skuteczność ataku czołgu MZ-8 i Czołg Canderous o 50%.
 TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L1,Zwiększa szybkość kanonierek Skipray o 25%.
 TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L2,Zwiększa szybkość kanonierek Skipray oraz fregat Interceptor 4 o 25%.
 TEXT_UPGRADE_TOOLTIP_US_BLACKMARKET_ENGINES_L3,Zwiększa szybkość kanonierek Skipray, fregat Interceptor 4 oraz niszczycieli klasy Krayt o 25%.
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L1,Zwiększa skuteczność ataku fregat typu Zemsta o 25%.
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L2,Zwiększa skuteczność ataku fregat typu Zemsta oraz niszczycieli klasy Krayt o 25%.
 TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L1,Pancerz myśliwców Gwiezdna Żmija odbija 25% ostrzału z laserów.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,Pancerz myśliwców Gwiezdna Żmija oraz korwet Krzyżowiec odbija 25% ostrzału z laserów.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,Pancerz myśliwców Gwiezdna Żmija, korwet Krzyżowiec oraz pancerników klasy Kadalbe odbija 25% ostrzału z laserów.
+TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,Pancerz myśliwców Gwiezdna Żmija oraz korwet Krzyżowiec odbija 30% ostrzału z laserów.
+TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,Pancerz myśliwców Gwiezdna Żmija, korwet Krzyżowiec oraz pancerników klasy Kadalbe odbija 30% ostrzału z laserów.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L1,Wydłuża czas działania pola maskującego fregat klasy Zemsta o 25%.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L2,Wydłuża czas działania pola maskującego fregat klasy Zemsta oraz Zwiastuna Pokoju o 50%.
 TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L1,Zmniejsza uszkodzenia odnoszone przez stację kosmiczną Podziemia o 15%.
@@ -19178,7 +19250,8 @@ TEXT_WEAPON_CONCUSSIONMISSILE,Wyrzutnia pocisków
 TEXT_WEAPON_HARDPOINT,System uzbrojenia
 TEXT_WEAPON_IONCANNON,Bateria dział jonowych
 TEXT_WEAPON_LASERCANNON,Bateria dział laserowych
-TEXT_WEAPON_MASS_DRIVER,Działo masowe
+TEXT_WEAPON_MASS_DRIVER,Bateria akceleratorów masy
+TEXT_WEAPON_PLASMACANNON,Bateria dział plazmowych
 TEXT_WEAPON_SPECIAL,Broń specjalna
 TEXT_WEAPON_TORPEDOES,Wyrzutnia torped protonowych
 TEXT_WEAPON_TURBOLASER,Bateria turbolaserów

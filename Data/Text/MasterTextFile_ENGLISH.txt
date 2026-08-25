@@ -18,7 +18,10 @@ LANGUAGE_GERMAN,German
 LANGUAGE_ITALIAN,Italian
 LANGUAGE_JAPANESE,Japanese
 LANGUAGE_KOREAN,Korean
+LANGUAGE_POLISH,Polish
+LANGUAGE_RUSSIAN,Russian
 LANGUAGE_SPANISH,Spanish
+LANGUAGE_UKRAINIAN,Ukrainian
 MB_LAND_PLANET_ALZOCIII_INTIMIDATION,The Food Commissioner is an important behind-the-scenes power broker on the planet.  With him in our control, mining production levels can be changed at the whim of the Zann Consortium.  Our Defiler has assembled a strike team of our reservists to accomplish our goal.
 MB_LAND_PLANET_ANAXES_INTIMIDATION,Fleet Commander Flankar is located on Anaxes.  Eliminating his compound guards and wounding him will spread fear among the many ship captains throughout the galaxy.  Our Defiler has assembled a strike team of our reservists to accomplish our goal.
 MB_LAND_PLANET_BESTINE_KIDNAPPING,Massive shipyards fill the oceans of Bestine.  Kidnapping Commander Falan will bring the entire planet and its shipyards to their knees.  The secrets that man holds are galaxy-wide, and soon to be ours.  Our Defiler has assembled a strike team of our reservists to accomplish our goal.
@@ -71,17 +74,11 @@ MBRM07A_RESCUE_FALCON,No sooner does Han get away from the Alliance than he's ba
 MBRM08A_CARGO_WOES,Typically, Han Solo would be stealing things from depots like this one - not adding things to them.  This particular staging area resupplies fleets from all over the sector, and traffic through it is heavy.  There are more Imperial ships passing through here per day than most systems will see in a year.  Cargo containers bound for a multitude of systems float around the facility, easy pickings for those that know how to circumvent the security.  The Alliance hopes that Han is one of those in the know.
 MBRM09_BORROWED_TIME,Following the trail of information on this new Imperial superweapon, the Alliance has pinpointed one of Grand Moff Tarkin's research stations as a likely source of further information.  The cargo container Han Solo planted the EMP on has reached its destination.  Now, the Alliance assembles its fleet and gets ready to assault the station.  Shortly before entering the system, the Alliance detonates the EMP device attached to the cargo container.  Hopefully there will be enough time to search the station before the Imperial fleet responds....
 MBRM09_LOST_AND_FOUND,Han Solo and Chewbacca have once again found themselves performing yet another dangerous assignment for the Alliance.  This time, it's infiltrating a heavily fortified Imperial city... on foot.  Their goal is to find the schematics that the Empire has annexed.  Recovering these schematics may just be what the Alliance needs to get the Mon Calamari back into the fight.  Han and Chewie must work together to navigate the city, avoid or neutralize the Imperials encountered, and reach the supply dock, where they can recover the plans and steal a ship to get them off-world.
-MBTM00_Galactic,Introduction to Galactic Mode
 MBTM00_GALACTIC,Introduction to Galactic Mode
-MBTM01_Gaining_Ground,A platoon of Rebel infantry has been dispatched to locate a lost patrol squad that was last seen performing a routine perimeter sweep.
 MBTM01_GAINING_GROUND,A platoon of Rebel infantry has been dispatched to locate a lost patrol squad that was last seen performing a routine perimeter sweep.
-MBTM02_Scramble,After escaping the Imperial assault on Kashyyyk, the Rebel Alliance must reinforce their holdings at several, nearby planets.
 MBTM02_SCRAMBLE,After escaping the Imperial assault on Kashyyyk, the Rebel Alliance must reinforce their holdings at several, nearby planets.
-MBTM03_Empire_at_War,After being defeated on the surface of Kashyyyk, an Imperial Officer now attempts to uncover the source of this new resistance movement.
 MBTM03_EMPIRE_AT_WAR,After being defeated on the surface of Kashyyyk, an Imperial Officer now attempts to uncover the source of this new resistance movement.
-MBTM04_Imperial_Noose,Following the successful elimination of the Rebel space station above Kashyyyk, an Imperial Officer desperately attempts to stamp out all remaining Rebels threatening his position.
 MBTM04_IMPERIAL_NOOSE,Following the successful elimination of the Rebel space station above Kashyyyk, an Imperial Officer desperately attempts to stamp out all remaining Rebels threatening his position.
-MBTM05_Imperial_Policy,Imperial forces have located a Rebel base on Ryloth, and are poised to launch a full assault on the Rebel position.
 MBTM05_IMPERIAL_POLICY,Imperial forces have located a Rebel base on Ryloth, and are poised to launch a full assault on the Rebel position.
 MBTM06_LAND_MULTIPLAYER,Teaches the basic game play behind the Land Skirmish game modes.
 MBTM07_SPACE_MULTIPLAYER,Teaches the basic game play behind the Space Skirmish game modes.
@@ -267,17 +264,11 @@ MTRM07A_RESCUE_FALCON,Rescue the Millennium Falcon
 MTRM08A_CARGO_WOES,Needle in a Haystack
 MTRM09_BORROWED_TIME,Borrowed Time
 MTRM09_LOST_AND_FOUND,Handle with Care!
-MTTM00_Galactic,Introduction to Galactic Mode
 MTTM00_GALACTIC,Introduction to Galactic Mode
-MTTM01_Gaining_Ground,Gaining Ground
 MTTM01_GAINING_GROUND,Gaining Ground
-MTTM02_Scramble,Scramble
 MTTM02_SCRAMBLE,Scramble
-MTTM03_Empire_at_War,Empire at War
 MTTM03_EMPIRE_AT_WAR,Empire at War
-MTTM04_Imperial_Noose,Imperial Noose
 MTTM04_IMPERIAL_NOOSE,Imperial Noose
-MTTM05_Imperial_Policy,Imperial Policy
 MTTM05_IMPERIAL_POLICY,Imperial Policy
 MTTM06_LAND_MULTIPLAYER,Land Skirmish Mode (Non-Interactive)
 MTTM07_SPACE_MULTIPLAYER,Space Skirmish Mode (Non-Interactive)
@@ -1594,7 +1585,7 @@ TEXT_ENCYCLOPEDIA_TECH_UPGRADE_01,Allows production (with prerequisites) of: Bar
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_01_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: Boba Fett, Emperor Palpatine, and Grand Moff Tarkin.
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02,Allows production (with prerequisites) of: Imperial Space Station Lv. 3, Victory-class Cruiser, Base Shield Generator, Heavy Vehicle Factory, Magnapulse Cannon, Turbolaser Tower Defenses, 2-M Repulsor Tanks, SPMA-T, and an Upgrade to Tech Level 3.
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_02_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: Blizzard 1 - General Maximilian Veers.
-TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03,Allows production (with prerequisites) of: Imperial Space Station Lv. 4, Orbital Long Range Scanner, TIE scout, Advanced Vehicle Factory, Hypervelocity Gun, AT-AT Walker, B5 Juggernaught transport, and an Upgrade to Tech Level 4.
+TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03,Allows production (with prerequisites) of: Imperial Space Station Lv. 4, Orbital Long Range Scanner, TIE scout, Advanced Vehicle Factory, Hypervelocity Gun, AT-AT Walker, B5 Juggernaut transport, and an Upgrade to Tech Level 4.
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_03_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: The Accuser - Captain Piett.
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04,Allows production (with prerequisites) of: Gravity Well Station, Imperial Space Station Lv. 5, Imperial Star Destroyer, Interdictor Cruiser, TIE phantom, AT-AA Walker, Dark Trooper Phase I and II, Lancet Air Wing, and an Upgrade to Tech Level 5.
 TEXT_ENCYCLOPEDIA_TECH_UPGRADE_04_RECRUITMENT,Upgrading our technology will recruit the following heroes to our cause: The Arc Hammer - General Mohc.
@@ -1985,7 +1976,7 @@ TEXT_HERO_UNIT_SABOTEUR,Defiler
 TEXT_HERO_UNIT_SMUGGLER,Smuggler
 TEXT_HERO_URAI_FEN,Urai Fen
 TEXT_HERO_VADER_TEAM,Black Squadron
-TEXT_HERO_VEERS_TEAM,General Maximilian Veers
+TEXT_HERO_VEERS_TEAM,Blizzard 1 - General Maximilian Veers
 TEXT_HERO_WEDGE_ANTILLES,Wedge Antilles
 TEXT_HERO_WEDGE_TEAM,Wedge Antilles
 TEXT_HERO_XIZOR_TEAM,Prince Xizor
@@ -2300,6 +2291,7 @@ TEXT_LANG_KOREAN,Korean
 TEXT_LANG_POLISH,Polish
 TEXT_LANG_RUSSIAN,Russian
 TEXT_LANG_SPANISH,Spanish
+TEXT_LANG_UKRAINIAN,Ukrainian
 TEXT_LANGUAGE_OPTIONS,Language Options
 TEXT_LICENSE_AGREE_TITLE,License Agreement
 TEXT_LISTENING_TO_PLAYER,Listening to player:
@@ -3445,7 +3437,7 @@ TEXT_PROP_AT_AT_UNFINISHED,Unfinished AT-AT
 TEXT_PROP_EXPLODING_CONTAINER,Volatile Fuel Container
 TEXT_PROWL_DESCRIPTION,Releases the vornskr to hunt down prey.  Force-sensitive units will always be priority targets.
 TEXT_PROXIMITY_MINE,Proximity Mine
-TEXT_PROXIMITY_MINE_DESC,Proximity mines are a silent and powerful trap that causes immense damage to infantry and light vehicles within its explosion radius.
+TEXT_PROXIMITY_MINE_DESC,Proximity mines are silent, powerful, and invisible to enemies on the battlefield.  Causes immense damage to infantry and light vehicles trapped within its explosion radius.
 TEXT_QUICK_LOAD,Quick Load
 TEXT_QUICK_SAVE,Quick Save
 TEXT_QUICKMATCH_1V1_CAMPAIGN,1 v 1 Campaign
@@ -18523,6 +18515,7 @@ TEXT_TUTORIAL_UNDERWORLD_COMPLETE,Congratulations!  You have completed the Force
 TEXT_TWITCH,Twitch
 TEXT_TYBER_CLOAKING_DESCRIPTION,A personal cloaking field which allows a unit to move unseen across the landscape.
 TEXT_UK,UK
+TEXT_UKRAINE,Ukraine
 TEXT_UNDERWORLD_ACT1_CRAWL_PART_1,The Galactic Civil War has begun. Rebel Alliance forces have launched their first attack on the Galactic Empire, and now desperately search for the Empire's ultimate weapon, the DEATH STAR.
 TEXT_UNDERWORLD_ACT1_CRAWL_PART_1_01,The Galactic Civil War pits rebel brother against Imperial brother  while the inhabitants of the galaxy look on in shock with planets everywhere in chaos. In an out of the way quadrant of the galaxy in a little known prison Tyber Zann makes his own plans while the Death Star leaves floating rocks where worlds were before.
 TEXT_UNDERWORLD_ACT1_CRAWL_PART_2,However, the battles between the Empire and the Alliance are not the only conflicts playing out across the galaxy. Tyber Zann, crime lord and former associate of JABBA THE HUTT, works to free himself from the Spice Mines of Kessel and plots his revenge on an unknowing galaxy.
@@ -18674,7 +18667,7 @@ TEXT_UNIT_TIE_DEFENDER,TIE defender
 TEXT_UNIT_TIE_FIGHTER,TIE fighter
 TEXT_UNIT_TIE_INTERCEPTOR,TIE interceptor
 TEXT_UNIT_TIE_PHANTOM,TIE phantom
-TEXT_UNIT_TIE_PROTOTYPE,Black Leader: Darth Vader
+TEXT_UNIT_TIE_PROTOTYPE,Darth Vader (Black Leader)
 TEXT_UNIT_TIE_SCOUT,TIE scout
 TEXT_UNIT_TIE_TANBRIS,TIE Advanced X-2
 TEXT_UNIT_TWILEK_COMMANDO,Twi'lek Commando

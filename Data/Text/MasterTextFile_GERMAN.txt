@@ -18,7 +18,10 @@ LANGUAGE_GERMAN,Deutsch
 LANGUAGE_ITALIAN,Italienisch
 LANGUAGE_JAPANESE,Japanisch
 LANGUAGE_KOREAN,Koreanisch
+LANGUAGE_POLISH,Polnisch
+LANGUAGE_RUSSIAN,Russisch
 LANGUAGE_SPANISH,Spanisch
+LANGUAGE_UKRAINIAN,Ukrainisch
 MB_LAND_PLANET_ALZOCIII_INTIMIDATION,Der Lebensmittelkontrolleur des Planeten ist ein wichtiger Makler, der hinter den Kulissen operiert. Wenn das Zann-Konsortium ihn in der Hand hat, kann es die Produktionsbedingungen der Minen nach Belieben ändern. Unser Verderber hat ein Angriffsteam zusammengestellt, um dieses Ziel zu erreichen.
 MB_LAND_PLANET_ANAXES_INTIMIDATION,Flottenkommandeur Flankar hat sein Hauptquartier auf Anaxes. Die Wachen auf dem Grundstück auszuschalten und ihn zu verwunden wird viele Captains in der Galaxis das Fürchten lehren. Unser Verderber hat ein Angriffsteam zusammengestellt, um dieses Ziel zu erreichen.
 MB_LAND_PLANET_BESTINE_KIDNAPPING,Riesige Werften füllen die Meere von Bestine. Mit der Entführung von Commander Falan werden der ganze Planet und seine Werften in die Knie gezwungen. Dieser Mann kennt Geheimnisse aus der ganzen Galaxis, und die gehören schon bald uns. Unser Verderber hat ein Angriffsteam zusammengestellt, um dieses Ziel zu erreichen.
@@ -48,7 +51,7 @@ MB_SPACE_PLANET_FONDOR_PIRACY,Fondor wird von mehreren Raumstationen umkreist. W
 MB_SPACE_PLANET_KESSEL_PIRACY,Der Planet Kossal ist berüchtigt für seine politischen Gefängnisse. Daher ist er auf riesige Kommunikationssatelliten angewiesen, die für einen heimlichen Angriff unserer Verderber empfindlich sind. Dadurch bringt man die Feinde des Konsortiums dazu, Schiffe zu den vom Konsortium kontrollierten Docks zu schicken. Die beim Flug durch das System anfallenden Gebühren könnten dann in die Taschen des Zann-Konsortiums wandern. Unser Verderber hat ein Angriffsteam zusammengestellt, um dieses Ziel zu erreichen.
 MB_SPACE_PLANET_MANDALORE_PIRACY,Piraterie ist im Mandalore-System besonders riskant. Ich muss diese Sache persönlich übernehmen, um gegen die gefährlichen Mandalorianer und ihre fähigen Raumkämpfer zu siegen. Unser Verderber hat ein Angriffsteam zusammengestellt, um dieses Ziel zu erreichen.
 MB_SPACE_PLANET_MANDALORE_PIRACY_PROLOGUE,Die Piraterie im Gebiet um Mandalore zu etablieren wird gefährlich. Wenn wir den Erhabensten Strategen von Mandalore besiegen, wird das den Mandalorianern klar machen, dass sie in dieser Angelegenheit keine Wahl haben. Die Piraterie auf Mandalore wird es dem Zann-Konsortium erleichtern, in der Galaxis Fuß zu fassen. Unser Verderber hat ein Angriffsteam zusammengestellt, um dieses Ziel zu erreichen.
-MB_SPACE_PLANET_MANDALORE_PIRACY_STORY,Piraterie ist im Mandalore-System besonders riskant. Ich muss diese Sache persönlich übernehmen, um gegen die gefährlichen Mandalorianer und ihre fähigen Raumkämpfer zu siegen. Unser Verderber hat ein Angriffsteam zusammengestellt, um dieses Ziel zu erreichen.
+MB_SPACE_PLANET_MANDALORE_PIRACY_STORY,Piraterie ist im Mandalore-System besonders riskant. Ich muss diese Sache persönlich übernehmen, um gegen die gefährlichen Mandalorianer und ihren Clanführer zu besiegen. Unser Verderber hat ein Angriffsteam zusammengestellt, um dieses Ziel zu erreichen.
 MB_SPACE_PLANET_MONCALAMARI_PIRACY,Die Mon Calamari sind berühmt für ihre Sternenkreuzer. Denen müssen wir mit Truppen des Konsortiums begegnen, um zu sehen, wie schlagkräftig sie wirklich sind. Unser Verderber hat ein Angriffsteam zusammengestellt, um dieses Ziel zu erreichen.
 MBEM02_AN_ORGANIZED_RESISTANCE,Darth Vader wurde vom Imperator nach Thyferra geschickt, um den Agenten aufzuspüren, der den Rebellen Informationen über das Imperium lieferte. Vader landet mit einer imperialen Streitmacht auf dem Planeten, in der Hoffnung, die Rebellen und vor allem seine Zielperson unvorbereitet zu erwischen.
 MBEM03_THE_PIRATE_MENACE,Das Imperium hat Boba Fett für eine beträchtliche Summe angeheuert. Er wird die Verteidigungsstellungen der Piraten erkunden und ihre Warnsysteme neutralisieren, bevor die Hauptflotte über dem Planeten erscheint.
@@ -71,17 +74,11 @@ MBRM07A_RESCUE_FALCON,Kaum hat Han die Allianz verlassen, da steckt er schon wie
 MBRM08A_CARGO_WOES,Normalerweise würde Han Solo Sachen aus solchen Depots stehlen, nicht hinbringen. Diese spezielle Aufmarschzone versorgt Flotten aus dem gesamten Sektor, und es geht sehr lebhaft zu. Hier kommen pro Tag mehr imperiale Schiffe durch, als die meisten Sonnensysteme in einem ganzen Jahr zu sehen bekommen. Frachtcontainer für alle möglichen Systeme schweben in dieser Anlage - leichte Beute für jemanden, der weiß, wie man die Sicherheitssysteme überlistet. Die Allianz hofft, dass Han zu dieser Sorte jemand gehört.
 MBRM09_BORROWED_TIME,Die Allianz hat den Weg der Informationen über die neue imperiale Superwaffe zurückverfolgt und ist dabei auf eine von Gouverneur Tarkins Forschungsstationen gestoßen. Hier erhofft man sich weitere Informationen. Der Frachtcontainer, an dem Han Solo das EMP-Gerät angebracht hat, ist inzwischen an seinem Bestimmungsort angekommen. Nun sammelt die Allianz ihre Flotte und bereitet sich darauf vor, die Station anzugreifen. Kurz vor dem Sprung in das System will sie den EMP-Sprengsatz zünden. Mit etwas Glück wird er genug Zeit erkaufen, um die Station zu durchsuchen, bevor die imperiale Flotte reagiert ...
 MBRM09_LOST_AND_FOUND,Wieder einmal befinden sich Han Solo und Chewbacca auf einem gefährlichen Einsatz für die Allianz. Dieses Mal müssen sie sich in eine schwer befestigte imperiale Stadt einschleichen - zu Fuß. Ihr Ziel sind die Baupläne, die das Imperium sich angeeignet hat und mit denen die Mon Calamari wieder in den Kampf eingegliedert werden könnten. Han und Chewie müssen zusammenarbeiten, um Gegnern auszuweichen oder sie auszuschalten und lebend durch die Stadt zu den Raumdocks zu kommen, wo sie die Pläne finden und mit einem gestohlenen Schiff fliehen können.
-MBTM00_Galactic,Vorstellung des Galaxismodus
 MBTM00_GALACTIC,Einführung in den Galaxismodus
-MBTM01_Gaining_Ground,Eine Kompanie der Rebelleninfanterie hat den Befehl bekommen, nach einer Patrouille zu suchen, die während einer routinemäßigen Grenzüberprüfung verschollen ist.
 MBTM01_GAINING_GROUND,Eine Kompanie der Rebelleninfanterie hat den Befehl bekommen, nach einer Patrouille zu suchen, die während einer routinemäßigen Grenzüberprüfung verschollen ist.
-MBTM02_Scramble,Nachdem sie dem imperialen Angriff auf Kashyyyk ausweichen konnte, muss die Rebellion nun ihre Präsenz auf mehreren Nachbarwelten verstärken.
 MBTM02_SCRAMBLE,Nachdem sie dem imperialen Angriff auf Kashyyyk entkommen konnte, muss die Rebellion nun ihre Präsenz auf mehreren Nachbarwelten verstärken.
-MBTM03_Empire_at_War,Nachdem er auf Kashyyyk besiegt worden ist, versucht nun ein imperialer Offizier, die Quelle dieser neuen Widerstandsbewegung zu finden.
 MBTM03_EMPIRE_AT_WAR,Nachdem er auf Kashyyyk besiegt worden ist, versucht nun ein imperialer Offizier, die Quelle dieser neuen Widerstandsbewegung zu finden.
-MBTM04_Imperial_Noose,Nach der Zerstörung der Rebellen-Raumstation über Kashyyyk versucht ein imperialer Offizier verzweifelt, alle verbleibenden Rebellen zu vernichten, die seine Position gefährden könnten.
 MBTM04_IMPERIAL_NOOSE,Nach der Vernichtung einer Rebellen-Raumstation über Kashyyyk versucht ein imperialer Offizier jetzt verzweifelt, alle überlebenden Rebellen auszulöschen, die seine Stellung bedrohen.
-MBTM05_Imperial_Policy,Imperiale Truppen haben einen Rebellenstützpunkt auf Ryloth entdeckt und bereiten einen Frontalangriff auf diese Stellung vor.
 MBTM05_IMPERIAL_POLICY,Imperiale Truppen haben einen Rebellenstützpunkt auf Ryloth entdeckt und stehen bereit zu einem Großangriff auf die Stellungen der Rebellen.
 MBTM06_LAND_MULTIPLAYER,Erläutert die Grundlagen der Gefechte im Bodenkampf.
 MBTM07_SPACE_MULTIPLAYER,Erläutert die Grundlagen der Gefechte im Raumkampf.
@@ -267,17 +264,11 @@ MTRM07A_RESCUE_FALCON,Rettung des Rasenden Falken
 MTRM08A_CARGO_WOES,Die Nadel im Heuhaufen
 MTRM09_BORROWED_TIME,Geliehene Zeit
 MTRM09_LOST_AND_FOUND,Auf leisen Sohlen
-MTTM00_Galactic,Vorstellung des Galaxismodus
 MTTM00_GALACTIC,Einführung in den Galaxismodus
-MTTM01_Gaining_Ground,Boden gutmachen
 MTTM01_GAINING_GROUND,Boden gutmachen
-MTTM02_Scramble,Ausbreitung
 MTTM02_SCRAMBLE,Ausschwärmen
-MTTM03_Empire_at_War,Empire at War
 MTTM03_EMPIRE_AT_WAR,Empire at War
-MTTM04_Imperial_Noose,Die imperiale Schlinge
 MTTM04_IMPERIAL_NOOSE,Die imperiale Schlinge
-MTTM05_Imperial_Policy,Imperiale Vorgehensweise
 MTTM05_IMPERIAL_POLICY,Die imperiale Politik
 MTTM06_LAND_MULTIPLAYER,Bodengefecht (nicht interaktiv)
 MTTM07_SPACE_MULTIPLAYER,Raumgefecht (nicht interaktiv)
@@ -636,6 +627,7 @@ TEXT_CAMPAIGN_MIKE_TEST,Mikes Magische Testkampagne
 TEXT_CAMPAIGN_MOVIE_MAP,Nur Filmplaneten
 TEXT_CAMPAIGN_MULTI_ALDERAAN,Die Zerstörung von Alderaan
 TEXT_CAMPAIGN_MULTI_BESPIN,Kraftprobe auf Bespin
+TEXT_CAMPAIGN_MULTI_BESPIN_FOC,Kraftprobe auf Bespin (FOC Helden)
 TEXT_CAMPAIGN_MULTI_CORUSCANT,Coruscant umzingelt
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_ALDERAAN,Dieses Szenario umfasst 7 Planeten.
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_BESPIN,Dieses Szenario umfasst 5 Planeten.
@@ -646,10 +638,15 @@ TEXT_CAMPAIGN_MULTI_DESCRIPTION_NABOO,Dieses Szenario umfasst 9 Planeten.
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_TATOOINE,Dieses Szenario umfasst 5 Planeten.
 TEXT_CAMPAIGN_MULTI_DESCRIPTION_YAVIN,Dieses Szenario umfasst 14 Planeten.
 TEXT_CAMPAIGN_MULTI_ENDOR,Der Weg nach Endor
+TEXT_CAMPAIGN_MULTI_ENDOR_FOC,Der Weg nach Endor (FOC Helden)
 TEXT_CAMPAIGN_MULTI_HOTH,Kampf um Hoth
+TEXT_CAMPAIGN_MULTI_HOTH_FOC,Kampf um Hoth (FOC Helden)
 TEXT_CAMPAIGN_MULTI_NABOO,Die Naboo-Verbindung
+TEXT_CAMPAIGN_MULTI_NABOO_FOC,Die Naboo-Verbindung (FOC Helden)
 TEXT_CAMPAIGN_MULTI_TATOOINE,Von Grund auf
+TEXT_CAMPAIGN_MULTI_TATOOINE_FOC,Von Grund auf (FOC Helden)
 TEXT_CAMPAIGN_MULTI_YAVIN,Galaktischer Konflikt
+TEXT_CAMPAIGN_MULTI_YAVIN_FOC,Galaktischer Konflikt (FOC Helden)
 TEXT_CAMPAIGN_P3_CLUSTERS_HEROES,P3 Clusters Mehrspieler (keine KI - Helden)
 TEXT_CAMPAIGN_P3_CLUSTERS_MULTIPLAYER,P3 Clusters Mehrspieler (keine KI)
 TEXT_CAMPAIGN_P3_EMPIRE_HUMAN,P3 Clusters Imperium: Mensch - Rebellen: KI (nicht implementiert)
@@ -802,9 +799,9 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10E,     der Schlund, Kuat, Nal Hutta, M
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10R,     der Schlund, Nal Hutta, Mon Calamari, Corellia und Kashyyyk erobert werden.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10T,     ZEITLIMIT: 60 galaktische Tage
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10U,     der Schlund, Mon Calamari, Tatooine, Kuat und Corellia erobert werden.
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_11,   die Planeten Yavin 4 und Coruscant erobert werden.
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_12,   die Planeten Coruscant und Endor erobert werden.
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_13,   die Planeten Yavin 4 und Endor erobert werden.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_11,     die Planeten Yavin 4 und Coruscant erobert werden.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_12,     die Planeten Coruscant und Endor erobert werden.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_13,     die Planeten Yavin 4 und Endor erobert werden.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_14,     der Todesstern vernichtet wird.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_15,     der Todesstern II vernichtet wird.
 TEXT_CAMPAIGN_SMALL_EMPIRE_HUMAN,P2 Klein, Imperium: Mensch - Rebellen: KI
@@ -1437,13 +1434,13 @@ TEXT_ENCYCLOPEDIA_CLASS_BOMB,Klasse: Bombe
 TEXT_ENCYCLOPEDIA_CLASS_BOMBER,Klasse: Bomber
 TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER,Klasse: Kopfgeldjäger
 TEXT_ENCYCLOPEDIA_CLASS_CAPITAL,Klasse: Schlachtschiff
-TEXT_ENCYCLOPEDIA_CLASS_COMMANDO,Klassifizierung: Rebellenagent
+TEXT_ENCYCLOPEDIA_CLASS_COMMANDO,Klasse: Rebellenagent
 TEXT_ENCYCLOPEDIA_CLASS_CORRUPTION_BONUS,Korruptionsbonus
 TEXT_ENCYCLOPEDIA_CLASS_CORVETTE,Klasse: Korvette
 TEXT_ENCYCLOPEDIA_CLASS_CRIMELORD,Klasse: Verbrecherfürst
 TEXT_ENCYCLOPEDIA_CLASS_DARKSIDE_ADEPT,Klasse: Anhänger der Macht
 TEXT_ENCYCLOPEDIA_CLASS_DEFENSE,Klasse: Defensiv-Aufrüstung
-TEXT_ENCYCLOPEDIA_CLASS_DEFENSE_PENALTY,Klassifizierung: Verteidigungsabzug
+TEXT_ENCYCLOPEDIA_CLASS_DEFENSE_PENALTY,Klasse: Verteidigungsabzug
 TEXT_ENCYCLOPEDIA_CLASS_DOORNODE,Die Vernichtung dieser Sicherheitsschalttafel könnte Schutztüren in der Nähe aktivieren.
 TEXT_ENCYCLOPEDIA_CLASS_DROID,Klasse: Droide
 TEXT_ENCYCLOPEDIA_CLASS_DUELIST,Klasse: Duellant
@@ -1455,19 +1452,19 @@ TEXT_ENCYCLOPEDIA_CLASS_FIGHTER,Klasse: Jäger
 TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_SQUADRON,Klasse: Jägergeschwader
 TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER,Klasse: Flottenkommandeur
 TEXT_ENCYCLOPEDIA_CLASS_FRIGATE,Klasse: Fregatte
-TEXT_ENCYCLOPEDIA_CLASS_HAND,Klassifizierung: Hand des Imperators
-TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TANK,Klassifizierung: Schwerer Panzer
+TEXT_ENCYCLOPEDIA_CLASS_HAND,Klasse: Hand des Imperators
+TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TANK,Klasse: Schwerer Panzer
 TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE,Klasse: Schweres Fahrzeug
-TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER,Klassifizierung: Schwerer Kampfläufer
+TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER,Klasse: Schwerer Kampfläufer
 TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR,Klasse: Starker Held
 TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR,Klasse: Schwächerer Held
 TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS,Klasse: Eingeborener
 TEXT_ENCYCLOPEDIA_CLASS_INFANTRY,Klasse: Infanterie
 TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT,Klasse: Jedi
 TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER,Klasse: Jedi-Meister
-TEXT_ENCYCLOPEDIA_CLASS_LIGHT_TANK,Klassifizierung: Leichter Panzer
+TEXT_ENCYCLOPEDIA_CLASS_LIGHT_TANK,Klasse: Leichter Panzer
 TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE,Klasse: Leichtes Fahrzeug
-TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER,Klassifizierung: Leichter Kampfläufer
+TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER,Klasse: Leichter Kampfläufer
 TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE,Klasse: Mittleres Fahrzeug
 TEXT_ENCYCLOPEDIA_CLASS_MOUNT,Klasse: Heldenreittier
 TEXT_ENCYCLOPEDIA_CLASS_MOVEMENT,Klasse: Bewegungs-Aufrüstung
@@ -1475,7 +1472,7 @@ TEXT_ENCYCLOPEDIA_CLASS_NIGHTSISTER,Klasse: Schwester der Nacht
 TEXT_ENCYCLOPEDIA_CLASS_OFFENSE,Klasse: Offensiv-Aufrüstung
 TEXT_ENCYCLOPEDIA_CLASS_PLANET_BONUS,Planetenbonus
 TEXT_ENCYCLOPEDIA_CLASS_POWERNODE,Die Zerstörung dieser Verteiler unterbricht Teile der Energieversorgung.
-TEXT_ENCYCLOPEDIA_CLASS_RED_SQUADRON,Klassifizierung: Elitekämpfer
+TEXT_ENCYCLOPEDIA_CLASS_RED_SQUADRON,Klasse: Elitekämpfer
 TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD,Klasse: Sith-Lord
 TEXT_ENCYCLOPEDIA_CLASS_SLAVE,Klasse: Sklave des Konsortiums
 TEXT_ENCYCLOPEDIA_CLASS_SMUGGLER,Klasse: Schmuggler
@@ -1979,7 +1976,7 @@ TEXT_HERO_UNIT_SABOTEUR,Verderber
 TEXT_HERO_UNIT_SMUGGLER,Schmuggler
 TEXT_HERO_URAI_FEN,Urai Fen
 TEXT_HERO_VADER_TEAM,Schwarzes Geschwader
-TEXT_HERO_VEERS_TEAM,General Maximilian Veers
+TEXT_HERO_VEERS_TEAM,Blizzard 1 - General Maximilian Veers
 TEXT_HERO_WEDGE_ANTILLES,Wedge Antilles
 TEXT_HERO_WEDGE_TEAM,Wedge Antilles
 TEXT_HERO_XIZOR_TEAM,Prinz Xizor
@@ -2294,6 +2291,7 @@ TEXT_LANG_KOREAN,Koreanisch
 TEXT_LANG_POLISH,Polnisch
 TEXT_LANG_RUSSIAN,Russisch
 TEXT_LANG_SPANISH,Spanisch
+TEXT_LANG_UKRAINIAN,Ukrainisch
 TEXT_LANGUAGE_OPTIONS,Sprachoptionen
 TEXT_LICENSE_AGREE_TITLE,Lizenzvereinbarung
 TEXT_LISTENING_TO_PLAYER,Spieler zuhören:
@@ -3439,7 +3437,7 @@ TEXT_PROP_AT_AT_UNFINISHED,Halbfertiger AT-AT
 TEXT_PROP_EXPLODING_CONTAINER,Brennbarer Treibstoff
 TEXT_PROWL_DESCRIPTION,Lässt die Vornskrwölfe frei, damit sie jagen können. Machtsensitive Einheiten sind immer die bevorzugten Ziele.
 TEXT_PROXIMITY_MINE,Annäherungsmine
-TEXT_PROXIMITY_MINE_DESC,Annäherungsminen sind leise und mächtige Fallen, die der Infanterie und leichten Fahrzeugen in ihrem Explosionsradius immensen Schaden zufügen.
+TEXT_PROXIMITY_MINE_DESC,Näherungsminen sind lautlos, schlagkräftig und für Feinde auf dem Schlachtfeld unsichtbar. Sie fügen Infanterie und leichten Fahrzeugen, die sich im Explosionsradius befinden, enormen Schaden zu.
 TEXT_QUICK_LOAD,Schnellladen
 TEXT_QUICK_SAVE,Schnellspeichern
 TEXT_QUICKMATCH_1V1_CAMPAIGN,Kampagne 1 vs 1
@@ -16730,7 +16728,7 @@ TEXT_SPEECH_UW_ACT02_M07_24,Soldat des Zann-Konsortiums: Ein Schiff, anscheinend
 TEXT_SPEECH_UW_ACT02_M07_25,Tyber Zann: Wir müssen schleunigst unsere letzte Aufgabe in Angriff nehmen, wenn wir hier heil rauskommen wollen.
 TEXT_SPEECH_UW_ACT02_M07_26,Field Commander: Sir, eine Schmugglergruppe ist in unsere Tibannagas-Raffinerie eingedrungen.
 TEXT_SPEECH_UW_ACT02_M07_27,Darth Vader: Ihr habt sie natürlich in Gewahrsam genommen?
-TEXT_SPEECH_UW_ACT02_M07_28,Field Commander: Mein Lord, wir hätten sie fast gehabt, aber anscheinend sind sie ...
+TEXT_SPEECH_UW_ACT02_M07_28,Field Commander: Mein Lord, wir hätten sie fast gehabt, aber anscheinend sind sie ... (Würgen)
 TEXT_SPEECH_UW_ACT02_M07_29,Darth Vader: Das ist nicht die Antwort, die ich von einem imperialen Field Commander erwarte! Ich nehme das selbst in die Hand.
 TEXT_SPEECH_UW_ACT02_M07_30,Tyber Zann: Gute Arbeit. Und jetzt zurück zur Fähre und dann nichts wie weg.
 TEXT_SPEECH_UW_ACT02_M07_31,Darth Vader: Erstattet Bericht.
@@ -17130,6 +17128,7 @@ TEXT_STORY_REBEL_ACT01_MISSION_THREE_33,Vernichtet alle Flugabwehrtürme.
 TEXT_STORY_REBEL_ACT01_MISSION_THREE_34,Auftrag: Baut eine Armee auf und verlegt sie nach Fresia.
 TEXT_STORY_REBEL_ACT01_MISSION_THREE_36,REWARD SYSTEM CUT
 TEXT_STORY_REBEL_ACT01_MISSION_THREE_37,Auftrag: Bringt Captain Antilles und eine Flotte nach Kossal und befreit die Gefangenen. Nehmt genügend Y-Wings mit.
+TEXT_STORY_REBEL_ACT01_MISSION_THREE_38,Vorsicht: Feindliche Verstärkungen haben begonnen, an imperialen Verstärkungspunkten zu landen.
 TEXT_STORY_REBEL_ACT01_MISSION_THREE_H1,Tipp: Leichte Fahrzeuge können es nicht mit Turbolasertürmen aufnehmen.
 TEXT_STORY_REBEL_ACT01_MISSION_THREE_H2,Tipp: Wenn Ihr den Energiegenerator zerstört, schaltet Ihr damit alle Turbolaser-Türme aus.
 TEXT_STORY_REBEL_ACT01_MISSION_TWO_00,Feinarbeit im Netzwerk
@@ -18516,6 +18515,7 @@ TEXT_TUTORIAL_UNDERWORLD_COMPLETE,Glückwunsch! Ihr habt das Tutorial abgeschlos
 TEXT_TWITCH,Twitch
 TEXT_TYBER_CLOAKING_DESCRIPTION,Dieses tragbare Tarnfeld ermöglicht es einer Einheit, sich unsichtbar durch die Gegend zu bewegen.
 TEXT_UK,UK
+TEXT_UKRAINE,Ukraine
 TEXT_UNDERWORLD_ACT1_CRAWL_PART_1,Der Galaktische Bürgerkrieg ist ausgebrochen. Die Rebellen haben mit dem ersten Angriff gegen das Galaktische Imperium begonnen und suchen nach der neuen Waffe des Imperiums, dem TODESSTERN.
 TEXT_UNDERWORLD_ACT1_CRAWL_PART_1_01,Im galaktischen Bürgerkrieg kämpft Bruder gegen Bruder, und die Bevölkerung kann nur entsetzt zuschauen, wie immer mehr Welten im Chaos versinken. Auf einem unbekannten Gefängnisplaneten in einem abgelegenen Quadranten der Galaxis schmiedet Tyber Zann unterdessen seine eigenen Pläne, während der Todesstern auf seiner Bahn nur leblose Felsbrocken hinterlässt, wo einst blühende Planeten existierten.
 TEXT_UNDERWORLD_ACT1_CRAWL_PART_2,Doch die Schlachten zwischen Imperium und Rebellen sind nicht die einzigen, die in der Galaxis geschlagen werden. Der Verbrecherfürst Tyber Zann, einst ein Partner von JABBA THE HUTT, will sich aus der Zwangsarbeit in den Gewürzminen von Kossal befreien und plant, sich an der ahnungslosen Galaxis zu rächen.
@@ -18667,7 +18667,7 @@ TEXT_UNIT_TIE_DEFENDER,TIE-Defender
 TEXT_UNIT_TIE_FIGHTER,TIE-Fighter
 TEXT_UNIT_TIE_INTERCEPTOR,TIE-Interceptor
 TEXT_UNIT_TIE_PHANTOM,TIE-Phantom
-TEXT_UNIT_TIE_PROTOTYPE,Schwarz 1: Darth Vader
+TEXT_UNIT_TIE_PROTOTYPE,Darth Vader (Schwarz 1)
 TEXT_UNIT_TIE_SCOUT,TIE-Scout
 TEXT_UNIT_TIE_TANBRIS,TIE Advanced X-2
 TEXT_UNIT_TWILEK_COMMANDO,Twi'lek-Kommandosoldat
