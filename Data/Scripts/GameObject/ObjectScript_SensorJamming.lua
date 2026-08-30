@@ -3,7 +3,7 @@
 -- Original Author: Galyana
 --			Author: jsuzu
 --			Date:   06-15-2026
---		Revision:   3
+--		Revision:   4
 -- ============================================================================
 
 require("PGStateMachine")
@@ -82,11 +82,13 @@ function Unit_Prox(self_obj, trigger_obj)
 
 	if trigger_obj.Get_Owner().Is_Enemy(Object.Get_Owner()) then
 		if Object.Is_Ability_Ready(ability_name) then
-			projectile_types = trigger_obj.Get_All_Projectile_Types()
+			local projectile_types = trigger_obj.Get_All_Projectile_Types()
 			for _, projectile in pairs(projectile_types) do
-				if projectile.Is_Affected_By_Missile_Shield() or projectile.Is_Affected_By_Laser_Defense() then
-					Object.Activate_Ability(ability_name, true)
-					return
+				if TestValid(projectile) then
+					if projectile.Is_Affected_By_Missile_Shield() or projectile.Is_Affected_By_Laser_Defense() then
+						Object.Activate_Ability(ability_name, true)
+						return
+					end
 				end
 			end
 		end
