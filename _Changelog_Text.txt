@@ -618,6 +618,13 @@ Housekeeping:
 	-- POL: Dopóki nie zostanie zniszczone, co jakiś czas tworzy wampy --> Dopóki nie zostanie zniszczone, co jakiś czas tworzy wampy.
 	-- RUS: Отсюда периодически появляются вампа --> Отсюда периодически появляются вампа.
 
+• TEXT_GUI_AUTO_SAVE: (BUG #875)
+	-- FRA: Sauvegarde auto --> [Sauvegarde auto]
+	-- ITA: Autosalvataggio --> [Autosalvataggio]
+	-- POL: Auto zapis --> [Auto zapis]
+	-- RUS: Автосохранение --> [Автосохранение]
+	-- SPA: Autoguardado --> [Autoguardado]
+
 • TEXT_GUI_DIALOG_TOOLTIP_IDC_ABILITIES_DEFAULT_TO_AUTOFIRE: (BUG #753)
 	-- ENG: The abilities of units will be activated automatically. --> When enabled, various abilities will be activated automatically when in combat (indicated by a yellow box over the ability's icon).
 	-- FRA: Les aptitudes des unités seront activées automatiquement. --> Une fois activées, diverses capacités se déclencheront automatiquement au combat (ce qui est indiqué par un cadre jaune sur l'icône de la capacité).
