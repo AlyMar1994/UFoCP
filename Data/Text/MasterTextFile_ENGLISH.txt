@@ -150,7 +150,7 @@ MNDEMO_ATTRACT_LAND_CORELLIA_E,Corellia
 MNDEMO_ATTRACT_LAND_CORELLIA_R,Corellia
 MNE3_DEMO_LAND,Felucia
 MNE3_DEMO_SPACE,Kamino
-MP_TEXT_ENCYCLOPEDIA_ARMS_DEPOT_UNDERWORLD_PAD_00,CLICK to construct Consortium Factory
+MP_TEXT_ENCYCLOPEDIA_ARMS_DEPOT_UNDERWORLD_PAD_00,CLICK to construct Consortium Factory.
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_00,Asteroid miners extract ore and precious minerals from space rocks and convert them into cash.
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_01,Upgrades: Increased Supplies
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_PAD_00,CLICK to construct Asteroid Mining Facility.
@@ -159,7 +159,7 @@ MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00,Enlist Units: Stormtrooper, Scout Troope
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Upgrades: Survival Training, Increased Mobility
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_EMPIRE_00,CLICK to construct Imperial Barracks
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_REBEL_00,CLICK to construct Rebel Barracks
-MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_UNDERWORLD_00,CLICK to construct Consortium Mercenary Barracks
+MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_UNDERWORLD_00,CLICK to construct Consortium Mercenary Barracks.
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Enlist Units: Rebel Soldier, Plex Missile Trooper, Field Commander and Infiltrator.
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,Upgrades: Combat Armor, Survival Training
 MP_TEXT_ENCYCLOPEDIA_BASE_SHIELD_EMPIRE_00,CLICK to construct Imperial Base Shield
@@ -181,7 +181,7 @@ MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_LASER_PAD_00,CLICK to construct Laser Defense S
 MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_00,All purpose missile platform designed for perimeter space defense against corvette and frigate class ships.
 MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_PAD_00,CLICK to construct Missile Defense Satellite.
 MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_PLASMA_PAD_00,CLICK to construct Plasma Burst Satellite.
-MP_TEXT_ENCYCLOPEDIA_DROID_WORKS_UNDERWORLD_PAD_00,CLICK to construct Consortium Droid Works
+MP_TEXT_ENCYCLOPEDIA_DROID_WORKS_UNDERWORLD_PAD_00,CLICK to construct Consortium Droid Works.
 MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_00,Requisition Units: 2-M Repulsor Tanks, SPMA-T , AT-AT, Lancet, HAVt B5 Juggernaut.
 MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_01,Upgrades: Heavy Reflective Armor, Improved AT-AT Reactors.
 MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_EMPIRE_PAD_00,CLICK to construct Imperial Heavy Vehicle Factory
@@ -200,7 +200,7 @@ MP_TEXT_ENCYCLOPEDIA_MINING_00,Extracts ore and precious minerals and converts t
 MP_TEXT_ENCYCLOPEDIA_MINING_01,Upgrades: Increased Production
 MP_TEXT_ENCYCLOPEDIA_MINING_EMPIRE_PAD_00,CLICK to construct Mining Facility
 MP_TEXT_ENCYCLOPEDIA_MINING_REBEL_PAD_00,CLICK to construct Mining Facility
-MP_TEXT_ENCYCLOPEDIA_PALACE_PAD_UNDERWORLD_00,CLICK to construct Consortium Palace
+MP_TEXT_ENCYCLOPEDIA_PALACE_PAD_UNDERWORLD_00,CLICK to construct Consortium Palace.
 MP_TEXT_ENCYCLOPEDIA_POWER_GENERATOR_00,Provides power to Shield Generator, Comm Array, Mining Facility and Turbolasers. Destruction causes shields to fail, turbolasers to shutdown, radar to cease, and limits mining production output.
 MP_TEXT_ENCYCLOPEDIA_POWER_GENERATOR_EMPIRE_PAD_00,CLICK to construct Imperial Power Generator
 MP_TEXT_ENCYCLOPEDIA_POWER_GENERATOR_REBEL_PAD_00,CLICK to construct Rebel Power Generator
@@ -330,19 +330,19 @@ TEXT_ANAXES_INTIMIDATION_OBJECTIVE_00,Find Commander Flankar.
 TEXT_ANAXES_INTIMIDATION_OBJECTIVE_01,Bossk must survive.
 TEXT_ANTI_ALIASING,Anti-Aliasing
 TEXT_ANY_PING_FILTER_TIME,Any ping time
-TEXT_AR_HERO_LOSS,##0 defeated at ##1
-TEXT_AR_LAND_LOSS_MAJOR,##0 major land defeat at ##1. Units lost: ##2
-TEXT_AR_LAND_LOSS_MINOR,##0 minor land defeat at ##1. Units lost: ##2
-TEXT_AR_LAND_LOSS_REGULAR,##0 land defeat at ##1. Units lost: ##2
-TEXT_AR_LAND_WIN_MAJOR,##0 major land victory at ##1. Units lost: ##2
-TEXT_AR_LAND_WIN_MINOR,##0 minor land victory at ##1. Units lost: ##2
-TEXT_AR_LAND_WIN_REGULAR,##0 land victory at ##1. Units lost: ##2
-TEXT_AR_SPACE_LOSS_MAJOR,##0 major space defeat at ##1. Ships lost: ##2
-TEXT_AR_SPACE_LOSS_MINOR,##0 minor space defeat at ##1. Ships lost: ##2
-TEXT_AR_SPACE_LOSS_REGULAR,##0 space defeat at ##1. Ships lost: ##2
-TEXT_AR_SPACE_WIN_MAJOR,##0 major space victory at ##1. Ships lost: ##2
-TEXT_AR_SPACE_WIN_MINOR,##0 minor space victory at ##1. Ships lost: ##2
-TEXT_AR_SPACE_WIN_REGULAR,##0 space victory at ##1. Ships lost: ##2
+TEXT_AR_HERO_LOSS,##0 defeated at ##1!
+TEXT_AR_LAND_LOSS_MAJOR,##0 major land defeat at ##1.  Units lost: ##2.
+TEXT_AR_LAND_LOSS_MINOR,##0 minor land defeat at ##1.  Units lost: ##2.
+TEXT_AR_LAND_LOSS_REGULAR,##0 land defeat at ##1.  Units lost: ##2.
+TEXT_AR_LAND_WIN_MAJOR,##0 major land victory at ##1.  Units lost: ##2.
+TEXT_AR_LAND_WIN_MINOR,##0 minor land victory at ##1.  Units lost: ##2.
+TEXT_AR_LAND_WIN_REGULAR,##0 land victory at ##1.  Units lost: ##2.
+TEXT_AR_SPACE_LOSS_MAJOR,##0 major space defeat at ##1.  Ships lost: ##2.
+TEXT_AR_SPACE_LOSS_MINOR,##0 minor space defeat at ##1.  Ships lost: ##2.
+TEXT_AR_SPACE_LOSS_REGULAR,##0 space defeat at ##1.  Ships lost: ##2.
+TEXT_AR_SPACE_WIN_MAJOR,##0 major space victory at ##1.  Ships lost: ##2.
+TEXT_AR_SPACE_WIN_MINOR,##0 minor space victory at ##1.  Ships lost: ##2.
+TEXT_AR_SPACE_WIN_REGULAR,##0 space victory at ##1.  Ships lost: ##2.
 TEXT_ASK_AUTO_RESOLVE,How should the battle be resolved?
 TEXT_ASK_BUTTON_AUTO_RESOLVE,Auto-Resolve
 TEXT_ASK_BUTTON_TACTICAL,Tactical Battle
@@ -771,37 +771,37 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_25_00,Coruscant
 TEXT_CAMPAIGN_SINGLE_VICTORY_BOTH_00,Time Limit:
 TEXT_CAMPAIGN_SINGLE_VICTORY_BOTH_01,Conquer specified planets:
 TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_00,The Empire Will Achieve Victory If:
-TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_01,     The Rebellion is removed from the galaxy
-TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_02,     Mon Mothma is killed
-TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_03,     The Emperor must survive
-TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_04,     The Death Star must not be destroyed
-TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_05,     The Death Star II must not be destroyed
+TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_01,     The Rebellion is removed from the galaxy.
+TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_02,     Mon Mothma is killed.
+TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_03,     The Emperor must survive.
+TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_04,     The Death Star must not be destroyed.
+TEXT_CAMPAIGN_SINGLE_VICTORY_EMPIRE_05,     The Death Star II must not be destroyed.
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00,The Rebellion Will Achieve Victory If:
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_00_DEMO,Rebellion Will Achieve Victory If All Objectives Are Met:
-TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_01,     The Empire is removed from the galaxy
-TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_02,     The Emperor is killed
-TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_03,     The Death Star is destroyed
-TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_04,     Mon Mothma must survive
-TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_05,     The Death Star II is destroyed
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_01,     The Empire is removed from the galaxy.
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_02,     The Emperor is killed.
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_03,     The Death Star is destroyed.
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_04,     Mon Mothma must survive.
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_05,     The Death Star II is destroyed.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_00,The Zann Consortium Will Achieve Victory If:
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_01,     The Rebellion and Empire are removed from the galaxy
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_02,     Mon Mothma and the Emperor are killed
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_03,     Tyber Zann must survive
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_04,     The Empire and the Zann Consortium are removed from the galaxy
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_05,     The Rebellion and the Zann Consortium are removed from the galaxy
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_06,     Mon Mothma and Tyber Zann are killed
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_07,     The Emperor and Tyber Zann are killed
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_08,     Tyber Zann is killed
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_09,     The Zann Consortium is removed from the galaxy
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10E,     The Maw, Kuat, Nal Hutta, Mon Calamari, and Yavin 4 are conquered
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10R,     The Maw, Nal Hutta, Mon Calamari, Corellia and Kashyyyk are conquered
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10T,     TIME LIMIT: 60 Galactic Days
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10U,     The Maw, Mon Calamari, Tatooine, Kuat and Corellia are conquered
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_11,     The planets Yavin 4 and Coruscant have been conquered
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_12,     The planets Coruscant and Endor have been conquered
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_13,     The planets Yavin 4 and Endor have been conquered
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_14,     The Death Star is destroyed
-TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_15,     The Death Star II is destroyed
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_01,     The Rebellion and Empire are removed from the galaxy.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_02,     Mon Mothma and the Emperor are killed.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_03,     Tyber Zann must survive.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_04,     The Empire and the Zann Consortium are removed from the galaxy.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_05,     The Rebellion and the Zann Consortium are removed from the galaxy.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_06,     Mon Mothma and Tyber Zann are killed.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_07,     The Emperor and Tyber Zann are killed.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_08,     Tyber Zann is killed.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_09,     The Zann Consortium is removed from the galaxy.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10E,     The Maw, Kuat, Nal Hutta, Mon Calamari, and Yavin 4 are conquered.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10R,     The Maw, Nal Hutta, Mon Calamari, Corellia and Kashyyyk are conquered.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10T,     TIME LIMIT: 60 Galactic Days.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_10U,     The Maw, Mon Calamari, Tatooine, Kuat and Corellia are conquered.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_11,     The planets Yavin 4 and Coruscant have been conquered.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_12,     The planets Coruscant and Endor have been conquered.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_13,     The planets Yavin 4 and Endor have been conquered.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_14,     The Death Star is destroyed.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_15,     The Death Star II is destroyed.
 TEXT_CAMPAIGN_SMALL_EMPIRE_HUMAN,P2 Small Empire Human - Rebel AI
 TEXT_CAMPAIGN_SMALL_HUMAN,P2 Small Human - Enemy AI *
 TEXT_CAMPAIGN_SMALL_MAP,Small Campaign Map
@@ -905,11 +905,10 @@ TEXT_COLOR_WHITE,White
 TEXT_COLOR_YELLOW,Yellow
 TEXT_COMBAT_EFFICIENCY,Combat Efficiency:
 TEXT_COMBAT_RESOLVE_OPTIONS,Automatically resolve combat?
-TEXT_COMBAT_RESOLVED,%ls has defeated %ls at %ls
+TEXT_COMBAT_RESOLVED,%ls has defeated %ls at %ls!
 TEXT_COMBO_CAMPAIGN,Campaign
 TEXT_COMBO_LAND_SKIRMISH,Land Battle
 TEXT_COMBO_SPACE_SKIRMISH,Space Battle
-TEXT_COMM_ARRAY_HARD POINT,Communications Array
 TEXT_COMM_ARRAY_HARDPOINT,Communications Array
 TEXT_COMPLETED_STORIES_BUTTON,Completed
 TEXT_CONNECT,Connect
@@ -1623,7 +1622,7 @@ TEXT_ESRB_WARNING,ESRB Notice:  Game Experience May Change During Online Play.
 TEXT_EVIL_LAND_GARRISON,Empire Garrison
 TEXT_EVIL_SPACE_FLEET,Empire Fleet
 TEXT_EWOK_SELF_DESTRUCT,Boom!
-TEXT_EWOK_SELF_DESTRUCT_DESC,Remotely detonates the bomb strapped to the mind-controlled Ewok
+TEXT_EWOK_SELF_DESTRUCT_DESC,Remotely detonates the bomb strapped to the mind-controlled Ewok.
 TEXT_EXPANSION_TITLE,Star Wars: Empire at War - Forces of Corruption
 TEXT_F9TZ_TRANSPORT_COMPANY,F9-TZ Transport Company
 TEXT_FACTION_BOTHAN,Bothans
@@ -1997,7 +1996,7 @@ TEXT_HONOGHR_INTIMIDATION_OBJECTIVE_03,1 of 3 Noghri Camps destroyed.
 TEXT_HONOGHR_INTIMIDATION_OBJECTIVE_04,2 of 3 Noghri Camps destroyed.
 TEXT_HONOGHR_INTIMIDATION_OBJECTIVE_05,3 of 3 Noghri Camps destroyed.
 TEXT_HOST_IP,Host Address:
-TEXT_HOST_LEFT_GAME,The game host left the game
+TEXT_HOST_LEFT_GAME,The game host left the game.
 TEXT_HOST_PREFIX,Host
 TEXT_HOSTILE_ALLEGIANCE_CHANGE,%s is now hostile to %s!
 TEXT_HUTT_STAR_BASE_1,Hutt Asteroid Station
@@ -2802,14 +2801,14 @@ TEXT_PLANET_BALMORRA_INFO_TER,Plains, Urban sprawls
 TEXT_PLANET_BALMORRA_INFO_WEA,Clear, Rain
 TEXT_PLANET_BALMORRA_INFO_WL,Metal Parasites
 TEXT_PLANET_BESPIN_ENCYC,High credit value: Additional income provided by tibanna gas mining. Restriction: No land production or garrisons possible.
-TEXT_PLANET_BESPIN_ENCYC_00,Damage Bonus (Aggressor-class Destroyer): Aggressor-class Destroyers gain a 25% damage bonus while this planet is controlled
+TEXT_PLANET_BESPIN_ENCYC_00,Damage Bonus (Aggressor-class Destroyer): Aggressor-class Destroyers gain a 25% damage bonus while this planet is controlled.
 TEXT_PLANET_BESPIN_INFO_ADV,High credit value
 TEXT_PLANET_BESPIN_INFO_ADV_00,Damage Bonus (Aggressor-class Destroyer)
 TEXT_PLANET_BESPIN_INFO_HIS,Located in Anoat sector of the Outer Rim Bespin is a large gas giant that has no landmasses, but its upper atmosphere of billowing clouds hosts an envelope of breathable air called the Life Zone where a variety of life forms have evolved.  Local inhabitants have established floating colonies here such as Cloud City, a popular resort and mining town. The Cloud City Wing Guard handles security, police and emergency duties for Cloud City while the Baron Administrator runs the city's day to day and mining operations. Bespin's chief and most profitable export is precious tibanna gas that is used to power blasters and other energy weapons.
 TEXT_PLANET_BESPIN_INFO_HIS_01,Bespin is a large gas giant that has no landmasses, but its upper atmosphere of billowing clouds hosts an envelope of breathable air called the Life Zone where a variety of life forms have evolved.  Local inhabitants have established floating colonies here such as Cloud City, a popular resort and mining town. Bespin's chief and most profitable export is precious tibanna gas that is used to power blasters and other energy weapons.
 TEXT_PLANET_BESPIN_INFO_POP,Human, Ugnaught
 TEXT_PLANET_BESPIN_INFO_TAC,Additional income provided by tibanna gas mining.
-TEXT_PLANET_BESPIN_INFO_TAC_00,Aggressor-class Destroyers gain a 25% damage bonus while this planet is controlled
+TEXT_PLANET_BESPIN_INFO_TAC_00,Aggressor-class Destroyers gain a 25% damage bonus while this planet is controlled.
 TEXT_PLANET_BESPIN_INFO_TER,Gas Giant
 TEXT_PLANET_BESPIN_INFO_WEA,Wind Storms
 TEXT_PLANET_BESPIN_INFO_WL,Velkers, Beldons
@@ -2877,8 +2876,8 @@ TEXT_PLANET_CARIDA_INFO_TAC,Infantry training time reduced due to Carida's train
 TEXT_PLANET_CARIDA_INFO_TER,Jungles, deserts, oceans, arctic tundra
 TEXT_PLANET_CARIDA_INFO_WEA,Clear, Rain
 TEXT_PLANET_CARIDA_INFO_WL,Combat arachnid
-TEXT_PLANET_CHANGED_HANDS,%ls: Control changed from %ls to %ls
-TEXT_PLANET_CHANGED_HANDS_BONUS,%ls: Control changed from %ls to %ls. Credit bonus: %d
+TEXT_PLANET_CHANGED_HANDS,%ls: Control changed from %ls to %ls.
+TEXT_PLANET_CHANGED_HANDS_BONUS,%ls: Control changed from %ls to %ls.  Credit bonus: %d.
 TEXT_PLANET_CORELLIA_ENCYC,Production Cost Reduction (Corvettes): Cost of corvette sized ships is reduced due to the presence of the Corellian Engineering Corporation.
 TEXT_PLANET_CORELLIA_ENCYC_01,While this planet is controlled, all Corellian Corvettes cost 20% less to build on all planets.
 TEXT_PLANET_CORELLIA_INFO_ADV,Production Cost Reduction: Corvette class ships
@@ -3541,7 +3540,7 @@ TEXT_RUSSIA,Russia
 TEXT_SABOTAGE_ACCOMPLISHED_ALLY,##1 has destroyed the ##2 on ##3!
 TEXT_SABOTAGE_ACCOMPLISHED_ENEMY,Sabotage! An enemy hero, ##1, has destroyed your ##2 on ##3!
 TEXT_SABOTAGE_BUILDING,Sabotage Building
-TEXT_SABOTAGE_DESCRIPTION,Click on building to pay bribe and destroy selected building
+TEXT_SABOTAGE_DESCRIPTION,Click on building to pay bribe and destroy selected building.
 TEXT_SABOTAGE_FAILURE_VIGILANCE,Sabotage attempt failed! Your hero has been detected by local planetary security forces.
 TEXT_SABOTAGE_PREVENTED_VIGILANCE,Sabotage attempt thwarted! Your planet's security forces have apprehended an enemy hero.
 TEXT_SALEUCAMI_INTIMIDATION_OBJECTIVE_00,Find Governor Koong Eeth.
@@ -5529,7 +5528,7 @@ TEXT_SFX_DRD_SELECT_6,Yes?
 TEXT_SFX_DRD_SELECT_7,C3PO, Human cyborg relations
 TEXT_SFX_DRD_SELECT_8,What can we do for you?
 TEXT_SFX_DRD_SELECT_9,May we assist you?
-TEXT_SFX_DTR_ASSIST_ATTACK_1,we are in position
+TEXT_SFX_DTR_ASSIST_ATTACK_1,We are in position
 TEXT_SFX_DTR_ASSIST_ATTACK_10,Firing on your signal
 TEXT_SFX_DTR_ASSIST_ATTACK_2,As ordered
 TEXT_SFX_DTR_ASSIST_ATTACK_3,Providing assistance
@@ -12724,7 +12723,7 @@ TEXT_SFX_TRP_MOVE_9,Heading out
 TEXT_SFX_TRP_OBIWAN_1,Obi-Wan Kenobi?  We'll need backup to fight a Jedi!
 TEXT_SFX_TRP_R_FCOM_1,Rebel Field Commander sighted - fire at will!
 TEXT_SFX_TRP_SEE_HERO_11,Tyber Zann himself is here - be extra cautious!
-TEXT_SFX_TRP_SEE_HERO_12,The bounty hunter IG88 is near - fall back!
+TEXT_SFX_TRP_SEE_HERO_12,The bounty hunter IG-88 is near - fall back!
 TEXT_SFX_TRP_SEE_HERO_13,We've spotted Urai Fen - keep your distance!
 TEXT_SFX_TRP_SEE_HERO_14,We've spotted a nightsister - fire from range.
 TEXT_SFX_TRP_SEE_HERO_15,Admiral Thrawn has joined our fleet!!
@@ -17272,7 +17271,7 @@ TEXT_STORY_TRANSMISSION_17,Incoming Transmission from Mon Mothma
 TEXT_STORY_TRANSMISSION_18,Incoming Transmission from Grand Moff Tarkin
 TEXT_STORY_TRANSMISSION_19,Incoming Transmission from Tani Ab'yla
 TEXT_STORY_TRANSMISSION_20,Incoming Transmission from Captain Antilles
-TEXT_STORY_TRANSMISSION_TYBER,Incoming transmission from Tyber Zann
+TEXT_STORY_TRANSMISSION_TYBER,Incoming Transmission from Tyber Zann
 TEXT_STORY_TRANSMISSION_URAI,Incoming Transmission from Urai Fen
 TEXT_STORY_TRIGGER_ZONE,Story Trigger Zone
 TEXT_STORY_TUTORIAL_EMPIRE_ACT03_00,Tutorial 3 - Basic Space (Empire)
@@ -18049,8 +18048,8 @@ TEXT_TOOLTIP_BUTTON_CANCEL,Cancel Production
 TEXT_TOOLTIP_C3P0,The droid companion of R2-D2. Provides voice of reason.
 TEXT_TOOLTIP_CAPITAL_SHIPS,Capital Ships
 TEXT_TOOLTIP_CHEWBACCA,Smuggler who is able to move quickly and steal enemy vehicles when necessary.
-TEXT_TOOLTIP_CLICK_FOR_INFO,Click for information on corruption choices for this planet
-TEXT_TOOLTIP_CLICK_FOR_MORE_INFO,Click for more information on corruption choices for this planet
+TEXT_TOOLTIP_CLICK_FOR_INFO,Click for information on corruption choices for this planet.
+TEXT_TOOLTIP_CLICK_FOR_MORE_INFO,Click for more information on corruption choices for this planet.
 TEXT_TOOLTIP_CLOAK,Cloak
 TEXT_TOOLTIP_CLOSED_STRUCTURE_SLOT,Empty Structure Slot
 TEXT_TOOLTIP_COMPANY_COUNT,Ground Forces on Planet
@@ -18092,7 +18091,7 @@ TEXT_TOOLTIP_DODONNA,A fleet commander capable of detecting enemy weaknesses and
 TEXT_TOOLTIP_DROID_ADVISOR,Opens the Droid Log Menu Screen
 TEXT_TOOLTIP_DROID_ADVISOR_NAME,Droid Log Menu
 TEXT_TOOLTIP_DROIDEKA_ION_SWAP,Swap Weapon: Ion Blaster
-TEXT_TOOLTIP_DROIDEKA_ION_SWAP_DESCRIPTION,Allows the Destroyer Droid to swap between lasers and ion weaponry
+TEXT_TOOLTIP_DROIDEKA_ION_SWAP_DESCRIPTION,Allows the Destroyer Droid to swap between lasers and ion weaponry.
 TEXT_TOOLTIP_DT_JETPACK,Jet Pack
 TEXT_TOOLTIP_ECLIPSE,The emperor's ultimate expression of power, the Eclipse-class Star Destroyer boasted a planet's worth of weaponry, including a coaxial superlaser.
 TEXT_TOOLTIP_ECLIPSE_SL_DESCRIPTION,While not able to destroy a planet like the Death Star, the Eclipse superlaser can render a planet uninhabitable, or destroy large capital ships with a single shot.
@@ -18159,7 +18158,7 @@ TEXT_TOOLTIP_GOOD_AGAINST_SPECIAL,special
 TEXT_TOOLTIP_GOOD_AGAINST_STRUCTURE,Structures
 TEXT_TOOLTIP_GOOD_AGAINST_VEHICLE,Vehicles
 TEXT_TOOLTIP_GOOD_GROUND,Defensive terrain that doubles the defense of infantry positioned here.
-TEXT_TOOLTIP_GRENADE_MORTAR,Projects lobbed concussion grenades at targets.  Grenades have low accuracy but do area-effect damage
+TEXT_TOOLTIP_GRENADE_MORTAR,Projects lobbed concussion grenades at targets.  Grenades have low accuracy but do area-effect damage.
 TEXT_TOOLTIP_GROUND_BASE,Ground Base
 TEXT_TOOLTIP_GROUND_BUNKER,Heavily fortified area that gives infantry an armor and attack bonus.
 TEXT_TOOLTIP_GROUND_LEVEL,Ground Base Level
@@ -18207,11 +18206,11 @@ TEXT_TOOLTIP_INDIG_TWILEK_CIV,The native inhabitant of Ryloth.  Lightly armed, b
 TEXT_TOOLTIP_INDIG_WOOKIE,The native inhabitant of Kashyyyk.  Wookiee Warriors are equipped with powerful bowcasters, which deal heavy damage to infantry.
 TEXT_TOOLTIP_INDIG_WOOKIE_UNARMED,The native inhabitant of Kashyyyk.  This Warrior is defenseless, and will flee when approached.
 TEXT_TOOLTIP_INFILTRATOR,Highly trained special-weapons soldier armed with sniper rifle and able to plant explosive devices.
-TEXT_TOOLTIP_INFO_CREDITS_GAINED,%d Credits gained from capture of planet %s
-TEXT_TOOLTIP_INFO_CREDITS_LOST,%d Credits lost from defeat at planet %s
+TEXT_TOOLTIP_INFO_CREDITS_GAINED,%d Credits gained from capture of planet %s.
+TEXT_TOOLTIP_INFO_CREDITS_LOST,%d Credits lost from defeat at planet %s.
 TEXT_TOOLTIP_INTERCEPTOR4_FRIGATE,The Interceptor IV frigate is a modified version of the frigate widely used by the Black Sun Pirates.  It is much faster, with better shielding and weapons, but lacking in significant armor.
 TEXT_TOOLTIP_INTERDICTOR,Specialized cruiser designed to prevent enemy hyperspace retreat and to jam incoming enemy missiles and torpedoes.
-TEXT_TOOLTIP_INTERRUPTED_PRODUCTION,An enemy fleet has interrupted space production at: %s
+TEXT_TOOLTIP_INTERRUPTED_PRODUCTION,An enemy fleet has interrupted space production at: %s!
 TEXT_TOOLTIP_IONC_BUTTON,Fire the Ion Cannon
 TEXT_TOOLTIP_IPV,Patrol cruiser designed for Outer Rim security. Can handle most pirate and corvette threats.
 TEXT_TOOLTIP_JUGGERNAUT,A lighter version of the Juggernaut used in the clone wars, the B5 is still heavily armored and can carry both infantry and light vehicles.
@@ -18226,7 +18225,7 @@ TEXT_TOOLTIP_LUKE_SKYWALKER_JEDI,Once a farm boy from Tatooine, Luke Skywalker t
 TEXT_TOOLTIP_M1_REPULSOR,Medium tank armed with a rapid-fire laser cannon.  Repulsorlift engines let the tank float quickly and effortlessly across the battlefield.  4 vehicles per company.
 TEXT_TOOLTIP_MAGNEPULSE_BUTTON,Fire the Magnapulse Cannon
 TEXT_TOOLTIP_MAL,The Mobile Attack Launcher (M.A.L.) is equipped with multiple turreted concussion missile launchers.  It is equally capable of destroying ground or air vehicles.
-TEXT_TOOLTIP_MAL_DEPLOY_DESCRIPTION,Deploy/Undeploy to long-range turreted mode
+TEXT_TOOLTIP_MAL_DEPLOY_DESCRIPTION,Deploy/Undeploy to long-range turreted mode.
 TEXT_TOOLTIP_MAL_SWAP,Weapon Swap: Missiles
 TEXT_TOOLTIP_MARA_JADE,Mara Jade was raised under the tutelage of Emperor Palpatine and trained as one of his special agents known as the Emperor's Hands.  She is deadly in combat and has a direct connection to the Emperor via the Force.  Mara's Force corrupt ability will only affect nearby infantry.
 TEXT_TOOLTIP_MARAUDER,Missile frigate armed with incredibly long ranged Diamond-Boron missiles able to inflict great damage.  Suffers from low accuracy, weak armor, and poor maneuverability.
@@ -18671,7 +18670,7 @@ TEXT_UNIT_TIE_PROTOTYPE,Darth Vader (Black Leader)
 TEXT_UNIT_TIE_SCOUT,TIE scout
 TEXT_UNIT_TIE_TANBRIS,TIE Advanced X-2
 TEXT_UNIT_TWILEK_COMMANDO,Twi'lek Commando
-TEXT_UNIT_TWILEK_COMMANDO_DESCRIPTION,A highly trained Twi'lek operative in the service of Jabba the Hutt
+TEXT_UNIT_TWILEK_COMMANDO_DESCRIPTION,A highly trained Twi'lek operative in the service of Jabba the Hutt.
 TEXT_UNIT_TYDERIUM_SHUTTLE,Lambda-Class Shuttle
 TEXT_UNIT_UNDERWORLD_DISRUPTOR_MERC,Merc Assault Squad
 TEXT_UNIT_UNDERWORLD_DISRUPTOR_MERC_ENCYC,The heavy soldier for the Zann Consortium, initially equipped with a blaster rifle, can be upgraded to disruptors.  3 squads (of 3 soldiers each) per company.
@@ -19200,7 +19199,7 @@ TEXT_UW_ACT03_M11_HINT_04,Hint: Silri's rancor counterpart deals heavy damage.
 TEXT_UW_ACT03_M11_HINT_05,Hint: The MDUs sensor jammers can block incoming missiles.
 TEXT_UW_ACT03_M11_HINT_06,Hint: The MDUs Ysalamiri cage will keep force users from using their powers.
 TEXT_UW_ACT03_M11_HINT_07,Hint: The Juggernaut's Point Laser Defense System destroys incoming missiles.
-TEXT_UW_ACT03_M11_HINT_08,Hint: The “Cloak” ability can confuse enemies and keep them from following you.
+TEXT_UW_ACT03_M11_HINT_08,Hint: The "Cloak" ability can confuse enemies and keep them from following you.
 TEXT_UW_ACT03_M11_HINT_09,Notice: You will be able to control Urai and Silri later.  For now, help Tyber focus on the mission at hand.
 TEXT_UW_ACT03_M11_HINT_10,Notice: You will be able to control Tyber and Urai later.  For now, help Silri focus on the mission at hand.
 TEXT_UW_ACT03_M11_HINT_11,Notice: You will be able to control Tyber and Silri later.  For now, help Urai focus on the mission at hand.
@@ -19256,9 +19255,9 @@ TEXT_WEAPON_SPECIAL,Special Weapon
 TEXT_WEAPON_TORPEDOES,Proton Torpedo Launcher
 TEXT_WEAPON_TURBOLASER,Turbo Laser Battery
 TEXT_WEATHER_CLASS_TEXT,Weather Effect
-TEXT_WEATHER_DESCRIPTION_ASH,Falling ash can moderately interfere with visibility and weapon accuracy
-TEXT_WEATHER_DESCRIPTION_RAIN,Rainfall can slightly interfere with visibility and weapon accuracy
-TEXT_WEATHER_DESCRIPTION_SAND,Sandstorms can severely hamper visibility and weapon accuracy
+TEXT_WEATHER_DESCRIPTION_ASH,Falling ash can moderately interfere with visibility and weapon accuracy.
+TEXT_WEATHER_DESCRIPTION_RAIN,Rainfall can slightly interfere with visibility and weapon accuracy.
+TEXT_WEATHER_DESCRIPTION_SAND,Sandstorms can severely hamper visibility and weapon accuracy.
 TEXT_WEATHER_DESCRIPTION_SNOW,Snowfall can moderately interfere with visibility and weapon accuracy.
 TEXT_WEATHER_NAME_ASH,Volcanic Ash
 TEXT_WEATHER_NAME_RAIN,Rain

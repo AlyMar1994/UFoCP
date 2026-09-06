@@ -160,7 +160,7 @@ MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01,Potenziamenti: Addestramento avanzato, A
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_EMPIRE_00,CLICCA per costruire una caserma imperiale.
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_REBEL_00,CLICCA per costruire una caserma ribelle.
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_UNDERWORLD_00,CLICCA per costruire un avamposto dei mercenari della Malavita.
-MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Unità arruolate: Soldato ribelle, Soldato lanciarazzi PLEX, Comandante in campo, Infiltratore
+MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_00,Unità arruolate: Soldato ribelle, Soldato lanciarazzi Plex, Comandante in campo, Infiltratore
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_REBEL_01,Potenziamenti: Corazza da battaglia, Addestramento avanzato
 MP_TEXT_ENCYCLOPEDIA_BASE_SHIELD_EMPIRE_00,CLICCA per costruire uno scudo base imperiale.
 MP_TEXT_ENCYCLOPEDIA_BASE_SHIELD_REBEL_00,CLICCA per costruire uno scudo base ribelle.
@@ -909,7 +909,6 @@ TEXT_COMBAT_RESOLVED,%ls ha sconfitto %ls a %ls
 TEXT_COMBO_CAMPAIGN,Campagna
 TEXT_COMBO_LAND_SKIRMISH,Battaglia terrestre
 TEXT_COMBO_SPACE_SKIRMISH,Battaglia spaziale
-TEXT_COMM_ARRAY_HARD POINT,Sistema di comunicazione
 TEXT_COMM_ARRAY_HARDPOINT,Sistema di comunicazione
 TEXT_COMPLETED_STORIES_BUTTON,Completati
 TEXT_CONNECT,Connetti
@@ -1240,7 +1239,7 @@ TEXT_DROID_ADVISOR_REBEL_LAND_02,Sfrutta le abilità speciali delle tue unità: 
 TEXT_DROID_ADVISOR_REBEL_LAND_02_DEMO,[TBL]
 TEXT_DROID_ADVISOR_REBEL_LAND_03,Talvolta la ritirata è l'unica soluzione possibile: ti consente di risparmiare delle unità con cui puoi rinforzare le altre armate sotto il tuo comando.
 TEXT_DROID_ADVISOR_REBEL_LAND_04,Usa le piattaforme di costruzione per costruire le strutture (come torrette e stazioni mediche bacta).
-TEXT_DROID_ADVISOR_REBEL_LAND_05,I gruppi più numerosi di soldati PLEX sono una seria minaccia per i veicoli, ma devono essere protetti dalle unità di fanteria nemiche.
+TEXT_DROID_ADVISOR_REBEL_LAND_05,I gruppi più numerosi di soldati Plex sono una seria minaccia per i veicoli, ma devono essere protetti dalle unità di fanteria nemiche.
 TEXT_DROID_ADVISOR_REBEL_LAND_06,I rinforzi possono essere schierati solo nelle zone rinforzi.
 TEXT_DROID_ADVISOR_REBEL_LAND_07,Nelle battaglie terrestri puoi schierare solo un numero limitato di unità.
 TEXT_DROID_ADVISOR_REBEL_LAND_08,Se ci sono dei bombardieri Y-Wing in orbita intorno al pianeta, nel corso della battaglia terrestre potrai ricorrere ai bombardamenti.
@@ -2319,7 +2318,7 @@ TEXT_MAIN_MENU_TITLE_1,Star Wars
 TEXT_MAIN_MENU_TITLE_2,L'Impero in guerra
 TEXT_MAIN_OPTIONS,Opzioni
 TEXT_MAL_SWAP_DESCRIPTION,Scegli di utilizzare i missili a concussione o i missili a carbonite. Questi ultimi danneggiano e rallentano i bersagli.
-TEXT_MANDALORE_PIRACY_OBJECTIVE_00,Sconfiggi il capo clan mandaloriano a bordo della nave da guerra Kedalbe.
+TEXT_MANDALORE_PIRACY_OBJECTIVE_00,Sconfiggi il capo clan mandaloriano a bordo della nave da guerra Keldabe.
 TEXT_MANDALORE_PIRACY_OBJECTIVE_01,Tyber Zann deve sopravvivere.
 TEXT_MANDALORE_STORY_PIRACY_OBJECTIVE_00,Attacca la stazione spaziale per stanare il capo clan mandaloriano.
 TEXT_MANDALORE_STORY_PIRACY_OBJECTIVE_01,La fregata Interceptor di Tyber Zann non deve essere distrutta.
@@ -2865,7 +2864,7 @@ TEXT_PLANET_BYSS_INFO_TAC,L'influenza del Lato Oscuro della Forza riduce il temp
 TEXT_PLANET_BYSS_INFO_TER,Laghi, altopiani, agglomerati urbani
 TEXT_PLANET_BYSS_INFO_WEA,Sereno, pioggia
 TEXT_PLANET_BYSS_INFO_WL,Nessuna
-TEXT_PLANET_CAPITAL_SHIP_PRODUCER,Questo pianeta può produrre navi principali (incrociatori Mon Calamari, Star Destroyer imperiali, incrociatore classe Kedalbe o classe Krayt).
+TEXT_PLANET_CAPITAL_SHIP_PRODUCER,Questo pianeta può produrre navi principali (incrociatori Mon Calamari, Star Destroyer imperiali, incrociatore classe Keldabe o classe Krayt).
 TEXT_PLANET_CARIDA_ENCYC,Tempo di produzione ridotto (fanteria): le strutture di addestramento di Carida riducono il tempo richiesto per addestrare la fanteria.
 TEXT_PLANET_CARIDA_ENCYC_01,Occupando questo pianeta, il costo di produzione delle unità di fanteria si riduce del 20% in tutti i sistemi.
 TEXT_PLANET_CARIDA_INFO_ADV,Tempo di produzione ridotto: fanteria
@@ -3148,11 +3147,11 @@ TEXT_PLANET_MANAAN_INFO_TAC,Le unità di fanteria vengono curate automaticamente
 TEXT_PLANET_MANAAN_INFO_TER,Oceano
 TEXT_PLANET_MANAAN_INFO_WEA,Sereno, pioggia
 TEXT_PLANET_MANAAN_INFO_WL,Nessuna
-TEXT_PLANET_MANDALORE_ENCYC,Costo di produzione ridotto (unità mandaloriane): la corporazione MandalMotors riduce il costo delle unità mandaloriane (squadra Starviper, nave da guerra classe Crusader, incrociatore classe Kedalbe, carro d'assalto Canderous).
+TEXT_PLANET_MANDALORE_ENCYC,Costo di produzione ridotto (unità mandaloriane): la corporazione MandalMotors riduce il costo delle unità mandaloriane (squadra Starviper, nave da guerra classe Crusader, incrociatore classe Keldabe, carro d'assalto Canderous).
 TEXT_PLANET_MANDALORE_INFO_ADV,Costo di produzione ridotto (unità mandaloriane)
 TEXT_PLANET_MANDALORE_INFO_HIS,Pianeta inospitale situato nell'Orlo Esterno e ricoperto da una fitta giungla, Mandalore era il pianeta natale dei temuti clan dei guerrieri mascherati guidati da Mandalore, un misterioso signore della guerra. Questi clan, formati da crociati micidiali ma sempre leali, si gettavano in battaglia in sella ai droidi da guerra semi-intelligenti Basilisk, utilizzavano armamenti di ultima generazione ed erano considerati i migliori guerrieri dell'intera galassia. Per tradizione, alla morte del capo clan la maschera e il titolo di Mandalore venivano trasmessi al guerriero più meritevole. Attualmente i Mandaloriani sono sparsi in tutta la galassia e il loro numero esatto è sconosciuto. Le loro truppe d'élite sono quasi del tutto scomparse, e solo pochi guerrieri osservano ancora le antiche tradizioni militari dei clan mandaloriani.
 TEXT_PLANET_MANDALORE_INFO_POP,Mandaloriani
-TEXT_PLANET_MANDALORE_INFO_TAC,La corporazione Mandal Hypernautics riduce il costo delle unità mandaloriane (StarViper, Crusader, Kedalbe, Canderous).
+TEXT_PLANET_MANDALORE_INFO_TAC,La corporazione Mandal Hypernautics riduce il costo delle unità mandaloriane (StarViper, Crusader, Keldabe, Canderous).
 TEXT_PLANET_MANDALORE_INFO_TER,Foreste, giungla, deserti
 TEXT_PLANET_MANDALORE_INFO_WEA,Pioggia
 TEXT_PLANET_MANDALORE_INFO_WL,Strill, Rawl
@@ -3349,11 +3348,11 @@ TEXT_PLANET_TYNNA_INFO_TER,Foreste, laghi, oceani
 TEXT_PLANET_TYNNA_INFO_WEA,Sereno, pioggia
 TEXT_PLANET_TYNNA_INFO_WL,Suuri
 TEXT_PLANET_UNCORRUPTABLE,Per corrompere questa zona devi prima conquistarla.
-TEXT_PLANET_UTAPAU_ENCYC,Scudi avanzati (incrociatore classe Kedalbe): controllando questo pianeta, la potenza degli scudi degli incrociatori classe Kedalbe aumenta del 25%. Le basi terrestri non possono essere individuate.
-TEXT_PLANET_UTAPAU_INFO_ADV,Scudi avanzati (incrociatore classe Kedalbe); Invisibilità base
+TEXT_PLANET_UTAPAU_ENCYC,Scudi avanzati (incrociatore classe Keldabe): controllando questo pianeta, la potenza degli scudi degli incrociatori classe Keldabe aumenta del 25%. Le basi terrestri non possono essere individuate.
+TEXT_PLANET_UTAPAU_INFO_ADV,Scudi avanzati (incrociatore classe Keldabe); Invisibilità base
 TEXT_PLANET_UTAPAU_INFO_HIS,Situato nel remoto settore Tarabba, Utapau presenta una superficie caratterizzata da profonde fenditure in cui sono state costruite delle immense città che si sviluppano in caverne e canyon sotterranei. A causa della consistenza porosa del mantello roccioso di Utapau, l'acqua non si accumula in superficie ma in fondo alle innumerevoli cavità. Le forme di vita indigene hanno un aspetto umanoide e si suddividono in due specie principali: gli Utapaun (alti, aristocratici e lenti nei movimenti, soprannominati Antichi per la loro straordinaria longevità) e i tozzi Utai (chiamati Corti per via della loro statura e la loro esistenza breve ma intensa). La principale fonte di energia è quella eolica, mentre il limitato commercio interstellare di Utapau è iniziato solo da qualche decennio.
 TEXT_PLANET_UTAPAU_INFO_POP,Utapaun, Utai
-TEXT_PLANET_UTAPAU_INFO_TAC,Controllando questo pianeta, la potenza degli scudi degli incrociatori classe Kedalbe aumenta del 25%. Le basi terrestri non possono essere individuate.
+TEXT_PLANET_UTAPAU_INFO_TAC,Controllando questo pianeta, la potenza degli scudi degli incrociatori classe Keldabe aumenta del 25%. Le basi terrestri non possono essere individuate.
 TEXT_PLANET_UTAPAU_INFO_TER,Deserto
 TEXT_PLANET_UTAPAU_INFO_WEA,Tempeste di sabbia
 TEXT_PLANET_UTAPAU_INFO_WL,Varactyl
@@ -3483,7 +3482,7 @@ TEXT_REBEL_STAR_BASE_4,Stazione spaziale Liv 4
 TEXT_REBEL_STAR_BASE_4-TEMP,Stazione spaziale ribelle Liv 4
 TEXT_REBEL_STAR_BASE_5,Stazione spaziale Liv 5
 TEXT_REBEL_STAR_BASE_5-TEMP,Stazione spaziale ribelle Liv 5
-TEXT_REBEL_TANK_BUSTER_SQUAD,Soldati PLEX
+TEXT_REBEL_TANK_BUSTER_SQUAD,Soldati Plex
 TEXT_REBEL_TITLE0,Mynock
 TEXT_REBEL_TITLE1,Contadino
 TEXT_REBEL_TITLE10,Maggiore
@@ -4290,7 +4289,7 @@ TEXT_SFX_ATT_MOVE_6,Come vuole, generale.
 TEXT_SFX_ATT_MOVE_7,Andiamo.
 TEXT_SFX_ATT_MOVE_8,Procediamo.
 TEXT_SFX_ATT_MOVE_9,Motori accesi.
-TEXT_SFX_ATT_PLEX_1,Soldati PLEX più avanti: abbiamo bisogno del supporto delle truppe d'assalto!
+TEXT_SFX_ATT_PLEX_1,Soldati Plex più avanti: abbiamo bisogno del supporto delle truppe d'assalto!
 TEXT_SFX_ATT_SELECT_1,A rapporto.
 TEXT_SFX_ATT_SELECT_10,La ricevo.
 TEXT_SFX_ATT_SELECT_11,La ricevo.
@@ -5488,7 +5487,7 @@ TEXT_SFX_DRD_HACK_2,R2, prima o poi ci farai fare una brutta fine!
 TEXT_SFX_DRD_HACK_3,Mai fidarsi di un computer che non conosci!
 TEXT_SFX_DRD_HACK_4,Non fare lo spiritoso, brutto ammasso di circuiti!
 TEXT_SFX_DRD_HACK_5,Oh, è la fine!
-TEXT_SFX_DRD_HACK_6,Attento R2…
+TEXT_SFX_DRD_HACK_6,Attento R2...
 TEXT_SFX_DRD_HACK_7,Questo non è il posto adatto per un droide protocollare!
 TEXT_SFX_DRD_HACK_SUCCESS_1,R2 si è collegato ai circuiti della torretta, signore.
 TEXT_SFX_DRD_HACK_SUCCESS_2,Abbiamo modificato i circuiti della torretta.
@@ -7459,7 +7458,7 @@ TEXT_SFX_IM2_EXECUTOR_10,Li inseguiamo.
 TEXT_SFX_IM2_EXECUTOR_11,Continuiamo a tenerli d'occhio.
 TEXT_SFX_IM2_EXECUTOR_12,Schierare la flotta!
 TEXT_SFX_IM2_EXECUTOR_13,Saranno presto a portata di tiro, mio signore.
-TEXT_SFX_IM2_EXECUTOR_14,Lord Fener, temo che i nostri sistemi siano stati danneggiati da… (soffoca)
+TEXT_SFX_IM2_EXECUTOR_14,Lord Fener, temo che i nostri sistemi siano stati danneggiati da... (soffoca)
 TEXT_SFX_IM2_EXECUTOR_15,Sì, mio signore.
 TEXT_SFX_IM2_EXECUTOR_2,I sensori ne rilevano altri.
 TEXT_SFX_IM2_EXECUTOR_3,Navi nemiche si avvicinano al nostro settore.
@@ -7916,7 +7915,7 @@ TEXT_SFX_KAD_MOVE_9,Vado.
 TEXT_SFX_KAD_NEBULA_1,La nebulosa sta interferendo con i sensori.
 TEXT_SFX_KAD_RETREAT_1,Prepararsi per l'iperspazio.
 TEXT_SFX_KAD_RETREAT_2,Preparate il salto nell'iperspazio.
-TEXT_SFX_KAD_SELECT_1,Kedalbe a rapporto.
+TEXT_SFX_KAD_SELECT_1,Keldabe a rapporto.
 TEXT_SFX_KAD_SELECT_10,Ricevuto.
 TEXT_SFX_KAD_SELECT_11,In formazione.
 TEXT_SFX_KAD_SELECT_12,Attendo ordini.
@@ -10961,7 +10960,7 @@ TEXT_SFX_RLD_DEFEAT_R2,Mi hanno colpito!
 TEXT_SFX_RLD_DEFEAT_R3,Luke, non ce la faccio... arghh!!!
 TEXT_SFX_RLD_DEFEAT_R4,Non riesco a seminarli! Arghhh!!!
 TEXT_SFX_RLD_DEFEAT_R5,Noooooo!
-TEXT_SFX_RLD_DEFEAT_R6,No! Non resisterò a lungo….Arghhhh!!!
+TEXT_SFX_RLD_DEFEAT_R6,No! Non resisterò a lungo....Arghhhh!!!
 TEXT_SFX_RLD_DEFEAT_RL,Ahhhhhh!
 TEXT_SFX_RLD_GUARD_1,In difesa.
 TEXT_SFX_RLD_GUARD_2,Di scorta al bersaglio.
@@ -15134,7 +15133,7 @@ TEXT_SPEECH_FOCUS_DEMO_27,Ah, molto bene... tecnologia di occultamento imperiale
 TEXT_SPEECH_FOCUS_DEMO_28,Siamo in grado di spiare tutto ciò che succede nei pianeti che abbiamo corrotto. In questo caso, sembra che l'Alleanza ribelle stia difendendo Felucia con un cannone ionico. Odio le sorprese...
 TEXT_SPEECH_FOCUS_DEMO_29,Tutti hanno un prezzo... Usa la mia abilità Corruzione per convincere le unità nemiche a unirsi alla nostra causa.
 TEXT_SPEECH_FOCUS_DEMO_30,Le nostre navi, a differenza di quelle imperiali e ribelli, non hanno alcuna difficoltà ad attraversare campi di asteroidi. Possiamo usare questo vantaggio tattico per nasconderci o sfuggire al nemico.
-TEXT_SPEECH_FOCUS_DEMO_31,Questa stazione spaziale ribelle è ben difesa, ma la nostra nave Kedalbe è in grado di assorbire l'energia degli scudi nemici. Ritorciamogli contro i loro stessi scudi!
+TEXT_SPEECH_FOCUS_DEMO_31,Questa stazione spaziale ribelle è ben difesa, ma la nostra nave Keldabe è in grado di assorbire l'energia degli scudi nemici. Ritorciamogli contro i loro stessi scudi!
 TEXT_SPEECH_FOCUS_DEMO_32,Suggerimento: ingrandisci la visuale per configurare tutte le tue basi come preferisci.
 TEXT_SPEECH_FOCUS_DEMO_33,Visto che questo pianeta è stato corrotto dalla nostra influenza, riceveremo una taglia per ogni nemico che riusciremo a uccidere. Il crimine paga, a quanto pare.
 TEXT_SPEECH_FOCUS_DEMO_34,Grazie alla nostra ricognizione avanzata siamo riusciti a localizzare il generatore d'energia ribelle. Purtroppo si trova in un'area accessibile solo dalla fanteria.
@@ -15279,7 +15278,7 @@ TEXT_SPEECH_MANDALORE_BRB_VICTORY_COR34_08,Sono riuscito a corrompere il capo cl
 TEXT_SPEECH_MANDALORE_PIR_DIALOG_COR34_10,Saresti diventato un ottimo leader del Consorzio, capitano. Peccato che devi morire.
 TEXT_SPEECH_MANDALORE_PIR_DIALOG_COR34_11,Hai combattuto con coraggio, ma non con altrettanta intelligenza. La tua vita finisce qui.
 TEXT_SPEECH_MANDALORE_PIR_DIALOG_COR34_12,Hai fegato, ma sfidare il Consorzio Zann è stata una pazzia.
-TEXT_SPEECH_MANDALORE_PIR_LOAD_COR34_01,Uomini, numerose navi d'assalto vorranno impedirci di corrompere il pianeta. La battaglia non sarà conclusa finché non distruggeremo la nave da guerra Kedalbe.
+TEXT_SPEECH_MANDALORE_PIR_LOAD_COR34_01,Uomini, numerose navi d'assalto vorranno impedirci di corrompere il pianeta. La battaglia non sarà conclusa finché non distruggeremo la nave da guerra Keldabe.
 TEXT_SPEECH_MANDALORE_PIR_LOSS_COR34_07,Sono circondato da incompetenti! Vi concederò un'ultima occasione per dimostrare il vostro valore! Non tollererò un altro fallimento!
 TEXT_SPEECH_MANDALORE_PIR_TACTICAL_COR34_03,I Mandaloriani sono tra i nemici più forti che abbiamo mai affrontato. Sfiderò il loro capo clan nello spazio sopra il pianeta.
 TEXT_SPEECH_MANDALORE_PIR_VICTORY_COR34_05,Sono riuscito a corrompere Mandalore. Questa entusiasmante vittoria incuterà timore in tutti coloro che ancora osano opporsi al Consorzio.
@@ -15492,7 +15491,7 @@ TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_22,Mon Mothma: Purtroppo non abbiamo scoper
 TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_23,Antilles: I droidi devono continuare a cercare. Nel frattempo potremmo sfruttare i nostri contatti più influenti per ottenere quelle informazioni...
 TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_24,Mon Mothma: Certo. Finora ho sempre evitato di affidarmi ai simpatizzanti della nostra causa, ma a quanto pare non abbiamo alternative. Contatterò i nostri amici del Senato.
 TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_25,Mon Mothma: L'Impero è in subbuglio per i recenti avvenimenti su Kashyyyk. Sembra che a guidare la rivolta dei Wookiee sia un contrabbandiere con un passato da soldato imperiale. Abbiamo intercettato una trasmissione dal pianeta...
-TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_26,Ian Solo: … può dire quello che vuole, sono sicuro che non era lì! No, non posso chiederglielo... mi stanno attaccando! Sì, d'accordo, continuerò a cercare.
+TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_26,Ian Solo: ... può dire quello che vuole, sono sicuro che non era lì! No, non posso chiederglielo... mi stanno attaccando! Sì, d'accordo, continuerò a cercare.
 TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_27,Mon Mothma: Qualunque sia la sua motivazione, vuole liberare i Wookiee dagli schiavisti imperiali. Credo che dovremmo aiutarlo. Formate un contingente e raggiungete subito Kashyyyk!
 TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_28,Ian Solo: Mettiamo subito in chiaro una cosa: io non intendo combattere per la vostra crociata. Sto cercando un Wookiee. Dopo averlo rintracciato me la squaglio da questo posto.
 TEXT_SPEECH_REBEL_ACT02_MISSION_FIVE_29,Mon Mothma: Siamo qui solo per aiutarla a liberare i Wookiee.
@@ -16074,8 +16073,8 @@ TEXT_SPEECH_TUTORIAL_REBEL_ACT01_37,Suggerimento: le unità di fanteria possono 
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_38,Suggerimento: una diminuzione della barra energia indica che la squadra di fanteria ha subito delle perdite. Utilizza le stazioni mediche bacta per curare le unità di fanteria danneggiate.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_39,Nota: essendo schierato in difesa, puoi utilizzare le unità di guarnigione per rimpiazzare le perdite subite. Queste unità di rinforzo sono disponibili solo in alcune strutture della base ribelle.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_40,Base: Camminatori in avvicinamento!
-TEXT_SPEECH_TUTORIAL_REBEL_ACT01_41,Leader pattuglia: Soldati PLEX, all'attacco!
-TEXT_SPEECH_TUTORIAL_REBEL_ACT01_42,Suggerimento: tutte le unità presentano dei punti di forza che possono essere sfruttati per vincere le battaglie. I soldati PLEX sono efficaci contro le unità corazzate leggere, proprio come questi camminatori AT-ST. Ordina ai soldati PLEX di attaccare gli AT-ST.
+TEXT_SPEECH_TUTORIAL_REBEL_ACT01_41,Leader pattuglia: Soldati Plex, all'attacco!
+TEXT_SPEECH_TUTORIAL_REBEL_ACT01_42,Suggerimento: tutte le unità presentano dei punti di forza che possono essere sfruttati per vincere le battaglie. I soldati Plex sono efficaci contro le unità corazzate leggere, proprio come questi camminatori AT-ST. Ordina ai soldati Plex di attaccare gli AT-ST.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_43,Base: La base è al sicuro!
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_44,Leader pattuglia: Dobbiamo occupare tutte le zone rinforzi a est, altrimenti gli Imperiali continueranno ad attaccare la nostra posizione.
 TEXT_SPEECH_TUTORIAL_REBEL_ACT01_48,Suggerimento: puoi esaminare in qualsiasi momento gli obiettivi della missione cliccando sull'opzione Olocron missione, nella parte sinistra della barra Ordini.
@@ -16243,7 +16242,7 @@ TEXT_SPEECH_UNDERWORLD_TUTORIAL_39,Eccellente. Questi droidi capsula sono l'idea
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_40,Siamo in grado di spiare tutto ciò che succede nei pianeti che abbiamo corrotto. In questo caso, sembra che l'Alleanza ribelle stia difendendo Felucia con un cannone ionico. Odio le sorprese...
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_41,Tutti hanno un prezzo... Usa la mia abilità Corruzione per convincere le unità nemiche a unirsi alla nostra causa.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_42,Le mie navi non hanno alcuna difficoltà ad attraversare i campi di asteroidi, a differenza di quelle imperiali e ribelli! Posso usare questo vantaggio tattico per nascondermi o sfuggire al nemico.
-TEXT_SPEECH_UNDERWORLD_TUTORIAL_43,Questa stazione spaziale ribelle è ben difesa, ma la nostra nave Kedalbe è in grado di assorbire l'energia degli scudi nemici. Ritorciamogli contro i loro stessi scudi!
+TEXT_SPEECH_UNDERWORLD_TUTORIAL_43,Questa stazione spaziale ribelle è ben difesa, ma la nostra nave Keldabe è in grado di assorbire l'energia degli scudi nemici. Ritorciamogli contro i loro stessi scudi!
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_44,Suggerimento: clicca sul pulsante Configurazione base nella schermata dei dettagli planetari oppure muovi la rotellina del mouse per ingrandire 2 volte la visuale e configurare la tua base come preferisci.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_45,Visto che questo pianeta è stato corrotto dalla nostra influenza, riceveremo una taglia per ogni nemico che riusciremo a uccidere. Il crimine paga, a quanto pare.
 TEXT_SPEECH_UNDERWORLD_TUTORIAL_46,Le informazioni che ho ottenuto tramite la corruzione mi hanno permesso di individuare la posizione delle forze di Jabba. Si è stabilito nei pressi di un generatore imperiale.
@@ -16555,7 +16554,7 @@ TEXT_SPEECH_UW_ACT01_M04_58,...Ho capito, dobbiamo evitare un incontro ravvicina
 TEXT_SPEECH_UW_ACT01_M04_59,Esatto. Inoltre, i blaster ionici dei Droideka possono danneggiare anche le unità provviste di scudi.
 TEXT_SPEECH_UW_ACT01_M04_60,La loro estrema versatilità potrebbe tornarci utile. I comandi sono ancora lontani?
 TEXT_SPEECH_UW_ACT01_M04_61,Dovremmo essere quasi arrivati.
-TEXT_SPEECH_UW_ACT01_M04_62,SUGGERIMENTO: i prezzi del mercato nero sono cambiati. Visita i pianeti imperiali e ribelli per vedere gli articoli disponibili.
+TEXT_SPEECH_UW_ACT01_M04_62,Suggerimento: i prezzi del mercato nero sono cambiati. Visita i pianeti imperiali e ribelli per vedere gli articoli disponibili.
 TEXT_SPEECH_UW_ACT01_M04_63,Ora che abbiamo sistemato il verme, possiamo allargare i nostri orizzonti. La nostra influenza aumenta, Urai. Con la sconfitta di Jabba, il Consorzio può affrontare il suo vero nemico... l'Impero.
 TEXT_SPEECH_UW_ACT01_M04_64,E le forze ribelli? Anche loro si stanno rafforzando. Potrebbero diventare un prezioso alleato.
 TEXT_SPEECH_UW_ACT01_M04_65,La loro causa non mi interessa, e non hanno mai fatto niente per me. Per ora li lascerò perdere. Di certo non aiuterò chi non ha mai aiutato il Consorzio.
@@ -16940,7 +16939,7 @@ TEXT_STORY_AETENII_PIR_OBJECTIVE_01a,Distruggi altre quattro capsule di cristall
 TEXT_STORY_AETENII_PIR_OBJECTIVE_01b,Distruggi altre tre capsule di cristalli di stigio.
 TEXT_STORY_AETENII_PIR_OBJECTIVE_01c,Distruggi altre due capsule di cristalli di stigio.
 TEXT_STORY_AETENII_PIR_OBJECTIVE_01d,Distruggi l'ultima capsula di cristalli di stigio.
-TEXT_STORY_AETENII_PIR_OBJECTIVE_NOTICE,NOTA: capsula di cristalli di stigio distrutta.
+TEXT_STORY_AETENII_PIR_OBJECTIVE_NOTICE,Nota: capsula di cristalli di stigio distrutta.
 TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01,Ottieni dieci teste di shaak.
 TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01a,Ottieni altre nove teste di shaak.
 TEXT_STORY_ALZOCIII_INTIMIDATION_OBJECTIVE_01b,Ottieni altre otto teste di shaak.
@@ -17454,23 +17453,23 @@ TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_02,Libera la prigione del Fiume Furioso.
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_03,Libera la prigione delle Cascate nebbiose.
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_04,Distruggi gli alloggi del governatore.
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_05,Avvicina le Sorelle della Notte ai Rancor per farglieli cavalcare.
-TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_06,NOTA: il generatore d'energia della prigione delle Cascate nebbiose è stato distrutto. Torrette difensive disattivate.
-TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_07,NOTA: il generatore d'energia degli alloggi del governatore è stato distrutto. Torrette difensive disattivate.
+TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_06,Nota: il generatore d'energia della prigione delle Cascate nebbiose è stato distrutto. Torrette difensive disattivate.
+TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_07,Nota: il generatore d'energia degli alloggi del governatore è stato distrutto. Torrette difensive disattivate.
 TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_08,Distruggi le tre stazioni di comunicazione imperiali.
-TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_09,NOTA: miniera distrutta. Bonus: 5.000 crediti.
-TEXT_STORY_UW_ACT02_M06_44,NOTA: Tyber Zann è stato ucciso.
-TEXT_STORY_UW_ACT02_M06_45,NOTA: Urai Fen è stato ucciso.
-TEXT_STORY_UW_ACT02_M06_46,NOTA: Silri è stata uccisa.
+TEXT_STORY_UNDERWORLD_ACT02_MISSION_SIX_09,Nota: miniera distrutta. Bonus: 5.000 crediti.
+TEXT_STORY_UW_ACT02_M06_44,Nota: Tyber Zann è stato ucciso.
+TEXT_STORY_UW_ACT02_M06_45,Nota: Urai Fen è stato ucciso.
+TEXT_STORY_UW_ACT02_M06_46,Nota: Silri è stata uccisa.
 TEXT_STORY_UW_ACT02_M06_47,Tyber Zann e Urai Fen devono sopravvivere.
-TEXT_STORY_UW_ACT02_M06_48,SUGGERIMENTO: usa il dispositivo di occultamento personale di Tyber e Urai per superare il Rancor indisturbato.
+TEXT_STORY_UW_ACT02_M06_48,Suggerimento: usa il dispositivo di occultamento personale di Tyber e Urai per superare il Rancor indisturbato.
 TEXT_STORY_UW_ACT02_M06_49,Distruggi il generatore d'energia della prigione della Montagna che canta.
-TEXT_STORY_UW_ACT02_M06_50,NOTA: il generatore d'energia della prigione della Montagna che canta è stato distrutto. Torrette difensive disattivate.
-TEXT_STORY_UW_ACT02_M06_51,SUGGERIMENTO: avvicina una Sorella della Notte a un Rancor per farglielo cavalcare.
-TEXT_STORY_UW_ACT02_M06_52,NOTA: il generatore d'energia della prigione del Fiume furioso è stato distrutto. Torrette difensive disattivate.
+TEXT_STORY_UW_ACT02_M06_50,Nota: il generatore d'energia della prigione della Montagna che canta è stato distrutto. Torrette difensive disattivate.
+TEXT_STORY_UW_ACT02_M06_51,Suggerimento: avvicina una Sorella della Notte a un Rancor per farglielo cavalcare.
+TEXT_STORY_UW_ACT02_M06_52,Nota: il generatore d'energia della prigione del Fiume furioso è stato distrutto. Torrette difensive disattivate.
 TEXT_STORY_UW_ACT02_M06_53,Tyber Zann, Urai Fen e Silri devono sopravvivere.
-TEXT_STORY_UW_ACT02_M06_54,NOTA: il governatore imperiale ha iniziato a chiamare rinforzi. Distruggi le tre stazioni di comunicazione imperiali per scongiurare altri sbarchi.
-TEXT_STORY_UW_ACT02_M06_55,NOTA: stazione di comunicazione distrutta.
-TEXT_STORY_UW_ACT02_M06_56,SUGGERIMENTO: le torri di guardia possono rilevare le unità invisibili.
+TEXT_STORY_UW_ACT02_M06_54,Nota: il governatore imperiale ha iniziato a chiamare rinforzi. Distruggi le tre stazioni di comunicazione imperiali per scongiurare altri sbarchi.
+TEXT_STORY_UW_ACT02_M06_55,Nota: stazione di comunicazione distrutta.
+TEXT_STORY_UW_ACT02_M06_56,Suggerimento: le torri di guardia possono rilevare le unità invisibili.
 TEXT_STRUCTURE_ABANDONED_UPLINK_STATION,Sistema di comunicazione imperiale abbandonato
 TEXT_STRUCTURE_BOTHAN_HOUSE,Abitazione Bothan
 TEXT_STRUCTURE_CIVILIAN_ARCTIC,Abitazione clima rigido
@@ -18131,7 +18130,7 @@ TEXT_TOOLTIP_GARRISON_ES_05,Guarnigione: Caccia TIE, Bombardiere TIE, Incrociato
 TEXT_TOOLTIP_GARRISON_FACTORY,Guarnigione: Carro impulsi MZ-8
 TEXT_TOOLTIP_GARRISON_INFILT,Guarnigione: Infiltratore
 TEXT_TOOLTIP_GARRISON_OFFICER,Guarnigione: Comandante in campo
-TEXT_TOOLTIP_GARRISON_R_BARRACKS,Guarnigione: Soldato ribelle, Soldato PLEX
+TEXT_TOOLTIP_GARRISON_R_BARRACKS,Guarnigione: Soldato ribelle, Soldato Plex
 TEXT_TOOLTIP_GARRISON_R_HVYFAC,Guarnigione: MPTL, Ricognitore
 TEXT_TOOLTIP_GARRISON_R_LTFAC,Guarnigione: Carro armato T2-B
 TEXT_TOOLTIP_GARRISON_RS_01,Guarnigione: X-Wing, Y-Wing
@@ -18215,7 +18214,7 @@ TEXT_TOOLTIP_INTERRUPTED_PRODUCTION,Una flotta nemica ha interrotto la produzion
 TEXT_TOOLTIP_IONC_BUTTON,Apri il fuoco con cannone ionico
 TEXT_TOOLTIP_IPV,Incrociatore da pattuglia progettato per sorvegliare i territori dell'Orlo Esterno, efficace contro corvette e navi dei pirati.
 TEXT_TOOLTIP_JUGGERNAUT,Versione più leggera dello Juggernaut impiegato nelle Guerre dei Cloni, ma sempre pesantemente corazzato, il B5 può trasportare unità di fanteria e veicoli leggeri.
-TEXT_TOOLTIP_KEDALBE_BATTLESHIP,Gli incrociatori classe Kedalbe, prodotti dalla Mandal Hypernautics, prendono il nome dalla capitale del pianeta Mandalore. Sono navi principali di grandi dimensioni in grado di competere con gli Star Destroyer imperiali.
+TEXT_TOOLTIP_KEDALBE_BATTLESHIP,Gli incrociatori classe Keldabe, prodotti dalla Mandal Hypernautics, prendono il nome dalla capitale del pianeta Mandalore. Sono navi principali di grandi dimensioni in grado di competere con gli Star Destroyer imperiali.
 TEXT_TOOLTIP_KRAYT_DESTROYER,I mega-cannoni doppi degli incrociatori Krayt possono distruggere gran parte delle navi più lente.
 TEXT_TOOLTIP_KRAYT_DESTRUCT_DESCRIPTION,Provoca una reazione a catena nei cannoni principali, causando un'esplosione devastante.
 TEXT_TOOLTIP_KYLE_KATARN,Un ex-agente speciale imperiale convertitosi alla causa dell'Alleanza dopo aver scoperto che l'Impero aveva ordinato l'esecuzione di suo padre. Kyle è in grado di maneggiare molti tipi di armi e di piazzare potenti cariche esplosive.
@@ -18274,7 +18273,7 @@ TEXT_TOOLTIP_PIETT_SD,Incrociatore pesante d'assalto dell'Impero, armato con 4 b
 TEXT_TOOLTIP_PIRATE,Mercenario Black Sun feroce e spietato. Ogni squadra è formata da 3 brigate di (3 pirati ciascuna).
 TEXT_TOOLTIP_PIRATE_FIGHTER,Caccia pesante armato con cannoni laser e progettato per infliggere più danni possibile senza sacrificare la resistenza dello scafo. Ogni squadra è formata da 5 caccia.
 TEXT_TOOLTIP_PIRATE_FRIGATE,Incrociatore armato con 2 batterie turbolaser e 1 bocca dei siluri protonici progettato per eliminare convogli mercantili e navi di scorta leggere.
-TEXT_TOOLTIP_PIRATEPLEX,Mercenario Black Sun armato con un lanciarazzi PLEX particolarmente efficace contro veicoli e strutture. Ogni squadra è formata da 2 brigate (3 pirati ciascuna).
+TEXT_TOOLTIP_PIRATEPLEX,Mercenario Black Sun armato con un lanciarazzi Plex particolarmente efficace contro veicoli e strutture. Ogni squadra è formata da 2 brigate (3 pirati ciascuna).
 TEXT_TOOLTIP_PLANET_CORRUPTION_INCOME,Reddito corruzione: %+d
 TEXT_TOOLTIP_PLASMAC_BUTTON,Usa cannone al plasma
 TEXT_TOOLTIP_PLEX,Soldato armato di lanciarazzi a lungo raggio capace di infliggere gravi danni a veicoli e strutture. Ogni squadra è formata da 2 brigate (3 soldati ciascuna).
@@ -18506,7 +18505,7 @@ TEXT_TUTORIAL_CHAP_05_04,Obiettivo: trascina la flotta su Alderaan
 TEXT_TUTORIAL_CHAP_07_00,Tutorial 7: missioni dell'arco narrativo
 TEXT_TUTORIAL_CHAP_07_01,Esempio di missione dell'arco narrativo
 TEXT_TUTORIAL_CHAP_07_02,Questo è un esempio di missione dell'arco narrativo. In genere questo testo viene letto da un eroe (in questo caso il generale Dodonna) che fornisce informazioni dettagliate sulla prossima missione da completare. Per portare a termine l'incarico devi seguire le istruzioni riportate nella seguente linea di testo.
-TEXT_TUTORIAL_CHAP_07_03,OBIETTIVO: trascina una flotta su Alderaan
+TEXT_TUTORIAL_CHAP_07_03,Obiettivo: trascina una flotta su Alderaan
 TEXT_TUTORIAL_CHAP_07_04,Complimenti, hai completato l'intero arco narrativo! In genere l'eroe ti comunica i risultati ottenuti, affidandoti un nuovo incarico o assegnandoti una ricompensa.
 TEXT_TUTORIAL_CHAP_07_05,RICOMPENSA: 50.000 crediti e una nuova nave!
 TEXT_TUTORIAL_CHAP_07_06,Obiettivo: completa la missione dell'arco narrativo per continuare
@@ -18591,7 +18590,7 @@ TEXT_UNIT_JEDI_CRUISER,Incrociatore classe Venator
 TEXT_UNIT_JOHN_XWING,John D Branon (Rosso 4)
 TEXT_UNIT_JUGGERNAUT,HAVt B5 Juggernaut
 TEXT_UNIT_JUGGERNAUT_TEAM,Squadra HAVt B5 Juggernaut
-TEXT_UNIT_KEDALBE_BATTLESHIP,Incrociatore classe Kedalbe
+TEXT_UNIT_KEDALBE_BATTLESHIP,Incrociatore classe Keldabe
 TEXT_UNIT_KRAYT_DESTROYER,Incrociatore classe Krayt
 TEXT_UNIT_LANCET,Artiglieria aerea Lancet
 TEXT_UNIT_LUKE_XWING,Luke Skywalker (Rosso 5)
@@ -18619,7 +18618,7 @@ TEXT_UNIT_PIRATE_LEADER,Leader pirata
 TEXT_UNIT_PIRATE_PLEX,Soldato lanciarazzi pirata
 TEXT_UNIT_PIRATE_SKIFF,Navetta pirata
 TEXT_UNIT_PIRATE_SOLDIER,Soldato pirata
-TEXT_UNIT_PLEX_SOLDIER,Soldato lanciarazzi PLEX
+TEXT_UNIT_PLEX_SOLDIER,Soldato lanciarazzi Plex
 TEXT_UNIT_POD_WALKER,Camminatore capsula
 TEXT_UNIT_POD_WALKER_COMPANY,Camminatori capsula
 TEXT_UNIT_PORKINS_XWING,Jek Porkins (Rosso 6)
@@ -18801,7 +18800,7 @@ TEXT_UPGRADE_RL_LIGHT_ARMOR_L2,Corazza leggera Liv 2
 TEXT_UPGRADE_RL_MORE_GARRISONS_L1,Unità di guarnigione aggiuntive
 TEXT_UPGRADE_RL_MPTL_RESEARCH,Ricerca: Artiglieria MPTL
 TEXT_UPGRADE_RL_ORBITAL_BOMBARD_TOOLTIP,Le navi principali presenti in orbita possono attaccare la superficie del pianeta con i cannoni ionici.
-TEXT_UPGRADE_RL_PLEX_SOLDIER_RESEARCH,Ricerca: Soldato PLEX
+TEXT_UPGRADE_RL_PLEX_SOLDIER_RESEARCH,Ricerca: Soldato Plex
 TEXT_UPGRADE_RL_REINFORCED_STRUCTURES,Strutture rinforzate
 TEXT_UPGRADE_RL_SNOWSPEEDER_RESEARCH,Ricerca: Squadra speeder
 TEXT_UPGRADE_RL_T2B_RESEARCH,Ricerca: Carro armato T2-B
@@ -18914,10 +18913,10 @@ TEXT_UPGRADE_TOOLTIP_RL_INCREASED_PRODUCTION_L2,Aumenta del 40% la quantità di 
 TEXT_UPGRADE_TOOLTIP_RL_INFILTRATOR_RESEARCH,Consente di richiedere degli infiltratori di rinforzo dai sistemi vicini.
 TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L1,Riduce del 25% i danni subiti dai carri armati T2-B, dagli speeder e camminatore capsula.
 TEXT_UPGRADE_TOOLTIP_RL_LIGHT_ARMOR_L2,Riduce del 50% i danni subiti dai carri armati T2-B, dagli speeder e camminatore capsula.
-TEXT_UPGRADE_TOOLTIP_RL_MORE_GARRISONS_L1,Aggiunge altri soldati PLEX e carri armati T2-B alle unità di guarnigione gratuite.
-TEXT_UPGRADE_TOOLTIP_RL_MORE_GARRISONS_L1-TEMP,Aggiunge altri soldati PLEX e carri armati T4-B alle unità di guarnigione gratuite.
+TEXT_UPGRADE_TOOLTIP_RL_MORE_GARRISONS_L1,Aggiunge altri soldati Plex e carri armati T2-B alle unità di guarnigione gratuite.
+TEXT_UPGRADE_TOOLTIP_RL_MORE_GARRISONS_L1-TEMP,Aggiunge altri soldati Plex e carri armati T4-B alle unità di guarnigione gratuite.
 TEXT_UPGRADE_TOOLTIP_RL_MPTL_RESEARCH,Consente di richiedere dell'artiglieria MPTL di rinforzo dai sistemi vicini.
-TEXT_UPGRADE_TOOLTIP_RL_PLEX_SOLDIER_RESEARCH,Consente di richiedere dei soldati PLEX di rinforzo dai sistemi vicini.
+TEXT_UPGRADE_TOOLTIP_RL_PLEX_SOLDIER_RESEARCH,Consente di richiedere dei soldati Plex di rinforzo dai sistemi vicini.
 TEXT_UPGRADE_TOOLTIP_RL_REINFORCED_STRUCTURES,Riduce del 25% i danni subiti dalle strutture.
 TEXT_UPGRADE_TOOLTIP_RL_SNOWSPEEDER_RESEARCH,Consente di richiedere una squadra di speeder di rinforzo dai sistemi vicini.
 TEXT_UPGRADE_TOOLTIP_RL_T2B_RESEARCH,Consente di richiedere dei carri armati T2-B di rinforzo dai sistemi vicini.
@@ -18973,7 +18972,7 @@ TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L1,Aumenta del 25% i danni inflitti da
 TEXT_UPGRADE_TOOLTIP_US_CARBONITE_COOLANT_L2,Aumenta del 25% i danni inflitti dalle fregate Vengeance e dagli incrociatori Krayt.
 TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L1,La corazza dei caccia Starviper deflette il 25% dei colpi di laser nemici.
 TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L2,La corazza dei caccia Starviper e delle navi Crusader deflette il 30% dei colpi di laser nemici.
-TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,La corazza dei caccia Starviper, delle navi Crusader e degli incrociatori Kedalbe deflette il 30% dei colpi di laser nemici.
+TEXT_UPGRADE_TOOLTIP_US_MAGNETIC_ARMOR_L3,La corazza dei caccia Starviper, delle navi Crusader e degli incrociatori Keldabe deflette il 30% dei colpi di laser nemici.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L1,Aumenta del 25% la durata dell'invisibilità delle fregate Vengeance.
 TEXT_UPGRADE_TOOLTIP_US_MODIFIED_CLOAKING_GENERATOR_L2,Aumenta del 50% la durata dell'invisibilità delle fregate Vengeance e della Peacebringer.
 TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L1,Riduce del 15% i danni subiti dalle stazioni spaziali della Malavita.
@@ -18982,8 +18981,8 @@ TEXT_UPGRADE_TOOLTIP_US_REINFORCED_STRUCTURE_L3,Riduce del 40% i danni subiti da
 TEXT_UPGRADE_TOOLTIP_US_SPECIAL_WEAPON_USE,Consente di aprire il fuoco con il cannone al plasma della stazione spaziale.
 TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L1,La velocità di fuoco delle navi da guerra Crusader aumenta del 15%
 TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L2,La velocità di fuoco delle navi da guerra Crusader e delle fregate Interceptor IV aumenta del 15%
-TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L3,La velocità di fuoco delle navi da guerra Crusader, delle fregate Interceptor IV e degli incrociatori Kedalbe aumenta del 15%
-TEXT_UPGRADE_TOOLTIP_UTAPAU_KEDALBE_SHIELD,Controllando Utapau, la resistenza degli scudi degli incrociatori classe Kedalbe aumenta del 25%.
+TEXT_UPGRADE_TOOLTIP_US_TARGETING_SYSTEMS_L3,La velocità di fuoco delle navi da guerra Crusader, delle fregate Interceptor IV e degli incrociatori Keldabe aumenta del 15%
+TEXT_UPGRADE_TOOLTIP_UTAPAU_KEDALBE_SHIELD,Controllando Utapau, la resistenza degli scudi degli incrociatori classe Keldabe aumenta del 25%.
 TEXT_UPGRADE_U_EXTORT_CASH_L1,Estorsione (Liv 1)
 TEXT_UPGRADE_U_EXTORT_CASH_L2,Estorsione (Liv 2)
 TEXT_UPGRADE_UL_BLACKMARKET_SHIELDING_L1,Scudi strutture (Liv 1)
@@ -19019,7 +19018,7 @@ TEXT_UPGRADE_US_SPECIAL_WEAPON_USE,Cannone al plasma
 TEXT_UPGRADE_US_TARGETING_SYSTEMS_L1,Sistemi di puntamento (Liv 1)
 TEXT_UPGRADE_US_TARGETING_SYSTEMS_L2,Sistemi di puntamento (Liv 2)
 TEXT_UPGRADE_US_TARGETING_SYSTEMS_L3,Sistemi di puntamento (Liv 3)
-TEXT_UPGRADE_UTAPAU_KEDALBE_SHIELD,Potenziamento scudi (Kedalbe)
+TEXT_UPGRADE_UTAPAU_KEDALBE_SHIELD,Potenziamento scudi (Keldabe)
 TEXT_UPGRADES,Potenziamenti
 TEXT_UPLOAD_PROGRESS,Avanzamento upload:
 TEXT_UPLOADING_MAP_TO_PLAYER,Upload delle mappe al giocatore in corso:
@@ -19029,58 +19028,58 @@ TEXT_UPNP_FRAMEWORK_ENABLED,Struttura UPnP:
 TEXT_US,USA
 TEXT_USE_DEFAULT_PORT,Usa porta predefinita
 TEXT_USE_WINDOWS_FIREWALL,Ignora firewall di Windows
-TEXT_UW_ACT01_G01_05,OBIETTIVO: produci un corruttore.
-TEXT_UW_ACT01_G01_08,OBIETTIVO: trascina il corruttore appena prodotto nello slot DIFFONDI CORRUZIONE di Honoghr.
+TEXT_UW_ACT01_G01_05,Obiettivo: produci un corruttore.
+TEXT_UW_ACT01_G01_08,Obiettivo: trascina il corruttore appena prodotto nello slot DIFFONDI CORRUZIONE di Honoghr.
 TEXT_UW_ACT01_G01_10,Il Consorzio Zann ottiene numerosi benefici dalla corruzione. Per produrre unità è necessario controllare i pianeti, ma per guadagnare crediti basta la semplice corruzione.
 TEXT_UW_ACT01_G01_11,A livello galattico, la corruzione genera un costante afflusso di crediti per ogni pianeta corrotto, unendoli in una vasta rete commerciale. Inoltre, consente alle flotte del Consorzio Zann di spostarsi nei sistemi nemici pagando delle tangenti. La corruzione possiede anche una limitata funzione di spionaggio, permettendo di vedere alcuni dettagli dei pianeti nemici e delle forze schierate in loro difesa. Infine, la corruzione aumenta il tempo di produzione per le unità dell'Impero e il costo di produzione per quelle dell'Alleanza.
 TEXT_UW_ACT01_G01_12,Nelle battaglie tattiche, la corruzione fornisce al Consorzio Zann un compenso in denaro per ogni unità imperiale o ribelle distrutta in combattimento.
 TEXT_UW_ACT01_G01_13,La corruzione garantisce dei benefici anche ai nemici del Consorzio. Per esempio, i contrabbandieri sono sempre disponibili nei pianeti corrotti, i cacciatori di taglie chiedono meno crediti per rimuovere un eroe e le unità prodotte nei locali e nei palazzi degli Hutt sono più economiche. Per il Consorzio, corrompere un pianeta è molto più vantaggioso che conquistarlo, ma ricorda che non puoi produrre nuove unità sui pianeti che non controlli.
 TEXT_UW_ACT01_G01_14,Alcuni eroi nemici possono impedire la diffusione della corruzione, e molti altri sono in grado di rimuoverla in un certo lasso di tempo.
 TEXT_UW_ACT01_G01_15,Ora che Honoghr è stato corrotto da Tyber Zann, puoi ottenere maggiori informazioni sul pianeta. Il tuo reddito giornaliero è aumentato, ma puoi incrementarlo ulteriormente corrompendo altri pianeti. Attenzione: entrambe le fazioni nemiche possono vedere la tua corruzione.
-TEXT_UW_ACT01_G01_22,OBIETTIVO: usa un corruttore per creare un'organizzazione dedita all'estorsione su Shola.
-TEXT_UW_ACT01_G01_23,SUGGERIMENTO: clicca sul pulsante dell'Olocron per ottenere maggiori informazioni sulla missione in corso.
+TEXT_UW_ACT01_G01_22,Obiettivo: usa un corruttore per creare un'organizzazione dedita all'estorsione su Shola.
+TEXT_UW_ACT01_G01_23,Suggerimento: clicca sul pulsante dell'Olocron per ottenere maggiori informazioni sulla missione in corso.
 TEXT_UW_ACT01_G01_26,Tutorial: Corrompere i pianeti I
 TEXT_UW_ACT01_G01_27,Tutorial: Corrompere i pianeti II
-TEXT_UW_ACT01_G01_29,OBIETTIVO: seleziona l'opzione INTIMIDAZIONE dal menu Corruzione.
-TEXT_UW_ACT01_G01_30,OBIETTIVO: corrompi Mandalore usando la PIRATERIA.
+TEXT_UW_ACT01_G01_29,Obiettivo: seleziona l'opzione INTIMIDAZIONE dal menu Corruzione.
+TEXT_UW_ACT01_G01_30,Obiettivo: corrompi Mandalore usando la PIRATERIA.
 TEXT_UW_ACT01_G01_31,Corruttori richiesti.
 TEXT_UW_ACT01_G01_32,Missione del corruttore.
 TEXT_UW_ACT01_G01_33,Missione secondaria del corruttore.
 TEXT_UW_ACT01_G01_34,Pirateria a Mandalore
-TEXT_UW_ACT01_G02_11,OBIETTIVO: schiera Urai Fen su Shola. Ottieni il controllo del pianeta e recupera il manufatto Sith.
+TEXT_UW_ACT01_G02_11,Obiettivo: schiera Urai Fen su Shola. Ottieni il controllo del pianeta e recupera il manufatto Sith.
 TEXT_UW_ACT01_G02_12,Regolamento di conti con Jabba
 TEXT_UW_ACT01_G02_13,Jabba pensava di impossessarsi dei miei pianeti e ottenere il controllo del Consorzio. Shola era uno dei miei depositi per la merce di contrabbando, e Jabba non ha esitato a rubare tutto quello che avevo. Purtroppo, Urai aveva scelto proprio Shola per nascondere il manufatto Sith. Dobbiamo riprendercelo e distruggere le forze di Jabba prima che lo scoprano.
-TEXT_UW_ACT01_G03_08,OBIETTIVO: inserisci Tyber Zann in una flotta e spostala su Yavin IV.
-TEXT_UW_ACT01_G03_09,SUGGERIMENTO: corrompendo pianeti adiacenti, potrai passare indisturbato pagando una semplice tangente.
-TEXT_UW_ACT01_G05_01,OBIETTIVO: usa un corruttore per aprire un mercato nero su Kuat.
-TEXT_UW_ACT01_G05_02,OBIETTIVO: trascina Tyber Zann nello slot ACQUISTA di Kuat.
-TEXT_UW_ACT01_G05_04,OBIETTIVO: acquista la Tecnologia disgregazione.
-TEXT_UW_ACT01_G05_05,SUGGERIMENTO: dopo aver avuto accesso al mercato nero, il tuo eroe viene temporaneamente rimosso dalla mappa di gioco. Questo periodo di indisponibilità varia a seconda dell'eroe.
+TEXT_UW_ACT01_G03_08,Obiettivo: inserisci Tyber Zann in una flotta e spostala su Yavin IV.
+TEXT_UW_ACT01_G03_09,Suggerimento: corrompendo pianeti adiacenti, potrai passare indisturbato pagando una semplice tangente.
+TEXT_UW_ACT01_G05_01,Obiettivo: usa un corruttore per aprire un mercato nero su Kuat.
+TEXT_UW_ACT01_G05_02,Obiettivo: trascina Tyber Zann nello slot ACQUISTA di Kuat.
+TEXT_UW_ACT01_G05_04,Obiettivo: acquista la Tecnologia disgregazione.
+TEXT_UW_ACT01_G05_05,Suggerimento: dopo aver avuto accesso al mercato nero, il tuo eroe viene temporaneamente rimosso dalla mappa di gioco. Questo periodo di indisponibilità varia a seconda dell'eroe.
 TEXT_UW_ACT01_G05_06,La tecnologia del Consorzio Zann progredisce in modo diverso da quanto avviene per le altre fazioni. In genere tutte le sue unità sono disponibili fin dall'inizio, mentre le abilità speciali devono essere acquistate sul mercato nero. In questo modo, con l'avanzare del gioco le unità diventano sempre più potenti.
 TEXT_UW_ACT01_G05_07,Per accedere al mercato nero devi prima corrompere il pianeta che lo ospita. Dopodiché potrai trascinare Tyber Zann, Urai Fen o un altro eroe del Consorzio nello slot Mercato Nero del pianeta.
 TEXT_UW_ACT01_G05_08,Ogni eroe ha un diverso effetto sul mercato nero a cui accede. Tyber Zann riduce di un'unità il livello tecnologico richiesto, mentre Urai Fen ottiene più velocemente nuove tecnologie. Naturalmente, queste abilità modificano sensibilmente il prezzo che andrai a pagare.
 TEXT_UW_ACT01_G05_09,Tyber Zann ha avuto accesso al mercato nero. Dato che Kuat è un pianeta dell'Impero, sono disponibili solo le tecnologie possedute da questa fazione. Sui pianeti ribelli, ovviamente, potrai acquistare tecnologie differenti. Come puoi vedere, alcuni articoli in vendita sono relativamente economici, mentre altri sono estremamente costosi. Ogni abilità è associata a uno specifico livello tecnologico nemico (il Consorzio Zann non ha livelli tecnologici). Per questo motivo, il Consorzio deve gestire la propria espansione in base al progresso tecnologico del nemico. Quando l'Impero avanzerà di un livello, il prezzo delle tecnologie associate ai livelli inferiori calerà bruscamente.
-TEXT_UW_ACT01_G05_10,SUGGERIMENTO: sposta il puntatore del mouse sopra una tecnologia per esaminarne gli effetti e scoprire quali unità del Consorzio Zann verranno interessate.
+TEXT_UW_ACT01_G05_10,Suggerimento: sposta il puntatore del mouse sopra una tecnologia per esaminarne gli effetti e scoprire quali unità del Consorzio Zann verranno interessate.
 TEXT_UW_ACT01_G05_15,Aprire un mercato nero
 TEXT_UW_ACT01_G05_16,Ricognizione di Tyber
-TEXT_UW_ACT01_G06_08,OBIETTIVO: inserisci Urai Fen in una forza terrestre e spostala su Saleucami. Schiera Urai Fen sul pianeta per dare inizio alla missione.
+TEXT_UW_ACT01_G06_08,Obiettivo: inserisci Urai Fen in una forza terrestre e spostala su Saleucami. Schiera Urai Fen sul pianeta per dare inizio alla missione.
 TEXT_UW_ACT01_G06_09,Intercettazioni pericolose
 TEXT_UW_ACT01_G06_10,Jabba the Hutt si è introdotto nel sistema di comunicazione di Tyber Zann. Tuttavia, gli uomini del Consorzio hanno scoperto che il suo segnale proviene da un avamposto di comunicazione su Saleucami. Jabba la pagherà cara. Userò la mia squadra d'assalto per stabilire una testa di ponte, in modo che le nostre forze terrestri possano occupare Saleucami.
-TEXT_UW_ACT01_G06_11,OBIETTIVO: produci un corruttore e trascinalo nello slot SABOTAGGIO di Saleucami.
-TEXT_UW_ACT01_G06_12,OBIETTIVO: distruggi il generatore degli scudi di Saleucami.
-TEXT_UW_ACT01_G06_13,OBIETTIVO: per compiere un atto di sabotaggio, devi prima corrompere il pianeta. Fallo nel modo che ritieni opportuno.
+TEXT_UW_ACT01_G06_11,Obiettivo: produci un corruttore e trascinalo nello slot SABOTAGGIO di Saleucami.
+TEXT_UW_ACT01_G06_12,Obiettivo: distruggi il generatore degli scudi di Saleucami.
+TEXT_UW_ACT01_G06_13,Obiettivo: per compiere un atto di sabotaggio, devi prima corrompere il pianeta. Fallo nel modo che ritieni opportuno.
 TEXT_UW_ACT01_G06_16,Corruzione su Saleucami
 TEXT_UW_ACT01_G06_17,Sabotaggio su Saleucami
-TEXT_UW_ACT01_G07_08,OBIETTIVO: inserisci Tyber Zann in una forza terrestre e poi schieralo su Hypori.
+TEXT_UW_ACT01_G07_08,Obiettivo: inserisci Tyber Zann in una forza terrestre e poi schieralo su Hypori.
 TEXT_UW_ACT01_M01_GOAL_01,Tyber Zann deve sopravvivere.
 TEXT_UW_ACT01_M01_GOAL_02,Raggiungi il Millennium Falcon con Tyber Zann.
 TEXT_UW_ACT01_M01_GOAL_03,Urai Fen deve sopravvivere.
 TEXT_UW_ACT01_M01_GOAL_04,Distruggi i Soldati Oscuri che sorvegliano l'uscita.
-TEXT_UW_ACT01_M01_HINT_01,SUGGERIMENTO: raccogli i container di spezia per guadagnare crediti.
-TEXT_UW_ACT01_M01_HINT_02,SUGGERIMENTO: i prigionieri che vedono Tyber si uniranno alla rivolta.
-TEXT_UW_ACT01_M01_HINT_03,SUGGERIMENTO: se vengono distrutti, alcuni container esplodono violentemente.
-TEXT_UW_ACT01_M01_HINT_04,SUGGERIMENTO: alcune porte possono essere aperte solo distruggendone i comandi.
-TEXT_UW_ACT01_M01_HINT_05,SUGGERIMENTO: usa l'abilità Corruzione per convincere i tuoi nemici a unirsi al Consorzio.
+TEXT_UW_ACT01_M01_HINT_01,Suggerimento: raccogli i container di spezia per guadagnare crediti.
+TEXT_UW_ACT01_M01_HINT_02,Suggerimento: i prigionieri che vedono Tyber si uniranno alla rivolta.
+TEXT_UW_ACT01_M01_HINT_03,Suggerimento: se vengono distrutti, alcuni container esplodono violentemente.
+TEXT_UW_ACT01_M01_HINT_04,Suggerimento: alcune porte possono essere aperte solo distruggendone i comandi.
+TEXT_UW_ACT01_M01_HINT_05,Suggerimento: usa l'abilità Corruzione per convincere i tuoi nemici a unirsi al Consorzio.
 TEXT_UW_ACT01_M02_B_COUNT_00,Relitti esaminati: 0 su 4.
 TEXT_UW_ACT01_M02_B_COUNT_01,Relitti esaminati: 1 su 4.
 TEXT_UW_ACT01_M02_B_COUNT_02,Relitti esaminati: 2 su 4.
@@ -19102,16 +19101,16 @@ TEXT_UW_ACT01_M02_GOAL_01,Perlustra la zona con Tyber Zann e trova le 4 capsule 
 TEXT_UW_ACT01_M02_GOAL_02,Tyber Zann deve sopravvivere.
 TEXT_UW_ACT01_M02_GOAL_03,Esamina 4 relitti.
 TEXT_UW_ACT01_M02_GOAL_04,Saccheggia 4 navette ribelli.
-TEXT_UW_ACT01_M02_HINT_01,SUGGERIMENTO: sposta Tyber Zann vicino alle capsule dati per recuperarle.
-TEXT_UW_ACT01_M02_HINT_02,SUGGERIMENTO: distruggi la fregata pirata per recuperare la capsula dati. Evita qualsiasi scontro con le forze nemiche.
-TEXT_UW_ACT01_M02_HINT_03,SUGGERIMENTO: cattura le navette ribelli per depredarle.
-TEXT_UW_ACT01_M02_HINT_04,SUGGERIMENTO: avvicinati al relitto per recuperare tutte le risorse di un certo valore.
-TEXT_UW_ACT01_M02_NOTICE_01,NOTA: gli incrociatori da pattuglia Tartan hanno tradito l'Impero per unirsi al Consorzio. Ora sono a tua completa disposizione.
+TEXT_UW_ACT01_M02_HINT_01,Suggerimento: sposta Tyber Zann vicino alle capsule dati per recuperarle.
+TEXT_UW_ACT01_M02_HINT_02,Suggerimento: distruggi la fregata pirata per recuperare la capsula dati. Evita qualsiasi scontro con le forze nemiche.
+TEXT_UW_ACT01_M02_HINT_03,Suggerimento: cattura le navette ribelli per depredarle.
+TEXT_UW_ACT01_M02_HINT_04,Suggerimento: avvicinati al relitto per recuperare tutte le risorse di un certo valore.
+TEXT_UW_ACT01_M02_NOTICE_01,Nota: gli incrociatori da pattuglia Tartan hanno tradito l'Impero per unirsi al Consorzio. Ora sono a tua completa disposizione.
 TEXT_UW_ACT01_M03_GOAL_01,Riconquista una zona rinforzi.
 TEXT_UW_ACT01_M03_GOAL_02,Distruggi tutte le forze degli Hutt rimaste.
 TEXT_UW_ACT01_M03_GOAL_03,La stazione di comunicazione deve restare intatta.
-TEXT_UW_ACT01_M03_HINT_01,SUGGERIMENTO: usa il dispositivo di occultamento personale di Urai Fen per superare indisturbato lo schieramento nemico.
-TEXT_UW_ACT01_M03_HINT_02,SUGGERIMENTO: usa lo storditore sonico di Urai Fen per neutralizzare diverse unità di fanteria simultaneamente.
+TEXT_UW_ACT01_M03_HINT_01,Suggerimento: usa il dispositivo di occultamento personale di Urai Fen per superare indisturbato lo schieramento nemico.
+TEXT_UW_ACT01_M03_HINT_02,Suggerimento: usa lo storditore sonico di Urai Fen per neutralizzare diverse unità di fanteria simultaneamente.
 TEXT_UW_ACT01_M04_GOAL_01,Conquista tutte le zone rinforzi.
 TEXT_UW_ACT01_M04_GOAL_02,Raggiungi la fabbrica con Urai Fen per ottenere nuovi droidi.
 TEXT_UW_ACT01_M04_GOAL_03,Tyber Zann deve sopravvivere.
@@ -19119,32 +19118,32 @@ TEXT_UW_ACT01_M04_GOAL_04,Urai Fen deve sopravvivere.
 TEXT_UW_ACT01_M04_GOAL_05,La fabbrica di droidi non deve essere distrutta.
 TEXT_UW_ACT01_M04_GOAL_06,Raggiungi i comandi con Urai Fen e disattiva i droidi.
 TEXT_UW_ACT01_M04_GOAL_07,Bossk deve sopravvivere.
-TEXT_UW_ACT01_M04_HINT_01,SUGGERIMENTO: raggiungi i comandi con Urai Fen per disattivare i droidi.
-TEXT_UW_ACT01_M04_HINT_02,SUGGERIMENTO: raggiungi la fabbrica di droidi con Urai Fen per conquistarla.
-TEXT_UW_ACT01_M04_HINT_03,SUGGERIMENTO: ora la fabbrica fornirà al Consorzio una quantità illimitata di droidi distruttori.
-TEXT_UW_ACT02_G09_12,OBIETTIVO: sconfiggi i pirati in orbita intorno a Mandalore.
+TEXT_UW_ACT01_M04_HINT_01,Suggerimento: raggiungi i comandi con Urai Fen per disattivare i droidi.
+TEXT_UW_ACT01_M04_HINT_02,Suggerimento: raggiungi la fabbrica di droidi con Urai Fen per conquistarla.
+TEXT_UW_ACT01_M04_HINT_03,Suggerimento: ora la fabbrica fornirà al Consorzio una quantità illimitata di droidi distruttori.
+TEXT_UW_ACT02_G09_12,Obiettivo: sconfiggi i pirati in orbita intorno a Mandalore.
 TEXT_UW_ACT02_G09_15,Un proficuo voltafaccia
 TEXT_UW_ACT02_G09_16,Dopo aver compiuto atti di pirateria contro i convogli della Mandal Hypernautics, Tyber Zann cerca un modo per sfruttare al massimo la situazione. Distruggendo i pirati che lui stesso ha inviato, otterrà grandi sconti e nuovi modelli di navi dalla Mandal Hypernautics.
-TEXT_UW_ACT02_G09_17,OBIETTIVO: distruggi la flotta dei pirati in orbita intorno a Mandalore.
+TEXT_UW_ACT02_G09_17,Obiettivo: distruggi la flotta dei pirati in orbita intorno a Mandalore.
 TEXT_UW_ACT02_G09_18,BONUS: ora è possibile produrre la nave da guerra classe Crusader.
-TEXT_UW_ACT02_G10_07,SUGGERIMENTO: i corruttori possono danneggiare i pianeti nemici, sempre che siano già stati corrotti.
-TEXT_UW_ACT02_G10_08,OBIETTIVO: sabota il rilevatore orbitale a lungo raggio di Dathomir.
-TEXT_UW_ACT02_G10_09,SUGGERIMENTO: se hai crediti sufficienti, puoi distruggere qualsiasi struttura nemica su un pianeta corrotto o in orbita (eccetto le stazioni spaziali).
-TEXT_UW_ACT02_G10_10,OBIETTIVO: sabota il rilevatore orbitale a lungo raggio di Dathomir.
-TEXT_UW_ACT02_G10_11,SUGGERIMENTO: con il sabotaggio puoi indebolire i pianeti altrimenti inespugnabili. Tuttavia, alcuni eroi nemici possono sventare gli atti di sabotaggio.
-TEXT_UW_ACT02_G10_13,OBIETTIVO: sposta Tyber Zann e Urai Fen su Dathomir per dare inizio alla missione.
+TEXT_UW_ACT02_G10_07,Suggerimento: i corruttori possono danneggiare i pianeti nemici, sempre che siano già stati corrotti.
+TEXT_UW_ACT02_G10_08,Obiettivo: sabota il rilevatore orbitale a lungo raggio di Dathomir.
+TEXT_UW_ACT02_G10_09,Suggerimento: se hai crediti sufficienti, puoi distruggere qualsiasi struttura nemica su un pianeta corrotto o in orbita (eccetto le stazioni spaziali).
+TEXT_UW_ACT02_G10_10,Obiettivo: sabota il rilevatore orbitale a lungo raggio di Dathomir.
+TEXT_UW_ACT02_G10_11,Suggerimento: con il sabotaggio puoi indebolire i pianeti altrimenti inespugnabili. Tuttavia, alcuni eroi nemici possono sventare gli atti di sabotaggio.
+TEXT_UW_ACT02_G10_13,Obiettivo: sposta Tyber Zann e Urai Fen su Dathomir per dare inizio alla missione.
 TEXT_UW_ACT02_G10_14,Tutorial sabotaggio
 TEXT_UW_ACT02_G10_15,Trascinando un corruttore nello slot SABOTAGGIO di un pianeta corrotto dal Consorzio puoi distruggere le strutture in orbita e sulla superficie. Queste azioni sono molto costose, ma indispensabili se vuoi penetrare le difese di un pianeta apparentemente inespugnabile.
 TEXT_UW_ACT02_G10_16,Se esegui numerosi atti di sabotaggio sullo stesso pianeta e in rapida successione, le forze di sicurezza nemiche diventeranno sempre più attente e il costo del sabotaggio aumenterà di molto, per poi calare gradualmente.
 TEXT_UW_ACT02_G10_17,Aprire un varco
-TEXT_UW_ACT02_G13_19,OBIETTIVO: includi Tyber Zann e Urai Fen in una forza terrestre, poi spostala su Bespin per dare inizio alla missione.
+TEXT_UW_ACT02_G13_19,Obiettivo: includi Tyber Zann e Urai Fen in una forza terrestre, poi spostala su Bespin per dare inizio alla missione.
 TEXT_UW_ACT02_G14_01,BONUS: Tyber Zann ricava 50.000 crediti dalla vendita del gas tibanna sul mercato nero.
-TEXT_UW_ACT02_G15_09,OBIETTIVO: sposta Urai Fen su Vergesso e usa le navi imperiali rubate per sconfiggere i Ribelli.
+TEXT_UW_ACT02_G15_09,Obiettivo: sposta Urai Fen su Vergesso e usa le navi imperiali rubate per sconfiggere i Ribelli.
 TEXT_UW_ACT02_G15_13,BONUS: ora è possibile produrre la fregata classe Vengeance.
 TEXT_UW_ACT02_G15_14,Sconfiggi tutte le forze ribelli.
 TEXT_UW_ACT02_G16_12,Obiettivo: inserisci Tyber Zann in una flotta spaziale e incontra il contatto imperiale in orbita intorno a Carida.
 TEXT_UW_ACT02_G16_13,BONUS: ora è possibile produrre l'incrociatore classe Aggressor.
-TEXT_UW_ACT02_M07_19,NOTA: droide perduto!
+TEXT_UW_ACT02_M07_19,Nota: droide perduto!
 TEXT_UW_ACT02_M07_GASCOUNTER_01,Un serbatoio di gas riempito.
 TEXT_UW_ACT02_M07_GASCOUNTER_02,Due serbatoi di gas riempiti.
 TEXT_UW_ACT02_M07_GASCOUNTER_03,Tre serbatoi di gas riempiti.
@@ -19175,11 +19174,11 @@ TEXT_UW_ACT02_M07_GOAL_11,Usa Tyber per trovare i quattro avamposti di sicurezza
 TEXT_UW_ACT02_M07_GOAL_X0,Dopo aver riempito i droidi alle raffinerie, falli tornare alla navetta per scaricare il gas.
 TEXT_UW_ACT02_M09_GOAL_00,Bossk deve sopravvivere.
 TEXT_UW_ACT02_M09_GOAL_01,Tyber Zann deve sopravvivere.
-TEXT_UW_ACT03_G18_11,OBIETTIVO: riconquista Mandalore e sconfiggi Garm Bel Iblis.
+TEXT_UW_ACT03_G18_11,Obiettivo: riconquista Mandalore e sconfiggi Garm Bel Iblis.
 TEXT_UW_ACT03_G18_12,L'assedio di Mandalore
-TEXT_UW_ACT03_G18_13,BONUS: ora è possibile produrre gli incrociatori classe Kedalbe e i carri d'assalto Canderous.
-TEXT_UW_ACT03_G20_09,OBIETTIVO: sposta solo Urai, Tyber e Silri su Coruscant, poi schiera Tyber sul pianeta per dare inizio alla missione.
-TEXT_UW_ACT03_G21_06,OBIETTIVO: inserisci Tyber in una grande flotta spaziale formata dalle tue navi migliori, e poi spostala su Kuat!
+TEXT_UW_ACT03_G18_13,BONUS: ora è possibile produrre gli incrociatori classe Keldabe e i carri d'assalto Canderous.
+TEXT_UW_ACT03_G20_09,Obiettivo: sposta solo Urai, Tyber e Silri su Coruscant, poi schiera Tyber sul pianeta per dare inizio alla missione.
+TEXT_UW_ACT03_G21_06,Obiettivo: inserisci Tyber in una grande flotta spaziale formata dalle tue navi migliori, e poi spostala su Kuat!
 TEXT_UW_ACT03_M11_GOAL_00,Tyber, Urai e Silri devono sopravvivere.
 TEXT_UW_ACT03_M11_GOAL_01,Distruggi i comandi di monitoraggio.
 TEXT_UW_ACT03_M11_GOAL_02,Sconfiggi gli Adepti della Forza.
@@ -19192,40 +19191,40 @@ TEXT_UW_ACT03_M11_GOAL_07,Sconfiggi gli Adepti della Forza.
 TEXT_UW_ACT03_M11_GOAL_08,Accedi al sotterraneo.
 TEXT_UW_ACT03_M11_GOAL_09,Fuggi con la chiave d'accesso.
 TEXT_UW_ACT03_M11_GOAL_10,Usa le gabbie degli Ysalamiri per sconfiggere il Maestro degli Adepti della Forza.
-TEXT_UW_ACT03_M11_HINT_00,SUGGERIMENTO: Tyber può corrompere i nemici anche se ci sono degli ostacoli davanti a lui.
-TEXT_UW_ACT03_M11_HINT_01,SUGGERIMENTO: se i nemici non possono curarsi, sconfiggerli sarà molto più semplice.
-TEXT_UW_ACT03_M11_HINT_02,SUGGERIMENTO: Silri può evocare un Rancor e assorbire l'energia dei nemici.
-TEXT_UW_ACT03_M11_HINT_03,SUGGERIMENTO: Urai può ripristinare gradualmente la propria energia, cosa che lo rende adatto alle rapide incursioni.
-TEXT_UW_ACT03_M11_HINT_04,SUGGERIMENTO: il Rancor di Silri può causare danni ingenti.
-TEXT_UW_ACT03_M11_HINT_05,SUGGERIMENTO: i dispositivi di disturbo delle UDM possono bloccare i missili in avvicinamento.
-TEXT_UW_ACT03_M11_HINT_06,SUGGERIMENTO: la gabbia degli Ysalamiri dell'UDM impedisce di utilizzare i poteri della Forza.
-TEXT_UW_ACT03_M11_HINT_07,SUGGERIMENTO: il sistema di difesa balistica laser dello Juggernaut può distruggere i missili in avvicinamento.
-TEXT_UW_ACT03_M11_HINT_08,SUGGERIMENTO: l'abilità Invisibilità può confondere i nemici e impedire loro di seguirti.
-TEXT_UW_ACT03_M11_HINT_09,NOTA: porta a termine la missione di Tyber. In seguito potrai utilizzare anche Urai e Silri.
-TEXT_UW_ACT03_M11_HINT_10,NOTA: porta a termine la missione di Silri. In seguito potrai utilizzare anche Tyber e Urai.
-TEXT_UW_ACT03_M11_HINT_11,NOTA: porta a termine la missione di Urai. In seguito potrai utilizzare anche Tyber e Silri.
+TEXT_UW_ACT03_M11_HINT_00,Suggerimento: Tyber può corrompere i nemici anche se ci sono degli ostacoli davanti a lui.
+TEXT_UW_ACT03_M11_HINT_01,Suggerimento: se i nemici non possono curarsi, sconfiggerli sarà molto più semplice.
+TEXT_UW_ACT03_M11_HINT_02,Suggerimento: Silri può evocare un Rancor e assorbire l'energia dei nemici.
+TEXT_UW_ACT03_M11_HINT_03,Suggerimento: Urai può ripristinare gradualmente la propria energia, cosa che lo rende adatto alle rapide incursioni.
+TEXT_UW_ACT03_M11_HINT_04,Suggerimento: il Rancor di Silri può causare danni ingenti.
+TEXT_UW_ACT03_M11_HINT_05,Suggerimento: i dispositivi di disturbo delle UDM possono bloccare i missili in avvicinamento.
+TEXT_UW_ACT03_M11_HINT_06,Suggerimento: la gabbia degli Ysalamiri dell'UDM impedisce di utilizzare i poteri della Forza.
+TEXT_UW_ACT03_M11_HINT_07,Suggerimento: il sistema di difesa balistica laser dello Juggernaut può distruggere i missili in avvicinamento.
+TEXT_UW_ACT03_M11_HINT_08,Suggerimento: l'abilità Invisibilità può confondere i nemici e impedire loro di seguirti.
+TEXT_UW_ACT03_M11_HINT_09,Nota: porta a termine la missione di Tyber. In seguito potrai utilizzare anche Urai e Silri.
+TEXT_UW_ACT03_M11_HINT_10,Nota: porta a termine la missione di Silri. In seguito potrai utilizzare anche Tyber e Urai.
+TEXT_UW_ACT03_M11_HINT_11,Nota: porta a termine la missione di Urai. In seguito potrai utilizzare anche Tyber e Silri.
 TEXT_UW_ACT03_M12_GOAL_00,Cattura l'Eclipse usando una navetta.
 TEXT_UW_ACT03_M12_GOAL_01,Distruggi il Super Star Destroyer.
 TEXT_UW_ACT03_M12_GOAL_02,Aiuta l'Alleanza a distruggere le tre stazioni spaziali imperiali.
 TEXT_UW_ACT03_M12_GOAL_03,Distruggi il Millennium Falcon ed espelli dal settore gli ultimi Ribelli rimasti.
 TEXT_UW_ACT03_M12_GOAL_04,Proteggi le tue navette.
 TEXT_UW_ACT03_M12_GOAL_05,La Merciless deve sopravvivere.
-TEXT_UW_ACT03_M12_GOAL_06,NOTA: navetta distrutta. Ne rimangono due.
-TEXT_UW_ACT03_M12_GOAL_07,NOTA: navetta distrutta. Ne rimane una.
-TEXT_UW_ACT03_M12_GOAL_08,NOTA: tutte le navette sono state distrutte.
-TEXT_UW_ACT03_M12_GOAL_09,NOTA: la Merciless è stata distrutta.
-TEXT_UW_ACT03_M12_GOAL_10,SUGGERIMENTO: potresti usare le tue navette contro le stazioni spaziali...
-TEXT_UW_ACT03_M12_GOAL_11,NOTA: navetta distrutta. Ne rimangono due.
-TEXT_UW_ACT03_M12_GOAL_12,NOTA: navetta distrutta. Ne rimane una.
-TEXT_UW_ACT03_M12_GOAL_13,NOTA: tutte le navette sono state distrutte.
+TEXT_UW_ACT03_M12_GOAL_06,Nota: navetta distrutta. Ne rimangono due.
+TEXT_UW_ACT03_M12_GOAL_07,Nota: navetta distrutta. Ne rimane una.
+TEXT_UW_ACT03_M12_GOAL_08,Nota: tutte le navette sono state distrutte.
+TEXT_UW_ACT03_M12_GOAL_09,Nota: la Merciless è stata distrutta.
+TEXT_UW_ACT03_M12_GOAL_10,Suggerimento: potresti usare le tue navette contro le stazioni spaziali...
+TEXT_UW_ACT03_M12_GOAL_11,Nota: navetta distrutta. Ne rimangono due.
+TEXT_UW_ACT03_M12_GOAL_12,Nota: navetta distrutta. Ne rimane una.
+TEXT_UW_ACT03_M12_GOAL_13,Nota: tutte le navette sono state distrutte.
 TEXT_UW_ACT03_M12_GOAL_14,Difendi l'Eclipse.
 TEXT_UW_ACT03_M12_GOAL_15,Distruggi i cantieri imperiali rimasti.
 TEXT_UW_ACT03_M12_GOAL_16,Elimina le stazioni spaziali imperiali.
-TEXT_UW_ACT03_M12_GOAL_17,SUGGERIMENTO: l'Impero sta usando i cantieri per riparare le sue navi danneggiate.
-TEXT_UW_ACT03_M12_GOAL_18,SUGGERIMENTO: abbiamo stabilito una fragile tregua con i Ribelli. Sfruttali il più possibile, finché puoi.
+TEXT_UW_ACT03_M12_GOAL_17,Suggerimento: l'Impero sta usando i cantieri per riparare le sue navi danneggiate.
+TEXT_UW_ACT03_M12_GOAL_18,Suggerimento: abbiamo stabilito una fragile tregua con i Ribelli. Sfruttali il più possibile, finché puoi.
 TEXT_UW_ACT03_M12_GOAL_19,Cattura l'Eclipse usando la navetta.
 TEXT_UW_ACT03_M12_GOAL_20,Proteggi la navetta.
-TEXT_UW_ACT03_M12_GOAL_21,NOTA: la tua navetta è stata distrutta.
+TEXT_UW_ACT03_M12_GOAL_21,Nota: la tua navetta è stata distrutta.
 TEXT_UW_ACT03_M12_GOAL_22,Distruggi le forze imperiali rimaste.
 TEXT_UW_ACT03_M12_SHUTTLE_ENCYLOPEDIA_TEXT,Sposta questa navetta d'abbordaggio vicino all'Eclipse per catturarla.
 TEXT_UW_ACT03_M12_SHUTTLE_TEXT,Navetta d'abbordaggio

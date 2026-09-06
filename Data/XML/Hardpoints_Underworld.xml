@@ -4798,7 +4798,7 @@
 		<Special_Ability_Name>Underworld_Palace_Enable_Radar</Special_Ability_Name>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Tooltip_Text>TEXT_COMM_ARRAY_HARD POINT</Tooltip_Text>
+		<Tooltip_Text>TEXT_COMM_ARRAY_HARDPOINT</Tooltip_Text>
 		<Health>450.00</Health>
 
 		<!-- AJA 09/04/2006 - The DEBRIS behavior does not support gravity, so let's not use
