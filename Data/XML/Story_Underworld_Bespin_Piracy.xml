@@ -1,7 +1,5 @@
-<?xml version="1.0" ?>
-
+<?xml version="1.0"?>
 <Story>
-
 <!-- Start Campaign -->
 	<Event Name="Bespin_Piracy_Mission_Begin">
 		<Event_Type>STORY_ELAPSED</Event_Type>
@@ -115,14 +113,14 @@
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>ENABLE_VICTORY</Reward_Type>
 				<Reward_Param1>1</Reward_Param1>
-				<Prereq>Bespin_Piracy_Mission_Complete_Objective_03</Prereq>
+				<Prereq>Bespin_Piracy_Mission_Speech_Line_11_Remove_Movie</Prereq> <!-- Bespin_Piracy_Mission_Complete_Objective_03 -->
 			</Event>
 
 			<Event Name="Bespin_Piracy_Mission_Complete_Victory_Trigger">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>VICTORY</Reward_Type>
 				<Reward_Param1>Underworld</Reward_Param1>
-				<Prereq>Bespin_Piracy_Mission_Complete_Objective_03</Prereq>
+				<Prereq>Bespin_Piracy_Mission_Speech_Line_11_Remove_Movie</Prereq> <!-- Bespin_Piracy_Mission_Complete_Objective_03 -->
 			</Event>
 
 	<Event Name="Bespin_Piracy_Mission_Fail_Objective_00">
@@ -344,5 +342,4 @@ Tyber Zann: Good work.  Bespin is now under the "protection" of the Zann Consort
 					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
 					<Prereq>Bespin_Piracy_Mission_Speech_Line_11_Remove_Text</Prereq>
 				</Event>
-
 </Story>

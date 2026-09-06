@@ -251,6 +251,10 @@ function Story_Mode_Service()
 		obj_03_complete = true
 		Story_Event("COMPLETE_OBJECTIVE_03")
 
+		hero.Make_Invulnerable(true) -- AM1994 (09-06-2026): Prevent sillines with Tyber getting nuked during the cinematic.
+		Suspend_AI(1)
+		Lock_Controls(1)
+
 		Story_Event("TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_11")
 	end
 
