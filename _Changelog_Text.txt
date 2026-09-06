@@ -97,6 +97,7 @@ International:
 • English, French, German and Italian localizations infrequently referred to the Keldabe-class Battleship as the "Kedalbe," an old spelling from '80s Star Wars material.  All instances of "Kedalbe" have been swapped out for "Keldabe."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #236)
 • All localizations (except Italian) of Bossk and Jabba the Hutt's dialogue sometimes didn't follow the general trend of alien language dialogue, and wasn't prefixed with "(Translated)" like Jabba's dialogue, or his own dialogue in the campaign.  The prefix has been added and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #362)
 • English, French, Italian, Polish, Russian and Spanish localizations inconsistently used a special "…" (elipsis) character, or "..." (three periods).  The ellipses character is harder to read at high resolutions, and back-and-forth use of ellipses and periods caused spacing issues (f.e. as "to the Empire… .").  All ellipses have been swapped out for three periods and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #211)
+• The Italian translation didn't have the "Grado:" (Rank/Grade) prefix before the player's title when winning/losing a GC game.  The prefix has been added and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #878)
 
 
 Housekeeping:
