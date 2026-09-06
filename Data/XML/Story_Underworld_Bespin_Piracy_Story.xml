@@ -1,0 +1,396 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+<!-- Start Campaign -->
+	<Event Name="Bespin_Piracy_Mission_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Disable_Retreat_Empire">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>EMPIRE</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Bespin_Piracy_Mission_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Disable_Retreat_Rebel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Bespin_Piracy_Mission_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Prevent_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Bespin_Piracy_Mission_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Add_Objective_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ADD_OBJECTIVE_00</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_BESPIN_PIRACY_OBJECTIVE_00</Reward_Param1>
+		<Prereq>Bespin_Piracy_Mission_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Complete_Objective_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>COMPLETE_OBJECTIVE_00</Event_Param2>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_BESPIN_PIRACY_OBJECTIVE_00</Reward_Param1>
+		<Prereq>Bespin_Piracy_Mission_Add_Objective_00</Prereq>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Add_Objective_01">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ADD_OBJECTIVE_01</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_BESPIN_PIRACY_OBJECTIVE_01</Reward_Param1>
+		<Prereq>Bespin_Piracy_Mission_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Complete_Objective_01">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>COMPLETE_OBJECTIVE_01</Event_Param2>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_BESPIN_PIRACY_OBJECTIVE_01</Reward_Param1>
+		<Prereq>Bespin_Piracy_Mission_Add_Objective_01</Prereq>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Add_Objective_02">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ADD_OBJECTIVE_02</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_BESPIN_PIRACY_OBJECTIVE_02</Reward_Param1>
+		<Prereq>Bespin_Piracy_Mission_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Complete_Objective_02">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>COMPLETE_OBJECTIVE_02</Event_Param2>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_BESPIN_PIRACY_OBJECTIVE_02</Reward_Param1>
+		<Prereq>Bespin_Piracy_Mission_Add_Objective_02</Prereq>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Fail_Objective_02">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>FAIL_OBJECTIVE_02</Event_Param2>
+		<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+		<Reward_Param1>TEXT_BESPIN_PIRACY_OBJECTIVE_02</Reward_Param1>
+		<Prereq>Bespin_Piracy_Mission_Add_Objective_02</Prereq>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Add_Objective_03">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ADD_OBJECTIVE_03</Event_Param2>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_BESPIN_PIRACY_OBJECTIVE_03</Reward_Param1>
+		<Prereq>Bespin_Piracy_Mission_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Complete_Objective_03">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>COMPLETE_OBJECTIVE_03</Event_Param2>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_BESPIN_PIRACY_OBJECTIVE_03</Reward_Param1>
+		<Prereq>Bespin_Piracy_Mission_Add_Objective_03</Prereq>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Fail_Objective_03">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>FAIL_OBJECTIVE_03</Event_Param2>
+		<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+		<Reward_Param1>TEXT_BESPIN_PIRACY_OBJECTIVE_03</Reward_Param1>
+		<Prereq>Bespin_Piracy_Mission_Add_Objective_03</Prereq>
+	</Event>
+			
+			<Event Name="Bespin_Piracy_Mission_Enable_Victory">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>ENABLE_VICTORY</Reward_Type>
+				<Reward_Param1>1</Reward_Param1>
+				<Prereq>Bespin_Piracy_Mission_Complete_Objective_03</Prereq>
+			</Event>
+	
+			<Event Name="Bespin_Piracy_Mission_Complete_Victory_Trigger">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>VICTORY</Reward_Type>
+				<Reward_Param1>Underworld</Reward_Param1>
+				<Prereq>Bespin_Piracy_Mission_Complete_Objective_03</Prereq>
+			</Event>
+			
+					<Event Name="Bespin_Piracy_Mission_Enable_Retreat_Empire">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>DISABLE_RETREAT</Reward_Type>
+						<Reward_Param1>EMPIRE</Reward_Param1>
+						<Reward_Param2>0</Reward_Param2>
+						<Prereq>Bespin_Piracy_Mission_Complete_Victory_Trigger</Prereq>
+					</Event>
+					
+					<Event Name="Bespin_Piracy_Mission_Enable_Retreat_Rebel">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>DISABLE_RETREAT</Reward_Type>
+						<Reward_Param1>REBEL</Reward_Param1>
+						<Reward_Param2>0</Reward_Param2>
+						<Prereq>Bespin_Piracy_Mission_Complete_Victory_Trigger</Prereq>
+					</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Fail_Objective_00">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>FAIL_OBJECTIVE_00</Event_Param2>
+		<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+		<Reward_Param1>TEXT_BESPIN_PIRACY_OBJECTIVE_00</Reward_Param1>
+		<Prereq>Bespin_Piracy_Mission_Add_Objective_00</Prereq>
+	</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Loss_Rebel">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VICTORY_REBEL</Event_Param2>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+	</Event>			
+			
+			<Event Name="Bespin_Piracy_Mission_Enable_Retreat_Empire_Rebel_Loss">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_RETREAT</Reward_Type>
+				<Reward_Param1>EMPIRE</Reward_Param1>
+				<Reward_Param2>0</Reward_Param2>
+				<Prereq>Bespin_Piracy_Mission_Loss_Rebel</Prereq>
+			</Event>
+			
+			<Event Name="Bespin_Piracy_Mission_Enable_Retreat_Rebel_Rebel_Loss">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_RETREAT</Reward_Type>
+				<Reward_Param1>REBEL</Reward_Param1>
+				<Reward_Param2>0</Reward_Param2>
+				<Prereq>Bespin_Piracy_Mission_Loss_Rebel</Prereq>
+			</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Loss_Empire">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VICTORY_EMPIRE</Event_Param2>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+	</Event>
+	
+			<Event Name="Bespin_Piracy_Mission_Enable_Retreat_Empire_Empire_Loss">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_RETREAT</Reward_Type>
+				<Reward_Param1>EMPIRE</Reward_Param1>
+				<Reward_Param2>0</Reward_Param2>
+				<Prereq>Bespin_Piracy_Mission_Loss_Empire</Prereq>
+			</Event>
+			
+			<Event Name="Bespin_Piracy_Mission_Enable_Retreat_Rebel_Empire_Loss">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>DISABLE_RETREAT</Reward_Type>
+				<Reward_Param1>REBEL</Reward_Param1>
+				<Reward_Param2>0</Reward_Param2>
+				<Prereq>Bespin_Piracy_Mission_Loss_Empire</Prereq>
+			</Event>
+	
+	<Event Name="Bespin_Piracy_Mission_Loss_Hutt">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>VICTORY_HUTTS</Event_Param2>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Hutt</Reward_Param1>
+	</Event>
+
+
+
+<!-- *************************************************************** -->
+<!-- ***************All Mission Dialog Goes Here******************** -->
+<!-- *************************************************************** -->
+
+<!-- TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_06
+Tyber Zann: We've managed to bribe and capture an Imperial Interdictor.  We will be using 
+			the Interdictor to pull Tibana Gas convoys out of Hyperspace.  For this plan to 
+			work, the Interdictor will need to activate it's ability near the Bespin shipping lanes.   -->
+	<Event Name="Bespin_Piracy_Mission_Speech_Line_06">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_06</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_06</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>BESPIN_PIR_TACTICAL_COR06_06</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Bespin_Piracy_Mission_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Bespin_Piracy_Mission_Speech_Line_06_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>BESPIN_PIR_TACTICAL_COR06_06</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_06</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Bespin_Piracy_Mission_Speech_Line_06</Prereq>
+				</Event>
+
+				<Event Name="Bespin_Piracy_Mission_Speech_Line_06_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Bespin_Piracy_Mission_Speech_Line_06_Remove_Text</Prereq>
+				</Event>
+				
+<!-- TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_07
+Tyber Zann: Good, now that the interdictor is in place and active, the first convoy should be 
+			arriving any time now.  We'll need to destroy the Tibana shuttles before they can 
+			reach a safe distance from the Interdictor.   -->
+	<Event Name="Bespin_Piracy_Mission_Speech_Line_07">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_07</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_07</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>BESPIN_PIR_TACTICAL_COR06_07</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Bespin_Piracy_Mission_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Bespin_Piracy_Mission_Speech_Line_07_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>BESPIN_PIR_TACTICAL_COR06_07</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_07</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Bespin_Piracy_Mission_Speech_Line_07</Prereq>
+				</Event>
+
+				<Event Name="Bespin_Piracy_Mission_Speech_Line_07_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Bespin_Piracy_Mission_Speech_Line_07_Remove_Text</Prereq>
+				</Event>
+				
+				
+<!-- TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_08
+Tibana Merchant: It's an ambush!  Take evasive action.   -->
+	<Event Name="Bespin_Piracy_Mission_Speech_Line_08">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_08</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_08</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>BESPIN_PIR_TACTICAL_COR06_08</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Bespin_Piracy_Mission_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Bespin_Piracy_Mission_Speech_Line_08_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>BESPIN_PIR_TACTICAL_COR06_08</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_08</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Bespin_Piracy_Mission_Speech_Line_08</Prereq>
+				</Event>
+
+				<Event Name="Bespin_Piracy_Mission_Speech_Line_08_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Bespin_Piracy_Mission_Speech_Line_08_Remove_Text</Prereq>
+				</Event>
+
+
+
+				
+				
+<!-- TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_09
+Tyber Zann: Destroying one more convoy should be enough to put the fear into Bespin's government.   -->
+	<Event Name="Bespin_Piracy_Mission_Speech_Line_09">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_09</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_09</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>BESPIN_PIR_TACTICAL_COR06_09</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Bespin_Piracy_Mission_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Bespin_Piracy_Mission_Speech_Line_09_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>BESPIN_PIR_TACTICAL_COR06_09</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_09</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Bespin_Piracy_Mission_Speech_Line_09</Prereq>
+				</Event>
+
+				<Event Name="Bespin_Piracy_Mission_Speech_Line_09_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Bespin_Piracy_Mission_Speech_Line_09_Remove_Text</Prereq>
+				</Event>
+				
+				
+<!-- TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_10
+Tibana Merchant: Pirates!  All hands defend the Tibana shuttle!   -->
+	<Event Name="Bespin_Piracy_Mission_Speech_Line_10">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_10</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_10</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>BESPIN_PIR_TACTICAL_COR06_10</Reward_Param8>
+		<Reward_Param9></Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Bespin_Piracy_Mission_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Bespin_Piracy_Mission_Speech_Line_10_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>BESPIN_PIR_TACTICAL_COR06_10</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_10</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Bespin_Piracy_Mission_Speech_Line_10</Prereq>
+				</Event>
+
+				<Event Name="Bespin_Piracy_Mission_Speech_Line_10_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Bespin_Piracy_Mission_Speech_Line_10_Remove_Text</Prereq>
+				</Event>
+				
+				
+<!-- TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_11
+Tyber Zann: Good work.  Bespin is now under the "protection" of the Zann Consortium.   -->
+	<Event Name="Bespin_Piracy_Mission_Speech_Line_11">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_11</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_11</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>BESPIN_PIR_TACTICAL_COR06_11</Reward_Param8>
+		<Reward_Param9>Tyber_Loop</Reward_Param9>
+		<Reward_Param10>1</Reward_Param10>
+		<Prereq>Bespin_Piracy_Mission_Begin</Prereq>
+	</Event>
+	
+				<Event Name="Bespin_Piracy_Mission_Speech_Line_11_Remove_Text">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>BESPIN_PIR_TACTICAL_COR06_11</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_BESPIN_PIR_TACTICAL_COR06_11</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Bespin_Piracy_Mission_Speech_Line_11</Prereq>
+				</Event>
+
+				<Event Name="Bespin_Piracy_Mission_Speech_Line_11_Remove_Movie">
+					<Event_Type>STORY_TRIGGER</Event_Type>
+					<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+					<Prereq>Bespin_Piracy_Mission_Speech_Line_11_Remove_Text</Prereq>
+				</Event>
+
+</Story>
