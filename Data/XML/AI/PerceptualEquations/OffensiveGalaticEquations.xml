@@ -214,13 +214,17 @@
 	we've already bought the death star
 	-->
 	<Need_To_Flush_MajorItem_Budget>
-		(Variable_Self.CreditsUnnormalized > 30000) <!-- DS2 cost x1.5 -->
-		+
-		Function_Needs_More_Space_Force_Globally.Evaluate
+		Function_Is_Empire.Evaluate
 		*
-		Variable_Self.HasUnit{Parameter_Type = "Darth_Team_Executor", Parameter_Count = 1}
-		*
-		Variable_Self.HasUnit{Parameter_Type = "Death_Star_II", Parameter_Count = 1}
+		(
+			(Variable_Self.CreditsUnnormalized > 30000) <!-- DS2 cost x1.5 -->
+			+
+			Function_Needs_More_Space_Force_Globally.Evaluate
+			*
+			Variable_Self.HasUnit{Parameter_Type = "Darth_Team_Executor", Parameter_Count = 1}
+			*
+			Variable_Self.HasUnit{Parameter_Type = "Death_Star_II", Parameter_Count = 1}
+		)
 	</Need_To_Flush_MajorItem_Budget>
 
 	<!-- The AI can afford to spend on tech if it has X% space force over the human player
@@ -458,11 +462,13 @@
 	<Want_To_Fire_DS>
 		Function_Is_Empire.Evaluate
 		*
-		50.0 * Function_First_Attack_Allowed.Evaluate
-		*
-		(Variable_Target.EnemyForce.GroundTotalUnnormalized > 2000)
-		*
-		(Variable_Target.IsFaction {Parameter_Faction = "Rebel", Parameter_Faction = "Underworld"} == 1.0)
+		(
+			50.0 * Function_First_Attack_Allowed.Evaluate
+			*
+			(Variable_Target.EnemyForce.GroundTotalUnnormalized > 2000)
+			*
+			(Variable_Target.IsFaction {Parameter_Faction = "Rebel", Parameter_Faction = "Underworld"} == 1.0)
+		)
 	</Want_To_Fire_DS>
 
 	<First_Attack_Allowed>

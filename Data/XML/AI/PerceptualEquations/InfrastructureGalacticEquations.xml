@@ -708,9 +708,13 @@
 	</Empire_Tech_Untrigger>
 
 	<Can_Reclaim_Excess_MajorItem_Budget>
-		(Variable_Self.CreditsUnnormalized > 40000) <!-- DS2 Cost x2 -->
-		+
-		(Variable_Self.ActiveGoals {Parameter_Category = AIGoalCategoryType[MajorItem]} > 0)
+		Function_Is_Empire.Evaluate
+		*
+		(
+			(Variable_Self.CreditsUnnormalized > 40000) <!-- DS2 Cost x2 -->
+			+
+			(Variable_Self.ActiveGoals {Parameter_Category = AIGoalCategoryType[MajorItem]} > 0)
+		)
 	</Can_Reclaim_Excess_MajorItem_Budget>
 
 	<Can_Afford_Steal_Tech>
