@@ -445,11 +445,6 @@
 		<Variant_Of_Existing_Type>SCOUT_TROOPER_NO_BIKE</Variant_Of_Existing_Type>
 	</Props_Story>
 
-	<Props_Story Name="UMP_TYBER_ZANN">
-		<Variant_Of_Existing_Type>TYBER_ZANN</Variant_Of_Existing_Type>
-		<Land_Model_Name>ui_tyber_in_jail.alo</Land_Model_Name>
-	</Props_Story>
-
 	<Props_Story Name="UMP_Prisoner_Human">
 		<Variant_Of_Existing_Type>Urban_Civilian_A</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -3342,28 +3337,6 @@
 		<Tactical_Health>800</Tactical_Health>
 		<Shield_Refresh_Rate>35</Shield_Refresh_Rate>
 		<Victory_Relevant>Yes</Victory_Relevant>
-	</Props_Story>
-
-	<Props_Story Name="COR_TYBER_INTERCEPTOR">
-		<Variant_Of_Existing_Type>Interceptor4_Frigate</Variant_Of_Existing_Type>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRIMELORD</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_tyber.tga</Icon_Name>
-		<Tech_Level>99</Tech_Level>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Tactical_Health>3000</Tactical_Health>
-		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
-
-		<SFXEvent_Select>Unit_Select_Tyber_Zann</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Tyber_Zann</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tyber_Zann</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Tyber_Zann</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Tyber_Zann</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
-		<SFXEvent_Group_Move>Unit_Group_Move_Tyber_Zann</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Group_Attack_Tyber_Zann</SFXEvent_Group_Attack>
-		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Tyber_Zann</SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Tyber_Zann</SFXEvent_Health_Critical_Warning>
-		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 	</Props_Story>
 
 	<Props_Story Name="PROP_CORUSCANT_SKYDOME">

@@ -13,10 +13,20 @@
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
-		<GalacticBehavior>SELECTABLE</GalacticBehavior>
+		<GalacticBehavior />
 		<LandBehavior>
-			ABILITY_COUNTDOWN, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING,
-			WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT
+			ABILITY_COUNTDOWN,
+			SELECTABLE,
+			SURFACE_FX,
+			WALK_LOCOMOTOR,
+			IDLE,
+			TARGETING,
+			WEAPON,
+			REVEAL,
+			HIDE_WHEN_FOGGED,
+			DAMAGE_TRACKING,
+			UNIT_AI,
+			GARRISON_UNIT
 		</LandBehavior>
 
 		<Uses_Multiple_Locomotors>Yes</Uses_Multiple_Locomotors>
@@ -134,6 +144,7 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
+			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>STEALTH</Type>
 				<Alternate_Name_Text>TEXT_TOOLTIP_TYBER_CLOAKING</Alternate_Name_Text>
@@ -146,11 +157,6 @@
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-			<!--
-			<Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
-				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
-			</Galactic_Stealth_Ability>
-			-->
 			<Black_Market_Ability Name="Tyber_Zann_Black_Market">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Causes_Despawn>Yes</Causes_Despawn>
@@ -190,6 +196,25 @@
 			<Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
+
+			<Combat_Bonus_Ability Name="Tyber_Zann_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>
+					StarViper_Team,
+					Skipray_Blastboat_Squadron_Container,
+					Underworld_A_Wing_Squadron_Container,
+					Underworld_TIE_Defender_Squadron_Container
+				</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
 
 			<Black_Market_Ability Name="Tyber_Zann_Black_Market">
 				<Initially_Enabled>Yes</Initially_Enabled>
@@ -275,6 +300,7 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 
+			<!-- Secondary ability -->
 			<Unit_Ability>
 				<Type>STEALTH</Type>
 				<Alternate_Name_Text>TEXT_TOOLTIP_TYBER_CLOAKING</Alternate_Name_Text>
@@ -290,6 +316,25 @@
 			<Galactic_Stealth_Ability Name="Tyber_Galactic_Stealth">
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
+
+			<Combat_Bonus_Ability Name="Tyber_Zann_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>
+					StarViper_Team,
+					Skipray_Blastboat_Squadron_Container,
+					Underworld_A_Wing_Squadron_Container,
+					Underworld_TIE_Defender_Squadron_Container
+				</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
 
 			<Black_Market_Ability Name="Tyber_Zann_Black_Market">
 				<Initially_Enabled>Yes</Initially_Enabled>
@@ -326,130 +371,13 @@
 
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
-
-		<Projectile_Types>Proj_Tyber_Zann_Blaster_Shotgun</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+s
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 	</HeroUnit>
 
-	<HeroUnit Name="Tyber_Zann_Prisoner">
-		<LOD_Bias>4</LOD_Bias>
-		<Text_ID>TEXT_HERO_TYBER_ZANN</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_TYBER_ZANN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRIMELORD</Encyclopedia_Unit_Class>
-
-		<Land_Model_Name>UI_TYBER.ALO</Land_Model_Name>
-		<Icon_Name>i_button_tyber.tga</Icon_Name>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Scale_Factor>1.75</Scale_Factor>
-		<Select_Box_Scale>27</Select_Box_Scale>
-		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
-
-		<GalacticBehavior>SELECTABLE</GalacticBehavior>
-		<LandBehavior>
-			SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL,
-			HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, GARRISON_UNIT
-		</LandBehavior>
-
-		<Uses_Multiple_Locomotors>Yes</Uses_Multiple_Locomotors>
-		<Hover_Offset>16.0</Hover_Offset>
-
-		<Garrison_Category>Infantry</Garrison_Category>
-		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<CanCellStack>Yes</CanCellStack>
-		<Mass>1.0</Mass>
-
-		<Mouse_Collide_Override_Sphere_Radius>10.0</Mouse_Collide_Override_Sphere_Radius>
-		<Movement_Animation_Speed>0.8</Movement_Animation_Speed>
-		<Max_Speed>1</Max_Speed>
-		<Alternate_Max_Speed>2.5</Alternate_Max_Speed>
-		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
-		<Alternate_Max_Rate_Of_Turn>6.0</Alternate_Max_Rate_Of_Turn>
-		<Custom_Soft_Footprint_Radius>6.5</Custom_Soft_Footprint_Radius>
-		<Custom_Hard_XExtent>5.0</Custom_Hard_XExtent>
-		<Custom_Hard_YExtent>5.0</Custom_Hard_YExtent>
-		<Space_Layer>Land</Space_Layer>
-		<UnitCollisionClass>Infantry</UnitCollisionClass>
-		<FormationSpacing>.5</FormationSpacing>
-		<MinimumPushReturnDistance>10</MinimumPushReturnDistance>
-		<Min_Speed>.1</Min_Speed>
-		<OverrideAcceleration>.1</OverrideAcceleration>
-		<OverrideDeceleration>.1</OverrideDeceleration>
-		<Max_Lift>.6</Max_Lift>
-
-		<Affiliation>Underworld</Affiliation>
-
-		<Shield_Points>0</Shield_Points>
-
-		<Tactical_Health>600</Tactical_Health>
-
-		<Damage>60</Damage>
-		<Stealth_Capable>No</Stealth_Capable>
-		<Victory_Relevant>Yes</Victory_Relevant>
-		<Armor_Type>Armor_Hero</Armor_Type>
-
-		<Projectile_Types>Proj_Infiltrator_Blaster</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-
-		<Land_FOW_Reveal_Range>175</Land_FOW_Reveal_Range>
-		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-		<Targeting_Max_Attack_Distance>175</Targeting_Max_Attack_Distance>
-		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
-
-		<SFXEvent_Select>Unit_Select_Tyber_Zann</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Tyber_Zann</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tyber_Zann</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Tyber_Zann</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Tyber_Zann</SFXEvent_Guard>
-		<SFXEvent_Fire>Unit_Tyber_Fire</SFXEvent_Fire>
-		<SFXEvent_Group_Move>Unit_Group_Move_Tyber_Zann</SFXEvent_Group_Move>
-		<SFXEvent_Group_Attack>Unit_Group_Attack_Tyber_Zann</SFXEvent_Group_Attack>
-		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Tyber_Zann</SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Tyber_Zann</SFXEvent_Health_Critical_Warning>
-		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
-		<CategoryMask>LandHero | SpaceHero</CategoryMask>
-		<Ranking_In_Category>1</Ranking_In_Category>
-		<MovementClass>Infantry</MovementClass>
-		<OccupationStyle>1x1</OccupationStyle>
-		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
-		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
-		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-		<Ground_Infantry_Turret_Target>Yes</Ground_Infantry_Turret_Target>
-		<Lua_Script>BobaFettPlan</Lua_Script>
-		<Always_Spawn_In_Orbit>No</Always_Spawn_In_Orbit>
-
-		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
-
-		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
-		<Highlight_Blob_Material_Name>Highlight_Underworld_Hero</Highlight_Blob_Material_Name>
-
-		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<AI_Combat_Power>500</AI_Combat_Power>
-		<Idle_Chase_Range>100.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
-		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-
-		<Neutralization_Cost>1500.0</Neutralization_Cost>
-		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
-		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
-
-		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
-		<Score_Cost_Credits>10000</Score_Cost_Credits>
-
-		<Death_Fade_Time>0.25</Death_Fade_Time>
-		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+	<HeroUnit Name="UMP_Tyber_Zann">
+		<Variant_Of_Existing_Type>Tyber_Zann</Variant_Of_Existing_Type>
+		<Land_Model_Name>ui_tyber_in_jail.alo</Land_Model_Name>
 	</HeroUnit>
 
 	<!-- jdg this is a one-off of Tyber for UM06 because I need him to have stealth (for now..haha) -->
@@ -509,45 +437,10 @@
 	</HeroCompany>
 
 	<HeroCompany Name="Tyber_Zann_Team_No_Peacebringer">
-		<Text_ID>TEXT_HERO_TYBER_ZANN</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_TYBER_ZANN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRIMELORD</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_tyber.tga</Icon_Name>
+		<Variant_Of_Existing_Type>Tyber_Zann_Team</Variant_Of_Existing_Type>
 
-		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>80</Damage>
-		<Affiliation>Underworld</Affiliation>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Tech_Level>1</Tech_Level>
-
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures />
-		<Required_Planets />
-
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Underworld_Hero_Shuttle</Company_Transport_Unit>
 		<Company_Units>Tyber_Zann_Passenger</Company_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Is_Stealth_Company>No</Is_Stealth_Company>
-		<Available_In_Skirmish>Yes</Available_In_Skirmish>
-		<Can_Be_Only_One>True</Can_Be_Only_One>
-
-		<SFXEvent_Build_Started>UHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>UHD_Request_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Select_Tyber_Zann</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Select_Tyber_Zann</SFXEvent_Hero_Respawned>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tyber_Zann</SFXEvent_Fleet_Move>
-
-		<Score_Cost_Credits>10000</Score_Cost_Credits>
-		<CategoryMask>LandHero | SpaceHero</CategoryMask>
-		<Ranking_In_Category>1</Ranking_In_Category>
-		<Population_Value>1</Population_Value>
-
-		<Cheap_Bribe_Cost>5</Cheap_Bribe_Cost>
-		<Expensive_Bribe_Cost>10</Expensive_Bribe_Cost>
-
-		<Unit_Abilities_Data SubObjectList="Yes" />
 	</HeroCompany>
 
 	<HeroCompany Name="Tyber_Zann_Team_Campaign">
@@ -558,57 +451,11 @@
 
 	<!-- Prologue Tyber -->
 	<HeroCompany Name="Tyber_Zann_Team_Prologue">
-		<Variant_Of_Existing_Type>Tyber_Zann_Team_No_Peacebringer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Tyber_Zann_Team</Variant_Of_Existing_Type>
 
-		<Company_Units>Tyber_Zann_Prologue</Company_Units>
 		<Company_Transport_Unit>Underworld_Infantry_Droid_Shuttle</Company_Transport_Unit>
+		<Company_Units>Tyber_Zann_Prologue</Company_Units>
 	</HeroCompany>
-
-	<UniqueUnit Name="Tyber_Zann_Boarding_Shuttle_Prologue">
-		<Variant_Of_Existing_Type>Underworld_Infantry_Droid_Shuttle</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_UNIT_UNDERWORLD_LIGHT_TRANSPORT</Text_ID>
-		<Encyclopedia_Text />
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT</Encyclopedia_Unit_Class>
-
-		<Space_Model_Name>UV_RZ-52BoardingShip.ALO</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Select_Box_Scale>150</Select_Box_Scale>
-		<Icon_Name>i_button_tyber.tga</Icon_Name>
-		<Is_Named_Hero>True</Is_Named_Hero>
-
-		<Shield_Points>1000</Shield_Points>
-		<Tactical_Health>10000</Tactical_Health>
-
-		<SpaceBehavior>
-			SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED,
-			REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE
-		</SpaceBehavior>
-		<LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
-
-		<Ranking_In_Category>1</Ranking_In_Category>
-
-		<Max_Speed>4.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
-		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>25</Bank_Turn_Angle>
-		<Max_Thrust>0.4</Max_Thrust>
-
-		<SFXEvent_Select>Unit_Select_Tyber_Zann_Space</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Tyber_Zann_Space</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tyber_Zann</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Tyber_Zann_Space</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Tyber_Zann</SFXEvent_Guard>
-		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Tyber_Zann</SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Tyber_Zann</SFXEvent_Health_Critical_Warning>
-		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
-		<SFXEvent_Build_Started>UHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>UHD_Request_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Select_Tyber_Zann</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Select_Tyber_Zann</SFXEvent_Hero_Respawned>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tyber_Zann</SFXEvent_Fleet_Move>
-	</UniqueUnit>
 
 
 	<!-- Tyber's Flagship -->
@@ -691,7 +538,6 @@
 		<SFXEvent_Build_Cancelled>UHD_Request_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Select_Tyber_Zann</SFXEvent_Build_Complete>
 		<SFXEvent_Hero_Respawned>Unit_Select_Tyber_Zann</SFXEvent_Hero_Respawned>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tyber_Zann</SFXEvent_Fleet_Move>
 
 		<Death_Clone>Damage_Normal, Peacebringer_Death_Clone</Death_Clone>
 		<Landing_Transport_Variant>Peacebringer_Landing</Landing_Transport_Variant>
@@ -799,5 +645,107 @@
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Persistence_Duration>0</Death_Persistence_Duration>
 		<CategoryMask>None</CategoryMask>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Tyber_Zann_Boarding_Shuttle_Prologue">
+		<Variant_Of_Existing_Type>Underworld_Infantry_Droid_Shuttle</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Text />
+		<Icon_Name>i_button_tyber.tga</Icon_Name>
+		<Is_Named_Hero>True</Is_Named_Hero>
+
+		<Shield_Points>1000</Shield_Points>
+		<Tactical_Health>10000</Tactical_Health>
+
+		<SpaceBehavior>
+			SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED,
+			REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE
+		</SpaceBehavior>
+
+		<Ranking_In_Category>1</Ranking_In_Category>
+
+		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>25</Bank_Turn_Angle>
+		<Max_Thrust>0.4</Max_Thrust>
+
+		<SFXEvent_Select>Unit_Select_Tyber_Zann_Space</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Tyber_Zann_Space</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tyber_Zann</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Tyber_Zann_Space</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Tyber_Zann</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Tyber_Zann</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Tyber_Zann</SFXEvent_Health_Critical_Warning>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+		<SFXEvent_Build_Started>UHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Select_Tyber_Zann</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Select_Tyber_Zann</SFXEvent_Hero_Respawned>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Tyber_Zann_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>
+					StarViper_Team,
+					Skipray_Blastboat_Squadron_Container,
+					Underworld_A_Wing_Squadron_Container,
+					Underworld_TIE_Defender_Squadron_Container
+				</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="COR_Tyber_Interceptor">
+		<Variant_Of_Existing_Type>Interceptor4_Frigate</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRIMELORD</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_tyber.tga</Icon_Name>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Tactical_Health>3000</Tactical_Health>
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+
+		<SFXEvent_Select>Unit_Select_Tyber_Zann</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Tyber_Zann</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tyber_Zann</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Tyber_Zann</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Tyber_Zann</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
+		<SFXEvent_Group_Move>Unit_Group_Move_Tyber_Zann</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Group_Attack_Tyber_Zann</SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning>Unit_Health_Low_Tyber_Zann</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>Unit_Health_Critical_Tyber_Zann</SFXEvent_Health_Critical_Warning>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Tyber_Zann_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>
+					StarViper_Team,
+					Skipray_Blastboat_Squadron_Container,
+					Underworld_A_Wing_Squadron_Container,
+					Underworld_TIE_Defender_Squadron_Container
+				</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
 	</UniqueUnit>
 </Tyber_Zann_Data>
