@@ -1074,9 +1074,9 @@
 	</Props_Story>
 
 	<Props_Story Name="UMP_Interface_Node">
+		<Variant_Of_Existing_Type>Droid_Interface_Station</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_DOORNODE</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DOORNODE</Encyclopedia_Unit_Class>
-		<Variant_Of_Existing_Type>Droid_Interface_Station</Variant_Of_Existing_Type>
 		<Land_Model_Name>W_Prison_Terminal.alo</Land_Model_Name>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>5</Tactical_Health>
@@ -1098,14 +1098,19 @@
 	</Props_Story>
 
 	<Props_Story Name="UM02_Interface_Node">
+		<Variant_Of_Existing_Type>Droid_Interface_Station</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_DOORNODE</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DOORNODE</Encyclopedia_Unit_Class>
-		<Variant_Of_Existing_Type>Droid_Interface_Station</Variant_Of_Existing_Type>
 		<Land_Model_Name>W_Prison_Terminal.alo</Land_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>10</Tactical_Health>
 		<Affiliation>Pirates</Affiliation>
+		<Scale_Factor>1</Scale_Factor>
+
+		<Land_Damage_Thresholds>1, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Remove_Upon_Death>False</Remove_Upon_Death>
 		<Property_Flags>NotOpportunityTarget</Property_Flags>
 	</Props_Story>
 

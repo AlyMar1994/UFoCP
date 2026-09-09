@@ -93,6 +93,7 @@ Script/Story Fixes:
 • During Rebel campaign mission #11 ("The Final Battle"), the Death Star would approach Yavin 4 too quickly (breaking the story sequence before the battle), and wouldn't give the player enough time in battle to defeat it (75sec.).  The developers intended to give the player ~300 seconds to defeat it, but the script command was broken - the DS now slowly approaches Yavin when the homing beacon is found, and the timer is correct. (BUG #835)
 • The Defiler during the Consortium campaign's Honoghr mission wouldn't have a hologram when talking. (BUG #866)
 • Tyber Zann's dialogue during Space Bespin Piracy would be cut off due to mistimed dialogue and victory triggers. (BUG #882)
+• The Door Control Node consoles during Consortium campaign mission #4 ("Visions of the Past") wouldn't swap models when destroyed.  The console prop definition did not use its alternate model, despite another variant of the same prop doing so earlier in the campaign. (BUG #844)
 
 
 Structure Fixes:
