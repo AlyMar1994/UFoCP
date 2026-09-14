@@ -72,6 +72,7 @@ AI Fixes:
 • The Marauder/Broadside-class Cruisers' AI would occasionally crash due to the "good location" they've picked to fire suddenly becoming invalid, but they'd still be hell-bent on trying to calculate if it's a good artillery location. (BUG #854)
 • The AI's "must jam missiles for X time" stipulation while using Missile Jamming Field has been reduced to 60 seconds (from 90) to allow them to reposition more fluidly. (BUG #774)
 • The AI script engine would sometimes error out upon testing an ability if the unit ceased to exist during attempt. (BUG #892)
+• The AI's plan to defend their space station has had multiple fixes: the AI will no longer divert all units upon the smallest assault on the starbase, the planning is more bug resistant, and didn't check to see if bombers were attacking the station. (BUG #893, #894)
 
 
 Interface Fixes:

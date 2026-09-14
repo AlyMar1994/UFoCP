@@ -39,7 +39,7 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 function Definitions()
 	AllowEngagedUnits = true
@@ -56,11 +56,19 @@ function Definitions()
 end
 
 function MainForce_Thread()
-	local focus_fire_on_target = Find_Nearest(Target, "Frigate | Capital", PlayerObject, false)
+	local focus_fire_on_target = Find_Nearest(Target, "Bomber | Frigate | Capital", PlayerObject, false)
+
+	if TestValid(focus_fire_on_target) and focus_fire_on_target.Get_Type().Get_Name() == "GENERIC_CAPITAL_SHIP_MARKER" then
+		DebugMessage("%s -- Tried to attack dummy space station marker, aborting.", tostring(Script))
+		ScriptExit()
+	end
 
 	while TestValid(focus_fire_on_target) do
-		-- Cancel all goals
-		Purge_Goals(PlayerObject)
+		-- Cancel all goals only if the station is taking catastrophic damage,
+		-- or if it's about to.
+		if TestValid(Target) and (Target.Get_Shield() == 0.0 or Target.Get_Hull() <= 0.6) then
+			Purge_Goals(PlayerObject)
+		end
 
 		Sleep(1)
 
@@ -68,6 +76,7 @@ function MainForce_Thread()
 		MainForce.Collect_All_Free_Units()
 
 		while TestValid(focus_fire_on_target) do
+			DebugMessage("%s -- Collecting all free units and attacking target: %s", tostring(Script), tostring(focus_fire_on_target))
 			MainForce.Collect_All_Free_Units()
 			BlockOnCommand(MainForce.Attack_Target(focus_fire_on_target), 5)
 		end
@@ -75,8 +84,20 @@ function MainForce_Thread()
 		Sleep(1)
 		MainForce.Set_Plan_Result(true)
 
+		-- Need to manually evaluate otherwise the plan may never be removed.
+		-- Check perception manually to ensure we don't chase units across the map,
+		-- we need to protect the station!
+		-- Techup also NILs target.
 		if TestValid(Target) then
-			focus_fire_on_target = Find_Nearest(Target, "Frigate | Capital", PlayerObject, false)
+			if (EvaluatePerception("Need_To_Defend_Space_Station", PlayerObject, Target) == 0) then
+				ScriptExit()
+			else
+				focus_fire_on_target = Find_Nearest(Target, "Bomber | Frigate | Capital", PlayerObject, false)
+				if TestValid(focus_fire_on_target) and focus_fire_on_target.Get_Type().Get_Name() == "GENERIC_CAPITAL_SHIP_MARKER" then
+					DebugMessage("%s -- Retarget tried to attack dummy space station marker, aborting.", tostring(Script))
+					ScriptExit()
+				end
+			end
 		else
 			ScriptExit()
 		end
