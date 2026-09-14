@@ -70,6 +70,7 @@ HOUSEKEEPING:
 
 AI Fixes:
 • The Marauder/Broadside-class Cruisers' AI would occasionally crash due to the "good location" they've picked to fire suddenly becoming invalid, but they'd still be hell-bent on trying to calculate if it's a good artillery location. (BUG #854)
+• The AI's "must jam missiles for X time" while using Missile Jamming Field has been reduced to 60 seconds to allow them to reposition more frequently. (BUG #774)
 
 
 Interface Fixes:
