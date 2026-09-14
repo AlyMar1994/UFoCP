@@ -53,6 +53,7 @@ UFCP FIXES:
 • The Canderous Assault Tank's model size recieved a 5% increase to try and match vanilla's a bit closer. (BUG #390)
 • Fix two black market price change notifications (during the Consortium campaign) that didn't use colored text in the dialogue notifications. (BUG #843)
 • Fix Alzoc III and Bespin's Piracy corruption options becoming unselectable after Consortium campaign mission #7 ("Baiting the Hook"). (BUG #848)
+• Fix an AI oversight where the AI will try to attack a marker used to fix BUG #679. (BUG #899)
 
 
 ENHANCEMENTS:

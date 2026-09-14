@@ -80,12 +80,17 @@ function MainForce_Thread()
 		MainForce.Collect_All_Free_Units()
 
 		target = Find_Nearest(MainForce, "Structure | Capital", PlayerObject, false)
-		if target == nil then
-			target = Find_Nearest(MainForce, PlayerObject, false)
+		if TestValid(target) and target.Get_Type().Get_Name() == "GENERIC_CAPITAL_SHIP_MARKER" then
+			DebugMessage("%s -- Tried to kill marker, retargeting...", tostring(Script))
+			target = Find_Nearest(target, "Structure | Capital", PlayerObject, false)
+		end
+
+		if target == nil or target.Get_Type().Get_Name() == "GENERIC_CAPITAL_SHIP_MARKER" then
+			target = Find_Nearest(MainForce, "Fighter | Corvette | Frigate | SpaceHero | Structure", PlayerObject, false)
 		end
 
 		while TestValid(target) do
-			DebugMessage("%s-- collecting all free units and attacking target:%s", tostring(Script), tostring(target))
+			DebugMessage("%s -- collecting all free units and attacking target: %s", tostring(Script), tostring(target))
 			MainForce.Collect_All_Free_Units()
 			BlockOnCommand(MainForce.Attack_Move(target), 20)
 		end
