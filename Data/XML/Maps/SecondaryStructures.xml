@@ -175,7 +175,6 @@
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_SECONDARY_MINING TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Secondary_Objective>TEXT_TACTICAL_SECONDARY_MINING_CAPTURE</Secondary_Objective>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<GUI_Row>0</GUI_Row>
 		<Land_Model_Name>NB_Abandon_Mining.ALO</Land_Model_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -215,7 +214,7 @@
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 
 		<Land_Damage_Thresholds>1, 0.5, 0</Land_Damage_Thresholds>
-		<Land_Damage_Alternates>1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
 		<Armor_Type>Armor_Structure</Armor_Type>

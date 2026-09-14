@@ -107,6 +107,7 @@ Script/Story Fixes:
 
 Structure Fixes:
 • The Laser Defense Satellites in Rebel campaign mission #1 ("Shipyard Diversion") and Empire campaign mission #3 ("The Pirate Menace") didn't have tooltip descriptions. (BUG #857)
+• The Abandoned Mining Facility capturable tried to reference a model variant it didn't have upon destruction.  In addition, it tried to loop an idle animation it didn't have. (BUG #897)
 
 
 
