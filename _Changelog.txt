@@ -48,29 +48,29 @@ There are changes to the game's master text directory this update!  Check "_Chan
 UFCP:
 ======
 UFCP FIXES:
-• Fix Random Story Events being available in the "alternate history" variants of the EaW GCs.  (Currently, they only support using EaW Heroes.)
+• Fix Random Story Events generating in the "alternate history" variants of the EaW GCs.  (Currently, they only support using EaW Heroes.)
 • Fix the alt-history variants of the EaW GCs not using the blown up version of Alderaan (and vice-versa, with alive Alderaan).
 • The Canderous Assault Tank's model size recieved a 5% increase to try and match vanilla's a bit closer. (BUG #390)
-• Fix two black market price changes during the Consortium campaign were missed while assigning colors to the dialogue notifications. (BUG #843)
-• Fix Alzoc III and Bespin's Piracy corruption becoming unselectable after unlocking the Merciless in Consortium campaign mission #7 ("Baiting the Hook"). (BUG #848)
+• Fix two black market price change notifications (during the Consortium campaign) that didn't use colored text in the dialogue notifications. (BUG #843)
+• Fix Alzoc III and Bespin's Piracy corruption options becoming unselectable after Consortium campaign mission #7 ("Baiting the Hook"). (BUG #848)
 
 
 ENHANCEMENTS:
 • (In what will probably be a never-ending process,) the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team color textures, icons, etc.) have been touched up to improve misc. problems.
 
 • Alt-history variants of the MP Galactic Conquests (ones with EaW-FoC hero swapping) are now available. (BUG #853)
-• The EaW GCs, MPGCs and alt-history versions now support using the original Death Star and Darth Vader in his TIE advanced (the DS2 and Executor will be unavailable to purchase).  The campaign ending videos should properly display and track the appropriate Death Stars in singleplayer, as well.
+• The EaW GCs, MPGCs and alt-history versions of the FoC GCs now support using the original Death Star and Black Squadron (the DS2 and Executor will be unavailable to purchase). (BUG #247)
 
 
 HOUSEKEEPING:
 • AI triggers for dumping excess money out of the "MajorItem" (Death Star/tech) budget for the Empire would trigger on the Rebels and Consortium.  They shouldn't have been using this plan anyway and it's easier to debug if the triggers are disabled for them. (No forward-facing changes.) (BUG #889)
-• The marker used to resolve #679 has been made neutral since it's affiliation is dynamic. (No forward-facing changes.)
+• The marker used to resolve BUG #679 has been made neutral since it's affiliation is dynamic anyway. (No forward-facing changes.)
 ======
 
 
 AI Fixes:
 • The Marauder/Broadside-class Cruisers' AI would occasionally crash due to the "good location" they've picked to fire suddenly becoming invalid, but they'd still be hell-bent on trying to calculate if it's a good artillery location. (BUG #854)
-• The AI's "must jam missiles for X time" while using Missile Jamming Field has been reduced to 60 seconds to allow them to reposition more frequently. (BUG #774)
+• The AI's "must jam missiles for X time" stipulation while using Missile Jamming Field has been reduced to 60 seconds (from 90) to allow them to reposition more fluidly. (BUG #774)
 
 
 Interface Fixes:
@@ -78,23 +78,23 @@ Interface Fixes:
 
 
 Map/Planet Fixes:
-• The script marker flags on the map for Empire campaign mission #3 ("The Pirate Menace") were technically owned by the Pirates, which means that Fett's Seismic Charge could destroy them and cause the script to throw errors. (BUG #817)
+• The script marker flags on the map for Empire campaign mission #3 ("The Pirate Menace") were technically owned by the Pirates, which meant that Fett's Seismic Charge could destroy them and cause the script to throw errors. (BUG #817)
 • One of the factory control terminals in Consortium campaign mission #4 ("Visions of the Past") could be destroyed because, by default, that prop's faction owner is the Empire.  While funny to see Tyber randomly obliterating it, it had to be fixed.  In addition, the entire map's brush passes (where units can move) and AI pathfinding zones have been redone. (BUG #845)
 • The explosive orbital containers in Rebel campaign mission #1 ("Shipyard Diversion") wouldn't destroy everything nearby them, leaving other containers or unmanned ships alive.  More containers have been added to ensure total obliteration. (BUG #856)
 • It was possible for T2-B Tanks to be stuck while reinforcing at the starting reinforcement point in Rebel campaign mission #2 ("Interpreting the Network"). (BUG #864)
 • Fix Yavin 4 having the Death Star's destroyed hull floating over it during the final Rebel and Empire campaign missions.  The original map from EaW has been reimplemented into the campaigns to support this change. (BUG #868)
-• Fix the uplink flag marker's position during Rebel campaign mission #2 ("Interpreting the Network") - the intro cinematic wouldn't properly focus on the uplink. (BUG #873)
+• Fix the uplink flag marker's position during Rebel campaign mission #2 ("Interpreting the Network") - the intro cinematic wouldn't properly focus on the uplink in widescreen resolutions. (BUG #873)
 
 
 Model Fixes:
-• The Mon Calamari Cruiser's engines would not disable when the ship was destroyed. (BUG #813)
+• The Mon Calamari Cruiser's engines would not disable when destroyed. (BUG #813)
 • The improved Consortium unit transport models (with fixed particle effects) from v2.3.0.1713 have recieved new, more optimized variants (with particle reduction in the hundreds). (BUG #813) (Thanks, galyana!)
 
 
 Script/Story Fixes:
 • During Rebel campaign mission #3 ("Theft of the X-wing"), while the Empire's doing its initial unit reinforcement, Captain Antilles will freak out and tell you to secure the reinforcement point.  The VO implies it's the starting point, but he's actually talking about the Empire-controlled ones.  A red "NOTICE:" message now appears to clarify that reinforcements are scary - in addition, multiple problems where Antilles hologram wouldn't play during this mission have been fixed. (BUG #790)
 • During Rebel campaign mission #7 ("Needle in a Haystack"), Han & Chewie would find the correct container after scanning 10 of them, when there are 12 on the map.  Normally this wouldn't a problem, however Han says that it's "always in the last place we look," and it's clear it was intended that the player has to search all 12 containers. (BUG #816)
-• The Empire starbase in Rebel campaign mission #7 ("Needle in a Haystack") would sometimes fire at Han despite him remaining undetected, specifically near the top of the map.  The starbase now can no longer fire until the alarm has been raised. (BUG #871)
+• The Empire starbase in Rebel campaign mission #7 ("Needle in a Haystack") sometimes fired at Han & Chewie despite him remaining undetected, specifically near the top of the map.  The starbase now can no longer fire until the alarm has been raised. (BUG #871)
 • During Rebel campaign mission #11 ("The Final Battle"), the Death Star would approach Yavin 4 too quickly (breaking the story sequence before the battle), and wouldn't give the player enough time in battle to defeat it (75sec.).  The developers intended to give the player ~300 seconds to defeat it, but the script command was broken - the DS now slowly approaches Yavin when the homing beacon is found, and the timer is correct. (BUG #835)
 • The Defiler during the Consortium campaign's Honoghr mission wouldn't have a hologram when talking. (BUG #866)
 • Tyber Zann's dialogue during Space Bespin Piracy would be cut off due to mistimed dialogue and victory triggers. (BUG #882)
