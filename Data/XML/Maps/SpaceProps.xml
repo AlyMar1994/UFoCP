@@ -1082,7 +1082,7 @@
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Behavior>SPACE_OBSTACLE, IDLE, UNIT_AI</Behavior>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
