@@ -269,14 +269,17 @@ end
 
 -- Try an ability if the AI difficulty will allow a chance
 function Try_Ability(thing, ability_name, target)
-	local owner = PlayerObject
+	if not thing then
+		return false
+	end
 
+	local owner = PlayerObject
 	if not Is_A_Taskforce(thing) then
 		owner = thing.Get_Owner()
 	end
 
 	if owner == nil then
-		DebugMessage("%s -- no owner for thing:%s", tostring(Script), tostring(thing))
+		DebugMessage("%s -- no owner for thing: %s", tostring(Script), tostring(thing))
 		return false
 	end
 
