@@ -36,20 +36,21 @@ Modeling:
 -- P_Corrupt_Planet2 - More performant corruption particle
 
 - galyana
--- UB_Barracks - Fixed Consortium Barracks spawn bone
--- UB_Droidworks - Fixed Consortium Droidworks spawn bones
+-- I_Main_Hero_Frame_Empire - Fixed enemy hero icon bar
 -- NV_PSkiff_Underworld - Fixed Consortium Pirate Skiff not using Consortium infantry
 -- NV_SwampSpeeder_U - Fixed shadow mesh (v2.1)
--- UV_CanderousAssaultTank - Fixed/improved Canderous Assault Tanks animations, collision and model data (v2.1)
--- UV_Vengeance_HP_RGT_TB - Fixed Vengeance Frigate turbolaser mesh
--- W_Bush_Swmp00 - New swamp bush model
 -- RB_Station_03_HP03_IC - Fixed lv.3 station ion cannon tower
--- UV_CrusaderClassCorvette + PE_CrusaderEngines - Fixed Crusader-class engine particles
--- UV_KedalbeBattleship + UV_KedalbeBattleship_HP_E_00/01 - Fixed Keldabe-class engine particles
 -- RB_OfficerAcademy + EB_OfficerAcademy - Fixed Officer Academy spawn bones and meshes
 -- RV_BWing + PTE_BWing - Fixed B-wing engine particle meshes
 -- RV_XWing + PTE_XWing, RV_Rogue_Squad - Fixed X-wing engine particle meshes
--- I_Main_Hero_Frame_Empire - Fixed enemy hero icon bar
+-- UB_Barracks - Fixed Consortium Barracks spawn bone
+-- UB_Droidworks - Fixed Consortium Droidworks spawn bones
+-- UV_CanderousAssaultTank - Fixed/improved Canderous Assault Tanks animations, collision and model data (v2.1)
+-- UV_CrusaderClassCorvette + PE_CrusaderEngines - Fixed Crusader-class engine particles
+-- UV_KedalbeBattleship + UV_KedalbeBattleship_HP_E_00/01 - Fixed Keldabe-class engine particles
+-- UV_Vengeance_HP_RGT_TB - Fixed Vengeance Frigate turbolaser mesh
+-- UV_RZ-52BoardingShip/Engines, UV_TyLander, UV_VehTransport.alo - Optimized transport meshes
+-- W_Bush_Swmp00 - New swamp bush model
 
 - irampagingrhin0
 -- NV_JediCruiser - Fixed Venator shield/bumpmap mesh

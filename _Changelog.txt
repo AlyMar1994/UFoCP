@@ -87,6 +87,7 @@ Map/Planet Fixes:
 
 Model Fixes:
 • The Mon Calamari Cruiser's engines would not disable when the ship was destroyed. (BUG #813)
+• The improved Consortium unit transport models (with fixed particle effects) from v2.3.0.1713 have recieved new, more optimized variants (with particle reduction in the hundreds). (BUG #813) (Thanks, galyana!)
 
 
 Script/Story Fixes:
