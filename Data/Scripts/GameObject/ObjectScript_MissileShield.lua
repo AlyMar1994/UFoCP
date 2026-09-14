@@ -77,7 +77,7 @@ function State_AI_Autofire(message)
 					if projectile.Is_Affected_By_Missile_Shield() or projectile.Is_Affected_By_Laser_Defense() then
 						Object.Activate_Ability(ability_name, true)
 						if Get_Game_Mode() == "Space" then
-							Register_Timer(Cancel_Missile_Shield, 90)
+							Register_Timer(Cancel_Missile_Shield, 60)
 						end
 						return
 					end
