@@ -48,6 +48,7 @@ Modeling:
 -- UV_CanderousAssaultTank - Fixed/improved Canderous Assault Tanks animations, collision and model data (v2.1)
 -- UV_CrusaderClassCorvette + PE_CrusaderEngines - Fixed Crusader-class engine particles
 -- UV_KedalbeBattleship + UV_KedalbeBattleship_HP_E_00/01 - Fixed Keldabe-class engine particles
+-- UV_Vengeance.alo - Fixed Vengeance collision mesh
 -- UV_Vengeance_HP_RGT_TB - Fixed Vengeance Frigate turbolaser mesh
 -- UV_RZ-52BoardingShip/Engines, UV_TyLander, UV_VehTransport.alo - Optimized transport meshes
 -- W_Bush_Swmp00 - New swamp bush model
