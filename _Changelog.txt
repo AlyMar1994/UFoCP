@@ -75,7 +75,7 @@ AI Fixes:
 • The AI script engine would sometimes error out upon testing an ability if the unit ceased to exist during attempt. (BUG #892)
 • The AI's plan to defend their space station has had multiple fixes: the AI will no longer divert all units upon the smallest assault on the starbase, the planning is more bug resistant, and didn't check to see if bombers were attacking the station. (BUG #893, #894)
 • The AI would, on occasion, consider temporary landing transports as valid units in their plans. (BUG #895)
-• Fix the "Large Asteroid Field" prop having AI.  These rocks will think no longer. (BUG #901)
+• Fix the "Large Asteroid Field" prop having AI.  These space rocks will think no longer. (BUG #901)
 
 
 Interface Fixes:
@@ -114,6 +114,7 @@ Structure Fixes:
 
 Unit Fixes:
 • The Hound's Tooth and IG-2000 didn't have the DAMAGE_TRACKING unit behavior, leading to some incorrect AI behavior. (BUG #898)
+• Fix Garven Dreis (Red Leader) being the only one to have the "ABILITY_COUNTDOWN" behavior on his unit in Red Squadron. (BUG #902)
 
 
 

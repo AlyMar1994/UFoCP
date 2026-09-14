@@ -16,7 +16,6 @@
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Empire</Political_Faction>
-		<Pre_Lit>Yes</Pre_Lit>
 		<Layer_Z_Adjust>0.5</Layer_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 	</Container>
@@ -95,7 +94,6 @@
 		<Max_Speed>5.0</Max_Speed>
 		<Min_Speed>1.5</Min_Speed>
 
-		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		<MovementClass>Space</MovementClass>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -131,7 +129,7 @@
 			<Unit_Ability>
 				<Type>LUCKY_SHOT</Type>
 				<Recharge_Seconds>60.0</Recharge_Seconds>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 600</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 600.0f</Mod_Multiplier>
 				<Projectile_Types_Override>Proj_Ship_Lucky_Shot_Medium_Laser_Cannon_Red</Projectile_Types_Override>
 				<GUI_Activated_Ability_Name>Red_Squadron_Lucky_Shot</GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability>Unit_Lucky_Shot_Luke</SFXEvent_Target_Ability>
@@ -143,7 +141,7 @@
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 2</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
