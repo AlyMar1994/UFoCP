@@ -89,22 +89,20 @@ Renames:
 • TEXT_PALACE_UNDERWORLD_BUILDS --> TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD_BUILDS
 • ITEXT_SFX_MCC_NTERDICTOR_1 --> TEXT_SFX_MCC_INTERDICTOR_1
 • ITEXT_SFX_MCF_INTERDICTOR_1 --> TEXT_SFX_MCF_INTERDICTOR_1
+• TEXT_TOOLTIP_DESTROYED_PLANET <--> TEXT_ENCYCLOPEDIA_PLANET_DESTROYED (Text swap) (BUG #436)
 
 
-International:
-• Various instances of tooltips ending without periods in the English, French, Italian, Polish and Russian localizations have been corrected.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
-• Various instances of German unit classes, inconsistently, being the unabbreviated "Klassifizierung:" instead of "Klasse:" have been fixed.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
-• English, French, German and Italian localizations infrequently referred to the Keldabe-class Battleship as the "Kedalbe," an old spelling from '80s Star Wars material.  All instances of "Kedalbe" have been swapped out for "Keldabe."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #236)
-• All localizations (except Italian) of Bossk and Jabba the Hutt's dialogue sometimes didn't follow the general trend of alien language dialogue, and wasn't prefixed with "(Translated)" like Jabba's dialogue, or his own dialogue in the campaign.  The prefix has been added and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #362)
-• English, French, Italian, Polish, Russian and Spanish localizations inconsistently used a special "…" (elipsis) character, or "..." (three periods).  The ellipses character is harder to read at high resolutions, and back-and-forth use of ellipses and periods caused spacing issues (f.e. as "to the Empire… .").  All ellipses have been swapped out for three periods and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #211)
+International/Housekeeping:
+• Various instances of tooltips ending without periods/general punctuation in various localizations have been corrected.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
+• Various instances of German unit classes inconsistently being the unabbreviated "Klassifizierung:" instead of "Klasse:" have been fixed.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
+• All localizations infrequently referred to the Keldabe-class Battleship as the "Kedalbe," an old spelling from '80s Star Wars material.  All instances of "Kedalbe" have been swapped out for "Keldabe."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #236)
+• All localizations (except Italian) of Bossk and Jabba the Hutt's dialogue sometimes didn't follow the trend of prefixing the text with "(Translated)."  The prefix has been added and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #362)
+• All localizations (except German) inconsistently used a special "…" (elipsis) character instead of "..." (three periods).  The ellipses character is harder to read at high resolutions, and back-and-forth use of ellipses and periods caused spacing issues (f.e. as "-- the Milennium Falcon… .").  All ellipses have been swapped out for three periods and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #211)
 • The Italian translation didn't have the "Grado:" (Rank/Grade) prefix before the player's title when winning/losing a GC game.  The prefix has been added and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #878)
-
-
-Housekeeping:
 • Various instances of "Tie" (f.e., as "Tie Mauler") have been capitalized properly to "TIE."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.) (BUG #859)
 • The vast majority of dialogue is double-spaced in EaW (and mostly in FoC), however, dialogue during general mission briefings, the Consortium's prologue, campaign and corruption missions weren't.  Double-spacing has been rectified all-around (including instances of triple-spacing), and remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as all dialogue is single-spaced.) (BUG #208)
 • Various misspelled or capitalized instances of "Tibanna" and/or "Tibanna Gas" have been corrected, as it isn't a proper noun. (BUG #560)
-• Various instances of "Shaak" have been de-capitalized, as it isn't a proper noun.  Thiss change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as three periods are always used.) (BUG #566)
+• Various instances of "Shaak" have been de-capitalized, as it isn't a proper noun.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as three periods are always used.) (BUG #566)
 • Multiple instances of "[Character] Must Survive." have been de-capitalized.  Various text strings alternated between the two capitalizations, when the most consistent capitalization was "[Character] must survive."  International languages did not suffer this problem. (BUG #561)
 • A handful of text strings that used colons (:), unlike other strings in FoC, had a space before their usage (f.e., "Windows Firewall :"), which has now been corrected.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as this was either intentional [in languages like French, where spaced punctuation is standard] or not applicable.)
 • Various instances of "Emperor" have been decapitalized, as it isn't a proper noun on its own in third-person reference to Emperor Palpatine.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
@@ -112,6 +110,7 @@ Housekeeping:
 • Various instances of "C3P0" or "C-3P0" have been corrected to "C-3PO."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.  Only the English, Japanese and Polish translations suffered this issue.
 • Various instances of Black Sun Pirate units had their name capitalized as f.e., "Black Sun pirate infantry..." when "pirate" should be capitalized.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
 • Various instances of "Plex" (as in "Plex Missile Soldier") were unnecessarily capitalized as "PLEX" as if it were an acronym.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
+• Multiple instances of "John D Branon" have been corrected to "John D. Branon."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
 
 
 • MB_LAND_PLANET_ALZOCIII_INTIMIDATION: (BUG #278)
