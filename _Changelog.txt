@@ -110,6 +110,10 @@ Structure Fixes:
 • The Abandoned Mining Facility capturable tried to reference a model variant it didn't have upon destruction.  In addition, it tried to loop an idle animation it didn't have. (BUG #897)
 
 
+Unit Fixes:
+• The Hound's Tooth and IG-2000 didn't have the DAMAGE_TRACKING unit behavior, leading to some incorrect AI behavior. (BUG #898)
+
+
 
 
 v2.3.0.1713 (08-13-2026) [FoC v1.121.859328]
