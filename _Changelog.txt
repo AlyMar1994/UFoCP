@@ -89,12 +89,15 @@ Map/Planet Fixes:
 • It was possible for T2-B Tanks to be stuck while reinforcing at the starting reinforcement point in Rebel campaign mission #2 ("Interpreting the Network"). (BUG #864)
 • Fix Yavin 4 having the Death Star's destroyed hull floating over it during the final Rebel and Empire campaign missions.  The original map from EaW has been reimplemented into the campaigns to support this change. (BUG #868)
 • Fix the uplink flag marker's position during Rebel campaign mission #2 ("Interpreting the Network") - the intro cinematic wouldn't properly focus on the uplink in widescreen resolutions. (BUG #873)
+• The Lambda-class Shuttle land prop used on various maps was "selectable" and generated a tooltip when hovered over, when it was clear it was not intended to do that (and was disabled manually on story campaign missions).  It is now a standard prop. (BUG #913)
 
 
 Model Fixes:
 • The Mon Calamari Cruiser's engines would not disable when destroyed. (BUG #813)
 • The improved Consortium unit transport models (with fixed particle effects) from v2.3.0.1713 have recieved new, more optimized variants (with particle reduction in the hundreds). (BUG #813) (Thanks, galyana!)
 • Fixed the Vengeance Frigate's engine hardpoint bone being outside of its collision mesh. (BUG #896) (Thanks, galyana!)
+• Fixed the Lambda-class Shuttle land prop constantly generating engine particles when placed for a performance improvement. (BUG #914)
+• Fixed the Gallofree Transport land prop constantly generating engine particles when placed for a performance improvement. (BUG #915)
 
 
 Script/Story Fixes:
