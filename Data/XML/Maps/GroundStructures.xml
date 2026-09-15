@@ -2934,7 +2934,8 @@
 
 
 	<GroundStructure Name="Gallofree_Stationary">
-		<Text_ID />
+		<Text_ID>TEXT_UNIT_GALLOFREE_TRANSPORT</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT</Encyclopedia_Unit_Class>
 		<Land_Model_Name>RV_TRANSPORT.ALO</Land_Model_Name>
 		<Select_Box_Scale>100</Select_Box_Scale>
 		<Behavior />
@@ -2963,11 +2964,11 @@
 	<GroundStructure Name="Landed_Empire_Shuttle">
 		<Text_ID>TEXT_UNIT_TYDERIUM_SHUTTLE</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT</Encyclopedia_Unit_Class>
-		<Land_Model_Name>EV_LAMBDASHUTTLE.ALO</Land_Model_Name>
+		<Land_Model_Name>EV_LAMBDASHUTTLE_LANDED.ALO</Land_Model_Name>
 		<Select_Box_Scale>100</Select_Box_Scale>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>IDLE, LAND_OBSTACLE, UNIT_AI</LandBehavior>
+		<Behavior />
+		<LandBehavior>IDLE, LAND_OBSTACLE</LandBehavior>
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Mass>1.0</Mass>
 		<Scale_Factor>2.0</Scale_Factor>
