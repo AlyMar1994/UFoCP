@@ -2960,6 +2960,37 @@
 		<CategoryMask>Wall</CategoryMask>
 	</GroundStructure>
 
+	<GroundStructure Name="Landed_Empire_Shuttle">
+		<Text_ID>TEXT_UNIT_TYDERIUM_SHUTTLE</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EV_LAMBDASHUTTLE.ALO</Land_Model_Name>
+		<Select_Box_Scale>100</Select_Box_Scale>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>IDLE, LAND_OBSTACLE, UNIT_AI</LandBehavior>
+		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Mass>1.0</Mass>
+		<Scale_Factor>2.0</Scale_Factor>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>100</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Affiliation>Empire</Affiliation>
+		<!--<Base_Level_Available>0</Base_Level_Available>-->
+		<Armor_Type>Armor_Structure</Armor_Type>
+		<Reveal_During_Setup_Phase>False</Reveal_During_Setup_Phase>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CategoryMask>Structure</CategoryMask>
+		<AI_Combat_Power>5</AI_Combat_Power>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+	</GroundStructure>
+
 	<GroundStructure Name="Imperial_Observation_Bunker">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Text_ID>TEXT_STRUCTURE_EMPIRE_BUNKER</Text_ID>
@@ -3007,38 +3038,6 @@
 
 		<Score_Cost_Credits>500</Score_Cost_Credits>
 		<AI_Combat_Power>5</AI_Combat_Power>
-	</GroundStructure>
-
-
-	<GroundStructure Name="Landed_Empire_Shuttle">
-		<Text_ID>TEXT_UNIT_TYDERIUM_SHUTTLE</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT</Encyclopedia_Unit_Class>
-		<Land_Model_Name>EV_LAMBDASHUTTLE.ALO</Land_Model_Name>
-		<Select_Box_Scale>100</Select_Box_Scale>
-		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>IDLE, LAND_OBSTACLE, UNIT_AI</LandBehavior>
-		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Mass>1.0</Mass>
-		<Scale_Factor>2.0</Scale_Factor>
-
-		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>100</Tactical_Health>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
-		<Energy_Capacity>0</Energy_Capacity>
-		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-		<Affiliation>Empire</Affiliation>
-		<!--<Base_Level_Available>0</Base_Level_Available>-->
-		<Armor_Type>Armor_Structure</Armor_Type>
-		<Reveal_During_Setup_Phase>False</Reveal_During_Setup_Phase>
-		<Victory_Relevant>No</Victory_Relevant>
-		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
-		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<CategoryMask>Structure</CategoryMask>
-		<AI_Combat_Power>5</AI_Combat_Power>
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 	</GroundStructure>
 
 
