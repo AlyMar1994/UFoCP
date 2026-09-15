@@ -1538,6 +1538,16 @@ International/Housekeeping:
 • TEXT_TOOLTIP_ABILITY_SABER_THROW_DESCRIPTION: (BUG #908)
 	-- ENG: When activated, Luke will throw his light saber... --> When activated, Luke will throw his lightsaber,...
 
+• TEXT_TOOLTIP_ABILITY_SENSOR_JAMMING_DESCRIPTION: (BUG #912)
+	-- ENG: Hides units from enemy radar. --> Use a comm jammer to hide units from enemy radar.  Redirects missiles and torpedoes away from this unit in a large area-of-effect.
+	-- FRA: Empêche les radars ennemis de détecter les unités. --> Utilisez un brouilleur de communications pour dissimuler vos unités au radar ennemi. Il détourne les missiles et les torpilles loin de l'unité dans une vaste zone d'effet.
+	-- GER: Verbirgt Einheiten vor dem gegnerischen Radar. --> Verwende einen Störsender, um Einheiten vor dem feindlichen Radar zu verbergen. Lenkt Raketen und Torpedos in einem großen Wirkungsbereich von der Einheit ab.
+	-- ITA: Nasconde le unità dal radar nemico. --> Utilizza un disturbatore di comunicazioni per nascondere le unità al radar nemico. Devia missili e siluri lontano dall'unità in un'ampia area d'effetto.
+	-- JAP: ユニットを敵のレーダーから隠す。 --> 通信妨害装置を使用して、 敵のレーダーからユニットを隠します。 広範囲にわたって、 ミサイルや魚雷の軌道をそのユニットから逸らします。
+	-- POL: Ukrywa jednostki przed radarami nieprzyjaciela. --> Użyj zakłócacza łączności, aby ukryć jednostki przed radarem wroga. Odprowadza pociski i torpedy z dala od jednostki na rozległym obszarze działania.
+	-- RUS: Мешает вражескому радару обнаружить наши войска. --> Используйте устройство подавления радиолокационных сигналов, чтобы скрыть юниты от вражеского радара. Перенаправляет ракеты и торпеды в сторону от юнита в пределах обширной зоны действия.
+	-- SPA: Oculta a las unidades del radar del enemigo. --> Utiliza un inhibidor de comunicaciones para ocultar las unidades al radar enemigo. Desvía los misiles y los torpedos lejos de la unidad en una amplia zona de efecto.
+
 • TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION: (BUG #417)
 	-- ENG: This ability temporarily boosts Rogue Squadron's rate of fire, movement speed, and damage. --> Coordinate Rogue Squadron's attack run for a devastating strike.  Temporarily boosts Rogue Squadron's rate of fire and damage, while slightly reducing their movement speed.
 	-- FRA: Cette aptitude octroie un bonus d'attaque aux systèmes d'armement. --> Coordonnez la passe d'attaque de l'Escadron Rogue pour porter un coup dévastateur. Augmente temporairement la cadence de tir et les dégâts de l'Escadron Rogue, tout en réduisant légèrement sa vitesse de déplacement.
