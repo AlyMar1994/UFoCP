@@ -1535,6 +1535,9 @@ International/Housekeeping:
 	-- RUS: Использовать невероятную силу Чубакки, чтобы угнать вражеский аппарат. --> [original text +] При захвате вражеской техники Чубакка маскируется: он может скрываться среди других врагов, не атакуя их и не подвергаясь автоматической атаке с их стороны. Маскировка окончательно снимается после совершения атаки.
 	-- SPA: Utiliza la fuerza bruta de Chewbacca para secuestrar un vehículo enemigo. --> [original text +] Cuando se captura un vehículo enemigo, Chewbacca se disfraza; puede ocultarse entre otros enemigos y no atacará ni será atacado automáticamente. El disfraz se pierde permanentemente tras atacar.
 
+• TEXT_TOOLTIP_ABILITY_SABER_THROW_DESCRIPTION: (BUG #908)
+	-- ENG: When activated, Luke will throw his light saber... --> When activated, Luke will throw his lightsaber,...
+
 • TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION: (BUG #417)
 	-- ENG: This ability temporarily boosts Rogue Squadron's rate of fire, movement speed, and damage. --> Coordinate Rogue Squadron's attack run for a devastating strike.  Temporarily boosts Rogue Squadron's rate of fire and damage, while slightly reducing their movement speed.
 	-- FRA: Cette aptitude octroie un bonus d'attaque aux systèmes d'armement. --> Coordonnez la passe d'attaque de l'Escadron Rogue pour porter un coup dévastateur. Augmente temporairement la cadence de tir et les dégâts de l'Escadron Rogue, tout en réduisant légèrement sa vitesse de déplacement.
