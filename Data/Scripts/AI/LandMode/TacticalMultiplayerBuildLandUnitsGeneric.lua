@@ -39,10 +39,11 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 function Definitions()
 	Category = "Tactical_Multiplayer_Build_Land_Units_Generic"
+	AllowFreeStoreUnits = false
 	IgnoreTarget = true
 	TaskForce =
 	{
@@ -66,7 +67,6 @@ function Definitions()
 		}
 	}
 	RequiredCategories = { "Infantry | Vehicle | LandHero | Upgrade" }
-	AllowFreeStoreUnits = false
 end
 
 function ReserveForce_Thread()

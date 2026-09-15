@@ -41,22 +41,19 @@
 
 -- This plan simply puts Vader in the right places.
 -- It relies on the object script darthvader.lua to activate abilities.
-
-require("pgevents")
+require("PGEvents")
 
 function Definitions()
 	Category = "VaderAssists"
+	IgnoreTarget = true
+	AllowEngagedUnits = true
 	TaskForce =
 	{
 		{
 			"MainForce",
-			"DenyHeroAttach",
-			--"Darth_Vader | Darth_Vader_Expansion = 1"
+			"DenyHeroAttach"
 		}
 	}
-
-	IgnoreTarget = true
-	AllowEngagedUnits = true
 	duration_to_assist = 20
 	duration_to_fight = 30
 end
@@ -73,7 +70,6 @@ function MainForce_Thread()
 		vader = Find_First_Object("Darth_Vader_Expansion")
 	end
 
-	--local vader = MainForce.Get_Unit_Table()[1]
 	if not TestValid(vader) then
 		DebugMessage("%s -- unexpected state; vader unavailable", tostring(Script))
 		ScriptExit()
@@ -83,8 +79,7 @@ function MainForce_Thread()
 	while true do
 		ConsiderHeal(vader)
 
-		local enemy_location = FindTarget.Reachable_Target(PlayerObject, "Current_Enemy_Location", "Tactical_Location",
-			"Any_Threat", 0.5)
+		local enemy_location = FindTarget.Reachable_Target(PlayerObject, "Current_Enemy_Location", "Tactical_Location", "Any_Threat", 0.5)
 		if TestValid(enemy_location) then
 			DebugMessage("%s -- moving toward enemy concentration", tostring(Script))
 			BlockOnCommand(MainForce.Attack_Move(enemy_location), duration_to_fight)

@@ -91,8 +91,7 @@ function MoveUnit(object)
 		FreeStore.Move_Object(object, dest_target)
 		return true
 	else
-		DebugMessage("%s -- Object: %s, unable to find a suitable destination for this object.", tostring(Script),
-			tostring(object))
+		DebugMessage("%s -- Object: %s, unable to find a suitable destination for this object.", tostring(Script), tostring(object))
 		return false
 	end
 end
@@ -179,10 +178,8 @@ function FreeStoreService()
 		GroundAvailablePercent = gcnt / object_count
 		SpaceUnitsToMove = SpaceMovePercent * scnt
 		GroundUnitsToMove = GroundMovePercent * gcnt
-		DebugMessage(
-			"%s -- SpaceAvailablePercent: %f, GroundAvailablePercent: %f, SpaceUnitsToMove: %f, GroundUnitsToMove: %f, scnt: %f, gcnt: %f",
-			tostring(Script), SpaceAvailablePercent, GroundAvailablePercent, SpaceUnitsToMove, GroundUnitsToMove, scnt,
-			gcnt)
+		DebugMessage("%s -- SpaceAvailablePercent: %f, GroundAvailablePercent: %f, SpaceUnitsToMove: %f, GroundUnitsToMove: %f, scnt: %f, gcnt: %f",
+						tostring(Script), SpaceAvailablePercent, GroundAvailablePercent, SpaceUnitsToMove, GroundUnitsToMove, scnt, gcnt)
 	end
 end
 
@@ -219,8 +216,7 @@ function Find_Ground_Unit_Target(object)
 		end
 	end
 
-	local priority_planet = FindTarget.Reachable_Target(PlayerObject, "Ground_Priority_Defense_Score", "Friendly",
-		"Friendly_Only", 0.1, object)
+	local priority_planet = FindTarget.Reachable_Target(PlayerObject, "Ground_Priority_Defense_Score", "Friendly", "Friendly_Only", 0.1, object)
 	if priority_planet then
 		priority_planet = priority_planet.Get_Game_Object()
 	end
@@ -239,8 +235,7 @@ function Find_Ground_Unit_Target(object)
 		return nil
 	end
 
-	local poorly_defended_planet = FindTarget.Reachable_Target(PlayerObject, "Low_Ground_Defense_Score", "Friendly",
-		"Friendly_Only", 1.0, object)
+	local poorly_defended_planet = FindTarget.Reachable_Target(PlayerObject, "Low_Ground_Defense_Score", "Friendly", "Friendly_Only", 1.0, object)
 	if poorly_defended_planet then
 		poorly_defended_planet = poorly_defended_planet.Get_Game_Object()
 	end
@@ -294,8 +289,7 @@ function Find_Space_Unit_Target(object)
 		end
 	end
 
-	local priority_planet = FindTarget.Reachable_Target(PlayerObject, "Space_Priority_Defense_Score", "Friendly",
-		"Friendly_Only", 0.1, object)
+	local priority_planet = FindTarget.Reachable_Target(PlayerObject, "Space_Priority_Defense_Score", "Friendly", "Friendly_Only", 0.1, object)
 	if priority_planet then
 		priority_planet = priority_planet.Get_Game_Object()
 	end
@@ -316,8 +310,7 @@ function Find_Space_Unit_Target(object)
 		return nil
 	end
 
-	local poorly_defended_planet = FindTarget.Reachable_Target(PlayerObject, "Low_Space_Defense_Score", "Friendly",
-		"Friendly_Only", 1.0, object)
+	local poorly_defended_planet = FindTarget.Reachable_Target(PlayerObject, "Low_Space_Defense_Score", "Friendly", "Friendly_Only", 1.0, object)
 	if poorly_defended_planet then
 		poorly_defended_planet = poorly_defended_planet.Get_Game_Object()
 	end

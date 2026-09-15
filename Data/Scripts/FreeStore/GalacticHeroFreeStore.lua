@@ -39,7 +39,7 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgcommands")
+require("PGCommands")
 
 function Definitions()
 	DebugMessage("%s -- Defining custom freestore movement perceptions", tostring(Script))
@@ -47,7 +47,8 @@ function Definitions()
 	-- Table which maps heroes to perceptions for systems they like to hang out on when not in active use
 	-- The boolean is for whether or not the hero prefers to stay in space, if he has a choice
 	-- Generally, this is to find the system where their abilities provide the best defensive or infrastructure bonuses
-	CustomUnitPlacement = {
+	CustomUnitPlacement =
+	{
 		EMPEROR_PALPATINE_TEAM = { "Is_Home_Planet", false },
 		GRAND_MOFF_TARKIN_TEAM = { "Is_Home_Planet", true },
 		DARTH_TEAM = { nil, false },

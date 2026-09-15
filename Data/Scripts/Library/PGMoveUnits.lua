@@ -41,15 +41,13 @@
 
 require("PGBaseDefinitions")
 
-
-
--- This will move an entire unit list with simultaneous orders.  
+-- This will move an entire unit list with simultaneous orders.
 -- They will block as a whole and pass when the last unit's move is complete.
 function Formation_Move(unit_list, target)
 	if type(unit_list) == "table" then
 		Cull_Unit_List(unit_list)
 		for k, unit in pairs(unit_list) do -- An individual unit is needed to reach the Move_To function.
-			BlockOnCommand(unit.Move_To(unit_list, target))  -- Note that the unit list is passed.
+			BlockOnCommand(unit.Move_To(unit_list, target)) -- Note that the unit list is passed.
 			return
 		end
 		DebugMessage("%s -- Formation_Move, unit_list is empty", tostring(Script))
@@ -105,5 +103,3 @@ function Formation_Guard(unit_list, target)
 		DebugMessage("%s -- Formation_Guard, expected table or userdata got %s", tostring(Script), tostring(unit_list))
 	end
 end
-
-

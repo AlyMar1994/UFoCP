@@ -43,6 +43,8 @@ require("PGEvents")
 
 function Definitions()
 	Category = "Burn_Units_Space"
+	AllowEngagedUnits = true
+	IgnoreTarget = true
 	TaskForce =
 	{
 		{
@@ -51,8 +53,6 @@ function Definitions()
 			"DenySpecialWeaponAttach"
 		}
 	}
-	AllowEngagedUnits = true
-	IgnoreTarget = true
 end
 
 function MainForce_Thread()
@@ -63,8 +63,7 @@ function MainForce_Thread()
 
 		-- We're now also revealing FOW here for the human player (was previously handled by a hard-coded system)
 		-- Make sure that there isn't a scripted scenario underway that doesn't want automatic FOW reveals
-		if Is_Multiplayer_Mode() == false and ((EvaluatePerception("Is_Skirmish_Mode", PlayerObject) == 1) or
-						(GlobalValue.Get("Allow_AI_Controlled_Fog_Reveal") == 1)) then
+		if Is_Multiplayer_Mode() == false and ((EvaluatePerception("Is_Skirmish_Mode", PlayerObject) == 1) or (GlobalValue.Get("Allow_AI_Controlled_Fog_Reveal") == 1)) then
 			reveal_human = FogOfWar.Reveal_All(Find_Player("local"))
 		end
 	end

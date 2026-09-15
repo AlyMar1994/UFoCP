@@ -55,10 +55,6 @@ function State_Init(message)
 	if message == OnEnter then
 		-- Register a prox event that looks for any nearby units
 		Register_Prox(Object, Unit_Prox, 200, nil)
-	elseif message == OnUpdate then
-		-- Do nothing
-	elseif message == OnExit then
-		-- Do nothing
 	end
 end
 

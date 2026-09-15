@@ -39,7 +39,7 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 -- Death Star Usage
 function Definitions()
@@ -53,7 +53,6 @@ function Definitions()
 			"Frigate | Capital | Corvette | Bomber | Fighter | Super = 100%"
 		}
 	}
-
 	RequiredCategories = { "Super" }
 end
 
@@ -98,9 +97,9 @@ function DeathStarForce_Thread()
 end
 
 function DeathStarForce_No_Units_Remaining(tf)
-	--Do nothing
+	-- Do nothing
 end
 
 function DeathStarForce_Original_Target_Owner_Changed(tf, old_owner, new_owner)
-	--Do nothing
+	-- Do nothing
 end

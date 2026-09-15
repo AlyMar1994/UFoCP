@@ -39,11 +39,11 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 function Definitions()
 	Category = "Raid"
-
+	LandSecured = false
 	TaskForce =
 	{
 		{
@@ -53,8 +53,6 @@ function Definitions()
 			"LandHero = 0,1"
 		}
 	}
-
-	LandSecured = false
 end
 
 function RaidForce_Thread()
@@ -113,5 +111,5 @@ function RaidForce_Original_Target_Owner_Changed(tf, old_owner, new_owner)
 end
 
 function RaidForce_No_Units_Remaining(tf)
-	--Do nothing
+	-- Do nothing
 end

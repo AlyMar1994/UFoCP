@@ -42,9 +42,9 @@
 require("PGEvents")
 
 function Definitions()
+	Category = "Defend_Space_Station"
 	AllowEngagedUnits = true
 	IgnoreTarget = true
-	Category = "Defend_Space_Station"
 	TaskForce =
 	{
 		{
@@ -66,7 +66,7 @@ function MainForce_Thread()
 	while TestValid(focus_fire_on_target) do
 		-- Cancel all goals only if the station is taking catastrophic damage,
 		-- or if it's about to.
-		if TestValid(Target) and (Target.Get_Shield() == 0.0 or Target.Get_Hull() <= 0.6) then
+		if TestValid(Target) and (Target.Get_Shield() == 0.0 or Target.Get_Hull() <= 0.75) then
 			Purge_Goals(PlayerObject)
 		end
 

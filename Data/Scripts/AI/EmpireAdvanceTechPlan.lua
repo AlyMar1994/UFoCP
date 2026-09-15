@@ -39,13 +39,14 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 
 function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
 
 	Category = "Advance_Tech_Empire"
+	AllowFreeStoreUnits = false
 	IgnoreTarget = true
 	TaskForce =
 	{
@@ -54,7 +55,6 @@ function Definitions()
 			"DS_Primary_Hyperdrive | DS_Shield_Gen | DS_Superlaser_Core | DS_Durasteel | Darth_Team_Executor | Death_Star_II = 1"
 		}
 	}
-	AllowFreeStoreUnits = false
 
 	DebugMessage("%s -- Done Definitions", tostring(Script))
 end

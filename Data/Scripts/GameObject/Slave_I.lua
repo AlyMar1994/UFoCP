@@ -41,7 +41,6 @@
 
 require("PGStateMachine")
 
-
 function Definitions()
 	DebugMessage("%s -- Slave_I definitions", tostring(Script))
 

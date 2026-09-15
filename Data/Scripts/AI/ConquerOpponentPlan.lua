@@ -39,7 +39,7 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 -- Tell the script pooling system to pre-cache this number of scripts.
 ScriptPoolCount = 2
@@ -47,7 +47,6 @@ ScriptPoolCount = 2
 --
 -- Galactic Mode Contrast Script
 --
-
 function Definitions()
 	MinContrastScale = 1.25
 	MaxContrastScale = 1.75
@@ -221,13 +220,13 @@ end
 function SpaceForce_No_Units_Remaining()
 	if not LandSecured then
 		SpaceForce.Set_Plan_Result(false)
-		--Don't exit since we need to sleep to enforce delays between AI attacks (can't be done inside an event handler)
+		-- Don't exit since we need to sleep to enforce delays between AI attacks (can't be done inside an event handler)
 	end
 end
 
 function GroundForce_No_Units_Remaining()
 	if not LandSecured then
 		GroundForce.Set_Plan_Result(false)
-		--Don't exit since we need to sleep to enforce delays between AI attacks (can't be done inside an event handler)
+		-- Don't exit since we need to sleep to enforce delays between AI attacks (can't be done inside an event handler)
 	end
 end

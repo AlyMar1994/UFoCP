@@ -39,7 +39,7 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 -- Tell the script pooling system to pre-cache this number of scripts.
 ScriptPoolCount = 4

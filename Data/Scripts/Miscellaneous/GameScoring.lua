@@ -39,7 +39,7 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgcommands")
+require("PGCommands")
 
 -- Don't pool...
 ScriptPoolCount = 0
@@ -885,8 +885,8 @@ function Debug_Print_Score_Vals()
 			score = 0
 		end
 
-		GameScoringMessage("Tactical %s:%s, Mill_Eff:%f, Kill_Eff:%f, Score:%f", player.Get_Name(),
-			player.Get_Faction_Name(), mill_eff, kill_eff, score)
+		GameScoringMessage("Tactical %s: %s, Mill_Eff: %f, Kill_Eff: %f, Score: %f",
+							player.Get_Name(), player.Get_Faction_Name(), mill_eff, kill_eff, score)
 	end
 
 	for pid, player in pairs(PlayerTable) do
@@ -901,8 +901,8 @@ function Debug_Print_Score_Vals()
 			score = 0
 		end
 
-		GameScoringMessage("Galactic %s:%s, Mill_Eff:%f, Kill_Eff:%f, Conq_eff:%f, Score:%f", player.Get_Name(),
-			player.Get_Faction_Name(), mill_eff, kill_eff, conq_eff, score)
+		GameScoringMessage("Galactic %s: %s, Mill_Eff: %f, Kill_Eff: %f, Conq_eff: %f, Score: %f",
+							player.Get_Name(), player.Get_Faction_Name(), mill_eff, kill_eff, conq_eff, score)
 	end
 end
 

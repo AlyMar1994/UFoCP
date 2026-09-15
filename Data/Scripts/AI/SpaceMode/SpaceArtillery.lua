@@ -39,14 +39,14 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
 
+	Category = "Space_Artillery"
 	AllowEngagedUnits = false
 	IgnoreTarget = true
-	Category = "Space_Artillery"
 	TaskForce =
 	{
 		{

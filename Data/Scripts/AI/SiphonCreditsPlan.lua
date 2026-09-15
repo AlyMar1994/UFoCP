@@ -39,13 +39,13 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
 
-	IgnoreTarget = true;
 	Category = "Weaken_Planet"
+	IgnoreTarget = true;
 	TaskForce =
 	{
 		{

@@ -67,10 +67,6 @@ function State_Init(message)
 		closerange = false
 
 		Create_Thread("AdeptFour_AI")
-	elseif message == OnUpdate then
-		-- Do nothing
-	elseif message == OnExit then
-		-- Do nothing
 	end
 end
 
@@ -78,7 +74,7 @@ function Unit_Prox(self_obj, trigger_obj)
 	DebugMessage("-- %s -- %s", tostring(Object.Get_Type()), tostring(Object.Get_Owner()))
 
 	if not trigger_obj then
-		DebugMessage("Warning: prox received a nil trigger_obj .")
+		DebugMessage("Warning: prox received a nil trigger_obj.")
 		return
 	end
 

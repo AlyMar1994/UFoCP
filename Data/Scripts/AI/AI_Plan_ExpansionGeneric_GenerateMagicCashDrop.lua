@@ -39,10 +39,13 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 function Definitions()
 	Category = "Generate_Magic_Cash_Drop | Skirmish_Generate_Magic_Cash_Drop_Space | Skirmish_Generate_Magic_Cash_Drop_Land"
+	AllowFreeStoreUnits = false
+	MagicPlan = true
+	MagicPlanStealing = false
 	IgnoreTarget = true
 	TaskForce =
 	{
@@ -52,9 +55,6 @@ function Definitions()
 			"TaskForceRequired"
 		}
 	}
-	AllowFreeStoreUnits = false
-	MagicPlan = true
-	MagicPlanStealing = false
 end
 
 function ReserveForce_Thread()

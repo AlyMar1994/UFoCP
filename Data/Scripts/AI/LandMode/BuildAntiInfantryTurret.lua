@@ -39,10 +39,9 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 -- Build a single turret.
-
 function Definitions()
 	Category = "Build_AntiInfantry_Turret"
 	TaskForce =

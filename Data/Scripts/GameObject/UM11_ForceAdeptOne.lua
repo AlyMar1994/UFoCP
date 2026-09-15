@@ -41,7 +41,6 @@
 
 require("PGStateMachine")
 
-
 function Definitions()
 
 	-- Object isn't valid at this point so don't do any operations that

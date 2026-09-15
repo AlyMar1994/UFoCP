@@ -39,7 +39,7 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgcommands")
+require("PGCommands")
 
 function Base_Definitions()
 	DebugMessage("%s -- In Base_Definitions", tostring(Script))

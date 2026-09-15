@@ -39,10 +39,11 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 function Definitions()
 	Category = "Tactical_Multiplayer_Build_Infantry_Emergency"
+	AllowFreeStoreUnits = false
 	IgnoreTarget = true
 	TaskForce =
 	{
@@ -55,7 +56,6 @@ function Definitions()
 			"-Droids_Team"
 		}
 	}
-	AllowFreeStoreUnits = false
 end
 
 function ReserveForce_Thread()

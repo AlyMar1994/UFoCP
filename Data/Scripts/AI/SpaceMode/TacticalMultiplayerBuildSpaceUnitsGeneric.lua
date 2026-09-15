@@ -39,11 +39,11 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
-
+require("PGEvents")
 
 function Definitions()
 	Category = "Tactical_Multiplayer_Build_Space_Units_Generic"
+	AllowFreeStoreUnits = false
 	IgnoreTarget = true
 	TaskForce =
 	{
@@ -61,9 +61,7 @@ function Definitions()
 			"Bossk_Team_Space_MP | IG88_Team_Space_MP | The_Peacebringer = 0,1"
 		}
 	}
-
 	RequiredCategories = { "Fighter | Bomber | Corvette | Frigate | Capital | SpaceHero" }
-	AllowFreeStoreUnits = false
 end
 
 function ReserveForce_Thread()

@@ -39,7 +39,7 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 function Definitions()
 	Category = "Remove_Corruption"
@@ -64,7 +64,7 @@ function MainForce_Thread()
 end
 
 function MainForce_No_Units_Remaining(tf)
-	--No action
+	-- No action
 end
 
 function MainForce_Production_Failed(tf, failed_object_type)

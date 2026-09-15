@@ -39,7 +39,7 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("pgevents")
+require("PGEvents")
 
 -- AM1994 12/15/2024 - Disable this plan as a part of UFoCP #408.
 -- Because political control/political fighting was cut from the
@@ -48,11 +48,10 @@ require("pgevents")
 -- of DeployUnitOnTarget, and sit on planets.
 -- Prefer the AI spend money more wisely on smugglers or other
 -- forms of unit expansion.
-
 function Definitions()
 	--DebugMessage("%s -- In Definitions", tostring(Script))
 
-	IgnoreTarget = true
+	--IgnoreTarget = true
 	--Category = "Weaken_Planet"
 	Category = "AlwaysOff"
 	TaskForce =

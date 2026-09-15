@@ -83,8 +83,7 @@ function BlockOnCommand(block, max_duration, alternate_break_func)
 
 		PumpEvents()
 
-		if ((max_duration ~= nil) and (max_duration ~= -1)
-				and (GetCurrentTime() - ThreadValue("BlockStart") > max_duration)) then
+		if ((max_duration ~= nil) and (max_duration ~= -1) and (GetCurrentTime() - ThreadValue("BlockStart") > max_duration)) then
 			DebugMessage("%s -- Had a time limit and it expired", tostring(Script))
 			return nil
 		end
