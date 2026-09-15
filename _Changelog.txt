@@ -90,7 +90,7 @@ Map/Planet Fixes:
 • Fix Yavin 4 having the Death Star's destroyed hull floating over it during the final Rebel and Empire campaign missions.  The original map from EaW has been reimplemented into the campaigns to support this change. (BUG #868)
 • Fix the uplink flag marker's position during Rebel campaign mission #2 ("Interpreting the Network") - the intro cinematic wouldn't properly focus on the uplink in widescreen resolutions. (BUG #873)
 • The Lambda-class Shuttle land prop used on various maps was "selectable" and generated a tooltip when hovered over, when it was clear it was not intended to do that (and was disabled manually on story campaign missions).  It is now a standard prop. (BUG #913)
-• Fixed multiple issues where the Death Stars would target the moons of planets instead of the planets themselves. (BUG #909)
+• Fixed multiple cases where the Death Stars would target the moons of planets instead of the planets themselves. (BUG #909)
 
 
 Model Fixes:

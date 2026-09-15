@@ -6,7 +6,6 @@
 --		Revision:   1
 -- ============================================================================
 
-require("PGStateMachine")
 require("PGStoryMode")
 
 function Definitions()

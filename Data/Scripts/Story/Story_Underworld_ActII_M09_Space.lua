@@ -40,13 +40,10 @@
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
 require("PGStoryMode")
-require("PGSpawnUnits")
-require("PGStateMachine")
 
 --
 -- Definitions -- This function is called once when the script is first created.
 --
-
 function Definitions()
 	StoryModeEvents =
 	{

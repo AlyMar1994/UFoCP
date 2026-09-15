@@ -36,13 +36,11 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-
 require("PGStoryMode")
 
 --
 -- Definitions -- This function is called once when the script is first created.
 --
-
 function Definitions()
 
 	DebugMessage("%s -- In Definitions", tostring(Script))

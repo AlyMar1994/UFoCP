@@ -39,9 +39,8 @@
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
-require("JGS_FunctionLib") -- added library of commonly used functions
-require("PGSpawnUnits")
 require("PGStoryMode")
+require("JGS_FunctionLib") -- added library of commonly used functions
 
 function Definitions()
 	bool_skip_intro = false

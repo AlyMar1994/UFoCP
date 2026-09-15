@@ -6,24 +6,23 @@
 --		Revision:   1
 -- ============================================================================
 
-require("PGStateMachine")
 require("PGStoryMode")
 
 function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
-   	StoryModeEvents = 
+   	StoryModeEvents =
 	{
 		Universal_Story_Start = Universal_Story_Start
 		,Death_Star_Created = State_Death_Star_Created
 		,Death_Star_Destroyed = State_Death_Star_Destroyed
 	}
-	
+
 	definition = true
-	
+
 	ds_active = false
-	
+
 	ds_ready = false
-	
+
 	final_planet = nil
 end
 
@@ -37,18 +36,18 @@ function Story_Mode_Service()
 
 	num_empire_planet_count = 0
 	for k, planet in pairs(full_planet_list) do
-		if planet.Get_Owner() == empire then 
+		if planet.Get_Owner() == empire then
 			num_empire_planet_count = num_empire_planet_count + 1
 		end
 	end
-	
+
 	num_rebel_planet_count = 0
 	for k, planet in pairs(full_planet_list) do
-		if planet.Get_Owner() == rebel then 
+		if planet.Get_Owner() == rebel then
 			num_rebel_planet_count = num_rebel_planet_count + 1
 		end
 	end
-	
+
 	if not ds_active then
 		if num_rebel_planet_count == 0 then
 			Story_Event("Win_GC")
@@ -60,24 +59,24 @@ function Story_Mode_Service()
 		if num_empire_planet_count == 0 then
 			Story_Event("Lose_GC")
 			ScriptExit()
-		end			
+		end
 	end
-	
+
 	if ds_active and num_rebel_planet_count > 1 then
 		ds_ready = false
 	end
-	
+
 	-- Constant check to see if ds is used and victorious, defeat done using XML event
 	if ds_active and num_rebel_planet_count < 2 then
 		if not ds_ready then
 			for k, planet in pairs(full_planet_list) do
-				if planet.Get_Owner() == rebel then 
+				if planet.Get_Owner() == rebel then
 					final_planet = planet
 					ds_ready = true
 				end
 			end
 		end
-		
+
 		if ds_ready and final_planet.Is_Planet_Destroyed() and num_rebel_planet_count == 0 then
 			Story_Event("Win_GC_Death_Star")
 			ScriptExit()
