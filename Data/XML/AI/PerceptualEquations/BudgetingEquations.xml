@@ -113,10 +113,10 @@
 	<BasicEmpireMajorItemBudgetAllocation>
 		1.0
 		*
-		(8.0 	- Variable_Self.TechLevel
-				- Variable_Self.HasUnit{Parameter_Type = "Darth_Team_Executor"}
-				- Variable_Self.HasUnit{Parameter_Type = "Death_Star_II"}
-				- Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Count = 1})
+		(8.0 - Variable_Self.TechLevel
+			 - Variable_Self.HasUnit{Parameter_Type = "Darth_Team_Executor"}
+			 - Variable_Self.HasUnit{Parameter_Type = "Death_Star_II"}
+			 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Count = 1})
 		*
 		(1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
 		*
