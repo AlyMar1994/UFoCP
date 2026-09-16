@@ -117,6 +117,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Special Case Planets for Cantinas and Hutt Palaces -->
 
@@ -497,6 +499,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -885,6 +889,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -1296,6 +1302,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -2030,6 +2038,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -2833,6 +2843,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -3559,6 +3571,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -3838,7 +3852,7 @@
 		<Sort_Order>6</Sort_Order>
 
 		<Text_ID>TEXT_CAMPAIGN_SINGLE_21_EAW</Text_ID>
-		<Description_Text>TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_EAW_R</Description_Text>
+		<Description_Text>TEXT_CAMPAIGN_SINGLE_DESCRIPTION_21_EAW</Description_Text>
 
 		<Camera_Shift_X>40.0</Camera_Shift_X>
 		<Camera_Shift_Y>0.0</Camera_Shift_Y>
@@ -3904,6 +3918,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -4233,6 +4249,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -4568,6 +4586,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -4806,6 +4826,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -5067,6 +5089,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -5352,6 +5376,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -5864,6 +5890,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -6390,6 +6418,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -6914,6 +6944,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -7282,6 +7314,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -7652,6 +7686,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -7956,6 +7992,7 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Markup_Filename>Empire, AlderaansDemiseHints</Markup_Filename>
 		<Markup_Filename>Pirates, AlderaansDemiseHints</Markup_Filename>
@@ -7963,6 +8000,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -8204,6 +8243,7 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Markup_Filename>Rebel, AlderaansDemiseHints</Markup_Filename>
 		<Markup_Filename>Pirates, AlderaansDemiseHints</Markup_Filename>
@@ -8211,6 +8251,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -8444,6 +8486,7 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Markup_Filename>Empire, ShipyardsOfKuatHints</Markup_Filename>
 		<Markup_Filename>Pirates, ShipyardsOfKuatHints</Markup_Filename>
@@ -8451,6 +8494,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 
 		<!-- Win Conditions -->
@@ -8767,6 +8812,7 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Markup_Filename>Empire, ShipyardsOfKuatHints</Markup_Filename>
 		<Markup_Filename>Pirates, ShipyardsOfKuatHints</Markup_Filename>
@@ -8774,6 +8820,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 
 		<!-- Win Conditions -->
@@ -9108,12 +9156,15 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -9581,12 +9632,15 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -10101,6 +10155,7 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
@@ -10108,6 +10163,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -10474,12 +10531,15 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -10884,12 +10944,15 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -11437,12 +11500,15 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -12005,9 +12071,12 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -12365,11 +12434,14 @@
 
 		<Starting_Active_Player>Empire</Starting_Active_Player>
 
-		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
+		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -12723,6 +12795,7 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
@@ -12730,6 +12803,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -12987,6 +13062,7 @@
 		<Empire_Story_Name>Story_Plots_Sandbox_60_Empire_FOC.xml</Empire_Story_Name>
 
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
@@ -12994,6 +13070,8 @@
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -13272,12 +13350,15 @@
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
@@ -13482,12 +13563,15 @@
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 		<AI_Player_Control>Pirates, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
 
 		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints</Markup_Filename>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
+		<Min_Custom_Starting_Credits>0</Min_Custom_Starting_Credits>
+		<Max_Custom_Starting_Credits>30000</Max_Custom_Starting_Credits>
 
 		<!-- Win Conditions -->
 
