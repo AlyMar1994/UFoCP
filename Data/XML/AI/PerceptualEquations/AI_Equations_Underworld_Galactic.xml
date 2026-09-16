@@ -37,7 +37,11 @@
 	<Should_Hack_Super_Weapon>
 		Variable_Target.IsCorrupted
 		*
-		(Variable_Target.EnemyForce.HasSpaceUnitsBitfield {Parameter_Type = "Death_Star_II"} > 0.0)
+		(
+			((Variable_Target.EnemyForce.HasSpaceUnitsBitfield {Parameter_Type = "Death_Star"})
+			+
+			(Variable_Target.EnemyForce.HasSpaceUnitsBitfield {Parameter_Type = "Death_Star_II"})) > 0.0
+		)
 		*
 		(0.1 * (0.5 > Variable_Self.PlanetsControlled) +
 		10.0 * (Variable_Target.EnemyForce.HasGroundUnitsBitfield {Parameter_Type = "Emperor_Palpatine_Team"} > 0.0) +
