@@ -48,12 +48,13 @@ There are changes to the game's master text directory this update!  Check "_Chan
 UFCP:
 ======
 UFCP FIXES:
-• Fix Random Story Events generating in the "alternate history" variants of the EaW GCs.  (Currently, they only support using EaW Heroes.)
-• Fix the alt-history variants of the EaW GCs not using the blown up version of Alderaan (and vice-versa, with alive Alderaan).
+• Fix Random Story Events generating in the "alternate history" variants of the EaW Galactic Conquests.  (Currently, they only support using EaW Heroes.)
+• Fix the alt-history variants of the EaW Conquestss not using the blown up version of Alderaan (and vice-versa, with alive Alderaan).
 • The Canderous Assault Tank's model size recieved a 5% increase to try and match vanilla's a bit closer. (BUG #390)
 • Fix two black market price change notifications (during the Consortium campaign) that didn't use colored text in the dialogue notifications. (BUG #843)
 • Fix Alzoc III and Bespin's Piracy corruption options becoming unselectable after Consortium campaign mission #7 ("Baiting the Hook"). (BUG #848)
 • Fix an AI oversight where the AI will try to attack a marker used to fix BUG #679. (BUG #899)
+• Fixed an oversight where it would still be impossible to obtain the highest ranking when completing a Galactic Conquest. (BUG #242)
 
 
 ENHANCEMENTS:

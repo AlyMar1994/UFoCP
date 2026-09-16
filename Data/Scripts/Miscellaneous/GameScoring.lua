@@ -809,7 +809,7 @@ function Get_Conquest_Efficiency(player)
 end
 
 function Calc_Score_For_Efficiency(eff_val)
-	if eff_val > 1.0 then
+	if eff_val == 1.0 then
 		return 40000
 	elseif eff_val > 0.98 then
 		return 30000
@@ -943,7 +943,7 @@ function Get_Game_Stat_For_Control_ID(player, control_id, for_tactical)
 
 		for ival, pe in ipairs(Title_Faction_Table) do
 			last = pe[tid]
-			if score > pe[1] then
+			if score >= pe[1] then
 				break
 			end
 		end
@@ -1013,7 +1013,7 @@ function Update_GameSpy_Kill_Stats(stat_table, build_stats, player)
 
 	for ival, pe in ipairs(Title_Faction_Table) do
 		last = pe[tid]
-		if score > pe[1] then
+		if score >= pe[1] then
 			break
 		end
 	end
