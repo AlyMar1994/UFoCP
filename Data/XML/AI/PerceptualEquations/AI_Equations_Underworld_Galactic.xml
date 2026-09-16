@@ -1,7 +1,5 @@
-<?xml version="1.0" ?>
-
+<?xml version="1.0"?>
 <Equations>
-
 	<Can_Corrupt_Planet>
 		Variable_Target.RetainsResidualInfluence
 		*
@@ -15,7 +13,7 @@
 	<Should_Corrupt_Planet>
 		Function_Can_Corrupt_Planet.Evaluate
 		*
-		(13.0 
+		(13.0
 		+
 		5.0 * Variable_Target.IsConnectedToCorruption
 		+
@@ -35,13 +33,13 @@
 		*
 		(10.0 - Variable_Target.BlackMarketPriceModifier / 300.0)
 	</Should_Make_Black_Market_Purchase>
-	
+
 	<Should_Hack_Super_Weapon>
 		Variable_Target.IsCorrupted
 		*
 		(Variable_Target.EnemyForce.HasSpaceUnitsBitfield {Parameter_Type = "Death_Star_II"} > 0.0)
 		*
-		(0.1 * (0.5 > Variable_Self.PlanetsControlled) + 
+		(0.1 * (0.5 > Variable_Self.PlanetsControlled) +
 		10.0 * (Variable_Target.EnemyForce.HasGroundUnitsBitfield {Parameter_Type = "Emperor_Palpatine_Team"} > 0.0) +
 		10.0 * (Variable_Target.EnemyForce.HasSpaceUnitsBitfield {Parameter_Type = "Emperor_Palpatine_Team"} > 0.0))
 	</Should_Hack_Super_Weapon>
@@ -51,7 +49,7 @@
 		*
 		(Variable_Target.GroundbaseLevelUnnormalized > 0)
 	</Can_Sabotage_Planet>
-	
+
 	<Should_Sabotage_Planet>
 		Function_Can_Sabotage_Planet.Evaluate
 		*
@@ -67,10 +65,10 @@
 												Parameter_Type = "E_Galactic_Turbolaser_Tower_Defenses",
 												Parameter_Type = "R_Galactic_Turbolaser_Tower_Defenses"})
 	</Should_Sabotage_Planet>
-	
+
 	<Should_Build_Underworld_Barracks>
-		18 
-		* 
+		18
+		*
 		(1.0 - clamp((Variable_Self.StructureCount {Parameter_Type = "U_Ground_Barracks", Parameter_Only_Consider_Complete = 1.0} /
 														Variable_Self.PlanetsControlledUnnormalized), 0.0, 0.5))
 		*
@@ -87,11 +85,11 @@
 		(Function_Should_Underworld_Save_For_Desirable_Structures.Evaluate == 0.0)
 		*
 		(Function_Should_Save_For_Corruption.Evaluate == 0.0)
-	</Should_Build_Underworld_Barracks>	
-	
+	</Should_Build_Underworld_Barracks>
+
 	<Should_Build_Underworld_Palace>
-		23 
-		* 
+		23
+		*
 		(Variable_Target.StructureCount {Parameter_Type = "U_Ground_Palace", Parameter_Only_Consider_Complete = 1.0} == 0)
 		*
 		(1.0 - clamp((Variable_Self.StructureCount {Parameter_Type = "U_Ground_Palace", Parameter_Only_Consider_Complete = 1.0} /
@@ -107,8 +105,8 @@
 		*
 		(Function_Should_Save_For_Corruption.Evaluate == 0.0)
 		+
-		50.0 
-		* 
+		50.0
+		*
 		(Variable_Self.HasStructure {Parameter_Type = "U_Ground_Palace", Parameter_Only_Consider_Complete = 0.0} == 0.0)
 		+
 		50.0
@@ -117,10 +115,10 @@
 		*
 		(Variable_Target.HasStructure {Parameter_Type = "U_Ground_Palace", Parameter_Only_Consider_Complete = 0.0})
 	</Should_Build_Underworld_Palace>
-	
+
 	<Should_Build_Underworld_Vehicle_Factory>
-		18 
-		* 
+		18
+		*
 		(1.0 - clamp((Variable_Self.StructureCount {Parameter_Type = "U_Ground_Vehicle_Factory", Parameter_Only_Consider_Complete = 1.0} /
 														Variable_Self.PlanetsControlledUnnormalized), 0.0, 0.5))
 		*
@@ -132,14 +130,14 @@
 			(2.0 * (3.0 > Variable_Self.StructureCount {Parameter_Type = "U_Ground_Vehicle_Factory", Parameter_Only_Consider_Complete = 1.0}))
 		)
 		*
-		(3 > Variable_Target.StructureCount {Parameter_Type = "U_Ground_Vehicle_Factory", Parameter_Only_Consider_Complete = 1.0})			
+		(3 > Variable_Target.StructureCount {Parameter_Type = "U_Ground_Vehicle_Factory", Parameter_Only_Consider_Complete = 1.0})
 		*
 		(Function_Should_Save_For_Corruption.Evaluate == 0.0)
 	</Should_Build_Underworld_Vehicle_Factory>
-	
+
 	<Should_Build_Underworld_Droid_Works>
-		18 
-		* 
+		18
+		*
 		(1.0 - clamp((Variable_Self.StructureCount {Parameter_Type = "U_Ground_Droid_Works", Parameter_Only_Consider_Complete = 1.0} /
 														Variable_Self.PlanetsControlledUnnormalized), 0.0, 0.5))
 		*
@@ -151,13 +149,13 @@
 			(3.0 * (3.0 > Variable_Self.StructureCount {Parameter_Type = "U_Ground_Droid_Works", Parameter_Only_Consider_Complete = 1.0}))
 		)
 		*
-		(2 > Variable_Target.StructureCount {Parameter_Type = "U_Ground_Droid_Works", Parameter_Only_Consider_Complete = 1.0})	
+		(2 > Variable_Target.StructureCount {Parameter_Type = "U_Ground_Droid_Works", Parameter_Only_Consider_Complete = 1.0})
 		*
 		(Function_Should_Underworld_Save_For_Desirable_Structures.Evaluate == 0.0)
 		*
 		(Function_Should_Save_For_Corruption.Evaluate == 0.0)
 	</Should_Build_Underworld_Droid_Works>
-	
+
 	<Should_Underworld_Save_For_Desirable_Structures>
 		(Variable_Target.GroundBaseLevelUnnormalized > 1.0)
 		*
@@ -166,8 +164,8 @@
 			+
 			(Function_Should_Build_Underworld_Palace.Evaluate > 15.0)
 		)
-	</Should_Underworld_Save_For_Desirable_Structures>	
-	
+	</Should_Underworld_Save_For_Desirable_Structures>
+
 	<Should_Save_For_Corruption>
 		(Variable_Self.HasUnit {Parameter_Type = "Underworld_Saboteur"} == 0.0)
 		*
@@ -175,11 +173,10 @@
 		*
 		(Variable_Self.StructureCount {Parameter_Type = "U_Ground_Palace", Parameter_Only_Consider_Complete = 1.0} > 1.0)
 	</Should_Save_For_Corruption>
-	
+
 	<Should_Underworld_Build_Starbase>
 		Function_Needs_Starbase_Upgrade.Evaluate
 		*
-		(Function_Should_Save_For_Corruption.Evaluate == 0.0) 
+		(Function_Should_Save_For_Corruption.Evaluate == 0.0)
 	</Should_Underworld_Build_Starbase>
-	
 </Equations>
