@@ -934,7 +934,7 @@ function Get_Game_Stat_For_Control_ID(player, control_id, for_tactical)
 		tid = 3 -- Empire
 		if player.Get_Faction_Name() == "REBEL" then
 			tid = 2
-		elseif player.Get_Faction_Name == "UNDERWORLD" then
+		elseif player.Get_Faction_Name() == "UNDERWORLD" then
 			tid = 4
 		end
 
