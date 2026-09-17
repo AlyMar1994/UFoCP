@@ -1460,6 +1460,9 @@
 
 	<SpaceBuildable Name="Underworld_Mineral_Extractor">
 		<Variant_Of_Existing_Type>Empire_Mineral_Extractor</Variant_Of_Existing_Type>
+
+		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_00, MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_02</MP_Encyclopedia_Text>
+
 		<Affiliation>Underworld</Affiliation>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="U_Mineral_Extractor_Income_Stream">
