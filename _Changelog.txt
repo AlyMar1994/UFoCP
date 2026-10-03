@@ -115,6 +115,7 @@ Script/Story Fixes:
 • The Door Control Node consoles during Consortium campaign mission #4 ("Visions of the Past") wouldn't swap models when destroyed.  The console prop definition was a completely separate, duplicated prop without the proper damage checks. (BUG #844)
 • During Consortium campaign mission #2 ("Remnants of the Death Star"), upon grabbing the last Data Pod, the camera would lock and focus on whatever is the last thing the player was looking at.  The cutscene now focuses on Zann's ship while he's speaking, making the scene less awkward. (BUG #907)
 • During Consortium campaign mission #5 ("A Dark Ally"), the game could trigger a premature mission victory when all Imperial units are killed.  The game re-enabled possible victories after the introduction cutscene was finished, instead of at the end of the finale cutscene. (BUG #905)
+• During Consortium campaign mission #1 ("A Crimelord Reborn"), the script would despawn the last door too early after the Dark Troopers were killed, causing it to pop out of existence.  The full opening animation now plays properly. (BUG #869)
 
 
 Structure Fixes:

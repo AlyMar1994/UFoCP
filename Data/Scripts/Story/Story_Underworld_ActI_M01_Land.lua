@@ -1546,7 +1546,7 @@ function Open_Door9()
 		not TestValid(darkguys4) then
 			door9.Play_Animation("Cinematic",false,1)
 			OK_To_Land_Guys_B = true
-			door9.Despawn()
+			--door9.Despawn()
 			Story_Event("UM01_KILL_TROOPERS_DONE")
 			Opened_Last_Door()
 		end
@@ -2108,9 +2108,9 @@ function EndMissionVictory_NEW_OLD()
 	Fade_Screen_Out(.5)
 	Sleep(.5)
 
-	if TestValid(door9) then
-		door9.Despawn()
-	end
+	--if TestValid(door9) then
+	--	door9.Despawn()
+	--end
 
 	Letter_Box_In(0)
 	Suspend_AI(1)
