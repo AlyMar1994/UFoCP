@@ -67,6 +67,7 @@ ENHANCEMENTS:
 HOUSEKEEPING:
 • AI triggers for dumping excess money out of the "MajorItem" (Death Star/tech) budget for the Empire would trigger on the Rebels and Consortium.  They shouldn't have been using this plan anyway and it's easier to debug if the triggers are disabled for them. (No forward-facing changes.) (BUG #889)
 • The marker used to resolve BUG #679 has been made neutral since it's affiliation is dynamic anyway. (No forward-facing changes.)
+• The unused Defensive/Offensive Only build pads now support using Hutt offensive/defensive turrets.  These shouldn't appear in normal contexts (and as far as I recall these pads are unused/cut content), but if a modder wishes to use them, they are now properly setup. (No forward-facing changes.)
 ======
 
 
@@ -116,7 +117,7 @@ Script/Story Fixes:
 Structure Fixes:
 • The Laser Defense Satellites in Rebel campaign mission #1 ("Shipyard Diversion") and Empire campaign mission #3 ("The Pirate Menace") didn't have tooltip descriptions. (BUG #857)
 • The Abandoned Mining Facility capturable tried to reference a model variant it didn't have upon destruction.  In addition, it tried to loop an idle animation it didn't have. (BUG #897)
-• Fix Consortium Asteroid Mining Facilities claiming they provide the upgrade "Increased Supplies" when it's actually "Extort Cash." (BUG #911)
+• Fix Consortium Asteroid Mining Facilities claiming they provide the upgrade "Increased Production" when it's actually "Extort Cash." (BUG #911)
 
 
 Unit Fixes:

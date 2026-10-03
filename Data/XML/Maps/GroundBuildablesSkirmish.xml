@@ -12,85 +12,88 @@
 		<!-- This is a list of the buildable objects at this pad (defined below) - that will be under construction -->
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-			UC_Empire_Buildable_Anti_Vehicle_Turret,
-			UC_Empire_Buildable_Anti_Infantry_Turret,
-			UC_Empire_Buildable_Anti_Aircraft_Turret,
-			UC_Empire_Buildable_Bacta_Tank,
-			UC_Empire_Buildable_Repair_Facility,
-			UC_Empire_Buildable_Sensor_Node,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Bacta_Tank,
+				UC_Empire_Buildable_Repair_Facility,
+				UC_Empire_Buildable_Sensor_Node,
 
 			Rebel,
-			UC_Rebel_Buildable_Anti_Vehicle_Turret,
-			UC_Rebel_Buildable_Anti_Infantry_Turret,
-			UC_Rebel_Buildable_Anti_Aircraft_Turret,
-			UC_Rebel_Buildable_Bacta_Tank,
-			UC_Rebel_Buildable_Repair_Facility,
-			UC_Rebel_Buildable_Sensor_Node,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Bacta_Tank,
+				UC_Rebel_Buildable_Repair_Facility,
+				UC_Rebel_Buildable_Sensor_Node,
 
 			Pirates,
-			UC_Pirate_Buildable_Anti_Aircraft_Turret,
-			UC_Pirate_Buildable_Anti_Vehicle_Turret,
-			UC_Pirate_Buildable_Anti_Infantry_Turret,
-			UC_Pirate_Buildable_Bacta_Tank,
-			UC_Pirate_Buildable_Repair_Facility,
+				UC_Pirate_Buildable_Anti_Aircraft_Turret,
+				UC_Pirate_Buildable_Anti_Vehicle_Turret,
+				UC_Pirate_Buildable_Anti_Infantry_Turret,
+				UC_Pirate_Buildable_Bacta_Tank,
+				UC_Pirate_Buildable_Repair_Facility,
 
 			Underworld,
-			UC_Underworld_Buildable_Mass_Driver_Turret,
-			UC_Underworld_Buildable_Torpedo_Turret,
-			UC_Underworld_Buildable_Bacta_Tank,
-			UC_Underworld_Buildable_Repair_Facility,
-			UC_Underworld_Buildable_Sensor_Node,
+				UC_Underworld_Buildable_Mass_Driver_Turret,
+				UC_Underworld_Buildable_Torpedo_Turret,
+				UC_Underworld_Buildable_Bacta_Tank,
+				UC_Underworld_Buildable_Repair_Facility,
+				UC_Underworld_Buildable_Sensor_Node,
 
 			Hutts,
-			UC_Hutt_Grenade_Mortar,
-			UC_Hutt_Rapid_Fire_Laser_Turret,
-			UC_Hutt_Anti_Aircraft_Turret,
-			UC_Hutt_Buildable_Bacta_Tank,
-			UC_Hutt_Buildable_Repair_Facility,
-			UC_Hutt_Buildable_Sensor_Node
+				UC_Hutt_Grenade_Mortar,
+				UC_Hutt_Rapid_Fire_Laser_Turret,
+				UC_Hutt_Anti_Aircraft_Turret,
+				UC_Hutt_Buildable_Bacta_Tank,
+				UC_Hutt_Buildable_Repair_Facility,
+				UC_Hutt_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			UC_Empire_Buildable_Anti_Vehicle_Turret,
-			UC_Empire_Buildable_Anti_Infantry_Turret,
-			UC_Empire_Buildable_Anti_Aircraft_Turret,
-			UC_Empire_Buildable_Bacta_Tank,
-			UC_Empire_Buildable_Repair_Facility,
-			UC_Empire_Buildable_Sensor_Node,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Bacta_Tank,
+				UC_Empire_Buildable_Repair_Facility,
+				UC_Empire_Buildable_Sensor_Node,
+
 			Rebel,
-			UC_Rebel_Buildable_Anti_Vehicle_Turret,
-			UC_Rebel_Buildable_Anti_Infantry_Turret,
-			UC_Rebel_Buildable_Anti_Aircraft_Turret,
-			UC_Rebel_Buildable_Bacta_Tank,
-			UC_Rebel_Buildable_Repair_Facility,
-			UC_Rebel_Buildable_Sensor_Node,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Bacta_Tank,
+				UC_Rebel_Buildable_Repair_Facility,
+				UC_Rebel_Buildable_Sensor_Node,
+
 			Pirates,
-			UC_Pirate_Buildable_Anti_Aircraft_Turret,
-			UC_Pirate_Buildable_Anti_Vehicle_Turret,
-			UC_Pirate_Buildable_Anti_Infantry_Turret,
-			UC_Pirate_Buildable_Bacta_Tank,
-			UC_Pirate_Buildable_Repair_Facility,
+				UC_Pirate_Buildable_Anti_Aircraft_Turret,
+				UC_Pirate_Buildable_Anti_Vehicle_Turret,
+				UC_Pirate_Buildable_Anti_Infantry_Turret,
+				UC_Pirate_Buildable_Bacta_Tank,
+				UC_Pirate_Buildable_Repair_Facility,
+
 			Underworld,
-			UC_Underworld_Buildable_Mass_Driver_Turret,
-			UC_Underworld_Buildable_Torpedo_Turret,
-			UC_Underworld_Buildable_Bacta_Tank,
-			UC_Underworld_Buildable_Repair_Facility,
-			UC_Underworld_Buildable_Sensor_Node,
+				UC_Underworld_Buildable_Mass_Driver_Turret,
+				UC_Underworld_Buildable_Torpedo_Turret,
+				UC_Underworld_Buildable_Bacta_Tank,
+				UC_Underworld_Buildable_Repair_Facility,
+				UC_Underworld_Buildable_Sensor_Node,
+
 			Hutts,
-			UC_Hutt_Grenade_Mortar,
-			UC_Hutt_Rapid_Fire_Laser_Turret,
-			UC_Hutt_Anti_Aircraft_Turret,
-			UC_Hutt_Buildable_Bacta_Tank,
-			UC_Hutt_Buildable_Repair_Facility,
-			UC_Hutt_Buildable_Sensor_Node
+				UC_Hutt_Grenade_Mortar,
+				UC_Hutt_Rapid_Fire_Laser_Turret,
+				UC_Hutt_Anti_Aircraft_Turret,
+				UC_Hutt_Buildable_Bacta_Tank,
+				UC_Hutt_Buildable_Repair_Facility,
+				UC_Hutt_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Text_ID>TEXT_EMPIRE_BUILD_PAD</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
 		<Land_Model_Name>NB_BasePad.alo</Land_Model_Name>
 		<Capture_Point_Radius>100</Capture_Point_Radius>
-		<Influences_Capture_Point>No</Influences_Capture_Point>
 		<Capture_Point_Transition_Time_Seconds>5.0</Capture_Point_Transition_Time_Seconds>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -102,7 +105,6 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>10000</Tactical_Health>
-		<Affiliation>Neutral</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Reveal_During_Setup_Phase>False</Reveal_During_Setup_Phase>
@@ -120,7 +122,6 @@
 		<Affiliation>Neutral, Rebel, Empire, Pirates, Underworld, Hutts</Affiliation>
 		<Immune_To_Damage>True</Immune_To_Damage>
 		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
-
 	</GroundBuildable>
 
 	<!--************************************************************************************************************-->
@@ -129,37 +130,53 @@
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-			UC_Empire_Buildable_Anti_Vehicle_Turret,
-			UC_Empire_Buildable_Anti_Infantry_Turret,
-			UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+
 			Rebel,
-			UC_Rebel_Buildable_Anti_Vehicle_Turret,
-			UC_Rebel_Buildable_Anti_Infantry_Turret,
-			UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+
 			Pirates,
-			UC_Pirate_Buildable_Anti_Aircraft_Turret,
-			UC_Pirate_Buildable_Anti_Vehicle_Turret,
-			UC_Pirate_Buildable_Anti_Infantry_Turret,
+				UC_Pirate_Buildable_Anti_Aircraft_Turret,
+				UC_Pirate_Buildable_Anti_Vehicle_Turret,
+				UC_Pirate_Buildable_Anti_Infantry_Turret,
+
 			Underworld,
-			UC_Underworld_Buildable_Mass_Driver_Turret,
-			UC_Underworld_Buildable_Torpedo_Turret,
+				UC_Underworld_Buildable_Mass_Driver_Turret,
+				UC_Underworld_Buildable_Torpedo_Turret,
+
+			Hutts,
+				UC_Hutt_Grenade_Mortar,
+				UC_Hutt_Rapid_Fire_Laser_Turret,
+				UC_Hutt_Anti_Aircraft_Turret
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			UC_Empire_Buildable_Anti_Vehicle_Turret,
-			UC_Empire_Buildable_Anti_Infantry_Turret,
-			UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+
 			Rebel,
-			UC_Rebel_Buildable_Anti_Vehicle_Turret,
-			UC_Rebel_Buildable_Anti_Infantry_Turret,
-			UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+
 			Pirates,
-			UC_Pirate_Buildable_Anti_Aircraft_Turret,
-			UC_Pirate_Buildable_Anti_Vehicle_Turret,
-			UC_Pirate_Buildable_Anti_Infantry_Turret,
+				UC_Pirate_Buildable_Anti_Aircraft_Turret,
+				UC_Pirate_Buildable_Anti_Vehicle_Turret,
+				UC_Pirate_Buildable_Anti_Infantry_Turret,
+
 			Underworld,
-			UC_Underworld_Buildable_Mass_Driver_Turret,
-			UC_Underworld_Buildable_Torpedo_Turret,
+				UC_Underworld_Buildable_Mass_Driver_Turret,
+				UC_Underworld_Buildable_Torpedo_Turret,
+
+			Hutts,
+				UC_Hutt_Grenade_Mortar,
+				UC_Hutt_Rapid_Fire_Laser_Turret,
+				UC_Hutt_Anti_Aircraft_Turret
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 
@@ -169,23 +186,35 @@
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-			UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+
 			Rebel,
-			UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+
 			Pirates,
-			UC_Pirate_Buildable_Anti_Infantry_Turret,
+				UC_Pirate_Buildable_Anti_Infantry_Turret,
+
 			Underworld,
-			UC_Underworld_Buildable_Mass_Driver_Turret
+				UC_Underworld_Buildable_Mass_Driver_Turret,
+
+			Hutts,
+				UC_Hutt_Rapid_Fire_Laser_Turret
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+
 			Rebel,
-			UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+
 			Pirates,
-			UC_Pirate_Buildable_Anti_Infantry_Turret,
+				UC_Pirate_Buildable_Anti_Infantry_Turret,
+
 			Underworld,
-			UC_Underworld_Buildable_Mass_Driver_Turret
+				UC_Underworld_Buildable_Mass_Driver_Turret,
+
+			Hutts,
+				UC_Hutt_Rapid_Fire_Laser_Turret
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 
@@ -195,38 +224,54 @@
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-			UC_Empire_Buildable_Bacta_Tank,
-			UC_Empire_Buildable_Repair_Facility,
-			UC_Empire_Buildable_Sensor_Node,
+				UC_Empire_Buildable_Bacta_Tank,
+				UC_Empire_Buildable_Repair_Facility,
+				UC_Empire_Buildable_Sensor_Node,
+
 			Rebel,
-			UC_Rebel_Buildable_Bacta_Tank,
-			UC_Rebel_Buildable_Repair_Facility,
-			UC_Rebel_Buildable_Sensor_Node,
+				UC_Rebel_Buildable_Bacta_Tank,
+				UC_Rebel_Buildable_Repair_Facility,
+				UC_Rebel_Buildable_Sensor_Node,
+
 			Pirates,
-			UC_Pirate_Buildable_Bacta_Tank,
-			UC_Pirate_Buildable_Repair_Facility,
+				UC_Pirate_Buildable_Bacta_Tank,
+				UC_Pirate_Buildable_Repair_Facility,
+
 			Underworld,
-			UC_Underworld_Buildable_Bacta_Tank,
-			UC_Underworld_Buildable_Repair_Facility,
-			UC_Underworld_Buildable_Sensor_Node
+				UC_Underworld_Buildable_Bacta_Tank,
+				UC_Underworld_Buildable_Repair_Facility,
+				UC_Underworld_Buildable_Sensor_Node,
+
+			Hutts,
+				UC_Hutt_Buildable_Bacta_Tank,
+				UC_Hutt_Buildable_Repair_Facility,
+				UC_Hutt_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			UC_Empire_Buildable_Bacta_Tank,
-			UC_Empire_Buildable_Repair_Facility,
-			UC_Empire_Buildable_Sensor_Node,
+				UC_Empire_Buildable_Bacta_Tank,
+				UC_Empire_Buildable_Repair_Facility,
+				UC_Empire_Buildable_Sensor_Node,
+
 			Rebel,
-			UC_Rebel_Buildable_Bacta_Tank,
-			UC_Rebel_Buildable_Repair_Facility,
-			UC_Rebel_Buildable_Sensor_Node,
+				UC_Rebel_Buildable_Bacta_Tank,
+				UC_Rebel_Buildable_Repair_Facility,
+				UC_Rebel_Buildable_Sensor_Node,
+
 			Pirates,
-			UC_Pirate_Buildable_Bacta_Tank,
-			UC_Pirate_Buildable_Repair_Facility,
+				UC_Pirate_Buildable_Bacta_Tank,
+				UC_Pirate_Buildable_Repair_Facility,
+
 			Underworld,
-			UC_Underworld_Buildable_Bacta_Tank,
-			UC_Underworld_Buildable_Repair_Facility,
-			UC_Underworld_Buildable_Sensor_Node
+				UC_Underworld_Buildable_Bacta_Tank,
+				UC_Underworld_Buildable_Repair_Facility,
+				UC_Underworld_Buildable_Sensor_Node,
+
+			Hutts,
+				UC_Hutt_Buildable_Bacta_Tank,
+				UC_Hutt_Buildable_Repair_Facility,
+				UC_Hutt_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 
@@ -236,24 +281,36 @@
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-			UC_Empire_Buildable_Bacta_Tank,
+				UC_Empire_Buildable_Bacta_Tank,
+
 			Rebel,
-			UC_Rebel_Buildable_Bacta_Tank,
+				UC_Rebel_Buildable_Bacta_Tank,
+
 			Pirates,
-			UC_Pirate_Buildable_Bacta_Tank,
+				UC_Pirate_Buildable_Bacta_Tank,
+
 			Underworld,
-			UC_Underworld_Buildable_Bacta_Tank
+				UC_Underworld_Buildable_Bacta_Tank,
+
+			Hutts,
+				UC_Hutt_Buildable_Bacta_Tank
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			UC_Empire_Buildable_Bacta_Tank,
+				UC_Empire_Buildable_Bacta_Tank,
+
 			Rebel,
-			UC_Rebel_Buildable_Bacta_Tank,
+				UC_Rebel_Buildable_Bacta_Tank,
+
 			Pirates,
-			UC_Pirate_Buildable_Bacta_Tank,
+				UC_Pirate_Buildable_Bacta_Tank,
+
 			Underworld,
-			UC_Underworld_Buildable_Bacta_Tank,
+				UC_Underworld_Buildable_Bacta_Tank,
+
+			Hutts,
+				UC_Hutt_Buildable_Bacta_Tank
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 
@@ -263,35 +320,51 @@
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-			UC_Empire_Buildable_Bacta_Tank,
-			UC_Empire_Buildable_Anti_Infantry_Turret,
-			UC_Empire_Buildable_Repair_Facility,
+				UC_Empire_Buildable_Bacta_Tank,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Repair_Facility,
+
 			Rebel,
-			UC_Rebel_Buildable_Bacta_Tank,
-			UC_Rebel_Buildable_Anti_Infantry_Turret,
-			UC_Rebel_Buildable_Repair_Facility,
+				UC_Rebel_Buildable_Bacta_Tank,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Repair_Facility,
+
 			Pirates,
-			UC_Pirate_Buildable_Bacta_Tank,
-			UC_Pirate_Buildable_Anti_Infantry_Turret,
-			UC_Pirate_Buildable_Repair_Facility,
+				UC_Pirate_Buildable_Bacta_Tank,
+				UC_Pirate_Buildable_Anti_Infantry_Turret,
+				UC_Pirate_Buildable_Repair_Facility,
+
 			Underworld,
-			UC_Underworld_Buildable_Bacta_Tank,
-			UC_Underworld_Buildable_Mass_Driver_Turret,
-			UC_Underworld_Buildable_Repair_Facility
+				UC_Underworld_Buildable_Bacta_Tank,
+				UC_Underworld_Buildable_Mass_Driver_Turret,
+				UC_Underworld_Buildable_Repair_Facility,
+
+			Hutts,
+				UC_Hutt_Buildable_Bacta_Tank,
+				UC_Hutt_Rapid_Fire_Laser_Turret,
+				UC_Hutt_Buildable_Repair_Facility
 		</Tactical_Buildable_Objects_Campaign>
+
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			UC_Empire_Buildable_Bacta_Tank,
-			UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Bacta_Tank,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+
 			Rebel,
-			UC_Rebel_Buildable_Bacta_Tank,
-			UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Bacta_Tank,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+
 			Pirates,
-			UC_Pirate_Buildable_Bacta_Tank,
-			UC_Pirate_Buildable_Anti_Infantry_Turret,
+				UC_Pirate_Buildable_Bacta_Tank,
+				UC_Pirate_Buildable_Anti_Infantry_Turret,
+
 			Underworld,
-			UC_Underworld_Buildable_Bacta_Tank,
-			UC_Underworld_Buildable_Mass_Driver_Turret
+				UC_Underworld_Buildable_Bacta_Tank,
+				UC_Underworld_Buildable_Mass_Driver_Turret,
+
+			Hutts,
+				UC_Hutt_Buildable_Bacta_Tank,
+				UC_Hutt_Rapid_Fire_Laser_Turret
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 
@@ -362,7 +435,6 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 
 		<Base_Position>Out_Base</Base_Position>
@@ -477,7 +549,6 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 
 		<Base_Position>Out_Base</Base_Position>
@@ -538,11 +609,13 @@
 		<Capture_Point_Radius>150</Capture_Point_Radius>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			UC_E_Ground_Base_Shield,
+				UC_E_Ground_Base_Shield,
+
 			Rebel,
-			UC_R_Ground_Base_Shield,
+				UC_R_Ground_Base_Shield,
+
 			Underworld,
-			UC_U_Ground_Base_Shield,
+				UC_U_Ground_Base_Shield
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Minimum_Time_Before_Pad_Can_Build_Again>40.0</Minimum_Time_Before_Pad_Can_Build_Again>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
@@ -560,12 +633,11 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Select_Box_Scale>80</Select_Box_Scale>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Is_Dummy>No</Is_Dummy>
 
 		<Obstacle_Width>40.0</Obstacle_Width>
@@ -587,7 +659,7 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BASE_SHIELD_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BASE_SHIELD_00, TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Movie_Object>False</Movie_Object>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
@@ -628,7 +700,6 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Is_Dummy>No</Is_Dummy>
 
 		<Space_Layer>Corvette</Space_Layer>
@@ -680,7 +751,6 @@
 		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
 		<Terrain_Texture_Modifier_Square>False</Terrain_Texture_Modifier_Square>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
@@ -688,7 +758,6 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Is_Dummy>No</Is_Dummy>
 
 		<Space_Layer>Corvette</Space_Layer>
@@ -823,7 +892,6 @@
 		<Terrain_Texture_Modifier_Square>False</Terrain_Texture_Modifier_Square>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
@@ -882,10 +950,7 @@
 	<GroundBuildable Name="UC_U_Ground_Base_Shield">
 		<Variant_Of_Existing_Type>UC_R_Ground_Base_Shield</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>2200</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Buildable_Constructed>U_Ground_Base_Shield</Tactical_Buildable_Constructed>
-		<Tactical_Health>650</Tactical_Health>
 		<Tactical_Build_Cost_Multiplayer>1900</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 
@@ -898,26 +963,26 @@
 
 	<GroundBuildable Name="N_Small_Ground_Base_Shield_Build_Pad">
 		<GUI_Bounds_Scale>0.05</GUI_Bounds_Scale>
-		<Behavior>TACTICAL_BUILD_OBJECTS, REVEAL, HIDE_WHEN_FOGGED, CAPTURE_POINT, BASE_SHIELD</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
 		<Base_Shield_Always_Off>True</Base_Shield_Always_Off>
 		<Minimum_Time_Before_Pad_Can_Build_Again>40.0</Minimum_Time_Before_Pad_Can_Build_Again>
 
-		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,null,null,null</Land_Damage_SFX>
 		<Capture_Point_Radius>250</Capture_Point_Radius>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			UC_E_Small_Ground_Base_Shield,
+				UC_E_Small_Ground_Base_Shield,
+
 			Rebel,
-			UC_R_Small_Ground_Base_Shield,
+				UC_R_Small_Ground_Base_Shield,
+
 			Underworld,
-			UC_U_Small_Ground_Base_Shield,
+				UC_U_Small_Ground_Base_Shield
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
-		<Behavior>TACTICAL_BUILD_OBJECTS,REVEAL</Behavior>
+		<Behavior>TACTICAL_BUILD_OBJECTS, REVEAL</Behavior>
 		<Victory_Relevant>No</Victory_Relevant>
 		<Hides_When_Built_On>True</Hides_When_Built_On>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -934,7 +999,6 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Is_Dummy>No</Is_Dummy>
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 
@@ -959,7 +1023,7 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BASE_SHIELD_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BASE_SHIELD_00, TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Movie_Object>False</Movie_Object>
@@ -975,16 +1039,15 @@
 
 	<GroundBuildable Name="E_Small_Ground_Base_Shield_Build_Pad">
 		<Variant_Of_Existing_Type>N_Small_Ground_Base_Shield_Build_Pad</Variant_Of_Existing_Type>
+
 		<Behavior>TACTICAL_BUILD_OBJECTS,REVEAL, BASE_SHIELD, HIDE_WHEN_FOGGED</Behavior>
-		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
 		<Affiliation>Empire</Affiliation>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			UC_E_Small_Ground_Base_Shield,
+				UC_E_Small_Ground_Base_Shield
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Minimum_Time_Before_Pad_Can_Build_Again>40</Minimum_Time_Before_Pad_Can_Build_Again>
 
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -994,14 +1057,12 @@
 	<GroundBuildable Name="R_Small_Ground_Base_Shield_Build_Pad">
 		<Variant_Of_Existing_Type>N_Small_Ground_Base_Shield_Build_Pad</Variant_Of_Existing_Type>
 		<Behavior>TACTICAL_BUILD_OBJECTS,REVEAL, BASE_SHIELD, HIDE_WHEN_FOGGED</Behavior>
-		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
 		<Affiliation>Rebel</Affiliation>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-			UC_R_Small_Ground_Base_Shield,
+				UC_R_Small_Ground_Base_Shield
 		</Tactical_Buildable_Objects_Multiplayer>
 
-		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 
 		<Minimum_Time_Before_Pad_Can_Build_Again>40</Minimum_Time_Before_Pad_Can_Build_Again>
@@ -1026,7 +1087,6 @@
 		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
 		<Terrain_Texture_Modifier_Square>False</Terrain_Texture_Modifier_Square>
 		<Is_Community_Property>Yes</Is_Community_Property>
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
@@ -1034,7 +1094,6 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Is_Dummy>No</Is_Dummy>
 
 		<Space_Layer>Corvette</Space_Layer>
@@ -1100,7 +1159,6 @@
 		<Terrain_Texture_Modifier_Square>False</Terrain_Texture_Modifier_Square>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
@@ -1160,12 +1218,10 @@
 
 	<GroundBuildable Name="UC_U_Small_Ground_Base_Shield">
 		<Variant_Of_Existing_Type>UC_R_Small_Ground_Base_Shield</Variant_Of_Existing_Type>
+
 		<Affiliation>Underworld</Affiliation>
-		<Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<Tactical_Buildable_Constructed>U_Ground_Base_Shield_Small</Tactical_Buildable_Constructed>
 		<Tech_Level>0</Tech_Level>
-		<Tactical_Health>500</Tactical_Health>
 		<Tactical_Build_Cost_Multiplayer>1500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 
@@ -1218,14 +1274,15 @@
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			UC_Empire_Ground_Mining_Facility,
+				UC_Empire_Ground_Mining_Facility,
+
 			Rebel,
-			UC_Rebel_Ground_Mining_Facility,
+				UC_Rebel_Ground_Mining_Facility
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Affiliation>Neutral, Rebel, Empire</Affiliation>
 		<Capture_Point_Radius>150</Capture_Point_Radius>
 		<Capture_Point_Transition_Time_Seconds>5.0</Capture_Point_Transition_Time_Seconds>
-		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_MINING_00 MP_TEXT_ENCYCLOPEDIA_MINING_01 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</MP_Encyclopedia_Text>
+		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_MINING_00, MP_TEXT_ENCYCLOPEDIA_MINING_01, TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
@@ -1349,7 +1406,6 @@
 		<Tactical_Buildable_Objects_Multiplayer>Rebel, UC_Rebel_Ground_Mining_Facility</Tactical_Buildable_Objects_Multiplayer>
 		<Minimum_Time_Before_Pad_Can_Build_Again>45.0</Minimum_Time_Before_Pad_Can_Build_Again>
 		<Text_ID>TEXT_GROUND_MINING_FACILITY_REBEL</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Land_Model_Name>NB_CMC22Mining.ALO</Land_Model_Name>
 		<Behavior>TACTICAL_BUILD_OBJECTS, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
@@ -1459,10 +1515,10 @@
 
 	<GroundBuildable Name="UC_Underwold_Ground_Mining_Facility">
 		<Variant_Of_Existing_Type>UC_Rebel_Ground_Mining_Facility</Variant_Of_Existing_Type>
+
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Buildable_Constructed>Skirmish_Ground_Mining_Facility_U</Tactical_Buildable_Constructed>
 		<Tech_Level>0</Tech_Level>
-		<Tactical_Health>700</Tactical_Health>
 		<Tactical_Build_Cost_Multiplayer>1500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 
@@ -1473,13 +1529,12 @@
 
 	<GroundBuildable Name="Skirmish_Ground_Mining_Facility_E">
 		<Variant_Of_Existing_Type>Empire_Ground_Mining_Facility</Variant_Of_Existing_Type>
+
 		<Behavior>TACTICAL_SELL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
-		<Space_Layer>Corvette</Space_Layer>
 		<UnitCollisionClass>Vehicle</UnitCollisionClass>
 		<Custom_Hard_XExtent>50.0</Custom_Hard_XExtent>
 		<Custom_Hard_YExtent>50.0</Custom_Hard_YExtent>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
 		<Victory_Relevant>No</Victory_Relevant>
 
 		<!-- Defer to build pad for obstacle footprint -->
@@ -1488,13 +1543,12 @@
 
 	<GroundBuildable Name="Skirmish_Ground_Mining_Facility_R">
 		<Variant_Of_Existing_Type>Rebel_Ground_Mining_Facility</Variant_Of_Existing_Type>
+
 		<Behavior>TACTICAL_SELL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
-		<Space_Layer>Corvette</Space_Layer>
 		<UnitCollisionClass>Vehicle</UnitCollisionClass>
 		<Custom_Hard_XExtent>50.0</Custom_Hard_XExtent>
 		<Custom_Hard_YExtent>50.0</Custom_Hard_YExtent>
-		<Tech_Level>0</Tech_Level>
 		<Victory_Relevant>No</Victory_Relevant>
 
 		<!-- Defer to build pad for obstacle footprint -->
@@ -1531,7 +1585,17 @@
 		<Tactical_Health>700</Tactical_Health>
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>
-			SPACE_OBSTACLE, LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DUMMY_LAND_BASE_LEVEL_COMPONENT, UNIT_AI, EARTHQUAKE_TARGET, TERRAIN_TEXTURE_MODIFICATION, ION_STUN_EFFECT, STUNNABLE
+			SPACE_OBSTACLE,
+			LAND_OBSTACLE,
+			REVEAL,
+			HIDE_WHEN_FOGGED,
+			DAMAGE_TRACKING,
+			DUMMY_LAND_BASE_LEVEL_COMPONENT,
+			UNIT_AI,
+			EARTHQUAKE_TARGET,
+			TERRAIN_TEXTURE_MODIFICATION,
+			ION_STUN_EFFECT,
+			STUNNABLE
 		</LandBehavior>
 		<Obstacle_Proxy_Type>Empire_Ground_Mining_Facility_Build_Pad</Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -1593,6 +1657,7 @@
 				<Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies>
 				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
 			</Planet_Income_Bonus_Ability>
+
 			<Income_Stream_Ability Name="Underworld_Mining_Income_Stream">
 				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
 				<Base_Income_Value>125</Base_Income_Value>
@@ -1601,6 +1666,7 @@
 				<Split_Favors_Owner>No</Split_Favors_Owner>
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
 			</Income_Stream_Ability>
+
 			<Force_Healing_Ability Name="U_Mining_Facility_Self_Repair">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
@@ -1619,6 +1685,7 @@
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
 		</Abilities>
+
 		<Score_Cost_Credits>5000</Score_Cost_Credits>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_MINING_00</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_MINING_00, MP_TEXT_ENCYCLOPEDIA_MINING_01</MP_Encyclopedia_Text>
@@ -1628,7 +1695,7 @@
 
 	<GroundBuildable Name="Skirmish_Ground_Mining_Facility_U">
 		<Variant_Of_Existing_Type>U_Ground_Mining_Facility</Variant_Of_Existing_Type>
-		<Affiliation>Underworld</Affiliation>
+
 		<Behavior>TACTICAL_SELL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<Space_Layer>Corvette</Space_Layer>
 		<UnitCollisionClass>Vehicle</UnitCollisionClass>
@@ -1637,16 +1704,12 @@
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
-			UL_Extort_Cash_L1_Upgrade,
-			UL_Extort_Cash_L2_Upgrade,
+				UL_Extort_Cash_L1_Upgrade,
+				UL_Extort_Cash_L2_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Tech_Level>0</Tech_Level>
 		<Victory_Relevant>No</Victory_Relevant>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-
-		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
 
 		<!-- Defer to build pad for obstacle footprint -->
 		<Obstacle_Proxy_Type>Skirmish_Outpost_Pad</Obstacle_Proxy_Type>
@@ -1696,19 +1759,21 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_TURBOLASER_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_TURBOLASER_00, TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			UC_E_Ground_Turbolaser_Tower,
+				UC_E_Ground_Turbolaser_Tower,
+
 			Rebel,
-			UC_R_Ground_Turbolaser_Tower,
+				UC_R_Ground_Turbolaser_Tower,
+
 			Underworld,
-			UC_U_Ground_Turbolaser_Tower,
+				UC_U_Ground_Turbolaser_Tower,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Affiliation>Neutral, Rebel, Empire, Underworld</Affiliation>
@@ -1718,7 +1783,6 @@
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Immune_To_Damage>True</Immune_To_Damage>
-
 	</GroundBuildable>
 
 	<GroundBuildable Name="E_Ground_Turbolaser_Tower_Build_Pad">
@@ -1953,9 +2017,9 @@
 
 	<GroundBuildable Name="UC_U_Ground_Turbolaser_Tower">
 		<Variant_Of_Existing_Type>UC_R_Ground_Turbolaser_Tower</Variant_Of_Existing_Type>
+
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Buildable_Constructed>U_Ground_Turbolaser_Tower</Tactical_Buildable_Constructed>
-		<Tactical_Health>600</Tactical_Health>
 		<Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 
@@ -2147,9 +2211,8 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -2258,10 +2321,9 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.25</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -2370,10 +2432,9 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.25</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -2482,10 +2543,9 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.50</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -2551,7 +2611,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.50</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -2594,10 +2654,9 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.50</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -2663,7 +2722,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -2704,10 +2763,9 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>2.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -2813,10 +2871,9 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -2921,10 +2978,9 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -2968,48 +3024,40 @@
 
 	<GroundBuildable Name="N_Cantina">
 		<Variant_Of_Existing_Type>Ground_Cantina_E</Variant_Of_Existing_Type>
+
 		<Behavior>REVEAL, CAPTURE_POINT, SELECTABLE, DUMMY_GROUND_STRUCTURE, HIDE_WHEN_FOGGED</Behavior>
 		<LandBehavior>LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
 		<Ownership_Sticks>Yes</Ownership_Sticks>
 		<Capture_Point_Transition_Time_Seconds>5</Capture_Point_Transition_Time_Seconds>
 		<Capture_Point_Radius>200</Capture_Point_Radius>
-		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Affiliation>Rebel, Empire, Neutral</Affiliation>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			EN_Imperial_Pod_Walker_Company,
-			Empire_Pirate_Skiff_Team,
-			Empire_Pirate_Swamp_Speeder_Team,
+				EN_Imperial_Pod_Walker_Company,
+				Empire_Pirate_Skiff_Team,
+				Empire_Pirate_Swamp_Speeder_Team,
+
 			Rebel,
-			RN_Rebel_Pod_Walker_Company,
-			Rebel_Pirate_Skiff_Team,
-			Rebel_Pirate_Swamp_Speeder_Team,
+				RN_Rebel_Pod_Walker_Company,
+				Rebel_Pirate_Skiff_Team,
+				Rebel_Pirate_Swamp_Speeder_Team
 		</Tactical_Buildable_Objects_Multiplayer>
 
-		<Space_Layer>Corvette</Space_Layer>
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08, 0.08</Radar_Icon_Size>
 
 		<Tactical_Health>675</Tactical_Health>
 		<Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
-		<CategoryMask>Structure</CategoryMask>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
 		<Terrain_Texture_Modifier_Square>False</Terrain_Texture_Modifier_Square>
 
-		<Is_Community_Property>Yes</Is_Community_Property>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Victory_Relevant>No</Victory_Relevant>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Build_Cost_Credits>0</Build_Cost_Credits><!-- Override base type to prevent assert -->
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_CANTINA_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
-		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_CANTINA_00 MP_TEXT_ENCYCLOPEDIA_CANTINA_01 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</MP_Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_CANTINA_00, TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
+		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_CANTINA_00, MP_TEXT_ENCYCLOPEDIA_CANTINA_01, TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</MP_Encyclopedia_Text>
 
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
@@ -3041,7 +3089,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -3084,10 +3132,9 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -3154,7 +3201,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -3197,10 +3244,9 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -3260,7 +3306,7 @@
 		<Terrain_Texture_Modifier_Square>False</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 
@@ -3312,7 +3358,7 @@
 		<Terrain_Texture_Modifier_Square>False</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 
@@ -3372,7 +3418,7 @@
 		<Terrain_Texture_Modifier_Square>False</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 
@@ -3483,7 +3529,6 @@
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
-		<Terrain_Texture_Modifier_Square>False</Terrain_Texture_Modifier_Square>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.15 0.15</Radar_Icon_Size>
@@ -3511,7 +3556,6 @@
 		<CategoryMask>Structure</CategoryMask>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE_00</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE_00, MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE_01</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -3523,7 +3567,6 @@
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Immune_To_Damage>True</Immune_To_Damage>
-
 	</GroundBuildable>
 
 	<GroundBuildable Name="UC_Imperial_Command_Center">
@@ -3538,7 +3581,6 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
@@ -3570,7 +3612,6 @@
 		<CategoryMask>Structure</CategoryMask>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
@@ -3591,7 +3632,6 @@
 
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-
 	</GroundBuildable>
 
 	<GroundBuildable Name="Rebel_Command_Center_Build_Pad">
@@ -3634,7 +3674,6 @@
 		<CategoryMask>Structure</CategoryMask>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<Encyclopedia_Text>MP_TEXT_STRUCTURE_COMMAND_CENTER_PAD</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_PAD_00</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -3659,7 +3698,6 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
@@ -3691,7 +3729,6 @@
 		<CategoryMask>Structure</CategoryMask>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
@@ -3721,18 +3758,19 @@
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE</LandBehavior>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			UC_Empire_Mineral_Processor,
+				UC_Empire_Mineral_Processor,
+
 			Rebel,
-			UC_Rebel_Mineral_Processor,
+				UC_Rebel_Mineral_Processor,
+
 			Underworld,
-			UC_Underworld_Mineral_Processor,
+				UC_Underworld_Mineral_Processor
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Minimum_Time_Before_Pad_Can_Build_Again>30.0</Minimum_Time_Before_Pad_Can_Build_Again>
 		<Text_ID>TEXT_STRUCTURE_NEUTRAL_RESOURCE_PAD</Text_ID>
 		<Land_Model_Name>W_Pedistal.alo</Land_Model_Name>
 		<Capture_Point_Radius>100</Capture_Point_Radius>
-		<Influences_Capture_Point>No</Influences_Capture_Point>
 		<Capture_Point_Transition_Time_Seconds>5.0</Capture_Point_Transition_Time_Seconds>
 		<Hides_When_Built_On>False</Hides_When_Built_On>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -3770,8 +3808,8 @@
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Affiliation>Neutral, Empire, Rebel, Underworld</Affiliation>
 
-		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_RESOURCE_PAD_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
-		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_RESOURCE_PAD_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</MP_Encyclopedia_Text>
+		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_RESOURCE_PAD_00, TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
+		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_RESOURCE_PAD_00, TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
@@ -3846,7 +3884,6 @@
 	</GroundBuildable>
 
 	<GroundBuildable Name="UC_Rebel_Mineral_Processor">
-		<Select_Box_Scale>100</Select_Box_Scale>
 		<Text_ID>TEXT_STRUCTURE_NEUTRAL_RESOURCE_PAD</Text_ID>
 		<Behavior>TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL</Behavior>
 		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, HIDE_WHEN_FOGGED</LandBehavior>
@@ -3862,7 +3899,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Show_Facing>No</Radar_Show_Facing>
 
-		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		<Radar_Icon_Size>0.075, 0.075</Radar_Icon_Size>
 		<Armor_Type>Armor_Structure</Armor_Type>
 		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
 
@@ -3914,10 +3951,10 @@
 
 	<GroundBuildable Name="UC_Underworld_Mineral_Processor">
 		<Variant_Of_Existing_Type>UC_Rebel_Mineral_Processor</Variant_Of_Existing_Type>
+
 		<Affiliation>Underworld</Affiliation>
 		<Text_ID>TEXT_STRUCTURE_UNDERWORLD_RESOURCE_PAD</Text_ID>
 		<Tactical_Buildable_Constructed>Underworld_Mineral_Processor</Tactical_Buildable_Constructed>
-		<Tactical_Health>250</Tactical_Health>
 		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
 
@@ -3938,7 +3975,6 @@
 		<SFXEvent_Sold_Tactical>EHD_Bacta_Tank_Sold</SFXEvent_Sold_Tactical>
 		<SFXEvent_Select>Structure_Mineral_Select_SFX</SFXEvent_Select>
 
-
 		<Text_ID>TEXT_STRUCTURE_EMPIRE_RESOURCE_PAD</Text_ID>
 		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_RESOURCE_PAD_00</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_RESOURCE_PAD_00</MP_Encyclopedia_Text>
@@ -3957,7 +3993,6 @@
 
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>0.0</Dense_FOW_Reveal_Range_Multiplier>
-		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Select_Box_Scale>100</Select_Box_Scale>
 
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
@@ -4054,7 +4089,6 @@
 
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>0.0</Dense_FOW_Reveal_Range_Multiplier>
-		<Last_State_Visible_Under_FOW>Yes</Last_State_Visible_Under_FOW>
 		<Select_Box_Scale>100</Select_Box_Scale>
 
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
@@ -4124,11 +4158,12 @@
 
 	<GroundBuildable Name="Underworld_Mineral_Processor">
 		<Variant_Of_Existing_Type>Rebel_Mineral_Processor</Variant_Of_Existing_Type>
+
 		<Affiliation>Underworld</Affiliation>
 		<Text_ID>TEXT_STRUCTURE_UNDERWORLD_RESOURCE_PAD</Text_ID>
 		<Tactical_Buildable_Constructed>Underworld_Mineral_Processor</Tactical_Buildable_Constructed>
-		<Abilities SubObjectList="Yes">
 
+		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="U_Mineral_Processor_Self_Repair">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
@@ -4155,7 +4190,6 @@
 				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
 			</Income_Stream_Ability>
 		</Abilities>
-
 	</GroundBuildable>
 
 
@@ -4202,7 +4236,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_U_BARRACKS</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD, TEXT_TOOLTIP_GARRISON_U_BARRACKS</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BARRACKS_UNDERWORLD, TEXT_TOOLTIP_GARRISON_U_BARRACKS</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Property_Flags>InBase</Property_Flags>
@@ -4230,7 +4264,6 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
@@ -4317,7 +4350,6 @@
 		<CategoryMask>Structure</CategoryMask>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD TEXT_TOOLTIP_GARRISON_COMMAND_CENTER</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>TEXT_ENCYCLOPEDIA_PALACE_UNDERWORLD, TEXT_TOOLTIP_GARRISON_COMMAND_CENTER</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -4342,7 +4374,6 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
 		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
@@ -4372,7 +4403,6 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
@@ -4436,7 +4466,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_DROIDWORKS</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD, TEXT_TOOLTIP_GARRISON_DROIDWORKS</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD, TEXT_TOOLTIP_GARRISON_DROIDWORKS</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
@@ -4463,7 +4493,6 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
@@ -4495,7 +4524,7 @@
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<CategoryMask>Structure</CategoryMask>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD TEXT_TOOLTIP_GARRISON_DROIDWORKS</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_DROIDWORKS_UNDERWORLD, TEXT_TOOLTIP_GARRISON_DROIDWORKS</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DROID_WORKS_UNDERWORLD_PAD_00</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
@@ -4548,7 +4577,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask>Structure</CategoryMask>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD TEXT_TOOLTIP_GARRISON_FACTORY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD, TEXT_TOOLTIP_GARRISON_FACTORY</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>TEXT_ENCYCLOPEDIA_FACTORY_UNDERWORLD, TEXT_TOOLTIP_GARRISON_FACTORY</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
@@ -4575,7 +4604,6 @@
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
@@ -4635,27 +4663,25 @@
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			UC_Empire_Ground_Mining_Facility,
-			UC_Ground_Hutt_Palace_E,
-			UC_Ground_Magnepulse_Cannon_E,
+				UC_Empire_Ground_Mining_Facility,
+				UC_Ground_Hutt_Palace_E,
+				UC_Ground_Magnepulse_Cannon_E,
 
 			Rebel,
-			UC_Rebel_Ground_Mining_Facility,
-			UC_Ground_Hutt_Palace_R,
-			UC_R_Uplink_Station,
+				UC_Rebel_Ground_Mining_Facility,
+				UC_Ground_Hutt_Palace_R,
+				UC_R_Uplink_Station,
 
 			Underworld,
-			UC_Underwold_Ground_Mining_Facility,
-			UC_Ground_Hutt_Palace_U,
-			UC_U_Ground_Gravity_Generator,
-
+				UC_Underwold_Ground_Mining_Facility,
+				UC_Ground_Hutt_Palace_U,
+				UC_U_Ground_Gravity_Generator
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Text_ID>TEXT_EMPIRE_BUILD_PAD</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE</Encyclopedia_Text>
 		<Land_Model_Name>W_BuildBaseFOC.alo</Land_Model_Name>
 		<Capture_Point_Radius>300</Capture_Point_Radius>
-		<Influences_Capture_Point>No</Influences_Capture_Point>
 		<Capture_Point_Transition_Time_Seconds>8.0</Capture_Point_Transition_Time_Seconds>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -4666,7 +4692,6 @@
 		<Scale_Factor>0.75</Scale_Factor>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>10000</Tactical_Health>
-		<Affiliation>Neutral</Affiliation>
 		<Base_Level_Available>1</Base_Level_Available>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Reveal_During_Setup_Phase>False</Reveal_During_Setup_Phase>
@@ -4687,10 +4712,9 @@
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Name>mini_map_structure.tga</Radar_Icon_Name>
-		<Radar_Icon_Size>0.08 0.08</Radar_Icon_Size>
+		<Radar_Icon_Size>0.08, 0.08</Radar_Icon_Size>
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
-
 	</GroundBuildable>
 
 	<!--*****************************************Underworld Outpost Structures**********************************************-->
@@ -4713,7 +4737,7 @@
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1 0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.1, 0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
 		<Scale_Factor>.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -4741,7 +4765,6 @@
 		<SFXEvent_Unit_Lost>RHD_Hutt_Palace_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Select>Structure_Hutt_Palace_Select_SFX</SFXEvent_Select>
 
-
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<CategoryMask>Structure</CategoryMask>
@@ -4753,11 +4776,9 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 
-
 		<Tactical_Health>500</Tactical_Health>
 		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
-
 
 		<Last_State_Visible_Under_FOW>True</Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
@@ -4765,56 +4786,49 @@
 
 	<GroundBuildable Name="UC_Ground_Hutt_Palace_E">
 		<Variant_Of_Existing_Type>UC_Ground_Hutt_Palace_R</Variant_Of_Existing_Type>
+
 		<Affiliation>Empire</Affiliation>
 		<Tactical_Buildable_Constructed>Skirmish_Ground_Hutt_Palace_E</Tactical_Buildable_Constructed>
 
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Unit_Under_Attack>EHD_Hutt_Palace_Under_Attack</SFXEvent_Unit_Under_Attack>
 		<SFXEvent_Unit_Lost>EHD_Hutt_Palace_Destroyed</SFXEvent_Unit_Lost>
-		<SFXEvent_Select>Structure_Hutt_Palace_Select_SFX</SFXEvent_Select>
-
 	</GroundBuildable>
 
 	<GroundBuildable Name="UC_Ground_Hutt_Palace_U">
 		<Variant_Of_Existing_Type>UC_Ground_Hutt_Palace_R</Variant_Of_Existing_Type>
+
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Buildable_Constructed>Skirmish_Ground_Hutt_Palace_U</Tactical_Buildable_Constructed>
 
 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Unit_Under_Attack>UHD_Hutt_Palace_Under_Attack</SFXEvent_Unit_Under_Attack>
 		<SFXEvent_Unit_Lost>UHD_Hutt_Palace_Destroyed</SFXEvent_Unit_Lost>
-		<SFXEvent_Select>Structure_Hutt_Palace_Select_SFX</SFXEvent_Select>
 
-		<Tactical_Health>500</Tactical_Health>
 		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
-
 	</GroundBuildable>
 
 
 	<GroundBuildable Name="Skirmish_Ground_Hutt_Palace_R">
 		<Variant_Of_Existing_Type>Ground_Hutt_Palace_R</Variant_Of_Existing_Type>
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_HUTT_PALACE_SKIRMISH</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Space_Layer>Land</Space_Layer>
 		<Custom_Hard_XExtent>20.0</Custom_Hard_XExtent>
 		<Custom_Hard_YExtent>20.0</Custom_Hard_YExtent>
 		<UnitCollisionClass>Vehicle</UnitCollisionClass>
 		<Behavior>TACTICAL_SELL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
-		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-			RN_Rebel_Pod_Walker_Company,
-			Rebel_Pirate_Skiff_Team,
-			Rebel_Pirate_Swamp_Speeder_Team,
-			RL_Enhanced_Deployment_L1_Upgrade,
+				RN_Rebel_Pod_Walker_Company,
+				Rebel_Pirate_Skiff_Team,
+				Rebel_Pirate_Swamp_Speeder_Team,
+				RL_Enhanced_Deployment_L1_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Victory_Relevant>No</Victory_Relevant>
 	</GroundBuildable>
@@ -4822,20 +4836,18 @@
 	<GroundBuildable Name="Skirmish_Ground_Hutt_Palace_E">
 		<Variant_Of_Existing_Type>Ground_Hutt_Palace_E</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HUTT_PALACE_SKIRMISH</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Space_Layer>Land</Space_Layer>
 		<Custom_Hard_XExtent>20.0</Custom_Hard_XExtent>
 		<Custom_Hard_YExtent>20.0</Custom_Hard_YExtent>
 		<UnitCollisionClass>Vehicle</UnitCollisionClass>
 		<Behavior>TACTICAL_SELL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
-		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			EN_Imperial_Pod_Walker_Company,
-			Empire_Pirate_Skiff_Team,
-			Empire_Pirate_Swamp_Speeder_Team,
-			EL_Enhanced_Deployment_L1_Upgrade,
+				EN_Imperial_Pod_Walker_Company,
+				Empire_Pirate_Skiff_Team,
+				Empire_Pirate_Swamp_Speeder_Team,
+				EL_Enhanced_Deployment_L1_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Victory_Relevant>No</Victory_Relevant>
 	</GroundBuildable>
@@ -4843,20 +4855,18 @@
 	<GroundBuildable Name="Skirmish_Ground_Hutt_Palace_U">
 		<Variant_Of_Existing_Type>Ground_Hutt_Palace_E</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HUTT_PALACE_SKIRMISH</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Space_Layer>Land</Space_Layer>
 		<Custom_Hard_XExtent>20.0</Custom_Hard_XExtent>
 		<Custom_Hard_YExtent>20.0</Custom_Hard_YExtent>
 		<UnitCollisionClass>Vehicle</UnitCollisionClass>
 		<Behavior>TACTICAL_SELL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
-		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Tactical_Buildable_Objects_Multiplayer>
 			Underworld,
-			Underworld_Pod_Walker_Company,
-			Underworld_Skiff_Team,
-			Underworld_Swamp_Speeder_Team,
-			UL_Enhanced_Deployment_L1_Upgrade,
+				Underworld_Pod_Walker_Company,
+				Underworld_Skiff_Team,
+				Underworld_Swamp_Speeder_Team,
+				UL_Enhanced_Deployment_L1_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Victory_Relevant>No</Victory_Relevant>
 	</GroundBuildable>
@@ -4872,7 +4882,6 @@
 		<Victory_Relevant>No</Victory_Relevant>
 		<Tactical_Buildable_Constructed>Skirmish_Ground_Magnepulse_Cannon_E</Tactical_Buildable_Constructed>
 		<Tactical_Build_Start_Lower_Z>50.0</Tactical_Build_Start_Lower_Z>
-		<Text_ID>TEXT_EMPIRE_BUILD_PAD</Text_ID>
 		<Land_Model_Name>EB_MagnepulseCannon.alo</Land_Model_Name>
 		<Icon_Name>i_button_magnepulse_cannon.tga</Icon_Name>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
@@ -4908,7 +4917,6 @@
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 		<SFXEvent_Unit_Under_Attack>EHD_Magnepulse_Under_Attack</SFXEvent_Unit_Under_Attack>
 		<SFXEvent_Unit_Lost>EHD_Magnepulse_Destroyed</SFXEvent_Unit_Lost>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Select>Structure_Ion_Select_SFX</SFXEvent_Select>
 
 
@@ -4936,6 +4944,7 @@
 
 	<GroundBuildable Name="Skirmish_Ground_Magnepulse_Cannon_E">
 		<Variant_Of_Existing_Type>Ground_Magnepulse_Cannon</Variant_Of_Existing_Type>
+
 		<Space_Layer>Land</Space_Layer>
 		<Projectile_Types>Magnepulse_Blob_Skirmish</Projectile_Types>
 		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
@@ -4944,25 +4953,9 @@
 		<Custom_Hard_YExtent>20.0</Custom_Hard_YExtent>
 		<UnitCollisionClass>Vehicle</UnitCollisionClass>
 		<Behavior>TACTICAL_SELL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
-		<LandBehavior>SPACE_OBSTACLE, ABILITY_COUNTDOWN, LAND_OBSTACLE,TURRET,WEAPON,LOBBING_SUPERWEAPON,POWERED,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
-		<Tactical_Additional_Structure_Type>Power_Generator_E</Tactical_Additional_Structure_Type>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
 		<Victory_Relevant>No</Victory_Relevant>
-
-		<!-- Unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>FIRE_LOBBING_SUPERWEAPON</Type>
-
-				<!-- Oksana: Make sure it matches this tag: <Projectile_Fire_Recharge_Seconds>or it will ASSERT-->
-				<Recharge_Seconds>30</Recharge_Seconds>
-
-				<Area_Effect_Decal_Distance>200.0</Area_Effect_Decal_Distance>
-				<!--AJA - This broke the rendering code when I tried to enable it. <Effective_Radius>1500.0</Effective_Radius>-->
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-
 	</GroundBuildable>
 
 	<!--***************************************************************************************-->
@@ -5008,7 +5001,6 @@
 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Unit_Under_Attack>UHD_GravGen_Under_Attack</SFXEvent_Unit_Under_Attack>
 		<SFXEvent_Unit_Lost>UHD_GravGen_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Select>Structure_Power_Gen_Select_SFX</SFXEvent_Select>
@@ -5139,19 +5131,13 @@
 
 	<GroundBuildable Name="Skirmish_Ground_Gravity_Generator_U">
 		<Variant_Of_Existing_Type>U_Ground_Gravity_Generator</Variant_Of_Existing_Type>
-		<Tactical_Additional_Structure_Type>U_Ground_Palace</Tactical_Additional_Structure_Type>
+
 		<Space_Layer>Land</Space_Layer>
-		<Scale_Factor>0.82</Scale_Factor>
 		<UnitCollisionClass>Vehicle</UnitCollisionClass>
 		<Custom_Hard_XExtent>20.0</Custom_Hard_XExtent>
 		<Custom_Hard_YExtent>20.0</Custom_Hard_YExtent>
-		<Affiliation>Underworld</Affiliation>
 		<Behavior>TACTICAL_SELL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
-		<LandBehavior>
-			SPACE_OBSTACLE, LAND_OBSTACLE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, GRAVITY_CONTROL_FIELD ,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE
-		</LandBehavior>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
-		<Tech_Level>0</Tech_Level>
 		<Victory_Relevant>No</Victory_Relevant>
 	</GroundBuildable>
 
@@ -5198,7 +5184,6 @@
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<!--<SFXEvent_Unit_Under_Attack>EHD_Gravity_Control_Under_Attack</SFXEvent_Unit_Under_Attack>
 		<SFXEvent_Unit_Lost>EHD_Gravity_Control_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Select>Structure_Power_Gen_Select_SFX</SFXEvent_Select>-->
@@ -5228,8 +5213,8 @@
 
 	<GroundBuildable Name="Skirmish_Uplink_Station_R">
 		<Variant_Of_Existing_Type>Uplink_Station</Variant_Of_Existing_Type>
+
 		<Encyclopedia_Text>TEXT_STRUCTURE_UPLINK_TOOLTIP</Encyclopedia_Text>
-		<Icon_Name>i_button_uplink_station.tga</Icon_Name>
 		<Space_Layer>Land</Space_Layer>
 		<UnitCollisionClass>Vehicle</UnitCollisionClass>
 
@@ -5243,7 +5228,6 @@
 		</LandBehavior>
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
 		<Tech_Level>0</Tech_Level>
-		<Victory_Relevant>No</Victory_Relevant>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
@@ -5254,9 +5238,7 @@
 				<Area_Effect_Decal_Distance>250.0</Area_Effect_Decal_Distance>
 				<GUI_Activated_Ability_Name /><!-- GUI Command Bar support -->
 			</Unit_Ability>
-
 		</Unit_Abilities_Data>
-
 	</GroundBuildable>
 
 	<!--***************************************************************************************-->
@@ -5276,27 +5258,28 @@
 		<!-- This is a list of the buildable objects at this pad (defined below) - that will be under construction -->
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
-			UC_Empire_Bunker,
+				UC_Empire_Bunker,
+
 			Rebel,
-			UC_Rebel_Bunker,
+				UC_Rebel_Bunker,
+
 			Underworld,
-			UC_Underworld_Bunker,
+				UC_Underworld_Bunker
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Tactical_Buildable_Objects_Multiplayer>
-
 			Empire,
-			UC_Empire_Bunker,
-			Rebel,
-			UC_Rebel_Bunker,
-			Underworld,
-			UC_Underworld_Bunker,
+				UC_Empire_Bunker,
 
+			Rebel,
+				UC_Rebel_Bunker,
+
+			Underworld,
+				UC_Underworld_Bunker
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Land_Model_Name>NB_Bunker.alo</Land_Model_Name>
 		<Capture_Point_Radius>200</Capture_Point_Radius>
-		<Influences_Capture_Point>No</Influences_Capture_Point>
 		<Capture_Point_Transition_Time_Seconds>5.0</Capture_Point_Transition_Time_Seconds>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
@@ -5339,7 +5322,6 @@
 		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,null,null,null</Land_Damage_SFX>
-
 	</GroundBuildable>
 
 	<GroundBuildable Name="UC_Empire_Bunker">
@@ -5401,6 +5383,7 @@
 
 	<GroundBuildable Name="UC_Rebel_Bunker">
 		<Variant_Of_Existing_Type>UC_Empire_Bunker</Variant_Of_Existing_Type>
+
 		<Affiliation>Rebel</Affiliation>
 		<Tactical_Buildable_Constructed>Garrison_Bunker_Rebel</Tactical_Buildable_Constructed>
 		<Land_Model_Name>RB_Bunker.alo</Land_Model_Name>
@@ -5413,12 +5396,11 @@
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<SFXEvent_Select>Structure_Mining_Select_SFX</SFXEvent_Select>
 	</GroundBuildable>
 
 	<GroundBuildable Name="UC_Underworld_Bunker">
 		<Variant_Of_Existing_Type>UC_Empire_Bunker</Variant_Of_Existing_Type>
+
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Buildable_Constructed>Garrison_Bunker_Underworld</Tactical_Buildable_Constructed>
 		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
@@ -5431,7 +5413,5 @@
 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<SFXEvent_Select>Structure_Mining_Select_SFX</SFXEvent_Select>
 	</GroundBuildable>
 </GroundBuildables>
