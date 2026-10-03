@@ -615,8 +615,6 @@ function End_Camera()
 	--Sleep(5)
 	Create_Thread("Death_Monitor_Tyber")
 	Create_Thread("Death_Monitor_Urai")
-	Story_Event("UM06_Re_Enable_Victory_AI_NOTIFICATION")
-
 end
 
 
@@ -1957,6 +1955,7 @@ function State_UM06_DIALOG_Finale_Line06_Remove_Text (message)
 		--Lock_Controls(0)
 		Letter_Box_Out(0)
 		Sleep(1)
+		Story_Event("UM06_Re_Enable_Victory_AI_NOTIFICATION")
 		Story_Event("TRIGGER_MISSION_06_VICTORY")
 	end
 end
