@@ -2025,7 +2025,7 @@
 	<Indigenous_Unit Name="Imperial_Elite_Guard">
 		<Text_ID>TEXT_INDIG_ELITE_GUARD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS</Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_ELITE_GUARD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ELITE_GUARD_00 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>EI_RoyalGaurd.alo</Land_Model_Name>
 		<Icon_Name>i_button_imperial_guard.tga</Icon_Name>
 		<LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE,REVEAL,HIDE_WHEN_FOGGED,SELECTABLE</LandBehavior>
@@ -2132,6 +2132,13 @@
 		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
 
 		<Movie_Object>False</Movie_Object>
+
+		<Presence_Induced_Animations>
+			Attention,
+				Emperor_Palpatine,
+				Darth_Vader,
+				Darth_Vader_Expansion
+		</Presence_Induced_Animations>
 
 	</Indigenous_Unit>
 

@@ -1769,6 +1769,8 @@
 
 	<GroundInfantry Name="Imperial_Guard_Non_AI">
 		<Text_ID>TEXT_INDIG_ELITE_GUARD</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ELITE_GUARD_00 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>EI_RoyalGaurd.alo</Land_Model_Name>
 		<Icon_Name>i_button_imperial_guard.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
@@ -1874,18 +1876,15 @@
 		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
 		<Weather_Category>Infantry</Weather_Category>
 
-		<Encyclopedia_Text>TEXT_TOOLTIP_ELITE_GUARD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-
 		<Score_Cost_Credits>0</Score_Cost_Credits>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 
 		<Presence_Induced_Animations>
 			Attention,
-			Emperor_Palpatine,
-			Darth_Vader,
-			Darth_Vader_Expansion,
+				Emperor_Palpatine,
+				Darth_Vader,
+				Darth_Vader_Expansion
 		</Presence_Induced_Animations>
 
 	</GroundInfantry>
