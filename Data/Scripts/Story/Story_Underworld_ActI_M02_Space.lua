@@ -40,20 +40,19 @@
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
 require("JGS_FunctionLib") -- added library of commonly used functions
-require("PGSpawnUnits")
 require("PGStoryMode")
 
 function Definitions()
-	StoryModeEvents = 
+	StoryModeEvents =
 	{
 		Underworld_M02_Begin = State_Underworld_A01M02_Begin
 	}
-	
+
 	bandit = {}
 	bandit[1] = nil
 	attack1 = {}
 	attack1[1] = nil
-	
+
 	rebel_assault_01 =
 	{
 		"Rebel_X-Wing_Squadron",
@@ -61,8 +60,8 @@ function Definitions()
 		"Rebel_X-Wing_Squadron",
 		"CORELLIAN_CORVETTE"
 	}
-		
-	pirate_scavengers_01 = 
+
+	pirate_scavengers_01 =
 	{
 		"Pirate_Fighter_Squadron",
 		"Pirate_Fighter_Squadron",
@@ -70,8 +69,8 @@ function Definitions()
 		"Pirate_Fighter_Squadron",
 		"Pirate_Fighter_Squadron"
 	}
-	
-	imperial_scouts_01 = 
+
+	imperial_scouts_01 =
 	{
 		"TIE_Bomber_Squadron",
 		"TIE_Bomber_Squadron",
@@ -80,16 +79,16 @@ function Definitions()
 		"TIE_Scout_Squadron",
 		"TIE_Scout_Squadron"
 	}
-	
-	imperial_scouts_02 = 
+
+	imperial_scouts_02 =
 	{
 		"Tartan_Patrol_Cruiser",
 		"Tartan_Patrol_Cruiser",
 		"Tartan_Patrol_Cruiser",
-		"Tartan_Patrol_Cruiser"	
+		"Tartan_Patrol_Cruiser"
 	}
-	
-	imperial_fleet_01 = 
+
+	imperial_fleet_01 =
 	{
 		"Victory_Destroyer",
 		"Victory_Destroyer",
@@ -100,11 +99,11 @@ end
 
 function State_Underworld_A01M02_Begin(message)
 	if message == OnEnter then
-		GlobalValue.Set("Allow_AI_Controlled_Fog_Reveal", 0)	
+		GlobalValue.Set("Allow_AI_Controlled_Fog_Reveal", 0)
 		Initialize_Mission_Variables()
 		Initialize_Cinematic_Variables()
 		current_cine_id = Create_Thread("CINE_Start_Mission")
-		
+
 	elseif message == OnUpdate then
 		if not VictoryStarted and not DefeatStarted then
 			if DefeatCondition_TyberDead then
@@ -126,7 +125,7 @@ function State_Underworld_A01M02_Begin(message)
 						Register_Prox(black_box_flag, Prox_Obtain_Blackbox, 150, underworld_player)
 						Reveal_Black_Box()
 						bandit[1].Take_Damage(10000)
-						
+
 						Story_Event("PIRATE_DROPPED_POD")
 
 					end
@@ -142,12 +141,12 @@ function Initialize_Mission_Variables()
 	DefeatStarted = false
 	DefeatCondition_TyberDead = false
 	VictoryCondition_CapturedBoxes = false
-	
+
 	empire_has_arrived = false
 	bandit_active = false
 	primary_dialog_on = false
 	rebel_dialog = false
-	
+
 	rebel_player = Find_Player("Rebel")
 	neutral_player = Find_Player("Neutral")
 	empire_player = Find_Player("Empire")
@@ -159,7 +158,7 @@ function Initialize_Mission_Variables()
 	if TestValid(empire_player) then
 		empire_player.Enable_As_Actor()
 	end
-	
+
 	boxes_remaining = 4
 	box_spotting_remaining = 4
 	rebel_spawn_location = 0
@@ -167,14 +166,14 @@ function Initialize_Mission_Variables()
 	bandit_move = nil
 	spawn_marker = nil
 	spawn_marker2 = nil
-		
+
 	radar_01 = Find_Hint("STORY_TRIGGER_ZONE", "radar01")
 	radar_02 = Find_Hint("STORY_TRIGGER_ZONE", "radar02")
 	radar_03 = Find_Hint("STORY_TRIGGER_ZONE", "radar03")
 	radar_04 = Find_Hint("STORY_TRIGGER_ZONE", "radar04")
 	radar_05 = Find_Hint("STORY_TRIGGER_ZONE", "radar05")
 	radar_06 = Find_Hint("STORY_TRIGGER_ZONE", "radar06")
-			
+
 	marker_rebel_first_encounter = Find_Hint("STORY_TRIGGER_ZONE", "rebelfirst")
 
 	tyber_zann = Find_First_Object("TYBER_ZANN_PASSENGER")
@@ -182,14 +181,14 @@ function Initialize_Mission_Variables()
 		tyber_zann_craft = tyber_zann.Get_Parent_Object()
 		Register_Death_Event(tyber_zann, Tyber_Zann_Destroyed)
 	end
-	
+
 	Spawn_Black_Boxes()
 
 	missile_01 = Find_Hint("REBEL_DEFENSE_SATELLITE_MISSILE","missile01")
 	missile_02 = Find_Hint("REBEL_DEFENSE_SATELLITE_MISSILE","missile02")
 	missile_03 = Find_Hint("REBEL_DEFENSE_SATELLITE_MISSILE","missile03")
 	missile_04 = Find_Hint("REBEL_DEFENSE_SATELLITE_MISSILE","missile04")
-	
+
 	Register_Prox(missile_01, Prox_Missile_Defense, 1200, underworld_player)
 	Register_Prox(missile_02, Prox_Missile_Defense, 1200, underworld_player)
 	Register_Prox(missile_03, Prox_Missile_Defense, 1200, underworld_player)
@@ -231,7 +230,7 @@ end
 function Spawn_Black_Boxes()
 	local second_location = GameRandom(1,2)
 	local third_location = GameRandom(1,2)
-	
+
 	black_box_01 = Create_Generic_Object("UM01_DEATH_STAR_BLACK_BOX", radar_04, rebel_player)
 	black_box_04 = Create_Generic_Object("UM01_DEATH_STAR_BLACK_BOX", radar_05, rebel_player)
 	if (second_location == 1) then
@@ -248,7 +247,7 @@ function Spawn_Black_Boxes()
 		black_box_03 = Create_Generic_Object("UM01_DEATH_STAR_BLACK_BOX", radar_02, rebel_player)
 		black_box_03_location = radar_02
 	end
-	
+
 	black_box_01.Hide(true)
 	black_box_02.Hide(true)
 	black_box_03.Hide(true)
@@ -292,18 +291,18 @@ end
 
 function Prox_Empire_Arrival(prox_obj, trigger_obj)
 	prox_obj.Cancel_Event_Object_In_Range(Prox_Empire_Arrival)
-	
+
 	if not empire_has_arrived then
-	
+
 		imperial_scouts = SpawnList(imperial_scouts_01, prox_obj.Get_Position(), empire_player, false, true)
 		local imperial_scouts_tartans = SpawnList(imperial_scouts_02, prox_obj.Get_Position(), neutral_player, false, true)
-		
+
 		for i, unit in pairs (imperial_scouts_tartans) do
 			if TestValid(unit) then
 				unit.Move_To(prox_obj.Get_Position())
 			end
 		end
-		
+
 		local closest_enemy = Find_Nearest(prox_obj, underworld_player, true)
 		if TestValid(closest_enemy) then
 			for i,unit in pairs(imperial_scouts) do
@@ -319,7 +318,7 @@ function Prox_Empire_Arrival(prox_obj, trigger_obj)
 		Story_Event("IMPERIAL_ENCOUNTER")
 		Create_Thread("Primary_Dialog_Off")
 		Create_Thread("Empire_AI_Control")
-	
+
 	end
 end
 
@@ -333,7 +332,7 @@ function Empire_AI_Control()
 					unit.Prevent_AI_Usage(false)
 				end
 			end
-		
+
 			local tartan_list = Find_All_Objects_Of_Type("Tartan_Patrol_Cruiser")
 			for i, unit in pairs (tartan_list) do
 				if TestValid(unit) then
@@ -341,13 +340,13 @@ function Empire_AI_Control()
 					underworld_player.Select_Object(unit)
 				end
 			end
-			
+
 			Sleep(15)
-						
+
 			if not empire_has_arrived then
 				Create_Thread("Rebel_Scouts_Engaged", marker_rebel_spawn_empire.Get_Position())
 			end
-			
+
 		else
 			local empire_ai_list = Find_All_Objects_Of_Type(empire_player)
 			for i, unit in pairs(empire_ai_list) do
@@ -361,11 +360,11 @@ end
 
 function Prox_Pirate_Arrival(prox_obj, trigger_obj)
 	prox_obj.Cancel_Event_Object_In_Range(Prox_Pirate_Arrival)
-	
+
 	if not empire_has_arrived then
-	
+
 		pirate_scavengers = SpawnList(pirate_scavengers_01, prox_obj.Get_Position(), pirate_player, false, true)
-		local closest_enemy = Find_Nearest(prox_obj, underworld_player, true)	
+		local closest_enemy = Find_Nearest(prox_obj, underworld_player, true)
 		if TestValid(closest_enemy) then
 			for i,unit in pairs(pirate_scavengers) do
 				if TestValid(unit) then
@@ -377,7 +376,7 @@ function Prox_Pirate_Arrival(prox_obj, trigger_obj)
 		Story_Event("PIRATE_ENCOUNTER")
 		Create_Thread("Primary_Dialog_Off")
 		Create_Thread("Pirate_AI_Control")
-	
+
 	end
 end
 
@@ -416,9 +415,9 @@ function Prox_Spotted_Blackbox(prox_obj, trigger_obj)
 			Create_Thread("Primary_Dialog_Off")
 		end
 	elseif box_spotting_remaining == 1 then
-		
+
 		bandit_active = true
-		
+
 		prox_obj.Cancel_Event_Object_In_Range(Prox_Obtain_Blackbox)
 		Remove_Radar_Blip("box_radar")
 
@@ -431,11 +430,11 @@ function Prox_Spotted_Blackbox(prox_obj, trigger_obj)
 		bandit[1].Make_Invulnerable(true)
 		bandit[1].Set_Cannot_Be_Killed(true)
 		bandit_move = introattack1.Get_Position()
-		
+
 		Register_Prox(introattack1, Prox_Change_Bandit_Course, 50, pirate_player)
-		
+
 		Story_Event("FINAL_ENCOUNTER")
-		
+
 		Create_Thread("Empire_Fleet_Arrival")
 	end
 	box_spotting_remaining = box_spotting_remaining - 1
@@ -455,35 +454,35 @@ end
 
 function Empire_Fleet_Arrival()
 	if not VictoryStarted and not DefeatStarted then
-		
+
 		Register_Timer(Timer_Move_Bandit,1)
-		
+
 		if TestValid(disabled_imperial_vessel_01) then
 			disabled_imperial_vessel_01.Change_Owner(empire_player)
 		end
-		
+
 		tyber_zann_craft.Make_Invulnerable(true)
 		tyber_zann_craft.Set_Cannot_Be_Killed(true)
 		empire_has_arrived = true
-		
+
 		Sleep(1)
-		
+
 		nearest_black_box = Find_Nearest(bandit[1], "UM01_DEATH_STAR_BLACK_BOX")
 		if TestValid(nearest_black_box) then
 			nearest_black_box.Set_Cannot_Be_Killed(false)
 			nearest_black_box.Make_Invulnerable(false)
 			nearest_black_box.Take_Damage(10000)
 		end
-		
+
 		Sleep(6)
-		
+
 		-- Time for midtro cinematic stuff.
 		Suspend_AI(1)
 		Lock_Controls(1)
 		Cancel_Fast_Forward()
 		Fade_Screen_Out(1)
 		Sleep(1)
-				
+
 		-- Find out which side of the battlefield the player is on.
 		local left_distance = tyber_zann.Get_Distance(marker_executor_left)
 		local right_distance = tyber_zann.Get_Distance(marker_executor_right)
@@ -494,38 +493,38 @@ function Empire_Fleet_Arrival()
 			spawn_marker = marker_executor_right
 			spawn_marker2 = marker_executor_left
 		end
-		
+
 		-- Spawn the Empire fleet.
 		imperial_fleet_list = SpawnList(imperial_fleet_01, spawn_marker.Get_Position(), empire_player, true, true)
-				
+
 		-- Spawn the Rebel backup.
 		rebel_assault_01_list = SpawnList(rebel_assault_01, rebel_backup_marker_1.Get_Position(), rebel_player, true, true)
 		rebel_backup_02_list = SpawnList(rebel_assault_01, rebel_backup_marker_2.Get_Position(), rebel_player, true, true)
-		
+
 		FogOfWar.Reveal_All(underworld_player)
 
 		Start_Cinematic_Camera()
-		
+
 		Set_Cinematic_Camera_Key(spawn_marker.Get_Position(), 0, -1000, 800, 0, 0, 1, 0)
 		Set_Cinematic_Target_Key(spawn_marker.Get_Position(), 0, 0, 0, 0, 0, 0, 0)
-		
+
 		Fade_Screen_In(2)
 		Transition_Cinematic_Camera_Key(tyber_zann.Get_Position(), 3, 0, -2000, 1600, 0, 0, 0, 0)
 
 -- DEBUG: Call the dialog for announcing Empire arrival here. We'll need to separate it for timing purposes.
 		Sleep(3)
-		
+
 		Transition_To_Tactical_Camera(5)
 		Sleep(5)
-		
+
 		End_Cinematic_Camera()
-		Letter_Box_Out(0)	
+		Letter_Box_Out(0)
 		Lock_Controls(0)
 		Suspend_AI(0)
 		tyber_zann_craft.Make_Invulnerable(false)
 		tyber_zann_craft.Set_Cannot_Be_Killed(false)
 		bandit[1].Make_Invulnerable(false)
-		
+
 	end
 end
 
@@ -544,7 +543,7 @@ end
 function Prox_Obtain_Blackbox(prox_obj,trigger_obj)
 	if (trigger_obj == tyber_zann_craft) then
 		prox_obj.Cancel_Event_Object_In_Range(Prox_Obtain_Blackbox)
-	
+
 		boxes_remaining = boxes_remaining - 1
 		nearest_black_box = Find_Nearest(prox_obj, "UM01_DEATH_STAR_BLACK_BOX")
 		if TestValid(nearest_black_box) then
@@ -568,7 +567,7 @@ function Prox_Obtain_Blackbox(prox_obj,trigger_obj)
 end
 
 function Rebel_Scouts_Engaged(engage_location)
-	
+
 	-- Bring in the backup squad at the prox_obj location.
 
 	rebel_backup = SpawnList(rebel_assault_01, engage_location, rebel_player, true, true)
@@ -597,14 +596,14 @@ end
 -- INTRO CINEMATIC
 
 function CINE_Start_Mission()
-	
+
 	CINE_Intro_Active = true
-	
-	Cancel_Fast_Forward()	
+
+	Cancel_Fast_Forward()
 	Suspend_AI(1)
 	Lock_Controls(1)
-	Start_Cinematic_Camera()	
-		
+	Start_Cinematic_Camera()
+
 	recon = Create_Generic_Object("SKIPRAY_BLASTBOAT", reconstart.Get_Position(), underworld_player)
 	if TestValid(recon) then
 		recon.Move_To(reconend)
@@ -617,22 +616,22 @@ function CINE_Start_Mission()
 	Transition_Cinematic_Target_Key(recon, 7, 0, 0, 0, 0, recon, 0, 0)
 
 	Letter_Box_In(0)
-	Fade_Screen_In(2)	
+	Fade_Screen_In(2)
 	Sleep(3)
-	
+
 	Story_Event("CHATTER_00")
 	Sleep(6)
 
 	Set_Cinematic_Camera_Key(tyber_zann_craft.Get_Position(), 0, 200, -175, 0, tyber_zann_craft, 0, 0)
-	Set_Cinematic_Target_Key(tyber_zann_craft.Get_Position(), 0, 0, 0, 0, tyber_zann_craft, 0, 0)	
+	Set_Cinematic_Target_Key(tyber_zann_craft.Get_Position(), 0, 0, 0, 0, tyber_zann_craft, 0, 0)
 	Story_Event("CHATTER_01")
 	Sleep(8)
 
 	Set_Cinematic_Camera_Key(tyber_zann_craft.Get_Position(), 275, 15, 90, 1, tyber_zann_craft, 0, 0)
-	Set_Cinematic_Target_Key(tyber_zann_craft.Get_Position(), 0, 0, 0, 0, tyber_zann_craft, 0, 0)	
+	Set_Cinematic_Target_Key(tyber_zann_craft.Get_Position(), 0, 0, 0, 0, tyber_zann_craft, 0, 0)
 	Story_Event("CHATTER_03")
-	Sleep(4)	
-	
+	Sleep(4)
+
 	attack1 = Create_Generic_Object("CORELLIAN_CORVETTE", introattack1.Get_Position(), neutral_player)
 	attack1.Teleport_And_Face(introattack1)
 	Set_Cinematic_Camera_Key(attack1, 300, -15, 145, 1, attack1, 1, 0)
@@ -641,18 +640,18 @@ function CINE_Start_Mission()
 	Transition_Cinematic_Target_Key(attack1, 6, 10, 0, 35, 0, attack1, 0, 0)
 	Story_Event("CHATTER_04")
 	Sleep(2)
-	
+
 	Story_Event("CHATTER_05")
 	Sleep(5)
-	
+
 	Set_Cinematic_Camera_Key(camtarget, -150, -150, 140, 0, 0, 0, 0)
 	Set_Cinematic_Target_Key(attack1, 0, 0, 0, 0, attack1, 0, 0)
 	Story_Event("CHATTER_06")
 	Sleep(1.5)
-	
+
 	attack1.Change_Owner(rebel_player)
 	Sleep(1.5)
-	
+
 	Fade_Screen_Out(1)
 	Sleep(1)
 
@@ -660,7 +659,7 @@ function CINE_Start_Mission()
 end
 
 function Story_Handle_Esc()
-	if CINE_Intro_Active then 
+	if CINE_Intro_Active then
 		CINE_Intro_Active = false
 		Thread.Kill(current_cine_id)
 		Create_Thread("IntroCineCleanup")
@@ -679,11 +678,11 @@ function IntroCineCleanup()
 	black_box_03.Hide(false)
 
 	Reveal_Black_Box()
-	
+
 	if TestValid(recon) then
 		recon.Despawn()
 	end
-	
+
 	if not TestValid(attack1) then
 		attack1 = Create_Generic_Object("CORELLIAN_CORVETTE", introattack1.Get_Position(), rebel_player)
 		attack1.Teleport_And_Face(introattack1)
@@ -692,7 +691,7 @@ function IntroCineCleanup()
 			attack1.Prevent_AI_Usage(false)
 		end
 	end
-	
+
 	unit_list = SpawnList(rebel_assault_01, marker_rebel_first_encounter, rebel_player, true, true)
 	for i,unit in pairs (unit_list) do
 		if TestValid(unit) then
@@ -703,18 +702,18 @@ function IntroCineCleanup()
 	if TestValid(attack1) then
 		attack1.Change_Owner(rebel_player)
 	end
-	
+
 	Stop_All_Music()
 	Stop_All_Speech()
 	Remove_All_Text()
 	Allow_Localized_SFX(true)
 	End_Cinematic_Camera()
-	Letter_Box_Out(0)	
+	Letter_Box_Out(0)
 	Lock_Controls(0)
 	Suspend_AI(0)
 	Fade_Screen_In(1)
 	Sleep(1)
-	
+
 	CINE_Intro_Active = false
 	Story_Event("UM02_HINT_BLACKBOX")
 end
@@ -727,45 +726,45 @@ function EndMissionVictory()
 	primary_dialog_on = true
 	Story_Event("UM02_ENDCINE_BEGIN")
 	Sleep(2)
-	
+
 	Suspend_AI(1)
 	Lock_Controls(1)
 	--Fade_Screen_Out(1)
 	--Sleep(1)
-	Start_Cinematic_Camera()	
+	Start_Cinematic_Camera()
 	Letter_Box_In(1)
 	--Fade_Screen_In(1)
 
 	Sleep(1)
-	
+
 	--Fade_Screen_Out(1)
 	--Sleep(1)
 	--End_Cinematic_Camera()
-	--Letter_Box_Out(0)	
+	--Letter_Box_Out(0)
 	--Lock_Controls(0)
 	--Suspend_AI(0)
 	--Fade_Screen_In(1)
 	--Sleep(1)
-	
+
 	Story_Event("CHATTER_10")
 	Sleep(4)
-	
-	GlobalValue.Set("Allow_AI_Controlled_Fog_Reveal", 1)	
+
+	GlobalValue.Set("Allow_AI_Controlled_Fog_Reveal", 1)
 
 	Story_Event("UM02_ENDMISSION_VICTORY")
 end
 
 function EndMissionDefeat()
-	Cancel_Fast_Forward() 
+	Cancel_Fast_Forward()
 
-	GlobalValue.Set("Allow_AI_Controlled_Fog_Reveal", 1)	
+	GlobalValue.Set("Allow_AI_Controlled_Fog_Reveal", 1)
 
 	Suspend_AI(1)
 	Lock_Controls(1)
 	--Fade_Screen_Out(1)
 	--Sleep(1)
 	--Letter_Box_In(0)
-	--Start_Cinematic_Camera()	
+	--Start_Cinematic_Camera()
 	--Fade_Screen_In(1)
 	--Sleep(1)
 
@@ -774,7 +773,7 @@ function EndMissionDefeat()
 	--Sleep(1)
 	--Fade_Screen_Out(1)
 	--End_Cinematic_Camera()
-	--Letter_Box_Out(.5)	
+	--Letter_Box_Out(.5)
 	--Lock_Controls(0)
 	--Suspend_AI(0)
 	--Sleep(1)
@@ -786,4 +785,3 @@ end
 function Tyber_Zann_Destroyed()
 	DefeatCondition_TyberDead = true
 end
-
