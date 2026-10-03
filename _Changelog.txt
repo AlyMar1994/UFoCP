@@ -112,6 +112,7 @@ Script/Story Fixes:
 • The Defiler during the Consortium campaign's Honoghr mission wouldn't have a hologram when talking. (BUG #866)
 • Tyber Zann's dialogue during Space Bespin Piracy would be cut off due to mistimed dialogue and victory triggers. (BUG #882)
 • The Door Control Node consoles during Consortium campaign mission #4 ("Visions of the Past") wouldn't swap models when destroyed.  The console prop definition was a completely separate, duplicated prop without the proper damage checks. (BUG #844)
+• During Consortium campaign mission #2 ("Remnants of the Death Star"), upon grabbing the last Data Pod, the camera would lock and focus on whatever is the last thing the player was looking at.  The cutscene now focuses on Zann's ship while he's speaking, making the scene less awkward. (BUG #907)
 
 
 Structure Fixes:

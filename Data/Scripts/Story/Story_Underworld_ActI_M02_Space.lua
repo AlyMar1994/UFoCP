@@ -729,6 +729,7 @@ function EndMissionVictory()
 
 	Suspend_AI(1)
 	Lock_Controls(1)
+	Point_Camera_At(tyber_zann_craft)
 	--Fade_Screen_Out(1)
 	--Sleep(1)
 	Start_Cinematic_Camera()
