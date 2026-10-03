@@ -1700,7 +1700,7 @@
 	<Props_Story Name="UM05_SITH_ALTAR">
 		<Text_ID />
 		<Land_Model_Name>W_SithArtifact_pedestal.alo</Land_Model_Name>
-		<Scale_Factor>2.75</Scale_Factor>
+		<Scale_Factor>2.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
 	</Props_Story>
@@ -3011,6 +3011,15 @@
 		<Encyclopedia_Text>TEXT_SITH_HOLOCRON_TOOLTIP</Encyclopedia_Text>
 		<Land_Model_Name>w_sithartifact.alo</Land_Model_Name>
 		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+	</Props_Story>
+
+	<!-- AM1994 (10-03-26): Holocron specifically used for UM11. -->
+	<Props_Story Name="UM05_CINE_HOLOCRON_BIG">
+		<Text_ID>TEXT_SITH_HOLOCRON</Text_ID>
+		<Encyclopedia_Text>TEXT_SITH_HOLOCRON_TOOLTIP</Encyclopedia_Text>
+		<Land_Model_Name>w_sithartifact.alo</Land_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 	</Props_Story>
 

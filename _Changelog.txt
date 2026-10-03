@@ -94,6 +94,7 @@ Map/Planet Fixes:
 • Fix the uplink flag marker's position during Rebel campaign mission #2 ("Interpreting the Network") - the intro cinematic wouldn't properly focus on the uplink in widescreen resolutions. (BUG #873)
 • The Lambda-class Shuttle land prop used on various maps was "selectable" and generated a tooltip when hovered over, when it was clear it was not intended to do that (and was disabled manually on story campaign missions).  It is now a standard prop. (BUG #913)
 • Fixed multiple cases where the Death Stars would target the moons of planets instead of the planets themselves. (BUG #909)
+• The Sith Holocron in Consortium campaign mission #8 ("Following the Artifact") was floating and off-center above the Sith Altar.  The Holocron itself was also tiny, despite being apparently larger in the prologue "A Crimelord Unleashed."  The Sith Altar in mission #8 is a special prop that had its size increased 2.75x, which towers nearly double Silri's height to account for perspective in the related cinematic.  Unfortunately it was still overshot and too big, so the Altar was shrunken to 2.0x, and the Holocron increased to 2.0x from 1.5x. (BUG #906)
 
 
 Model Fixes:

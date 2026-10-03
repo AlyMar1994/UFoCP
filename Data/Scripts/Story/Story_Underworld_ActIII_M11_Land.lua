@@ -182,7 +182,7 @@ function State_Underworld_A03M11_Begin(message)
 		endcinebox1 = Find_Hint("UM05_BLACK_COVER_GIANT", "endcinebox1") --
 		int_sky=Find_First_Object("GIRDER_SKY_INTERIOR")
 		ext_sky=Find_Hint("PROP_CORUSCANT_SKYDOME","extskydome")
-		thesithartifact = Find_First_Object("UM05_CINE_HOLOCRON")
+		thesithartifact = Find_First_Object("UM05_CINE_HOLOCRON_BIG")
 
 		thebunker = Find_Hint("GARRISON_BUNKER_CAPTURABLE", "bunker") --
 		doora = Find_Hint("UM05_MOVING_DOOR", "doora") --
