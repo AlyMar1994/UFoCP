@@ -216,10 +216,11 @@ function State_Empire_A02M06_Begin(message)
 			unit.Set_Selectable(false)
 		end
 
-		shuttle_shutoff_table = Find_All_Objects_Of_Type("LANDED_EMPIRE_SHUTTLE")
-		for i,unit in pairs(shuttle_shutoff_table) do
-			unit.Set_Selectable(false)
-		end
+		-- AM1994 (10-03-26): Fixed in UFCP #913.
+		--shuttle_shutoff_table = Find_All_Objects_Of_Type("LANDED_EMPIRE_SHUTTLE")
+		--for i,unit in pairs(shuttle_shutoff_table) do
+		--	unit.Set_Selectable(false)
+		--end
 
 		Register_Prox(marker10, State_Empire_A02M06_Marker10_Prox, prox_range_despawn_cines, empire_player)
 		Register_Prox(marker14, State_Empire_A02M06_Marker14_Prox, prox_range_despawn_commanders, empire_player)

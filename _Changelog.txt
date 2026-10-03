@@ -49,7 +49,7 @@ UFCP:
 ======
 UFCP FIXES:
 • Fix Random Story Events generating in the "alternate history" variants of the EaW Galactic Conquests.  (Currently, they only support using EaW Heroes.)
-• Fix the alt-history variants of the EaW Conquestss not using the blown up version of Alderaan (and vice-versa, with alive Alderaan).
+• Fix the alt-history variants of the EaW Conquests not using the blown up version of Alderaan (and vice-versa, with alive Alderaan).
 • The Canderous Assault Tank's model size recieved a 5% increase to try and match vanilla's a bit closer. (BUG #390)
 • Fix two black market price change notifications (during the Consortium campaign) that didn't use colored text in the dialogue notifications. (BUG #843)
 • Fix Alzoc III and Bespin's Piracy corruption options becoming unselectable after Consortium campaign mission #7 ("Baiting the Hook"). (BUG #848)
@@ -67,15 +67,15 @@ ENHANCEMENTS:
 HOUSEKEEPING:
 • AI triggers for dumping excess money out of the "MajorItem" (Death Star/tech) budget for the Empire would trigger on the Rebels and Consortium.  They shouldn't have been using this plan anyway and it's easier to debug if the triggers are disabled for them. (No forward-facing changes.) (BUG #889)
 • The marker used to resolve BUG #679 has been made neutral since it's affiliation is dynamic anyway. (No forward-facing changes.)
-• The unused Defensive/Offensive Only build pads now support using Hutt offensive/defensive turrets.  These shouldn't appear in normal contexts (and as far as I recall these pads are unused/cut content), but if a modder wishes to use them, they are now properly setup. (No forward-facing changes.)
+• The unused Defensive/Offensive Only build pads now support using Hutt offensive/defensive turrets.  These shouldn't appear in normal contexts, but if a modder wishes to use them, they are now properly setup. (No forward-facing changes.)
 ======
 
 
 AI Fixes:
 • The Marauder/Broadside-class Cruisers' AI would occasionally crash due to the "good location" they've picked to fire suddenly becoming invalid, but they'd still be hell-bent on trying to calculate if it's a good artillery location. (BUG #854)
-• The AI's "must jam missiles for X time" stipulation while using Missile Jamming Field has been reduced to 60 seconds (from 90) to allow them to reposition more fluidly. (BUG #774)
-• The AI script engine would sometimes error out upon testing an ability if the unit ceased to exist during attempt. (BUG #892)
-• The AI's plan to defend their space station has had multiple fixes: the AI will no longer divert all units upon the smallest assault on the starbase, the planning is more bug resistant, and didn't check to see if bombers were attacking the station. (BUG #893, #894)
+• The AI's "must jam missiles for X time" stipulation while using Missile Jamming Field has been reduced to 60 seconds (from 90) to improve their repositioning. (BUG #774)
+• The AI's script engine would sometimes error out upon testing an ability if the unit ceased to exist during attempt. (BUG #892)
+• The AI's plan to defend their space station has multiple fixes: the AI will no longer divert all units upon the smallest assault on the starbase, the planning is more bug resistant, and now checks to see if bombers are attacking the station. (BUG #893, #894)
 • The AI would, on occasion, consider temporary landing transports as valid units in their plans. (BUG #895)
 • Fix the "Large Asteroid Field" prop having AI.  These space rocks will think no longer. (BUG #901)
 
@@ -105,13 +105,13 @@ Model Fixes:
 
 
 Script/Story Fixes:
-• During Rebel campaign mission #3 ("Theft of the X-wing"), while the Empire's doing its initial unit reinforcement, Captain Antilles will freak out and tell you to secure the reinforcement point.  The VO implies it's the starting point, but he's actually talking about the Empire-controlled ones.  A red "NOTICE:" message now appears to clarify that reinforcements are scary - in addition, multiple problems where Antilles hologram wouldn't play during this mission have been fixed. (BUG #790)
-• During Rebel campaign mission #7 ("Needle in a Haystack"), Han & Chewie would find the correct container after scanning 10 of them, when there are 12 on the map.  Normally this wouldn't a problem, however Han says that it's "always in the last place we look," and it's clear it was intended that the player has to search all 12 containers. (BUG #816)
+• During Rebel campaign mission #3 ("Theft of the X-wing"), while the Empire's doing its initial unit reinforcement, Captain Antilles will freak out and tell you to secure the reinforcement point.  The VO implies he's talking about the starting point, but he's actually talking about all of the Empire-controlled ones.  A red "NOTICE:" message now appears to clarify that reinforcements are scary - in addition, multiple problems where Antilles hologram wouldn't play during this mission have been fixed. (BUG #790)
+• During Rebel campaign mission #7 ("Needle in a Haystack"), Han & Chewie would find the correct container after scanning 10 of them, despite there being 12 on the map.  Normally this wouldn't a problem, however Han says that "it's always in the last place we look," and it's clear it was intended that the player has to search all 12 containers. (BUG #816)
 • The Empire starbase in Rebel campaign mission #7 ("Needle in a Haystack") sometimes fired at Han & Chewie despite him remaining undetected, specifically near the top of the map.  The starbase now can no longer fire until the alarm has been raised. (BUG #871)
 • During Rebel campaign mission #11 ("The Final Battle"), the Death Star would approach Yavin 4 too quickly (breaking the story sequence before the battle), and wouldn't give the player enough time in battle to defeat it (75sec.).  The developers intended to give the player ~300 seconds to defeat it, but the script command was broken - the DS now slowly approaches Yavin when the homing beacon is found, and the timer is correct. (BUG #835)
 • The Defiler during the Consortium campaign's Honoghr mission wouldn't have a hologram when talking. (BUG #866)
 • Tyber Zann's dialogue during Space Bespin Piracy would be cut off due to mistimed dialogue and victory triggers. (BUG #882)
-• The Door Control Node consoles during Consortium campaign mission #4 ("Visions of the Past") wouldn't swap models when destroyed.  The console prop definition did not use its alternate model, despite another variant of the same prop doing so earlier in the campaign. (BUG #844)
+• The Door Control Node consoles during Consortium campaign mission #4 ("Visions of the Past") wouldn't swap models when destroyed.  The console prop definition was a completely separate, duplicated prop without the proper damage checks. (BUG #844)
 
 
 Structure Fixes:
