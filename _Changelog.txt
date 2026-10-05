@@ -121,6 +121,7 @@ Script/Story Fixes:
 • During Consortium campaign mission #2 ("Remnants of the Death Star"), upon grabbing the last Data Pod, the camera would lock and focus on whatever is the last thing the player was looking at.  The cutscene now focuses on Zann's ship while he's speaking, making the scene less awkward. (BUG #907)
 • During Consortium campaign mission #5 ("A Dark Ally"), the game could trigger a premature mission victory when all Imperial units are killed.  The game re-enabled possible victories after the introduction cutscene was finished, instead of at the end of the finale cutscene. (BUG #905)
 • During Consortium campaign mission #1 ("A Crimelord Reborn"), the script would despawn the last door too early after the Dark Troopers were killed, causing it to pop out of existence.  The full opening animation now plays properly. (BUG #869)
+• During Empire campaign mission #10 ("The Destruction of Alderaan"), the announcer would say the Death Star approach dialogue twice each time it was triggered.  The mission scripting was trying to use the Death Star as a pathfinder unit, and would duplicate the DS on spawn. (BUG #872)
 
 
 Structure Fixes:

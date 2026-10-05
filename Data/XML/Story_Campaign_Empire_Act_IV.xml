@@ -948,6 +948,7 @@ Set its course for Alderaan immediately!-->
 	</Event>
 
 <!-- Spawn Death Star before allowing mission to start -->
+<!-- AM1994 (10-05-26): Use original DS here b/c 5 min is way too slow for this mission (enemy fleet ends up dying first). -->
 	<Event Name="Empire_ActIV_Mission_Eleven_Spawn_DS">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
@@ -999,7 +1000,7 @@ Set its course for Alderaan immediately!-->
 		<Reward_Param3>Empire</Reward_Param3>
 		<Reward_Param4>EM15_The_Destruction_of_Alderaan.TED</Reward_Param4>
 		<Reward_Param5>Rebel</Reward_Param5>
-		<Reward_Param6>Death_Star</Reward_Param6>
+		<Reward_Param6 />
 		<Reward_Param7>Story_Plots_Empire_ActIV_M11_SPACE.xml</Reward_Param7>
 		<Reward_Param8>1</Reward_Param8>
 		<Prereq>Empire_ActIV_Mission_Eleven_Spawn_DS</Prereq>
@@ -1112,6 +1113,26 @@ Tarkin: A mere setback, yet completely avoidable. Have the fleet commander repor
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActIV_Mission_Eleven_Win_Disable_Branch</Prereq>
 	</Event>
+
+	<!--
+		AM1994 (10-05-26): Now that we're past the the point where 5min is too long,
+		respawn the new DS at Alderaan.
+	-->
+	<Event Name="Empire_ActIV_Mission_Twelve_Remove_Old_DS">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Death_Star</Reward_Param1>
+		<Prereq>Empire_ActIV_Mission_Eleven_03</Prereq>
+	</Event>
+
+		<Event Name="Empire_ActIV_Mission_Twelve_Spawn_Cinematic_DS">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>UNIQUE_UNIT</Reward_Type>
+			<Reward_Param1>Death_Star_EM12</Reward_Param1>
+			<Reward_Param2>Alderaan</Reward_Param2>
+			<Prereq>Empire_ActIV_Mission_Twelve_Remove_Old_DS</Prereq>
+		</Event>
+
 
 <!-- Tarkin babbles on about Dantooine
 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_07
