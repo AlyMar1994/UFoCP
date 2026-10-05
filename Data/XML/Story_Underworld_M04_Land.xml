@@ -246,7 +246,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_00">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_00</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_00</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -271,7 +270,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_01">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_01</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_01</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -296,7 +294,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_02">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_02</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_02</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -321,7 +318,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_03">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_03</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_03</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -346,7 +342,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_06">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_06</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_06</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -371,7 +366,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_07">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_07</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_07</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -396,7 +390,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_08">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_08</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_08</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -422,7 +415,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_09">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_09</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_09</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -447,7 +439,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_10">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_10</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_10</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -473,7 +464,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_11">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_11</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_11</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -498,7 +488,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_12">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_12</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_12</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -524,7 +513,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_13">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_13</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_13</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -549,7 +537,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_14">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_14</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_14</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -575,7 +562,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_15">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_15</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_15</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -600,7 +586,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_16">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_16</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_16</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -626,7 +611,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_17">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_17</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_17</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -651,7 +635,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_18">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_18</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_18</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -677,7 +660,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_19">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_19</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_19</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -702,7 +684,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_20">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_20</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_20</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -727,7 +708,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_21">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_21</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_21</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -752,7 +732,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_22">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_22</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_22</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -777,7 +756,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_23">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_23</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_23</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -802,7 +780,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_24">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_24</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_24</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -827,7 +804,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_25">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_25</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_25</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -852,7 +828,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_26">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_26</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_26</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -877,7 +852,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_28">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_28</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_28</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -902,7 +876,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_29">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_29</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_29</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -927,7 +900,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_30">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_30</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_30</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -952,7 +924,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_32">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_32</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_32</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -977,7 +948,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_34">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_34</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_34</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1002,7 +972,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_35">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_35</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_35</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1027,7 +996,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_36">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_36</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_36</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1052,7 +1020,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_37">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_37</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_37</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1077,7 +1044,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_38">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_38</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_38</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1102,7 +1068,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_39">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_39</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_39</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1127,7 +1092,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_40">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_40</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_40</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1152,7 +1116,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_41">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_41</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_41</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1177,7 +1140,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_42">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_42</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_42</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1202,7 +1164,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_43">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_43</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_43</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1227,7 +1188,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_44">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_44</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_44</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1252,7 +1212,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_45">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_45</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_45</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1277,7 +1236,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_46">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_46</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_46</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1303,7 +1261,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_47">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_47</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_47</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1329,7 +1286,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_48">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_48</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_48</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1355,7 +1311,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_49">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_49</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_49</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1381,7 +1336,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_50">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_50</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_50</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1407,7 +1361,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_51">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_51</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_51</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1433,7 +1386,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_52">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_52</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_52</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1459,7 +1411,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_53">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_53</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_53</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1485,7 +1436,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_54">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_54</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_54</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1511,7 +1461,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_55">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_55</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_55</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1537,7 +1486,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_56">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_56</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_56</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1563,7 +1511,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_57">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_57</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_57</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1589,7 +1536,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_58">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_58</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_58</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1615,7 +1561,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_59">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_59</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_59</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1641,7 +1586,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_60">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_60</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_60</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1667,7 +1611,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_61">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_61</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_61</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1693,7 +1636,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_62">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_62</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_62</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1720,7 +1662,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_63">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_63</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_63</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1746,7 +1687,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_64">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_64</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_64</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1772,7 +1712,6 @@
 	<Event Name="Mission_4_Chatter_Dialog_65">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_65</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M04_65</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>

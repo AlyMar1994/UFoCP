@@ -264,7 +264,6 @@ PILOT: We've scanned the outer area...
 	<Event Name="Mission_2_Chatter_Dialog_00">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_00</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_00</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -289,7 +288,6 @@ TYBER ZANN: As I expected.  I doubt the rebels left much of value...
 	<Event Name="Mission_2_Chatter_Dialog_01">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_01</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_01</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -314,7 +312,6 @@ PILOT: What now?
 	<Event Name="Mission_2_Chatter_Dialog_02">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_02</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_02</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -339,7 +336,6 @@ TYBER ZANN: Let's make a final pass...
 	<Event Name="Mission_2_Chatter_Dialog_03">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_03</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_03</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -364,7 +360,6 @@ PILOT: Sir! We aren't alone!
 	<Event Name="Mission_2_Chatter_Dialog_04">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_04</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_04</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -389,7 +384,6 @@ REBEL PILOT: Unidentified ships! Send your transponder codes...
 	<Event Name="Mission_2_Chatter_Dialog_05">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_05</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_05</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -414,7 +408,6 @@ TYBER ZANN: Alpha Wing! Break and deal with the rebels..
 	<Event Name="Mission_2_Chatter_Dialog_06">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_06</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_06</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -439,7 +432,6 @@ TYBER_ZANN: That could be an emergency data pod...
 	<Event Name="Mission_2_Chatter_Dialog_07">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_07</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_07</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -470,7 +462,6 @@ TYBER_ZANN: Another data pod...
 	<Event Name="Mission_2_Chatter_Dialog_08">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_08</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_08</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -501,7 +492,6 @@ TYBER_ZANN: There's another one...
 	<Event Name="Mission_2_Chatter_Dialog_09">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_09</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_09</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -532,7 +522,6 @@ TYBER_ZANN: That's enough!  We have what we came for...
 	<Event Name="Mission_2_Chatter_Dialog_10">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>CHATTER_10</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_10</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -557,7 +546,6 @@ Wedge: Unidentified ships – you are trespassing in Alliance space.  Surrender 
 	<Event Name="Mission_2_Rebel_Encounter_01">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>REBEL_ENCOUNTER_01</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_11</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -640,7 +628,6 @@ Tyber: Looks like the Rebels are setting up localized defenses. Destroy those mi
 	<Event Name="Mission_2_Rebel_Satellite_01">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>REBEL_SATELLITES_SPOTTED</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_14</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -671,7 +658,6 @@ Pirates: We’re claiming this loot! Leave now or we’ll add you to the scrap!
 	<Event Name="Mission_2_Pirate_Encounter_01">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>PIRATE_ENCOUNTER</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_15</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -724,7 +710,6 @@ Imperial Officer: Pirates inbound! Maintain the defensive perimeter, we need mor
 	<Event Name="Mission_2_Imperial_Encounter_01">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>IMPERIAL_ENCOUNTER</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_17</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -856,7 +841,6 @@ Rebel Commander: We've got scavengers on our tail - protect the shuttles at all 
 	<Event Name="Mission_2_Rebel_Convoy_Encounter_00">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>REBEL_CONVOY</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_29</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -935,7 +919,6 @@ Tyber Zann: The Pirate has dropped the data pod! Retrieve it immediately!
 	<Event Name="Mission_2_Pirate_Dropped_Pod">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>PIRATE_DROPPED_POD</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_28</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -966,7 +949,6 @@ Tyber Zann: Scans indicate that wreckage has high mineral value. Inspect the deb
 	<Event Name="Mission_2_Approaching_Wreckage_00">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>APPROACHING_WRECK</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_31</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
@@ -1096,7 +1078,6 @@ Pirate Vessel: Too slow, Zann!
 	<Event Name="Mission_2_Final_Encounter_00">
 		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
 		<Event_Param2>FINAL_ENCOUNTER</Event_Param2>
-		<Event_Param1>0</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_UW_ACT01_M02_22</Reward_Param1>
 		<Reward_Param2>-1</Reward_Param2>
