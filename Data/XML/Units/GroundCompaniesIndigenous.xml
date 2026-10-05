@@ -162,7 +162,7 @@
 
 	<GroundCompany Name="Imperial_Guard_Company">
 		<Text_ID>TEXT_INDIG_ELITE_GUARD</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_ELITE_GUARD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ELITE_GUARD_00 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_imperial_guard.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
