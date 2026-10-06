@@ -48,28 +48,29 @@ There are changes to the game's master text directory this update!  Check "_Chan
 UFCP:
 ======
 UFCP FIXES:
-• Fix Random Story Events generating in the "alternate history" variants of the EaW Galactic Conquests.  (Currently, they only support using EaW Heroes.)
-• Fix the alt-history variants of the EaW Conquests not using the blown up version of Alderaan (and vice-versa, with alive Alderaan).
+• Fix Random Story Events generating in the "alternate history" variants of the EaW Galactic Conquests.  (They only support using EaW Heroes, currently.)
+• Fix the alt-history GC variants not using the correct versions of Alderaan (alive for FoC alt-histories, exploded for EaW's).
+• Fix an oversight where it would still be impossible to obtain the highest ranking when completing a Galactic Conquest. (BUG #242)
+• Fix two black market notifications during the Consortium campaign that didn't use red-colored notice text. (BUG #843)
+• Fix a variant of the Imperial Guards used in Consortium campaign mission #5 ("A Dark Ally") that used their old tooltip description before it was overhauled in BUG #224. (BUG #858)
+• Fix Alzoc III and Bespin Piracy corruption options becoming unselectable after Consortium campaign mission #7 ("Baiting the Hook"). (BUG #848)
+• Fix an oversight where the AI would try to attack a marker used to fix BUG #679. (BUG #899)
 • The Canderous Assault Tank's model size recieved a 5% increase to try and match vanilla's a bit closer. (BUG #390)
-• Fix two black market price change notifications (during the Consortium campaign) that didn't use colored text in the dialogue notifications. (BUG #843)
-• Fix Alzoc III and Bespin's Piracy corruption options becoming unselectable after Consortium campaign mission #7 ("Baiting the Hook"). (BUG #848)
-• Fix an AI oversight where the AI will try to attack a marker used to fix BUG #679. (BUG #899)
-• Fixed an oversight where it would still be impossible to obtain the highest ranking when completing a Galactic Conquest. (BUG #242)
-• A variant of the Imperial Elite Guards used in Consortium campaign mission #5 ("A Dark Ally") used their old tooltip description before it was overhauled in BUG #224. (BUG #858)
+• Fix multiple cases where the Death Stars would target the moons of planets instead of the planets themselves. (BUG #909)
 
 
 ENHANCEMENTS:
 • (In what will probably be a never-ending process,) the new GFX introduced into UFCP 1.0 and 2.0 (main menu screens, new team color textures, icons, etc.) have been touched up to improve misc. problems.
 
-• Alt-history variants of the MP Galactic Conquests (ones with EaW-FoC hero swapping) are now available. (BUG #853)
+• Alt-history variants of the MPGCs (ones with EaW-FoC hero swapping) are now available. (BUG #853)
 • The EaW GCs, MPGCs and alt-history versions of the FoC GCs now support using the original Death Star and Black Squadron (the DS2 and Executor will be unavailable to purchase). (BUG #247)
 
 
 HOUSEKEEPING:
-• AI triggers for dumping excess money out of the "MajorItem" (Death Star/tech) budget for the Empire would trigger on the Rebels and Consortium.  They shouldn't have been using this plan anyway and it's easier to debug if the triggers are disabled for them. (No forward-facing changes.) (BUG #889)
+• Multiple syntax errors in Consortium campaign missions #2, 3, 4 and 7 have been fixed.  The game didn't seem to care about these too much, aside from spitting logging errors, but it's good to have these fixed. (No forward-facing changes.) (BUG #850)
+• AI triggers for dumping excess money out of the Empire's "MajorItem" budget (Death Star/tech upgrade budget) would trigger on the Rebels and Consortium.  They shouldn't have been using this plan anyway, and it's easier to debug if the triggers are disabled for them. (No forward-facing changes.) (BUG #889)
 • The marker used to resolve BUG #679 has been made neutral since it's affiliation is dynamic anyway. (No forward-facing changes.)
 • The unused Defensive/Offensive Only build pads now support using Hutt offensive/defensive turrets.  These shouldn't appear in normal contexts, but if a modder wishes to use them, they are now properly setup. (No forward-facing changes.)
-• Multiple syntax errors in Consortium campaign missions #2, 3, 4 and 7 have been fixed.  The game didn't seem to care about these too much, aside from spitting logging errors, but it's good to have these fixed. (No forward-facing changes.) (BUG #850)
 ======
 
 
@@ -77,53 +78,52 @@ AI Fixes:
 • The Marauder/Broadside-class Cruisers' AI would occasionally crash due to the "good location" they've picked to fire suddenly becoming invalid, but they'd still be hell-bent on trying to calculate if it's a good artillery location. (BUG #854)
 • The AI's "must jam missiles for X time" stipulation while using Missile Jamming Field has been reduced to 60 seconds (from 90) to improve their repositioning. (BUG #774)
 • The AI's script engine would sometimes error out upon testing an ability if the unit ceased to exist during attempt. (BUG #892)
-• The AI's plan to defend their space station has multiple fixes: the AI will no longer divert all units upon the smallest assault on the starbase, the planning is more bug resistant, and now checks to see if bombers are attacking the station. (BUG #893, #894)
 • The AI would, on occasion, consider temporary landing transports as valid units in their plans. (BUG #895)
+• The AI's plan to defend their space station has multiple fixes: the AI will no longer divert all units upon the smallest assault on the starbase, the planning is more bug resistant, and now checks to see if bombers are attacking the station. (BUG #893, #894)
 • Fix the "Large Asteroid Field" prop having AI.  These space rocks will think no longer. (BUG #901)
 
 
 Gameplay Fixes:
-• Fix EaW Galactic Conquest "The Conflict Begins" not allowing the Empire or Rebels to build cantinas or Hutt palaces on Atzerri. (BUG #971)
+• Fix GC "The Conflict Begins" not letting the Empire or Rebels build Cantinas and Hutt Palaces on Atzerri. (BUG #971)
 
 
 Interface Fixes:
-• The enemy hero bar wouldn't stretch to include a sixth hero when that many are present (the sixth icon would remain floating). (BUG #855) (Thanks, galyana!)
+• The enemy hero bar wouldn't stretch to include the sixth hero when that many are present (the sixth icon would remain floating). (BUG #855) (Thanks, galyana!)
 • The Consortium now has ranks/titles upon completing or failing a Galactic Conquest. (BUG #888)
 
 
 Map/Planet Fixes:
 • The script marker flags on the map for Empire campaign mission #3 ("The Pirate Menace") were technically owned by the Pirates, which meant that Fett's Seismic Charge could destroy them and cause the script to throw errors. (BUG #817)
-• One of the factory control terminals in Consortium campaign mission #4 ("Visions of the Past") could be destroyed because, by default, that prop's faction owner is the Empire.  While funny to see Tyber randomly obliterating it, it had to be fixed.  In addition, the entire map's brush passes (where units can move) and AI pathfinding zones have been redone. (BUG #845)
 • The explosive orbital containers in Rebel campaign mission #1 ("Shipyard Diversion") wouldn't destroy everything nearby them, leaving other containers or unmanned ships alive.  More containers have been added to ensure total obliteration. (BUG #856)
 • It was possible for T2-B Tanks to be stuck while reinforcing at the starting reinforcement point in Rebel campaign mission #2 ("Interpreting the Network"). (BUG #864)
-• Fix Yavin 4 having the Death Star's destroyed hull floating over it during the final Rebel and Empire campaign missions.  The original map from EaW has been reimplemented into the campaigns to support this change. (BUG #868)
 • Fix the uplink flag marker's position during Rebel campaign mission #2 ("Interpreting the Network") - the intro cinematic wouldn't properly focus on the uplink in widescreen resolutions. (BUG #873)
-• The Lambda-class Shuttle land prop used on various maps was "selectable" and generated a tooltip when hovered over, when it was clear it was not intended to do that (and was disabled manually on story campaign missions).  It is now a standard prop. (BUG #913)
-• Fixed multiple cases where the Death Stars would target the moons of planets instead of the planets themselves. (BUG #909)
+• Fix Yavin 4 having the Death Star's destroyed hull floating over it during the final Rebel and Empire campaign missions.  The original map from EaW has been reimplemented into the campaigns to support this change. (BUG #868)
+• One of the factory control terminals in Consortium campaign mission #4 ("Visions of the Past") could be destroyed because, by default, that prop's faction owner is the Empire.  While funny to see Tyber randomly obliterating it, it had to be fixed.  In addition, the entire map's brush passes (where units can move) and AI pathfinding zones have been redone. (BUG #845)
 • The Sith Holocron in Consortium campaign mission #8 ("Following the Artifact") was floating and off-center above the Sith Altar.  The Holocron itself was also tiny, despite being apparently larger in the prologue "A Crimelord Unleashed."  The Sith Altar in mission #8 is a special prop that had its size increased 2.75x, which towers nearly double Silri's height to account for perspective in the related cinematic.  Unfortunately it was still overshot and too big, so the Altar was shrunken to 2.0x, and the Holocron increased to 2.0x from 1.5x. (BUG #906)
+• The Lambda-class Shuttle land prop used on various maps was "selectable" and generated a tooltip when hovered over, when it was clearly not intended to do that (and was disabled manually on story campaign missions). (BUG #913)
 
 
 Model Fixes:
 • The Mon Calamari Cruiser's engines would not disable when destroyed. (BUG #813)
-• The improved Consortium unit transport models (with fixed particle effects) from v2.3.0.1713 have recieved new, more optimized variants (with particle reduction in the hundreds). (BUG #813) (Thanks, galyana!)
 • Fixed the Vengeance Frigate's engine hardpoint bone being outside of its collision mesh. (BUG #896) (Thanks, galyana!)
 • Fixed the Lambda-class Shuttle land prop constantly generating engine particles when placed for a performance improvement. (BUG #914)
 • Fixed the Gallofree Transport land prop constantly generating engine particles when placed for a performance improvement. (BUG #915)
+• The improved Consortium unit transport models (with fixed particle effects) from v2.3.0.1713 have recieved new, more optimized variants (with particle reduction in the hundreds). (BUG #813) (Thanks, galyana!)
 
 
 Script/Story Fixes:
-• During Rebel campaign mission #3 ("Theft of the X-wing"), while the Empire's doing its initial unit reinforcement, Captain Antilles will freak out and tell you to secure the reinforcement point.  The VO implies he's talking about the starting point, but he's actually talking about all of the Empire-controlled ones.  A red "NOTICE:" message now appears to clarify that reinforcements are scary - in addition, multiple problems where Antilles hologram wouldn't play during this mission have been fixed. (BUG #790)
+• During Empire campaign mission #10 ("The Destruction of Alderaan"), the Imperial Announcer would say the Death Star approach dialogue twice each time it was triggered.  The mission scripting was trying to use the Death Star as a pathfinder unit, and would duplicate the DS on spawn. (BUG #872)
+• During Empire campaign mission #11 ("The Destruction of the Rebellion"), the Death Star would take 75 seconds to enter range of the Rebel strongholds, although the act's script was intended to set it to 5 minutes.  The Death Star now enters range slower to give the Rebels a fighting chance. (BUG #918)
+• During Rebel campaign mission #3 ("Theft of the X-wing"), while the Empire's doing its initial unit reinforcement, Captain Antilles will freak out and tell you to secure the starting reinforcement point.  According to the trigger however, he was intended to warn about securing the Imperial-controlled points.  There's no replacement VO to use, so a red "NOTICE:" message now appears to clarify that reinforcements are scary - in addition, multiple problems where Antilles' hologram wouldn't play have been fixed. (BUG #790)
 • During Rebel campaign mission #7 ("Needle in a Haystack"), Han & Chewie would find the correct container after scanning 10 of them, despite there being 12 on the map.  Normally this wouldn't a problem, however Han says that "it's always in the last place we look," and it's clear it was intended that the player has to search all 12 containers. (BUG #816)
-• The Empire starbase in Rebel campaign mission #7 ("Needle in a Haystack") sometimes fired at Han & Chewie despite him remaining undetected, specifically near the top of the map.  The starbase now can no longer fire until the alarm has been raised. (BUG #871)
-• During Rebel campaign mission #11 ("The Final Battle"), the Death Star would approach Yavin 4 too quickly (breaking the story sequence before the battle), and wouldn't give the player enough time in battle to defeat it (75sec.).  The developers intended to give the player ~300 seconds to defeat it, but the script command was broken - the DS now slowly approaches Yavin when the homing beacon is found, and the timer is correct. (BUG #835)
-• The Defiler during the Consortium campaign's Honoghr mission wouldn't have a hologram when talking. (BUG #866)
-• Tyber Zann's dialogue during Space Bespin Piracy would be cut off due to mistimed dialogue and victory triggers. (BUG #882)
+• During Rebel campaign mission #7 ("Needle in a Haystack"), the Empire starbase sometimes fired at Han & Chewie despite him remaining undetected, specifically near the top of the map.  The starbase now can no longer fire until the alarm has been raised. (BUG #871)
+• During Rebel campaign mission #11 ("The Final Battle"), the Death Star would approach Yavin 4 too quickly, breaking the story sequence before the battle, and wouldn't give the player enough time in battle to defeat it (75sec.).  The developers intended to give the player 5min. to defeat it, but the script command was broken. (BUG #835)
+• During Consortium campaign mission #1 ("A Crime Lord Reborn"), the script would despawn the last door too early after the Dark Troopers were killed, causing it to pop out of existence.  The full opening animation and SFX now plays properly. (BUG #869)
+• During Consortium campaign mission #2 ("Remnants of the Death Star"), upon grabbing the last Data Pod, the camera would lock and remained focused on the last thing the player was looking at.  The cutscene now focuses on Zann's ship while he's speaking, making the scene less awkward. (BUG #907)
 • The Door Control Node consoles during Consortium campaign mission #4 ("Visions of the Past") wouldn't swap models when destroyed.  The console prop definition was a completely separate, duplicated prop without the proper damage checks. (BUG #844)
-• During Consortium campaign mission #2 ("Remnants of the Death Star"), upon grabbing the last Data Pod, the camera would lock and focus on whatever is the last thing the player was looking at.  The cutscene now focuses on Zann's ship while he's speaking, making the scene less awkward. (BUG #907)
-• During Consortium campaign mission #5 ("A Dark Ally"), the game could trigger a premature mission victory when all Imperial units are killed.  The game re-enabled possible victories after the introduction cutscene was finished, instead of at the end of the finale cutscene. (BUG #905)
-• During Consortium campaign mission #1 ("A Crime Lord Reborn"), the script would despawn the last door too early after the Dark Troopers were killed, causing it to pop out of existence.  The full opening animation now plays properly. (BUG #869)
-• During Empire campaign mission #10 ("The Destruction of Alderaan"), the announcer would say the Death Star approach dialogue twice each time it was triggered.  The mission scripting was trying to use the Death Star as a pathfinder unit, and would duplicate the DS on spawn. (BUG #872)
-• During Empire campaign mission #11 ("The Destruction of the Rebellion"), the Death Star take 75 seconds to enter range of the Rebel strongholds despite the related script trying to set it to 5 minutes.  The Death Star now enters range slower to give the Rebels a fighting chance. (BUG #918)
+• During Consortium campaign mission #5 ("A Dark Ally"), the game could trigger a premature mission victory when all Imperial units are killed.  Tactical victories were re-enabled after the introduction cutscene was finished, instead of at the end of the finale's cutscene. (BUG #905)
+• The Defiler during the Consortium campaign's Honoghr corruption mission didn't have a hologram when talking. (BUG #866)
+• Tyber Zann's dialogue during Space Bespin Piracy would be cut off due to mistimed dialogue and victory triggers. (BUG #882)
 
 
 Structure Fixes:

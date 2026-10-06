@@ -52,7 +52,7 @@ v2.4.0.XXXX (XX-13-2026) [FoC v1.121.859328]
 UFCP:
 ======
 NOTICE:
-In a common instance of me losing my marbles, text and language has been completely reworked - all languages are now supported and have fully localized text.  Since text has been restarted from square-one, the previous version entries have been removed and this section now uses the new standard headers for changes until v2.5.
+In a common instance of me losing my marbles, text and language has been completely reworked - all languages are now supported and have fully localized text.  Since text has been restarted from square-one, this file was restarted from square-one.
 
 In addition, the Japanese translation has been redone, starting with the official EaW Japanese translation and expanded.
 
@@ -75,8 +75,8 @@ Additions:
 • Added VO line caption for Wedge Antilles. (BUG #417)  (TEXT_SFX_WED_CHATTER_DS_2)
 • New text for Rogue Squadron's S-Foils ability. (BUG #417)  (TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_ROGUE_DESCRIPTION)
 • Added text strings to overwrite in-game "Mod Menu" text. (BUG #883) (TEXT_MODS_OPTIONS, TEXT_SELECT_MOD_TITLE)
-• Added strings for the new GC victory/failure titles. (BUG #888) (TEXT_UNDERWORLD_TITLE0 - TEXT_UNDERWORLD_TITLE19)
-• Added string for upgrade name consistency on Asteroid Mining Facilities. (BUG #911) (MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_02)
+• Added strings for the new GC victory/failure titles. (BUG #888)  (TEXT_UNDERWORLD_TITLE0 - TEXT_UNDERWORLD_TITLE19)
+• Added string for upgrade name consistency on Asteroid Mining Facilities. (BUG #911)  (MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_02)
 
 
 Deletions:
@@ -95,22 +95,22 @@ Renames:
 
 
 International/Housekeeping:
-• Various instances of tooltips ending without periods/general punctuation in various localizations have been corrected.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
-• Various instances of German unit classes inconsistently being the unabbreviated "Klassifizierung:" instead of "Klasse:" have been fixed.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
+• Various instances of tooltips ending without periods in various localizations have been corrected.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
+• Various instances of German unit classes inconsistently using the unabbreviated "Klassifizierung:" (EaW) instead of "Klasse:" (FoC) have been fixed.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
 • All localizations infrequently referred to the Keldabe-class Battleship as the "Kedalbe," an old spelling from '80s Star Wars material.  All instances of "Kedalbe" have been swapped out for "Keldabe."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #236)
-• All localizations (except Italian) of Bossk and Jabba the Hutt's dialogue sometimes didn't follow the trend of prefixing the text with "(Translated)."  The prefix has been added and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #362)
+• All localizations (except Italian) of Bossk and Jabba the Hutt's dialogue occasionally didn't follow the trend of prefixing the text with "(Translated)."  The prefix has been added and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #362)
 • All localizations (except German) inconsistently used a special "…" (elipsis) character instead of "..." (three periods).  The ellipses character is harder to read at high resolutions, and back-and-forth use of ellipses and periods caused spacing issues (f.e. as "-- the Milennium Falcon… .").  All ellipses have been swapped out for three periods and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #211)
 • The Italian translation didn't have the "Grado:" (Rank/Grade) prefix before the player's title when winning/losing a GC game.  The prefix has been added and remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #878)
-• Various instances of "Tie" (f.e., as "Tie Mauler") have been capitalized properly to "TIE."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.) (BUG #859)
+• Various instances of "Tie" (f.e., as "Tie Mauler") have been capitalized properly to "TIE."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.  (International translations did not suffer this issue.) (BUG #859)
 • The vast majority of dialogue is double-spaced in EaW (and mostly in FoC), however, dialogue during general mission briefings, the Consortium's prologue, campaign and corruption missions weren't.  Double-spacing has been rectified all-around (including instances of triple-spacing), and remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as all dialogue is single-spaced.) (BUG #208)
 • Various misspelled or capitalized instances of "Tibanna" and/or "Tibanna Gas" have been corrected, as it isn't a proper noun. (BUG #560)
-• Various instances of "Shaak" have been de-capitalized, as it isn't a proper noun.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as three periods are always used.) (BUG #566)
-• Multiple instances of "[Character] Must Survive." have been de-capitalized.  Various text strings alternated between the two capitalizations, when the most consistent capitalization was "[Character] must survive."  International languages did not suffer this problem. (BUG #561)
-• A handful of text strings that used colons (:), unlike other strings in FoC, had a space before their usage (f.e., "Windows Firewall :"), which has now been corrected.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue, as this was either intentional [in languages like French, where spaced punctuation is standard] or not applicable.)
-• Various instances of "Emperor" have been decapitalized, as it isn't a proper noun on its own in third-person reference to Emperor Palpatine.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
-• Various instances of "Black Market" have been decapitalized, as it isn't a proper noun.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
+• Various instances of "Shaak" have been de-capitalized, as it isn't a proper noun.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.  (International translations did not suffer this issue.) (BUG #566)
+• Multiple instances of "[Character] Must Survive." have been de-capitalized.  Various text strings alternated between the two capitalizations, when the most consistent capitalization was "[Character] must survive."  International languages did not suffer this issue. (BUG #561)
+• A handful of text strings that used colons (:), unlike other strings in FoC, had a space before their usage (f.e., "Windows Firewall :"), which has now been corrected.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.  (International translations did not suffer this issue.)
+• Various instances of "Emperor" have been decapitalized, as it isn't a proper noun on its own in third-person reference to Emperor Palpatine.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.  (International translations did not suffer this issue.)
+• Various instances of "Black Market" have been decapitalized, as it isn't a proper noun.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.  (International translations did not suffer this issue.)
 • Various instances of "C3P0" or "C-3P0" have been corrected to "C-3PO."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.  Only the English, Japanese and Polish translations suffered this issue.
-• Various instances of Black Sun Pirate units had their name capitalized as f.e., "Black Sun pirate infantry..." when "pirate" should be capitalized.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (International translations did not suffer this issue.)
+• Various instances of Black Sun Pirate units had their name capitalized as, f.e., "Black Sun pirate infantry..." when "pirate" should be capitalized.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.  (International translations did not suffer this issue.)
 • Various instances of "Plex" (as in "Plex Missile Soldier") were unnecessarily capitalized as "PLEX" as if it were an acronym.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
 • Multiple instances of "John D Branon" have been corrected to "John D. Branon."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
 
@@ -1600,16 +1600,6 @@ International/Housekeeping:
 	-- POL: Strzela ładunkami plazmowymi. --> Platforma uzbrojenia ciężkiego przeznaczona do obrony perymetru przed okrętami klasy korweta i fregata.
 	-- RUS: Выпускает мощный заряд плазменной энергии. --> Платформа тяжелого вооружения, предназначенная для обороны периметра от кораблей классов корвет и фрегат.
 	-- SPA: Dispara una gran ráfaga de energía de plasma. --> Plataforma de armamento pesado diseñada para la defensa perimetral contra buques de clase corbeta y fragata.
-
-• TEXT_TOOLTIP_ELITE_GUARD_00: (BUG #224, #858)
-	-- ENG: Highly trained trooper serving as the Imperial elite fighting force. --> The emperor's highly-trained bodyguards, clad in red.  Imperial Guards use force pikes, energy staves that are effective against infantry and heroes.
-	-- FRA: Soldat surentraîné servant dans les forces d'élite Impériales. --> Les gardes du corps d'élite de l'Empereur, vêtus de rouge. La Garde royale utilise des piques de force, des bâtons énergétiques efficaces contre l'infanterie et les héros terrestres.
-	-- GER: Extrem gut ausgebildeter Soldat in der Eliteeinheit des Imperiums. --> Die hochtrainierten Leibwächter des Kaisers, gekleidet in Rot. Die kaiserliche Garde verwendet Force Pikes, einen Energiestab, der gegen Infanterie und Landhelden wirksam ist.
-	-- ITA: Soldato altamente addestrato al servizio delle forze d'assalto imperiali d'élite. --> Le guardie del corpo dell'imperatore, altamente addestrate e vestite di rosso. Le Guardie Reali utilizzano picche da combattimento, bastoni energetici efficaci contro la fanteria e gli eroi di terra.
-	-- JAP: 帝国軍のエリート兵として高度な訓練を受けたトルーパー。 --> 赤い衣服を纏った皇帝の高度な訓練を受けた護衛兵。 ロイヤル・ガードは、 歩兵や地上ヒーローに対して効果的なエネルギーの杖であるフォース・パイクを使用する。
-	-- POL: Świetnie wyszkolone elitarne jednostki specjalne Imperium. --> Elitarni, ubrani na czerwono ochroniarze cesarza. Gwardziści królewscy posługują się pikami siłowymi - energetycznymi kosturami skutecznymi przeciwko piechocie i bohaterom naziemnym.
-	-- RUS: Специально тренированная пехота - элитные военные силы Империи. --> Отлично обученные телохранители императора, облаченные в красное. Королевские гвардейцы используют силовые пики - энергетические жезлы, эффективные против пехоты и наземных героев.
-	-- SPA: Soldado muy cualificado que forma parte de las fuerzas de élite del Imperio. --> Los guardaespaldas del emperador, altamente entrenados y vestidos de rojo. La Guardia Real utiliza picas de fuerza, un bastón de energía eficaz contra la infantería y los héroes terrestres.
 
 • TEXT_TOOLTIP_GARRISON_E_ADVFAC: (BUG #745)
 	-- ENG: Garrison: 2-M Tank --> Garrison: AT-ATs
