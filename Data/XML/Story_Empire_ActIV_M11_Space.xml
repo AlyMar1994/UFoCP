@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" ?>
+
+
+
+<Story>
+
+
+<!-- Preliminary Setup -->
+
+	<Event Name="Empire_A04M11_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<Event Name="Empire_M11_Autoresolve_Off">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIDE_AUTORESOLVE</Reward_Type>
+		<Prereq>Empire_A04M11_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Empire_A04M11_Prevent_Retreat">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_RETREAT</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_A04M11_Begin</Prereq>
+	</Event>
+
+	<Event Name="Empire_A04M11_Prevent_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Empire_A04M11_Begin</Prereq>
+	</Event>
+
+	<!-- <Event Name="Empire_A04M11_Allow_Replay">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>USE_RETRY_DIALOG</Reward_Type>
+		<Prereq>Empire_A04M11_Begin</Prereq>
+	</Event>-->
+
+	<Event Name="Empire_A04M11_Win_Flag_Set">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_FLAG</Reward_Type>
+		<Reward_Param1>Empire_A04M11_Win</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Empire_A04M11_Begin</Prereq>
+	</Event>
+
+
+<!-- Preliminary Dialog -->
+
+	<!-- Officer Speaks TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_04 Imperial Officer: A rebel fleet has just taken off from the surface of the planet, My Lord!-->
+	<Event Name="Empire_ActIV_M11_Intro_Dialog_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>COMMANDBAR_MOVIE</Reward_Type>
+		<Reward_Param1>Commander_Moff_Loop</Reward_Param1>
+		<Prereq>Empire_A04M11_Begin</Prereq>
+	</Event>
+
+			<Event Name="Empire_ActIV_M11_Intro_Dialog_00a">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_04</Reward_Param1>
+				<Reward_Param2>-1</Reward_Param2>
+				<Prereq>Empire_ActIV_M11_Intro_Dialog_00</Prereq>
+			</Event>
+
+			<Event Name="Empire_ActIV_M11_Intro_Dialog_00b">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SPEECH</Reward_Type>
+				<Reward_Param1>EMPIRE_ACT04_MISSION_ELEVEN_04</Reward_Param1>
+				<Prereq>Empire_ActIV_M11_Intro_Dialog_00</Prereq>
+			</Event>
+
+	<!-- Vader Speaks 2 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_05 Darth Vader: Fools! They won't escape the end of Alderaan!-->
+	<Event Name="Empire_ActIV_M11_Intro_Dialog_01">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT04_MISSION_ELEVEN_04</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_04</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_ActIV_M11_Intro_Dialog_00b</Prereq>
+	</Event>
+
+			<Event Name="Empire_ActIV_M11_Intro_Dialog_01a">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>COMMANDBAR_MOVIE</Reward_Type>
+				<Reward_Param1>Vader_Loop</Reward_Param1>
+				<Prereq>Empire_ActIV_M11_Intro_Dialog_01</Prereq>
+			</Event>
+
+			<Event Name="Empire_ActIV_M11_Intro_Dialog_01b">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_05</Reward_Param1>
+				<Reward_Param2>-1</Reward_Param2>
+				<Prereq>Empire_ActIV_M11_Intro_Dialog_01</Prereq>
+			</Event>
+
+			<Event Name="Empire_ActIV_M11_Intro_Dialog_01c">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SPEECH</Reward_Type>
+				<Reward_Param1>EMPIRE_ACT04_MISSION_ELEVEN_05</Reward_Param1>
+				<Prereq>Empire_ActIV_M11_Intro_Dialog_01</Prereq>
+			</Event>
+
+	<!-- End of Dialog -->
+	<Event Name="Empire_ActIV_M11_Intro_Dialog_02">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT04_MISSION_ELEVEN_05</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_05</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_ActIV_M11_Intro_Dialog_01c</Prereq>
+	</Event>
+	
+	<!-- TASK text here -  TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_06 TASK:  Keep your fleet alive long enough to fire the Death Star-->
+			<Event Name="Empire_ActIV_M11_Intro_Dialog_02b">
+				<Event_Type>STORY_TRIGGER</Event_Type>
+				<Reward_Type>SCREEN_TEXT</Reward_Type>
+				<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_06</Reward_Param1>
+				<Reward_Param2>10</Reward_Param2>
+				<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+				<Prereq>Empire_ActIV_M11_Intro_Dialog_02</Prereq>
+			</Event>
+			
+<!-- jdg 9/3/05 ADDING wait mission objectives here 
+TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_21			Keep your feet alive until the Death Star is in range, then fire the Death Star.-->
+
+		<Event Name="Empire_Mission11_ADD_OBJECTIVE_Keep_Fleet_Alive">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+			<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_21</Reward_Param1>
+			<Prereq>Empire_ActIV_M11_Intro_Dialog_02b</Prereq>
+		</Event>
+
+
+
+
+
+
+
+
+<!-- Trigger here for Death Star blowing up Alderaan -->
+	<Event Name="Empire_A04M11_Alderaan_Destroyed_Notification">
+		<Event_Type>STORY_PLANET_DESTROYED</Event_Type>
+		<Event_Param2>ALDERAAN</Event_Param2>
+		<Prereq>Empire_A04M11_Begin</Prereq>
+	</Event>
+
+		<Event Name="Empire_A04M11_Alderaan_Destroyed">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>VICTORY</Reward_Type>
+			<Reward_Param1>Empire</Reward_Param1>
+			<Prereq>Empire_A04M11_Alderaan_Destroyed_Notification</Prereq>
+		</Event>
+	
+		<Event Name="Empire_A04M011_Increment_Win">
+			<Event_Type>STORY_VICTORY</Event_Type>
+			<Event_Param1>EMPIRE</Event_Param1>
+			<Reward_Type>INCREMENT_FLAG</Reward_Type>
+			<Reward_Param1>Empire_A04M11_Win</Reward_Param1>
+			<Reward_Param2>1</Reward_Param2>
+		</Event>
+
+
+
+
+
+<!-- All Empire ships destroyed before Death Star fires is a loss -->
+
+
+	<Event Name="Empire_A04M10_All_Empire_Destroyed">
+		<Event_Type>STORY_CHECK_DESTROYED</Event_Type>
+		<Event_Param1>Empire</Event_Param1>
+		<Event_Param2>DESTROY_ALL_UNITS</Event_Param2>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>REBEL</Reward_Param1>
+		<Prereq>Empire_A04M11_Begin</Prereq>
+	</Event>
+
+
+
+
+</Story>
