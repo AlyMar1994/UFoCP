@@ -1,0 +1,540 @@
+<?xml version="1.0" ?>
+
+
+<Story>
+
+<!-- 
+   Mission_1   An Organized Resistance
+   Mission_2   Conquer Fondor
+   Mission_3   Pirate Menace
+   Mission_4   Subjugating Geonosis
+   Mission_5   Attack on Mon Calamari
+   Mission_6   Trouble on Kashyyyk
+   Mission_7   A New Weapon
+   Mission_8   Rebel Fortress of War
+   Mission_9   Traitorous Moff
+   Mission_10  Errand with the Emperor
+   Mission_11  Capturing a Princess
+   Mission_12  Destruction of Alderaan
+   Mission_13  End Game
+-->
+
+	<Event Name="Mission_1">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_4">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_5">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_7">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_8">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_9">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_10">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_11">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_12">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_13">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+
+
+
+<!-- Give hero -->
+
+   <Event Name="CHEAT_Empire_Spawn_Vader">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>SPAWN_HERO</Reward_Type>
+      <Reward_Param1>Darth_Team</Reward_Param1>
+      <Reward_Param2>Thyferra</Reward_Param2>
+      <Prereq>Mission_2</Prereq>
+      <Prereq>Mission_3</Prereq>
+      <Prereq>Mission_4</Prereq>
+      <Prereq>Mission_5</Prereq>
+      <Prereq>Mission_6</Prereq>
+      <Prereq>Mission_7</Prereq>
+      <Prereq>Mission_8</Prereq>
+      <Prereq>Mission_9</Prereq>
+      <Prereq>Mission_10</Prereq>
+      <Prereq>Mission_11</Prereq>
+      <Prereq>Mission_12</Prereq>
+      <Prereq>Mission_13</Prereq>
+   </Event>
+
+   <Event Name="CHEAT_Empire_Spawn_Fett">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>SPAWN_HERO</Reward_Type>
+      <Reward_Param1>Boba_Fett_Team</Reward_Param1>
+      <Reward_Param2>Coruscant</Reward_Param2>
+      <Prereq>Mission_4</Prereq>
+      <Prereq>Mission_5</Prereq>
+      <Prereq>Mission_6</Prereq>
+      <Prereq>Mission_7</Prereq>
+      <Prereq>Mission_8</Prereq>
+      <Prereq>Mission_9</Prereq>
+      <Prereq>Mission_10</Prereq>
+      <Prereq>Mission_11</Prereq>
+      <Prereq>Mission_12</Prereq>
+      <Prereq>Mission_13</Prereq>
+   </Event>
+
+   <Event Name="CHEAT_Empire_Spawn_Veers">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>SPAWN_HERO</Reward_Type>
+      <Reward_Param1>General_Veers_Team</Reward_Param1>
+      <Reward_Param2>Coruscant</Reward_Param2>
+      <Prereq>Mission_7</Prereq>
+      <Prereq>Mission_8</Prereq>
+      <Prereq>Mission_9</Prereq>
+      <Prereq>Mission_10</Prereq>
+      <Prereq>Mission_11</Prereq>
+      <Prereq>Mission_12</Prereq>
+      <Prereq>Mission_13</Prereq>
+   </Event>
+
+   <Event Name="CHEAT_Empire_Spawn_Emperor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+      <Prereq>Mission_11</Prereq>
+      <Prereq>Mission_12</Prereq>
+      <Prereq>Mission_13</Prereq>
+	</Event>
+
+
+
+<!-- Force planet faction -->
+
+   <Event Name="CHEAT_Empire_Fondor_Faction">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>PLANET_FACTION</Reward_Type>
+      <Reward_Param1>Fondor</Reward_Param1>
+      <Reward_Param2>Empire</Reward_Param2>
+      <Prereq>Mission_3</Prereq>
+      <Prereq>Mission_4</Prereq>
+      <Prereq>Mission_5</Prereq>
+      <Prereq>Mission_6</Prereq>
+      <Prereq>Mission_7</Prereq>
+      <Prereq>Mission_8</Prereq>
+      <Prereq>Mission_9</Prereq>
+      <Prereq>Mission_10</Prereq>
+      <Prereq>Mission_11</Prereq>
+      <Prereq>Mission_12</Prereq>
+      <Prereq>Mission_13</Prereq>
+   </Event>
+
+   <Event Name="CHEAT_Empire_Fondor_Faction_00">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>REVEAL_PLANET</Reward_Type>
+      <Reward_Param1>Fondor</Reward_Param1>
+      <Prereq>Mission_3</Prereq>
+      <Prereq>Mission_4</Prereq>
+   </Event>
+
+   <Event Name="CHEAT_Empire_Geonosis_Faction">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>PLANET_FACTION</Reward_Type>
+      <Reward_Param1>Geonosis</Reward_Param1>
+      <Reward_Param2>Empire</Reward_Param2>
+      <Prereq>Mission_5</Prereq>
+      <Prereq>Mission_6</Prereq>
+      <Prereq>Mission_7</Prereq>
+      <Prereq>Mission_8</Prereq>
+      <Prereq>Mission_9</Prereq>
+      <Prereq>Mission_10</Prereq>
+      <Prereq>Mission_11</Prereq>
+      <Prereq>Mission_12</Prereq>
+      <Prereq>Mission_13</Prereq>
+   </Event>
+
+   <Event Name="CHEAT_Empire_MonCal_Faction">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>PLANET_FACTION</Reward_Type>
+      <Reward_Param1>MonCalimari</Reward_Param1>
+      <Reward_Param2>Empire</Reward_Param2>
+      <Prereq>Mission_6</Prereq>
+      <Prereq>Mission_7</Prereq>
+      <Prereq>Mission_8</Prereq>
+      <Prereq>Mission_9</Prereq>
+      <Prereq>Mission_10</Prereq>
+      <Prereq>Mission_11</Prereq>
+      <Prereq>Mission_12</Prereq>
+      <Prereq>Mission_13</Prereq>
+   </Event>
+
+   <Event Name="CHEAT_Empire_Kashyyyk_Faction">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>PLANET_FACTION</Reward_Type>
+      <Reward_Param1>Kashyyyk</Reward_Param1>
+      <Reward_Param2>Empire</Reward_Param2>
+      <Prereq>Mission_7</Prereq>
+      <Prereq>Mission_8</Prereq>
+      <Prereq>Mission_9</Prereq>
+      <Prereq>Mission_10</Prereq>
+      <Prereq>Mission_11</Prereq>
+      <Prereq>Mission_12</Prereq>
+      <Prereq>Mission_13</Prereq>
+   </Event>
+
+   <Event Name="CHEAT_Empire_Jabiim_Faction">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>PLANET_FACTION</Reward_Type>
+      <Reward_Param1>Jabiim</Reward_Param1>
+      <Reward_Param2>Empire</Reward_Param2>
+      <Prereq>Mission_9</Prereq>
+      <Prereq>Mission_10</Prereq>
+      <Prereq>Mission_11</Prereq>
+      <Prereq>Mission_12</Prereq>
+      <Prereq>Mission_13</Prereq>
+   </Event>
+
+   <Event Name="CHEAT_Empire_Jabiim_Faction_00">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>REVEAL_PLANET</Reward_Type>
+      <Reward_Param1>Jabiim</Reward_Param1>
+      <Prereq>CHEAT_Empire_Jabiim_Faction</Prereq>
+   </Event>
+
+   <Event Name="CHEAT_Empire_Bestine_Faction">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>PLANET_FACTION</Reward_Type>
+      <Reward_Param1>Bestine</Reward_Param1>
+      <Reward_Param2>Empire</Reward_Param2>
+      <Prereq>Mission_9</Prereq>
+      <Prereq>Mission_10</Prereq>
+      <Prereq>Mission_11</Prereq>
+      <Prereq>Mission_12</Prereq>
+      <Prereq>Mission_13</Prereq>
+   </Event>
+
+   <Event Name="CHEAT_Empire_Corulag_Faction">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>PLANET_FACTION</Reward_Type>
+      <Reward_Param1>Corulag</Reward_Param1>
+      <Reward_Param2>Empire</Reward_Param2>
+      <Prereq>Mission_9</Prereq>
+      <Prereq>Mission_10</Prereq>
+      <Prereq>Mission_11</Prereq>
+      <Prereq>Mission_12</Prereq>
+      <Prereq>Mission_13</Prereq>
+   </Event>
+
+
+
+
+
+<!-- Act 1 cheats -->
+
+   <!-- Jump to mission 1 -->
+
+	<Event Name="CHEAT_Empire_ActI_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>STORY_ELEMENT</Reward_Type>
+      <Reward_Param1>Story_Campaign_Empire_Act_I</Reward_Param1>
+      <Prereq>Mission_1</Prereq>
+	</Event>
+
+	<Event Name="CHEAT_Empire_ActI_Enable_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>SET_FLAG</Reward_Type>
+      <Reward_Param1>Empire_Act_Counter</Reward_Param1>
+      <Reward_Param2>1</Reward_Param2>
+      <Prereq>CHEAT_Empire_ActI_Enable</Prereq>
+	</Event>
+
+   <!-- Jump to mission 2 -->
+	<Event Name="CHEAT_Empire_ActI_M02_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActI_Mission_Two_07</Reward_Param1>
+      <Reward_Param2>1</Reward_Param2>
+      <Reward_Param3>1</Reward_Param3>
+      <Prereq>Mission_2</Prereq>
+      <Prereq>Mission_3</Prereq>
+      <Prereq>Mission_4</Prereq>
+	</Event>
+
+	<Event Name="CHEAT_Empire_ActI_M02_Enable_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>STORY_ELEMENT</Reward_Type>
+      <Reward_Param1>Story_Campaign_Empire_Act_I</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActI_M02_Enable</Prereq>
+	</Event>
+
+	<Event Name="CHEAT_Empire_ActI_M02_Enable_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActI_Mission_Two_09</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActI_M02_Enable_00 Mission_2</Prereq>
+	</Event>
+
+   <!-- Jump to mission 3 -->
+	<Event Name="CHEAT_Empire_ActI_M03_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActI_Reveal_Fondor</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActI_M02_Enable Mission_3</Prereq>
+      <Prereq>Mission_3</Prereq>
+	</Event>
+
+	<Event Name="CHEAT_Empire_ActI_M03_Enable_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActI_Reveal_Ilum</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActI_M03_Enable</Prereq>
+	</Event>
+
+	<Event Name="CHEAT_Empire_ActI_M03_Enable_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActI_M03_Probe_Dialog_00</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActI_M03_Enable_02</Prereq>
+	</Event>
+
+   <!-- Jump to mission 4 -->
+	<Event Name="CHEAT_Empire_ActI_M04_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActI_M03_Post_Mission_Dialog_00</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActI_M02_Enable Mission_4</Prereq>
+	</Event>
+
+
+
+
+
+<!-- Act 2 cheats -->
+
+	<Event Name="CHEAT_Empire_ActII_Enable">
+      <Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>STORY_ELEMENT</Reward_Type>
+      <Reward_Param1>Story_Campaign_Empire_Act_II</Reward_Param1>
+      <Prereq>Mission_5</Prereq>
+      <Prereq>Mission_6</Prereq>
+      <Prereq>Mission_7</Prereq>
+      <Prereq>Mission_8</Prereq>
+   </Event>
+
+	<Event Name="CHEAT_Empire_ActII_Enable_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>SET_FLAG</Reward_Type>
+      <Reward_Param1>Empire_Act_Counter</Reward_Param1>
+      <Reward_Param2>2</Reward_Param2>
+      <Prereq>CHEAT_Empire_ActII_Enable</Prereq>
+	</Event>
+
+
+   <!-- Jump to mission 5 -->
+	<Event Name="CHEAT_Empire_ActII_M05_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActII_Mission_Four_00</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActII_Enable Mission_5</Prereq>
+	</Event>
+
+   <!-- Jump to mission 6 -->
+	<Event Name="CHEAT_Empire_ActII_M06_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActII_Mission_Four_00</Reward_Param1>
+      <Reward_Param2>1</Reward_Param2>
+      <Reward_Param3>1</Reward_Param3>
+      <Prereq>Mission_6</Prereq>
+      <Prereq>Mission_7</Prereq>
+      <Prereq>Mission_8</Prereq>
+	</Event>
+
+	<Event Name="CHEAT_Empire_ActII_M06_Enable_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>MonCalimari</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+      <Prereq>CHEAT_Empire_ActII_M06_Enable</Prereq>
+	</Event>
+
+	<Event Name="CHEAT_Empire_ActII_M06_Enable_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>ActII_M05_Intro_Dialog_00</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActII_M06_Enable Mission_6</Prereq>
+	</Event>
+
+   <!-- Jump to mission 7 -->
+	<Event Name="CHEAT_Empire_ActII_M07_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>ActII_M06_Intro_Dialog_00</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActII_M06_Enable Mission_7</Prereq>
+	</Event>
+
+	<Event Name="CHEAT_Empire_ActII_M07_Enable_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Kashyyyk</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+      <Prereq>Mission_7</Prereq>
+      <Prereq>Mission_8</Prereq>
+	</Event>
+
+   <!-- Jump to mission 8 -->
+   <!-- Mission 8 is considered Act 3, but setup in Act 2 -->
+	<Event Name="CHEAT_Empire_ActIII_M08_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>ActII_M06_End_Dialog_00</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActII_M06_Enable Mission_8</Prereq>
+	</Event>
+
+
+
+
+<!-- Act 3 cheats -->
+
+   <Event Name="CHEAT_Empire_ActIII_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>STORY_ELEMENT</Reward_Type>
+      <Reward_Param1>Story_Campaign_Empire_Act_III</Reward_Param1>
+      <Prereq>Mission_9</Prereq>
+      <Prereq>Mission_10</Prereq>
+	</Event>
+
+	<Event Name="CHEAT_Empire_ActIII_Enable_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>SET_FLAG</Reward_Type>
+      <Reward_Param1>Empire_Act_Counter</Reward_Param1>
+      <Reward_Param2>3</Reward_Param2>
+      <Prereq>CHEAT_Empire_ActIII_Enable</Prereq>
+	</Event>
+
+   <!-- Jump to mission 9 -->
+	<Event Name="CHEAT_Empire_ActIII_M09_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActIII_Mission_Seven_01</Reward_Param1>
+      <Reward_Param2>1</Reward_Param2>
+      <Reward_Param3>1</Reward_Param3>
+      <Prereq>Mission_9</Prereq>
+      <Prereq>Mission_10</Prereq>
+	</Event>
+
+	<Event Name="CHEAT_Empire_ActIII_M09_Enable_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>Empire_A03M08_Intro_Dialog_00</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActIII_M09_Enable Mission_9</Prereq>
+	</Event>
+
+
+   <!-- Jump to mission 10 -->
+	<Event Name="CHEAT_Empire_ActIII_M10_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActIII_M08_Final_Dialog_00</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActIII_M09_Enable Mission_10</Prereq>
+	</Event>
+
+	<Event Name="CHEAT_Empire_ActIII_M10_Enable_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>REVEAL_PLANET</Reward_Type>
+		<Reward_Param1>Atzerri</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+      <Prereq>CHEAT_Empire_ActIII_M10_Enable</Prereq>
+	</Event>
+
+
+
+
+<!-- Act 4 cheats -->
+
+	<Event Name="CHEAT_Empire_ActIV_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>STORY_ELEMENT</Reward_Type>
+      <Reward_Param1>Story_Campaign_Empire_Act_IV</Reward_Param1>
+      <Prereq>Mission_11</Prereq>
+      <Prereq>Mission_12</Prereq>
+      <Prereq>Mission_13</Prereq>
+	</Event>
+
+	<Event Name="CHEAT_Empire_ActIV_Enable_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>SET_FLAG</Reward_Type>
+      <Reward_Param1>Empire_Act_Counter</Reward_Param1>
+      <Reward_Param2>4</Reward_Param2>
+      <Prereq>CHEAT_Empire_ActIV_Enable</Prereq>
+	</Event>
+
+   <!-- Jump to mission 11 -->
+	<Event Name="CHEAT_Empire_ActIV_M11_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActIV_Mission_Ten_Intro_Dialog_00</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActIV_Enable</Prereq>
+	</Event>
+
+
+   <!-- Jump to mission 12 -->
+	<Event Name="CHEAT_Empire_ActIV_M12_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActIV_Mission_Ten_Intro_Dialog_00</Reward_Param1>
+      <Reward_Param2>1</Reward_Param2>
+      <Reward_Param3>1</Reward_Param3>
+      <Prereq>Mission_12</Prereq>
+      <Prereq>Mission_13</Prereq>
+	</Event>
+
+	<Event Name="CHEAT_Empire_ActIV_M12_Enable_00">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActIV_Mission_Ten_End_Dialog_00</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActIV_M12_Enable Mission_12</Prereq>
+	</Event>
+
+
+   <!-- Jump to mission 13 -->
+	<Event Name="CHEAT_Empire_ActIV_M13_Enable">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+      <Reward_Type>TRIGGER_EVENT</Reward_Type>
+      <Reward_Param1>Empire_ActIV_Mission_Twelve_Intro_Dialog_00</Reward_Param1>
+      <Prereq>CHEAT_Empire_ActIV_M12_Enable Mission_13</Prereq>
+	</Event>
+
+
+
+</Story>
+      
