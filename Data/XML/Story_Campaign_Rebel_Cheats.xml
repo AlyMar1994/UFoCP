@@ -1,8 +1,20 @@
-<?xml version="1.0" ?>
-
-
+<?xml version="1.0"?>
+<!--
+	Mission_1   Shipyard Diversion
+	Mission_2   Interpreting the Network
+	Mission_3   Theft of the X-wing
+	Mission_4   Kessel Rescue
+	Mission_5   Imperial Liberation
+	Mission_6   Highest Bidder
+	Mission_7   Rescue the Millennium Falcon
+	Mission_8   Needle in a Haystack
+	Mission_9   Borrowed Time
+	Mission_10  Handle with Care!
+	Mission_11
+	Mission_12
+	Mission_13
+-->
 <Story>
-
 	<Event Name="Mission_1">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 	</Event>
@@ -59,71 +71,71 @@
 
 <!-- Act 1 cheats -->
 
-   <!-- Jump to mission 1 -->
+	<!-- Jump to mission 1 -->
 
 	<Event Name="Cheat_Rebel_ActI_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>STORY_ELEMENT</Reward_Type>
-      <Reward_Param1>Story_Campaign_Rebel_Act_I</Reward_Param1>
-      <Prereq>Mission_1</Prereq>
-      <Prereq>Mission_2</Prereq>
-      <Prereq>Mission_3</Prereq>
+		<Reward_Type>STORY_ELEMENT</Reward_Type>
+		<Reward_Param1>Story_Campaign_Rebel_Act_I</Reward_Param1>
+		<Prereq>Mission_1</Prereq>
+		<Prereq>Mission_2</Prereq>
+		<Prereq>Mission_3</Prereq>
 	</Event>
 
 
-   <!-- Jump to mission 2 -->
+	<!-- Jump to mission 2 -->
 	<Event Name="Cheat_Rebel_ActI_M02_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
-      <Reward_Param1>Rebel_ActI_Play_Intro_Movie</Reward_Param1>
-      <Reward_Param2>1</Reward_Param2>
-      <Reward_Param3>1</Reward_Param3>
-      <Prereq>Mission_2</Prereq>
-      <Prereq>Mission_3</Prereq>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_ActI_Play_Intro_Movie</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>1</Reward_Param3>
+		<Prereq>Mission_2</Prereq>
+		<Prereq>Mission_3</Prereq>
 	</Event>
 
 	<Event Name="Cheat_Rebel_ActI_M02_Enable_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
-      <Reward_Param1>Rebel_ActI_Mission_One_10</Reward_Param1>
-      <Reward_Param2>1</Reward_Param2>
-      <Reward_Param3>1</Reward_Param3>
-      <Prereq>Cheat_Rebel_ActI_M02_Enable</Prereq>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_ActI_Mission_One_10</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>1</Reward_Param3>
+		<Prereq>Cheat_Rebel_ActI_M02_Enable</Prereq>
 	</Event>
 
 	<Event Name="Cheat_Rebel_ActI_M02_Enable_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Rebel_ActI_Mission_One_20</Reward_Param1>
-      <Prereq>Cheat_Rebel_ActI_M02_Enable_00</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_ActI_Mission_One_20</Reward_Param1>
+		<Prereq>Cheat_Rebel_ActI_M02_Enable_00</Prereq>
 	</Event>
 
 	<Event Name="Cheat_Rebel_ActI_M02_Enable_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
-      <Reward_Param1>Rebel_ActI_Mission_One_Post_Mission_Speech_00</Reward_Param1>
-      <Reward_Param2>1</Reward_Param2>
-      <Reward_Param3>1</Reward_Param3>
-      <Prereq>Cheat_Rebel_ActI_M02_Enable_01</Prereq>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_ActI_Mission_One_Post_Mission_Speech_00</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>1</Reward_Param3>
+		<Prereq>Cheat_Rebel_ActI_M02_Enable_01</Prereq>
 	</Event>
 
 	<Event Name="Cheat_Rebel_ActI_M02_Enable_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Rebel_ActI_Mission_Two_00</Reward_Param1>
-      <Prereq>Cheat_Rebel_ActI_M02_Enable_02 Mission_2</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_ActI_Mission_Two_00</Reward_Param1>
+		<Prereq>Cheat_Rebel_ActI_M02_Enable_02 Mission_2</Prereq>
 	</Event>
 
-   <!-- Jump to mission 3 -->
+	<!-- Jump to mission 3 -->
 	<Event Name="Cheat_Rebel_ActI_M03_Enable_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Rebel_ActI_Mission_Three_Pre_Mission_Speech_00</Reward_Param1>
-      <Prereq>Mission_3</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_ActI_Mission_Three_Pre_Mission_Speech_00</Reward_Param1>
+		<Prereq>Mission_3</Prereq>
 	</Event>
 
 
-   <!-- Post mission 3 reward -->
+	<!-- Post mission 3 reward -->
 	<!-- Unlock the X-wings for the player -->
 	<Event Name="Cheat_Rebel_ActI_Mission_Three_Unlock_XWings">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -171,61 +183,61 @@
 
 	<Event Name="Cheat_Rebel_ActII_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>STORY_ELEMENT</Reward_Type>
-      <Reward_Param1>Story_Campaign_Rebel_Act_II</Reward_Param1>
-      <Prereq>Mission_4</Prereq>
-      <Prereq>Mission_5</Prereq>
-      <Prereq>Mission_6</Prereq>
+		<Reward_Type>STORY_ELEMENT</Reward_Type>
+		<Reward_Param1>Story_Campaign_Rebel_Act_II</Reward_Param1>
+		<Prereq>Mission_4</Prereq>
+		<Prereq>Mission_5</Prereq>
+		<Prereq>Mission_6</Prereq>
 	</Event>
 
-   <!-- Jump to mission 4 -->
+	<!-- Jump to mission 4 -->
 	<Event Name="Cheat_Rebel_ActII_M04_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Mission4</Reward_Param1>
-      <Prereq>Mission_4</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Mission4</Reward_Param1>
+		<Prereq>Mission_4</Prereq>
 	</Event>
 
-   <!-- Jump to mission 5 -->
+	<!-- Jump to mission 5 -->
 	<Event Name="Cheat_Rebel_ActII_M05_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
-      <Reward_Param1>Rebel_ActII_Post_Mission_Four_01</Reward_Param1>
-      <Reward_Param2>1</Reward_Param2>
-      <Reward_Param3>1</Reward_Param3>
-      <Prereq>Mission_5</Prereq>
-      <Prereq>Mission_6</Prereq>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_ActII_Post_Mission_Four_01</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>1</Reward_Param3>
+		<Prereq>Mission_5</Prereq>
+		<Prereq>Mission_6</Prereq>
 	</Event>
 
 	<Event Name="Cheat_Rebel_ActII_M05_Enable_00">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
-      <Reward_Param1>Rebel_ActII_Pre_Mission_Four_01</Reward_Param1>
-      <Reward_Param2>1</Reward_Param2>
-      <Reward_Param3>1</Reward_Param3>
-      <Prereq>Cheat_Rebel_ActII_M05_Enable</Prereq>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_ActII_Pre_Mission_Four_01</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Reward_Param3>1</Reward_Param3>
+		<Prereq>Cheat_Rebel_ActII_M05_Enable</Prereq>
 	</Event>
 
 	<Event Name="Cheat_Rebel_ActII_M05_Enable_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Mission5</Reward_Param1>
-      <Prereq>Cheat_Rebel_ActII_M05_Enable Mission_5</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Mission5</Reward_Param1>
+		<Prereq>Cheat_Rebel_ActII_M05_Enable Mission_5</Prereq>
 	</Event>
 
 	<Event Name="Cheat_Rebel_ActII_M05_Enable_02">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Rebel_ActII_Pre_Mission_Five_01</Reward_Param1>
-      <Prereq>Cheat_Rebel_ActII_M05_Enable_01</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Rebel_ActII_Pre_Mission_Five_01</Reward_Param1>
+		<Prereq>Cheat_Rebel_ActII_M05_Enable_01</Prereq>
 	</Event>
 
-   <!-- Jump to mission 6 -->
+	<!-- Jump to mission 6 -->
 	<Event Name="Cheat_Rebel_ActII_M06_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Mission6</Reward_Param1>
-      <Prereq>Cheat_Rebel_ActII_M05_Enable</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Mission6</Reward_Param1>
+		<Prereq>Cheat_Rebel_ActII_M05_Enable</Prereq>
 	</Event>
 
 
@@ -233,53 +245,53 @@
 
 	<Event Name="Cheat_Rebel_ActIII_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>STORY_ELEMENT</Reward_Type>
-      <Reward_Param1>Story_Campaign_Rebel_Act_III</Reward_Param1>
-      <Prereq>Mission_7</Prereq>
-      <Prereq>Mission_7A</Prereq>
-      <Prereq>Mission_8</Prereq>
-      <Prereq>Mission_9</Prereq>
-      <Prereq>Mission_10</Prereq>
+		<Reward_Type>STORY_ELEMENT</Reward_Type>
+		<Reward_Param1>Story_Campaign_Rebel_Act_III</Reward_Param1>
+		<Prereq>Mission_7</Prereq>
+		<Prereq>Mission_7A</Prereq>
+		<Prereq>Mission_8</Prereq>
+		<Prereq>Mission_9</Prereq>
+		<Prereq>Mission_10</Prereq>
 	</Event>
 
-   <!-- Jump to mission 7 -->
+	<!-- Jump to mission 7 -->
 	<Event Name="Cheat_Rebel_ActIII_M07_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Mission7</Reward_Param1>
-      <Prereq>Mission_7</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Mission7</Reward_Param1>
+		<Prereq>Mission_7</Prereq>
 	</Event>
 
-   <!-- Jump to mission 7A -->
+	<!-- Jump to mission 7A -->
 	<Event Name="Cheat_Rebel_ActIII_M07a_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Mission7A</Reward_Param1>
-      <Prereq>Mission_7A</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Mission7A</Reward_Param1>
+		<Prereq>Mission_7A</Prereq>
 	</Event>
 
-   <!-- Jump to mission 8 -->
+	<!-- Jump to mission 8 -->
 	<Event Name="Cheat_Rebel_ActIII_M08_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Mission8</Reward_Param1>
-      <Prereq>Mission_8</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Mission8</Reward_Param1>
+		<Prereq>Mission_8</Prereq>
 	</Event>
 
-   <!-- Jump to mission 9 -->
+	<!-- Jump to mission 9 -->
 	<Event Name="Cheat_Rebel_ActIII_M09_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Mission9</Reward_Param1>
-      <Prereq>Mission_9</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Mission9</Reward_Param1>
+		<Prereq>Mission_9</Prereq>
 	</Event>
 
-   <!-- Jump to mission 10 -->
+	<!-- Jump to mission 10 -->
 	<Event Name="Cheat_Rebel_ActIII_M10_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Mission10</Reward_Param1>
-      <Prereq>Mission_10</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Mission10</Reward_Param1>
+		<Prereq>Mission_10</Prereq>
 	</Event>
 
 
@@ -287,28 +299,25 @@
 
 	<Event Name="Cheat_Rebel_ActIV_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>STORY_ELEMENT</Reward_Type>
-      <Reward_Param1>Story_Campaign_Rebel_Act_IV</Reward_Param1>
-      <Prereq>Mission_11</Prereq>
-      <Prereq>Mission_12</Prereq>
+		<Reward_Type>STORY_ELEMENT</Reward_Type>
+		<Reward_Param1>Story_Campaign_Rebel_Act_IV</Reward_Param1>
+		<Prereq>Mission_11</Prereq>
+		<Prereq>Mission_12</Prereq>
 	</Event>
 
-   <!-- Jump to mission 11 -->
+	<!-- Jump to mission 11 -->
 	<Event Name="Cheat_Rebel_ActIV_M11_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Mission11</Reward_Param1>
-      <Prereq>Mission_11</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Mission11</Reward_Param1>
+		<Prereq>Mission_11</Prereq>
 	</Event>
 
-   <!-- Jump to mission 12 -->
+	<!-- Jump to mission 12 -->
 	<Event Name="Cheat_Rebel_ActIV_M12_Enable">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-      <Reward_Type>TRIGGER_EVENT</Reward_Type>
-      <Reward_Param1>Mission12</Reward_Param1>
-      <Prereq>Mission_12</Prereq>
+		<Reward_Type>TRIGGER_EVENT</Reward_Type>
+		<Reward_Param1>Mission12</Reward_Param1>
+		<Prereq>Mission_12</Prereq>
 	</Event>
-
-
 </Story>
-      
