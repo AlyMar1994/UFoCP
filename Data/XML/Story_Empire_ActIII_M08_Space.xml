@@ -241,6 +241,12 @@ Defeat Moff Falast.
 		<Prereq>Empire_M08_Moff_Success_Dialog_03</Prereq>
 	</Event>
 
+		<Event Name="Empire_ActIV_M11_Intro_Dialog_03">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+			<Prereq>Empire_M08_Moff_Success_Dialog_04</Prereq>
+		</Event>
+
 <!-- Force Empire victory -->
 	<Event Name="Empire_M08_Success_Allow_Win">
 		<Event_Type>STORY_ELAPSED</Event_Type>

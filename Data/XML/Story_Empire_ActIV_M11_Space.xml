@@ -120,15 +120,15 @@
 						<Prereq>Empire_ActIV_M11_Intro_Dialog_02</Prereq>
 					</Event>
 
-				<!-- TASK text here -  TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_06 TASK:  Keep your fleet alive long enough to fire the Death Star-->
-						<Event Name="Empire_ActIV_M11_Intro_Dialog_02b">
-							<Event_Type>STORY_TRIGGER</Event_Type>
-							<Reward_Type>SCREEN_TEXT</Reward_Type>
-							<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_06</Reward_Param1>
-							<Reward_Param2>10</Reward_Param2>
-							<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
-							<Prereq>Empire_ActIV_M11_Intro_Dialog_02</Prereq>
-						</Event>
+	<!-- TASK text here -  TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_06 TASK:  Keep your fleet alive long enough to fire the Death Star-->
+	<Event Name="Empire_ActIV_M11_Intro_Dialog_02b">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_06</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+		<Prereq>Empire_ActIV_M11_Intro_Dialog_02</Prereq>
+	</Event>
 
 <!-- jdg 9/3/05 ADDING wait mission objectives here
 TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_21			Keep your feet alive until the Death Star is in range, then fire the Death Star.-->
