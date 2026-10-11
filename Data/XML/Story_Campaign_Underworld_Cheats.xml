@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!--
+	Mission_1   A Crime Lord Reborn
+	Mission_2   Remnants of the Death Star
+	Mission_3   Communications Breakdown
+	Mission_4   Visions of the Past
+	Mission_5   A Dark Ally
+	Mission_6   Cloud City Conflict
+	Mission_7   Baiting the Hook
+	Mission_8   Following the Artifact
+	Mission_9   The Emperor's New Weapon
+-->
+<Story>
+	<Event Name="Mission_1">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_4">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_5">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_7">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_8">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+
+	<Event Name="Mission_9">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+	</Event>
+</Story>

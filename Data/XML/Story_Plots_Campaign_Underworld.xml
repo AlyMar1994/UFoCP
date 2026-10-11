@@ -3,4 +3,7 @@
 	<Lua_Script>Story_Campaign_Underworld</Lua_Script>
 	<Active_Plot>Story_Campaign_Underworld.xml</Active_Plot>
 	<Suspended_Plot />
+
+	<!-- Cheats such as mission skipping -->
+	<Active_Plot>Story_Campaign_Underworld_Cheats.xml</Active_Plot>
 </Story_Mode_Plots>

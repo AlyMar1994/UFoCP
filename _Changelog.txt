@@ -65,6 +65,7 @@ ENHANCEMENTS:
 
 • Alt-history variants of the MPGCs (ones with EaW-FoC hero swapping) are now available. (BUG #853)
 • The EaW GCs, MPGCs and alt-history versions of the FoC GCs now support using the original Death Star and Black Squadron (the DS2 and Executor will be unavailable to purchase). (BUG #247)
+• Campaign "cheats" have been created for the Consortium campaign to ease debugging by skipping missions.  These aren't usable normally, but if a modder wishes to use them, they're now available. (No forward-facing changes.)
 
 
 HOUSEKEEPING:
@@ -116,11 +117,11 @@ Script/Story Fixes:
 • During Empire campaign mission #9 ("The Traitorous Moff"), Grand Moff Tarkin's hologram wouldn't stop playing after his dialogue ended. (BUG #923)
 • During Empire campaign mission #12 ("The Destruction of Alderaan"), the Imperial Announcer would say the Death Star approach dialogue twice each time it was triggered.  The mission scripting was trying to use the Death Star as a pathfinder unit, and would duplicate the DS on spawn. (BUG #872)
 • During Empire campaign mission #12 ("The Destruction of Alderaan"), Darth Vader's hologram wouldn't stop playing after his dialogue ended. (BUG #925)
-• During Empire campaign mission #13 ("The Destruction of the Rebellion"), the Death Star would take 75 seconds to enter range of the Rebel strongholds, although the act's script was intended to set it to 5 minutes.  The Death Star now enters range slower to give the Rebels a fighting chance. (BUG #918)
+• During Empire campaign mission #13 ("End of the Rebellion"), the Death Star would take 75 seconds to enter range of the Rebel strongholds, although the act's script was intended to set it to 5 minutes.  The Death Star now enters range slower to give the Rebels a fighting chance. (BUG #918)
 • During Rebel campaign mission #3 ("Theft of the X-wing"), while the Empire's doing its initial unit reinforcement, Captain Antilles will freak out and tell you to secure the starting reinforcement point.  According to the trigger however, he was intended to warn about securing the Imperial-controlled points.  There's no replacement VO to use, so a red "NOTICE:" message now appears to clarify that reinforcements are scary - in addition, multiple problems where Antilles' hologram wouldn't play have been fixed. (BUG #790)
-• During Rebel campaign mission #7 ("Needle in a Haystack"), Han & Chewie would find the correct container after scanning 10 of them, despite there being 12 on the map.  Normally this wouldn't a problem, however Han says that "it's always in the last place we look," and it's clear it was intended that the player has to search all 12 containers. (BUG #816)
-• During Rebel campaign mission #7 ("Needle in a Haystack"), the Empire starbase sometimes fired at Han & Chewie despite him remaining undetected, specifically near the top of the map.  The starbase now can no longer fire until the alarm has been raised. (BUG #871)
-• During Rebel campaign mission #11 ("The Final Battle"), the Death Star would approach Yavin 4 too quickly, breaking the story sequence before the battle, and wouldn't give the player enough time in battle to defeat it (75sec.).  The developers intended to give the player 5min. to defeat it, but the script command was broken. (BUG #835)
+• During Rebel campaign mission #8 ("Needle in a Haystack"), Han & Chewie would find the correct container after scanning 10 of them, despite there being 12 on the map.  Normally this wouldn't a problem, however Han says that "it's always in the last place we look," and it's clear it was intended that the player has to search all 12 containers. (BUG #816)
+• During Rebel campaign mission #8 ("Needle in a Haystack"), the Empire starbase sometimes fired at Han & Chewie despite him remaining undetected, specifically near the top of the map.  The starbase now can no longer fire until the alarm has been raised. (BUG #871)
+• During Rebel campaign mission #12 ("The Final Battle"), the Death Star would approach Yavin 4 too quickly, breaking the story sequence before the battle, and wouldn't give the player enough time in battle to defeat it (75sec.).  The developers intended to give the player 5min. to defeat it, but the script command was broken. (BUG #835)
 • During Consortium campaign mission #1 ("A Crime Lord Reborn"), the script would despawn the last door too early after the Dark Troopers were killed, causing it to pop out of existence.  The full opening animation and SFX now plays properly. (BUG #869)
 • During Consortium campaign mission #2 ("Remnants of the Death Star"), upon grabbing the last Data Pod, the camera would lock and remained focused on the last thing the player was looking at.  The cutscene now focuses on Zann's ship while he's speaking, making the scene less awkward. (BUG #907)
 • During Consortium campaign mission #3 ("Communications Breakdown"), Urai wouldn't have a hologram when speaking after recapturing the Reinforcement Point. (BUG #920)
@@ -166,7 +167,7 @@ ENHANCEMENTS:
 •• Reimplemented the EaW MP Galactic Conquests.  These currently don't have hero-swapped "alternate history" versions, yet.
 •• Fixed Land Alderaan's Pirate Base location.  It has been moved to prevent units getting stuck on the terrain.
 •• Fixed various Rebel and Empire campaign oddities, collision issues and script bugs (including problems owed to props and objects having their model sizes changed in FoC, f.e. the Comm. Array in Rebel campaign mission #2 "Interpreting the Network").
-•• Darth Vader was added into Rebel campaign mission #11 ("The Final Battle").  This is because it's cool (and was popular in the original mod).
+•• Darth Vader was added into Rebel campaign mission #12 ("The Final Battle").  This is because it's cool (and was popular in the original mod).
 •• The Death Star has been reimplemented for the Rebel and Empire story campaigns.  It is not available in EaW's Galactic Conquests due to engine limitations with the MPGCs.
 
 • TIE defenders can now trigger bombing runs from orbit (which it couldn't do, unlike the B-wing).  In addition, B-wings and TIE defenders no longer use the Y-wing, TIE bomber or Skipray Blastboat models when summoned for bombing runs, respectively. (BUG #777)
@@ -207,7 +208,7 @@ Gameplay Fixes:
 Interface Fixes:
 • Indigenous Mustafarians (who inhabit a volcanic planet) used the generic arctic human icon in their encyclopedia tooltip. (BUG #739) (Thanks, cha20202!)
 • The SPMA-T artillery's command bar icon was not centered.  Yes, it was annoying. (BUG #782)
-• The Imperial Observation Bunker used in Empire campaign mission #7 ("A New Weapon of War") and Rebel campaign mission #9 ("Handle with Care!") didn't have a tooltip icon.  It was likely that EaW didn't ship with one - however, the model was reused for FoC Land Skirmish as the Imperial infantry bunker, which did receive an icon, and it has been applied to the Observation Bunker. (BUG #786)
+• The Imperial Observation Bunker used in Empire campaign mission #7 ("A New Weapon of War") and Rebel campaign mission #10 ("Handle with Care!") didn't have a tooltip icon.  It was likely that EaW didn't ship with one - however, the model was reused for FoC Land Skirmish as the Imperial infantry bunker, which did receive an icon, and it has been applied to the Observation Bunker. (BUG #786)
 • The Black Sun Pirates' Skiff Brigade (used in EaW Galactic Conquests) had their tooltips messed up: they lacked a description, and their unit class was mistakenly put in their description. (BUG #814)
 • The Black Sun Pirates' Missile Soldier Team was missing a tooltip description when encountered in GC. (BUG #836)
 
@@ -230,8 +231,8 @@ Model Fixes:
 
 
 Script/Story Fixes:
-• Rebel campaign mission #3 ("Theft of the X-wings") had a mysterious bubble of revealed fog-of-war behind the Imperial Officer Academy (at the top of the map).  As it turns out, there was an invisible "reveal" marker object for testing purposes that was never removed from the map. (BUG #784)
-• Rebel campaign mission #7 ("Needle in a Haystack") had a scripting error where, upon Boba Fett finding Han Solo, Solo would ask Chewie who that bozo is; but for some reason, Solo's hologram was programmed to use the Moff/Station Commander's hologram instead of his own. (BUG #785) (Thanks, cha20202!)
+• Rebel campaign mission #3 ("Theft of the X-wing") had a mysterious bubble of revealed fog-of-war behind the Imperial Officer Academy (at the top of the map).  As it turns out, there was an invisible "reveal" marker object for testing purposes that was never removed from the map. (BUG #784)
+• Rebel campaign mission #8 ("Needle in a Haystack") had a scripting error where, upon Boba Fett finding Han Solo, Solo would ask Chewie who that bozo is; but for some reason, Solo's hologram was programmed to use the Moff/Station Commander's hologram instead of his own. (BUG #785) (Thanks, cha20202!)
 • The GC Story Event "Attrition" for both Empire and Rebels used the story's ending dialogue as the introduction dialogue upon starting.  In addition, the ending dialogue wouldn't play when completed because the dialogue wasn't implemented properly. (BUG #828)
 • The scripting for GC Story Events "Pirate Rescue," "A Favor for Lord Vader," and "Rebel Smuggler" had broken flags that didn't properly complete them after completion. (BUG #833)
 • Various notifications during the Consortium campaign (the "NOTICE:," "HINT:" or "TASK:" messages) didn't have text coloring, unlike other sections of the Consortium campaign and the entirety of the Rebel and Empire story campaigns. (BUG #843)
@@ -240,7 +241,7 @@ Script/Story Fixes:
 Structure Fixes:
 • The Empire Infantry Barracks in Skirmish would become 30% bigger upon destruction. (BUG #830)
 • Empire and Rebel Officer Academies were setup to spawn Field Commanders as garrison infantry during land battle, but were missing the behavior to actually spawn them.  They now spawn 1 Field Commander, and when killed, will respawn another after 1 min. (4.5x the time vs. all other buildings' garrisons). (BUG #743)
-• The Laser Defense Satellites used during Empire campaign mission #2 ("The Pirate Menace") were named "Missile Defense Satellites" and used the wrong firing SFX. (BUG #738)
+• The Laser Defense Satellites used during Empire campaign mission #3 ("The Pirate Menace") were named "Missile Defense Satellites" and used the wrong firing SFX. (BUG #738)
 
 
 Unit Fixes:
@@ -379,7 +380,7 @@ UFCP FIXES:
 
 FORWARDED OFFICIAL FIXES:
 • Forwarded fix from patch 1.121.826595 (11/20/23) into UniqueUnits.xml - Pod Walkers were not destroyed when using Darth Vader's Force Crush ability, and would levitate in air. (COMMIT 824b819)
-• Forwarded part of patch 1.121.826595's (11/20/23) fix into SpaceUnitsFrigates.xml - two new entries were added to fix Pirate Frigates becoming bigger when destroyed in Empire campaign mission #2 "The Pirate Menace" and Rebel campaign mission #6 "Highest Bidder."  However, the Frigate in "The Pirate Menace" cannot be killed in battle, making part of this fix effectively useless, and therefore has not been forwarded.  In addition, the fix for the Frigate becoming bigger in "Highest Bidder" was bugged, as it would still be 10% bigger when destroyed.  The regular, non-scripted Pirate Frigate would also become 10% larger when destroyed.  Both of these have been fixed without a GitHub bug report. (COMMIT 824b819)
+• Forwarded part of patch 1.121.826595's (11/20/23) fix into SpaceUnitsFrigates.xml - two new entries were added to fix Pirate Frigates becoming bigger when destroyed in Empire campaign mission #3 "The Pirate Menace" and Rebel campaign mission #7 "Highest Bidder."  However, the Frigate in "The Pirate Menace" cannot be killed in battle, making part of this fix effectively useless, and therefore has not been forwarded.  In addition, the fix for the Frigate becoming bigger in "Highest Bidder" was bugged, as it would still be 10% bigger when destroyed.  The regular, non-scripted Pirate Frigate would also become 10% larger when destroyed.  Both of these have been fixed without a GitHub bug report. (COMMIT 824b819)
 • Forwarded fix from patch 1.121.826595 (11/20/23) into MiscObjects.xml: UFCP fixed this before this patch came out; however, due to UFCP being in Development Hell, Petro had a public fix for this this before we did.  Since there were no other changes in MiscObjects.xml, this file has been deleted from UFCP to let the official fix forward properly. (COMMIT 824b819)
 • Forwarded fix from patch 1.121.859328 (10/22/24): fixes for bugs #147-#153, where space units that had land heroes attached would permanently contest objects they were next to, were removed as this was officially fixed. (COMMIT 1a0ff01)
 
