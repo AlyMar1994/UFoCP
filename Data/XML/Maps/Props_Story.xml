@@ -530,6 +530,7 @@
 		<Company_Units>UMP_Prisoner_Human, UMP_Prisoner_Human_B, UMP_Prisoner_Human_C, UMP_Prisoner_Human_D, UMP_Prisoner_Human_E</Company_Units>
 		<Max_Squad_Size>5</Max_Squad_Size>
 		<Affiliation>Neutral</Affiliation>
+		<Create_Team_Type>UMP_Prisoner_Human_Team</Create_Team_Type>
 	</Props_Story>
 
 	<Props_Story Name="UMP_Prisoner_Wookiee">
@@ -637,11 +638,50 @@
 
 	<Props_Story Name="UMP_Prisoner_Pirate_Company">
 		<Variant_Of_Existing_Type>Urban_Civilian_Team_Underworld</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Company_Units>UMP_Prisoner_Human, UMP_Prisoner_Human_B, UMP_Prisoner_Human_C, UMP_Prisoner_Human_D, UMP_Prisoner_Human_E</Company_Units>
 		<Max_Squad_Size>5</Max_Squad_Size>
 		<Affiliation>Neutral</Affiliation>
+		<Create_Team_Type>UMP_Prisoner_Human_Team</Create_Team_Type>
 	</Props_Story>
 
+		<Container Name="UMP_Prisoner_Human_Team">
+			<Text_ID>TEXT_INDIG_HUMAN_CIV</Text_ID>
+			<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS</Encyclopedia_Unit_Class>
+			<Encyclopedia_Text>TEXT_TOOLTIP_INDIG_PRISONER_CIV TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+			<Icon_Name>i_button_gmale_urban.tga</Icon_Name>
+			<Show_Name>No</Show_Name>
+			<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+			<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+			<Remove_Upon_Death>True</Remove_Upon_Death>
+
+			<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+			<MovementClass>Infantry</MovementClass>
+			<Select_Box_Scale>50</Select_Box_Scale>
+			<Max_Speed>1</Max_Speed>
+			<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+			<Space_Layer>Land</Space_Layer>
+			<UnitCollisionClass>Infantry</UnitCollisionClass>
+			<FormationSpacing>.5</FormationSpacing>
+			<MovementClass>Infantry</MovementClass>
+			<OccupationStyle>1x1</OccupationStyle>
+			<Is_Squashable>True</Is_Squashable>
+			<MovementPredictionInterval>4.0</MovementPredictionInterval>
+			<ContainerArrangement>Dartboard</ContainerArrangement>
+			<OverrideAcceleration>.1</OverrideAcceleration>
+			<OverrideDeceleration>.1</OverrideDeceleration>
+
+			<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+			<Idle_Chase_Range>50.0</Idle_Chase_Range>
+			<Guard_Chase_Range>200.0</Guard_Chase_Range>
+			<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+			<Targeting_Max_Attack_Distance>120.0</Targeting_Max_Attack_Distance>
+			<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+			<Garrison_Category>Infantry</Garrison_Category>
+			<CategoryMask>Infantry</CategoryMask>
+			<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+		</Container>
 
 
 	<Props_Story Name="UMP_DropPoint_Empire">
