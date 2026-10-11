@@ -1,0 +1,270 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+	<!-- Get the lua script rolling -->
+	<Event Name="Empire_M08_Begin">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Empire_M08_Autoresolve_Off">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>HIDE_AUTORESOLVE</Reward_Type>
+		<Prereq>Empire_M08_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Empire_M08_TarkinMoff_Conversation">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>FALAST_INTRO</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_11</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT03_MISSION_EIGHT_11</Reward_Param8> <!-- Put speech file name here -->
+		<Prereq>Empire_M08_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Empire_M08_TarkinMoff_Conversation_01">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT03_MISSION_EIGHT_11</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_11</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_M08_TarkinMoff_Conversation</Prereq>
+	</Event>
+	
+	<Event Name="Empire_M08_TarkinMoff_Conversation_01_Stop_Movie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+		<Prereq>Empire_M08_TarkinMoff_Conversation_01</Prereq>
+	</Event>
+	
+	<Event Name="Empire_M08_TarkinMoff_Conversation_02">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_20</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param8>EMPIRE_ACT03_MISSION_EIGHT_20</Reward_Param8> <!-- Put speech file name here -->
+		<Prereq>Empire_M08_TarkinMoff_Conversation_01</Prereq>
+	</Event>
+	
+	<Event Name="Empire_M08_TarkinMoff_Conversation_03">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT03_MISSION_EIGHT_20</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_20</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_M08_TarkinMoff_Conversation_02</Prereq>
+	</Event>
+	
+	<Event Name="Empire_ActIII_M09_ADD_OBJECTIVE_Defeat_Moff_Falast">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_24</Reward_Param1>
+		<Prereq>Empire_M08_TarkinMoff_Conversation_03</Prereq>
+	</Event>
+	
+	<!-- Moff is present and trapped by interdictor -->
+	<Event Name="Empire_M08_Moff_Trapped">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MOFF_FALAST_TRAPPED</Event_Param2>
+		<Prereq>Empire_M08_Begin</Prereq>
+	</Event>
+	
+	<Event Name="Empire_M08_Moff_Trapped_Hint">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_17</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7><!-- HINT color coding - green -->
+		<Prereq>Empire_M08_Moff_Trapped</Prereq>
+	</Event>
+	
+	<Event Name="Empire_M08_Prevent_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Empire_M08_Moff_Trapped</Prereq>
+	</Event>
+		
+<!-- Dialog etc.! -->
+<!-- Let the lua script spin its wheels in this state until we hit a victory condition -->	
+	<Event Name="Empire_M08_Battle_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Prereq>Empire_M08_Prevent_Victory</Prereq>
+	</Event>
+		
+<!-- Repeatable event for player losing an interdictor cruiser: possibly play V/O or text? -->
+	<Event Name="Empire_M08_Interdictor_Lost">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>INTERDICTOR_CRUISER</Event_Param1>
+		<Perpetual>True</Perpetual>
+		<Prereq>Empire_M08_Battle_Start</Prereq>
+	</Event>
+			
+<!-- Uh oh!  The Moff has managed to get away -->
+	<Event Name="Empire_M08_Failure_Lock_Input">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MOFF_FALAST_RUNS</Event_Param2>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Empire_M08_Begin</Prereq>
+	</Event>
+	
+<!-- jdg FAILING mission objectives here 
+TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_24
+Defeat Moff Falast.
+-->
+	<Event Name="Empire_ActIII_M09_FAIL_OBJECTIVE_Defeat_Moff_Falast">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_24</Reward_Param1>
+		<Prereq>Empire_M08_Failure_Lock_Input</Prereq>
+	</Event>
+	
+	<Event Name="Empire_ActIII_M09_FAIL_OBJECTIVE_Allow_Victory">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ADD_OBJECTIVE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_23</Reward_Param1>
+		<Prereq>Empire_M08_Failure_Lock_Input</Prereq>
+	</Event>
+	
+<!-- Dialog etc. -->
+	<Event Name="Empire_M08_Moff_Escaped_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_14</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>EMPIRE_ACT03_MISSION_EIGHT_14</Reward_Param8> <!-- Put speech file name here -->
+		<Prereq>Empire_M08_Failure_Lock_Input Empire_M08_TarkinMoff_Conversation_03</Prereq>
+	</Event>
+	
+	<Event Name="Empire_M08_Moff_Escaped_Dialog_02">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT03_MISSION_EIGHT_14</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_14</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_M08_Moff_Escaped_Dialog</Prereq>
+	</Event>
+		
+	<Event Name="Empire_M08_Moff_Trapped_Hint_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_17</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Reward_Param7>Hint</Reward_Param7><!-- HINT color coding - green -->
+		<Prereq>Empire_M08_Moff_Escaped_Dialog_02</Prereq>
+	</Event>
+		
+<!-- The Moff is gone, but there may be other forces.  Remove the block on victory and let the battle go on -->
+	<Event Name="Empire_M08_Failure_Unlock_Input">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>0</Reward_Param1>
+		<Prereq>Empire_M08_Failure_Lock_Input</Prereq>
+	</Event>
+		
+	<Event Name="Empire_M08_Failure_Allow_Win">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Empire_M08_Failure_Unlock_Input</Prereq>
+	</Event>
+	
+	<Event Name="Empire_M08_Failure_Check_Win">
+		<Event_Type>STORY_VICTORY</Event_Type>
+		<Event_Param1>EMPIRE</Event_Param1>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_23</Reward_Param1>
+		<Prereq>Empire_M08_Failure_Allow_Win</Prereq>
+	</Event>
+	
+<!-- Moff's ship has been sufficiently disabled -->
+	<Event Name="Empire_M08_Moff_Success_Lock_Input">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>MOFF_FALAST_DISABLED</Event_Param2>
+		<Reward_Type>LOCK_CONTROLS</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Empire_M08_Moff_Trapped</Prereq>
+	</Event>
+	
+<!-- jdg COMPLETEING mission objectives here 
+TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_24
+Defeat Moff Falast.
+-->
+	<Event Name="Empire_ActIII_M09_COMPLETE_OBJECTIVE_Defeat_Moff_Falast">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>OBJECTIVE_COMPLETE</Reward_Type>
+		<Reward_Param1>TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_24</Reward_Param1>
+		<Prereq>Empire_M08_Moff_Success_Lock_Input</Prereq>
+	</Event>
+	
+<!-- Dialog etc. -->
+	<Event Name="Empire_M08_Moff_Success_Dialog_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_12</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>EMPIRE_ACT03_MISSION_EIGHT_12</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Emperor_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Empire_M08_Moff_Success_Lock_Input</Prereq>
+	</Event>
+	
+	<Event Name="Empire_M08_Moff_Success_Dialog_02">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT03_MISSION_EIGHT_12</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_12</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_M08_Moff_Success_Dialog_01</Prereq>
+	</Event>
+
+	<Event Name="Empire_M08_Moff_Success_Dialog_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_21</Reward_Param1>
+		<Reward_Param2>-1</Reward_Param2>
+		<Reward_Param8>EMPIRE_ACT03_MISSION_EIGHT_21</Reward_Param8> <!-- Put speech file name here -->
+		<Reward_Param9>Tarkin_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Empire_M08_Moff_Success_Dialog_02</Prereq>
+	</Event>
+	
+	<Event Name="Empire_M08_Moff_Success_Dialog_04">
+		<Event_Type>STORY_SPEECH_DONE</Event_Type>
+		<Event_Param1>EMPIRE_ACT03_MISSION_EIGHT_21</Event_Param1>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_21</Reward_Param1>
+		<Reward_Param4>remove</Reward_Param4>
+		<Prereq>Empire_M08_Moff_Success_Dialog_03</Prereq>
+	</Event>
+
+<!-- Force Empire victory -->
+	<Event Name="Empire_M08_Success_Allow_Win">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>ENABLE_VICTORY</Reward_Type>
+		<Reward_Param1>1</Reward_Param1>
+		<Prereq>Empire_M08_Moff_Success_Dialog_04</Prereq>
+	</Event>
+	
+	<Event Name="Empire_M08_Set_Falast_Destroyed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>INCREMENT_FLAG</Reward_Type>
+		<Reward_Param1>Falast_Destroyed</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_M08_Success_Allow_Win</Prereq>
+	</Event>
+	
+	<Event Name="Empire_M08_Force_Win">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>EMPIRE</Reward_Param1>
+		<Prereq>Empire_M08_Success_Allow_Win</Prereq>
+	</Event>
+
+</Story>
