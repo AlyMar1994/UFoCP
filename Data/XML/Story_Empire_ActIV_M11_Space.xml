@@ -44,7 +44,9 @@
 
 <!-- Preliminary Dialog -->
 
-	<!-- Officer Speaks TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_04 Imperial Officer: A rebel fleet has just taken off from the surface of the planet, My Lord!-->
+	<!-- Officer Speaks
+	TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_04
+	Imperial Officer: A rebel fleet has just taken off from the surface of the planet, My Lord! -->
 	<Event Name="Empire_ActIV_M11_Intro_Dialog_00">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>3</Event_Param1>
@@ -68,7 +70,9 @@
 				<Prereq>Empire_ActIV_M11_Intro_Dialog_00</Prereq>
 			</Event>
 
-	<!-- Vader Speaks 2 TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_05 Darth Vader: Fools! They won't escape the end of Alderaan!-->
+	<!-- Vader Speaks
+	TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_05
+	Darth Vader: Fools! They won't escape the end of Alderaan! -->
 	<Event Name="Empire_ActIV_M11_Intro_Dialog_01">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT04_MISSION_ELEVEN_04</Event_Param1>
@@ -100,25 +104,31 @@
 				<Prereq>Empire_ActIV_M11_Intro_Dialog_01</Prereq>
 			</Event>
 
-	<!-- End of Dialog -->
-	<Event Name="Empire_ActIV_M11_Intro_Dialog_02">
-		<Event_Type>STORY_SPEECH_DONE</Event_Type>
-		<Event_Param1>EMPIRE_ACT04_MISSION_ELEVEN_05</Event_Param1>
-		<Reward_Type>SCREEN_TEXT</Reward_Type>
-		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_05</Reward_Param1>
-		<Reward_Param4>remove</Reward_Param4>
-		<Prereq>Empire_ActIV_M11_Intro_Dialog_01c</Prereq>
-	</Event>
+				<!-- End of Dialog -->
+				<Event Name="Empire_ActIV_M11_Intro_Dialog_02">
+					<Event_Type>STORY_SPEECH_DONE</Event_Type>
+					<Event_Param1>EMPIRE_ACT04_MISSION_ELEVEN_05</Event_Param1>
+					<Reward_Type>SCREEN_TEXT</Reward_Type>
+					<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT04_MISSION_ELEVEN_05</Reward_Param1>
+					<Reward_Param4>remove</Reward_Param4>
+					<Prereq>Empire_ActIV_M11_Intro_Dialog_01c</Prereq>
+				</Event>
 
-	<!-- TASK text here -  TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_06 TASK:  Keep your fleet alive long enough to fire the Death Star-->
-			<Event Name="Empire_ActIV_M11_Intro_Dialog_02b">
-				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>SCREEN_TEXT</Reward_Type>
-				<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_06</Reward_Param1>
-				<Reward_Param2>10</Reward_Param2>
-				<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
-				<Prereq>Empire_ActIV_M11_Intro_Dialog_02</Prereq>
-			</Event>
+					<Event Name="Empire_ActIV_M11_Intro_Dialog_03">
+						<Event_Type>STORY_TRIGGER</Event_Type>
+						<Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+						<Prereq>Empire_ActIV_M11_Intro_Dialog_02</Prereq>
+					</Event>
+
+				<!-- TASK text here -  TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_06 TASK:  Keep your fleet alive long enough to fire the Death Star-->
+						<Event Name="Empire_ActIV_M11_Intro_Dialog_02b">
+							<Event_Type>STORY_TRIGGER</Event_Type>
+							<Reward_Type>SCREEN_TEXT</Reward_Type>
+							<Reward_Param1>TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_06</Reward_Param1>
+							<Reward_Param2>10</Reward_Param2>
+							<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+							<Prereq>Empire_ActIV_M11_Intro_Dialog_02</Prereq>
+						</Event>
 
 <!-- jdg 9/3/05 ADDING wait mission objectives here
 TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_21			Keep your feet alive until the Death Star is in range, then fire the Death Star.-->
