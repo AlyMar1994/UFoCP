@@ -1,12 +1,6 @@
-﻿<?xml version="1.0" ?>
-
-
-
+﻿<?xml version="1.0"?>
 <Story>
-
-
 <!-- Preliminary Setup -->
-
 	<Event Name="Empire_A04M11_Begin">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
@@ -17,7 +11,7 @@
 		<Reward_Type>HIDE_AUTORESOLVE</Reward_Type>
 		<Prereq>Empire_A04M11_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_A04M11_Prevent_Retreat">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>DISABLE_RETREAT</Reward_Type>
@@ -115,7 +109,7 @@
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>Empire_ActIV_M11_Intro_Dialog_01c</Prereq>
 	</Event>
-	
+
 	<!-- TASK text here -  TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_06 TASK:  Keep your fleet alive long enough to fire the Death Star-->
 			<Event Name="Empire_ActIV_M11_Intro_Dialog_02b">
 				<Event_Type>STORY_TRIGGER</Event_Type>
@@ -125,8 +119,8 @@
 				<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
 				<Prereq>Empire_ActIV_M11_Intro_Dialog_02</Prereq>
 			</Event>
-			
-<!-- jdg 9/3/05 ADDING wait mission objectives here 
+
+<!-- jdg 9/3/05 ADDING wait mission objectives here
 TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_21			Keep your feet alive until the Death Star is in range, then fire the Death Star.-->
 
 		<Event Name="Empire_Mission11_ADD_OBJECTIVE_Keep_Fleet_Alive">
@@ -156,7 +150,7 @@ TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_21			Keep your feet alive until the Death
 			<Reward_Param1>Empire</Reward_Param1>
 			<Prereq>Empire_A04M11_Alderaan_Destroyed_Notification</Prereq>
 		</Event>
-	
+
 		<Event Name="Empire_A04M011_Increment_Win">
 			<Event_Type>STORY_VICTORY</Event_Type>
 			<Event_Param1>EMPIRE</Event_Param1>
@@ -170,8 +164,6 @@ TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_21			Keep your feet alive until the Death
 
 
 <!-- All Empire ships destroyed before Death Star fires is a loss -->
-
-
 	<Event Name="Empire_A04M10_All_Empire_Destroyed">
 		<Event_Type>STORY_CHECK_DESTROYED</Event_Type>
 		<Event_Param1>Empire</Event_Param1>
@@ -180,8 +172,4 @@ TEXT_STORY_EMPIRE_ACT04_MISSION_ELEVEN_21			Keep your feet alive until the Death
 		<Reward_Param1>REBEL</Reward_Param1>
 		<Prereq>Empire_A04M11_Begin</Prereq>
 	</Event>
-
-
-
-
 </Story>
