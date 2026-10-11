@@ -136,6 +136,7 @@ Structure Fixes:
 Unit Fixes:
 • The Hound's Tooth and IG-2000 didn't have the DAMAGE_TRACKING unit behavior, leading to some incorrect AI behavior. (BUG #898)
 • Fix Garven Dreis (Red Leader) being the only one to have the "ABILITY_COUNTDOWN" behavior on his unit in Red Squadron. (BUG #902)
+• Fix the IPV-1s used by Jabba's Criminal Empire having team coloring, which was exclusively meant for Skirmish. (BUG #924)
 
 
 

@@ -103,7 +103,7 @@
 
 	<!-- Expansion Units: Neutral -->
 	<File>Units\Units_Space_Neutral_Eclipse.xml</File>
-	<File>Hutt_Faction_Units.xml</File>
+	<File>Units\Hutt_Faction_Units.xml</File>
 	<File>GroundBuildablesHutts.xml</File>
 
 
@@ -111,7 +111,7 @@
 	<File>Maps\SpaceProps_Underworld.xml</File>
 	<File>Units\Underworld_TransportUnits.xml</File>
 	<File>Props_Felucia.xml</File>
-	<File>GroundBuildablesUnderworld.xml</File>
+	<File>Maps\GroundBuildablesUnderworld.xml</File>
 	<File>Maps\GroundStructures_Underworld.xml</File>
 	<File>Multiplayer_Structure_Markers.XML</File>
 	<File>UpgradeObjects_Underworld.XML</File>
