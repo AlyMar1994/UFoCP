@@ -6540,14 +6540,6 @@
 		<Prereq>Underworld_Mission_07_Completed</Prereq>
 	</Event>
 
-			<Event Name="Unlock_Corruption_Bespin">
-				<Event_Type>STORY_TRIGGER</Event_Type>
-				<Reward_Type>RESTRICT_CORRUPTION</Reward_Type>
-				<Reward_Param1>Bespin_Story</Reward_Param1>
-				<Reward_Param2>0</Reward_Param2>
-				<Prereq>Mission_Unlock_Bespin</Prereq>
-			</Event>
-
 			<Event Name="Underworld_Bespin_Invasion_Unlock">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>ENABLE_INVASION</Reward_Type>
@@ -6556,7 +6548,7 @@
 				<Prereq>Mission_Unlock_Bespin</Prereq>
 			</Event>
 
-    <Event Name="UM07_Spawn_IG88">
+	<Event Name="UM07_Spawn_IG88">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>IG88_Team</Reward_Param1>
@@ -6807,6 +6799,14 @@
 		<Reward_Param2>Ryloth</Reward_Param2>
 		<Prereq>ActII_Ship_Interlude_Bonus_Text</Prereq>
 	</Event>
+
+		<Event Name="Unlock_Corruption_Bespin">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>RESTRICT_CORRUPTION</Reward_Type>
+			<Reward_Param1>Bespin_Story</Reward_Param1>
+			<Reward_Param2>0</Reward_Param2>
+			<Prereq>Give_Free_Vengeance</Prereq>
+		</Event>
 
 
 

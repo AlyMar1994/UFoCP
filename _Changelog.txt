@@ -126,6 +126,7 @@ Script/Story Fixes:
 • During Consortium campaign mission #3 ("Communications Breakdown"), Urai wouldn't have a hologram when speaking after recapturing the Reinforcement Point. (BUG #920)
 • The Door Control Node consoles during Consortium campaign mission #4 ("Visions of the Past") wouldn't swap models when destroyed.  The console prop definition was a completely separate, duplicated prop without the proper damage checks. (BUG #844)
 • During Consortium campaign mission #5 ("A Dark Ally"), the game could trigger a premature mission victory when all Imperial units are killed.  Tactical victories were re-enabled after the introduction cutscene was finished, instead of at the end of the finale's cutscene. (BUG #905)
+• After Consortium campaign mission #6 ("Cloud City Conflict"), the Consortium could corrupt Bespin despite not having blackmailed Mandalore's engineers to develop the Vengeance Frigate yet.  Corruption is disabled until the Frigate is unlocked. (BUG #919)
 • The Defiler during the Consortium campaign's Honoghr corruption mission didn't have a hologram when talking. (BUG #866)
 • Tyber Zann's dialogue during Space Bespin Piracy would be cut off due to mistimed dialogue and victory triggers. (BUG #882)
 
