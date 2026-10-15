@@ -142,6 +142,7 @@ Unit Fixes:
 • Fixed the Hound's Tooth and IG-2000 not using the "DAMAGE_TRACKING" unit behavior, leading to some incorrect AI behavior. (BUG #898)
 • Fixed Garven Dreis (Red Leader) being the only one to have the "ABILITY_COUNTDOWN" behavior on his unit in Red Squadron. (BUG #902)
 • Fixed the IPV-1s used by Jabba's Criminal Empire having team coloring, which was exclusively meant for Skirmish. (BUG #924)
+• Fixed the Millennium Falcon not using the "DUMMY_STARSHIP" behavior, despite its variants doing so. (BUG #927)
 
 
 
