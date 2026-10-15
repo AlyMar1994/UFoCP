@@ -1221,6 +1221,7 @@
 		<Behavior>TRANSPORT</Behavior>
 		<SpaceBehavior>
 			ABILITY_COUNTDOWN,
+			DUMMY_STARSHIP,
 			FIGHTER_LOCOMOTOR,
 			SELECTABLE,
 			TARGETING,
@@ -1513,7 +1514,7 @@
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Behavior>TRANSPORT</Behavior>
-		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX</SpaceBehavior>
+		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, DUMMY_STARSHIP, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, AMBIENT_SFX</SpaceBehavior>
 
 		<Score_Cost_Credits>12000</Score_Cost_Credits>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
