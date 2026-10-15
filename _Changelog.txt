@@ -58,6 +58,7 @@ UFCP FIXES:
 • Fixed an oversight where the AI would try to attack a marker used to fix BUG #679. (BUG #899)
 • The Canderous Assault Tank's model size recieved a 5% increase to try and match vanilla's a bit closer. (BUG #390)
 • Fixed multiple cases where the Death Stars would target the moons of planets instead of the planets themselves. (BUG #909)
+• Fixed Nal Hutta in the Empire and Rebel campaigns having the Black Sun and Hutts fight each other. (BUG #922)
 • Modified the AI's "must jam missiles for X time" stipulation while using the new Missile Jamming Field AIto 60 seconds (from 90) to improve their repositioning. (BUG #774)
 
 

@@ -15,7 +15,7 @@
 
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8></Reward_Param8>
 		<Reward_Param9>_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -41,14 +41,14 @@
 		<Event_Param1>0</Event_Param1>
 		<Prereq>Empire_ActIII_Check_Act_Counter</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Always_Lock_Death_Star2">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>Death_Star_II</Reward_Param1>
 		<Prereq>Empire_ActIII_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Always_Lock_Executor">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
@@ -205,11 +205,11 @@
 	<Event Name="Empire_ActII_Reveal_Act3_04">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REVEAL_PLANET</Reward_Type>
-		<Reward_Param1>NalHutta</Reward_Param1>
+		<Reward_Param1>NalHutta_Story_1</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActIII_Begin</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActII_Reveal_Act3_05">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REVEAL_PLANET</Reward_Type>
@@ -270,7 +270,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>All_Empire_ActI_Act3_Revealed All_Empire_ActII_Revealed_Act3 All_Empire_ActIII_Revealed</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActIII_Activate_Pirate_AI">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SWITCH_CONTROL</Reward_Type>
@@ -294,14 +294,14 @@
 		<Event_Param1>Jabiim</Event_Param1>
 		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
 	</Event>
-	
+
 			<Event Name="Empire_ActIII_Mission_Seven_RemoveFlash_Jabiim">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
 				<Reward_Param1>Jabim_GUI_Flash</Reward_Param1>
 				<Prereq>Empire_ActIII_Mission_Seven_02</Prereq>
 			</Event>
-			
+
 			<!-- COMPLETE holocron for jabim -->
 				<Event Name="Empire_ActII_Holocron_Jabim_Entry_Completed">
 					<Event_Type>STORY_TRIGGER</Event_Type>
@@ -316,7 +316,7 @@
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_SEVEN_04</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -331,13 +331,13 @@
 		<Reward_Param4>remove</Reward_Param4>
 		<Prereq>ActIII_M07_End_Dialog_00</Prereq>
 	</Event>
-		
+
 <!-- Stormtrooper Speaks 1 -->
 	<Event Name="ActIII_M07_End_Dialog_01">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_SEVEN_05</Reward_Param8>
 		<Reward_Param9>Stormtrooper_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -358,7 +358,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_SEVEN_06</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -379,7 +379,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_SEVEN_07</Reward_Param8>
 		<Reward_Param9>Stormtrooper_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -400,7 +400,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_SEVEN_08</Reward_Param8>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -421,7 +421,7 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_SEVEN_09</Reward_Param8>
 		<Reward_Param9>Stormtrooper_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -456,13 +456,13 @@
 		<Event_Param1>4</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_10</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param9>Vader_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_SEVEN_10</Reward_Param8> <!-- Put speech file name here -->
 		<Prereq>ActIII_M07_End_Dialog_05c_Stop_Movie</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_A03M08_Intro_Dialog_00_Remove">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT03_MISSION_SEVEN_10</Event_Param1>
@@ -477,13 +477,13 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_11</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param9>Emperor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_SEVEN_11</Reward_Param8> <!-- Put speech file name here -->
 		<Prereq>Empire_A03M08_Intro_Dialog_00_Remove</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_A03M08_Intro_Dialog_01_Remove">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT03_MISSION_SEVEN_11</Event_Param1>
@@ -498,13 +498,13 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_12</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_SEVEN_12</Reward_Param8> <!-- Put speech file name here -->
 		<Prereq>Empire_A03M08_Intro_Dialog_01_Remove</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_A03M08_Intro_Dialog_02_Remove">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT03_MISSION_SEVEN_12</Event_Param1>
@@ -519,13 +519,13 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_SEVEN_13</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param9>Emperor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_SEVEN_13</Reward_Param8> <!-- Put speech file name here -->
 		<Prereq>Empire_A03M08_Intro_Dialog_02_Remove</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_A03M08_Intro_Dialog_03_Remove">
 		<Event_Type>STORY_SPEECH_DONE</Event_Type>
 		<Event_Param1>EMPIRE_ACT03_MISSION_SEVEN_13</Event_Param1>
@@ -541,7 +541,7 @@
 		<Prereq>Empire_A03M08_Intro_Dialog_03_Remove</Prereq>
 	</Event>
 
-<!-- Add the Galactic Mission, Reveal and Flash Atzerri, Engage Falast Mission Start -->	
+<!-- Add the Galactic Mission, Reveal and Flash Atzerri, Engage Falast Mission Start -->
 	<Event Name="Empire_ActIII_Reveal_Atzerri">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REVEAL_PLANET</Reward_Type>
@@ -558,7 +558,7 @@
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_ActIII_Reveal_Atzerri</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_ActIII_Mission_Eight_Flash_Atzerri">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>FLASH_PLANET_GUI</Reward_Type>
@@ -568,7 +568,7 @@
 	</Event>
 
 <!-- TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_16
-Task: Build a fleet.  
+Task: Build a fleet.
 Take it to Atzerri to confront the traitorous Moff Kalast.  -->
 	<Event Name="Empire_ActIII_Mission_Eight_Atzerri_Task">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -578,13 +578,13 @@ Take it to Atzerri to confront the traitorous Moff Kalast.  -->
 		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
 		<Prereq>Empire_ActIII_Mission_Eight_Flash_Atzerri</Prereq>
 	</Event>
-	
+
 	<!--ADD holocron for mof kalast-->
 	<Event Name="Empire_ActIII_Holocron_MofKalst_Entry">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Empire_Story_Campaign</Story_Dialog>
 		<Story_Chapter>8</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Empire_ActIII_Holocron_MofKalst_Entry</Story_Tag>
 		<Prereq>Empire_ActIII_Mission_Eight_Atzerri_Task</Prereq>
 	</Event>
@@ -645,7 +645,7 @@ Take it to Atzerri to confront the traitorous Moff Kalast.  -->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_04</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_EIGHT_04</Reward_Param8>
 		<Reward_Param9>Commander_Moff_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -666,7 +666,7 @@ Take it to Atzerri to confront the traitorous Moff Kalast.  -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_05</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_EIGHT_05</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -695,14 +695,14 @@ Take it to Atzerri to confront the traitorous Moff Kalast.  -->
 		<Reward_Param2>CORUSCANT</Reward_Param2>
 		<Prereq>Empire_ActIII_M08_Interdictor_Dialog_06_Stop_Movie</Prereq>
 	</Event>
-	
+
 <!-- Give the lua script a state to do its magic -->
 	<Event Name="Empire_ActIII_M08_Periodic_Spawn_Falast">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Prereq>Empire_ActIII_M08_Free_Interdictor</Prereq>
 	</Event>
 
-<!-- Ensure Moff Kalast's tactical script fires when a space battle engages -->	
+<!-- Ensure Moff Kalast's tactical script fires when a space battle engages -->
 	<Event Name="Empire_ActIII_M08_Enter_Any_Space_Battle_02">
 		<Event_Type>STORY_SPACE_TACTICAL</Event_Type>
 		<Event_Param1>Story_Plots_Empire_ActIII_M08_SPACE.xml</Event_Param1>
@@ -730,7 +730,7 @@ Take it to Atzerri to confront the traitorous Moff Kalast.  -->
 		<Perpetual>true</Perpetual>
 		<Branch>KALAST_MISSION_BRANCH</Branch>
 	</Event>
-	
+
 <!-- Flash Interdictor_Cruiser on galactic -->
 	<Event Name="Empire_Act3_Mission_8_Flash_Interdictor_Cruiser">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -739,7 +739,7 @@ Take it to Atzerri to confront the traitorous Moff Kalast.  -->
 		<Reward_Param2>Interdictor_Cruiser_Flash</Reward_Param2>
 		<Prereq>Empire_ActIII_M08_Free_Interdictor</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act3_Mission_8_RemoveFlash_Interdictor_Cruiser">
 		<Event_Type>STORY_GENERIC</Event_Type>
 		<Event_Param1>click</Event_Param1>
@@ -747,9 +747,9 @@ Take it to Atzerri to confront the traitorous Moff Kalast.  -->
 		<Reward_Param1>Interdictor_Cruiser_Flash</Reward_Param1>
 		<Prereq>Empire_Act3_Mission_8_Flash_Interdictor_Cruiser</Prereq>
 	</Event>
-	
+
 <!-- TEXT_STORY_EMPIRE_ACT03_MISSION_EIGHT_02
-Task: Build a fleet.  Include the Interdictor provided at Coruscant, 
+Task: Build a fleet.  Include the Interdictor provided at Coruscant,
 then locate and defeat Moff Kalast.  -->
 	<Event Name="Empire_ActIII_M08_Free_Interdictor_Task_Line">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -776,7 +776,7 @@ then locate and defeat Moff Kalast.  -->
 		<Event_Param3>1</Event_Param3>
 		<Reward_Type>INCREMENT_FLAG</Reward_Type>
 		<Reward_Param1>Interdictor_Destroyed</Reward_Param1>
-		<Reward_Param2>1</Reward_Param2>		
+		<Reward_Param2>1</Reward_Param2>
 		<Branch>Interdictor_Replacement</Branch>
 	</Event>
 
@@ -795,7 +795,7 @@ then locate and defeat Moff Kalast.  -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>INCREMENT_FLAG</Reward_Type>
 		<Reward_Param1>Interdictor_Destroyed</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>		
+		<Reward_Param2>-1</Reward_Param2>
 		<Prereq>Empire_ActIII_M08_Replace_Interdictor_00</Prereq>
 		<Branch>Interdictor_Replacement</Branch>
 	</Event>
@@ -806,7 +806,7 @@ then locate and defeat Moff Kalast.  -->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_09</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_EIGHT_09</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -950,7 +950,7 @@ then locate and defeat Moff Kalast.  -->
 		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
 		<Prereq>Empire_ActIII_M08_Set_Falast_Destroy_Flag</Prereq>
 	</Event>
-	
+
 	<!-- COMPLETE holocron for mof kalast -->
 				<Event Name="Empire_ActIII_Holocron_MofKalst_Entry_Completed">
 					<Event_Type>STORY_TRIGGER</Event_Type>
@@ -997,7 +997,7 @@ then locate and defeat Moff Kalast.  -->
 		<Event_Param1>2</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_06</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_EIGHT_06</Reward_Param8>
 		<Reward_Param9>Emperor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1018,7 +1018,7 @@ then locate and defeat Moff Kalast.  -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_07</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_EIGHT_07</Reward_Param8>
 		<Reward_Param9>Tarkin_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1039,7 +1039,7 @@ then locate and defeat Moff Kalast.  -->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_EIGHT_08</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_EIGHT_08</Reward_Param8>
 		<Reward_Param9>Emperor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1093,7 +1093,7 @@ then locate and defeat Moff Kalast.  -->
 		<Event_Param1>Bothawui</Event_Param1>
 		<Reward_Type>MULTIMEDIA</Reward_Type>
 		<Reward_Param1>TEXT_SPEECH_EMPIRE_ACT03_MISSION_NINE_14</Reward_Param1>
-		<Reward_Param2>-1</Reward_Param2>	
+		<Reward_Param2>-1</Reward_Param2>
 		<Reward_Param8>EMPIRE_ACT03_MISSION_NINE_14</Reward_Param8> <!-- Put speech file name here -->
 		<Reward_Param9>Emperor_Loop</Reward_Param9>
 		<Reward_Param10>1</Reward_Param10>
@@ -1139,13 +1139,13 @@ Task: Escort the Emperor to Bothawui and show the Bothans of the error of their 
 		<Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
 		<Prereq>Empire_ActIII_Mission_Nine_Flash_Bothawui</Prereq>
 	</Event>
-	
+
 	<!--ADD holocron for mof kalast-->
 	<Event Name="Empire_ActIII_Holocron_Bothawui_Entry">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Empire_Story_Campaign</Story_Dialog>
 		<Story_Chapter>9</Story_Chapter>
-		<Story_Dialog_Popup>False</Story_Dialog_Popup>	
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
 		<Story_Tag>Empire_ActIII_Holocron_Bothawui_Entry</Story_Tag>
 		<Prereq>Empire_ActIII_Mission_Nine_Task_Bothawui</Prereq>
 	</Event>
@@ -1158,7 +1158,7 @@ Task: Escort the Emperor to Bothawui and show the Bothans of the error of their 
 		<Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Empire_ActIII_Holocron_Bothawui_Entry</Prereq>
 	</Event>
-	
+
 <!-- Flash Emperor on galactic -->
 	<Event Name="Empire_Act3_Mission_9_Flash_Emperor">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -1167,7 +1167,7 @@ Task: Escort the Emperor to Bothawui and show the Bothans of the error of their 
 		<Reward_Param2>Emperor_Palpatine_Team_Flash</Reward_Param2>
 		<Prereq>Empire_ActIII_Mission_Nine_Spawn_Emperor</Prereq>
 	</Event>
-	
+
 	<Event Name="Empire_Act3_Mission_9_RemoveFlash_Emperor">
 		<Event_Type>STORY_GENERIC</Event_Type>
 		<Event_Param1>click</Event_Param1>
@@ -1245,14 +1245,14 @@ Task: Escort the Emperor to Bothawui and show the Bothans of the error of their 
 		<Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
 		<Prereq>Empire_ActIII_Mission_Nine_01</Prereq>
 	</Event>
-	
+
 		<Event Name="Empire_ActIII_Mission_Nine_RemoveFlash_Bothawui">
 			<Event_Type>STORY_TRIGGER</Event_Type>
 			<Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
 			<Reward_Param1>Bothawui_GUI_Flash</Reward_Param1>
 			<Prereq>Empire_ActIII_Mission_Nine_02</Prereq>
 		</Event>
-		
+
 		<!-- COMPLETE holocron for bothawui -->
 				<Event Name="Empire_ActIII_Holocron_Bothawui_Entry_Completed">
 					<Event_Type>STORY_TRIGGER</Event_Type>

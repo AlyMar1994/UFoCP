@@ -186,7 +186,7 @@
 	<Event Name="Rebel_ActII_Reveal_ActIV_03">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REVEAL_PLANET</Reward_Type>
-		<Reward_Param1>NalHutta</Reward_Param1>
+		<Reward_Param1>NalHutta_Story_1</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActIV_Begin</Prereq>
 	</Event>

@@ -1204,7 +1204,7 @@ Antilles: Great.  In the meantime, we'll see what else the Empire is up to in th
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>6</Event_Param1>
 		<Reward_Type>REVEAL_PLANET</Reward_Type>
-		<Reward_Param1>NalHutta</Reward_Param1>
+		<Reward_Param1>NalHutta_Story_1</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Rebel_ActII_Mission_Five_Slice_Initiated_03a</Prereq>
 	</Event>

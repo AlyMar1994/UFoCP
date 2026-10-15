@@ -4533,6 +4533,7 @@
 		<Additional_Population_Capacity>5</Additional_Population_Capacity>
 	</Planet>
 
+	<!-- AM1994 (10-15-26): Hal Hutta for Consortium campaign. -->
 	<Planet Name="NalHutta_Story">
 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
@@ -4624,6 +4625,97 @@
 		</Abilities>
 	</Planet>
 
+	<!-- AM1994 (10-15-26): Hal Hutta for Empire/Rebel campaigns. -->
+	<Planet Name="NalHutta_Story_1">
+		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
+		<Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.6</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius>18</Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>No</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>Yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Swamp</Terrain>
+		<Planet_Credit_Value>125</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>12</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>140.0, -200.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>8</Special_Structures_Land>
+		<Special_Structures_Space>3</Special_Structures_Space>
+		<Max_Space_Base>5</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
+
+		<Space_Tactical_Map>_Space_Planet_NalHutta_01.ted</Space_Tactical_Map>
+		<Land_Tactical_Map>_Land_Planet_NalHutta_Story_1_02.ted</Land_Tactical_Map>
+
+		<Planet_Capture_Bonus_Reward>2400</Planet_Capture_Bonus_Reward>
+		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
+		<Planet_Black_Market_Influences>Yes</Planet_Black_Market_Influences>
+		<Planet_Black_Market_Modifier>-1000</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_NALHUTTA_INFO_POP</Describe_Population>
+		<Describe_Wildlife>TEXT_PLANET_NALHUTTA_INFO_WL</Describe_Wildlife>
+		<Describe_Terrain>TEXT_PLANET_NALHUTTA_INFO_TER</Describe_Terrain>
+		<Describe_Weather>TEXT_PLANET_NALHUTTA_INFO_WEA</Describe_Weather>
+		<Describe_Tactical>TEXT_PLANET_NALHUTTA_INFO_TAC_00</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_NALHUTTA_INFO_ADV_00</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_NALHUTTA_INFO_HIS_01</Describe_History>
+
+		<Planet_Ability_Name>TEXT_PLANET_NALHUTTA_INFO_TAC_00</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_PLANET_NALHUTTA_INFO_ADV_00</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_PLANET_NALHUTTA_ENCYC_02</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_Bounty.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_hutt.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>5</Additional_Population_Capacity>
+
+		<Potential_Indigenous_Power>Hutt_Civilian, 360</Potential_Indigenous_Power>
+
+		<Corruption_1_Type>Corruption_Kidnapping</Corruption_1_Type>
+		<Corruption_1_Credit_Cost>1000</Corruption_1_Credit_Cost>
+		<Corruption_1_Required_Unit_Type>Urai_Fen</Corruption_1_Required_Unit_Type>
+		<Corruption_1_Required_Unit_Count>1</Corruption_1_Required_Unit_Count>
+		<Corruption_1_Tactical_Game_Mode>Land</Corruption_1_Tactical_Game_Mode>
+		<Corruption_1_Tactical_Map_Name>_Land_Planet_NalHutta_Kidnapping.ted</Corruption_1_Tactical_Map_Name>
+		<Corruption_1_Tactical_Script_Name>Story_Plots_Underworld_NalHutta_Kidnapping.xml</Corruption_1_Tactical_Script_Name>
+		<Corruption_1_Mission_Commencing_Speech_Event>NALHUTTA_KID_LOAD_COR40_01</Corruption_1_Mission_Commencing_Speech_Event>
+		<Corruption_1_Success_Speech_Event>NALHUTTA_KID_VICTORY_COR40_03</Corruption_1_Success_Speech_Event>
+		<Corruption_1_Success_Bink_Hologram_Name>Urai_Loop</Corruption_1_Success_Bink_Hologram_Name>
+		<Corruption_1_Failure_Speech_Event>NALHUTTA_KID_LOSS_COR40_04</Corruption_1_Failure_Speech_Event>
+		<Corruption_1_Failure_Bink_Hologram_Name>Urai_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_NALHUTTA_STORY_KIDNAP</Corruption_1_Mission_Briefing>
+		<Corruption_1_Success_Credit_Bonus>8000</Corruption_1_Success_Credit_Bonus>
+
+		<Corruption_2_Type>Corruption_Corrupt_Militia</Corruption_2_Type>
+		<Corruption_2_Credit_Cost>1500</Corruption_2_Credit_Cost>
+		<Corruption_2_Required_Mission_Type>Corruption_Bribery</Corruption_2_Required_Mission_Type>
+		<Corruption_2_Required_Mission_Count>1</Corruption_2_Required_Mission_Count>
+		<Corruption_2_Success_Speech_Event>NALHUTTA_CRM_VICTORY_COR40_07</Corruption_2_Success_Speech_Event>
+		<Corruption_2_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_2_Success_Bink_Hologram_Name>
+		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_NALHUTTA_STORY_CORUPTMILITIA</Corruption_2_Mission_Briefing>
+
+		<Abilities SubObjectList="Yes">
+			<Galaxy_Wide_Upgrade_Ability Name="NalHutta_Bounty_Bonus">
+				<Space_Upgrade_Type>NalHutta_Planetary_Advantage</Space_Upgrade_Type>
+				<Land_Upgrade_Type>NalHutta_Planetary_Advantage</Land_Upgrade_Type>
+			</Galaxy_Wide_Upgrade_Ability>
+		</Abilities>
+	</Planet>
 
 	<Planet Name="Polus">
 		<Native_Icon_Name>load_snow.tga</Native_Icon_Name>
