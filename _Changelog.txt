@@ -48,16 +48,17 @@ There are changes to the game's master text directory this update!  Check "_Chan
 UFCP:
 ======
 UFCP FIXES:
-• Fix Random Story Events generating in the "alternate history" variants of the EaW Galactic Conquests.  (They only support using EaW Heroes, currently.)
-• Fix the alt-history GC variants not using the correct versions of Alderaan (alive for FoC alt-histories, exploded for EaW's).
-• Fix an oversight where it would still be impossible to obtain the highest ranking when completing a Galactic Conquest. (BUG #242)
-• Fix two black market notifications during the Consortium campaign that didn't use red-colored notice text. (BUG #843)
-• Fix a variant of the Imperial Guards used in Consortium campaign mission #5 ("A Dark Ally") that used their old tooltip description before it was overhauled in BUG #224. (BUG #858)
-• Fix the prisoner squads during Consortium campaign mission #1 ("A Crime Lord Reborn") using the regular human civilian tooltip description instead of the new one from BUG #224. (BUG #926)
-• Fix Alzoc III and Bespin Piracy corruption options becoming unselectable after Consortium campaign mission #7 ("Baiting the Hook"). (BUG #848)
-• Fix an oversight where the AI would try to attack a marker used to fix BUG #679. (BUG #899)
+• Fixed Random Story Events generating in the "alternate history" versions of the EaW Galactic Conquests.  (They only support using EaW Heroes, currently.)
+• Fixed the alt-history GC variants not using the correct version of Alderaan (alive for FoC alt-histories, exploded for EaW's).
+• Fixed an oversight where it would still be impossible to obtain the highest ranking when completing a GC. (BUG #242)
+• Fixed two black market notifications during the Consortium campaign not using red-colored notice text. (BUG #843)
+• Fixed a variant of the Imperial Guard units used in Consortium campaign mission #5 ("A Dark Ally") using their old tooltip description before it was changed in BUG #224. (BUG #858)
+• Fixed the prisoner squads during Consortium campaign mission #1 ("A Crime Lord Reborn") using the regular human civilian tooltip description instead of the new one implemented in BUG #224. (BUG #926)
+• Fixed Alzoc III and Bespin Piracy's corruption options becoming unselectable after Consortium campaign mission #7 ("Baiting the Hook"). (BUG #848)
+• Fixed an oversight where the AI would try to attack a marker used to fix BUG #679. (BUG #899)
 • The Canderous Assault Tank's model size recieved a 5% increase to try and match vanilla's a bit closer. (BUG #390)
-• Fix multiple cases where the Death Stars would target the moons of planets instead of the planets themselves. (BUG #909)
+• Fixed multiple cases where the Death Stars would target the moons of planets instead of the planets themselves. (BUG #909)
+• Modified the AI's "must jam missiles for X time" stipulation while using the new Missile Jamming Field AIto 60 seconds (from 90) to improve their repositioning. (BUG #774)
 
 
 ENHANCEMENTS:
@@ -77,21 +78,20 @@ HOUSEKEEPING:
 
 
 AI Fixes:
-• The Marauder/Broadside-class Cruisers' AI would occasionally crash due to the "good location" they've picked to fire suddenly becoming invalid, but they'd still be hell-bent on trying to calculate if it's a good artillery location. (BUG #854)
-• The AI's "must jam missiles for X time" stipulation while using Missile Jamming Field has been reduced to 60 seconds (from 90) to improve their repositioning. (BUG #774)
-• The AI's script engine would sometimes error out upon testing an ability if the unit ceased to exist during attempt. (BUG #892)
-• The AI would, on occasion, consider temporary landing transports as valid units in their plans. (BUG #895)
-• The AI's plan to defend their space station has multiple fixes: the AI will no longer divert all units upon the smallest assault on the starbase, the planning is more bug resistant, and now checks to see if bombers are attacking the station. (BUG #893, #894)
-• Fix the "Large Asteroid Field" prop having AI.  These space rocks will think no longer. (BUG #901)
+• Fixed the Marauder/Broadside-class Cruisers' AI occasionally crashing.  The "good location" they'd pick to fire would sometimes become invalid, but they'd still be hell-bent on trying to calculate if it's still a good artillery location. (BUG #854)
+• Fixed the AI's script engine sometimes throwing an error upon trying to use an ability while the unit ceased to exist. (BUG #892)
+• Fixed the AI occasionally using temporary landing transports as valid units in their plans. (BUG #895)
+• Fixed multiple problems in the AI's plan to defend their space station: the AI will no longer divert all units upon the smallest assault, the planning is more bug resistant, and now checks to see if bombers are attacking the station. (BUG #893, #894)
+• Fixed the "Large Asteroid Field" prop having AI.  These space rocks will think no longer. (BUG #901)
 
 
 Gameplay Fixes:
-• Fix GC "The Conflict Begins" not letting the Empire or Rebels build Cantinas and Hutt Palaces on Atzerri. (BUG #971)
+• Fixed GC "The Conflict Begins" not letting the Empire or Rebels build Cantinas and Hutt Palaces on Atzerri. (BUG #971)
 
 
 Interface Fixes:
-• The enemy hero bar wouldn't stretch to include the sixth hero when that many are present (the sixth icon would remain floating). (BUG #855) (Thanks, galyana!)
-• The Consortium now has ranks/titles upon completing or failing a Galactic Conquest. (BUG #888)
+• Fixed the enemy hero bar not stretching to include a sixth hero when that many are present (the sixth icon would remain floating). (BUG #855) (Thanks, galyana!)
+• Fixed the Consortium not having ranks/titles upon completing or failing a GC. (BUG #888)
 
 
 Map/Planet Fixes:
@@ -106,7 +106,7 @@ Map/Planet Fixes:
 
 
 Model Fixes:
-• The Mon Calamari Cruiser's engines would not disable when destroyed. (BUG #813)
+• Fixed the Mon Calamari Cruiser's engines not disabling when destroyed. (BUG #813)
 • Fixed the Vengeance Frigate's engine hardpoint bone being outside of its collision mesh. (BUG #896) (Thanks, galyana!)
 • Fixed the Lambda-class Shuttle land prop constantly generating engine particles when placed for a performance improvement. (BUG #914)
 • Fixed the Gallofree Transport land prop constantly generating engine particles when placed for a performance improvement. (BUG #915)
@@ -124,24 +124,24 @@ Script/Story Fixes:
 • During Rebel campaign mission #12 ("The Final Battle"), the Death Star would approach Yavin 4 too quickly, breaking the story sequence before the battle, and wouldn't give the player enough time in battle to defeat it (75sec.).  The developers intended to give the player 5min. to defeat it, but the script command was broken. (BUG #835)
 • During Consortium campaign mission #1 ("A Crime Lord Reborn"), the script would despawn the last door too early after the Dark Troopers were killed, causing it to pop out of existence.  The full opening animation and SFX now plays properly. (BUG #869)
 • During Consortium campaign mission #2 ("Remnants of the Death Star"), upon grabbing the last Data Pod, the camera would lock and remained focused on the last thing the player was looking at.  The cutscene now focuses on Zann's ship while he's speaking, making the scene less awkward. (BUG #907)
-• During Consortium campaign mission #3 ("Communications Breakdown"), Urai wouldn't have a hologram when speaking after recapturing the Reinforcement Point. (BUG #920)
-• The Door Control Node consoles during Consortium campaign mission #4 ("Visions of the Past") wouldn't swap models when destroyed.  The console prop definition was a completely separate, duplicated prop without the proper damage checks. (BUG #844)
+• During Consortium campaign mission #3 ("Communications Breakdown"), Urai wouldn't have a dialogue hologram when speaking after recapturing the Reinforcement Point. (BUG #920)
+• The Door Control Node consoles during Consortium campaign mission #4 ("Visions of the Past") wouldn't swap models when destroyed.  The console prop definition was a completely separate, duplicated prop without the proper settings. (BUG #844)
 • During Consortium campaign mission #5 ("A Dark Ally"), the game could trigger a premature mission victory when all Imperial units are killed.  Tactical victories were re-enabled after the introduction cutscene was finished, instead of at the end of the finale's cutscene. (BUG #905)
-• After Consortium campaign mission #6 ("Cloud City Conflict"), the Consortium could corrupt Bespin despite not having blackmailed Mandalore's engineers to develop the Vengeance Frigate yet.  Corruption is disabled until the Frigate is unlocked. (BUG #919)
-• The Defiler during the Consortium campaign's Honoghr corruption mission didn't have a hologram when talking. (BUG #866)
-• Tyber Zann's dialogue during Space Bespin Piracy would be cut off due to mistimed dialogue and victory triggers. (BUG #882)
+• After Consortium campaign mission #6 ("Cloud City Conflict"), the Consortium could corrupt Bespin with Piracy despite not having blackmailed Mandalore's engineers to develop the Vengeance Frigate (a unit involved in the corruption mission).  Corruption is disabled until the Frigate is unlocked. (BUG #919)
+• Fixed the Defiler during the Consortium campaign's Honoghr corruption mission not using a dialogue hologram when talking. (BUG #866)
+• Fixed Tyber Zann's dialogue during Space Bespin Piracy cutting off due to mistimed dialogue and victory triggers. (BUG #882)
 
 
 Structure Fixes:
-• The Laser Defense Satellites in Rebel campaign mission #1 ("Shipyard Diversion") and Empire campaign mission #3 ("The Pirate Menace") didn't have tooltip descriptions. (BUG #857)
-• The Abandoned Mining Facility capturable tried to reference a model variant it didn't have upon destruction.  In addition, it tried to loop an idle animation it didn't have. (BUG #897)
-• Fix Consortium Asteroid Mining Facilities claiming they provide the upgrade "Increased Production" when it's actually "Extort Cash." (BUG #911)
+• Fixed the Laser Defense Satellites in Rebel campaign mission #1 ("Shipyard Diversion") and Empire campaign mission #3 ("The Pirate Menace") not having tooltip descriptions. (BUG #857)
+• Fixed the Abandoned Mining Facility capturable referencing a model variant it didn't have upon destruction.  In addition, it also tried to loop an idle animation it didn't have. (BUG #897)
+• Fixed the Consortium's Asteroid Mining Facilities claiming they provide the upgrade "Increased Production" when it's actually "Extort Cash." (BUG #911)
 
 
 Unit Fixes:
-• The Hound's Tooth and IG-2000 didn't have the DAMAGE_TRACKING unit behavior, leading to some incorrect AI behavior. (BUG #898)
-• Fix Garven Dreis (Red Leader) being the only one to have the "ABILITY_COUNTDOWN" behavior on his unit in Red Squadron. (BUG #902)
-• Fix the IPV-1s used by Jabba's Criminal Empire having team coloring, which was exclusively meant for Skirmish. (BUG #924)
+• Fixed the Hound's Tooth and IG-2000 not using the "DAMAGE_TRACKING" unit behavior, leading to some incorrect AI behavior. (BUG #898)
+• Fixed Garven Dreis (Red Leader) being the only one to have the "ABILITY_COUNTDOWN" behavior on his unit in Red Squadron. (BUG #902)
+• Fixed the IPV-1s used by Jabba's Criminal Empire having team coloring, which was exclusively meant for Skirmish. (BUG #924)
 
 
 
