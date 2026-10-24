@@ -105,6 +105,7 @@ Map/Planet Fixes:
 • One of the factory control terminals in Consortium campaign mission #4 ("Visions of the Past") could be destroyed because, by default, that prop's faction owner is the Empire.  While funny to see Tyber randomly obliterating it, it had to be fixed.  In addition, the entire map's brush passes (where units can move) and AI pathfinding zones have been redone. (BUG #845)
 • The Sith Holocron in Consortium campaign mission #8 ("Following the Artifact") was floating and off-center above the Sith Altar.  The Holocron itself was also tiny, despite being apparently larger in the prologue "A Crimelord Unleashed."  The Sith Altar in mission #8 is a special prop that had its size increased 2.75x, which towers nearly double Silri's height to account for perspective in the related cinematic.  Unfortunately it was still overshot and too big, so the Altar was shrunken to 2.0x, and the Holocron increased to 2.0x from 1.5x. (BUG #906)
 • The Lambda-class Shuttle land prop used on various maps was "selectable" and generated a tooltip when hovered over, when it was clearly not intended to do that (and was disabled manually on story campaign missions). (BUG #913)
+• Fixed Space Fondor not having a Death Star position marker flag on the map, causing the Death Star to teleport into range upon loading into battle. (BUG #974)
 
 
 Model Fixes:
