@@ -74,6 +74,7 @@ Scripting:
 -- ObjectScript_Interdictor - Improved AI script enabling the and improve Missile Shield usage.
 -- ObjectScript_MissileShield - Improved AI script improving Missile Shield usage.
 -- ObjectScript_SensorJamming - New AI script enabling the Sensor Jamming ability for AI and autofire.
+-- ObjectScript_Superlaser - New AI script enabling the DS2 to use its Enhanced Superlaser ability.
 
 
 Text:

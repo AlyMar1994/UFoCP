@@ -187,6 +187,7 @@
 			ABILITY_COUNTDOWN,
 			TARGETING
 		</SpaceBehavior>
+		<Lua_Script>ObjectScript_Superlaser</Lua_Script>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
