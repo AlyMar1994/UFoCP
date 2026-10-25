@@ -113,7 +113,7 @@ International/Housekeeping:
 • Various instances of Black Sun Pirate units had their name capitalized as, f.e., "Black Sun pirate infantry..." when "pirate" should be capitalized.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.  (International translations did not suffer this issue.)
 • Various instances of "Plex" (as in "Plex Missile Soldier") were unnecessarily capitalized as "PLEX" as if it were an acronym.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
 • Multiple instances of "John D Branon" have been corrected to "John D. Branon."  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
-• Multiple instances of the "Veers:" in the Empire campaign have been replaced with "Colonel Veers:" for consistency.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys.
+• Multiple instances of the "Veers:" in the Empire campaign have been replaced with "Colonel Veers:" for consistency.  This change remains unmarked in this file to avoid conflicts with changes on the same text keys. (BUG #956)
 
 
 • MB_LAND_PLANET_ALZOCIII_INTIMIDATION: (BUG #278)
@@ -1181,6 +1181,39 @@ International/Housekeeping:
 
 • TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_20: (BUG #951)
 	-- ENG: Imperial Officer: Incoming Rebel units!  How did they get here? --> Imperial Officer: Incoming Rebel units!  How did they get here?!
+
+• TEXT_SPEECH_EMPIRE_ACT02_MISSION_FIVE_11: (BUG #952)
+	-- ENG: 
+
+• : (BUG #953)
+	-- ENG: 
+
+• : (BUG #957)
+	-- ENG: 
+
+• : (BUG #958)
+	-- ENG: 
+
+• : (BUG #959)
+	-- ENG: 
+
+• : (BUG #960)
+	-- ENG: 
+
+• : (BUG #961)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
+
+• : (BUG #)
+	-- ENG: 
 
 • TEXT_SPEECH_ERIADU_RKT_VICTORY_COR19_01: (BUG #599)
 	-- ENG: ...in order to destroy their ships and then claim them as salvage --> ...in order to destroy their ships, and then claim them as salvage.
