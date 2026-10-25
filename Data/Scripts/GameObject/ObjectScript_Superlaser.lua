@@ -59,7 +59,7 @@ function State_AI_Autofire(message)
 		if Object.Is_Ability_Ready(ability_name) then
 			if times_fired >= 1 and difficulty == "Normal" then
 				DebugMessage("%s -- DEATH STAR: We've already fired %s times, giving the player some room for %s difficulty...", tostring(Script), tostring(times_fired), tostring(difficulty))
-				Sleep(60) -- DS recharge is 60s, sleep for effectively 2 min.
+				Sleep(60) -- DS recharge is 60s, sleep for around 2 min (10 sec below throws off script timing?)
 			end
 
 			local enemy = FindDeadlyEnemy(Object)
