@@ -1553,6 +1553,10 @@
 			Hutts
 		</Enemies>
 		<Easily_Bribed>Yes</Easily_Bribed>
+		
+		<!-- STRICTLY FOR MUSIC PURPOSES! -->
+		<Faction_Super_Weapon>Death_Star</Faction_Super_Weapon>
+		<Can_Win_By_Destroying_Super_Weapon>No</Can_Win_By_Destroying_Super_Weapon>
 
 		<Can_Control_Planets>True</Can_Control_Planets>
 	</Faction>
@@ -1636,6 +1640,10 @@
 			Underworld,
 			Hutts
 		</Enemies>
+		
+		<!-- STRICTLY FOR MUSIC PURPOSES! -->
+		<Faction_Super_Weapon>Death_Star_EM12</Faction_Super_Weapon>
+		<Can_Win_By_Destroying_Super_Weapon>No</Can_Win_By_Destroying_Super_Weapon>
 	</Faction>
 
 	<Faction Name="Sarlacc">
@@ -1679,5 +1687,9 @@
 			Underworld,
 			Hutts
 		</Enemies>
+		
+		<!-- STRICTLY FOR MUSIC PURPOSES! -->
+		<Faction_Super_Weapon>Death_Star_RM12</Faction_Super_Weapon>
+		<Can_Win_By_Destroying_Super_Weapon>No</Can_Win_By_Destroying_Super_Weapon>
 	</Faction>
 </Factions>

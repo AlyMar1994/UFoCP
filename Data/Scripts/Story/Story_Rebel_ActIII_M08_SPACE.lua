@@ -44,11 +44,12 @@ require("PGStoryMode")
 ------------------------------------------------------------------------------------------------------------------------
 -- Definitions -- This function is called once when the script is first created.
 ------------------------------------------------------------------------------------------------------------------------
+
 function Definitions()
 
 	DebugMessage("%s -- In Definitions", tostring(Script))
-
-	StoryModeEvents =
+	
+	StoryModeEvents = 
 	{
 		Rebel_A3_M08_Begin = State_Rebel_A3_M08_Begin
 		,Rebel_A3_M08_Cargo_Found_Text_02 = State_Rebel_A3_M08_Cargo_Found_Text_02
@@ -64,7 +65,7 @@ function Definitions()
 		,"TIE_SCOUT_SQUADRON"
 		,"STAR_DESTROYER"
 	}
-
+	
 	interceptor_units_2 = {
 		"TARTAN_PATROL_CRUISER"
 		,"TARTAN_PATROL_CRUISER"
@@ -73,11 +74,11 @@ function Definitions()
 --		,"BROADSIDE_CLASS_CRUISER"
 --		,"BROADSIDE_CLASS_CRUISER"
 	}
-
+	
 	visit_list = {
 		"Victory_Destroyer_No_Fighters"
 	}
-
+	
 	patrol_marker_names = {
 		"patrol1"
 		,"patrol2"
@@ -92,39 +93,39 @@ function Definitions()
 		,"patrol11"
 		,"patrol12"
 	}
-
+	
 	starbase_marker = nil
 	starbase = nil
-
+	
 	patrol_marker_count = 12
 	patrol_markers = {}
-
+	
 	cargo_range = 150
-	scanning_range = 600
+	scanning_range = 600 
 	cargo_scanned = 0
 	cargo_being_scanned = nil
 
 	spotted_range = 500 -- This should be slighly greater than the longest sight range by a patroller
 	falcon_spottings = 0
-
+	
 	alarm_units = {}
 	alarm_was_activated = false
-
+	
 	time_to_first_visit = 20
 	min_time_between_visits = 60
 	variance_between_visits = 30
-
+	
 	duration_of_fighter_assist = 30
 
 	traffic_count = 0
-
+	
 	num_scanned_to_bring_fett = 5
 	counter_enough_scanned = 12
-
+	
 	flag_okay_to_give_alarm_message = true
-
+	
 	fog_id = nil
-
+	
 end
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -133,22 +134,22 @@ end
 
 function State_Rebel_A3_M08_Begin(message)
 	if message == OnEnter then
-
+	
 		-- Prevent the AI from performing an automatic fog of war reveal for this tactical scenario.
-		DebugMessage("disallowing ai controlled fog reveal")
+		-- MessageBox("disallowing ai controlled fog reveal")
 		GlobalValue.Set("Allow_AI_Controlled_Fog_Reveal", 0)
+	
+		--MessageBox("OnEnter State_Rebel_A3_M08_Begin")
 
-		DebugMessage("OnEnter State_Rebel_A3_M08_Begin")
-
-		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
+		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+		
 		-- Get Players
-
+		
 		starbase_marker = Find_Hint("GENERIC_MARKER_SPACE", "starbase")
 		empire = Find_Player("Empire")
 		rebel = Find_Player("Rebel")
 
-		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 		-- AM1994 (08-14-26): prevent Empire base shooting at Solo until alarm is raised
 
@@ -156,70 +157,71 @@ function State_Rebel_A3_M08_Begin(message)
 		starbase.Prevent_All_Fire(true)
 
 		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
+		
+				
 		-- Find all the patrol markers (waypoints)
-
+		
 		for i,name in pairs(patrol_marker_names) do
 			marker = Find_Hint("GENERIC_MARKER_SPACE", name)
 			if not marker then
-				DebugMessage("Missing patrol marker %s",name)
+				--MessageBox("Missing patrol marker %s",name)
 			end
 			table.insert(patrol_markers,marker)
 		end
-		DebugMessage("Done finding patrol markers")
+		--MessageBox("Done finding patrol markers")
+		
 
-
-		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 		-- Set up proximity calls to keep patrol moving along
-
+		
 		prox_range = 300
 		for i,marker in pairs(patrol_markers) do
 			Register_Prox(marker, Prox_Patrol, prox_range, empire)
 		end
-		DebugMessage("Setup marker proximity calls")
+		--MessageBox("Setup marker proximity calls")
 
-		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-		-- Set up proximity calls on cargo
-
+		-- Set up proximity calls on cargo 
+		
 		cargo_list = Find_All_Objects_Of_Type("ORBITAL_RESOURCE_CONTAINER")
 		for i,unit in pairs(cargo_list) do
 			Register_Prox(unit, Prox_Cargo, cargo_range, rebel)
 			unit.Make_Invulnerable(true)
 		end
-		DebugMessage("Set up proximity on resource containers")
+		--MessageBox("Set up proximity on resource containers")
 
-		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 		-- Find the Falcon
 		falcon = Find_First_Object("MILLENNIUM_FALCON")
 		if not falcon then
-			DebugMessage("Couldn't find Millennium Falcon")
+			--MessageBox("Couldn't find Millennium Falcon")
 			return
 		end
-
+		
 		Register_Prox(falcon, Prox_Falcon, spotted_range, empire)
-
-		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+		
+		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 		-- Periodically send in a Star Destroyer that is refuelling at the starbase
-
+						
 		interceptor1 = Find_Hint("GENERIC_MARKER_SPACE", "interceptor1")
 		interceptor2 = Find_Hint("GENERIC_MARKER_SPACE", "interceptor2")
 
 		Register_Timer(Star_Destroyer_Visit,time_to_first_visit)
-
-		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+		
+		-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 		fett_spawn = Find_Hint("GENERIC_MARKER_SPACE", "fett-spawn")
 		if not fett_spawn then
-			DebugMessage("failed to find fett-spawn")
+			--MessageBox("failed to find fett-spawn")
 		end
 
 		--DELME
 		--Register_Timer(Bring_Fett, 10)
-
+		
 		-- this is a comment
 		-----------------------------------------------------------------------------------------------
 		-- adding radar blips here
@@ -237,54 +239,54 @@ function State_Rebel_A3_M08_Begin(message)
 		cargo_10 = Find_Hint ("ORBITAL_RESOURCE_CONTAINER", "cargo-10")
 		cargo_11 = Find_Hint ("ORBITAL_RESOURCE_CONTAINER", "cargo-11")
 		cargo_12 = Find_Hint ("ORBITAL_RESOURCE_CONTAINER", "cargo-12")
-
+		
 		if TestValid(cargo_01) then
 			Add_Radar_Blip(cargo_01, "blip_cargo_01")
-		end
-
+		end 
+		
 		if TestValid(cargo_02) then
 			Add_Radar_Blip(cargo_02, "blip_cargo_02")
-		end
-
+		end 
+		
 		if TestValid(cargo_03) then
 			Add_Radar_Blip(cargo_03, "blip_cargo_03")
-		end
-
+		end 
+		
 		if TestValid(cargo_04) then
 			Add_Radar_Blip(cargo_04, "blip_cargo_04")
-		end
-
+		end 
+		
 		if TestValid(cargo_05) then
 			Add_Radar_Blip(cargo_05, "blip_cargo_05")
-		end
-
+		end 
+		
 		if TestValid(cargo_06) then
 			Add_Radar_Blip(cargo_06, "blip_cargo_06")
-		end
-
+		end 
+		
 		if TestValid(cargo_07) then
 			Add_Radar_Blip(cargo_07, "blip_cargo_07")
-		end
-
+		end 
+		
 		if TestValid(cargo_08) then
 			Add_Radar_Blip(cargo_08, "blip_cargo_08")
-		end
-
+		end 
+		
 		if TestValid(cargo_09) then
 			Add_Radar_Blip(cargo_09, "blip_cargo_09")
-		end
-
+		end 
+		
 		if TestValid(cargo_10) then
 			Add_Radar_Blip(cargo_10, "blip_cargo_10")
-		end
-
+		end 
+		
 		if TestValid(cargo_11) then
 			Add_Radar_Blip(cargo_11, "blip_cargo_11")
-		end
-
+		end 
+		
 		if TestValid(cargo_12) then
 			Add_Radar_Blip(cargo_12, "blip_cargo_12")
-		end
+		end 
 
 		fog_id = FogOfWar.Reveal_All(rebel)
 
@@ -299,11 +301,11 @@ function Star_Destroyer_Visit()
 	if alarm_was_activated then
 		return
 	end
-
+	
 	ReinforceList(visit_list,interceptor2,empire,false,true, true, Star_Destroyer_Arrived)
-
+	
 	-- Setup next visit; Han should only be able to slip past if he waits for a big gap
-	Register_Timer(Star_Destroyer_Visit, min_time_between_visits + GameRandom(1, variance_between_visits))
+	Register_Timer(Star_Destroyer_Visit, min_time_between_visits + GameRandom(1, variance_between_visits))	
 end
 
 
@@ -325,10 +327,10 @@ function Star_Destroyer_Sequence(star_destroyer)
 	if (traffic_count == 2) then
 		traffic_count = 0
 		--if (GameRandom(0,1) < 0.5) then
-			DebugMessage("Calling in the fighters")
+			--MessageBox("Calling in the fighters")
 			List_Guard(Find_All_Objects_Of_Type("TIE_FIGHTER_SQUADRON"), star_destroyer)
 			Sleep(duration_of_fighter_assist)
-			DebugMessage("Placing fighters back on patrol")
+			--MessageBox("Placing fighters back on patrol")
 			List_Random_Patrol(Find_All_Objects_Of_Type("TIE_FIGHTER_SQUADRON"))
 		--end
 	else
@@ -336,12 +338,12 @@ function Star_Destroyer_Sequence(star_destroyer)
 		-- Pause for a refuel at the station or something
 		Sleep(5)
 	end
-
+	
 
 	if TestValid(star_destroyer) then
 		BlockOnCommand(star_destroyer.Move_To(interceptor1))
 	end
-
+	
 	if TestValid(star_destroyer) then
 		star_destroyer.Hyperspace_Away()
 	end
@@ -368,7 +370,7 @@ function Prox_Visitor(prox_obj, trigger_obj)
 	prox_obj.Cancel_Event_Object_In_Range(Prox_Visitor)
 	prox_obj.Attack_Move(falcon)
 	alarm_unit = prox_obj
-
+	
 	if flag_okay_to_give_alarm_message then
 		flag_okay_to_give_alarm_message = false
 		Alarm_Activated()
@@ -385,11 +387,11 @@ function Alarm_Activated()
 		return
 	end
 
-	DebugMessage("alarm activated")
-
+	--MessageBox("alarm activated")
+		
 	-- AM1994 (08-14-26): allow the starbase to start the assault
 	starbase.Prevent_All_Fire(false)
-
+	
 	-- Bring in units to intercept Millennium Falcon
 	Story_Event("ALARM_ACTIVATED")
 	alarm_was_activated = true
@@ -409,16 +411,16 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 
 function Prox_Falcon(prox_obj, trigger_obj)
-
+	
 	trigger_type = trigger_obj.Get_Type().Get_Name()
 
-
+	
 	if trigger_type == "TIE_FIGHTER" then
 		unit = trigger_obj.Get_Parent_Object()
 	elseif trigger_type == "TARTAN_PATROL_CRUISER" then
 		unit = trigger_obj
 	elseif trigger_type == "SLAVE_I" then
-
+	
 		-- boba fett just wants the kill himself; no reporting to the Empire
 		if not fett_found_han then
 			Create_Thread("Fett_Attack_Han", trigger_obj)
@@ -429,14 +431,14 @@ function Prox_Falcon(prox_obj, trigger_obj)
 		DebugMessage("]]]] Falcon spotted by %s",trigger_type)
 		return
 	end
-
+		
 	--Don't trigger on the same unit...
 	if alarm_units[unit] then
 		return
 	end
 	alarm_units[unit] = 1
 
-	DebugMessage("Falcon spotted by tie fighter squadron")
+	--MessageBox("Falcon spotted by tie fighter squadron")
 	falcon_spottings = falcon_spottings + 1
 	if falcon_spottings == 1 and flag_okay_to_give_alarm_message then
 		flag_okay_to_give_alarm_message = false
@@ -449,22 +451,22 @@ function Prox_Falcon(prox_obj, trigger_obj)
 	if falcon_spottings == 3 and flag_okay_to_give_alarm_message then
 		flag_okay_to_give_alarm_message = false
 		Story_Event("FALCON_SPOTTED3")
-	end
+	end		
 	if falcon_spottings == 4 and flag_okay_to_give_alarm_message then
 		flag_okay_to_give_alarm_message = false
 		Story_Event("FALCON_SPOTTED4")
-
+		
 		-- The unit just reports without bothering to attack first
 		DebugMessage("reporting han without attacking")
 		unit.Move_To(starbase_marker)
 		Register_Timer(Alarm_Activated, 10)
 	else
-
-		-- The first three times, Han has a chance to take out the unit before it reports
+	
+		-- The first three times, Han has a chance to take out the unit before it reports		
 		Create_Thread("Discover_Then_Report", unit)
 	end
 
-
+		
 end
 
 --jdg adding a timer between the bevy of spotted events above
@@ -502,12 +504,12 @@ function Fett_Attack_Han(unit)
 	end
 
 	fett_found_han = true
-	DebugMessage("attacking han with fett")
+	--MessageBox("attacking han with fett")
 	Story_Event("BOBA_ATTACK")
 	if TestValid(unit) and TestValid(falcon) then
 		BlockOnCommand(unit.Attack_Target(falcon), 20)
 	end
-
+	
 	fett_found_han = false
 end
 
@@ -519,13 +521,13 @@ function Discover_Then_Report(unit)
 	BlockOnCommand(unit.Attack_Target(falcon), 30)
 	--unit.Attack_Target(falcon)
 	--Sleep(30)
-
-	-- Allow the player to still have a chance to cancel the alarm
+	
+	-- Allow the player to still have a chance to cancel the alarm	
 	if TestValid(unit) then
 		DebugMessage("reporting han")
-		BlockOnCommand(unit.Move_To(starbase_marker))
+        BlockOnCommand(unit.Move_To(starbase_marker))
 	end
-
+	
 	-- If the unit still survived, then the falcon is reported.
 	if TestValid(unit) and TestValid(falcon) then
 		unit.Attack_Target(falcon)
@@ -543,7 +545,7 @@ function Prox_Patrol(prox_obj, trigger_obj)
 
 	-- Send only patrols to the next waypoint
 	trigger_type = trigger_obj.Get_Type().Get_Name()
-	DebugMessage("]]]] Patrol trigger picked up type %s",trigger_type)
+	--DebugMessage("]]]] Patrol trigger picked up type %s",trigger_type)
 	-- If this is a fighter, we want to issue the order to the parent instead of the trigger_obj
 	if trigger_type == "TIE_FIGHTER" then
 		unit = trigger_obj.Get_Parent_Object()
@@ -557,7 +559,7 @@ function Prox_Patrol(prox_obj, trigger_obj)
 
 	-- Ignore objects that have already been sent on to the next patrol
 	if unit.Has_Active_Orders() then
-		DebugMessage("unit has active orders")
+		--MessageBox("unit has active orders")
 		return
 	end
 
@@ -565,7 +567,7 @@ function Prox_Patrol(prox_obj, trigger_obj)
 	if alarm_units[unit] then
 		return
 	end
-
+	
 	-- Send to the next marker
 	for i,marker in pairs(patrol_markers) do
 		if prox_obj == marker then
@@ -587,12 +589,12 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 
 function Prox_Cargo(prox_obj, trigger_obj)
-
+	
 	-- Stop checking for this one
 	prox_obj.Cancel_Event_Object_In_Range(Prox_Cargo)
-
+	
 	Game_Message("TEXT_STORY_REBEL_ACT03_MISSION_EIGHT_11")
-
+	
 	--differentiate up the boring scan dialog here
 	if (cargo_scanned == 0) or (cargo_scanned == 4) or (cargo_scanned == 8) then
 		Story_Event("BEGIN_CARGO_SCAN")
@@ -603,18 +605,18 @@ function Prox_Cargo(prox_obj, trigger_obj)
 	elseif (cargo_scanned == 3)  or (cargo_scanned == 7) or (cargo_scanned == 11) then
 		Story_Event("BEGIN_CARGO_SCAN4")
 	end
-
+	
 	--Story_Event("BEGIN_CARGO_SCAN")
 	scan_seconds = 5
 	cargo_being_scanned = prox_obj
 	Register_Timer(Scanning_Timer,scan_seconds,prox_obj )
-
+	
 	--add an arrow to cargo being scanned
 	cargo_being_scanned.Highlight(true)
-
+	
 	falcon.Stop()
-
-
+	
+	
 end
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -625,76 +627,76 @@ function Scanning_Timer(timer_obj)
 
 	if cargo_being_scanned.Get_Distance(falcon) <= scanning_range then
 		Game_Message("TEXT_STORY_REBEL_ACT03_MISSION_EIGHT_12")
-		DebugMessage("Story_Event(CARGO_SCAN_DONE)")
+		--MessageBox("Story_Event(CARGO_SCAN_DONE)")
 		Story_Event("CARGO_SCAN_DONE")
-		DebugMessage("CARGO_SCAN_DONE")
+		--MessageBox("CARGO_SCAN_DONE")
 		cargo_scanned = cargo_scanned + 1
 
-
+		
 		--turn off appropriate radar blip here
-
+		
 		if TestValid(cargo_01) and cargo_being_scanned == cargo_01 then
 			Remove_Radar_Blip("blip_cargo_01")
 			cargo_being_scanned.Highlight(false)
-			DebugMessage("cargo one scanned...removing blip?")
+			--MessageBox("cargo one scanned...removing blip?")
 		end
-
+		
 		if TestValid(cargo_02) and cargo_being_scanned == cargo_02 then
 			Remove_Radar_Blip("blip_cargo_02")
 			cargo_being_scanned.Highlight(false)
 		end
-
+		
 		if TestValid(cargo_03) and cargo_being_scanned == cargo_03 then
 			Remove_Radar_Blip("blip_cargo_03")
 			cargo_being_scanned.Highlight(false)
 		end
-
+		
 		if TestValid(cargo_04) and cargo_being_scanned == cargo_04 then
 			Remove_Radar_Blip("blip_cargo_04")
 			cargo_being_scanned.Highlight(false)
 		end
-
+		
 		if TestValid(cargo_05) and cargo_being_scanned == cargo_05 then
 			Remove_Radar_Blip("blip_cargo_05")
 			cargo_being_scanned.Highlight(false)
 		end
-
+		
 		if TestValid(cargo_06) and cargo_being_scanned == cargo_06 then
 			Remove_Radar_Blip("blip_cargo_06")
 			cargo_being_scanned.Highlight(false)
 		end
-
+		
 		if TestValid(cargo_07) and cargo_being_scanned == cargo_07 then
 			Remove_Radar_Blip("blip_cargo_07")
 			cargo_being_scanned.Highlight(false)
 		end
-
+		
 		if TestValid(cargo_08) and cargo_being_scanned == cargo_08 then
 			Remove_Radar_Blip("blip_cargo_08")
 			cargo_being_scanned.Highlight(false)
 		end
-
+		
 		if TestValid(cargo_09) and cargo_being_scanned == cargo_09 then
 			Remove_Radar_Blip("blip_cargo_09")
 			cargo_being_scanned.Highlight(false)
 		end
-
+		
 		if TestValid(cargo_10) and cargo_being_scanned == cargo_10 then
 			Remove_Radar_Blip("blip_cargo_10")
 			cargo_being_scanned.Highlight(false)
 		end
-
+		
 		if TestValid(cargo_11) and cargo_being_scanned == cargo_11 then
 			Remove_Radar_Blip("blip_cargo_11")
 			cargo_being_scanned.Highlight(false)
 		end
-
+		
 		if TestValid(cargo_12) and cargo_being_scanned == cargo_12 then
 			Remove_Radar_Blip("blip_cargo_12")
 			cargo_being_scanned.Highlight(false)
 		end
-
-
+		
+		
 		if cargo_scanned == num_scanned_to_bring_fett then
 			DebugMessage("Timer for fett initiated")
 			Register_Timer(Bring_Fett, 10)
@@ -715,13 +717,13 @@ function Bring_Fett()
 	if TestValid(falcon) then
 		ReinforceList({"Boba_Fett_Team"}, fett_spawn, empire, false, true, true, Fett_Arrives)
 	end
-
+	
 end
 
 -- Fett gives his intro then begins his search
 function Fett_Arrives(unit_list)
 	fett = unit_list[1]
-	DebugMessage("Fett intro dialog here")
+	--MessageBox("Fett intro dialog here")
 	Story_Event("BOBA_DIALOG")
 	fett.Move_To(interceptor1)
 	Register_Timer(Timer_Fett_Search, 10)
@@ -732,11 +734,11 @@ function Timer_Fett_Search()
 end
 
 function Fett_Search()
-
+	
 	-- Fett patrols between the container second nearest to the falcon
 	-- If he finds han, script elsewhere will cause him to attack.
 	-- Resume patrolling if han is lost in the fog of war.
-	while TestValid(falcon) do
+	while TestValid(falcon) do	
 		if not fett_found_han then
 			if not TestValid(fett) then break end
 			nearest_barrel = Find_Nearest(falcon, "ORBITAL_RESOURCE_CONTAINER")
@@ -779,8 +781,8 @@ end
 
 
 function Ending_Cinematic()
-
-	Cancel_Fast_Forward()
+	
+	Cancel_Fast_Forward() 
 	rebel = Find_Player("Rebel")
 	unit_list = Find_All_Objects_Of_Type(rebel)
 	for i, unit in pairs(unit_list) do
@@ -791,61 +793,62 @@ function Ending_Cinematic()
 	Suspend_AI(1)
 	Lock_Controls(1)
 	Letter_Box_In(0)
-
+	
 --	Ensure Millennium Falcon is still present for this cinematic
-
+	
 	falcon = Find_First_Object("Millennium_Falcon")
 	if not falcon then
 		MessageBox("Couldn't find Millennium Falcon")
 		return
 	end
-
+	
 	falcon.Make_Invulnerable(true)
-
+	
 	Story_Event("DISABLE_FALCON_KILLED")
-
+	
 	--Set up all waypoints for cinematic
-
+		
 	falcon_start = Find_Hint("GENERIC_MARKER_SPACE", "falconstart")
 	falcon_move1 = Find_Hint("GENERIC_MARKER_SPACE", "falconpos1")
 	falcon_move2 = Find_Hint("GENERIC_MARKER_SPACE", "falconpos2")
 	falcon_move3 = Find_Hint("GENERIC_MARKER_SPACE", "falconpos3")
 	falcon_move4 = Find_Hint("GENERIC_MARKER_SPACE", "falconpos4")
 	camera_start = Find_Hint("GENERIC_MARKER_SPACE", "camerastart")
-
+	
 	--Move Falcon to the start loc
-
+	
 	falcon.Teleport_And_Face(falcon_start)
 	falcon.Move_To(falcon_move2)
 	Start_Cinematic_Camera()
 	Sleep(1)
-
+	
 	Story_Event("VICTORY_TRIGGER")
-
+		
 	Fade_Screen_In(2)
-
+	
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	Set_Cinematic_Camera_Key(falcon, 250, 10, 30, 1, 0, 0, 0)
-
+	
 	-- Set_Cinematic_Camera_Key(target_pos, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
-	Set_Cinematic_Target_Key(falcon, 0, 0, 0, 0, falcon, 0, 0)
-
+	Set_Cinematic_Target_Key(falcon, 0, 0, 0, 0, falcon, 0, 0) 
+	
 	-- Transition_Cinematic_Camera_Key(target_pos, time, xoffset_dist, yoffset_pitch, zoffset_yaw, angles?, attach_object, use_object_rotation, cinematic_animation)
 	--Transition_Cinematic_Target_Key(falcon_move4, 5, 0, 0, 0, 0, 0, 0, 0)
-
-
-
-
+	
+	
+	
+	
 	Sleep(2)
 	--falcon.Move_To(falcon_move2)
 	--Sleep(1)
 	--falcon.Move_To(falcon_move3)
 	--Sleep(1)
-
+	
 	Transition_Cinematic_Camera_Key(camera_start, 4, 200, 45, 0, 1, 0, 1, 0)
-
+	
 	falcon.Move_To(falcon_move4)
 	Sleep(4)
 	falcon.Hyperspace_Away()
 	falcon.Make_Invulnerable(false)
 end
+
