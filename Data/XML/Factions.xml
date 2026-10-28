@@ -629,21 +629,26 @@
 
 		<!-- A and B present and C not present -->
 		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_And>Death_Star,		Luke_XWing,			None,	GRS_INTRO_SPACE_DEFEND_R_06</SpeechEvent_Tactical_Intro_Space_Defender_Conditional_And> <!-- Death Star present, Luke present -->
+		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_And>Death_Star_RM12,	Luke_XWing,			None,	GRS_INTRO_SPACE_DEFEND_R_06</SpeechEvent_Tactical_Intro_Space_Defender_Conditional_And> <!-- Death Star (Rebel campaign mission #12) present, Luke present -->
 		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_And>Death_Star_II,	Wedge_XWing_Rogue,	None,	GRS_INTRO_SPACE_DEFEND_R_06</SpeechEvent_Tactical_Intro_Space_Defender_Conditional_And> <!-- Death Star present, Wedge present -->
 
 		<!-- A or B present and C not present -->
 		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>Death_Star,		None, 	Luke_XWing,			GRS_INTRO_SPACE_DEFEND_R_05</SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> <!-- Death Star present, Luke not present -->
+		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>Death_Star_RM12,	None, 	Luke_XWing,			GRS_INTRO_SPACE_DEFEND_R_05</SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> <!-- Death Star (Rebel campaign mission #12) present, Luke not present -->
 		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>Death_Star_II,	None, 	Wedge_XWing_Rogue,	GRS_INTRO_SPACE_DEFEND_R_05</SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> <!-- Death Star present, Wedge not present -->
 
 		<!-- A or B present and C not present -->
 		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>Mon_Mothma, None, None, GRS_INTRO_SPACE_DEFEND_R_04</SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> <!-- Just Mon Mothma present -->
 
+
 		<!-- A and B present and C not present -->
 		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_And>Death_Star,		Luke_XWing,			None,	GRS_INTRO_SPACE_ATTACK_R_07</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_And> <!-- Death Star present, Luke present -->
+		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_And>Death_Star_RM12,	Luke_XWing,			None,	GRS_INTRO_SPACE_ATTACK_R_07</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_And> <!-- Death Star (Rebel campaign mission #12) present, Luke present -->
 		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_And>Death_Star_II,	Wedge_XWing_Rogue,	None,	GRS_INTRO_SPACE_ATTACK_R_07</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_And> <!-- Death Star present, Wedge present -->
 
 		<!-- A or B present and C not present -->
 		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>Death_Star,		None,	Luke_XWing,			GRS_INTRO_SPACE_ATTACK_R_06</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> <!-- Death Star present, Luke not present -->
+		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>Death_Star_RM12,	None,	Luke_XWing,			GRS_INTRO_SPACE_ATTACK_R_06</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> <!-- Death Star (Rebel campaign mission #12) present, Luke not present -->
 		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>Death_Star_II,	None,	Wedge_XWing_Rogue,	GRS_INTRO_SPACE_ATTACK_R_06</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> <!-- Death Star present, Wedge not present -->
 
 		<!-- A or B present and C not present -->
@@ -651,6 +656,7 @@
 
 		<!-- A or B present and C not present -->
 		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>Mon_Mothma, None, None, GRS_INTRO_SPACE_ATTACK_R_04</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> <!-- Just Mon Mothma present -->
+
 
 		<!-- A or B present and C not present -->
 		<SpeechEvent_Tactical_Intro_Land_Defender_Conditional_Or>Mon_Mothma, None, None, GRS_INTRO_LAND_DEFEND_R_04</SpeechEvent_Tactical_Intro_Land_Defender_Conditional_Or> <!-- Just Mon Mothma present -->
@@ -1379,14 +1385,18 @@
 
 		<!-- A or B present and C not present -->
 		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>Death_Star,		None,	None,	GES_INTRO_SPACE_DEFEND_E_05</SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> <!-- Just Death Star present -->
+		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>Death_Star_EM12,	None,	None,	GES_INTRO_SPACE_DEFEND_E_05</SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> <!-- Just Death Star (Empire campaign) present -->
 		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>Death_Star_II,	None,	None,	GES_INTRO_SPACE_DEFEND_E_05</SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> <!-- Just Death Star present -->
 
 		<!-- A or B present and C not present-->
 		<SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or>Emperor_Palpatine, None, None, GES_INTRO_SPACE_DEFEND_E_04</SpeechEvent_Tactical_Intro_Space_Defender_Conditional_Or> <!-- Just Emperor Palpatine present -->
 
+
 		<!-- A or B present and C not present -->
 		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>Death_Star,		None,	None,		GES_INTRO_SPACE_ATTACK_E_04</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> <!-- Just Death Star present -->
+		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>Death_Star_EM12,	None,	None,		GES_INTRO_SPACE_ATTACK_E_04</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> <!-- Just Death Star (Empire campaign) present -->
 		<SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or>Death_Star_II,	None,	None,		GES_INTRO_SPACE_ATTACK_E_04</SpeechEvent_Tactical_Intro_Space_Attacker_Conditional_Or> <!-- Just Death Star present -->
+
 
 		<!-- A or B present and C not present-->
 		<SpeechEvent_Tactical_Intro_Land_Defender_Conditional_Or>Emperor_Palpatine, None, None, GES_INTRO_LAND_DEFEND_E_05</SpeechEvent_Tactical_Intro_Land_Defender_Conditional_Or> <!-- Just Emperor Palpatine present -->
