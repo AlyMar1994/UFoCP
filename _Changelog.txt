@@ -114,6 +114,7 @@ Model Fixes:
 • Fixed the Lambda-class Shuttle land prop constantly generating engine particles when placed for a performance improvement. (BUG #914)
 • Fixed the Gallofree Transport land prop constantly generating engine particles when placed for a performance improvement. (BUG #915)
 • The improved Consortium unit transport models (with fixed particle effects) from v2.3.0.1713 have recieved new, more optimized variants (with particle reduction in the hundreds). (BUG #813) (Thanks, galyana!)
+• Fixed a crash that would occur when ion bombarding an Empire Officer Academy. (BUG #998) (Thanks, galyana!)
 
 
 Script/Story Fixes:
