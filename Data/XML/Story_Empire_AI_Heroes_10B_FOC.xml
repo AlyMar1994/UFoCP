@@ -149,10 +149,15 @@
 	<!-- DEATH STAR WIN CONDITION -->
 
 	<Event Name="Death_Star_Target">
-		<Event_Type>STORY_DESTROY</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Death_Star_II</Event_Param1>
-		<Event_Param3>1</Event_Param3>
 		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Death_Star_Destroyed">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Prereq>Death_Star_Target</Prereq>
 	</Event>
 
 	<Event Name="Prevent_Victory"><!-- Disables that you can Win in GC -->

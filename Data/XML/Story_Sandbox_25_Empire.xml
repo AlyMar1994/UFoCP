@@ -195,9 +195,8 @@
 	<!-- HERO WIN CONDITION -->
 
 	<Event Name="Hero_Target">
-		<Event_Type>STORY_DESTROY</Event_Type>
-		<Event_Param1>Mon_Mothma_Team</Event_Param1>
-		<Event_Param3>1</Event_Param3>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Mon_Mothma</Event_Param1>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
@@ -257,9 +256,8 @@
 	<!-- DEATH STAR DESTROYED (NOT DEFEAT) -->
 
 	<Event Name="Death_Star_Target">
-		<Event_Type>STORY_DESTROY</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Death_Star</Event_Param1>
-		<Event_Param3>1</Event_Param3>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
@@ -272,9 +270,8 @@
 	<!-- HERO LOSE CONDITION -->
 
 	<Event Name="Hero_Defend">
-		<Event_Type>STORY_DESTROY</Event_Type>
-		<Event_Param1>Emperor_Palpatine_Team</Event_Param1>
-		<Event_Param3>1</Event_Param3>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Emperor_Palpatine</Event_Param1>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 

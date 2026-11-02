@@ -51,6 +51,7 @@ function Story_Mode_Service()
 
 	if not ds_active then
 		if num_empire_planet_count == 0 then
+			Cancel_Fast_Forward() 
 			Story_Event("Win_GC")
 			ScriptExit()
 		end
@@ -58,6 +59,7 @@ function Story_Mode_Service()
 
 	if not ds_active then
 		if num_rebel_planet_count == 0 then
+			Cancel_Fast_Forward() 
 			Story_Event("Lose_GC")
 			ScriptExit()
 		end
@@ -79,9 +81,11 @@ function Story_Mode_Service()
 		end
 
 		if ds_ready and final_planet.Is_Planet_Destroyed() and num_rebel_planet_count == 0 then
+			Cancel_Fast_Forward() 
 			Story_Event("Lose_GC_Death_Star")
 			ScriptExit()
 		elseif num_rebel_planet_count == 0 then
+			Cancel_Fast_Forward() 
 			Story_Event("Lose_GC")
 			ScriptExit()
 		end
@@ -94,8 +98,16 @@ function State_Death_Star_Created(message)
 	end
 end
 
+function State_Death_Star_Destroyed(message)
+	if message == OnEnter then
+		Cancel_Fast_Forward() 
+		ds_active = false
+	end
+end
+
 function State_Hero_Eliminated(message)
 	if message == OnEnter then
+		Cancel_Fast_Forward() 
 		Story_Event("Win_GC")
 		ScriptExit()
 	end
@@ -103,6 +115,7 @@ end
 
 function State_Hero_Lost(message)
 	if message == OnEnter then
+		Cancel_Fast_Forward() 
 		Story_Event("Lose_GC")
 		ScriptExit()
 	end
