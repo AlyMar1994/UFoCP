@@ -17,36 +17,36 @@
 ~ By the UFCP Team. ~
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-This file lists all changes in both the English and International master text directories.
-I'll probably need a better formatting system for this in the future - but currently, all
-text changes are stored here.  If a language isn't affected by a fix, the language tag
-isn't listed below.
+This file lists all changes in both the English and International master text
+directories. I'll probably need a better formatting system for this in the
+future - but currently, all text changes are stored here.  If a language isn't
+affected by a fix, the language tag isn't listed below.
 
-Unofficial fixes are noted below with a bullet (•).  Bugfixes by Petroglyph will be noted
-in the subsequent hotfix's changelog; changes made by the Unofficial Patch will be removed
-in tandem and mentioned in the next update.
+Unofficial fixes are noted below with a bullet (•).  Bugfixes by Petroglyph
+will be noted in the subsequent hotfix's changelog; changes made by the
+Unofficial Patch will be removed in tandem and mentioned in the next update.
 
-When fixed, bugs introduced by the Unofficial Patch are included in the next hotfix under
-the "UFCP" header and retroactively edited in the changelog.
+When fixed, bugs introduced by the Unofficial Patch are included in the next
+hotfix under the "UFCP" header and retroactively edited in the changelog.
 
 Dates, grammar, and times are always in American format.
 (i.e. "10-24-2006" = October 24th, 2006, "color" > "colour," "1:52 PM" > "13:52 EST.")
 
-All entries have tags that are accurate to their GitHub report page's URL. Insert the report
-number into the below URL to see the original report.
+All entries have tags that are accurate to their GitHub report page's URL.
+Insert the report number into the below URL to see the original report.
 (i.e. "(BUG #123456)" = https://github.com/AlyMar1994/UFoCP/issues/123456)
 
 https://github.com/AlyMar1994/UFoCP/issues/
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
-v2.4.0.XXXX (XX-13-2026) [FoC v1.121.859328]
+v2.4.0.1895 (11-03-2026) [FoC v1.121.859328]
 ============================================
 
 UFCP:

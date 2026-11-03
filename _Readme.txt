@@ -16,19 +16,28 @@
 ~ By the UFCP Team. ~
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Thank you for downloading the Unofficial Forces of Corruption Patch!
 
+Unfortunately no ceremonious readme for this update.  v2.4.0.1895 is a big
+milestone, however - multiple bugs introduced via UFCP (through unforseen
+implementation problems and forgotten required changes) in the last two updates
+have been fixed, including a complete text rework/overhaul.  So far, UFCP
+should be in its best state in forever, and shiny to boot.
 
+This update also includes the Empire AI finalling using the Death Star II's
+Enhanced Targeting ability in combat.  Good luck!  See the full changelog
+for details.
 
-Known issues are recorded on the GitHub, hopefully to be solved for the upcoming patches.
-If you find any bugs or have anything to report or ask for, make sure to visit the GitHub!
+Known issues are recorded on the GitHub, hopefully to be solved for the
+upcoming patches.  If you find any bugs or have anything to report or ask for,
+make sure to visit the GitHub!
 
 I hope you enjoy UFCP!  Send patches.
 ~AlyMar1994
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 CREDITS:
 Modeling:
@@ -85,7 +94,7 @@ Text:
 -- DAT String Editor (https://modtools.petrolution.net/tools/StringEditor)
 
 - Unknown Users/Contributors (SabanYanko.com)
--- Japanese localization for Forces of Corruption. (https://sabanyanko.web.fc2.com/starwarsempireatwarfoc/)
+-- Japanese localization for Forces of Corruption (pre v2.4.0.1895). (https://sabanyanko.web.fc2.com/starwarsempireatwarfoc/)
 
 
 Texturing:
