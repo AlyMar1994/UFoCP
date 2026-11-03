@@ -60,6 +60,7 @@ UFCP FIXES:
 • Fixed multiple cases where the Death Stars would target the moons of planets instead of the planets themselves. (BUG #909)
 • Fixed Nal Hutta in the Empire and Rebel campaigns having the Black Sun and Hutts fight each other. (BUG #922)
 • Modified the AI's "must jam missiles for X time" stipulation while using the new Missile Jamming Field AIto 60 seconds (from 90) to improve their repositioning. (BUG #774)
+• Fixed multiple issues from v2.3.0.1713 regarding rough GC-to-ending transitions regarding fast forwarding, hero/DS deaths and music. (Thanks, cha20202!) (BUG #999)
 
 
 ENHANCEMENTS:

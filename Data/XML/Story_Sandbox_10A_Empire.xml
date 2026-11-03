@@ -205,9 +205,8 @@
 	<!-- HERO WIN CONDITION -->
 
 	<Event Name="Hero_Target">
-		<Event_Type>STORY_DESTROY</Event_Type>
-		<Event_Param1>Mon_Mothma_Team</Event_Param1>
-		<Event_Param3>1</Event_Param3>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Mon_Mothma</Event_Param1>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
@@ -267,10 +266,15 @@
 	<!-- DEATH STAR LOSE CONDITION -->
 
 	<Event Name="Death_Star_Target">
-		<Event_Type>STORY_DESTROY</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Death_Star</Event_Param1>
-		<Event_Param3>1</Event_Param3>
 		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Death_Star_Destroyed">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Prereq>Death_Star_Target</Prereq>
 	</Event>
 
 	<Event Name="Prevent_Losing"><!-- Disables that you can Win in GC -->
@@ -327,9 +331,8 @@
 	<!-- HERO LOSE CONDITION -->
 
 	<Event Name="Hero_Defend">
-		<Event_Type>STORY_DESTROY</Event_Type>
-		<Event_Param1>Emperor_Palpatine_Team</Event_Param1>
-		<Event_Param3>1</Event_Param3>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Emperor_Palpatine</Event_Param1>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
@@ -380,6 +383,6 @@
 	<Event Name="Lose_The_Game_Movie">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ENABLE_CAMPAIGN_VICTORY_MOVIE</Reward_Type>
-		<Prereq>Losing_Movie_Done</Prereq><!-- Important! Point to event 3 slots up -->
+		<Prereq>Losing_Begin</Prereq><!-- Important! Point to event 3 slots up -->
 	</Event>
 </Story>

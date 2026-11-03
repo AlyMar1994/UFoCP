@@ -1,9 +1,9 @@
 -- ============================================================================
 -- STAR WARS: Empire at War - Forces of Corruption Unofficial Patch Source File
 -- Original Author: cha20202
---			Author: jsuzu
---			Date:   06-13-2026
---		Revision:   1
+--			Author: cha20202
+--			Date:   11-03-2026
+--		Revision:   2
 -- ============================================================================
 
 require("PGStoryMode")
@@ -30,9 +30,9 @@ function GC_Start(message)
 	if message == OnEnter then
 		empire = Find_Player("Empire")
 
-		Kuat = Find_First_Object ("Kuat")
-		Fresia = Find_First_Object ("Fresia")
-		Fondor = Find_First_Object ("Fondor")
+		kuat = Find_First_Object("Kuat")
+		fresia = Find_First_Object("Fresia")
+		fondor = Find_First_Object("Fondor")
 
 		Register_Timer(Time_Up, 900)
 		full_planet_list = FindPlanet.Get_All_Planets()
@@ -71,9 +71,11 @@ function GC_Start(message)
 				end
 
 				if ds_ready and final_planet.Is_Planet_Destroyed() and num_rebel_planet_count == 0 then
+					Cancel_Fast_Forward()
 					Story_Event("Win_GC_Death_Star")
 					ScriptExit()
 				elseif num_rebel_planet_count == 0 then
+					Cancel_Fast_Forward()
 					Story_Event("Win_GC")
 					ScriptExit()
 				end
@@ -82,6 +84,7 @@ function GC_Start(message)
 
 		if not time_over then
 			if num_rebel_planet_count == 0 then
+				Cancel_Fast_Forward()
 				Story_Event("Win_GC")
 				ScriptExit()
 			end
@@ -89,13 +92,15 @@ function GC_Start(message)
 
 		if not time_over then
 			if num_empire_planet_count == 0 then
+				Cancel_Fast_Forward()
 				Story_Event("Lose_GC")
 				ScriptExit()
 			end
 		end
 
 		if not time_over then
-			if Kuat.Get_Owner() == rebel and Fresia.Get_Owner() == rebel and Fondor.Get_Owner() == rebel then
+			if kuat.Get_Owner() == rebel and fresia.Get_Owner() == rebel and fondor.Get_Owner() == rebel then
+				Cancel_Fast_Forward()
 				Story_Event("Lose_GC")
 				ScriptExit()
 			end
@@ -119,6 +124,7 @@ end
 function Time_Up()
 	time_over = true
 	if time_over then
+		Cancel_Fast_Forward()
 		Story_Event("Lose_GC")
 		ScriptExit()
 	end

@@ -1,16 +1,16 @@
 -- ============================================================================
 -- STAR WARS: Empire at War - Forces of Corruption Unofficial Patch Source File
 -- Original Author: cha20202
---			Author: jsuzu
---			Date:   06-13-2026
---		Revision:   1
+--			Author: cha20202
+--			Date:   11-03-2026
+--		Revision:   2
 -- ============================================================================
 
 require("PGStoryMode")
 
 function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
-   	StoryModeEvents =
+	StoryModeEvents =
 	{
 		Universal_Story_Start = Universal_Story_Start
 		,Death_Star_Created = State_Death_Star_Created
@@ -20,11 +20,8 @@ function Definitions()
 	}
 
 	definition = true
-
 	ds_active = false
-
 	ds_ready = false
-
 	final_planet = nil
 end
 
@@ -32,7 +29,7 @@ function Story_Mode_Service()
 	if definition then
 		empire = Find_Player("Empire")
 		rebel = Find_Player("Rebel")
-		Coruscant = Find_First_Object ("Coruscant")
+		coruscant = Find_First_Object("Coruscant")
 		full_planet_list = FindPlanet.Get_All_Planets()
 		definition = false
 	end
@@ -53,6 +50,7 @@ function Story_Mode_Service()
 
 	if not ds_active then
 		if num_rebel_planet_count == 0 then
+			Cancel_Fast_Forward()
 			Story_Event("Win_GC")
 			ScriptExit()
 		end
@@ -60,12 +58,14 @@ function Story_Mode_Service()
 
 	if not ds_active then
 		if num_empire_planet_count == 0 then
+			Cancel_Fast_Forward()
 			Story_Event("Lose_GC")
 			ScriptExit()
 		end
 	end
 
-	if Coruscant.Get_Owner() == rebel then
+	if coruscant.Get_Owner() == rebel then
+		Cancel_Fast_Forward()
 		Story_Event("Lose_GC")
 		ScriptExit()
 	end
@@ -86,9 +86,11 @@ function Story_Mode_Service()
 		end
 
 		if ds_ready and final_planet.Is_Planet_Destroyed() and num_rebel_planet_count == 0 then
+			Cancel_Fast_Forward()
 			Story_Event("Win_GC_Death_Star")
 			ScriptExit()
 		elseif num_rebel_planet_count == 0 then
+			Cancel_Fast_Forward()
 			Story_Event("Win_GC")
 			ScriptExit()
 		end
@@ -110,6 +112,7 @@ end
 
 function State_Hero_Eliminated(message)
 	if message == OnEnter then
+		Cancel_Fast_Forward()
 		Story_Event("Win_GC")
 		ScriptExit()
 	end
@@ -117,6 +120,7 @@ end
 
 function State_Hero_Lost(message)
 	if message == OnEnter then
+		Cancel_Fast_Forward()
 		Story_Event("Lose_GC")
 		ScriptExit()
 	end

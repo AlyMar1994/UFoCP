@@ -1564,6 +1564,10 @@
 		</Enemies>
 		<Easily_Bribed>Yes</Easily_Bribed>
 
+		<!-- cch2319 (11-03-26): STRICTLY FOR MUSIC PURPOSES! See UFCP #999 -->
+		<Faction_Super_Weapon>Death_Star</Faction_Super_Weapon>
+		<Can_Win_By_Destroying_Super_Weapon>No</Can_Win_By_Destroying_Super_Weapon>
+
 		<Can_Control_Planets>True</Can_Control_Planets>
 	</Faction>
 
@@ -1646,6 +1650,10 @@
 			Underworld,
 			Hutts
 		</Enemies>
+
+		<!-- cch2319 (11-03-26): STRICTLY FOR MUSIC PURPOSES! See UFCP #999 -->
+		<Faction_Super_Weapon>Death_Star</Faction_Super_Weapon>
+		<Can_Win_By_Destroying_Super_Weapon>No</Can_Win_By_Destroying_Super_Weapon>
 	</Faction>
 
 	<Faction Name="Sarlacc">
@@ -1689,5 +1697,9 @@
 			Underworld,
 			Hutts
 		</Enemies>
+
+		<!-- cch2319 (11-03-26): STRICTLY FOR MUSIC PURPOSES! See UFCP #999 -->
+		<Faction_Super_Weapon>Death_Star</Faction_Super_Weapon>
+		<Can_Win_By_Destroying_Super_Weapon>No</Can_Win_By_Destroying_Super_Weapon>
 	</Faction>
 </Factions>
