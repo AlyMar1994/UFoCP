@@ -3,7 +3,7 @@
     <img src="https://raw.githubusercontent.com/AlyMar1994/AlyMar1994/refs/heads/master/img/ufcp_logo.png" />
 </p>
 
-* Version: v2.2.0.1520
+* Version: v2.4.0.1895
 * License: The Unlicense[^1]
 
 ---
