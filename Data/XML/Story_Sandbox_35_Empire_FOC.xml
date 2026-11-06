@@ -260,6 +260,14 @@
 		<Reward_Type>ENABLE_CAMPAIGN_VICTORY_MOVIE</Reward_Type>
 		<Prereq>Winning_Begin</Prereq><!-- Important! Point to event 3 slots up -->
 	</Event>
+	
+	<!-- Need this here for events where another AI faction takes out enemy hero or your hero -->
+	<Event Name="Game_Over_Win">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Prereq>Winning_Movie_Done</Prereq>
+	</Event>
 
 	<!-- Losing Movies Event -->
 
@@ -384,6 +392,14 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>ENABLE_CAMPAIGN_VICTORY_MOVIE</Reward_Type>
 		<Prereq>Losing_Begin</Prereq><!-- Important! Point to event 3 slots up -->
+	</Event>
+	
+	<!-- Need this here for events where another AI faction takes out enemy hero or your hero -->
+	<Event Name="Game_Over_Lost">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Prereq>Losing_Movie_Done</Prereq>
 	</Event>
 
 </Story>
