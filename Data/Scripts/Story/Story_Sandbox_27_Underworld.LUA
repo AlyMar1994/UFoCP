@@ -19,7 +19,7 @@ end
 
 function Story_Mode_Service()
     if not ds_active then
-        death_star_list = Find_All_Objects_Of_Type("Death_Star")
+        death_star_list = Find_All_Objects_Of_Type("Death_Star_II")
         if death_star_list then
             for k, object in pairs(death_star_list) do
                 if TestValid(object) then
