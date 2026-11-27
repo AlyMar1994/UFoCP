@@ -695,7 +695,8 @@ TEXT_CAMPAIGN_SINGLE_25,Empire Surrounded
 TEXT_CAMPAIGN_SINGLE_25_FOC,Empire Surrounded (FOC Heroes)
 TEXT_CAMPAIGN_SINGLE_27,Gateways
 TEXT_CAMPAIGN_SINGLE_27_EAW,Gateways (EAW Heroes)
-TEXT_CAMPAIGN_SINGLE_27_INTRO_U,The battle rages on for the galaxy.  We are separated from our enemies by a few core planets.  The struggle for the galaxy will hinge on the control of these planets.  Use your starting resources wisely in order to conquer the galaxy.
+TEXT_CAMPAIGN_SINGLE_27_INTRO_U,The battle rages on for the galaxy.  We are separated from our enemies by a few core planets.  The struggle for the galaxy will hinge on the control of these planets.  Use your starting resources wisely in order to conquer the galaxy. Rumors circulate of a new Imperial superweapon under development. Whoever destroys it will gain control of the galaxy.
+TEXT_CAMPAIGN_SINGLE_27_INTRO_E,The battle rages on for the galaxy.  We are separated from our enemies by a few core planets.  The struggle for the galaxy will hinge on the control of these planets.  Use your starting resources wisely in order to conquer the galaxy. The Rebels and criminal elements also seek to destroy our Death Star under development. Protect it at all costs.
 TEXT_CAMPAIGN_SINGLE_30,Roles Reversed
 TEXT_CAMPAIGN_SINGLE_33B,Clusters
 TEXT_CAMPAIGN_SINGLE_33B_EAW,Clusters (EAW Heroes)
@@ -784,6 +785,7 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_02,     The Emperor is killed.
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_03,     The Death Star is destroyed.
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_04,     Mon Mothma must survive.
 TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_05,     The Death Star II is destroyed.
+TEXT_CAMPAIGN_SINGLE_VICTORY_REBEL_06,     The Rebellion destroys the Death Star II before the Zann Consortium does.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_00,The Zann Consortium Will Achieve Victory If:
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_01,     The Rebellion and Empire are removed from the galaxy.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_02,     Mon Mothma and the Emperor are killed.
@@ -803,6 +805,7 @@ TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_12,     The planets Coruscant and Endor 
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_13,     The planets Yavin 4 and Endor have been conquered.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_14,     The Death Star is destroyed.
 TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_15,     The Death Star II is destroyed.
+TEXT_CAMPAIGN_SINGLE_VICTORY_UNDERWORLD_16,     The Zann Consortium destroys the Death Star II before the Rebellion does.
 TEXT_CAMPAIGN_SMALL_EMPIRE_HUMAN,P2 Small Empire Human - Rebel AI
 TEXT_CAMPAIGN_SMALL_HUMAN,P2 Small Human - Enemy AI *
 TEXT_CAMPAIGN_SMALL_MAP,Small Campaign Map

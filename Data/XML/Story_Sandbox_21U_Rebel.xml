@@ -149,5 +149,36 @@
 		<Prereq>Rebels_Enter_Tech_04</Prereq>
 	</Event>
 
+	<!-- Victory/Defeat Death Star Specific -->
+	<!-- Only triggers for the Consortium. Rebel victory over the Death Star is not needed to manually check here. -->
+	<Event Name="Death_Star_Destroyed_Event">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>Death_Star_Destroyed</Event_Param2>
+	</Event>
+	
+	<Event Name="AI_Stop_Death_Star_Empire">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+		<Prereq>Death_Star_Destroyed_Event</Prereq>
+	</Event>
+	
+	<Event Name="AI_Stop_Death_Star_Underworld">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Underworld</Reward_Param1>
+		<Reward_Param2>None</Reward_Param2>
+		<Prereq>Death_Star_Destroyed_Event</Prereq>
+	</Event>
+	
+	<Event Name="Game_Over">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>VICTORY</Reward_Type>
+		<Reward_Param1>Underworld</Reward_Param1>
+		<Prereq>Death_Star_Destroyed_Event</Prereq>
+	</Event>
+
 
 </Story>
